@@ -29,6 +29,8 @@
 APDC_clear_cooperation_organization_member_view_data = {
 	clear_array = APDC_cooperation_organization_display_chair
 	clear_array = APDC_cooperation_organization_display_members
+	clear_array = APDC_diplomacy_cooperation_organization_display_members
+	clear_variable = APDC_diplomacy_cooperation_organization_panel_open
 	clear_array = APDC_cooperation_law_groups
 	clear_array = APDC_cooperation_law_tab_1_groups
 	clear_array = APDC_cooperation_law_tab_2_groups
@@ -55,6 +57,42 @@ APDC_clear_cooperation_organization_member_view_data = {
 	clear_variable = APDC_cooperation_active_law_group
 	clear_variable = APDC_cooperation_active_law_option
 	clear_variable = APDC_cooperation_active_law_proposer
+}
+
+# Build the compact diplomacy list in the currently viewed country scope.  The
+# chair is inserted first and omitted from the ordinary-member pass.  Keeping
+# both this array and the open flag local to the selected country prevents a
+# panel opened for one country from leaking into another country's view.
+APDC_sync_diplomacy_cooperation_organization_member_view = {
+	clear_array = APDC_diplomacy_cooperation_organization_display_members
+	clear_variable = APDC_diplomacy_cooperation_organization_panel_open
+	if = {
+		limit = { APDC_has_cooperation_organization = yes }
+		set_variable = { global.APDC_diplomacy_cooperation_sync_member = THIS }
+		for_each_scope_loop = {
+			array = APDC_cooperation_organization_display_chair
+			var:global.APDC_diplomacy_cooperation_sync_member = {
+				add_to_array = {
+					array = APDC_diplomacy_cooperation_organization_display_members
+					value = PREV
+				}
+			}
+		}
+		for_each_scope_loop = {
+			array = APDC_cooperation_organization_display_members
+			if = {
+				limit = { APDC_is_current_cooperation_organization_chair = no }
+				var:global.APDC_diplomacy_cooperation_sync_member = {
+					add_to_array = {
+						array = APDC_diplomacy_cooperation_organization_display_members
+						value = PREV
+					}
+				}
+			}
+		}
+		clear_variable = global.APDC_diplomacy_cooperation_sync_member
+		set_variable = { APDC_diplomacy_cooperation_organization_panel_open = 1 }
+	}
 }
 
 # Run in a member country scope. All GUI arrays are read-only local mirrors;

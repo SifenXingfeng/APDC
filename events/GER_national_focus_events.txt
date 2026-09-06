@@ -56,3 +56,11 @@ news_event = {
     major = yes
     option = { name = GER_APDC.placeholder }
 }
+
+country_event = {
+    id = GER_APDC.8
+    title = GER_APDC.8.t
+    desc = GER_APDC.8.d
+    is_triggered_only = yes
+    option = { name = GER_APDC.8.a }
+}

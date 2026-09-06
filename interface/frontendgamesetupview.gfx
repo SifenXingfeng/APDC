@@ -312,6 +312,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_custom_difficulty_slider_drager"
+		texturefile = "gfx/interface/custom_difficulty_slider_drager.dds"
+	}
+
+	spriteType = {
 		name = "GFX_country_selection_bg_Masking"
 		texturefile = "gfx/interface/country_selection_bg_Masking.dds"
 		transparencecheck = yes

@@ -23,4 +23,25 @@ APDC_debug = {
 			country_event = { id = APDC_events_trigger.2 }
 		}
 	}
+	GER_APDC_seven_day_countdown_test = {
+		icon = generic_political_discourse
+		allowed = {
+			original_tag = GER
+		}
+		visible = {
+			original_tag = GER
+		}
+		available = {
+			always = yes
+		}
+		cost = 0
+		fire_only_once = yes
+		days_remove = 7
+		remove_effect = {
+			country_event = { id = GER_APDC.8 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 }

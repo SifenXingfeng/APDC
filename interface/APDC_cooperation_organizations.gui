@@ -83,6 +83,52 @@ guiTypes = {
 		}
 	}
 
+	# Diplomacy-panel member row.  It deliberately reuses the organization
+	# panel's 41x26 shield flag and both supplied 45x30 frames.  Scripted-GUI
+	# visibility swaps the ordinary frame for the highlighted frame on the
+	# chair country.
+	containerWindowType = {
+		name = "APDC_diplomacy_cooperation_organization_member_entry"
+		size = { width = 290 height = 48 }
+		clipping = yes
+
+		background = {
+			name = "APDC_diplomacy_cooperation_organization_member_background"
+			spriteType = "GFX_diplo_countrylist_entry"
+		}
+
+		iconType = {
+			name = "APDC_diplomacy_cooperation_organization_member_flag"
+			position = { x = 33 y = 23 }
+			quadTextureSprite = "GFX_APDC_cooperation_organization_flag_small_unfiltered"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "APDC_diplomacy_cooperation_organization_member_frame"
+			position = { x = 10 y = 8 }
+			spriteType = "GFX_APDC_cooperation_organization_member_frame"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "APDC_diplomacy_cooperation_organization_chair_frame"
+			position = { x = 10 y = 8 }
+			spriteType = "GFX_APDC_cooperation_organization_player_member_frame"
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "APDC_diplomacy_cooperation_organization_member_name"
+			position = { x = 68 y = 9 }
+			font = "hoi_18mbs"
+			text = "[THIS.GetName]"
+			maxWidth = 205
+			maxHeight = 30
+			fixedsize = yes
+			format = left
+			vertical_alignment = center
+			alwaystransparent = yes
+		}
+	}
+
 	# One reusable 70px row: a 50px law background plus the requested 20px
 	# nearest-pixel gap before the following row.  Four 160px choices use the
 	# exact positions from the supplied mock-up; 2/3-option groups hide extras.
@@ -152,6 +198,105 @@ guiTypes = {
 			scale = 1.06
 			clicksound = click_default
 			pdx_tooltip = "APDC_COOPERATION_ORGANIZATION_ENTRY_TOOLTIP"
+		}
+	}
+
+	# The selected-country diplomacy view reserves this 82x82 square at the
+	# far right of its ideology block.  Organization art and the shared invalid
+	# placeholder are all 100x100 and use the same fixed 0.78 scale here.
+	containerWindowType = {
+		name = "APDC_diplomacy_cooperation_organization_entry"
+		position = { x = 448 y = 110 }
+		size = { width = 82 height = 82 }
+		clipping = yes
+
+		buttonType = {
+			name = "APDC_diplomacy_cooperation_organization_entry_button"
+			position = { x = 43 y = 45 }
+			centerposition = yes
+			spriteType = "GFX_APDC_cooperation_organization_none"
+			scale = 0.78
+			clicksound = click_default
+			oversound = ui_menu_over
+			pdx_tooltip = "APDC_COOPERATION_ORGANIZATION_ENTRY_TOOLTIP"
+		}
+		buttonType = {
+			name = "APDC_diplomacy_cooperation_organization_entry_none"
+			position = { x = 43 y = 45 }
+			centerposition = yes
+			spriteType = "GFX_APDC_cooperation_organization_none"
+			scale = 0.78
+			pdx_tooltip = "APDC_COOPERATION_ORGANIZATION_ENTRY_TOOLTIP"
+		}
+	}
+
+	# A child of the enlarged diplomacy root.  The hook containing it is below
+	# the 550px diplomacy body, so the panel follows every parent movement and
+	# passes behind the body while sliding into the root's extended right side.
+	containerWindowType = {
+		name = "APDC_diplomacy_cooperation_organization_panel"
+		position = { x = -356 y = 0 }
+		show_position = { x = 540 y = 0 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width = 340 height = 600 }
+		clipping = no
+		show_sound = open_sub_window
+
+		background = {
+			name = "APDC_diplomacy_cooperation_organization_panel_background"
+			quadTextureSprite = "GFX_tiled_plain_bg"
+		}
+
+		instantTextboxType = {
+			name = "APDC_diplomacy_cooperation_organization_title"
+			position = { x = 20 y = 15 }
+			font = "hoi_24header"
+			text = "[APDCCooperationOrganizationName]"
+			maxWidth = 300
+			maxHeight = 28
+			fixedsize = yes
+			format = center
+			vertical_alignment = center
+			alwaystransparent = yes
+		}
+
+		buttonType = {
+			name = "APDC_diplomacy_cooperation_organization_panel_close"
+			position = { x = -38 y = 12 }
+			quadTextureSprite = "GFX_closebutton"
+			orientation = UPPER_RIGHT
+			shortcut = "ESCAPE"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+		containerWindowType = {
+			name = "APDC_diplomacy_cooperation_organization_member_scroll"
+			position = { x = 10 y = 55 }
+			size = { width = 320 height = 535 }
+			clipping = yes
+			verticalScrollbar = "right_vertical_slider"
+			autohide_scrollbars = yes
+			scroll_wheel_factor = 48
+			smooth_scrolling = yes
+			margin = { top = 8 right = 18 bottom = 8 }
+
+			background = {
+				name = "APDC_diplomacy_cooperation_organization_member_scroll_background"
+				quadTextureSprite = "GFX_tiled_window_1b_thin_border"
+			}
+
+			gridBoxType = {
+				name = "APDC_diplomacy_cooperation_organization_member_list"
+				position = { x = 6 y = 8 }
+				size = { width = 290 height = 100% }
+				slotsize = { width = 290 height = 48 }
+				max_slots_horizontal = 1
+				add_horizontal = no
+				format = "UPPER_LEFT"
+			}
 		}
 	}
 

@@ -1,4 +1,91 @@
 scripted_gui = {
+	APDC_diplomacy_cooperation_organization_entry = {
+		context_type = selected_country_context
+		parent_window_token = selected_country_view_diplomacy
+		window_name = "APDC_diplomacy_cooperation_organization_entry"
+
+		properties = {
+			APDC_diplomacy_cooperation_organization_entry_button = {
+				image = "[APDCCooperationOrganizationIcon]"
+			}
+		}
+
+		triggers = {
+			APDC_diplomacy_cooperation_organization_entry_button_visible = {
+				APDC_has_cooperation_organization = yes
+			}
+			APDC_diplomacy_cooperation_organization_entry_none_visible = {
+				APDC_has_cooperation_organization = no
+			}
+		}
+
+		effects = {
+			APDC_diplomacy_cooperation_organization_entry_button_click = {
+				if = {
+					limit = {
+						has_variable = APDC_diplomacy_cooperation_organization_panel_open
+					}
+					clear_variable = APDC_diplomacy_cooperation_organization_panel_open
+					clear_array = APDC_diplomacy_cooperation_organization_display_members
+				}
+				else = {
+					if = {
+						limit = { APDC_has_cooperation_organization = yes }
+						APDC_sync_cooperation_organization_member_view = yes
+						APDC_sync_diplomacy_cooperation_organization_member_view = yes
+					}
+				}
+			}
+		}
+
+		visible = { always = yes }
+	}
+
+	APDC_diplomacy_cooperation_organization_panel = {
+		# This context is instantiated by the diplomacy view and scopes to its
+		# current target.  Attaching that instance to the native hook declared
+		# before the diplomacy body places the popup below the complete panel.
+		context_type = diplomacy_target_context
+		parent_window_name = "APDC_diplomacy_cooperation_panel_hook"
+		window_name = "APDC_diplomacy_cooperation_organization_panel"
+		dirty = APDC_diplomacy_cooperation_organization_display_members^num
+
+		visible = {
+			has_variable = APDC_diplomacy_cooperation_organization_panel_open
+			APDC_has_cooperation_organization = yes
+		}
+
+		properties = {
+			APDC_diplomacy_cooperation_organization_member_flag = {
+				image = "[THIS.GetFlag]"
+			}
+		}
+
+		triggers = {
+			APDC_diplomacy_cooperation_organization_member_frame_visible = {
+				APDC_is_current_cooperation_organization_chair = no
+			}
+			APDC_diplomacy_cooperation_organization_chair_frame_visible = {
+				APDC_is_current_cooperation_organization_chair = yes
+			}
+		}
+
+		effects = {
+			APDC_diplomacy_cooperation_organization_panel_close_click = {
+				clear_variable = APDC_diplomacy_cooperation_organization_panel_open
+				clear_array = APDC_diplomacy_cooperation_organization_display_members
+			}
+		}
+
+		dynamic_lists = {
+			APDC_diplomacy_cooperation_organization_member_list = {
+				array = APDC_diplomacy_cooperation_organization_display_members
+				change_scope = yes
+				country_scope_entry_container = "APDC_diplomacy_cooperation_organization_member_entry"
+			}
+		}
+	}
+
 	APDC_cooperation_organization_entry = {
 		context_type = player_context
 		parent_window_token = politics_tab
