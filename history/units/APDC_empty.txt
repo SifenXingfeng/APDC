@@ -1,0 +1,9 @@
+# Minimal starting OOB for countries whose military has not been authored yet.
+# Keep the OOB loading path without adding divisions, templates, equipment,
+# production lines, factories, or technologies. Do not import a vanilla army.
+units = {
+}
+
+instant_effect = {
+    log = "APDC_FACTORY_INIT: empty OOB loaded for [THIS.GetTag]"
+}

@@ -1,4 +1,7 @@
-﻿capital = 330 # Khuree
+﻿# Shared empty OOB preserves startup initialization until a country OOB is authored.
+set_oob = "APDC_empty"
+
+capital = 330 # Khuree
 
 recruit_character = MON_bilegun_borjigin
 

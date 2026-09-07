@@ -1,3 +1,6 @@
+# Shared empty OOB preserves startup initialization until a country OOB is authored.
+set_oob = "APDC_empty"
+
 capital = 64 # World Capital Germania
 
 set_research_slots = 4

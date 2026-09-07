@@ -1,3 +1,6 @@
+# Shared empty OOB preserves startup initialization until a country OOB is authored.
+set_oob = "APDC_empty"
+
 capital = 1511 # Capital Federal
 
 set_convoys = 120

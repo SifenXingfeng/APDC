@@ -1,4 +1,7 @@
-﻿set_politics = {
+﻿# Shared empty OOB preserves startup initialization until a country OOB is authored.
+set_oob = "APDC_empty"
+
+set_politics = {
 	ruling_party = communism
 	last_election = "2058.1.1"
 	election_frequency = 48

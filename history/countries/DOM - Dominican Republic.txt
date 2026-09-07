@@ -1,4 +1,7 @@
-﻿capital = 319 # Santo Domingo
+﻿# Shared empty OOB preserves startup initialization until a country OOB is authored.
+set_oob = "APDC_empty"
+
+capital = 319 # Santo Domingo
 
 set_convoys = 5
 

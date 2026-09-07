@@ -1,5 +1,9 @@
 capital = 64 #柏林
 
+# Load an explicit OOB even while the scenario has no starting military.
+# Omitting the OOB skips a new-game initialization path used by production.
+set_oob = "APDC_empty"
+
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
 

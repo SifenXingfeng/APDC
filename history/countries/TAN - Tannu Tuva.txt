@@ -1,4 +1,7 @@
-﻿capital = 329 # Tuva
+﻿# Shared empty OOB preserves startup initialization until a country OOB is authored.
+set_oob = "APDC_empty"
+
+capital = 329 # Tuva
 
 set_politics = {
 	ruling_party = communism

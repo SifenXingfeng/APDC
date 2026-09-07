@@ -1,4 +1,7 @@
-﻿capital = 48 #索非亚
+﻿# Shared empty OOB preserves startup initialization until a country OOB is authored.
+set_oob = "APDC_empty"
+
+capital = 48 #索非亚
 
 set_convoys = 5
 set_research_slots = 3 

@@ -1,0 +1,67 @@
+# Temporary, read-only runtime diagnostics for the player-controlled GER case.
+# Country scope must be GER. All variables are temporary; no buildings,
+# modifiers, ownership, or persistent game variables are changed.
+# APDC_fd_stage: 0 = before GFCC startup, 1 = after GFCC startup, 2 = daily.
+APDC_log_factory_snapshot = {
+    set_temp_variable = { APDC_fd_country_civ = num_of_civilian_factories }
+    set_temp_variable = { APDC_fd_country_mil = num_of_military_factories }
+    set_temp_variable = { APDC_fd_free_civ = num_of_civilian_factories_available_for_projects }
+    set_temp_variable = { APDC_fd_state_civ_sum = 0 }
+    set_temp_variable = { APDC_fd_state_mil_sum = 0 }
+    set_temp_variable = { APDC_fd_healthy_civ_sum = 0 }
+    set_temp_variable = { APDC_fd_healthy_mil_sum = 0 }
+
+    every_controlled_state = {
+        set_temp_variable = { APDC_fd_state_civ = building_level@industrial_complex }
+        set_temp_variable = { APDC_fd_state_mil = building_level@arms_factory }
+        set_temp_variable = { APDC_fd_healthy_civ = non_damaged_building_level@industrial_complex }
+        set_temp_variable = { APDC_fd_healthy_mil = non_damaged_building_level@arms_factory }
+        set_temp_variable = { APDC_fd_damaged_civ = damaged_building_level@industrial_complex }
+        set_temp_variable = { APDC_fd_damaged_mil = damaged_building_level@arms_factory }
+        set_temp_variable = { APDC_fd_local_factories = modifier@local_factories }
+        set_temp_variable = { APDC_fd_core = 0 }
+        # Before GFCC startup these variables may not exist yet. Use -1 as
+        # an explicit uninitialized marker instead of reading missing values.
+        set_temp_variable = { APDC_fd_pollution = -1 }
+        set_temp_variable = { APDC_fd_security = -1 }
+        set_temp_variable = { APDC_fd_reconstruction = -1 }
+        if = {
+            limit = { has_variable = GFCC_area_Pollution_var }
+            set_temp_variable = { APDC_fd_pollution = GFCC_area_Pollution_var }
+        }
+        if = {
+            limit = { has_variable = GFCC_area_security_var }
+            set_temp_variable = { APDC_fd_security = GFCC_area_security_var }
+        }
+        if = {
+            limit = { has_variable = GFCC_area_reconstruction_var }
+            set_temp_variable = { APDC_fd_reconstruction = GFCC_area_reconstruction_var }
+        }
+        if = {
+            limit = { is_core_of = GER }
+            set_temp_variable = { APDC_fd_core = 1 }
+        }
+
+        add_to_temp_variable = { GER.APDC_fd_state_civ_sum = APDC_fd_state_civ }
+        add_to_temp_variable = { GER.APDC_fd_state_mil_sum = APDC_fd_state_mil }
+        add_to_temp_variable = { GER.APDC_fd_healthy_civ_sum = APDC_fd_healthy_civ }
+        add_to_temp_variable = { GER.APDC_fd_healthy_mil_sum = APDC_fd_healthy_mil }
+
+        # Log zero-factory states at startup too. During play, only states
+        # containing civilian/military factories need a detailed line.
+        if = {
+            limit = {
+                OR = {
+                    check_variable = { GER.APDC_fd_stage < 2 }
+                    check_variable = { APDC_fd_state_civ > 0 }
+                    check_variable = { APDC_fd_state_mil > 0 }
+                }
+            }
+            log = "APDC_FACTORY_DIAG: stage=[?GER.APDC_fd_stage|0] state=[THIS.GetID] owner=[THIS.Owner.GetTag] core=[?APDC_fd_core|0] civ=[?APDC_fd_state_civ] mil=[?APDC_fd_state_mil] healthy_civ=[?APDC_fd_healthy_civ] healthy_mil=[?APDC_fd_healthy_mil] damaged_civ=[?APDC_fd_damaged_civ] damaged_mil=[?APDC_fd_damaged_mil] local_factories=[?APDC_fd_local_factories] pollution=[?APDC_fd_pollution] security=[?APDC_fd_security] reconstruction=[?APDC_fd_reconstruction]"
+        }
+    }
+
+    # These are different accounting layers, not an equality assertion:
+    # country counts may legitimately include occupation/modifier effects.
+    log = "APDC_FACTORY_DIAG: stage=[?APDC_fd_stage|0] GER_SUMMARY country_civ=[?APDC_fd_country_civ] country_mil=[?APDC_fd_country_mil] free_civ=[?APDC_fd_free_civ] state_civ=[?APDC_fd_state_civ_sum] state_mil=[?APDC_fd_state_mil_sum] healthy_civ=[?APDC_fd_healthy_civ_sum] healthy_mil=[?APDC_fd_healthy_mil_sum]"
+}
