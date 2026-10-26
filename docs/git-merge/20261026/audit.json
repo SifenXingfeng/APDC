@@ -1,0 +1,162 @@
+{
+  "local_snapshot": "ee18fd647284d727589b0ee02e3d7a6bbd809b2c",
+  "remote_parent": "92e3308da4e36bb9917f883e2371b90a036ea21e",
+  "merged_tree": "cab9ed111a82dc3e9feedff807d9501073f95980",
+  "local_files_before_merge": 28715,
+  "merged_files_before_report": 28726,
+  "local_file_blobs_preserved": 28711,
+  "remote_images_preserved": 15,
+  "new_remote_files": 11,
+  "updated_remote_files": 4,
+  "lost_local_files": [],
+  "missing_remote_images": [],
+  "unexpected_merge_paths": [],
+  "deleted_local_paths_checked": 2609,
+  "deleted_paths_restored": [],
+  "merge_conflicts": 0,
+  "script_files_parsed": 3134,
+  "syntax_or_encoding_errors": [],
+  "required_engine_callback_errors": [],
+  "remote_image_details": [
+    {
+      "path": "gfx/interface/construction/civ_factory_output_icon.dds",
+      "size": [
+        27,
+        23
+      ],
+      "format": "DDS",
+      "git_blob_matches_remote": true
+    },
+    {
+      "path": "gfx/interface/construction/construction_entry_bg.dds",
+      "size": [
+        402,
+        54
+      ],
+      "format": "DDS",
+      "git_blob_matches_remote": true
+    },
+    {
+      "path": "gfx/interface/construction/construction_icon.dds",
+      "size": [
+        46,
+        46
+      ],
+      "format": "DDS",
+      "git_blob_matches_remote": true
+    },
+    {
+      "path": "gfx/interface/construction/construction_screen_top.dds",
+      "size": [
+        433,
+        98
+      ],
+      "format": "DDS",
+      "git_blob_matches_remote": true
+    },
+    {
+      "path": "gfx/interface/construction/construction_speed_icon.dds",
+      "size": [
+        28,
+        19
+      ],
+      "format": "DDS",
+      "git_blob_matches_remote": true
+    },
+    {
+      "path": "gfx/interface/construction/ongoing_market_contract_icon.dds",
+      "size": [
+        44,
+        36
+      ],
+      "format": "DDS",
+      "git_blob_matches_remote": true
+    },
+    {
+      "path": "gfx/interface/construction_entry_bg.dds",
+      "size": [
+        402,
+        54
+      ],
+      "format": "DDS",
+      "git_blob_matches_remote": true
+    },
+    {
+      "path": "gfx/interface/construction_screen_top.dds",
+      "size": [
+        433,
+        98
+      ],
+      "format": "DDS",
+      "git_blob_matches_remote": true
+    },
+    {
+      "path": "gfx/interface/mapmode/map_modes_bg.dds",
+      "size": [
+        91,
+        246
+      ],
+      "format": "PNG",
+      "git_blob_matches_remote": true
+    },
+    {
+      "path": "gfx/interface/mapmode/mapmode_bottom_bg.dds",
+      "size": [
+        86,
+        59
+      ],
+      "format": "PNG",
+      "git_blob_matches_remote": true
+    },
+    {
+      "path": "gfx/interface/mapmode/mapmode_button_bg.dds",
+      "size": [
+        42,
+        51
+      ],
+      "format": "PNG",
+      "git_blob_matches_remote": true
+    },
+    {
+      "path": "gfx/interface/mapmode/mapmode_button_depressed.dds",
+      "size": [
+        23,
+        20
+      ],
+      "format": "PNG",
+      "git_blob_matches_remote": true
+    },
+    {
+      "path": "gfx/interface/mapmode/mapmode_buttons_deselected_big.dds",
+      "size": [
+        136,
+        31
+      ],
+      "format": "DDS",
+      "git_blob_matches_remote": true
+    },
+    {
+      "path": "gfx/interface/mapmode/mapmode_buttons_selected_big.dds",
+      "size": [
+        136,
+        31
+      ],
+      "format": "DDS",
+      "git_blob_matches_remote": true
+    },
+    {
+      "path": "gfx/interface/operatives/intelligence_agency_header4.dds",
+      "size": [
+        519,
+        109
+      ],
+      "format": "DDS",
+      "git_blob_matches_remote": true
+    }
+  ],
+  "fixed_baseline_git_audit": {
+    "fixed_baseline_files_checked": 2705,
+    "raw_byte_mismatches": []
+  },
+  "game_runtime_test": "Not run. Merge-only audit; game code and local map data are identical to the local snapshot."
+}
