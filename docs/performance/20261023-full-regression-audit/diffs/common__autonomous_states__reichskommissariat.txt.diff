@@ -1,0 +1,11 @@
+--- before/common/autonomous_states/reichskommissariat.txt
++++ current/common/autonomous_states/reichskommissariat.txt
+@@ -83,7 +83,7 @@
+ 				has_dlc = "Gotterdammerung"			
+ 			}
+ 			NOT = {
+-				has_completed_focus = CONGO_overseas_department_of_belgium
++				always = no
+ 			}
+ 		}
+ 	}

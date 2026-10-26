@@ -1,0 +1,41 @@
+state = {
+	id = 1249
+	name = "STATE_1249"
+	provinces = {
+		8019
+		13246
+		13247
+		13982
+		13995
+	}
+	manpower = 339286
+	resources = {
+		rubber = 1
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = ETH
+		controller = ETH
+		add_core_of = ETH
+		victory_points = {
+			8019
+			1
+		}
+		victory_points = {
+			13246
+			3
+		}
+		victory_points = {
+			13982
+			1
+		}
+		victory_points = {
+			13995
+			2
+		}
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,106 @@
+--- before/common/occupation_laws/occupation_laws.txt
++++ current/common/occupation_laws/occupation_laws.txt
+@@ -523,8 +523,8 @@
+ 		original_tag = TUR
+ 		has_dlc = "Battle for the Bosporus"
+ 		OR = {
+-			has_completed_focus = TUR_a_common_destiny_for_all_of_turkey
+-			has_completed_focus = TUR_permit_regional_elections
++			always = no
++			always = no
+ 		}
+ 		FROM = { original_tag = KUR }
+ 	}
+@@ -555,18 +555,18 @@
+ 				NOT = { has_country_flag = ITA_colonial_police_improved_flag }
+ 				OR = {
+ 					AND = {
+-						has_completed_focus = ITA_albanian_fascist_militia
++						always = no
+ 						FROM = { original_tag = ALB }
+ 					}
+ 					AND = {
+-						has_completed_focus = ITA_ministry_of_italian_africa
++						always = no
+ 						FROM = { capital_scope = { is_on_continent = africa } }
+ 					}
+ 				}
+ 			}
+ 			AND = {
+ 				original_tag = BEL
+-				has_completed_focus = CONGO_force_publique
++				always = no
+ 				FROM = { capital_scope = { is_on_continent = africa } }
+ 			}
+ 		}
+@@ -612,12 +612,12 @@
+ 
+ 	visible = {
+ 		original_tag = ITA
+-		has_completed_focus = ITA_regional_development
++		always = no
+ 		NOT = { has_country_flag = ITA_colonial_police_final_flag }
+ 		OR = {
+ 			AND = {
+ 				FROM = { original_tag = ALB }
+-				has_completed_focus = ITA_albanian_fascist_militia
++				always = no
+ 			}
+ 			FROM = { capital_scope = { is_on_continent = africa } }
+ 		}
+@@ -664,11 +664,11 @@
+ 
+ 	visible = {
+ 		original_tag = ITA
+-		has_completed_focus = ITA_polizia_dell_africa_italiana
++		always = no
+ 		OR = {
+ 			AND = {
+ 				FROM = { original_tag = ALB }
+-				has_completed_focus = ITA_albanian_fascist_militia
++				always = no
+ 			}
+ 			FROM = { capital_scope = { is_on_continent = africa } }
+ 		}
+@@ -717,7 +717,7 @@
+ 	visible = {
+ 		has_dlc = "Gotterdammerung"
+ 		BEL = {
+-			has_completed_focus = BEL_secretaries_general
++			always = no
+ 		}
+ 		FROM = { original_tag = BEL }
+ 		NOT = {
+@@ -764,7 +764,7 @@
+ 		OR = {
+ 			AND = {
+ 				has_focus_tree = indian_focus_goe
+-				has_completed_focus = RAJ_princely_states_policy
++				always = no
+ 			}
+ 			AND = {
+ 				NOT = {
+@@ -858,7 +858,7 @@
+ 		OR = {
+ 			AND = {
+ 				has_focus_tree = indian_focus_goe
+-				has_completed_focus = RAJ_princely_states_policy
++				always = no
+ 			}
+ 			AND = {
+ 				NOT = {
+@@ -960,12 +960,12 @@
+ 			OR = {
+ 				AND = {
+ 					original_tag = JAP
+-					has_completed_focus = JAP_invest_in_senbu
++					always = no
+ 				}
+ 				AND = {
+ 					has_dlc = "No Compromise, No Surrender"
+ 					is_literally_china = yes 
+-					has_completed_focus = CHI_tsr_the_reorganied_government
++					always = no
+ 				}
+ 			}
+ 			

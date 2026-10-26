@@ -1,0 +1,45 @@
+state = {
+	id = 6
+	name = "STATE_6"
+	manpower = 2947700
+	resources = {
+		steel = 4
+	}
+	state_category = metropolis
+	history = {
+		owner = LLU
+		controller = LLU
+		add_core_of = LLU
+		victory_points = {
+			516
+			15
+		}
+		victory_points = {
+			3576
+			3
+		}
+		victory_points = {
+			6446
+			1
+		}
+		victory_points = {
+			18111
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 2
+		}
+		add_extra_state_shared_building_slots = 2
+	}
+	provinces = {
+		516
+		3576
+		6446
+		18111
+		18116
+	}
+	local_supplies = 0.0
+}

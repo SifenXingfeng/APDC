@@ -1,0 +1,136 @@
+state = {
+	id = 671
+	name = "STATE_671"
+	resources = {
+		chromium = 2
+		tungsten = 19
+		coal = 3
+	}
+	provinces = {
+		1073
+		1157
+		1185
+		4075
+		4119
+		4529
+		7015
+		7093
+		7518
+		9948
+		10075
+		10103
+		10129
+		11936
+		12008
+		12048
+		12065
+		12075
+		12319
+		15704
+		19013
+		19018
+		19021
+		19048
+		19064
+		19065
+		19074
+		19083
+		19084
+		19085
+		19086
+		19087
+		19161
+	}
+	manpower = 8277176
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			1073
+			1
+		}
+		victory_points = {
+			1157
+			5
+		}
+		victory_points = {
+			1185
+			2
+		}
+		victory_points = {
+			4075
+			2
+		}
+		victory_points = {
+			4119
+			3
+		}
+		victory_points = {
+			4529
+			1
+		}
+		victory_points = {
+			7015
+			2
+		}
+		victory_points = {
+			7093
+			1
+		}
+		victory_points = {
+			9948
+			1
+		}
+		victory_points = {
+			11936
+			3
+		}
+		victory_points = {
+			12048
+			3
+		}
+		victory_points = {
+			12075
+			1
+		}
+		victory_points = {
+			19013
+			2
+		}
+		victory_points = {
+			19021
+			1
+		}
+		victory_points = {
+			19084
+			3
+		}
+		victory_points = {
+			19085
+			2
+		}
+		victory_points = {
+			19086
+			25
+		}
+		victory_points = {
+			19087
+			1
+		}
+		victory_points = {
+			19161
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			4119 = {
+				naval_base = 2
+			}
+		}
+	}
+}

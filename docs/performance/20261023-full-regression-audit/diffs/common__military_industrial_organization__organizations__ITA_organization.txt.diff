@@ -1,0 +1,457 @@
+--- before/common/military_industrial_organization/organizations/ITA_organization.txt
++++ current/common/military_industrial_organization/organizations/ITA_organization.txt
+@@ -54,13 +54,13 @@
+ 			FROM = {
+ 				controls_state = 158 #PIEMONT (Torino)
+ 			}
+-			ITA_is_northern_designer = yes
++			always = no
+ 		}
+ 
+ 		IF = {
+ 			limit = { FROM = { original_tag = GRE } }
+ 			FROM = {
+-				has_completed_focus = GRE_rapprochement_with_the_italians
++				always = no
+ 			}
+ 		}
+ 		IF = {
+@@ -77,7 +77,7 @@
+ 					is_subject_of = ITA
+ 				}
+ 				#is_in_faction_with = ITA
+-				NOT = { has_completed_focus = BUL_nationalization }
++				NOT = { always = no }
+ 			}
+ 		}
+ 		IF = {
+@@ -87,7 +87,7 @@
+ 				}
+ 			}
+ 			FROM = {
+-				has_completed_focus = BRA_italian_trucks
++				always = no
+ 			}
+ 		}
+ 	}
+@@ -106,8 +106,8 @@
+ 		
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = ITA_new_industrialization_program
+-				has_completed_focus = ITA_strengthen_northern_industry
++				always = no
++				always = no
+ 			}
+ 		}
+ 
+@@ -160,7 +160,7 @@
+ 		}
+ 		ELSE = { #original_tag = ITA
+ 			FROM = { controls_state = 736 } #LITORALE (Trieste) 
+-			ITA_is_northern_designer = yes
++			always = no
+ 		}
+ 
+ 		IF = {
+@@ -177,7 +177,7 @@
+ 					is_subject_of = ITA
+ 				}
+ 				#is_in_faction_with = ITA
+-				NOT = { has_completed_focus = BUL_nationalization }
++				NOT = { always = no }
+ 			}
+ 		}
+ 
+@@ -205,8 +205,8 @@
+ 		
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = ITA_new_industrialization_program
+-				has_completed_focus = ITA_strengthen_northern_industry
++				always = no
++				always = no
+ 			}
+ 		}
+ 
+@@ -232,7 +232,7 @@
+ 		FROM = {
+ 			controls_state = 158 #PIEDMONT (Genova)
+ 		}
+-		ITA_is_northern_designer = yes
++		always = no
+ 	}
+ 
+ 	add_trait = { 
+@@ -245,8 +245,8 @@
+ 		
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = ITA_new_industrialization_program
+-				has_completed_focus = ITA_strengthen_northern_industry
++				always = no
++				always = no
+ 			}
+ 		}
+ 
+@@ -272,7 +272,7 @@
+ 		FROM = {
+ 			controls_state = 117 # CAMPAGNA (Napoli)	
+ 		}
+-		ITA_is_southern_designer = yes
++		always = no
+ 	}
+ 
+ 	add_trait = { 
+@@ -285,8 +285,8 @@
+ 		
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = ITA_new_industrialization_program
+-				has_completed_focus = ITA_modernize_the_mezzogiorno
++				always = no
++				always = no
+ 			}
+ 		}
+ 
+@@ -312,7 +312,7 @@
+ 		FROM = {
+ 			controls_state = 157 # ABRUZZO (Ancona)		
+ 		}
+-		ITA_is_southern_designer = yes
++		always = no
+ 	}
+ 
+ 	add_trait = { 
+@@ -325,8 +325,8 @@
+ 		
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = ITA_new_industrialization_program
+-				has_completed_focus = ITA_modernize_the_mezzogiorno
++				always = no
++				always = no
+ 			}
+ 		}
+ 
+@@ -353,7 +353,7 @@
+ 			controls_state = 849 # PUGLIA (Taranto)
+ 			
+ 		}
+-		ITA_is_southern_designer = yes
++		always = no
+ 	}
+ 
+ 	add_trait = { 
+@@ -366,8 +366,8 @@
+ 		
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = ITA_new_industrialization_program
+-				has_completed_focus = ITA_modernize_the_mezzogiorno
++				always = no
++				always = no
+ 			}
+ 		}
+ 
+@@ -427,7 +427,7 @@
+ 			FROM = {
+ 				controls_state = 159 #LOMBARDIA
+ 			}
+-			ITA_is_northern_designer = yes
++			always = no
+ 		}
+ 	}
+ 
+@@ -441,8 +441,8 @@
+ 		
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = ITA_new_industrialization_program
+-				has_completed_focus = ITA_strengthen_northern_industry
++				always = no
++				always = no
+ 			}
+ 		}
+ 
+@@ -468,7 +468,7 @@
+ 		FROM = {
+ 			controls_state = 159 #LOMBARDIA
+ 		}
+-		ITA_is_northern_designer = yes
++		always = no
+ 	}
+ 
+ 	add_trait = {
+@@ -515,7 +515,7 @@
+ 		position = { x=3 y=0 }  
+ 		relative_position_id = generic_mio_trait_bomber_specialization
+ 		available = {
+-			FROM = { has_tech = experimental_rockets }
++			FROM = { always = no }
+ 		}
+ 		
+ 		#any_parent = { generic_mio_trait_narrow_build }
+@@ -539,8 +539,8 @@
+ 		
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = ITA_new_industrialization_program
+-				has_completed_focus = ITA_strengthen_northern_industry
++				always = no
++				always = no
+ 			}
+ 		}
+ 
+@@ -587,7 +587,7 @@
+ 			FROM = {
+ 				controls_state = 159 #LOMBARDIA
+ 			}
+-			ITA_is_northern_designer = yes
++			always = no
+ 		}
+ 	}
+ 
+@@ -601,8 +601,8 @@
+ 		
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = ITA_new_industrialization_program
+-				has_completed_focus = ITA_strengthen_northern_industry
++				always = no
++				always = no
+ 			}
+ 		}
+ 
+@@ -628,7 +628,7 @@
+ 		FROM = {
+ 			controls_state = 158 #PIEMONTE
+ 		}
+-		ITA_is_northern_designer = yes
++		always = no
+ 	}
+ 
+ 	add_trait = { 
+@@ -641,8 +641,8 @@
+ 		
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = ITA_new_industrialization_program
+-				has_completed_focus = ITA_strengthen_northern_industry
++				always = no
++				always = no
+ 			}
+ 		}
+ 
+@@ -689,7 +689,7 @@
+ 			FROM = {
+ 				controls_state = 117 #CAMPANIA (Napoli)
+ 			}
+-			ITA_is_southern_designer = yes
++			always = no
+ 		}
+ 	}
+ 
+@@ -703,8 +703,8 @@
+ 		
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = ITA_new_industrialization_program
+-				has_completed_focus = ITA_modernize_the_mezzogiorno
++				always = no
++				always = no
+ 			}
+ 		}
+ 
+@@ -730,7 +730,7 @@
+ 		FROM = {
+ 			controls_state = 736 #LITORALE (Trieste)
+ 		}
+-		ITA_is_southern_designer = yes
++		always = no
+ 	}
+ 
+ 	add_trait = { 
+@@ -743,8 +743,8 @@
+ 		
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = ITA_new_industrialization_program
+-				has_completed_focus = ITA_strengthen_northern_industry
++				always = no
++				always = no
+ 			}
+ 		}
+ 
+@@ -785,13 +785,13 @@
+ 			FROM = {
+ 				controls_state = 158 #PIEDMONT (Torino)
+ 			}
+-			ITA_is_northern_designer = yes
++			always = no
+ 		}
+ 
+ 		IF = {
+ 			limit = { FROM = { original_tag = BRA } }
+ 			FROM = { 
+-				has_completed_focus = BRA_italian_aircraft
++				always = no
+ 			} 
+ 		}		
+ 	}
+@@ -841,8 +841,8 @@
+ 		
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = ITA_new_industrialization_program
+-				has_completed_focus = ITA_strengthen_northern_industry
++				always = no
++				always = no
+ 			}
+ 		}
+ 
+@@ -902,7 +902,7 @@
+ 			FROM = {
+ 				controls_state = 159 #LOMBARDIA	
+ 			}
+-			ITA_is_northern_designer = yes
++			always = no
+ 		}
+ 	}
+ 
+@@ -916,8 +916,8 @@
+ 		
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = ITA_new_industrialization_program
+-				has_completed_focus = ITA_strengthen_northern_industry
++				always = no
++				always = no
+ 			}
+ 		}
+ 
+@@ -955,7 +955,7 @@
+ 		}
+ 		ELSE = { #original_tag = ITA
+ 			FROM = { controls_state = 159 } #LOMBARDIA
+-			ITA_is_northern_designer = yes
++			always = no
+ 		}
+ 		
+ 		IF = {
+@@ -972,7 +972,7 @@
+ 					is_subject_of = ITA
+ 				}
+ 				#is_in_faction_with = ITA
+-				NOT = { has_completed_focus = BUL_nationalization }
++				NOT = { always = no }
+ 			}
+ 		}
+ 	}
+@@ -987,8 +987,8 @@
+ 		
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = ITA_new_industrialization_program
+-				has_completed_focus = ITA_strengthen_northern_industry
++				always = no
++				always = no
+ 			}
+ 		}
+ 
+@@ -1034,7 +1034,7 @@
+ 			FROM = {
+ 				controls_state = 159 #LOMBARDIA
+ 			}
+-			ITA_is_northern_designer = yes
++			always = no
+ 		}
+ 	}
+ 
+@@ -1048,8 +1048,8 @@
+ 		
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = ITA_new_industrialization_program
+-				has_completed_focus = ITA_strengthen_northern_industry
++				always = no
++				always = no
+ 			}
+ 		}
+ 
+@@ -1075,7 +1075,7 @@
+ 		FROM = {
+ 			controls_state = 159 #LOMBARDIA
+ 		}
+-		ITA_is_northern_designer = yes
++		always = no
+ 	}
+ 
+ 	add_trait = { 
+@@ -1088,8 +1088,8 @@
+ 		
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = ITA_new_industrialization_program
+-				has_completed_focus = ITA_strengthen_northern_industry
++				always = no
++				always = no
+ 			}
+ 		}
+ 
+@@ -1114,7 +1114,7 @@
+ 	
+ 	available = {
+ 		FROM = {
+-			has_completed_focus = ITA_new_ricostruzione_industriale
++			always = no
+ 		}
+ 	}
+ 
+@@ -1169,7 +1169,7 @@
+ 		
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = ITA_new_ricostruzione_industriale
++				always = no
+ 			}
+ 		}
+ 
+@@ -1198,7 +1198,7 @@
+ 		
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = ITA_new_ricostruzione_industriale
++				always = no
+ 			}
+ 		}
+ 
+@@ -1225,7 +1225,7 @@
+ 		
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = ITA_new_ricostruzione_industriale
++				always = no
+ 			}
+ 		}
+ 
+@@ -1325,7 +1325,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = ITA_self_propelled_guns
++				always = no
+ 			}
+ 		}
+ 
+@@ -1455,8 +1455,8 @@
+ 		
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = ITA_new_ricostruzione_industriale
+-				has_completed_focus = ITA_strengthen_northern_industry
++				always = no
++				always = no
+ 			}
+ 		}
+ 

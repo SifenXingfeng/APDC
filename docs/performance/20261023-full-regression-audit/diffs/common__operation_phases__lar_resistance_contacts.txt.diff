@@ -1,0 +1,11 @@
+--- before/common/operation_phases/lar_resistance_contacts.txt
++++ current/common/operation_phases/lar_resistance_contacts.txt
+@@ -4,7 +4,7 @@
+ 	outcome = resistance_contacts_radio_circuits_outcome
+ 	picture = "GFX_phase_resistance_contacts_radio_circuits"
+ 	icon = "GFX_phase_resistance_contacts_radio_circuits_small"
+-	requirements = { ROOT = { has_tech = radio } }
++	requirements = { ROOT = { always = no } }
+ 
+ 	equipment = {
+ 		support_equipment = 150

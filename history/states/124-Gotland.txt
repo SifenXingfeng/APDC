@@ -1,16 +1,23 @@
 state = {
 	id = 124
 	name = "STATE_124"
-	manpower = 5
-	state_category = rural
+	manpower = 56988
+	state_category = small_island
 	history = {
-
 		owner = ZZZ
+		controller = ZZZ
+		add_core_of = NOR
 		add_core_of = ZZZ
-
+		buildings = {
+			infrastructure = 3
+			408 = {
+				naval_base = 1
+			}
+		}
 	}
 	provinces = {
 		408
 		6258
 	}
+	local_supplies = 0.0
 }

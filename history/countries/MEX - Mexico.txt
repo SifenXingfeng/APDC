@@ -1,3 +1,5 @@
+# APDC: regular roster and production models available at scenario initialization.
+set_technology = { APDC_land_units_bootstrap = 1 }
 # Shared empty OOB preserves startup initialization until a country OOB is authored.
 set_oob = "APDC_empty"
 
@@ -52,6 +54,3 @@ set_variable = { APDC_prime_minister_character = token:MEX_raul_delgado }
 set_variable = { APDC_deputy_prime_minister_character = token:MEX_rosario_pacheco }
 
 # 原红区开局非军事区
-478 = { set_demilitarized_zone = yes }
-481 = { set_demilitarized_zone = yes }
-482 = { set_demilitarized_zone = yes }

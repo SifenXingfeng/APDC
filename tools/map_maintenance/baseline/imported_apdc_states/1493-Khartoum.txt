@@ -1,0 +1,37 @@
+state = {
+	id = 1493
+	name = "STATE_1493"
+	provinces = {
+		12806
+		14205
+		14225
+		18481
+		18499
+		18513
+	}
+	manpower = 123150
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = SUD
+		controller = SUD
+		add_core_of = SUD
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+		}
+		victory_points = {
+			12806
+			30
+		}
+		victory_points = {
+			14205
+			1
+		}
+		victory_points = {
+			14225
+			1
+		}
+	}
+}

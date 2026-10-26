@@ -19,7 +19,7 @@ scripted_gui = {
 		effects = {
 			GFCC_area_gui_up_arrow_click = {
 				ROOT = { clr_country_flag = GFCC_area_gui_hide_window }
-				update_gui  = yes
+				add_to_variable = { global.refresh_gui = 1 }
 			}
 		}
 	}
@@ -48,7 +48,7 @@ scripted_gui = {
 			# 隐藏主UI
 			GFCC_area_gui_down_arrow_click = {
 				ROOT = { set_country_flag = GFCC_area_gui_hide_window }
-				update_gui = yes #此处有个报错点：“refresh_gui”已经落后，会触发报错
+				add_to_variable = { global.refresh_gui = 1 } #此处有个报错点：“refresh_gui”已经落后，会触发报错
 			}
 			
 		}

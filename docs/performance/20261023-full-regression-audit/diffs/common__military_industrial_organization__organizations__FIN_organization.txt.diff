@@ -1,0 +1,191 @@
+--- before/common/military_industrial_organization/organizations/FIN_organization.txt
++++ current/common/military_industrial_organization/organizations/FIN_organization.txt
+@@ -60,7 +60,7 @@
+ 		
+ 		available = {
+ 			owner = {
+-				has_completed_focus = FIN_salvaged_and_retooled
++				always = no
+ 			}
+ 		}
+ 
+@@ -83,7 +83,7 @@
+ 		
+ 		available = {
+ 			owner = {
+-				has_completed_focus = FIN_wartsila_engine_production
++				always = no
+ 			}
+ 		}
+ 
+@@ -103,7 +103,7 @@
+ 		
+ 		available = {
+ 			owner = {
+-				has_completed_focus = FIN_modernize_the_industry
++				always = no
+ 			}
+ 		}
+ 
+@@ -161,7 +161,7 @@
+ 		
+ 		available = {
+ 			owner = {
+-				has_completed_focus = FIN_acquire_andros_dockyards
++				always = no
+ 			}
+ 		}
+ 
+@@ -185,7 +185,7 @@
+ 		
+ 		available = {
+ 			owner = {
+-				has_completed_focus = FIN_wartsila_engine_production
++				always = no
+ 			}
+ 		}
+ 
+@@ -207,7 +207,7 @@
+ 
+ 		available = {
+ 			owner = {
+-				has_completed_focus = FIN_rapid_raiders
++				always = no
+ 			}
+ 		}
+ 
+@@ -234,7 +234,7 @@
+ 		
+ 		available = {
+ 			owner = {
+-				has_completed_focus = FIN_deep_sea_raiders
++				always = no
+ 			}
+ 		}
+ 
+@@ -259,7 +259,7 @@
+ 		
+ 		available = {
+ 			owner = {
+-				has_completed_focus = FIN_modernize_the_industry
++				always = no
+ 			}
+ 		}
+ 
+@@ -319,7 +319,7 @@
+ 		
+ 		available = {
+ 			owner = {
+-				has_completed_focus = FIN_modernize_the_industry
++				always = no
+ 			}
+ 		}
+ 
+@@ -341,7 +341,7 @@
+ 		
+ 		available = {
+ 			owner = {
+-				has_completed_focus = FIN_wartsila_engine_production
++				always = no
+ 			}
+ 		}
+ 
+@@ -428,7 +428,7 @@
+ 		
+ 		available = {
+ 			owner = {
+-				has_completed_focus = FIN_salvaged_and_retooled
++				always = no
+ 			}
+ 		}
+ 
+@@ -449,7 +449,7 @@
+ 		
+ 		available = {
+ 			owner = {
+-				has_completed_focus = FIN_modernize_the_industry
++				always = no
+ 			}
+ 		}
+ 
+@@ -471,7 +471,7 @@
+ 		
+ 		available = {
+ 			owner = {
+-				has_completed_focus = FIN_integrate_oy_tikkakoski
++				always = no
+ 			}
+ 		}
+ 
+@@ -526,7 +526,7 @@
+ 		
+ 		available = {
+ 			owner = {
+-				has_completed_focus = FIN_salvaged_and_retooled
++				always = no
+ 			}
+ 		}
+ 
+@@ -547,7 +547,7 @@
+ 		
+ 		available = {
+ 			owner = {
+-				has_completed_focus = FIN_modernize_the_industry
++				always = no
+ 			}
+ 		}
+ 
+@@ -647,7 +647,7 @@
+ 		
+ 		available = {
+ 			owner = {
+-				has_completed_focus = FIN_wartsila_engine_production
++				always = no
+ 			}
+ 		}
+ 
+@@ -668,7 +668,7 @@
+ 				
+ 		available = {
+ 			owner = {
+-				has_completed_focus = FIN_tire_factory_at_nokia
++				always = no
+ 			}
+ 		}
+ 
+@@ -693,7 +693,7 @@
+ 	
+ 		available = {
+ 			owner = {
+-				has_completed_focus = FIN_contract_with_yhteissisu
++				always = no
+ 			}
+ 		}
+ 
+@@ -724,7 +724,7 @@
+ 					tooltip = FIN_mio_trait_repurposed_equipment_trigger_tt
+ 					has_tech = mechanised_infantry3
+ 				}
+-				has_completed_focus = FIN_salvaged_and_retooled
++				always = no
+ 			}
+ 		}
+ 
+@@ -745,7 +745,7 @@
+ 		
+ 		available = {
+ 			owner = {
+-				has_completed_focus = FIN_salvaged_and_retooled
++				always = no
+ 			}
+ 		}
+ 
+@@ -766,7 +766,7 @@
+ 		
+ 		available = {
+ 			owner = {
+-				has_completed_focus = FIN_modernize_the_industry
++				always = no
+ 			}
+ 		}
+ 

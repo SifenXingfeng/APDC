@@ -1,7 +1,9 @@
+# APDC: regular roster and production models available at scenario initialization.
+set_technology = { APDC_land_units_bootstrap = 1 }
 # Shared empty OOB preserves startup initialization until a country OOB is authored.
 set_oob = "APDC_empty"
 
-capital = 795 # Djakarta
+capital = 1058 # Djakarta
 
 set_research_slots = 2
 
@@ -15,49 +17,3 @@ set_popularities = {
 }
 
 # 原红区开局非军事区
-335 = { set_demilitarized_zone = yes }
-667 = { set_demilitarized_zone = yes }
-668 = { set_demilitarized_zone = yes }
-673 = { set_demilitarized_zone = yes }
-721 = { set_demilitarized_zone = yes }
-738 = { set_demilitarized_zone = yes }
-783 = { set_demilitarized_zone = yes }
-795 = { set_demilitarized_zone = yes }
-796 = { set_demilitarized_zone = yes }
-797 = { set_demilitarized_zone = yes }
-798 = { set_demilitarized_zone = yes }
-799 = { set_demilitarized_zone = yes }
-820 = { set_demilitarized_zone = yes }
-821 = { set_demilitarized_zone = yes }
-822 = { set_demilitarized_zone = yes }
-823 = { set_demilitarized_zone = yes }
-824 = { set_demilitarized_zone = yes }
-1557 = { set_demilitarized_zone = yes }
-1753 = { set_demilitarized_zone = yes }
-1754 = { set_demilitarized_zone = yes }
-1755 = { set_demilitarized_zone = yes }
-1756 = { set_demilitarized_zone = yes }
-1757 = { set_demilitarized_zone = yes }
-2282 = { set_demilitarized_zone = yes }
-2283 = { set_demilitarized_zone = yes }
-2284 = { set_demilitarized_zone = yes }
-2285 = { set_demilitarized_zone = yes }
-2286 = { set_demilitarized_zone = yes }
-2287 = { set_demilitarized_zone = yes }
-2288 = { set_demilitarized_zone = yes }
-2289 = { set_demilitarized_zone = yes }
-2290 = { set_demilitarized_zone = yes }
-2291 = { set_demilitarized_zone = yes }
-2292 = { set_demilitarized_zone = yes }
-2293 = { set_demilitarized_zone = yes }
-2305 = { set_demilitarized_zone = yes }
-2306 = { set_demilitarized_zone = yes }
-2307 = { set_demilitarized_zone = yes }
-2308 = { set_demilitarized_zone = yes }
-2309 = { set_demilitarized_zone = yes }
-2310 = { set_demilitarized_zone = yes }
-2311 = { set_demilitarized_zone = yes }
-2312 = { set_demilitarized_zone = yes }
-2313 = { set_demilitarized_zone = yes }
-2314 = { set_demilitarized_zone = yes }
-2315 = { set_demilitarized_zone = yes }

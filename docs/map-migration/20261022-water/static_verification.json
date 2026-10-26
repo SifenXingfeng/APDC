@@ -1,0 +1,212 @@
+{
+  "changes": [
+    {
+      "category": "ocean",
+      "minimum_seazone_dominance": 250,
+      "naval_terrain_added": true
+    },
+    {
+      "category": "water_fjords",
+      "minimum_seazone_dominance": 100,
+      "naval_terrain_added": false
+    },
+    {
+      "category": "water_shallow_sea",
+      "minimum_seazone_dominance": 100,
+      "naval_terrain_added": false
+    },
+    {
+      "category": "water_deep_ocean",
+      "minimum_seazone_dominance": 250,
+      "naval_terrain_added": false
+    }
+  ],
+  "original_terrain_sha256": "283d928425335d052aaa3cf71318b820273605d4512408c80b90e5150c903304",
+  "new_terrain_sha256": "ac5aa7d85f27f24a69ca91219ba3325ddf975581ddc28ed87da44b4af7bdb697",
+  "reference_file": "D:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\common\\terrain\\00_terrain.txt",
+  "reference_sha256": "2bc3931762c4a88f689311803d06c2c2ee50f8fe065743d96115ed7b9315bb91",
+  "all_existing_terrain_gameplay_fields_preserved": true,
+  "map_rendering_sources_unchanged": [
+    {
+      "file": "gfx\\FX\\border.shader",
+      "unchanged_from_GF": true,
+      "sha256": "9bad47d38b1ff8500d39e63cb29d1202bce00793ec0f1bfd0e734bcaa4917b27"
+    },
+    {
+      "file": "gfx\\FX\\gf_map_border_data.fxh",
+      "unchanged_from_GF": true,
+      "sha256": "d7ecc24edbcf3d5c672891e38631a87352da1a7cdf974ec2e9e7d65766932a37"
+    },
+    {
+      "file": "gfx\\FX\\gf_map_style.fxh",
+      "unchanged_from_GF": true,
+      "sha256": "920d03a69a85b0ebaad51fbe21f0965137547743443f4bb364821e37d6123e58"
+    },
+    {
+      "file": "gfx\\FX\\mapname.shader",
+      "unchanged_from_GF": true,
+      "sha256": "f64cbac6a4630fdd09a8410355017cd4ee4f71cd989f2eff6a46134f6c789b1a"
+    },
+    {
+      "file": "gfx\\FX\\pdxmap.shader",
+      "unchanged_from_GF": true,
+      "sha256": "102036a2d93b3d217a670c320d10edecba18fd9489a7c8028b598baecd781cba"
+    },
+    {
+      "file": "gfx\\FX\\pdxwater.shader",
+      "unchanged_from_GF": true,
+      "sha256": "6399086c1f2bb6f1962c2347e7a3f115d0baf103dc54dd28d87a3f5c60589662"
+    }
+  ],
+  "dominance_overlay_disabled": false,
+  "visual_recovery_verified": false,
+  "status": "missing terrain interface fields repaired; runtime verification pending",
+  "all_active_sea_regions_have_valid_terrain_interfaces": [
+    {
+      "terrain": "ocean",
+      "region_count": 40,
+      "regions": [
+        29,
+        30,
+        42,
+        43,
+        44,
+        45,
+        46,
+        48,
+        52,
+        63,
+        65,
+        68,
+        69,
+        70,
+        75,
+        79,
+        81,
+        86,
+        87,
+        88,
+        89,
+        90,
+        92,
+        98,
+        100,
+        101,
+        102,
+        103,
+        104,
+        106,
+        107,
+        108,
+        109,
+        166,
+        169,
+        178,
+        306,
+        307,
+        308,
+        317
+      ],
+      "minimum_seazone_dominance": 250.0,
+      "naval_terrain": "yes"
+    },
+    {
+      "terrain": "water_deep_ocean",
+      "region_count": 43,
+      "regions": [
+        32,
+        47,
+        49,
+        51,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        64,
+        66,
+        67,
+        71,
+        74,
+        78,
+        84,
+        85,
+        94,
+        95,
+        96,
+        97,
+        99,
+        105,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        172,
+        175,
+        176,
+        177,
+        179,
+        180,
+        305,
+        314,
+        315,
+        316,
+        318,
+        319
+      ],
+      "minimum_seazone_dominance": 250.0,
+      "naval_terrain": "yes"
+    },
+    {
+      "terrain": "water_shallow_sea",
+      "region_count": 12,
+      "regions": [
+        16,
+        18,
+        54,
+        55,
+        73,
+        76,
+        77,
+        82,
+        170,
+        173,
+        203,
+        206
+      ],
+      "minimum_seazone_dominance": 100.0,
+      "naval_terrain": "yes"
+    },
+    {
+      "terrain": "water_fjords",
+      "region_count": 16,
+      "regions": [
+        9,
+        50,
+        53,
+        72,
+        80,
+        83,
+        91,
+        93,
+        168,
+        171,
+        174,
+        202,
+        207,
+        279,
+        309,
+        320
+      ],
+      "minimum_seazone_dominance": 100.0,
+      "naval_terrain": "yes"
+    }
+  ],
+  "unused_custom_naval_types": [
+    "water_southern_sea"
+  ]
+}

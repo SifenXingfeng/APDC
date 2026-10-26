@@ -1,0 +1,156 @@
+[
+  {
+    "path": "common/doctrines/subdoctrines/land/combat_support_subdoctrines.txt",
+    "line": 363,
+    "ancestors": [
+      "air_cavalry",
+      "available"
+    ],
+    "key": "is_special_project_completed",
+    "value": "sp:sp_air_helicopter"
+  },
+  {
+    "path": "common/doctrines/subdoctrines/land/combat_support_subdoctrines.txt",
+    "line": 824,
+    "ancestors": [
+      "siege_artillery",
+      "available"
+    ],
+    "key": "is_special_project_completed",
+    "value": "sp:sp_land_super_heavy_howitzer"
+  },
+  {
+    "path": "common/doctrines/subdoctrines/sea/navy_carrier_doctrines.txt",
+    "line": 122,
+    "ancestors": [
+      "escort_carrier_support",
+      "available"
+    ],
+    "key": "is_special_project_completed",
+    "value": "sp:sp_naval_escort_carrier"
+  },
+  {
+    "path": "common/doctrines/subdoctrines/sea/navy_carrier_doctrines.txt",
+    "line": 193,
+    "ancestors": [
+      "broad_naval_support",
+      "available",
+      "OR"
+    ],
+    "key": "is_special_project_completed",
+    "value": "sp:sp_naval_escort_carrier"
+  },
+  {
+    "path": "common/doctrines/subdoctrines/sea/navy_carrier_doctrines.txt",
+    "line": 194,
+    "ancestors": [
+      "broad_naval_support",
+      "available",
+      "OR"
+    ],
+    "key": "is_special_project_completed",
+    "value": "sp:sp_naval_support_ships"
+  },
+  {
+    "path": "common/doctrines/subdoctrines/sea/navy_screen_doctrines.txt",
+    "line": 314,
+    "ancestors": [
+      "screen_support_focus",
+      "available"
+    ],
+    "key": "is_special_project_completed",
+    "value": "sp:sp_naval_support_ships"
+  },
+  {
+    "path": "common/doctrines/subdoctrines/sea/navy_submarine_doctrines.txt",
+    "line": 189,
+    "ancestors": [
+      "submarine_coastal_defense",
+      "available"
+    ],
+    "key": "is_special_project_completed",
+    "value": "sp:sp_naval_midget_submarine"
+  },
+  {
+    "path": "common/doctrines/subdoctrines/sea/navy_submarine_doctrines.txt",
+    "line": 308,
+    "ancestors": [
+      "long_range_submarines",
+      "available",
+      "OR"
+    ],
+    "key": "is_special_project_completed",
+    "value": "sp:sp_naval_cruiser_submarine"
+  },
+  {
+    "path": "common/doctrines/subdoctrines/sea/navy_submarine_doctrines.txt",
+    "line": 309,
+    "ancestors": [
+      "long_range_submarines",
+      "available",
+      "OR"
+    ],
+    "key": "is_special_project_completed",
+    "value": "sp:sp_naval_submarine_carrier"
+  },
+  {
+    "path": "common/units/equipment/upgrades/naval_upgrades.txt",
+    "line": 81,
+    "ancestors": [
+      "upgrades",
+      "sub_stealth_upgrade",
+      "level_requirements",
+      "6"
+    ],
+    "key": "is_special_project_completed",
+    "value": "sp:sp_naval_anechoic_tiles"
+  },
+  {
+    "path": "common/units/equipment/upgrades/naval_upgrades.txt",
+    "line": 95,
+    "ancestors": [
+      "upgrades",
+      "sub_engine_upgrade",
+      "level_requirements",
+      "6"
+    ],
+    "key": "is_special_project_completed",
+    "value": "sp:sp_naval_aip_engine"
+  },
+  {
+    "path": "common/Hearts of Iron IV/dlc/dlc043_gotterdammerung/music/got_songs.txt",
+    "line": 22,
+    "ancestors": [
+      "music",
+      "chance",
+      "modifier",
+      "OR"
+    ],
+    "key": "is_special_project_completed",
+    "value": "sp:sp_land_land_cruiser"
+  },
+  {
+    "path": "common/Hearts of Iron IV/dlc/dlc043_gotterdammerung/music/got_songs.txt",
+    "line": 23,
+    "ancestors": [
+      "music",
+      "chance",
+      "modifier",
+      "OR"
+    ],
+    "key": "is_special_project_completed",
+    "value": "sp:sp_naval_ice_carrier"
+  },
+  {
+    "path": "common/Hearts of Iron IV/dlc/dlc043_gotterdammerung/music/got_songs.txt",
+    "line": 24,
+    "ancestors": [
+      "music",
+      "chance",
+      "modifier",
+      "OR"
+    ],
+    "key": "is_special_project_completed",
+    "value": "sp:sp_rockets_ballistic_missile"
+  }
+]

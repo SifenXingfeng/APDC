@@ -1,0 +1,24 @@
+--- before/common/technology_tags/apdc_technology.txt
++++ current/common/technology_tags/apdc_technology.txt
+@@ -1,10 +1,12 @@
+-# Do not change tags in here without changing every other reference to them.
+-# If adding new technology, make sure they are uniquely named.
+-
+-technology_categories = {
+-	cat_infantry_fighting_vehicle
+-	cat_main_battle_armor
+-	mio_cat_tech_main_battle_armor_and_modules
+-}
+-
++# Do not change tags in here without changing every other reference to them.
++# If adding new technology, make sure they are uniquely named.
++
++technology_categories = {
++	cat_infantry_fighting_vehicle
++	cat_main_battle_armor
++	mio_cat_tech_main_battle_armor_and_modules
++
++ rangers_tech_cat
++}
++
+  

@@ -1,0 +1,62 @@
+state = {
+	id = 566
+	name = "STATE_566"
+	state_category = rural
+	resources = {
+		steel = 20
+		aluminium = 7
+	}
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		victory_points = {
+			4797
+			3
+		}
+		victory_points = {
+			6835
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			air_base = 1
+		}
+	}
+	provinces = {
+		1707
+		1727
+		1829
+		4737
+		4797
+		4815
+		4916
+		5415
+		5426
+		5475
+		5574
+		5595
+		5719
+		5764
+		6835
+		7828
+		7838
+		8473
+		8697
+		8960
+		10524
+		10596
+		10661
+		12525
+		12540
+		12647
+		14353
+		14462
+		15056
+		17157
+	}
+	manpower = 755237
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0
+}

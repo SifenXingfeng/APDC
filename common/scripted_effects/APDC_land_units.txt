@@ -1,0 +1,15 @@
+APDC_initialize_land_units = {
+    if = {
+        limit = { NOT = { has_tech = APDC_land_units_bootstrap } }
+        set_technology = { APDC_land_units_bootstrap = 1 popup = no }
+        log = "APDC_LAND_UNITS bootstrap [THIS.GetTag]"
+    }
+    if = {
+        limit = { NOT = { has_country_flag = APDC_basic_template_initialized } }
+        if = {
+            limit = { NOT = { tag = MAD } }
+            load_oob = APDC_basic_template
+        }
+        set_country_flag = APDC_basic_template_initialized
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "parsed_scripts": 3124,
+  "syntax_errors": [],
+  "engine_callbacks": {
+    "required_callbacks": 25,
+    "required_helpers": 1,
+    "errors": [],
+    "limitations": "Presence and core-exclusion checks; not a substitute for engine behavior tests."
+  },
+  "state_histories_unchanged": 1558,
+  "state_history_changes": [],
+  "user_save": {
+    "format": "HOI4bin, Operation Postern v1.19.3",
+    "core_field_token": "0x3361 (identified against the same engine text save)",
+    "core_lists": 179,
+    "core_memberships": 1764,
+    "core_list_multiset_equals_history": true,
+    "limitation": "Binary check compares the multiset of complete state-ID lists; it does not assign every binary list to a country tag."
+  },
+  "runtime_verified": false
+}

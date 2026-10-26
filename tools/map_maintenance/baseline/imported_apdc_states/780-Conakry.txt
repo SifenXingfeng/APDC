@@ -1,0 +1,42 @@
+state = {
+	id = 780
+	name = "STATE_780"
+	provinces = {
+		1909
+		14109
+		14428
+		15390
+		15391
+	}
+	manpower = 34829
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 1
+	history = {
+		owner = GNA
+		controller = GNA
+		add_core_of = GNA
+		victory_points = {
+			1909
+			20
+		}
+		victory_points = {
+			14109
+			3
+		}
+		victory_points = {
+			14428
+			1
+		}
+		victory_points = {
+			15390
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			1909 = {
+				naval_base = 1
+			}
+		}
+	}
+}

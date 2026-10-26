@@ -186,7 +186,7 @@ defined_text = {
 	text = {
 		trigger = {
 			SOV = {
-				NOT = { has_government = communism }
+				always = no
 			}
 		}
 		localization_key = RU_Gen_SOV_RUSSIANS_DEMONYM_RUSSIANS
@@ -207,7 +207,7 @@ defined_text = {
 	text = {
 		trigger = {
 			SOV = {
-				NOT = { has_government = communism }
+				always = no
 			}
 		}
 		localization_key = RU_Dat_SOV_RUSSIANS_DEMONYM_RUSSIANS
@@ -228,7 +228,7 @@ defined_text = {
 	text = {
 		trigger = {
 			SOV = {
-				NOT = { has_government = communism }
+				always = no
 			}
 		}
 		localization_key = RU_Dat_SOV_RUSSIANS_DEMONYM_RUSSIANS
@@ -249,7 +249,7 @@ defined_text = {
 	text = {
 		trigger = {
 			SOV = {
-				NOT = { has_government = communism }
+				always = no
 			}
 		}
 		localization_key = RU_Acc_SOV_RUSSIANS_DEMONYM_RUSSIANS
@@ -270,7 +270,7 @@ defined_text = {
 	text = {
 		trigger = {
 			SOV = {
-				NOT = { has_government = communism }
+				always = no
 			}
 		}
 		localization_key = RU_Inst_SOV_RUSSIANS_DEMONYM_RUSSIANS
@@ -291,7 +291,7 @@ defined_text = {
 	text = {
 		trigger = {
 			SOV = {
-				NOT = { has_government = communism }
+				always = no
 			}
 		}
 		localization_key = RU_Prep_SOV_RUSSIANS_DEMONYM_RUSSIANS
@@ -303,7 +303,7 @@ defined_text = {
 defined_text = {
 	name = GetOnOna_RUCap
 	text = {
-		trigger = { NOT = { is_female = yes } }
+		trigger = { always = no }
 		localization_key = RULOC_OnCap
 	}
 	text = {
@@ -315,7 +315,7 @@ defined_text = {
 defined_text = {
 	name = GetEgoEye_RUCap
 	text = {
-		trigger = { NOT = { is_female = yes } }
+		trigger = { always = no }
 		localization_key = RULOC_EgoCap
 	}
 	text = {
@@ -327,7 +327,7 @@ defined_text = {
 defined_text = {
 	name = GetEmuEy_RUCap
 	text = {
-		trigger = { NOT = { is_female = yes } }
+		trigger = { always = no }
 		localization_key = RULOC_EmuCap
 	}
 	text = {
@@ -341,7 +341,7 @@ defined_text = {
 defined_text = {
 	name = GetOnOna_RU
 	text = {
-		trigger = { NOT = { is_female = yes } }
+		trigger = { always = no }
 		localization_key = RULOC_On
 	}
 	text = {
@@ -353,7 +353,7 @@ defined_text = {
 defined_text = {
 	name = GetEgoEye_RU
 	text = {
-		trigger = { NOT = { is_female = yes } }
+		trigger = { always = no }
 		localization_key = RULOC_Ego
 	}
 	text = {
@@ -365,7 +365,7 @@ defined_text = {
 defined_text = {
 	name = GetEmuEy_RU
 	text = {
-		trigger = { NOT = { is_female = yes } }
+		trigger = { always = no }
 		localization_key = RULOC_Emu
 	}
 	text = {
@@ -377,7 +377,7 @@ defined_text = {
 defined_text = {
 	name = GetImEy_RU
 	text = {
-		trigger = { NOT = { is_female = yes } }
+		trigger = { always = no }
 		localization_key = RULOC_Im
 	}
 	text = {
@@ -389,7 +389,7 @@ defined_text = {
 defined_text = {
 	name = GetImEy_RUCap
 	text = {
-		trigger = { NOT = { is_female = yes } }
+		trigger = { always = no }
 		localization_key = RULOC_ImCap
 	}
 	text = {
@@ -401,7 +401,7 @@ defined_text = {
 defined_text = {
 	name = GetNemNey_RU
 	text = {
-		trigger = { NOT = { is_female = yes } }
+		trigger = { always = no }
 		localization_key = RULOC_Nem
 	}
 	text = {
@@ -414,7 +414,7 @@ defined_text = {
 defined_text = {
 	name = GetVerbGendEndA_RU
 	text = {
-		trigger = { NOT = { is_female = yes } }
+		trigger = { always = no }
 		localization_key = RULOC_VerbMaleEnd_
 	}
 	text = {

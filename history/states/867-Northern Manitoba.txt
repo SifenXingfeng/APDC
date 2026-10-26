@@ -1,0 +1,27 @@
+state = {
+	id = 867
+	name = "STATE_867"
+	provinces = {
+		5239
+		6728
+		7185
+		7782
+		10585
+		10605
+		13182
+		17254
+		17280
+	}
+	manpower = 9000
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = USA
+		controller = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

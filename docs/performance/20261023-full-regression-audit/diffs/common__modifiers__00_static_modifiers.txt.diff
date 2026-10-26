@@ -1,0 +1,11 @@
+--- before/common/modifiers/00_static_modifiers.txt
++++ current/common/modifiers/00_static_modifiers.txt
+@@ -313,7 +313,7 @@
+ 		FROM = {
+ 			OR = {
+ 				is_in_faction_with = ROOT
+-				has_government = ROOT
++				always = no
+ 			}
+ 		}
+ 	}

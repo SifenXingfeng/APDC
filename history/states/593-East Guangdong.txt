@@ -1,0 +1,137 @@
+state = {
+	id = 593
+	name = "STATE_593"
+	resources = {
+		tungsten = 13
+		steel = 13
+		chromium = 3
+	}
+	provinces = {
+		1078
+		1120
+		1162
+		1202
+		4050
+		4165
+		4207
+		7067
+		7141
+		7182
+		7907
+		9938
+		9970
+		9978
+		9997
+		10080
+		12014
+		12095
+		15742
+		19526
+	}
+	manpower = 10583333
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 1
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			1078
+			2
+		}
+		victory_points = {
+			1120
+			1
+		}
+		victory_points = {
+			1162
+			3
+		}
+		victory_points = {
+			1202
+			10
+		}
+		victory_points = {
+			4050
+			3
+		}
+		victory_points = {
+			4165
+			5
+		}
+		victory_points = {
+			4207
+			3
+		}
+		victory_points = {
+			7067
+			3
+		}
+		victory_points = {
+			7141
+			5
+		}
+		victory_points = {
+			7182
+			1
+		}
+		victory_points = {
+			7907
+			2
+		}
+		victory_points = {
+			9938
+			50
+		}
+		victory_points = {
+			9970
+			3
+		}
+		victory_points = {
+			9978
+			3
+		}
+		victory_points = {
+			9997
+			2
+		}
+		victory_points = {
+			10080
+			2
+		}
+		victory_points = {
+			12014
+			2
+		}
+		victory_points = {
+			12095
+			5
+		}
+		victory_points = {
+			15742
+			5
+		}
+		victory_points = {
+			19526
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			9938 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+			}
+			air_base = 1
+		}
+		set_variable = {
+			china_state_ref = 35
+		}
+		set_variable = {
+			china_region_ref = 4
+		}
+		set_state_flag = state_renamings
+	}
+}

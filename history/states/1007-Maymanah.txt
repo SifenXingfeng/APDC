@@ -1,0 +1,78 @@
+state = {
+	id = 1007
+	name = "STATE_1007"
+	manpower = 914775
+	resources = {
+		steel = 2
+	}
+	state_category = rural
+	provinces = {
+		7584
+		10781
+		10852
+		12248
+		12314
+		12877
+		14748
+		14753
+		14758
+		18642
+		18660
+		18666
+		18690
+	}
+	history = {
+		owner = AFG
+		controller = AFG
+		add_core_of = AFG
+		victory_points = {
+			7584
+			2
+		}
+		victory_points = {
+			10781
+			3
+		}
+		victory_points = {
+			10852
+			1
+		}
+		victory_points = {
+			12248
+			3
+		}
+		victory_points = {
+			12314
+			5
+		}
+		victory_points = {
+			12877
+			2
+		}
+		victory_points = {
+			14748
+			2
+		}
+		victory_points = {
+			14753
+			2
+		}
+		victory_points = {
+			14758
+			2
+		}
+		victory_points = {
+			18660
+			2
+		}
+		victory_points = {
+			18666
+			2
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

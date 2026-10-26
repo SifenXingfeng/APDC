@@ -1,0 +1,43 @@
+state = {
+	id = 1390
+	name = "STATE_1390"
+	provinces = {
+		8039
+		8118
+		14426
+		15286
+	}
+	manpower = 436359
+	resources = {
+		chromium = 1
+		steel = 1
+		tungsten = 1
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = GHA
+		controller = GHA
+		add_core_of = GHA
+		victory_points = {
+			8039
+			1
+		}
+		victory_points = {
+			8118
+			1
+		}
+		victory_points = {
+			14426
+			1
+		}
+		victory_points = {
+			15286
+			5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

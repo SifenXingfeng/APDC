@@ -1,0 +1,36 @@
+--- before/common/scripted_triggers/ideology_scripted_triggers.txt
++++ current/common/scripted_triggers/ideology_scripted_triggers.txt
+@@ -1,32 +1 @@
+-
+-is_enemy_ideology = {
+-	OR = {
+-		AND = {
+-			has_government = communism
+-			ROOT = {
+-				OR = {
+-					has_government = fascism
+-					has_government = liberalism
+-				}
+-			}
+-		}
+-		AND = {
+-			has_government = liberalism
+-			ROOT = {
+-				OR = {
+-					has_government = communism
+-					has_government = fascism
+-				}
+-			}
+-		}
+-		AND = {
+-			has_government = fascism
+-			ROOT = {
+-				OR = {
+-					has_government = liberalism
+-					has_government = communism
+-				}
+-			}
+-		}
+-	}
+-}
++# APDC: unused imported script definitions removed.

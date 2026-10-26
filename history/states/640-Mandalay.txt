@@ -1,0 +1,52 @@
+state = {
+	id = 640
+	name = "STATE_640"
+	resources = {
+		tungsten = 50
+	}
+	manpower = 158241
+	state_category = town
+	history = {
+		owner = BRM
+		controller = BRM
+		add_core_of = BRM
+		victory_points = {
+			1492
+			10
+		}
+		victory_points = {
+			4202
+			2
+		}
+		victory_points = {
+			12404
+			1
+		}
+		victory_points = {
+			12449
+			2
+		}
+		victory_points = {
+			15520
+			10
+		}
+		victory_points = {
+			19152
+			2
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		1492
+		4202
+		12404
+		12449
+		15520
+		19151
+		19152
+	}
+	local_supplies = 0.000
+	buildings_max_level_factor = 1.000
+}

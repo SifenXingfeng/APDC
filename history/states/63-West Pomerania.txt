@@ -1,0 +1,41 @@
+state = {
+	id = 63
+	name = "STATE_63"
+	resources = {
+		steel = 3
+		aluminium = 3
+	}
+	provinces = {
+		6282
+		6309
+		6334
+		6390
+		9277
+		9334
+	}
+	manpower = 481893
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 7
+	history = {
+		owner = POL
+		controller = POL
+		add_core_of = POL
+		victory_points = {
+			6282
+			3
+		}
+		victory_points = {
+			6309
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			6282 = {
+				naval_base = 4
+			}
+			air_base = 3
+		}
+	}
+}

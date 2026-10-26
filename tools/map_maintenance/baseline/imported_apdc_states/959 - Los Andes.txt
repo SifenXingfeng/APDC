@@ -1,0 +1,39 @@
+state = {
+	id = 959
+	name = "STATE_959"
+	manpower = 781311
+	state_category = rural
+	history = {
+		owner = ARG
+		controller = ARG
+		add_core_of = ARG
+		add_claim_by = BOL
+		victory_points = {
+			2224
+			3
+		}
+		victory_points = {
+			13311
+			1
+		}
+		victory_points = {
+			14993
+			1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		set_state_flag = GDP_regions_salta_jujuy
+	}
+	provinces = {
+		2224
+		13308
+		13311
+		14795
+		14993
+		14995
+		15065
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,346 @@
+# Name groups are automatically selected by for_countries and division_types.
+POR_INF_01 = 
+{
+	name = "Infantry Division"
+
+	for_countries = { POR }
+
+	can_use = { always = yes }
+
+	division_types = { apdc_infantry }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { POR_INF_01 }
+
+	fallback_name = "%da Divisão de Infantaria"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Divisão de Infantaria" }
+		2 = { "%da Divisão de Infantaria" }
+		3 = { "%da Divisão de Infantaria" }
+		4 = { "%da Divisão de Infantaria" }
+		5 = { "%da Divisão de Infantaria" }
+		6 = { "%da Divisão de Infantaria" }
+		7 = { "%da Divisão de Infantaria" }
+		8 = { "%da Divisão de Infantaria" }
+		9 = { "%da Divisão de Infantaria" }
+		10 = { "%da Divisão de Infantaria" }
+		11 = { "%da Divisão de Infantaria" }
+		12 = { "%da Divisão de Infantaria" }
+		13 = { "%da Divisão de Infantaria" }
+		14 = { "%da Divisão de Infantaria" }
+		15 = { "%da Divisão de Infantaria" }
+		16 = { "%da Divisão de Infantaria" }
+		17 = { "%da Divisão de Infantaria" }
+		18 = { "%da Divisão de Infantaria" }
+		19 = { "%da Divisão de Infantaria" }
+		20 = { "%da Divisão de Infantaria" }		
+	}
+}
+
+POR_CAV_01 = 
+{
+	name = "Cavalry Unit"
+
+	for_countries = { POR }
+
+	can_use = { always = yes }
+
+	division_types = { apdc_infantry }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { POR_INF_01 }
+
+	fallback_name = "%da Brigada de Cavalaria"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Brigada de Cavalaria" }
+		2 = { "%da Brigada de Cavalaria" }
+		21 = { "Cavalaria do Porto" }
+		3 = { "%da Brigada de Cavalaria" }
+		4 = { "%da Brigada de Cavalaria" }
+		5 = { "%da Brigada de Cavalaria" }
+		6 = { "%da Brigada de Cavalaria" }
+		22 = { "Cavalaria do Lisboa" }
+		23 = { "1a Brigada de Lanceiros" }
+		24 = { "2a Brigada de Lanceiros" }
+		25 = { "3a Brigada de Lanceiros" }
+		7 = { "%da Brigada de Cavalaria" }
+		8 = { "%da Brigada de Cavalaria" }
+		9 = { "%da Brigada de Cavalaria" }
+		10 = { "%da Brigada de Cavalaria" }
+	}
+}
+
+POR_MOT_01 = 
+{
+	name = "Motorized Division"
+
+	for_countries = { POR }
+
+	can_use = { always = yes }
+
+	division_types = { apdc_motorized }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { POR_INF_01 }
+
+	fallback_name = "%da Div. de Infantaria Motorizada"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Div. de Infantaria Motorizada" }
+		2 = { "%da Div. de Infantaria Motorizada" }
+		3 = { "%da Div. de Infantaria Motorizada" }
+		4 = { "%da Div. de Infantaria Motorizada" }
+		5 = { "%da Div. de Infantaria Motorizada" }
+		6 = { "%da Div. de Infantaria Motorizada" }
+		7 = { "%da Div. de Infantaria Motorizada" }
+		8 = { "%da Div. de Infantaria Motorizada" }
+		9 = { "%da Div. de Infantaria Motorizada" }
+		10 = { "%da Div. de Infantaria Motorizada" }
+	}
+}
+
+POR_MEC_01 = 
+{
+	name = "Mechanized Division"
+
+	for_countries = { POR }
+
+	can_use = { always = yes }
+
+	division_types = { apdc_tracked_mechanized }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { POR_INF_01 }
+
+	fallback_name = "%da Div. de Infantaria Mecânica"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Div. de Infantaria Mecânica" }
+		2 = { "%da Div. de Infantaria Mecânica" }
+		3 = { "%da Div. de Infantaria Mecânica" }
+		4 = { "%da Div. de Infantaria Mecânica" }
+		5 = { "%da Div. de Infantaria Mecânica" }
+		6 = { "%da Div. de Infantaria Mecânica" }
+		7 = { "%da Div. de Infantaria Mecânica" }
+		8 = { "%da Div. de Infantaria Mecânica" }
+		9 = { "%da Div. de Infantaria Mecânica" }
+		10 = { "%da Div. de Infantaria Mecânica" }
+	}
+}
+
+POR_ARM_01 = 
+{
+	name = "Armored Division"
+
+	for_countries = { POR }
+
+	can_use = { always = yes }
+
+	division_types = { apdc_light_tank apdc_mbt }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { POR_INF_01 }
+
+	fallback_name = "%da Divisão de Blindar"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Divisão de Blindar" }
+		2 = { "%da Divisão de Blindar" }
+		3 = { "%da Divisão de Blindar" }
+		4 = { "%da Divisão de Blindar" }
+		5 = { "%da Divisão de Blindar" }
+		6 = { "%da Divisão de Blindar" }
+		7 = { "%da Divisão de Blindar" }
+		8 = { "%da Divisão de Blindar" }
+		9 = { "%da Divisão de Blindar" }
+		10 = { "%da Divisão de Blindar" }
+	}
+}
+
+POR_PAR_01 = 
+{
+	name = "Parachute Division"
+
+	for_countries = { POR }
+
+	can_use = { always = yes }
+
+	division_types = { apdc_paratrooper }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { POR_INF_01 }
+
+	fallback_name = "%da Divisão de Pára-Quedistas"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Divisão de Pára-Quedistas" }
+		2 = { "%da Divisão de Pára-Quedistas" }
+		3 = { "%da Divisão de Pára-Quedistas" }
+		4 = { "%da Divisão de Pára-Quedistas" }
+		5 = { "%da Divisão de Pára-Quedistas" }
+		6 = { "%da Divisão de Pára-Quedistas" }
+		7 = { "%da Divisão de Pára-Quedistas" }
+		8 = { "%da Divisão de Pára-Quedistas" }
+		9 = { "%da Divisão de Pára-Quedistas" }
+		10 = { "%da Divisão de Pára-Quedistas" }
+	}
+}
+
+POR_MAR_01 = 
+{
+	name = "Marine Division"
+
+	for_countries = { POR }
+
+	can_use = { always = yes }
+
+	division_types = { apdc_marine }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { POR_INF_01 }
+
+	fallback_name = "%da Divisão Marinha"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Divisão Marinha" }
+		2 = { "%da Divisão Marinha" }
+		3 = { "%da Divisão Marinha" }
+		4 = { "%da Divisão Marinha" }
+		5 = { "%da Divisão Marinha" }
+		6 = { "%da Divisão Marinha" }
+		7 = { "%da Divisão Marinha" }
+		8 = { "%da Divisão Marinha" }
+		9 = { "%da Divisão Marinha" }
+		10 = { "%da Divisão Marinha" }
+	}
+}
+
+POR_MNT_01 = 
+{
+	name = "Mountain Division"
+
+	for_countries = { POR }
+
+	can_use = { always = yes }
+
+	division_types = { apdc_mountaineers }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { POR_INF_01 }
+
+	fallback_name = "%da Divisão de Inf. de Montanha"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Divisão de Inf. de Montanha" }
+		2 = { "%da Divisão de Inf. de Montanha" }
+		3 = { "%da Divisão de Inf. de Montanha" }
+		4 = { "%da Divisão de Inf. de Montanha" }
+		5 = { "%da Divisão de Inf. de Montanha" }
+		6 = { "%da Divisão de Inf. de Montanha" }
+		7 = { "%da Divisão de Inf. de Montanha" }
+		8 = { "%da Divisão de Inf. de Montanha" }
+		9 = { "%da Divisão de Inf. de Montanha" }
+		10 = { "%da Divisão de Inf. de Montanha" }
+	}
+}
+
+POR_GAR_01 = 
+{
+	name = "Garrison Division"
+
+	for_countries = { POR }
+
+	can_use = { always = yes }
+
+	division_types = { apdc_infantry }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { POR_INF_01 }
+
+	fallback_name = "%da Divisão de Guarnição"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Divisão de Guarnição" }
+		2 = { "%da Divisão de Guarnição" }
+		3 = { "%da Divisão de Guarnição" }
+		4 = { "%da Divisão de Guarnição" }
+		5 = { "%da Divisão de Guarnição" }
+		6 = { "%da Divisão de Guarnição" }
+		7 = { "%da Divisão de Guarnição" }
+		8 = { "%da Divisão de Guarnição" }
+		9 = { "%da Divisão de Guarnição" }
+		10 = { "%da Divisão de Guarnição" }
+	}
+}
+
+POR_CAC_01 = 
+{
+	name = "Caçadores Force"
+
+	for_countries = { POR }
+
+	can_use = { always = yes }
+
+	division_types = { apdc_infantry }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { POR_INF_01 }
+
+	fallback_name = "%da Força de Caçadores"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Força de Caçadores" }
+		2 = { "%da Força de Caçadores" }
+		3 = { "%da Força de Caçadores" }
+		4 = { "%da Força de Caçadores" }
+		5 = { "%da Força de Caçadores" }
+		6 = { "%da Força de Caçadores" }
+		21 = { "Caçadores de Azores" }
+		22 = { "1a Caçadores de Angola" }
+		23 = { "2a Caçadores de Angola" }
+		24 = { "1a Caçadores de Moçambique" }
+		25 = { "2a Caçadores de Moçambique" }
+		26 = { "1a Caçadores de Guiné" }
+		27 = { "2a Caçadores de Guiné" }
+		28 = { "Caçadores de Goa" }
+		29 = { "3a Caçadores de Angola" }
+		30 = { "Caçadores de Macau" }
+		31 = { "2a Caçadores de Guiné" }
+		7 = { "%da Força de Caçadores" }
+		8 = { "%da Força de Caçadores" }
+		9 = { "%da Força de Caçadores" }
+		10 = { "%da Força de Caçadores" }
+	}
+}

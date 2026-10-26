@@ -1,0 +1,291 @@
+--- before/common/decisions/GFCC_area.txt
++++ current/common/decisions/GFCC_area.txt
+@@ -1,144 +1,144 @@
+-# GFCC_area_Pollution 地区坍塌污染
+-# GFCC_area_Pollution_1 启动污染净化设施
+-
+-# GFCC_area_Pollution 地区坍塌污染
+-GFCC_area_Pollution = {
+-	GFCC_area_Pollution_debug = {
+-		allowed = {
+-			is_debug = yes
+-		}
+-		# target_array = controlled_states
+-		# state_target = yes
+-		# on_map_mode = map_and_decisions_view
+-		complete_effect = {
+-			set_technology = { GFCC_area_Pollution_B1_tech = 1 }
+-		}
+-	}
+-	# GFCC_area_Pollution_debug1 = {
+-	# 	allowed = {
+-	# 		is_debug = yes
+-	# 	}
+-	# 	available = {
+-	# 		FROM = {
+-	# 			any_neighbor_state = {
+-	# 				has_state_flag = GFCC_area_Pollution_flag #如果有污染标记，则以下成立
+-	# 				check_variable = { GFCC_area_Pollution_var > 9999 }
+-	# 			}
+-	# 		}
+-	# 	}
+-	# 	target_array = controlled_states
+-	# 	state_target = yes
+-	# 	on_map_mode = map_and_decisions_view
+-	# 	complete_effect = {
+-	# 		FROM = {
+-	# 			if = {
+-	# 				limit = {
+-	# 					any_neighbor_state = {
+-	# 						has_state_flag = GFCC_area_Pollution_flag #如果有污染标记，则以下成立
+-	# 						check_variable = { GFCC_area_Pollution_var > 9999 }
+-	# 					}
+-	# 				}
+-	# 				add_to_variable = { GFCC_area_Pollution_var = 10 }
+-	# 				clamp_variable = {
+-	# 					var = GFCC_area_Pollution_var
+-	# 					min = 0
+-	# 					max = 99999
+-	# 				}
+-	# 			}
+-	# 		}
+-	# 	}
+-	# }
+-	GFCC_area_debug_snow = {
+-		visible = {
+-			is_debug = yes
+-		}
+-		complete_effect = {
+-			if = {
+-				limit = {
+-					NOT = { has_global_flag = GFCC_area_debug_snow_flag }
+-				}
+-				set_global_flag = GFCC_area_debug_snow_flag
+-			}
+-			else = {
+-				clr_global_flag = GFCC_area_debug_snow_flag
+-			}
+-		}
+-	}
+-	GFCC_area_Pollution_debug2 = {
+-		visible = {
+-			is_debug = yes
+-			has_global_flag = GFCC_area_debug_snow_flag
+-		}
+-		available = {
+-			
+-		}
+-		target_array = controlled_states
+-		state_target = yes
+-		on_map_mode = map_and_decisions_view
+-		complete_effect = {
+-			FROM = { add_to_variable = { GFCC_area_Pollution_var = 10011 } }
+-			
+-		}
+-	}
+-	# 安全度调试
+-	GFCC_area_security_debug = {
+-		visible = {
+-			is_debug = yes
+-			has_global_flag = GFCC_area_debug_snow_flag
+-		}
+-		target_array = controlled_states
+-		state_target = yes
+-		on_map_mode = map_and_decisions_view
+-		complete_effect = {
+-			FROM = { set_variable = { var = GFCC_area_security_var value = 0 } }
+-		}
+-	}
+-	# 重建度调试
+-	GFCC_area_reconstruction_debug = {
+-		visible = {
+-			is_debug = yes
+-			has_global_flag = GFCC_area_debug_snow_flag
+-		}
+-		target_array = controlled_states
+-		state_target = yes
+-		on_map_mode = map_and_decisions_view
+-		complete_effect = {
+-			FROM = { set_variable = { var = GFCC_area_reconstruction_var value = 0 } }
+-		}
+-	}
+-	# GFCC_area_Pollution_1 启动污染净化设施
+-	GFCC_area_Pollution_1 = {
+-		priority = 1
+-		target_array = controlled_states
+-		state_target = yes 
+-		on_map_mode = map_and_decisions_view
+-		# icon = GFX_modifiers_SLEOGAS 
+-		cost = 50
+-		target_trigger = {
+-			FROM = {
+-				is_fully_controlled_by = ROOT
+-				GFCC_area_Pollution_B1 > 0
+-			}
+-		}
+-		available = {
+-			FROM = {
+-				GFCC_area_Pollution_B1 > 0
+-			}
+-		}
+-		# visible = {
+-			
+-		# }
+-		# days_re_enable = 90
+-		# days_remove = 30
+-
+-		# modifier = {
+-		
+-		# }
+-
+-		remove_effect = {
+-			# ROOT = {
+-			# 	set_technology = GFCC_area_Pollution_B1_tech
+-			# }
+-		}
+-	}
+-}
++# GFCC_area_Pollution 地区坍塌污染
++# GFCC_area_Pollution_1 启动污染净化设施
++
++# GFCC_area_Pollution 地区坍塌污染
++GFCC_area_Pollution = {
++	GFCC_area_Pollution_debug = {
++		visible = {
++			is_debug = yes
++		}
++		# target_array = controlled_states
++		# state_target = yes
++		# on_map_mode = map_and_decisions_view
++		complete_effect = {
++			set_technology = { GFCC_area_Pollution_B1_tech = 1 }
++		}
++	}
++	# GFCC_area_Pollution_debug1 = {
++	# 	allowed = {
++	# 		is_debug = yes
++	# 	}
++	# 	available = {
++	# 		FROM = {
++	# 			any_neighbor_state = {
++	# 				has_state_flag = GFCC_area_Pollution_flag #如果有污染标记，则以下成立
++	# 				check_variable = { GFCC_area_Pollution_var > 9999 }
++	# 			}
++	# 		}
++	# 	}
++	# 	target_array = controlled_states
++	# 	state_target = yes
++	# 	on_map_mode = map_and_decisions_view
++	# 	complete_effect = {
++	# 		FROM = {
++	# 			if = {
++	# 				limit = {
++	# 					any_neighbor_state = {
++	# 						has_state_flag = GFCC_area_Pollution_flag #如果有污染标记，则以下成立
++	# 						check_variable = { GFCC_area_Pollution_var > 9999 }
++	# 					}
++	# 				}
++	# 				add_to_variable = { GFCC_area_Pollution_var = 10 }
++	# 				clamp_variable = {
++	# 					var = GFCC_area_Pollution_var
++	# 					min = 0
++	# 					max = 99999
++	# 				}
++	# 			}
++	# 		}
++	# 	}
++	# }
++	GFCC_area_debug_snow = {
++		visible = {
++			is_debug = yes
++		}
++		complete_effect = {
++			if = {
++				limit = {
++					NOT = { has_global_flag = GFCC_area_debug_snow_flag }
++				}
++				set_global_flag = GFCC_area_debug_snow_flag
++			}
++			else = {
++				clr_global_flag = GFCC_area_debug_snow_flag
++			}
++		}
++	}
++	GFCC_area_Pollution_debug2 = {
++		visible = {
++			is_debug = yes
++			has_global_flag = GFCC_area_debug_snow_flag
++		}
++		available = {
++			
++		}
++		target_array = controlled_states
++		state_target = yes
++		on_map_mode = map_and_decisions_view
++		complete_effect = {
++			FROM = { add_to_variable = { GFCC_area_Pollution_var = 10011 } }
++			
++		}
++	}
++	# 安全度调试
++	GFCC_area_security_debug = {
++		visible = {
++			is_debug = yes
++			has_global_flag = GFCC_area_debug_snow_flag
++		}
++		target_array = controlled_states
++		state_target = yes
++		on_map_mode = map_and_decisions_view
++		complete_effect = {
++			FROM = { set_variable = { var = GFCC_area_security_var value = 0 } }
++		}
++	}
++	# 重建度调试
++	GFCC_area_reconstruction_debug = {
++		visible = {
++			is_debug = yes
++			has_global_flag = GFCC_area_debug_snow_flag
++		}
++		target_array = controlled_states
++		state_target = yes
++		on_map_mode = map_and_decisions_view
++		complete_effect = {
++			FROM = { set_variable = { var = GFCC_area_reconstruction_var value = 0 } }
++		}
++	}
++	# GFCC_area_Pollution_1 启动污染净化设施
++	GFCC_area_Pollution_1 = {
++		priority = 1
++		target_array = controlled_states
++		state_target = yes 
++		on_map_mode = map_and_decisions_view
++		# icon = GFX_modifiers_SLEOGAS 
++		cost = 50
++		target_trigger = {
++			FROM = {
++				is_fully_controlled_by = ROOT
++				GFCC_area_Pollution_B1 > 0
++			}
++		}
++		available = {
++			FROM = {
++				GFCC_area_Pollution_B1 > 0
++			}
++		}
++		# visible = {
++			
++		# }
++		# days_re_enable = 90
++		# days_remove = 30
++
++		# modifier = {
++		
++		# }
++
++		remove_effect = {
++			# ROOT = {
++			# 	set_technology = GFCC_area_Pollution_B1_tech
++			# }
++		}
++	}
++}

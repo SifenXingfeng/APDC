@@ -1,0 +1,44 @@
+state = {
+	id = 1410
+	name = "STATE_1410"
+	provinces = {
+		5077
+		8058
+		14198
+		14203
+		14218
+		15424
+		17309
+		18009
+		18021
+		18027
+		18037
+		18039
+		18049
+		18050
+	}
+	manpower = 121154
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+	history = {
+		owner = MRT
+		controller = MRT
+		add_core_of = MRT
+		victory_points = {
+			8058
+			1
+		}
+		victory_points = {
+			14198
+			3
+		}
+		victory_points = {
+			14218
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

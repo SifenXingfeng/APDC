@@ -1,0 +1,24 @@
+APDC_land_roles = {
+ enable = { always = yes }
+ abort_when_not_enabled = yes
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 80
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = motorized
+		value = 10
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 5
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = apdc_automation
+		value = 5
+	}
+}

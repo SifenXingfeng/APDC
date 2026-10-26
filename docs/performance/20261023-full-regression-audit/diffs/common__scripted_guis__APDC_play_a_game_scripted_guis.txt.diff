@@ -1,0 +1,490 @@
+--- before/common/scripted_guis/APDC_play_a_game_scripted_guis.txt
++++ current/common/scripted_guis/APDC_play_a_game_scripted_guis.txt
+@@ -1,244 +1,244 @@
+-
+-scripted_gui = {
+-	#大博弈局势按钮
+-	APDC_play_a_game_decision_ui_button = {
+-		context_type = player_context
+-		window_name = "APDC_play_a_game_decision_ui_button"
+-		parent_window_token = top_bar
+-		visible = {
+-			always = yes
+-		}
+-		effects = {
+-			APDC_game_start_button_icon_click = {
+-				APDC_game_start_button_effect = yes
+-			}
+-		}
+-	}
+-	#大博弈局势ui
+-	APDC_play_a_game_decision_ui = {
+-		context_type = player_context
+-		window_name = "APDC_play_a_game_decision_ui"
+-		visible = {
+-			has_country_flag = APDC_game_start
+-		}
+-		effects = {
+-			FRA_game_button_icon_click = {
+-				set_variable = { APDC_game_action = 1 }
+-			}
+-			ENG_game_button_icon_click = {
+-				set_variable = { APDC_game_action = 2 }
+-			}
+-			LUX_game_button_icon_click = {
+-				set_variable = { APDC_game_action = 3 }
+-			}
+-			close_button_click = {
+-				APDC_game_start_button_effect = yes
+-			}
+-		}
+-		properties = {
+-			FRA_game_button_icon = {
+-				frame = FRA.APDC_game_button_frame
+-			}
+-			ENG_game_button_icon = {
+-				frame = ENG.APDC_game_button_frame
+-			}
+-			LUX_game_button_icon = {
+-				frame = LUX.APDC_game_button_frame
+-			}
+-		}
+-	}
+-	#大博弈针对法国行动ui
+-	APDC_game_FRA_action_ui = {
+-		context_type = player_context
+-		window_name = "APDC_game_FRA_action_ui"
+-		parent_window_name = APDC_play_a_game_decision_ui
+-		visible = {
+-			check_variable = { APDC_game_action = 1 }
+-		}
+-		triggers = {
+-			FRA_action_increase_SOV_tendency_visible = {
+-				NOT = { original_tag = USA }
+-			}
+-			FRA_action_decrease_SOV_tendency_visible = {
+-				NOT = { original_tag = SOV }
+-			}
+-			FRA_action_increase_USA_tendency_visible = {
+-				NOT = { original_tag = SOV }
+-			}
+-			FRA_action_decrease_USA_tendency_visible = {
+-				NOT = { original_tag = USA }
+-			}
+-			FRA_action_increase_SOV_tendency_click_enabled = {
+-				APDC_game_FRA_action_cd_trigger = yes
+-			}
+-			FRA_action_decrease_SOV_tendency_click_enabled = {
+-				APDC_game_FRA_action_cd_trigger = yes
+-			}
+-			FRA_action_increase_USA_tendency_click_enabled = {
+-				APDC_game_FRA_action_cd_trigger = yes
+-			}
+-			FRA_action_decrease_USA_tendency_click_enabled = {
+-				APDC_game_FRA_action_cd_trigger = yes
+-			}
+-		}
+-		effects = {
+-			FRA_action_increase_SOV_tendency_click = {
+-				FRA = {
+-					APDC_game_increase_SOV_tendency = yes
+-				}
+-				APDC_game_FRA_action_cd_effect = yes
+-			}
+-			FRA_action_decrease_SOV_tendency_click = {
+-				FRA = {
+-					APDC_game_decrease_SOV_tendency = yes
+-				}
+-				APDC_game_FRA_action_cd_effect = yes
+-			}
+-			FRA_action_increase_USA_tendency_click = {
+-				FRA = {
+-					APDC_game_increase_USA_tendency = yes
+-				}
+-				APDC_game_FRA_action_cd_effect = yes
+-			}
+-			FRA_action_decrease_USA_tendency_click = {
+-				FRA = {
+-					APDC_game_decrease_USA_tendency = yes
+-				}
+-				APDC_game_FRA_action_cd_effect = yes
+-			}
+-		}
+-		properties = {
+-
+-		}
+-	}
+-	#大博弈针对英国行动ui
+-	APDC_game_ENG_action_ui = {
+-		context_type = player_context
+-		window_name = "APDC_game_ENG_action_ui"
+-		parent_window_name = APDC_play_a_game_decision_ui
+-		visible = {
+-			check_variable = { APDC_game_action = 2 }
+-		}
+-		triggers = {
+-			ENG_action_increase_SOV_tendency_visible = {
+-				NOT = { original_tag = USA }
+-			}
+-			ENG_action_decrease_SOV_tendency_visible = {
+-				NOT = { original_tag = SOV }
+-			}
+-			ENG_action_increase_USA_tendency_visible = {
+-				NOT = { original_tag = SOV }
+-			}
+-			ENG_action_decrease_USA_tendency_visible = {
+-				NOT = { original_tag = USA }
+-			}
+-			ENG_action_increase_SOV_tendency_click_enabled = {
+-				APDC_game_ENG_action_cd_trigger = yes
+-			}
+-			ENG_action_decrease_SOV_tendency_click_enabled = {
+-				APDC_game_ENG_action_cd_trigger = yes
+-			}
+-			ENG_action_increase_USA_tendency_click_enabled = {
+-				APDC_game_ENG_action_cd_trigger = yes
+-			}
+-			ENG_action_decrease_USA_tendency_click_enabled = {
+-				APDC_game_ENG_action_cd_trigger = yes
+-			}
+-		}
+-		effects = {
+-			
+-			ENG_action_increase_SOV_tendency_click = {
+-				ENG = {
+-					APDC_game_increase_SOV_tendency = yes
+-				}
+-				APDC_game_ENG_action_cd_effect = yes
+-			}
+-			ENG_action_decrease_SOV_tendency_click = {
+-				ENG = {
+-					APDC_game_decrease_SOV_tendency = yes
+-				}
+-				APDC_game_ENG_action_cd_effect = yes
+-			}
+-			ENG_action_increase_USA_tendency_click = {
+-				ENG = {
+-					APDC_game_increase_USA_tendency = yes
+-				}
+-				APDC_game_ENG_action_cd_effect = yes
+-			}
+-			ENG_action_decrease_USA_tendency_click = {
+-				ENG = {
+-					APDC_game_decrease_USA_tendency = yes
+-				}
+-				APDC_game_ENG_action_cd_effect = yes
+-			}
+-		}
+-		properties = {
+-
+-		}
+-	}
+-	#大博弈针对低地三国行动ui
+-	APDC_game_LUX_action_ui = {
+-		context_type = player_context
+-		window_name = "APDC_game_LUX_action_ui"
+-		parent_window_name = APDC_play_a_game_decision_ui
+-		visible = {
+-			check_variable = { APDC_game_action = 3 }
+-		}
+-		triggers = {
+-			LUX_action_increase_SOV_tendency_visible = {
+-				NOT = { original_tag = USA }
+-			}
+-			LUX_action_decrease_SOV_tendency_visible = {
+-				NOT = { original_tag = SOV }
+-			}
+-			LUX_action_increase_USA_tendency_visible = {
+-				NOT = { original_tag = SOV }
+-			}
+-			LUX_action_decrease_USA_tendency_visible = {
+-				NOT = { original_tag = USA }
+-			}
+-			LUX_action_increase_SOV_tendency_click_enabled = {
+-				APDC_game_LUX_action_cd_trigger = yes
+-			}
+-			LUX_action_decrease_SOV_tendency_click_enabled = {
+-				APDC_game_LUX_action_cd_trigger = yes
+-			}
+-			LUX_action_increase_USA_tendency_click_enabled = {
+-				APDC_game_LUX_action_cd_trigger = yes
+-			}
+-			LUX_action_decrease_USA_tendency_click_enabled = {
+-				APDC_game_LUX_action_cd_trigger = yes
+-			}
+-		}
+-		effects = {
+-			
+-			LUX_action_increase_SOV_tendency_click = {
+-				LUX = {
+-					APDC_game_increase_SOV_tendency = yes
+-				}
+-				APDC_game_LUX_action_cd_effect = yes
+-			}
+-			LUX_action_decrease_SOV_tendency_click = {
+-				LUX = {
+-					APDC_game_decrease_SOV_tendency = yes
+-				}
+-				APDC_game_LUX_action_cd_effect = yes
+-			}
+-			LUX_action_increase_USA_tendency_click = {
+-				LUX = {
+-					APDC_game_increase_USA_tendency = yes
+-				}
+-				APDC_game_LUX_action_cd_effect = yes
+-			}
+-			LUX_action_decrease_USA_tendency_click = {
+-				LUX = {
+-					APDC_game_decrease_USA_tendency = yes
+-				}
+-				APDC_game_LUX_action_cd_effect = yes
+-			}
+-		}
+-		properties = {
+-
+-		}
+-	}
++
++scripted_gui = {
++	#大博弈局势按钮
++	APDC_play_a_game_decision_ui_button = {
++		context_type = player_context
++		window_name = "APDC_play_a_game_decision_ui_button"
++		parent_window_token = top_bar
++		visible = {
++			always = yes
++		}
++		effects = {
++			APDC_game_start_button_icon_click = {
++				APDC_game_start_button_effect = yes
++			}
++		}
++	}
++	#大博弈局势ui
++	APDC_play_a_game_decision_ui = {
++		context_type = player_context
++		window_name = "APDC_play_a_game_decision_ui"
++		visible = {
++			has_country_flag = APDC_game_start
++		}
++		effects = {
++			FRA_game_button_icon_click = {
++				set_variable = { APDC_game_action = 1 }
++			}
++			ENG_game_button_icon_click = {
++				set_variable = { APDC_game_action = 2 }
++			}
++			LUX_game_button_icon_click = {
++				set_variable = { APDC_game_action = 3 }
++			}
++			close_button_click = {
++				APDC_game_start_button_effect = yes
++			}
++		}
++		properties = {
++			FRA_game_button_icon = {
++				frame = FRA.APDC_game_button_frame
++			}
++			ENG_game_button_icon = {
++				frame = ENG.APDC_game_button_frame
++			}
++			LUX_game_button_icon = {
++				frame = LUX.APDC_game_button_frame
++			}
++		}
++	}
++	#大博弈针对法国行动ui
++	APDC_game_FRA_action_ui = {
++		context_type = player_context
++		window_name = "APDC_game_FRA_action_ui"
++		parent_window_name = APDC_play_a_game_decision_ui
++		visible = {
++			check_variable = { APDC_game_action = 1 }
++		}
++		triggers = {
++			FRA_action_increase_SOV_tendency_visible = {
++				NOT = { original_tag = USA }
++			}
++			FRA_action_decrease_SOV_tendency_visible = {
++				NOT = { original_tag = SOV }
++			}
++			FRA_action_increase_USA_tendency_visible = {
++				NOT = { original_tag = SOV }
++			}
++			FRA_action_decrease_USA_tendency_visible = {
++				NOT = { original_tag = USA }
++			}
++			FRA_action_increase_SOV_tendency_click_enabled = {
++				APDC_game_FRA_action_cd_trigger = yes
++			}
++			FRA_action_decrease_SOV_tendency_click_enabled = {
++				APDC_game_FRA_action_cd_trigger = yes
++			}
++			FRA_action_increase_USA_tendency_click_enabled = {
++				APDC_game_FRA_action_cd_trigger = yes
++			}
++			FRA_action_decrease_USA_tendency_click_enabled = {
++				APDC_game_FRA_action_cd_trigger = yes
++			}
++		}
++		effects = {
++			FRA_action_increase_SOV_tendency_click = {
++				FRA = {
++					APDC_game_increase_SOV_tendency = yes
++				}
++				APDC_game_FRA_action_cd_effect = yes
++			}
++			FRA_action_decrease_SOV_tendency_click = {
++				FRA = {
++					APDC_game_decrease_SOV_tendency = yes
++				}
++				APDC_game_FRA_action_cd_effect = yes
++			}
++			FRA_action_increase_USA_tendency_click = {
++				FRA = {
++					APDC_game_increase_USA_tendency = yes
++				}
++				APDC_game_FRA_action_cd_effect = yes
++			}
++			FRA_action_decrease_USA_tendency_click = {
++				FRA = {
++					APDC_game_decrease_USA_tendency = yes
++				}
++				APDC_game_FRA_action_cd_effect = yes
++			}
++		}
++		properties = {
++
++		}
++	}
++	#大博弈针对英国行动ui
++	APDC_game_ENG_action_ui = {
++		context_type = player_context
++		window_name = "APDC_game_ENG_action_ui"
++		parent_window_name = APDC_play_a_game_decision_ui
++		visible = {
++			check_variable = { APDC_game_action = 2 }
++		}
++		triggers = {
++			ENG_action_increase_SOV_tendency_visible = {
++				NOT = { original_tag = USA }
++			}
++			ENG_action_decrease_SOV_tendency_visible = {
++				NOT = { original_tag = SOV }
++			}
++			ENG_action_increase_USA_tendency_visible = {
++				NOT = { original_tag = SOV }
++			}
++			ENG_action_decrease_USA_tendency_visible = {
++				NOT = { original_tag = USA }
++			}
++			ENG_action_increase_SOV_tendency_click_enabled = {
++				APDC_game_ENG_action_cd_trigger = yes
++			}
++			ENG_action_decrease_SOV_tendency_click_enabled = {
++				APDC_game_ENG_action_cd_trigger = yes
++			}
++			ENG_action_increase_USA_tendency_click_enabled = {
++				APDC_game_ENG_action_cd_trigger = yes
++			}
++			ENG_action_decrease_USA_tendency_click_enabled = {
++				APDC_game_ENG_action_cd_trigger = yes
++			}
++		}
++		effects = {
++			
++			ENG_action_increase_SOV_tendency_click = {
++				ENG = {
++					APDC_game_increase_SOV_tendency = yes
++				}
++				APDC_game_ENG_action_cd_effect = yes
++			}
++			ENG_action_decrease_SOV_tendency_click = {
++				ENG = {
++					APDC_game_decrease_SOV_tendency = yes
++				}
++				APDC_game_ENG_action_cd_effect = yes
++			}
++			ENG_action_increase_USA_tendency_click = {
++				ENG = {
++					APDC_game_increase_USA_tendency = yes
++				}
++				APDC_game_ENG_action_cd_effect = yes
++			}
++			ENG_action_decrease_USA_tendency_click = {
++				ENG = {
++					APDC_game_decrease_USA_tendency = yes
++				}
++				APDC_game_ENG_action_cd_effect = yes
++			}
++		}
++		properties = {
++
++		}
++	}
++	#大博弈针对低地三国行动ui
++	APDC_game_LUX_action_ui = {
++		context_type = player_context
++		window_name = "APDC_game_LUX_action_ui"
++		parent_window_name = APDC_play_a_game_decision_ui
++		visible = {
++			check_variable = { APDC_game_action = 3 }
++		}
++		triggers = {
++			LUX_action_increase_SOV_tendency_visible = {
++				NOT = { original_tag = USA }
++			}
++			LUX_action_decrease_SOV_tendency_visible = {
++				NOT = { original_tag = SOV }
++			}
++			LUX_action_increase_USA_tendency_visible = {
++				NOT = { original_tag = SOV }
++			}
++			LUX_action_decrease_USA_tendency_visible = {
++				NOT = { original_tag = USA }
++			}
++			LUX_action_increase_SOV_tendency_click_enabled = {
++				APDC_game_BEL_action_cd_trigger = yes
++			}
++			LUX_action_decrease_SOV_tendency_click_enabled = {
++				APDC_game_BEL_action_cd_trigger = yes
++			}
++			LUX_action_increase_USA_tendency_click_enabled = {
++				APDC_game_BEL_action_cd_trigger = yes
++			}
++			LUX_action_decrease_USA_tendency_click_enabled = {
++				APDC_game_BEL_action_cd_trigger = yes
++			}
++		}
++		effects = {
++			
++			LUX_action_increase_SOV_tendency_click = {
++				LLU = {
++					APDC_game_increase_SOV_tendency = yes
++				}
++				APDC_game_BEL_action_cd_effect = yes
++			}
++			LUX_action_decrease_SOV_tendency_click = {
++				LLU = {
++					APDC_game_decrease_SOV_tendency = yes
++				}
++				APDC_game_BEL_action_cd_effect = yes
++			}
++			LUX_action_increase_USA_tendency_click = {
++				LLU = {
++					APDC_game_increase_USA_tendency = yes
++				}
++				APDC_game_BEL_action_cd_effect = yes
++			}
++			LUX_action_decrease_USA_tendency_click = {
++				LLU = {
++					APDC_game_decrease_USA_tendency = yes
++				}
++				APDC_game_BEL_action_cd_effect = yes
++			}
++		}
++		properties = {
++
++		}
++	}
+ }

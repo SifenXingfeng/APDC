@@ -1,0 +1,20 @@
+--- before/common/military_industrial_organization/organizations/ETH_organization.txt
++++ current/common/military_industrial_organization/organizations/ETH_organization.txt
+@@ -54,7 +54,7 @@
+ 		has_dlc = "By Blood Alone"
+ 	}
+ 	available = {
+-		owner = { has_completed_focus = ETH_invest_in_the_west }
++		owner = { always = no }
+ 	}
+ }
+ ETH_hmmbi_organization = {
+@@ -66,7 +66,7 @@
+ 		has_dlc = "By Blood Alone"
+ 	}
+ 	available = {
+-		owner = { has_completed_focus = ETH_invest_in_the_north }
++		owner = { always = no }
+ 	}
+ }
+ 

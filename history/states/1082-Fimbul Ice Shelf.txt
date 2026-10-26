@@ -1,0 +1,19 @@
+state = {
+	id = 1082
+	name = "FIMBUL_ICE_SHELF"
+	manpower = 1
+	state_category = wasteland
+	history = {
+		owner = ATU
+		controller = ATU
+		add_core_of = ATU
+		set_state_flag = ice_shelf
+	}
+	provinces = {
+		16403
+		17655
+		17690
+		17693
+	}
+	local_supplies = 0.0
+}

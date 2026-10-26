@@ -1,0 +1,11 @@
+--- before/common/abilities/PHI_abilities.txt
++++ current/common/abilities/PHI_abilities.txt
+@@ -11,7 +11,7 @@
+ 			is_leading_army_group = no
+ 			is_border_war = no
+ 			OWNER = {
+-				has_completed_focus = PHI_utang_na_loob
++				always = no
+ 			}
+ 		}
+ 		

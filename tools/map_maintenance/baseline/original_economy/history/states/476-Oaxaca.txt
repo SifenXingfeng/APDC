@@ -1,0 +1,31 @@
+
+state={
+	id=476
+	name="STATE_476"
+	manpower = 1663331
+	
+	state_category = rural
+
+	resources={
+		oil=8
+	}
+	
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+		}
+		add_core_of = MEX
+		victory_points = {
+			10889 1
+		}
+	}
+
+	provinces={
+		8236 10773 12712 14482 14483 14484 16887 16984 17142 17319 17329 17330 
+	}
+	
+
+	local_supplies=8.0 
+}

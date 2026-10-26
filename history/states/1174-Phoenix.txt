@@ -1,0 +1,29 @@
+state = {
+	impassable = yes
+	id = 1174
+	name = "STATE_1174"
+	provinces = {
+		853
+	}
+	manpower = 31112
+	resources = {
+		aluminium = 1
+		steel = 1
+	}
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = USA
+		add_core_of = ZZZ
+		victory_points = {
+			853
+			20
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

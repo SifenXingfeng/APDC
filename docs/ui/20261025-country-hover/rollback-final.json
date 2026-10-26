@@ -1,0 +1,53 @@
+{
+  "whole_country_hover_not_implemented": true,
+  "world_feedback_overlay_removed": true,
+  "world_shader_Over_Down_same_as_Up": true,
+  "world_click_callbacks_byte_identical_to_before_feedback": true,
+  "return_and_law_button_feedback_preserved": true,
+  "rebuild_byte_identical": true,
+  "tests_stopped": [
+    {
+      "profile": "D:\\APDC_CountryHoverProbe_20261025_181124",
+      "cleanup": {
+        "closed_helpers": [
+          3428,
+          12416
+        ],
+        "steam_app_running": false,
+        "still_running": false,
+        "stopped": "2026-10-25T18:13:07.1740546+08:00",
+        "pid": 40308,
+        "remaining_helpers": []
+      }
+    },
+    {
+      "profile": "D:\\APDC_CountryGroupProbe_20261025_181403",
+      "cleanup": {
+        "still_running": false,
+        "pid": 40940,
+        "stopped": "2026-10-25T18:17:18.0007777+08:00",
+        "steam_app_running": false,
+        "closed_helpers": [
+          40708,
+          45060
+        ],
+        "remaining_helpers": []
+      }
+    },
+    {
+      "profile": "D:\\APDC_CountryGroupProbe_20261025_181812",
+      "cleanup": {
+        "still_running": false,
+        "stopped": "2026-10-25T18:19:38.2894322+08:00",
+        "remaining_helpers": [],
+        "pid": 4024,
+        "steam_app_running": false,
+        "closed_helpers": [
+          23444,
+          36324
+        ]
+      }
+    }
+  ],
+  "validation": "Static bindings, shader effect mappings, original callback byte comparison, existing UI and map-geometry audits. No additional main-project game launch for the rollback."
+}

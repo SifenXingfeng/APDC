@@ -1,0 +1,198 @@
+{
+  "files": 29,
+  "geometry_differences": [
+    {
+      "file": "interface/APDC_cooperation_organizations.gui",
+      "name": "APDC_cooperation_organization_chair_flag",
+      "key": "centerposition",
+      "old": null,
+      "new": [
+        "centerposition",
+        "=",
+        "yes",
+        []
+      ]
+    },
+    {
+      "file": "interface/APDC_cooperation_organizations.gui",
+      "name": "APDC_cooperation_organization_member_flag",
+      "key": "centerposition",
+      "old": null,
+      "new": [
+        "centerposition",
+        "=",
+        "yes",
+        []
+      ]
+    },
+    {
+      "file": "interface/APDC_cooperation_organizations.gui",
+      "name": "APDC_diplomacy_cooperation_organization_member_flag",
+      "key": "centerposition",
+      "old": null,
+      "new": [
+        "centerposition",
+        "=",
+        "yes",
+        []
+      ]
+    },
+    {
+      "file": "interface/APDC_cooperation_organizations.gui",
+      "name": "APDC_cooperation_vote_member_flag",
+      "key": "centerposition",
+      "old": null,
+      "new": [
+        "centerposition",
+        "=",
+        "yes",
+        []
+      ]
+    },
+    {
+      "file": "interface/APDC_super_event.gui",
+      "name": "APDC_super_event_picture_clip",
+      "key": "Orientation",
+      "old": [
+        "Orientation",
+        "=",
+        "\"UPPER_LEFT\"",
+        []
+      ],
+      "new": [
+        "Orientation",
+        "=",
+        "upper_left",
+        []
+      ]
+    },
+    {
+      "file": "interface/APDC_super_event.gui",
+      "name": "APDC_super_event_picture",
+      "key": "Orientation",
+      "old": [
+        "Orientation",
+        "=",
+        "\"UPPER_LEFT\"",
+        []
+      ],
+      "new": [
+        "Orientation",
+        "=",
+        "upper_left",
+        []
+      ]
+    },
+    {
+      "file": "interface/APDC_super_event.gui",
+      "name": "APDC_super_event_frame",
+      "key": "Orientation",
+      "old": [
+        "Orientation",
+        "=",
+        "\"UPPER_LEFT\"",
+        []
+      ],
+      "new": [
+        "Orientation",
+        "=",
+        "upper_left",
+        []
+      ]
+    }
+  ],
+  "binding_differences": [
+    {
+      "file": "interface/APDC_super_event.gui",
+      "name": "APDC_super_event_comment_button",
+      "key": "shortcut",
+      "old": [
+        "shortcut",
+        "=",
+        "\"ENTER\"",
+        []
+      ],
+      "new": [
+        "shortcut",
+        "=",
+        "\"RETURN\"",
+        []
+      ]
+    },
+    {
+      "file": "interface/factions/countryfactionview.gui",
+      "name": "goal_icon",
+      "key": "quadTextureSprite",
+      "old": [
+        "quadTextureSprite",
+        "=",
+        "\"\"",
+        []
+      ],
+      "new": [
+        "quadTextureSprite",
+        "=",
+        "\"GFX_APDC_eco_hitbox\"",
+        []
+      ]
+    },
+    {
+      "file": "interface/factions/countryfactionview.gui",
+      "name": "goal_icon",
+      "key": "quadTextureSprite",
+      "old": [
+        "quadTextureSprite",
+        "=",
+        "\"\"",
+        []
+      ],
+      "new": [
+        "quadTextureSprite",
+        "=",
+        "\"GFX_APDC_eco_hitbox\"",
+        []
+      ]
+    },
+    {
+      "file": "interface/factions/countryfactionview.gui",
+      "name": "icon",
+      "key": "spriteType",
+      "old": [
+        "spriteType",
+        "=",
+        "\"\"",
+        []
+      ],
+      "new": [
+        "spriteType",
+        "=",
+        "\"GFX_APDC_eco_hitbox\"",
+        []
+      ]
+    },
+    {
+      "file": "interface/factions/countryfactionview.gui",
+      "name": "type_icon",
+      "key": "spriteType",
+      "old": [
+        "spriteType",
+        "=",
+        "\"\"",
+        []
+      ],
+      "new": [
+        "spriteType",
+        "=",
+        "\"GFX_APDC_eco_hitbox\"",
+        []
+      ]
+    }
+  ],
+  "removed_widgets": [
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "name": "armour_subtitle_main_battle",
+      "path": "(('guiTypes', 'guiTypes', 0), ('containerWindowType', 'countrytechtreeview', 0), ('containerWindowType', 'armour_folder', 0), ('instantTextBoxType', 'armour_subtitle_main_battle', 1))"
+    }
+  ]
+}

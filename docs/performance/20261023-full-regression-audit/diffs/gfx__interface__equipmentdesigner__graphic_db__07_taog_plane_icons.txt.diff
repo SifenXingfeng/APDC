@@ -1,0 +1,1129 @@
+--- before/gfx/interface/equipmentdesigner/graphic_db/07_taog_plane_icons.txt
++++ current/gfx/interface/equipmentdesigner/graphic_db/07_taog_plane_icons.txt
+@@ -0,0 +1,1126 @@
++####################################################### Australia #########################################################
++
++AST = {
++
++	### SMALL AIRFRAME (FIGHTER) ###########################################
++
++	small_plane_airframe = {
++		pool = {
++			icons = {
++				GFX_AST_modern_small_fighter_2_medium #Modern Fighter 2
++				GFX_AST_modern_small_fighter_1_medium #Modern Fighter
++				GFX_AST_advanced_small_fighter_1_medium #Advanced Fighter
++				GFX_AST_improved_small_fighter_1_medium #Improved Fighter
++				GFX_AST_basic_small_fighter_1_medium #Basic Fighter
++				GFX_AST_iw_small_fighter_1_medium #IW Fighter
++			}
++			models = {
++				AST_jet_plane_entity #de Havilland Vampire (Modern Jet)
++				AST_fighter_equipment_3_entity #CAC CA-15 (Advanced)
++				AST_fighter_equipment_2_entity #CAC Boomerang (Improved)
++				AST_fighter_equipment_1_entity #CAC Wirraway (Basic)
++				AST_fighter_equipment_0_entity #Hawker Demon (IW)
++			}
++		}
++	}
++	small_plane_airframe_0 = {
++		pool = {
++			icons = {
++				GFX_AST_iw_small_fighter_1_medium #IW Fighter
++			}
++			models = {
++				AST_fighter_equipment_0_entity #Hawker Demon
++			}
++		}
++	}
++	small_plane_airframe_1 = {
++		pool = {
++			icons = {
++				GFX_AST_basic_small_fighter_1_medium #Basic Fighter
++			}
++			models = {
++				AST_fighter_equipment_1_entity #CAC Wirraway
++			}
++		}
++	}
++	small_plane_airframe_2 = {
++		pool = {
++			icons = {
++				GFX_AST_improved_small_fighter_1_medium #Improved Fighter
++			}
++			models = {
++				AST_fighter_equipment_2_entity #CAC Boomerang
++			}
++		}
++	}
++	small_plane_airframe_3 = {
++		pool = {
++			icons = {
++				GFX_AST_advanced_small_fighter_1_medium #Advanced Fighter
++			}
++			models = {
++				AST_fighter_equipment_3_entity #CAC CA-15
++			}
++		}
++	}
++	small_plane_airframe_4 = {
++		pool = {
++			icons = {
++				GFX_AST_modern_small_fighter_1_medium #Modern Fighter
++			}
++			models = {
++				AST_jet_plane_entity #de Havilland Vampire
++			}
++		}
++	}
++	small_plane_airframe_5 = {
++		pool = {
++			weight = 3
++			icons = {
++				GFX_AST_modern_small_fighter_2_medium #Modern Fighter 2
++			}
++			models = {
++				AST_supersonic_jet_plane_entity #
++			}
++		}
++	}
++
++	### CARRIER AIRFRAME (FIGHTER) #########################################
++	#Carrier variants reuse the same models so they show up in CV designer too
++
++	cv_small_plane_airframe = {
++		pool = {
++			icons = {
++				GFX_AST_modern_small_fighter_1_medium #Modern Carrier Fighter
++				GFX_AST_advanced_small_fighter_1_medium #Advanced Carrier Fighter
++				GFX_AST_improved_small_fighter_1_medium #Improved Carrier Fighter
++				GFX_AST_basic_small_fighter_1_medium #Basic Carrier Fighter
++				GFX_AST_iw_small_fighter_1_medium #IW Carrier Fighter
++			}
++			models = {
++				AST_jet_plane_entity #de Havilland Vampire (Modern Jet)
++				AST_fighter_equipment_3_entity #CAC CA-15 (Advanced)
++				AST_fighter_equipment_2_entity #CAC Boomerang (Improved)
++				AST_fighter_equipment_1_entity #CAC Wirraway (Basic)
++				AST_fighter_equipment_0_entity #Hawker Demon (IW)
++			}
++		}
++	}
++	cv_small_plane_airframe_0 = {
++		pool = {
++			icons = {
++				GFX_AST_iw_small_fighter_1_medium #IW Carrier Fighter
++			}
++			models = {
++				AST_fighter_equipment_0_entity #Hawker Demon
++			}
++		}
++	}
++	cv_small_plane_airframe_1 = {
++		pool = {
++			icons = {
++				GFX_AST_basic_small_fighter_1_medium #Basic Carrier Fighter
++			}
++			models = {
++				AST_fighter_equipment_1_entity #CAC Wirraway
++			}
++		}
++	}
++	cv_small_plane_airframe_2 = {
++		pool = {
++			models_weight = 1
++			icons = {
++				GFX_AST_improved_small_fighter_1_medium #Improved Carrier Fighter
++			}
++			models = {
++				AST_fighter_equipment_2_entity #CAC Boomerang
++			}
++		}
++	}
++	cv_small_plane_airframe_3 = {
++		pool = {
++			icons = {
++				GFX_AST_advanced_small_fighter_1_medium #Advanced Carrier Fighter
++			}
++			models = {
++				AST_fighter_equipment_3_entity #CAC CA-15
++			}
++		}
++	}
++	cv_small_plane_airframe_4 = {
++		pool = {
++			icons = {
++				GFX_AST_modern_small_fighter_1_medium #Modern Carrier Fighter
++			}
++			models = {
++				AST_jet_plane_entity #de Havilland Vampire
++			}
++		}
++	}
++
++	### SMALL AIRFRAME (CAS) ###############################################
++
++	
++	
++	
++	
++
++	### CARRIER AIRFRAME (CAS) #############################################
++
++	
++	
++	
++	
++
++	### SMALL AIRFRAME (NAVAL BOMBER) ######################################
++
++	
++	
++	
++	
++
++	### CARRIER AIRFRAME (NAVAL BOMBER) ####################################
++
++	
++	
++	
++	
++
++	### MEDIUM AIRFRAME (TACTICAL BOMBER) ##################################
++
++	medium_plane_airframe = {
++		pool = {
++			icons = {
++				GFX_AST_modern_medium_tactical_bomber_1_medium #Modern Tactical Bomber
++				GFX_AST_advanced_medium_tactical_bomber_1_medium #Advanced Tactical Bomber
++				GFX_AST_improved_medium_tactical_bomber_1_medium #Improved Tactical Bomber
++				GFX_AST_basic_medium_tactical_bomber_1_medium #Basic Tactical Bomber
++				GFX_AST_iw_medium_tactical_bomber_1_medium #IW Tactical Bomber
++			}
++			models = {
++				AST_medium_jet_plane_entity #Electric Canberra (Modern Jet)
++				AST_tac_bomber_equipment_3_entity #Martin Baltimore (Advanced)
++				AST_tac_bomber_equipment_2_entity #Martin Baltimore (Improved)
++				AST_tac_bomber_equipment_1_entity #Fairey Battle (Basic)
++				AST_tac_bomber_equipment_0_entity #Westland Wapiti (IW)
++			}
++		}
++	}
++	medium_plane_airframe_0 = {
++		pool = {
++			icons = {
++				GFX_AST_iw_medium_tactical_bomber_1_medium #IW Tactical Bomber
++			}
++			models = {
++				AST_tac_bomber_equipment_0_entity #Westland Wapiti
++			}
++		}
++	}
++	medium_plane_airframe_1 = {
++		pool = {
++			icons = {
++				GFX_AST_basic_medium_tactical_bomber_1_medium #Basic Tactical Bomber
++			}
++			models = {
++				AST_tac_bomber_equipment_1_entity #Fairey Battle
++			}
++		}
++	}
++	medium_plane_airframe_2 = {
++		pool = {
++			icons = {
++				GFX_AST_improved_medium_tactical_bomber_1_medium #Improved Tactical Bomber
++			}
++			models = {
++				AST_tac_bomber_equipment_2_entity #Martin Baltimore
++			}
++		}
++	}
++	medium_plane_airframe_3 = {
++		pool = {
++			icons = {
++				GFX_AST_advanced_medium_tactical_bomber_1_medium #Advanced Tactical Bomber
++			}
++			models = {
++				AST_tac_bomber_equipment_3_entity #Martin Baltimore
++			}
++		}
++	}
++	medium_plane_airframe_4 = {
++		pool = {
++			icons = {
++				GFX_AST_modern_medium_tactical_bomber_1_medium #Modern Tactical Bomber
++			}
++			models = {
++				AST_medium_jet_plane_entity #Electric Canberra
++			}
++		}
++	}
++
++	### MEDIUM AIRFRAME (HEAVY FIGHTER) ####################################
++	#Heavy fighters have no tier 0 -- earliest is tier 1
++
++	
++	
++	
++	
++
++	### LARGE AIRFRAME (STRATEGIC BOMBER) ##################################
++
++	large_plane_airframe = {
++		pool = {
++			icons = {
++				GFX_AST_advanced_large_strategic_bomber_1_medium #Advanced Strategic Bomber
++				GFX_AST_improved_large_strategic_bomber_1_medium #Improved Strategic Bomber
++				GFX_AST_basic_large_strategic_bomber_1_medium #Basic Strategic Bomber
++				GFX_AST_iw_large_strategic_bomber_1_medium #IW Strategic Bomber
++			}
++			models = {
++				AST_strat_bomber_equipment_3_entity #Avro Lincoln (Advanced)
++				AST_strat_bomber_equipment_2_entity #Avro Lancaster (Improved)
++				AST_strat_bomber_equipment_1_entity #Vickers Wellington (Basic)
++			}
++		}
++	}
++	large_plane_airframe_0 = {
++		pool = {
++			icons = {
++				GFX_AST_iw_large_strategic_bomber_1_medium #Inter-war Strategic Bomber
++			}
++			models = {
++				AST_strat_bomber_equipment_1_entity #Vickers Wellington //fallback
++			}
++		}
++	}
++	large_plane_airframe_1 = {
++		pool = {
++			icons = {
++				GFX_AST_basic_large_strategic_bomber_1_medium #Basic Strategic Bomber
++			}
++			models = {
++				AST_strat_bomber_equipment_1_entity #Vickers Wellington
++			}
++		}
++	}
++	large_plane_airframe_2 = {
++		pool = {
++			icons = {
++				GFX_AST_improved_large_strategic_bomber_1_medium #Improved Strategic Bomber
++			}
++			models = {
++				AST_strat_bomber_equipment_2_entity #Avro Lancaster
++			}
++		}
++	}
++	large_plane_airframe_3 = {
++		pool = {
++			icons = {
++				GFX_AST_advanced_large_strategic_bomber_1_medium #Advanced Strategic Bomber
++			}
++			models = {
++				AST_strat_bomber_equipment_3_entity #Avro Lincoln
++			}
++		}
++	}
++	large_plane_airframe_4 = {
++		pool = {
++			icons = {
++				GFX_AST_modern_large_strategic_bomber_1_medium #Modern Strategic Bomber
++			}
++			models = {
++				AST_strat_bomber_equipment_3_entity #Avro Lincoln //fallback
++			}
++		}
++	}
++
++	### TRANSPORT PLANE ####################################################
++	#NOTE: The transport_plane_equipment_1 pool key is assumed based on
++	#GFX_SOV_transport_plane_equipment_1_medium reference in 00_plane_icons.txt.
++	#Verify this matches the equipment archetype name used in your common/units/equipment files.
++
++	transport_plane_equipment = {
++		pool = {
++			icons = {
++			}
++			models = {
++				AST_transport_plane_equipment_entity #Douglas C-47 Skytrain
++			}
++		}
++	}
++
++	### SUPERSONIC JET #####################################################
++	#Two pools mirror the default block in 00_plane_icons.txt:
++	#  small_plane_airframe_5             -> BBA path (Supersonic Jet research)
++	#  supersonic_fighter_equipment_1     -> Non-BBA equipment path
++	#Both reference the same AST mesh.
++
++	small_plane_airframe_5 = {
++		pool = {
++			weight = 5503
++			icons = {
++			}
++			models = {
++				AST_supersonic_jet_plane_entity #AST Supersonic Jet
++			}
++		}
++	}
++	
++
++}
++
++
++####################################################### Netherlands #########################################################
++#Note: HOL already has pools defined in 00_plane_icons.txt gated by "Man the Guns".
++#These additions stack on top and provide 3D models. No icons here -- existing HOL_* GFX icons stay.
++
++HOL = {
++
++	### SMALL AIRFRAME (FIGHTER) ###########################################
++
++	small_plane_airframe = {
++		pool = {
++			icons = {
++				GFX_HOL_improved_small_fighter_1_medium #Improved Fighter
++				GFX_HOL_iw_small_fighter_1_medium #IW Fighter
++			}
++			models = {
++				HOL_fighter_equipment_2_entity #Koolhoven F.K.58 (Improved)
++				HOL_light_plane_entity #Fokker D XXI (base game)
++				HOL_fighter_equipment_0_entity #Fokker D.XVII (IW)
++			}
++		}
++	}
++	small_plane_airframe_0 = {
++		pool = {
++			weight = 2
++			icons = {
++				GFX_HOL_iw_small_fighter_1_medium #IW Fighter
++			}
++			models = {
++				HOL_fighter_equipment_0_entity #Fokker D.XVII
++			}
++		}
++	}
++	small_plane_airframe_1 = {
++		pool = {
++			icons = {
++			}
++			models = {
++				HOL_light_plane_entity #Fokker D XXI (base game)
++			}
++		}
++	}
++	small_plane_airframe_2 = {
++		pool = {
++			icons = {
++				GFX_HOL_improved_small_fighter_1_medium #Improved Fighter
++			}
++			models = {
++				HOL_fighter_equipment_2_entity #Koolhoven F.K.58
++			}
++		}
++	}
++	small_plane_airframe_3 = {
++		pool = {
++			icons = {
++			}
++			models = {
++				HOL_fighter_equipment_2_entity #Koolhoven F.K.58
++			}
++		}
++	}
++
++	### CARRIER AIRFRAME (FIGHTER) #########################################
++
++	cv_small_plane_airframe = {
++		pool = {
++			icons = {
++				GFX_HOL_improved_small_fighter_1_medium #Improved Carrier Fighter
++				GFX_HOL_iw_small_fighter_1_medium #IW Carrier Fighter
++			}
++			models = {
++				HOL_fighter_equipment_2_entity #Koolhoven F.K.58 (Improved)
++				HOL_light_plane_entity #Fokker D XXI (base game)
++				HOL_fighter_equipment_0_entity #Fokker D.XVII (IW)
++			}
++		}
++	}
++	cv_small_plane_airframe_0 = {
++		pool = {
++			icons = {
++				GFX_HOL_iw_small_fighter_1_medium #IW Carrier Fighter
++			}
++			models = {
++				HOL_fighter_equipment_0_entity #Fokker D.XVII
++			}
++		}
++	}
++	cv_small_plane_airframe_1 = {
++		pool = {
++			icons = {
++			}
++			models = {
++				HOL_light_plane_entity #Fokker D XXI (base game)
++			}
++		}
++	}
++	cv_small_plane_airframe_2 = {
++		pool = {
++			icons = {
++				GFX_HOL_improved_small_fighter_1_medium #Improved Carrier Fighter
++			}
++			models = {
++				HOL_fighter_equipment_2_entity #Koolhoven F.K.58
++			}
++		}
++	}
++
++	### SMALL AIRFRAME (CAS) ###############################################
++
++	
++	
++	
++	
++
++	### CARRIER AIRFRAME (CAS) #############################################
++
++	
++	
++	
++	
++
++	### SMALL AIRFRAME (NAVAL BOMBER) ######################################
++	#Only tier 2 entity is available -- tier 1 forward-fills from tier 2
++
++	
++	
++	
++
++	### CARRIER AIRFRAME (NAVAL BOMBER) ####################################
++
++	
++	
++	
++
++	### MEDIUM AIRFRAME (TACTICAL BOMBER) ##################################
++	#Only HOL_medium_plane_entity (already defined in 00_plane_icons.txt) is available -- it sits at tier 1.
++	#Tier 0 back-fills from tier 1, tiers 2/3 fill down from tier 1 (no later native entity).
++
++	medium_plane_airframe = {
++		pool = {
++			icons = {
++				GFX_HOL_improved_medium_tactical_bomber_1_medium #Improved Tactical Bomber
++			}
++			models = {
++				HOL_medium_plane_entity #HOL_medium_plane (Basic)
++			}
++		}
++	}
++	medium_plane_airframe_0 = {
++		pool = {
++			icons = {
++			}
++			models = {
++				HOL_medium_plane_entity #HOL_medium_plane (forward-filled to tier 0)
++			}
++		}
++	}
++	medium_plane_airframe_1 = {
++		pool = {
++			icons = {
++			}
++			models = {
++				HOL_medium_plane_entity #HOL_medium_plane
++			}
++		}
++	}
++	medium_plane_airframe_2 = {
++		pool = {
++			icons = {
++				GFX_HOL_improved_medium_tactical_bomber_1_medium #Improved Tactical Bomber
++			}
++			models = {
++				HOL_medium_plane_entity #HOL_medium_plane (filled from tier 1, no tier 2 medium plane entity)
++			}
++		}
++	}
++	medium_plane_airframe_3 = {
++		pool = {
++			icons = {
++			}
++			models = {
++				HOL_medium_plane_entity #HOL_medium_plane (filled from tier 1, no tier 3 medium plane entity)
++			}
++		}
++	}
++
++	### MEDIUM AIRFRAME (HEAVY FIGHTER) ####################################
++	#All three Fokker G.I variants share the INS heavy fighter meshes (the HOL entities use INS-prefixed meshes).
++
++	
++	
++	
++	
++
++	### LARGE AIRFRAME (STRATEGIC BOMBER) ##################################
++
++	large_plane_airframe = {
++		pool = {
++			icons = {
++				GFX_HOL_advanced_large_strategic_bomber_1_medium #Advanced Strategic Bomber
++				GFX_HOL_improved_large_strategic_bomber_1_medium #Improved Strategic Bomber
++				GFX_HOL_basic_large_strategic_bomber_1_medium #Basic Strategic Bomber
++			}
++			models = {
++				HOL_strat_bomber_equipment_3_entity #B-29 Superfortress (Advanced)
++				HOL_strat_bomber_equipment_2_entity #B-24 Liberator (Improved)
++				HOL_strat_bomber_equipment_1_entity #B-17 Flying Fortress (Basic)
++			}
++		}
++	}
++	large_plane_airframe_1 = {
++		pool = {
++			icons = {
++				GFX_HOL_basic_large_strategic_bomber_1_medium #Basic Strategic Bomber
++			}
++			models = {
++				HOL_strat_bomber_equipment_1_entity #B-17 Flying Fortress
++			}
++		}
++	}
++	large_plane_airframe_2 = {
++		pool = {
++			icons = {
++				GFX_HOL_improved_large_strategic_bomber_1_medium #Improved Strategic Bomber
++			}
++			models = {
++				HOL_strat_bomber_equipment_2_entity #B-24 Liberator
++			}
++		}
++	}
++	large_plane_airframe_3 = {
++		pool = {
++			icons = {
++				GFX_HOL_advanced_large_strategic_bomber_1_medium #Advanced Strategic Bomber
++			}
++			models = {
++				HOL_strat_bomber_equipment_3_entity #B-29 Superfortress
++			}
++		}
++	}
++
++}
++
++
++####################################################### Indonesia #########################################################
++
++INS = {
++
++	### SMALL AIRFRAME (FIGHTER) ###########################################
++
++	small_plane_airframe = {
++		pool = {
++			icons = {
++				GFX_INS_advanced_small_fighter_1_medium #Advanced Fighter
++				GFX_INS_improved_small_fighter_1_medium #Improved Fighter
++				GFX_INS_basic_small_fighter_1_medium #Basic Fighter
++				GFX_INS_iw_small_fighter_1_medium #IW Fighter
++			}
++			models = {
++				INS_fighter_equipment_2_entity #Brewster B-339C (Improved)
++				INS_fighter_equipment_1_entity #Fokker D.XXI (Basic)
++			}
++		}
++	}
++	small_plane_airframe_1 = {
++		pool = {
++			icons = {
++				GFX_INS_basic_small_fighter_1_medium #Basic Fighter
++			}
++			models = {
++				INS_fighter_equipment_1_entity #Fokker D.XXI
++			}
++		}
++	}
++	small_plane_airframe_2 = {
++		pool = {
++			icons = {
++				GFX_INS_improved_small_fighter_1_medium #Improved Fighter
++			}
++			models = {
++				INS_fighter_equipment_2_entity #Brewster B-339C
++			}
++		}
++	}
++
++	### CARRIER AIRFRAME (FIGHTER) #########################################
++
++	cv_small_plane_airframe = {
++		pool = {
++			icons = {
++				GFX_INS_advanced_small_fighter_1_medium #Advanced Carrier Fighter
++				GFX_INS_improved_small_fighter_1_medium #Improved Carrier Fighter
++				GFX_INS_basic_small_fighter_1_medium #Basic Carrier Fighter
++				GFX_INS_iw_small_fighter_1_medium #IW Carrier Fighter
++			}
++			models = {
++				INS_fighter_equipment_2_entity #Brewster B-339C (Improved)
++				INS_fighter_equipment_1_entity #Fokker D.XXI (Basic)
++			}
++		}
++	}
++	cv_small_plane_airframe_1 = {
++		pool = {
++			icons = {
++				GFX_INS_basic_small_fighter_1_medium #Basic Carrier Fighter
++			}
++			models = {
++				INS_fighter_equipment_1_entity #Fokker D.XXI
++			}
++		}
++	}
++	cv_small_plane_airframe_2 = {
++		pool = {
++			icons = {
++				GFX_INS_improved_small_fighter_1_medium #Improved Carrier Fighter
++			}
++			models = {
++				INS_fighter_equipment_2_entity #Brewster B-339C
++			}
++		}
++	}
++
++	### SMALL AIRFRAME (CAS) ###############################################
++
++	
++	
++	
++	
++
++	### CARRIER AIRFRAME (CAS) #############################################
++
++	
++	
++	
++	
++
++	### SMALL AIRFRAME (NAVAL BOMBER) ######################################
++
++	
++	
++	
++	
++
++	### CARRIER AIRFRAME (NAVAL BOMBER) ####################################
++
++	
++	
++	
++
++	### MEDIUM AIRFRAME (TACTICAL BOMBER) ##################################
++	#Tier 1 uses shared HOL_medium_plane_entity; tier 3 is INS native (B-25 Mitchell).
++	#Tier 0 back-fills from tier 1, tier 2 fills down from tier 1 (closest preceding native entity).
++
++	medium_plane_airframe = {
++		pool = {
++			icons = {
++				GFX_INS_advanced_medium_tactical_bomber_1_medium #Advanced Tactical Bomber
++				GFX_INS_improved_medium_tactical_bomber_1_medium #Improved Tactical Bomber
++				GFX_INS_basic_medium_tactical_bomber_1_medium #Basic Tactical Bomber
++				GFX_INS_iw_medium_tactical_bomber_1_medium #IW Tactical Bomber
++			}
++			models = {
++				INS_tac_bomber_equipment_3_entity #B-25 Mitchell (Advanced)
++				HOL_medium_plane_entity #HOL_medium_plane (Basic, shared with HOL)
++			}
++		}
++	}
++	medium_plane_airframe_0 = {
++		pool = {
++			icons = {
++				GFX_INS_iw_medium_tactical_bomber_1_medium #IW Tactical Bomber
++			}
++			models = {
++				HOL_medium_plane_entity #HOL_medium_plane (forward-filled to tier 0, closest preceding native)
++			}
++		}
++	}
++	medium_plane_airframe_1 = {
++		pool = {
++			icons = {
++				GFX_INS_basic_medium_tactical_bomber_1_medium #Basic Tactical Bomber
++			}
++			models = {
++				HOL_medium_plane_entity #HOL_medium_plane (shared with HOL)
++			}
++		}
++	}
++	medium_plane_airframe_2 = {
++		pool = {
++			icons = {
++				GFX_INS_improved_medium_tactical_bomber_1_medium #Improved Tactical Bomber
++			}
++			models = {
++				HOL_medium_plane_entity #HOL_medium_plane (filled from tier 1, no tier 2 medium plane entity)
++			}
++		}
++	}
++	medium_plane_airframe_3 = {
++		pool = {
++			icons = {
++				GFX_INS_advanced_medium_tactical_bomber_1_medium #Advanced Tactical Bomber
++			}
++			models = {
++				INS_tac_bomber_equipment_3_entity #B-25 Mitchell
++			}
++		}
++	}
++
++	### MEDIUM AIRFRAME (HEAVY FIGHTER) ####################################
++
++	
++	
++	
++	
++
++	### LARGE AIRFRAME (STRATEGIC BOMBER) ##################################
++
++	large_plane_airframe = {
++		pool = {
++			icons = {
++				GFX_INS_advanced_large_strategic_bomber_1_medium #Advanced Strategic Bomber
++				GFX_INS_improved_large_strategic_bomber_1_medium #Improved Strategic Bomber
++				GFX_INS_basic_large_strategic_bomber_1_medium #Basic Strategic Bomber
++			}
++			models = {
++				INS_strat_bomber_equipment_3_entity #B-29 Superfortress (Advanced)
++				INS_strat_bomber_equipment_2_entity #B-24 Liberator (Improved)
++				INS_strat_bomber_equipment_1_entity #B-17 Flying Fortress (Basic)
++			}
++		}
++	}
++	large_plane_airframe_1 = {
++		pool = {
++			icons = {
++				GFX_INS_basic_large_strategic_bomber_1_medium #Basic Strategic Bomber
++			}
++			models = {
++				INS_strat_bomber_equipment_1_entity #B-17 Flying Fortress
++			}
++		}
++	}
++	large_plane_airframe_2 = {
++		pool = {
++			icons = {
++				GFX_INS_improved_large_strategic_bomber_1_medium #Improved Strategic Bomber
++			}
++			models = {
++				INS_strat_bomber_equipment_2_entity #B-24 Liberator
++			}
++		}
++	}
++	large_plane_airframe_3 = {
++		pool = {
++			icons = {
++				GFX_INS_advanced_large_strategic_bomber_1_medium #Advanced Strategic Bomber
++			}
++			models = {
++				INS_strat_bomber_equipment_3_entity #B-29 Superfortress
++			}
++		}
++	}
++
++}
++
++
++####################################################### Siam #########################################################
++
++SIA = {
++
++	### SMALL AIRFRAME (FIGHTER) ###########################################
++	#Native tiers: 1 (Curtiss BF2C-1), 3 (Nakajima Ki-43).
++	#Tier 0 forward-fills from tier 1; tier 2 fills from tier 1; tier 4 fills from tier 3.
++
++	small_plane_airframe = {
++		pool = {
++			icons = {
++				GFX_SIA_advanced_small_fighter_1_medium #Advanced Fighter
++				GFX_SIA_improved_small_fighter_1_medium #Improved Fighter
++				GFX_SIA_basic_small_fighter_1_medium #Basic Fighter
++				GFX_SIA_iw_small_fighter_1_medium #IW Fighter
++			}
++			models = {
++				SIA_fighter_equipment_3_entity #Nakajima Ki-43 (Advanced)
++				SIA_fighter_equipment_1_entity #Curtiss BF2C-1 (Basic)
++			}
++		}
++	}
++	small_plane_airframe_0 = {
++		pool = {
++			icons = {
++				GFX_SIA_iw_small_fighter_1_medium #IW Fighter
++			}
++			models = {
++				SIA_fighter_equipment_1_entity #Curtiss BF2C-1 (forward-filled to tier 0)
++			}
++		}
++	}
++	small_plane_airframe_1 = {
++		pool = {
++			icons = {
++				GFX_SIA_basic_small_fighter_1_medium #Basic Fighter
++			}
++			models = {
++				SIA_fighter_equipment_1_entity #Curtiss BF2C-1
++			}
++		}
++	}
++	small_plane_airframe_2 = {
++		pool = {
++			icons = {
++				GFX_SIA_improved_small_fighter_1_medium #Improved Fighter
++			}
++			models = {
++				SIA_fighter_equipment_3_entity #Nakajima Ki-43 (filled from tier 3, no tier 2 fighter entity)
++			}
++		}
++	}
++	small_plane_airframe_3 = {
++		pool = {
++			icons = {
++				GFX_SIA_advanced_small_fighter_1_medium #Advanced Fighter
++			}
++			models = {
++				SIA_fighter_equipment_3_entity #Nakajima Ki-43
++			}
++		}
++	}
++	small_plane_airframe_4 = {
++		pool = {
++			icons = {
++			}
++			models = {
++				SIA_fighter_equipment_3_entity #Nakajima Ki-43 (filled from tier 3, no tier 4 fighter entity)
++			}
++		}
++	}
++
++	### CARRIER AIRFRAME (FIGHTER) #########################################
++
++	cv_small_plane_airframe = {
++		pool = {
++			icons = {
++				GFX_SIA_advanced_small_fighter_1_medium #Advanced Carrier Fighter
++				GFX_SIA_improved_small_fighter_1_medium #Improved Carrier Fighter
++				GFX_SIA_basic_small_fighter_1_medium #Basic Carrier Fighter
++				GFX_SIA_iw_small_fighter_1_medium #IW Carrier Fighter
++			}
++			models = {
++				SIA_fighter_equipment_3_entity #Nakajima Ki-43 (Advanced)
++				SIA_fighter_equipment_1_entity #Curtiss BF2C-1 (Basic)
++			}
++		}
++	}
++	cv_small_plane_airframe_0 = {
++		pool = {
++			icons = {
++				GFX_SIA_iw_small_fighter_1_medium #IW Carrier Fighter
++			}
++			models = {
++				SIA_fighter_equipment_1_entity #Curtiss BF2C-1 (forward-filled to tier 0)
++			}
++		}
++	}
++	cv_small_plane_airframe_1 = {
++		pool = {
++			icons = {
++				GFX_SIA_basic_small_fighter_1_medium #Basic Carrier Fighter
++			}
++			models = {
++				SIA_fighter_equipment_1_entity #Curtiss BF2C-1
++			}
++		}
++	}
++	cv_small_plane_airframe_2 = {
++		pool = {
++			icons = {
++				GFX_SIA_improved_small_fighter_1_medium #Improved Carrier Fighter
++			}
++			models = {
++				SIA_fighter_equipment_1_entity #Curtiss BF2C-1 (filled from tier 1, no tier 2 fighter entity)
++			}
++		}
++	}
++	cv_small_plane_airframe_3 = {
++		pool = {
++			icons = {
++				GFX_SIA_advanced_small_fighter_1_medium #Advanced Carrier Fighter
++			}
++			models = {
++				SIA_fighter_equipment_3_entity #Nakajima Ki-43
++			}
++		}
++	}
++	cv_small_plane_airframe_4 = {
++		pool = {
++			icons = {
++			}
++			models = {
++				SIA_fighter_equipment_3_entity #Nakajima Ki-43 (filled from tier 3, no tier 4 fighter entity)
++			}
++		}
++	}
++
++	### SMALL AIRFRAME (CAS) ###############################################
++	#Native tiers: 2 (Mitsubishi Ki-51), 3 (Kawasaki Ki-66).
++	#Tier 1 forward-fills from tier 2.
++
++	
++	
++	
++	
++
++	### CARRIER AIRFRAME (CAS) #############################################
++
++	
++	
++	
++	
++
++	### SMALL AIRFRAME (NAVAL BOMBER) ######################################
++	#Native tiers: 2 (Mitsubishi G4M), 3 (P1Y Ginga).
++	#Tier 1 forward-fills from tier 2.
++
++	
++	
++	
++	
++
++	### CARRIER AIRFRAME (NAVAL BOMBER) ####################################
++
++	
++	
++	
++	
++
++	### MEDIUM AIRFRAME (TACTICAL BOMBER) ##################################
++	#Only tier 2 entity (Mitsubishi Ki-21) is available.
++	#Tier 0 and 1 forward-fill from tier 2; tier 3 and 4 fill down from tier 2.
++
++	medium_plane_airframe = {
++		pool = {
++			icons = {
++				GFX_SIA_improved_medium_tactical_bomber_1_medium #Improved Tactical Bomber
++				GFX_SIA_basic_medium_tactical_bomber_1_medium #Basic Tactical Bomber
++			}
++			models = {
++				SIA_tac_bomber_equipment_2_entity #Mitsubishi Ki-21 (Improved)
++			}
++		}
++	}
++	medium_plane_airframe_0 = {
++		pool = {
++			icons = {
++			}
++			models = {
++				SIA_tac_bomber_equipment_2_entity #Mitsubishi Ki-21 (forward-filled to tier 0)
++			}
++		}
++	}
++	medium_plane_airframe_1 = {
++		pool = {
++			icons = {
++				GFX_SIA_basic_medium_tactical_bomber_1_medium #Basic Tactical Bomber
++			}
++			models = {
++				SIA_tac_bomber_equipment_2_entity #Mitsubishi Ki-21 (forward-filled to tier 1)
++			}
++		}
++	}
++	medium_plane_airframe_2 = {
++		pool = {
++			icons = {
++				GFX_SIA_improved_medium_tactical_bomber_1_medium #Improved Tactical Bomber
++			}
++			models = {
++				SIA_tac_bomber_equipment_2_entity #Mitsubishi Ki-21
++			}
++		}
++	}
++	medium_plane_airframe_3 = {
++		pool = {
++			icons = {
++			}
++			models = {
++				SIA_tac_bomber_equipment_2_entity #Mitsubishi Ki-21 (filled from tier 2, no tier 3 tac bomber entity)
++			}
++		}
++	}
++	medium_plane_airframe_4 = {
++		pool = {
++			icons = {
++			}
++			models = {
++				SIA_tac_bomber_equipment_2_entity #Mitsubishi Ki-21 (filled from tier 2, no tier 4 tac bomber entity)
++			}
++		}
++	}
++
++	### MEDIUM AIRFRAME (HEAVY FIGHTER) ####################################
++	#Native tiers: 1 (JAP_medium_plane_4 reskin), 3 (Kawasaki Ki-102).
++	#Tier 2 fills from tier 1.
++
++	
++	
++	
++	
++
++	### LARGE AIRFRAME (STRATEGIC BOMBER) ##################################
++	#Native tiers: 1 (B-17 Flying Fortress), 2 (Nakajima Ki-49), 3 (Nakajima G8N).
++
++	large_plane_airframe = {
++		pool = {
++			icons = {
++				GFX_SIA_advanced_large_strategic_bomber_1_medium #Advanced Strategic Bomber
++				GFX_SIA_improved_large_strategic_bomber_1_medium #Improved Strategic Bomber
++				GFX_SIA_basic_large_strategic_bomber_1_medium #Basic Strategic Bomber
++			}
++			models = {
++				SIA_strat_bomber_equipment_3_entity #Nakajima G8N (Advanced)
++				SIA_strat_bomber_equipment_2_entity #Nakajima Ki-49 (Improved)
++				SIA_strat_bomber_equipment_1_entity #B-17 Flying Fortress (Basic)
++			}
++		}
++	}
++	large_plane_airframe_1 = {
++		pool = {
++			icons = {
++				GFX_SIA_basic_large_strategic_bomber_1_medium #Basic Strategic Bomber
++			}
++			models = {
++				SIA_strat_bomber_equipment_1_entity #B-17 Flying Fortress
++			}
++		}
++	}
++	large_plane_airframe_2 = {
++		pool = {
++			icons = {
++				GFX_SIA_improved_large_strategic_bomber_1_medium #Improved Strategic Bomber
++			}
++			models = {
++				SIA_strat_bomber_equipment_2_entity #Nakajima Ki-49
++			}
++		}
++	}
++	large_plane_airframe_3 = {
++		pool = {
++			icons = {
++				GFX_SIA_advanced_large_strategic_bomber_1_medium #Advanced Strategic Bomber
++			}
++			models = {
++				SIA_strat_bomber_equipment_3_entity #Nakajima G8N
++			}
++		}
++	}
++
++}

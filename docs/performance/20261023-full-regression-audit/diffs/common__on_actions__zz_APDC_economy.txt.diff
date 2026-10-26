@@ -1,0 +1,53 @@
+--- before/common/on_actions/zz_APDC_economy.txt
++++ current/common/on_actions/zz_APDC_economy.txt
+@@ -3,7 +3,7 @@
+ effect = {
+ every_country = { APDC_eco_initialize_country = yes }
+ every_country = { APDC_eco_calculate_country = yes }
+-GER = { APDC_eco_clear_world_market = yes }
++every_country = { limit = { NOT = { has_global_flag = APDC_eco_market_v2_ready } } APDC_eco_market_bootstrap = yes }
+ 
+ }
+ 
+@@ -13,8 +13,13 @@
+ if = { limit = { NOT = { has_global_flag = APDC_eco_daily_tick_lock } }
+ set_global_flag = { flag = APDC_eco_daily_tick_lock value = 1 days = 1 }
+ every_country = { APDC_eco_daily_country = yes }
+-APDC_eco_clear_world_market = yes
++APDC_eco_market_bootstrap = yes
++APDC_eco_validate_world_trade = yes
++APDC_eco_market_daily = yes
+ every_country = { APDC_eco_daily_after_market = yes }
++add_to_variable = { global.APDC_eco_validation_day = 1 }
++modulo_variable = { global.APDC_eco_validation_day = 7 }
++
+ }
+ 
+ }
+@@ -25,6 +30,26 @@
+ if = { limit = { NOT = { has_global_flag = APDC_eco_weekly_tick_lock } }
+ set_global_flag = { flag = APDC_eco_weekly_tick_lock value = 1 days = 7 }
+ every_country = { APDC_eco_settle_week = yes }
++APDC_eco_clear_world_market = yes
++
++}
++
++}
++
++}
++on_state_control_changed = {
++effect = {
++ROOT = { clr_country_flag = APDC_eco_statistics_today clr_country_flag = APDC_eco_planned_normalized }
++FROM = { clr_country_flag = APDC_eco_statistics_today clr_country_flag = APDC_eco_planned_normalized }
++
++}
++
++}
++on_war_relation_added = {
++effect = {
++if = { limit = { has_global_flag = APDC_eco_market_v2_ready }
++APDC_eco_validate_world_trade = yes
++
+ }
+ 
+ }

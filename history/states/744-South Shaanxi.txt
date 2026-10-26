@@ -1,0 +1,58 @@
+state = {
+	id = 744
+	name = "STATE_744"
+	resources = {
+		steel = 1
+	}
+	provinces = {
+		1976
+		2006
+		4167
+		4256
+		7301
+		7406
+		16993
+		19641
+		19663
+		19713
+	}
+	manpower = 3461538
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			1976
+			2
+		}
+		victory_points = {
+			4167
+			1
+		}
+		victory_points = {
+			7301
+			2
+		}
+		victory_points = {
+			16993
+			1
+		}
+		victory_points = {
+			19641
+			5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = GDP_regions_south_shaanxi
+		set_variable = {
+			china_state_ref = 39
+		}
+		set_variable = {
+			china_region_ref = 5
+		}
+	}
+}

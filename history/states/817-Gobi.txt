@@ -1,0 +1,69 @@
+state = {
+	id = 817
+	name = "STATE_817"
+	provinces = {
+		1723
+		1725
+		1778
+		1787
+		1853
+		1855
+		4040
+		4655
+		4729
+		4786
+		4856
+		7749
+		7752
+		7806
+		7881
+		7943
+		10558
+		10560
+		10575
+		10632
+		10689
+		10695
+		10704
+		12539
+		12541
+		12612
+		12614
+		12669
+		12686
+		14343
+		14404
+		16854
+		19390
+		19393
+		19395
+		19406
+		19416
+		19418
+		19419
+		19431
+	}
+	history = {
+		owner = MON
+		controller = MON
+		add_core_of = MON
+		victory_points = {
+			4655
+			2
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = GDP_regions_outer_mongolia
+		set_variable = {
+			china_state_ref = 57
+		}
+		set_variable = {
+			china_region_ref = 7
+		}
+	}
+	manpower = 11000
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

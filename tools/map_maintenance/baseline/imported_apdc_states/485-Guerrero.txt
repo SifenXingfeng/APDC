@@ -1,0 +1,81 @@
+state = {
+	id = 485
+	name = "STATE_485"
+	resources = {
+		steel = 3
+	}
+	provinces = {
+		4887
+		5066
+		7942
+		8032
+		8599
+		10730
+		12755
+		14493
+		16204
+		17124
+		17312
+		17315
+	}
+	manpower = 1369981
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = MEX
+		controller = MEX
+		add_core_of = MEX
+		victory_points = {
+			4887
+			1
+		}
+		victory_points = {
+			5066
+			1
+		}
+		victory_points = {
+			7942
+			2
+		}
+		victory_points = {
+			8032
+			2
+		}
+		victory_points = {
+			8599
+			2
+		}
+		victory_points = {
+			10730
+			5
+		}
+		victory_points = {
+			12755
+			5
+		}
+		victory_points = {
+			14493
+			1
+		}
+		victory_points = {
+			16204
+			3
+		}
+		victory_points = {
+			17124
+			2
+		}
+		victory_points = {
+			17312
+			3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			8032 = {
+				naval_base = 3
+			}
+		}
+	}
+}

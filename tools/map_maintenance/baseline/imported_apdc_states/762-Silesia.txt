@@ -1,0 +1,46 @@
+state = {
+	id = 762
+	name = "STATE_762"
+	resources = {
+		steel = 21
+		aluminium = 7
+		coal = 32
+	}
+	provinces = {
+		506
+		3586
+		6464
+		9412
+		13205
+		19180
+	}
+	manpower = 1643565
+	buildings_max_level_factor = 1
+	state_category = city
+	local_supplies = 0
+	history = {
+		owner = POL
+		controller = POL
+		add_core_of = POL
+		victory_points = {
+			3586
+			2
+		}
+		victory_points = {
+			6464
+			5
+		}
+		victory_points = {
+			9412
+			2
+		}
+		victory_points = {
+			13205
+			3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+}

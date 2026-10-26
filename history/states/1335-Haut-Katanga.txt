@@ -1,0 +1,62 @@
+state = {
+	id = 1335
+	name = "STATE_1335"
+	resources = {
+		tungsten = 1
+	}
+	provinces = {
+		191
+		4515
+		13805
+		13816
+		13837
+		13838
+		13850
+		13851
+		13857
+	}
+	manpower = 254948
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = COG
+		controller = COG
+		add_core_of = COG
+		victory_points = {
+			191
+			15
+		}
+		victory_points = {
+			4515
+			5
+		}
+		victory_points = {
+			13805
+			1
+		}
+		victory_points = {
+			13816
+			3
+		}
+		victory_points = {
+			13837
+			3
+		}
+		victory_points = {
+			13838
+			3
+		}
+		victory_points = {
+			13850
+			1
+		}
+		victory_points = {
+			13857
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

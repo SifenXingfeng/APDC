@@ -5,6 +5,7 @@ Includes = {
 	"shadow.fxh"
 	"tiled_pointlights.fxh"
 	"fow.fxh"
+	"gf_map_style.fxh"
 }
 
 PixelShader =
@@ -331,7 +332,7 @@ PixelShader =
 			float3 refractiveColor = tex2D( WaterRefraction, refractiveUV.xy - vRefractionDistortion ).rgb;
 		#endif
 
-			float fresnelBias = 0.5f; // CUBEMAP INTENSITY
+			float fresnelBias = 0.22f; // CUBEMAP INTENSITY
 			float fresnel = saturate( dot( -vEyeDir, normal ) ) * 0.5f;
 			fresnel = saturate( fresnelBias + ( 1.0f - fresnelBias ) * pow( 1.0f - fresnel, 10.0) );
 			refractiveColor = refractiveColor * ( 1.0f - fresnel ) + reflectiveColor * fresnel;
@@ -358,7 +359,7 @@ PixelShader =
 			// when we fixed an old bug in the gradient border code, it made most mapmodes brighter. Players don't like that.
 			// Therefore we offset the water a bit to make it more like what they're used to.
 			float3 Darkness = float3(0,0,0); 
-			refractiveColor = lerp(refractiveColor, Darkness, 0.0f);
+			refractiveColor = lerp(refractiveColor, Darkness, 0.2f);
 			
 			secondary_color_mask( refractiveColor, normal, 
 				Input.uv - vRefractionDistortion * 0.001, 
@@ -401,16 +402,18 @@ PixelShader =
 
 			vOut = DayNightWithBlend( vOut, CalcGlobeNormal( Input.pos.xz ), lerp(BORDER_NIGHT_DESATURATION_MAX, 1.0f, vBloomAlpha) );
 			
-			// dominance_fx_apply(vOut, normal, 
-			//	Input.uv, 
-			//	GradientBorderChannel1,GradientBorderChannel2,GradientBorderChannel3,
-			//	vGBCamDistOverride_GBOutlineCutoff.zw * GB_OUTLINE_CUTOFF_SEA,vGBCamDistOverride_GBOutlineCutoff.xy, 0.0f);
+			dominance_fx_apply(vOut, normal, 
+				Input.uv, 
+				GradientBorderChannel1,GradientBorderChannel2,GradientBorderChannel3,
+				vGBCamDistOverride_GBOutlineCutoff.zw * GB_OUTLINE_CUTOFF_SEA,vGBCamDistOverride_GBOutlineCutoff.xy, 0.0f);
 				
 		#ifdef LOW_END_GFX
 			DebugReturn(vOut, lightingProperties, 0.0f);
 		#else
 			DebugReturn(vOut, lightingProperties, fShadowTerm);
 		#endif
+			// A neutral exposure reduction retains the mod's original sea-depth patterns.
+			vOut *= GF_WATER_EXPOSURE; // Water remains dark at every zoom.
 			return float4( vOut, 1.0f - waterShore );
 		}
 	]]

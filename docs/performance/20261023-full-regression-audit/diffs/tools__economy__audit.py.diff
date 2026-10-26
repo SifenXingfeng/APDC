@@ -1,0 +1,18 @@
+--- before/tools/economy/audit.py
++++ current/tools/economy/audit.py
+@@ -7,10 +7,14 @@
+ def main():
+  backup=Path((ROOT.parent/'.codex_backups/APDC/economy-current-backup.txt').read_text('utf-8-sig').strip())
+  changes=[]; migrations=[]; errors=[]
++ maintenance_log=ROOT/'docs/performance/20261023/repairs.json'
++ intentional_deletions={x['path'] for x in json.loads(maintenance_log.read_text('utf-8')) if x['after'] is None} if maintenance_log.exists() else set()
+  for old in (backup/'project').rglob('*'):
+   if not old.is_file():continue
+   rel=old.relative_to(backup/'project');current=ROOT/rel
+-  if not current.exists():errors.append('Removed backed-up file: '+str(rel));continue
++  if not current.exists():
++   if rel.as_posix() not in intentional_deletions:errors.append('Removed backed-up file: '+str(rel))
++   continue
+   if digest(old)==digest(current):continue
+   changes.append(str(rel))
+   s=old.read_text('utf-8-sig');t=current.read_text('utf-8-sig')

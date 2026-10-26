@@ -1,0 +1,37 @@
+state = {
+	id = 1300
+	name = "STATE_1300"
+	resources = {
+		aluminium = 3
+	}
+	provinces = {
+		27
+		111
+		3105
+		6136
+		6204
+		9032
+		9135
+		9227
+		11037
+		11113
+		11135
+		11206
+		18377
+		18387
+		18389
+		18397
+	}
+	manpower = 125352
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = NOR
+		controller = NOR
+		add_core_of = NOR
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

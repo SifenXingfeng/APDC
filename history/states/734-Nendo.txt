@@ -1,14 +1,22 @@
 state = {
 	id = 734
 	name = "STATE_734"
-	manpower = 5
-	state_category = tiny_island
+	manpower = 5167
+	state_category = small_island
 	history = {
-		owner = ZZZ
-		add_core_of = ZZZ
+		owner = SOL
+		controller = SOL
+		add_core_of = SOL
+		buildings = {
+			infrastructure = 2
+			7390 = {
+				naval_base = 1
+			}
+		}
 	}
-	buildings_max_level_factor = 1
+	buildings_max_level_factor = 1.000
 	provinces = {
 		7390
 	}
+	local_supplies = 0.0
 }

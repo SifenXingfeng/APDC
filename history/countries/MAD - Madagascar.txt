@@ -1,9 +1,15 @@
-# Shared empty OOB preserves startup initialization until a country OOB is authored.
-set_oob = "APDC_empty"
+# APDC: regular roster and production models available at scenario initialization.
+set_technology = { APDC_land_units_bootstrap = 1 }
+# Starting army: three six-battalion infantry divisions.
+set_oob = "MAD_2060"
 
-capital = 945 # Antananarivo
+capital = 543 # Antananarivo
 
 set_convoys = 5
+
+set_technology = {
+	infantry_weapons = 1
+}
 
 set_politics = {
 	ruling_party = dictatorship

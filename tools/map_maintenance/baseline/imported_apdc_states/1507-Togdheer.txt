@@ -1,0 +1,35 @@
+state = {
+	id = 1507
+	name = "STATE_1507"
+	provinces = {
+		1905
+		5068
+		10833
+		14086
+		14102
+	}
+	manpower = 114900
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = enclave
+	history = {
+		owner = SML
+		controller = SML
+		add_core_of = SML
+		add_core_of = SOM
+		buildings = {
+			infrastructure = 2
+			10833 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			5068
+			10
+		}
+		victory_points = {
+			10833
+			3
+		}
+	}
+}

@@ -1,0 +1,231 @@
+--- before/common/units/tank_destroyer_brigade.txt
++++ current/common/units/tank_destroyer_brigade.txt
+@@ -1,10 +1,31 @@
+ # APDC: old land-unit IDs retained for reference compatibility; normal unlocks removed.
+ sub_units = {
+ 
+-	light_tank_destroyer_brigade = {
++	
++	
++	
++	
++	
++	
++	
++	
++	
++
++	##TD reg support
++
++	
++
++	
++
++	
++
++	
++
++# Inactive identifiers required by retained engine interfaces.
++light_tank_destroyer_brigade = {
+ 		abbreviation = "LTD"
+ 		sprite = "light_armor"
+-		map_icon_category = armored
++		
+ 		priority = 1795
+ 		ai_priority = 100
+ 		active = no
+@@ -26,7 +47,7 @@
+ 		combat_width = 2
+ 
+ 		need = {
+-			light_tank_destroyer_chassis = 40
++			
+ 		}
+ 		manpower = 500
+ 		max_organisation = 0
+@@ -67,11 +88,10 @@
+ 			attack = -0.6
+ 		}
+ 	}
+-	
+-	medium_tank_destroyer_brigade = {
++medium_tank_destroyer_brigade = {
+ 		abbreviation = "MTD"
+ 		sprite = "medium_armor"
+-		map_icon_category = armored
++		
+ 		priority = 1796
+ 		ai_priority = 100
+ 		active = no
+@@ -93,7 +113,7 @@
+ 		combat_width = 2
+ 
+ 		need = {
+-			medium_tank_destroyer_chassis = 40
++			
+ 		}
+ 		manpower = 500
+ 		max_organisation = 0
+@@ -137,11 +157,10 @@
+ 			attack = -0.7
+ 		}
+ 	}
+-	
+-	heavy_tank_destroyer_brigade = {
++heavy_tank_destroyer_brigade = {
+ 		abbreviation = "HTD"
+ 		sprite = "heavy_armor"
+-		map_icon_category = armored
++		
+ 		priority = 1797
+ 		ai_priority = 100
+ 		active = no
+@@ -165,7 +184,7 @@
+ 		combat_width = 2
+ 
+ 		need = {
+-			heavy_tank_destroyer_chassis = 40
++			
+ 		}
+ 		manpower = 500
+ 		max_organisation = 0
+@@ -211,11 +230,10 @@
+ 			attack = 0.05
+ 		}
+ 	}
+-	
+-	super_heavy_tank_destroyer_brigade = {
++super_heavy_tank_destroyer_brigade = {
+ 		abbreviation = "STD"
+ 		sprite = "heavy_armor"
+-		map_icon_category = armored
++		
+ 		priority = 1798
+ 		ai_priority = 100
+ 		active = no
+@@ -240,7 +258,7 @@
+ 		combat_width = 0
+ 
+ 		need = {
+-			super_heavy_tank_destroyer_chassis = 20
++			
+ 		}
+ 		manpower = 500
+ 		max_organisation = 0
+@@ -287,11 +305,10 @@
+ 			attack = 0.3
+ 		}
+ 	}
+-	
+-	modern_tank_destroyer_brigade = {
++modern_tank_destroyer_brigade = {
+ 		abbreviation = "OTD"
+ 		sprite = "medium_armor"
+-		map_icon_category = armored
++		
+ 		priority = 1796
+ 		ai_priority = 100
+ 		active = no
+@@ -314,7 +331,7 @@
+ 		combat_width = 2
+ 
+ 		need = {
+-			modern_tank_destroyer_chassis = 40
++			
+ 		}
+ 		manpower = 500
+ 		max_organisation = 0
+@@ -358,13 +375,10 @@
+ 			attack = -0.7
+ 		}
+ 	}
+-
+-	##TD reg support
+-
+-	light_tank_destroyer_support = {
++light_tank_destroyer_support = {
+ 		abbreviation = "LTD"
+ 		sprite = "light_armor"
+-		map_icon_category = armored
++		
+ 		priority = 1795
+ 		ai_priority = 100
+ 		active = no
+@@ -391,7 +405,7 @@
+ 		divisional = no
+ 
+ 		need = {
+-			light_tank_destroyer_chassis = 10
++			
+ 		}
+ 		manpower = 180
+ 		max_organisation = 0
+@@ -409,11 +423,10 @@
+ 		armor_value = -0.33
+ 		
+ 	}
+-
+-	medium_tank_destroyer_support = {
++medium_tank_destroyer_support = {
+ 		abbreviation = "MTD"
+ 		sprite = "medium_armor"
+-		map_icon_category = armored
++		
+ 		priority = 1796
+ 		ai_priority = 100
+ 		active = no
+@@ -440,7 +453,7 @@
+ 
+ 
+ 		need = {
+-			medium_tank_destroyer_chassis = 10
++			
+ 		}
+ 		manpower = 180
+ 		max_organisation = 0
+@@ -459,11 +472,10 @@
+ 		armor_value = -0.33
+ 		
+ 	}
+-
+-	heavy_tank_destroyer_support = {
++heavy_tank_destroyer_support = {
+ 		abbreviation = "HTD"
+ 		sprite = "heavy_armor"
+-		map_icon_category = armored
++		
+ 		priority = 1797
+ 		ai_priority = 100
+ 		active = no
+@@ -489,7 +501,7 @@
+ 		}
+ 
+ 		need = {
+-			heavy_tank_destroyer_chassis = 10
++			
+ 		}
+ 		manpower = 180
+ 		max_organisation = 0
+@@ -507,11 +519,10 @@
+ 		suppression = 0.25
+ 		armor_value = -0.33
+ 	}
+-
+-	modern_tank_destroyer_support = {
++modern_tank_destroyer_support = {
+ 		abbreviation = "OTD"
+ 		sprite = "medium_armor"
+-		map_icon_category = armored
++		
+ 		priority = 1796
+ 		ai_priority = 100
+ 		active = no
+@@ -536,7 +547,7 @@
+ 		}
+ 
+ 		need = {
+-			modern_tank_destroyer_chassis = 10
++			
+ 		}
+ 		manpower = 180
+ 		max_organisation = 0

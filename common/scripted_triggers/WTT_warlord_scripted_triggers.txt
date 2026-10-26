@@ -1,0 +1,39 @@
+has_soviet_tribute = {
+	if = {
+		limit = { always = no }
+		always = no
+	}
+	if = {
+		limit = { always = no }
+		always = no
+	}
+	if = {
+		limit = { always = no }
+		always = no
+	}
+	if = {
+		limit = { always = no }
+		always = no
+	}
+	if = {
+		limit = { always = no }
+		always = no
+	}
+	if = {
+		limit = { always = no }
+		always = no
+	}
+	if = {
+		limit = {
+			NOT = {
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+				always = no
+			}
+		}
+		always = no
+	}
+}

@@ -1,0 +1,36 @@
+on_actions = {
+on_startup = {
+effect = {
+every_country = { APDC_eco_initialize_country = yes }
+every_country = { APDC_eco_calculate_country = yes }
+GER = { APDC_eco_clear_world_market = yes }
+
+}
+
+}
+on_daily = {
+effect = {
+if = { limit = { NOT = { has_global_flag = APDC_eco_daily_tick_lock } }
+set_global_flag = { flag = APDC_eco_daily_tick_lock value = 1 days = 1 }
+add_to_variable = { global.QA_APDC_eco_daily_tick_lock = 1 }
+every_country = { APDC_eco_daily_country = yes }
+APDC_eco_clear_world_market = yes
+every_country = { APDC_eco_daily_after_market = yes }
+}
+
+}
+
+}
+on_weekly = {
+effect = {
+if = { limit = { NOT = { has_global_flag = APDC_eco_weekly_tick_lock } }
+set_global_flag = { flag = APDC_eco_weekly_tick_lock value = 1 days = 7 }
+add_to_variable = { global.QA_APDC_eco_weekly_tick_lock = 1 }
+every_country = { APDC_eco_settle_week = yes }
+}
+
+}
+
+}
+
+}

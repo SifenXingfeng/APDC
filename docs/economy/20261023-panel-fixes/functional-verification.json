@@ -1,0 +1,47 @@
+{
+  "pass": [
+    "undisturbed_isolation_coefficient",
+    "undisturbed_isolation_no_native_reservation",
+    "isolation_coefficient",
+    "isolation_no_native_reservation",
+    "civilian_economy_coefficient",
+    "civilian_economy_no_native_reservation",
+    "low_economic_mobilisation_coefficient",
+    "low_economic_mobilisation_no_native_reservation",
+    "partial_economic_mobilisation_coefficient",
+    "partial_economic_mobilisation_no_native_reservation",
+    "war_economy_coefficient",
+    "war_economy_no_native_reservation",
+    "tot_economic_mobilisation_coefficient",
+    "tot_economic_mobilisation_no_native_reservation",
+    "equipment_row_opens_purchase",
+    "quantity_add_10",
+    "quantity_remove_1",
+    "quantity_max",
+    "accept_buys_and_deducts",
+    "cannot_buy_without_money",
+    "purchase_close",
+    "trade_expand_frame_2",
+    "trade_collapse_frame_1",
+    "law_group_opens",
+    "selected_law_closes_sidebar",
+    "manual_close_sidebar",
+    "panel_back_closes_children"
+  ],
+  "fail": [],
+  "date": "2060.01.02.23",
+  "process_cleanup": {
+    "closed_helpers": [
+      2812,
+      2580
+    ],
+    "still_running": false,
+    "pid": 35132,
+    "remaining_helpers": [],
+    "steam_app_running": false,
+    "stopped": "2026-10-23T16:22:34.7862438+08:00"
+  },
+  "validation_boundary": "Actual load/date advancement and execution of the exact UI callback bodies; no foreground pointer interaction or visual acceptance.",
+  "simulation_backend_unchanged": true,
+  "all_80_tier_modifier_blocks_unchanged": true
+}

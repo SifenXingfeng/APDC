@@ -1,0 +1,28 @@
+state = {
+	id = 1435
+	name = "STATE_1435"
+	provinces = {
+		8093
+		12748
+		18724
+		18727
+		18742
+	}
+	manpower = 118701
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = wasteland
+	history = {
+		owner = PER
+		controller = PER
+		add_core_of = PER
+		victory_points = {
+			18727
+			2
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = GDP_category_city
+	}
+}

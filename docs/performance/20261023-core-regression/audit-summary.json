@@ -1,0 +1,181 @@
+{
+  "changed_paths": 1497,
+  "physical_deletions": 39,
+  "physical_deletions_by_type": {
+    "common/defines": 1,
+    "history/countries": 37,
+    "localisation/simp_chinese": 1
+  },
+  "added_override_asset_tool_paths": 1004,
+  "modified_existing_paths": 454,
+  "pruned_libraries": 160,
+  "initially_pruned_definitions": 3065,
+  "library_types": {
+    "scripted_effects": 16,
+    "scripted_triggers": 33,
+    "ideas": 96,
+    "dynamic_modifiers": 9,
+    "bop": 2,
+    "country_leader": 4
+  },
+  "engine_candidates": 32,
+  "engine_candidate_dispositions": {
+    "not an engine script callback: ordinary unused SWE scripted arithmetic utility; executable string match alone is insufficient": 1,
+    "native AI test-mode setup, not ordinary-game callback; remains excluded with unused debug fixtures": 1,
+    "restored generic engine callback; WW2 exceptions omitted where applicable": 25,
+    "intentional exclusion: only PHI/USA/IRQ/ENG treaty or DEN protectorate exceptions; no generic rule": 5
+  },
+  "restored_engine_callbacks": 25,
+  "restored_dependencies": 1,
+  "deleted_country_histories": [
+    {
+      "path": "history/countries/CHM - Champa.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/DIP - Partisans.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/FOR - Formosa.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/GDC - Guangdong.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/GEN - Generalgouvernement.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/GSM - Gansu Ma.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/HBC  - Hebei-Chahar.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/IMO - Omani Imamate.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/KHM - Khotan Ma.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/KUM - Kumul Khanate.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/NXM - Ningxia Ma.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/PSH - Pashtunistan.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/PSR - Philippine Second Republic.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/RAA - Reichskommisariat Australasien.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/RAN - Reichskommisariat Anden.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/RAR - Reichskommisariat Arabien.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/RCO - Reichskommisariat Kolumbus.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/RGB - Reichskommisariat Grossbritannien.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/RHD - Reichskommisariat Grosshindustan.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/RKA - Reichskommisariat Mittelafrika.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/RKB - Reichskommisariat Belgien.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/RKC - Reichskommisariat Balkan.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/RKG - Reichskommisariat Norwegen.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/RKH - Bohmen Mahren.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/RKI - Reichskommisariat Iberien.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/RKK - Reichskommisariat Kaukasien.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/RKL - Reichskommisariat Urals.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/RKM - Reichskommisariat Moskowien.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/RKN - Reichskommisariat Niederlande.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/RKO - Reichskommisariat Ostland.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/RKT - Reichskommisariat Turkestan.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/RKU - Reichskommisariat Ukraine.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/RKV - Reichskommisariat Klein Venedig.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/RNA - Reichskommisariat Nordafrika.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/RNG - Reorganized National Government.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/ROA - Reichskommisariat Ostasien.txt",
+      "registered_now": false
+    },
+    {
+      "path": "history/countries/RUS - Reichskommisariat Nordamerika.txt",
+      "registered_now": false
+    }
+  ],
+  "scope_limit": "This audit cross-checks all 3065 removed library roots against executable strings and the documented diplomatic callback name families, then checks restored dependencies. It does not constitute exhaustive gameplay coverage of every changed file."
+}

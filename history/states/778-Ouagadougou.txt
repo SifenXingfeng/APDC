@@ -1,0 +1,52 @@
+state = {
+	id = 778
+	name = "STATE_778"
+	provinces = {
+		8071
+		10836
+		12740
+		14134
+		14166
+		15292
+		15909
+	}
+	manpower = 826048
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 1
+	history = {
+		owner = BKF
+		controller = BKF
+		add_core_of = BKF
+		add_core_of = ISP
+		add_core_of = JNM
+		victory_points = {
+			8071
+			2
+		}
+		victory_points = {
+			10836
+			25
+		}
+		victory_points = {
+			12740
+			1
+		}
+		victory_points = {
+			14134
+			1
+		}
+		victory_points = {
+			15292
+			2
+		}
+		victory_points = {
+			15909
+			2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = state_renamings
+	}
+}

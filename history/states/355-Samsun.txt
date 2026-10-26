@@ -1,41 +1,62 @@
 state = {
 	id = 355
 	name = "STATE_355"
-	resources = {
-		steel = 14.000
+	provinces = {
+		960
+		975
+		3965
+		6978
+		9900
+		9915
+		11881
+		11894
+		16220
+		16221
+		18457
+		18459
+		18468
 	}
-
+	manpower = 998281
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
 	history = {
 		owner = TUR
+		controller = TUR
+		add_core_of = TUR
 		victory_points = {
-			11881 10
+			975
+			2
 		}
 		victory_points = {
-			16220 2
+			9900
+			1
 		}
 		victory_points = {
-			16221 2
+			11881
+			5
 		}
 		victory_points = {
-			11894 1
+			11894
+			1
+		}
+		victory_points = {
+			16221
+			2
+		}
+		victory_points = {
+			18457
+			2
+		}
+		victory_points = {
+			18459
+			1
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			11881 = {
-				naval_base = 1
+				naval_base = 3
 			}
-			radar_station = 1
-			
-			
 		}
-		add_core_of = TUR
 	}
-
-	provinces = {
-		9900 11881 11894 16220 16221 18457
-	}
-	manpower = 1202323
-	buildings_max_level_factor = 1.000
-	state_category = town
-	local_supplies = 0.000
 }

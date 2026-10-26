@@ -1,0 +1,22 @@
+state = {
+	id = 1481
+	name = "STATE_1481"
+	provinces = {
+		13079
+		13434
+		18586
+	}
+	manpower = 163350
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+	history = {
+		owner = YEM
+		controller = YEM
+		add_core_of = YEM
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = state_renamings
+	}
+}

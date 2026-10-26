@@ -1,0 +1,32 @@
+on_actions = {
+	# Every country begins with its ruling party registered as a coalition member.
+	on_startup = {
+		effect = {
+			every_country = {
+				APDC_add_current_ruling_party_to_governing_coalition = yes
+				APDC_update_cabinet_statistics = yes
+			}
+		}
+	}
+
+	# A newly installed ruling party is automatically added without silently
+	# removing any existing partners; later content can remove them explicitly.
+	on_ruling_party_change = {
+		effect = {
+			APDC_add_current_ruling_party_to_governing_coalition = yes
+			APDC_update_cabinet_statistics = yes
+		}
+	}
+
+	# Party popularity can change without firing a coalition action.  Refresh
+	# only an actively viewed cabinet panel, keeping the derived data current
+	# without adding daily work to every AI country.
+	on_daily = {
+		effect = {
+			every_country = {
+				limit = { has_variable = APDC_cabinet_selected_slot }
+				APDC_update_cabinet_statistics = yes
+			}
+		}
+	}
+}

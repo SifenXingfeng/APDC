@@ -1,0 +1,555 @@
+--- before/common/scripted_effects/APDC_economy_market.txt
++++ current/common/scripted_effects/APDC_economy_market.txt
+@@ -0,0 +1,552 @@
++APDC_eco_market_begin_0 = {
++clear_array = global.APDC_eco_market_sellers_0
++clear_array = global.APDC_eco_market_buyers_0
++clear_array = global.APDC_eco_market_quantity_0
++clear_array = global.APDC_eco_market_exporters
++clear_array = global.APDC_eco_market_importers
++clear_array = global.APDC_eco_market_order
++clear_array = global.APDC_eco_market_group
++clear_array = global.APDC_eco_market_tariff_order
++clear_array = global.APDC_eco_market_sorted_group
++clear_array = global.APDC_eco_market_sorted_buyers
++every_country = {
++clear_array = APDC_eco_market_partners_0
++clear_array = APDC_eco_market_edges_0
++set_variable = { APDC_eco_market_remaining_import_0 = APDC_eco_import_target_m }
++
++set_variable = { APDC_eco_market_remaining_export_0 = APDC_eco_export_target_m }
++
++set_temp_variable = { APDC_eco_math_1 = APDC_eco_import_target_m }
++multiply_temp_variable = { APDC_eco_math_1 = -1 }
++set_variable = { APDC_eco_market_demand_score_0 = APDC_eco_math_1 }
++
++set_temp_variable = { APDC_eco_math_2 = APDC_eco_tariff }
++multiply_temp_variable = { APDC_eco_math_2 = -1 }
++set_variable = { APDC_eco_market_tariff_score_0 = APDC_eco_math_2 }
++
++set_variable = { APDC_eco_market_imports_0 = 0 }
++set_variable = { APDC_eco_market_exports_0 = 0 }
++
++if = { limit = { check_variable = { APDC_eco_market_remaining_export_0 > 0 } } add_to_array = { array = global.APDC_eco_market_exporters value = THIS } }
++if = { limit = { check_variable = { APDC_eco_market_remaining_import_0 > 0 } } add_to_array = { array = global.APDC_eco_market_importers value = THIS } }
++}
++get_sorted_scored_countries = { scorer = APDC_eco_market_tariff_0 array = global.APDC_eco_market_tariff_order }
++set_variable = { global.APDC_eco_market_group_tariff = -1 }
++
++for_each_scope_loop = { array = global.APDC_eco_market_tariff_order
++if = { limit = { NOT = { check_variable = { APDC_eco_market_tariff_score_0 = global.APDC_eco_market_group_tariff } } }
++if = { limit = { check_variable = { global.APDC_eco_market_group^num > 0 } }
++get_sorted_scored_countries = { scorer = APDC_eco_market_supply_0 array = global.APDC_eco_market_sorted_group }
++for_each_scope_loop = { array = global.APDC_eco_market_sorted_group add_to_array = { array = global.APDC_eco_market_order value = THIS } }
++clear_array = global.APDC_eco_market_group
++}
++set_variable = { global.APDC_eco_market_group_tariff = APDC_eco_market_tariff_score_0 }
++
++}
++add_to_array = { array = global.APDC_eco_market_group value = THIS }
++}
++if = { limit = { check_variable = { global.APDC_eco_market_group^num > 0 } }
++get_sorted_scored_countries = { scorer = APDC_eco_market_supply_0 array = global.APDC_eco_market_sorted_group }
++for_each_scope_loop = { array = global.APDC_eco_market_sorted_group add_to_array = { array = global.APDC_eco_market_order value = THIS } }
++clear_array = global.APDC_eco_market_group
++}
++
++set_variable = { global.APDC_eco_market_pending_buffer = 0 }
++set_variable = { global.APDC_eco_market_cursor = 0 }
++
++set_temp_variable = { APDC_eco_math_3 = global.APDC_eco_market_order^num }
++add_to_temp_variable = { APDC_eco_math_3 = 6 }
++divide_temp_variable = { APDC_eco_math_3 = 7 }
++set_variable = { global.APDC_eco_market_batch_size = APDC_eco_math_3 }
++
++set_variable = { global.APDC_eco_market_batch_unrounded = global.APDC_eco_market_batch_size }
++
++round_variable = global.APDC_eco_market_batch_size
++if = { limit = { check_variable = { global.APDC_eco_market_batch_size > global.APDC_eco_market_batch_unrounded } } subtract_from_variable = { global.APDC_eco_market_batch_size = 1 } }
++set_temp_variable = { APDC_eco_math_4 = global.APDC_eco_market_batch_size }
++clamp_temp_variable = { var = APDC_eco_math_4 min = 1 }
++set_variable = { global.APDC_eco_market_batch_size = APDC_eco_math_4 }
++
++set_global_flag = APDC_eco_market_busy
++clr_global_flag = APDC_eco_market_requested
++
++}
++APDC_eco_market_match_seller_0 = {
++clear_array = global.APDC_eco_market_eligible_buyers
++for_each_scope_loop = { array = global.APDC_eco_market_importers
++if = { limit = {
++check_variable = { APDC_eco_market_remaining_import_0 > 0 }
++NOT = { has_war_with = var:global.APDC_eco_market_seller }
++NOT = { is_embargoed_by = var:global.APDC_eco_market_seller }
++NOT = { is_embargoing = var:global.APDC_eco_market_seller }
++NOT = { tag = var:global.APDC_eco_market_seller }
++} add_to_array = { array = global.APDC_eco_market_eligible_buyers value = THIS } }
++}
++get_sorted_scored_countries = { scorer = APDC_eco_market_demand_0 array = global.APDC_eco_market_sorted_buyers }
++set_variable = { global.APDC_eco_market_supply = APDC_eco_market_remaining_export_0 }
++
++set_variable = { global.APDC_eco_market_buyers_left = global.APDC_eco_market_sorted_buyers^num }
++
++# Ascending demand produces the same equal-share allocation without repeated
++# redistribution rounds. Each buyer/seller pair is written exactly once.
++for_each_scope_loop = { array = global.APDC_eco_market_sorted_buyers
++set_temp_variable = { APDC_eco_math_5 = global.APDC_eco_market_supply }
++divide_temp_variable = { APDC_eco_math_5 = global.APDC_eco_market_buyers_left }
++clamp_temp_variable = { var = APDC_eco_math_5 max = APDC_eco_market_remaining_import_0 }
++clamp_temp_variable = { var = APDC_eco_math_5 min = 0 }
++set_variable = { global.APDC_eco_market_deal = APDC_eco_math_5 }
++
++if = { limit = { check_variable = { global.APDC_eco_market_deal > 0 } } set_variable = { global.APDC_eco_market_edge = global.APDC_eco_market_quantity_0^num }
++
++set_variable = { global.APDC_eco_market_buyer = THIS }
++
++add_to_array = { array = global.APDC_eco_market_sellers_0 value = var:global.APDC_eco_market_seller }
++add_to_array = { array = global.APDC_eco_market_buyers_0 value = THIS }
++add_to_array = { array = global.APDC_eco_market_quantity_0 value = global.APDC_eco_market_deal }
++add_to_array = { array = APDC_eco_market_partners_0 value = var:global.APDC_eco_market_seller }
++add_to_array = { array = APDC_eco_market_edges_0 value = global.APDC_eco_market_edge }
++add_to_variable = { APDC_eco_market_imports_0 = global.APDC_eco_market_deal }
++subtract_from_variable = { APDC_eco_market_remaining_import_0 = global.APDC_eco_market_deal }
++set_temp_variable = { APDC_eco_math_6 = APDC_eco_market_remaining_import_0 }
++multiply_temp_variable = { APDC_eco_math_6 = -1 }
++set_variable = { APDC_eco_market_demand_score_0 = APDC_eco_math_6 }
++
++var:global.APDC_eco_market_seller = {
++add_to_array = { array = APDC_eco_market_partners_0 value = var:global.APDC_eco_market_buyer }
++add_to_array = { array = APDC_eco_market_edges_0 value = global.APDC_eco_market_edge }
++add_to_variable = { APDC_eco_market_exports_0 = global.APDC_eco_market_deal }
++subtract_from_variable = { APDC_eco_market_remaining_export_0 = global.APDC_eco_market_deal }
++}
++subtract_from_variable = { global.APDC_eco_market_supply = global.APDC_eco_market_deal }
++ }
++subtract_from_variable = { global.APDC_eco_market_buyers_left = 1 }
++}
++
++}
++APDC_eco_market_step_0 = {
++for_loop_effect = { start = 0 end = global.APDC_eco_market_batch_size value = APDC_eco_market_batch_iteration
++if = { limit = { check_variable = { global.APDC_eco_market_cursor < global.APDC_eco_market_order^num } }
++set_variable = { global.APDC_eco_market_seller = global.APDC_eco_market_order^global.APDC_eco_market_cursor }
++
++var:global.APDC_eco_market_seller = { APDC_eco_market_match_seller_0 = yes }
++add_to_variable = { global.APDC_eco_market_cursor = 1 }
++}
++}
++if = { limit = { NOT = { check_variable = { global.APDC_eco_market_cursor < global.APDC_eco_market_order^num } } }
++set_variable = { global.APDC_eco_market_active_buffer = 0 }
++
++clr_global_flag = APDC_eco_market_busy
++add_to_variable = { global.APDC_eco_market_completed_cycles = 1 }
++APDC_eco_validate_world_trade = yes
++}
++
++}
++APDC_eco_validate_market_0 = {
++every_country = {
++set_variable = { APDC_eco_market_import_scale_0 = 1 }
++set_variable = { APDC_eco_market_export_scale_0 = 1 }
++
++if = { limit = { check_variable = { APDC_eco_market_imports_0 > 0 } }
++set_temp_variable = { APDC_eco_math_7 = APDC_eco_import_target_m }
++divide_temp_variable = { APDC_eco_math_7 = APDC_eco_market_imports_0 }
++clamp_temp_variable = { var = APDC_eco_math_7 min = 0 max = 1 }
++set_variable = { APDC_eco_market_import_scale_0 = APDC_eco_math_7 }
++
++}
++if = { limit = { check_variable = { APDC_eco_market_exports_0 > 0 } }
++set_temp_variable = { APDC_eco_math_8 = APDC_eco_export_target_m }
++divide_temp_variable = { APDC_eco_math_8 = APDC_eco_market_exports_0 }
++clamp_temp_variable = { var = APDC_eco_math_8 min = 0 max = 1 }
++set_variable = { APDC_eco_market_export_scale_0 = APDC_eco_math_8 }
++
++}
++set_variable = { APDC_eco_market_imports_0 = 0 }
++set_variable = { APDC_eco_market_exports_0 = 0 }
++
++}
++for_each_loop = { array = global.APDC_eco_market_sellers_0
++set_temp_variable = { APDC_eco_market_seller_token = v }
++set_temp_variable = { APDC_eco_market_edge_index = i }
++set_variable = { global.APDC_eco_market_validation_edge = APDC_eco_market_edge_index }
++
++set_variable = { global.APDC_eco_market_checked_deal = global.APDC_eco_market_quantity_0^global.APDC_eco_market_validation_edge }
++
++if = { limit = { check_variable = { global.APDC_eco_market_checked_deal > 0 } }
++set_variable = { global.APDC_eco_market_seller = APDC_eco_market_seller_token }
++
++set_variable = { global.APDC_eco_market_buyer = global.APDC_eco_market_buyers_0^global.APDC_eco_market_validation_edge }
++
++set_variable = { global.APDC_eco_market_scale = 0 }
++
++var:global.APDC_eco_market_seller = { if = { limit = { exists = yes } set_variable = { global.APDC_eco_market_scale = APDC_eco_market_export_scale_0 }
++ } }
++var:global.APDC_eco_market_buyer = {
++if = { limit = {
++exists = yes
++NOT = { has_war_with = var:global.APDC_eco_market_seller }
++NOT = { is_embargoed_by = var:global.APDC_eco_market_seller }
++NOT = { is_embargoing = var:global.APDC_eco_market_seller }
++}
++set_temp_variable = { APDC_eco_math_9 = global.APDC_eco_market_scale }
++clamp_temp_variable = { var = APDC_eco_math_9 max = APDC_eco_market_import_scale_0 }
++set_variable = { global.APDC_eco_market_scale = APDC_eco_math_9 }
++
++} else = { set_variable = { global.APDC_eco_market_scale = 0 }
++ }
++}
++multiply_variable = { global.APDC_eco_market_checked_deal = global.APDC_eco_market_scale }
++set_variable = { global.APDC_eco_market_quantity_0^global.APDC_eco_market_validation_edge = global.APDC_eco_market_checked_deal }
++
++var:global.APDC_eco_market_seller = { add_to_variable = { APDC_eco_market_exports_0 = global.APDC_eco_market_checked_deal } }
++var:global.APDC_eco_market_buyer = { add_to_variable = { APDC_eco_market_imports_0 = global.APDC_eco_market_checked_deal } }
++}
++}
++every_country = {
++set_variable = { APDC_eco_imports_m = APDC_eco_market_imports_0 }
++set_variable = { APDC_eco_exports_m = APDC_eco_market_exports_0 }
++
++set_temp_variable = { APDC_eco_math_10 = APDC_eco_imports_m }
++add_to_temp_variable = { APDC_eco_math_10 = APDC_eco_exports_m }
++multiply_temp_variable = { APDC_eco_math_10 = APDC_eco_tariff }
++set_variable = { APDC_eco_tariffs_m = APDC_eco_math_10 }
++
++APDC_eco_apply_current_trade = yes
++}
++
++}
++APDC_eco_render_trade_0 = {
++for_each_loop = { array = APDC_eco_market_partners_0
++set_temp_variable = { APDC_eco_ui_trade_partner = v }
++set_temp_variable = { APDC_eco_ui_trade_index = i }
++set_temp_variable = { APDC_eco_ui_trade_edge = APDC_eco_market_edges_0^APDC_eco_ui_trade_index }
++set_variable = { global.APDC_eco_market_ui_edge = APDC_eco_ui_trade_edge }
++
++set_temp_variable = { APDC_eco_ui_trade_amount = global.APDC_eco_market_quantity_0^global.APDC_eco_market_ui_edge }
++if = { limit = { check_variable = { APDC_eco_ui_trade_amount > 0 } }
++set_variable = { global.APDC_eco_market_ui_seller = global.APDC_eco_market_sellers_0^global.APDC_eco_market_ui_edge }
++
++if = { limit = { tag = var:global.APDC_eco_market_ui_seller } multiply_temp_variable = { APDC_eco_ui_trade_amount = -1 } }
++add_to_array = { array = APDC_eco_trade_partners value = APDC_eco_ui_trade_partner }
++add_to_array = { array = APDC_eco_trade_amounts value = APDC_eco_ui_trade_amount }
++}
++}
++
++}
++APDC_eco_market_begin_1 = {
++clear_array = global.APDC_eco_market_sellers_1
++clear_array = global.APDC_eco_market_buyers_1
++clear_array = global.APDC_eco_market_quantity_1
++clear_array = global.APDC_eco_market_exporters
++clear_array = global.APDC_eco_market_importers
++clear_array = global.APDC_eco_market_order
++clear_array = global.APDC_eco_market_group
++clear_array = global.APDC_eco_market_tariff_order
++clear_array = global.APDC_eco_market_sorted_group
++clear_array = global.APDC_eco_market_sorted_buyers
++every_country = {
++clear_array = APDC_eco_market_partners_1
++clear_array = APDC_eco_market_edges_1
++set_variable = { APDC_eco_market_remaining_import_1 = APDC_eco_import_target_m }
++
++set_variable = { APDC_eco_market_remaining_export_1 = APDC_eco_export_target_m }
++
++set_temp_variable = { APDC_eco_math_11 = APDC_eco_import_target_m }
++multiply_temp_variable = { APDC_eco_math_11 = -1 }
++set_variable = { APDC_eco_market_demand_score_1 = APDC_eco_math_11 }
++
++set_temp_variable = { APDC_eco_math_12 = APDC_eco_tariff }
++multiply_temp_variable = { APDC_eco_math_12 = -1 }
++set_variable = { APDC_eco_market_tariff_score_1 = APDC_eco_math_12 }
++
++set_variable = { APDC_eco_market_imports_1 = 0 }
++set_variable = { APDC_eco_market_exports_1 = 0 }
++
++if = { limit = { check_variable = { APDC_eco_market_remaining_export_1 > 0 } } add_to_array = { array = global.APDC_eco_market_exporters value = THIS } }
++if = { limit = { check_variable = { APDC_eco_market_remaining_import_1 > 0 } } add_to_array = { array = global.APDC_eco_market_importers value = THIS } }
++}
++get_sorted_scored_countries = { scorer = APDC_eco_market_tariff_1 array = global.APDC_eco_market_tariff_order }
++set_variable = { global.APDC_eco_market_group_tariff = -1 }
++
++for_each_scope_loop = { array = global.APDC_eco_market_tariff_order
++if = { limit = { NOT = { check_variable = { APDC_eco_market_tariff_score_1 = global.APDC_eco_market_group_tariff } } }
++if = { limit = { check_variable = { global.APDC_eco_market_group^num > 0 } }
++get_sorted_scored_countries = { scorer = APDC_eco_market_supply_1 array = global.APDC_eco_market_sorted_group }
++for_each_scope_loop = { array = global.APDC_eco_market_sorted_group add_to_array = { array = global.APDC_eco_market_order value = THIS } }
++clear_array = global.APDC_eco_market_group
++}
++set_variable = { global.APDC_eco_market_group_tariff = APDC_eco_market_tariff_score_1 }
++
++}
++add_to_array = { array = global.APDC_eco_market_group value = THIS }
++}
++if = { limit = { check_variable = { global.APDC_eco_market_group^num > 0 } }
++get_sorted_scored_countries = { scorer = APDC_eco_market_supply_1 array = global.APDC_eco_market_sorted_group }
++for_each_scope_loop = { array = global.APDC_eco_market_sorted_group add_to_array = { array = global.APDC_eco_market_order value = THIS } }
++clear_array = global.APDC_eco_market_group
++}
++
++set_variable = { global.APDC_eco_market_pending_buffer = 1 }
++set_variable = { global.APDC_eco_market_cursor = 0 }
++
++set_temp_variable = { APDC_eco_math_13 = global.APDC_eco_market_order^num }
++add_to_temp_variable = { APDC_eco_math_13 = 6 }
++divide_temp_variable = { APDC_eco_math_13 = 7 }
++set_variable = { global.APDC_eco_market_batch_size = APDC_eco_math_13 }
++
++set_variable = { global.APDC_eco_market_batch_unrounded = global.APDC_eco_market_batch_size }
++
++round_variable = global.APDC_eco_market_batch_size
++if = { limit = { check_variable = { global.APDC_eco_market_batch_size > global.APDC_eco_market_batch_unrounded } } subtract_from_variable = { global.APDC_eco_market_batch_size = 1 } }
++set_temp_variable = { APDC_eco_math_14 = global.APDC_eco_market_batch_size }
++clamp_temp_variable = { var = APDC_eco_math_14 min = 1 }
++set_variable = { global.APDC_eco_market_batch_size = APDC_eco_math_14 }
++
++set_global_flag = APDC_eco_market_busy
++clr_global_flag = APDC_eco_market_requested
++
++}
++APDC_eco_market_match_seller_1 = {
++clear_array = global.APDC_eco_market_eligible_buyers
++for_each_scope_loop = { array = global.APDC_eco_market_importers
++if = { limit = {
++check_variable = { APDC_eco_market_remaining_import_1 > 0 }
++NOT = { has_war_with = var:global.APDC_eco_market_seller }
++NOT = { is_embargoed_by = var:global.APDC_eco_market_seller }
++NOT = { is_embargoing = var:global.APDC_eco_market_seller }
++NOT = { tag = var:global.APDC_eco_market_seller }
++} add_to_array = { array = global.APDC_eco_market_eligible_buyers value = THIS } }
++}
++get_sorted_scored_countries = { scorer = APDC_eco_market_demand_1 array = global.APDC_eco_market_sorted_buyers }
++set_variable = { global.APDC_eco_market_supply = APDC_eco_market_remaining_export_1 }
++
++set_variable = { global.APDC_eco_market_buyers_left = global.APDC_eco_market_sorted_buyers^num }
++
++# Ascending demand produces the same equal-share allocation without repeated
++# redistribution rounds. Each buyer/seller pair is written exactly once.
++for_each_scope_loop = { array = global.APDC_eco_market_sorted_buyers
++set_temp_variable = { APDC_eco_math_15 = global.APDC_eco_market_supply }
++divide_temp_variable = { APDC_eco_math_15 = global.APDC_eco_market_buyers_left }
++clamp_temp_variable = { var = APDC_eco_math_15 max = APDC_eco_market_remaining_import_1 }
++clamp_temp_variable = { var = APDC_eco_math_15 min = 0 }
++set_variable = { global.APDC_eco_market_deal = APDC_eco_math_15 }
++
++if = { limit = { check_variable = { global.APDC_eco_market_deal > 0 } } set_variable = { global.APDC_eco_market_edge = global.APDC_eco_market_quantity_1^num }
++
++set_variable = { global.APDC_eco_market_buyer = THIS }
++
++add_to_array = { array = global.APDC_eco_market_sellers_1 value = var:global.APDC_eco_market_seller }
++add_to_array = { array = global.APDC_eco_market_buyers_1 value = THIS }
++add_to_array = { array = global.APDC_eco_market_quantity_1 value = global.APDC_eco_market_deal }
++add_to_array = { array = APDC_eco_market_partners_1 value = var:global.APDC_eco_market_seller }
++add_to_array = { array = APDC_eco_market_edges_1 value = global.APDC_eco_market_edge }
++add_to_variable = { APDC_eco_market_imports_1 = global.APDC_eco_market_deal }
++subtract_from_variable = { APDC_eco_market_remaining_import_1 = global.APDC_eco_market_deal }
++set_temp_variable = { APDC_eco_math_16 = APDC_eco_market_remaining_import_1 }
++multiply_temp_variable = { APDC_eco_math_16 = -1 }
++set_variable = { APDC_eco_market_demand_score_1 = APDC_eco_math_16 }
++
++var:global.APDC_eco_market_seller = {
++add_to_array = { array = APDC_eco_market_partners_1 value = var:global.APDC_eco_market_buyer }
++add_to_array = { array = APDC_eco_market_edges_1 value = global.APDC_eco_market_edge }
++add_to_variable = { APDC_eco_market_exports_1 = global.APDC_eco_market_deal }
++subtract_from_variable = { APDC_eco_market_remaining_export_1 = global.APDC_eco_market_deal }
++}
++subtract_from_variable = { global.APDC_eco_market_supply = global.APDC_eco_market_deal }
++ }
++subtract_from_variable = { global.APDC_eco_market_buyers_left = 1 }
++}
++
++}
++APDC_eco_market_step_1 = {
++for_loop_effect = { start = 0 end = global.APDC_eco_market_batch_size value = APDC_eco_market_batch_iteration
++if = { limit = { check_variable = { global.APDC_eco_market_cursor < global.APDC_eco_market_order^num } }
++set_variable = { global.APDC_eco_market_seller = global.APDC_eco_market_order^global.APDC_eco_market_cursor }
++
++var:global.APDC_eco_market_seller = { APDC_eco_market_match_seller_1 = yes }
++add_to_variable = { global.APDC_eco_market_cursor = 1 }
++}
++}
++if = { limit = { NOT = { check_variable = { global.APDC_eco_market_cursor < global.APDC_eco_market_order^num } } }
++set_variable = { global.APDC_eco_market_active_buffer = 1 }
++
++clr_global_flag = APDC_eco_market_busy
++add_to_variable = { global.APDC_eco_market_completed_cycles = 1 }
++APDC_eco_validate_world_trade = yes
++}
++
++}
++APDC_eco_validate_market_1 = {
++every_country = {
++set_variable = { APDC_eco_market_import_scale_1 = 1 }
++set_variable = { APDC_eco_market_export_scale_1 = 1 }
++
++if = { limit = { check_variable = { APDC_eco_market_imports_1 > 0 } }
++set_temp_variable = { APDC_eco_math_17 = APDC_eco_import_target_m }
++divide_temp_variable = { APDC_eco_math_17 = APDC_eco_market_imports_1 }
++clamp_temp_variable = { var = APDC_eco_math_17 min = 0 max = 1 }
++set_variable = { APDC_eco_market_import_scale_1 = APDC_eco_math_17 }
++
++}
++if = { limit = { check_variable = { APDC_eco_market_exports_1 > 0 } }
++set_temp_variable = { APDC_eco_math_18 = APDC_eco_export_target_m }
++divide_temp_variable = { APDC_eco_math_18 = APDC_eco_market_exports_1 }
++clamp_temp_variable = { var = APDC_eco_math_18 min = 0 max = 1 }
++set_variable = { APDC_eco_market_export_scale_1 = APDC_eco_math_18 }
++
++}
++set_variable = { APDC_eco_market_imports_1 = 0 }
++set_variable = { APDC_eco_market_exports_1 = 0 }
++
++}
++for_each_loop = { array = global.APDC_eco_market_sellers_1
++set_temp_variable = { APDC_eco_market_seller_token = v }
++set_temp_variable = { APDC_eco_market_edge_index = i }
++set_variable = { global.APDC_eco_market_validation_edge = APDC_eco_market_edge_index }
++
++set_variable = { global.APDC_eco_market_checked_deal = global.APDC_eco_market_quantity_1^global.APDC_eco_market_validation_edge }
++
++if = { limit = { check_variable = { global.APDC_eco_market_checked_deal > 0 } }
++set_variable = { global.APDC_eco_market_seller = APDC_eco_market_seller_token }
++
++set_variable = { global.APDC_eco_market_buyer = global.APDC_eco_market_buyers_1^global.APDC_eco_market_validation_edge }
++
++set_variable = { global.APDC_eco_market_scale = 0 }
++
++var:global.APDC_eco_market_seller = { if = { limit = { exists = yes } set_variable = { global.APDC_eco_market_scale = APDC_eco_market_export_scale_1 }
++ } }
++var:global.APDC_eco_market_buyer = {
++if = { limit = {
++exists = yes
++NOT = { has_war_with = var:global.APDC_eco_market_seller }
++NOT = { is_embargoed_by = var:global.APDC_eco_market_seller }
++NOT = { is_embargoing = var:global.APDC_eco_market_seller }
++}
++set_temp_variable = { APDC_eco_math_19 = global.APDC_eco_market_scale }
++clamp_temp_variable = { var = APDC_eco_math_19 max = APDC_eco_market_import_scale_1 }
++set_variable = { global.APDC_eco_market_scale = APDC_eco_math_19 }
++
++} else = { set_variable = { global.APDC_eco_market_scale = 0 }
++ }
++}
++multiply_variable = { global.APDC_eco_market_checked_deal = global.APDC_eco_market_scale }
++set_variable = { global.APDC_eco_market_quantity_1^global.APDC_eco_market_validation_edge = global.APDC_eco_market_checked_deal }
++
++var:global.APDC_eco_market_seller = { add_to_variable = { APDC_eco_market_exports_1 = global.APDC_eco_market_checked_deal } }
++var:global.APDC_eco_market_buyer = { add_to_variable = { APDC_eco_market_imports_1 = global.APDC_eco_market_checked_deal } }
++}
++}
++every_country = {
++set_variable = { APDC_eco_imports_m = APDC_eco_market_imports_1 }
++set_variable = { APDC_eco_exports_m = APDC_eco_market_exports_1 }
++
++set_temp_variable = { APDC_eco_math_20 = APDC_eco_imports_m }
++add_to_temp_variable = { APDC_eco_math_20 = APDC_eco_exports_m }
++multiply_temp_variable = { APDC_eco_math_20 = APDC_eco_tariff }
++set_variable = { APDC_eco_tariffs_m = APDC_eco_math_20 }
++
++APDC_eco_apply_current_trade = yes
++}
++
++}
++APDC_eco_render_trade_1 = {
++for_each_loop = { array = APDC_eco_market_partners_1
++set_temp_variable = { APDC_eco_ui_trade_partner = v }
++set_temp_variable = { APDC_eco_ui_trade_index = i }
++set_temp_variable = { APDC_eco_ui_trade_edge = APDC_eco_market_edges_1^APDC_eco_ui_trade_index }
++set_variable = { global.APDC_eco_market_ui_edge = APDC_eco_ui_trade_edge }
++
++set_temp_variable = { APDC_eco_ui_trade_amount = global.APDC_eco_market_quantity_1^global.APDC_eco_market_ui_edge }
++if = { limit = { check_variable = { APDC_eco_ui_trade_amount > 0 } }
++set_variable = { global.APDC_eco_market_ui_seller = global.APDC_eco_market_sellers_1^global.APDC_eco_market_ui_edge }
++
++if = { limit = { tag = var:global.APDC_eco_market_ui_seller } multiply_temp_variable = { APDC_eco_ui_trade_amount = -1 } }
++add_to_array = { array = APDC_eco_trade_partners value = APDC_eco_ui_trade_partner }
++add_to_array = { array = APDC_eco_trade_amounts value = APDC_eco_ui_trade_amount }
++}
++}
++
++}
++APDC_eco_apply_current_trade = {
++set_temp_variable = { APDC_eco_math_21 = APDC_eco_domestic_m }
++add_to_temp_variable = { APDC_eco_math_21 = APDC_eco_extra_input }
++subtract_from_temp_variable = { APDC_eco_math_21 = APDC_eco_extra_output }
++add_to_temp_variable = { APDC_eco_math_21 = APDC_eco_imports_m }
++subtract_from_temp_variable = { APDC_eco_math_21 = APDC_eco_exports_m }
++clamp_temp_variable = { var = APDC_eco_math_21 min = 0 }
++multiply_temp_variable = { APDC_eco_math_21 = APDC_eco_distribution }
++set_variable = { APDC_eco_supply_m = APDC_eco_math_21 }
++APDC_eco_calculate_gap = yes
++
++}
++APDC_eco_validate_world_trade = {
++if = { limit = { check_variable = { global.APDC_eco_market_active_buffer = 0 } }
++APDC_eco_validate_market_0 = yes
++
++}
++else = {
++APDC_eco_validate_market_1 = yes
++
++}
++
++}
++APDC_eco_render_trade = {
++clear_array = APDC_eco_trade_partners
++clear_array = APDC_eco_trade_amounts
++if = { limit = { check_variable = { global.APDC_eco_market_active_buffer = 0 } }
++APDC_eco_render_trade_0 = yes
++
++}
++else = {
++APDC_eco_render_trade_1 = yes
++
++}
++
++}
++APDC_eco_clear_world_market = {
++set_global_flag = APDC_eco_market_requested
++
++}
++APDC_eco_market_begin = {
++if = { limit = { check_variable = { global.APDC_eco_market_active_buffer = 0 } }
++APDC_eco_market_begin_1 = yes
++
++}
++else = {
++APDC_eco_market_begin_0 = yes
++
++}
++
++}
++APDC_eco_market_step = {
++if = { limit = { has_global_flag = APDC_eco_market_busy }
++if = { limit = { check_variable = { global.APDC_eco_market_pending_buffer = 0 } }
++APDC_eco_market_step_0 = yes
++
++}
++else = {
++APDC_eco_market_step_1 = yes
++
++}
++
++}
++
++}
++APDC_eco_market_daily = {
++if = { limit = { has_global_flag = APDC_eco_market_requested NOT = { has_global_flag = APDC_eco_market_busy } }
++APDC_eco_market_begin = yes
++
++}
++APDC_eco_market_step = yes
++
++}
++APDC_eco_market_bootstrap = {
++if = { limit = { NOT = { has_global_flag = APDC_eco_market_v2_ready } }
++set_variable = { global.APDC_eco_market_active_buffer = 0 }
++set_global_flag = APDC_eco_market_v2_ready
++APDC_eco_market_begin = yes
++# Initial load only: prepare the first valid plan before time advances.
++for_loop_effect = { start = 0 end = 7 value = APDC_eco_initial_market_batch APDC_eco_market_step = yes }
++
++}
++
++}

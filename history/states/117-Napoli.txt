@@ -1,0 +1,50 @@
+state = {
+	id = 117
+	name = "STATE_117"
+	manpower = 4240000
+	state_category = city
+	resources = {
+		aluminium = 10
+		steel = 15
+	}
+	history = {
+		owner = ITA
+		controller = ITA
+		add_core_of = ITA
+		victory_points = {
+			819
+			3
+		}
+		victory_points = {
+			955
+			2
+		}
+		victory_points = {
+			9826
+			15
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 3
+			819 = {
+				naval_base = 6
+			}
+		}
+	}
+	provinces = {
+		819
+		851
+		955
+		3958
+		3968
+		6972
+		9826
+		9856
+		11803
+		14659
+	}
+	local_supplies = 13.0
+}

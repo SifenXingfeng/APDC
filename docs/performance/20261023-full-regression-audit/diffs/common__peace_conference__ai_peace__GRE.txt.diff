@@ -1,0 +1,20 @@
+--- before/common/peace_conference/ai_peace/GRE.txt
++++ current/common/peace_conference/ai_peace/GRE.txt
+@@ -18,7 +18,7 @@
+             }
+             ROOT = { 
+                 original_tag = GRE
+-                has_completed_focus = GRE_horror_and_fear 
++                always = no 
+             }
+         }
+         ai_desire = 100
+@@ -35,7 +35,7 @@
+             }
+             ROOT = { 
+                 original_tag = GRE
+-                has_completed_focus = GRE_horror_and_fear 
++                always = no 
+             }
+         }
+         ai_desire = -50

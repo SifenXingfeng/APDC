@@ -3,12 +3,12 @@ strategic_region={
 	id=108
 	name="STRATEGICREGION_108"
 	provinces={
-		218 2433 2457 2633 5252 5277 5304 5330 5353 5625 5650 5675 5701 5727 5753 5779 5805 5831 5857 5883 5930 8510 8535 8963 8987 19971 19977
+		218 2433 2457 2482 2557 2633 5252 5277 5304 5330 5353 5375 5400 5424 5599 5625 5650 5675 5701 5727 5753 5779 5805 5831 5857 5883 5930 8510 8535 8963 8987 
 	}
 	weather={
 		period={
 			between={ 0.0 30.0 }
-			temperature={ 21.0 27.0 }
+			temperature={ 2.0 8.0 }
 			no_phenomenon=0.500
 			rain_light=0.500
 			rain_heavy=0.300
@@ -21,7 +21,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.1 27.1 }
-			temperature={ 21.0 27.0 }
+			temperature={ 2.0 8.0 }
 			no_phenomenon=0.500
 			rain_light=0.500
 			rain_heavy=0.300
@@ -34,7 +34,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.2 30.2 }
-			temperature={ 12.0 27.0 }
+			temperature={ 2.0 8.0 }
 			no_phenomenon=0.500
 			rain_light=0.500
 			rain_heavy=0.300
@@ -47,7 +47,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.3 29.3 }
-			temperature={ 12.0 27.0 }
+			temperature={ 2.0 8.0 }
 			no_phenomenon=0.500
 			rain_light=0.500
 			rain_heavy=0.300
@@ -60,7 +60,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.4 30.4 }
-			temperature={ 12.0 27.0 }
+			temperature={ 2.0 8.0 }
 			no_phenomenon=0.500
 			rain_light=0.500
 			rain_heavy=0.300
@@ -112,7 +112,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.8 29.8 }
-			temperature={ 12.0 27.0 }
+			temperature={ 2.0 8.0 }
 			no_phenomenon=0.500
 			rain_light=0.500
 			rain_heavy=0.300
@@ -125,7 +125,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.9 30.9 }
-			temperature={ 12.0 27.0 }
+			temperature={ 2.0 8.0 }
 			no_phenomenon=0.500
 			rain_light=0.500
 			rain_heavy=0.300
@@ -138,7 +138,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.10 29.10 }
-			temperature={ 12.0 27.0 }
+			temperature={ 2.0 8.0 }
 			no_phenomenon=0.500
 			rain_light=0.500
 			rain_heavy=0.300
@@ -151,7 +151,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.11 30.11 }
-			temperature={ 21.0 27.0 }
+			temperature={ 2.0 8.0 }
 			no_phenomenon=0.500
 			rain_light=0.500
 			rain_heavy=0.300

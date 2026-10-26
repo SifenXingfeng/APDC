@@ -1,0 +1,53 @@
+state = {
+	id = 1288
+	name = "STATE_1288"
+	provinces = {
+		1884
+		10616
+		10819
+		19519
+		19539
+		19556
+		19578
+		19613
+	}
+	manpower = 2413824
+	resources = {
+		coal = 1
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			10616
+			2
+		}
+		victory_points = {
+			10819
+			2
+		}
+		victory_points = {
+			19539
+			1
+		}
+		victory_points = {
+			19556
+			3
+		}
+		victory_points = {
+			19578
+			5
+		}
+		victory_points = {
+			19613
+			5
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

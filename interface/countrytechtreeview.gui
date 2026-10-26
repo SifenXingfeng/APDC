@@ -72,7 +72,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "infantry_subtitle_weapons"
 					position = { x = 30 y = 100 }
-					textureFile = ""
+					
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
 					text = "INFANTRY_TITLE_WEAPONS"
@@ -85,7 +85,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "infantry_subtitle_specialists"
 					position = { x = 40 y = 1250 }
-					textureFile = ""
+					
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
 					text = "INFANTRY_TITLE_SPECIAL"
@@ -98,7 +98,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "infantry_subtitle_motorized"
 					position = { x = 30 y = 510 }
-					textureFile = ""
+					
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
 					text = "INFANTRY_TITLE_MOTORISED"
@@ -111,7 +111,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "infantry_year2"
 					position = { x = 140 y = 50 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "2000"
@@ -124,7 +124,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "infantry_year3"
 					position = { x = 360 y = 50 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "2050"
@@ -346,7 +346,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "support_year2"
 					position = { x = 90 y = 50 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "2000"
@@ -359,7 +359,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "support_year3"
 					position = { x = 315 y = 50 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "2050"
@@ -420,7 +420,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "support_subtitle_trains"
 					position = { x = 40 y = 1280 }
-					textureFile = ""
+					
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
 					text = "SUPPORT_TITLE_TRAINS"
@@ -523,7 +523,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "armour_year1"
 						position = { x = 60 y = 2 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2000"
@@ -536,7 +536,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "armour_year2"
 						position = { x = 60 y = 140 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2050"
@@ -549,7 +549,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "armour_year3"
 						position = { x = 60 y = 278 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2060"
@@ -562,7 +562,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "armour_year4"
 						position = { x = 60 y = 420 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2065"
@@ -575,7 +575,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "armour_year5"
 						position = { x = 60 y = 560 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2070"
@@ -588,7 +588,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "armour_year6"
 						position = { x = 60 y = 698 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2075"
@@ -605,7 +605,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "armour_subtitle_light"
 				position = { x = 340 y = 50}
-				textureFile = ""
+				
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
 				text = "ARMOUR_TITLE_LIGHT"
@@ -618,7 +618,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "armour_subtitle_main_battle"
 				position = { x = 840 y = 50}
-				textureFile = ""
+				
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
 				text = "ARMOUR_TITLE_MAIN_BATTLE"
@@ -628,23 +628,12 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 
-			instantTextBoxType = {
-				name = "armour_subtitle_main_battle"
-				position = { x = 840 y = 50}
-				textureFile = ""
-				font = "hoi_33"
-				borderSize = {x = 0 y = 4}
-				text = "ARMOUR_TITLE_MAIN_BATTLE"
-				maxWidth = 200
-				maxHeight = 62
-				format = center
-				Orientation = "UPPER_LEFT"
-			}
+			
 
 			instantTextBoxType = {
 				name = "armour_subtitle_amphibious"
 				position = { x = 1260 y = 100}
-				textureFile = ""
+				
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
 				text = "ARMOUR_TITLE_AMPHIBIOUS"
@@ -656,7 +645,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "armour_subtitle_ifv"
 				position = { x = 1540 y = 50}
-				textureFile = ""
+				
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
 				text = "ARMOUR_TITLE_IFV"
@@ -732,7 +721,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "artillery_subtitle_rocket"
 					position = { x = 655 y = 160 }
-					textureFile = ""
+					
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
 					text = "ARTILLERY_TITLE_ROCKET"
@@ -746,7 +735,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "artillery_subtitle_artillery"
 					position = { x = 105 y = 55 }
-					textureFile = ""
+					
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
 					text = "ARTILLERY_TITLE"
@@ -759,7 +748,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "artillery_subtitle_anti_air"
 					position = { x = -290 y = 160  }
-					textureFile = ""
+					
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
 					text = "ARTILLERT_TITLE_AA"
@@ -779,7 +768,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "artillery_year2"
 						position = { x = 60 y = 140 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2000"
@@ -792,7 +781,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "artillery_year3"
 						position = { x = 60 y = 278 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2050"
@@ -805,7 +794,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "artillery_year4"
 						position = { x = 60 y = 420 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2060"
@@ -818,7 +807,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "artillery_year5"
 						position = { x = 60 y = 560 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2062"
@@ -831,7 +820,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "artillery_year6"
 						position = { x = 60 y = 698 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2065"
@@ -844,7 +833,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "artillery_year7"
 						position = { x = 60 y = 838 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2067"
@@ -857,7 +846,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "artillery_year8"
 						position = { x = 60 y = 978 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2070"
@@ -870,7 +859,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "artillery_year9"
 						position = { x = 60 y = 1118 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2072"
@@ -883,7 +872,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "artillery_year10"
 						position = { x = 60 y = 1258 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2075"
@@ -903,7 +892,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "artillery_year2"
 						position = { x = 0 y = 140 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2000"
@@ -916,7 +905,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "artillery_year3"
 						position = { x = 0 y = 278 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2050"
@@ -929,7 +918,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "artillery_year4"
 						position = { x = 0 y = 420 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2060"
@@ -942,7 +931,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "artillery_year5"
 						position = { x = 0 y = 560 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2062"
@@ -955,7 +944,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "artillery_year6"
 						position = { x = 0 y = 698 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2065"
@@ -968,7 +957,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "artillery_year7"
 						position = { x = 0 y = 838 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2067"
@@ -981,7 +970,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "artillery_year8"
 						position = { x = 0 y = 978 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2070"
@@ -994,7 +983,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "artillery_year9"
 						position = { x = 0 y = 1118 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2072"
@@ -1007,7 +996,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "artillery_year10"
 						position = { x = 0 y = 1258 }
-						textureFile = ""
+						
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "2075"
@@ -1061,7 +1050,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "naval_year1"
 					position = { x = 210 y = 20 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2000"
@@ -1074,7 +1063,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "naval_year2"
 					position = { x = 630 y = 20 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2060"
@@ -1087,7 +1076,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "naval_year3"
 					position = { x = 1050 y = 20 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2065"
@@ -1100,7 +1089,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "naval_year4"
 					position = { x = 1470 y = 20 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2070"
@@ -1113,7 +1102,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "naval_subtitle_destroyer"
 					position = { x = 30 y = 55 }
-					textureFile = ""
+					
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_DESTROYERS"
@@ -1127,7 +1116,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "naval_subtitle_cruiser"
 					position = { x = 30 y = 310 }
-					textureFile = ""
+					
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_CRUISERS"
@@ -1141,7 +1130,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "naval_subtitle_armor"
 					position = { x = 30 y = 425 }
-					textureFile = ""
+					
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_ARMOR"
@@ -1155,7 +1144,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "naval_subtitle_mega_cruiser"
 					position = { x = 30 y = 545 }
-					textureFile = ""
+					
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_MEGA_CRUISER"
@@ -1169,7 +1158,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "naval_subtitle_carrier"
 					position = { x = 30 y = 660 }
-					textureFile = ""
+					
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_CARRIERS"
@@ -1183,7 +1172,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "naval_subtitle_sub"
 					position = { x = 30 y = 835 }
-					textureFile = ""
+					
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_SUBMARINES"
@@ -1283,7 +1272,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "naval_year1"
 					position = { x = 224 y = 20 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2000"
@@ -1296,7 +1285,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "naval_year2"
 					position = { x = 644 y = 20 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2060"
@@ -1309,7 +1298,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "naval_year3"
 					position = { x = 1064 y = 20 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2065"
@@ -1322,7 +1311,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "naval_year4"
 					position = { x = 1484 y = 20 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2070"
@@ -1335,7 +1324,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "naval_subtitle_armaments"
 					position = { x = 30 y = 55 }
-					textureFile = ""
+					
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_ARMAMENT"
@@ -1348,7 +1337,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "naval_subtitle_torpedoes"
 					position = { x = 30 y = 385 }
-					textureFile = ""
+					
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_TORPEDOES"
@@ -1361,7 +1350,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "naval_subtitle_damage_control"
 					position = { x = 30 y = 515 }
-					textureFile = ""
+					
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_DAMAGE_CONTROL"
@@ -1373,7 +1362,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "naval_subtitle_fire_control"
 					position = { x = 30 y = 655 }
-					textureFile = ""
+					
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_FIRE_CONTROL"
@@ -1385,7 +1374,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "naval_subtitle_transport"
 					position = { x = 30 y = 795 }
-					textureFile = ""
+					
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_TRANSPORTS"
@@ -1398,7 +1387,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "naval_subtitle_mines"
 					position = { x = 30 y = 1005 }
-					textureFile = ""
+					
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_MINES"
@@ -1530,7 +1519,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "airtech_year2"
 				position = { x = 30 y = 160 }
-				textureFile = ""
+				
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "2000"
@@ -1543,7 +1532,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "airtech_year3"
 				position = { x = 30 y = 298 }
-				textureFile = ""
+				
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "2050"
@@ -1556,7 +1545,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "airtech_year4"
 				position = { x = 30 y = 440 }
-				textureFile = ""
+				
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "2060"
@@ -1569,7 +1558,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "airtech_year5"
 				position = { x = 30 y = 580 }
-				textureFile = ""
+				
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "2065"
@@ -1582,7 +1571,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "airtech_year6"
 				position = { x = 30 y = 720 }
-				textureFile = ""
+				
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "2070"
@@ -1595,7 +1584,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "airtech_year7"
 				position = { x = 30 y = 860 }
-				textureFile = ""
+				
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "2075"
@@ -1614,7 +1603,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "airtech_year2"
 					position = { x = 60 y = 160 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2000"
@@ -1627,7 +1616,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "airtech_year3"
 					position = { x = 60 y = 298 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2050"
@@ -1640,7 +1629,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "airtech_year4"
 					position = { x = 60 y = 440 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2060"
@@ -1653,7 +1642,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "airtech_year5"
 					position = { x = 60 y = 580 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2065"
@@ -1666,7 +1655,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "airtech_year6"
 					position = { x = 60 y = 720 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2070"
@@ -1679,7 +1668,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "airtech_year7"
 					position = { x = 60 y = 860 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2075"
@@ -1694,7 +1683,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "airtech_subtitle_fighter"
 				position = { x = 355 y = 110 }
-				textureFile = ""
+				
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
 				text = "AIR_TITLE_FIGHTER"
@@ -1708,7 +1697,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "airtech_subtitle_cas"
 				position = { x = 110 y = 185 }
-				textureFile = ""
+				
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
 				text = "AIR_TITLE_CAS"
@@ -1722,7 +1711,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "airtech_subtitle_mp_fighter"
 				position = { x = 595 y = 185 }
-				textureFile = ""
+				
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
 				text = "AIR_TITLE_MP_FIGHTER"
@@ -1737,7 +1726,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "airtech_subtitle_strat"
 				position = { x = 920 y = 110 }
-				textureFile = ""
+				
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
 				text = "AIR_TITLE_STRAT_BOMBER"
@@ -1751,7 +1740,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "airtech_subtitle_scout"
 				position = { x = 1245 y = 110 }
-				textureFile = ""
+				
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
 				text = "AIR_TITLE_SCOUT_PLANE"
@@ -1765,7 +1754,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "airtech_subtitle_transport"
 				position = { x = 1665 y = 110 }
-				textureFile = ""
+				
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
 				text = "AIR_TITLE_TRANSPORT"
@@ -1850,7 +1839,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "industry_year2"
 					position = { x = 0 y = 140 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2000"
@@ -1863,7 +1852,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "industry_year3"
 					position = { x = 0 y = 280 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2050"
@@ -1875,7 +1864,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "industry_year4"
 					position = { x = 0 y = 420 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2060"
@@ -1888,7 +1877,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "industry_year5"
 					position = { x = 0 y = 560 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2062"
@@ -1901,7 +1890,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "industry_year6"
 					position = { x = 0 y = 700 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2065"
@@ -1914,7 +1903,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "industry_year7"
 					position = { x = 0 y = 840 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2067"
@@ -1927,7 +1916,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "industry_year8"
 					position = { x = 0 y = 980 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2070"
@@ -1940,7 +1929,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "industry_year9"
 					position = { x = 0 y = 1120 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2072"
@@ -1953,7 +1942,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "industry_year10"
 					position = { x = 0 y = 1260 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2075"
@@ -1975,7 +1964,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "industry_year2"
 					position = { x = 0 y = 140 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2000"
@@ -1988,7 +1977,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "industry_year3"
 					position = { x = 0 y = 280 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2050"
@@ -2001,7 +1990,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "industry_year4"
 					position = { x = 0 y = 420 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2060"
@@ -2014,7 +2003,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "industry_year5"
 					position = { x = 0 y = 560 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2062"
@@ -2027,7 +2016,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "industry_year6"
 					position = { x = 0 y = 700 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2065"
@@ -2040,7 +2029,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "industry_year7"
 					position = { x = 0 y = 840 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2067"
@@ -2053,7 +2042,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "industry_year8"
 					position = { x = 0 y = 980 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2070"
@@ -2066,7 +2055,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "industry_year9"
 					position = { x = 0 y = 1120 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2072"
@@ -2079,7 +2068,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "industry_year10"
 					position = { x = 0 y = 1260 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2075"
@@ -2097,7 +2086,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "industry_subtitle"
 					position = { x = 260 y = 115 }
-					textureFile = ""
+					
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
 					text = "INDUSTRY_TITLE"
@@ -2110,7 +2099,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "industry_subtitle_synthetic_oil"
 					position = { x = 1308 y = 115  }
-					textureFile = ""
+					
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
 					text = "INDUSTRY_TITLE_OIL"
@@ -2123,7 +2112,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "industry_subtitle_construction"
 					position = { x = 871 y = 255  }
-					textureFile = ""
+					
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
 					text = "INDUSTRY_TITLE_CONSTRUCTION"
@@ -2229,7 +2218,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "wonderweapon_year2"
 					position = { x = -20 y = 140 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2000"
@@ -2242,7 +2231,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "wonderweapon_year3"
 					position = { x = -20 y = 260 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2050"
@@ -2255,7 +2244,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "wonderweapon_year4"
 					position = { x = -20 y = 380 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2060"
@@ -2268,7 +2257,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "wonderweapon_year5"
 					position = { x = -20 y = 500 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2062"
@@ -2281,7 +2270,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "wonderweapon_year6"
 					position = { x = -20 y = 620 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2065"
@@ -2294,7 +2283,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "wonderweapon_year7"
 					position = { x = -20 y = 740 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2067"
@@ -2307,7 +2296,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "wonderweapon_year8"
 					position = { x = -20 y = 860 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2070"
@@ -2320,7 +2309,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "wonderweapon_year9"
 					position = { x = -20 y = 980 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2072"
@@ -2333,7 +2322,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "wonderweapon_year10"
 					position = { x = -20 y = 1100 }
-					textureFile = ""
+					
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "2075"
@@ -2595,7 +2584,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "tech_info_title"
 			position = { x = 40 y = 15 }
-			textureFile = ""
+			
 			font = "hoi_20bs"
 			borderSize = {x = 0 y = 0}
 			text = ""
@@ -2607,7 +2596,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "tech_info_description"
 			position = { x = 27 y = 121 }
-			textureFile = ""
+			
 			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 0}
 			text = ""
@@ -2638,7 +2627,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "tech_info_special_description"
 				position = { x = 0 y = 0 }
-				textureFile = ""
+				
 				font = "hoi4_typewriter16_inverted"
 				borderSize = {x = 0 y = 0}
 				text = "BABALKBLLALBLAL"
@@ -2709,7 +2698,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "tech_info_title"
 			position = { x = 40 y = 15 }
-			textureFile = ""
+			
 			font = "hoi_20bs"
 			borderSize = {x = 0 y = 0}
 			text = ""
@@ -2721,7 +2710,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "tech_info_description"
 			position = { x = 27 y = 121 }
-			textureFile = ""
+			
 			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 0}
 			text = ""
@@ -2858,7 +2847,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "bonus"
 			position = { x = -1 y = -21 }
-			textureFile = ""
+			
 			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
@@ -2902,7 +2891,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Name"
 			position = { x = 3 y = -3 }
-			textureFile = ""
+			
 			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = "Happy-Go-Lucky-Tank"
@@ -2921,7 +2910,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "bonus"
 			position = { x = 111 y = -22 }
-			textureFile = ""
+			
 			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
@@ -3003,7 +2992,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Name"
 			position = { x = 3 y = -3 }
-			textureFile = ""
+			
 			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = "Happy-Go-Lucky-Tank"
@@ -3021,7 +3010,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "bonus"
 			position = { x = 111 y = -21 }
-			textureFile = ""
+			
 			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
@@ -3089,7 +3078,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "bonus"
 			position = { x = -1 y = -22 }
-			textureFile = ""
+			
 			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
@@ -3132,7 +3121,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Name"
 			position = { x = 6 y = -1 }
-			textureFile = ""
+			
 			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = "Happy-Go-Lucky-Tank"
@@ -3151,7 +3140,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "bonus"
 			position = { x = 111 y = -22 }
-			textureFile = ""
+			
 			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
@@ -3255,7 +3244,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "bonus"
 			position = { x = 17 y = -22 }
-			textureFile = ""
+			
 			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
@@ -3301,7 +3290,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "bonus"
 			position = { x = 17 y = -22 }
-			textureFile = ""
+			
 			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
@@ -3336,7 +3325,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Name"
 			position = { x = 3 y = -1 }
-			textureFile = ""
+			
 			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = "Lortespasserkanon"
@@ -3363,7 +3352,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "bonus"
 			position = { x = 111 y = -22 }
-			textureFile = ""
+			
 			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "bang bang klik"
@@ -3410,7 +3399,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "bonus"
 			position = { x = -1 y = -22 }
-			textureFile = ""
+			
 			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
@@ -3453,7 +3442,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Name"
 			position = { x = 3 y = -1 }
-			textureFile = ""
+			
 			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
@@ -3471,7 +3460,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "bonus"
 			position = { x = 257 y = -19 }
-			textureFile = ""
+			
 			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
@@ -3536,7 +3525,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "bonus"
 			position = { x = -1 y = -22 }
-			textureFile = ""
+			
 			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat guns"
@@ -3579,7 +3568,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Name"
 			position = { x = 3 y = -1 }
-			textureFile = ""
+			
 			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat guns"
@@ -3597,7 +3586,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "bonus"
 			position = { x = 257 y = -19 }
-			textureFile = ""
+			
 			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat guns"
@@ -3651,7 +3640,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Name"
 			position = { x = 3 y = -1 }
-			textureFile = ""
+			
 			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = ""
@@ -3678,7 +3667,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "bonus"
 			position = { x = 111 y = -22 }
-			textureFile = ""
+			
 			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
@@ -3743,7 +3732,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "bonus"
 			position = { x = 17 y = -22 }
-			textureFile = ""
+			
 			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
@@ -3815,7 +3804,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Name"
 			position = { x = 3 y = -1 }
-			textureFile = ""
+			
 			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
@@ -3833,7 +3822,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "bonus"
 			position = { x = 257 y = -19 }
-			textureFile = ""
+			
 			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
@@ -3881,7 +3870,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "bonus"
 			position = { x = -1 y = -22 }
-			textureFile = ""
+			
 			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
@@ -3954,7 +3943,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "bonus"
 			position = { x = -1 y = -22 }
-			textureFile = ""
+			
 			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"

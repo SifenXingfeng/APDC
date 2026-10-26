@@ -1,0 +1,28 @@
+state = {
+	id = 1146
+	name = "STATE_1146"
+	provinces = {
+		1749
+		1818
+		10610
+		12427
+		12662
+		13151
+	}
+	manpower = 128764
+	resources = {
+		chromium = 3
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = state_renamings
+	}
+}

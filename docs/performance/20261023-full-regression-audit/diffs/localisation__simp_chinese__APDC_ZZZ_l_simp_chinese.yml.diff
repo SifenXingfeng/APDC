@@ -1,0 +1,54 @@
+--- before/localisation/simp_chinese/APDC_ZZZ_l_simp_chinese.yml
++++ current/localisation/simp_chinese/APDC_ZZZ_l_simp_chinese.yml
+@@ -1,27 +1,25 @@
+-l_simp_chinese:
+- #政党
+- ZZZ_communism_party:0 "无政府状态"
+- ZZZ_democratic_party:0 "无政府状态"
+- ZZZ_neutrality_party:0 "无政府状态"
+- ZZZ_fascism_party:0 "无政府状态"
+-
+- #人物
+- ZZZ_Nothing:0 "黑区"
+- ZZZ_Nothing_desc:0 "由于遗迹原爆点或遗迹武器轰炸所造成的具有最高等级坍塌辐射的地区，由于强烈的坍塌辐射可以造成无人机电子元件的损坏，只有使用大型合成孔径雷达才能对黑区进行扫描。常年有浓密的云层，并且气温较低，多雨。黑区内部存在大量的生骸，并且存在许多未知种类的生骸。更多资料亟待探索中。"
+-
+- #国家名称
+- ZZZ_fascism:0 ""
+- ZZZ_fascism_DEF:0 ""
+- ZZZ_democratic:0 ""
+- ZZZ_democratic_DEF:0 ""
+- ZZZ_neutrality:0 ""
+- ZZZ_neutrality_DEF:0 ""
+- ZZZ_communism:0 ""
+- ZZZ_communism_DEF:0 ""
+- ZZZ_fascism_ADJ:0 ""
+- ZZZ_democratic_ADJ:0 ""
+- ZZZ_neutrality_ADJ:0 ""
+- ZZZ_communism_ADJ:0 ""
+- ZZZ:0 ""
+- ZZZ_DEF:0 ""
+- ZZZ_ADJ:0 ""+l_simp_chinese:
++ #政党
++ ZZZ_democratic_party:0 "无政府状态"
++ ZZZ_neutrality_party:0 "无政府状态"
++
++ #人物
++ ZZZ_Nothing:0 "黑区"
++ ZZZ_Nothing_desc:0 "由于遗迹原爆点或遗迹武器轰炸所造成的具有最高等级坍塌辐射的地区，由于强烈的坍塌辐射可以造成无人机电子元件的损坏，只有使用大型合成孔径雷达才能对黑区进行扫描。常年有浓密的云层，并且气温较低，多雨。黑区内部存在大量的生骸，并且存在许多未知种类的生骸。更多资料亟待探索中。"
++
++ #国家名称
++ ZZZ_fascism:0 ""
++ ZZZ_fascism_DEF:0 ""
++ ZZZ_democratic:0 ""
++ ZZZ_democratic_DEF:0 ""
++ ZZZ_neutrality:0 ""
++ ZZZ_neutrality_DEF:0 ""
++ ZZZ_communism:0 ""
++ ZZZ_communism_DEF:0 ""
++ ZZZ_fascism_ADJ:0 ""
++ ZZZ_democratic_ADJ:0 ""
++ ZZZ_neutrality_ADJ:0 ""
++ ZZZ_communism_ADJ:0 ""
++ ZZZ:0 ""
++ ZZZ_DEF:0 ""
++ ZZZ_ADJ:0 ""

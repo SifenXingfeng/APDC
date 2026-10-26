@@ -1,0 +1,30 @@
+state = {
+	id = 774
+	name = "STATE_774"
+	provinces = {
+		2081
+		9152
+		14112
+		14143
+	}
+	manpower = 206065
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 3
+	history = {
+		owner = CHA
+		controller = CHA
+		add_core_of = CHA
+		victory_points = {
+			2081
+			15
+		}
+		victory_points = {
+			9152
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

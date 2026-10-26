@@ -1,0 +1,62 @@
+{
+  "project_and_user_protection": {
+    "project-before.json": {
+      "unchanged": true,
+      "hashes": {
+        "interface/countrypoliticsview.gui": "c900efff8669c68a491053bafdb297a476f082a03d6f0d37c4047d2b1acb5742",
+        "common/ideas/_economic.txt": "6157d1ff0f479789b51a9727fd2b8c670ec10b09864723f78d8a0083821b4067",
+        "common/scripted_effects/APDC_economy_backend.txt": "72b44434a9bd7e7c067c9b4b70cd0adc849845117bbcc6cb178468c22c8671c4",
+        "common/dynamic_modifiers/APDC_economy_dynamic_modifiers.txt": "5938579270ee8505542854a8d5f0eabb8adaa0b5caf1daab18183a2fb1615e29",
+        "localisation/replace/zzzz_APDC_economy_display_l_simp_chinese.yml": "3d0ee750ace478a2ec457ea1a4a688ce72edbf377c4ec1a7603e7ba2eae2b46d",
+        "localisation/replace/zzzz_APDC_economy_display_l_english.yml": "6362ded793d4dafef0180c22403d6d0e9922208215c0e6f2b45f568dfa673285"
+      }
+    },
+    "user-before.json": {
+      "unchanged": true,
+      "hashes": {
+        "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\dlc_load.json": "c16d9e533268cba344c09005b17e8468cc83f3eea24bb88be91d5ee0772ca426",
+        "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\settings.txt": "f398a3efe8d6a2ca97d08e91109b1c8a1ad9dab474999792f2b019b61e522fbf",
+        "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\continue_game.json": "fc678fcf58380673a9fffee97ce7da2522ffb13b9d88595a0e317d5f822fc703",
+        "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\save games\\autosave.hoi4": "46a10a193be4c8c5e9cbaa132d07c6d99523bcbe4c91607beb5836762c2dbe2a"
+      }
+    }
+  },
+  "rendered_values": [
+    "1.00",
+    "1.00",
+    "0.40",
+    "0.40",
+    "1.00",
+    "1.00"
+  ],
+  "formatted_probes": [
+    "APDC_STAT_TEXT active=civilian_economy candidate_label=civilian_economy wanted=1.00 rendered= \u0013consumer_goods_texticon\u0013  \u0011Y1.00\u0011!",
+    "APDC_STAT_TEXT active=civilian_economy candidate_label=tot_economic_mobilisation wanted=0.40 rendered= \u0013consumer_goods_texticon\u0013  \u0011Y1.00\u0011!",
+    "APDC_STAT_TEXT active=tot_economic_mobilisation candidate_label=civilian_economy wanted=1.00 rendered= \u0013consumer_goods_texticon\u0013  \u0011Y0.40\u0011!",
+    "APDC_STAT_TEXT active=tot_economic_mobilisation candidate_label=tot_economic_mobilisation wanted=0.40 rendered= \u0013consumer_goods_texticon\u0013  \u0011Y0.40\u0011!",
+    "APDC_STAT_TEXT active=civilian_economy candidate_label=civilian_economy wanted=1.00 rendered= \u0013consumer_goods_texticon\u0013  \u0011Y1.00\u0011!",
+    "APDC_STAT_TEXT active=civilian_economy candidate_label=tot_economic_mobilisation wanted=0.40 rendered= \u0013consumer_goods_texticon\u0013  \u0011Y1.00\u0011!"
+  ],
+  "factory_snapshots": [
+    "APDC_STAT_FACTORY active=civilian_economy all=33 projects=28 allocated=5",
+    "APDC_STAT_FACTORY active=tot_economic_mobilisation all=33 projects=28 allocated=5",
+    "APDC_STAT_FACTORY active=civilian_economy all=33 projects=28 allocated=5"
+  ],
+  "native_idea_rows_opened": false,
+  "mouse_or_visual_validation": false,
+  "applied_to_main_project": false,
+  "error_records": 705,
+  "error_inventory_matches_last_classified_run": true,
+  "shutdown": {
+    "closed_helpers": [
+      21144,
+      34592
+    ],
+    "still_running": false,
+    "pid": 39620,
+    "remaining_helpers": [],
+    "steam_app_running": false,
+    "stopped": "2026-10-23T17:30:20.5792286+08:00"
+  },
+  "conclusion": "Country-scoped replacement formats correctly but has no demonstrated per-candidate binding. Not applied."
+}

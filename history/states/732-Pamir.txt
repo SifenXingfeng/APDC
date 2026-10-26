@@ -1,0 +1,78 @@
+state = {
+	id = 732
+	name = "STATE_732"
+	provinces = {
+		1483
+		1675
+		1825
+		2058
+		3374
+		4316
+		4391
+		4768
+		5062
+		7706
+		10408
+		10660
+		12370
+		12511
+		12583
+		13147
+		14257
+		14274
+		14297
+		14321
+		15540
+		17558
+		18636
+		18645
+		18650
+		18657
+		18663
+		18664
+		18672
+		18675
+		18683
+		18691
+		18695
+		18697
+		18698
+	}
+	manpower = 1283333
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 0
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		victory_points = {
+			1483
+			2
+		}
+		victory_points = {
+			2058
+			1
+		}
+		victory_points = {
+			12583
+			15
+		}
+		victory_points = {
+			18672
+			3
+		}
+		victory_points = {
+			18675
+			1
+		}
+		victory_points = {
+			18697
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = state_renamings
+	}
+}

@@ -1,0 +1,40 @@
+state = {
+	id = 882
+	name = "STATE_882"
+	state_category = rural
+	resources = {
+		chromium = 6
+	}
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		victory_points = {
+			10202
+			3
+		}
+		victory_points = {
+			10630
+			2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = state_renamings
+	}
+	provinces = {
+		1879
+		4661
+		4670
+		4685
+		7317
+		7708
+		10202
+		10235
+		10630
+		12616
+	}
+	manpower = 230210
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0
+}

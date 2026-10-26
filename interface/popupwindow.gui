@@ -27,7 +27,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 132 y = 30 }
-			textureFile = ""
+			
 			font = "hoi_24header"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
@@ -95,7 +95,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "description"
 			position = { x = 125 y = 90 }
-			textureFile = ""
+			
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
@@ -340,7 +340,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 0 y = 3 }
-			textureFile = ""
+			
 			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Maus"
@@ -353,7 +353,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "count"
 			position = { x = 124 y = 28 }
-			textureFile = ""
+			
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Maus"
@@ -666,7 +666,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 132 y = 30 }
-			textureFile = ""
+			
 			font = "hoi_24header"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
@@ -784,7 +784,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 72 y = 29 }
-			textureFile = ""
+			
 			font = "hoi_24header"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
@@ -947,7 +947,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 72 y = 29 }
-			textureFile = ""
+			
 			font = "hoi_24header"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
@@ -1030,7 +1030,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 110 y = 36 }
-			textureFile = ""
+			
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
@@ -1087,7 +1087,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "message"
 			position = { x = 27 y = 90 }
-			textureFile = ""
+			
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
@@ -1137,7 +1137,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 54 y = 24 }
-			textureFile = ""
+			
 			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
@@ -1150,7 +1150,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "description"
 			position = { x = 50 y = 85 }
-			textureFile = ""
+			
 			font = "hoi_20bs"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
@@ -1163,7 +1163,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "reward"
 			position = { x = 44 y = 125 }
-			textureFile = ""
+			
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
@@ -1290,7 +1290,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 123 y = 32 }
-			textureFile = ""
+			
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
@@ -1330,7 +1330,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "message"
 			position = { x = 68 y = 82 }
-			textureFile = ""
+			
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
@@ -1393,7 +1393,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 123 y = 32 }
-			textureFile = ""
+			
 			font = "hoi_24header"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
@@ -1433,7 +1433,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "message"
 			position = { x = 68 y = 90 }
-			textureFile = ""
+			
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
@@ -1496,7 +1496,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 123 y = 32 }
-			textureFile = ""
+			
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
@@ -1536,7 +1536,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "message"
 			position = { x = 68 y = 90 }
-			textureFile = ""
+			
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
@@ -1589,7 +1589,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 10 y = 16 }
-			textureFile = ""
+			
 			font = "hoi_24header"
 			borderSize = {x = 0 y = 10}
 			text = "Title"
@@ -1603,7 +1603,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "description"
 			position = { x = 24 y = 90 }
-			textureFile = ""
+			
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
@@ -1652,7 +1652,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 10 y = 16 }
-			textureFile = ""
+			
 			font = "hoi_24header"
 			borderSize = {x = 0 y = 10}
 			text = "Title"
@@ -1666,7 +1666,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "description"
 			position = { x = 23 y = 90 }
-			textureFile = ""
+			
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
@@ -1773,7 +1773,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 0 y = 20 }
-			textureFile = ""
+			
 			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
@@ -1786,7 +1786,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "description"
 			position = { x = 20 y = 70 }
-			textureFile = ""
+			
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
@@ -1844,7 +1844,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 98 y = 29 }
-			textureFile = ""
+			
 			font = "hoi_24header"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
@@ -1917,7 +1917,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 83 y = 25 }
-			textureFile = ""
+			
 			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
@@ -1930,7 +1930,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "description"
 			position = { x = 30 y = 105 }
-			textureFile = ""
+			
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
@@ -1986,7 +1986,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 60 y = 25 }
-			textureFile = ""
+			
 			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
@@ -1999,7 +1999,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "description"
 			position = { x = 60 y = 105 }
-			textureFile = ""
+			
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
@@ -2040,7 +2040,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 0 y = 25 }
-			textureFile = ""
+			
 			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
@@ -2053,7 +2053,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "description"
 			position = { x = 60 y = 105 }
-			textureFile = ""
+			
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
@@ -2167,7 +2167,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 0 y = 25 }
-			textureFile = ""
+			
 			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
@@ -2180,7 +2180,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "description"
 			position = { x = 20 y = 105 }
-			textureFile = ""
+			
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
@@ -2237,7 +2237,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 123 y = 32 }
-			textureFile = ""
+			
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
@@ -2276,7 +2276,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "message"
 			position = { x = 68 y = 82 }
-			textureFile = ""
+			
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
@@ -2339,7 +2339,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 132 y = 30 }
-			textureFile = ""
+			
 			font = "hoi_24header"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
@@ -2414,7 +2414,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 132 y = 30 }
-			textureFile = ""
+			
 			font = "hoi_24header"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
@@ -2501,7 +2501,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 72 y = 29 }
-			textureFile = ""
+			
 			font = "hoi_24header"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
@@ -2515,7 +2515,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "description"
 			position = { x = 50 y = 119 }
-			textureFile = ""
+			
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
@@ -2581,7 +2581,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 10 y = 16 }
-			textureFile = ""
+			
 			font = "hoi_24header"
 			borderSize = {x = 0 y = 10}
 			text = "Title"
@@ -2595,7 +2595,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "description"
 			position = { x = 24 y = 90 }
-			textureFile = ""
+			
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
@@ -2617,7 +2617,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "update_variants_description"
 			position = { x=84 y=200 }
-			textureFile = ""
+			
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
@@ -2668,7 +2668,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 60 y = 25 }
-			textureFile = ""
+			
 			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
@@ -2681,7 +2681,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "description"
 			position = { x = 60 y = 105 }
-			textureFile = ""
+			
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"

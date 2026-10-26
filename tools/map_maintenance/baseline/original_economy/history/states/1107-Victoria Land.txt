@@ -1,0 +1,18 @@
+state = { #1107
+	id = 1107
+	name = "VICTORIA_LAND"
+	manpower = 1
+	
+	state_category = wasteland
+
+	history={
+		owner = ZZZ
+		set_state_flag = ice_shelf
+	}
+
+	provinces={
+		16386 16428 16447 17638 17692 17793 17815 
+	}
+
+	local_supplies=0.0 
+}

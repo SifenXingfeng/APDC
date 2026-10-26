@@ -1,0 +1,15 @@
+--- before/localisation/english/APDC_development_laws_l_english.yml
++++ current/localisation/english/APDC_development_laws_l_english.yml
+@@ -3,12 +3,6 @@
+  society_idea:0 ""
+  poverty_idea:0 ""
+ 
+- city_idea:0 "Scientific Development"
+- society_development_idea:0 "Society Development"
+- poverty_level_idea:0 "Poverty"
+- EFFECT_CHANGE_LAW_city_idea:0 "Change Scientific Development to '$NAME|Y$' which grants ($DESC$)."
+- EFFECT_CHANGE_LAW_society_development_idea:0 "Change Society Development to '$NAME|Y$' which grants ($DESC$)."
+- EFFECT_CHANGE_LAW_poverty_level_idea:0 "Change Poverty to '$NAME|Y$' which grants ($DESC$)."
+ 
+  proper_science_base:0 "Developed Science Base"
+  proper_science_base_desc:0 "This nation is part of the global community of intellectuals and scholars. The latest inventions spread quickly through its prestigious modern universities and research institutions."

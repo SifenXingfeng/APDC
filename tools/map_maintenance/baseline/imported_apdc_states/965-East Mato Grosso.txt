@@ -1,0 +1,27 @@
+state = {
+	id = 965
+	name = "STATE_965"
+	provinces = {
+		2204
+		17464
+		17471
+		17474
+	}
+	manpower = 34286
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = AMZ
+		controller = AMZ
+		add_core_of = AMZ
+		add_core_of = BRA
+		victory_points = {
+			2204
+			2
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

@@ -1,0 +1,35 @@
+DEN_designer_can_be_improved = { #Only meant to be used for tooltip purposes
+	custom_trigger_tooltip = {
+		tooltip = DEN_designer_can_be_improved_tt
+		hidden_trigger = {
+			always = yes	
+		}
+	}
+}
+
+DEN_improved_designer = { #Only meant to be used for tooltip purposes
+	custom_trigger_tooltip = {
+		tooltip = DEN_improved_designer_tt
+		hidden_trigger = {
+			always = yes	
+		}
+	}
+}
+
+SWI_bba_lar = { #Trigger for having BBA and LaR, mostly for espionage stuff. 
+	AND = {
+		original_tag = SWI
+		has_dlc = "By Blood Alone"	
+		has_dlc = "La Resistance"
+	}
+}
+
+has_any_byz_cosmetic_tag = {
+	OR = {
+		has_cosmetic_tag = BYZ_UNIFIED
+		has_cosmetic_tag = BYZ_UNIFIED_communism
+		has_cosmetic_tag = BYZ_UNIFIED_democratic
+		has_cosmetic_tag = BYZ_UNIFIED_fascism
+		has_cosmetic_tag = BYZ_UNIFIED_neutrality
+	}
+}

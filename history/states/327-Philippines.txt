@@ -1,0 +1,79 @@
+state = {
+	id = 327
+	name = "STATE_327"
+	resources = {
+		coal = 1
+	}
+	provinces = {
+		1221
+		4288
+		10236
+		10265
+		10272
+		12236
+		14709
+		14710
+		14711
+		14712
+		14713
+		14714
+		14715
+		14716
+		19376
+		19381
+	}
+	manpower = 1821634
+	buildings_max_level_factor = 1
+	state_category = large_town
+	local_supplies = 0
+	history = {
+		owner = PHI
+		controller = PHI
+		add_core_of = PHI
+		victory_points = {
+			1221
+			3
+		}
+		victory_points = {
+			4288
+			1
+		}
+		victory_points = {
+			10265
+			50
+		}
+		victory_points = {
+			10272
+			1
+		}
+		victory_points = {
+			12236
+			3
+		}
+		victory_points = {
+			14711
+			1
+		}
+		victory_points = {
+			14712
+			1
+		}
+		victory_points = {
+			14714
+			3
+		}
+		victory_points = {
+			14716
+			5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			10265 = {
+				naval_base = 5
+			}
+			air_base = 6
+			dockyard = 1
+		}
+	}
+}

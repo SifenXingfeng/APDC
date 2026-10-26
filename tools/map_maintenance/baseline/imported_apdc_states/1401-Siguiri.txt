@@ -1,0 +1,43 @@
+state = {
+	id = 1401
+	name = "STATE_1401"
+	provinces = {
+		4957
+		8008
+		14093
+		14122
+		15389
+		15392
+		15393
+		15394
+		15397
+	}
+	manpower = 62692
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+	history = {
+		owner = GNA
+		controller = GNA
+		add_core_of = GNA
+		victory_points = {
+			4957
+			1
+		}
+		victory_points = {
+			8008
+			3
+		}
+		victory_points = {
+			15393
+			3
+		}
+		victory_points = {
+			15394
+			2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

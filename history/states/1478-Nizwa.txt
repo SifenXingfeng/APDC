@@ -1,0 +1,27 @@
+state = {
+	id = 1478
+	name = "STATE_1478"
+	provinces = {
+		5049
+		13447
+		13454
+		13456
+		18546
+	}
+	manpower = 78594
+	resources = {
+		oil = 1
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+	history = {
+		owner = OMA
+		controller = OMA
+		add_core_of = OMA
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = state_renamings
+	}
+}

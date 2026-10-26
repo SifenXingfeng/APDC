@@ -1,0 +1,34 @@
+
+state={
+	id=275
+	name="STATE_275" # Transvaal
+	manpower = 3680363
+	
+	state_category = city
+	
+	resources={
+		steel=11 #was: 5   was: 8
+		chromium=53 # was: 80
+		coal = 14 # initial distribution
+	}
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3 #was: 5
+			arms_factory = 1
+			industrial_complex = 5
+			air_base = 3
+		}
+		victory_points = {
+			10400 10
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		1688 2171 2213 4556 5106 5217 5231 10400 10566 10668 12064 12648 13510 13511 13514 13520 13523 13524 13527 13529 13533 13534 13539 13542 13543 13545 13546 13549 13550 13551 13552 13553 13554 13555 13556 13557 13558 13559 13560 13561 13562 13563 13564 13565 13566 13567 13568 13569 13570 13571 13572 15364 15366 15367 15368 15369 15370 15371 15372 15373 15374 15375 15376 15377 15378 17841 17842 17844 19185 19186 
+	}
+
+	local_supplies=0.0 
+}

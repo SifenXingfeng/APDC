@@ -1,0 +1,78 @@
+state = {
+	id = 617
+	name = "STATE_617"
+	provinces = {
+		1783
+		4709
+		4770
+		5016
+		7702
+		7732
+		7792
+		7850
+		8042
+		10545
+		10614
+		10674
+		12656
+		12907
+		14448
+		16904
+		17208
+		17216
+		19386
+		19392
+		19402
+		19410
+		19414
+		19422
+		19424
+		19425
+		19426
+		19428
+		19644
+		19766
+		19786
+	}
+	manpower = 867334
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 6
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			4709
+			20
+		}
+		victory_points = {
+			5016
+			1
+		}
+		victory_points = {
+			10545
+			5
+		}
+		victory_points = {
+			19386
+			2
+		}
+		victory_points = {
+			19414
+			1
+		}
+		victory_points = {
+			19424
+			3
+		}
+		victory_points = {
+			19426
+			3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+	}
+}

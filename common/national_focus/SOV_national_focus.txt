@@ -1,6 +1,6 @@
 focus_tree = {
 	id = NORDIC_LIGHT_focus
-	country = { factor = 1 }
+	country = { factor = 0 modifier = { add = 100 tag = SOV } }
 
 	default = no
 	reset_on_civilwar = no
@@ -12,8 +12,8 @@ focus_tree = {
 	# 北极光的余波
 	focus = {
 		id = aftermath_of_northern_lights_event
-		name = aftermath_of_northern_lights_event_name
-		desc = aftermath_of_northern_lights_event_desc
+		
+		
 		icon = GFX_aftermath_of_northern_lights_event
 		x = 9
 		y = 0
@@ -30,8 +30,8 @@ set_autonomy = {
 	# 金环计划
 	focus = {
 		id = gold_ring_plan
-		name = gold_ring_plan_name
-		desc = gold_ring_plan_desc
+		
+		
 		icon = GFX_focus_silver_ring
 		x = 7
 		y = 1
@@ -43,8 +43,8 @@ set_autonomy = {
 	# 清查军用品库存
 	focus = {
 		id = audit_military_supplies
-		name = audit_military_supplies_name
-		desc = audit_military_supplies_desc
+		
+		
 		icon = GFX_focus_silver_ring
 		x = 6
 		y = 2
@@ -56,8 +56,8 @@ set_autonomy = {
 	# 调查莫斯科消费品网络
 	focus = {
 		id = investigate_consumer_goods_network
-		name = investigate_consumer_goods_network_name
-		desc = investigate_consumer_goods_network_desc
+		
+		
 		icon = GFX_focus_silver_ring
 		x = 8
 		y = 2
@@ -69,8 +69,8 @@ set_autonomy = {
 	# 严查军车私用
 	focus = {
 		id = crackdown_military_vehicle_abuse
-		name = crackdown_military_vehicle_abuse_name
-		desc = crackdown_military_vehicle_abuse_desc
+		
+		
 		icon = GFX_focus_silver_ring
 		x = 6
 		y = 3
@@ -82,8 +82,8 @@ set_autonomy = {
 	# 调查挪用专款去向
 	focus = {
 		id = investigate_misappropriated_funds
-		name = investigate_misappropriated_funds_name
-		desc = investigate_misappropriated_funds_desc
+		
+		
 		icon = GFX_focus_silver_ring
 		x = 8
 		y = 3
@@ -95,8 +95,8 @@ set_autonomy = {
 	# 追缴军属企业税款
 	focus = {
 		id = recover_military_tax_arrears
-		name = recover_military_tax_arrears_name
-		desc = recover_military_tax_arrears_desc
+		
+		
 		icon = GFX_focus_silver_ring
 		x = 6
 		y = 4
@@ -108,8 +108,8 @@ set_autonomy = {
 	# 抽检轻工业品
 	focus = {
 		id = inspect_light_industrial_goods
-		name = inspect_light_industrial_goods_name
-		desc = inspect_light_industrial_goods_desc
+		
+		
 		icon = GFX_focus_silver_ring
 		x = 8
 		y = 4
@@ -121,8 +121,8 @@ set_autonomy = {
 	# 回收军方侵占土地
 	focus = {
 		id = reclaim_military_occupied_land
-		name = reclaim_military_occupied_land_name
-		desc = reclaim_military_occupied_land_desc
+		
+		
 		icon = GFX_focus_silver_ring
 		x = 6
 		y = 5
@@ -134,8 +134,8 @@ set_autonomy = {
 	# 垄断奢侈品流通
 	focus = {
 		id = monopolize_luxury_goods
-		name = monopolize_luxury_goods_name
-		desc = monopolize_luxury_goods_desc
+		
+		
 		icon = GFX_focus_silver_ring
 		x = 8
 		y = 5
@@ -147,8 +147,8 @@ set_autonomy = {
 	# 腐败：战无不胜的女士
 	focus = {
 		id = corruption_invincible_lady
-		name = corruption_invincible_lady_name
-		desc = corruption_invincible_lady_desc
+		
+		
 		icon = GFX_focus_silver_ring
 		x = 7
 		y = 6
@@ -163,8 +163,8 @@ set_autonomy = {
 	# 银环计划
 	focus = {
 		id = silver_ring_plan
-		name = silver_ring_plan_name
-		desc = silver_ring_plan_desc
+		
+		
 		icon = GFX_focus_silver_ring
 		x = 11
 		y = 1
@@ -176,44 +176,44 @@ set_autonomy = {
 	# 医疗援助队
 	focus = {
 		id = medical_relief_team
-		name = medical_relief_team_name
-		desc = medical_relief_team_desc
+		
+		
 		icon = GFX_focus_medical_relief
 		x = 10
 		y = 2
 		prerequisite = { focus = silver_ring_plan }
-		mutually_exclusive = { logistics_reform refugee_id_verification }
+		mutually_exclusive = { focus = logistics_reform focus = refugee_id_verification }
 	}
 
 	# 物流革新
 	focus = {
 		id = logistics_reform
-		name = logistics_reform_name
-		desc = logistics_reform_desc
+		
+		
 		icon = GFX_focus_logistics_reform
 		x = 11
 		y = 2
 		prerequisite = { focus = silver_ring_plan }
-		mutually_exclusive = { medical_relief_team refugee_id_verification }
+		mutually_exclusive = { focus = medical_relief_team focus = refugee_id_verification }
 	}
 
 	# 难民身份证明
 	focus = {
 		id = refugee_id_verification
-		name = refugee_id_verification_name
-		desc = refugee_id_verification_desc
+		
+		
 		icon = GFX_focus_refugee_id
 		x = 12
 		y = 2
 		prerequisite = { focus = silver_ring_plan }
-		mutually_exclusive = { medical_relief_team logistics_reform }
+		mutually_exclusive = { focus = medical_relief_team focus = logistics_reform }
 	}
 
 	# 重申列宁格勒精神
 	focus = {
 		id = spirit_of_leningrad
-		name = spirit_of_leningrad_name
-		desc = spirit_of_leningrad_desc
+		
+		
 		icon = GFX_focus_spirit_leningrad
 		x = 11
 		y = 3
@@ -225,8 +225,8 @@ set_autonomy = {
 	# 拍卖列宁格勒生产指标
 	focus = {
 		id = auction_leningrad_production
-		name = auction_leningrad_production_name
-		desc = auction_leningrad_production_desc
+		
+		
 		icon = GFX_focus_auction_production
 		x = 10
 		y = 4
@@ -236,8 +236,8 @@ set_autonomy = {
 	# 列宁格勒振兴委员会
 	focus = {
 		id = leningrad_reconstruction_committee
-		name = leningrad_reconstruction_committee_name
-		desc = leningrad_reconstruction_committee_desc
+		
+		
 		icon = GFX_focus_leningrad_committee
 		x = 10
 		y = 6
@@ -247,8 +247,8 @@ set_autonomy = {
 	# 支持自治社区
 	focus = {
 		id = support_autonomous_communities
-		name = support_autonomous_communities_name
-		desc = support_autonomous_communities_desc
+		
+		
 		icon = GFX_focus_autonomous_communities
 		x = 12
 		y = 4
@@ -258,8 +258,8 @@ set_autonomy = {
 	# 民兵纠察队
 	focus = {
 		id = militia_patrol
-		name = militia_patrol_name
-		desc = militia_patrol_desc
+		
+		
 		icon = GFX_focus_militia_patrol
 		x = 11
 		y = 5
@@ -269,8 +269,8 @@ set_autonomy = {
 	# 上山下乡运动
 	focus = {
 		id = go_to_the_countryside
-		name = go_to_the_countryside_name
-		desc = go_to_the_countryside_desc
+		
+		
 		icon = GFX_focus_countryside_movement
 		x = 12
 		y = 5
@@ -280,8 +280,8 @@ set_autonomy = {
 	# 妇联特别办事处
 	focus = {
 		id = women_union_special_office
-		name = women_union_special_office_name
-		desc = women_union_special_office_desc
+		
+		
 		icon = GFX_focus_women_union_office
 		x = 13
 		y = 5
@@ -291,8 +291,8 @@ set_autonomy = {
 	# 工农兵大团结
 	focus = {
 		id = worker_peasant_soldier_unity
-		name = worker_peasant_soldier_unity_name
-		desc = worker_peasant_soldier_unity_desc
+		
+		
 		icon = GFX_focus_countryside_movement
 		x = 12
 		y = 6
@@ -306,8 +306,8 @@ set_autonomy = {
 	# 死亡，不属于工人阶级
 	focus = {
 		id = death_not_proletariat
-		name = death_not_proletariat_name
-		desc = death_not_proletariat_desc
+		
+		
 		icon = GFX_focus_countryside_movement
 		x = 11
 		y = 7
@@ -320,8 +320,8 @@ set_autonomy = {
 	# 军队与官僚
 	focus = {
 		id = military_and_bureaucracy
-		name = military_and_bureaucracy_name
-		desc = military_and_bureaucracy_desc
+		
+		
 		icon = GFX_focus_countryside_movement
 		x = 11
 		y = 8
@@ -331,8 +331,8 @@ set_autonomy = {
 	# 巩固金环计划成果
 	focus = {
 		id = consolidate_gold_ring_achievements
-		name = consolidate_gold_ring_achievements_name
-		desc = consolidate_gold_ring_achievements_desc
+		
+		
 		icon = GFX_focus_countryside_movement
 		x = 9
 		y = 9
@@ -346,8 +346,8 @@ set_autonomy = {
 	# 成立后勤协调委员会
 	focus = {
 		id = establish_logistics_coordination_committee
-		name = establish_logistics_coordination_committee_name
-		desc = establish_logistics_coordination_committee_desc
+		
+		
 		icon = GFX_focus_countryside_movement
 		x = 8
 		y = 10
@@ -361,8 +361,8 @@ set_autonomy = {
 	# 安抚军队不满情绪
 	focus = {
 		id = appease_military_dissatisfaction
-		name = appease_military_dissatisfaction_name
-		desc = appease_military_dissatisfaction_desc
+		
+		
 		icon = GFX_focus_countryside_movement
 		x = 8
 		y = 11
@@ -372,8 +372,8 @@ set_autonomy = {
 	# 向国企派驻官员
 	focus = {
 		id = assign_officers_to_state_owned
-		name = assign_officers_to_state_owned_name
-		desc = assign_officers_to_state_owned_desc
+		
+		
 		icon = GFX_focus_countryside_movement
 		x = 9
 		y = 10
@@ -387,8 +387,8 @@ set_autonomy = {
 	# 就市场经济的几点共识
 	focus = {
 		id = consensus_on_market_economy
-		name = consensus_on_market_economy_name
-		desc = consensus_on_market_economy_desc
+		
+		
 		icon = GFX_focus_countryside_movement
 		x = 9
 		y = 11
@@ -398,8 +398,8 @@ set_autonomy = {
 	# 选调检查官
 	focus = {
 		id = appoint_inspectors
-		name = appoint_inspectors_name
-		desc = appoint_inspectors_desc
+		
+		
 		icon = GFX_focus_countryside_movement
 		x = 10
 		y = 10
@@ -413,8 +413,8 @@ set_autonomy = {
 	# 设置经济腐败办事处
 	focus = {
 		id = establish_economic_corruption_office
-		name = establish_economic_corruption_office_name
-		desc = establish_economic_corruption_office_desc
+		
+		
 		icon = GFX_focus_countryside_movement
 		x = 10
 		y = 11
@@ -424,8 +424,8 @@ set_autonomy = {
 	# 全苏维埃最杰出的官僚
 	focus = {
 		id = best_officer_in_soviet
-		name = best_officer_in_soviet_name
-		desc = best_officer_in_soviet_desc
+		
+		
 		icon = GFX_best_officer_in_soviet
 		x = 9
 		y = 12
@@ -443,8 +443,8 @@ set_autonomy = {
 	# 丰厚的奖励：国家安全局新增预算
 	focus = {
 		id = add_buget_for_KGB
-		name = add_buget_for_KGB_name
-		desc = add_buget_for_KGB_desc
+		
+		
 		icon = GFX_add_buget_for_KGB
 		x = 9
 		y = 13
@@ -459,8 +459,8 @@ set_autonomy = {
 	# 推广银环计划方案
 	focus = {
 		id = promote_silver_ring_scheme
-		name = promote_silver_ring_scheme_name
-		desc = promote_silver_ring_scheme_desc
+		
+		
 		icon = GFX_focus_countryside_movement
 		x = 13
 		y = 9
@@ -474,8 +474,8 @@ set_autonomy = {
 	# 开展全国大讨论
 	focus = {
 		id = launch_nationwide_discussion
-		name = launch_nationwide_discussion_name
-		desc = launch_nationwide_discussion_desc
+		
+		
 		icon = GFX_focus_countryside_movement
 		x = 12
 		y = 10
@@ -485,8 +485,8 @@ set_autonomy = {
 	# 宣讲成功经验
 	focus = {
 		id = share_success_stories
-		name = share_success_stories_name
-		desc = share_success_stories_desc
+		
+		
 		icon = GFX_focus_countryside_movement
 		x = 14
 		y = 10
@@ -500,8 +500,8 @@ set_autonomy = {
 	# “雷声大，雨点小”的改革
 	focus = {
 		id = thunderous_but_feeble_reform
-		name = thunderous_but_feeble_reform_name
-		desc = thunderous_but_feeble_reform_desc
+		
+		
 		icon = GFX_focus_countryside_movement
 		x = 13
 		y = 11

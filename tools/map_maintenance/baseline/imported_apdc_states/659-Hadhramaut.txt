@@ -1,0 +1,38 @@
+state = {
+	id = 659
+	name = "STATE_659"
+	provinces = {
+		2029
+		4976
+		12894
+		13426
+		18557
+		18561
+	}
+	manpower = 326701
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = YEM
+		controller = YEM
+		add_core_of = YEM
+		victory_points = {
+			2029
+			2
+		}
+		victory_points = {
+			13426
+			2
+		}
+		victory_points = {
+			18557
+			2
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		set_state_flag = state_renamings
+	}
+}

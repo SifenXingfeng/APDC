@@ -1,0 +1,2539 @@
+--- before/gfx/interface/equipmentdesigner/graphic_db/00_plane_icons.txt
++++ current/gfx/interface/equipmentdesigner/graphic_db/00_plane_icons.txt
+@@ -152,17 +152,7 @@
+ 		}
+ 	}
+ 
+-	supersonic_fighter_equipment_1 = { #Supersonic Jet (Non-BBA version) #MM: This equipment was implemented as the same air unit as the old Jet Plane so those old models will be the ones hooked-in
+-		pool = {
+-			weight = 2  #This weight is necessary due to being in a different file than the country-specific ones
+-			icons = {
+-				GFX_small_plane_airframe_5_medium
+-			}
+-			models = {
+-				supersonic_jet_plane_entity
+-			}
+-		}
+-	}
++	
+ 
+ 	strat_bomber_intercontinental_equipment = { #Intercontinental Bomber
+ 		pool = {
+@@ -251,35 +241,10 @@
+ 	}
+ 
+ 	# SCOUT PLANE
+-	medium_plane_scout_plane_airframe = {
+-		pool = {
+-			icons = {
+-				GFX_scout_plane1_medium
+-				GFX_scout_plane2_medium
+-			}
+-		}
+-	}
+-	medium_plane_scout_plane_airframe_0 = {
+-		pool = {
+-			icons = {
+-				GFX_scout_plane1_medium #Pick oldest plane
+-			}
+-		}
+-	}
+-	medium_plane_scout_plane_airframe_1 = {
+-		pool = {
+-			icons = {
+-				GFX_scout_plane1_medium
+-			}
+-		}
+-	}
+-	medium_plane_scout_plane_airframe_2 = {
+-		pool = {
+-			icons = {
+-				GFX_scout_plane2_medium
+-			}
+-		}
+-	}
++	
++	
++	
++	
+ 
+ 
+ 	######################
+@@ -359,64 +324,12 @@
+ }
+ 
+ GER = {
+-	small_plane_cas_airframe = {
+-		pool = {
+-			icons = {
+-				#CV at the bottom of the list
+-				GFX_GER_cv_CAS3_medium #Advanced Small CV CAS HE 162 (Yes, for some reason HE 162 is here while also used as Jet Fighter icon and model in BBA :D )
+-
+-				GFX_GER_CAS1_medium #Basic Small CAS JU 87b
+-				GFX_GER_CAS2_medium #Improved Small CAS JU 87 G-2
+-				GFX_GER_CAS3_medium #Advanced Small CAS HS 129a-0
+-			}
+-			models = {
+-				#MODELS ARE HANDELED IN 01_axis_plane_icons OR IN 01_bba_plane_icons DUE TO BEING DLC LOCKED
+-
+-				GER_light_plane_entity
+-			}
+-		}
+-	}
+-
+-	cv_small_plane_cas_airframe = {
+-		pool = {
+-			icons = {
+-				#CV at the bottom of the list
+-				GFX_GER_cv_CAS3_medium #Advanced Small CV CAS HE 162 (Yes, for some reason HE 162 is here while also used as Jet Fighter icon and model in BBA :D )
+-
+-				GFX_GER_CAS1_medium #Basic Small CAS JU 87b
+-				GFX_GER_CAS2_medium #Improved Small CAS JU 87 G-2
+-				GFX_GER_CAS3_medium #Advanced Small CAS HS 129a-0
+-			}
+-			models = {
+-				#MODELS ARE HANDELED IN 01_axis_plane_icons OR IN 01_bba_plane_icons DUE TO BEING DLC LOCKED
+-
+-				GER_light_plane_entity
+-			}
+-		}
+-	}
+-
+-	small_plane_naval_bomber_airframe = {
+-		pool = {
+-			icons = {
+-				GFX_GER_naval_bomber1_medium #Basic Small Nav Bomber He 114
+-				GFX_GER_naval_bomber2_medium #Improved Small Nav Bomber AR 196
+-			}
+-			models = {
+-				GER_light_plane_entity
+-			}
+-		}
+-	}
+-	cv_small_plane_naval_bomber_airframe = {
+-		pool = {
+-			icons = {
+-				GFX_GER_naval_bomber1_medium #Basic Small Nav Bomber He 114
+-				GFX_GER_naval_bomber2_medium #Improved Small Nav Bomber AR 196
+-			}
+-			models = {
+-				GER_light_plane_entity
+-			}
+-		}
+-	}
++	
++
++	
++
++	
++	
+ 
+ 	small_plane_airframe = {
+ 		pool = {
+@@ -494,54 +407,12 @@
+ 		}
+ 	}
+ 
+-	small_plane_cas_airframe_1 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_GER_CAS1_medium
+-			}
+-		}
+-	}
+-	small_plane_cas_airframe_2 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_GER_CAS2_medium
+-			}
+-		}
+-	}
+-	small_plane_cas_airframe_3 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_GER_CAS3_medium
+-			}
+-		}
+-	}
+-	small_plane_naval_bomber_airframe_1 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_GER_naval_bomber1_medium
+-			}
+-		}
+-	}
+-	small_plane_naval_bomber_airframe_2 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_GER_naval_bomber2_medium
+-			}
+-		}
+-	}
+-	small_plane_naval_bomber_airframe_3 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_GER_naval_bomber3_medium
+-			}
+-		}
+-	}
++	
++	
++	
++	
++	
++	
+ 
+ 	cv_small_plane_airframe = {
+ 		pool = {
+@@ -616,59 +487,17 @@
+ 		}
+ 	}
+ 	
+-	cv_small_plane_cas_airframe_1 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_GER_CAS1_medium
+-			}
+-		}
+-	}
+-	
+-	cv_small_plane_cas_airframe_2 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_GER_cv_CAS3_medium
+-			}
+-		}
+-	}
+-	
+-	cv_small_plane_cas_airframe_3 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_GER_light_plane_3_medium
+-			}
+-		}
+-	}
+-	
+-	cv_small_plane_cas_airframe_1 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_GER_CAS1_medium
+-			}
+-		}
+-	}
+-	
+-	cv_small_plane_naval_bomber_airframe_2 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_GER_naval_bomber1_medium
+-			}
+-		}
+-	}
+-	
+-	cv_small_plane_naval_bomber_airframe_3 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_GER_naval_bomber3_medium
+-			}
+-		}
+-	}
++	
++	
++	
++	
++	
++	
++	
++	
++	
++	
++	
+ 	
+ 	medium_plane_airframe = {
+ 
+@@ -750,32 +579,11 @@
+ 		}
+ 	}
+ 	
+-	medium_plane_fighter_airframe_1 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_GER_heavy_fighter1_medium
+-			}
+-		}
+-	}
+-	
+-	medium_plane_fighter_airframe_2 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_GER_heavy_fighter2_medium
+-			}
+-		}
+-	}
+-	
+-	medium_plane_fighter_airframe_3 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_GER_heavy_fighter3_medium
+-			}
+-		}
+-	}
++	
++	
++	
++	
++	
+ 		
+ 	large_plane_airframe = {
+ 		pool = {
+@@ -969,19 +777,7 @@
+ 		}
+ 	}
+ 
+-	small_plane_naval_bomber_airframe = {
+-		pool = {
+-			weight = 0.9 
+-			icons = {
+-				GFX_SOV_CAS3_medium
+-				GFX_SOV_CAS2_medium
+-				GFX_SOV_CAS1_medium
+-			}
+-			models = {
+-				SOV_light_plane_entity
+-			}
+-		}
+-	}
++	
+ 	medium_plane_airframe = {
+ 		pool = {
+ 			icons = {
+@@ -1468,32 +1264,8 @@
+ 		}
+ 	}
+ 
+-	jet_strat_bomber_equipment = {
+-		pool = {
+-			weight = 0.9
+-			icons = {
+-				GFX_USA_strategic_bomber3_medium
+-			}
+-			models = { # Fallback Models
+-				heavy_plane_entity
+-				USA_heavy_plane_entity
+-				
+-			}
+-		}
+-	}
+-	jet_tac_bomber_equipment = {
+-		pool = {
+-			weight = 0.9
+-			icons = {
+-				GFX_USA_strategic_bomber3_medium
+-			}
+-			models = { # Fallback Models
+-				medium_plane_entity
+-				USA_medium_plane_entity
+-				
+-			}
+-		}
+-	}
++	
++	
+ 	
+ }
+ 
+@@ -1535,29 +1307,31 @@
+ 		}
+ 	}
+ 	
+-	small_plane_cas_airframe_1 = {
++	
++	
++	
++	
++	small_plane_airframe_2 = {
+ 		pool = {
+ 			weight = 1.1
+ 			icons = {
+-				GFX_ENG_CAS1_medium
+-			}
+-		}
+-	}
+-	
+-	small_plane_naval_bomber_airframe_1 = {
++				GFX_ENG_fighter2_medium
++			}
++			models = {
++				ENG_light_plane_entity
++			}
++		}
++	}
++	
++	
++	
++	
++	
++	small_plane_airframe_3 = {
+ 		pool = {
+ 			weight = 1.1
+ 			icons = {
+-				GFX_ENG_naval_bomber1_medium
+-			}
+-		}
+-	}
+-	
+-	small_plane_airframe_2 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_ENG_fighter2_medium
++				GFX_ENG_fighter3_medium
+ 			}
+ 			models = {
+ 				ENG_light_plane_entity
+@@ -1565,53 +1339,9 @@
+ 		}
+ 	}
+ 	
+-	small_plane_cas_airframe_2 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_ENG_CAS2_medium
+-			}
+-		}
+-	}
+-	
+-	small_plane_naval_bomber_airframe_2 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_ENG_naval_bomber2_medium
+-			}
+-		}
+-	}
+-	
+-	small_plane_airframe_3 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_ENG_fighter3_medium
+-			}
+-			models = {
+-				ENG_light_plane_entity
+-			}
+-		}
+-	}
+-	
+-	small_plane_cas_airframe_3 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_ENG_CAS3_medium
+-			}
+-		}
+-	}
+-	
+-	small_plane_naval_bomber_airframe_3 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_ENG_naval_bomber3_medium
+-			}
+-		}
+-	}
++	
++	
++	
+ 	
+ 	small_plane_airframe = {
+ 		pool = {
+@@ -1686,21 +1416,9 @@
+ 		}
+ 	}
+ 	
+-	cv_small_plane_cas_airframe_1 = {
+-		pool = {
+-			icons = {
+-				GFX_ENG_early_fighter_medium
+-			}
+-		}
+-	}
+-	
+-	cv_small_plane_naval_bomber_airframe_1 = {
+-		pool = {
+-			icons = {
+-				GFX_ENG_naval_bomber1_medium
+-			}
+-		}
+-	}
++	
++	
++	
+ 	
+ 	cv_small_plane_airframe_2 = {
+ 		pool = {
+@@ -1710,21 +1428,9 @@
+ 		}
+ 	}
+ 	
+-	cv_small_plane_cas_airframe_2 = {
+-		pool = {
+-			icons = {
+-				GFX_ENG_CAS2_medium
+-			}
+-		}
+-	}
+-	
+-	cv_small_plane_naval_bomber_airframe_2 = {
+-		pool = {
+-			icons = {
+-				GFX_ENG_light_plane_3_medium
+-			}
+-		}
+-	}
++	
++	
++	
+ 	
+ 	cv_small_plane_airframe_3 = {
+ 		pool = {
+@@ -1734,21 +1440,9 @@
+ 		}
+ 	}
+ 	
+-	cv_small_plane_cas_airframe_3 = {
+-		pool = {
+-			icons = {
+-				GFX_ENG_light_plane_3_medium
+-			}
+-		}
+-	}
+-	
+-	cv_small_plane_naval_bomber_airframe_3 = {
+-		pool = {
+-			icons = {
+-				GFX_ENG_light_plane_4_medium
+-			}
+-		}
+-	}
++	
++	
++	
+ 	
+ 	small_plane_airframe_4 = {
+ 		pool = {
+@@ -1809,89 +1503,35 @@
+ 		}
+ 	}
+ 	
+-	medium_plane_fighter_airframe_1 = {
++	
++	
++	
++	
++	medium_plane_airframe_2 = {
+ 		pool = {
+ 			weight = 1.1
+ 			icons = {
+-				GFX_ENG_heavy_fighter1_medium
+-			}
+-			models = {
+-				medium_plane_entity
+-			}
+-		}
+-	}
+-	
+-	medium_plane_scout_plane_airframe_1 = {
+-		pool = {
+-			limit = { has_dlc = "La Resistance"}
++				GFX_ENG_tactical_bomber2_medium
++			}
++		}
++	}
++	
++	
++	
++	
++	
++	medium_plane_airframe_3 = {
++		pool = {
+ 			weight = 1.1
+ 			icons = {
+-				GFX_ENG_scout_plane1_medium
+-			}
+-		}
+-	}
+-	
+-	medium_plane_airframe_2 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_ENG_tactical_bomber2_medium
+-			}
+-		}
+-	}
+-	
+-	medium_plane_fighter_airframe_2 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_ENG_heavy_fighter2_medium
+-			}
+-			models = {
+-				medium_plane_entity
+-			}
+-		}
+-	}
+-	
+-	medium_plane_scout_plane_airframe_2 = {
+-		pool = {
+-			limit = { has_dlc = "La Resistance"}
+-			weight = 1.1
+-			icons = {
+-				GFX_ENG_scout_plane2_medium
+-			}
+-		}
+-	}
+-	
+-	medium_plane_airframe_3 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+ 				GFX_ENG_tactical_bomber3_medium
+ 			}
+ 		}
+ 	}
+ 	
+-	medium_plane_fighter_airframe_3 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_ENG_heavy_fighter3_medium
+-			}
+-			models = {
+-				medium_plane_entity
+-			}
+-		}
+-	}
+-	
+-	medium_plane_scout_plane_airframe_3 = {
+-		pool = {
+-			limit = { has_dlc = "La Resistance"}
+-			weight = 1.1
+-			icons = {
+-				GFX_ENG_scout_plane2_medium
+-			}
+-		}
+-	}
++	
++	
++	
+ 	
+ 	medium_plane_airframe_4 = {
+ 
+@@ -2352,79 +1992,21 @@
+ 		}
+ 	}
+ 
+-	small_plane_cas_airframe_1 = {
+-		pool = {
+-			weight = 1.2
+-			icons = {
+-				GFX_JAP_CAS1_medium
+-			}
+-		}
+-	}
+-	
+-	small_plane_cas_airframe_2 = {
+-		pool = {
+-			weight = 1.2
+-			icons = {
+-				GFX_JAP_CAS1_medium
+-				GFX_JAP_CAS2_medium
+-			}
+-		}
+-	}
+-
+-	
+-	small_plane_cas_airframe_3 = {
+-		pool = {
+-			weight = 1.2
+-			icons = {
+-				GFX_JAP_CAS1_medium
+-				GFX_JAP_CAS2_medium
+-				GFX_JAP_CAS3_medium
+-			}
+-		}
+-	}
+-
+-	small_plane_cas_airframe_4 = {
+-		pool = {
+-			weight = 1.2
+-			icons = {
+-				GFX_JAP_CAS1_medium
+-				GFX_JAP_CAS2_medium
+-				GFX_JAP_CAS3_medium
+-				GFX_JAP_jet_plane_1_medium
+-			}
+-		}
+-	}
+-	
+-	small_plane_naval_bomber_airframe_1 = {
+-		pool = {
+-			weight = 1.2
+-			icons = {
+-				GFX_JAP_naval_bomber1_medium
+-			}
+-		}
+-	}
+-	
+-	
+-	small_plane_naval_bomber_airframe_2 = {
+-		pool = {
+-			weight = 1.2
+-			icons = {
+-				GFX_JAP_naval_bomber1_medium
+-				GFX_JAP_naval_bomber3_medium
+-			}
+-		}
+-	}
+-
+-	small_plane_naval_bomber_airframe_3 = {
+-		pool = {
+-			weight = 1.2
+-			icons = {
+-				GFX_JAP_naval_bomber1_medium
+-				GFX_JAP_naval_bomber2_medium
+-				GFX_JAP_naval_bomber3_medium
+-			}
+-		}
+-	}
++	
++	
++	
++
++	
++	
++
++	
++	
++	
++	
++	
++	
++
++	
+ 
+ 	### Fighter ###
+ 
+@@ -2549,81 +2131,20 @@
+ 
+ 	#CAS
+ 
+-	cv_small_plane_cas_airframe = {
+-		pool = {
+-			icons = {
+-				GFX_JAP_cv_CAS3_medium
+-				GFX_JAP_cv_CAS2_medium
+-				GFX_JAP_CAS1_medium
+-				GFX_JAP_iw_small_cv_fighter_1_medium
+-			}
+-			models = {
+-				JAP_light_plane_entity
+-				JAP_light_plane_1_entity
+-			}
+-		}
+-	}
+-
+-	cv_small_plane_cas_airframe_1 = {
+-		pool = {
+-			weight = 1.2
+-			icons = {
+-				 GFX_JAP_CAS1_medium
+-			}
+-		}
+-	}
+-
+-	cv_small_plane_cas_airframe_2 = {
+-		pool = {
+-			weight = 1.2
+-			icons = {
+-				GFX_JAP_CAS1_medium
+-				GFX_JAP_cv_CAS2_medium
+-			}
+-		}
+-	}
+-	
+-	cv_small_plane_cas_airframe_3 = {
+-		pool = {
+-			weight = 1.2
+-			icons = {
+-				GFX_JAP_CAS1_medium
+-				GFX_JAP_cv_CAS2_medium
+-				GFX_JAP_cv_CAS3_medium
+-			}
+-		}
+-	}
+-
+-	cv_small_plane_naval_bomber_airframe_1 = {
+-		pool = {
+-			weight = 1.2
+-			icons = {
+-				GFX_JAP_cv_naval_bomber1_medium
+-			}
+-		}
+-	}
+-	
+-	cv_small_plane_naval_bomber_airframe_2 = {
+-		pool = {
+-			weight = 1.2
+-			icons = {
+-				GFX_JAP_cv_naval_bomber1_medium
+-				GFX_JAP_cv_naval_bomber2_medium
+-			}
+-		}
+-	}
+-	
+-	
+-	cv_small_plane_naval_bomber_airframe_3 = {
+-		pool = {
+-			weight = 1.2
+-			icons = {
+-				GFX_JAP_cv_naval_bomber1_medium
+-				GFX_JAP_cv_naval_bomber2_medium
+-				GFX_JAP_cv_naval_bomber3_medium
+-			}
+-		}
+-	}
++	
++
++	
++
++	
++	
++	
++
++	
++	
++	
++	
++	
++	
+ 
+ 	medium_plane_airframe = {
+ 		pool = {
+@@ -2653,36 +2174,11 @@
+ 		}
+ 	}
+ 
+-	medium_plane_fighter_airframe_1 = {
+-		pool = {
+-			weight = 1.2
+-			icons = {
+-				GFX_JAP_early_bomber_medium
+-				GFX_JAP_heavy_fighter1_medium
+-			}
+-		}
+-	}
+-
+-	medium_plane_fighter_airframe_2 = {
+-		pool = {
+-			weight = 1.2
+-			icons = {
+-				GFX_JAP_heavy_fighter1_medium
+-				GFX_JAP_heavy_fighter2_medium
+-			}
+-		}
+-	}
+-
+-	medium_plane_fighter_airframe_3 = {
+-		pool = {
+-			weight = 1.2
+-			icons = {
+-				GFX_JAP_heavy_fighter1_medium
+-				GFX_JAP_heavy_fighter2_medium
+-				GFX_JAP_heavy_fighter3_medium
+-			}
+-		}
+-	}
++	
++
++	
++
++	
+ 	
+ 	medium_plane_airframe_1 = {
+ 		pool = {
+@@ -2845,67 +2341,14 @@
+ 		}
+ 	}
+ 	#CAS
+-	small_plane_cas_airframe = {
+-		pool = {
+-			icons = {
+-				GFX_ITA_CAS1_medium #Basic Small CAS 
+-				GFX_ITA_CAS2_medium #Improved Small CAS 
+-				GFX_ITA_CAS3_medium #Advanced Small CAS
+-			}
+-		}
+-	}
+-	small_plane_cas_airframe_1 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_ITA_CAS1_medium
+-			}
+-		}
+-	}
+-	small_plane_cas_airframe_2 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_ITA_CAS2_medium
+-			}
+-		}
+-	}
+-	small_plane_cas_airframe_3 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_ITA_CAS3_medium
+-			}
+-		}
+-	}
++	
++	
++	
++	
+ 	#NAVAL BOMBERS
+-	small_plane_naval_bomber_airframe_1 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_ITA_naval_bomber1_medium
+-			}
+-		}
+-	}
+-	small_plane_naval_bomber_airframe_2 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_ITA_naval_bomber1_medium
+-				GFX_ITA_naval_bomber2_medium
+-			}
+-		}
+-	}
+-	small_plane_naval_bomber_airframe_3 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_ITA_naval_bomber1_medium
+-				GFX_ITA_naval_bomber2_medium
+-				GFX_ITA_naval_bomber3_medium
+-			}
+-		}
+-	}
++	
++	
++	
+ 	#CARRIER AIRPLANES
+ 	cv_small_plane_airframe = {
+ 		pool = {
+@@ -2984,65 +2427,17 @@
+ 		}
+ 	}
+ 	#CAS
+-	cv_small_plane_cas_airframe_1 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_ITA_cv_CAS1_medium
+-			}
+-		}
+-	}
+-	
+-	cv_small_plane_cas_airframe_2 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_ITA_cv_CAS1_medium
+-				GFX_ITA_cv_CAS2_medium
+-			}
+-		}
+-	}
+-	
+-	cv_small_plane_cas_airframe_3 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_ITA_cv_CAS1_medium
+-				GFX_ITA_cv_CAS2_medium
+-				GFX_ITA_cv_CAS3_medium
+-			}
+-		}
+-	}
++	
++	
++	
++	
++	
+ 	#Naval Bombers
+-	cv_small_plane_naval_bomber_airframe_1 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_ITA_cv_naval_bomber1_medium
+-			}
+-		}
+-	}
+-	
+-	cv_small_plane_naval_bomber_airframe_2 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_ITA_cv_naval_bomber1_medium
+-				GFX_ITA_cv_naval_bomber2_medium
+-			}
+-		}
+-	}
+-	
+-	cv_small_plane_naval_bomber_airframe_3 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_ITA_cv_naval_bomber1_medium
+-				GFX_ITA_cv_naval_bomber2_medium
+-				GFX_ITA_cv_naval_bomber3_medium
+-			}
+-		}
+-	}
++	
++	
++	
++	
++	
+ 
+ 	medium_plane_airframe = {
+ 		pool = {
+@@ -3067,35 +2462,11 @@
+ 		}
+ 	}
+ 
+-	medium_plane_fighter_airframe_1 = {
+-		pool = {
+-			weight = 1.2
+-			icons = {
+-				GFX_ITA_heavy_fighter1_medium
+-			}
+-		}
+-	}
+-
+-	medium_plane_fighter_airframe_2 = {
+-		pool = {
+-			weight = 1.2
+-			icons = {
+-				GFX_ITA_heavy_fighter1_medium
+-				GFX_ITA_heavy_fighter2_medium
+-			}
+-		}
+-	}
+-
+-	medium_plane_fighter_airframe_3 = {
+-		pool = {
+-			weight = 1.2
+-			icons = {
+-				GFX_ITA_heavy_fighter1_medium
+-				GFX_ITA_heavy_fighter2_medium
+-				GFX_ITA_heavy_fighter3_medium
+-			}
+-		}
+-	}
++	
++
++	
++
++	
+ 		
+ 	medium_plane_airframe_1 = {
+ 		pool = {
+@@ -4129,55 +3500,15 @@
+ 	}
+ 
+ 	#CAS
+-	small_plane_cas_airframe = {
+-		pool = {
+-			icons = {
+-				GFX_CHI_advanced_small_cas_1_medium
+-				GFX_CHI_improved_small_cas_1_medium
+-				GFX_CHI_basic_small_cas_1_medium
+-			}
+-			models = {
+-				CHI_light_plane_entity
+-			}
+-		}
+-	}
+-
+-	small_plane_cas_airframe_1 = {
+-		pool = {
+-			icons = {
+-				GFX_CHI_iw_small_fighter_medium
+-				GFX_CHI_basic_small_cas_1_medium
+-			}
+-		}
+-	}
+-
+-	small_plane_cas_airframe_2 = {
+-		pool = {
+-			icons = {
+-				GFX_CHI_basic_small_cas_1_medium
+-				GFX_CHI_improved_small_cas_1_medium
+-			}
+-		}
+-	}
+-	
+-	small_plane_cas_airframe_3 = {
+-		pool = {
+-			icons = {
+-				GFX_CHI_basic_small_cas_1_medium
+-				GFX_CHI_improved_small_cas_1_medium
+-				GFX_CHI_advanced_small_cas_1_medium
+-			}
+-		}
+-	}
+-	
+-	small_plane_cas_airframe_4 = {
+-		pool = {
+-			icons = {
+-				GFX_CHI_advanced_small_fighter_medium
+-				GFX_CHI_advanced_small_cas_1_medium
+-			}
+-		}
+-	}
++	
++
++	
++
++	
++	
++	
++	
++	
+ 
+ 	#CARRIERS
+ 
+@@ -4243,45 +3574,10 @@
+ 	}
+ 
+ 	#CAS
+-	cv_small_plane_cas_airframe = {
+-		pool = {
+-			icons = {
+-				GFX_CHI_advanced_small_cas_1_medium
+-				GFX_CHI_improved_small_cas_1_medium
+-				GFX_CHI_basic_small_cas_1_medium
+-				GFX_CHI_iw_small_fighter_medium		
+-			}
+-			models = {
+-			}
+-		}
+-	}
+-	cv_small_plane_cas_airframe_1 = {
+-		pool = {
+-			icons = {
+-				GFX_CHI_basic_small_cas_1_medium
+-			}
+-			models = {
+-			}
+-		}
+-	}
+-	cv_small_plane_cas_airframe_2 = {
+-		pool = {
+-			icons = {
+-				GFX_CHI_basic_small_cas_1_medium
+-				GFX_CHI_improved_small_cas_1_medium
+-			}
+-			models = {
+-			}
+-		}
+-	}
+-	cv_small_plane_cas_airframe_3 = {
+-		pool = {
+-			icons = {
+-				GFX_CHI_improved_small_cas_1_medium
+-				GFX_CHI_advanced_small_cas_1_medium
+-			}
+-		}
+-	}
++	
++	
++	
++	
+ 
+ 	medium_plane_airframe = {
+ 		pool = {
+@@ -4329,29 +3625,11 @@
+ 		}
+ 	}
+ 	
+-	medium_plane_fighter_airframe_1 = {
+-		pool = {
+-			icons = {
+-				GFX_CHI_heavy_fighter1_medium
+-			}
+-		}
+-	}
+-	
+-	medium_plane_fighter_airframe_2 = {
+-		pool = {
+-			icons = {
+-				GFX_CHI_heavy_fighter2_medium
+-			}
+-		}
+-	}
+-	
+-	medium_plane_fighter_airframe_3 = {
+-		pool = {
+-			icons = {
+-				GFX_CHI_heavy_fighter3_medium
+-			}
+-		}
+-	}
++	
++	
++	
++	
++	
+ 		
+ 	large_plane_airframe = {
+ 		pool = {
+@@ -4464,51 +3742,15 @@
+ 	}
+ 
+ 	#CAS
+-	small_plane_cas_airframe_0 = {
+-		pool = {
+-			icons = {
+-				GFX_PRC_iw_small_fighter_1_medium
+-			}
+-		}
+-	}
+-
+-	small_plane_cas_airframe_1 = {
+-		pool = {
+-			icons = {
+-				GFX_PRC_iw_small_fighter_1_medium
+-				GFX_PRC_basic_small_cas_medium
+-			}
+-		}
+-	}
+-
+-	small_plane_cas_airframe_2 = {
+-		pool = {
+-			weight = 1.1
+-			icons = {
+-				GFX_PRC_basic_small_cas_medium
+-				GFX_PRC_CAS2_medium
+-			}
+-		}
+-	}
+-	
+-	small_plane_cas_airframe_3 = {
+-		pool = {
+-			icons = {
+-				GFX_PRC_basic_small_cas_medium
+-				GFX_PRC_CAS2_medium
+-				GFX_PRC_CAS3_medium
+-			}
+-		}
+-	}
+-	
+-	small_plane_cas_airframe_4 = {
+-		pool = {
+-			icons = {
+-				GFX_PRC_CAS3_medium
+-				GFX_PRC_advanced_small_fighter_medium
+-			}
+-		}
+-	}
++	
++
++	
++
++	
++	
++	
++	
++	
+ 
+ 	cv_small_plane_airframe = {
+ 		pool = {
+@@ -4576,29 +3818,11 @@
+ 		}
+ 	}
+ 
+-	medium_plane_fighter_airframe_1 = {
+-		pool = {
+-			icons = {
+-				GFX_PRC_heavy_fighter1_medium
+-			}
+-		}
+-	}
+-	
+-	medium_plane_fighter_airframe_2 = {
+-		pool = {
+-			icons = {
+-				GFX_PRC_heavy_fighter2_medium
+-			}
+-		}
+-	}
+-	
+-	medium_plane_fighter_airframe_3 = {
+-		pool = {
+-			icons = {
+-				GFX_PRC_heavy_fighter3_medium
+-			}
+-		}
+-	}
++	
++	
++	
++	
++	
+ 		
+ 	large_plane_airframe = {
+ 		pool = {
+@@ -6002,105 +5226,16 @@
+ 	}
+ 
+ 	#CAS
+-	small_plane_cas_airframe = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_DEN_basic_small_cas_1_medium #Generic non-BBA
+-				GFX_DEN_improved_small_cas_1_medium #Generic non-BBA
+-				GFX_DEN_advanced_small_cas_1_medium #Generic non-BBA
+-			}
+-			models = {
+-				DEN_CAS_equipment_1_entity #Marinejeger OV-B-1 CLONE
+-			}
+-		}
+-	}
+-	small_plane_cas_airframe_0 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_DEN_basic_small_cas_1_medium #Generic non-BBA
+-			}
+-			models = {
+-			}
+-		}
+-	}
+-	small_plane_cas_airframe_1 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_DEN_improved_small_cas_1_medium
+-			}
+-			models = {
+-				DEN_CAS_equipment_1_entity #Marinejeger OV-B-1 CLONE
+-			}
+-		}
+-	}
+-	small_plane_cas_airframe_2 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_DEN_advanced_small_cas_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
++	
++	
++	
++	
+ 
+ 	#NAVAL BOMBER
+-	small_plane_naval_bomber_airframe = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_DEN_basic_small_naval_bomber_1_medium
+-				GFX_DEN_improved_small_naval_bomber_1_medium
+-				GFX_DEN_advanced_small_naval_bomber_1_medium
+-			}
+-			models = {
+-				DEN_light_plane_1_entity #Marinejeger OV-J-1
+-				DEN_light_plane_1_entity #Marinejeger OV-B-1
+-				DEN_light_plane_entity #generic DEN_light_plane
+-			}
+-		}
+-	}
+-	small_plane_naval_bomber_airframe_1 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_DEN_basic_small_naval_bomber_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
+-	small_plane_naval_bomber_airframe_2 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_DEN_improved_small_naval_bomber_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
+-	small_plane_naval_bomber_airframe_3 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_DEN_advanced_small_naval_bomber_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
++	
++	
++	
++	
+ 
+ 	#CV FIGHTER
+ 	cv_small_plane_airframe = {
+@@ -6195,100 +5330,16 @@
+ 	}
+ 
+ 	#CV CAS
+-	cv_small_plane_cas_airframe = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_DEN_basic_small_cas_1_medium #Generic non-BBA
+-				GFX_DEN_improved_small_cas_1_medium #Generic non-BBA
+-				GFX_DEN_advanced_small_cas_1_medium #Generic non-BBA
+-			}
+-			models = {
+-				DEN_CAS_equipment_1_entity #Marinejeger OV-B-1 CLONE
+-				DEN_light_plane_entity #generic DEN_light_plane
+-			}
+-		}
+-	}
+-	cv_small_plane_cas_airframe_1 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_DEN_basic_small_cas_1_medium #Generic non-BBA
+-			}
+-			models = {
+-				DEN_light_plane_entity #generic DEN_light_plane
+-				DEN_CAS_equipment_1_entity #Marinejeger OV-B-1 CLONE
+-			}
+-		}
+-	}
+-	cv_small_plane_cas_airframe_2 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_DEN_improved_small_cas_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
+-	cv_small_plane_cas_airframe_3 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_DEN_advanced_small_cas_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
++	
++	
++	
++	
+ 
+ 	#CV NAVAL BOMBER
+-	cv_small_plane_naval_bomber_airframe = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_DEN_basic_small_naval_bomber_1_medium #Generic non-BBA
+-				GFX_DEN_improved_small_naval_bomber_1_medium #Generic non-BBA
+-				GFX_DEN_advanced_small_naval_bomber_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
+-	cv_small_plane_naval_bomber_airframe_1 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_DEN_basic_small_naval_bomber_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
+-	cv_small_plane_naval_bomber_airframe_2 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_DEN_improved_small_naval_bomber_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
+-	cv_small_plane_naval_bomber_airframe_3 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_DEN_advanced_small_naval_bomber_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
++	
++	
++	
++	
+ 
+ 	#TACTICAL BOMBER
+ 	medium_plane_airframe = {
+@@ -6387,60 +5438,10 @@
+ 	}
+ 
+ 	# HEAVY FIGHTER
+-	medium_plane_fighter_airframe = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_DEN_basic_medium_heavy_fighter_1_medium #Generic non-BBA
+-				GFX_DEN_improved_medium_heavy_fighter_1_medium #Generic non-BBA
+-				GFX_DEN_advanced_medium_heavy_fighter_1_medium #Generic non-BBA
+-			}
+-			models = {
+-				
+-			}
+-		}
+-	}
+-	medium_plane_fighter_airframe_1 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_DEN_basic_medium_heavy_fighter_1_medium #Generic non-BBA
+-			}
+-			models = {
+-				
+-			}
+-		}
+-	}
+-	medium_plane_fighter_airframe_2 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_DEN_improved_medium_heavy_fighter_1_medium #Generic non-BBA
+-			}
+-			models = {
+-				
+-			}
+-		}
+-	}
+-	medium_plane_fighter_airframe_3 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_DEN_advanced_medium_heavy_fighter_1_medium #Generic non-BBA
+-			}
+-			models = {
+-				
+-			}
+-		}
+-	}
++	
++	
++	
++	
+ 
+ 	#STRATEGIC BOMBER
+ 	large_plane_airframe = {
+@@ -6607,76 +5608,17 @@
+ 	}
+ 
+ 	#CAS
+-	small_plane_cas_airframe = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_basic_small_cas_1_medium #Generic non-BBA
+-				GFX_FIN_improved_small_cas_1_medium #Generic non-BBA
+-				GFX_FIN_advanced_small_cas_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
+-	small_plane_cas_airframe_1 = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_basic_small_cas_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
+-	small_plane_cas_airframe_2 = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_improved_small_cas_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
+-	small_plane_cas_airframe_3 = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_advanced_small_cas_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
++	
++	
++	
++	
+ 
+ 	#NAVAL BOMBER
+-	small_plane_naval_bomber_airframe = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_iw_small_naval_bomber_1_medium # VL Kotka
+-				GFX_FIN_basic_small_naval_bomber_1_medium #Generic non-BBA
+-				GFX_FIN_improved_small_naval_bomber_1_medium #Generic non-BBA
+-				GFX_FIN_advanced_small_naval_bomber_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
+-	small_plane_naval_bomber_airframe_0 = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_iw_small_naval_bomber_1_medium # VL Kotka
+-			}
+-		}
+-	}
+-	small_plane_naval_bomber_airframe_1 = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_basic_small_naval_bomber_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
+-	small_plane_naval_bomber_airframe_2 = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_improved_small_naval_bomber_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
+-	small_plane_naval_bomber_airframe_3 = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_advanced_small_naval_bomber_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
++	
++	
++	
++	
++	
+ 
+ 	#FIGTHER
+ 	cv_small_plane_airframe = {
+@@ -6756,76 +5698,17 @@
+ 	}
+ 
+ 	#CAS
+-	cv_small_plane_cas_airframe = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_basic_small_cas_1_medium #Generic non-BBA
+-				GFX_FIN_improved_small_cas_1_medium #Generic non-BBA
+-				GFX_FIN_advanced_small_cas_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
+-	cv_small_plane_cas_airframe_1 = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_basic_small_cas_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
+-	cv_small_plane_cas_airframe_2 = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_improved_small_cas_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
+-	cv_small_plane_cas_airframe_3 = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_advanced_small_cas_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
++	
++	
++	
++	
+ 
+ 	#NAVAL BOMBER
+-	cv_small_plane_naval_bomber_airframe = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_iw_small_naval_bomber_1_medium # VL Kotka
+-				GFX_FIN_basic_small_naval_bomber_1_medium #Generic non-BBA
+-				GFX_FIN_improved_small_naval_bomber_1_medium #Generic non-BBA
+-				GFX_FIN_advanced_small_naval_bomber_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
+-	cv_small_plane_naval_bomber_airframe_0 = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_iw_small_naval_bomber_1_medium # VL Kotka
+-			}
+-		}
+-	}
+-	cv_small_plane_naval_bomber_airframe_1 = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_basic_small_naval_bomber_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
+-	cv_small_plane_naval_bomber_airframe_2 = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_improved_small_naval_bomber_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
+-	cv_small_plane_naval_bomber_airframe_3 = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_advanced_small_naval_bomber_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
++	
++	
++	
++	
++	
+ 
+ 	#TACTICAL BOMBER
+ 	medium_plane_airframe = {
+@@ -6907,91 +5790,16 @@
+ 	}
+ 
+ 	# HEAVY FIGHTER
+-	medium_plane_fighter_airframe = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_basic_medium_heavy_fighter_1_medium #Generic non-BBA
+-				GFX_FIN_improved_medium_heavy_fighter_1_medium #Generic non-BBA
+-				GFX_FIN_advanced_medium_heavy_fighter_1_medium #Generic non-BBA
+-			}
+-			models = {
+-				
+-			}
+-		}
+-	}
+-	medium_plane_fighter_airframe_1 = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_basic_medium_heavy_fighter_1_medium #Generic non-BBA
+-			}
+-			models = {
+-				
+-			}
+-		}
+-	}
+-	medium_plane_fighter_airframe_2 = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_improved_medium_heavy_fighter_1_medium #Generic non-BBA
+-			}
+-			models = {
+-				
+-			}
+-		}
+-	}
+-	medium_plane_fighter_airframe_3 = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_advanced_medium_heavy_fighter_1_medium #Generic non-BBA
+-			}
+-			models = {
+-				
+-			}
+-		}
+-	}
++	
++	
++	
++	
+ 
+ 	# SCOUT PLANE
+-	medium_plane_scout_plane_airframe = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_scout_plane1_medium
+-				GFX_FIN_scout_plane2_medium
+-			}
+-			models = {
+-				
+-			}
+-		}
+-	}
+-	medium_plane_scout_plane_airframe_0 = { #Duplicate of tier 1 so that it appears first for IW tier
+-		pool = {
+-			icons = {
+-				GFX_FIN_scout_plane1_medium
+-			}
+-			models = {
+-					
+-			}
+-		}
+-	}
+-	medium_plane_scout_plane_airframe_1 = {
+-		pool = {
+-			icons = {
+-				GFX_FIN_scout_plane1_medium
+-			}
+-			models = {
+-					
+-			}
+-		}
+-	}
+-	medium_plane_scout_plane_airframe_2 = { #No needto duplicate since tier 2 icon will already appear first in the list for tier 3
+-		pool = {
+-			icons = {
+-				GFX_FIN_scout_plane2_medium
+-			}
+-			models = {
+-				
+-			}
+-		}
+-	}
++	
++	
++	
++	
+ 
+ 	#STRATEGIC BOMBER
+ 	large_plane_airframe = {
+@@ -7153,118 +5961,18 @@
+ 	}
+ 
+ 	#CAS
+-	small_plane_cas_airframe = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_basic_small_cas_1_medium
+-				GFX_NOR_improved_small_cas_1_medium
+-				GFX_NOR_advanced_small_cas_1_medium
+-			}
+-			models = {
+-				NOR_CAS_equipment_0_entity #Fokker C.V-D CLONE
+-			}
+-		}
+-	}
+-	small_plane_cas_airframe_0 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_basic_small_cas_1_medium # Oldest CAS
+-			}
+-			models = {
+-				NOR_CAS_equipment_0_entity #Fokker C.V-D CLONE
+-			}
+-		}
+-	}
+-	small_plane_cas_airframe_1 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_basic_small_cas_1_medium
+-			}
+-		}
+-	}
+-	small_plane_cas_airframe_2 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_improved_small_cas_1_medium
+-			}
+-		}
+-	}
+-	small_plane_cas_airframe_3 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_advanced_small_cas_1_medium
+-			}
+-		}
+-	}
++	
++	
++	
++	
++	
+ 
+ 	#NAVAL BOMBER
+-	small_plane_naval_bomber_airframe = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_basic_small_naval_bomber_1_medium
+-				GFX_NOR_improved_small_naval_bomber_1_medium
+-				GFX_NOR_advanced_small_naval_bomber_1_medium
+-			}
+-		}
+-	}
+-	small_plane_naval_bomber_airframe_0 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_basic_small_naval_bomber_1_medium #Oldest Naval Bomber
+-			}
+-		}
+-	}
+-	small_plane_naval_bomber_airframe_1 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_basic_small_naval_bomber_1_medium
+-			}
+-		}
+-	}
+-	small_plane_naval_bomber_airframe_2 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_improved_small_naval_bomber_1_medium
+-			}
+-		}
+-	}
+-	small_plane_naval_bomber_airframe_3 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_advanced_small_naval_bomber_1_medium
+-			}
+-		}
+-	}
++	
++	
++	
++	
++	
+ 
+ 
+ 	# CV FIGHTER
+@@ -7352,118 +6060,18 @@
+ 	}
+ 
+ 	#CV CAS
+-	cv_small_plane_cas_airframe = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_basic_small_cas_1_medium
+-				GFX_NOR_improved_small_cas_1_medium
+-				GFX_NOR_advanced_small_cas_1_medium
+-			}
+-			models = {
+-				NOR_CAS_equipment_0_entity #Fokker C.V-D CLONE
+-			}
+-		}
+-	}
+-	cv_small_plane_cas_airframe_0 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_basic_small_cas_1_medium # Oldest CAS
+-			}
+-			models = {
+-				NOR_CAS_equipment_0_entity #Fokker C.V-D CLONE
+-			}
+-		}
+-	}
+-	cv_small_plane_cas_airframe_1 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_basic_small_cas_1_medium
+-			}
+-		}
+-	}
+-	cv_small_plane_cas_airframe_2 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_improved_small_cas_1_medium
+-			}
+-		}
+-	}
+-	cv_small_plane_cas_airframe_3 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_advanced_small_cas_1_medium
+-			}
+-		}
+-	}
++	
++	
++	
++	
++	
+ 
+ 	#CV NAVAL BOMBER
+-	cv_small_plane_naval_bomber_airframe = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_basic_small_naval_bomber_1_medium
+-				GFX_NOR_improved_small_naval_bomber_1_medium
+-				GFX_NOR_advanced_small_naval_bomber_1_medium
+-			}
+-		}
+-	}
+-	cv_small_plane_naval_bomber_airframe_0 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_basic_small_naval_bomber_1_medium #Oldest Naval Bomber
+-			}
+-		}
+-	}
+-	cv_small_plane_naval_bomber_airframe_1 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_basic_small_naval_bomber_1_medium
+-			}
+-		}
+-	}
+-	cv_small_plane_naval_bomber_airframe_2 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_improved_small_naval_bomber_1_medium
+-			}
+-		}
+-	}
+-	cv_small_plane_naval_bomber_airframe_3 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_advanced_small_naval_bomber_1_medium
+-			}
+-		}
+-	}
++	
++	
++	
++	
++	
+ 
+ ################################ Medium Air Frames #######################################
+ 
+@@ -7544,48 +6152,10 @@
+ 	}
+ 
+ 	# HEAVY FIGHTER
+-	medium_plane_fighter_airframe = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_basic_medium_heavy_fighter_1_medium #Generic non-BBA
+-				GFX_NOR_improved_medium_heavy_fighter_1_medium #Generic non-BBA
+-				GFX_NOR_advanced_medium_heavy_fighter_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
+-	medium_plane_fighter_airframe_1 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_basic_medium_heavy_fighter_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
+-	medium_plane_fighter_airframe_2 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_improved_medium_heavy_fighter_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
+-	medium_plane_fighter_airframe_3 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_NOR_advanced_medium_heavy_fighter_1_medium #Generic non-BBA
+-			}
+-		}
+-	}
++	
++	
++	
++	
+ 
+ 	# SCOUT PLANES
+ 	# No Scout Planes
+@@ -7795,115 +6365,17 @@
+ 	}
+ 
+ 	#CAS
+-	small_plane_cas_airframe = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_SWE_small_iw_cas_1_medium
+-				GFX_SWE_small_ba_cas_1_medium
+-				GFX_SWE_small_ad_cas_1_medium
+-				GFX_SWE_small_mo_cas_1_medium
+-			}
+-			models = {
+-				SWE_CAS_equipment_2_entity #B17 CLONE
+-			}
+-		}
+-	}
+-	small_plane_cas_airframe_0 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_SWE_small_iw_cas_1_medium
+-			}
+-			models = {
+-				
+-			}
+-		}
+-	}
+-	small_plane_cas_airframe_1 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_SWE_small_ba_cas_1_medium #Generic non-BBA
+-			}
+-			models = {
+-				
+-			}
+-		}
+-	}
+-	small_plane_cas_airframe_2 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-			}
+-			models = {
+-				SWE_CAS_equipment_2_entity #B17 CLONE
+-			}
+-		}
+-	}
+-	small_plane_cas_airframe_3 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_SWE_small_ad_cas_1_medium
+-			}
+-			models = {
+-				
+-			}
+-		}
+-	}
+-	small_plane_cas_airframe_4 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_SWE_small_mo_cas_1_medium
+-			}
+-			models = {
+-				
+-			}
+-		}
+-	}
++	
++	
++	
++	
++	
++	
+ 
+ 	#NAVAL BOMBER
+ 
+-	small_plane_naval_bomber_airframe = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_SWE_small_iw_nav_medium
+-			}
+-			models = {
+-				
+-			}
+-		}
+-	}
+-	small_plane_naval_bomber_airframe_0 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_SWE_small_iw_nav_medium
+-			}
+-			models = {
+-				
+-			}
+-		}
+-	}
++	
++	
+ 
+ 	#CV FIGTHER
+ 	cv_small_plane_airframe = {
+@@ -8013,114 +6485,16 @@
+ 	}
+ 
+ 	#CV CAS
+-	cv_small_plane_cas_airframe = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_SWE_small_iw_cas_1_medium
+-				GFX_SWE_small_ba_cas_1_medium
+-				GFX_SWE_small_ad_cas_1_medium
+-				GFX_SWE_small_mo_cas_1_medium
+-			}
+-			models = {
+-				SWE_CAS_equipment_2_entity #B17 CLONE
+-			}
+-		}
+-	}
+-	cv_small_plane_cas_airframe_0 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_SWE_small_iw_cas_1_medium
+-			}
+-			models = {
+-				
+-			}
+-		}
+-	}
+-	cv_small_plane_cas_airframe_1 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_SWE_small_ba_cas_1_medium #Generic non-BBA
+-			}
+-			models = {
+-				
+-			}
+-		}
+-	}
+-	cv_small_plane_cas_airframe_2 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-			}
+-			models = {
+-				SWE_CAS_equipment_2_entity #B17 CLONE
+-			}
+-		}
+-	}
+-	cv_small_plane_cas_airframe_3 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_SWE_small_ad_cas_1_medium
+-			}
+-			models = {
+-				
+-			}
+-		}
+-	}
+-	cv_small_plane_cas_airframe_4 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_SWE_small_mo_cas_1_medium
+-			}
+-			models = {
+-				
+-			}
+-		}
+-	}
++	
++	
++	
++	
++	
++	
+ 
+ 	#CV NAVAL BOMBER
+-	cv_small_plane_naval_bomber_airframe = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_SWE_small_iw_nav_medium
+-			}
+-			models = {
+-				
+-			}
+-		}
+-	}
+-	cv_small_plane_naval_bomber_airframe_0 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_SWE_small_iw_nav_medium
+-			}
+-			models = {
+-				
+-			}
+-		}
+-	}
++	
++	
+ 
+ 	################################ Medium Air Frames #######################################
+ 	
+@@ -8221,91 +6595,18 @@
+ 	}
+ 
+ 	#SCOUT PLANE
+-	medium_plane_scout_plane_airframe = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_SWE_medium_ba_scout_1_medium
+-				GFX_SWE_medium_ad_scout_1_medium
+-			}
+-			models = {
+-
+-			}
+-		}
+-	}
+-
+-	medium_plane_scout_plane_airframe_0 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_SWE_medium_ba_scout_1_medium #Use the oldest one
+-			}
+-			models = {
+-
+-			}
+-		}
+-	}
+-
+-	medium_plane_scout_plane_airframe_1 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_SWE_medium_ba_scout_1_medium
+-			}
+-			models = {
+-
+-			}
+-		}
+-	}
+-
+-	medium_plane_scout_plane_airframe_2 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_SWE_medium_ba_scout_1_medium #Use the oldest one
+-			}
+-			models = {
+-
+-			}
+-		}
+-	}
+-
+-	medium_plane_scout_plane_airframe_3 = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_SWE_medium_ad_scout_1_medium
+-			}
+-			models = {
+-
+-			}
+-		}
+-	}
++	
++
++	
++
++	
++
++	
++
++	
+ 	
+ 	#HEAVY FIGHTER
+-	medium_plane_fighter_airframe = {
+-		pool = {
+-			limit = {
+-				has_dlc = "Arms Against Tyranny"
+-			}
+-			icons = {
+-				GFX_SWE_medium_ad_hvy_fighter_medium
+-			}
+-			models = {
+-				
+-			}
+-		}
+-	}
++	
+ 
+ ################################ Large Air Frames #######################################
+ 

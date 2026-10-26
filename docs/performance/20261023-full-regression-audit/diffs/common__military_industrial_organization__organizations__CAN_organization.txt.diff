@@ -1,0 +1,20 @@
+--- before/common/military_industrial_organization/organizations/CAN_organization.txt
++++ current/common/military_industrial_organization/organizations/CAN_organization.txt
+@@ -82,7 +82,7 @@
+ 		has_dlc = "Together for Victory"
+ 	}
+ 	available = {
+-		owner = { has_completed_focus = CAN_fund_fairchilds_development }
++		owner = { always = no }
+ 	}
+ }
+ 
+@@ -95,7 +95,7 @@
+ 		has_dlc = "Together for Victory"
+ 	}
+ 	available = {
+-		owner = { has_completed_focus = CAN_cookie_carriers }
++		owner = { always = no }
+ 	}
+ }
+ 

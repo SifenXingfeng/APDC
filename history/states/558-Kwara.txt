@@ -1,0 +1,52 @@
+state = {
+	id = 558
+	name = "STATE_558"
+	resources = {
+	}
+	provinces = {
+		1932
+		12817
+		14088
+		14099
+		14281
+		15218
+	}
+	manpower = 4600868
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = NGA
+		controller = NGA
+		add_core_of = NGA
+		victory_points = {
+			1932
+			2
+		}
+		victory_points = {
+			12817
+			10
+		}
+		victory_points = {
+			14088
+			2
+		}
+		victory_points = {
+			14099
+			2
+		}
+		victory_points = {
+			14281
+			5
+		}
+		victory_points = {
+			15218
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 0
+			industrial_complex = 1
+		}
+	}
+}

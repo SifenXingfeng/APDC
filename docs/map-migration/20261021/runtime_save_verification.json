@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "date": "2060.2.1.1",
+  "player": "\"GER\"",
+  "state_count": 1558,
+  "active_owners": 156,
+  "relation_differences": [],
+  "demilitarized_states": [],
+  "missing_demilitarized_fields": [],
+  "invalid_active_capitals": [],
+  "cosmetic_identity_differences": [],
+  "governing_party_differences": [],
+  "puppet_relations_preserved": true,
+  "actual_puppets": [
+    {
+      "autonomy_state": "autonomy_dominion",
+      "first": "USA",
+      "second": "AMZ"
+    },
+    {
+      "autonomy_state": "autonomy_dominion",
+      "first": "USA",
+      "second": "HAI"
+    },
+    {
+      "autonomy_state": "autonomy_satellite",
+      "first": "SOV",
+      "second": "BUL"
+    },
+    {
+      "autonomy_state": "autonomy_satellite",
+      "first": "SOV",
+      "second": "CZE"
+    },
+    {
+      "autonomy_state": "autonomy_satellite",
+      "first": "SOV",
+      "second": "HUN"
+    },
+    {
+      "autonomy_state": "autonomy_satellite",
+      "first": "SOV",
+      "second": "POL"
+    },
+    {
+      "autonomy_state": "autonomy_satellite",
+      "first": "SOV",
+      "second": "ROM"
+    }
+  ],
+  "factions_preserved": true,
+  "actual_factions": [
+    {
+      "name": "华沙条约组织",
+      "members": [
+        "BUL",
+        "CZE",
+        "GER",
+        "HUN",
+        "POL",
+        "ROM",
+        "SOV"
+      ],
+      "template": "original_generic_faction_template"
+    }
+  ],
+  "map_or_country_history_errors": [],
+  "pre_existing_warning_line_count": 5426,
+  "current_warning_line_count": 5399,
+  "new_distinct_warning_line_count": 0,
+  "new_warning_samples": []
+}

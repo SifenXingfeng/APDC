@@ -1,0 +1,45 @@
+state = {
+	id = 1058
+	name = "STATE_1058"
+	manpower = 3845381
+	state_category = large_city
+	resources = {
+	}
+	history = {
+		owner = INS
+		controller = INS
+		add_core_of = INS
+		victory_points = {
+			7381
+			50
+		}
+		victory_points = {
+			12249
+			2
+		}
+		victory_points = {
+			15661
+			1
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 2
+			dockyard = 1
+			air_base = 1
+			7381 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = {
+		4406
+		7381
+		12249
+		15660
+		15661
+		19207
+		19363
+	}
+	local_supplies = 5.0
+}

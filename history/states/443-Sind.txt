@@ -1,0 +1,96 @@
+state = {
+	id = 443
+	name = "STATE_443"
+	manpower = 4524236
+	state_category = city
+	history = {
+		owner = PAK
+		controller = PAK
+		add_core_of = PAK
+		victory_points = {
+			1971
+			2
+		}
+		victory_points = {
+			1980
+			3
+		}
+		victory_points = {
+			3456
+			50
+		}
+		victory_points = {
+			4003
+			2
+		}
+		victory_points = {
+			4110
+			15
+		}
+		victory_points = {
+			4382
+			3
+		}
+		victory_points = {
+			7049
+			5
+		}
+		victory_points = {
+			7084
+			2
+		}
+		victory_points = {
+			10108
+			2
+		}
+		victory_points = {
+			10735
+			3
+		}
+		victory_points = {
+			16016
+			2
+		}
+		victory_points = {
+			16017
+			3
+		}
+		victory_points = {
+			16018
+			3
+		}
+		victory_points = {
+			16019
+			5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			3456 = {
+				naval_base = 4
+			}
+		}
+		set_state_flag = GDP_regions_sindh
+	}
+	provinces = {
+		1147
+		1971
+		1980
+		3456
+		4003
+		4110
+		4382
+		7049
+		7084
+		10108
+		10735
+		16015
+		16016
+		16017
+		16018
+		16019
+		16020
+		16021
+	}
+	local_supplies = 7.0
+}

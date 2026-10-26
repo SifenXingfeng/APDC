@@ -1,0 +1,38 @@
+state = {
+	id = 11
+	name = "STATE_11"
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = ZZZ
+		victory_points = {
+			6296
+			3
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		set_state_flag = GDP_regions_lithuania
+	}
+	provinces = {
+		327
+		440
+		838
+		1215
+		1665
+		6296
+		6360
+		9357
+		14566
+		14569
+		14578
+		14579
+		14583
+	}
+	local_supplies = 10.0
+	manpower = 971940
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

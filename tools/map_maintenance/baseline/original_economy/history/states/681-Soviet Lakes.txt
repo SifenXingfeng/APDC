@@ -1,0 +1,36 @@
+state = {
+	id = 681
+	name = "STATE_681" # Cape
+	manpower = 1637178
+
+	state_category = town
+
+	history = {
+
+		owner = SAF
+		add_core_of = SAF
+
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+			air_base = 1
+
+			12589 = {
+				naval_base = 4
+			    # Woodhead Dam
+				dam = 1
+			}
+		}
+
+		victory_points = {
+			12589 10 # Cape Town
+		}
+		
+	}
+
+	provinces = {
+		1509 4528 5203 10415 10442 10697 12589 13486 13487 13488 13490 13492 13493 13494 13496 13497 13498 13504 13507 13512 13515 13517 13519 13525 13530 13536 13538 13544 13548 13573 15379 15380 17824 17825 17826 17827 17828 17829 17830 17834 17836 17837 17839 
+	}
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,79 @@
+state = {
+	id = 1036
+	name = "STATE_1036"
+	provinces = {
+		1036
+		4619
+		7167
+		10462
+		12467
+		13869
+		16932
+		19846
+		19897
+		19912
+	}
+	manpower = 20551984
+	buildings_max_level_factor = 1
+	state_category = city
+	local_supplies = 2
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = PRC
+		add_core_of = ZZZ
+		victory_points = {
+			1036
+			1
+		}
+		victory_points = {
+			4619
+			3
+		}
+		victory_points = {
+			7167
+			3
+		}
+		victory_points = {
+			10462
+			2
+		}
+		victory_points = {
+			12467
+			2
+		}
+		victory_points = {
+			13869
+			2
+		}
+		victory_points = {
+			16932
+			3
+		}
+		victory_points = {
+			19846
+			5
+		}
+		victory_points = {
+			19897
+			40
+		}
+		victory_points = {
+			19912
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+		}
+		set_state_flag = GDP_regions_hubei
+		set_variable = {
+			china_state_ref = 26
+		}
+		set_variable = {
+			china_region_ref = 3
+		}
+	}
+}

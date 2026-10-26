@@ -1,0 +1,237 @@
+--- before/common/doctrines/subdoctrines/land/combat_support_subdoctrines.txt
++++ current/common/doctrines/subdoctrines/land/combat_support_subdoctrines.txt
+@@ -330,87 +330,7 @@
+     }
+ }
+ 
+-air_cavalry = {
+-    track = combat_support
+-    name = SUBDOCTRINE_AIR_CAVALRY
+-    description = SUBDOCTRINE_AIR_CAVALRY_DESC
+-    icon = GFX_doctrine_air_cavalry_medium
+-
+-    xp_cost = 100
+-    xp_type = army
+-
+-    available = {
+-        is_special_project_completed = sp:sp_air_helicopter
+-    }
+-    visible = {
+-        has_dlc = "Gotterdammerung"
+-    }   
+-
+-    ai_will_do = { base = 0 }
+-
+-     # EFFECTS
+-    effect = {
+-        add_tech_bonus = {
+-            bonus = 0.5
+-            uses = 2
+-            category = helicopter_tech
+-            name = SUBDOCTRINE_AIR_CAVALRY
+-        }
+-    }
+-
+-     rewards = {
+-        airborne_observers = { 
+-            helicopter_recon = {
+-                battalion_mult = {
+-                    category = category_artillery
+-                    soft_attack = 0.1
+-                }
+-                max_organisation = 10
+-            }
+-        }
+-        service_and_support = {
+-            category_helicopter_support_companies = {
+-                max_strength = 0.03
+-            }
+-        }
+-        rescue_liasions = {
+-            helicopter_field_hospital = {
+-            battalion_mult = {
+-                category = category_all_infantry
+-                    max_strength = 0.05 
+-                    default_morale = 0.05 
+-                }
+-                max_organisation = 5
+-                casualty_trickleback = 0.05
+-            }
+-        }
+-
+-        transport_assault = {
+-            helicopter_transport = {
+-                battalion_mult = {
+-                    category = category_light_infantry
+-                    maximum_speed = 0.2
+-                    breakthrough = 0.05
+-                }
+-                breakthrough = 0.05
+-                max_organisation = 10
+-            }
+-                
+-        }
+-        intervention_units = {
+-            helicopter_brigade = {
+-                battalion_mult = {
+-                    category = category_all_infantry
+-                    soft_attack = 0.1
+-                }
+-                max_organisation = 10
+-                
+-            }
+-        }
+- 
+-
+-     }
+-}
++
+ 
+ mobile_recon_and_assault = {
+     track = combat_support
+@@ -763,144 +683,7 @@
+     
+ }
+ 
+-siege_artillery = {
+-    track = combat_support
+-    name = SUBDOCTRINE_SIEGE_ARTILLERY
+-    description = SUBDOCTRINE_SIEGE_ARTILLERY_DESC
+-    icon = GFX_doctrine_siege_artillery_medium
+-
+-    xp_cost = 100
+-    xp_type = army
+-
+-    available = {
+-        is_special_project_completed = sp:sp_land_super_heavy_howitzer
+-
+-    }
+-    visible = {
+-        has_dlc = "Gotterdammerung"
+-    }
+-
+-    ai_will_do = { base = 0 }
+-
+-    super_heavy_artillery = {
+-        battalion_mult = {
+-            category = category_army
+-            soft_attack = 0.1
+-            defense = 0.1
+-        }
+-    }
+-
+-    equipment_bonus = {
+-        railway_gun_equipment = {
+-            railway_gun_attack = 0.25
+-            instant = yes
+-        }
+-        super_heavy_railway_gun_equipment = {
+-            railway_gun_attack = 0.25
+-            instant = yes
+-        }
+-    }
+-
+-    rewards = {
+-
+-        fortress_busters = {
+-            super_heavy_artillery = {
+-                fort = {
+-                    attack = 0.25
+-                }
+-            }
+-            self_propelled_super_heavy_artillery = {
+-                fort = {
+-                    attack = 0.25
+-                }
+-            }
+-        }
+-        improved_transport_preparation = {
+-            category_line_artillery = {
+-                default_morale = 0.1
+-            }
+-            super_heavy_artillery = {
+-                plains = {
+-                    movement = 0.1
+-                }
+-            }
+-            self_propelled_super_heavy_artillery = {
+-                plains = {
+-                    movement = 0.1
+-                }
+-            }
+-
+-            equipment_bonus = {
+-                railway_gun_equipment = {
+-                    railway_gun_hours_between_redistribution = -0.5
+-                    instant = yes
+-                }
+-                super_heavy_railway_gun_equipment = {
+-                    railway_gun_hours_between_redistribution = -0.5
+-                    instant = yes
+-                }
+-                
+-            }
+-        }
+-        precomputed_firing_data = {
+-            super_heavy_artillery = {
+-                max_organisation = 10
+-                defense = 0.2
+-            }
+-            self_propelled_super_heavy_artillery = {
+-                max_organisation = 10
+-                defense = 0.2
+-            }
+-			
+-        }
+-        urban_strongpoint_sieges = {
+-
+-            category_artillery = {
+-                soft_attack = 0.05
+-            }
+-            super_heavy_artillery = {
+-                urban = {
+-                    attack = 0.2
+-                }
+-            }
+-            self_propelled_super_heavy_artillery = {
+-                urban = {
+-                    attack = 0.2
+-                }
+-            }
+-			fire_support = {
+-                soft_attack = 0.1
+-			}
+-		apdc_reg_heavy_weapons = {
+-                soft_attack = 0.1
+-			}
+-			category_regimental_support_artillery = {
+-                soft_attack = 0.1				
+-			}
+-        }
+-        mobile_artillery_command = {
+-            category_support_artillery = {
+-                max_organisation = 10
+-            }
+-            self_propelled_super_heavy_artillery = {
+-                max_organisation = 10
+-                maximum_speed = 0.5
+-            }
+-
+-            equipment_bonus = {
+-                railway_gun_equipment = {
+-                    maximum_speed = 1
+-                    instant = yes
+-                }
+-                super_heavy_railway_gun_equipment = {
+-                    maximum_speed = 1
+-                    instant = yes
+-                }
+-
+-            }
+-        }
+-    }
+-}
++
+ 
+ field_engineering = {
+     track = combat_support

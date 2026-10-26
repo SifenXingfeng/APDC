@@ -1,0 +1,20 @@
+--- before/gfx/army_icons/army_icons.txt
++++ current/gfx/army_icons/army_icons.txt
+@@ -402,7 +402,7 @@
+ 		available = 
+ 		{
+ 			has_dlc = "Waking the Tiger"
+-			has_government = democratic
++			always = no
+ 		}
+ 	}
+ 	icon = {
+@@ -420,7 +420,7 @@
+ 		available = 
+ 		{
+ 			has_dlc = "Waking the Tiger"
+-			has_government = neutrality
++			always = no
+ 		}
+ 	}
+ 	icon = {

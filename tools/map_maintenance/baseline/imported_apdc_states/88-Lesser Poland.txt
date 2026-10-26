@@ -1,0 +1,39 @@
+state = {
+	id = 88
+	name = "STATE_88"
+	resources = {
+		steel = 3
+		oil = 1
+	}
+	provinces = {
+		417
+		11398
+		11413
+		15609
+		15815
+		15816
+		15840
+		19173
+		19177
+	}
+	manpower = 1630095
+	buildings_max_level_factor = 1
+	state_category = large_city
+	local_supplies = 12
+	history = {
+		owner = POL
+		controller = POL
+		add_core_of = POL
+		victory_points = {
+			417
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 4
+		}
+		set_state_flag = GDP_category_rural
+	}
+}

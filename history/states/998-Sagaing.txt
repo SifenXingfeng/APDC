@@ -1,0 +1,80 @@
+state = {
+	id = 998
+	name = "STATE_998"
+	provinces = {
+		1082
+		1581
+		4425
+		4588
+		7163
+		7534
+		8063
+		10386
+		10486
+		10920
+		12335
+		12464
+		12492
+		19015
+		19040
+		19041
+		19046
+		19112
+		19120
+		19139
+		19146
+		19149
+	}
+	manpower = 625645
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = BRM
+		controller = BRM
+		add_core_of = BRM
+		victory_points = {
+			1082
+			1
+		}
+		victory_points = {
+			4425
+			1
+		}
+		victory_points = {
+			8063
+			3
+		}
+		victory_points = {
+			10386
+			2
+		}
+		victory_points = {
+			10920
+			2
+		}
+		victory_points = {
+			12464
+			1
+		}
+		victory_points = {
+			19040
+			2
+		}
+		victory_points = {
+			19046
+			3
+		}
+		victory_points = {
+			19112
+			2
+		}
+		victory_points = {
+			19139
+			3
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

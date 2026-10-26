@@ -1,0 +1,67 @@
+state = {
+	id = 627
+	name = "STATE_627"
+	manpower = 815609
+	state_category = rural
+	history = {
+		owner = PHI
+		controller = PHI
+		add_core_of = PHI
+		victory_points = {
+			1234
+			1
+		}
+		victory_points = {
+			1407
+			1
+		}
+		victory_points = {
+			4241
+			10
+		}
+		victory_points = {
+			7445
+			3
+		}
+		victory_points = {
+			10328
+			1
+		}
+		victory_points = {
+			12158
+			3
+		}
+		victory_points = {
+			14734
+			2
+		}
+		victory_points = {
+			19375
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			4241 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = {
+		1234
+		1407
+		4241
+		4266
+		7445
+		10328
+		12116
+		12158
+		12273
+		14733
+		14734
+		14735
+		19372
+		19375
+		19380
+	}
+	local_supplies = 0.0
+}

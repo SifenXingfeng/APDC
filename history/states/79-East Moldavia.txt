@@ -1,0 +1,41 @@
+state = {
+	id = 79
+	name = "STATE_79"
+	resources = {
+	}
+	provinces = {
+		723
+		6584
+		6706
+		6729
+		6747
+		9716
+		11534
+	}
+	manpower = 1227800
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 7
+	history = {
+		owner = ROM
+		controller = ROM
+		add_core_of = ROM
+		victory_points = {
+			6706
+			3
+		}
+		victory_points = {
+			9716
+			3
+		}
+		victory_points = {
+			11534
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		set_state_flag = GDP_category_town
+	}
+}

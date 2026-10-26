@@ -1,0 +1,61 @@
+state = {
+	id = 783
+	name = "STATE_783"
+	provinces = {
+		1989
+		4022
+		4920
+		5046
+		7203
+		7908
+		8046
+		8111
+		10107
+		12857
+		14384
+		15354
+		18011
+		18055
+		18057
+		18060
+		18086
+		18088
+		18091
+		18094
+	}
+	manpower = 771010
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = MOR
+		controller = MOR
+		add_core_of = MOR
+		victory_points = {
+			7203
+			5
+		}
+		victory_points = {
+			7908
+			1
+		}
+		victory_points = {
+			10107
+			1
+		}
+		victory_points = {
+			18055
+			1
+		}
+		victory_points = {
+			18057
+			2
+		}
+		buildings = {
+			infrastructure = 1
+			12857 = {
+				naval_base = 1
+			}
+		}
+	}
+}

@@ -1,0 +1,41 @@
+state = {
+	id = 1022
+	name = "STATE_1022"
+	manpower = 8600
+	impassable = yes
+	force_link_ownership_to = 334
+	resources = {
+	}
+	state_category = enclave
+	history = {
+		owner = INS
+		controller = INS
+		add_core_of = INS
+		victory_points = {
+			14258
+			2
+		}
+		buildings = {
+			infrastructure = 0
+		}
+		set_state_flag = GDP_regions_kalimantan
+	}
+	provinces = {
+		1230
+		2170
+		2184
+		4335
+		5226
+		8221
+		14235
+		14256
+		14258
+		14275
+		14290
+		14296
+		14328
+		14344
+		14349
+	}
+	local_supplies = 0.0
+}

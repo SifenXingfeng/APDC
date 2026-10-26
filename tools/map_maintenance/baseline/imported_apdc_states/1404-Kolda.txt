@@ -1,0 +1,29 @@
+state = {
+	id = 1404
+	name = "STATE_1404"
+	provinces = {
+		12834
+		14161
+	}
+	manpower = 252000
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+	history = {
+		owner = SEN
+		controller = SEN
+		add_core_of = SEN
+		victory_points = {
+			12834
+			3
+		}
+		victory_points = {
+			14161
+			1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = state_renamings
+	}
+}

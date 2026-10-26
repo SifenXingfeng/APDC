@@ -1,0 +1,31 @@
+state = {
+	id = 679
+	name = "STATE_679"
+	provinces = {
+		2033
+		4981
+		7934
+		10748
+		12758
+		13452
+		13463
+		13478
+		18563
+	}
+	manpower = 516940
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = SAU
+		controller = SAU
+		add_core_of = SAU
+		victory_points = {
+			2033
+			2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

@@ -1,40 +1,41 @@
 state = {
-	#Population Done
 	id = 397
 	name = "STATE_397"
-	resources = {
-		steel = 13
-		aluminium = 7
-		oil = 2
-	}
+	manpower = 137203
+	state_category = pastoral
 	history = {
 		owner = SOV
-		buildings = {
-			infrastructure = 4
-		}
+		controller = SOV
+		add_core_of = SOV
 		victory_points = {
 			6121
-			10
+			2
 		}
-		add_core_of = SOV
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	provinces = {
 		6
-		88
 		99
 		108
+		1295
 		1307
 		3000
+		3155
+		4298
 		6121
+		6202
 		7318
+		7712
+		7898
 		9145
-		10200
-		11170
-		11193
+		9225
+		10579
+		11179
 		11203
-		13333
+		12558
+		17433
 	}
-	manpower = 581042
-	buildings_max_level_factor = 1
-	state_category = town
+	local_supplies = 0.0
 }

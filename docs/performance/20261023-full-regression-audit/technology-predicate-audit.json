@@ -1,0 +1,193 @@
+[
+  {
+    "file": "common/doctrines/subdoctrines/sea/navy_capital_subdoctrines.txt",
+    "missing_before": {
+      "coastal_defense_ships": 1
+    }
+  },
+  {
+    "file": "common/factions/goals/faction_goals_medium_term.txt",
+    "missing_before": {
+      "amphibious_mechanized_infantry": 1,
+      "amphibious_tank_chassis": 1
+    }
+  },
+  {
+    "file": "common/factions/goals/faction_goals_short_term.txt",
+    "missing_before": {
+      "coastal_fort_tech_2": 2,
+      "land_fort_tech_2": 2,
+      "basic_fortification_tech": 1
+    }
+  },
+  {
+    "file": "common/intelligence_agency_upgrades/intelligence_agency_upgrades.txt",
+    "missing_before": {
+      "radio": 1
+    }
+  },
+  {
+    "file": "common/military_industrial_organization/organizations/AST_organization.txt",
+    "missing_before": {
+      "jet_engines": 1
+    }
+  },
+  {
+    "file": "common/military_industrial_organization/organizations/CZE_organization.txt",
+    "missing_before": {
+      "interwar_antitank": 1,
+      "antitank2": 1
+    }
+  },
+  {
+    "file": "common/military_industrial_organization/organizations/ITA_organization.txt",
+    "missing_before": {
+      "experimental_rockets": 1
+    }
+  },
+  {
+    "file": "common/operation_phases/lar_resistance_contacts.txt",
+    "missing_before": {
+      "radio": 1
+    }
+  },
+  {
+    "file": "common/scripted_effects/00_scripted_effects.txt",
+    "missing_before": {
+      "basic_small_airframe": 12,
+      "improved_small_airframe": 22,
+      "advanced_small_airframe": 22,
+      "basic_medium_airframe": 11,
+      "improved_medium_airframe": 22,
+      "advanced_medium_airframe": 22
+    }
+  },
+  {
+    "file": "common/scripted_effects/APDC_economy_equipment.txt",
+    "missing_before": {
+      "amphibious_tank_chassis": 1,
+      "modern_small_airframe": 2,
+      "aa_lmg": 13,
+      "engines_1": 16,
+      "advanced_small_airframe": 2,
+      "improved_small_airframe": 2,
+      "basic_small_airframe": 2,
+      "iw_small_airframe": 2,
+      "landing_craft": 1,
+      "advanced_heavy_tank_chassis": 1,
+      "improved_heavy_tank_chassis": 1,
+      "basic_heavy_tank_chassis": 1,
+      "gwtank_chassis": 3,
+      "modern_large_airframe": 1,
+      "early_bombs": 4,
+      "advanced_large_airframe": 1,
+      "improved_large_airframe": 1,
+      "basic_large_airframe": 1,
+      "iw_large_airframe": 1,
+      "advanced_light_tank_chassis": 1,
+      "improved_light_tank_chassis": 1,
+      "basic_light_tank_chassis": 1,
+      "modern_medium_airframe": 1,
+      "advanced_medium_airframe": 1,
+      "improved_medium_airframe": 1,
+      "basic_medium_airframe": 1,
+      "iw_medium_airframe": 1,
+      "advanced_medium_tank_chassis": 1,
+      "improved_medium_tank_chassis": 1,
+      "basic_medium_tank_chassis": 1,
+      "main_battle_tank_chassis": 1,
+      "super_heavy_tank_chassis": 1,
+      "bba_strategic_airlifter": 1,
+      "bba_improved_transport_plane": 1,
+      "bba_early_transport_plane": 1
+    }
+  },
+  {
+    "file": "common/scripted_effects/BLT_scripted_effects.txt",
+    "missing_before": {
+      "main_battle_tank_chassis": 1,
+      "advanced_medium_tank_chassis": 1,
+      "improved_medium_tank_chassis": 1,
+      "basic_medium_tank_chassis": 1
+    }
+  },
+  {
+    "file": "common/scripted_effects/SP_scripted_effects.txt",
+    "missing_before": {
+      "aa_cannon_1": 1,
+      "aa_lmg": 1,
+      "antiair2": 21
+    }
+  },
+  {
+    "file": "common/scripted_effects/SS_scripted_effects.txt",
+    "missing_before": {
+      "basic_medium_td": 1,
+      "basic_medium_art": 1,
+      "basic_medium_tank": 3,
+      "improved_medium_tank": 3,
+      "advanced_medium_tank": 3,
+      "basic_medium_tank_chassis": 3
+    }
+  },
+  {
+    "file": "common/scripted_triggers/00_scripted_triggers.txt",
+    "missing_before": {
+      "basic_light_tank_chassis": 1,
+      "basic_medium_tank_chassis": 1,
+      "basic_heavy_tank_chassis": 1
+    }
+  },
+  {
+    "file": "common/scripted_triggers/HUN_scripted_triggers.txt",
+    "missing_before": {
+      "basic_small_airframe": 4,
+      "improved_small_airframe": 4,
+      "advanced_small_airframe": 4,
+      "heavy_fighter1": 2,
+      "heavy_fighter2": 2,
+      "heavy_fighter3": 2,
+      "basic_medium_airframe": 4,
+      "improved_medium_airframe": 4,
+      "advanced_medium_airframe": 4,
+      "tactical_bomber1": 2,
+      "tactical_bomber2": 2,
+      "tactical_bomber3": 2
+    }
+  },
+  {
+    "file": "common/scripted_triggers/ROM_scripted_triggers.txt",
+    "missing_before": {
+      "heavy_fighter1": 2,
+      "heavy_fighter2": 2,
+      "heavy_fighter3": 2,
+      "tactical_bomber1": 2,
+      "tactical_bomber2": 2,
+      "tactical_bomber3": 2
+    }
+  },
+  {
+    "file": "common/scripted_triggers/YUG_scripted_triggers.txt",
+    "missing_before": {
+      "heavy_fighter1": 2,
+      "heavy_fighter2": 2,
+      "heavy_fighter3": 2,
+      "tactical_bomber1": 2,
+      "tactical_bomber2": 2,
+      "tactical_bomber3": 2
+    }
+  },
+  {
+    "file": "common/units/equipment/upgrades/land_upgrades.txt",
+    "missing_before": {
+      "engine_tech_1": 1,
+      "engine_tech_2": 1,
+      "engine_tech_3": 1,
+      "engine_tech_4": 1,
+      "armor_tech_1": 1,
+      "armor_tech_2": 1,
+      "armor_tech_3": 1,
+      "armor_tech_4": 1
+    }
+  }
+]

@@ -1,0 +1,121 @@
+state = {
+	id = 1055
+	name = "STATE_1055"
+	resources = {
+		oil = 29
+		rubber = 16
+		coal = 11
+	}
+	history = {
+		owner = INS
+		controller = INS
+		add_core_of = GOW
+		victory_points = {
+			1225
+			1
+		}
+		victory_points = {
+			7231
+			2
+		}
+		victory_points = {
+			7296
+			1
+		}
+		victory_points = {
+			7415
+			3
+		}
+		victory_points = {
+			10178
+			1
+		}
+		victory_points = {
+			10237
+			10
+		}
+		victory_points = {
+			10266
+			1
+		}
+		victory_points = {
+			10325
+			1
+		}
+		victory_points = {
+			12110
+			1
+		}
+		victory_points = {
+			12225
+			5
+		}
+		victory_points = {
+			12243
+			1
+		}
+		victory_points = {
+			12252
+			1
+		}
+		victory_points = {
+			12280
+			3
+		}
+		victory_points = {
+			19238
+			5
+		}
+		victory_points = {
+			19288
+			2
+		}
+		victory_points = {
+			19292
+			2
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			synthetic_refinery = 1
+			10325 = {
+				naval_base = 1
+			}
+			10237 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces = {
+		1225
+		1252
+		1404
+		1416
+		4236
+		4323
+		7231
+		7296
+		7355
+		7415
+		10138
+		10178
+		10181
+		10237
+		10266
+		10325
+		12110
+		12196
+		12225
+		12243
+		12252
+		12280
+		14335
+		14352
+		19238
+		19288
+		19292
+	}
+	manpower = 1412581
+	state_category = rural
+	local_supplies = 0.0
+}

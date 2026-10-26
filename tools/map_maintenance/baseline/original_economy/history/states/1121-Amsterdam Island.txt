@@ -1,0 +1,22 @@
+state={ #1121
+	id=1121
+	name="AMSTERDAM_ISLAND"
+	manpower=25
+	state_category = tiny_island
+	
+	history= {
+		owner = FRA
+		buildings = {
+			#infrastructure = 1
+			19949 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		19948 19949
+	}
+
+	local_supplies=0.0 
+}

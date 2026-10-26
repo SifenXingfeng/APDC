@@ -1,0 +1,46 @@
+state = {
+	id = 904
+	name = "STATE_904"
+	provinces = {
+		5160
+		11145
+		13135
+		13939
+		13946
+		13951
+		13962
+		13968
+		13980
+		13989
+		15527
+		15529
+	}
+	manpower = 653202
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = KEN
+		controller = KEN
+		add_core_of = KEN
+		victory_points = {
+			13939
+			3
+		}
+		victory_points = {
+			13951
+			2
+		}
+		victory_points = {
+			13968
+			1
+		}
+		victory_points = {
+			15529
+			5
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

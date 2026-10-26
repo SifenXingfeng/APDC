@@ -1,0 +1,452 @@
+{
+  "changes": [
+    {
+      "path": "common/doctrines/subdoctrines/land/armor_subdoctrines.txt",
+      "before": "a85a19cf57d81a1c74f0767dcf699fd8435f9b5f5cdfbb0a8a5b56c9ca5079f9",
+      "after": "b01244b9965ac667572eb15ee4f329d30604ab744caf74c4748666fd1cde829e",
+      "reason": "Restore pre-cleanup project doctrine values and complete APDC unit bonuses; keep unsupported branches and invalid callbacks removed"
+    },
+    {
+      "path": "common/doctrines/subdoctrines/land/combat_support_subdoctrines.txt",
+      "before": "ab58bf7a53815928305625f4211a3a457204b184500ba4ec5deb1c6527bc6810",
+      "after": "ffa6c319cda9dcf73b3872c5aa58d4973044f20e1ba5fe748788bdff9ff8b76c",
+      "reason": "Restore pre-cleanup project doctrine values and complete APDC unit bonuses; keep unsupported branches and invalid callbacks removed"
+    },
+    {
+      "path": "common/doctrines/subdoctrines/land/infantry_subdoctrines.txt",
+      "before": "e6e89860cf212e50408c2592bef829d872a2b1481e892c1c23b3d76fd6c03363",
+      "after": "b700d4bbdba477dadadeee26cbf134e7b412abc7eab71d6148506444102f798f",
+      "reason": "Restore pre-cleanup project doctrine values and complete APDC unit bonuses; keep unsupported branches and invalid callbacks removed"
+    },
+    {
+      "path": "common/doctrines/subdoctrines/land/operations_subdoctrines.txt",
+      "before": "04965b94ee0261f882842a4bf066eaef402e75ba72f125219e302a2434961919",
+      "after": "b704f0028d1e359c8e5b323954e1eb78a32b3871badfd938c72177d062d5e58d",
+      "reason": "Restore pre-cleanup project doctrine values and complete APDC unit bonuses; keep unsupported branches and invalid callbacks removed"
+    },
+    {
+      "path": "common/doctrines/subdoctrines/special_forces/special_forces_subdoctrines.txt",
+      "before": "e3bc6c20ea5dc832ea26f0f25c48625a90e3c5bd9b96714c444d6c6be2e23d44",
+      "after": "94faa81abab3a012dce88f2c0155c8a665f8602e940e7132e6a2ae716a17f78b",
+      "reason": "Restore pre-cleanup project doctrine values and complete APDC unit bonuses; keep unsupported branches and invalid callbacks removed"
+    },
+    {
+      "path": "localisation/simp_chinese/APDC_focus_compatibility_l_simp_chinese.yml",
+      "before": "77a9070b3ce393aa8df828cc5bfa21154700d0f1078f1484c6ccbaa9312f93b1",
+      "after": "5717a6866856a5b51be8db3d2686d714d5c0b221191d9d148c298791646c110e",
+      "reason": "Remove generated self-referencing focus descriptions; retain original authored descriptions and title aliases"
+    },
+    {
+      "path": "localisation/english/APDC_focus_compatibility_l_english.yml",
+      "before": "04df7729926d38e87e10c84e513a6ae6be736348afe0450e24881d7f90230c4b",
+      "after": "4c5c865cc66160667943cab7bea0da3b832e9e757ea40ac791631922986ce435",
+      "reason": "Remove generated self-referencing focus descriptions; retain original authored descriptions and title aliases"
+    },
+    {
+      "path": "interface/APDC_cooperation_organizations.gui",
+      "before": "fc8e163d419cffb28daacfd3446b271680d4dc0f84857a7cd6e6c8ed5970f02e",
+      "after": "b54b336ebea1b1fba63b316a8701aa7b5f4f40e0f32edbfc07f8ace642b41249",
+      "reason": "Preserve center origin explicitly for all four overlay-backed cooperation flags"
+    },
+    {
+      "path": "interface/APDC_cooperation_organizations.gfx",
+      "before": "bc54262ea1168fde3de93e7a855bb2d705415ce32afeffc300037fc0846b44d6",
+      "after": "1be1fdbb74d92b2a73f1151358f3fc72454aed1d1633c793e511fb189abffcc1",
+      "reason": "Document the overlay origin contract for all shared sprite users"
+    },
+    {
+      "path": "tools/performance/repair.py",
+      "before": "19b93e7967159e0959ffae94b38bf880aa65f0fe1d7c352b6bd9f69670e586fb",
+      "after": "6d040105562f0d05bb087717aa6d42e65c6adf57d2b8c17e397aa9521f703601",
+      "reason": "Prevent generating self-referencing localisation aliases or erasing aliases on a rerun"
+    },
+    {
+      "path": "docs/performance/20261023/README.md",
+      "before": "6e78c0d2be9fc09dbbee21cd5ee593502c69a7f571d798a3dba85fe92709a8d7",
+      "after": "79128e706daf2ca9202bdb7bf4a6b7bdc5eff73e006ada3fef458eebe5427b2b",
+      "reason": "Correct the earlier acceptance report and distinguish static corrections from prior runtime evidence"
+    }
+  ],
+  "details": [
+    {
+      "path": "common/doctrines/subdoctrines/land/armor_subdoctrines.txt",
+      "restored_value_differences": [
+        {
+          "path": "armored_spearhead#0/rewards#0/local_reserves#0/category_self_propelled_anti_air_regimental_support#0/max_organisation#0",
+          "erroneous": "5",
+          "restored": "10"
+        },
+        {
+          "path": "armored_infantry_support#0/rewards#0/mobile_armored_strongpoints#0/heavy_sp_anti_air_support#0/air_attack#0",
+          "erroneous": "0.05",
+          "restored": "0.1"
+        },
+        {
+          "path": "mobile_defense#0/rewards#0/combined_anti_armor#0/category_tank_destroyer_regimental_support#0/max_organisation#0",
+          "erroneous": "10",
+          "restored": "5"
+        }
+      ],
+      "restored_apdc_leaf_paths": [
+        "armored_infantry_support#0/rewards#0/mobile_armored_strongpoints#0/apdc_reg_spaag#0/max_organisation#0",
+        "armored_infantry_support#0/rewards#0/mobile_armored_strongpoints#0/apdc_reg_spaag#0/air_attack#0",
+        "armored_cavalry#0/rewards#0/quick_response_force#0/apdc_wheeled_mechanized#0/suppression_factor#0"
+      ],
+      "previously_removed_unsupported_branches_left_removed": []
+    },
+    {
+      "path": "common/doctrines/subdoctrines/land/combat_support_subdoctrines.txt",
+      "restored_value_differences": [
+        {
+          "path": "anti_tank_frontline#0/rewards#0/pakfront#0/anti_tank_battery#0/ap_attack#0",
+          "erroneous": "0.1",
+          "restored": "0.2"
+        },
+        {
+          "path": "anti_tank_frontline#0/rewards#0/pakfront#0/apdc_reg_heavy_weapons#0/ap_attack#0",
+          "erroneous": "0.1",
+          "restored": "0.2"
+        },
+        {
+          "path": "self_propelled_support#0/category_self_propelled_artillery#0/soft_attack#0",
+          "erroneous": "0.05",
+          "restored": "0.1"
+        },
+        {
+          "path": "self_propelled_support#0/category_self_propelled_anti_air#0/air_attack#0",
+          "erroneous": "0.05",
+          "restored": "0.1"
+        },
+        {
+          "path": "self_propelled_support#0/rewards#0/screening_attacks#0/recon#0/battalion_mult#0/soft_attack#0",
+          "erroneous": "0.05",
+          "restored": "0.1"
+        },
+        {
+          "path": "self_propelled_support#0/rewards#0/screening_attacks#0/mot_recon#0/battalion_mult#0/soft_attack#0",
+          "erroneous": "0.05",
+          "restored": "0.1"
+        },
+        {
+          "path": "self_propelled_support#0/rewards#0/screening_attacks#0/light_tank_recon#0/battalion_mult#0/soft_attack#0",
+          "erroneous": "0.05",
+          "restored": "0.1"
+        },
+        {
+          "path": "self_propelled_support#0/rewards#0/all_terrain_mobility#0/category_self_propelled_artillery#0/maximum_speed#0",
+          "erroneous": "0.1",
+          "restored": "0.3"
+        },
+        {
+          "path": "self_propelled_support#0/rewards#0/all_terrain_mobility#0/category_self_propelled_anti_air#0/maximum_speed#0",
+          "erroneous": "0.1",
+          "restored": "0.3"
+        },
+        {
+          "path": "self_propelled_support#0/rewards#0/all_terrain_mobility#0/category_tank_destroyers#0/maximum_speed#0",
+          "erroneous": "0.1",
+          "restored": "0.3"
+        },
+        {
+          "path": "self_propelled_support#0/rewards#0/multirole_support_vehicles#0/category_tank_destroyer_regimental_support#0/max_organisation#0",
+          "erroneous": "5",
+          "restored": "10"
+        },
+        {
+          "path": "self_propelled_support#0/rewards#0/multirole_support_vehicles#0/category_tank_destroyer_regimental_support#0/hard_attack#0",
+          "erroneous": "0.05",
+          "restored": "0.1"
+        },
+        {
+          "path": "self_propelled_support#0/rewards#0/multirole_support_vehicles#0/category_self_propelled_anti_air_regimental_support#0/max_organisation#0",
+          "erroneous": "5",
+          "restored": "10"
+        },
+        {
+          "path": "self_propelled_support#0/rewards#0/multirole_support_vehicles#0/category_self_propelled_anti_air_regimental_support#0/air_attack#0",
+          "erroneous": "0.05",
+          "restored": "0.1"
+        }
+      ],
+      "restored_apdc_leaf_paths": [
+        "fire_concentration#0/rewards#0/standing_barrage#0/apdc_towed_artillery#0/combat_width#0",
+        "fire_concentration#0/rewards#0/standing_barrage#0/apdc_mlrs#0/combat_width#0",
+        "fire_concentration#0/rewards#0/weakpoint_studies#0/apdc_towed_artillery#0/soft_attack#0",
+        "fire_concentration#0/rewards#0/weakpoint_studies#0/apdc_mlrs#0/soft_attack#0",
+        "anti_tank_frontline#0/rewards#0/pakfront#0/apdc_reg_heavy_weapons#0/hard_attack#0",
+        "flying_batteries#0/rewards#0/deployment_drills#0/apdc_reg_heavy_weapons#0/max_organisation#0",
+        "flying_batteries#0/rewards#0/deployment_drills#0/apdc_reg_heavy_weapons#0/soft_attack#0"
+      ],
+      "previously_removed_unsupported_branches_left_removed": [
+        "air_cavalry",
+        "siege_artillery"
+      ]
+    },
+    {
+      "path": "common/doctrines/subdoctrines/land/infantry_subdoctrines.txt",
+      "restored_value_differences": [
+        {
+          "path": "mobile_infantry#0/rewards#0/decisive_operations#0/category_regimental_support_artillery#0/soft_attack#0",
+          "erroneous": "0.1",
+          "restored": "0.15"
+        },
+        {
+          "path": "mobile_infantry#0/rewards#0/maneuver_warfare#0/mot_fire_support#0/max_organisation#0",
+          "erroneous": "10",
+          "restored": "5"
+        },
+        {
+          "path": "mobile_infantry#0/rewards#0/maneuver_warfare#0/apdc_reg_heavy_weapons#0/max_organisation#0",
+          "erroneous": "10",
+          "restored": "5"
+        },
+        {
+          "path": "defensive_postures#0/rewards#0/field_emplacements#0/category_regimental_support_artillery#0/soft_attack#0",
+          "erroneous": "0.1",
+          "restored": "0.2"
+        },
+        {
+          "path": "assault_infantry#0/artillery#0/soft_attack#0",
+          "erroneous": "0.2",
+          "restored": "0.1"
+        },
+        {
+          "path": "assault_infantry#0/apdc_towed_artillery_support#0/soft_attack#0",
+          "erroneous": "0.2",
+          "restored": "0.1"
+        },
+        {
+          "path": "assault_infantry#0/rewards#0/organic_battalion_fire_support#0/anti_tank_battery#0/ap_attack#0",
+          "erroneous": "0.05",
+          "restored": "0.1"
+        },
+        {
+          "path": "assault_infantry#0/rewards#0/organic_battalion_fire_support#0/anti_tank_battery#0/hard_attack#0",
+          "erroneous": "0.05",
+          "restored": "0.1"
+        },
+        {
+          "path": "assault_infantry#0/rewards#0/organic_battalion_fire_support#0/apdc_reg_heavy_weapons#0/ap_attack#0",
+          "erroneous": "0.05",
+          "restored": "0.1"
+        },
+        {
+          "path": "assault_infantry#0/rewards#0/organic_battalion_fire_support#0/apdc_reg_heavy_weapons#0/hard_attack#0",
+          "erroneous": "0.05",
+          "restored": "0.1"
+        },
+        {
+          "path": "assault_infantry#0/rewards#0/organic_battalion_fire_support#0/anti_air_battery#0/air_attack#0",
+          "erroneous": "0.05",
+          "restored": "0.1"
+        },
+        {
+          "path": "assault_infantry#0/rewards#0/organic_battalion_fire_support#0/apdc_reg_infantry_aa#0/air_attack#0",
+          "erroneous": "0.05",
+          "restored": "0.1"
+        },
+        {
+          "path": "mounted_infantry#0/rewards#0/beasts_of_war#0/category_cavalry#0/maximum_speed#0",
+          "erroneous": "0.4",
+          "restored": "0.5"
+        },
+        {
+          "path": "mounted_infantry#0/rewards#0/beasts_of_war#0/recon#0/maximum_speed#0",
+          "erroneous": "0.4",
+          "restored": "0.5"
+        },
+        {
+          "path": "mounted_infantry#0/rewards#0/beasts_of_war#0/apdc_infantry_recon#0/maximum_speed#0",
+          "erroneous": "0.4",
+          "restored": "0.5"
+        },
+        {
+          "path": "mounted_infantry#0/rewards#0/limbered_combat_support#0/artillery_brigade#0/maximum_speed#0",
+          "erroneous": "1",
+          "restored": "0.5"
+        },
+        {
+          "path": "mounted_infantry#0/rewards#0/limbered_combat_support#0/apdc_towed_artillery#0/maximum_speed#0",
+          "erroneous": "1",
+          "restored": "0.5"
+        },
+        {
+          "path": "mounted_infantry#0/rewards#0/limbered_combat_support#0/anti_tank_brigade#0/maximum_speed#0",
+          "erroneous": "1",
+          "restored": "0.5"
+        },
+        {
+          "path": "mounted_infantry#0/rewards#0/limbered_combat_support#0/apdc_atgm_vehicle#0/maximum_speed#0",
+          "erroneous": "1",
+          "restored": "0.5"
+        },
+        {
+          "path": "mounted_infantry#0/rewards#0/limbered_combat_support#0/anti_air_brigade#0/maximum_speed#0",
+          "erroneous": "1",
+          "restored": "0.5"
+        },
+        {
+          "path": "mounted_infantry#0/rewards#0/limbered_combat_support#0/apdc_spaag#0/maximum_speed#0",
+          "erroneous": "1",
+          "restored": "0.5"
+        },
+        {
+          "path": "mounted_infantry#0/rewards#0/limbered_combat_support#0/rocket_artillery_brigade#0/maximum_speed#0",
+          "erroneous": "1",
+          "restored": "0.5"
+        },
+        {
+          "path": "mounted_infantry#0/rewards#0/limbered_combat_support#0/apdc_mlrs#0/maximum_speed#0",
+          "erroneous": "1",
+          "restored": "0.5"
+        },
+        {
+          "path": "peoples_war#0/rewards#0/destruction_over_land_gains#0/field_guns#0/soft_attack#0",
+          "erroneous": "0.1",
+          "restored": "0.15"
+        },
+        {
+          "path": "peoples_war#0/rewards#0/destruction_over_land_gains#0/apdc_reg_towed_artillery#0/soft_attack#0",
+          "erroneous": "0.1",
+          "restored": "0.15"
+        },
+        {
+          "path": "great_war_infantry#0/rewards#0/centralized_artillery_control#0/artillery#0/battalion_mult#0/breakthrough#0",
+          "erroneous": "0.1",
+          "restored": "0.05"
+        },
+        {
+          "path": "great_war_infantry#0/rewards#0/centralized_artillery_control#0/category_regimental_support_artillery#0/soft_attack#0",
+          "erroneous": "0.1",
+          "restored": "0.2"
+        }
+      ],
+      "restored_apdc_leaf_paths": [
+        "large_unit_tactics#0/rewards#0/flexible_division_structures#0/apdc_infantry#0/combat_width#0",
+        "assault_infantry#0/rewards#0/low_echelon_fire_support#0/apdc_reg_towed_artillery#0/soft_attack#0",
+        "commandos#0/rewards#0/isolated_combat_elements#0/apdc_combined_service#0/casualty_trickleback#0",
+        "commandos#0/rewards#0/isolated_combat_elements#0/apdc_transport_helicopter_support#0/casualty_trickleback#0",
+        "irregulars#0/rewards#0/partisan_regiments#0/apdc_militia#0/combat_width#0",
+        "peoples_war#0/rewards#0/destruction_over_land_gains#0/apdc_militia#0/equipment_capture_factor#0",
+        "great_war_infantry#0/rewards#0/sapping_operations#0/apdc_combined_service#0/casualty_trickleback#0"
+      ],
+      "previously_removed_unsupported_branches_left_removed": []
+    },
+    {
+      "path": "common/doctrines/subdoctrines/land/operations_subdoctrines.txt",
+      "restored_value_differences": [
+        {
+          "path": "mission_type_tactics#0/command_power_gain#0",
+          "erroneous": "0.2",
+          "restored": "0.02"
+        },
+        {
+          "path": "infiltration_tactics#0/max_planning#0",
+          "erroneous": "0.1",
+          "restored": "0.05"
+        },
+        {
+          "path": "infiltration_tactics#0/rewards#0/self_sustaining_infiltration_units#0/command_power_gain#0",
+          "erroneous": "0.1",
+          "restored": "0.015"
+        }
+      ],
+      "restored_apdc_leaf_paths": [],
+      "previously_removed_unsupported_branches_left_removed": []
+    },
+    {
+      "path": "common/doctrines/subdoctrines/special_forces/special_forces_subdoctrines.txt",
+      "restored_value_differences": [],
+      "restored_apdc_leaf_paths": [
+        "mountaineers_1#0/rewards#0/reward_3#0/apdc_mountaineers#0/combat_width#0"
+      ],
+      "previously_removed_unsupported_branches_left_removed": []
+    },
+    {
+      "path": "localisation/simp_chinese/APDC_focus_compatibility_l_simp_chinese.yml",
+      "removed_self_references": [
+        "aftermath_of_northern_lights_event_desc",
+        "gold_ring_plan_desc",
+        "audit_military_supplies_desc",
+        "investigate_consumer_goods_network_desc",
+        "crackdown_military_vehicle_abuse_desc",
+        "investigate_misappropriated_funds_desc",
+        "recover_military_tax_arrears_desc",
+        "inspect_light_industrial_goods_desc",
+        "reclaim_military_occupied_land_desc",
+        "monopolize_luxury_goods_desc",
+        "corruption_invincible_lady_desc",
+        "silver_ring_plan_desc",
+        "medical_relief_team_desc",
+        "logistics_reform_desc",
+        "refugee_id_verification_desc",
+        "spirit_of_leningrad_desc",
+        "auction_leningrad_production_desc",
+        "leningrad_reconstruction_committee_desc",
+        "support_autonomous_communities_desc",
+        "militia_patrol_desc",
+        "go_to_the_countryside_desc",
+        "women_union_special_office_desc",
+        "worker_peasant_soldier_unity_desc",
+        "death_not_proletariat_desc",
+        "military_and_bureaucracy_desc",
+        "consolidate_gold_ring_achievements_desc",
+        "establish_logistics_coordination_committee_desc",
+        "appease_military_dissatisfaction_desc",
+        "assign_officers_to_state_owned_desc",
+        "consensus_on_market_economy_desc",
+        "appoint_inspectors_desc",
+        "establish_economic_corruption_office_desc",
+        "best_officer_in_soviet_desc",
+        "add_buget_for_KGB_desc",
+        "promote_silver_ring_scheme_desc",
+        "launch_nationwide_discussion_desc",
+        "share_success_stories_desc",
+        "thunderous_but_feeble_reform_desc"
+      ]
+    },
+    {
+      "path": "localisation/english/APDC_focus_compatibility_l_english.yml",
+      "removed_self_references": [
+        "aftermath_of_northern_lights_event_desc",
+        "gold_ring_plan_desc",
+        "audit_military_supplies_desc",
+        "investigate_consumer_goods_network_desc",
+        "crackdown_military_vehicle_abuse_desc",
+        "investigate_misappropriated_funds_desc",
+        "recover_military_tax_arrears_desc",
+        "inspect_light_industrial_goods_desc",
+        "reclaim_military_occupied_land_desc",
+        "monopolize_luxury_goods_desc",
+        "corruption_invincible_lady_desc",
+        "silver_ring_plan_desc",
+        "medical_relief_team_desc",
+        "logistics_reform_desc",
+        "refugee_id_verification_desc",
+        "spirit_of_leningrad_desc",
+        "auction_leningrad_production_desc",
+        "leningrad_reconstruction_committee_desc",
+        "support_autonomous_communities_desc",
+        "militia_patrol_desc",
+        "go_to_the_countryside_desc",
+        "women_union_special_office_desc",
+        "worker_peasant_soldier_unity_desc",
+        "death_not_proletariat_desc",
+        "military_and_bureaucracy_desc",
+        "consolidate_gold_ring_achievements_desc",
+        "establish_logistics_coordination_committee_desc",
+        "appease_military_dissatisfaction_desc",
+        "assign_officers_to_state_owned_desc",
+        "consensus_on_market_economy_desc",
+        "appoint_inspectors_desc",
+        "establish_economic_corruption_office_desc",
+        "best_officer_in_soviet_desc",
+        "add_buget_for_KGB_desc",
+        "promote_silver_ring_scheme_desc",
+        "launch_nationwide_discussion_desc",
+        "share_success_stories_desc",
+        "thunderous_but_feeble_reform_desc"
+      ]
+    }
+  ]
+}

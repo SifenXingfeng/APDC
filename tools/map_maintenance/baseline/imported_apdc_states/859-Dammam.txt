@@ -1,0 +1,40 @@
+state = {
+	id = 859
+	name = "STATE_859"
+	resources = {
+		oil = 2
+	}
+	provinces = {
+		4932
+		5024
+		10791
+		12702
+		13467
+		18567
+	}
+	manpower = 286667
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = SAU
+		controller = SAU
+		add_core_of = SAU
+		victory_points = {
+			10791
+			5
+		}
+		victory_points = {
+			12702
+			15
+		}
+		buildings = {
+			infrastructure = 1
+			12702 = {
+				naval_base = 6
+			}
+		}
+		set_state_flag = GDP_category_metropolis
+		set_state_flag = state_renamings
+	}
+}

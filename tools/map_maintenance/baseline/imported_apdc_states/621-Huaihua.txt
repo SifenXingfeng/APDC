@@ -1,0 +1,32 @@
+state = {
+	id = 621
+	name = "STATE_621"
+	resources = {
+	}
+	provinces = {
+		4480
+		10335
+		19523
+	}
+	manpower = 1561054
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 4
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			10335
+			5
+		}
+		victory_points = {
+			19523
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+}

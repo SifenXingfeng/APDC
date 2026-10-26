@@ -1,0 +1,37 @@
+state = {
+	id = 324
+	name = "STATE_324"
+	manpower = 450000
+	state_category = town
+	resources = {
+		tungsten = 2
+	}
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			8010
+			1
+		}
+		victory_points = {
+			16132
+			2
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 2
+		}
+	}
+	provinces = {
+		8010
+		12860
+		16131
+		16132
+		16133
+		16134
+		18866
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,162 @@
+--- before/common/military_industrial_organization/organizations/BUL_organization.txt
++++ current/common/military_industrial_organization/organizations/BUL_organization.txt
+@@ -40,7 +40,7 @@
+ 	}
+ 	
+ 	available = {
+-		FROM = { has_completed_focus = BUL_expand_varna_naval_base }
++		FROM = { always = no }
+ 	}
+ 
+ 	research_bonus = 0
+@@ -55,7 +55,7 @@
+ 		
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = BUL_an_aegean_sea_fleet
++				always = no
+ 			}
+ 		}
+ 
+@@ -99,21 +99,21 @@
+ 			limit = {
+ 				has_dlc = "Battle for the Bosporus"
+ 			}
+-			FROM = { has_completed_focus = BUL_darzhavna_aeroplanna_rabotilnitsa }
+-		}
+-	}
+-
+-	add_trait = { 
+-		token = BUL_mio_trait_prussia_of_the_balkans
+-		name = BUL_prussia_of_the_balkans
+-		icon = GFX_generic_mio_department_icon_facilities
+-		special_trait_background = yes
+-
+-		position = { x=@prussia_of_the_balkans_position_X y=@prussia_of_the_balkans_position_Y }
+-		
+-		available = {
+-			FROM = {
+-				has_completed_focus = BUL_prussia_of_the_balkans
++			FROM = { always = no }
++		}
++	}
++
++	add_trait = { 
++		token = BUL_mio_trait_prussia_of_the_balkans
++		name = BUL_prussia_of_the_balkans
++		icon = GFX_generic_mio_department_icon_facilities
++		special_trait_background = yes
++
++		position = { x=@prussia_of_the_balkans_position_X y=@prussia_of_the_balkans_position_Y }
++		
++		available = {
++			FROM = {
++				always = no
+ 			}
+ 		}
+ 
+@@ -137,20 +137,20 @@
+ 	}
+ 
+ 	available = {
+-		FROM = { has_completed_focus = BUL_kaproni_bulgarski }
+-	}
+-
+-	add_trait = { 
+-		token = BUL_mio_trait_prussia_of_the_balkans
+-		name = BUL_prussia_of_the_balkans
+-		icon = GFX_generic_mio_department_icon_facilities
+-		special_trait_background = yes
+-
+-		position = { x=@prussia_of_the_balkans_position_X y=@prussia_of_the_balkans_position_Y }
+-		
+-		available = {
+-			FROM = {
+-				has_completed_focus = BUL_prussia_of_the_balkans
++		FROM = { always = no }
++	}
++
++	add_trait = { 
++		token = BUL_mio_trait_prussia_of_the_balkans
++		name = BUL_prussia_of_the_balkans
++		icon = GFX_generic_mio_department_icon_facilities
++		special_trait_background = yes
++
++		position = { x=@prussia_of_the_balkans_position_X y=@prussia_of_the_balkans_position_Y }
++		
++		available = {
++			FROM = {
++				always = no
+ 			}
+ 		}
+ 
+@@ -192,20 +192,20 @@
+ 	}
+ 	
+ 	available = {
+-		FROM = { has_completed_focus = BUL_darzhavna_voenna_fabrika }
+-	}
+-
+-	add_trait = { 
+-		token = BUL_mio_trait_prussia_of_the_balkans
+-		name = BUL_prussia_of_the_balkans
+-		icon = GFX_generic_mio_department_icon_facilities
+-		special_trait_background = yes
+-
+-		position = { x=@prussia_of_the_balkans_position_X y=@prussia_of_the_balkans_position_Y }
+-		
+-		available = {
+-			FROM = {
+-				has_completed_focus = BUL_prussia_of_the_balkans
++		FROM = { always = no }
++	}
++
++	add_trait = { 
++		token = BUL_mio_trait_prussia_of_the_balkans
++		name = BUL_prussia_of_the_balkans
++		icon = GFX_generic_mio_department_icon_facilities
++		special_trait_background = yes
++
++		position = { x=@prussia_of_the_balkans_position_X y=@prussia_of_the_balkans_position_Y }
++		
++		available = {
++			FROM = {
++				always = no
+ 			}
+ 		}
+ 
+@@ -229,20 +229,20 @@
+ 	}
+ 
+ 	available = {
+-		FROM = { has_completed_focus = BUL_found_dvf_sopot }
+-	}
+-
+-	add_trait = { 
+-		token = BUL_mio_trait_prussia_of_the_balkans
+-		name = BUL_prussia_of_the_balkans
+-		icon = GFX_generic_mio_department_icon_facilities
+-		special_trait_background = yes
+-
+-		position = { x=@prussia_of_the_balkans_position_X y=@prussia_of_the_balkans_position_Y }
+-		
+-		available = {
+-			FROM = {
+-				has_completed_focus = BUL_prussia_of_the_balkans
++		FROM = { always = no }
++	}
++
++	add_trait = { 
++		token = BUL_mio_trait_prussia_of_the_balkans
++		name = BUL_prussia_of_the_balkans
++		icon = GFX_generic_mio_department_icon_facilities
++		special_trait_background = yes
++
++		position = { x=@prussia_of_the_balkans_position_X y=@prussia_of_the_balkans_position_Y }
++		
++		available = {
++			FROM = {
++				always = no
+ 			}
+ 		}
+ 

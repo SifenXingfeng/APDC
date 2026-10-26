@@ -1,0 +1,45 @@
+state = {
+	id = 1139
+	name = "STATE_1139"
+	provinces = {
+		1952
+		2709
+		4956
+		14518
+		14521
+		17107
+		17145
+		17324
+	}
+	manpower = 375632
+	resources = {
+		oil = 3
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+	history = {
+		owner = MEX
+		controller = MEX
+		add_core_of = MEX
+		victory_points = {
+			4956
+			10
+		}
+		victory_points = {
+			14518
+			2
+		}
+		victory_points = {
+			17107
+			1
+		}
+		victory_points = {
+			17145
+			1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

@@ -1,0 +1,25 @@
+# Unit-overhaul local build/rollback/test data. Keep source catalogs and game assets tracked.
+/art_source/unit_overhaul/staging/
+/art_source/unit_overhaul/backup/
+/art_source/unit_overhaul/runtime/
+/tools/unit_overhaul/__pycache__/
+/art_source/infantry_vanilla_rig/staging/
+/art_source/infantry_vanilla_rig/backup/
+/art_source/infantry_vanilla_rig/runtime/
+/tools/infantry_vanilla_rig/__pycache__/
+/art_source/unit_motion_refresh/staging/
+/art_source/unit_motion_refresh/backup/
+/art_source/unit_motion_refresh/runtime/
+/tools/unit_motion_refresh/__pycache__/
+
+# Local editor preferences and disposable diagnostic outputs. Keep source art,
+# game files, documentation and authoritative map baselines in the repository.
+__pycache__/
+*.py[cod]
+/.codex_qa_hardness_doc/
+/.codex_tmp_country_reference/
+/.vscode/
+/tmp/
+/output/
+/console_history.txt
+/docs/economy/runtime/

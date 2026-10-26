@@ -1,0 +1,30 @@
+state = {
+	id = 1377
+	name = "STATE_1377"
+	provinces = {
+		5095
+		7041
+		10749
+		14288
+		14301
+		14316
+		14327
+		14363
+	}
+	manpower = 57306
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = wasteland
+	history = {
+		owner = AGR
+		controller = AGR
+		add_core_of = AGR
+		victory_points = {
+			5095
+			2
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+}

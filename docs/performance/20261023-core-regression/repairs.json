@@ -1,0 +1,37 @@
+[
+  {
+    "path": "common/scripted_triggers/00_resistance_initiate_triggers.txt",
+    "before": "483577c92994469e96485598ec44cacf2b056d376b024c73591b48d7c13a1ce3",
+    "after": "db0547c8cf646f9acf9a9c8965e8bd17aa26c1df7fab6d3d54874841dd67750d"
+  },
+  {
+    "path": "common/scripted_triggers/00_diplo_action_valid_triggers.txt",
+    "before": "483577c92994469e96485598ec44cacf2b056d376b024c73591b48d7c13a1ce3",
+    "after": "4f29935b55acdc7b6dbd55308877198461d9561f6574723b98a0ad5eec2b75ec"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "before": "483577c92994469e96485598ec44cacf2b056d376b024c73591b48d7c13a1ce3",
+    "after": "3fd4a99971133caaf837a35e25ee1da39599182f1de6a77d670bbca66bd2faba"
+  },
+  {
+    "path": "tools/performance/verify.py",
+    "before": "e6343b299c557ab6c8e4bb182445e983dfb8a5d928b51d85feb1c3b226614a1e",
+    "after": "4c413bf20201263b75421f531ee2610770361ee8bbfb78f04f218177481f343f"
+  },
+  {
+    "path": "tools/performance/engine_callbacks.py",
+    "before": null,
+    "after": "6c79076e3f1262184f692b71a0373edf27746cb0ad1019d7e85a73f10a169074"
+  },
+  {
+    "path": "docs/performance/20261023/README.md",
+    "before": "79128e706daf2ca9202bdb7bf4a6b7bdc5eff73e006ada3fef458eebe5427b2b",
+    "after": "43b3087f6436dc335fe342c1ce3cd012a5978be38a48e1a89361dbc000d8076c"
+  },
+  {
+    "path": "docs/performance/20261023-weekly-economy/README.md",
+    "before": "f75024bb2ea2d01d219788d0273928fda3801e7c280ce001c72b9e1eeba5a687",
+    "after": "a2a9cb2b7d8f134e63ba858eb1ac02325e9f152a2d7f3854fdbc3b9867fc7c40"
+  }
+]

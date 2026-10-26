@@ -1,0 +1,41 @@
+state = {
+	id = 1002
+	name = "STATE_1002"
+	provinces = {
+		1963
+		8031
+		10759
+		10828
+		10873
+		12780
+		13608
+		13609
+		13613
+		15152
+		15157
+		15158
+		15161
+		15162
+		18715
+	}
+	manpower = 325464
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = PER
+		controller = PER
+		add_core_of = PER
+		victory_points = {
+			8031
+			3
+		}
+		victory_points = {
+			15152
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

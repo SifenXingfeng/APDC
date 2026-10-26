@@ -1,0 +1,138 @@
+state = {
+	id = 672
+	name = "STATE_672"
+	manpower = 2834381
+	state_category = rural
+	resources = {
+		rubber = 54
+		oil = 15
+	}
+	history = {
+		owner = INS
+		controller = INS
+		add_core_of = INS
+		victory_points = {
+			1274
+			1
+		}
+		victory_points = {
+			4361
+			2
+		}
+		victory_points = {
+			7308
+			3
+		}
+		victory_points = {
+			7440
+			1
+		}
+		victory_points = {
+			10150
+			1
+		}
+		victory_points = {
+			12165
+			1
+		}
+		victory_points = {
+			12181
+			1
+		}
+		victory_points = {
+			12209
+			2
+		}
+		victory_points = {
+			15699
+			1
+		}
+		victory_points = {
+			19240
+			2
+		}
+		victory_points = {
+			19246
+			1
+		}
+		victory_points = {
+			19254
+			2
+		}
+		victory_points = {
+			19260
+			10
+		}
+		victory_points = {
+			19269
+			2
+		}
+		victory_points = {
+			19290
+			15
+		}
+		victory_points = {
+			19294
+			1
+		}
+		victory_points = {
+			19330
+			2
+		}
+		victory_points = {
+			19348
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			12165 = {
+				naval_base = 1
+			}
+		}
+		set_state_flag = GDP_regions_south_sumatra
+	}
+	provinces = {
+		1274
+		1313
+		1342
+		1648
+		4320
+		4361
+		4381
+		7308
+		7440
+		10150
+		10225
+		10294
+		10522
+		12165
+		12168
+		12181
+		12209
+		12268
+		15698
+		15699
+		15719
+		19225
+		19240
+		19243
+		19246
+		19254
+		19257
+		19260
+		19269
+		19274
+		19278
+		19283
+		19290
+		19291
+		19294
+		19324
+		19330
+		19332
+		19347
+		19348
+	}
+	local_supplies = 0.0
+}

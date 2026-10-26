@@ -1,0 +1,137 @@
+state = {
+	id = 303
+	name = "STATE_303"
+	manpower = 3563249
+	resources = {
+		oil = 14
+		coal = 4
+	}
+	state_category = large_city
+	history = {
+		owner = PRU
+		controller = PRU
+		add_core_of = PRU
+		victory_points = {
+			2156
+			3
+		}
+		victory_points = {
+			5190
+			3
+		}
+		victory_points = {
+			10970
+			2
+		}
+		victory_points = {
+			12983
+			2
+		}
+		victory_points = {
+			12997
+			50
+		}
+		victory_points = {
+			15460
+			2
+		}
+		victory_points = {
+			15461
+			1
+		}
+		victory_points = {
+			15463
+			5
+		}
+		victory_points = {
+			15467
+			5
+		}
+		victory_points = {
+			15468
+			3
+		}
+		victory_points = {
+			15474
+			1
+		}
+		victory_points = {
+			15476
+			2
+		}
+		victory_points = {
+			15479
+			1
+		}
+		victory_points = {
+			15480
+			1
+		}
+		victory_points = {
+			15481
+			1
+		}
+		victory_points = {
+			15505
+			3
+		}
+		victory_points = {
+			17452
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 6
+			air_base = 3
+			12997 = {
+				naval_base = 5
+			}
+			2156 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		2156
+		2162
+		5190
+		8199
+		10970
+		12969
+		12983
+		12997
+		15460
+		15461
+		15462
+		15463
+		15466
+		15467
+		15468
+		15469
+		15471
+		15472
+		15473
+		15474
+		15475
+		15476
+		15478
+		15479
+		15480
+		15481
+		15484
+		15486
+		15503
+		15505
+		15572
+		15574
+		15575
+		15576
+		17448
+		17449
+		17452
+		17455
+		17480
+	}
+	local_supplies = 0.0
+}

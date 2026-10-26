@@ -1,0 +1,50 @@
+state = {
+	id = 1361
+	name = "STATE_1361"
+	provinces = {
+		785
+		981
+		3927
+		9799
+		9921
+		10041
+		11778
+		11796
+		11898
+		16212
+		16216
+		16253
+	}
+	manpower = 708088
+	resources = {
+		chromium = 16
+		coal = 1
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = TUR
+		controller = TUR
+		add_core_of = TUR
+		victory_points = {
+			3927
+			2
+		}
+		victory_points = {
+			9921
+			2
+		}
+		victory_points = {
+			10041
+			5
+		}
+		victory_points = {
+			11778
+			3
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

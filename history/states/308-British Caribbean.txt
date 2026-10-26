@@ -1,0 +1,29 @@
+state = {
+	id = 308
+	name = "STATE_308"
+	provinces = {
+		2134
+		13084
+		19993
+	}
+	manpower = 12839
+	buildings_max_level_factor = 1
+	state_category = tiny_island
+	local_supplies = 0
+	history = {
+		owner = ENG
+		controller = ENG
+		add_core_of = BAS
+		victory_points = {
+			2134
+			1
+		}
+		victory_points = {
+			19993
+			1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

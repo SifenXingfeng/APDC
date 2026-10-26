@@ -1,0 +1,39 @@
+state = {
+	id = 803
+	name = "STATE_803"
+	provinces = {
+		9602
+		9906
+		11857
+		11868
+		11887
+		14667
+		15648
+		18184
+		18185
+	}
+	manpower = 357292
+	resources = {
+		steel = 1
+	}
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = YUG
+		controller = YUG
+		add_core_of = YUG
+		add_claim_by = BUL
+		victory_points = {
+			9602
+			3
+		}
+		victory_points = {
+			11887
+			1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

@@ -1,0 +1,50 @@
+state = {
+	id = 109
+	name = "STATE_109"
+	resources = {
+		coal = 1
+	}
+	provinces = {
+		624
+		3592
+		3596
+		3627
+		6647
+		9595
+		9608
+		11581
+		11594
+		13782
+		14418
+		15678
+		16175
+		16176
+		16177
+		18153
+		18154
+		18163
+		18164
+		18178
+	}
+	manpower = 2088797
+	buildings_max_level_factor = 1
+	state_category = large_town
+	local_supplies = 0
+	history = {
+		owner = YUG
+		controller = YUG
+		add_core_of = YUG
+		victory_points = {
+			9608
+			1
+		}
+		victory_points = {
+			11581
+			10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+	}
+}

@@ -1,0 +1,48 @@
+state = {
+	id = 91
+	name = "STATE_91"
+	manpower = 3227800
+	state_category = city
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		victory_points = {
+			3483
+			2
+		}
+		victory_points = {
+			11479
+			5
+		}
+		victory_points = {
+			19168
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			air_base = 5
+		}
+	}
+	provinces = {
+		438
+		491
+		3483
+		3562
+		9454
+		9468
+		11427
+		11479
+		15668
+		15683
+		18820
+		19164
+		19165
+		19168
+		19174
+		19175
+		19178
+	}
+	local_supplies = 0.0
+}

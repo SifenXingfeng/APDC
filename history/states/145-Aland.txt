@@ -1,15 +1,27 @@
 state = {
-	#Population Done
+	impassable = yes
 	id = 145
 	name = "STATE_145"
-	manpower = 2
+	manpower = 28139
 	state_category = small_island
 	history = {
 		owner = ZZZ
-
+		controller = ZZZ
+		add_core_of = SOV
 		add_core_of = ZZZ
+		victory_points = {
+			9228
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			9228 = {
+				naval_base = 1
+			}
+		}
 	}
 	provinces = {
 		9228
 	}
+	local_supplies = 0.0
 }

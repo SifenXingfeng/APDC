@@ -1,0 +1,1687 @@
+--- 
+
++++ 
+
+@@ -1367,8 +1367,12 @@
+
+ APDC_eco_clear_world_market = {
+ clear_array = global.APDC_eco_exporters
++clear_array = global.APDC_eco_importers
+ every_country = {
+ APDC_eco_clear_trade = yes
+ if = { limit = { check_variable = { APDC_eco_remaining_export_m > 0 } }
+ add_to_array = { array = global.APDC_eco_exporters value = THIS }
++}
++if = { limit = { check_variable = { APDC_eco_remaining_import_m > 0 } }
++add_to_array = { array = global.APDC_eco_importers value = THIS }
+ }
+ }
+@@ -1391,5 +1395,6 @@
+
+  remove_from_array = { array = global.APDC_eco_exporters value = var:global.APDC_eco_seller }
+  clear_array = global.APDC_eco_buyers
+- every_country = {
++ for_each_scope_loop = {
++  array = global.APDC_eco_importers
+   if = {
+    limit = {
+@@ -1454,8 +1459,8 @@
+
+ set_variable = { APDC_eco_supply_m = APDC_eco_math_23 }
+  APDC_eco_calculate_gap = yes
+- APDC_eco_calculate_budget = yes
+ }
+ clear_array = global.APDC_eco_buyers
+ clear_array = global.APDC_eco_next_buyers
++clear_array = global.APDC_eco_importers
+ clear_variable = global.APDC_eco_seller
+ clear_variable = global.APDC_eco_buyer
+@@ -2635,4 +2640,5 @@
+
+ APDC_eco_reconcile_planned = {
+ if = { limit = { APDC_eco_is_planned = yes }
++if = { limit = { OR = { NOT = { has_idea = APDC_eco_distribution_5 } has_idea = APDC_eco_distribution_1 has_idea = APDC_eco_distribution_2 has_idea = APDC_eco_distribution_3 has_idea = APDC_eco_distribution_4 } }
+ remove_ideas = APDC_eco_distribution_1
+ remove_ideas = APDC_eco_distribution_2
+@@ -2640,4 +2646,6 @@
+
+ remove_ideas = APDC_eco_distribution_4
+ add_ideas = APDC_eco_distribution_5
++
++}
+ every_controlled_state = {
+ set_temp_variable = { APDC_eco_convert = building_level@APDC_eco_private_civ }
+@@ -2736,32 +2744,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = aa_cannon_1 }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = aa_cannon_2 }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = aa_cannon_3 }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = aa_hmg }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = aa_lmg }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = advanced_battleship }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = advanced_carrier }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = advanced_computing_machine }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -2788,8 +2768,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = advanced_destroyer }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = advanced_dp_light_battery }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -2800,20 +2776,8 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = advanced_firebases }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = advanced_heavy_battery }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = advanced_heavy_cruiser }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = advanced_heavy_tank_chassis }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = advanced_infantry_weapons }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -2828,16 +2792,8 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = advanced_large_airframe }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = advanced_light_battery }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = advanced_light_cruiser }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = advanced_light_tank }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -2848,20 +2804,8 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = advanced_light_tank_chassis }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = advanced_machine_tools }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = advanced_medium_airframe }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = advanced_medium_tank_chassis }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = advanced_modern_tank_turret_tech }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -2904,56 +2848,8 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = advanced_small_airframe }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = advanced_sonar }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = advanced_submarine }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = advanced_submarine_warfare }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = aerial_hangars }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = air_land_battle }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = air_offense }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = air_skirmish }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = air_superiority }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = air_torpedoe_1 }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = air_torpedoe_2 }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = air_torpedoe_3 }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = aircraft_construction }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = airdrop_mines }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -2972,8 +2868,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = amphibious_drive }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = amphibious_mechanized }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -3000,8 +2892,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = amphibious_tank_chassis }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = antisubmarine_helicopter }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -3016,24 +2904,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = armor_piercing_bombs }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = armor_tech_1 }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = armor_tech_2 }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = armor_tech_3 }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = armor_tech_4 }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = armored_car1 }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -3060,12 +2928,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = armored_operations }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = armored_spearhead }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = armored_train }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -3092,12 +2952,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = assault_breakthrough }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = assault_concentration }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = assembly_line_production }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -3108,32 +2960,8 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = attritional_containment }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = backhand_blow }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = base_strike }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = basic_battery }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = basic_battlecruiser }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = basic_battleship }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = basic_carrier }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = basic_cruiser_armor_scheme }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -3144,8 +2972,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = basic_destroyer }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = basic_dp_light_battery }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -3164,28 +2988,12 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = basic_heavy_cruiser }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = basic_heavy_shell }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = basic_heavy_tank_chassis }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = basic_large_airframe }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = basic_light_battery }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = basic_light_cruiser }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = basic_light_shell }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -3196,20 +3004,8 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = basic_light_tank_chassis }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = basic_machine_tools }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = basic_medium_airframe }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = basic_medium_tank_chassis }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = basic_naval_mines }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -3236,12 +3032,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = basic_small_airframe }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = basic_submarine }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = basic_submarine_snorkel }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -3256,72 +3044,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = battlefield_support }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = battlefleet_concentration }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = battlefleet_concentration_ti }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = bba_early_transport_plane }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = bba_improved_transport_plane }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = bba_strategic_airlifter }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = blitzkrieg }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = branch_interoperation }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = breakthrough_priority }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = c3i_theory }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = capital_ship_raiders }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = carousel_bombing }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = carrier_battlegroups }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = carrier_operations }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = carrier_primacy }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = carrier_task_forces }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = cas_veteran_initiative }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = cavity_magnatron }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -3332,24 +3052,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = central_planning }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = centralized_fire_control }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = combat_unit_destruction }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = combined_arms }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = combined_operations_raiding }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = commercial_nuclear_reactor_tech }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -3360,8 +3060,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = concentrated_fire_plans }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = concentrated_industry }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -3428,40 +3124,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = continuous_offensive }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = convoy_escorts }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = convoy_escorts_bs }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = convoy_interdiction }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = convoy_interdiction_bs }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = convoy_interdiction_ti }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = convoy_sailing }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = convoy_sailing_bs }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = convoy_sailing_ti }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = cv_CAS1 }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -3540,32 +3200,8 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = day_bombing }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = deep_operations }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = defence_in_depth }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = degaussing }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = delay }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = direct_ground_support }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = dispersed_fighting }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = dispersed_industry }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -3600,56 +3236,16 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = dispersed_support }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = dive_bombing }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = dogfighting_experience }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = early_battlecruiser }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = early_battleship }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = early_bomber }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = early_bombs }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = early_carrier }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = early_destroyer }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = early_fighter }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = early_heavy_cruiser }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = early_helicopter }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = early_light_cruiser }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = early_ship_hull_carrier }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -3672,16 +3268,8 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = early_submarine }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = early_transport_plane }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = elastic_defence }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = electronic_mechanical_engineering }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -3712,44 +3300,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = engine_tech_1 }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = engine_tech_2 }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = engine_tech_3 }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = engine_tech_4 }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = engines_1 }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = engines_2 }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = engines_3 }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = engines_4 }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = escort_carriers }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = escort_patrols }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = excavation1 }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -3804,20 +3352,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = fighter_ace_initiative }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = fighter_baiting }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = fighter_sweeps }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = fighter_veteran_initiative }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = fire_control_methods_1 }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -3832,12 +3364,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = firebrigades }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = fleet_in_being }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = fleet_submarines }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -3864,52 +3388,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = floating_airfield }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = floating_airfield_bs }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = floating_airfield_ti }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = floating_fortress }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = floating_fortress_bs }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = floating_fortress_ti }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = flying_fortress }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = force_rotation }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = formation_fighting }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = formation_flying }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = forward_interception }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = forward_observers }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = fuel_refining }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -3956,48 +3432,12 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = grand_assault }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = grand_battle_plan }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = grand_battlefleet }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = grand_mechanized_offensive }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = ground_support_integration }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = guerilla_warfare }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = gwtank }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = gwtank_chassis }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = heavy_battleship }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = heavy_battleship2 }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = heavy_bombs }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = helicopter_gunship }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -4020,32 +3460,8 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = high_level_bombing }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = home_defence }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = homing_torpedo }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = human_infantry_offensive }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = human_wave_offensive }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = hunt_and_destroy }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = hunter_killer_groups }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = improve_antiair1 }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -4120,12 +3536,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = improved_battleship }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = improved_carrier }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = improved_cavity_magnatron }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -4140,8 +3548,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = improved_destroyer }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = improved_dp_light_battery }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -4164,16 +3568,8 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = improved_heavy_cruiser }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = improved_heavy_shell }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = improved_heavy_tank_chassis }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = improved_infantry_weapons }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -4184,16 +3580,8 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = improved_large_airframe }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = improved_light_battery }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = improved_light_cruiser }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = improved_light_shell }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -4204,20 +3592,8 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = improved_light_tank_chassis }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = improved_machine_tools }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = improved_medium_airframe }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = improved_medium_tank_chassis }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = improved_naval_mines }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -4256,16 +3632,8 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = improved_small_airframe }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = improved_sonar }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = improved_submarine }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = improved_submarine_mine_laying }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -4336,8 +3704,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = infantry_offensive }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = infantry_weapons }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -4352,80 +3716,12 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = infiltration_assault }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = infiltration_bombing }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = infiltration_in_depth }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = infrastructure_destruction }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = integrated_convoy_defence }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = integrated_convoy_defence_bs }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = intergrated_support }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = isotope_separation_centrifugal }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = iw_large_airframe }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = iw_medium_airframe }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = iw_small_airframe }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = kampfgruppe }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = keypoint_bombing }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = land_multi_charge_large_caliber_gun_tech }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = landing_craft }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = large_front_offensive }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = large_front_operations }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = logistical_bombing }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = low_echelon_support }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = magnetic_detonator }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -4456,8 +3752,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = main_battle_tank_chassis }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = marines }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -4476,28 +3768,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = mass_assault }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = mass_destruction }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = mass_motorization }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = massed_bomber_formations }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = massed_strikes }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = masterful_blitz }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = mechanical_computing }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -4528,44 +3796,8 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = mechanised_offensive }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = mechanized_wave }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = miniature_fighters }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = mobile_defence }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = mobile_infantry }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = mobile_warfare }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = modern_blitzkrieg }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = modern_depth_charges }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = modern_large_airframe }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = modern_medium_airframe }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = modern_oil_processing }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -4604,8 +3836,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = modern_small_airframe }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = modern_sonar }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -4644,36 +3872,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = multialtitude_flying }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = naval_air_operations }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = naval_strike_tactics }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = naval_strike_torpedo_tactics }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = naval_strike_torpedo_tactics_oi }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = nd_conscription }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = night_assault_tactics }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = night_bombing }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = night_vision }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -4700,28 +3896,16 @@
+
+ 
+ }
++if = { limit = { is_researching_technology = nuclear_reactor_heavy_water }
++add_to_variable = { APDC_eco_research_active = 1 }
++
++}
+ if = { limit = { is_researching_technology = nukes }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = offensive_formations }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = oil_processing }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = operational_concentration }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = operational_destruction }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = overwhelming_firepower }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = paratroopers }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -4740,40 +3924,16 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = peoples_army }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = phased_array }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = photo_reconnaisance }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = pocket_defence }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = prepared_defense }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = radio_detection }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = raider_patrols }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = railway_gun }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = range_improvements }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = rangers_tech }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -4792,12 +3952,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = regimental_combat_teams }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = reinforced_wings_mothership }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = rocket_artillery }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -4824,8 +3976,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = schwerpunk }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = scout_plane1 }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -4844,8 +3992,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = shock_and_awe }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = smoke_generator }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -4876,28 +4020,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = sp_armored_advanced_flamethrower_tech }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = sp_armored_lc_high_impact_obliterator_cannon_tech }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = sp_armored_lc_naval_engine_conversion_tech }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = sp_armored_lc_specialized_field_manuals_tech }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = sp_armored_lc_transmission_improvements_tech }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = sp_armored_lc_weapon_fire_control_tech }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = sp_artillery1 }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -4916,8 +4036,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = sp_centrifugal_jet_tech }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = strategic_airlifter }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -4944,8 +4060,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = strategic_destruction }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = streamlined_line }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -4976,68 +4088,16 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = submarine_offensive }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = submarine_offensive_bs }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = submarine_operations }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = submarine_operations_bs }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = subsidiary_carrier_role }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = subsidiary_carrier_role_ti }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = suicide_charge }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = sup_delay }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = sup_mechanized_offensive }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = super_heavy_tank_chassis }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = superior_firepower }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = supersonic_small_airframe }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = survivability_studies }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = synth_oil_experiments }
+ add_to_variable = { APDC_eco_research_active = 1 }
+ 
+ }
+-if = { limit = { is_researching_technology = tactical_control }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = tank_landing_craft }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = tech_engineers }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -5184,12 +4244,4 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = trade_interdiction }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = transport }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = transport_helicopter }
+ add_to_variable = { APDC_eco_research_active = 1 }
+@@ -5212,70 +4264,6 @@
+
+ 
+ }
+-if = { limit = { is_researching_technology = trench_warfare }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = undersea_blockade }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = undersea_blockade_bs }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = unrestricted_submarine_warfare }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = vast_offensives }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = volkssturm }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+ if = { limit = { is_researching_technology = wartime_train }
+ add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = werwolf_guerillas }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_researching_technology = wolfpacks }
+-add_to_variable = { APDC_eco_research_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_air_bouncing_bomb }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_air_earthshaker_bomb }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_air_intercontinental_bomber }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_air_mothership_aircraft }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_air_jet_engine }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_air_axial_jet_engine }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_air_supersonic_jet }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_air_helicopter }
+-add_to_variable = { APDC_eco_project_active = 1 }
+ 
+ }
+@@ -5288,105 +4276,9 @@
+
+ 
+ }
+-if = { limit = { is_special_project_being_researched = sp:sp_land_land_cruiser }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_land_super_heavy_howitzer }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_land_self_propelled_super_heavy_howitzer }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+ if = { limit = { is_special_project_being_researched = sp:sp_land_super_heavy_railway_gun }
+ add_to_variable = { APDC_eco_project_active = 1 }
+ 
+ }
+-if = { limit = { is_special_project_being_researched = sp:sp_land_multi_charge_large_caliber_gun }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_land_stronghold_network }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_land_large_caliber_kinetic_energy_sabot }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_naval_cruiser_submarine }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_naval_fleet_submarine }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_naval_nuclear_submarine }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_naval_rocket_launching_submarine }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_naval_nuclear_missile_submarine }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_naval_nuclear_torpedo }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_naval_midget_submarine }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_naval_aip_engine }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_naval_anechoic_tiles }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_naval_submarine_carrier }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_naval_torpedo_cruiser }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_naval_super_heavy_battleship }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_naval_modern_battleship }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_naval_modern_carrier }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_naval_ice_carrier }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_naval_underway_replenishment }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_naval_proximity_fuze }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_naval_support_ships }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_naval_escort_carrier }
++if = { limit = { is_special_project_being_researched = sp:sp_nuclear_engines }
+ add_to_variable = { APDC_eco_project_active = 1 }
+ 
+@@ -5400,8 +4292,4 @@
+
+ 
+ }
+-if = { limit = { is_special_project_being_researched = sp:sp_nuclear_engines }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+ if = { limit = { is_special_project_being_researched = sp:sp_nuclear_bomb }
+ add_to_variable = { APDC_eco_project_active = 1 }
+@@ -5412,33 +4300,5 @@
+
+ 
+ }
+-if = { limit = { is_special_project_being_researched = sp:sp_nuclear_warheads }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+ if = { limit = { is_special_project_being_researched = sp:sp_air_radar }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_rockets_flying_bomb }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_rockets_ballistic_missile }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_rockets_medium_range_ballistic_missile }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_rockets_long_range_ballistic_missile }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_rockets_ground_to_air_missile }
+-add_to_variable = { APDC_eco_project_active = 1 }
+-
+-}
+-if = { limit = { is_special_project_being_researched = sp:sp_rocket_interceptor }
+ add_to_variable = { APDC_eco_project_active = 1 }
+ 
+@@ -5614,5 +4474,6 @@
+
+ APDC_eco_produce_equipment = yes
+ add_to_variable = { APDC_eco_day_ticks = 1 }
+-if = { limit = { has_variable = APDC_eco_panel_open }
++if = { limit = { is_ai = no has_variable = APDC_eco_panel_open }
++APDC_eco_calculate_budget = yes
+ APDC_eco_sync_ui = yes
+ }

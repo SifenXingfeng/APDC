@@ -1,0 +1,148 @@
+--- before/tools/performance/weekly_economy_qa.py
++++ current/tools/performance/weekly_economy_qa.py
+@@ -0,0 +1,145 @@
++"""Isolated engine assertions for weekly matching, stock migration and caches."""
++from pathlib import Path
++import datetime, json, re, sys
++
++ROOT=Path(__file__).resolve().parents[2]
++sys.path.insert(0,str(ROOT/'tools/economy'))
++import functional_qa
++from common import parse,walk,patches,lower_math,block,cond,setv,calc,check
++from build_backend import effect,var,add
++import prepare_runtime
++
++
++def build():
++    stamp=datetime.datetime.now().strftime('%H%M%S')
++    qa=Path('D:/APDC_WeeklyEconomyQA_20261023_'+stamp)
++    assert not qa.exists()
++    prepare_runtime.QA=qa
++    prepare_runtime.prepare(toolpack=True)
++    functional_qa.QA=qa
++    (qa/'driver/common/scripted_effects').mkdir(parents=True,exist_ok=True)
++    functional_qa.build()
++    path=qa/'driver/common/scripted_effects/APDC_economy_qa.txt'
++    raw=path.read_text('utf-8')
++    raw=re.sub(r'\bAPDC_eco_stock_(\d+)\b',r'APDC_eco_stocks^\1',raw)
++    raw=re.sub(r'\bAPDC_eco_eq_progress_(\d+)\b',r'APDC_eco_production_progress^\1',raw)
++    drain='APDC_eco_market_begin = yes\nfor_loop_effect = { start = 0 end = 7 value = QA_market_drain APDC_eco_market_step = yes }\n'
++    raw=raw.replace('APDC_eco_clear_world_market = yes\n','APDC_eco_clear_world_market = yes\n'+drain)
++    techs={n.key for p in (ROOT/'common/technologies').glob('*.txt') for w in parse(p.read_text('utf-8-sig')) if w.key=='technologies' for n in w.children if n.value is None}
++    edits=[]
++    for n in walk(parse(raw)):
++        if n.key=='set_technology':edits.extend((c.start,c.end,'') for c in n.children if c.key not in techs and c.key not in ['popup','show_tech_effect'])
++    path.write_text(patches(raw,edits),'utf-8')
++    assertion=functional_qa.assertion
++    items=json.loads((ROOT/'docs/economy/equipment_catalogue.json').read_text('utf-8'))
++    first=next(e for e in items if e['id']=='infantry_equipment_0')
++    second=next(e for e in items if e['id']=='infantry_equipment_1')
++    i=first['index'];j=second['index']
++    a=f'APDC_eco_stocks^{i}';p=f'APDC_eco_production_progress^{i}'
++    # Counters exist in the isolated override only.
++    for rel,counters in [
++        ('common/scripted_effects/APDC_economy_equipment.txt',{'APDC_eco_refresh_equipment':'QA_equipment_refreshes'}),
++        ('common/scripted_effects/APDC_economy_backend.txt',{'APDC_eco_collect_country_statistics':'QA_statistics_rollups','APDC_eco_count_research_work':'QA_research_counts'}),
++        ('common/scripted_effects/APDC_economy_market.txt',{'APDC_eco_market_begin_0':'QA_market_starts','APDC_eco_market_begin_1':'QA_market_starts','APDC_eco_market_match_seller_0':'QA_sellers_processed','APDC_eco_market_match_seller_1':'QA_sellers_processed'})]:
++        source=(ROOT/rel).read_text('utf-8');edits=[]
++        for n in parse(source):
++            if n.key in counters:
++                key=counters[n.key]
++                body=f'\nadd_to_variable = {{ {key} = 1 }}\nadd_to_variable = {{ global.{key} = 1 }}\n'
++                edits.append((n.value_end-1,n.value_end-1,body))
++        target=qa/'driver'/rel;target.parent.mkdir(parents=True,exist_ok=True);target.write_text(patches(source,edits),'utf-8')
++    # The arithmetic fixture uses early infantry models. Unlock them before
++    # checking their UI rows; GER's APDC bootstrap starts with model 2 only.
++    b='set_technology = { infantry_weapons = 1 infantry_weapons1 = 1 popup = no }\nAPDC_eco_refresh_equipment = yes\n'
++    b+='set_variable = { APDC_eco_stock_'+str(i)+' = 13 }\nset_variable = { APDC_eco_eq_progress_'+str(i)+' = 0.173 }\nclr_country_flag = APDC_eco_array_stocks_v1\nAPDC_eco_initialize_stock_arrays = yes\n'
++    b+=assertion('legacy_stock_and_progress_migrate_exactly',f'check_variable = {{ {a} = 13 }} check_variable = {{ {p} = 0.173 }}')
++    b+='set_variable = { APDC_eco_stock_'+str(i)+' = 999 }\nAPDC_eco_initialize_stock_arrays = yes\n'
++    b+=assertion('legacy_migration_does_not_run_twice',f'check_variable = {{ {a} = 13 }} check_variable = {{ {p} = 0.173 }}')
++    size=max(json.loads((ROOT/'tools/economy/equipment_ids.json').read_text('utf-8')).values())+1
++    b+=f'resize_array = {{ array = APDC_eco_stocks size = {size-1} }}\nresize_array = {{ array = APDC_eco_production_progress size = {size-1} }}\nAPDC_eco_initialize_stock_arrays = yes\n'
++    b+=assertion('stock_array_growth_preserves_existing_ids',f'check_variable = {{ APDC_eco_stocks^num = {size} }} check_variable = {{ APDC_eco_production_progress^num = {size} }} check_variable = {{ {a} = 13 }} check_variable = {{ {p} = 0.173 }}')
++    b+='APDC_eco_refresh_equipment = yes\nAPDC_eco_refresh_equipment = yes\n'
++    b+=assertion('directory_refresh_preserves_stock_and_progress',f'check_variable = {{ {a} = 13 }} check_variable = {{ {p} = 0.173 }}')
++    b+=setv('qa_refresh_before','QA_equipment_refreshes')+'APDC_eco_equipment_unlocked = yes\n'
++    b+=assertion('unlock_invalidates_directory','has_country_flag = APDC_eco_equipment_dirty')
++    b+='APDC_eco_ensure_equipment = yes\n'+calc('qa_refresh_delta','QA_equipment_refreshes',('subtract',var('qa_refresh_before')))
++    b+=assertion('unlock_refreshes_before_next_production',check('qa_refresh_delta','=',1)+' NOT = { has_country_flag = APDC_eco_equipment_dirty }')
++    b+=f'clear_array = APDC_eco_equipment_active\nadd_to_array = {{ array = APDC_eco_equipment_active value = {i} }}\nadd_to_array = {{ array = APDC_eco_equipment_active value = {j} }}\n'
++    b+=f'set_variable = {{ {a} = 0 }}\nset_variable = {{ {p} = 0 }}\nset_variable = {{ APDC_eco_stocks^{j} = 0 }}\nset_variable = {{ APDC_eco_production_progress^{j} = 0 }}\n'+setv('private_mil',4)+'APDC_eco_produce_equipment = yes\n'
++    b+=calc('qa_expected_units',var('ic_per_type'),('divide',first['cost']),('round','down'))
++    b+=assertion('daily_production_uses_active_ids',f'check_variable = {{ {a} = APDC_eco_qa_expected_units }}')
++    b+=calc('qa_expected_progress',var('qa_expected_units'),('multiply',-first['cost']),('add',var('ic_per_type')))
++    b+=f'log = "APDC_WEEKLY_PRODUCTION cost=[?APDC_eco_production_cost] literal=[?global.APDC_eco_equipment_costs^{i}] id=[?global.APDC_eco_equipment_lookup_id] ic=[?APDC_eco_ic_per_type] stock=[?{a}] progress=[?{p}] expected=[?APDC_eco_qa_expected_units] remainder=[?APDC_eco_qa_expected_progress]"\n'
++    b+=assertion('daily_production_preserves_fraction',f'check_variable = {{ {p} = APDC_eco_qa_expected_progress }}')
++    b+='APDC_eco_sync_ui = yes\n'
++    b+=assertion('ui_stock_matches_production_array',f'check_variable = {{ APDC_eco_ui_stock^{i} = {a} }}')
++    b+='APDC_eco_refresh_equipment = yes\nAPDC_eco_calculate_country = yes\n'+setv('qa_rollups_before','QA_statistics_rollups')+'APDC_eco_calculate_country = yes\nAPDC_eco_calculate_country = yes\n'+calc('qa_rollup_delta','QA_statistics_rollups',('subtract',var('qa_rollups_before')))
++    b+=assertion('same_day_statistics_are_reused',check('qa_rollup_delta','=',0))
++    b+='APDC_eco_complete_civ = yes\nAPDC_eco_calculate_country = yes\n'+calc('qa_rollup_delta','QA_statistics_rollups',('subtract',var('qa_rollups_before')))
++    b+=assertion('construction_invalidates_statistics',check('qa_rollup_delta','=',1))
++    b+='clr_country_flag = APDC_eco_research_counted_today\n'+setv('qa_counts_before','QA_research_counts')+'APDC_eco_calculate_budget = yes\nAPDC_eco_calculate_budget = yes\n'+calc('qa_counts_delta','QA_research_counts',('subtract',var('qa_counts_before')))
++    b+=assertion('same_day_research_counts_are_reused',check('qa_counts_delta','=',1))
++    b+='clr_country_flag = APDC_eco_research_counted_today\nAPDC_eco_calculate_budget = yes\n'+calc('qa_counts_delta','QA_research_counts',('subtract',var('qa_counts_before')))
++    b+=assertion('forced_budget_recounts_current_research',check('qa_counts_delta','=',2))
++    s=effect('qa_weekly_arrays',b)
++    b='every_country = { set_variable = { APDC_eco_import_target_m = 0 } set_variable = { APDC_eco_export_target_m = 0 } }\n'
++    b+='GER = { set_variable = { APDC_eco_export_target_m = 6 } set_variable = { APDC_eco_tariff = 1 } }\nSOV = { set_variable = { APDC_eco_export_target_m = 10 } set_variable = { APDC_eco_tariff = 2.5 } }\nFRA = { set_variable = { APDC_eco_import_target_m = 1 } set_variable = { APDC_eco_tariff = 2.5 } }\nENG = { set_variable = { APDC_eco_import_target_m = 5 } }\nLLU = { set_variable = { APDC_eco_import_target_m = 1.5 } }\n'
++    b+=setv('qa_active_before','global.APDC_eco_market_active_buffer')+'FRA = { set_variable = { GER.APDC_eco_qa_imports_before = APDC_eco_imports_m } }\nAPDC_eco_market_begin = yes\nAPDC_eco_market_step = yes\n'
++    b+=assertion('partial_batch_keeps_active_plan','has_global_flag = APDC_eco_market_busy '+check('qa_active_before','=','global.APDC_eco_market_active_buffer'))
++    b+='FRA = { '+assertion('partial_batch_does_not_publish_imports',check('imports_m','=','GER.APDC_eco_qa_imports_before'))+' }\nAPDC_eco_market_step = yes\n'
++    b+=assertion('complete_batch_publishes_new_plan','NOT = { has_global_flag = APDC_eco_market_busy } '+check('exports_m','=',6))
++    b+='SOV = { '+assertion('lower_tariff_seller_has_priority',check('exports_m','=',1.5))+' }\nFRA = { '+assertion('small_importer_filled_first',check('imports_m','=',1))+' }\nENG = { '+assertion('equal_share_remainder_fills_large_importer',check('imports_m','=',5))+' }\nLLU = { '+assertion('medium_importer_filled',check('imports_m','=',1.5))+' }\n'
++    b+='FRA = { set_variable = { APDC_eco_import_target_m = 0.25 } }\nAPDC_eco_validate_world_trade = yes\n'
++    b+='FRA = { '+assertion('daily_trade_shrinks_to_demand',check('imports_m','=',.25)+' '+check('tariffs_m','=',.625))+' }\n'
++    b+=assertion('daily_shrink_updates_exporter',check('exports_m','=',5.25))
++    b+='FRA = { set_variable = { APDC_eco_import_target_m = 1 } }\nAPDC_eco_validate_world_trade = yes\nFRA = { '+assertion('daily_validation_does_not_rematch',check('imports_m','=',.25))+' }\n'
++    b+=drain+'FRA = { '+assertion('weekly_rematch_restores_imports',check('imports_m','=',1))+' }\n'
++    b+='FRA = { set_variable = { APDC_eco_import_target_m = 0.25 } }\nAPDC_eco_validate_world_trade = yes\n'
++    b+='set_variable = { global.QA_trade_balance = 0 }\nevery_country = { add_to_variable = { global.QA_trade_balance = APDC_eco_imports_m } subtract_from_variable = { global.QA_trade_balance = APDC_eco_exports_m } }\n'
++    b+=assertion('buffered_market_conserves_goods','check_variable = { global.QA_trade_balance > -0.001 } check_variable = { global.QA_trade_balance < 0.001 }')
++    b+='APDC_eco_render_trade = yes\n'
++    b+=assertion('display_rows_have_matching_amounts','check_variable = { APDC_eco_trade_partners^num = APDC_eco_trade_amounts^num }')
++    b+=setv('qa_display_sum',0)+'for_each_loop = { array = APDC_eco_trade_amounts add_to_variable = { APDC_eco_qa_display_sum = v } }\n'+calc('qa_display_balance',var('qa_display_sum'),('add',var('exports_m')))
++    b+=assertion('display_trade_amounts_match_live_exports',check('qa_display_balance','=',0)+' '+check('qa_display_sum','<',0))
++    b+='SOV = { declare_war_on = { target = ENG type = annex_everything } '+assertion('war_event_cancels_active_exports',check('exports_m','=',0))+' white_peace = { tag = ENG } }\n'
++    # break_embargo uses ROOT. GER sends and removes its own embargo here.
++    b+=drain+'send_embargo = LLU\nAPDC_eco_validate_world_trade = yes\nLLU = { '+assertion('embargo_cancels_import',check('imports_m','=',0))+' }\n'
++    b+=assertion('embargo_cancels_paired_export',check('exports_m','=',4.5))+'break_embargo = LLU\n'
++    b+='SOV = { set_variable = { APDC_eco_tariff = 1 } }\n'+drain
++    b+='SOV = { '+assertion('same_tariff_larger_exporter_has_priority',check('exports_m','=',6.75))+' }\n'
++    b+=assertion('same_tariff_smaller_exporter_waits',check('exports_m','=',0))
++    b+='every_country = { set_variable = { APDC_eco_import_target_m = 0 } }\n'+drain
++    b+=assertion('no_buyers_no_exports',check('exports_m','=',0))
++    b+='every_country = { set_variable = { APDC_eco_export_target_m = 0 } }\nFRA = { set_variable = { APDC_eco_import_target_m = 1 } }\n'+drain
++    b+='FRA = { '+assertion('no_sellers_no_imports',check('imports_m','=',0))+' }\n'
++    b+='every_country = { APDC_eco_refresh_policies = yes APDC_eco_calculate_country = yes }\n'+drain
++    s+=effect('qa_weekly_market',b)
++    probe='''GER = {
++clear_array = QA_probe_array
++add_to_array = { array = QA_probe_array value = 79 }
++add_to_array = { array = QA_probe_array value = 80 }
++for_each_loop = { array = QA_probe_array value = QA_custom_value index = QA_custom_index
++ set_variable = { QA_local_copy = QA_custom_value }
++ set_variable = { global.QA_global_copy = QA_custom_value }
++ set_variable = { global.QA_root_copy = ROOT.QA_custom_value }
++ set_variable = { global.QA_this_copy = THIS.QA_custom_value }
++ log = "APDC_LOOP_PROBE named=[?QA_custom_value] v=[?v] index=[?QA_custom_index] i=[?i] local=[?QA_local_copy] global=[?global.QA_global_copy] root=[?global.QA_root_copy] this=[?global.QA_this_copy]"
++}
++for_each_loop = { array = QA_probe_array
++ log = "APDC_LOOP_DEFAULT v=[?v] i=[?i]"
++}
++}
++'''
++    s+=effect('qa_loop_probe',probe)
++    (qa/'driver/common/scripted_effects/APDC_weekly_economy_assertions.txt').write_text(lower_math(s),'utf-8')
++    on='on_actions = { on_startup = { effect = { GER = { APDC_eco_qa_loop_probe = yes } } } on_daily_GER = { effect = {\n'
++    on+=cond('date > 2060.1.7 NOT = { has_country_flag = QA_weekly_arrays_tested }','set_country_flag = QA_weekly_arrays_tested\nAPDC_eco_qa_weekly_arrays = yes\n')
++    on+=cond('date > 2060.1.8 NOT = { has_country_flag = QA_weekly_market_tested }','set_country_flag = QA_weekly_market_tested\nAPDC_eco_qa_weekly_market = yes\n')
++    on+='log = "APDC_WEEKLY DAY date=[GetDateText] ticks=[?APDC_eco_day_ticks] weeks=[?APDC_eco_week_ticks] starts=[?global.QA_market_starts] cycles=[?global.APDC_eco_market_completed_cycles] cursor=[?global.APDC_eco_market_cursor] quota=[?global.APDC_eco_market_batch_size] refreshed=[?global.QA_equipment_refreshes] rollups=[?global.QA_statistics_rollups] research=[?global.QA_research_counts]"\n} } }\n'
++    (qa/'driver/common/on_actions/zzzzz_APDC_weekly_economy_assertions.txt').write_text(on,'utf-8')
++    out=ROOT/'docs/performance/20261023-weekly-economy'
++    (out/'qa-profile.txt').write_text(str(qa),'utf-8')
++    print('Weekly-economy QA ready:',qa)
++
++
++if __name__=='__main__':build()

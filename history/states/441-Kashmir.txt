@@ -1,37 +1,66 @@
 state = {
 	id = 441
 	name = "STATE_441"
-	history = {
-		owner = PAK
-		buildings = {
-			infrastructure = 2
-		}
-		add_core_of = PAK
-		victory_points = {
-			1910
-			15
-		}
-		victory_points = {
-			18880
-			2
-		}
-		victory_points = {
-			16011
-			2
-		}
-		set_state_flag = GDP_regions_jammu_kashmir
-		set_state_flag = state_renamings
-	}
 	provinces = {
-		1910
+		7273
+		7316
+		8005
+		10905
+		12754
+		12884
+		16007
 		16010
 		16011
-		16012
+		16013
+		18851
 		18876
-		18880
+		18881
+		19010
+		19012
 	}
-	manpower = 1751308
+	manpower = 2051074
 	buildings_max_level_factor = 1
 	state_category = rural
 	local_supplies = 0
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		add_claim_by = PAK
+		victory_points = {
+			10905
+			1
+		}
+		victory_points = {
+			12754
+			10
+		}
+		victory_points = {
+			16010
+			3
+		}
+		victory_points = {
+			16011
+			10
+		}
+		victory_points = {
+			18851
+			3
+		}
+		victory_points = {
+			18881
+			1
+		}
+		victory_points = {
+			19010
+			1
+		}
+		victory_points = {
+			19012
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
 }

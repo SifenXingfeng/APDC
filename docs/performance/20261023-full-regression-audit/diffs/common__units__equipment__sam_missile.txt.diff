@@ -1,0 +1,17 @@
+--- before/common/units/equipment/sam_missile.txt
++++ current/common/units/equipment/sam_missile.txt
+@@ -9,12 +9,12 @@
+ 					has_dlc = "Gotterdammerung"
+ 				}
+ 				NOT = {
+-					has_idea = BUL_army_restrictions_aat
++					always = no
+ 				}
+ 			}
+ 			else = {
+ 				NOT = {
+-					has_idea = BUL_army_restrictions
++					always = no
+ 				}
+ 			}
+ 		}

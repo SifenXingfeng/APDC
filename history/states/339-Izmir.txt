@@ -1,52 +1,66 @@
 state = {
 	id = 339
 	name = "STATE_339"
+	manpower = 1401889
 	resources = {
-		steel = 12
-		
-		aluminium = 16
+		chromium = 50
 	}
-
+	state_category = large_town
 	history = {
 		owner = TUR
+		controller = TUR
+		add_core_of = TUR
 		victory_points = {
-			4112 20
+			928
+			2
 		}
 		victory_points = {
-			6992 3
+			4112
+			15
 		}
 		victory_points = {
-			16211 3
+			6992
+			2
 		}
 		victory_points = {
-			11848 2
+			7130
+			1
 		}
 		victory_points = {
-			7130 2
+			11848
+			1
 		}
 		victory_points = {
-			928 6
+			16211
+			3
+		}
+		victory_points = {
+			16213
+			3
+		}
+		victory_points = {
+			16214
+			2
 		}
 		buildings = {
-			infrastructure = 5
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
 			4112 = {
 				naval_base = 5
 			}
-			air_base = 2
-			radar_station = 1
-			
-			
-			
-			
 		}
-		add_core_of = TUR
 	}
-
 	provinces = {
-		928 3927 4112 6992 7130 9921 11848 11898 16210 16211
+		928
+		4112
+		6992
+		7130
+		11848
+		16210
+		16211
+		16213
+		16214
 	}
-	manpower = 1834471
-	buildings_max_level_factor = 1.000
-	state_category = large_city
-	local_supplies = 0.000
+	local_supplies = 8.0
 }

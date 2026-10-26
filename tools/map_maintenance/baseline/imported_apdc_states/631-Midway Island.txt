@@ -1,0 +1,24 @@
+state = {
+	id = 631
+	name = "STATE_631"
+	provinces = {
+		13052
+		19996
+		20001
+	}
+	manpower = 107398
+	buildings_max_level_factor = 1
+	state_category = tiny_island
+	local_supplies = 0
+	history = {
+		owner = USA
+		controller = USA
+		add_core_of = HAW
+		buildings = {
+			infrastructure = 2
+			13052 = {
+				naval_base = 1
+			}
+		}
+	}
+}

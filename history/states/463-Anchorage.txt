@@ -1,0 +1,40 @@
+state = {
+	id = 463
+	name = "STATE_463"
+	provinces = {
+		4833
+		4848
+		10679
+		10707
+		13069
+		13091
+		17170
+		17173
+		17186
+		17226
+		17228
+		17229
+		17230
+		17234
+		17243
+	}
+	manpower = 15112
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = ALS
+		controller = ALS
+		add_core_of = ALS
+		victory_points = {
+			13091
+			3
+		}
+		buildings = {
+			infrastructure = 1
+			13091 = {
+				naval_base = 1
+			}
+		}
+	}
+}

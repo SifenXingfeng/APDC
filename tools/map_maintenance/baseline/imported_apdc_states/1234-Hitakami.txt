@@ -1,0 +1,42 @@
+state = {
+	id = 1234
+	name = "STATE_1234"
+	provinces = {
+		1063
+		1165
+		3848
+		6870
+		9807
+		12056
+		15886
+		19717
+		19794
+	}
+	manpower = 3698438
+	resources = {
+		coal = 1
+		oil = 2
+		steel = 6
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+	history = {
+		owner = EZO
+		controller = EZO
+		add_core_of = EZO
+		add_core_of = JAP
+		victory_points = {
+			3848
+			3
+		}
+		victory_points = {
+			15886
+			3
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 6
+		}
+	}
+}

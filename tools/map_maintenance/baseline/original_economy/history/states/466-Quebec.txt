@@ -1,0 +1,28 @@
+state = {
+	id = 466
+	name = "STATE_466"
+	manpower = 8860
+	resources = {
+		aluminium = 4.000
+	}
+
+	history = {
+
+		owner = CAN
+		add_core_of = CAN
+		add_core_of = QUE
+
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces = {
+		3208 7364 12147 13166 13184 13196 17251 17260 17261
+	}
+	
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -1,0 +1,22 @@
+--- before/common/scripted_triggers/GRE_scripted_triggers.txt
++++ current/common/scripted_triggers/GRE_scripted_triggers.txt
+@@ -13,19 +13,3 @@
+ #	}
+ # 
+ 
+-GRE_is_historical_ai = {
+-	OR = {
+-		AND = {
+-			is_historical_focus_on = yes
+-			has_game_rule = {
+-				rule = GRE_ai_behavior
+-				option = DEFAULT
+-			}	
+-		}
+-		has_country_flag = GRE_AI_RANDOM_NEUTRALITY_HISTORICAL
+-		has_game_rule = {
+-			rule = GRE_ai_behavior
+-			option = HISTORICAL
+-		}
+-	}
+-}

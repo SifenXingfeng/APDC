@@ -1,0 +1,29 @@
+--- before/common/military_industrial_organization/organizations/SIA_organization.txt
++++ current/common/military_industrial_organization/organizations/SIA_organization.txt
+@@ -37,7 +37,7 @@
+ 	}
+ 
+ 	available =  {
+-		SIA = { NOT = { has_completed_focus = SIA_sell_bangkok_dock_co } }
++		SIA = { NOT = { always = no } }
+ 	}
+ }
+ 
+@@ -71,7 +71,7 @@
+ 
+ 		available = {
+ 			owner = {
+-				has_completed_focus = SIA_accept_a_japanese_technical_mission
++				always = no
+ 			}
+ 		}
+ 
+@@ -94,7 +94,7 @@
+ 
+ 		available = {
+ 			owner = {
+-				has_completed_focus = SIA_preserve_american_procurement_channels
++				always = no
+ 			}
+ 		}
+ 

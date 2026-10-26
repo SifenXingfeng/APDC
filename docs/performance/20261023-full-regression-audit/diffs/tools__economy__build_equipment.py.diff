@@ -1,0 +1,157 @@
+--- before/tools/economy/build_equipment.py
++++ current/tools/economy/build_equipment.py
+@@ -1,6 +1,6 @@
+ """Private equipment presets, parallel production, stock and immediate purchases."""
+ from collections import defaultdict
+-import json,re
++import hashlib,json,re
+ from common import *
+ from build_backend import effect, var, mod, add, lim, P
+ 
+@@ -92,55 +92,92 @@
+    'module_unlocks':[module_techs[m] for m in selected.values() if module_techs[m]],
+    'can_produce':render_nodes(can_produce.children) if can_produce else ''})
+  result.sort(key=lambda e:(e['family'],e['priority'],e['year'],e['id']))
+- for i,e in enumerate(result,1):e['index']=i
++ # Stock, production progress and unlock flags are saved under numeric IDs.
++ # Keep removed entries reserved so pruning old equipment never reassigns a
++ # country's existing stock to a different equipment type.
++ registry_path=Path(__file__).with_name('equipment_ids.json')
++ registry=json.loads(registry_path.read_text('utf-8'))
++ assert len(set(registry.values()))==len(registry)
++ assert all(isinstance(i,int) and i>0 for i in registry.values())
++ next_index=max(registry.values(),default=0)+1
++ changed=False
++ for e in result:
++  if e['id'] not in registry:
++   registry[e['id']]=next_index;next_index+=1;changed=True
++  e['index']=registry[e['id']]
++ if changed:registry_path.write_text(json.dumps(registry,indent=2,sort_keys=True)+'\n','utf-8')
+  (WORK/'equipment_catalogue.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
+  return result
+ 
+ def build():
+  items=catalogue();families=defaultdict(list)
+  for e in items:families[e['family']].append(e)
+- refresh='clear_array = APDC_eco_equipment_rows\nclear_array = APDC_eco_equipment_active\n'
++ registry=json.loads(Path(__file__).with_name('equipment_ids.json').read_text('utf-8'))
++ size=max(registry.values())+1
++ signature=hashlib.sha256(json.dumps([(e['index'],e['cost']) for e in items]).encode()).hexdigest()[:12]
++ schema_flag='APDC_eco_equipment_constants_'+signature
++ constants='clear_array = global.APDC_eco_equipment_costs\nresize_array = { array = global.APDC_eco_equipment_costs size = '+str(size)+' value = 0 }\n'
++ constants+=''.join('set_variable = { global.APDC_eco_equipment_costs^'+str(e['index'])+' = '+str(e['cost'])+' }\n' for e in items)
++ constants+='set_global_flag = '+schema_flag+'\n'
++ s=effect('initialize_equipment_constants',cond('NOT = { has_global_flag = '+schema_flag+' }',constants))
++ migration=''
++ for array in ['stocks','production_progress']:
++  migration+='resize_array = { array = APDC_eco_'+array+' size = '+str(size)+' value = 0 }\n'
++ for i in sorted(registry.values()):
++  migration+=f'set_variable = {{ APDC_eco_stocks^{i} = APDC_eco_stock_{i} }}\nset_variable = {{ APDC_eco_production_progress^{i} = APDC_eco_eq_progress_{i} }}\n'
++ migration+='set_country_flag = APDC_eco_array_stocks_v1\nset_country_flag = APDC_eco_private_stock_dirty\n'
++ # Retain all old scalar values as a recovery record, including reserved IDs.
++ grow=''.join(cond('check_variable = { APDC_eco_'+array+'^num < '+str(size)+' }','resize_array = { array = APDC_eco_'+array+' size = '+str(size)+' value = 0 }\n') for array in ['stocks','production_progress'])
++ s+=effect('initialize_stock_arrays',cond('NOT = { has_country_flag = APDC_eco_array_stocks_v1 }',migration)+grow)
++ s+=effect('equipment_unlocked','set_country_flag = APDC_eco_equipment_dirty\nclr_country_flag = APDC_eco_research_counted_today\n')
++ refresh='APDC_eco_initialize_equipment_constants = yes\nAPDC_eco_initialize_stock_arrays = yes\nclear_array = APDC_eco_equipment_rows\nclear_array = APDC_eco_equipment_active\n'
+  for fam,entries in families.items():
+   refresh+='set_temp_variable = { APDC_eco_family_selected = 0 }\n'
+   for e in reversed(entries):
+    i=e['index']; eid=e['id']; un='OR = { '+' '.join('has_tech = '+t for t in e['techs'])+' }' if e['techs'] else 'always = yes'
+    if 'chassis' in eid:un+=' has_dlc = "No Step Back"'
+-   elif 'tank_' in eid or 'gw_tank' in eid:un+=' NOT = { has_dlc = "No Step Back" }'
+    if 'airframe' in eid:un+=' has_dlc = "By Blood Alone"'
+-   elif any(x in eid for x in ['fighter_equipment','CAS_equipment','bomber_equipment']):un+=' NOT = { has_dlc = "By Blood Alone" }'
+    un+=' '+e['can_produce']
+    for techs in e['module_unlocks']:un+=' OR = { '+' '.join('has_tech = '+t for t in techs)+' }'
+    create=''
+    if e['modules']:
+     create='create_equipment_variant = { name = "APDC '+eid+'" type = '+eid+' modules = { '+ ' '.join(k+' = '+v for k,v in e['modules'].items())+' } }\n'
+-   first=setv('stock_'+str(i),0)+setv('eq_progress_'+str(i),0)+create+'set_country_flag = APDC_eco_eq_'+str(i)+'\n'
++   first=create+'set_country_flag = APDC_eco_eq_'+str(i)+'\n'
+    refresh+=cond(un,cond('NOT = { has_country_flag = APDC_eco_eq_'+str(i)+' }',first)+
+     cond('check_variable = { APDC_eco_family_selected = 0 }','add_to_array = { array = APDC_eco_equipment_active value = '+str(i)+' }\nset_temp_variable = { APDC_eco_family_selected = 1 }\n'))
+  for e in items:
+   i=e['index'];refresh+=cond('has_country_flag = APDC_eco_eq_'+str(i),'add_to_array = { array = APDC_eco_equipment_rows value = '+str(i)+' }\n')
+- s=effect('refresh_equipment',refresh)
+- production=calc('private_efficiency','modifier@production_factory_max_efficiency_factor',('add',.5),('max',0))
++ refresh+='clr_country_flag = APDC_eco_equipment_dirty\n'
++ s+=effect('refresh_equipment',refresh)
++ s+=effect('ensure_equipment',cond('OR = { has_country_flag = APDC_eco_equipment_dirty NOT = { has_country_flag = APDC_eco_array_stocks_v1 } NOT = { has_global_flag = '+schema_flag+' } }','APDC_eco_refresh_equipment = yes\n'))
++ production='APDC_eco_ensure_equipment = yes\n'+calc('private_efficiency','modifier@production_factory_max_efficiency_factor',('add',.5),('max',0))
+  production+=calc('private_ic',var('private_mil'),('multiply',3.5),('multiply','{ value = modifier@industrial_capacity_factory add = 1 max = 0 }'),('multiply',var('private_efficiency')))
+  production+=cond('check_variable = { APDC_eco_equipment_active^num > 0 }',calc('ic_per_type',var('private_ic'),('divide','APDC_eco_equipment_active^num')))
+- for e in items:
+-  i=e['index'];p='eq_progress_'+str(i);stock='stock_'+str(i)
+-  production+=cond('is_in_array = { array = APDC_eco_equipment_active value = '+str(i)+' }',
+-   add(p,var('ic_per_type'))+calc('eq_complete',var(p),('divide',e['cost']),('round','down'))+add(stock,var('eq_complete'))+
+-   calc(p,var('eq_complete'),('multiply',-e['cost']),('add',var(p))))
++ produce='for_each_loop = { array = APDC_eco_equipment_active\nset_temp_variable = { APDC_eco_production_id = v }\n'
++ produce+='set_variable = { global.APDC_eco_equipment_lookup_id = APDC_eco_production_id }\n'
++ produce+=setv('production_cost','global.APDC_eco_equipment_costs^global.APDC_eco_equipment_lookup_id')
++ produce+=cond(check('production_cost','>',0),
++  'add_to_variable = { APDC_eco_production_progress^APDC_eco_production_id = APDC_eco_ic_per_type }\n'+
++  calc('eq_complete','APDC_eco_production_progress^APDC_eco_production_id',('divide',var('production_cost')),('round','down'))+
++  'add_to_variable = { APDC_eco_stocks^APDC_eco_production_id = APDC_eco_eq_complete }\n'+
++  calc('production_remainder',var('eq_complete'),('multiply',var('production_cost')),('multiply',-1),('add','APDC_eco_production_progress^APDC_eco_production_id'))+
++  'set_variable = { APDC_eco_production_progress^APDC_eco_production_id = APDC_eco_production_remainder }\n'+
++  cond(check('eq_complete','>',0),'set_country_flag = APDC_eco_private_stock_dirty\n'))+'}\n'
++ production+=cond(check('private_ic','>',0),produce)
+  s+=effect('produce_equipment',production)
+  # A purchase uses a two-part cash balance, retaining single-ruble precision.
+  prepare=''
+  buy=''
+  nationalize=''
+  for e in items:
+-  i=e['index'];stock=var('stock_'+str(i));eid=e['id']; variant=' variant_name = "APDC '+eid+'"' if e['modules'] else ''
++  i=e['index'];stock='APDC_eco_stocks^'+str(i);eid=e['id']; variant=' variant_name = "APDC '+eid+'"' if e['modules'] else ''
+   prepare+=cond(check('purchase_id','=',i),setv('purchase_stock',stock)+setv('purchase_unit_k',e['cost']*.2))
+   deliver='add_equipment_to_stockpile = { type = '+eid+' amount = APDC_eco_purchase_quantity producer = THIS'+variant+' }\n'
+   buy+=cond(check('purchase_id','=',i),
+    'subtract_from_variable = { '+stock+' = APDC_eco_purchase_quantity }\n'+deliver)
+-  nationalize+=cond(check('stock_'+str(i),'>',0),
+-   setv('purchase_quantity',stock)+deliver+setv('stock_'+str(i),0))
+- s+=effect('prepare_purchase',prepare+'clamp_variable = { var = APDC_eco_purchase_quantity min = 0 max = APDC_eco_purchase_stock }\n'+
++  nationalize+=cond('check_variable = { '+stock+' > 0 }',
++   setv('purchase_quantity',stock)+deliver+'set_variable = { '+stock+' = 0 }\n')
++ s+=effect('prepare_purchase','APDC_eco_ensure_equipment = yes\n'+prepare+'clamp_variable = { var = APDC_eco_purchase_quantity min = 0 max = APDC_eco_purchase_stock }\n'+
+   calc('purchase_cost_m',var('purchase_quantity'),('divide',1000),('round','down'))+
+   calc('purchase_tail',var('purchase_quantity'),('mod',1000),('multiply',var('purchase_unit_k')))+
+   calc('purchase_cost_m',var('purchase_cost_m'),('multiply',var('purchase_unit_k')))+
+@@ -150,9 +187,36 @@
+   add('purchase_cost_m',var('purchase_carry'))+calc('purchase_cost_k',var('purchase_carry'),('multiply',-1000),('add',var('purchase_cost_k'))))
+  payment='subtract_from_variable = { APDC_eco_cash_m = APDC_eco_purchase_cost_m }\nsubtract_from_variable = { APDC_eco_cash_k = APDC_eco_purchase_cost_k }\nAPDC_eco_normalize_cash = yes\n'+buy+'APDC_eco_prepare_purchase = yes\nAPDC_eco_calculate_budget = yes\n'
+  s+=effect('purchase_equipment','APDC_eco_prepare_purchase = yes\n'+cond(check('purchase_quantity','>',0)+' '+check('cash_m','>=',0)+' OR = { '+check('cash_m','>',var('purchase_cost_m'))+' AND = { '+check('cash_m','=',var('purchase_cost_m'))+' '+check('cash_k','>=',var('purchase_cost_k'))+' } }',payment))
+- s+=effect('nationalize_stock',nationalize)
++ s+=effect('nationalize_stock',nationalize+'clr_country_flag = APDC_eco_private_stock_dirty\n')
+  write('common/scripted_effects/APDC_economy_equipment.txt',s)
++ install_research_hooks(items)
+  print('Generated',len(items),'private-equipment definitions in',len(families),'families')
+  return items
+ 
++
++def install_research_hooks(items):
++ """Preserve existing callback limits while always invalidating the directory."""
++ relevant={t for e in items for t in e['techs']+e['module_techs']}
++ changed=[];hooked_files=[]
++ for p in effective_files('common/technologies'):
++  raw=p.read_text('utf-8-sig');edits=[]
++  for wrapper in parse(raw):
++   if wrapper.key!='technologies':continue
++   for tech in wrapper.children:
++    if tech.key not in relevant:continue
++    hooked_files.append('common/technologies/'+p.name)
++    callback=tech.get('on_research_complete');limit=tech.get('on_research_complete_limit')
++    if callback and 'APDC_eco_equipment_unlocked' in raw[callback.start:callback.end]:continue
++    old=raw[callback.value_start+1:callback.value_end-1] if callback else ''
++    if limit:
++     old='if = { limit = '+raw[limit.value_start:limit.value_end]+'\n'+old+'\n}\n'
++     edits.append((limit.start,limit.end,''))
++    body=block('on_research_complete',old+'\nhidden_effect = { APDC_eco_equipment_unlocked = yes }\n')
++    if callback:edits.append((callback.start,callback.end,body))
++    else:edits.append((tech.value_end-1,tech.value_end-1,'\n'+body))
++  if edits:
++   target=ROOT/'common/technologies'/p.name
++   write(target.relative_to(ROOT),patches(raw,edits));changed.append(target.relative_to(ROOT).as_posix())
++ (WORK/'equipment_research_hooks.json').write_text(json.dumps({'relevant_technologies':sorted(relevant),'hooked_files':sorted(set(hooked_files)),'updated_files':changed},ensure_ascii=False,indent=2),'utf-8')
++
+ if __name__=='__main__':build()

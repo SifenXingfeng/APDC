@@ -1,0 +1,46 @@
+state = {
+	id = 1352
+	name = "STATE_1352"
+	provinces = {
+		2080
+		5054
+		5081
+		13963
+		13966
+		13970
+		13985
+		13986
+		13996
+		14024
+		14302
+	}
+	manpower = 753572
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = COG
+		controller = COG
+		add_core_of = CMR
+		add_core_of = COG
+		victory_points = {
+			5054
+			1
+		}
+		victory_points = {
+			13996
+			3
+		}
+		victory_points = {
+			14024
+			2
+		}
+		victory_points = {
+			14302
+			1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

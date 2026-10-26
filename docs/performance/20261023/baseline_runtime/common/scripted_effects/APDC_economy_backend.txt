@@ -1,0 +1,4472 @@
+APDC_eco_change_law = {
+if = { limit = { has_country_flag = APDC_eco_initialized check_variable = { APDC_eco_selected_group > 0 } has_political_power > 149 NOT = { check_variable = { APDC_eco_cash_m < 0 } } }
+if = { limit = { check_variable = { APDC_eco_selected_group = 1 } }
+if = { limit = { check_variable = { APDC_eco_requested_law = 1 } NOT = { has_idea = APDC_eco_tax_1 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_tax_1
+remove_ideas = APDC_eco_tax_2
+remove_ideas = APDC_eco_tax_3
+remove_ideas = APDC_eco_tax_4
+remove_ideas = APDC_eco_tax_5
+add_ideas = APDC_eco_tax_1
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 2 } NOT = { has_idea = APDC_eco_tax_2 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_tax_1
+remove_ideas = APDC_eco_tax_2
+remove_ideas = APDC_eco_tax_3
+remove_ideas = APDC_eco_tax_4
+remove_ideas = APDC_eco_tax_5
+add_ideas = APDC_eco_tax_2
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 3 } NOT = { has_idea = APDC_eco_tax_3 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_tax_1
+remove_ideas = APDC_eco_tax_2
+remove_ideas = APDC_eco_tax_3
+remove_ideas = APDC_eco_tax_4
+remove_ideas = APDC_eco_tax_5
+add_ideas = APDC_eco_tax_3
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 4 } NOT = { has_idea = APDC_eco_tax_4 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_tax_1
+remove_ideas = APDC_eco_tax_2
+remove_ideas = APDC_eco_tax_3
+remove_ideas = APDC_eco_tax_4
+remove_ideas = APDC_eco_tax_5
+add_ideas = APDC_eco_tax_4
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 5 } NOT = { has_idea = APDC_eco_tax_5 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_tax_1
+remove_ideas = APDC_eco_tax_2
+remove_ideas = APDC_eco_tax_3
+remove_ideas = APDC_eco_tax_4
+remove_ideas = APDC_eco_tax_5
+add_ideas = APDC_eco_tax_5
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+
+}
+if = { limit = { check_variable = { APDC_eco_selected_group = 2 } }
+if = { limit = { check_variable = { APDC_eco_requested_law = 1 } NOT = { has_idea = APDC_eco_food_spending_1 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_food_spending_1
+remove_ideas = APDC_eco_food_spending_2
+remove_ideas = APDC_eco_food_spending_3
+remove_ideas = APDC_eco_food_spending_4
+remove_ideas = APDC_eco_food_spending_5
+add_ideas = APDC_eco_food_spending_1
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 2 } NOT = { has_idea = APDC_eco_food_spending_2 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_food_spending_1
+remove_ideas = APDC_eco_food_spending_2
+remove_ideas = APDC_eco_food_spending_3
+remove_ideas = APDC_eco_food_spending_4
+remove_ideas = APDC_eco_food_spending_5
+add_ideas = APDC_eco_food_spending_2
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 3 } NOT = { has_idea = APDC_eco_food_spending_3 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_food_spending_1
+remove_ideas = APDC_eco_food_spending_2
+remove_ideas = APDC_eco_food_spending_3
+remove_ideas = APDC_eco_food_spending_4
+remove_ideas = APDC_eco_food_spending_5
+add_ideas = APDC_eco_food_spending_3
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 4 } NOT = { has_idea = APDC_eco_food_spending_4 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_food_spending_1
+remove_ideas = APDC_eco_food_spending_2
+remove_ideas = APDC_eco_food_spending_3
+remove_ideas = APDC_eco_food_spending_4
+remove_ideas = APDC_eco_food_spending_5
+add_ideas = APDC_eco_food_spending_4
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 5 } NOT = { has_idea = APDC_eco_food_spending_5 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_food_spending_1
+remove_ideas = APDC_eco_food_spending_2
+remove_ideas = APDC_eco_food_spending_3
+remove_ideas = APDC_eco_food_spending_4
+remove_ideas = APDC_eco_food_spending_5
+add_ideas = APDC_eco_food_spending_5
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+
+}
+if = { limit = { check_variable = { APDC_eco_selected_group = 3 } }
+if = { limit = { check_variable = { APDC_eco_requested_law = 1 } NOT = { has_idea = APDC_eco_education_spending_1 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_education_spending_1
+remove_ideas = APDC_eco_education_spending_2
+remove_ideas = APDC_eco_education_spending_3
+remove_ideas = APDC_eco_education_spending_4
+remove_ideas = APDC_eco_education_spending_5
+add_ideas = APDC_eco_education_spending_1
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 2 } NOT = { has_idea = APDC_eco_education_spending_2 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_education_spending_1
+remove_ideas = APDC_eco_education_spending_2
+remove_ideas = APDC_eco_education_spending_3
+remove_ideas = APDC_eco_education_spending_4
+remove_ideas = APDC_eco_education_spending_5
+add_ideas = APDC_eco_education_spending_2
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 3 } NOT = { has_idea = APDC_eco_education_spending_3 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_education_spending_1
+remove_ideas = APDC_eco_education_spending_2
+remove_ideas = APDC_eco_education_spending_3
+remove_ideas = APDC_eco_education_spending_4
+remove_ideas = APDC_eco_education_spending_5
+add_ideas = APDC_eco_education_spending_3
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 4 } NOT = { has_idea = APDC_eco_education_spending_4 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_education_spending_1
+remove_ideas = APDC_eco_education_spending_2
+remove_ideas = APDC_eco_education_spending_3
+remove_ideas = APDC_eco_education_spending_4
+remove_ideas = APDC_eco_education_spending_5
+add_ideas = APDC_eco_education_spending_4
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 5 } NOT = { has_idea = APDC_eco_education_spending_5 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_education_spending_1
+remove_ideas = APDC_eco_education_spending_2
+remove_ideas = APDC_eco_education_spending_3
+remove_ideas = APDC_eco_education_spending_4
+remove_ideas = APDC_eco_education_spending_5
+add_ideas = APDC_eco_education_spending_5
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+
+}
+if = { limit = { check_variable = { APDC_eco_selected_group = 4 } }
+if = { limit = { check_variable = { APDC_eco_requested_law = 1 } NOT = { has_idea = APDC_eco_medical_spending_1 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_medical_spending_1
+remove_ideas = APDC_eco_medical_spending_2
+remove_ideas = APDC_eco_medical_spending_3
+remove_ideas = APDC_eco_medical_spending_4
+remove_ideas = APDC_eco_medical_spending_5
+add_ideas = APDC_eco_medical_spending_1
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 2 } NOT = { has_idea = APDC_eco_medical_spending_2 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_medical_spending_1
+remove_ideas = APDC_eco_medical_spending_2
+remove_ideas = APDC_eco_medical_spending_3
+remove_ideas = APDC_eco_medical_spending_4
+remove_ideas = APDC_eco_medical_spending_5
+add_ideas = APDC_eco_medical_spending_2
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 3 } NOT = { has_idea = APDC_eco_medical_spending_3 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_medical_spending_1
+remove_ideas = APDC_eco_medical_spending_2
+remove_ideas = APDC_eco_medical_spending_3
+remove_ideas = APDC_eco_medical_spending_4
+remove_ideas = APDC_eco_medical_spending_5
+add_ideas = APDC_eco_medical_spending_3
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 4 } NOT = { has_idea = APDC_eco_medical_spending_4 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_medical_spending_1
+remove_ideas = APDC_eco_medical_spending_2
+remove_ideas = APDC_eco_medical_spending_3
+remove_ideas = APDC_eco_medical_spending_4
+remove_ideas = APDC_eco_medical_spending_5
+add_ideas = APDC_eco_medical_spending_4
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 5 } NOT = { has_idea = APDC_eco_medical_spending_5 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_medical_spending_1
+remove_ideas = APDC_eco_medical_spending_2
+remove_ideas = APDC_eco_medical_spending_3
+remove_ideas = APDC_eco_medical_spending_4
+remove_ideas = APDC_eco_medical_spending_5
+add_ideas = APDC_eco_medical_spending_5
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+
+}
+if = { limit = { check_variable = { APDC_eco_selected_group = 5 } }
+if = { limit = { check_variable = { APDC_eco_requested_law = 1 } NOT = { has_idea = APDC_eco_development_1 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_development_1
+remove_ideas = APDC_eco_development_2
+remove_ideas = APDC_eco_development_3
+remove_ideas = APDC_eco_development_4
+remove_ideas = APDC_eco_development_5
+add_ideas = APDC_eco_development_1
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 2 } NOT = { has_idea = APDC_eco_development_2 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_development_1
+remove_ideas = APDC_eco_development_2
+remove_ideas = APDC_eco_development_3
+remove_ideas = APDC_eco_development_4
+remove_ideas = APDC_eco_development_5
+add_ideas = APDC_eco_development_2
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 3 } NOT = { has_idea = APDC_eco_development_3 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_development_1
+remove_ideas = APDC_eco_development_2
+remove_ideas = APDC_eco_development_3
+remove_ideas = APDC_eco_development_4
+remove_ideas = APDC_eco_development_5
+add_ideas = APDC_eco_development_3
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 4 } NOT = { has_idea = APDC_eco_development_4 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_development_1
+remove_ideas = APDC_eco_development_2
+remove_ideas = APDC_eco_development_3
+remove_ideas = APDC_eco_development_4
+remove_ideas = APDC_eco_development_5
+add_ideas = APDC_eco_development_4
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 5 } NOT = { has_idea = APDC_eco_development_5 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_development_1
+remove_ideas = APDC_eco_development_2
+remove_ideas = APDC_eco_development_3
+remove_ideas = APDC_eco_development_4
+remove_ideas = APDC_eco_development_5
+add_ideas = APDC_eco_development_5
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+
+}
+if = { limit = { check_variable = { APDC_eco_selected_group = 6 } }
+if = { limit = { check_variable = { APDC_eco_requested_law = 1 } NOT = { has_idea = APDC_eco_research_1 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_research_1
+remove_ideas = APDC_eco_research_2
+remove_ideas = APDC_eco_research_3
+remove_ideas = APDC_eco_research_4
+remove_ideas = APDC_eco_research_5
+add_ideas = APDC_eco_research_1
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 2 } NOT = { has_idea = APDC_eco_research_2 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_research_1
+remove_ideas = APDC_eco_research_2
+remove_ideas = APDC_eco_research_3
+remove_ideas = APDC_eco_research_4
+remove_ideas = APDC_eco_research_5
+add_ideas = APDC_eco_research_2
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 3 } NOT = { has_idea = APDC_eco_research_3 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_research_1
+remove_ideas = APDC_eco_research_2
+remove_ideas = APDC_eco_research_3
+remove_ideas = APDC_eco_research_4
+remove_ideas = APDC_eco_research_5
+add_ideas = APDC_eco_research_3
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 4 } NOT = { has_idea = APDC_eco_research_4 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_research_1
+remove_ideas = APDC_eco_research_2
+remove_ideas = APDC_eco_research_3
+remove_ideas = APDC_eco_research_4
+remove_ideas = APDC_eco_research_5
+add_ideas = APDC_eco_research_4
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 5 } NOT = { has_idea = APDC_eco_research_5 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_research_1
+remove_ideas = APDC_eco_research_2
+remove_ideas = APDC_eco_research_3
+remove_ideas = APDC_eco_research_4
+remove_ideas = APDC_eco_research_5
+add_ideas = APDC_eco_research_5
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+
+}
+if = { limit = { check_variable = { APDC_eco_selected_group = 7 } }
+if = { limit = { check_variable = { APDC_eco_requested_law = 1 } NOT = { has_idea = APDC_eco_military_1 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_military_1
+remove_ideas = APDC_eco_military_2
+remove_ideas = APDC_eco_military_3
+remove_ideas = APDC_eco_military_4
+remove_ideas = APDC_eco_military_5
+add_ideas = APDC_eco_military_1
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 2 } NOT = { has_idea = APDC_eco_military_2 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_military_1
+remove_ideas = APDC_eco_military_2
+remove_ideas = APDC_eco_military_3
+remove_ideas = APDC_eco_military_4
+remove_ideas = APDC_eco_military_5
+add_ideas = APDC_eco_military_2
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 3 } NOT = { has_idea = APDC_eco_military_3 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_military_1
+remove_ideas = APDC_eco_military_2
+remove_ideas = APDC_eco_military_3
+remove_ideas = APDC_eco_military_4
+remove_ideas = APDC_eco_military_5
+add_ideas = APDC_eco_military_3
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 4 } NOT = { has_idea = APDC_eco_military_4 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_military_1
+remove_ideas = APDC_eco_military_2
+remove_ideas = APDC_eco_military_3
+remove_ideas = APDC_eco_military_4
+remove_ideas = APDC_eco_military_5
+add_ideas = APDC_eco_military_4
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 5 } NOT = { has_idea = APDC_eco_military_5 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_military_1
+remove_ideas = APDC_eco_military_2
+remove_ideas = APDC_eco_military_3
+remove_ideas = APDC_eco_military_4
+remove_ideas = APDC_eco_military_5
+add_ideas = APDC_eco_military_5
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+
+}
+if = { limit = { check_variable = { APDC_eco_selected_group = 8 } }
+if = { limit = { check_variable = { APDC_eco_requested_law = 1 } NOT = { has_idea = APDC_eco_investment_1 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_investment_1
+remove_ideas = APDC_eco_investment_2
+remove_ideas = APDC_eco_investment_3
+remove_ideas = APDC_eco_investment_4
+remove_ideas = APDC_eco_investment_5
+add_ideas = APDC_eco_investment_1
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 2 } NOT = { has_idea = APDC_eco_investment_2 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_investment_1
+remove_ideas = APDC_eco_investment_2
+remove_ideas = APDC_eco_investment_3
+remove_ideas = APDC_eco_investment_4
+remove_ideas = APDC_eco_investment_5
+add_ideas = APDC_eco_investment_2
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 3 } NOT = { has_idea = APDC_eco_investment_3 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_investment_1
+remove_ideas = APDC_eco_investment_2
+remove_ideas = APDC_eco_investment_3
+remove_ideas = APDC_eco_investment_4
+remove_ideas = APDC_eco_investment_5
+add_ideas = APDC_eco_investment_3
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 4 } NOT = { has_idea = APDC_eco_investment_4 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_investment_1
+remove_ideas = APDC_eco_investment_2
+remove_ideas = APDC_eco_investment_3
+remove_ideas = APDC_eco_investment_4
+remove_ideas = APDC_eco_investment_5
+add_ideas = APDC_eco_investment_4
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 5 } NOT = { has_idea = APDC_eco_investment_5 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_investment_1
+remove_ideas = APDC_eco_investment_2
+remove_ideas = APDC_eco_investment_3
+remove_ideas = APDC_eco_investment_4
+remove_ideas = APDC_eco_investment_5
+add_ideas = APDC_eco_investment_5
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+
+}
+if = { limit = { check_variable = { APDC_eco_selected_group = 9 } }
+if = { limit = { check_variable = { APDC_eco_requested_law = 1 } NOT = { has_idea = APDC_eco_distribution_1 } APDC_eco_is_planned = no }
+add_political_power = -150
+remove_ideas = APDC_eco_distribution_1
+remove_ideas = APDC_eco_distribution_2
+remove_ideas = APDC_eco_distribution_3
+remove_ideas = APDC_eco_distribution_4
+remove_ideas = APDC_eco_distribution_5
+add_ideas = APDC_eco_distribution_1
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 2 } NOT = { has_idea = APDC_eco_distribution_2 } APDC_eco_is_planned = no }
+add_political_power = -150
+remove_ideas = APDC_eco_distribution_1
+remove_ideas = APDC_eco_distribution_2
+remove_ideas = APDC_eco_distribution_3
+remove_ideas = APDC_eco_distribution_4
+remove_ideas = APDC_eco_distribution_5
+add_ideas = APDC_eco_distribution_2
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 3 } NOT = { has_idea = APDC_eco_distribution_3 } APDC_eco_is_planned = no }
+add_political_power = -150
+remove_ideas = APDC_eco_distribution_1
+remove_ideas = APDC_eco_distribution_2
+remove_ideas = APDC_eco_distribution_3
+remove_ideas = APDC_eco_distribution_4
+remove_ideas = APDC_eco_distribution_5
+add_ideas = APDC_eco_distribution_3
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 4 } NOT = { has_idea = APDC_eco_distribution_4 } APDC_eco_is_planned = no }
+add_political_power = -150
+remove_ideas = APDC_eco_distribution_1
+remove_ideas = APDC_eco_distribution_2
+remove_ideas = APDC_eco_distribution_3
+remove_ideas = APDC_eco_distribution_4
+remove_ideas = APDC_eco_distribution_5
+add_ideas = APDC_eco_distribution_4
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 5 } NOT = { has_idea = APDC_eco_distribution_5 } APDC_eco_is_planned = yes }
+add_political_power = -150
+remove_ideas = APDC_eco_distribution_1
+remove_ideas = APDC_eco_distribution_2
+remove_ideas = APDC_eco_distribution_3
+remove_ideas = APDC_eco_distribution_4
+remove_ideas = APDC_eco_distribution_5
+add_ideas = APDC_eco_distribution_5
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+
+}
+if = { limit = { check_variable = { APDC_eco_selected_group = 10 } }
+if = { limit = { check_variable = { APDC_eco_requested_law = 1 } NOT = { has_idea = APDC_eco_consumption_1 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_consumption_1
+remove_ideas = APDC_eco_consumption_2
+remove_ideas = APDC_eco_consumption_3
+remove_ideas = APDC_eco_consumption_4
+remove_ideas = APDC_eco_consumption_5
+add_ideas = APDC_eco_consumption_1
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 2 } NOT = { has_idea = APDC_eco_consumption_2 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_consumption_1
+remove_ideas = APDC_eco_consumption_2
+remove_ideas = APDC_eco_consumption_3
+remove_ideas = APDC_eco_consumption_4
+remove_ideas = APDC_eco_consumption_5
+add_ideas = APDC_eco_consumption_2
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 3 } NOT = { has_idea = APDC_eco_consumption_3 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_consumption_1
+remove_ideas = APDC_eco_consumption_2
+remove_ideas = APDC_eco_consumption_3
+remove_ideas = APDC_eco_consumption_4
+remove_ideas = APDC_eco_consumption_5
+add_ideas = APDC_eco_consumption_3
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 4 } NOT = { has_idea = APDC_eco_consumption_4 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_consumption_1
+remove_ideas = APDC_eco_consumption_2
+remove_ideas = APDC_eco_consumption_3
+remove_ideas = APDC_eco_consumption_4
+remove_ideas = APDC_eco_consumption_5
+add_ideas = APDC_eco_consumption_4
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+if = { limit = { check_variable = { APDC_eco_requested_law = 5 } NOT = { has_idea = APDC_eco_consumption_5 }  }
+add_political_power = -150
+remove_ideas = APDC_eco_consumption_1
+remove_ideas = APDC_eco_consumption_2
+remove_ideas = APDC_eco_consumption_3
+remove_ideas = APDC_eco_consumption_4
+remove_ideas = APDC_eco_consumption_5
+add_ideas = APDC_eco_consumption_5
+APDC_eco_refresh_policies = yes
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+
+}
+
+}
+
+}
+
+}
+APDC_eco_refresh_policies = {
+set_variable = { APDC_eco_air_maintenance = modifier@APDC_eco_air_maintenance }
+set_variable = { APDC_eco_air_maintenance_factor = modifier@APDC_eco_air_maintenance_factor }
+set_variable = { APDC_eco_army_maintenance = modifier@APDC_eco_army_maintenance }
+set_variable = { APDC_eco_army_maintenance_factor = modifier@APDC_eco_army_maintenance_factor }
+set_variable = { APDC_eco_civ_expansion_base = modifier@APDC_eco_civ_expansion_base }
+set_variable = { APDC_eco_civ_goods = modifier@APDC_eco_civ_goods }
+set_variable = { APDC_eco_construction_maintenance = modifier@APDC_eco_construction_maintenance }
+set_variable = { APDC_eco_construction_maintenance_factor = modifier@APDC_eco_construction_maintenance_factor }
+set_variable = { APDC_eco_consumption_tax = modifier@APDC_eco_consumption_tax }
+set_variable = { APDC_eco_defense_weekly = modifier@APDC_eco_defense_weekly }
+set_variable = { APDC_eco_distribution_bonus = modifier@APDC_eco_distribution_bonus }
+set_variable = { APDC_eco_education_cost = modifier@APDC_eco_education_cost }
+set_variable = { APDC_eco_education_weekly = modifier@APDC_eco_education_weekly }
+set_variable = { APDC_eco_food_cost = modifier@APDC_eco_food_cost }
+set_variable = { APDC_eco_food_weekly = modifier@APDC_eco_food_weekly }
+set_variable = { APDC_eco_goods_output_factor = modifier@APDC_eco_goods_output_factor }
+set_variable = { APDC_eco_head_tax = modifier@APDC_eco_head_tax }
+set_variable = { APDC_eco_investment_cost = modifier@APDC_eco_investment_cost }
+set_variable = { APDC_eco_medical_cost = modifier@APDC_eco_medical_cost }
+set_variable = { APDC_eco_medical_weekly = modifier@APDC_eco_medical_weekly }
+set_variable = { APDC_eco_mil_expansion_base = modifier@APDC_eco_mil_expansion_base }
+set_variable = { APDC_eco_mil_maintenance = modifier@APDC_eco_mil_maintenance }
+set_variable = { APDC_eco_mil_maintenance_factor = modifier@APDC_eco_mil_maintenance_factor }
+set_variable = { APDC_eco_nav_maintenance = modifier@APDC_eco_nav_maintenance }
+set_variable = { APDC_eco_nav_maintenance_factor = modifier@APDC_eco_nav_maintenance_factor }
+set_variable = { APDC_eco_navy_maintenance = modifier@APDC_eco_navy_maintenance }
+set_variable = { APDC_eco_navy_maintenance_factor = modifier@APDC_eco_navy_maintenance_factor }
+set_variable = { APDC_eco_planned_pp_distribution = modifier@APDC_eco_planned_pp_distribution }
+set_variable = { APDC_eco_population_factor = modifier@APDC_eco_population_factor }
+set_variable = { APDC_eco_private_civ_expansion_factor = modifier@APDC_eco_private_civ_expansion_factor }
+set_variable = { APDC_eco_private_mil_expansion_factor = modifier@APDC_eco_private_mil_expansion_factor }
+set_variable = { APDC_eco_project_maintenance = modifier@APDC_eco_project_maintenance }
+set_variable = { APDC_eco_project_maintenance_factor = modifier@APDC_eco_project_maintenance_factor }
+set_variable = { APDC_eco_research_maintenance = modifier@APDC_eco_research_maintenance }
+set_variable = { APDC_eco_research_maintenance_factor = modifier@APDC_eco_research_maintenance_factor }
+set_variable = { APDC_eco_research_slots = modifier@APDC_eco_research_slots }
+set_variable = { APDC_eco_science_weekly = modifier@APDC_eco_science_weekly }
+set_variable = { APDC_eco_society_weekly = modifier@APDC_eco_society_weekly }
+set_variable = { APDC_eco_subsidy = modifier@APDC_eco_subsidy }
+set_variable = { APDC_eco_population_base = modifier@APDC_eco_population_base }
+if = { limit = { NOT = { check_variable = { APDC_eco_population_base > 0 } } }
+set_variable = { APDC_eco_population_base = 1 }
+
+}
+set_variable = { APDC_eco_trade_freedom = modifier@APDC_eco_consumer_trade_freedom }
+clamp_variable = { var = APDC_eco_trade_freedom min = 0 max = 1 }
+set_variable = { APDC_eco_tariff = modifier@APDC_eco_consumer_tariff }
+clamp_variable = { var = APDC_eco_tariff min = 0 }
+set_variable = { APDC_eco_research_slot_target = modifier@APDC_eco_research_slots }
+set_temp_variable = { APDC_eco_math_1 = APDC_eco_research_slot_target }
+subtract_from_temp_variable = { APDC_eco_math_1 = APDC_eco_research_slot_applied }
+set_variable = { APDC_eco_research_slot_change = APDC_eco_math_1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_research_slot_change = 0 } } }
+add_research_slot = APDC_eco_research_slot_change
+set_variable = { APDC_eco_research_slot_applied = APDC_eco_research_slot_target }
+
+}
+
+}
+APDC_eco_bankruptcy = {
+if = { limit = { check_variable = { APDC_eco_cash_m < 0 } }
+if = { limit = { OR = { has_idea = APDC_eco_food_spending_2 has_idea = APDC_eco_food_spending_3 has_idea = APDC_eco_food_spending_4 has_idea = APDC_eco_food_spending_5 } }
+remove_ideas = APDC_eco_food_spending_1
+remove_ideas = APDC_eco_food_spending_2
+remove_ideas = APDC_eco_food_spending_3
+remove_ideas = APDC_eco_food_spending_4
+remove_ideas = APDC_eco_food_spending_5
+add_ideas = APDC_eco_food_spending_1
+
+}
+if = { limit = { OR = { has_idea = APDC_eco_education_spending_2 has_idea = APDC_eco_education_spending_3 has_idea = APDC_eco_education_spending_4 has_idea = APDC_eco_education_spending_5 } }
+remove_ideas = APDC_eco_education_spending_1
+remove_ideas = APDC_eco_education_spending_2
+remove_ideas = APDC_eco_education_spending_3
+remove_ideas = APDC_eco_education_spending_4
+remove_ideas = APDC_eco_education_spending_5
+add_ideas = APDC_eco_education_spending_1
+
+}
+if = { limit = { OR = { has_idea = APDC_eco_medical_spending_2 has_idea = APDC_eco_medical_spending_3 has_idea = APDC_eco_medical_spending_4 has_idea = APDC_eco_medical_spending_5 } }
+remove_ideas = APDC_eco_medical_spending_1
+remove_ideas = APDC_eco_medical_spending_2
+remove_ideas = APDC_eco_medical_spending_3
+remove_ideas = APDC_eco_medical_spending_4
+remove_ideas = APDC_eco_medical_spending_5
+add_ideas = APDC_eco_medical_spending_1
+
+}
+if = { limit = { OR = { has_idea = APDC_eco_development_2 has_idea = APDC_eco_development_3 has_idea = APDC_eco_development_4 has_idea = APDC_eco_development_5 } }
+remove_ideas = APDC_eco_development_1
+remove_ideas = APDC_eco_development_2
+remove_ideas = APDC_eco_development_3
+remove_ideas = APDC_eco_development_4
+remove_ideas = APDC_eco_development_5
+add_ideas = APDC_eco_development_1
+
+}
+if = { limit = { OR = { has_idea = APDC_eco_research_2 has_idea = APDC_eco_research_3 has_idea = APDC_eco_research_4 has_idea = APDC_eco_research_5 } }
+remove_ideas = APDC_eco_research_1
+remove_ideas = APDC_eco_research_2
+remove_ideas = APDC_eco_research_3
+remove_ideas = APDC_eco_research_4
+remove_ideas = APDC_eco_research_5
+add_ideas = APDC_eco_research_1
+
+}
+if = { limit = { OR = { has_idea = APDC_eco_military_2 has_idea = APDC_eco_military_3 has_idea = APDC_eco_military_4 has_idea = APDC_eco_military_5 } }
+remove_ideas = APDC_eco_military_1
+remove_ideas = APDC_eco_military_2
+remove_ideas = APDC_eco_military_3
+remove_ideas = APDC_eco_military_4
+remove_ideas = APDC_eco_military_5
+add_ideas = APDC_eco_military_1
+
+}
+if = { limit = { OR = { has_idea = APDC_eco_investment_2 has_idea = APDC_eco_investment_3 has_idea = APDC_eco_investment_4 has_idea = APDC_eco_investment_5 } }
+remove_ideas = APDC_eco_investment_1
+remove_ideas = APDC_eco_investment_2
+remove_ideas = APDC_eco_investment_3
+remove_ideas = APDC_eco_investment_4
+remove_ideas = APDC_eco_investment_5
+add_ideas = APDC_eco_investment_1
+
+}
+if = { limit = { OR = { has_idea = APDC_eco_distribution_2 has_idea = APDC_eco_distribution_3 has_idea = APDC_eco_distribution_4 } }
+remove_ideas = APDC_eco_distribution_2
+remove_ideas = APDC_eco_distribution_3
+remove_ideas = APDC_eco_distribution_4
+add_ideas = APDC_eco_distribution_1
+
+}
+if = { limit = { OR = { has_idea = APDC_eco_consumption_4 has_idea = APDC_eco_consumption_5 } }
+remove_ideas = APDC_eco_consumption_4
+remove_ideas = APDC_eco_consumption_5
+add_ideas = APDC_eco_consumption_3
+
+}
+APDC_eco_refresh_policies = yes
+
+}
+
+}
+APDC_eco_sync_development = {
+clamp_variable = { var = APDC_eco_society min = 1 max = 5 }
+if = { limit = { NOT = { check_variable = { APDC_eco_society < 1 } } check_variable = { APDC_eco_society < 2 } NOT = { has_idea = APDC_eco_society_1 } }
+remove_ideas = APDC_eco_society_1
+remove_ideas = APDC_eco_society_2
+remove_ideas = APDC_eco_society_3
+remove_ideas = APDC_eco_society_4
+remove_ideas = APDC_eco_society_5
+add_ideas = APDC_eco_society_1
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_society < 2 } } check_variable = { APDC_eco_society < 3 } NOT = { has_idea = APDC_eco_society_2 } }
+remove_ideas = APDC_eco_society_1
+remove_ideas = APDC_eco_society_2
+remove_ideas = APDC_eco_society_3
+remove_ideas = APDC_eco_society_4
+remove_ideas = APDC_eco_society_5
+add_ideas = APDC_eco_society_2
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_society < 3 } } check_variable = { APDC_eco_society < 4 } NOT = { has_idea = APDC_eco_society_3 } }
+remove_ideas = APDC_eco_society_1
+remove_ideas = APDC_eco_society_2
+remove_ideas = APDC_eco_society_3
+remove_ideas = APDC_eco_society_4
+remove_ideas = APDC_eco_society_5
+add_ideas = APDC_eco_society_3
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_society < 4 } } check_variable = { APDC_eco_society < 5 } NOT = { has_idea = APDC_eco_society_4 } }
+remove_ideas = APDC_eco_society_1
+remove_ideas = APDC_eco_society_2
+remove_ideas = APDC_eco_society_3
+remove_ideas = APDC_eco_society_4
+remove_ideas = APDC_eco_society_5
+add_ideas = APDC_eco_society_4
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_society < 5 } } NOT = { has_idea = APDC_eco_society_5 } }
+remove_ideas = APDC_eco_society_1
+remove_ideas = APDC_eco_society_2
+remove_ideas = APDC_eco_society_3
+remove_ideas = APDC_eco_society_4
+remove_ideas = APDC_eco_society_5
+add_ideas = APDC_eco_society_5
+
+}
+clamp_variable = { var = APDC_eco_science min = 1 max = 5 }
+if = { limit = { NOT = { check_variable = { APDC_eco_science < 1 } } check_variable = { APDC_eco_science < 2 } NOT = { has_idea = APDC_eco_science_1 } }
+remove_ideas = APDC_eco_science_1
+remove_ideas = APDC_eco_science_2
+remove_ideas = APDC_eco_science_3
+remove_ideas = APDC_eco_science_4
+remove_ideas = APDC_eco_science_5
+add_ideas = APDC_eco_science_1
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_science < 2 } } check_variable = { APDC_eco_science < 3 } NOT = { has_idea = APDC_eco_science_2 } }
+remove_ideas = APDC_eco_science_1
+remove_ideas = APDC_eco_science_2
+remove_ideas = APDC_eco_science_3
+remove_ideas = APDC_eco_science_4
+remove_ideas = APDC_eco_science_5
+add_ideas = APDC_eco_science_2
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_science < 3 } } check_variable = { APDC_eco_science < 4 } NOT = { has_idea = APDC_eco_science_3 } }
+remove_ideas = APDC_eco_science_1
+remove_ideas = APDC_eco_science_2
+remove_ideas = APDC_eco_science_3
+remove_ideas = APDC_eco_science_4
+remove_ideas = APDC_eco_science_5
+add_ideas = APDC_eco_science_3
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_science < 4 } } check_variable = { APDC_eco_science < 5 } NOT = { has_idea = APDC_eco_science_4 } }
+remove_ideas = APDC_eco_science_1
+remove_ideas = APDC_eco_science_2
+remove_ideas = APDC_eco_science_3
+remove_ideas = APDC_eco_science_4
+remove_ideas = APDC_eco_science_5
+add_ideas = APDC_eco_science_4
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_science < 5 } } NOT = { has_idea = APDC_eco_science_5 } }
+remove_ideas = APDC_eco_science_1
+remove_ideas = APDC_eco_science_2
+remove_ideas = APDC_eco_science_3
+remove_ideas = APDC_eco_science_4
+remove_ideas = APDC_eco_science_5
+add_ideas = APDC_eco_science_5
+
+}
+clamp_variable = { var = APDC_eco_defense min = 1 max = 5 }
+if = { limit = { NOT = { check_variable = { APDC_eco_defense < 1 } } check_variable = { APDC_eco_defense < 2 } NOT = { has_idea = APDC_eco_defense_1 } }
+remove_ideas = APDC_eco_defense_1
+remove_ideas = APDC_eco_defense_2
+remove_ideas = APDC_eco_defense_3
+remove_ideas = APDC_eco_defense_4
+remove_ideas = APDC_eco_defense_5
+add_ideas = APDC_eco_defense_1
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_defense < 2 } } check_variable = { APDC_eco_defense < 3 } NOT = { has_idea = APDC_eco_defense_2 } }
+remove_ideas = APDC_eco_defense_1
+remove_ideas = APDC_eco_defense_2
+remove_ideas = APDC_eco_defense_3
+remove_ideas = APDC_eco_defense_4
+remove_ideas = APDC_eco_defense_5
+add_ideas = APDC_eco_defense_2
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_defense < 3 } } check_variable = { APDC_eco_defense < 4 } NOT = { has_idea = APDC_eco_defense_3 } }
+remove_ideas = APDC_eco_defense_1
+remove_ideas = APDC_eco_defense_2
+remove_ideas = APDC_eco_defense_3
+remove_ideas = APDC_eco_defense_4
+remove_ideas = APDC_eco_defense_5
+add_ideas = APDC_eco_defense_3
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_defense < 4 } } check_variable = { APDC_eco_defense < 5 } NOT = { has_idea = APDC_eco_defense_4 } }
+remove_ideas = APDC_eco_defense_1
+remove_ideas = APDC_eco_defense_2
+remove_ideas = APDC_eco_defense_3
+remove_ideas = APDC_eco_defense_4
+remove_ideas = APDC_eco_defense_5
+add_ideas = APDC_eco_defense_4
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_defense < 5 } } NOT = { has_idea = APDC_eco_defense_5 } }
+remove_ideas = APDC_eco_defense_1
+remove_ideas = APDC_eco_defense_2
+remove_ideas = APDC_eco_defense_3
+remove_ideas = APDC_eco_defense_4
+remove_ideas = APDC_eco_defense_5
+add_ideas = APDC_eco_defense_5
+
+}
+clamp_variable = { var = APDC_eco_food min = 1 max = 5 }
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 1 } } check_variable = { APDC_eco_food < 2 } NOT = { has_idea = APDC_eco_food_1 } }
+remove_ideas = APDC_eco_food_1
+remove_ideas = APDC_eco_food_2
+remove_ideas = APDC_eco_food_3
+remove_ideas = APDC_eco_food_4
+remove_ideas = APDC_eco_food_5
+add_ideas = APDC_eco_food_1
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 2 } } check_variable = { APDC_eco_food < 3 } NOT = { has_idea = APDC_eco_food_2 } }
+remove_ideas = APDC_eco_food_1
+remove_ideas = APDC_eco_food_2
+remove_ideas = APDC_eco_food_3
+remove_ideas = APDC_eco_food_4
+remove_ideas = APDC_eco_food_5
+add_ideas = APDC_eco_food_2
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 3 } } check_variable = { APDC_eco_food < 4 } NOT = { has_idea = APDC_eco_food_3 } }
+remove_ideas = APDC_eco_food_1
+remove_ideas = APDC_eco_food_2
+remove_ideas = APDC_eco_food_3
+remove_ideas = APDC_eco_food_4
+remove_ideas = APDC_eco_food_5
+add_ideas = APDC_eco_food_3
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 4 } } check_variable = { APDC_eco_food < 5 } NOT = { has_idea = APDC_eco_food_4 } }
+remove_ideas = APDC_eco_food_1
+remove_ideas = APDC_eco_food_2
+remove_ideas = APDC_eco_food_3
+remove_ideas = APDC_eco_food_4
+remove_ideas = APDC_eco_food_5
+add_ideas = APDC_eco_food_4
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 5 } } NOT = { has_idea = APDC_eco_food_5 } }
+remove_ideas = APDC_eco_food_1
+remove_ideas = APDC_eco_food_2
+remove_ideas = APDC_eco_food_3
+remove_ideas = APDC_eco_food_4
+remove_ideas = APDC_eco_food_5
+add_ideas = APDC_eco_food_5
+
+}
+clamp_variable = { var = APDC_eco_education min = 1 max = 5 }
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 1 } } check_variable = { APDC_eco_education < 2 } NOT = { has_idea = APDC_eco_education_1 } }
+remove_ideas = APDC_eco_education_1
+remove_ideas = APDC_eco_education_2
+remove_ideas = APDC_eco_education_3
+remove_ideas = APDC_eco_education_4
+remove_ideas = APDC_eco_education_5
+add_ideas = APDC_eco_education_1
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 2 } } check_variable = { APDC_eco_education < 3 } NOT = { has_idea = APDC_eco_education_2 } }
+remove_ideas = APDC_eco_education_1
+remove_ideas = APDC_eco_education_2
+remove_ideas = APDC_eco_education_3
+remove_ideas = APDC_eco_education_4
+remove_ideas = APDC_eco_education_5
+add_ideas = APDC_eco_education_2
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 3 } } check_variable = { APDC_eco_education < 4 } NOT = { has_idea = APDC_eco_education_3 } }
+remove_ideas = APDC_eco_education_1
+remove_ideas = APDC_eco_education_2
+remove_ideas = APDC_eco_education_3
+remove_ideas = APDC_eco_education_4
+remove_ideas = APDC_eco_education_5
+add_ideas = APDC_eco_education_3
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 4 } } check_variable = { APDC_eco_education < 5 } NOT = { has_idea = APDC_eco_education_4 } }
+remove_ideas = APDC_eco_education_1
+remove_ideas = APDC_eco_education_2
+remove_ideas = APDC_eco_education_3
+remove_ideas = APDC_eco_education_4
+remove_ideas = APDC_eco_education_5
+add_ideas = APDC_eco_education_4
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 5 } } NOT = { has_idea = APDC_eco_education_5 } }
+remove_ideas = APDC_eco_education_1
+remove_ideas = APDC_eco_education_2
+remove_ideas = APDC_eco_education_3
+remove_ideas = APDC_eco_education_4
+remove_ideas = APDC_eco_education_5
+add_ideas = APDC_eco_education_5
+
+}
+clamp_variable = { var = APDC_eco_medical min = 1 max = 5 }
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 1 } } check_variable = { APDC_eco_medical < 2 } NOT = { has_idea = APDC_eco_medical_1 } }
+remove_ideas = APDC_eco_medical_1
+remove_ideas = APDC_eco_medical_2
+remove_ideas = APDC_eco_medical_3
+remove_ideas = APDC_eco_medical_4
+remove_ideas = APDC_eco_medical_5
+add_ideas = APDC_eco_medical_1
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 2 } } check_variable = { APDC_eco_medical < 3 } NOT = { has_idea = APDC_eco_medical_2 } }
+remove_ideas = APDC_eco_medical_1
+remove_ideas = APDC_eco_medical_2
+remove_ideas = APDC_eco_medical_3
+remove_ideas = APDC_eco_medical_4
+remove_ideas = APDC_eco_medical_5
+add_ideas = APDC_eco_medical_2
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 3 } } check_variable = { APDC_eco_medical < 4 } NOT = { has_idea = APDC_eco_medical_3 } }
+remove_ideas = APDC_eco_medical_1
+remove_ideas = APDC_eco_medical_2
+remove_ideas = APDC_eco_medical_3
+remove_ideas = APDC_eco_medical_4
+remove_ideas = APDC_eco_medical_5
+add_ideas = APDC_eco_medical_3
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 4 } } check_variable = { APDC_eco_medical < 5 } NOT = { has_idea = APDC_eco_medical_4 } }
+remove_ideas = APDC_eco_medical_1
+remove_ideas = APDC_eco_medical_2
+remove_ideas = APDC_eco_medical_3
+remove_ideas = APDC_eco_medical_4
+remove_ideas = APDC_eco_medical_5
+add_ideas = APDC_eco_medical_4
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 5 } } NOT = { has_idea = APDC_eco_medical_5 } }
+remove_ideas = APDC_eco_medical_1
+remove_ideas = APDC_eco_medical_2
+remove_ideas = APDC_eco_medical_3
+remove_ideas = APDC_eco_medical_4
+remove_ideas = APDC_eco_medical_5
+add_ideas = APDC_eco_medical_5
+
+}
+
+}
+APDC_eco_initialize_country = {
+if = { limit = { NOT = { has_country_flag = APDC_eco_initialized } }
+if = { limit = { NOT = { APDC_has_economic_system = yes } }
+APDC_assign_initial_economic_system = yes
+
+}
+remove_ideas = proper_science_base
+remove_ideas = big_science_base
+remove_ideas = better_science_base
+remove_ideas = poor_science_base
+remove_ideas = modern_society
+remove_ideas = outdated_industry2
+remove_ideas = outdated_industry
+remove_ideas = pre_industrial_society3
+remove_ideas = pre_industrial_society2
+remove_ideas = pre_industrial_society1
+remove_ideas = pre_industrial_society
+remove_ideas = agrarian_society6
+remove_ideas = agrarian_society5
+remove_ideas = agrarian_society4
+remove_ideas = agrarian_society3
+remove_ideas = agrarian_society2
+remove_ideas = agrarian_society
+remove_ideas = tribal_society4
+remove_ideas = tribal_society3
+remove_ideas = tribal_society2
+remove_ideas = tribal_society
+remove_ideas = communal_society_better
+remove_ideas = communal_society
+remove_ideas = detached_country
+remove_ideas = no_poverty
+remove_ideas = poverty5
+remove_ideas = poverty4
+remove_ideas = poverty3
+remove_ideas = poverty2
+remove_ideas = poverty1
+remove_ideas = poverty
+set_variable = { APDC_eco_society = 3 }
+set_variable = { APDC_eco_science = 3 }
+set_variable = { APDC_eco_defense = 3 }
+set_variable = { APDC_eco_food = 3 }
+set_variable = { APDC_eco_education = 3 }
+set_variable = { APDC_eco_medical = 3 }
+if = { limit = { OR = { tag = GER tag = SOV tag = USA tag = JAP tag = ENG tag = FRA tag = LLU tag = CAN tag = AST tag = KOR tag = SWE tag = NOR tag = FIN tag = SWI } }
+set_variable = { APDC_eco_society = 4 }
+set_variable = { APDC_eco_science = 4 }
+set_variable = { APDC_eco_defense = 4 }
+set_variable = { APDC_eco_food = 4 }
+set_variable = { APDC_eco_education = 4 }
+set_variable = { APDC_eco_medical = 4 }
+
+}
+if = { limit = { OR = { tag = AFG tag = SOM tag = CHA tag = NGR tag = CAR tag = SSD tag = MRT } }
+set_variable = { APDC_eco_society = 2 }
+set_variable = { APDC_eco_science = 2 }
+set_variable = { APDC_eco_defense = 2 }
+set_variable = { APDC_eco_food = 2 }
+set_variable = { APDC_eco_education = 2 }
+set_variable = { APDC_eco_medical = 2 }
+
+}
+add_ideas = APDC_eco_tax_3
+add_ideas = APDC_eco_food_spending_3
+add_ideas = APDC_eco_education_spending_3
+add_ideas = APDC_eco_medical_spending_3
+add_ideas = APDC_eco_development_3
+add_ideas = APDC_eco_research_3
+add_ideas = APDC_eco_military_3
+add_ideas = APDC_eco_investment_1
+add_ideas = APDC_eco_distribution_1
+add_ideas = APDC_eco_consumption_3
+set_variable = { APDC_eco_cash_m = 0 }
+set_variable = { APDC_eco_cash_k = 0 }
+set_variable = { APDC_eco_public_civ = 0 }
+set_variable = { APDC_eco_research_slot_applied = 0 }
+set_variable = { APDC_eco_last_civ_capacity = 0 }
+set_variable = { APDC_eco_extra_input = 0 }
+set_variable = { APDC_eco_extra_output = 0 }
+set_variable = { APDC_eco_civ_progress = 0 }
+set_variable = { APDC_eco_mil_progress = 0 }
+set_variable = { APDC_eco_day_ticks = 0 }
+set_variable = { APDC_eco_week_ticks = 0 }
+set_country_flag = APDC_eco_initialized
+add_dynamic_modifier = { modifier = APDC_eco_allocation }
+APDC_eco_sync_development = yes
+APDC_eco_refresh_policies = yes
+every_controlled_state = {
+if = { limit = { is_owned_by = PREV }
+set_temp_variable = { APDC_eco_seed_civ = non_damaged_building_level@industrial_complex }
+set_temp_variable = { APDC_eco_seed_mil = non_damaged_building_level@arms_factory }
+divide_temp_variable = { APDC_eco_seed_civ = 3 }
+divide_temp_variable = { APDC_eco_seed_mil = 3 }
+round_temp_variable = APDC_eco_seed_civ
+round_temp_variable = APDC_eco_seed_mil
+if = { limit = { check_variable = { APDC_eco_seed_civ > 0 } free_building_slots = { building = APDC_eco_private_civ size > 0 } } add_building_construction = { type = APDC_eco_private_civ level = 1 instant_build = yes } }
+if = { limit = { check_variable = { APDC_eco_seed_mil > 0 } free_building_slots = { building = APDC_eco_private_mil size > 0 } } add_building_construction = { type = APDC_eco_private_mil level = 1 instant_build = yes } }
+}
+}
+APDC_eco_calculate_country = yes
+if = { limit = { check_variable = { APDC_eco_goods_per_civ_m > 0 } }
+set_temp_variable = { APDC_eco_math_2 = APDC_eco_demand_m }
+divide_temp_variable = { APDC_eco_math_2 = APDC_eco_goods_per_civ_m }
+subtract_from_temp_variable = { APDC_eco_math_2 = APDC_eco_private_civ }
+clamp_temp_variable = { var = APDC_eco_math_2 min = 0 }
+clamp_temp_variable = { var = APDC_eco_math_2 max = APDC_eco_public_available }
+set_variable = { APDC_eco_public_civ = APDC_eco_math_2 }
+set_variable = { APDC_eco_round_original = APDC_eco_public_civ }
+round_variable = APDC_eco_public_civ
+if = { limit = { check_variable = { APDC_eco_public_civ > APDC_eco_round_original } } subtract_from_variable = { APDC_eco_public_civ = 1 } }
+
+}
+APDC_eco_calculate_country = yes
+APDC_eco_calculate_budget = yes
+set_temp_variable = { APDC_eco_math_3 = APDC_eco_population_m }
+multiply_temp_variable = { APDC_eco_math_3 = 20 }
+add_to_temp_variable = { APDC_eco_math_3 = 100 }
+set_variable = { APDC_eco_cash_m = APDC_eco_math_3 }
+set_variable = { APDC_eco_round_original = APDC_eco_cash_m }
+round_variable = APDC_eco_cash_m
+if = { limit = { check_variable = { APDC_eco_cash_m > APDC_eco_round_original } } subtract_from_variable = { APDC_eco_cash_m = 1 } }
+APDC_eco_reconcile_planned = yes
+APDC_eco_refresh_equipment = yes
+
+}
+
+}
+APDC_eco_calculate_country = {
+set_variable = { APDC_eco_population_m = 0 }
+set_variable = { APDC_eco_private_civ = 0 }
+set_variable = { APDC_eco_private_mil = 0 }
+set_variable = { APDC_eco_private_civ_raw = 0 }
+set_variable = { APDC_eco_private_mil_raw = 0 }
+every_controlled_state = {
+set_temp_variable = { APDC_eco_state_pop = state_population_k }
+divide_temp_variable = { APDC_eco_state_pop = 1000 }
+add_to_variable = { PREV.APDC_eco_population_m = APDC_eco_state_pop }
+set_temp_variable = { APDC_eco_math_4 = modifier@local_factories }
+add_to_temp_variable = { APDC_eco_math_4 = 1 }
+clamp_temp_variable = { var = APDC_eco_math_4 min = 0 }
+set_temp_variable = { APDC_eco_local_multiplier = APDC_eco_math_4 }
+add_to_variable = { PREV.APDC_eco_private_civ_raw = building_level@APDC_eco_private_civ }
+set_temp_variable = { APDC_eco_math_5 = non_damaged_building_level@APDC_eco_private_civ }
+multiply_temp_variable = { APDC_eco_math_5 = APDC_eco_local_multiplier }
+set_temp_variable = { APDC_eco_state_private = APDC_eco_math_5 }
+add_to_variable = { PREV.APDC_eco_private_civ = APDC_eco_state_private }
+add_to_variable = { PREV.APDC_eco_private_mil_raw = building_level@APDC_eco_private_mil }
+set_temp_variable = { APDC_eco_math_6 = non_damaged_building_level@APDC_eco_private_mil }
+multiply_temp_variable = { APDC_eco_math_6 = APDC_eco_local_multiplier }
+set_temp_variable = { APDC_eco_state_private = APDC_eco_math_6 }
+add_to_variable = { PREV.APDC_eco_private_mil = APDC_eco_state_private }
+}
+set_temp_variable = { APDC_eco_math_7 = num_of_civilian_factories_available_for_projects }
+add_to_temp_variable = { APDC_eco_math_7 = APDC_eco_public_civ }
+clamp_temp_variable = { var = APDC_eco_math_7 max = num_of_civilian_factories }
+clamp_temp_variable = { var = APDC_eco_math_7 min = 0 }
+set_variable = { APDC_eco_public_available = APDC_eco_math_7 }
+set_variable = { APDC_eco_round_original = APDC_eco_public_available }
+round_variable = APDC_eco_public_available
+if = { limit = { check_variable = { APDC_eco_public_available > APDC_eco_round_original } } subtract_from_variable = { APDC_eco_public_available = 1 } }
+clamp_variable = { var = APDC_eco_public_civ min = 0 max = APDC_eco_public_available }
+set_temp_variable = { APDC_eco_math_8 = modifier@APDC_eco_population_factor }
+add_to_temp_variable = { APDC_eco_math_8 = 1 }
+clamp_temp_variable = { var = APDC_eco_math_8 min = 0 }
+multiply_temp_variable = { APDC_eco_math_8 = APDC_eco_population_base }
+multiply_temp_variable = { APDC_eco_math_8 = APDC_eco_population_m }
+set_variable = { APDC_eco_demand_m = APDC_eco_math_8 }
+set_temp_variable = { APDC_eco_math_9 = modifier@APDC_eco_civ_goods }
+set_temp_variable = { APDC_eco_math_10 = modifier@industrial_capacity_factory }
+add_to_temp_variable = { APDC_eco_math_10 = 1 }
+clamp_temp_variable = { var = APDC_eco_math_10 min = 0 }
+multiply_temp_variable = { APDC_eco_math_9 = APDC_eco_math_10 }
+set_temp_variable = { APDC_eco_math_11 = modifier@APDC_eco_goods_output_factor }
+add_to_temp_variable = { APDC_eco_math_11 = 1 }
+clamp_temp_variable = { var = APDC_eco_math_11 min = 0 }
+multiply_temp_variable = { APDC_eco_math_9 = APDC_eco_math_11 }
+set_variable = { APDC_eco_goods_per_civ_m = APDC_eco_math_9 }
+set_temp_variable = { APDC_eco_math_12 = APDC_eco_public_civ }
+add_to_temp_variable = { APDC_eco_math_12 = APDC_eco_private_civ }
+multiply_temp_variable = { APDC_eco_math_12 = APDC_eco_goods_per_civ_m }
+set_variable = { APDC_eco_domestic_m = APDC_eco_math_12 }
+set_temp_variable = { APDC_eco_math_13 = APDC_eco_last_civ_capacity }
+clamp_temp_variable = { var = APDC_eco_math_13 min = 0 }
+clamp_temp_variable = { var = APDC_eco_math_13 max = 50 }
+multiply_temp_variable = { APDC_eco_math_13 = -0.004 }
+add_to_temp_variable = { APDC_eco_math_13 = 0.8 }
+add_to_temp_variable = { APDC_eco_math_13 = modifier@APDC_eco_distribution_bonus }
+clamp_temp_variable = { var = APDC_eco_math_13 min = 0 max = 1 }
+set_variable = { APDC_eco_distribution = APDC_eco_math_13 }
+if = { limit = { APDC_eco_is_planned = yes }
+set_temp_variable = { APDC_eco_math_14 = political_power_daily }
+multiply_temp_variable = { APDC_eco_math_14 = 0.15 }
+add_to_temp_variable = { APDC_eco_math_14 = 0.6 }
+clamp_temp_variable = { var = APDC_eco_math_14 min = 0 max = 1 }
+set_variable = { APDC_eco_distribution = APDC_eco_math_14 }
+
+}
+set_temp_variable = { APDC_eco_math_15 = APDC_eco_domestic_m }
+add_to_temp_variable = { APDC_eco_math_15 = APDC_eco_extra_input }
+subtract_from_temp_variable = { APDC_eco_math_15 = APDC_eco_extra_output }
+clamp_temp_variable = { var = APDC_eco_math_15 min = 0 }
+multiply_temp_variable = { APDC_eco_math_15 = APDC_eco_distribution }
+set_variable = { APDC_eco_supply_m = APDC_eco_math_15 }
+set_variable = { APDC_eco_import_target_m = 0 }
+set_variable = { APDC_eco_export_target_m = 0 }
+if = { limit = { check_variable = { APDC_eco_demand_m > APDC_eco_supply_m } }
+set_temp_variable = { APDC_eco_math_16 = APDC_eco_demand_m }
+subtract_from_temp_variable = { APDC_eco_math_16 = APDC_eco_supply_m }
+multiply_temp_variable = { APDC_eco_math_16 = APDC_eco_trade_freedom }
+set_variable = { APDC_eco_import_target_m = APDC_eco_math_16 }
+
+}
+else = {
+set_temp_variable = { APDC_eco_math_17 = APDC_eco_supply_m }
+subtract_from_temp_variable = { APDC_eco_math_17 = APDC_eco_demand_m }
+multiply_temp_variable = { APDC_eco_math_17 = APDC_eco_trade_freedom }
+set_variable = { APDC_eco_export_target_m = APDC_eco_math_17 }
+
+}
+
+}
+APDC_eco_refresh_current_supply = {
+APDC_eco_calculate_country = yes
+set_temp_variable = { APDC_eco_math_18 = APDC_eco_domestic_m }
+add_to_temp_variable = { APDC_eco_math_18 = APDC_eco_extra_input }
+subtract_from_temp_variable = { APDC_eco_math_18 = APDC_eco_extra_output }
+add_to_temp_variable = { APDC_eco_math_18 = APDC_eco_imports_m }
+subtract_from_temp_variable = { APDC_eco_math_18 = APDC_eco_exports_m }
+clamp_temp_variable = { var = APDC_eco_math_18 min = 0 }
+multiply_temp_variable = { APDC_eco_math_18 = APDC_eco_distribution }
+set_variable = { APDC_eco_supply_m = APDC_eco_math_18 }
+APDC_eco_calculate_gap = yes
+
+}
+APDC_eco_clear_trade = {
+clear_array = APDC_eco_trade_partners
+clear_array = APDC_eco_trade_amounts
+set_variable = { APDC_eco_imports_m = 0 }
+set_variable = { APDC_eco_exports_m = 0 }
+set_variable = { APDC_eco_tariffs_m = 0 }
+set_variable = { APDC_eco_remaining_import_m = APDC_eco_import_target_m }
+set_variable = { APDC_eco_remaining_export_m = APDC_eco_export_target_m }
+
+}
+APDC_eco_record_trade = {
+if = {
+ limit = { NOT = { is_in_array = { array = APDC_eco_trade_partners value = var:global.APDC_eco_trade_partner } } }
+ add_to_array = { array = APDC_eco_trade_partners value = var:global.APDC_eco_trade_partner }
+ add_to_array = { array = APDC_eco_trade_amounts value = 0 }
+}
+for_each_loop = {
+ array = APDC_eco_trade_partners value = APDC_eco_partner_value index = APDC_eco_partner_index
+ if = {
+  limit = { check_variable = { APDC_eco_partner_value = global.APDC_eco_trade_partner } }
+  add_to_variable = { APDC_eco_trade_amounts^APDC_eco_partner_index = global.APDC_eco_trade_quantity }
+ }
+}
+
+}
+APDC_eco_clear_world_market = {
+clear_array = global.APDC_eco_exporters
+every_country = {
+APDC_eco_clear_trade = yes
+if = { limit = { check_variable = { APDC_eco_remaining_export_m > 0 } }
+add_to_array = { array = global.APDC_eco_exporters value = THIS }
+}
+}
+while_loop_effect = {
+ limit = { check_variable = { global.APDC_eco_exporters^num > 0 } }
+ set_variable = { global.APDC_eco_best_tariff = 999 }
+ set_variable = { global.APDC_eco_best_supply = -1 }
+ for_each_scope_loop = {
+  array = global.APDC_eco_exporters
+  if = {
+   limit = { OR = {
+    check_variable = { APDC_eco_tariff < global.APDC_eco_best_tariff }
+    AND = { check_variable = { APDC_eco_tariff = global.APDC_eco_best_tariff } check_variable = { APDC_eco_remaining_export_m > global.APDC_eco_best_supply } }
+   } }
+   set_variable = { global.APDC_eco_seller = THIS }
+   set_variable = { global.APDC_eco_best_tariff = APDC_eco_tariff }
+   set_variable = { global.APDC_eco_best_supply = APDC_eco_remaining_export_m }
+  }
+ }
+ remove_from_array = { array = global.APDC_eco_exporters value = var:global.APDC_eco_seller }
+ clear_array = global.APDC_eco_buyers
+ every_country = {
+  if = {
+   limit = {
+    check_variable = { APDC_eco_remaining_import_m > 0 }
+    NOT = { tag = var:global.APDC_eco_seller }
+    NOT = { has_war_with = var:global.APDC_eco_seller }
+    NOT = { is_embargoed_by = var:global.APDC_eco_seller }
+    NOT = { is_embargoing = var:global.APDC_eco_seller }
+   }
+   add_to_array = { array = global.APDC_eco_buyers value = THIS }
+  }
+ }
+ while_loop_effect = {
+  limit = { check_variable = { global.APDC_eco_best_supply > 0 } check_variable = { global.APDC_eco_buyers^num > 0 } }
+  set_temp_variable = { APDC_eco_math_19 = global.APDC_eco_best_supply }
+divide_temp_variable = { APDC_eco_math_19 = global.APDC_eco_buyers^num }
+set_variable = { global.APDC_eco_share = APDC_eco_math_19 }
+  clear_array = global.APDC_eco_next_buyers
+  set_variable = { global.APDC_eco_round_used = 0 }
+  for_each_scope_loop = {
+   array = global.APDC_eco_buyers
+   set_temp_variable = { APDC_eco_math_20 = APDC_eco_remaining_import_m }
+clamp_temp_variable = { var = APDC_eco_math_20 max = global.APDC_eco_share }
+set_variable = { global.APDC_eco_trade_quantity = APDC_eco_math_20 }
+   add_to_variable = { APDC_eco_imports_m = global.APDC_eco_trade_quantity }
+   subtract_from_variable = { APDC_eco_remaining_import_m = global.APDC_eco_trade_quantity }
+   add_to_variable = { global.APDC_eco_round_used = global.APDC_eco_trade_quantity }
+   set_temp_variable = { APDC_eco_math_21 = global.APDC_eco_trade_quantity }
+multiply_temp_variable = { APDC_eco_math_21 = APDC_eco_tariff }
+set_temp_variable = { APDC_eco_tariff_income = APDC_eco_math_21 }
+   add_to_variable = { APDC_eco_tariffs_m = APDC_eco_tariff_income }
+   set_variable = { global.APDC_eco_trade_partner = global.APDC_eco_seller }
+   APDC_eco_record_trade = yes
+   set_variable = { global.APDC_eco_buyer = THIS }
+   var:global.APDC_eco_seller = {
+    add_to_variable = { APDC_eco_exports_m = global.APDC_eco_trade_quantity }
+    subtract_from_variable = { APDC_eco_remaining_export_m = global.APDC_eco_trade_quantity }
+    set_temp_variable = { APDC_eco_math_22 = global.APDC_eco_trade_quantity }
+multiply_temp_variable = { APDC_eco_math_22 = APDC_eco_tariff }
+set_temp_variable = { APDC_eco_tariff_income = APDC_eco_math_22 }
+    add_to_variable = { APDC_eco_tariffs_m = APDC_eco_tariff_income }
+    multiply_variable = { global.APDC_eco_trade_quantity = -1 }
+    set_variable = { global.APDC_eco_trade_partner = global.APDC_eco_buyer }
+    APDC_eco_record_trade = yes
+   }
+   if = { limit = { check_variable = { APDC_eco_remaining_import_m > 0 } } add_to_array = { array = global.APDC_eco_next_buyers value = THIS } }
+  }
+  subtract_from_variable = { global.APDC_eco_best_supply = global.APDC_eco_round_used }
+  clear_array = global.APDC_eco_buyers
+  for_each_scope_loop = { array = global.APDC_eco_next_buyers add_to_array = { array = global.APDC_eco_buyers value = THIS } }
+  if = { limit = { NOT = { check_variable = { global.APDC_eco_round_used > 0 } } } clear_array = global.APDC_eco_buyers }
+ }
+}
+every_country = {
+ set_temp_variable = { APDC_eco_math_23 = APDC_eco_domestic_m }
+add_to_temp_variable = { APDC_eco_math_23 = APDC_eco_extra_input }
+subtract_from_temp_variable = { APDC_eco_math_23 = APDC_eco_extra_output }
+add_to_temp_variable = { APDC_eco_math_23 = APDC_eco_imports_m }
+subtract_from_temp_variable = { APDC_eco_math_23 = APDC_eco_exports_m }
+clamp_temp_variable = { var = APDC_eco_math_23 min = 0 }
+multiply_temp_variable = { APDC_eco_math_23 = APDC_eco_distribution }
+set_variable = { APDC_eco_supply_m = APDC_eco_math_23 }
+ APDC_eco_calculate_gap = yes
+ APDC_eco_calculate_budget = yes
+}
+clear_array = global.APDC_eco_buyers
+clear_array = global.APDC_eco_next_buyers
+clear_variable = global.APDC_eco_seller
+clear_variable = global.APDC_eco_buyer
+clear_variable = global.APDC_eco_trade_partner
+
+}
+APDC_eco_calculate_gap = {
+set_variable = { APDC_eco_shortage = 0 }
+set_variable = { APDC_eco_surplus = 0 }
+set_variable = { APDC_eco_food_penalty = 0 }
+if = { limit = { check_variable = { APDC_eco_demand_m > 0 } }
+set_temp_variable = { APDC_eco_math_24 = APDC_eco_demand_m }
+subtract_from_temp_variable = { APDC_eco_math_24 = APDC_eco_supply_m }
+divide_temp_variable = { APDC_eco_math_24 = APDC_eco_demand_m }
+clamp_temp_variable = { var = APDC_eco_math_24 min = 0 }
+set_variable = { APDC_eco_shortage = APDC_eco_math_24 }
+set_temp_variable = { APDC_eco_math_25 = APDC_eco_supply_m }
+subtract_from_temp_variable = { APDC_eco_math_25 = APDC_eco_demand_m }
+divide_temp_variable = { APDC_eco_math_25 = APDC_eco_demand_m }
+clamp_temp_variable = { var = APDC_eco_math_25 min = 0 }
+set_variable = { APDC_eco_surplus = APDC_eco_math_25 }
+
+}
+set_temp_variable = { APDC_eco_math_26 = APDC_eco_shortage }
+clamp_temp_variable = { var = APDC_eco_math_26 max = 1 }
+multiply_temp_variable = { APDC_eco_math_26 = -0.1 }
+set_variable = { APDC_eco_food_penalty = APDC_eco_math_26 }
+set_temp_variable = { APDC_eco_math_27 = modifier@APDC_eco_civ_expansion_base }
+set_temp_variable = { APDC_eco_math_28 = modifier@production_speed_buildings_factor }
+add_to_temp_variable = { APDC_eco_math_28 = modifier@production_speed_industrial_complex_factor }
+add_to_temp_variable = { APDC_eco_math_28 = 1 }
+clamp_temp_variable = { var = APDC_eco_math_28 min = 0 }
+multiply_temp_variable = { APDC_eco_math_27 = APDC_eco_math_28 }
+set_temp_variable = { APDC_eco_math_29 = modifier@APDC_eco_private_civ_expansion_factor }
+add_to_temp_variable = { APDC_eco_math_29 = 1 }
+clamp_temp_variable = { var = APDC_eco_math_29 min = 0 }
+multiply_temp_variable = { APDC_eco_math_27 = APDC_eco_math_29 }
+set_temp_variable = { APDC_eco_math_30 = APDC_eco_shortage }
+add_to_temp_variable = { APDC_eco_math_30 = 1 }
+multiply_temp_variable = { APDC_eco_math_27 = APDC_eco_math_30 }
+set_variable = { APDC_eco_civ_capacity = APDC_eco_math_27 }
+set_temp_variable = { APDC_eco_math_31 = APDC_eco_civ_capacity }
+multiply_temp_variable = { APDC_eco_math_31 = APDC_eco_private_civ }
+add_to_temp_variable = { APDC_eco_math_31 = 5 }
+multiply_temp_variable = { APDC_eco_math_31 = 0.5 }
+set_variable = { APDC_eco_civ_velocity = APDC_eco_math_31 }
+if = { limit = { NOT = { check_variable = { APDC_eco_shortage > 0.1 } } NOT = { check_variable = { APDC_eco_surplus > 0.1 } } }
+set_variable = { APDC_eco_civ_capacity = 0 }
+set_variable = { APDC_eco_civ_velocity = 0 }
+
+}
+if = { limit = { check_variable = { APDC_eco_surplus > 0.1 } }
+set_variable = { APDC_eco_civ_capacity = 0 }
+set_temp_variable = { APDC_eco_math_32 = APDC_eco_surplus }
+multiply_temp_variable = { APDC_eco_math_32 = APDC_eco_private_civ }
+multiply_temp_variable = { APDC_eco_math_32 = -2.5 }
+set_variable = { APDC_eco_civ_velocity = APDC_eco_math_32 }
+
+}
+if = { limit = { APDC_eco_is_planned = yes }
+set_variable = { APDC_eco_civ_capacity = 0 }
+set_variable = { APDC_eco_civ_velocity = 0 }
+
+}
+if = { limit = { check_variable = { APDC_eco_civ_velocity > 0 } NOT = { any_controlled_state = { free_building_slots = { building = APDC_eco_private_civ size > 0 } } } }
+set_variable = { APDC_eco_civ_capacity = 0 }
+set_variable = { APDC_eco_civ_velocity = 0 }
+
+}
+set_temp_variable = { APDC_eco_math_33 = modifier@APDC_eco_mil_expansion_base }
+set_temp_variable = { APDC_eco_math_34 = modifier@production_speed_buildings_factor }
+add_to_temp_variable = { APDC_eco_math_34 = modifier@production_speed_arms_factory_factor }
+add_to_temp_variable = { APDC_eco_math_34 = 1 }
+clamp_temp_variable = { var = APDC_eco_math_34 min = 0 }
+multiply_temp_variable = { APDC_eco_math_33 = APDC_eco_math_34 }
+set_temp_variable = { APDC_eco_math_35 = modifier@APDC_eco_private_mil_expansion_factor }
+add_to_temp_variable = { APDC_eco_math_35 = 1 }
+clamp_temp_variable = { var = APDC_eco_math_35 min = 0 }
+multiply_temp_variable = { APDC_eco_math_33 = APDC_eco_math_35 }
+set_temp_variable = { APDC_eco_math_36 = APDC_eco_shortage }
+add_to_temp_variable = { APDC_eco_math_36 = 1 }
+multiply_temp_variable = { APDC_eco_math_33 = APDC_eco_math_36 }
+set_variable = { APDC_eco_mil_capacity = APDC_eco_math_33 }
+set_temp_variable = { APDC_eco_math_37 = APDC_eco_mil_capacity }
+multiply_temp_variable = { APDC_eco_math_37 = APDC_eco_private_civ }
+add_to_temp_variable = { APDC_eco_math_37 = 5 }
+multiply_temp_variable = { APDC_eco_math_37 = 0.5 }
+set_variable = { APDC_eco_mil_velocity = APDC_eco_math_37 }
+if = { limit = { NOT = { check_variable = { APDC_eco_shortage > 0.1 } } NOT = { check_variable = { APDC_eco_surplus > 0.1 } } }
+set_variable = { APDC_eco_mil_capacity = 0 }
+set_variable = { APDC_eco_mil_velocity = 0 }
+
+}
+if = { limit = { check_variable = { APDC_eco_surplus > 0.1 } }
+set_variable = { APDC_eco_mil_capacity = 0 }
+set_temp_variable = { APDC_eco_math_38 = APDC_eco_surplus }
+multiply_temp_variable = { APDC_eco_math_38 = APDC_eco_private_civ }
+multiply_temp_variable = { APDC_eco_math_38 = -2.5 }
+set_variable = { APDC_eco_mil_velocity = APDC_eco_math_38 }
+
+}
+if = { limit = { APDC_eco_is_planned = yes }
+set_variable = { APDC_eco_mil_capacity = 0 }
+set_variable = { APDC_eco_mil_velocity = 0 }
+
+}
+if = { limit = { check_variable = { APDC_eco_mil_velocity > 0 } NOT = { any_controlled_state = { free_building_slots = { building = APDC_eco_private_mil size > 0 } } } }
+set_variable = { APDC_eco_mil_capacity = 0 }
+set_variable = { APDC_eco_mil_velocity = 0 }
+
+}
+set_variable = { APDC_eco_last_civ_capacity = APDC_eco_civ_capacity }
+
+}
+APDC_eco_complete_civ = {
+set_variable = { APDC_eco_build_done = 0 }
+if = { limit = { check_variable = { APDC_eco_build_done = 0 } }
+random_controlled_state = { limit = { is_owned_by = PREV is_core_of = PREV free_building_slots = { building = APDC_eco_private_civ size > 0 } }
+add_building_construction = { type = APDC_eco_private_civ level = 1 instant_build = yes }
+set_variable = { PREV.APDC_eco_build_done = 1 }
+}
+
+}
+if = { limit = { check_variable = { APDC_eco_build_done = 0 } }
+random_controlled_state = { limit = { is_owned_by = PREV NOT = { is_core_of = PREV } free_building_slots = { building = APDC_eco_private_civ size > 0 } }
+add_building_construction = { type = APDC_eco_private_civ level = 1 instant_build = yes }
+set_variable = { PREV.APDC_eco_build_done = 1 }
+}
+
+}
+if = { limit = { check_variable = { APDC_eco_build_done = 0 } }
+random_controlled_state = { limit = { NOT = { is_owned_by = PREV } free_building_slots = { building = APDC_eco_private_civ size > 0 } }
+add_building_construction = { type = APDC_eco_private_civ level = 1 instant_build = yes }
+set_variable = { PREV.APDC_eco_build_done = 1 }
+}
+
+}
+
+}
+APDC_eco_demolish_civ_in_state = {
+set_temp_variable = { APDC_eco_saved_damage = damaged_building_level@APDC_eco_private_civ }
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 1 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 0 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 2 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 1 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 1 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 3 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 2 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 2 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 4 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 3 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 3 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 5 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 4 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 4 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 6 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 5 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 5 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 7 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 6 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 6 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 8 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 7 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 7 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 9 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 8 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 8 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 10 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 9 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 9 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 11 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 10 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 10 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 12 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 11 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 11 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 13 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 12 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 12 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 14 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 13 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 13 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 15 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 14 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 14 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 16 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 15 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 15 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 17 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 16 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 16 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 18 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 17 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 17 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 19 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 18 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 18 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 20 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 19 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 19 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 21 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 20 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 20 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 22 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 21 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 21 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 23 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 22 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 22 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 24 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 23 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 23 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 25 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 24 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 24 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 26 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 25 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 25 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 27 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 26 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 26 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 28 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 27 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 27 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 29 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 28 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 28 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 30 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 29 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 29 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 31 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 30 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 30 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 32 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 31 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 31 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 33 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 32 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 32 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 34 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 33 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 33 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 35 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 34 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 34 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 36 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 35 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 35 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 37 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 36 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 36 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 38 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 37 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 37 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 39 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 38 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 38 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 40 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 39 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 39 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 41 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 40 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 40 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 42 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 41 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 41 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 43 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 42 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 42 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 44 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 43 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 43 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 45 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 44 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 44 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 46 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 45 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 45 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 47 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 46 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 46 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 48 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 47 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 47 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 49 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 48 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 48 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_civ = 50 } }
+set_building_level = { type = APDC_eco_private_civ level = 0 }
+add_building_construction = { type = APDC_eco_private_civ level = 49 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 49 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 41.94304 } } }
+damage_building = { type = APDC_eco_private_civ damage = 41.94304 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 41.94304 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 20.97152 } } }
+damage_building = { type = APDC_eco_private_civ damage = 20.97152 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 20.97152 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 10.48576 } } }
+damage_building = { type = APDC_eco_private_civ damage = 10.48576 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 10.48576 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 5.24288 } } }
+damage_building = { type = APDC_eco_private_civ damage = 5.24288 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 5.24288 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 2.62144 } } }
+damage_building = { type = APDC_eco_private_civ damage = 2.62144 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 2.62144 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 1.31072 } } }
+damage_building = { type = APDC_eco_private_civ damage = 1.31072 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 1.31072 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.65536 } } }
+damage_building = { type = APDC_eco_private_civ damage = 0.65536 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.65536 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.32768 } } }
+damage_building = { type = APDC_eco_private_civ damage = 0.32768 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.32768 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.16384 } } }
+damage_building = { type = APDC_eco_private_civ damage = 0.16384 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.16384 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.08192 } } }
+damage_building = { type = APDC_eco_private_civ damage = 0.08192 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.08192 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.04096 } } }
+damage_building = { type = APDC_eco_private_civ damage = 0.04096 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.04096 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.02048 } } }
+damage_building = { type = APDC_eco_private_civ damage = 0.02048 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.02048 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.01024 } } }
+damage_building = { type = APDC_eco_private_civ damage = 0.01024 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.01024 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.00512 } } }
+damage_building = { type = APDC_eco_private_civ damage = 0.00512 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.00512 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.00256 } } }
+damage_building = { type = APDC_eco_private_civ damage = 0.00256 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.00256 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.00128 } } }
+damage_building = { type = APDC_eco_private_civ damage = 0.00128 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.00128 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.00064 } } }
+damage_building = { type = APDC_eco_private_civ damage = 0.00064 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.00064 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.00032 } } }
+damage_building = { type = APDC_eco_private_civ damage = 0.00032 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.00032 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.00016 } } }
+damage_building = { type = APDC_eco_private_civ damage = 0.00016 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.00016 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.00008 } } }
+damage_building = { type = APDC_eco_private_civ damage = 0.00008 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.00008 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.00004 } } }
+damage_building = { type = APDC_eco_private_civ damage = 0.00004 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.00004 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.00002 } } }
+damage_building = { type = APDC_eco_private_civ damage = 0.00002 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.00002 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.00001 } } }
+damage_building = { type = APDC_eco_private_civ damage = 0.00001 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.00001 }
+
+}
+
+}
+APDC_eco_demolish_civ = {
+set_variable = { APDC_eco_demolish_done = 0 }
+random_controlled_state = { limit = { check_variable = { building_level@APDC_eco_private_civ > 0 } } APDC_eco_demolish_civ_in_state = yes }
+
+}
+APDC_eco_advance_civ = {
+add_to_variable = { APDC_eco_civ_progress = APDC_eco_civ_velocity }
+set_variable = { APDC_eco_construction_continue = 1 }
+while_loop_effect = { limit = { check_variable = { APDC_eco_construction_continue = 1 } NOT = { check_variable = { APDC_eco_civ_progress < 10800 } } }
+APDC_eco_complete_civ = yes
+if = { limit = { check_variable = { APDC_eco_build_done = 1 } }
+add_to_variable = { APDC_eco_civ_progress = -10800 }
+
+}
+else = {
+set_variable = { APDC_eco_civ_progress = 10800 }
+set_variable = { APDC_eco_construction_continue = 0 }
+
+}
+}
+if = { limit = { check_variable = { APDC_eco_civ_velocity < 0 } }
+set_variable = { APDC_eco_construction_continue = 1 }
+while_loop_effect = { limit = { check_variable = { APDC_eco_construction_continue = 1 } NOT = { check_variable = { APDC_eco_civ_progress > 0 } } }
+APDC_eco_demolish_civ = yes
+if = { limit = { check_variable = { APDC_eco_demolish_done = 1 } }
+add_to_variable = { APDC_eco_civ_progress = 10800 }
+
+}
+else = {
+set_variable = { APDC_eco_civ_progress = 0 }
+set_variable = { APDC_eco_construction_continue = 0 }
+
+}
+}
+
+}
+
+}
+APDC_eco_complete_mil = {
+set_variable = { APDC_eco_build_done = 0 }
+if = { limit = { check_variable = { APDC_eco_build_done = 0 } }
+random_controlled_state = { limit = { is_owned_by = PREV is_core_of = PREV free_building_slots = { building = APDC_eco_private_mil size > 0 } }
+add_building_construction = { type = APDC_eco_private_mil level = 1 instant_build = yes }
+set_variable = { PREV.APDC_eco_build_done = 1 }
+}
+
+}
+if = { limit = { check_variable = { APDC_eco_build_done = 0 } }
+random_controlled_state = { limit = { is_owned_by = PREV NOT = { is_core_of = PREV } free_building_slots = { building = APDC_eco_private_mil size > 0 } }
+add_building_construction = { type = APDC_eco_private_mil level = 1 instant_build = yes }
+set_variable = { PREV.APDC_eco_build_done = 1 }
+}
+
+}
+if = { limit = { check_variable = { APDC_eco_build_done = 0 } }
+random_controlled_state = { limit = { NOT = { is_owned_by = PREV } free_building_slots = { building = APDC_eco_private_mil size > 0 } }
+add_building_construction = { type = APDC_eco_private_mil level = 1 instant_build = yes }
+set_variable = { PREV.APDC_eco_build_done = 1 }
+}
+
+}
+
+}
+APDC_eco_demolish_mil_in_state = {
+set_temp_variable = { APDC_eco_saved_damage = damaged_building_level@APDC_eco_private_mil }
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 1 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 0 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 2 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 1 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 1 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 3 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 2 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 2 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 4 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 3 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 3 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 5 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 4 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 4 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 6 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 5 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 5 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 7 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 6 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 6 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 8 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 7 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 7 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 9 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 8 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 8 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 10 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 9 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 9 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 11 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 10 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 10 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 12 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 11 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 11 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 13 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 12 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 12 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 14 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 13 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 13 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 15 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 14 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 14 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 16 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 15 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 15 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 17 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 16 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 16 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 18 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 17 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 17 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 19 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 18 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 18 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 20 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 19 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 19 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 21 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 20 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 20 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 22 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 21 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 21 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 23 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 22 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 22 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 24 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 23 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 23 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 25 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 24 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 24 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 26 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 25 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 25 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 27 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 26 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 26 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 28 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 27 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 27 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 29 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 28 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 28 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 30 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 29 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 29 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 31 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 30 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 30 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 32 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 31 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 31 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 33 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 32 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 32 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 34 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 33 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 33 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 35 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 34 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 34 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 36 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 35 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 35 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 37 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 36 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 36 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 38 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 37 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 37 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 39 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 38 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 38 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 40 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 39 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 39 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 41 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 40 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 40 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 42 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 41 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 41 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 43 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 42 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 42 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 44 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 43 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 43 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 45 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 44 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 44 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 46 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 45 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 45 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 47 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 46 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 46 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 48 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 47 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 47 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 49 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 48 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 48 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { check_variable = { building_level@APDC_eco_private_mil = 50 } }
+set_building_level = { type = APDC_eco_private_mil level = 0 }
+add_building_construction = { type = APDC_eco_private_mil level = 49 instant_build = yes }
+clamp_temp_variable = { var = APDC_eco_saved_damage min = 0 max = 49 }
+set_variable = { PREV.APDC_eco_demolish_done = 1 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 41.94304 } } }
+damage_building = { type = APDC_eco_private_mil damage = 41.94304 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 41.94304 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 20.97152 } } }
+damage_building = { type = APDC_eco_private_mil damage = 20.97152 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 20.97152 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 10.48576 } } }
+damage_building = { type = APDC_eco_private_mil damage = 10.48576 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 10.48576 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 5.24288 } } }
+damage_building = { type = APDC_eco_private_mil damage = 5.24288 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 5.24288 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 2.62144 } } }
+damage_building = { type = APDC_eco_private_mil damage = 2.62144 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 2.62144 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 1.31072 } } }
+damage_building = { type = APDC_eco_private_mil damage = 1.31072 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 1.31072 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.65536 } } }
+damage_building = { type = APDC_eco_private_mil damage = 0.65536 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.65536 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.32768 } } }
+damage_building = { type = APDC_eco_private_mil damage = 0.32768 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.32768 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.16384 } } }
+damage_building = { type = APDC_eco_private_mil damage = 0.16384 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.16384 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.08192 } } }
+damage_building = { type = APDC_eco_private_mil damage = 0.08192 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.08192 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.04096 } } }
+damage_building = { type = APDC_eco_private_mil damage = 0.04096 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.04096 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.02048 } } }
+damage_building = { type = APDC_eco_private_mil damage = 0.02048 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.02048 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.01024 } } }
+damage_building = { type = APDC_eco_private_mil damage = 0.01024 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.01024 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.00512 } } }
+damage_building = { type = APDC_eco_private_mil damage = 0.00512 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.00512 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.00256 } } }
+damage_building = { type = APDC_eco_private_mil damage = 0.00256 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.00256 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.00128 } } }
+damage_building = { type = APDC_eco_private_mil damage = 0.00128 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.00128 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.00064 } } }
+damage_building = { type = APDC_eco_private_mil damage = 0.00064 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.00064 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.00032 } } }
+damage_building = { type = APDC_eco_private_mil damage = 0.00032 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.00032 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.00016 } } }
+damage_building = { type = APDC_eco_private_mil damage = 0.00016 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.00016 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.00008 } } }
+damage_building = { type = APDC_eco_private_mil damage = 0.00008 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.00008 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.00004 } } }
+damage_building = { type = APDC_eco_private_mil damage = 0.00004 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.00004 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.00002 } } }
+damage_building = { type = APDC_eco_private_mil damage = 0.00002 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.00002 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_saved_damage < 0.00001 } } }
+damage_building = { type = APDC_eco_private_mil damage = 0.00001 }
+subtract_from_temp_variable = { APDC_eco_saved_damage = 0.00001 }
+
+}
+
+}
+APDC_eco_demolish_mil = {
+set_variable = { APDC_eco_demolish_done = 0 }
+random_controlled_state = { limit = { check_variable = { building_level@APDC_eco_private_mil > 0 } } APDC_eco_demolish_mil_in_state = yes }
+
+}
+APDC_eco_advance_mil = {
+add_to_variable = { APDC_eco_mil_progress = APDC_eco_mil_velocity }
+set_variable = { APDC_eco_construction_continue = 1 }
+while_loop_effect = { limit = { check_variable = { APDC_eco_construction_continue = 1 } NOT = { check_variable = { APDC_eco_mil_progress < 7200 } } }
+APDC_eco_complete_mil = yes
+if = { limit = { check_variable = { APDC_eco_build_done = 1 } }
+add_to_variable = { APDC_eco_mil_progress = -7200 }
+
+}
+else = {
+set_variable = { APDC_eco_mil_progress = 7200 }
+set_variable = { APDC_eco_construction_continue = 0 }
+
+}
+}
+if = { limit = { check_variable = { APDC_eco_mil_velocity < 0 } }
+set_variable = { APDC_eco_construction_continue = 1 }
+while_loop_effect = { limit = { check_variable = { APDC_eco_construction_continue = 1 } NOT = { check_variable = { APDC_eco_mil_progress > 0 } } }
+APDC_eco_demolish_mil = yes
+if = { limit = { check_variable = { APDC_eco_demolish_done = 1 } }
+add_to_variable = { APDC_eco_mil_progress = 7200 }
+
+}
+else = {
+set_variable = { APDC_eco_mil_progress = 0 }
+set_variable = { APDC_eco_construction_continue = 0 }
+
+}
+}
+
+}
+
+}
+APDC_eco_reconcile_planned = {
+if = { limit = { APDC_eco_is_planned = yes }
+remove_ideas = APDC_eco_distribution_1
+remove_ideas = APDC_eco_distribution_2
+remove_ideas = APDC_eco_distribution_3
+remove_ideas = APDC_eco_distribution_4
+add_ideas = APDC_eco_distribution_5
+every_controlled_state = {
+set_temp_variable = { APDC_eco_convert = building_level@APDC_eco_private_civ }
+if = { limit = { check_variable = { APDC_eco_convert > 0 } } set_building_level = { type = APDC_eco_private_civ level = 0 } add_building_construction = { type = industrial_complex level = APDC_eco_convert instant_build = yes } }
+set_temp_variable = { APDC_eco_convert = building_level@APDC_eco_private_mil }
+if = { limit = { check_variable = { APDC_eco_convert > 0 } } set_building_level = { type = APDC_eco_private_mil level = 0 } add_building_construction = { type = arms_factory level = APDC_eco_convert instant_build = yes } }
+}
+APDC_eco_nationalize_stock = yes
+set_variable = { APDC_eco_civ_progress = 0 }
+set_variable = { APDC_eco_mil_progress = 0 }
+
+}
+else = {
+if = { limit = { has_idea = APDC_eco_distribution_5 }
+remove_ideas = APDC_eco_distribution_5
+add_ideas = APDC_eco_distribution_1
+
+}
+
+}
+
+}
+APDC_eco_calculate_budget = {
+set_temp_variable = { APDC_eco_math_39 = num_of_civilian_factories_available_for_projects }
+subtract_from_temp_variable = { APDC_eco_math_39 = num_of_available_civilian_factories }
+clamp_temp_variable = { var = APDC_eco_math_39 min = 0 }
+set_variable = { APDC_eco_construction_civ = APDC_eco_math_39 }
+set_temp_variable = { APDC_eco_math_40 = num_of_military_factories }
+subtract_from_temp_variable = { APDC_eco_math_40 = num_of_available_military_factories }
+clamp_temp_variable = { var = APDC_eco_math_40 min = 0 }
+set_variable = { APDC_eco_working_mil = APDC_eco_math_40 }
+set_temp_variable = { APDC_eco_math_41 = num_of_naval_factories }
+subtract_from_temp_variable = { APDC_eco_math_41 = num_of_available_naval_factories }
+clamp_temp_variable = { var = APDC_eco_math_41 min = 0 }
+set_variable = { APDC_eco_working_nav = APDC_eco_math_41 }
+set_variable = { APDC_eco_research_active = 0 }
+set_variable = { APDC_eco_project_active = 0 }
+if = { limit = { is_researching_technology = APDC_land_units_bootstrap }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = APDC_land_units_easter_eggs }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = APDC_medical_center_unlock }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = CAS1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = CAS2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = CAS3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = CAS4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = CAS5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = GFCC_area_Pollution_B1_tech }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = MP_fighter1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = MP_fighter2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = MP_fighter3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = MP_fighter4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = MP_fighter5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = NOR_rikstanken_tech }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_computing_machine }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_computing_machine2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_computing_machine3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_computing_machine4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_computing_machine5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_depth_charges }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_dp_light_battery }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_fire_control_system }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_heavy_battery }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_infantry_weapons }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_infantry_weapons2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_infantry_weapons3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_light_battery }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_light_tank }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_light_tank_2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_machine_tools }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_modern_tank_turret_tech }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_naval_mines }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_oil_processing }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_rubber_processing }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_ship_hull_carrier }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_ship_hull_cruiser }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_ship_hull_heavy }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_ship_hull_light }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_ship_hull_submarine }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_ship_torpedo_launcher }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = advanced_sonar }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = airdrop_mines }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = airdrop_mines_bba }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = airsweep_mines }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = airsweep_mines_bba }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = amphibious_mechanized }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = amphibious_mechanized2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = amphibious_mechanized3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = amphibious_tank }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = amphibious_tank2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = amphibious_tank3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = antisubmarine_helicopter }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = antisubmarine_helicopter2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = antisubmarine_helicopter3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = armored_car1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = armored_car2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = armored_car3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = armored_car4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = armored_car5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = armored_car6 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = armored_train }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = artillery1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = artillery2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = artillery3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = artillery4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = artillery5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = assembly_line_production }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = atomic_research }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = basic_battery }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = basic_cruiser_armor_scheme }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = basic_depth_charges }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = basic_dp_light_battery }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = basic_fire_control_system }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = basic_heavy_armor_scheme }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = basic_heavy_battery }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = basic_heavy_shell }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = basic_light_battery }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = basic_light_shell }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = basic_light_tank }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = basic_machine_tools }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = basic_naval_mines }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = basic_ship_hull_carrier }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = basic_ship_hull_cruiser }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = basic_ship_hull_heavy }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = basic_ship_hull_light }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = basic_ship_hull_submarine }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = basic_submarine_snorkel }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = basic_torpedo }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = basic_train }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = cavity_magnatron }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = centimetric_radar }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = commercial_nuclear_reactor_tech }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = computing_machine }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = concentrated_industry }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = concentrated_industry2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = concentrated_industry3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = concentrated_industry4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = concentrated_industry5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = concentrated_industry6 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = concentrated_industry7 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = concentrated_industry8 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = construction1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = construction2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = construction3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = construction4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = construction5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = construction6 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = construction7 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = construction8 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = cv_CAS1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = cv_CAS2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = cv_CAS3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = cv_CAS4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = cv_CAS5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = cv_MP_fighter1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = cv_MP_fighter2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = cv_MP_fighter3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = cv_MP_fighter4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = cv_MP_fighter5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = cv_early_fighter }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = cv_fighter1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = cv_fighter2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = cv_fighter3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = cv_fighter4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = cv_fighter5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = damage_control_1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = damage_control_2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = damage_control_3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = degaussing }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = dispersed_industry }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = dispersed_industry2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = dispersed_industry3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = dispersed_industry4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = dispersed_industry5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = dispersed_industry6 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = dispersed_industry7 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = dispersed_industry8 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = early_bomber }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = early_fighter }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = early_helicopter }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = early_ship_hull_carrier }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = early_ship_hull_cruiser }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = early_ship_hull_heavy }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = early_ship_hull_light }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = early_ship_hull_submarine }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = early_transport_plane }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = electronic_mechanical_engineering }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = energy_recovery }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = energy_recovery2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = energy_recovery3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = energy_recovery4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = energy_recovery5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = energy_recovery6 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = excavation1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = excavation2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = excavation3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = excavation4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = excavation5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = excavation6 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = excavation7 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = excavation8 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = fighter1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = fighter2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = fighter3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = fighter4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = fighter5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = fire_control_methods_1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = fire_control_methods_2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = fire_control_methods_3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = fleet_submarines }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = flexible_line }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = flexible_line2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = flexible_line3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = flexible_line4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = flexible_line5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = fuel_refining }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = fuel_refining2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = fuel_refining3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = fuel_refining4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = fuel_refining5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = fuel_refining6 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = fuel_refining7 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = fuel_refining8 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = fuel_silos }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = future_infantry_weapons }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = future_light_tank }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = gwtank }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = heavy_battleship }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = helicopter_gunship }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = helicopter_gunship2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = helicopter_gunship3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = helicopter_gunship4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = helicopter_gunship5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = homing_torpedo }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improve_antiair1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improve_antiair2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improve_antiair3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improve_ap1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improve_ap2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improve_ap3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improve_armor1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improve_armor2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improve_armor3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improve_artillery1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improve_artillery2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improve_artillery3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improve_artillery4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improve_he1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improve_he2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improve_rocket1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improve_rocket2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improve_rocket3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_cavity_magnatron }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_computing_machine }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_depth_charges }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_dp_light_battery }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_equipment_conversion }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_fire_control_system }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_heavy_armor_scheme }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_heavy_battery }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_heavy_shell }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_infantry_weapons }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_infantry_weapons_2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_light_battery }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_light_shell }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_light_tank }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_machine_tools }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_naval_mines }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_oil_processing }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_rubber_processing }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_ship_hull_carrier }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_ship_hull_cruiser }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_ship_hull_heavy }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_ship_hull_light }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_ship_hull_submarine }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_ship_torpedo_launcher }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_sonar }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_submarine_mine_laying }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_submarine_snorkel }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = improved_transport_plane }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = infantry_at }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = infantry_at2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = infantry_at3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = infantry_bulletproof }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = infantry_bulletproof1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = infantry_bulletproof2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = infantry_bulletproof3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = infantry_bulletproof4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = infantry_fighting_vehicle }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = infantry_fighting_vehicle2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = infantry_fighting_vehicle3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = infantry_fighting_vehicle4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = infantry_fighting_vehicle5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = infantry_fighting_vehicle6 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = infantry_weapons }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = infantry_weapons1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = infantry_weapons2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = isotope_separation_centrifugal }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = land_multi_charge_large_caliber_gun_tech }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = magnetic_detonator }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = main_battle_tank }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = main_battle_tank2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = main_battle_tank3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = main_battle_tank4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = main_battle_tank5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = main_battle_tank6 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = marines }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = marines2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = marines3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = marines4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = mechanical_computing }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = mechanised_infantry }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = mechanised_infantry2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = mechanised_infantry3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = mechanised_infantry4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = mechanised_infantry5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = mechanised_infantry6 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = modern_depth_charges }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = modern_oil_processing }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = modern_oil_processing2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = modern_oil_processing3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = modern_oil_processing4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = modern_rubber_processing }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = modern_rubber_processing2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = modern_rubber_processing3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = modern_rubber_processing4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = modern_ship_torpedo_launcher }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = modern_sonar }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = monopulse_radar }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = monopulse_radar2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = monopulse_radar3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = motorised_infantry }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = motorised_infantry2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = mtg_landing_craft }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = mtg_tank_landing_craft }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = mtg_transport }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = night_vision }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = night_vision1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = night_vision2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = night_vision3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = night_vision4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = nuclear_reactor }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = nuclear_reactor_heavy_water }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = nukes }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = oil_processing }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = paratroopers }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = paratroopers2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = paratroopers3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = paratroopers4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = phased_array }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = radio_detection }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = railway_gun }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = rangers_tech }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = rangers_tech2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = rangers_tech3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = rangers_tech4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = rocket_artillery }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = rocket_artillery2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = rocket_artillery3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = rocket_artillery4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = rocket_artillery5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = rubber_processing }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = scout_plane1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = scout_plane2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = scout_plane3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = scout_plane4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = smoke_generator }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = sonar }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = sp_antiair1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = sp_antiair2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = sp_antiair3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = sp_antiair4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = sp_antiair5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = sp_artillery1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = sp_artillery2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = sp_artillery3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = sp_artillery4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = strategic_airlifter }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = strategic_bomber1 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = strategic_bomber2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = strategic_bomber3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = strategic_bomber4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = strategic_bomber5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = streamlined_line }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = streamlined_line2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = streamlined_line3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = streamlined_line4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = streamlined_line5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = stronghold_network_tech }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = submarine_mine_laying }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = suicide_charge }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = supersonic_small_airframe }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = synth_oil_experiments }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_engineers }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_engineers2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_engineers3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_engineers4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_field_hospital }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_field_hospital2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_field_hospital3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_field_hospital4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_logistics_company }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_logistics_company2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_logistics_company3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_logistics_company4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_maintenance_company }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_maintenance_company2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_maintenance_company3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_maintenance_company4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_military_police }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_military_police2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_military_police3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_military_police4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_mountaineers }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_mountaineers2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_mountaineers3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_mountaineers4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_recon }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_recon2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_recon3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_recon4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_signal_company }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_signal_company2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_signal_company3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_signal_company4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_support }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = tech_trucks }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = thermonuclear_bombs }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = torpedo_cruiser }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = transport_helicopter }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = transport_helicopter2 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = transport_helicopter3 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = transport_helicopter4 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = transport_helicopter5 }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_researching_technology = wartime_train }
+add_to_variable = { APDC_eco_research_active = 1 }
+
+}
+if = { limit = { is_special_project_being_researched = sp:sp_land_flamethrower_tank }
+add_to_variable = { APDC_eco_project_active = 1 }
+
+}
+if = { limit = { is_special_project_being_researched = sp:sp_land_military_engineering_vehicles }
+add_to_variable = { APDC_eco_project_active = 1 }
+
+}
+if = { limit = { is_special_project_being_researched = sp:sp_land_super_heavy_railway_gun }
+add_to_variable = { APDC_eco_project_active = 1 }
+
+}
+if = { limit = { is_special_project_being_researched = sp:sp_nuclear_engines }
+add_to_variable = { APDC_eco_project_active = 1 }
+
+}
+if = { limit = { is_special_project_being_researched = sp:sp_nuclear_reactor }
+add_to_variable = { APDC_eco_project_active = 1 }
+
+}
+if = { limit = { is_special_project_being_researched = sp:sp_commercial_nuclear_reactor }
+add_to_variable = { APDC_eco_project_active = 1 }
+
+}
+if = { limit = { is_special_project_being_researched = sp:sp_nuclear_bomb }
+add_to_variable = { APDC_eco_project_active = 1 }
+
+}
+if = { limit = { is_special_project_being_researched = sp:sp_thermo_nuclear_bomb }
+add_to_variable = { APDC_eco_project_active = 1 }
+
+}
+if = { limit = { is_special_project_being_researched = sp:sp_air_radar }
+add_to_variable = { APDC_eco_project_active = 1 }
+
+}
+set_temp_variable = { APDC_eco_math_42 = APDC_eco_population_m }
+multiply_temp_variable = { APDC_eco_math_42 = modifier@APDC_eco_head_tax }
+set_variable = { APDC_eco_head_tax_m = APDC_eco_math_42 }
+set_temp_variable = { APDC_eco_math_43 = APDC_eco_supply_m }
+multiply_temp_variable = { APDC_eco_math_43 = modifier@APDC_eco_consumption_tax }
+set_variable = { APDC_eco_consumption_tax_m = APDC_eco_math_43 }
+set_temp_variable = { APDC_eco_math_44 = APDC_eco_supply_m }
+multiply_temp_variable = { APDC_eco_math_44 = modifier@APDC_eco_subsidy }
+set_variable = { APDC_eco_subsidies_m = APDC_eco_math_44 }
+set_temp_variable = { APDC_eco_math_45 = modifier@APDC_eco_food_cost }
+add_to_temp_variable = { APDC_eco_math_45 = modifier@APDC_eco_education_cost }
+add_to_temp_variable = { APDC_eco_math_45 = modifier@APDC_eco_medical_cost }
+multiply_temp_variable = { APDC_eco_math_45 = APDC_eco_population_m }
+set_variable = { APDC_eco_welfare_cost_m = APDC_eco_math_45 }
+set_temp_variable = { APDC_eco_math_46 = APDC_eco_public_civ }
+add_to_temp_variable = { APDC_eco_math_46 = APDC_eco_private_civ }
+multiply_temp_variable = { APDC_eco_math_46 = modifier@APDC_eco_investment_cost }
+set_variable = { APDC_eco_investment_cost_m = APDC_eco_math_46 }
+set_temp_variable = { APDC_eco_math_47 = modifier@APDC_eco_construction_maintenance }
+multiply_temp_variable = { APDC_eco_math_47 = APDC_eco_construction_civ }
+set_temp_variable = { APDC_eco_math_48 = modifier@APDC_eco_construction_maintenance_factor }
+add_to_temp_variable = { APDC_eco_math_48 = 1 }
+clamp_temp_variable = { var = APDC_eco_math_48 min = 0 }
+multiply_temp_variable = { APDC_eco_math_47 = APDC_eco_math_48 }
+set_variable = { APDC_eco_construction_cost_m = APDC_eco_math_47 }
+set_temp_variable = { APDC_eco_math_49 = modifier@APDC_eco_mil_maintenance }
+multiply_temp_variable = { APDC_eco_math_49 = APDC_eco_working_mil }
+set_temp_variable = { APDC_eco_math_50 = modifier@APDC_eco_mil_maintenance_factor }
+add_to_temp_variable = { APDC_eco_math_50 = 1 }
+clamp_temp_variable = { var = APDC_eco_math_50 min = 0 }
+multiply_temp_variable = { APDC_eco_math_49 = APDC_eco_math_50 }
+set_variable = { APDC_eco_production_cost_m = APDC_eco_math_49 }
+set_temp_variable = { APDC_eco_math_51 = modifier@APDC_eco_nav_maintenance }
+multiply_temp_variable = { APDC_eco_math_51 = APDC_eco_working_nav }
+set_temp_variable = { APDC_eco_math_52 = modifier@APDC_eco_nav_maintenance_factor }
+add_to_temp_variable = { APDC_eco_math_52 = 1 }
+clamp_temp_variable = { var = APDC_eco_math_52 min = 0 }
+multiply_temp_variable = { APDC_eco_math_51 = APDC_eco_math_52 }
+set_variable = { APDC_eco_naval_production_cost_m = APDC_eco_math_51 }
+set_temp_variable = { APDC_eco_math_53 = modifier@APDC_eco_research_maintenance }
+multiply_temp_variable = { APDC_eco_math_53 = APDC_eco_research_active }
+set_temp_variable = { APDC_eco_math_54 = modifier@APDC_eco_research_maintenance_factor }
+add_to_temp_variable = { APDC_eco_math_54 = 1 }
+clamp_temp_variable = { var = APDC_eco_math_54 min = 0 }
+multiply_temp_variable = { APDC_eco_math_53 = APDC_eco_math_54 }
+set_variable = { APDC_eco_research_cost_m = APDC_eco_math_53 }
+set_temp_variable = { APDC_eco_math_55 = modifier@APDC_eco_project_maintenance }
+multiply_temp_variable = { APDC_eco_math_55 = APDC_eco_project_active }
+set_temp_variable = { APDC_eco_math_56 = modifier@APDC_eco_project_maintenance_factor }
+add_to_temp_variable = { APDC_eco_math_56 = 1 }
+clamp_temp_variable = { var = APDC_eco_math_56 min = 0 }
+multiply_temp_variable = { APDC_eco_math_55 = APDC_eco_math_56 }
+set_variable = { APDC_eco_projects_cost_m = APDC_eco_math_55 }
+set_temp_variable = { APDC_eco_math_57 = deployed_army_manpower_k }
+divide_temp_variable = { APDC_eco_math_57 = 1000 }
+set_variable = { APDC_eco_army_personnel_m = APDC_eco_math_57 }
+set_temp_variable = { APDC_eco_math_58 = deployed_navy_manpower_k }
+divide_temp_variable = { APDC_eco_math_58 = 1000 }
+set_variable = { APDC_eco_navy_personnel_m = APDC_eco_math_58 }
+set_temp_variable = { APDC_eco_math_59 = deployed_airforce_manpower_k }
+divide_temp_variable = { APDC_eco_math_59 = 1000 }
+set_variable = { APDC_eco_air_personnel_m = APDC_eco_math_59 }
+set_temp_variable = { APDC_eco_math_60 = APDC_eco_army_personnel_m }
+set_temp_variable = { APDC_eco_math_61 = amount_manpower_in_deployment_queue }
+divide_temp_variable = { APDC_eco_math_61 = 1000000 }
+add_to_temp_variable = { APDC_eco_math_60 = APDC_eco_math_61 }
+set_variable = { APDC_eco_army_personnel_m = APDC_eco_math_60 }
+set_variable = { APDC_eco_garrison_personnel_m = 0 }
+set_temp_variable = { APDC_eco_math_62 = APDC_eco_army_personnel_m }
+multiply_temp_variable = { APDC_eco_math_62 = modifier@APDC_eco_army_maintenance }
+set_temp_variable = { APDC_eco_math_63 = modifier@APDC_eco_army_maintenance_factor }
+add_to_temp_variable = { APDC_eco_math_63 = 1 }
+clamp_temp_variable = { var = APDC_eco_math_63 min = 0 }
+multiply_temp_variable = { APDC_eco_math_62 = APDC_eco_math_63 }
+set_variable = { APDC_eco_army_cost_m = APDC_eco_math_62 }
+set_temp_variable = { APDC_eco_math_64 = APDC_eco_navy_personnel_m }
+multiply_temp_variable = { APDC_eco_math_64 = modifier@APDC_eco_navy_maintenance }
+set_temp_variable = { APDC_eco_math_65 = modifier@APDC_eco_navy_maintenance_factor }
+add_to_temp_variable = { APDC_eco_math_65 = 1 }
+clamp_temp_variable = { var = APDC_eco_math_65 min = 0 }
+multiply_temp_variable = { APDC_eco_math_64 = APDC_eco_math_65 }
+set_variable = { APDC_eco_navy_cost_m = APDC_eco_math_64 }
+set_temp_variable = { APDC_eco_math_66 = APDC_eco_air_personnel_m }
+multiply_temp_variable = { APDC_eco_math_66 = modifier@APDC_eco_air_maintenance }
+set_temp_variable = { APDC_eco_math_67 = modifier@APDC_eco_air_maintenance_factor }
+add_to_temp_variable = { APDC_eco_math_67 = 1 }
+clamp_temp_variable = { var = APDC_eco_math_67 min = 0 }
+multiply_temp_variable = { APDC_eco_math_66 = APDC_eco_math_67 }
+set_variable = { APDC_eco_air_cost_m = APDC_eco_math_66 }
+set_temp_variable = { APDC_eco_math_68 = APDC_eco_head_tax_m }
+add_to_temp_variable = { APDC_eco_math_68 = APDC_eco_consumption_tax_m }
+add_to_temp_variable = { APDC_eco_math_68 = APDC_eco_tariffs_m }
+set_variable = { APDC_eco_weekly_income_m = APDC_eco_math_68 }
+set_temp_variable = { APDC_eco_math_69 = 0 }
+add_to_temp_variable = { APDC_eco_math_69 = APDC_eco_subsidies_m }
+add_to_temp_variable = { APDC_eco_math_69 = APDC_eco_welfare_cost_m }
+add_to_temp_variable = { APDC_eco_math_69 = APDC_eco_investment_cost_m }
+add_to_temp_variable = { APDC_eco_math_69 = APDC_eco_construction_cost_m }
+add_to_temp_variable = { APDC_eco_math_69 = APDC_eco_production_cost_m }
+add_to_temp_variable = { APDC_eco_math_69 = APDC_eco_naval_production_cost_m }
+add_to_temp_variable = { APDC_eco_math_69 = APDC_eco_research_cost_m }
+add_to_temp_variable = { APDC_eco_math_69 = APDC_eco_projects_cost_m }
+add_to_temp_variable = { APDC_eco_math_69 = APDC_eco_army_cost_m }
+add_to_temp_variable = { APDC_eco_math_69 = APDC_eco_navy_cost_m }
+add_to_temp_variable = { APDC_eco_math_69 = APDC_eco_air_cost_m }
+set_variable = { APDC_eco_weekly_expenses_m = APDC_eco_math_69 }
+set_temp_variable = { APDC_eco_math_70 = APDC_eco_weekly_income_m }
+subtract_from_temp_variable = { APDC_eco_math_70 = APDC_eco_weekly_expenses_m }
+set_variable = { APDC_eco_weekly_balance_m = APDC_eco_math_70 }
+set_temp_variable = { APDC_eco_math_71 = APDC_eco_cash_k }
+divide_temp_variable = { APDC_eco_math_71 = 1000 }
+add_to_temp_variable = { APDC_eco_math_71 = APDC_eco_cash_m }
+set_variable = { APDC_eco_cash_display_m = APDC_eco_math_71 }
+
+}
+APDC_eco_normalize_cash = {
+set_temp_variable = { APDC_eco_math_72 = APDC_eco_cash_k }
+divide_temp_variable = { APDC_eco_math_72 = 1000 }
+set_variable = { APDC_eco_cash_carry = APDC_eco_math_72 }
+set_variable = { APDC_eco_round_original = APDC_eco_cash_carry }
+round_variable = APDC_eco_cash_carry
+if = { limit = { check_variable = { APDC_eco_cash_carry > APDC_eco_round_original } } subtract_from_variable = { APDC_eco_cash_carry = 1 } }
+add_to_variable = { APDC_eco_cash_m = APDC_eco_cash_carry }
+set_temp_variable = { APDC_eco_math_73 = APDC_eco_cash_carry }
+multiply_temp_variable = { APDC_eco_math_73 = -1000 }
+add_to_temp_variable = { APDC_eco_math_73 = APDC_eco_cash_k }
+set_variable = { APDC_eco_cash_k = APDC_eco_math_73 }
+
+}
+APDC_eco_settle_week = {
+APDC_eco_calculate_budget = yes
+set_temp_variable = { APDC_eco_math_74 = APDC_eco_weekly_balance_m }
+set_variable = { APDC_eco_weekly_whole = APDC_eco_math_74 }
+set_variable = { APDC_eco_round_original = APDC_eco_weekly_whole }
+round_variable = APDC_eco_weekly_whole
+if = { limit = { check_variable = { APDC_eco_weekly_whole > APDC_eco_round_original } } subtract_from_variable = { APDC_eco_weekly_whole = 1 } }
+set_temp_variable = { APDC_eco_math_75 = APDC_eco_weekly_balance_m }
+subtract_from_temp_variable = { APDC_eco_math_75 = APDC_eco_weekly_whole }
+multiply_temp_variable = { APDC_eco_math_75 = 1000 }
+set_variable = { APDC_eco_weekly_fraction = APDC_eco_math_75 }
+add_to_variable = { APDC_eco_cash_m = APDC_eco_weekly_whole }
+add_to_variable = { APDC_eco_cash_k = APDC_eco_weekly_fraction }
+APDC_eco_normalize_cash = yes
+APDC_eco_bankruptcy = yes
+add_to_variable = { APDC_eco_society = modifier@APDC_eco_society_weekly }
+add_to_variable = { APDC_eco_science = modifier@APDC_eco_science_weekly }
+add_to_variable = { APDC_eco_defense = modifier@APDC_eco_defense_weekly }
+add_to_variable = { APDC_eco_food = modifier@APDC_eco_food_weekly }
+add_to_variable = { APDC_eco_food = APDC_eco_food_penalty }
+add_to_variable = { APDC_eco_education = modifier@APDC_eco_education_weekly }
+add_to_variable = { APDC_eco_medical = modifier@APDC_eco_medical_weekly }
+APDC_eco_sync_development = yes
+APDC_eco_refresh_policies = yes
+add_to_variable = { APDC_eco_week_ticks = 1 }
+
+}
+APDC_eco_daily_country = {
+APDC_eco_initialize_country = yes
+APDC_eco_reconcile_planned = yes
+APDC_eco_refresh_policies = yes
+APDC_eco_bankruptcy = yes
+APDC_eco_calculate_country = yes
+
+}
+APDC_eco_daily_after_market = {
+APDC_eco_advance_civ = yes
+APDC_eco_advance_mil = yes
+APDC_eco_refresh_equipment = yes
+APDC_eco_produce_equipment = yes
+add_to_variable = { APDC_eco_day_ticks = 1 }
+if = { limit = { has_variable = APDC_eco_panel_open }
+APDC_eco_sync_ui = yes
+}
+
+}

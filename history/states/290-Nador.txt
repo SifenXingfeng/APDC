@@ -1,0 +1,51 @@
+state = {
+	id = 290
+	name = "STATE_290"
+	resources = {
+		steel = 9
+		chromium = 2
+	}
+	provinces = {
+		989
+		1111
+		4154
+		7116
+		7215
+		7958
+		15112
+		18023
+		18033
+		18035
+		18043
+		18052
+		18059
+	}
+	manpower = 952358
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = MOR
+		controller = MOR
+		add_core_of = MOR
+		victory_points = {
+			989
+			5
+		}
+		victory_points = {
+			1111
+			2
+		}
+		victory_points = {
+			7215
+			1
+		}
+		victory_points = {
+			15112
+			3
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

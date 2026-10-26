@@ -1,0 +1,64 @@
+{
+  "button_extents": [
+    {
+      "button": "apdc_cw_tab_1",
+      "texture": "gfx/interface/APDC/cold_war/tabs.png",
+      "native_input_size": [
+        171,
+        59
+      ]
+    },
+    {
+      "button": "apdc_cw_tab_2",
+      "texture": "gfx/interface/APDC/cold_war/tabs.png",
+      "native_input_size": [
+        171,
+        59
+      ]
+    },
+    {
+      "button": "apdc_cw_tab_3",
+      "texture": "gfx/interface/APDC/cold_war/tabs.png",
+      "native_input_size": [
+        171,
+        59
+      ]
+    },
+    {
+      "button": "apdc_cw_law_execute",
+      "texture": "gfx/interface/APDC/cold_war/option_first.png",
+      "native_input_size": [
+        92,
+        30
+      ]
+    },
+    {
+      "button": "apdc_cw_law_stop",
+      "texture": "gfx/interface/APDC/cold_war/option_first.png",
+      "native_input_size": [
+        92,
+        30
+      ]
+    },
+    {
+      "button": "apdc_cw_close",
+      "texture": "gfx/interface/APDC/common/panel_exit.png",
+      "native_input_size": [
+        96,
+        47
+      ]
+    },
+    {
+      "button": "apdc_cw_legend_hit",
+      "texture": "gfx/interface/APDC/cold_war/hit_215_28.tga",
+      "native_input_size": [
+        215,
+        28
+      ]
+    }
+  ],
+  "three_tabs_stack_like_cooperation": true,
+  "one_shared_switch_cost": true,
+  "solid_pie_interior": true,
+  "boundary": "Native texture geometry and script bindings; does not send mouse or keyboard input."
+}

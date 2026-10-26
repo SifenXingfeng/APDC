@@ -1,0 +1,45 @@
+state = {
+	id = 1395
+	name = "STATE_1395"
+	provinces = {
+		10762
+		15279
+		15400
+		15401
+		15408
+		19209
+		19309
+	}
+	manpower = 641789
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+	history = {
+		owner = IVO
+		controller = IVO
+		add_core_of = IVO
+		victory_points = {
+			10762
+			2
+		}
+		victory_points = {
+			15400
+			2
+		}
+		victory_points = {
+			15401
+			3
+		}
+		victory_points = {
+			19209
+			3
+		}
+		victory_points = {
+			19309
+			2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

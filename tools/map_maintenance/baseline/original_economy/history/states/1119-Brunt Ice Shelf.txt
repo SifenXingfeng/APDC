@@ -1,0 +1,18 @@
+state = { #1119
+	id = 1119
+	name = "BRUNT_ICE_SHELF"
+	manpower = 1
+	
+	state_category = wasteland
+
+	history={
+		owner = ZZZ
+		set_state_flag = ice_shelf
+	}
+
+	provinces={
+		16392 17581 
+	}
+
+	local_supplies=0.0 
+}

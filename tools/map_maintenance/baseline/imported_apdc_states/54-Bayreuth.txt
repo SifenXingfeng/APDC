@@ -1,0 +1,61 @@
+state = {
+	id = 54
+	name = "STATE_54"
+	resources = {
+		coal = 8
+		steel = 1
+	}
+	provinces = {
+		561
+		3474
+		6594
+		9416
+		9557
+		9572
+		11417
+		11529
+		11544
+		13116
+		15825
+		15826
+		15827
+		15829
+	}
+	manpower = 2446939
+	buildings_max_level_factor = 1
+	state_category = city
+	local_supplies = 0
+	history = {
+		owner = GER
+		controller = GER
+		add_core_of = GER
+		victory_points = {
+			3474
+			1
+		}
+		victory_points = {
+			6594
+			1
+		}
+		victory_points = {
+			9416
+			1
+		}
+		victory_points = {
+			9557
+			2
+		}
+		victory_points = {
+			11544
+			5
+		}
+		victory_points = {
+			15829
+			1
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+	}
+}

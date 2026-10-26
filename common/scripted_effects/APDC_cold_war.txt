@@ -1,0 +1,388 @@
+apdc_cw_ensure = {
+if = { limit = { NOT = { has_country_flag = apdc_cw_initialized } }
+set_country_flag = apdc_cw_initialized
+add_to_array = { array = apdc_cw_sources value = THIS }
+set_variable = { apdc_cw_status = 4 }
+add_to_array = { array = apdc_cw_political value = 100 }
+add_to_array = { array = apdc_cw_old_political value = 100 }
+add_to_array = { array = apdc_cw_law_delta_political value = 0 }
+add_to_array = { array = apdc_cw_economic value = 100 }
+add_to_array = { array = apdc_cw_old_economic value = 100 }
+add_to_array = { array = apdc_cw_law_delta_economic value = 0 }
+add_to_array = { array = apdc_cw_military value = 100 }
+add_to_array = { array = apdc_cw_old_military value = 100 }
+add_to_array = { array = apdc_cw_law_delta_military value = 0 }
+add_to_array = { array = apdc_cw_auto_delta value = 0 }
+}
+
+}
+apdc_cw_notify_controls = {
+every_country = { limit = { is_ai = no has_country_flag = apdc_cw_open } apdc_cw_refresh_view = yes }
+}
+apdc_cw_invalidate_maps = {
+add_to_variable = { global.apdc_cw_map_revision = 1 }
+every_country = { limit = { is_ai = no has_country_flag = apdc_cw_open }
+apdc_cw_refresh_world = yes
+if = { limit = { check_variable = { apdc_cw_detail = 1 } } apdc_cw_prepare_detail = yes }
+apdc_cw_refresh_view = yes
+}
+}
+apdc_cw_register_active_target = {
+if = { limit = { NOT = { is_in_array = { array = global.apdc_cw_active_targets value = THIS } } }
+add_to_array = { array = global.apdc_cw_active_targets value = THIS }
+}
+
+}
+apdc_cw_find_source = {
+set_variable = { apdc_cw_source_index = -1 }
+for_each_loop = { array = apdc_cw_sources value = apdc_cw_source_value index = apdc_cw_source_cursor
+if = { limit = { var:apdc_cw_source_value = { tag = var:PREV.apdc_cw_actor } }
+set_variable = { apdc_cw_source_index = apdc_cw_source_cursor }
+} }
+
+}
+apdc_cw_ensure_source = {
+apdc_cw_ensure = yes
+apdc_cw_find_source = yes
+if = { limit = { check_variable = { apdc_cw_source_index < 0 } }
+set_variable = { apdc_cw_source_index = apdc_cw_sources^num }
+add_to_array = { array = apdc_cw_sources value = var:apdc_cw_actor }
+add_to_array = { array = apdc_cw_political value = 0 }
+add_to_array = { array = apdc_cw_old_political value = 0 }
+add_to_array = { array = apdc_cw_law_delta_political value = 0 }
+add_to_array = { array = apdc_cw_economic value = 0 }
+add_to_array = { array = apdc_cw_old_economic value = 0 }
+add_to_array = { array = apdc_cw_law_delta_economic value = 0 }
+add_to_array = { array = apdc_cw_military value = 0 }
+add_to_array = { array = apdc_cw_old_military value = 0 }
+add_to_array = { array = apdc_cw_law_delta_military value = 0 }
+add_to_array = { array = apdc_cw_auto_delta value = 0 }
+}
+apdc_cw_register_active_target = yes
+
+}
+apdc_cw_change_political = {
+set_temp_variable = { apdc_cw_old = apdc_cw_political^apdc_cw_source_index }
+set_temp_variable = { apdc_cw_new = apdc_cw_old }
+add_to_temp_variable = { apdc_cw_new = apdc_cw_delta }
+clamp_temp_variable = { var = apdc_cw_new min = 0 max = 100 }
+set_temp_variable = { apdc_cw_rest = 100 }
+subtract_from_temp_variable = { apdc_cw_rest = apdc_cw_old }
+if = { limit = { check_variable = { apdc_cw_rest > 0 } }
+set_temp_variable = { apdc_cw_factor = 100 }
+subtract_from_temp_variable = { apdc_cw_factor = apdc_cw_new }
+set_temp_variable = { apdc_cw_total = apdc_cw_new }
+set_temp_variable = { apdc_cw_largest = -1 }
+set_temp_variable = { apdc_cw_remainder_index = 0 }
+for_loop_effect = { start = 0 end = apdc_cw_sources^num value = apdc_cw_j
+if = { limit = { NOT = { check_variable = { apdc_cw_j = apdc_cw_source_index } } }
+multiply_variable = { apdc_cw_political^apdc_cw_j = apdc_cw_factor }
+divide_variable = { apdc_cw_political^apdc_cw_j = apdc_cw_rest }
+add_to_temp_variable = { apdc_cw_total = apdc_cw_political^apdc_cw_j }
+if = { limit = { check_variable = { apdc_cw_political^apdc_cw_j > apdc_cw_largest } }
+set_temp_variable = { apdc_cw_largest = apdc_cw_political^apdc_cw_j }
+set_temp_variable = { apdc_cw_remainder_index = apdc_cw_j }
+} } }
+set_variable = { apdc_cw_political^apdc_cw_source_index = apdc_cw_new }
+set_temp_variable = { apdc_cw_rounding = 100 }
+subtract_from_temp_variable = { apdc_cw_rounding = apdc_cw_total }
+add_to_variable = { apdc_cw_political^apdc_cw_remainder_index = apdc_cw_rounding }
+}
+else_if = { limit = { NOT = { check_variable = { apdc_cw_source_index = 0 } } }
+set_variable = { apdc_cw_political^apdc_cw_source_index = apdc_cw_new }
+set_variable = { apdc_cw_political^0 = 100 }
+subtract_from_variable = { apdc_cw_political^0 = apdc_cw_new }
+}
+add_to_variable = { apdc_cw_revision = 1 }
+
+}
+apdc_cw_change_economic = {
+set_temp_variable = { apdc_cw_old = apdc_cw_economic^apdc_cw_source_index }
+set_temp_variable = { apdc_cw_new = apdc_cw_old }
+add_to_temp_variable = { apdc_cw_new = apdc_cw_delta }
+clamp_temp_variable = { var = apdc_cw_new min = 0 max = 100 }
+set_temp_variable = { apdc_cw_rest = 100 }
+subtract_from_temp_variable = { apdc_cw_rest = apdc_cw_old }
+if = { limit = { check_variable = { apdc_cw_rest > 0 } }
+set_temp_variable = { apdc_cw_factor = 100 }
+subtract_from_temp_variable = { apdc_cw_factor = apdc_cw_new }
+set_temp_variable = { apdc_cw_total = apdc_cw_new }
+set_temp_variable = { apdc_cw_largest = -1 }
+set_temp_variable = { apdc_cw_remainder_index = 0 }
+for_loop_effect = { start = 0 end = apdc_cw_sources^num value = apdc_cw_j
+if = { limit = { NOT = { check_variable = { apdc_cw_j = apdc_cw_source_index } } }
+multiply_variable = { apdc_cw_economic^apdc_cw_j = apdc_cw_factor }
+divide_variable = { apdc_cw_economic^apdc_cw_j = apdc_cw_rest }
+add_to_temp_variable = { apdc_cw_total = apdc_cw_economic^apdc_cw_j }
+if = { limit = { check_variable = { apdc_cw_economic^apdc_cw_j > apdc_cw_largest } }
+set_temp_variable = { apdc_cw_largest = apdc_cw_economic^apdc_cw_j }
+set_temp_variable = { apdc_cw_remainder_index = apdc_cw_j }
+} } }
+set_variable = { apdc_cw_economic^apdc_cw_source_index = apdc_cw_new }
+set_temp_variable = { apdc_cw_rounding = 100 }
+subtract_from_temp_variable = { apdc_cw_rounding = apdc_cw_total }
+add_to_variable = { apdc_cw_economic^apdc_cw_remainder_index = apdc_cw_rounding }
+}
+else_if = { limit = { NOT = { check_variable = { apdc_cw_source_index = 0 } } }
+set_variable = { apdc_cw_economic^apdc_cw_source_index = apdc_cw_new }
+set_variable = { apdc_cw_economic^0 = 100 }
+subtract_from_variable = { apdc_cw_economic^0 = apdc_cw_new }
+}
+add_to_variable = { apdc_cw_revision = 1 }
+
+}
+apdc_cw_change_military = {
+set_temp_variable = { apdc_cw_old = apdc_cw_military^apdc_cw_source_index }
+set_temp_variable = { apdc_cw_new = apdc_cw_old }
+add_to_temp_variable = { apdc_cw_new = apdc_cw_delta }
+clamp_temp_variable = { var = apdc_cw_new min = 0 max = 100 }
+set_temp_variable = { apdc_cw_rest = 100 }
+subtract_from_temp_variable = { apdc_cw_rest = apdc_cw_old }
+if = { limit = { check_variable = { apdc_cw_rest > 0 } }
+set_temp_variable = { apdc_cw_factor = 100 }
+subtract_from_temp_variable = { apdc_cw_factor = apdc_cw_new }
+set_temp_variable = { apdc_cw_total = apdc_cw_new }
+set_temp_variable = { apdc_cw_largest = -1 }
+set_temp_variable = { apdc_cw_remainder_index = 0 }
+for_loop_effect = { start = 0 end = apdc_cw_sources^num value = apdc_cw_j
+if = { limit = { NOT = { check_variable = { apdc_cw_j = apdc_cw_source_index } } }
+multiply_variable = { apdc_cw_military^apdc_cw_j = apdc_cw_factor }
+divide_variable = { apdc_cw_military^apdc_cw_j = apdc_cw_rest }
+add_to_temp_variable = { apdc_cw_total = apdc_cw_military^apdc_cw_j }
+if = { limit = { check_variable = { apdc_cw_military^apdc_cw_j > apdc_cw_largest } }
+set_temp_variable = { apdc_cw_largest = apdc_cw_military^apdc_cw_j }
+set_temp_variable = { apdc_cw_remainder_index = apdc_cw_j }
+} } }
+set_variable = { apdc_cw_military^apdc_cw_source_index = apdc_cw_new }
+set_temp_variable = { apdc_cw_rounding = 100 }
+subtract_from_temp_variable = { apdc_cw_rounding = apdc_cw_total }
+add_to_variable = { apdc_cw_military^apdc_cw_remainder_index = apdc_cw_rounding }
+}
+else_if = { limit = { NOT = { check_variable = { apdc_cw_source_index = 0 } } }
+set_variable = { apdc_cw_military^apdc_cw_source_index = apdc_cw_new }
+set_variable = { apdc_cw_military^0 = 100 }
+subtract_from_variable = { apdc_cw_military^0 = apdc_cw_new }
+}
+add_to_variable = { apdc_cw_revision = 1 }
+
+}
+apdc_cw_change_control = {
+apdc_cw_ensure_source = yes
+if = { limit = { check_variable = { apdc_cw_axis = 1 } }
+apdc_cw_change_political = yes
+}
+if = { limit = { check_variable = { apdc_cw_axis = 2 } }
+apdc_cw_change_economic = yes
+}
+if = { limit = { check_variable = { apdc_cw_axis = 3 } }
+apdc_cw_change_military = yes
+}
+if = { limit = { NOT = { has_global_flag = apdc_cw_ticking } }
+apdc_cw_notify_controls = yes
+}
+
+}
+apdc_cw_set_intervention = {
+if = { limit = { has_variable = apdc_cw_target }
+if = { limit = { is_in_array = { array = apdc_cw_intervenable value = var:apdc_cw_target } } remove_from_array = { array = apdc_cw_intervenable value = var:apdc_cw_target } }
+if = { limit = { check_variable = { apdc_cw_value = 1 } } add_to_array = { array = apdc_cw_intervenable value = var:apdc_cw_target } }
+apdc_cw_invalidate_maps = yes
+}
+}
+apdc_cw_set_controlled = {
+if = { limit = { has_variable = apdc_cw_target }
+if = { limit = { is_in_array = { array = apdc_cw_controlled value = var:apdc_cw_target } } remove_from_array = { array = apdc_cw_controlled value = var:apdc_cw_target } }
+if = { limit = { check_variable = { apdc_cw_value = 1 } } add_to_array = { array = apdc_cw_controlled value = var:apdc_cw_target } }
+apdc_cw_invalidate_maps = yes
+}
+}
+apdc_cw_set_status = {
+set_variable = { apdc_cw_status = apdc_cw_value }
+add_to_variable = { apdc_cw_revision = 1 }
+apdc_cw_notify_controls = yes
+}
+apdc_cw_find_law = {
+set_variable = { apdc_cw_law_index = -1 }
+for_each_loop = { array = apdc_cw_law_id value = apdc_cw_record_id index = apdc_cw_record_index
+if = { limit = { check_variable = { apdc_cw_record_id = apdc_cw_id } var:apdc_cw_law_target^apdc_cw_record_index = { tag = var:PREV.apdc_cw_target } }
+set_variable = { apdc_cw_law_index = apdc_cw_record_index }
+} }
+
+}
+apdc_cw_register_law = {
+apdc_cw_ensure = yes
+apdc_cw_find_law = yes
+if = { limit = { check_variable = { apdc_cw_law_index < 0 } }
+set_variable = { apdc_cw_law_index = apdc_cw_law_id^num }
+add_to_array = { array = apdc_cw_law_id value = var:apdc_cw_id }
+add_to_array = { array = apdc_cw_law_target value = var:apdc_cw_target }
+add_to_array = { array = apdc_cw_law_axis value = var:apdc_cw_axis }
+add_to_array = { array = apdc_cw_law_beneficiary value = var:apdc_cw_beneficiary }
+add_to_array = { array = apdc_cw_law_rate value = var:apdc_cw_rate }
+add_to_array = { array = apdc_cw_law_execute_cost value = var:apdc_cw_execute_cost }
+add_to_array = { array = apdc_cw_law_self value = var:apdc_cw_self }
+add_to_array = { array = apdc_cw_law_locked value = var:apdc_cw_locked }
+
+add_to_array = { array = apdc_cw_law_running value = 0 }
+add_to_array = { array = apdc_cw_law_unlocked value = 1 }
+add_to_array = { array = apdc_cw_law_last_delta value = 0 }
+} else = { set_variable = { apdc_cw_law_unlocked^apdc_cw_law_index = 1 } }
+if = { limit = { NOT = { is_in_array = { array = global.apdc_cw_law_owners value = THIS } } }
+add_to_array = { array = global.apdc_cw_law_owners value = THIS } }
+var:apdc_cw_target = { apdc_cw_register_active_target = yes }
+add_to_variable = { apdc_cw_revision = 1 }
+apdc_cw_notify_controls = yes
+
+}
+apdc_cw_lock_law = {
+apdc_cw_find_law = yes
+if = { limit = { check_variable = { apdc_cw_law_index > -1 } }
+set_variable = { apdc_cw_law_locked^apdc_cw_law_index = apdc_cw_value }
+add_to_variable = { apdc_cw_revision = 1 }
+apdc_cw_notify_controls = yes
+}
+
+}
+apdc_cw_remove_law = {
+apdc_cw_find_law = yes
+if = { limit = { check_variable = { apdc_cw_law_index > -1 } }
+set_variable = { apdc_cw_law_running^apdc_cw_law_index = 0 }
+set_variable = { apdc_cw_law_unlocked^apdc_cw_law_index = 0 }
+add_to_variable = { apdc_cw_revision = 1 }
+apdc_cw_notify_controls = yes
+}
+
+}
+apdc_cw_submit_law = {
+if = { limit = { apdc_cw_can_select_law = yes }
+set_temp_variable = { apdc_cw_payment = apdc_cw_law_execute_cost^apdc_cw_law_row }
+multiply_temp_variable = { apdc_cw_payment = -1 }
+add_political_power = apdc_cw_payment
+set_variable = { apdc_cw_law_running^apdc_cw_law_row = apdc_cw_option }
+add_to_variable = { apdc_cw_revision = 1 }
+apdc_cw_refresh_view = yes
+}
+}
+apdc_cw_tick_laws = {
+for_each_loop = { array = apdc_cw_law_id index = apdc_cw_tick_record value = apdc_cw_tick_id
+set_variable = { apdc_cw_law_last_delta^apdc_cw_tick_record = 0 }
+if = { limit = { check_variable = { apdc_cw_law_running^apdc_cw_tick_record = 1 } }
+set_variable = { global.apdc_cw_tick_owner = THIS }
+set_variable = { global.apdc_cw_tick_target = apdc_cw_law_target^apdc_cw_tick_record }
+set_variable = { global.apdc_cw_tick_actor = apdc_cw_law_beneficiary^apdc_cw_tick_record }
+if = { limit = { var:global.apdc_cw_tick_target = { exists = yes } var:global.apdc_cw_tick_actor = { exists = yes } exists = yes }
+set_variable = { global.apdc_cw_tick_axis = apdc_cw_law_axis^apdc_cw_tick_record }
+set_variable = { global.apdc_cw_tick_delta = apdc_cw_law_rate^apdc_cw_tick_record }
+set_variable = { apdc_cw_law_last_delta^apdc_cw_tick_record = apdc_cw_law_rate^apdc_cw_tick_record }
+var:global.apdc_cw_tick_target = {
+set_variable = { apdc_cw_actor = global.apdc_cw_tick_actor }
+set_variable = { apdc_cw_axis = global.apdc_cw_tick_axis }
+set_variable = { apdc_cw_delta = global.apdc_cw_tick_delta }
+apdc_cw_change_control = yes
+if = { limit = { check_variable = { apdc_cw_axis = 1 } }
+add_to_variable = { apdc_cw_law_delta_political^apdc_cw_source_index = apdc_cw_delta }
+}
+if = { limit = { check_variable = { apdc_cw_axis = 2 } }
+add_to_variable = { apdc_cw_law_delta_economic^apdc_cw_source_index = apdc_cw_delta }
+}
+if = { limit = { check_variable = { apdc_cw_axis = 3 } }
+add_to_variable = { apdc_cw_law_delta_military^apdc_cw_source_index = apdc_cw_delta }
+}
+
+} } else = { set_variable = { apdc_cw_law_running^apdc_cw_tick_record = 0 } }
+} }
+}
+apdc_cw_political_attraction = {
+for_loop_effect = { start = 1 end = apdc_cw_sources^num value = apdc_cw_attraction_index
+set_variable = { apdc_cw_actor = apdc_cw_sources^apdc_cw_attraction_index }
+if = { limit = { var:apdc_cw_actor = { exists = yes } }
+set_temp_variable = { apdc_cw_gap = apdc_cw_economic^apdc_cw_attraction_index }
+add_to_temp_variable = { apdc_cw_gap = apdc_cw_military^apdc_cw_attraction_index }
+multiply_temp_variable = { apdc_cw_gap = 0.5 }
+subtract_from_temp_variable = { apdc_cw_gap = apdc_cw_political^apdc_cw_attraction_index }
+if = { limit = { check_variable = { apdc_cw_gap > 0 } }
+set_variable = { apdc_cw_delta = apdc_cw_gap }
+multiply_variable = { apdc_cw_delta = 0.01 }
+clamp_variable = { var = apdc_cw_delta min = 0.01 max = 0.1 }
+clamp_variable = { var = apdc_cw_delta max = apdc_cw_gap }
+set_variable = { apdc_cw_axis = 1 }
+apdc_cw_change_control = yes
+add_to_variable = { apdc_cw_auto_delta^apdc_cw_attraction_index = apdc_cw_delta }
+} } }
+}
+apdc_cw_snapshot = {
+clear_array = apdc_cw_old_political
+clear_array = apdc_cw_law_delta_political
+for_each_loop = { array = apdc_cw_political add_to_array = { array = apdc_cw_old_political value = var:v } add_to_array = { array = apdc_cw_law_delta_political value = 0 } }
+clear_array = apdc_cw_old_economic
+clear_array = apdc_cw_law_delta_economic
+for_each_loop = { array = apdc_cw_economic add_to_array = { array = apdc_cw_old_economic value = var:v } add_to_array = { array = apdc_cw_law_delta_economic value = 0 } }
+clear_array = apdc_cw_old_military
+clear_array = apdc_cw_law_delta_military
+for_each_loop = { array = apdc_cw_military add_to_array = { array = apdc_cw_old_military value = var:v } add_to_array = { array = apdc_cw_law_delta_military value = 0 } }
+clear_array = apdc_cw_auto_delta
+for_each_loop = { array = apdc_cw_sources add_to_array = { array = apdc_cw_auto_delta value = 0 } }
+
+}
+apdc_cw_daily = {
+add_to_variable = { global.apdc_cw_daily_batches = 1 }
+set_global_flag = apdc_cw_ticking
+for_each_scope_loop = { array = global.apdc_cw_active_targets apdc_cw_snapshot = yes }
+for_each_scope_loop = { array = global.apdc_cw_law_owners apdc_cw_tick_laws = yes }
+for_each_scope_loop = { array = global.apdc_cw_active_targets
+if = { limit = { exists = yes } apdc_cw_political_attraction = yes }
+}
+clr_global_flag = apdc_cw_ticking
+every_country = { limit = { is_ai = no has_country_flag = apdc_cw_open }
+apdc_cw_refresh_view = yes }
+
+}
+apdc_cw_bootstrap = {
+if = { limit = { NOT = { has_global_flag = apdc_cw_ready_v1 } }
+set_global_flag = apdc_cw_ready_v1
+apdc_cw_initialize_geometry = yes
+every_country = { apdc_cw_ensure = yes }
+GER = {
+set_variable = { apdc_cw_target = FRA } set_variable = { apdc_cw_value = 1 } apdc_cw_set_intervention = yes
+set_variable = { apdc_cw_target = LLU } apdc_cw_set_intervention = yes
+}
+USA = { set_variable = { apdc_cw_status = 6 } }
+SOV = { set_variable = { apdc_cw_status = 6 } }
+CHI = { set_variable = { apdc_cw_status = 6 } }
+GER = { set_variable = { apdc_cw_status = 5 } }
+FRA = { set_variable = { apdc_cw_status = 5 } }
+ENG = { set_variable = { apdc_cw_status = 5 } }
+LLU = { set_variable = { apdc_cw_status = 5 } }
+JAP = { set_variable = { apdc_cw_status = 5 } }
+ITA = { set_variable = { apdc_cw_status = 5 } }
+BRA = { set_variable = { apdc_cw_status = 5 } }
+PAK = { set_variable = { apdc_cw_status = 5 } }
+TUR = { set_variable = { apdc_cw_status = 5 } }
+AST = { set_variable = { apdc_cw_status = 5 } }
+CAN = { set_variable = { apdc_cw_status = 5 } }
+AFG = { set_variable = { apdc_cw_status = 3 } }
+YEM = { set_variable = { apdc_cw_status = 3 } }
+HAI = { set_variable = { apdc_cw_status = 3 } }
+SOM = { set_variable = { apdc_cw_status = 3 } }
+SSD = { set_variable = { apdc_cw_status = 3 } }
+CHA = { set_variable = { apdc_cw_status = 3 } }
+CAR = { set_variable = { apdc_cw_status = 3 } }
+NGR = { set_variable = { apdc_cw_status = 3 } }
+MLI = { set_variable = { apdc_cw_status = 3 } }
+BKF = { set_variable = { apdc_cw_status = 3 } }
+apdc_cw_register_test_laws = yes
+}
+
+}
+apdc_cw_open_panel = {
+apdc_cw_bootstrap = yes
+if = { limit = { has_country_flag = apdc_cw_open } clr_country_flag = apdc_cw_open }
+else = {
+set_country_flag = apdc_cw_open
+set_variable = { apdc_cw_selected = THIS }
+set_variable = { apdc_cw_tab = 1 }
+set_variable = { apdc_cw_detail = 0 }
+apdc_cw_bind_world_ui = yes
+apdc_cw_refresh_view = yes
+}
+}

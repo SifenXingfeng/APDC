@@ -1,0 +1,11 @@
+--- before/common/scorers/country/ai_decryption_scorer.txt
++++ current/common/scorers/country/ai_decryption_scorer.txt
+@@ -68,7 +68,7 @@
+ 			}
+ 
+ 			modifier = {
+-				has_government = FROM
++				always = no
+ 				NOT = { has_war_with = FROM }
+ 				factor = 0.6
+ 			}

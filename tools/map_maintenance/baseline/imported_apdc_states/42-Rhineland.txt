@@ -1,0 +1,54 @@
+state = {
+	id = 42
+	name = "STATE_42"
+	manpower = 3027739
+	resources = {
+		steel = 50
+		aluminium = 14
+		coal = 14
+	}
+	state_category = metropolis
+	history = {
+		owner = GER
+		controller = GER
+		add_core_of = GER
+		victory_points = {
+			3423
+			2
+		}
+		victory_points = {
+			11531
+			2
+		}
+		victory_points = {
+			11547
+			1
+		}
+		victory_points = {
+			15852
+			1
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+		}
+	}
+	provinces = {
+		563
+		3423
+		3558
+		9575
+		11435
+		11470
+		11494
+		11531
+		11547
+		11560
+		15848
+		15849
+		15852
+		18136
+		18137
+	}
+	local_supplies = 0.0
+}

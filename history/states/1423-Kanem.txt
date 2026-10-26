@@ -1,0 +1,31 @@
+state = {
+	id = 1423
+	name = "STATE_1423"
+	provinces = {
+		3123
+		4897
+		5136
+		13138
+		14176
+	}
+	manpower = 210751
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+	history = {
+		owner = CHA
+		controller = CHA
+		add_core_of = CHA
+		victory_points = {
+			3123
+			2
+		}
+		victory_points = {
+			5136
+			2
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

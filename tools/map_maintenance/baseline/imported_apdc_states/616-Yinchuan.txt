@@ -1,0 +1,58 @@
+state = {
+	id = 616
+	name = "STATE_616"
+	resources = {
+		coal = 1
+	}
+	provinces = {
+		3742
+		4243
+		8055
+		8081
+		8127
+		9071
+		15190
+		16476
+		16849
+	}
+	manpower = 570494
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			4243
+			1
+		}
+		victory_points = {
+			8055
+			1
+		}
+		victory_points = {
+			8081
+			3
+		}
+		victory_points = {
+			8127
+			10
+		}
+		victory_points = {
+			16476
+			2
+		}
+		buildings = {
+			infrastructure = 1
+			8127 = {
+				landmark_great_wall_section = {
+					level = 1
+					allowed = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+				}
+			}
+		}
+	}
+}

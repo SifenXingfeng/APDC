@@ -1,0 +1,150 @@
+defined_text = {
+name = APDCCWLegendName
+text = { trigger = { check_variable = { apdc_cw_legend_id = 0 } } localization_key = APDC_CW_LEGEND_SELF }
+text = { trigger = { var:apdc_cw_ui_sources^apdc_cw_legend_id = { tag = GER } } localization_key = APDC_CW_SHORT_GER }
+text = { trigger = { var:apdc_cw_ui_sources^apdc_cw_legend_id = { tag = FRA } } localization_key = APDC_CW_SHORT_FRA }
+text = { trigger = { var:apdc_cw_ui_sources^apdc_cw_legend_id = { tag = LLU } } localization_key = APDC_CW_SHORT_LLU }
+text = { trigger = { var:apdc_cw_ui_sources^apdc_cw_legend_id = { tag = SOV } } localization_key = APDC_CW_SHORT_SOV }
+text = { localization_key = APDC_CW_LEGEND_COUNTRY }
+
+}
+defined_text = {
+name = APDCCWFaction
+text = { trigger = { var:apdc_cw_selected = { is_in_faction = yes } } localization_key = APDC_CW_FACTION_NAME }
+text = { localization_key = APDC_CW_NONE }
+
+}
+defined_text = {
+name = APDCCWStatus
+text = { trigger = { check_variable = { apdc_cw_ui_status = 1 } } localization_key = APDC_CW_STATUS_1 }
+text = { trigger = { check_variable = { apdc_cw_ui_status = 2 } } localization_key = APDC_CW_STATUS_2 }
+text = { trigger = { check_variable = { apdc_cw_ui_status = 3 } } localization_key = APDC_CW_STATUS_3 }
+text = { trigger = { check_variable = { apdc_cw_ui_status = 4 } } localization_key = APDC_CW_STATUS_4 }
+text = { trigger = { check_variable = { apdc_cw_ui_status = 5 } } localization_key = APDC_CW_STATUS_5 }
+text = { trigger = { check_variable = { apdc_cw_ui_status = 6 } } localization_key = APDC_CW_STATUS_6 }
+
+}
+defined_text = {
+name = APDCCWEconomy
+text = { trigger = { var:apdc_cw_selected = { has_idea = APDC_economic_system_traditional_agriculture_idea } } localization_key = APDC_economic_system_traditional_agriculture_idea }
+text = { trigger = { var:apdc_cw_selected = { has_idea = APDC_economic_system_dependent_economy_idea } } localization_key = APDC_economic_system_dependent_economy_idea }
+text = { trigger = { var:apdc_cw_selected = { has_idea = APDC_economic_system_free_market_idea } } localization_key = APDC_economic_system_free_market_idea }
+text = { trigger = { var:apdc_cw_selected = { has_idea = APDC_economic_system_mixed_market_idea } } localization_key = APDC_economic_system_mixed_market_idea }
+text = { trigger = { var:apdc_cw_selected = { has_idea = APDC_economic_system_state_guided_idea } } localization_key = APDC_economic_system_state_guided_idea }
+text = { trigger = { var:apdc_cw_selected = { has_idea = APDC_economic_system_state_capitalism_idea } } localization_key = APDC_economic_system_state_capitalism_idea }
+text = { trigger = { var:apdc_cw_selected = { has_idea = APDC_economic_system_market_socialism_idea } } localization_key = APDC_economic_system_market_socialism_idea }
+text = { trigger = { var:apdc_cw_selected = { has_idea = APDC_economic_system_decentralized_planning_idea } } localization_key = APDC_economic_system_decentralized_planning_idea }
+text = { trigger = { var:apdc_cw_selected = { has_idea = APDC_economic_system_central_planning_idea } } localization_key = APDC_economic_system_central_planning_idea }
+text = { localization_key = APDC_CW_NONE }
+
+}
+defined_text = {
+name = APDCCWOrganization
+text = { trigger = { var:apdc_cw_selected = { APDC_has_cooperation_organization = yes var:APDC_cooperation_organization_container = { check_variable = { APDC_cooperation_organization_name_id = 1 } } } } localization_key = APDC_COOPERATION_ORGANIZATION_FIFTH_INTERNATIONAL }
+text = { trigger = { var:apdc_cw_selected = { APDC_has_cooperation_organization = yes var:APDC_cooperation_organization_container = { check_variable = { APDC_cooperation_organization_name_id = 2 } } } } localization_key = APDC_COOPERATION_ORGANIZATION_INTERNATIONAL_ROSSARTRISM }
+text = { trigger = { var:apdc_cw_selected = { APDC_has_cooperation_organization = yes } } localization_key = APDC_COOPERATION_ORGANIZATION_GENERIC }
+text = { localization_key = APDC_CW_NONE }
+
+}
+defined_text = {
+name = APDCCWPoliticalLean
+text = { trigger = { var:apdc_cw_ui_leader_political = { tag = var:PREV.apdc_cw_selected } } localization_key = APDC_CW_AUTONOMY }
+text = { trigger = { var:apdc_cw_ui_leader_political = { tag = GER } } localization_key = APDC_CW_LEAN_GER }
+text = { trigger = { var:apdc_cw_ui_leader_political = { tag = FRA } } localization_key = APDC_CW_LEAN_FRA }
+text = { trigger = { var:apdc_cw_ui_leader_political = { tag = LLU } } localization_key = APDC_CW_LEAN_LLU }
+text = { trigger = { var:apdc_cw_ui_leader_political = { tag = SOV } } localization_key = APDC_CW_LEAN_SOV }
+text = { localization_key = APDC_CW_LEAN_political }
+
+}
+defined_text = {
+name = APDCCWEconomicLean
+text = { trigger = { var:apdc_cw_ui_leader_economic = { tag = var:PREV.apdc_cw_selected } } localization_key = APDC_CW_AUTONOMY }
+text = { trigger = { var:apdc_cw_ui_leader_economic = { tag = GER } } localization_key = APDC_CW_LEAN_GER }
+text = { trigger = { var:apdc_cw_ui_leader_economic = { tag = FRA } } localization_key = APDC_CW_LEAN_FRA }
+text = { trigger = { var:apdc_cw_ui_leader_economic = { tag = LLU } } localization_key = APDC_CW_LEAN_LLU }
+text = { trigger = { var:apdc_cw_ui_leader_economic = { tag = SOV } } localization_key = APDC_CW_LEAN_SOV }
+text = { localization_key = APDC_CW_LEAN_economic }
+
+}
+defined_text = {
+name = APDCCWMilitaryLean
+text = { trigger = { var:apdc_cw_ui_leader_military = { tag = var:PREV.apdc_cw_selected } } localization_key = APDC_CW_AUTONOMY }
+text = { trigger = { var:apdc_cw_ui_leader_military = { tag = GER } } localization_key = APDC_CW_LEAN_GER }
+text = { trigger = { var:apdc_cw_ui_leader_military = { tag = FRA } } localization_key = APDC_CW_LEAN_FRA }
+text = { trigger = { var:apdc_cw_ui_leader_military = { tag = LLU } } localization_key = APDC_CW_LEAN_LLU }
+text = { trigger = { var:apdc_cw_ui_leader_military = { tag = SOV } } localization_key = APDC_CW_LEAN_SOV }
+text = { localization_key = APDC_CW_LEAN_military }
+
+}
+defined_text = {
+name = APDCCWSwitchCost
+text = { trigger = { check_variable = { political_power < apdc_cw_law_execute_cost^apdc_cw_law_row } } localization_key = APDC_CW_COST_R }
+text = { localization_key = APDC_CW_COST_Y }
+
+}
+defined_text = {
+name = APDCCWLawName
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 1 } } localization_key = APDC_CW_LAW_1 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 2 } } localization_key = APDC_CW_LAW_2 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 3 } } localization_key = APDC_CW_LAW_3 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 4 } } localization_key = APDC_CW_LAW_4 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 5 } } localization_key = APDC_CW_LAW_5 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 6 } } localization_key = APDC_CW_LAW_6 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 7 } } localization_key = APDC_CW_LAW_7 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 8 } } localization_key = APDC_CW_LAW_8 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 9 } } localization_key = APDC_CW_LAW_9 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 10 } } localization_key = APDC_CW_LAW_10 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 11 } } localization_key = APDC_CW_LAW_11 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 12 } } localization_key = APDC_CW_LAW_12 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 13 } } localization_key = APDC_CW_LAW_13 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 14 } } localization_key = APDC_CW_LAW_14 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 15 } } localization_key = APDC_CW_LAW_15 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 16 } } localization_key = APDC_CW_LAW_16 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 17 } } localization_key = APDC_CW_LAW_17 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 18 } } localization_key = APDC_CW_LAW_18 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 19 } } localization_key = APDC_CW_LAW_19 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 20 } } localization_key = APDC_CW_LAW_20 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 21 } } localization_key = APDC_CW_LAW_21 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 22 } } localization_key = APDC_CW_LAW_22 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 23 } } localization_key = APDC_CW_LAW_23 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 24 } } localization_key = APDC_CW_LAW_24 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 25 } } localization_key = APDC_CW_LAW_25 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 26 } } localization_key = APDC_CW_LAW_26 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 27 } } localization_key = APDC_CW_LAW_27 }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 28 } } localization_key = APDC_CW_LAW_28 }
+text = { localization_key = APDC_CW_EMPTY }
+
+}
+defined_text = {
+name = APDCCWLawDescription
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 1 } } localization_key = APDC_CW_LAW_1_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 2 } } localization_key = APDC_CW_LAW_2_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 3 } } localization_key = APDC_CW_LAW_3_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 4 } } localization_key = APDC_CW_LAW_4_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 5 } } localization_key = APDC_CW_LAW_5_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 6 } } localization_key = APDC_CW_LAW_6_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 7 } } localization_key = APDC_CW_LAW_7_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 8 } } localization_key = APDC_CW_LAW_8_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 9 } } localization_key = APDC_CW_LAW_9_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 10 } } localization_key = APDC_CW_LAW_10_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 11 } } localization_key = APDC_CW_LAW_11_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 12 } } localization_key = APDC_CW_LAW_12_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 13 } } localization_key = APDC_CW_LAW_13_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 14 } } localization_key = APDC_CW_LAW_14_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 15 } } localization_key = APDC_CW_LAW_15_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 16 } } localization_key = APDC_CW_LAW_16_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 17 } } localization_key = APDC_CW_LAW_17_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 18 } } localization_key = APDC_CW_LAW_18_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 19 } } localization_key = APDC_CW_LAW_19_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 20 } } localization_key = APDC_CW_LAW_20_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 21 } } localization_key = APDC_CW_LAW_21_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 22 } } localization_key = APDC_CW_LAW_22_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 23 } } localization_key = APDC_CW_LAW_23_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 24 } } localization_key = APDC_CW_LAW_24_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 25 } } localization_key = APDC_CW_LAW_25_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 26 } } localization_key = APDC_CW_LAW_26_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 27 } } localization_key = APDC_CW_LAW_27_DESC }
+text = { trigger = { check_variable = { apdc_cw_law_id^apdc_cw_law_row = 28 } } localization_key = APDC_CW_LAW_28_DESC }
+text = { localization_key = APDC_CW_EMPTY }
+
+}

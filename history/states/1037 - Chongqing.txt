@@ -1,0 +1,78 @@
+state = {
+	id = 1037
+	name = "STATE_1037"
+	provinces = {
+		1893
+		4141
+		4431
+		6999
+		8744
+		15194
+		19536
+		19576
+		19819
+		19826
+		19926
+	}
+	manpower = 18926360
+	resources = {
+		steel = 1
+	}
+	buildings_max_level_factor = 1
+	state_category = city
+	local_supplies = 0
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			1893
+			40
+		}
+		victory_points = {
+			4141
+			3
+		}
+		victory_points = {
+			4431
+			2
+		}
+		victory_points = {
+			6999
+			5
+		}
+		victory_points = {
+			8744
+			2
+		}
+		victory_points = {
+			15194
+			2
+		}
+		victory_points = {
+			19536
+			2
+		}
+		victory_points = {
+			19576
+			2
+		}
+		victory_points = {
+			19819
+			3
+		}
+		victory_points = {
+			19826
+			2
+		}
+		victory_points = {
+			19926
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+}

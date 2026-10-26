@@ -1,0 +1,30 @@
+state = {
+	id = 1127
+	name = "WALLIS_AND_FUTUNA"
+	provinces = {
+		19956
+		19957
+	}
+	manpower = 29114
+	buildings_max_level_factor = 1
+	state_category = tiny_island
+	local_supplies = 0
+	history = {
+		owner = FRA
+		controller = FRA
+		add_core_of = FIJ
+		victory_points = {
+			19956
+			1
+		}
+		buildings = {
+			infrastructure = 1
+			19956 = {
+				naval_base = 1
+			}
+			19957 = {
+				naval_base = 1
+			}
+		}
+	}
+}

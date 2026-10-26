@@ -1,0 +1,50 @@
+state = {
+	id = 972
+	name = "STATE_972"
+	resources = {
+		steel = 4
+		coal = 2
+	}
+	provinces = {
+		424
+		543
+		5283
+		6418
+		6592
+		7857
+		9421
+		9541
+		9555
+		15597
+	}
+	manpower = 1984138
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = CZE
+		controller = CZE
+		add_core_of = CZE
+		victory_points = {
+			6418
+			2
+		}
+		victory_points = {
+			9541
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			anti_air_building = 1
+			5283 = {
+				bunker = 1
+			}
+			424 = {
+				bunker = 1
+			}
+			9555 = {
+				bunker = 1
+			}
+		}
+	}
+}

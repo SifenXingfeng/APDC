@@ -1,0 +1,29 @@
+state = {
+	id = 1264
+	name = "STATE_1264"
+	provinces = {
+		8037
+		15560
+		19436
+		19442
+		19652
+	}
+	manpower = 427179
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+		}
+		set_variable = {
+			china_state_ref = 22
+		}
+		set_variable = {
+			china_region_ref = 2
+		}
+	}
+}

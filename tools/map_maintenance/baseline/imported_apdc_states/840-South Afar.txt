@@ -1,0 +1,23 @@
+state = {
+	id = 840
+	name = "STATE_840"
+	provinces = {
+		13240
+		17888
+		17891
+		17893
+	}
+	manpower = 320000
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = ETH
+		controller = ETH
+		add_core_of = ETH
+		add_core_of = SOM
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

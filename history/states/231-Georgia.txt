@@ -1,0 +1,68 @@
+state = {
+	id = 231
+	name = "STATE_231"
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		victory_points = {
+			1599
+			10
+		}
+		victory_points = {
+			3653
+			2
+		}
+		victory_points = {
+			18338
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+			3653 = {
+				naval_base = 2
+				coastal_bunker = 1
+			}
+		}
+		set_state_flag = GDP_regions_georgia
+	}
+	provinces = {
+		654
+		672
+		772
+		1530
+		1599
+		3653
+		3656
+		3658
+		3667
+		4534
+		4605
+		6436
+		6669
+		6671
+		6674
+		9626
+		9632
+		9702
+		11599
+		11609
+		12309
+		15130
+		15133
+		16231
+		18338
+		18340
+		18346
+		18351
+		18355
+		18356
+		18357
+	}
+	manpower = 2457844
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.0
+}

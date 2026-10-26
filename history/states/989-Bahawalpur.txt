@@ -1,0 +1,75 @@
+state = {
+	id = 989
+	name = "STATE_989"
+	provinces = {
+		8007
+		10066
+		10772
+		10843
+		10898
+		12792
+		16025
+		16026
+		18917
+		18931
+		18954
+		19002
+	}
+	history = {
+		owner = PAK
+		controller = PAK
+		add_core_of = RJP
+		victory_points = {
+			8007
+			3
+		}
+		victory_points = {
+			10066
+			3
+		}
+		victory_points = {
+			10772
+			50
+		}
+		victory_points = {
+			10843
+			3
+		}
+		victory_points = {
+			10898
+			5
+		}
+		victory_points = {
+			16025
+			5
+		}
+		victory_points = {
+			16026
+			15
+		}
+		victory_points = {
+			18917
+			2
+		}
+		victory_points = {
+			18931
+			2
+		}
+		victory_points = {
+			18954
+			5
+		}
+		victory_points = {
+			19002
+			5
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = GDP_regions_punjab
+	}
+	manpower = 984612
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

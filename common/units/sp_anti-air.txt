@@ -1,16 +1,20 @@
+# APDC: old land-unit IDs retained for reference compatibility; normal unlocks removed.
 # options for map_icon_category:
 # For land units: infantry,armored,other
 # For sea units: ship,transport,uboat
 
 sub_units = {
 
-	sp_anti_air = {
+	
+
+# Inactive identifiers required by retained engine interfaces.
+sp_anti_air = {
 		abbreviation = "SAS"
 		sprite = medium_armor
-		map_icon_category = armored
+		
 		priority = 301
 		ai_priority = 100
-		active = yes
+		active = no
 		affects_speed = no
 
 		type = {

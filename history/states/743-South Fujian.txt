@@ -1,0 +1,53 @@
+state = {
+	id = 743
+	name = "STATE_743"
+	provinces = {
+		4053
+		7099
+		10010
+		10054
+		10093
+		19553
+		19666
+	}
+	manpower = 1913702
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			4053
+			1
+		}
+		victory_points = {
+			7099
+			1
+		}
+		victory_points = {
+			10054
+			2
+		}
+		victory_points = {
+			10093
+			2
+		}
+		victory_points = {
+			19553
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		set_state_flag = GDP_regions_fujian
+		set_variable = {
+			china_state_ref = 34
+		}
+		set_variable = {
+			china_region_ref = 4
+		}
+	}
+}

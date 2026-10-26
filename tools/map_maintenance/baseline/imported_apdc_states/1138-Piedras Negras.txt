@@ -1,0 +1,36 @@
+state = {
+	id = 1138
+	name = "STATE_1138"
+	provinces = {
+		12811
+		14526
+		14527
+		14528
+		17058
+	}
+	manpower = 300865
+	resources = {
+		coal = 1
+		oil = 3
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = large_town
+	history = {
+		owner = GDB
+		controller = GDB
+		add_core_of = MEX
+		add_core_of = RIG
+		victory_points = {
+			12811
+			2
+		}
+		victory_points = {
+			17058
+			1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

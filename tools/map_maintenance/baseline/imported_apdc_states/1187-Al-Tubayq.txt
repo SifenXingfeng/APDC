@@ -1,0 +1,21 @@
+state = {
+	id = 1187
+	name = "STATE_1187"
+	provinces = {
+		4603
+		18545
+	}
+	manpower = 84727
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = SAU
+		controller = SAU
+		add_core_of = SAU
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = state_renamings
+	}
+}

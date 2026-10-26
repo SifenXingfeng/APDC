@@ -1,0 +1,37 @@
+state={
+	id=761
+	name="STATE_761"
+	provinces={
+		1776 1847 4745 4809 4852 4876 6250 6848 7697 7743 7873 7894 8295 8345 10541 10567 10612 10638 11134 12690 12783 13150 14623 16834 17121 19456 19489 19495 19521 19529 19530 19555 19560 19567 19571 19583 19603 19616 19842 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+
+	history = {
+
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+
+		victory_points = {
+			10612 1 # Manzhouli
+		}
+
+		victory_points = {
+			1776 1 # Genhe
+		}
+
+		victory_points = {
+			13150 1 # Hailar
+		}
+
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	local_supplies = 0.0 
+}

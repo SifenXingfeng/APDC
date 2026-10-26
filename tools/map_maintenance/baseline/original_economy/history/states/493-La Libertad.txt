@@ -1,0 +1,41 @@
+
+state={
+	id=493
+	name="STATE_493"
+	manpower = 2826781
+	resources={
+		oil=15 # was: 20
+		coal =6 # initial distribution = with infra 2.8 / 2 total	#increased to reduce reliance on USA
+	}
+	
+	state_category = town
+
+	history={
+		owner = COL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 4
+			12790 = {
+				naval_base = 5
+			}
+			2670 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = COL
+		victory_points = {
+			2023 1 
+		}
+		victory_points = {
+			12790 5 
+		}
+
+	}
+
+	provinces={
+		1937 2023 2085 2113 2138 2176 2260 2278 2286 2296 2334 2436 2453 2582 2591 2594 2635 2641 2670 2728 2744 2802 2815 4969 8056 10494 10864 12703 12790 12872 15322 15323 15328 15329 15330 15331 15332 15333 15512 15513 15514 15515 15620 15621 15622 15624 17332 17333 17338 17344 17352 17359 20002 
+	}
+
+	local_supplies=0.0 
+}

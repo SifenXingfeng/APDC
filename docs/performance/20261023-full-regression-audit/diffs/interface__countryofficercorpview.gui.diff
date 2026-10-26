@@ -1,0 +1,22 @@
+--- before/interface/countryofficercorpview.gui
++++ current/interface/countryofficercorpview.gui
+@@ -635,7 +635,9 @@
+ 					slotsize = { width = 16 height = 16 }
+ 					max_slots_vertical = 1
+ 				}
+-			}
++			
++iconType = { name = "icon" spriteType = "GFX_land_doctrine_medium" position = { x = -10000 y = -10000 } }
++}
+ 			
+ 			buttonType = {
+ 				name = "commander_roster_army"
+@@ -2335,7 +2337,7 @@
+ 		instantTextboxType = {
+ 			name = "name"
+ 			position = { x = 110 y = 22 }
+-			textureFile = ""
++			
+ 			font = "hoi_18mbs"
+ 			maxWidth = 198
+ 			maxHeight = 20

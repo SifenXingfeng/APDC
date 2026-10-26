@@ -2,13 +2,8 @@ state = {
 	id = 378
 	name = "STATE_378"
 	resources = {
-		oil = 117
-		aluminium = 19
-	}
-	history = {
-		owner = ZZZ
-
-		add_core_of = ZZZ
+		oil = 114
+		aluminium = 8
 	}
 	provinces = {
 		610
@@ -18,13 +13,11 @@ state = {
 		768
 		781
 		823
-		941
 		986
 		1432
 		1562
 		1601
 		1651
-		3588
 		3644
 		3677
 		3678
@@ -55,7 +48,6 @@ state = {
 		9730
 		9814
 		9855
-		9911
 		10159
 		10387
 		10483
@@ -68,11 +60,126 @@ state = {
 		11876
 		12303
 		12374
+		14399
 		14635
+		14762
 		17308
 	}
-	manpower = 1
+	manpower = 5398039
 	buildings_max_level_factor = 1
-	state_category = megalopolis
+	state_category = metropolis
 	local_supplies = 0
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = USA
+		add_core_of = ZZZ
+		victory_points = {
+			677
+			2
+		}
+		victory_points = {
+			823
+			3
+		}
+		victory_points = {
+			1562
+			15
+		}
+		victory_points = {
+			3678
+			3
+		}
+		victory_points = {
+			4518
+			5
+		}
+		victory_points = {
+			6694
+			3
+		}
+		victory_points = {
+			6699
+			3
+		}
+		victory_points = {
+			6876
+			1
+		}
+		victory_points = {
+			6881
+			2
+		}
+		victory_points = {
+			7517
+			3
+		}
+		victory_points = {
+			7986
+			1
+		}
+		victory_points = {
+			9637
+			2
+		}
+		victory_points = {
+			9671
+			25
+		}
+		victory_points = {
+			9697
+			1
+		}
+		victory_points = {
+			9713
+			15
+		}
+		victory_points = {
+			9814
+			50
+		}
+		victory_points = {
+			10483
+			1
+		}
+		victory_points = {
+			11658
+			2
+		}
+		victory_points = {
+			11757
+			3
+		}
+		victory_points = {
+			11859
+			3
+		}
+		victory_points = {
+			14399
+			1
+		}
+		victory_points = {
+			14635
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 6
+			1562 = {
+				naval_base = 10
+			}
+			9671 = {
+				naval_base = 4
+			}
+			9814 = {
+				naval_base = 5
+			}
+			610 = {
+				naval_base = 1
+			}
+			air_base = 10
+			dockyard = 2
+		}
+	}
 }

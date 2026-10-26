@@ -1,0 +1,33 @@
+state = {
+	id = 844
+	name = "STATE_844"
+	provinces = {
+		12941
+		13938
+		13969
+		17886
+	}
+	manpower = 823116
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = SOM
+		controller = SOM
+		add_core_of = SOM
+		victory_points = {
+			12941
+			3
+		}
+		victory_points = {
+			13938
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			12941 = {
+				naval_base = 2
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+spriteTypes = {
+    # Frames 1-31 are preserved pixel-for-pixel; only frame 32 is appended.
+    spriteType = {
+        name = "GFX_buildings_strip"
+        textureFile = "gfx/interface/buildings/APDC_building_icon_strip.dds"
+        noOfFrames = 32
+    }
+    spriteType = {
+        name = "GFX_APDC_medical_center"
+        textureFile = "gfx/interface/buildings/APDC_medical_center_icon.dds"
+    }
+}

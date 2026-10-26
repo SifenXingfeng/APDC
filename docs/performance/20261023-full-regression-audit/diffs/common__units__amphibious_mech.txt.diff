@@ -1,0 +1,18 @@
+--- before/common/units/amphibious_mech.txt
++++ current/common/units/amphibious_mech.txt
+@@ -1,10 +1,13 @@
+ # APDC: old land-unit IDs retained for reference compatibility; normal unlocks removed.
+ sub_units = {
+ 
+-	amphibious_mechanized = {
++	
++
++# Inactive identifiers required by retained engine interfaces.
++amphibious_mechanized = {
+ 		abbreviation = "AMT"
+ 		sprite = amphibious_mechanized
+-		map_icon_category = infantry
++		
+ 
+ 		priority = 610
+ 		ai_priority = 200

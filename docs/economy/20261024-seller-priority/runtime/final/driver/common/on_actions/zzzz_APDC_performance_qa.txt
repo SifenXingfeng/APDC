@@ -1,0 +1,1 @@
+on_actions = { on_daily_GER = { effect = { if = { limit = { NOT = { has_country_flag = QA_priority_done } } set_country_flag = QA_priority_done QA_market_priority = yes } log = "APDC_PRIORITY DAY [GetDateText]" } } }

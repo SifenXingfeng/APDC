@@ -1,0 +1,61 @@
+state = {
+	id = 411
+	name = "STATE_411"
+	resources = {
+		oil = 10
+		chromium = 6
+		steel = 2
+	}
+	provinces = {
+		2026
+		4983
+		5067
+		8074
+		12756
+		13611
+		13612
+		15151
+		18713
+		18725
+		18746
+		18747
+		18751
+		18761
+		18768
+		18796
+		18802
+	}
+	manpower = 564361
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = PER
+		controller = PER
+		add_core_of = PER
+		victory_points = {
+			2026
+			10
+		}
+		victory_points = {
+			18751
+			3
+		}
+		victory_points = {
+			18761
+			1
+		}
+		victory_points = {
+			18768
+			1
+		}
+		victory_points = {
+			18802
+			1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = GDP_category_city
+	}
+}

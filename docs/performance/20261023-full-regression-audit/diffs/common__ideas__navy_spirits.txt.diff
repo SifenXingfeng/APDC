@@ -1,0 +1,105 @@
+--- before/common/ideas/navy_spirits.txt
++++ current/common/ideas/navy_spirits.txt
+@@ -185,7 +185,7 @@
+ 			available = { 
+ 				OR = {
+ 					has_doctrine = new_convoy_raiding 
+-					has_doctrine = screen_support_focus
++					always = no
+ 				}
+ 			}
+ 
+@@ -202,7 +202,7 @@
+ 				}
+ 				modifier = {
+ 					factor = 2
+-					has_doctrine = screen_support_focus
++					always = no
+ 				}
+ 			}
+ 		}
+@@ -273,8 +273,8 @@
+ 				modifier = {
+ 					factor = 2
+ 					OR = { 
+-					has_doctrine = coastal_defence_fleet
+-					has_doctrine = screen_support_focus
++					always = no
++					always = no
+ 					}
+ 				}
+ 			}
+@@ -297,7 +297,7 @@
+ 					OR = {
+ 					has_doctrine = anti_aircraft_cruisers
+ 					has_doctrine = battlecruiser_supremacy
+-					has_doctrine = escort_carrier_support
++					always = no
+ 					}
+ 				}
+ 			}
+@@ -341,8 +341,8 @@
+ 					factor = 2
+ 					OR = {
+ 					has_doctrine = naval_gunfire_support
+-					has_doctrine = broad_naval_support
+-					has_doctrine = screen_support_focus
++					always = no
++					always = no
+ 					}
+ 				}
+ 			}
+@@ -451,7 +451,7 @@
+ 				}
+ 				modifier = {
+ 					factor = 2
+-					has_doctrine = broad_naval_support
++					always = no
+ 				}
+ 			}
+ 		}
+@@ -633,7 +633,7 @@
+ 				modifier = {
+ 					factor = 2
+ 					OR = {
+-					has_doctrine = submarine_coastal_defense
++					always = no
+ 					has_doctrine = coastal_minelaying
+ 					has_doctrine = support_integrated_operations
+ 					}
+@@ -685,7 +685,7 @@
+ 			available = { 
+ 				OR = {
+ 					has_doctrine = new_convoy_raiding
+-					has_doctrine = coastal_defence_fleet
++					always = no
+ 				}
+ 			}
+ 			modifier = {
+@@ -700,7 +700,7 @@
+ 				}
+ 				modifier = {
+ 					factor = 2
+-					has_doctrine = coastal_defence_fleet
++					always = no
+ 				}
+ 			}
+ 		}
+@@ -710,7 +710,7 @@
+ 			available = {
+ 				OR = {
+ 					has_doctrine = new_fleet_in_being
+-					has_doctrine = escort_carrier_support
++					always = no
+ 				}
+ 			}
+ 			modifier = {
+@@ -726,7 +726,7 @@
+ 				}
+ 				modifier = {
+ 					factor = 2
+-					has_doctrine = escort_carrier_support
++					always = no
+ 				}
+ 			}
+ 		}

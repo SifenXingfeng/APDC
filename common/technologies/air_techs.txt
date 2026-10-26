@@ -31,7 +31,13 @@ technologies = {
 				is_major = yes
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 
 	improved_transport_plane = {
 
@@ -64,7 +70,13 @@ technologies = {
 				is_major = yes
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 
 	strategic_airlifter = {
 
@@ -92,7 +104,13 @@ technologies = {
 				is_major = yes
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 
 
 	early_fighter = {
@@ -147,7 +165,13 @@ technologies = {
 				is_major = yes
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	cv_early_fighter = {
 
@@ -185,7 +209,13 @@ technologies = {
 				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	fighter1 = {
 
@@ -227,7 +257,13 @@ technologies = {
 				is_major = yes
 			}	
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	cv_fighter1 = {
 
@@ -265,7 +301,13 @@ technologies = {
 				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	fighter2 = {
 
@@ -328,7 +370,13 @@ technologies = {
 				date > "2064.1.1"
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	cv_fighter2 = {
 
@@ -371,7 +419,13 @@ technologies = {
 				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	fighter3 = {
 
@@ -434,7 +488,13 @@ technologies = {
 				date > "2069.1.1"
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	cv_fighter3 = {
 
@@ -468,7 +528,13 @@ technologies = {
 				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	fighter4 = {
 
@@ -531,7 +597,13 @@ technologies = {
 				date > "2074.1.1"
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	cv_fighter4 = {
 
@@ -565,7 +637,13 @@ technologies = {
 				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 
 	fighter5 = {
 
@@ -623,7 +701,13 @@ technologies = {
 				date > "2074.1.1"
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	cv_fighter5 = {
 
@@ -657,7 +741,13 @@ technologies = {
 				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	CAS1 = {
 
 		enable_equipments = {
@@ -694,7 +784,13 @@ technologies = {
 			
 
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	cv_CAS1 = {
 
@@ -731,7 +827,13 @@ technologies = {
 				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	CAS2 = {
 
@@ -776,7 +878,13 @@ technologies = {
 				factor = 3
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	cv_CAS2 = {
 
@@ -813,7 +921,13 @@ technologies = {
 				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	CAS3 = {
 
@@ -856,7 +970,13 @@ technologies = {
 				factor = 3
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	cv_CAS3 = {
 
@@ -886,7 +1006,13 @@ technologies = {
 				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 
 	CAS4 = {
 
@@ -929,7 +1055,13 @@ technologies = {
 				factor = 3
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	cv_CAS4 = {
 
@@ -959,7 +1091,13 @@ technologies = {
 				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	CAS5 = {
 
 		enable_equipments = {
@@ -997,7 +1135,13 @@ technologies = {
 				factor = 3
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	cv_CAS5 = {
 
@@ -1027,7 +1171,13 @@ technologies = {
 				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	MP_fighter1 = {
 
 		enable_equipments = {
@@ -1068,7 +1218,13 @@ technologies = {
 				is_major = yes
 			}	
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	cv_MP_fighter1 = {
 
@@ -1106,7 +1262,13 @@ technologies = {
 				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	MP_fighter2 = {
 
@@ -1169,7 +1331,13 @@ technologies = {
 				date > "2064.1.1"
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	cv_MP_fighter2 = {
 
@@ -1212,7 +1380,13 @@ technologies = {
 				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	MP_fighter3 = {
 
@@ -1275,7 +1449,13 @@ technologies = {
 				date > "2069.1.1"
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	cv_MP_fighter3 = {
 
@@ -1309,7 +1489,13 @@ technologies = {
 				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	MP_fighter4 = {
 
@@ -1372,7 +1558,13 @@ technologies = {
 				date > "2074.1.1"
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	cv_MP_fighter4 = {
 
@@ -1406,7 +1598,13 @@ technologies = {
 				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 
 	MP_fighter5 = {
 
@@ -1464,7 +1662,13 @@ technologies = {
 				date > "2074.1.1"
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	cv_MP_fighter5 = {
 
@@ -1498,7 +1702,13 @@ technologies = {
 				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	early_bomber = {
 
@@ -1527,7 +1737,13 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 
 	scout_plane1 = {
 
@@ -1566,12 +1782,18 @@ technologies = {
 			}
 			modifier = {
 				has_tech = fighter1
-				has_tech = tactical_bomber1
+				always = no
 				has_tech = CAS1
 				factor = 3
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	scout_plane2 = {
 
@@ -1609,12 +1831,18 @@ technologies = {
 			}
 			modifier = {
 				has_tech = fighter2
-				has_tech = tactical_bomber2
+				always = no
 				has_tech = CAS2
 				factor = 3
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	scout_plane3 = {
 
@@ -1652,12 +1880,18 @@ technologies = {
 			}
 			modifier = {
 				has_tech = fighter3
-				has_tech = tactical_bomber3
+				always = no
 				has_tech = CAS3
 				factor = 3
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	scout_plane4 = {
 
 		enable_equipments = {
@@ -1694,12 +1928,18 @@ technologies = {
 			}
 			modifier = {
 				has_tech = fighter5
-				has_tech = tactical_bomber5
+				always = no
 				has_tech = CAS5
 				factor = 3
 			}
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	strategic_bomber1 = {
 
 		enable_equipments = {
@@ -1729,7 +1969,13 @@ technologies = {
 			factor = 1
 			
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	strategic_bomber2 = {
 
@@ -1762,7 +2008,13 @@ technologies = {
 			factor = 1
 			
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	strategic_bomber3 = {
 
@@ -1794,7 +2046,13 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 	
 	strategic_bomber4 = {
 
@@ -1826,7 +2084,13 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 
 	strategic_bomber5 = {
 
@@ -1853,5 +2117,11 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 }

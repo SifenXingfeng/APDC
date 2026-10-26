@@ -1,0 +1,43 @@
+state = {
+	id = 1370
+	name = "STATE_1370"
+	provinces = {
+		2001
+		7950
+		12851
+		14116
+		14127
+		14136
+		14140
+		14154
+		14157
+		14163
+		14190
+	}
+	manpower = 1298075
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = JNM
+		controller = JNM
+		add_core_of = BKF
+		add_core_of = ISP
+		add_core_of = JNM
+		victory_points = {
+			7950
+			1
+		}
+		victory_points = {
+			12851
+			1
+		}
+		victory_points = {
+			14140
+			2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

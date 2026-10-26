@@ -1,0 +1,65 @@
+--- before/common/military_industrial_organization/organizations/PRC_organization.txt
++++ current/common/military_industrial_organization/organizations/PRC_organization.txt
+@@ -78,7 +78,7 @@
+ 
+  	available = {
+  		PRC = {
+- 			has_completed_focus = PRC_agricultural_reform 	
++ 			always = no 	
+  		}
+  		
+  	}
+@@ -137,7 +137,7 @@
+ 
+  	available = {
+  		PRC = {
+- 			has_completed_focus = PRC_establish_pla_navy 
++ 			always = no 
+  		}
+  	}
+ 
+@@ -272,7 +272,7 @@
+ 
+  		available = {
+  			PRC = {
+- 				has_completed_focus = PRC_carriers
++ 				always = no
+  			}
+  		}
+ 
+@@ -339,7 +339,7 @@
+ 
+  		available = {
+  			PRC = {
+- 				has_completed_focus = PRC_naval_capstone
++ 				always = no
+  			}
+  		}
+ 
+@@ -400,7 +400,7 @@
+ 				}
+ 			}
+ 			FROM = {
+-				has_completed_focus = PHI_smugglers
++				always = no
+ 			}
+ 		}
+ 	}
+@@ -862,7 +862,7 @@
+ 				}
+ 			}
+ 			FROM = {
+-				has_completed_focus = PHI_smugglers
++				always = no
+ 			}
+ 		}
+ 	}
+@@ -1030,7 +1030,7 @@
+ 				}
+ 			}
+ 			FROM = {
+-				has_completed_focus = PHI_smugglers
++				always = no
+ 			}
+ 		}
+ 	}

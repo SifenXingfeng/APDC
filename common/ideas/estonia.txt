@@ -1,0 +1,78 @@
+ideas = {
+
+	country = {
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+		
+		
+		
+		
+		
+	}
+	
+	naval_manufacturer = { 
+			
+		designer = yes
+		
+		
+	
+paldiski_port = {
+			
+			picture = generic_naval_manufacturer_3
+
+			
+			allowed = {
+				original_tag = EST
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { naval_manufacturer }
+	
+		}
+}
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		
+	
+arsenal = {
+			
+			picture = generic_infantry_equipment_manufacturer_3
+
+			
+			allowed = {
+				original_tag = EST
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			# rifles and pistols
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+}
+}

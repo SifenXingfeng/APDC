@@ -1,0 +1,64 @@
+state = {
+	id = 1019
+	name = "STATE_1019"
+	resources = {
+		steel = 5
+		coal = 1
+	}
+	provinces = {
+		1024
+		4067
+		4118
+		4153
+		7169
+		15883
+		15884
+		15885
+		19722
+		19732
+		19778
+	}
+	manpower = 6027083
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 9
+	history = {
+		owner = EZO
+		controller = EZO
+		add_core_of = EZO
+		add_core_of = JAP
+		victory_points = {
+			1024
+			3
+		}
+		victory_points = {
+			4067
+			1
+		}
+		victory_points = {
+			4118
+			2
+		}
+		victory_points = {
+			7169
+			10
+		}
+		victory_points = {
+			15883
+			1
+		}
+		victory_points = {
+			15884
+			2
+		}
+		victory_points = {
+			19722
+			2
+		}
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 2
+		}
+	}
+}

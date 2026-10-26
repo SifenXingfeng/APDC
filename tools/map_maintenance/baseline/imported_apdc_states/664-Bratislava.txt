@@ -1,0 +1,31 @@
+state = {
+	id = 664
+	name = "STATE_664"
+	resources = {
+		steel = 7
+		chromium = 2
+	}
+	provinces = {
+		3716
+		6561
+		9692
+		11679
+	}
+	manpower = 539014
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 3
+	history = {
+		owner = CZE
+		controller = CZE
+		add_core_of = CZE
+		victory_points = {
+			9692
+			5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+	}
+}

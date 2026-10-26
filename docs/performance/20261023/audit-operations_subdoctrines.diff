@@ -1,0 +1,232 @@
+--- 
+
++++ 
+
+@@ -33,5 +33,5 @@
+
+     }
+     # EFFECTS
+-    command_power_gain = 0.02
++    command_power_gain = 0.2
+     category_all_infantry = {
+         max_organisation = 15
+@@ -99,9 +99,19 @@
+
+                 }
+             }
+-            has_defensive_war = yes
++            OR = {
++                has_defensive_war = yes
++                AND = {
++                    surrender_progress > 0.1
++                    has_war_support > 0.5
++                }                
++            }            
+         }
+         else = {
+             OR = {
+                 has_defensive_war = yes
++                AND = {
++                    surrender_progress > 0.1
++                    has_war_support > 0.5
++                }
+                 has_country_flag = INS_revolution_has_started
+             }
+@@ -180,5 +190,5 @@
+
+     # EFFECTS
+     enable_tactic = tactic_infantry_charge
+-    max_planning = 0.05 
++    max_planning = 0.1 
+ 
+     ai_will_do = { }
+@@ -194,8 +204,9 @@
+
+ 				soft_attack = 0.1
+ 			}
+-		apdc_reg_heavy_weapons = {
++        
++apdc_reg_heavy_weapons = {
+ 				soft_attack = 0.1
+ 			}
+-        }
++}
+         nightly_assaults = {
+         #2
+@@ -205,5 +216,5 @@
+
+         #3
+             supply_consumption_factor = -0.10
+-            command_power_gain = 0.015
++            command_power_gain = 0.1
+             category_tanks = {
+                 max_organisation = 2
+@@ -320,8 +331,9 @@
+
+ 				soft_attack = 0.1
+ 			}
+-		apdc_reg_heavy_weapons = {
++        
++apdc_reg_heavy_weapons = {
+ 				soft_attack = 0.1
+ 			}
+-        }
++}
+         combined_arms_integration = {
+         #3
+@@ -335,17 +347,18 @@
+
+                 air_attack = 0.1
+             }
+-		apdc_reg_infantry_aa = {
+-                max_organisation = 5	
+-                air_attack = 0.1
+-            }
+ 			mot_fire_support = {
+                 max_organisation = 5	
+ 				soft_attack = 0.1
+ 			}
+-		apdc_reg_heavy_weapons = {
++        
++apdc_reg_infantry_aa = {
++                max_organisation = 5	
++                air_attack = 0.1
++            }
++apdc_reg_heavy_weapons = {
+                 max_organisation = 5	
+ 				soft_attack = 0.1
+ 			}
+-        }
++}
+         forward_command_posts = {
+        #4
+@@ -449,9 +462,10 @@
+
+                 max_organisation = 4
+             }
+-		apdc_wheeled_mechanized = {
++            land_reinforce_rate = 0.05
++        
++apdc_wheeled_mechanized = {
+                 max_organisation = 4
+             }
+-            land_reinforce_rate = 0.05
+-        }
++}
+         maskirovka = {
+         #3
+@@ -476,16 +490,17 @@
+
+                 max_organisation = 4
+             }
+-		apdc_wheeled_mechanized = {
+-                max_organisation = 4
+-            }
+ 			mot_fire_support = {
+                 max_organisation = 5
+ 				soft_attack = 0.1				
+ 			}
+-		apdc_reg_heavy_weapons = {
++        
++apdc_wheeled_mechanized = {
++                max_organisation = 4
++            }
++apdc_reg_heavy_weapons = {
+                 max_organisation = 5
+ 				soft_attack = 0.1				
+ 			}
+-        }
++}
+         operational_depth_control = {
+         #5
+@@ -592,9 +607,10 @@
+
+                 max_organisation = 10
+             }
+-		apdc_tracked_mechanized = {
++            land_reinforce_rate = 0.05
++        
++apdc_tracked_mechanized = {
+                 max_organisation = 10
+             }
+-            land_reinforce_rate = 0.05
+-        }
++}
+         maskirovka = {
+         #3
+@@ -621,8 +637,9 @@
+
+                 breakthrough = 0.1
+             }
+-		apdc_tracked_mechanized = {
++        
++apdc_tracked_mechanized = {
+                 breakthrough = 0.1
+             }
+-        }
++}
+         operational_depth_control = {
+         #5
+@@ -690,8 +707,4 @@
+
+         defense = 0.2
+     }
+-		apdc_militia = {
+-        soft_attack = 0.1
+-        defense = 0.2
+-    }
+     militia = {
+         soft_attack = 0.1
+@@ -764,4 +777,9 @@
+
+             
+         }
++    }
++
++apdc_militia = {
++        soft_attack = 0.1
++        defense = 0.2
+     }
+ }
+@@ -988,9 +1006,10 @@
+
+                 max_organisation = 5
+             }
+-		apdc_combined_service = {
++			no_supply_grace = 24
++        
++apdc_combined_service = {
+                 max_organisation = 5
+             }
+-			no_supply_grace = 24
+-        }
++}
+ 
+        local_air_defense = {
+@@ -999,17 +1018,18 @@
+
+                 air_attack = 0.20
+             }
+-		apdc_reg_infantry_aa = {
+-                air_attack = 0.20
+-            }
+             anti_air = {
+                 air_attack = 0.20
+             }
+-		apdc_spaag_support = {
+-                air_attack = 0.20
+-            }
+             category_self_propelled_anti_air_regimental_support = {
+                 air_attack = 0.20
+             }
+-        }
++        
++apdc_reg_infantry_aa = {
++                air_attack = 0.20
++            }
++apdc_spaag_support = {
++                air_attack = 0.20
++            }
++}
+ 		
+         scattered_formations = {

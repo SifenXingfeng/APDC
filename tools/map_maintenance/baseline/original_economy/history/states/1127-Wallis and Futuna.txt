@@ -1,0 +1,22 @@
+state={ #1127
+	id=1127
+	name="WALLIS_AND_FUTUNA"
+	manpower=3400
+	state_category = tiny_island
+	
+	history= {
+		owner = FRA
+		buildings = {
+			infrastructure = 1
+			19956 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		19956
+	}
+
+	local_supplies=0.0 
+}

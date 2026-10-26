@@ -1,0 +1,31 @@
+--- before/tools/performance/prepare_runtime.py
++++ current/tools/performance/prepare_runtime.py
+@@ -0,0 +1,28 @@
++"""Prepare a separate profile; no user launcher/settings/save is modified."""
++import json,sys,shutil
++from repair import *
++QA=Path('D:/APDC_PerformanceQA_20261023')
++def prepare(toolpack=False):
++ QA.mkdir(exist_ok=True);(QA/'mod').mkdir(exist_ok=True)
++ desc=re.sub(r'^path=.*$',f'path="{ROOT.as_posix()}"',text('descriptor.mod'),flags=re.M)
++ (QA/'mod/APDC.mod').write_text(desc,'utf-8')
++ driver=QA/'driver'
++ if driver.exists():
++  assert driver.resolve()==Path('D:/APDC_PerformanceQA_20261023/driver').resolve()
++  assert driver.resolve().is_relative_to(QA.resolve())
++  shutil.rmtree(driver)
++ for d in ['common/on_actions','common/defines']:(driver/d).mkdir(parents=True,exist_ok=True)
++ (QA/'mod/APDC_PerformanceQA.mod').write_text('name="APDC performance diagnostics"\npath="'+driver.as_posix()+'"\ndependencies={ "少女前线-APDC" }\nsupported_version="1.19.*"\n','utf-8')
++ mods=['mod/APDC.mod']
++ if toolpack:
++  src=Path('C:/Users/ASUS/Documents/Paradox Interactive/Hearts of Iron IV/mod/ugc_2913150560.mod');shutil.copy2(src,QA/'mod'/src.name);mods.append('mod/'+src.name)
++ mods.append('mod/APDC_PerformanceQA.mod')
++ (QA/'dlc_load.json').write_text(json.dumps({'enabled_mods':mods,'disabled_dlcs':[]}),'utf-8')
++ (QA/'settings.txt').write_text('language="l_simp_chinese"\ngraphics={ size={ x=1280 y=720 } min_gui={ x=1280 y=720 } gui_scale=1.0 fullScreen=no borderless=no shadows=no multi_sampling=0 maxanisotropy=0 vsync=no }\nmaster_volume=0\nmusic_volume=0\nsound_fx_volume=0\nsave_as_binary=no\nautosave="MONTHLY"\n','utf-8')
++ (driver/'common/defines/zzzz_APDC_performance_qa.lua').write_text('NDefines.NGame.GAME_SPEED_SECONDS = { 0.05, 0.05, 0.05, 0.05, 0.0 }\n','utf-8')
++ (driver/'common/on_actions/zzzz_APDC_performance_qa.txt').write_text('''on_actions = {
++ on_startup = { effect = { log = "APDC_PERF START" } }
++ on_daily_GER = { effect = { log = "APDC_PERF DAY date=[GetDateText] ticks=[?APDC_eco_day_ticks] weeks=[?APDC_eco_week_ticks]" } }
++}\n''','utf-8')
++ print(QA)
++if __name__=='__main__':prepare('--toolpack' in sys.argv)

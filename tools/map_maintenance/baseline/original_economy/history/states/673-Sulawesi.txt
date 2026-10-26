@@ -1,0 +1,35 @@
+state={
+	id=673
+	name="STATE_673"
+	manpower = 3215437
+	resources={
+		rubber = 16 #was: 24
+	}
+
+	state_category = rural
+
+
+	history= {
+		owner = INS
+		add_core_of = GOW
+		victory_points = {
+			10263 2
+		}
+		victory_points = {
+			4564 1
+		}
+
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			10263 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		1561 1589 4308 4349 4564 7336 7598 10222 10263 10322 10450 10464 12330 12444 15697 15723 15724 19197 19201 19214 19223 19232 19233 19258 19264 19266 19267 19272 19277 19300 19301 19303 19323 19329 19334 19339 19350 
+	}
+
+	local_supplies=0.0 
+}

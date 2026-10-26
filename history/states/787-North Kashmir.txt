@@ -1,0 +1,51 @@
+state = {
+	id = 787
+	name = "STATE_787"
+	provinces = {
+		1910
+		2041
+		2084
+		10821
+		15552
+		16008
+		16009
+		16012
+		16014
+		18871
+		18880
+	}
+	manpower = 1532667
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PAK
+		add_core_of = PRC
+		add_claim_by = PAK
+		victory_points = {
+			1910
+			1
+		}
+		victory_points = {
+			2041
+			1
+		}
+		victory_points = {
+			16009
+			1
+		}
+		victory_points = {
+			16014
+			2
+		}
+		victory_points = {
+			18880
+			3
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

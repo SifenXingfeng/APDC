@@ -1,37 +1,64 @@
-state = { #Population Done
+state = {
 	id = 15
 	name = "STATE_15"
+	manpower = 2332100
 	resources = {
-		steel = 29.000
+		steel = 21
 	}
-
+	state_category = city
 	history = {
 		owner = FRA
-		victory_points = { 9434 5 }
-		victory_points = { 11563 10 }
-		victory_points = { 485 1 }
-		victory_points = { 6569 1 }
+		controller = FRA
+		add_core_of = FRA
+		victory_points = {
+			6449
+			1
+		}
+		victory_points = {
+			9434
+			2
+		}
+		victory_points = {
+			11535
+			2
+		}
+		victory_points = {
+			11563
+			3
+		}
 		buildings = {
-			infrastructure = 5
+			infrastructure = 4
+			industrial_complex = 2
 			air_base = 6
-			radar_station = 1
-			dockyard = 1
-			
+			6449 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
 			9434 = {
 				naval_base = 5
-				coastal_bunker = 3
+				coastal_bunker = 1
 			}
 			485 = {
-				coastal_bunker = 3
+				naval_base = 1
 			}
 		}
-		add_core_of = FRA
 	}
-
 	provinces = {
-		485 6569 9434 11563
+		485
+		539
+		553
+		3534
+		3549
+		3579
+		6449
+		6569
+		6599
+		9434
+		9550
+		9578
+		11521
+		11535
+		11563
 	}
-	manpower = 1008082
-	buildings_max_level_factor = 1.000
-	state_category = city
+	local_supplies = 0.0
 }

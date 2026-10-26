@@ -1,0 +1,1708 @@
+{
+  "society": {
+    "label": "社会发展等级",
+    "entries": [
+      {
+        "name": "原始社会",
+        "native": {
+          "local_resources_factor": -0.7,
+          "monthly_population": -0.45,
+          "supply_consumption_factor": -0.9,
+          "production_speed_buildings_factor": -0.4,
+          "out_of_power_impact_factor": 0.7,
+          "production_factory_max_efficiency_factor": -0.3,
+          "research_speed_factor": -0.7,
+          "industrial_capacity_factory": -0.4,
+          "industrial_capacity_dockyard": -0.6,
+          "industry_air_damage_factor": -0.7,
+          "max_fuel_factor": -0.4
+        },
+        "custom": {
+          "APDC_eco_construction_maintenance_factor": -0.4,
+          "APDC_eco_mil_maintenance_factor": -0.4,
+          "APDC_eco_nav_maintenance_factor": -0.4,
+          "APDC_eco_civ_goods": 100000.0,
+          "APDC_eco_science_weekly": -0.02
+        },
+        "source": [
+          "战略资源获取效率：-70.00%",
+          "每月人口：-45.0%",
+          "补给消耗：-90.0%",
+          "建设速度：-40.00%",
+          "降低缺乏电力的惩罚：+70.00%",
+          "生产效率上限：-30.00%",
+          "科研速度：-70.00%",
+          "工厂产出：-40.00%",
+          "海军船坞产出：-60.00%",
+          "工厂受轰炸易损性：-70.00%",
+          "燃油容量：-40.00%",
+          "建造维护费：-40.0%",
+          "军工生产维护费：-40.0%",
+          "船坞生产维护费：-40.0%",
+          "民用工厂消费品产出：100.00K",
+          "每周科研发展等级增长：-0.02"
+        ]
+      },
+      {
+        "name": "农业社会",
+        "native": {
+          "local_resources_factor": -0.5,
+          "monthly_population": -0.25,
+          "supply_consumption_factor": -0.6,
+          "production_speed_buildings_factor": -0.3,
+          "out_of_power_impact_factor": 0.5,
+          "production_factory_max_efficiency_factor": -0.2,
+          "research_speed_factor": -0.5,
+          "industrial_capacity_factory": -0.3,
+          "industrial_capacity_dockyard": -0.5,
+          "industry_air_damage_factor": -0.5,
+          "max_fuel_factor": -0.2
+        },
+        "custom": {
+          "APDC_eco_construction_maintenance_factor": -0.3,
+          "APDC_eco_mil_maintenance_factor": -0.3,
+          "APDC_eco_nav_maintenance_factor": -0.3,
+          "APDC_eco_civ_goods": 500000.0,
+          "APDC_eco_science_weekly": -0.01
+        },
+        "source": [
+          "战略资源获取效率：-50.00%",
+          "每月人口：-25.0%",
+          "补给消耗：-60.0%",
+          "建设速度：-30.00%",
+          "降低缺乏电力的惩罚：+50.00%",
+          "生产效率上限：-20.00%",
+          "科研速度：-50.00%",
+          "工厂产出：-30.00%",
+          "海军船坞产出：-50.00%",
+          "工厂受轰炸易损性：-50.00%",
+          "燃油容量：-20.00%",
+          "建造维护费：-30.0%",
+          "军工生产维护费：-30.0%",
+          "船坞生产维护费：-30.0%",
+          "民用工厂消费品产出：500.00K",
+          "每周科研发展等级增长：-0.01"
+        ]
+      },
+      {
+        "name": "工业化社会",
+        "native": {
+          "local_resources_factor": -0.2,
+          "monthly_population": -0.1,
+          "supply_consumption_factor": -0.3,
+          "production_speed_buildings_factor": -0.2,
+          "out_of_power_impact_factor": 0.2,
+          "production_factory_max_efficiency_factor": -0.1,
+          "research_speed_factor": -0.2,
+          "industrial_capacity_factory": -0.2,
+          "industrial_capacity_dockyard": -0.2,
+          "industry_air_damage_factor": -0.2
+        },
+        "custom": {
+          "APDC_eco_construction_maintenance_factor": -0.2,
+          "APDC_eco_mil_maintenance_factor": -0.2,
+          "APDC_eco_nav_maintenance_factor": -0.2,
+          "APDC_eco_civ_goods": 1000000.0
+        },
+        "source": [
+          "战略资源获取效率：-20.00%",
+          "每月人口：-10.0%",
+          "补给消耗：-30.0%",
+          "建设速度：-20.00%",
+          "降低缺乏电力的惩罚：+20.00%",
+          "生产效率上限：-10.00%",
+          "科研速度：-20.00%",
+          "工厂产出：-20.00%",
+          "海军船坞产出：-20.00%",
+          "工厂受轰炸易损性：-20.00%",
+          "建造维护费：-20.0%",
+          "军工生产维护费：-20.0%",
+          "船坞生产维护费：-20.0%",
+          "民用工厂消费品产出：1.00M"
+        ]
+      },
+      {
+        "name": "信息化社会",
+        "native": {},
+        "custom": {
+          "APDC_eco_science_weekly": 0.01,
+          "APDC_eco_civ_goods": 2000000.0
+        },
+        "source": [
+          "每周科研发展等级增长：+0.01",
+          "民用工厂消费品产出：2.00M"
+        ]
+      },
+      {
+        "name": "文明先驱",
+        "native": {
+          "local_resources_factor": 0.1,
+          "supply_consumption_factor": 0.1,
+          "production_speed_buildings_factor": 0.1,
+          "research_speed_factor": 0.1,
+          "industrial_capacity_factory": 0.1,
+          "industrial_capacity_dockyard": 0.1
+        },
+        "custom": {
+          "APDC_eco_construction_maintenance_factor": -0.1,
+          "APDC_eco_mil_maintenance_factor": -0.1,
+          "APDC_eco_nav_maintenance_factor": -0.1,
+          "APDC_eco_civ_goods": 4000000.0,
+          "APDC_eco_science_weekly": 0.02
+        },
+        "source": [
+          "战略资源获取效率：+10.00%",
+          "补给消耗：+10.0%",
+          "建设速度：+10.00%",
+          "科研速度：+10.00%",
+          "工厂产出：+10.00%",
+          "海军船坞产出：+10.00%",
+          "建造维护费：-10.0%",
+          "军工生产维护费：-10.0%",
+          "船坞生产维护费：-10.0%",
+          "民用工厂消费品产出：4.00M",
+          "每周科研发展等级增长：+0.02"
+        ]
+      }
+    ],
+    "kind": "track"
+  },
+  "science": {
+    "label": "科研发展等级",
+    "entries": [
+      {
+        "name": "贫弱的科研能力",
+        "native": {
+          "political_power_gain": 0.3,
+          "research_speed_factor": -0.8,
+          "air_doctrine_cost_factor": 0.8,
+          "land_doctrine_cost_factor": 0.8,
+          "naval_doctrine_cost_factor": 0.8,
+          "special_forces_doctrine_cost_factor": 0.8,
+          "special_project_speed_factor": -0.45
+        },
+        "custom": {
+          "APDC_eco_research_maintenance_factor": -0.8,
+          "APDC_eco_project_maintenance_factor": -0.45,
+          "APDC_eco_society_weekly": -0.02,
+          "APDC_eco_defense_weekly": -0.02
+        },
+        "source": [
+          "每日政治点数获取：+0.30",
+          "科研速度：-80.00%",
+          "空军学说花费：+80.00%",
+          "陆军学说花费：+80.00%",
+          "海军学说花费：+80.00%",
+          "特种部队战术消耗：+80.00%",
+          "专项计划速度：-45.00%",
+          "科研维护费：-80.0%",
+          "专项计划维护费：-45.0%",
+          "每周社会发展等级增长：-0.02",
+          "每周国防发展等级增长：-0.02"
+        ]
+      },
+      {
+        "name": "略有科研能力",
+        "native": {
+          "political_power_gain": 0.2,
+          "research_speed_factor": -0.55,
+          "air_doctrine_cost_factor": 0.55,
+          "land_doctrine_cost_factor": 0.55,
+          "naval_doctrine_cost_factor": 0.55,
+          "special_forces_doctrine_cost_factor": 0.55,
+          "special_project_speed_factor": -0.35
+        },
+        "custom": {
+          "APDC_eco_research_maintenance_factor": -0.55,
+          "APDC_eco_project_maintenance_factor": -0.35,
+          "APDC_eco_society_weekly": -0.01,
+          "APDC_eco_defense_weekly": -0.01
+        },
+        "source": [
+          "每日政治点数获取：+0.20",
+          "科研速度：-55.00%",
+          "空军学说花费：+55.00%",
+          "陆军学说花费：+55.00%",
+          "海军学说花费：+55.00%",
+          "特种部队战术消耗：+55.00%",
+          "专项计划速度：-35.00%",
+          "科研维护费：-55.0%",
+          "专项计划维护费：-35.0%",
+          "每周社会发展等级增长：-0.01",
+          "每周国防发展等级增长：-0.01"
+        ]
+      },
+      {
+        "name": "可观的科研能力",
+        "native": {
+          "political_power_gain": 0.1,
+          "research_speed_factor": -0.3,
+          "air_doctrine_cost_factor": 0.3,
+          "land_doctrine_cost_factor": 0.3,
+          "naval_doctrine_cost_factor": 0.3,
+          "special_forces_doctrine_cost_factor": 0.3,
+          "special_project_speed_factor": -0.25
+        },
+        "custom": {
+          "APDC_eco_research_maintenance_factor": -0.3,
+          "APDC_eco_project_maintenance_factor": -0.25
+        },
+        "source": [
+          "每日政治点数获取：+0.10",
+          "科研速度：-30.00%",
+          "空军学说花费：+30.00%",
+          "陆军学说花费：+30.00%",
+          "海军学说花费：+30.00%",
+          "特种部队战术消耗：+30.00%",
+          "专项计划速度：-25.00%",
+          "科研维护费：-30.0%",
+          "专项计划维护费：-25.0%"
+        ]
+      },
+      {
+        "name": "发达的科研能力",
+        "native": {},
+        "custom": {
+          "APDC_eco_society_weekly": 0.01,
+          "APDC_eco_defense_weekly": 0.01
+        },
+        "source": [
+          "每周社会发展等级增长：+0.01",
+          "每周国防发展等级增长：+0.01"
+        ]
+      },
+      {
+        "name": "超前的科研能力",
+        "native": {
+          "political_power_gain": -0.1,
+          "research_speed_factor": 0.1,
+          "air_doctrine_cost_factor": -0.1,
+          "land_doctrine_cost_factor": -0.1,
+          "naval_doctrine_cost_factor": -0.1,
+          "special_forces_doctrine_cost_factor": -0.1,
+          "special_project_speed_factor": 0.15
+        },
+        "custom": {
+          "APDC_eco_research_maintenance_factor": 0.1,
+          "APDC_eco_project_maintenance_factor": 0.15,
+          "APDC_eco_society_weekly": 0.02,
+          "APDC_eco_defense_weekly": 0.02
+        },
+        "source": [
+          "每日政治点数获取：-0.10",
+          "科研速度：+10.00%",
+          "空军学说花费：-10.00%",
+          "陆军学说花费：-10.00%",
+          "海军学说花费：-10.00%",
+          "特种部队战术消耗：-10.00%",
+          "专项计划速度：+15.00%",
+          "科研维护费：+10.0%",
+          "专项计划维护费：+15.0%",
+          "每周社会发展等级增长：+0.02",
+          "每周国防发展等级增长：+0.02"
+        ]
+      }
+    ],
+    "kind": "track"
+  },
+  "defense": {
+    "label": "国防发展等级",
+    "entries": [
+      {
+        "name": "民间武装",
+        "native": {
+          "air_advisor_cost_factor": 0.4,
+          "navy_advisor_cost_factor": 0.4,
+          "training_time_factor": -0.4,
+          "army_org_factor": -0.4,
+          "conscription_factor": 0.4,
+          "army_attack_factor": -0.4,
+          "army_defence_factor": -0.4,
+          "army_advisor_cost_factor": 0.4,
+          "land_doctrine_cost_factor": 0.4,
+          "air_doctrine_cost_factor": 0.4,
+          "naval_doctrine_cost_factor": 0.4
+        },
+        "custom": {
+          "APDC_eco_army_maintenance_factor": -0.4,
+          "APDC_eco_air_maintenance_factor": -0.4,
+          "APDC_eco_navy_maintenance_factor": -0.4
+        },
+        "source": [
+          "空军顾问花费：+40%",
+          "海军顾问花费：+40%",
+          "陆军师训练时间：-40.0%",
+          "陆军组织度：-40.0%",
+          "适役人口系数：40%",
+          "陆军师攻击：-40%",
+          "陆军师防御：-40%",
+          "陆军顾问花费：+40%",
+          "陆军维护费：-40.0%",
+          "空军维护费：-40.0%",
+          "海军维护费：-40.0%",
+          "陆军学说花费：+40%",
+          "空军学说花费：+40%",
+          "海军学说花费：+40%"
+        ]
+      },
+      {
+        "name": "初具规模",
+        "native": {
+          "air_advisor_cost_factor": 0.25,
+          "navy_advisor_cost_factor": 0.25,
+          "training_time_factor": -0.25,
+          "army_org_factor": -0.25,
+          "conscription_factor": 0.25,
+          "army_attack_factor": -0.25,
+          "army_defence_factor": -0.25,
+          "army_advisor_cost_factor": 0.25,
+          "land_doctrine_cost_factor": 0.25,
+          "air_doctrine_cost_factor": 0.25,
+          "naval_doctrine_cost_factor": 0.25
+        },
+        "custom": {
+          "APDC_eco_army_maintenance_factor": -0.25,
+          "APDC_eco_air_maintenance_factor": -0.25,
+          "APDC_eco_navy_maintenance_factor": -0.25
+        },
+        "source": [
+          "空军顾问花费：+25%",
+          "海军顾问花费：+25%",
+          "陆军师训练时间：-25.0%",
+          "陆军组织度：-25.0%",
+          "适役人口系数：25%",
+          "陆军师攻击：-25%",
+          "陆军师防御：-25%",
+          "陆军顾问花费：+25%",
+          "陆军维护费：-25.0%",
+          "空军维护费：-25.0%",
+          "海军维护费：-25.0%",
+          "陆军学说花费：+25%",
+          "空军学说花费：+25%",
+          "海军学说花费：+25%"
+        ]
+      },
+      {
+        "name": "三战武装",
+        "native": {
+          "air_advisor_cost_factor": 0.1,
+          "navy_advisor_cost_factor": 0.1,
+          "training_time_factor": -0.1,
+          "army_org_factor": -0.1,
+          "conscription_factor": 0.1,
+          "army_attack_factor": -0.1,
+          "army_defence_factor": -0.1,
+          "army_advisor_cost_factor": 0.1,
+          "land_doctrine_cost_factor": 0.1,
+          "air_doctrine_cost_factor": 0.1,
+          "naval_doctrine_cost_factor": 0.1
+        },
+        "custom": {
+          "APDC_eco_army_maintenance_factor": -0.1,
+          "APDC_eco_air_maintenance_factor": -0.1,
+          "APDC_eco_navy_maintenance_factor": -0.1
+        },
+        "source": [
+          "空军顾问花费：+10%",
+          "海军顾问花费：+10%",
+          "陆军师训练时间：-10.0%",
+          "陆军组织度：-10.0%",
+          "适役人口系数：10%",
+          "陆军师攻击：-10%",
+          "陆军师防御：-10%",
+          "陆军顾问花费：+10%",
+          "陆军维护费：-10.0%",
+          "空军维护费：-10.0%",
+          "海军维护费：-10.0%",
+          "陆军学说花费：+10%",
+          "空军学说花费：+10%",
+          "海军学说花费：+10%"
+        ]
+      },
+      {
+        "name": "现代化军队",
+        "native": {},
+        "custom": {},
+        "source": []
+      },
+      {
+        "name": "未来之军",
+        "native": {
+          "air_advisor_cost_factor": -0.1,
+          "navy_advisor_cost_factor": -0.1,
+          "training_time_factor": 0.1,
+          "army_org_factor": 0.1,
+          "conscription_factor": -0.1,
+          "army_attack_factor": 0.1,
+          "army_defence_factor": 0.1,
+          "army_advisor_cost_factor": -0.1,
+          "land_doctrine_cost_factor": -0.1,
+          "air_doctrine_cost_factor": -0.1,
+          "naval_doctrine_cost_factor": -0.1
+        },
+        "custom": {
+          "APDC_eco_army_maintenance_factor": 0.1,
+          "APDC_eco_air_maintenance_factor": 0.1,
+          "APDC_eco_navy_maintenance_factor": 0.1
+        },
+        "source": [
+          "空军顾问花费：-10%",
+          "海军顾问花费：-10%",
+          "陆军师训练时间：+10.0%",
+          "陆军组织度：+10.0%",
+          "适役人口系数：-10%",
+          "陆军师攻击：+10%",
+          "陆军师防御：+10%",
+          "陆军顾问花费：-10%",
+          "陆军维护费：+10.0%",
+          "空军维护费：+10.0%",
+          "海军维护费：+10.0%",
+          "陆军学说花费：-10%",
+          "空军学说花费：-10%",
+          "海军学说花费：-10%"
+        ]
+      }
+    ],
+    "kind": "track"
+  },
+  "food": {
+    "label": "温饱水平",
+    "entries": [
+      {
+        "name": "难以维生",
+        "native": {
+          "stability_factor": -0.2,
+          "monthly_population": -0.15,
+          "conscription": -0.005,
+          "production_speed_buildings_factor": -0.2,
+          "research_speed_factor": -0.15
+        },
+        "custom": {
+          "APDC_eco_population_factor": 0.3,
+          "APDC_eco_society_weekly": -0.02,
+          "APDC_eco_science_weekly": -0.02
+        },
+        "source": [
+          "稳定度：-20%",
+          "每月人口：-15.0%",
+          "可征募人口：-0.50%",
+          "生活消费品人口系数：+30.0%",
+          "建设速度：-20.00%",
+          "科研速度：-15.00%",
+          "每周社会发展等级增长：-0.02",
+          "每周科研发展等级增长：-0.02"
+        ]
+      },
+      {
+        "name": "温饱短缺",
+        "native": {
+          "stability_factor": -0.1,
+          "monthly_population": -0.1,
+          "production_speed_buildings_factor": -0.15,
+          "research_speed_factor": -0.1
+        },
+        "custom": {
+          "APDC_eco_population_factor": 0.2,
+          "APDC_eco_society_weekly": -0.01,
+          "APDC_eco_science_weekly": -0.01
+        },
+        "source": [
+          "稳定度：-10%",
+          "每月人口：-10.0%",
+          "生活消费品人口系数：+20.0%",
+          "建设速度：-15.00%",
+          "科研速度：-10.00%",
+          "每周社会发展等级增长：-0.01",
+          "每周科研发展等级增长：-0.01"
+        ]
+      },
+      {
+        "name": "保证基本温饱",
+        "native": {
+          "monthly_population": -0.05,
+          "production_speed_buildings_factor": -0.1,
+          "research_speed_factor": -0.05
+        },
+        "custom": {
+          "APDC_eco_population_factor": 0.1
+        },
+        "source": [
+          "每月人口：-5.0%",
+          "生活消费品人口系数：+10.0%",
+          "建设速度：-10.00%",
+          "科研速度：-5.00%"
+        ]
+      },
+      {
+        "name": "全民温饱保障",
+        "native": {},
+        "custom": {
+          "APDC_eco_society_weekly": 0.01,
+          "APDC_eco_science_weekly": 0.01
+        },
+        "source": [
+          "每周社会发展等级增长：+0.01",
+          "每周科研发展等级增长：+0.01"
+        ]
+      },
+      {
+        "name": "丰衣足食",
+        "native": {
+          "monthly_population": 0.05,
+          "production_speed_buildings_factor": 0.1,
+          "research_speed_factor": 0.05
+        },
+        "custom": {
+          "APDC_eco_population_factor": -0.1,
+          "APDC_eco_society_weekly": 0.02,
+          "APDC_eco_science_weekly": 0.02
+        },
+        "source": [
+          "每月人口：+5.0%",
+          "生活消费品人口系数：-10.0%",
+          "建设速度：+10.00%",
+          "科研速度：+5.00%",
+          "每周社会发展等级增长：+0.02",
+          "每周科研发展等级增长：+0.02"
+        ]
+      }
+    ],
+    "kind": "track"
+  },
+  "education": {
+    "label": "教育水平",
+    "entries": [
+      {
+        "name": "目不识丁",
+        "native": {
+          "production_speed_buildings_factor": -0.2,
+          "research_speed_factor": -0.6,
+          "land_mastery_gain_factor": -0.35,
+          "naval_mastery_gain_factor": -0.35,
+          "air_mastery_gain_factor": -0.35,
+          "special_forces_mastery_gain_factor": -0.35
+        },
+        "custom": {
+          "APDC_eco_science_weekly": -0.02,
+          "APDC_eco_defense_weekly": -0.02
+        },
+        "source": [
+          "建设速度：-20.00%",
+          "科研速度：-60.00%",
+          "陆军学说精通度获取：-35%",
+          "海军学说精通度获取：-35%",
+          "空军学说精通度获取：-35%",
+          "特种部队精通度获取：-35%",
+          "每周科研发展等级增长：-0.02",
+          "每周国防发展等级增长：-0.02"
+        ]
+      },
+      {
+        "name": "扫盲教育",
+        "native": {
+          "production_speed_buildings_factor": -0.1,
+          "research_speed_factor": -0.4,
+          "land_mastery_gain_factor": -0.25,
+          "naval_mastery_gain_factor": -0.25,
+          "air_mastery_gain_factor": -0.25,
+          "special_forces_mastery_gain_factor": -0.25
+        },
+        "custom": {
+          "APDC_eco_science_weekly": -0.01,
+          "APDC_eco_defense_weekly": -0.01
+        },
+        "source": [
+          "建设速度：-10.00%",
+          "科研速度：-40.00%",
+          "陆军学说精通度获取：-25%",
+          "海军学说精通度获取：-25%",
+          "空军学说精通度获取：-25%",
+          "特种部队精通度获取：-25%",
+          "每周科研发展等级增长：-0.01",
+          "每周国防发展等级增长：-0.01"
+        ]
+      },
+      {
+        "name": "义务教育",
+        "native": {
+          "production_speed_buildings_factor": -0.05,
+          "research_speed_factor": -0.2,
+          "land_mastery_gain_factor": -0.15,
+          "naval_mastery_gain_factor": -0.15,
+          "air_mastery_gain_factor": -0.15,
+          "special_forces_mastery_gain_factor": -0.15
+        },
+        "custom": {},
+        "source": [
+          "建设速度：-5.00%",
+          "科研速度：-20.00%",
+          "陆军学说精通度获取：-15%",
+          "海军学说精通度获取：-15%",
+          "空军学说精通度获取：-15%",
+          "特种部队精通度获取：-15%"
+        ]
+      },
+      {
+        "name": "高级义务教育",
+        "native": {},
+        "custom": {
+          "APDC_eco_science_weekly": 0.01,
+          "APDC_eco_defense_weekly": 0.01
+        },
+        "source": [
+          "每周科研发展等级增长：+0.01",
+          "每周国防发展等级增长：+0.01"
+        ]
+      },
+      {
+        "name": "先进教育体系",
+        "native": {
+          "production_speed_buildings_factor": 0.05,
+          "research_speed_factor": 0.1,
+          "land_mastery_gain_factor": 0.15,
+          "naval_mastery_gain_factor": 0.15,
+          "air_mastery_gain_factor": 0.15,
+          "special_forces_mastery_gain_factor": 0.15
+        },
+        "custom": {
+          "APDC_eco_science_weekly": 0.02,
+          "APDC_eco_defense_weekly": 0.02
+        },
+        "source": [
+          "建设速度：+5.00%",
+          "科研速度：+10.00%",
+          "陆军学说精通度获取：+15%",
+          "海军学说精通度获取：+15%",
+          "空军学说精通度获取：+15%",
+          "特种部队精通度获取：+15%",
+          "每周科研发展等级增长：+0.02",
+          "每周国防发展等级增长：+0.02"
+        ]
+      }
+    ],
+    "kind": "track"
+  },
+  "medical": {
+    "label": "医疗水平",
+    "entries": [
+      {
+        "name": "毫无医疗体系",
+        "native": {
+          "monthly_population": -0.35,
+          "conscription": -0.005,
+          "production_speed_buildings_factor": -0.4,
+          "industrial_capacity_factory": -0.4,
+          "industrial_capacity_dockyard": -0.6
+        },
+        "custom": {
+          "APDC_eco_population_factor": 0.25,
+          "APDC_eco_society_weekly": -0.02,
+          "APDC_eco_defense_weekly": -0.02
+        },
+        "source": [
+          "每月人口：-35.0%",
+          "可征募人口：-0.50%",
+          "生活消费品人口系数：+25.0%",
+          "建设速度：-40.00%",
+          "工厂产出：-40.00%",
+          "海军船坞产出：-60.00%",
+          "每周社会发展等级增长：-0.02",
+          "每周国防发展等级增长：-0.02"
+        ]
+      },
+      {
+        "name": "松散医疗体系",
+        "native": {
+          "monthly_population": -0.25,
+          "production_speed_buildings_factor": -0.25,
+          "industrial_capacity_factory": -0.25,
+          "industrial_capacity_dockyard": -0.4
+        },
+        "custom": {
+          "APDC_eco_population_factor": 0.15,
+          "APDC_eco_society_weekly": -0.01,
+          "APDC_eco_defense_weekly": -0.01
+        },
+        "source": [
+          "每月人口：-25.0%",
+          "生活消费品人口系数：+15.0%",
+          "建设速度：-25.00%",
+          "工厂产出：-25.00%",
+          "海军船坞产出：-40.00%",
+          "每周社会发展等级增长：-0.01",
+          "每周国防发展等级增长：-0.01"
+        ]
+      },
+      {
+        "name": "基础医疗保障",
+        "native": {
+          "monthly_population": -0.1,
+          "production_speed_buildings_factor": -0.1,
+          "industrial_capacity_factory": -0.1,
+          "industrial_capacity_dockyard": -0.2
+        },
+        "custom": {
+          "APDC_eco_population_factor": 0.05
+        },
+        "source": [
+          "每月人口：-10.0%",
+          "生活消费品人口系数：+5.0%",
+          "建设速度：-10.00%",
+          "工厂产出：-10.00%",
+          "海军船坞产出：-20.00%"
+        ]
+      },
+      {
+        "name": "广泛医疗保障",
+        "native": {},
+        "custom": {
+          "APDC_eco_society_weekly": 0.01,
+          "APDC_eco_defense_weekly": 0.01
+        },
+        "source": [
+          "每周社会发展等级增长：+0.01",
+          "每周国防发展等级增长：+0.01"
+        ]
+      },
+      {
+        "name": "全覆盖医疗保障",
+        "native": {
+          "monthly_population": 0.1,
+          "production_speed_buildings_factor": 0.1,
+          "industrial_capacity_factory": 0.1,
+          "industrial_capacity_dockyard": 0.2
+        },
+        "custom": {
+          "APDC_eco_population_factor": -0.05,
+          "APDC_eco_society_weekly": 0.02,
+          "APDC_eco_defense_weekly": 0.02
+        },
+        "source": [
+          "每月人口：+10.0%",
+          "生活消费品人口系数：-5.0%",
+          "建设速度：+10.00%",
+          "工厂产出：+10.00%",
+          "海军船坞产出：+20.00%",
+          "每周社会发展等级增长：+0.02",
+          "每周国防发展等级增长：+0.02"
+        ]
+      }
+    ],
+    "kind": "track"
+  },
+  "tax": {
+    "label": "赋税力度",
+    "entries": [
+      {
+        "name": "近零税率",
+        "native": {
+          "stability_factor": 0.1
+        },
+        "custom": {
+          "APDC_eco_head_tax": 1.0,
+          "APDC_eco_consumption_tax": 0.5,
+          "APDC_eco_population_factor": 0.1,
+          "APDC_eco_private_civ_expansion_factor": 0.2,
+          "APDC_eco_private_mil_expansion_factor": 0.2,
+          "APDC_eco_food_weekly": 0.02
+        },
+        "source": [
+          "稳定度：+10%",
+          "每周基础人口税：1.00₽",
+          "每周基础消费税：0.50₽",
+          "生活消费品人口系数：+10.0%",
+          "私营民工扩张速度：+20%",
+          "私营军工扩张速度：+20%",
+          "每周温饱水平增长：+0.02"
+        ]
+      },
+      {
+        "name": "低额税率",
+        "native": {
+          "stability_factor": 0.05
+        },
+        "custom": {
+          "APDC_eco_head_tax": 2.5,
+          "APDC_eco_consumption_tax": 1.0,
+          "APDC_eco_population_factor": 0.05,
+          "APDC_eco_private_civ_expansion_factor": 0.1,
+          "APDC_eco_private_mil_expansion_factor": 0.1,
+          "APDC_eco_food_weekly": 0.01
+        },
+        "source": [
+          "稳定度：+5%",
+          "每周基础人口税：2.50₽",
+          "每周基础消费税：1.00₽",
+          "生活消费品人口系数：+5.0%",
+          "私营民工扩张速度：+10%",
+          "私营军工扩张速度：+10%",
+          "每周温饱水平增长：+0.01"
+        ]
+      },
+      {
+        "name": "平衡税率",
+        "native": {},
+        "custom": {
+          "APDC_eco_head_tax": 5.0,
+          "APDC_eco_consumption_tax": 2.0
+        },
+        "source": [
+          "每周基础人口税：5.00₽",
+          "每周基础消费税：2.00₽"
+        ]
+      },
+      {
+        "name": "高额税率",
+        "native": {
+          "stability_factor": -0.05
+        },
+        "custom": {
+          "APDC_eco_head_tax": 7.5,
+          "APDC_eco_consumption_tax": 3.0,
+          "APDC_eco_population_factor": -0.05,
+          "APDC_eco_private_civ_expansion_factor": -0.1,
+          "APDC_eco_private_mil_expansion_factor": -0.1,
+          "APDC_eco_food_weekly": -0.01
+        },
+        "source": [
+          "稳定度：-5%",
+          "每周基础人口税：7.50₽",
+          "每周基础消费税：3.00₽",
+          "生活消费品人口系数：-5.0%",
+          "私营民工扩张速度：-10%",
+          "私营军工扩张速度：-10%",
+          "每周温饱水平增长：-0.01"
+        ]
+      },
+      {
+        "name": "苛捐杂税",
+        "native": {
+          "stability_factor": -0.1
+        },
+        "custom": {
+          "APDC_eco_head_tax": 10.0,
+          "APDC_eco_consumption_tax": 5.0,
+          "APDC_eco_population_factor": -0.1,
+          "APDC_eco_private_civ_expansion_factor": -0.2,
+          "APDC_eco_private_mil_expansion_factor": -0.2,
+          "APDC_eco_food_weekly": -0.02
+        },
+        "source": [
+          "稳定度：-10%",
+          "每周基础人口税：10.00₽",
+          "每周基础消费税：5.00₽",
+          "生活消费品人口系数：-10.0%",
+          "私营民工扩张速度：-20%",
+          "私营军工扩张速度：-20%",
+          "每周温饱水平增长：-0.02"
+        ]
+      }
+    ],
+    "kind": "law"
+  },
+  "food_spending": {
+    "label": "温饱法案",
+    "entries": [
+      {
+        "name": "无温饱支出",
+        "native": {},
+        "custom": {
+          "APDC_eco_food_weekly": -0.02
+        },
+        "source": [
+          "每周温饱水平增长：-0.02"
+        ]
+      },
+      {
+        "name": "低额温饱支出",
+        "native": {},
+        "custom": {
+          "APDC_eco_food_cost": 0.5
+        },
+        "source": [
+          "每周温饱人口支出：+0.50₽"
+        ]
+      },
+      {
+        "name": "足额温饱支出",
+        "native": {},
+        "custom": {
+          "APDC_eco_food_cost": 1.0,
+          "APDC_eco_food_weekly": 0.01
+        },
+        "source": [
+          "每周温饱人口支出：+1.00₽",
+          "每周温饱水平增长：+0.01"
+        ]
+      },
+      {
+        "name": "高额温饱支出",
+        "native": {},
+        "custom": {
+          "APDC_eco_food_cost": 2.5,
+          "APDC_eco_subsidy": 1.0,
+          "APDC_eco_food_weekly": 0.02
+        },
+        "source": [
+          "每周温饱人口支出：+2.50₽",
+          "每周消费补贴：+1.00₽",
+          "每周温饱水平增长：+0.02"
+        ]
+      },
+      {
+        "name": "极高温饱支出",
+        "native": {},
+        "custom": {
+          "APDC_eco_food_cost": 5.0,
+          "APDC_eco_subsidy": 2.5,
+          "APDC_eco_food_weekly": 0.04
+        },
+        "source": [
+          "每周温饱人口支出：+5.00₽",
+          "每周消费补贴：+2.50₽",
+          "每周温饱水平增长：+0.04"
+        ]
+      }
+    ],
+    "kind": "law"
+  },
+  "education_spending": {
+    "label": "教育法案",
+    "entries": [
+      {
+        "name": "无教育支出",
+        "native": {},
+        "custom": {
+          "APDC_eco_education_weekly": -0.02
+        },
+        "source": [
+          "每周教育水平增长：-0.02"
+        ]
+      },
+      {
+        "name": "低额教育支出",
+        "native": {},
+        "custom": {
+          "APDC_eco_education_cost": 0.5
+        },
+        "source": [
+          "每周教育人口支出：+0.50₽"
+        ]
+      },
+      {
+        "name": "足额教育支出",
+        "native": {},
+        "custom": {
+          "APDC_eco_education_cost": 1.0,
+          "APDC_eco_education_weekly": 0.01
+        },
+        "source": [
+          "每周教育人口支出：+1.00₽",
+          "每周教育水平增长：+0.01"
+        ]
+      },
+      {
+        "name": "高额教育支出",
+        "native": {},
+        "custom": {
+          "APDC_eco_education_cost": 2.5,
+          "APDC_eco_subsidy": 1.0,
+          "APDC_eco_education_weekly": 0.02
+        },
+        "source": [
+          "每周教育人口支出：+2.50₽",
+          "每周消费补贴：+1.00₽",
+          "每周教育水平增长：+0.02"
+        ]
+      },
+      {
+        "name": "极高教育支出",
+        "native": {},
+        "custom": {
+          "APDC_eco_education_cost": 5.0,
+          "APDC_eco_subsidy": 2.5,
+          "APDC_eco_education_weekly": 0.04
+        },
+        "source": [
+          "每周教育人口支出：+5.00₽",
+          "每周消费补贴：+2.50₽",
+          "每周教育水平增长：+0.04"
+        ]
+      }
+    ],
+    "kind": "law"
+  },
+  "medical_spending": {
+    "label": "医疗法案",
+    "entries": [
+      {
+        "name": "无医疗支出",
+        "native": {},
+        "custom": {
+          "APDC_eco_medical_weekly": -0.02
+        },
+        "source": [
+          "每周医疗水平增长：-0.02"
+        ]
+      },
+      {
+        "name": "低额医疗支出",
+        "native": {},
+        "custom": {
+          "APDC_eco_medical_cost": 0.5
+        },
+        "source": [
+          "每周医疗人口支出：+0.50₽"
+        ]
+      },
+      {
+        "name": "足额医疗支出",
+        "native": {},
+        "custom": {
+          "APDC_eco_medical_cost": 1.0,
+          "APDC_eco_medical_weekly": 0.01
+        },
+        "source": [
+          "每周医疗人口支出：+1.00₽",
+          "每周医疗水平增长：+0.01"
+        ]
+      },
+      {
+        "name": "高额医疗支出",
+        "native": {},
+        "custom": {
+          "APDC_eco_medical_cost": 2.5,
+          "APDC_eco_subsidy": 1.0,
+          "APDC_eco_medical_weekly": 0.02
+        },
+        "source": [
+          "每周医疗人口支出：+2.50₽",
+          "每周消费补贴：+1.00₽",
+          "每周医疗水平增长：+0.02"
+        ]
+      },
+      {
+        "name": "极高医疗支出",
+        "native": {},
+        "custom": {
+          "APDC_eco_medical_cost": 5.0,
+          "APDC_eco_subsidy": 2.5,
+          "APDC_eco_medical_weekly": 0.04
+        },
+        "source": [
+          "每周医疗人口支出：+5.00₽",
+          "每周消费补贴：+2.50₽",
+          "每周医疗水平增长：+0.04"
+        ]
+      }
+    ],
+    "kind": "law"
+  },
+  "development": {
+    "label": "发展开支",
+    "entries": [
+      {
+        "name": "发展废弛",
+        "native": {
+          "stability_factor": -0.1,
+          "production_speed_buildings_factor": -0.2,
+          "production_factory_max_efficiency_factor": -0.1,
+          "industrial_capacity_factory": -0.2,
+          "industrial_capacity_dockyard": -0.2
+        },
+        "custom": {
+          "APDC_eco_construction_maintenance": 20000.0,
+          "APDC_eco_mil_maintenance": 20000.0,
+          "APDC_eco_nav_maintenance": 30000.0,
+          "APDC_eco_society_weekly": -0.02
+        },
+        "source": [
+          "每周基础建造维护费：20.00K₽",
+          "每周基础军工生产维护费：20.00K₽",
+          "每周基础船坞生产维护费：30.00K₽",
+          "稳定度：-10%",
+          "建设速度：-20.00%",
+          "生产效率上限：-10.00%",
+          "工厂产出：-20.00%",
+          "海军船坞产出：-20.00%",
+          "每周社会发展等级增长：-0.02"
+        ]
+      },
+      {
+        "name": "低额发展开支",
+        "native": {},
+        "custom": {
+          "APDC_eco_construction_maintenance": 50000.0,
+          "APDC_eco_mil_maintenance": 50000.0,
+          "APDC_eco_nav_maintenance": 75000.0
+        },
+        "source": [
+          "每周基础建造维护费：50.00K₽",
+          "每周基础军工生产维护费：50.00K₽",
+          "每周基础船坞生产维护费：75.00K₽"
+        ]
+      },
+      {
+        "name": "平衡发展开支",
+        "native": {
+          "production_speed_buildings_factor": 0.1,
+          "industrial_capacity_factory": 0.1,
+          "industrial_capacity_dockyard": 0.1
+        },
+        "custom": {
+          "APDC_eco_construction_maintenance": 100000.0,
+          "APDC_eco_mil_maintenance": 100000.0,
+          "APDC_eco_nav_maintenance": 150000.0,
+          "APDC_eco_society_weekly": 0.01
+        },
+        "source": [
+          "每周基础建造维护费：100.00K₽",
+          "每周基础军工生产维护费：100.00K₽",
+          "每周基础船坞生产维护费：150.00K₽",
+          "建设速度：+10.00%",
+          "工厂产出：+10.00%",
+          "海军船坞产出：+10.00%",
+          "每周社会发展等级增长：+0.01"
+        ]
+      },
+      {
+        "name": "高额发展开支",
+        "native": {
+          "stability_factor": 0.1,
+          "production_speed_buildings_factor": 0.2,
+          "production_factory_max_efficiency_factor": 0.1,
+          "industrial_capacity_factory": 0.2,
+          "industrial_capacity_dockyard": 0.2
+        },
+        "custom": {
+          "APDC_eco_construction_maintenance": 200000.0,
+          "APDC_eco_mil_maintenance": 200000.0,
+          "APDC_eco_nav_maintenance": 300000.0,
+          "APDC_eco_society_weekly": 0.02
+        },
+        "source": [
+          "每周基础建造维护费：200.00K₽",
+          "每周基础军工生产维护费：200.00K₽",
+          "每周基础船坞生产维护费：300.00K₽",
+          "稳定度：+10%",
+          "建设速度：+20.00%",
+          "生产效率上限：+10.00%",
+          "工厂产出：+20.00%",
+          "海军船坞产出：+20.00%",
+          "每周社会发展等级增长：+0.02"
+        ]
+      },
+      {
+        "name": "极高发展开支",
+        "native": {
+          "stability_factor": 0.2,
+          "production_speed_buildings_factor": 0.4,
+          "production_factory_max_efficiency_factor": 0.2,
+          "industrial_capacity_factory": 0.4,
+          "industrial_capacity_dockyard": 0.4
+        },
+        "custom": {
+          "APDC_eco_construction_maintenance": 500000.0,
+          "APDC_eco_mil_maintenance": 500000.0,
+          "APDC_eco_nav_maintenance": 750000.0,
+          "APDC_eco_society_weekly": 0.04
+        },
+        "source": [
+          "每周基础建造维护费：500.00K₽",
+          "每周基础军工生产维护费：500.00K₽",
+          "每周基础船坞生产维护费：750.00K₽",
+          "稳定度：+20%",
+          "建设速度：+40.00%",
+          "生产效率上限：+20.00%",
+          "工厂产出：+40.00%",
+          "海军船坞产出：+40.00%",
+          "每周社会发展等级增长：+0.04"
+        ]
+      }
+    ],
+    "kind": "law"
+  },
+  "research": {
+    "label": "科研开支",
+    "entries": [
+      {
+        "name": "科研废弛",
+        "native": {
+          "research_speed_factor": -0.2,
+          "special_project_speed_factor": -0.2
+        },
+        "custom": {
+          "APDC_eco_research_maintenance": 100000.0,
+          "APDC_eco_project_maintenance": 200000.0,
+          "APDC_eco_research_slots": -1.0,
+          "APDC_eco_science_weekly": -0.02
+        },
+        "source": [
+          "每周基础科研维护费：100.00K₽",
+          "每周基础专项计划维护费：200.00K₽",
+          "科研速度：-20.00%",
+          "专项计划速度：-20.00%",
+          "科研槽：-1",
+          "每周科研发展等级增长：-0.02"
+        ]
+      },
+      {
+        "name": "低额科研开支",
+        "native": {},
+        "custom": {
+          "APDC_eco_research_maintenance": 200000.0,
+          "APDC_eco_project_maintenance": 500000.0
+        },
+        "source": [
+          "每周基础科研维护费：200.00K₽",
+          "每周基础专项计划维护费：500.00K₽"
+        ]
+      },
+      {
+        "name": "平衡科研开支",
+        "native": {
+          "research_speed_factor": 0.1,
+          "special_project_speed_factor": 0.1
+        },
+        "custom": {
+          "APDC_eco_research_maintenance": 500000.0,
+          "APDC_eco_project_maintenance": 1000000.0,
+          "APDC_eco_science_weekly": 0.01
+        },
+        "source": [
+          "每周基础科研维护费：500.00K₽",
+          "每周基础专项计划维护费：1.00M₽",
+          "科研速度：+10.00%",
+          "专项计划速度：+10.00%",
+          "每周科研发展等级增长：+0.01"
+        ]
+      },
+      {
+        "name": "高额科研开支",
+        "native": {
+          "research_speed_factor": 0.2,
+          "special_project_speed_factor": 0.2
+        },
+        "custom": {
+          "APDC_eco_research_maintenance": 1000000.0,
+          "APDC_eco_project_maintenance": 2000000.0,
+          "APDC_eco_research_slots": 1.0,
+          "APDC_eco_science_weekly": 0.02
+        },
+        "source": [
+          "每周基础科研维护费：1.00M₽",
+          "每周基础专项计划维护费：2.00M₽",
+          "科研速度：+20.00%",
+          "专项计划速度：+20.00%",
+          "科研槽：+1",
+          "每周科研发展等级增长：+0.02"
+        ]
+      },
+      {
+        "name": "极高科研开支",
+        "native": {
+          "research_speed_factor": 0.4,
+          "special_project_speed_factor": 0.4
+        },
+        "custom": {
+          "APDC_eco_research_maintenance": 2000000.0,
+          "APDC_eco_project_maintenance": 5000000.0,
+          "APDC_eco_research_slots": 2.0,
+          "APDC_eco_science_weekly": 0.04
+        },
+        "source": [
+          "每周基础科研维护费：2.00M₽",
+          "每周基础专项计划维护费：5.00M₽",
+          "科研速度：+40.00%",
+          "专项计划速度：+40.00%",
+          "科研槽：+2",
+          "每周科研发展等级增长：+0.04"
+        ]
+      }
+    ],
+    "kind": "law"
+  },
+  "military": {
+    "label": "国防开支",
+    "entries": [
+      {
+        "name": "国防废弛",
+        "native": {
+          "war_support_factor": -0.2,
+          "army_org_factor": -0.2,
+          "army_attack_factor": -0.2,
+          "army_defence_factor": -0.2,
+          "navy_org_factor": -0.2,
+          "naval_coordination": -0.2,
+          "air_accidents_factor": 0.2,
+          "air_mission_efficiency": -0.2
+        },
+        "custom": {
+          "APDC_eco_army_maintenance": 5.0,
+          "APDC_eco_navy_maintenance": 10.0,
+          "APDC_eco_air_maintenance": 10.0,
+          "APDC_eco_defense_weekly": -0.02
+        },
+        "source": [
+          "每周基础陆军人口维护费：5.00₽",
+          "每周基础海军人口维护费：10.00₽",
+          "每周基础空军人口维护费：10.00₽",
+          "战争支持度：-20%",
+          "陆军组织度：-20.0%",
+          "陆军师攻击：-20%",
+          "陆军师防御：-20%",
+          "海军组织度：-20%",
+          "舰队协同性：-20%",
+          "空军事故几率：+20%",
+          "空军任务效率：-20%",
+          "每周国防发展等级增长：-0.02"
+        ]
+      },
+      {
+        "name": "低额国防开支",
+        "native": {},
+        "custom": {
+          "APDC_eco_army_maintenance": 10.0,
+          "APDC_eco_navy_maintenance": 20.0,
+          "APDC_eco_air_maintenance": 20.0
+        },
+        "source": [
+          "每周基础陆军人口维护费：10.00₽",
+          "每周基础海军人口维护费：20.00₽",
+          "每周基础空军人口维护费：20.00₽"
+        ]
+      },
+      {
+        "name": "平衡国防开支",
+        "native": {
+          "army_org_factor": 0.1,
+          "army_attack_factor": 0.1,
+          "army_defence_factor": 0.1
+        },
+        "custom": {
+          "APDC_eco_army_maintenance": 20.0,
+          "APDC_eco_navy_maintenance": 50.0,
+          "APDC_eco_air_maintenance": 50.0,
+          "APDC_eco_defense_weekly": 0.01
+        },
+        "source": [
+          "每周基础陆军人口维护费：20.00₽",
+          "每周基础海军人口维护费：50.00₽",
+          "每周基础空军人口维护费：50.00₽",
+          "陆军组织度：+10.0%",
+          "陆军师攻击：+10%",
+          "陆军师防御：+10%",
+          "每周国防发展等级增长：+0.01"
+        ]
+      },
+      {
+        "name": "高额国防开支",
+        "native": {
+          "war_support_factor": 0.1,
+          "army_org_factor": 0.2,
+          "army_attack_factor": 0.2,
+          "army_defence_factor": 0.2,
+          "navy_org_factor": 0.2,
+          "naval_coordination": 0.2,
+          "air_accidents_factor": -0.2,
+          "air_mission_efficiency": 0.2
+        },
+        "custom": {
+          "APDC_eco_army_maintenance": 50.0,
+          "APDC_eco_navy_maintenance": 100.0,
+          "APDC_eco_air_maintenance": 100.0,
+          "APDC_eco_defense_weekly": 0.02
+        },
+        "source": [
+          "每周基础陆军人口维护费：50.00₽",
+          "每周基础海军人口维护费：100.00₽",
+          "每周基础空军人口维护费：100.00₽",
+          "战争支持度：+10%",
+          "陆军组织度：+20.0%",
+          "陆军师攻击：+20%",
+          "陆军师防御：+20%",
+          "海军组织度：+20%",
+          "舰队协同性：+20%",
+          "空军事故几率：-20%",
+          "空军任务效率：+20%",
+          "每周国防发展等级增长：+0.02"
+        ]
+      },
+      {
+        "name": "极高国防开支",
+        "native": {
+          "war_support_factor": 0.2,
+          "army_org_factor": 0.4,
+          "army_attack_factor": 0.4,
+          "army_defence_factor": 0.4,
+          "navy_org_factor": 0.4,
+          "naval_coordination": 0.4,
+          "air_accidents_factor": -0.4,
+          "air_mission_efficiency": 0.4
+        },
+        "custom": {
+          "APDC_eco_army_maintenance": 100.0,
+          "APDC_eco_navy_maintenance": 200.0,
+          "APDC_eco_air_maintenance": 200.0,
+          "APDC_eco_defense_weekly": 0.04
+        },
+        "source": [
+          "每周基础陆军人口维护费：100.00₽",
+          "每周基础海军人口维护费：200.00₽",
+          "每周基础空军人口维护费：200.00₽",
+          "战争支持度：+20%",
+          "陆军组织度：+40.0%",
+          "陆军师攻击：+40%",
+          "陆军师防御：+40%",
+          "海军组织度：+40%",
+          "舰队协同性：+40%",
+          "空军事故几率：-40%",
+          "空军任务效率：+40%",
+          "每周国防发展等级增长：+0.04"
+        ]
+      }
+    ],
+    "kind": "law"
+  },
+  "investment": {
+    "label": "投资生产",
+    "entries": [
+      {
+        "name": "无额外投资",
+        "native": {},
+        "custom": {
+          "APDC_eco_civ_expansion_base": 5.0,
+          "APDC_eco_mil_expansion_base": 5.0
+        },
+        "source": [
+          "每日基础私营民工扩张速度：5",
+          "每日基础私营军工扩张速度：5"
+        ]
+      },
+      {
+        "name": "少量投资",
+        "native": {},
+        "custom": {
+          "APDC_eco_goods_output_factor": 0.1,
+          "APDC_eco_civ_expansion_base": 10.0,
+          "APDC_eco_mil_expansion_base": 10.0,
+          "APDC_eco_investment_cost": 100000.0
+        },
+        "source": [
+          "民用工厂消费品系数：+10%",
+          "每日基础私营民工扩张速度：10",
+          "每日基础私营军工扩张速度：10",
+          "每周消费品民用工厂投资：+100.00K₽"
+        ]
+      },
+      {
+        "name": "持续投资",
+        "native": {},
+        "custom": {
+          "APDC_eco_goods_output_factor": 0.2,
+          "APDC_eco_civ_expansion_base": 15.0,
+          "APDC_eco_mil_expansion_base": 15.0,
+          "APDC_eco_investment_cost": 200000.0
+        },
+        "source": [
+          "民用工厂消费品系数：+20%",
+          "每日基础私营民工扩张速度：15",
+          "每日基础私营军工扩张速度：15",
+          "每周消费品民用工厂投资：+200.00K₽"
+        ]
+      },
+      {
+        "name": "大量投资",
+        "native": {},
+        "custom": {
+          "APDC_eco_goods_output_factor": 0.5,
+          "APDC_eco_civ_expansion_base": 20.0,
+          "APDC_eco_mil_expansion_base": 20.0,
+          "APDC_eco_investment_cost": 500000.0
+        },
+        "source": [
+          "民用工厂消费品系数：+50%",
+          "每日基础私营民工扩张速度：20",
+          "每日基础私营军工扩张速度：20",
+          "每周消费品民用工厂投资：+500.00K₽"
+        ]
+      },
+      {
+        "name": "巨额投资",
+        "native": {},
+        "custom": {
+          "APDC_eco_goods_output_factor": 1.0,
+          "APDC_eco_civ_expansion_base": 25.0,
+          "APDC_eco_mil_expansion_base": 25.0,
+          "APDC_eco_investment_cost": 1000000.0
+        },
+        "source": [
+          "民用工厂消费品系数：+100%",
+          "每日基础私营民工扩张速度：25",
+          "每日基础私营军工扩张速度：25",
+          "每周消费品民用工厂投资：+1.00M₽"
+        ]
+      }
+    ],
+    "kind": "law"
+  },
+  "distribution": {
+    "label": "分配控制",
+    "entries": [
+      {
+        "name": "无分配控制",
+        "native": {},
+        "custom": {
+          "APDC_eco_private_civ_expansion_factor": 0.5,
+          "APDC_eco_private_mil_expansion_factor": 0.5
+        },
+        "source": [
+          "私营民工扩张速度：+50%",
+          "私营军工扩张速度：+50%"
+        ]
+      },
+      {
+        "name": "少量控制",
+        "native": {
+          "political_power_gain": -0.1
+        },
+        "custom": {
+          "APDC_eco_distribution_bonus": 0.05,
+          "APDC_eco_private_civ_expansion_factor": 0.2,
+          "APDC_eco_private_mil_expansion_factor": 0.2,
+          "APDC_eco_subsidy": 1.0
+        },
+        "source": [
+          "每日政治点数获取：-0.10",
+          "分配率：+5%",
+          "私营民工扩张速度：+20%",
+          "私营军工扩张速度：+20%",
+          "每周消费补贴：+1.00₽"
+        ]
+      },
+      {
+        "name": "平衡市场",
+        "native": {
+          "political_power_gain": -0.2
+        },
+        "custom": {
+          "APDC_eco_distribution_bonus": 0.1,
+          "APDC_eco_private_civ_expansion_factor": 0.1,
+          "APDC_eco_private_mil_expansion_factor": 0.1,
+          "APDC_eco_subsidy": 1.5
+        },
+        "source": [
+          "每日政治点数获取：-0.20",
+          "分配率：+10%",
+          "私营民工扩张速度：+10%",
+          "私营军工扩张速度：+10%",
+          "每周消费补贴：+1.50₽"
+        ]
+      },
+      {
+        "name": "大量控制",
+        "native": {
+          "political_power_gain": -0.5
+        },
+        "custom": {
+          "APDC_eco_distribution_bonus": 0.15,
+          "APDC_eco_subsidy": 2.0
+        },
+        "source": [
+          "每日政治点数获取：-0.50",
+          "分配率：+15%",
+          "每周消费补贴：+2.00₽"
+        ]
+      },
+      {
+        "name": "计划分配",
+        "native": {},
+        "custom": {
+          "APDC_eco_planned_pp_distribution": 0.15
+        },
+        "source": [
+          "基础政治点数获取分配率：+15%"
+        ]
+      }
+    ],
+    "kind": "law"
+  },
+  "consumption": {
+    "label": "消费控制",
+    "entries": [
+      {
+        "name": "大幅抑制",
+        "native": {
+          "political_power_gain": -0.5
+        },
+        "custom": {
+          "APDC_eco_population_factor": -0.2,
+          "APDC_eco_private_civ_expansion_factor": -0.2,
+          "APDC_eco_private_mil_expansion_factor": -0.2
+        },
+        "source": [
+          "每日政治点数获取：-0.50",
+          "生活消费品人口系数：-20.0%",
+          "私营民工扩张速度：-20%",
+          "私营军工扩张速度：-20%"
+        ]
+      },
+      {
+        "name": "消费降温",
+        "native": {
+          "political_power_gain": -0.25
+        },
+        "custom": {
+          "APDC_eco_population_factor": -0.1,
+          "APDC_eco_private_civ_expansion_factor": -0.1,
+          "APDC_eco_private_mil_expansion_factor": -0.1
+        },
+        "source": [
+          "每日政治点数获取：-0.25",
+          "生活消费品人口系数：-10.0%",
+          "私营民工扩张速度：-10%",
+          "私营军工扩张速度：-10%"
+        ]
+      },
+      {
+        "name": "需求平衡",
+        "native": {},
+        "custom": {},
+        "source": []
+      },
+      {
+        "name": "消费升温",
+        "native": {},
+        "custom": {
+          "APDC_eco_subsidy": 1.0,
+          "APDC_eco_population_factor": 0.1,
+          "APDC_eco_private_civ_expansion_factor": 0.1,
+          "APDC_eco_private_mil_expansion_factor": 0.1
+        },
+        "source": [
+          "每周消费补贴：+1.00₽",
+          "生活消费品人口系数：+10.0%",
+          "私营民工扩张速度：+10%",
+          "私营军工扩张速度：+10%"
+        ]
+      },
+      {
+        "name": "高额补贴",
+        "native": {},
+        "custom": {
+          "APDC_eco_subsidy": 2.0,
+          "APDC_eco_population_factor": 0.2,
+          "APDC_eco_private_civ_expansion_factor": 0.2,
+          "APDC_eco_private_mil_expansion_factor": 0.2
+        },
+        "source": [
+          "每周消费补贴：+2.00₽",
+          "生活消费品人口系数：+20.0%",
+          "私营民工扩张速度：+20%",
+          "私营军工扩张速度：+20%"
+        ]
+      }
+    ],
+    "kind": "law"
+  }
+}

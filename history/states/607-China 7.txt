@@ -1,0 +1,177 @@
+state = {
+	id = 607
+	name = "STATE_607"
+	provinces = {
+		1004
+		1139
+		1603
+		4066
+		4114
+		4144
+		4519
+		4547
+		6932
+		7459
+		7508
+		7540
+		7568
+		7656
+		9958
+		10364
+		11816
+		11931
+		11933
+		12012
+		19609
+		19702
+		19753
+		19807
+		19820
+		19823
+		19840
+		19844
+		19863
+		19870
+		19881
+		19909
+	}
+	manpower = 25252783
+	resources = {
+		coal = 1
+	}
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 2
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			1004
+			10
+		}
+		victory_points = {
+			1139
+			5
+		}
+		victory_points = {
+			1603
+			2
+		}
+		victory_points = {
+			4066
+			1
+		}
+		victory_points = {
+			4144
+			3
+		}
+		victory_points = {
+			4519
+			10
+		}
+		victory_points = {
+			4547
+			2
+		}
+		victory_points = {
+			6932
+			2
+		}
+		victory_points = {
+			7459
+			2
+		}
+		victory_points = {
+			7508
+			2
+		}
+		victory_points = {
+			7540
+			5
+		}
+		victory_points = {
+			7568
+			2
+		}
+		victory_points = {
+			7656
+			2
+		}
+		victory_points = {
+			9958
+			25
+		}
+		victory_points = {
+			10364
+			10
+		}
+		victory_points = {
+			11816
+			2
+		}
+		victory_points = {
+			11931
+			2
+		}
+		victory_points = {
+			11933
+			5
+		}
+		victory_points = {
+			12012
+			1
+		}
+		victory_points = {
+			19609
+			3
+		}
+		victory_points = {
+			19807
+			2
+		}
+		victory_points = {
+			19820
+			5
+		}
+		victory_points = {
+			19823
+			10
+		}
+		victory_points = {
+			19840
+			10
+		}
+		victory_points = {
+			19844
+			2
+		}
+		victory_points = {
+			19863
+			3
+		}
+		victory_points = {
+			19870
+			5
+		}
+		victory_points = {
+			19881
+			1
+		}
+		victory_points = {
+			19909
+			5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		set_state_flag = GDP_regions_henan_sanyang
+		set_variable = {
+			china_state_ref = 29
+		}
+		set_variable = {
+			china_region_ref = 3
+		}
+	}
+}

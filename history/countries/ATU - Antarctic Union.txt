@@ -1,7 +1,9 @@
+# APDC: regular roster and production models available at scenario initialization.
+set_technology = { APDC_land_units_bootstrap = 1 }
 # Shared empty OOB preserves startup initialization until a country OOB is authored.
 set_oob = "APDC_empty"
 
-capital = 459
+capital = 1103
 
 # Starting tech
 set_technology = {
@@ -31,20 +33,20 @@ add_ideas = {
 	set_technology = {
 		tech_support = 1
 		tech_recon = 1
-		support_weapons = 1
-		gw_artillery = 1
+		
+		
 
 		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
+		
+		
+		
+		
+		
+		
 
 		#electronics
 		electronic_mechanical_engineering = 1
-		radio = 1
+		
 		mechanical_computing = 1
 		computing_machine = 1
 

@@ -1,0 +1,39 @@
+state = {
+	id = 498
+	name = "STATE_498"
+	manpower = 649000
+	state_category = town
+	resources = {
+		tungsten = 3
+	}
+	history = {
+		owner = BRA
+		controller = BRA
+		add_core_of = BRA
+		victory_points = {
+			10933
+			10
+		}
+		victory_points = {
+			13273
+			3
+		}
+		victory_points = {
+			14774
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		2175
+		10933
+		13273
+		14774
+		17402
+		17457
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,41 @@
+state = {
+	id = 913
+	name = "STATE_913"
+	manpower = 505226
+	state_category = town
+	resources = {
+		steel = 3
+	}
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = NOR
+		add_core_of = ZZZ
+		victory_points = {
+			9393
+			1
+		}
+		victory_points = {
+			11380
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 2
+			11380 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		6311
+		6397
+		9308
+		9393
+		11289
+		11380
+		11390
+	}
+	local_supplies = 11
+}

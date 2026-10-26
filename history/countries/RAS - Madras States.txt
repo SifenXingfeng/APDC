@@ -1,7 +1,9 @@
+# APDC: regular roster and production models available at scenario initialization.
+set_technology = { APDC_land_units_bootstrap = 1 }
 # Shared empty OOB preserves startup initialization until a country OOB is authored.
 set_oob = "APDC_empty"
 
-capital = 893 # Thondai Naadu
+capital = 423 # Thondai Naadu
 
 set_research_slots = 2
 

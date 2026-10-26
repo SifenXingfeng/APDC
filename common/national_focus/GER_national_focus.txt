@@ -213,7 +213,7 @@ focus_tree = {
 					}
 				}
 			}
-			68 = {
+			52 = {
 				if = {
 					limit = {
 						is_fully_controlled_by = ROOT
@@ -226,7 +226,7 @@ focus_tree = {
 					}
 				}
 			}
-			72 = {
+			978 = {
 				if = {
 					limit = {
 						is_fully_controlled_by = ROOT
@@ -239,7 +239,7 @@ focus_tree = {
 					}
 				}
 			}
-			188 = {
+			59 = {
 				if = {
 					limit = {
 						is_fully_controlled_by = ROOT
@@ -252,7 +252,7 @@ focus_tree = {
 					}
 				}
 			}
-			775 = {
+			58 = {
 				if = {
 					limit = {
 						is_fully_controlled_by = ROOT
@@ -265,7 +265,7 @@ focus_tree = {
 					}
 				}
 			}
-			1026 = {
+			54 = {
 				if = {
 					limit = {
 						is_fully_controlled_by = ROOT
@@ -278,7 +278,7 @@ focus_tree = {
 					}
 				}
 			}
-			1373 = {
+			57 = {
 				if = {
 					limit = {
 						is_fully_controlled_by = ROOT
@@ -291,7 +291,7 @@ focus_tree = {
 					}
 				}
 			}
-			1809 = {
+			51 = {
 				if = {
 					limit = {
 						is_fully_controlled_by = ROOT
@@ -304,7 +304,7 @@ focus_tree = {
 					}
 				}
 			}
-			1810 = {
+			51 = {
 				if = {
 					limit = {
 						is_fully_controlled_by = ROOT
@@ -317,7 +317,7 @@ focus_tree = {
 					}
 				}
 			}
-			1811 = {
+			42 = {
 				if = {
 					limit = {
 						is_fully_controlled_by = ROOT
@@ -330,7 +330,7 @@ focus_tree = {
 					}
 				}
 			}
-			1815 = {
+			55 = {
 				if = {
 					limit = {
 						is_fully_controlled_by = ROOT
@@ -579,7 +579,7 @@ focus_tree = {
 					}
 				}
 			}
-			68 = {
+			52 = {
 				if = {
 					limit = {
 						is_fully_controlled_by = ROOT
@@ -592,7 +592,7 @@ focus_tree = {
 					}
 				}
 			}
-			72 = {
+			978 = {
 				if = {
 					limit = {
 						is_fully_controlled_by = ROOT
@@ -605,7 +605,7 @@ focus_tree = {
 					}
 				}
 			}
-			188 = {
+			59 = {
 				if = {
 					limit = {
 						is_fully_controlled_by = ROOT
@@ -618,7 +618,7 @@ focus_tree = {
 					}
 				}
 			}
-			775 = {
+			58 = {
 				if = {
 					limit = {
 						is_fully_controlled_by = ROOT
@@ -631,7 +631,7 @@ focus_tree = {
 					}
 				}
 			}
-			1026 = {
+			54 = {
 				if = {
 					limit = {
 						is_fully_controlled_by = ROOT
@@ -644,7 +644,7 @@ focus_tree = {
 					}
 				}
 			}
-			1373 = {
+			57 = {
 				if = {
 					limit = {
 						is_fully_controlled_by = ROOT
@@ -657,7 +657,7 @@ focus_tree = {
 					}
 				}
 			}
-			1809 = {
+			51 = {
 				if = {
 					limit = {
 						is_fully_controlled_by = ROOT
@@ -670,7 +670,7 @@ focus_tree = {
 					}
 				}
 			}
-			1810 = {
+			51 = {
 				if = {
 					limit = {
 						is_fully_controlled_by = ROOT
@@ -683,7 +683,7 @@ focus_tree = {
 					}
 				}
 			}
-			1811 = {
+			42 = {
 				if = {
 					limit = {
 						is_fully_controlled_by = ROOT
@@ -696,7 +696,7 @@ focus_tree = {
 					}
 				}
 			}
-			1815 = {
+			55 = {
 				if = {
 					limit = {
 						is_fully_controlled_by = ROOT
@@ -898,8 +898,10 @@ focus_tree = {
 					GER_APDC_monthly_industrial_development = 0.075
 				}
 				add_to_variable = {
-					GER_APDC_treasury = -2000000
+					APDC_eco_cash_m = -2
 				}
+				APDC_eco_bankruptcy = yes
+				APDC_eco_calculate_budget = yes
 			}
 			swap_ideas = {
 				remove_idea = GER_APDC_domestically_produced_equipment
@@ -1240,9 +1242,9 @@ focus_tree = {
 							state = 61
 							state = 64
 							state = 65
-							state = 776
-							state = 1813
-							state = 1814
+							state = 64
+							state = 64
+							state = 60
 						}
 					}
 					create_unit = {
@@ -1362,9 +1364,9 @@ focus_tree = {
 							state = 61
 							state = 64
 							state = 65
-							state = 776
-							state = 1813
-							state = 1814
+							state = 64
+							state = 64
+							state = 60
 						}
 					}
 					create_unit = {

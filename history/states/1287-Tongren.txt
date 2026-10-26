@@ -1,0 +1,31 @@
+state = {
+	id = 1287
+	name = "STATE_1287"
+	provinces = {
+		1474
+		7577
+		19516
+	}
+	manpower = 905184
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			19516
+			3
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		set_variable = {
+			china_state_ref = 18
+		}
+		set_variable = {
+			china_region_ref = 2
+		}
+	}
+}

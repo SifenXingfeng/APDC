@@ -1,0 +1,372 @@
+--- before/common/scripted_localisation/GFCC_area_text.txt
++++ current/common/scripted_localisation/GFCC_area_text.txt
+@@ -1,185 +1,185 @@
+-defined_text = {
+-	name = GFCC_area_Pollution_modifiers_NAME
+-	text = {
+-		trigger = { 
+-			FROM = {
+-				check_variable = { GFCC_area_Pollution_var = 0 }
+-			} #白区
+-		}
+-		localization_key = GFCC_area_Pollution_modifiers_1
+-	}
+-	text = {
+-		trigger = {
+-			FROM = {
+-				check_variable = { GFCC_area_Pollution_var > 0 }
+-				check_variable = { GFCC_area_Pollution_var < 11 } 
+-			} #绿区
+-		}
+-		localization_key = GFCC_area_Pollution_modifiers_2
+-	}
+-	text = {
+-		trigger = { 
+-			FROM = {
+-				check_variable = { GFCC_area_Pollution_var > 10 }
+-				check_variable = { GFCC_area_Pollution_var < 150 }
+-				GFCC_area_Pollution_B1 > 0
+-			}
+-		}
+-		localization_key = GFCC_area_Pollution_modifiers_3
+-	}
+-	text = {
+-		trigger = { 
+-			FROM = {
+-				check_variable = { GFCC_area_Pollution_var > 10 }
+-				check_variable = { GFCC_area_Pollution_var < 150 }
+-				GFCC_area_Pollution_B1 = 0
+-			}
+-		}
+-		localization_key = GFCC_area_Pollution_modifiers_4
+-	}
+-	text = {
+-		trigger = { 
+-			FROM = {
+-				check_variable = { GFCC_area_Pollution_var > 149 }
+-				check_variable = { GFCC_area_Pollution_var < 10000 }
+-			}
+-		}
+-		localization_key = GFCC_area_Pollution_modifiers_5
+-	}
+-	text = {
+-		trigger = { 
+-			FROM = {
+-				check_variable = { GFCC_area_Pollution_var > 9999 }
+-			}
+-		}
+-		localization_key = GFCC_area_Pollution_modifiers_6
+-	}
+-}
+-
+-defined_text = {
+-	name = GFCC_area_security_modifiers_NAME
+-	text = {
+-		trigger = { 
+-			FROM = {
+-				check_variable = { GFCC_area_security_var = 100 }
+-			}
+-		}
+-		localization_key = GFCC_area_security_modifiers_1
+-	}
+-	text = {
+-		trigger = { 
+-			FROM = {
+-				check_variable = { GFCC_area_security_var > 79 }
+-			}
+-		}
+-		localization_key = GFCC_area_security_modifiers_2
+-	}
+-	text = {
+-		trigger = { 
+-			FROM = {
+-				check_variable = { GFCC_area_security_var > 59 }
+-			}
+-		}
+-		localization_key = GFCC_area_security_modifiers_3
+-	}
+-	text = {
+-		trigger = { 
+-			FROM = {
+-				check_variable = { GFCC_area_security_var > 39 }
+-			}
+-		}
+-		localization_key = GFCC_area_security_modifiers_4
+-	}
+-	text = {
+-		trigger = { 
+-			FROM = {
+-				check_variable = { GFCC_area_security_var > 19 }
+-			}
+-		}
+-		localization_key = GFCC_area_security_modifiers_5
+-	}
+-	text = {
+-		trigger = { 
+-			FROM = {
+-				check_variable = { GFCC_area_security_var > 0 }
+-			}
+-		}
+-		localization_key = GFCC_area_security_modifiers_6
+-	}
+-	text = {
+-		trigger = { 
+-			FROM = {
+-				check_variable = { GFCC_area_security_var = 0 }
+-			}
+-		}
+-		localization_key = GFCC_area_security_modifiers_7
+-	}
+-}
+-
+-defined_text = {
+-	name = GFCC_area_reconstruction_modifiers_NAME
+-	text = {
+-		trigger = { 
+-			FROM = {
+-				check_variable = { GFCC_area_reconstruction_var = 100 }
+-			}
+-		}
+-		localization_key = GFCC_area_reconstruction_modifiers_1
+-	}
+-	text = {
+-		trigger = { 
+-			FROM = {
+-				check_variable = { GFCC_area_reconstruction_var > 89 }
+-			}
+-		}
+-		localization_key = GFCC_area_reconstruction_modifiers_2
+-	}
+-	text = {
+-		trigger = { 
+-			FROM = {
+-				check_variable = { GFCC_area_reconstruction_var > 79 }
+-			}
+-		}
+-		localization_key = GFCC_area_reconstruction_modifiers_3
+-	}
+-	text = {
+-		trigger = { 
+-			FROM = {
+-				check_variable = { GFCC_area_reconstruction_var > 69 }
+-			}
+-		}
+-		localization_key = GFCC_area_reconstruction_modifiers_4
+-	}
+-	text = {
+-		trigger = { 
+-			FROM = {
+-				check_variable = { GFCC_area_reconstruction_var > 59 }
+-			}
+-		}
+-		localization_key = GFCC_area_reconstruction_modifiers_5
+-	}
+-	text = {
+-		trigger = { 
+-			FROM = {
+-				check_variable = { GFCC_area_reconstruction_var > 49 }
+-			}
+-		}
+-		localization_key = GFCC_area_reconstruction_modifiers_6
+-	}
+-	text = {
+-		trigger = { 
+-			FROM = {
+-				check_variable = { GFCC_area_reconstruction_var > 0 }
+-			}
+-		}
+-		localization_key = GFCC_area_reconstruction_modifiers_7
+-	}
+-	text = {
+-		trigger = { 
+-			FROM = {
+-				check_variable = { GFCC_area_reconstruction_var = 0 }
+-			}
+-		}
+-		localization_key = GFCC_area_reconstruction_modifiers_8
+-	}
++defined_text = {
++	name = GFCC_area_Pollution_modifiers_NAME
++	text = {
++		trigger = { 
++			FROM = {
++				check_variable = { GFCC_area_Pollution_var = 0 }
++			} #白区
++		}
++		localization_key = GFCC_area_Pollution_modifiers_1
++	}
++	text = {
++		trigger = {
++			FROM = {
++				check_variable = { GFCC_area_Pollution_var > 0 }
++				check_variable = { GFCC_area_Pollution_var < 11 } 
++			} #绿区
++		}
++		localization_key = GFCC_area_Pollution_modifiers_2
++	}
++	text = {
++		trigger = { 
++			FROM = {
++				check_variable = { GFCC_area_Pollution_var > 10 }
++				check_variable = { GFCC_area_Pollution_var < 150 }
++				GFCC_area_Pollution_B1 > 0
++			}
++		}
++		localization_key = GFCC_area_Pollution_modifiers_3
++	}
++	text = {
++		trigger = { 
++			FROM = {
++				check_variable = { GFCC_area_Pollution_var > 10 }
++				check_variable = { GFCC_area_Pollution_var < 150 }
++				NOT = { GFCC_area_Pollution_B1 > 0 }
++			}
++		}
++		localization_key = GFCC_area_Pollution_modifiers_4
++	}
++	text = {
++		trigger = { 
++			FROM = {
++				check_variable = { GFCC_area_Pollution_var > 149 }
++				check_variable = { GFCC_area_Pollution_var < 10000 }
++			}
++		}
++		localization_key = GFCC_area_Pollution_modifiers_5
++	}
++	text = {
++		trigger = { 
++			FROM = {
++				check_variable = { GFCC_area_Pollution_var > 9999 }
++			}
++		}
++		localization_key = GFCC_area_Pollution_modifiers_6
++	}
++}
++
++defined_text = {
++	name = GFCC_area_security_modifiers_NAME
++	text = {
++		trigger = { 
++			FROM = {
++				check_variable = { GFCC_area_security_var = 100 }
++			}
++		}
++		localization_key = GFCC_area_security_modifiers_1
++	}
++	text = {
++		trigger = { 
++			FROM = {
++				check_variable = { GFCC_area_security_var > 79 }
++			}
++		}
++		localization_key = GFCC_area_security_modifiers_2
++	}
++	text = {
++		trigger = { 
++			FROM = {
++				check_variable = { GFCC_area_security_var > 59 }
++			}
++		}
++		localization_key = GFCC_area_security_modifiers_3
++	}
++	text = {
++		trigger = { 
++			FROM = {
++				check_variable = { GFCC_area_security_var > 39 }
++			}
++		}
++		localization_key = GFCC_area_security_modifiers_4
++	}
++	text = {
++		trigger = { 
++			FROM = {
++				check_variable = { GFCC_area_security_var > 19 }
++			}
++		}
++		localization_key = GFCC_area_security_modifiers_5
++	}
++	text = {
++		trigger = { 
++			FROM = {
++				check_variable = { GFCC_area_security_var > 0 }
++			}
++		}
++		localization_key = GFCC_area_security_modifiers_6
++	}
++	text = {
++		trigger = { 
++			FROM = {
++				check_variable = { GFCC_area_security_var = 0 }
++			}
++		}
++		localization_key = GFCC_area_security_modifiers_7
++	}
++}
++
++defined_text = {
++	name = GFCC_area_reconstruction_modifiers_NAME
++	text = {
++		trigger = { 
++			FROM = {
++				check_variable = { GFCC_area_reconstruction_var = 100 }
++			}
++		}
++		localization_key = GFCC_area_reconstruction_modifiers_1
++	}
++	text = {
++		trigger = { 
++			FROM = {
++				check_variable = { GFCC_area_reconstruction_var > 89 }
++			}
++		}
++		localization_key = GFCC_area_reconstruction_modifiers_2
++	}
++	text = {
++		trigger = { 
++			FROM = {
++				check_variable = { GFCC_area_reconstruction_var > 79 }
++			}
++		}
++		localization_key = GFCC_area_reconstruction_modifiers_3
++	}
++	text = {
++		trigger = { 
++			FROM = {
++				check_variable = { GFCC_area_reconstruction_var > 69 }
++			}
++		}
++		localization_key = GFCC_area_reconstruction_modifiers_4
++	}
++	text = {
++		trigger = { 
++			FROM = {
++				check_variable = { GFCC_area_reconstruction_var > 59 }
++			}
++		}
++		localization_key = GFCC_area_reconstruction_modifiers_5
++	}
++	text = {
++		trigger = { 
++			FROM = {
++				check_variable = { GFCC_area_reconstruction_var > 49 }
++			}
++		}
++		localization_key = GFCC_area_reconstruction_modifiers_6
++	}
++	text = {
++		trigger = { 
++			FROM = {
++				check_variable = { GFCC_area_reconstruction_var > 0 }
++			}
++		}
++		localization_key = GFCC_area_reconstruction_modifiers_7
++	}
++	text = {
++		trigger = { 
++			FROM = {
++				check_variable = { GFCC_area_reconstruction_var = 0 }
++			}
++		}
++		localization_key = GFCC_area_reconstruction_modifiers_8
++	}
+ }

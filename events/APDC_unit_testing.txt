@@ -1,0 +1,184 @@
+add_namespace = APDC_UNITS
+country_event = {
+ id = APDC_UNITS.1
+ hidden = yes
+ is_triggered_only = yes
+ immediate = {
+		set_technology = {
+			APDC_land_units_bootstrap = 1
+			popup = no
+		}
+		army_experience = 500
+		add_equipment_to_stockpile = {
+			type = apdc_wheeled_mech_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_tracked_mech_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_transport_helo_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_airborne_ifv_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_nyto_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_mbt_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_light_tank_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_atgm_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_spaag_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_airborne_tank_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_tank_support_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_amphib_tank_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_attack_helo_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_basic_robot_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_doll_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_multipod_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_goliath_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_towed_gun_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_truck_art_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_spg_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_mlrs_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_missile_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_multipod_art_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_engineer_vehicle_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_hovercraft_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_uav_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_aa02_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_doomsday_dog_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_mortar_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_heavy_weapons_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = apdc_amphib_mech_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_2
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 3000
+			producer = ROOT
+		}
+		load_oob = APDC_unit_test_templates
+ }
+}

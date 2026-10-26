@@ -1,0 +1,18 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			# Rebuild the container registry, migrate old flag-based memberships and
+			# initialize each container's independent legislation state.
+			GER = {
+				APDC_initialize_cooperation_organization_containers = yes
+			}
+		}
+	}
+
+	# Use one tag-specific pulse to advance every registered container once.
+	on_daily_GER = {
+		effect = {
+			APDC_cooperation_legislation_daily_tick = yes
+		}
+	}
+}

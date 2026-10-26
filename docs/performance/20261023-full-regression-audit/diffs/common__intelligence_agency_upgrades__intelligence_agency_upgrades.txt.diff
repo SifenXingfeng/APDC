@@ -1,0 +1,20 @@
+--- before/common/intelligence_agency_upgrades/intelligence_agency_upgrades.txt
++++ current/common/intelligence_agency_upgrades/intelligence_agency_upgrades.txt
+@@ -194,7 +194,7 @@
+ 		}
+ 	
+ 		available = {
+-			has_tech = radio
++			always = no
+ 		}
+ 
+ 		modifiers_during_progress = {
+@@ -300,7 +300,7 @@
+ 			}
+ 			
+ 			complete_effect = {
+-				unlock_decision_category_tooltip = lar_local_recruitment
++				
+ 			}
+ 		}
+ 		

@@ -1,0 +1,9 @@
+--- before/history/countries/LLU - Lowlands Union.txt
++++ current/history/countries/LLU - Lowlands Union.txt
+@@ -51,3 +51,6 @@
+ 
+ set_variable = { APDC_prime_minister_character = token:LLU_tobias_verhagen }
+ set_variable = { APDC_deputy_prime_minister_character = token:LLU_oliver_marchand }
++
++recruit_character = LLU_tobias_verhagen
++recruit_character = LLU_oliver_marchand

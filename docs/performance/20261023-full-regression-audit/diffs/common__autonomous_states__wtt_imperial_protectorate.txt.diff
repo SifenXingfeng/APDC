@@ -1,0 +1,13 @@
+--- before/common/autonomous_states/wtt_imperial_protectorate.txt
++++ current/common/autonomous_states/wtt_imperial_protectorate.txt
+@@ -68,8 +68,8 @@
+ 		IF = {
+ 			limit = { original_tag = MAN }
+ 			OR = {
+-				has_completed_focus = MAN_obedience
+-				has_completed_focus = MAN_tsr_obedience
++				always = no
++				always = no
+ 			}
+ 		}
+ 	}

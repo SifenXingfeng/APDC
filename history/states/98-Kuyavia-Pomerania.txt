@@ -1,0 +1,57 @@
+state = {
+	id = 98
+	name = "STATE_98"
+	provinces = {
+		279
+		3230
+		3295
+		3381
+		6401
+		11232
+		11515
+		15611
+	}
+	manpower = 1338647
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 7
+	history = {
+		owner = POL
+		controller = POL
+		add_core_of = POL
+		victory_points = {
+			279
+			3
+		}
+		victory_points = {
+			3230
+			1
+		}
+		victory_points = {
+			3295
+			1
+		}
+		victory_points = {
+			3381
+			1
+		}
+		victory_points = {
+			11232
+			1
+		}
+		victory_points = {
+			15611
+			2
+		}
+		buildings = {
+			infrastructure = 3
+			11232 = {
+				bunker = 1
+			}
+			3381 = {
+				bunker = 1
+			}
+			air_base = 2
+		}
+	}
+}

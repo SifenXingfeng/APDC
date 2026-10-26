@@ -1,0 +1,31 @@
+{
+  "normalized_existing_flag_images": 154,
+  "flag_pixel_changes": [],
+  "deduplicated_localisation_rows_checked": 45345,
+  "missing_localisation_rows": [],
+  "authored_SOV_focuses": 39,
+  "SOV_reward_changes": [],
+  "authored_SOV_event_bodies_equal": true,
+  "unexpected_current_changes": [],
+  "state_history_changes": [],
+  "limitations": [
+    "Image equality is data verification, not a foreground visual inspection.",
+    "Localization coverage checks duplicate removal and key availability; it does not certify every language translation."
+  ],
+  "transparent_template_size_correction": {
+    "file": "gfx/flags/small/AAA.tga",
+    "before": [
+      11,
+      7
+    ],
+    "after": [
+      10,
+      7
+    ],
+    "both_fully_transparent": true
+  },
+  "economy_backend_changed_functions": [
+    "APDC_eco_count_research_work"
+  ],
+  "other_economy_functions_unchanged": true
+}

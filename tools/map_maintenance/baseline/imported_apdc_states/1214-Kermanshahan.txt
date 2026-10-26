@@ -1,0 +1,36 @@
+state = {
+	id = 1214
+	name = "STATE_1214"
+	provinces = {
+		5098
+		12773
+		18762
+		18806
+	}
+	manpower = 185780
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = KUR
+		controller = KUR
+		add_core_of = KUR
+		add_core_of = PER
+		victory_points = {
+			5098
+			1
+		}
+		victory_points = {
+			18762
+			1
+		}
+		victory_points = {
+			18806
+			5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = GDP_category_town
+	}
+}

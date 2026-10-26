@@ -1,0 +1,24 @@
+state = {
+	id = 1476
+	name = "STATE_1476"
+	provinces = {
+		19980
+	}
+	manpower = 22643
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = small_island
+	history = {
+		owner = NIU
+		controller = NIU
+		add_core_of = NIU
+		add_core_of = SAM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			19980
+			1
+		}
+	}
+}

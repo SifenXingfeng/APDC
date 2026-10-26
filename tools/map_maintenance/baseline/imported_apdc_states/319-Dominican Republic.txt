@@ -1,0 +1,89 @@
+state = {
+	id = 319
+	name = "STATE_319"
+	manpower = 1256000
+	state_category = town
+	resources = {
+		chromium = 1
+	}
+	history = {
+		owner = DOM
+		controller = DOM
+		add_core_of = DOM
+		victory_points = {
+			4598
+			5
+		}
+		victory_points = {
+			7632
+			1
+		}
+		victory_points = {
+			7660
+			25
+		}
+		victory_points = {
+			15586
+			3
+		}
+		victory_points = {
+			15588
+			2
+		}
+		victory_points = {
+			15590
+			1
+		}
+		victory_points = {
+			15598
+			2
+		}
+		victory_points = {
+			15601
+			2
+		}
+		victory_points = {
+			15612
+			1
+		}
+		victory_points = {
+			15613
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+			7660 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = {
+		4598
+		7632
+		7660
+		10484
+		14382
+		15586
+		15587
+		15588
+		15589
+		15590
+		15591
+		15592
+		15593
+		15598
+		15600
+		15601
+		15605
+		15606
+		15608
+		15610
+		15612
+		15613
+		15614
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,112 @@
+APDC_eco_market_tariff_0 = {
+targets = {
+target_array = global.APDC_eco_market_exporters
+score = {
+base = 0
+modifier = {
+add = APDC_eco_market_tariff_score_0
+}
+
+}
+
+}
+
+}
+APDC_eco_market_supply_0 = {
+targets = {
+target_array = global.APDC_eco_market_group
+score = {
+base = 0
+modifier = {
+add = APDC_eco_market_remaining_export_0
+}
+
+}
+
+}
+
+}
+APDC_eco_market_buyer_tariff_0 = {
+targets = {
+target_array = global.APDC_eco_market_importers
+score = {
+base = 0
+modifier = {
+add = APDC_eco_market_tariff_score_0
+}
+
+}
+
+}
+
+}
+APDC_eco_market_demand_0 = {
+targets = {
+target_array = global.APDC_eco_market_group
+score = {
+base = 0
+modifier = {
+add = APDC_eco_market_demand_score_0
+}
+
+}
+
+}
+
+}
+APDC_eco_market_tariff_1 = {
+targets = {
+target_array = global.APDC_eco_market_exporters
+score = {
+base = 0
+modifier = {
+add = APDC_eco_market_tariff_score_1
+}
+
+}
+
+}
+
+}
+APDC_eco_market_supply_1 = {
+targets = {
+target_array = global.APDC_eco_market_group
+score = {
+base = 0
+modifier = {
+add = APDC_eco_market_remaining_export_1
+}
+
+}
+
+}
+
+}
+APDC_eco_market_buyer_tariff_1 = {
+targets = {
+target_array = global.APDC_eco_market_importers
+score = {
+base = 0
+modifier = {
+add = APDC_eco_market_tariff_score_1
+}
+
+}
+
+}
+
+}
+APDC_eco_market_demand_1 = {
+targets = {
+target_array = global.APDC_eco_market_group
+score = {
+base = 0
+modifier = {
+add = APDC_eco_market_demand_score_1
+}
+
+}
+
+}
+
+}

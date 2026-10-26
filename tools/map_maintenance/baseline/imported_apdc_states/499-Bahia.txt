@@ -1,0 +1,96 @@
+state = {
+	id = 499
+	name = "STATE_499"
+	resources = {
+		chromium = 3
+	}
+	provinces = {
+		4617
+		5194
+		5218
+		8129
+		8177
+		8184
+		8197
+		8242
+		10392
+		10419
+		10926
+		10946
+		11002
+		12422
+		14772
+		17405
+		17456
+		17459
+	}
+	manpower = 4011063
+	buildings_max_level_factor = 1
+	state_category = large_town
+	local_supplies = 0
+	history = {
+		owner = BRA
+		controller = BRA
+		add_core_of = BRA
+		victory_points = {
+			4617
+			1
+		}
+		victory_points = {
+			5194
+			1
+		}
+		victory_points = {
+			8129
+			2
+		}
+		victory_points = {
+			8197
+			1
+		}
+		victory_points = {
+			8242
+			1
+		}
+		victory_points = {
+			10392
+			2
+		}
+		victory_points = {
+			10419
+			3
+		}
+		victory_points = {
+			10926
+			1
+		}
+		victory_points = {
+			10946
+			15
+		}
+		victory_points = {
+			11002
+			1
+		}
+		victory_points = {
+			12422
+			3
+		}
+		victory_points = {
+			14772
+			2
+		}
+		victory_points = {
+			17405
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 1
+			10946 = {
+				naval_base = 1
+			}
+		}
+	}
+}

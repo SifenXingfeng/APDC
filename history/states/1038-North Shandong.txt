@@ -1,0 +1,74 @@
+state = {
+	id = 1038
+	name = "STATE_1038"
+	resources = {
+	}
+	provinces = {
+		1084
+		7160
+		7189
+		9987
+		11962
+		12093
+		19798
+		19818
+		19927
+		19929
+	}
+	manpower = 7752162
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 4
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			1084
+			2
+		}
+		victory_points = {
+			7160
+			2
+		}
+		victory_points = {
+			7189
+			3
+		}
+		victory_points = {
+			9987
+			2
+		}
+		victory_points = {
+			11962
+			2
+		}
+		victory_points = {
+			12093
+			1
+		}
+		victory_points = {
+			19798
+			5
+		}
+		victory_points = {
+			19927
+			2
+		}
+		victory_points = {
+			19929
+			5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		set_state_flag = GDP_regions_shandong_taiyue
+		set_variable = {
+			china_state_ref = 12
+		}
+		set_variable = {
+			china_region_ref = 1
+		}
+	}
+}

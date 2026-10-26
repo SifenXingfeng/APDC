@@ -1,0 +1,35 @@
+--- before/common/country_leader/toa_traits.txt
++++ current/common/country_leader/toa_traits.txt
+@@ -834,15 +834,7 @@
+ 		}
+ 	}
+ 
+-	CHL_minister_of_transport = {
+-		sprite = 10
+-		random = no
+-
+-		production_speed_infrastructure_factor = 0.1
+-		production_speed_rail_way_factor = 0.15
+-		production_speed_supply_node_factor = 0.15
+-
+-	}
++	
+ 
+ 	JUNO_anti_communist_action = {
+ 		sprite = 13
+@@ -1012,14 +1004,7 @@
+ 
+ 	}
+ 
+-	BRA_bandit_revolutionary = {
+-		sprite = 13
+-		random = no
+-		stability_factor = -0.1
+-		war_support_factor = 0.2
+-		out_of_supply_factor = -0.1
+-		conscription_factor = 0.05
+-	}
++	
+ 
+ 	rapa_nui_ariki = {
+ 		random = no

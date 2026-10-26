@@ -1,0 +1,39 @@
+# Madagascar starting army. Province 13705 is Antananarivo in state 945.
+division_template = {
+	name = "六营步兵师"
+	regiments = {
+		apdc_infantry = { x = 0 y = 0 }
+		apdc_infantry = { x = 0 y = 1 }
+		apdc_infantry = { x = 0 y = 2 }
+		apdc_infantry = { x = 1 y = 0 }
+		apdc_infantry = { x = 1 y = 1 }
+		apdc_infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "第1步兵师"
+		location = 5128
+		division_template = "六营步兵师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+	division = {
+		name = "第2步兵师"
+		location = 5128
+		division_template = "六营步兵师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+	division = {
+		name = "第3步兵师"
+		location = 5128
+		division_template = "六营步兵师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+}

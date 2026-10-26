@@ -1,0 +1,25 @@
+state = {
+	id = 1169
+	name = "STATE_1169"
+	provinces = {
+		7888
+		12561
+		12633
+	}
+	manpower = 42293
+	resources = {
+		coal = 1
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = USA
+		add_core_of = ZZZ
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

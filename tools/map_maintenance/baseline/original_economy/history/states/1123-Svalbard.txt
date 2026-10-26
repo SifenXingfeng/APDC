@@ -1,0 +1,22 @@
+state={ #1123
+	id=1123
+	name="SVALBARD"
+	manpower=800
+	state_category = tiny_island
+	
+	history= {
+		owner = NOR
+		add_core_of = NOR
+		buildings = {
+			16826 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		16823 16825 16826 16822 16819
+	}
+
+	local_supplies=0.0 
+}

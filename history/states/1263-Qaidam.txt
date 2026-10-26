@@ -1,0 +1,26 @@
+state = {
+	id = 1263
+	name = "STATE_1263"
+	provinces = {
+		1698
+		10834
+		10865
+		12890
+	}
+	manpower = 333333
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			10834
+			3
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

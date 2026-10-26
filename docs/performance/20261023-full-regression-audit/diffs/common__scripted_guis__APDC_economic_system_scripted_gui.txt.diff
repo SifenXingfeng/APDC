@@ -1,0 +1,27 @@
+--- before/common/scripted_guis/APDC_economic_system_scripted_gui.txt
++++ current/common/scripted_guis/APDC_economic_system_scripted_gui.txt
+@@ -7,15 +7,15 @@
+ 		visible = { always = yes }
+ 
+ 		effects = {
+-			APDC_economic_system_traditional_agriculture_click = { set_variable = { APDC_eco_panel_open = 1 } APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }
+-			APDC_economic_system_dependent_economy_click = { set_variable = { APDC_eco_panel_open = 1 } APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }
+-			APDC_economic_system_free_market_click = { set_variable = { APDC_eco_panel_open = 1 } APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }
+-			APDC_economic_system_mixed_market_click = { set_variable = { APDC_eco_panel_open = 1 } APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }
+-			APDC_economic_system_state_guided_click = { set_variable = { APDC_eco_panel_open = 1 } APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }
+-			APDC_economic_system_state_capitalism_click = { set_variable = { APDC_eco_panel_open = 1 } APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }
+-			APDC_economic_system_market_socialism_click = { set_variable = { APDC_eco_panel_open = 1 } APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }
+-			APDC_economic_system_decentralized_planning_click = { set_variable = { APDC_eco_panel_open = 1 } APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }
+-			APDC_economic_system_central_planning_click = { set_variable = { APDC_eco_panel_open = 1 } APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }
++			APDC_economic_system_traditional_agriculture_click = { set_variable = { APDC_eco_panel_open = 1 } clr_country_flag = APDC_eco_research_counted_today APDC_eco_refresh_current_supply = yes APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }
++			APDC_economic_system_dependent_economy_click = { set_variable = { APDC_eco_panel_open = 1 } clr_country_flag = APDC_eco_research_counted_today APDC_eco_refresh_current_supply = yes APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }
++			APDC_economic_system_free_market_click = { set_variable = { APDC_eco_panel_open = 1 } clr_country_flag = APDC_eco_research_counted_today APDC_eco_refresh_current_supply = yes APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }
++			APDC_economic_system_mixed_market_click = { set_variable = { APDC_eco_panel_open = 1 } clr_country_flag = APDC_eco_research_counted_today APDC_eco_refresh_current_supply = yes APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }
++			APDC_economic_system_state_guided_click = { set_variable = { APDC_eco_panel_open = 1 } clr_country_flag = APDC_eco_research_counted_today APDC_eco_refresh_current_supply = yes APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }
++			APDC_economic_system_state_capitalism_click = { set_variable = { APDC_eco_panel_open = 1 } clr_country_flag = APDC_eco_research_counted_today APDC_eco_refresh_current_supply = yes APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }
++			APDC_economic_system_market_socialism_click = { set_variable = { APDC_eco_panel_open = 1 } clr_country_flag = APDC_eco_research_counted_today APDC_eco_refresh_current_supply = yes APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }
++			APDC_economic_system_decentralized_planning_click = { set_variable = { APDC_eco_panel_open = 1 } clr_country_flag = APDC_eco_research_counted_today APDC_eco_refresh_current_supply = yes APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }
++			APDC_economic_system_central_planning_click = { set_variable = { APDC_eco_panel_open = 1 } clr_country_flag = APDC_eco_research_counted_today APDC_eco_refresh_current_supply = yes APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }
+ 		}
+ 
+ 		triggers = {

@@ -1,0 +1,22 @@
+# Authorized new map identity; APDC startup conventions, generic characters.
+set_technology = { APDC_land_units_bootstrap = 1 }
+set_oob = "APDC_empty"
+capital = 1470
+set_research_slots = 2
+set_convoys = 20
+set_stability = 0.5
+set_war_support = 0.5
+set_politics = { ruling_party = liberalism last_election = "2060.1.1" election_frequency = 48 elections_allowed = no }
+set_popularities = {
+ communism = 0
+ socialism = 0
+ social_democracy = 0
+ conservatism = 0
+ liberalism = 100
+ authoritarianism = 0
+ dictatorship = 0
+ fascism = 0
+ fundamentalism = 0
+}
+APDC_add_liberalism_to_governing_coalition = yes
+APDC_set_economic_system_free_market = yes

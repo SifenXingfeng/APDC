@@ -1,0 +1,23 @@
+--- before/common/autonomous_states/satellite.txt
++++ current/common/autonomous_states/satellite.txt
+@@ -65,9 +65,9 @@
+ 				original_tag = COG
+ 				has_dlc = "Gotterdammerung"			
+ 			}
+-			has_completed_focus = CONGO_republic_of_congo
++			always = no
+ 			NOT = {
+-				has_completed_focus = CONGO_dominion_of_congo
++				always = no
+ 			}
+ 		}
+ 	}
+@@ -81,7 +81,7 @@
+ 				has_dlc = "Gotterdammerung"			
+ 			}
+ 			NOT = {
+-				has_completed_focus = CONGO_dominion_of_congo
++				always = no
+ 			}
+ 		}
+ 	}

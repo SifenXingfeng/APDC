@@ -1,0 +1,26 @@
+state = {
+	id = 1367
+	name = "STATE_1367"
+	provinces = {
+		12505
+	}
+	manpower = 51012
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = USA
+		controller = USA
+		add_core_of = USA
+		victory_points = {
+			12505
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			12505 = {
+				naval_base = 1
+			}
+		}
+	}
+}

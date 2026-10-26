@@ -1,0 +1,89 @@
+state = {
+	id = 594
+	name = "STATE_594"
+	resources = {
+		tungsten = 6
+		steel = 4
+		chromium = 2
+	}
+	provinces = {
+		1018
+		1469
+		4028
+		4121
+		4177
+		7137
+		7192
+		7650
+		10004
+		10050
+		11926
+		19451
+		19464
+		19476
+		19486
+		19497
+		19545
+	}
+	manpower = 3775500
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 1
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			1018
+			2
+		}
+		victory_points = {
+			1469
+			1
+		}
+		victory_points = {
+			4028
+			3
+		}
+		victory_points = {
+			4121
+			1
+		}
+		victory_points = {
+			4177
+			1
+		}
+		victory_points = {
+			7137
+			20
+		}
+		victory_points = {
+			7192
+			2
+		}
+		victory_points = {
+			10004
+			2
+		}
+		victory_points = {
+			10050
+			2
+		}
+		victory_points = {
+			19451
+			1
+		}
+		victory_points = {
+			19486
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			10004 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
+		}
+	}
+}

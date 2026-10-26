@@ -1,0 +1,23 @@
+state = {
+	id = 692
+	name = "STATE_692"
+	provinces = {
+		11106
+	}
+	manpower = 19121
+	buildings_max_level_factor = 1
+	state_category = small_island
+	local_supplies = 4
+	history = {
+		owner = GRD
+		controller = GRD
+		add_core_of = GRD
+		victory_points = {
+			11106
+			1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

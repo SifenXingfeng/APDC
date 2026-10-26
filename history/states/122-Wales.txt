@@ -1,0 +1,52 @@
+state = {
+	id = 122
+	name = "STATE_122"
+	manpower = 2309230
+	state_category = city
+	resources = {
+		steel = 11
+		aluminium = 3
+		coal = 55
+	}
+	history = {
+		owner = ENG
+		controller = ENG
+		add_core_of = ENG
+		victory_points = {
+			377
+			3
+		}
+		victory_points = {
+			407
+			2
+		}
+		victory_points = {
+			16337
+			2
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			377 = {
+				naval_base = 3
+			}
+		}
+		set_state_flag = GDP_regions_wales
+	}
+	provinces = {
+		253
+		311
+		377
+		407
+		3274
+		6363
+		9364
+		11361
+		16337
+		16338
+		16339
+		16361
+		18107
+	}
+	local_supplies = 0.0
+}

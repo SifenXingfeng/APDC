@@ -1,0 +1,53 @@
+state = {
+	id = 1240
+	name = "STATE_1240"
+	provinces = {
+		993
+		1113
+		4100
+		4122
+		4184
+		4188
+		7016
+		19900
+	}
+	manpower = 5805583
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = megalopolis
+	history = {
+		owner = EZO
+		controller = EZO
+		add_core_of = EZO
+		add_core_of = JAP
+		victory_points = {
+			993
+			3
+		}
+		victory_points = {
+			4100
+			2
+		}
+		victory_points = {
+			4184
+			2
+		}
+		victory_points = {
+			4188
+			1
+		}
+		victory_points = {
+			7016
+			2
+		}
+		victory_points = {
+			19900
+			1
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 6
+			dockyard = 4
+		}
+	}
+}

@@ -1,0 +1,121 @@
+state = {
+	id = 429
+	name = "STATE_429"
+	manpower = 18928000
+	state_category = town
+	resources = {
+		tungsten = 26
+	}
+	history = {
+		owner = PAK
+		controller = PAK
+		add_core_of = PAK
+		victory_points = {
+			1349
+			50
+		}
+		victory_points = {
+			1405
+			2
+		}
+		victory_points = {
+			4072
+			10
+		}
+		victory_points = {
+			4353
+			3
+		}
+		victory_points = {
+			7013
+			10
+		}
+		victory_points = {
+			7119
+			1
+		}
+		victory_points = {
+			7177
+			5
+		}
+		victory_points = {
+			7232
+			3
+		}
+		victory_points = {
+			10019
+			5
+		}
+		victory_points = {
+			10210
+			3
+		}
+		victory_points = {
+			10270
+			25
+		}
+		victory_points = {
+			11993
+			2
+		}
+		victory_points = {
+			12142
+			10
+		}
+		victory_points = {
+			12182
+			2
+		}
+		victory_points = {
+			12269
+			2
+		}
+		victory_points = {
+			16085
+			3
+		}
+		victory_points = {
+			16090
+			1
+		}
+		victory_points = {
+			16091
+			3
+		}
+		victory_points = {
+			19011
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+			1349 = {
+				naval_base = 6
+			}
+		}
+		set_state_flag = GDP_regions_maharashtra
+	}
+	provinces = {
+		1349
+		1405
+		4072
+		4353
+		7013
+		7119
+		7177
+		7232
+		10019
+		10210
+		10270
+		11993
+		12142
+		12182
+		12269
+		16085
+		16090
+		16091
+		19011
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,26 @@
+state = {
+	id = 1545
+	name = "STATE_1545"
+	provinces = {
+		10993
+		13706
+		15946
+		15947
+		15957
+		15958
+		16171
+	}
+	manpower = 237269
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = MAD
+		controller = MAD
+		add_core_of = MAD
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = state_renamings
+	}
+}

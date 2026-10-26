@@ -1,0 +1,132 @@
+[
+  {
+    "path": "tools/economy/build_ui.py",
+    "before": "d422d75601cbfc6cd90ebf67919901cbd0581fdde4b3d834d84d3779a47c80ec",
+    "after": "6a3fed066d4f3d1a4f3960e04949fb49a60a12579c909af5cf2a18be1c058531"
+  },
+  {
+    "path": "tools/economy/build_data.py",
+    "before": "3eef7d0d8119a8c79f438907c7c3e6bdba25701dd0c294e7f6a55df87ff7372a",
+    "after": "54f5306381fcf02c4c39d10a890be71f9b845318542a61349c24d469e53319f5"
+  },
+  {
+    "path": "tools/economy/panel_qa.py",
+    "before": "f55a95780b3c76a7a17fe1d07c64b829db6d327855a3b76fef5bdf04daecd5db",
+    "after": "bb8be933fbe25273da0aea8848c95219768546fafe0794dda153170d8a037be6"
+  },
+  {
+    "path": "common/ideas/APDC_economy_laws.txt",
+    "before": "749660d8767bee0af33b8c984c68af34a573af79750fd061cbbada0612830715",
+    "after": "85f1380d350cce564f705cb0ea614c2b95cfecd93c1ae7dc99a737eb683ed214"
+  },
+  {
+    "path": "common/scripted_localisation/APDC_economy_ui.txt",
+    "before": "885023def0b0ff4225b0e5f6f3a023036ef314b6c1617cda7403ca6371ba9f3a",
+    "after": "4a0dc497c78d1d6d0223f015e8b7b9f070cf9daeedd62499aa4f03c8b5e21802"
+  },
+  {
+    "path": "common/scripted_effects/APDC_economy_ui.txt",
+    "before": "95c253376dc60c40bda5533edfa23d96ff7ec75fa94bb7aac5fdf60a1bc88c24",
+    "after": "fb422c5ee6ebfa985aebffb2c5618a19b01958bcc40d972794328dbaea8964c6"
+  },
+  {
+    "path": "common/scripted_guis/APDC_economy_panel_ui.txt",
+    "before": "2bc9b06eb5a582a147f0fc442ddbab5d872685910273789716a4b8a293925e0b",
+    "after": "64df38df8d418b30e2caed2bd4f3118cb3ac97f6d7dea4250246084a32abdf73"
+  },
+  {
+    "path": "interface/APDC_economy_panel.gui",
+    "before": "05b614f692bdeb0d2faff4810b1161cb68b3a0f53de09763e884a0260f647695",
+    "after": "c1a2c8ab489c1ec8000ed602587132af9d4f83c901d9718ef68098efced7f045"
+  },
+  {
+    "path": "interface/APDC_economy_panel.gfx",
+    "before": "3e877dc89a0a43cff4a30287464628ddab576d561a65bb7dd6cf880167fbe360",
+    "after": "9f728ffb1968ce3453974a3c520c325931c22ba248411967d9adfef6f68ac9c4"
+  },
+  {
+    "path": "localisation/simp_chinese/APDC_economy_l_simp_chinese.yml",
+    "before": "2d380ae0498451020514c0b033435d6357675831eb9a64ce66658004c5499895",
+    "after": "cb33211aaba9a0c9829e1cc7b19cea1d816771be3ae67137146e480200a2d07c"
+  },
+  {
+    "path": "localisation/english/APDC_economy_l_english.yml",
+    "before": "91b4de0dd3510ed18a05962426363569d03e151c8fd1ff539d34dd45b0876e17",
+    "after": "676ede3ed3bb97dca83db37b67b3a15f1f0a10f9997470f40ae0d4535fcc3267"
+  },
+  {
+    "path": "localisation/simp_chinese/APDC_economy_panel_l_simp_chinese.yml",
+    "before": "39e1478880ddd501c6791e88bc02b71154c3133c8e26eed938e87f8e5387460f",
+    "after": "fdbabd24c6ee3528b4a281c7c425fb9eb9de075b7c0837dfe1991034aa6dc076"
+  },
+  {
+    "path": "localisation/english/APDC_economy_panel_l_english.yml",
+    "before": "1558c1ce8cc4a33a3570dfb12dd82ff39d755dd7e56d31e60cea1b01294a5843",
+    "after": "8c8df4d688e69ff25001ed27e0728d74b98d8c9997a3c9989c545773f02f38c4"
+  },
+  {
+    "path": "gfx/interface/APDC/economy/hitbox.tga",
+    "before": "9aa194101f2eedc0e7cc1f186480e9409150ba9f031cbccd94af083f88284758",
+    "after": "f93d400e692e98532308cf147555f0872902d6e5ea1f26bf2f6da9e67b1b49e6"
+  },
+  {
+    "path": "gfx/interface/APDC/economy/ruble.tga",
+    "before": "8bd0e4d40f136c4206cd6a7eac063af3c2a3390305141cb97ba758fae9d0636e",
+    "after": "dc769ecc42c08fc52171716cdadcb459e78ede45a10c8babe501c6604b048077"
+  },
+  {
+    "path": "common/scripted_effects/APDC_economy_backend.txt",
+    "before": "72b44434a9bd7e7c067c9b4b70cd0adc849845117bbcc6cb178468c22c8671c4",
+    "after": "2e5633baf11d837ab1d5570191e5785cdb04ae422e148f4dad30ceade495274e"
+  },
+  {
+    "path": "tools/economy/build_backend.py",
+    "before": "fb70946fde7d5d759cce60eefde7852939e5d2abce00b973f7d7bf37fcf97f1e",
+    "after": "1fd828898a8dcfeeb9493c8c22141a6ff7a6fb40b8ac862338a77b796065b212"
+  },
+  {
+    "path": "tools/economy/presentation.py",
+    "before": null,
+    "after": "c53fa0d572b5d487dadce4e80f1f3af3a54836bcc9de67b79c716c8c7d50a829"
+  },
+  {
+    "path": "gfx/interface/APDC/economy/allocation_hitbox.tga",
+    "before": null,
+    "after": "76e02dccf3bf7f9d39d6bf40c7974eb5623f2ca65ed15bae1d35eaf0366ef9ce"
+  },
+  {
+    "path": "gfx/interface/APDC/economy/build_hitbox.tga",
+    "before": null,
+    "after": "b09a7e5d1e9348e50ebfcdd455524bb606bf10531542130398a9ec24ede41a8c"
+  },
+  {
+    "path": "gfx/interface/APDC/economy/cash_hitbox.tga",
+    "before": null,
+    "after": "da9aac446670e089b432816a6f0f8049346fa38650205593eb2fba4859a72d50"
+  },
+  {
+    "path": "gfx/interface/APDC/economy/distribution_hitbox.tga",
+    "before": null,
+    "after": "665b8e93f8f07dee2c6e583718b4ab30aa033f19ed1b3d3904e43141972597ad"
+  },
+  {
+    "path": "gfx/interface/APDC/economy/domestic_hitbox.tga",
+    "before": null,
+    "after": "f407575c9498747bb4c1e32d2b9fbeefa611301610c0bb2b18bd6a0ba71dbae8"
+  },
+  {
+    "path": "gfx/interface/APDC/economy/trade_hitbox.tga",
+    "before": null,
+    "after": "0159c634db8fca7bcab7f55fa5820a9c55318e0063427e85075231303a79aa74"
+  },
+  {
+    "path": "gfx/interface/APDC/economy/weekly_change_hitbox.tga",
+    "before": null,
+    "after": "a0bbd91cd0d711a3e0f066f228aa972405e3aea2f0ddf9ca8f514c3642f3365f"
+  },
+  {
+    "path": "gfx/interface/APDC/economy/weekly_hitbox.tga",
+    "before": null,
+    "after": "126a8a4634c76de15557855dc38cf016dd8b36859bac977d5714f63a4deaf27f"
+  }
+]

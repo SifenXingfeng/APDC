@@ -1,0 +1,24 @@
+
+state={
+	id=778
+	name="STATE_778" # Upper Volta
+	manpower = 3186184
+	
+	state_category = pastoral
+	history={
+		owner = FRA
+		add_core_of = VOL
+		victory_points = {
+			10836 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		2001 7950 7983 8071 10836 12740 12851 14096 14100 14115 14116 14127 14129 14134 14136 14140 14142 14153 14154 14157 14163 14166 14190 14429 15292 15909 15910 
+	}
+
+	local_supplies=1.0 
+}

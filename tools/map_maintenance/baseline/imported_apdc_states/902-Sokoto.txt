@@ -1,0 +1,44 @@
+state = {
+	id = 902
+	name = "STATE_902"
+	provinces = {
+		1891
+		3789
+		13518
+		14144
+		17057
+		18815
+	}
+	manpower = 83120
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = NGA
+		controller = NGA
+		add_core_of = NGA
+		victory_points = {
+			3789
+			5
+		}
+		victory_points = {
+			13518
+			1
+		}
+		victory_points = {
+			14144
+			2
+		}
+		victory_points = {
+			17057
+			3
+		}
+		victory_points = {
+			18815
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

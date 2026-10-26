@@ -1,0 +1,33 @@
+state = {
+	id = 717
+	name = "STATE_717"
+	provinces = {
+		3949
+		9759
+		9803
+	}
+	manpower = 426581
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			3949
+			1
+		}
+		victory_points = {
+			9759
+			3
+		}
+		victory_points = {
+			9803
+			5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

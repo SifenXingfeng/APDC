@@ -1,0 +1,34 @@
+state = {
+
+	id = 823
+	name = "STATE_823" #Karakalpakstan
+
+	history = {
+	
+		victory_points = {
+			1614 1
+		}
+		
+		owner = SOV
+		
+		buildings = {
+			infrastructure = 2
+
+		}
+		
+		add_core_of = SOV
+		add_core_of = UZB
+		add_core_of = KKP
+		
+	}
+
+	provinces = {
+		1479 1614 4618 7541 7641 10348 13207 14259 14277 17429 17442 18620
+	}
+	
+	manpower = 258430 #Was 516860 but was divided by 2 due to Khiva (831) becoming a new state 
+	buildings_max_level_factor = 1.000
+	state_category = rural
+
+	local_supplies = 0.0 
+}

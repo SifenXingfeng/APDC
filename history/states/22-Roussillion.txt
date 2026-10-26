@@ -1,0 +1,58 @@
+state = {
+	id = 22
+	name = "STATE_22"
+	manpower = 1691200
+	state_category = town
+	resources = {
+		steel = 27
+		aluminium = 50
+	}
+	history = {
+		owner = FRA
+		controller = FRA
+		add_core_of = FRA
+		victory_points = {
+			9898
+			3
+		}
+		victory_points = {
+			11877
+			2
+		}
+		victory_points = {
+			15186
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 2
+		}
+	}
+	provinces = {
+		752
+		760
+		3948
+		6770
+		6960
+		6962
+		9723
+		9898
+		11709
+		11711
+		11877
+		15186
+		15197
+		15198
+		15199
+		15200
+		15201
+		15202
+		15222
+		15223
+		15224
+		15229
+		15230
+	}
+	local_supplies = 12.0
+}

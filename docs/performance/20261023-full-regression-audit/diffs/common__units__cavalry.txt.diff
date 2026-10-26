@@ -1,0 +1,50 @@
+--- before/common/units/cavalry.txt
++++ current/common/units/cavalry.txt
+@@ -5,10 +5,17 @@
+ 
+ sub_units = {
+ 
+-	cavalry = {
++	
++
++	
++
++	
++
++# Inactive identifiers required by retained engine interfaces.
++cavalry = {
+ 		abbreviation = "CAV"
+ 		sprite = cavalry
+-		map_icon_category = other
++		
+ 		priority = 599
+ 		ai_priority = 200
+ 		active = no
+@@ -72,11 +79,10 @@
+ 			attack = -0.4
+ 		}
+ 	}
+-
+-	camelry = {
++camelry = {
+ 		abbreviation = "CAM"
+ 		sprite = camelry
+-		map_icon_category = other
++		
+ 		priority = 599
+ 		ai_priority = 200
+ 		active = no
+@@ -155,11 +161,10 @@
+ 			attack = -0.4
+ 		}
+ 	}
+-
+-	elephantry = {
++elephantry = {
+ 		abbreviation = "ELE"
+ 		sprite = elephantry
+-		map_icon_category = other
++		
+ 		priority = 599
+ 		ai_priority = 200
+ 		active = no

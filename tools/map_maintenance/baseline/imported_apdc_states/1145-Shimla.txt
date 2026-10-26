@@ -1,0 +1,43 @@
+state = {
+	id = 1145
+	name = "STATE_1145"
+	provinces = {
+		1129
+		2076
+		7106
+		12708
+		16022
+		16041
+		16042
+		18855
+		18877
+		18886
+		19009
+	}
+	manpower = 7175282
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PAK
+		add_core_of = PRC
+		victory_points = {
+			12708
+			3
+		}
+		victory_points = {
+			16022
+			1
+		}
+		victory_points = {
+			18855
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = GDP_regions_punjab
+	}
+}

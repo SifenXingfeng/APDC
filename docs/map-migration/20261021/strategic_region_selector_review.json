@@ -1,0 +1,19 @@
+{
+  "policy": "Keep existing symbolic/vanilla-intent region selectors that already correspond to GF region meanings; do not blindly map every old numeric region through physical TNO regions.",
+  "examples": {
+    "joining_rule_nordics_only": {
+      "275": "Jutland Peninsula",
+      "265": "East Karelia"
+    },
+    "is_east_african_colony_state": {
+      "17": "Africa",
+      "273": "Danakil",
+      "274": "Ogaden"
+    }
+  },
+  "files_preserved_in_this_review": [
+    "common/factions/rules/joining_rules.txt",
+    "common/scripted_triggers/ETH_scripted_triggers.txt",
+    "common/peace_conference/ai_peace/ETH.txt"
+  ]
+}

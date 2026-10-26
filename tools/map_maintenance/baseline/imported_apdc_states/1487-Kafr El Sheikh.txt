@@ -1,0 +1,47 @@
+state = {
+	id = 1487
+	name = "STATE_1487"
+	provinces = {
+		7091
+		11964
+		15773
+		15774
+		15775
+	}
+	manpower = 1484323
+	resources = {
+		steel = 1
+		tungsten = 1
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+	history = {
+		owner = EGY
+		controller = EGY
+		add_core_of = EGY
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			7091
+			2
+		}
+		victory_points = {
+			11964
+			10
+		}
+		victory_points = {
+			15773
+			10
+		}
+		victory_points = {
+			15774
+			3
+		}
+		victory_points = {
+			15775
+			3
+		}
+	}
+}

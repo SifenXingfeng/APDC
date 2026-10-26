@@ -1,0 +1,98 @@
+[
+  {
+    "id": "APDC_r6_tactical_doll",
+    "vanilla_bones": 33,
+    "extra_wheel_bones": 0,
+    "scale": 0.5569001829211306,
+    "smoking_removed": true,
+    "tests": [
+      {
+        "clip": "idle",
+        "source": "GER_infantry_idle_rifle.anim",
+        "frames": 181
+      },
+      {
+        "clip": "move",
+        "source": "GER_infantry_moving_rifle.anim",
+        "frames": 41
+      },
+      {
+        "clip": "attack",
+        "source": "GER_infantry_attack_stand_rifle.anim",
+        "frames": 79
+      },
+      {
+        "clip": "support_attack",
+        "source": "GER_infantry_attack_crouch_rifle.anim",
+        "frames": 79
+      },
+      {
+        "clip": "death",
+        "source": "GER_infantry_death_rifle.anim",
+        "frames": 64
+      },
+      {
+        "clip": "long_idle02",
+        "source": "GER_infantry_long_idle02_rifle.anim",
+        "frames": 248
+      },
+      {
+        "clip": "long_idle04",
+        "source": "GER_infantry_long_idle04_rifle.anim",
+        "frames": 179
+      },
+      {
+        "clip": "long_idle05",
+        "source": "GER_infantry_long_idle05_rifle.anim",
+        "frames": 185
+      }
+    ],
+    "lower_body_static": false
+  },
+  {
+    "id": "APDC_r6_lyuba",
+    "vanilla_bones": 33,
+    "extra_wheel_bones": 2,
+    "scale": 0.4209218624409828,
+    "smoking_removed": true,
+    "tests": [
+      {
+        "clip": "idle",
+        "source": "GER_infantry_idle_rifle.anim",
+        "frames": 181,
+        "root_hip_legs_frozen": true
+      },
+      {
+        "clip": "idle_look",
+        "source": "GER_infantry_long_idle02_rifle.anim",
+        "frames": 248,
+        "root_hip_legs_frozen": true
+      },
+      {
+        "clip": "idle_shift",
+        "source": "GER_infantry_long_idle04_rifle.anim",
+        "frames": 179,
+        "root_hip_legs_frozen": true
+      },
+      {
+        "clip": "move",
+        "source": "GER_infantry_moving_rifle.anim",
+        "frames": 41,
+        "root_hip_legs_frozen": true
+      },
+      {
+        "clip": "attack",
+        "source": "GER_infantry_attack_stand_rifle.anim",
+        "frames": 79,
+        "root_hip_legs_frozen": true
+      },
+      {
+        "clip": "death",
+        "source": "GER_infantry_idle_rifle.anim",
+        "frames": 61,
+        "root_hip_legs_frozen": true
+      }
+    ],
+    "lower_body_static": true
+  }
+]

@@ -1,0 +1,148 @@
+--- before/common/units/recon.txt
++++ current/common/units/recon.txt
+@@ -1,9 +1,28 @@
+ # APDC: old land-unit IDs retained for reference compatibility; normal unlocks removed.
+ sub_units = {
+-	recon = { #mounted cav
++	
++
++	
++
++	
++
++	
++	
++	
++	
++	
++	
++
++# Restored inactive legacy IDs required by inherited scripts.
++
++
++
++
++# Inactive identifiers required by retained engine interfaces.
++recon = { #mounted cav
+ 		abbreviation = "CREC"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -88,11 +107,10 @@
+ 		
+ 		same_support_type = recon # blocks adding other recon types to template
+ 	}
+-
+-	mot_recon = { #trucks, motorcyles, ill-placed cars
++mot_recon = { #trucks, motorcyles, ill-placed cars
+ 		abbreviation = "MREC"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -177,11 +195,10 @@
+ 		
+ 		same_support_type = recon # blocks adding other recon types to template
+ 	}
+-
+-	armored_car_recon = { #armored_cars
++armored_car_recon = { #armored_cars
+ 		abbreviation = "AREC"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -259,11 +276,10 @@
+ 		
+ 		same_support_type = recon # blocks adding other recon types to template
+ 	}
+-
+-	light_tank_recon = { #light tanks
++light_tank_recon = { #light tanks
+ 		abbreviation = "TREC"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -345,11 +361,10 @@
+ 		}
+ 		same_support_type = recon # blocks adding other recon types to template
+ 	}
+-	
+-	airborne_light_armor = { #light tanks
++airborne_light_armor = { #light tanks
+ 		abbreviation = "LTA"
+ 		sprite = light_armor
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -428,11 +443,10 @@
+ 
+ 		same_support_type = recon
+ 	}
+-	
+-	rangers_support = { #independent recon
++rangers_support = { #independent recon
+ 		abbreviation = "RAN"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -505,10 +519,10 @@
+ 		
+ 		same_support_type = recon # blocks adding other recon types to template
+ 	}
+-	helicopter_recon = {
++helicopter_recon = {
+ 		abbreviation = "HELR"
+ 		sprite = helicopter_brigade
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -588,12 +602,10 @@
+ 		same_support_type = recon # blocks adding other recon types to template
+ 		same_support_type = helicopter_recon
+ 	}
+-
+-# Restored inactive legacy IDs required by inherited scripts.
+ northern_territory_recon_support = { #AST: Northern Territory Reconnaissance Unit
+ 		abbreviation = "NTR"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -671,7 +683,7 @@
+ winter_logistics_support = { #Ski Troop Support for Finland. Not really considered recon
+ 		abbreviation = "WIN"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -734,7 +746,7 @@
+ long_range_patrol_support = { # Long-range patrols for Finland
+ 		abbreviation = "LRP"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no

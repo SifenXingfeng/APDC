@@ -1,0 +1,33 @@
+state = {
+	id = 557
+	name = "STATE_557"
+	provinces = {
+		5034
+		14248
+		14266
+		18005
+		18015
+		18016
+		18032
+	}
+	manpower = 60577
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = MRT
+		controller = MRT
+		add_core_of = MRT
+		victory_points = {
+			5034
+			15
+		}
+		victory_points = {
+			14266
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

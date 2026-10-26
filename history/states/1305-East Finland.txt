@@ -1,0 +1,41 @@
+state = {
+	id = 1305
+	name = "STATE_1305"
+	provinces = {
+		193
+		3030
+		3068
+		3185
+		6156
+		6210
+		9061
+		9169
+		9181
+		11076
+		13108
+		13109
+		13114
+		13115
+		13118
+		15643
+		18424
+		18427
+		18435
+		18446
+	}
+	manpower = 237333
+	resources = {
+		steel = 2
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

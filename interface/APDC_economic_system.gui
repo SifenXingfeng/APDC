@@ -5,61 +5,59 @@ guiTypes = {
 		size = { width = 100 height = 100 }
 		clipping = no
 
-		# Only one overlapping icon is made visible by the scripted GUI.  These
-		# remain icons, not buttons: hovering shows information without applying
-		# the button brightness/pressed-state treatment to the artwork.
-		iconType = {
+		# The currently active economic-system icon opens the economy panel.
+		buttonType = {
 			name = "APDC_economic_system_traditional_agriculture"
 			position = { x = 5 y = 5 }
-			spriteType = "GFX_APDC_economic_system_generic"
+			quadTextureSprite = "GFX_APDC_economic_system_generic"
 			pdx_tooltip = "APDC_ECONOMIC_SYSTEM_TRADITIONAL_AGRICULTURE_TOOLTIP"
 		}
-		iconType = {
+		buttonType = {
 			name = "APDC_economic_system_dependent_economy"
 			position = { x = 5 y = 5 }
-			spriteType = "GFX_APDC_economic_system_generic"
+			quadTextureSprite = "GFX_APDC_economic_system_generic"
 			pdx_tooltip = "APDC_ECONOMIC_SYSTEM_DEPENDENT_ECONOMY_TOOLTIP"
 		}
-		iconType = {
+		buttonType = {
 			name = "APDC_economic_system_free_market"
 			position = { x = 5 y = 5 }
-			spriteType = "GFX_APDC_economic_system_generic"
+			quadTextureSprite = "GFX_APDC_economic_system_generic"
 			pdx_tooltip = "APDC_ECONOMIC_SYSTEM_FREE_MARKET_TOOLTIP"
 		}
-		iconType = {
+		buttonType = {
 			name = "APDC_economic_system_mixed_market"
 			position = { x = 5 y = 5 }
-			spriteType = "GFX_APDC_economic_system_generic"
+			quadTextureSprite = "GFX_APDC_economic_system_generic"
 			pdx_tooltip = "APDC_ECONOMIC_SYSTEM_MIXED_MARKET_TOOLTIP"
 		}
-		iconType = {
+		buttonType = {
 			name = "APDC_economic_system_state_guided"
 			position = { x = 5 y = 5 }
-			spriteType = "GFX_APDC_economic_system_generic"
+			quadTextureSprite = "GFX_APDC_economic_system_generic"
 			pdx_tooltip = "APDC_ECONOMIC_SYSTEM_STATE_GUIDED_TOOLTIP"
 		}
-		iconType = {
+		buttonType = {
 			name = "APDC_economic_system_state_capitalism"
 			position = { x = 5 y = 5 }
-			spriteType = "GFX_APDC_economic_system_generic"
+			quadTextureSprite = "GFX_APDC_economic_system_generic"
 			pdx_tooltip = "APDC_ECONOMIC_SYSTEM_STATE_CAPITALISM_TOOLTIP"
 		}
-		iconType = {
+		buttonType = {
 			name = "APDC_economic_system_market_socialism"
 			position = { x = 5 y = 5 }
-			spriteType = "GFX_APDC_economic_system_market_socialism"
+			quadTextureSprite = "GFX_APDC_economic_system_market_socialism"
 			pdx_tooltip = "APDC_ECONOMIC_SYSTEM_MARKET_SOCIALISM_TOOLTIP"
 		}
-		iconType = {
+		buttonType = {
 			name = "APDC_economic_system_decentralized_planning"
 			position = { x = 5 y = 5 }
-			spriteType = "GFX_APDC_economic_system_generic"
+			quadTextureSprite = "GFX_APDC_economic_system_generic"
 			pdx_tooltip = "APDC_ECONOMIC_SYSTEM_DECENTRALIZED_PLANNING_TOOLTIP"
 		}
-		iconType = {
+		buttonType = {
 			name = "APDC_economic_system_central_planning"
 			position = { x = 5 y = 5 }
-			spriteType = "GFX_APDC_economic_system_generic"
+			quadTextureSprite = "GFX_APDC_economic_system_generic"
 			pdx_tooltip = "APDC_ECONOMIC_SYSTEM_CENTRAL_PLANNING_TOOLTIP"
 		}
 	}

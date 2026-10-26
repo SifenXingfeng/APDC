@@ -1,0 +1,61 @@
+state = {
+	id = 16
+	name = "STATE_16"
+	manpower = 7038500
+	state_category = metropolis
+	history = {
+		owner = FRA
+		controller = FRA
+		add_core_of = FRA
+		victory_points = {
+			6949
+			1
+		}
+		victory_points = {
+			9507
+			2
+		}
+		victory_points = {
+			9534
+			3
+		}
+		victory_points = {
+			11491
+			2
+		}
+		victory_points = {
+			11506
+			40
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 4
+			industrial_complex = 4
+			anti_air_building = 3
+			air_base = 5
+			9523 = {
+				landmark_eiffel_tower = {
+					level = 1
+					allowed = {
+						has_dlc = "Gotterdammerung"
+					}
+				}
+			}
+			9534 = {
+				land_facility = 1
+			}
+		}
+	}
+	provinces = {
+		6949
+		9507
+		9523
+		9534
+		9725
+		11491
+		11506
+		11518
+		15365
+	}
+	local_supplies = 0.0
+}

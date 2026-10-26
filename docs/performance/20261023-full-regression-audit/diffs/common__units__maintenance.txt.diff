@@ -1,0 +1,47 @@
+--- before/common/units/maintenance.txt
++++ current/common/units/maintenance.txt
+@@ -1,9 +1,21 @@
+ # APDC: old land-unit IDs retained for reference compatibility; normal unlocks removed.
+ sub_units = {
+-	maintenance_company = {
++	
++
++
++	########################
++	### SPECIAL PROJECTS ###
++	########################
++
++
++	# WW - SP tech - Armored Maintenance - Using Armored Support Vehicle -> Armored Recovery Tanks
++	
++
++# Inactive identifiers required by retained engine interfaces.
++maintenance_company = {
+ 		abbreviation = "MAIN"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -50,18 +62,10 @@
+ 		}
+ 		same_support_type = maintenance_company
+ 	}
+-
+-
+-	########################
+-	### SPECIAL PROJECTS ###
+-	########################
+-
+-
+-	# WW - SP tech - Armored Maintenance - Using Armored Support Vehicle -> Armored Recovery Tanks
+-	armored_maintenance = {
++armored_maintenance = {
+ 		abbreviation = "AMC"
+ 		sprite = armored_maintenance
+-		map_icon_category = armored
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no

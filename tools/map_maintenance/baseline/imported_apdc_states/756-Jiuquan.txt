@@ -1,0 +1,42 @@
+state = {
+	id = 756
+	name = "STATE_756"
+	provinces = {
+		2028
+		5076
+		7971
+		8102
+		12596
+		12820
+		14383
+		19411
+	}
+	manpower = 550000
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			2028
+			2
+		}
+		victory_points = {
+			7971
+			2
+		}
+		buildings = {
+			infrastructure = 1
+			2028 = {
+				landmark_great_wall_section = {
+					level = 1
+					allowed = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+				}
+			}
+		}
+	}
+	local_supplies = 0.0
+}

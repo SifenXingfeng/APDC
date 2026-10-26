@@ -1,0 +1,42 @@
+state = {
+	id = 1045
+	name = "STATE_1045"
+	resources = {
+	}
+	provinces = {
+		5025
+		16840
+		18003
+	}
+	manpower = 473743
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			5025
+			2
+		}
+		victory_points = {
+			16840
+			1
+		}
+		victory_points = {
+			18003
+			1
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+		set_variable = {
+			china_state_ref = 40
+		}
+		set_variable = {
+			china_region_ref = 5
+		}
+	}
+}

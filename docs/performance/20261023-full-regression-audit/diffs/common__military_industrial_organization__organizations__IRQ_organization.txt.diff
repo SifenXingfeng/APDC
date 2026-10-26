@@ -1,0 +1,56 @@
+--- before/common/military_industrial_organization/organizations/IRQ_organization.txt
++++ current/common/military_industrial_organization/organizations/IRQ_organization.txt
+@@ -53,7 +53,7 @@
+ 
+ 	available = {
+ 		FROM = {
+-			has_completed_focus = IRQ_establish_iraqi_coastal_defense_force
++			always = no
+ 		}
+ 	}
+ }
+@@ -72,7 +72,7 @@
+ 
+ 	available = {
+ 		FROM = {
+-			has_completed_focus = IRQ_create_repair_yards
++			always = no
+ 		}
+ 	}
+ }
+@@ -91,7 +91,7 @@
+ 
+ 	available = {
+ 		FROM = {
+-			has_completed_focus = IRQ_develop_the_kuwaiti_port
++			always = no
+ 		}
+ 	}
+ }
+@@ -124,7 +124,7 @@
+ 
+ 	available = {
+ 		FROM = {
+-			has_completed_focus = IRQ_expand_habbaniya_airbase
++			always = no
+ 		}
+ 	}
+ }
+@@ -143,7 +143,7 @@
+ 
+ 	available = {
+ 		FROM = {
+-			has_completed_focus = IRQ_air_research_bonus
++			always = no
+ 		}
+ 	}
+ }
+@@ -162,7 +162,7 @@
+ 
+ 	available = {
+ 		FROM = {
+-			has_completed_focus = IRQ_bomber_training
++			always = no
+ 		}
+ 	}
+ }

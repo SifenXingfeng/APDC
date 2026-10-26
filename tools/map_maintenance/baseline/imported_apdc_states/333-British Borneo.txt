@@ -1,0 +1,56 @@
+state = {
+	id = 333
+	name = "STATE_333"
+	manpower = 503200
+	resources = {
+		rubber = 20
+		oil = 1
+		coal = 1
+	}
+	state_category = rural
+	history = {
+		owner = MAL
+		controller = MAL
+		add_core_of = MAL
+		victory_points = {
+			1208
+			5
+		}
+		victory_points = {
+			4396
+			1
+		}
+		victory_points = {
+			10285
+			1
+		}
+		victory_points = {
+			12283
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			1208 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		1208
+		2117
+		2222
+		4216
+		4396
+		7443
+		8091
+		10269
+		10285
+		12283
+		12905
+		19216
+		19242
+		19286
+		19287
+	}
+	local_supplies = 0.0
+}

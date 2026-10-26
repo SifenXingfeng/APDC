@@ -1,0 +1,44 @@
+state = {
+	id = 1449
+	name = "STATE_1449"
+	provinces = {
+		2196
+		5180
+		8205
+		12911
+		13860
+		13867
+		13873
+		17871
+		17872
+		17878
+		17879
+	}
+	manpower = 777187
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = TZN
+		controller = TZN
+		add_core_of = TZN
+		victory_points = {
+			2196
+			30
+		}
+		victory_points = {
+			5180
+			5
+		}
+		victory_points = {
+			13873
+			3
+		}
+		buildings = {
+			infrastructure = 2
+			2196 = {
+				naval_base = 2
+			}
+		}
+	}
+}

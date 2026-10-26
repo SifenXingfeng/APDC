@@ -1,0 +1,397 @@
+--- before/common/technologies/support.txt
++++ current/common/technologies/support.txt
+@@ -64,7 +64,13 @@
+ 		ai_will_do = {
+ 			base = 6
+ 		}
+-	}
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
+ 
+ 
+ 	tech_engineers = {
+@@ -102,27 +108,11 @@
+ 
+ 	tech_engineers2 = {
+ 
+-		engineer = {
+-			entrenchment = 0.50
+-			fort = {
+-				defence = 0.10
+-				attack = 0.10
+-			}
+-		}
+-
+-		assault_engineer = {
+-			breakthrough = 0.1
+-			fort = {
+-				attack = 0.15
+-			}
+-		}
+-
+-		armored_engineer = {
+-			entrenchment = 1
+-			fort = {
+-				defence = 0.15
+-			}
+-		}
++		
++
++		
++
++		
+ 
+ 
+ 		path = {
+@@ -154,20 +144,9 @@
+ 
+ 	tech_engineers3 = {
+ 
+-		engineer = {
+-			entrenchment = 0.50
+-			river = {
+-				attack = 0.1
+-				defence = 0.10
+-			}
+-		}
+-
+-		assault_engineer = {
+-			breakthrough = 0.1
+-			river = {
+-				attack = 0.1
+-			}
+-		}
++		
++
++		
+ 
+ 		path = {
+ 			leads_to_tech = tech_engineers4
+@@ -198,20 +177,9 @@
+ 
+ 	tech_engineers4 = {
+ 
+-		engineer = {
+-			entrenchment = 0.50
+-			urban = {
+-				attack = 0.1
+-				defence = 0.1
+-			}
+-		}
+-
+-		assault_engineer = {
+-			breakthrough = 0.1
+-			urban = {
+-				attack = 0.15
+-			}
+-		}
++		
++
++		
+ 
+ 		research_cost = 2.0
+ 		start_year = 2070
+@@ -244,10 +212,7 @@
+ 			research_cost_coeff = 1
+ 		}
+ 
+-		path = {
+-			leads_to_tech = sp_helicopter_artillery_observers_tech
+-			research_cost_coeff = 1
+-		}
++		
+ 
+ 		research_cost = 1.25
+ 		start_year = 2050
+@@ -277,9 +242,7 @@
+ 			recon = 2
+ 		}
+ 
+-		helicopter_recon = {
+-			recon = 1
+-		}
++		
+ 		apdc_uav_recon = {
+ 			recon = 1
+ 		}
+@@ -434,20 +397,12 @@
+ 
+ 	tech_military_police2 = {
+ 
+-		military_police = {
+-			suppression_factor = 0.1
+-		}
++		
+ 		apdc_military_police = {
+ 			suppression_factor = 0.1
+ 		}
+ 
+-		motorized_military_police = {
+-			suppression_factor = 0.1
+-			battalion_mult = {
+-				category = category_vehicle_infantry
+-				default_morale = 0.05
+-			}
+-		}
++		
+ 
+ 		path = {
+ 			leads_to_tech = tech_military_police3
+@@ -493,20 +448,12 @@
+ 
+ 	tech_military_police3 = {
+ 
+-		military_police = {
+-			suppression_factor = 0.1
+-		}
++		
+ 		apdc_military_police = {
+ 			suppression_factor = 0.1
+ 		}
+ 
+-		motorized_military_police = {
+-			suppression_factor = 0.1
+-			battalion_mult = {
+-				category = category_vehicle_infantry
+-				default_morale = 0.05
+-			}
+-		}
++		
+ 
+ 		path = {
+ 			leads_to_tech = tech_military_police4
+@@ -536,20 +483,12 @@
+ 	}
+ 	tech_military_police4 = {
+ 
+-		military_police = {
+-			suppression_factor = 0.1
+-		}
++		
+ 		apdc_military_police = {
+ 			suppression_factor = 0.1
+ 		}
+ 
+-		motorized_military_police = {
+-			suppression_factor = 0.1
+-			battalion_mult = {
+-				category = category_vehicle_infantry
+-				default_morale = 0.05
+-			}
+-		}
++		
+ 
+ 		research_cost = 2.0
+ 		start_year = 2070
+@@ -602,10 +541,7 @@
+ 
+ 	tech_maintenance_company2 = {
+ 
+-		maintenance_company = {
+-			reliability_factor = 0.05
+-			equipment_capture_factor = 0.05
+-		}
++		
+ 		apdc_combined_service = {
+ 			reliability_factor = 0.05
+ 			equipment_capture_factor = 0.05
+@@ -652,17 +588,7 @@
+ 
+ 	tech_maintenance_company3 = {
+ 
+-		maintenance_company = {
+-			reliability_factor = 0.05
+-
+-			battalion_mult = {
+-				category = category_all_armor
+-				equipment_capture_factor = 0.01
+-				add = yes
+-				display_as_percentage = yes
+-			}
+-
+-		}
++		
+ 
+ 
+ 		path = {
+@@ -703,10 +629,7 @@
+ 	}
+ 	tech_maintenance_company4 = {
+ 
+-		maintenance_company = {
+-			reliability_factor = 0.05
+-			equipment_capture_factor = 0.05
+-		}
++		
+ 		apdc_combined_service = {
+ 			reliability_factor = 0.05
+ 			equipment_capture_factor = 0.05
+@@ -795,10 +718,7 @@
+ 
+ 	tech_field_hospital2 = {
+ 
+-		field_hospital = {
+-			casualty_trickleback = 0.10
+-			experience_loss_factor = -0.10
+-		}
++		
+ 		apdc_combined_service = {
+ 			casualty_trickleback = 0.10
+ 			experience_loss_factor = -0.10
+@@ -846,10 +766,7 @@
+ 
+ 	tech_field_hospital3 = {
+ 
+-		field_hospital = {
+-			casualty_trickleback = 0.1
+-			experience_loss_factor = -0.10
+-		}
++		
+ 		apdc_combined_service = {
+ 			casualty_trickleback = 0.1
+ 			experience_loss_factor = -0.10
+@@ -897,10 +814,7 @@
+ 	}
+ 	tech_field_hospital4 = {
+ 
+-		field_hospital = {
+-			casualty_trickleback = 0.1
+-			experience_loss_factor = -0.10
+-		}
++		
+ 		apdc_combined_service = {
+ 			casualty_trickleback = 0.1
+ 			experience_loss_factor = -0.10
+@@ -977,10 +891,7 @@
+ 
+ 	tech_logistics_company2 = {
+ 
+-		logistics_company = {
+-			supply_consumption_factor = -0.1
+-			fuel_consumption_factor = -0.05
+-		}
++		
+ 		apdc_combined_service = {
+ 			supply_consumption_factor = -0.1
+ 			fuel_consumption_factor = -0.05
+@@ -1027,10 +938,7 @@
+ 
+ 	tech_logistics_company3 = {
+ 
+-		logistics_company = {
+-			supply_consumption_factor = -0.1
+-			fuel_consumption_factor = -0.05
+-		}
++		
+ 		apdc_combined_service = {
+ 			supply_consumption_factor = -0.1
+ 			fuel_consumption_factor = -0.05
+@@ -1076,10 +984,7 @@
+ 	}
+ 	tech_logistics_company4 = {
+ 
+-		logistics_company = {
+-			supply_consumption_factor = -0.1
+-			fuel_consumption_factor = -0.05
+-		}
++		
+ 		apdc_combined_service = {
+ 			supply_consumption_factor = -0.1
+ 			fuel_consumption_factor = -0.05
+@@ -1155,9 +1060,7 @@
+ 
+ 	tech_signal_company2 = {
+ 
+-		signal_company = {
+-			initiative = 0.12
+-		}
++		
+ 		apdc_frontline_command = {
+ 			initiative = 0.12
+ 		}
+@@ -1203,9 +1106,7 @@
+ 
+ 	tech_signal_company3 = {
+ 
+-		signal_company = {
+-			initiative = 0.12
+-		}
++		
+ 		apdc_frontline_command = {
+ 			initiative = 0.12
+ 		}
+@@ -1249,9 +1150,7 @@
+ 	}
+ 	tech_signal_company4 = {
+ 
+-		signal_company = {
+-			initiative = 0.12
+-		}
++		
+ 		apdc_frontline_command = {
+ 			initiative = 0.12
+ 		}
+@@ -1338,7 +1237,13 @@
+ 				date > "2063.1.1"
+ 			}
+ 		}
+-	}
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
+ 
+ 	railway_gun = {
+ 		enable_equipments = {
+@@ -1365,7 +1270,13 @@
+ 				factor = 1
+ 			}
+ 		}
+-	}
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
+ 
+ 	wartime_train = {
+ 		enable_equipments = {
+@@ -1405,7 +1316,13 @@
+ 				date > "2063.1.1"
+ 			}
+ 		}
+-	}
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
+ 
+ 	armored_train = {
+ 		enable_equipments = {
+@@ -1450,6 +1367,12 @@
+ 				date > "2063.1.1"
+ 			}
+ 		}
+-	}
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
+ 
+ }
++}
++
++}

@@ -1,0 +1,23 @@
+state = {
+	id = 1473
+	name = "STATE_1473"
+	provinces = {
+		379
+	}
+	manpower = 19121
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = small_island
+	history = {
+		owner = VCT
+		controller = VCT
+		add_core_of = VCT
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			379
+			1
+		}
+	}
+}

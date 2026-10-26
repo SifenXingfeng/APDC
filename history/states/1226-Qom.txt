@@ -1,0 +1,29 @@
+state = {
+	id = 1226
+	name = "STATE_1226"
+	provinces = {
+		13614
+		18769
+	}
+	manpower = 99550
+	resources = {
+		chromium = 1
+		steel = 1
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = PER
+		controller = PER
+		add_core_of = PER
+		victory_points = {
+			18769
+			5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = GDP_category_city
+	}
+}

@@ -1,0 +1,50 @@
+state = {
+	id = 545
+	name = "STATE_545"
+	provinces = {
+		2216
+		7842
+		10929
+		13698
+		13708
+		13723
+		13724
+		13730
+		13731
+		13747
+		17846
+		17858
+	}
+	manpower = 540617
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 3
+	history = {
+		owner = ZIM
+		controller = ZIM
+		add_core_of = ZIM
+		victory_points = {
+			7842
+			2
+		}
+		victory_points = {
+			10929
+			20
+		}
+		victory_points = {
+			13723
+			1
+		}
+		victory_points = {
+			13730
+			2
+		}
+		victory_points = {
+			13731
+			2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

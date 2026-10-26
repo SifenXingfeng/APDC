@@ -1,0 +1,1660 @@
+{
+  "status": "PASS",
+  "actual_exported_binaries_checked": true,
+  "models": [
+    {
+      "id": "APDC_b2_automaton",
+      "animation_sha256": "1f75ad09f34e26b8ae71c636ba682202ebabd722f4f3a7548595c2bf92c16521",
+      "mesh_sha256": "d01a42e40f6987bc5fc4f89b69f80581a71e26f3fc803e379b1a2e6e0408b43b",
+      "frames": 31,
+      "stance_direction": "+Y (forward body motion is -Y)",
+      "minimum_stance_velocity": 1.1999773979187012,
+      "maximum_target_error": 8.450416850303307e-07,
+      "minimum_ground_contacts": 2,
+      "phases": {
+        "L0_foot": 0.0,
+        "L1_foot": 0.5,
+        "R0_foot": 0.5,
+        "R1_foot": 0.0
+      },
+      "contacts": [
+        {
+          "frame": 1,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "R0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 2,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "R0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 3,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "R0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 4,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 5,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 6,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 7,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 8,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 9,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 10,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 11,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 12,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 13,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 14,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 15,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 16,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "R0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 17,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "R0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 18,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "R0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 19,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 20,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 21,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 22,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 23,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 24,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 25,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 26,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 27,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 28,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 29,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 30,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 31,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "R0_foot",
+            "R1_foot"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "APDC_b2_multipod",
+      "animation_sha256": "7cb3612d1a3f30f30c23d0f9918b85db3f1533f9dbbdc3e4559f7918312ea0c0",
+      "mesh_sha256": "ccf98512353dbeafa1ebbce921e09584b8e6882e1fdf6f6635b6e887b70fd157",
+      "frames": 31,
+      "stance_direction": "+Y (forward body motion is -Y)",
+      "minimum_stance_velocity": 1.1999738216400149,
+      "maximum_target_error": 1.018960535364077e-06,
+      "minimum_ground_contacts": 3,
+      "phases": {
+        "L0_foot": 0.0,
+        "L1_foot": 0.5,
+        "L2_foot": 0.0,
+        "R0_foot": 0.5,
+        "R1_foot": 0.0,
+        "R2_foot": 0.5
+      },
+      "contacts": [
+        {
+          "frame": 1,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "L2_foot",
+            "R0_foot",
+            "R1_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 2,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "L2_foot",
+            "R0_foot",
+            "R1_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 3,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "L2_foot",
+            "R0_foot",
+            "R1_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 4,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 5,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 6,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 7,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 8,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 9,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 10,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 11,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 12,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 13,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 14,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 15,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 16,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "L2_foot",
+            "R0_foot",
+            "R1_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 17,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "L2_foot",
+            "R0_foot",
+            "R1_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 18,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "L2_foot",
+            "R0_foot",
+            "R1_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 19,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 20,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 21,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 22,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 23,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 24,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 25,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 26,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 27,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 28,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 29,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 30,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 31,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "L2_foot",
+            "R0_foot",
+            "R1_foot",
+            "R2_foot"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "APDC_b2_doomdog",
+      "animation_sha256": "37a61b5ab5a3ee1c8a30bf0846f1ad1fce4dd4965b9b92d483226d33cc893979",
+      "mesh_sha256": "bfabebc08cd695ec143fcc46f657f1639abebd41f4aaca9603a064f6d2abf234",
+      "frames": 31,
+      "stance_direction": "+Y (forward body motion is -Y)",
+      "minimum_stance_velocity": 1.1999702453613283,
+      "maximum_target_error": 1.087784767150879e-06,
+      "minimum_ground_contacts": 2,
+      "phases": {
+        "L0_foot": 0.0,
+        "L1_foot": 0.5,
+        "R0_foot": 0.5,
+        "R1_foot": 0.0
+      },
+      "contacts": [
+        {
+          "frame": 1,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "R0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 2,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "R0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 3,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "R0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 4,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 5,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 6,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 7,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 8,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 9,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 10,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 11,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 12,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 13,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 14,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 15,
+          "ground_contacts": [
+            "L0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 16,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "R0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 17,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "R0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 18,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "R0_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 19,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 20,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 21,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 22,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 23,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 24,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 25,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 26,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 27,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 28,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 29,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 30,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot"
+          ]
+        },
+        {
+          "frame": 31,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "R0_foot",
+            "R1_foot"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "APDC_b2_aa02",
+      "animation_sha256": "1cba42211260bcfadd5c24dde4da34b432518ce862d902c5efe4c2cf14595c64",
+      "mesh_sha256": "3b33c24302a4a5cab2356d15e80b8800475941e7ee33096edf76972a4c9b7f5a",
+      "frames": 31,
+      "stance_direction": "+Y (forward body motion is -Y)",
+      "minimum_stance_velocity": 1.1999890208244324,
+      "maximum_target_error": 7.035178920097874e-07,
+      "minimum_ground_contacts": 1,
+      "phases": {
+        "left_leg_foot": 0.0,
+        "right_leg_foot": 0.5
+      },
+      "contacts": [
+        {
+          "frame": 1,
+          "ground_contacts": [
+            "left_leg_foot",
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 2,
+          "ground_contacts": [
+            "left_leg_foot",
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 3,
+          "ground_contacts": [
+            "left_leg_foot",
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 4,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 5,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 6,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 7,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 8,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 9,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 10,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 11,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 12,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 13,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 14,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 15,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 16,
+          "ground_contacts": [
+            "left_leg_foot",
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 17,
+          "ground_contacts": [
+            "left_leg_foot",
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 18,
+          "ground_contacts": [
+            "left_leg_foot",
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 19,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 20,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 21,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 22,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 23,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 24,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 25,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 26,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 27,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 28,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 29,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 30,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 31,
+          "ground_contacts": [
+            "left_leg_foot",
+            "right_leg_foot"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "APDC_f1_multipod_artillery",
+      "animation_sha256": "80792e1d91b89116033629dcd1c5a226ba7c4ebfcc6bee9c8157f8d729b13dc2",
+      "mesh_sha256": "4780daa7bf1a0339b335cdbff94a1eb51d7b85adfe77759cc4ddec2563f3dd9d",
+      "frames": 31,
+      "stance_direction": "+Y (forward body motion is -Y)",
+      "minimum_stance_velocity": 1.1999738216400149,
+      "maximum_target_error": 1.018960535364077e-06,
+      "minimum_ground_contacts": 3,
+      "phases": {
+        "L0_foot": 0.0,
+        "L1_foot": 0.5,
+        "L2_foot": 0.0,
+        "R0_foot": 0.5,
+        "R1_foot": 0.0,
+        "R2_foot": 0.5
+      },
+      "contacts": [
+        {
+          "frame": 1,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "L2_foot",
+            "R0_foot",
+            "R1_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 2,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "L2_foot",
+            "R0_foot",
+            "R1_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 3,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "L2_foot",
+            "R0_foot",
+            "R1_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 4,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 5,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 6,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 7,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 8,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 9,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 10,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 11,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 12,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 13,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 14,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 15,
+          "ground_contacts": [
+            "L0_foot",
+            "L2_foot",
+            "R1_foot"
+          ]
+        },
+        {
+          "frame": 16,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "L2_foot",
+            "R0_foot",
+            "R1_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 17,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "L2_foot",
+            "R0_foot",
+            "R1_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 18,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "L2_foot",
+            "R0_foot",
+            "R1_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 19,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 20,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 21,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 22,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 23,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 24,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 25,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 26,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 27,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 28,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 29,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 30,
+          "ground_contacts": [
+            "L1_foot",
+            "R0_foot",
+            "R2_foot"
+          ]
+        },
+        {
+          "frame": 31,
+          "ground_contacts": [
+            "L0_foot",
+            "L1_foot",
+            "L2_foot",
+            "R0_foot",
+            "R1_foot",
+            "R2_foot"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "APDC_f1_nyto_final",
+      "animation_sha256": "19c8d46755d642ba66a0194bb922ac21a1c3482aac49984ee2fe4eb3fbdd8de7",
+      "mesh_sha256": "bc4af8f0e100729759ec020114a6533fbde8741bec194a39e83cf3bd8b05742d",
+      "frames": 31,
+      "stance_direction": "+Y (forward body motion is -Y)",
+      "minimum_stance_velocity": 1.1999863386154177,
+      "maximum_target_error": 6.687285206412338e-07,
+      "minimum_ground_contacts": 1,
+      "phases": {
+        "left_leg_foot": 0.0,
+        "right_leg_foot": 0.5
+      },
+      "contacts": [
+        {
+          "frame": 1,
+          "ground_contacts": [
+            "left_leg_foot",
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 2,
+          "ground_contacts": [
+            "left_leg_foot",
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 3,
+          "ground_contacts": [
+            "left_leg_foot",
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 4,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 5,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 6,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 7,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 8,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 9,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 10,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 11,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 12,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 13,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 14,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 15,
+          "ground_contacts": [
+            "left_leg_foot"
+          ]
+        },
+        {
+          "frame": 16,
+          "ground_contacts": [
+            "left_leg_foot",
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 17,
+          "ground_contacts": [
+            "left_leg_foot",
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 18,
+          "ground_contacts": [
+            "left_leg_foot",
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 19,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 20,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 21,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 22,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 23,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 24,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 25,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 26,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 27,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 28,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 29,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 30,
+          "ground_contacts": [
+            "right_leg_foot"
+          ]
+        },
+        {
+          "frame": 31,
+          "ground_contacts": [
+            "left_leg_foot",
+            "right_leg_foot"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "APDC_ump_chibi",
+      "animation_sha256": "231f7214ba2c03110f4a2346893237ac8a85a571c83559acdd20f60435908d10",
+      "mesh_sha256": "9f3e35d5d5a7bfd82c7560bcb07e580b09d1a71b017c6122620c684faba845c1",
+      "frames": 21,
+      "stance_direction": "+Y (forward body motion is -Y)",
+      "minimum_stance_velocity": 2.0952284336090092,
+      "maximum_target_error": 5.092623081992585e-07,
+      "minimum_ground_contacts": 0,
+      "phases": {
+        "carrier_front_-1_foot": 0.0,
+        "carrier_rear_-1_foot": 0.5,
+        "carrier_front_1_foot": 0.0,
+        "carrier_rear_1_foot": 0.5
+      },
+      "contacts": [
+        {
+          "frame": 1,
+          "ground_contacts": [
+            "carrier_front_-1_foot",
+            "carrier_front_1_foot"
+          ]
+        },
+        {
+          "frame": 2,
+          "ground_contacts": [
+            "carrier_front_-1_foot",
+            "carrier_front_1_foot"
+          ]
+        },
+        {
+          "frame": 3,
+          "ground_contacts": [
+            "carrier_front_-1_foot",
+            "carrier_front_1_foot"
+          ]
+        },
+        {
+          "frame": 4,
+          "ground_contacts": [
+            "carrier_front_-1_foot",
+            "carrier_front_1_foot"
+          ]
+        },
+        {
+          "frame": 5,
+          "ground_contacts": [
+            "carrier_front_-1_foot",
+            "carrier_front_1_foot"
+          ]
+        },
+        {
+          "frame": 6,
+          "ground_contacts": [
+            "carrier_front_-1_foot",
+            "carrier_front_1_foot"
+          ]
+        },
+        {
+          "frame": 7,
+          "ground_contacts": [
+            "carrier_front_-1_foot",
+            "carrier_front_1_foot"
+          ]
+        },
+        {
+          "frame": 8,
+          "ground_contacts": [
+            "carrier_front_-1_foot",
+            "carrier_front_1_foot"
+          ]
+        },
+        {
+          "frame": 9,
+          "ground_contacts": [
+            "carrier_front_-1_foot",
+            "carrier_front_1_foot"
+          ]
+        },
+        {
+          "frame": 10,
+          "ground_contacts": []
+        },
+        {
+          "frame": 11,
+          "ground_contacts": [
+            "carrier_rear_-1_foot",
+            "carrier_rear_1_foot"
+          ]
+        },
+        {
+          "frame": 12,
+          "ground_contacts": [
+            "carrier_rear_-1_foot",
+            "carrier_rear_1_foot"
+          ]
+        },
+        {
+          "frame": 13,
+          "ground_contacts": [
+            "carrier_rear_-1_foot",
+            "carrier_rear_1_foot"
+          ]
+        },
+        {
+          "frame": 14,
+          "ground_contacts": [
+            "carrier_rear_-1_foot",
+            "carrier_rear_1_foot"
+          ]
+        },
+        {
+          "frame": 15,
+          "ground_contacts": [
+            "carrier_rear_-1_foot",
+            "carrier_rear_1_foot"
+          ]
+        },
+        {
+          "frame": 16,
+          "ground_contacts": [
+            "carrier_rear_-1_foot",
+            "carrier_rear_1_foot"
+          ]
+        },
+        {
+          "frame": 17,
+          "ground_contacts": [
+            "carrier_rear_-1_foot",
+            "carrier_rear_1_foot"
+          ]
+        },
+        {
+          "frame": 18,
+          "ground_contacts": [
+            "carrier_rear_-1_foot",
+            "carrier_rear_1_foot"
+          ]
+        },
+        {
+          "frame": 19,
+          "ground_contacts": [
+            "carrier_rear_-1_foot",
+            "carrier_rear_1_foot"
+          ]
+        },
+        {
+          "frame": 20,
+          "ground_contacts": []
+        },
+        {
+          "frame": 21,
+          "ground_contacts": [
+            "carrier_front_-1_foot",
+            "carrier_front_1_foot"
+          ]
+        }
+      ]
+    }
+  ],
+  "game_visual_acceptance": false
+}

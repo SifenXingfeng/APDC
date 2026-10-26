@@ -1,0 +1,61 @@
+state = {
+	id = 750
+	name = "STATE_750"
+	resources = {
+		tungsten = 28
+		chromium = 16
+		steel = 31
+	}
+	provinces = {
+		101
+		148
+		3003
+		3054
+		3062
+		3095
+		3104
+		3179
+		6024
+		6074
+		6083
+		6125
+		6165
+		6206
+		9108
+		9147
+		9186
+		9211
+		9226
+		11073
+		11102
+		11112
+		11152
+		11155
+		11190
+		13119
+		18358
+		18362
+		18370
+		18371
+		18373
+		18378
+	}
+	manpower = 62884
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = NOR
+		add_core_of = ZZZ
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			9108 = {
+				naval_base = 2
+			}
+		}
+	}
+}

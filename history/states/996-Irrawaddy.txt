@@ -1,0 +1,52 @@
+state = {
+	id = 996
+	name = "STATE_996"
+	state_category = rural
+	manpower = 1662669
+	history = {
+		owner = BRM
+		controller = BRM
+		add_core_of = BRM
+		victory_points = {
+			7254
+			1
+		}
+		victory_points = {
+			7382
+			2
+		}
+		victory_points = {
+			12267
+			2
+		}
+		victory_points = {
+			19036
+			3
+		}
+		victory_points = {
+			19107
+			1
+		}
+		victory_points = {
+			19132
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		7254
+		7382
+		10223
+		12267
+		12284
+		19024
+		19036
+		19107
+		19132
+	}
+	local_supplies = 0.000
+	buildings_max_level_factor = 1.000
+}

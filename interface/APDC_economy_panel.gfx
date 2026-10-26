@@ -1,0 +1,127 @@
+spriteTypes = {
+spriteType = {
+name = "GFX_APDC_eco_panel" texturefile = "gfx/interface/APDC/economy/panel.png" noOfFrames = 1
+}
+spriteType = {
+name = "GFX_APDC_eco_tray" texturefile = "gfx/interface/APDC/economy/tray.png" noOfFrames = 3
+}
+spriteType = {
+name = "GFX_APDC_eco_welfare" texturefile = "gfx/interface/APDC/economy/welfare.png" noOfFrames = 3
+}
+spriteType = {
+name = "GFX_APDC_eco_construction" texturefile = "gfx/interface/APDC/economy/construction.png" noOfFrames = 3
+}
+spriteType = {
+name = "GFX_APDC_eco_eq_row" texturefile = "gfx/interface/APDC/economy/eq_row.png" noOfFrames = 1
+}
+spriteType = {
+name = "GFX_APDC_eco_eq_progress" texturefile = "gfx/interface/APDC/economy/eq_progress.png" noOfFrames = 1
+}
+spriteType = {
+name = "GFX_APDC_eco_buy" texturefile = "gfx/interface/APDC/economy/buy.png" noOfFrames = 1
+}
+spriteType = {
+name = "GFX_APDC_eco_direction" texturefile = "gfx/interface/APDC/economy/direction.png" noOfFrames = 3
+}
+spriteType = {
+name = "GFX_APDC_eco_trade_menu" texturefile = "gfx/interface/APDC/economy/trade_menu.png" noOfFrames = 1
+}
+spriteType = {
+name = "GFX_APDC_eco_trade_toggle" texturefile = "gfx/interface/APDC/economy/trade_toggle.png" noOfFrames = 2
+}
+corneredTileSpriteType = {
+name = "GFX_APDC_eco_button_quantity" texturefile = "gfx/interface/standard_button_88.dds" size = { x = 108 y = 32 } borderSize = { x = 8 y = 8 }
+}
+corneredTileSpriteType = {
+name = "GFX_APDC_eco_button_maximum" texturefile = "gfx/interface/standard_button_88.dds" size = { x = 145 y = 30 } borderSize = { x = 8 y = 8 }
+}
+corneredTileSpriteType = {
+name = "GFX_APDC_eco_button_accept" texturefile = "gfx/interface/standard_button_88.dds" size = { x = 185 y = 42 } borderSize = { x = 8 y = 8 }
+}
+spriteType = {
+name = "GFX_APDC_ruble_texticon" texturefile = "gfx/interface/APDC/economy/ruble.tga" legacy_lazy_load = no noOfFrames = 1
+}
+spriteType = {
+name = "GFX_APDC_eco_hitbox" texturefile = "gfx/interface/APDC/economy/hitbox.tga" noOfFrames = 1
+}
+
+spriteType = {
+name = "GFX_APDC_eco_allocation_hitbox" texturefile = "gfx/interface/APDC/economy/allocation_hitbox.tga" noOfFrames = 1
+}
+spriteType = {
+name = "GFX_APDC_eco_trade_hitbox" texturefile = "gfx/interface/APDC/economy/trade_hitbox.tga" noOfFrames = 1
+}
+spriteType = {
+name = "GFX_APDC_eco_cash_hitbox" texturefile = "gfx/interface/APDC/economy/cash_hitbox.tga" noOfFrames = 1
+}
+spriteType = {
+name = "GFX_APDC_eco_weekly_hitbox" texturefile = "gfx/interface/APDC/economy/weekly_hitbox.tga" noOfFrames = 1
+}
+spriteType = {
+name = "GFX_APDC_eco_weekly_change_hitbox" texturefile = "gfx/interface/APDC/economy/weekly_change_hitbox.tga" noOfFrames = 1
+}
+spriteType = {
+name = "GFX_APDC_eco_domestic_hitbox" texturefile = "gfx/interface/APDC/economy/domestic_hitbox.tga" noOfFrames = 1
+}
+spriteType = {
+name = "GFX_APDC_eco_distribution_hitbox" texturefile = "gfx/interface/APDC/economy/distribution_hitbox.tga" noOfFrames = 1
+}
+spriteType = {
+name = "GFX_APDC_eco_build_hitbox" texturefile = "gfx/interface/APDC/economy/build_hitbox.tga" noOfFrames = 1
+}
+spriteType = {
+name = "GFX_APDC_eco_welfare_0" texturefile = "gfx/interface/APDC/economy/welfare_0.png" noOfFrames = 120
+}
+spriteType = {
+name = "GFX_APDC_eco_welfare_1" texturefile = "gfx/interface/APDC/economy/welfare_1.png" noOfFrames = 120
+}
+spriteType = {
+name = "GFX_APDC_eco_construction_0" texturefile = "gfx/interface/APDC/economy/construction_0.png" noOfFrames = 114
+}
+spriteType = {
+name = "GFX_APDC_eco_construction_1" texturefile = "gfx/interface/APDC/economy/construction_1.png" noOfFrames = 114
+}
+spriteType = {
+name = "GFX_APDC_eco_construction_2" texturefile = "gfx/interface/APDC/economy/construction_2.png" noOfFrames = 114
+}
+spriteType = {
+name = "GFX_APDC_eco_construction_3" texturefile = "gfx/interface/APDC/economy/construction_3.png" noOfFrames = 114
+}
+spriteType = {
+name = "GFX_APDC_eco_construction_4" texturefile = "gfx/interface/APDC/economy/construction_4.png" noOfFrames = 114
+}
+spriteType = {
+name = "GFX_APDC_eco_construction_5" texturefile = "gfx/interface/APDC/economy/construction_5.png" noOfFrames = 114
+}
+spriteType = {
+name = "GFX_APDC_eco_construction_6" texturefile = "gfx/interface/APDC/economy/construction_6.png" noOfFrames = 114
+}
+spriteType = {
+name = "GFX_APDC_eco_construction_7" texturefile = "gfx/interface/APDC/economy/construction_7.png" noOfFrames = 114
+}
+spriteType = {
+name = "GFX_APDC_eco_construction_8" texturefile = "gfx/interface/APDC/economy/construction_8.png" noOfFrames = 114
+}
+spriteType = {
+name = "GFX_APDC_eco_eqp_0" texturefile = "gfx/interface/APDC/economy/eqp_0.png" noOfFrames = 38
+}
+spriteType = {
+name = "GFX_APDC_eco_eqp_1" texturefile = "gfx/interface/APDC/economy/eqp_1.png" noOfFrames = 38
+}
+spriteType = {
+name = "GFX_APDC_eco_eqp_2" texturefile = "gfx/interface/APDC/economy/eqp_2.png" noOfFrames = 38
+}
+spriteType = {
+name = "GFX_APDC_eco_eqp_3" texturefile = "gfx/interface/APDC/economy/eqp_3.png" noOfFrames = 38
+}
+spriteType = {
+name = "GFX_APDC_eco_eqp_4" texturefile = "gfx/interface/APDC/economy/eqp_4.png" noOfFrames = 38
+}
+spriteType = {
+name = "GFX_APDC_eco_eqp_5" texturefile = "gfx/interface/APDC/economy/eqp_5.png" noOfFrames = 38
+}
+spriteType = {
+name = "GFX_APDC_eco_eqp_6" texturefile = "gfx/interface/APDC/economy/eqp_6.png" noOfFrames = 38
+}
+
+}

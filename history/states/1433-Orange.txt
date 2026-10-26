@@ -1,0 +1,70 @@
+state = {
+	id = 1433
+	name = "STATE_1433"
+	provinces = {
+		5231
+		12064
+		13510
+		13520
+		13523
+		13524
+		13529
+		13533
+		13534
+		13539
+		15364
+		15366
+		15367
+		15368
+		15369
+		15370
+		15371
+		17841
+	}
+	manpower = 946379
+	resources = {
+		chromium = 14
+		coal = 4
+		steel = 3
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = city
+	history = {
+		owner = SAF
+		controller = SAF
+		add_core_of = SAF
+		victory_points = {
+			12064
+			2
+		}
+		victory_points = {
+			13523
+			5
+		}
+		victory_points = {
+			13524
+			2
+		}
+		victory_points = {
+			13529
+			2
+		}
+		victory_points = {
+			13533
+			2
+		}
+		victory_points = {
+			13534
+			1
+		}
+		victory_points = {
+			15371
+			1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		set_state_flag = state_renamings
+	}
+}

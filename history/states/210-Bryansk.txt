@@ -1,0 +1,29 @@
+state = {
+	id = 210
+	name = "STATE_210"
+	provinces = {
+		207
+		1181
+		6242
+		9254
+		9331
+		9353
+		9386
+		11259
+		11304
+		18288
+	}
+	manpower = 518833
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 3
+		}
+		set_state_flag = GDP_regions_luki
+	}
+}

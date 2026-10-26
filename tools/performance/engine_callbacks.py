@@ -1,0 +1,69 @@
+"""Read-only checks for engine entry points with no scripted call sites.
+
+These roots must not be pruned using a text-reference dependency graph alone.
+The native game documents the DIPLOMACY_* and is_diplomatic_action_valid_*
+name families; hoi4.exe also contains the resistance and crypto hook names.
+"""
+from pathlib import Path
+import sys
+
+ROOT = Path(__file__).resolve().parents[2]
+GAME = Path('D:/SteamLibrary/steamapps/common/Hearts of Iron IV')
+sys.path.insert(0, str(ROOT / 'tools/unit_overhaul'))
+from cw import parse, walk
+
+REQUIRED = {
+    'should_initiate_resistance',
+    'should_activate_active_crypto_bonuses',
+    'should_not_activate_active_crypto_bonuses',
+    'is_diplomatic_action_valid_stage_coup',
+    'is_diplomatic_action_valid_boost_party_popularity',
+    *('DIPLOMACY_' + key for key in [
+        'GUARANTEE_ENABLE_TRIGGER_OVERRIDES_GAME_TRIGGER',
+        'GUARANTEE_ENABLE_TRIGGER', 'REVOKE_GUARANTEE_ENABLE_TRIGGER',
+        'RELEASE_NATION_ENABLE_TRIGGER', 'MILACC_ENABLE_TRIGGER',
+        'OFFER_MILACC_ENABLE_TRIGGER', 'DOCKING_RIGHTS_ENABLE_TRIGGER',
+        'OFFER_DOCKING_RIGHTS_ENABLE_TRIGGER', 'LEND_LEASE_ENABLE_TRIGGER',
+        'INCOMING_LEND_LEASE_ENABLE_TRIGGER',
+        'REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER',
+        'GENERATE_WARGOAL_ENABLE_TRIGGER',
+        'BOOST_PARTY_POPULARITY_ENABLE_TRIGGER', 'STAGE_COUP_ENABLE_TRIGGER',
+        'LEAVE_FACTION_ENABLE_TRIGGER', 'ASSUME_FACTION_LEADERSHIP_ENABLE_TRIGGER',
+        'KICK_FROM_FACTION_ENABLE_TRIGGER', 'SEND_VOLUNTEERS_ENABLE_TRIGGER',
+        'JOIN_ALLY_ENABLE_TRIGGER', 'CALL_ALLY_ENABLE_TRIGGER',
+    ]),
+}
+REQUIRED_HELPERS = {'has_war_with_non_exiled_country'}
+
+
+def audit():
+    sources = {p.name: p for p in (GAME / 'common/scripted_triggers').glob('*.txt')}
+    sources.update({p.name: p for p in (ROOT / 'common/scripted_triggers').glob('*.txt')})
+    definitions = {}
+    for path in sources.values():
+        for node in parse(path.read_text('utf-8-sig')):
+            if node.key in REQUIRED | REQUIRED_HELPERS:
+                definitions.setdefault(node.key, []).append((path, node))
+    errors = []
+    for key in sorted(REQUIRED | REQUIRED_HELPERS):
+        found = definitions.get(key, [])
+        if len(found) != 1:
+            errors.append({'hook': key, 'problem': 'expected one effective definition',
+                           'files': [str(p) for p, _ in found]})
+        elif not found[0][1].children:
+            errors.append({'hook': key, 'problem': 'empty engine callback'})
+    found = definitions.get('should_initiate_resistance', [])
+    if len(found) == 1:
+        node = found[0][1]
+        if not any(n.key == 'NOT' and any(c.key == 'is_core_of' and c.value == 'FROM'
+                                         for c in n.children) for n in walk(node.children)):
+            errors.append({'hook': node.key, 'problem': 'missing occupier-core exclusion'})
+    return {'required_callbacks': len(REQUIRED), 'required_helpers': len(REQUIRED_HELPERS), 'errors': errors,
+            'limitations': 'Presence and core-exclusion checks; not a substitute for engine behavior tests.'}
+
+
+if __name__ == '__main__':
+    import json
+    report = audit()
+    print(json.dumps(report, indent=2))
+    raise SystemExit(bool(report['errors']))

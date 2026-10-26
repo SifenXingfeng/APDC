@@ -1,0 +1,26 @@
+state = {
+	id = 1471
+	name = "STATE_1471"
+	provinces = {
+		7123
+	}
+	manpower = 4280
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = tiny_island
+	history = {
+		owner = DMA
+		controller = DMA
+		add_core_of = DMA
+		buildings = {
+			infrastructure = 2
+			7123 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			7123
+			1
+		}
+	}
+}

@@ -1,0 +1,42 @@
+state = {
+	id = 85
+	name = "STATE_85"
+	provinces = {
+		9306
+		9361
+		11288
+		11316
+		11343
+		11372
+	}
+	manpower = 481893
+	resources = {
+		aluminium = 3
+		steel = 3
+	}
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = GER
+		add_core_of = ZZZ
+		victory_points = {
+			9361
+			1
+		}
+		victory_points = {
+			11372
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			11372 = {
+				naval_base = 1
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+state = {
+	id = 540
+	name = "STATE_540"
+	manpower = 1600000
+	state_category = rural
+
+	history = {
+
+		owner = POR
+		add_core_of = ANG
+
+		buildings = {
+			infrastructure = 1
+			8248 = {
+				naval_base = 1
+			}
+		}
+
+		victory_points = {
+			8248 1 # Luanda
+		}
+
+	}
+
+	provinces = {
+		2126 5158 7548 8219 8248 12981 13371 13373 13801 13829 13832 13835 13839 13841 13848 13856 13863 13868 14414 17925 17926 17927 17928 17929 
+	}
+
+	buildings_max_level_factor = 1.000
+	
+	local_supplies = 0.000
+}

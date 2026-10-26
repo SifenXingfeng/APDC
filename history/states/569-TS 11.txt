@@ -1,0 +1,56 @@
+state = {
+	id = 569
+	name = "STATE_569"
+	resources = {
+		coal = 12
+	}
+	provinces = {
+		1369
+		1685
+		4665
+		4789
+		4793
+		5514
+		7757
+		7886
+		10580
+		10649
+		12631
+		14952
+		15000
+		18705
+	}
+	manpower = 1154869
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		victory_points = {
+			1369
+			3
+		}
+		victory_points = {
+			1685
+			1
+		}
+		victory_points = {
+			4665
+			1
+		}
+		victory_points = {
+			7757
+			3
+		}
+		victory_points = {
+			10580
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+}

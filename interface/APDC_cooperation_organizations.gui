@@ -8,10 +8,11 @@ guiTypes = {
 
 		iconType = {
 			name = "APDC_cooperation_organization_chair_flag"
-			# Plain masked flags use their center as the GUI origin.  These
-			# coordinates preserve the original 82x52 flag rectangle at 106,37.
+			# Keep the center origin explicit when the masked shield has an overlay.
+			# These coordinates preserve the original 82x52 rectangle at 106,37.
 			position = { x = 147 y = 63 }
 			quadTextureSprite = "GFX_APDC_cooperation_organization_flag_medium_unfiltered"
+			centerposition = yes
 			alwaystransparent = yes
 		}
 		iconType = {
@@ -60,6 +61,7 @@ guiTypes = {
 			# Preserve the original 41x26 flag rectangle at 12,2.
 			position = { x = 33 y = 15 }
 			quadTextureSprite = "GFX_APDC_cooperation_organization_flag_small_unfiltered"
+			centerposition = yes
 			alwaystransparent = yes
 		}
 		iconType = {
@@ -101,6 +103,7 @@ guiTypes = {
 			name = "APDC_diplomacy_cooperation_organization_member_flag"
 			position = { x = 33 y = 23 }
 			quadTextureSprite = "GFX_APDC_cooperation_organization_flag_small_unfiltered"
+			centerposition = yes
 			alwaystransparent = yes
 		}
 		iconType = {
@@ -143,26 +146,26 @@ guiTypes = {
 		iconType = { name = "APDC_cooperation_law_option_1_available" position = { x = 236 y = 7 } spriteType = "GFX_APDC_cooperation_law_option_available" alwaystransparent = yes }
 		iconType = { name = "APDC_cooperation_law_option_1_selected" position = { x = 236 y = 7 } spriteType = "GFX_APDC_cooperation_law_option_selected" alwaystransparent = yes }
 		iconType = { name = "APDC_cooperation_law_option_1_unavailable" position = { x = 236 y = 7 } spriteType = "GFX_APDC_cooperation_law_option_unavailable" alwaystransparent = yes }
+		buttonType = { name = "APDC_cooperation_law_option_1_button" position = { x = 236 y = 7 } size = { x = 160 y = 36 } spriteType = "GFX_APDC_cooperation_law_option_feedback" clicksound = click_default pdx_tooltip = "APDC_COOPERATION_LAW_OPTION_1_TOOLTIP" }
 		instantTextboxType = { name = "APDC_cooperation_law_option_1_name" position = { x = 236 y = 8 } font = "vic_18_black" text = "APDC_COOPERATION_LAW_OPTION_1_NAME" maxWidth = 160 maxHeight = 28 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes }
-		buttonType = { name = "APDC_cooperation_law_option_1_button" position = { x = 236 y = 7 } size = { x = 160 y = 36 } spriteType = "GFX_APDC_cooperation_law_option_hitbox" clicksound = click_default pdx_tooltip = "APDC_COOPERATION_LAW_OPTION_1_TOOLTIP" }
 
 		iconType = { name = "APDC_cooperation_law_option_2_available" position = { x = 426 y = 7 } spriteType = "GFX_APDC_cooperation_law_option_available" alwaystransparent = yes }
 		iconType = { name = "APDC_cooperation_law_option_2_selected" position = { x = 426 y = 7 } spriteType = "GFX_APDC_cooperation_law_option_selected" alwaystransparent = yes }
 		iconType = { name = "APDC_cooperation_law_option_2_unavailable" position = { x = 426 y = 7 } spriteType = "GFX_APDC_cooperation_law_option_unavailable" alwaystransparent = yes }
+		buttonType = { name = "APDC_cooperation_law_option_2_button" position = { x = 426 y = 7 } size = { x = 160 y = 36 } spriteType = "GFX_APDC_cooperation_law_option_feedback" clicksound = click_default pdx_tooltip = "APDC_COOPERATION_LAW_OPTION_2_TOOLTIP" }
 		instantTextboxType = { name = "APDC_cooperation_law_option_2_name" position = { x = 426 y = 8 } font = "vic_18_black" text = "APDC_COOPERATION_LAW_OPTION_2_NAME" maxWidth = 160 maxHeight = 28 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes }
-		buttonType = { name = "APDC_cooperation_law_option_2_button" position = { x = 426 y = 7 } size = { x = 160 y = 36 } spriteType = "GFX_APDC_cooperation_law_option_hitbox" clicksound = click_default pdx_tooltip = "APDC_COOPERATION_LAW_OPTION_2_TOOLTIP" }
 
 		iconType = { name = "APDC_cooperation_law_option_3_available" position = { x = 616 y = 7 } spriteType = "GFX_APDC_cooperation_law_option_available" alwaystransparent = yes }
 		iconType = { name = "APDC_cooperation_law_option_3_selected" position = { x = 616 y = 7 } spriteType = "GFX_APDC_cooperation_law_option_selected" alwaystransparent = yes }
 		iconType = { name = "APDC_cooperation_law_option_3_unavailable" position = { x = 616 y = 7 } spriteType = "GFX_APDC_cooperation_law_option_unavailable" alwaystransparent = yes }
+		buttonType = { name = "APDC_cooperation_law_option_3_button" position = { x = 616 y = 7 } size = { x = 160 y = 36 } spriteType = "GFX_APDC_cooperation_law_option_feedback" clicksound = click_default pdx_tooltip = "APDC_COOPERATION_LAW_OPTION_3_TOOLTIP" }
 		instantTextboxType = { name = "APDC_cooperation_law_option_3_name" position = { x = 616 y = 8 } font = "vic_18_black" text = "APDC_COOPERATION_LAW_OPTION_3_NAME" maxWidth = 160 maxHeight = 28 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes }
-		buttonType = { name = "APDC_cooperation_law_option_3_button" position = { x = 616 y = 7 } size = { x = 160 y = 36 } spriteType = "GFX_APDC_cooperation_law_option_hitbox" clicksound = click_default pdx_tooltip = "APDC_COOPERATION_LAW_OPTION_3_TOOLTIP" }
 
 		iconType = { name = "APDC_cooperation_law_option_4_available" position = { x = 806 y = 7 } spriteType = "GFX_APDC_cooperation_law_option_available" alwaystransparent = yes }
 		iconType = { name = "APDC_cooperation_law_option_4_selected" position = { x = 806 y = 7 } spriteType = "GFX_APDC_cooperation_law_option_selected" alwaystransparent = yes }
 		iconType = { name = "APDC_cooperation_law_option_4_unavailable" position = { x = 806 y = 7 } spriteType = "GFX_APDC_cooperation_law_option_unavailable" alwaystransparent = yes }
+		buttonType = { name = "APDC_cooperation_law_option_4_button" position = { x = 806 y = 7 } size = { x = 160 y = 36 } spriteType = "GFX_APDC_cooperation_law_option_feedback" clicksound = click_default pdx_tooltip = "APDC_COOPERATION_LAW_OPTION_4_TOOLTIP" }
 		instantTextboxType = { name = "APDC_cooperation_law_option_4_name" position = { x = 806 y = 8 } font = "vic_18_black" text = "APDC_COOPERATION_LAW_OPTION_4_NAME" maxWidth = 160 maxHeight = 28 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes }
-		buttonType = { name = "APDC_cooperation_law_option_4_button" position = { x = 806 y = 7 } size = { x = 160 y = 36 } spriteType = "GFX_APDC_cooperation_law_option_hitbox" clicksound = click_default pdx_tooltip = "APDC_COOPERATION_LAW_OPTION_4_TOOLTIP" }
 	}
 
 	containerWindowType = {
@@ -178,7 +181,7 @@ guiTypes = {
 		name = "APDC_cooperation_vote_member_entry"
 		size = { width = 47 height = 34 }
 		clipping = no
-		iconType = { name = "APDC_cooperation_vote_member_flag" position = { x = 24 y = 17 } quadTextureSprite = "GFX_APDC_cooperation_organization_flag_small_unfiltered" alwaystransparent = yes }
+		iconType = { name = "APDC_cooperation_vote_member_flag" position = { x = 24 y = 17 } quadTextureSprite = "GFX_APDC_cooperation_organization_flag_small_unfiltered" centerposition = yes alwaystransparent = yes }
 		iconType = { name = "APDC_cooperation_vote_member_frame" position = { x = 1 y = 2 } spriteType = "GFX_APDC_cooperation_organization_member_frame" alwaystransparent = yes }
 		iconType = { name = "APDC_cooperation_vote_player_member_frame" position = { x = 1 y = 2 } spriteType = "GFX_APDC_cooperation_organization_player_member_frame" alwaystransparent = yes }
 		buttonType = { name = "APDC_cooperation_vote_member_tooltip" position = { x = 1 y = 2 } size = { x = 45 y = 30 } spriteType = "GFX_APDC_cooperation_organization_member_hitbox" pdx_tooltip = "APDC_COOPERATION_ORGANIZATION_MEMBER_TOOLTIP" }
@@ -525,9 +528,9 @@ guiTypes = {
 
 		buttonType = {
 			name = "APDC_cooperation_organization_panel_close"
-			position = { x = -50 y = 12 }
-			quadTextureSprite = "GFX_closebutton"
-			Orientation = "UPPER_RIGHT"
+			position = { x = 12 y = 11 }
+			size = { x = 96 y = 47 }
+			spriteType = "GFX_APDC_custom_panel_exit"
 			shortcut = "ESCAPE"
 			clicksound = click_close
 			pdx_tooltip = "APDC_COOPERATION_ORGANIZATION_PANEL_CLOSE_TOOLTIP"

@@ -1,0 +1,20 @@
+--- before/interface/core.gui
++++ current/interface/core.gui
+@@ -1,7 +1,7 @@
+ guiTypes = {
+ 	windowType = {
+ 		name = "console_wnd"
+-		backGround =""
++		
+ 		position = { x=5 y=100 }
+ 		size = { x=473 y=400 }
+ 		moveable = 0
+@@ -40,7 +40,7 @@
+ 	
+ 	windowType = {
+ 		name = "console_entry_wnd"
+-		backGround =""
++		
+ 		position = { x=0 y=0 }
+ 		size = { x=500 y=16 }
+ 		moveable = 0

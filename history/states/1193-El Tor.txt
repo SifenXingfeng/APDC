@@ -1,0 +1,21 @@
+state = {
+	id = 1193
+	name = "STATE_1193"
+	provinces = {
+		10099
+		18587
+	}
+	manpower = 2793
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = wasteland
+	history = {
+		owner = ISR
+		controller = ISR
+		add_core_of = EGY
+		add_core_of = ISR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

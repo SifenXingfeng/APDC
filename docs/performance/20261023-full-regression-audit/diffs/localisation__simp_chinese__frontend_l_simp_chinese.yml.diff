@@ -1,0 +1,18 @@
+--- before/localisation/simp_chinese/frontend_l_simp_chinese.yml
++++ current/localisation/simp_chinese/frontend_l_simp_chinese.yml
+@@ -131,15 +131,10 @@
+  FE_DIFFICULTY_CUSTOM: "配置自定义游戏规则。"
+  FE_DIFFICULTY_CUSTOM_BTN: "自定义游戏规则"
+  FE_DIFFICULTY: "难度"
+- FE_DIFFICULTY_VERY_EASY: "平民"
+  FE_DIFFICULTY_VERY_EASY_TOOLTIP: "§L“别一脸苦瓜地看着我，我已经走出来了，只是她在我眼前碎裂的一幕还时不时重映一遍”§!"
+- FE_DIFFICULTY_EASY: "新兵"
+  FE_DIFFICULTY_EASY_TOOLTIP: "§L“不论是悲伤还是痛苦，亦或者这场无休无止的雨，都总有一天会停下的。”§!"
+- FE_DIFFICULTY_NORMAL: "正规兵"
+  FE_DIFFICULTY_NORMAL_TOOLTIP: "§L“到那时，我们会和您一起，开始没有软肋的复仇。”§!"
+- FE_DIFFICULTY_HARD: "老兵"
+  FE_DIFFICULTY_HARD_TOOLTIP: "§L“杰罗尼莫！行动，开始。”§!"
+- FE_DIFFICULTY_VERY_HARD: "王牌"
+  FE_DIFFICULTY_VERY_HARD_TOOLTIP: "§L“可惜了……明明我还有更多的计划呢。”§!"
+  FE_DIFFICULTY_UNKNOWN: "隐藏难度"
+  FE_DIFFICULTY_MODIFIER_PLAYER_TOOLTIP: "\n\n玩家：\n$PLAYERMOD$"

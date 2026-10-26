@@ -1,0 +1,6 @@
+APDC_eco_allocation = {
+enable = { has_country_flag = APDC_eco_initialized }
+civilian_factory_use = APDC_eco_public_civ
+consumer_goods_expected_value = -1
+
+}

@@ -1,36 +1,43 @@
 state = {
 	id = 212
 	name = "STATE_212"
+	manpower = 1814936
+	state_category = large_town
 	resources = {
-		chromium = 6.000
+		chromium = 1
+		coal = 2
 	}
-
 	history = {
 		owner = BUL
+		controller = BUL
+		add_core_of = BUL
 		victory_points = {
-			6923 15
-		}
-		victory_points = {
-			3937 5
-		}
-		victory_points = {
-			9818 2
+			6923
+			3
 		}
 		buildings = {
-			infrastructure = 5
+			infrastructure = 2
+			arms_factory = 3
+			industrial_complex = 2
 			air_base = 2
-			radar_station = 1
-			
 		}
-		add_core_of = BUL
 		set_state_flag = GDP_category_town
 	}
-
 	provinces = {
-		3937 6923 6982 9818 11813 18189 18196
+		878
+		893
+		3937
+		6857
+		6923
+		6952
+		6982
+		9818
+		9862
+		11813
+		18170
+		18189
+		18196
+		18211
 	}
-	manpower = 1103163
-	buildings_max_level_factor = 1.000
-	state_category = city
-	local_supplies = 0.000
+	local_supplies = 5.0
 }

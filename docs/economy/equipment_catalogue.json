@@ -1,0 +1,2571 @@
+[
+  {
+    "id": "amphibious_mechanized_equipment_1",
+    "family": "amphibious_mechanized_equipment",
+    "cost": 8.0,
+    "priority": 40.0,
+    "year": 2000.0,
+    "techs": [
+      "amphibious_mechanized2",
+      "amphibious_mechanized3",
+      "amphibious_mechanized"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_motorized_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 1
+  },
+  {
+    "id": "amphibious_tank_equipment_1",
+    "family": "amphibious_tank_chassis",
+    "cost": 12.0,
+    "priority": 10.0,
+    "year": 2000.0,
+    "techs": [
+      "amphibious_tank"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_amphibious_tank_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 2
+  },
+  {
+    "id": "amphibious_tank_equipment_2",
+    "family": "amphibious_tank_chassis",
+    "cost": 15.0,
+    "priority": 10.0,
+    "year": 2065.0,
+    "techs": [
+      "amphibious_tank2"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_amphibious_tank_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 3
+  },
+  {
+    "id": "amphibious_tank_equipment_3",
+    "family": "amphibious_tank_chassis",
+    "cost": 17.0,
+    "priority": 10.0,
+    "year": 2075.0,
+    "techs": [
+      "amphibious_tank3"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_amphibious_tank_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 4
+  },
+  {
+    "id": "apdc_aa02_equipment_1",
+    "family": "apdc_aa02_equipment",
+    "cost": 28.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_aa02",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 6
+  },
+  {
+    "id": "apdc_airborne_ifv_equipment_1",
+    "family": "apdc_airborne_ifv_equipment",
+    "cost": 12.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_airborne_ifv",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 7
+  },
+  {
+    "id": "apdc_airborne_tank_equipment_1",
+    "family": "apdc_airborne_tank_equipment",
+    "cost": 16.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_airborne_tank",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 8
+  },
+  {
+    "id": "apdc_amphib_mech_equipment_1",
+    "family": "apdc_amphib_mech_equipment",
+    "cost": 15.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_amphib_mech",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 9
+  },
+  {
+    "id": "apdc_amphib_tank_equipment_1",
+    "family": "apdc_amphib_tank_equipment",
+    "cost": 20.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_amphib_tank",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 10
+  },
+  {
+    "id": "apdc_atgm_equipment_1",
+    "family": "apdc_atgm_equipment",
+    "cost": 14.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_atgm",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 11
+  },
+  {
+    "id": "apdc_attack_helo_equipment_1",
+    "family": "apdc_attack_helo_equipment",
+    "cost": 28.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_attack_helo",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 12
+  },
+  {
+    "id": "apdc_basic_robot_equipment_1",
+    "family": "apdc_basic_robot_equipment",
+    "cost": 4.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_basic_robot",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 13
+  },
+  {
+    "id": "apdc_doll_equipment_1",
+    "family": "apdc_doll_equipment",
+    "cost": 5.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_doll",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 14
+  },
+  {
+    "id": "apdc_doomsday_dog_equipment_1",
+    "family": "apdc_doomsday_dog_equipment",
+    "cost": 100.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_doomsday_dog",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 15
+  },
+  {
+    "id": "apdc_engineer_vehicle_equipment_1",
+    "family": "apdc_engineer_vehicle_equipment",
+    "cost": 14.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_engineer_vehicle",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 16
+  },
+  {
+    "id": "apdc_goliath_equipment_1",
+    "family": "apdc_goliath_equipment",
+    "cost": 8.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_goliath",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 17
+  },
+  {
+    "id": "apdc_heavy_weapons_equipment_1",
+    "family": "apdc_heavy_weapons_equipment",
+    "cost": 1.5,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_heavy_weapons",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 18
+  },
+  {
+    "id": "apdc_hovercraft_equipment_1",
+    "family": "apdc_hovercraft_equipment",
+    "cost": 15.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_hovercraft",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 19
+  },
+  {
+    "id": "apdc_light_tank_equipment_1",
+    "family": "apdc_light_tank_equipment",
+    "cost": 15.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_light_tank",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 20
+  },
+  {
+    "id": "apdc_mbt_equipment_1",
+    "family": "apdc_mbt_equipment",
+    "cost": 28.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_mbt",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 21
+  },
+  {
+    "id": "apdc_missile_equipment_1",
+    "family": "apdc_missile_equipment",
+    "cost": 35.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_missile",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 22
+  },
+  {
+    "id": "apdc_mlrs_equipment_1",
+    "family": "apdc_mlrs_equipment",
+    "cost": 15.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_mlrs",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 23
+  },
+  {
+    "id": "apdc_mortar_equipment_1",
+    "family": "apdc_mortar_equipment",
+    "cost": 9.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_mortar",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 24
+  },
+  {
+    "id": "apdc_multipod_art_equipment_1",
+    "family": "apdc_multipod_art_equipment",
+    "cost": 18.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_multipod_art",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 25
+  },
+  {
+    "id": "apdc_multipod_equipment_1",
+    "family": "apdc_multipod_equipment",
+    "cost": 13.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_multipod",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 26
+  },
+  {
+    "id": "apdc_nyto_equipment_1",
+    "family": "apdc_nyto_equipment",
+    "cost": 30.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_nyto",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 27
+  },
+  {
+    "id": "apdc_spaag_equipment_1",
+    "family": "apdc_spaag_equipment",
+    "cost": 18.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_spaag",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 28
+  },
+  {
+    "id": "apdc_spg_equipment_1",
+    "family": "apdc_spg_equipment",
+    "cost": 20.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_spg",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 29
+  },
+  {
+    "id": "apdc_tank_support_equipment_1",
+    "family": "apdc_tank_support_equipment",
+    "cost": 27.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_tank_support",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 30
+  },
+  {
+    "id": "apdc_towed_gun_equipment_1",
+    "family": "apdc_towed_gun_equipment",
+    "cost": 4.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_towed_gun",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 31
+  },
+  {
+    "id": "apdc_tracked_mech_equipment_1",
+    "family": "apdc_tracked_mech_equipment",
+    "cost": 13.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_tracked_mech",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 32
+  },
+  {
+    "id": "apdc_transport_helo_equipment_1",
+    "family": "apdc_transport_helo_equipment",
+    "cost": 18.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_transport_helo",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 33
+  },
+  {
+    "id": "apdc_truck_art_equipment_1",
+    "family": "apdc_truck_art_equipment",
+    "cost": 10.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_truck_art",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 34
+  },
+  {
+    "id": "apdc_uav_equipment_1",
+    "family": "apdc_uav_equipment",
+    "cost": 3.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_uav",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 35
+  },
+  {
+    "id": "apdc_wheeled_mech_equipment_1",
+    "family": "apdc_wheeled_mech_equipment",
+    "cost": 10.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "apdc_eq_wheeled_mech",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 36
+  },
+  {
+    "id": "gw_armored_car_equipment",
+    "family": "armored_car_equipment",
+    "cost": 3.5,
+    "priority": 5.0,
+    "year": 2000.0,
+    "techs": [
+      "armored_car1"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_armored_car_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 37
+  },
+  {
+    "id": "armored_car_equipment_1",
+    "family": "armored_car_equipment",
+    "cost": 4.0,
+    "priority": 10.0,
+    "year": 2050.0,
+    "techs": [
+      "armored_car2"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_armored_car_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 38
+  },
+  {
+    "id": "armored_car_equipment_2",
+    "family": "armored_car_equipment",
+    "cost": 5.0,
+    "priority": 10.0,
+    "year": 2060.0,
+    "techs": [
+      "armored_car3"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_armored_car_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 39
+  },
+  {
+    "id": "infantry_fighting_vehicle_equipment_2",
+    "family": "armored_car_equipment",
+    "cost": 6.5,
+    "priority": 10.0,
+    "year": 2060.0,
+    "techs": [
+      "infantry_fighting_vehicle3"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_armored_car_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 40
+  },
+  {
+    "id": "armored_car_equipment_3",
+    "family": "armored_car_equipment",
+    "cost": 5.5,
+    "priority": 10.0,
+    "year": 2065.0,
+    "techs": [
+      "armored_car4"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_armored_car_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 41
+  },
+  {
+    "id": "armored_car_equipment_4",
+    "family": "armored_car_equipment",
+    "cost": 6.5,
+    "priority": 10.0,
+    "year": 2070.0,
+    "techs": [
+      "armored_car5"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_armored_car_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 42
+  },
+  {
+    "id": "armored_car_equipment_5",
+    "family": "armored_car_equipment",
+    "cost": 7.0,
+    "priority": 10.0,
+    "year": 2075.0,
+    "techs": [
+      "armored_car6"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_armored_car_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 43
+  },
+  {
+    "id": "artillery_equipment_1",
+    "family": "artillery_equipment",
+    "cost": 3.5,
+    "priority": 50.0,
+    "year": 2000.0,
+    "techs": [
+      "artillery1"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_artillery_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 44
+  },
+  {
+    "id": "artillery_equipment_2",
+    "family": "artillery_equipment",
+    "cost": 4.0,
+    "priority": 50.0,
+    "year": 2050.0,
+    "techs": [
+      "artillery2"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_artillery_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 45
+  },
+  {
+    "id": "artillery_equipment_3",
+    "family": "artillery_equipment",
+    "cost": 4.5,
+    "priority": 50.0,
+    "year": 2060.0,
+    "techs": [
+      "artillery3"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_artillery_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 46
+  },
+  {
+    "id": "artillery_equipment_4",
+    "family": "artillery_equipment",
+    "cost": 5.0,
+    "priority": 50.0,
+    "year": 2065.0,
+    "techs": [
+      "artillery4"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_artillery_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 47
+  },
+  {
+    "id": "artillery_equipment_5",
+    "family": "artillery_equipment",
+    "cost": 5.5,
+    "priority": 50.0,
+    "year": 2070.0,
+    "techs": [
+      "artillery5"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_artillery_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 48
+  },
+  {
+    "id": "cv_MP_fighter_equipment_0",
+    "family": "cv_small_plane_airframe",
+    "cost": 64.4,
+    "priority": 5.0,
+    "year": 2000.0,
+    "techs": [
+      "cv_early_fighter"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 54
+  },
+  {
+    "id": "cv_MP_fighter_equipment_2",
+    "family": "cv_small_plane_airframe",
+    "cost": 74.4,
+    "priority": 10.0,
+    "year": 2060.0,
+    "techs": [
+      "cv_MP_fighter2"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 55
+  },
+  {
+    "id": "cv_MP_fighter_equipment_3",
+    "family": "cv_small_plane_airframe",
+    "cost": 78.6,
+    "priority": 10.0,
+    "year": 2065.0,
+    "techs": [
+      "cv_MP_fighter3"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 56
+  },
+  {
+    "id": "cv_MP_fighter_equipment_4",
+    "family": "cv_small_plane_airframe",
+    "cost": 83.0,
+    "priority": 10.0,
+    "year": 2070.0,
+    "techs": [
+      "cv_MP_fighter4"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 57
+  },
+  {
+    "id": "cv_MP_fighter_equipment_5",
+    "family": "cv_small_plane_airframe",
+    "cost": 88.6,
+    "priority": 10.0,
+    "year": 2075.0,
+    "techs": [
+      "cv_MP_fighter5"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 58
+  },
+  {
+    "id": "cv_fighter_equipment_0",
+    "family": "cv_small_plane_airframe",
+    "cost": 54.0,
+    "priority": 30.0,
+    "year": 2000.0,
+    "techs": [
+      "cv_early_fighter"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 59
+  },
+  {
+    "id": "cv_fighter_equipment_1",
+    "family": "cv_small_plane_airframe",
+    "cost": 58.8,
+    "priority": 30.0,
+    "year": 2050.0,
+    "techs": [
+      "cv_fighter1"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 60
+  },
+  {
+    "id": "cv_fighter_equipment_2",
+    "family": "cv_small_plane_airframe",
+    "cost": 62.4,
+    "priority": 30.0,
+    "year": 2060.0,
+    "techs": [
+      "cv_fighter2"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 61
+  },
+  {
+    "id": "cv_fighter_equipment_3",
+    "family": "cv_small_plane_airframe",
+    "cost": 66.0,
+    "priority": 30.0,
+    "year": 2065.0,
+    "techs": [
+      "cv_fighter3"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 62
+  },
+  {
+    "id": "cv_fighter_equipment_4",
+    "family": "cv_small_plane_airframe",
+    "cost": 69.6,
+    "priority": 30.0,
+    "year": 2070.0,
+    "techs": [
+      "cv_fighter4",
+      "cv_fighter5"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 63
+  },
+  {
+    "id": "cv_CAS_equipment_0",
+    "family": "cv_small_plane_cas_airframe",
+    "cost": 66.0,
+    "priority": 40.0,
+    "year": 2000.0,
+    "techs": [
+      "cv_early_fighter"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 64
+  },
+  {
+    "id": "cv_CAS_equipment_1",
+    "family": "cv_small_plane_cas_airframe",
+    "cost": 69.6,
+    "priority": 50.0,
+    "year": 2050.0,
+    "techs": [
+      "cv_CAS1"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 65
+  },
+  {
+    "id": "cv_CAS_equipment_2",
+    "family": "cv_small_plane_cas_airframe",
+    "cost": 73.2,
+    "priority": 50.0,
+    "year": 2060.0,
+    "techs": [
+      "cv_CAS2"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 66
+  },
+  {
+    "id": "cv_CAS_equipment_3",
+    "family": "cv_small_plane_cas_airframe",
+    "cost": 76.8,
+    "priority": 50.0,
+    "year": 2065.0,
+    "techs": [
+      "cv_CAS3"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 67
+  },
+  {
+    "id": "floating_harbor_equipment_1",
+    "family": "floating_harbor_equipment",
+    "cost": 400.0,
+    "priority": 11.0,
+    "year": 1910.0,
+    "techs": [
+      "mtg_landing_craft"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_floating_harbor",
+    "module_unlocks": [],
+    "can_produce": "has_dlc = \"No Step Back\"",
+    "index": 68
+  },
+  {
+    "id": "helicopter_gunship_equipment_0",
+    "family": "helicopter_gunship_equipment",
+    "cost": 9.0,
+    "priority": 15.0,
+    "year": 2000.0,
+    "techs": [
+      "early_helicopter"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_helicopter_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 73
+  },
+  {
+    "id": "helicopter_gunship_equipment_1",
+    "family": "helicopter_gunship_equipment_1",
+    "cost": 10.0,
+    "priority": 10.0,
+    "year": 2050.0,
+    "techs": [
+      "helicopter_gunship"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_helicopter_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 74
+  },
+  {
+    "id": "helicopter_gunship_equipment_2",
+    "family": "helicopter_gunship_equipment_2",
+    "cost": 11.0,
+    "priority": 10.0,
+    "year": 2060.0,
+    "techs": [
+      "helicopter_gunship2"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_helicopter_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 75
+  },
+  {
+    "id": "helicopter_gunship_equipment_3",
+    "family": "helicopter_gunship_equipment_3",
+    "cost": 12.0,
+    "priority": 10.0,
+    "year": 2065.0,
+    "techs": [
+      "helicopter_gunship3"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_helicopter_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 76
+  },
+  {
+    "id": "helicopter_gunship_equipment_4",
+    "family": "helicopter_gunship_equipment_4",
+    "cost": 13.0,
+    "priority": 10.0,
+    "year": 2070.0,
+    "techs": [
+      "helicopter_gunship4"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_helicopter_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 77
+  },
+  {
+    "id": "helicopter_gunship_equipment_5",
+    "family": "helicopter_gunship_equipment_5",
+    "cost": 14.0,
+    "priority": 10.0,
+    "year": 2075.0,
+    "techs": [
+      "helicopter_gunship5"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_helicopter_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 78
+  },
+  {
+    "id": "infantry_equipment_0",
+    "family": "infantry_equipment",
+    "cost": 0.43,
+    "priority": 5.0,
+    "year": 2000.0,
+    "techs": [
+      "infantry_weapons"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_infantry_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 79
+  },
+  {
+    "id": "infantry_equipment_1",
+    "family": "infantry_equipment",
+    "cost": 0.5,
+    "priority": 10.0,
+    "year": 2050.0,
+    "techs": [
+      "infantry_weapons1"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_infantry_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 80
+  },
+  {
+    "id": "infantry_equipment_2",
+    "family": "infantry_equipment",
+    "cost": 0.58,
+    "priority": 10.0,
+    "year": 2060.0,
+    "techs": [
+      "APDC_land_units_bootstrap",
+      "improved_infantry_weapons"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_infantry_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 81
+  },
+  {
+    "id": "infantry_equipment_3",
+    "family": "infantry_equipment",
+    "cost": 0.69,
+    "priority": 10.0,
+    "year": 2065.0,
+    "techs": [
+      "advanced_infantry_weapons"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_infantry_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 82
+  },
+  {
+    "id": "infantry_equipment_4",
+    "family": "infantry_equipment",
+    "cost": 0.8,
+    "priority": 10.0,
+    "year": 2070.0,
+    "techs": [
+      "advanced_infantry_weapons3"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_infantry_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 83
+  },
+  {
+    "id": "infantry_equipment_5",
+    "family": "infantry_equipment",
+    "cost": 0.91,
+    "priority": 10.0,
+    "year": 2075.0,
+    "techs": [
+      "future_infantry_weapons"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_infantry_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 84
+  },
+  {
+    "id": "infantry_fighting_vehicle_equipment_0",
+    "family": "infantry_fighting_vehicle_equipment",
+    "cost": 5.0,
+    "priority": 5.0,
+    "year": 2000.0,
+    "techs": [
+      "infantry_fighting_vehicle"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_armored_car_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 85
+  },
+  {
+    "id": "infantry_fighting_vehicle_equipment_1",
+    "family": "infantry_fighting_vehicle_equipment",
+    "cost": 5.5,
+    "priority": 10.0,
+    "year": 2050.0,
+    "techs": [
+      "infantry_fighting_vehicle2"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_armored_car_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 86
+  },
+  {
+    "id": "infantry_fighting_vehicle_equipment_3",
+    "family": "infantry_fighting_vehicle_equipment",
+    "cost": 7.0,
+    "priority": 10.0,
+    "year": 2065.0,
+    "techs": [
+      "infantry_fighting_vehicle4"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_armored_car_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 87
+  },
+  {
+    "id": "infantry_fighting_vehicle_equipment_4",
+    "family": "infantry_fighting_vehicle_equipment",
+    "cost": 8.0,
+    "priority": 10.0,
+    "year": 2070.0,
+    "techs": [
+      "infantry_fighting_vehicle5"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_armored_car_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 88
+  },
+  {
+    "id": "infantry_fighting_vehicle_equipment_5",
+    "family": "infantry_fighting_vehicle_equipment",
+    "cost": 8.5,
+    "priority": 10.0,
+    "year": 2075.0,
+    "techs": [
+      "infantry_fighting_vehicle6"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_armored_car_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 89
+  },
+  {
+    "id": "strat_bomber_equipment_0",
+    "family": "large_plane_airframe",
+    "cost": 86.0,
+    "priority": 120.0,
+    "year": 2000.0,
+    "techs": [
+      "early_bomber"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_strat_bomber_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 95
+  },
+  {
+    "id": "strat_bomber_equipment_1",
+    "family": "large_plane_airframe",
+    "cost": 90.0,
+    "priority": 140.0,
+    "year": 2050.0,
+    "techs": [
+      "strategic_bomber1"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_strat_bomber_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 96
+  },
+  {
+    "id": "strat_bomber_equipment_2",
+    "family": "large_plane_airframe",
+    "cost": 94.0,
+    "priority": 140.0,
+    "year": 2060.0,
+    "techs": [
+      "strategic_bomber2"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_strat_bomber_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 97
+  },
+  {
+    "id": "strat_bomber_equipment_3",
+    "family": "large_plane_airframe",
+    "cost": 98.0,
+    "priority": 140.0,
+    "year": 2065.0,
+    "techs": [
+      "strategic_bomber3"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_strat_bomber_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 98
+  },
+  {
+    "id": "strat_bomber_equipment_4",
+    "family": "large_plane_airframe",
+    "cost": 102.0,
+    "priority": 140.0,
+    "year": 2070.0,
+    "techs": [
+      "strategic_bomber4"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_strat_bomber_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 99
+  },
+  {
+    "id": "strat_bomber_equipment_5",
+    "family": "large_plane_airframe",
+    "cost": 106.0,
+    "priority": 140.0,
+    "year": 2075.0,
+    "techs": [
+      "strategic_bomber5"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_strat_bomber_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 100
+  },
+  {
+    "id": "gw_tank_equipment",
+    "family": "light_tank_chassis",
+    "cost": 8.0,
+    "priority": 5.0,
+    "year": 2000.0,
+    "techs": [
+      "gwtank"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_light_tank_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 101
+  },
+  {
+    "id": "light_tank_equipment_1",
+    "family": "light_tank_chassis",
+    "cost": 9.0,
+    "priority": 10.0,
+    "year": 2050.0,
+    "techs": [
+      "basic_light_tank"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_light_tank_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 102
+  },
+  {
+    "id": "light_tank_equipment_2",
+    "family": "light_tank_chassis",
+    "cost": 10.0,
+    "priority": 10.0,
+    "year": 2060.0,
+    "techs": [
+      "improved_light_tank"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_light_tank_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 103
+  },
+  {
+    "id": "light_tank_equipment_3",
+    "family": "light_tank_chassis",
+    "cost": 11.0,
+    "priority": 10.0,
+    "year": 2065.0,
+    "techs": [
+      "advanced_light_tank"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_light_tank_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 104
+  },
+  {
+    "id": "light_tank_equipment_4",
+    "family": "light_tank_chassis",
+    "cost": 12.0,
+    "priority": 10.0,
+    "year": 2070.0,
+    "techs": [
+      "advanced_light_tank_2"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_light_tank_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 105
+  },
+  {
+    "id": "light_tank_equipment_5",
+    "family": "light_tank_chassis",
+    "cost": 13.5,
+    "priority": 10.0,
+    "year": 2075.0,
+    "techs": [
+      "future_light_tank"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_light_tank_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 106
+  },
+  {
+    "id": "mechanized_equipment_1",
+    "family": "mechanized_equipment",
+    "cost": 4.0,
+    "priority": 40.0,
+    "year": 2000.0,
+    "techs": [
+      "mechanised_infantry"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_motorized_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 111
+  },
+  {
+    "id": "mechanized_equipment_2",
+    "family": "mechanized_equipment",
+    "cost": 4.5,
+    "priority": 40.0,
+    "year": 2050.0,
+    "techs": [
+      "mechanised_infantry2"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_motorized_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 112
+  },
+  {
+    "id": "mechanized_equipment_3",
+    "family": "mechanized_equipment",
+    "cost": 5.5,
+    "priority": 40.0,
+    "year": 2060.0,
+    "techs": [
+      "mechanised_infantry3"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_motorized_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 113
+  },
+  {
+    "id": "mechanized_equipment_4",
+    "family": "mechanized_equipment",
+    "cost": 6.0,
+    "priority": 40.0,
+    "year": 2065.0,
+    "techs": [
+      "mechanised_infantry4"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_motorized_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 114
+  },
+  {
+    "id": "mechanized_equipment_5",
+    "family": "mechanized_equipment",
+    "cost": 7.0,
+    "priority": 40.0,
+    "year": 2070.0,
+    "techs": [
+      "mechanised_infantry5"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_motorized_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 115
+  },
+  {
+    "id": "mechanized_equipment_6",
+    "family": "mechanized_equipment",
+    "cost": 7.5,
+    "priority": 40.0,
+    "year": 2075.0,
+    "techs": [
+      "mechanised_infantry6"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_motorized_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 116
+  },
+  {
+    "id": "scout_plane_equipment_1",
+    "family": "medium_plane_scout_plane_airframe",
+    "cost": 65.0,
+    "priority": 100.0,
+    "year": 2000.0,
+    "techs": [
+      "scout_plane1"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 122
+  },
+  {
+    "id": "scout_plane_equipment_2",
+    "family": "medium_plane_scout_plane_airframe",
+    "cost": 68.0,
+    "priority": 100.0,
+    "year": 2060.0,
+    "techs": [
+      "scout_plane2"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 123
+  },
+  {
+    "id": "scout_plane_equipment_3",
+    "family": "medium_plane_scout_plane_airframe",
+    "cost": 70.0,
+    "priority": 100.0,
+    "year": 2065.0,
+    "techs": [
+      "scout_plane3"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 124
+  },
+  {
+    "id": "scout_plane_equipment_4",
+    "family": "medium_plane_scout_plane_airframe",
+    "cost": 73.0,
+    "priority": 100.0,
+    "year": 2070.0,
+    "techs": [
+      "scout_plane4"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 125
+  },
+  {
+    "id": "modern_tank_equipment_1",
+    "family": "modern_tank_chassis",
+    "cost": 18.0,
+    "priority": 170.0,
+    "year": 2000.0,
+    "techs": [
+      "main_battle_tank"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_modern_tank_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 130
+  },
+  {
+    "id": "modern_tank_equipment_2",
+    "family": "modern_tank_chassis",
+    "cost": 20.0,
+    "priority": 190.0,
+    "year": 2050.0,
+    "techs": [
+      "main_battle_tank2"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_modern_tank_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 131
+  },
+  {
+    "id": "modern_tank_equipment_3",
+    "family": "modern_tank_chassis",
+    "cost": 22.0,
+    "priority": 190.0,
+    "year": 2060.0,
+    "techs": [
+      "main_battle_tank3"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_modern_tank_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 132
+  },
+  {
+    "id": "modern_tank_equipment_4",
+    "family": "modern_tank_chassis",
+    "cost": 24.0,
+    "priority": 200.0,
+    "year": 2060.0,
+    "techs": [
+      "main_battle_tank4"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_modern_tank_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 133
+  },
+  {
+    "id": "modern_tank_equipment_5",
+    "family": "modern_tank_chassis",
+    "cost": 26.0,
+    "priority": 200.0,
+    "year": 2060.0,
+    "techs": [
+      "main_battle_tank5"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_modern_tank_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 134
+  },
+  {
+    "id": "modern_tank_equipment_6",
+    "family": "modern_tank_chassis",
+    "cost": 28.0,
+    "priority": 200.0,
+    "year": 2060.0,
+    "techs": [
+      "main_battle_tank6"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_modern_tank_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 135
+  },
+  {
+    "id": "motorized_equipment_0",
+    "family": "motorized_equipment",
+    "cost": 2.5,
+    "priority": 30.0,
+    "year": 2000.0,
+    "techs": [
+      "tech_trucks"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_motorized_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 137
+  },
+  {
+    "id": "motorized_equipment_1",
+    "family": "motorized_equipment",
+    "cost": 2.5,
+    "priority": 30.0,
+    "year": 2055.0,
+    "techs": [
+      "APDC_land_units_bootstrap",
+      "motorised_infantry"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_motorized_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 138
+  },
+  {
+    "id": "motorized_equipment_2",
+    "family": "motorized_equipment",
+    "cost": 2.7,
+    "priority": 30.0,
+    "year": 2065.0,
+    "techs": [
+      "motorised_infantry2"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_motorized_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 139
+  },
+  {
+    "id": "railway_gun_equipment_1",
+    "family": "railway_gun_equipment",
+    "cost": 800.0,
+    "priority": 50.0,
+    "year": 2000.0,
+    "techs": [
+      "railway_gun"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_artillery_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 140
+  },
+  {
+    "id": "rocket_artillery_equipment_1",
+    "family": "rocket_artillery_equipment",
+    "cost": 5.5,
+    "priority": 60.0,
+    "year": 2050.0,
+    "techs": [
+      "rocket_artillery"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_rocket_artillery_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 141
+  },
+  {
+    "id": "rocket_artillery_equipment_2",
+    "family": "rocket_artillery_equipment",
+    "cost": 6.5,
+    "priority": 60.0,
+    "year": 2060.0,
+    "techs": [
+      "rocket_artillery2"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_rocket_artillery_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 142
+  },
+  {
+    "id": "rocket_artillery_equipment_3",
+    "family": "rocket_artillery_equipment",
+    "cost": 7.5,
+    "priority": 60.0,
+    "year": 2065.0,
+    "techs": [
+      "rocket_artillery3"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_rocket_artillery_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 143
+  },
+  {
+    "id": "rocket_artillery_equipment_4",
+    "family": "rocket_artillery_equipment",
+    "cost": 8.5,
+    "priority": 60.0,
+    "year": 2070.0,
+    "techs": [
+      "rocket_artillery4"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_rocket_artillery_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 144
+  },
+  {
+    "id": "rocket_artillery_equipment_5",
+    "family": "rocket_artillery_equipment",
+    "cost": 9.5,
+    "priority": 60.0,
+    "year": 2075.0,
+    "techs": [
+      "rocket_artillery5"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_rocket_artillery_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 145
+  },
+  {
+    "id": "small_plane_airframe_5",
+    "family": "small_plane_airframe",
+    "cost": 29.0,
+    "priority": 5.0,
+    "year": 1950.0,
+    "techs": [
+      "supersonic_small_airframe"
+    ],
+    "modules": {
+      "fixed_main_weapon_slot": "light_mg_2x",
+      "engine_type_slot": "jet_engine_1x"
+    },
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 151
+  },
+  {
+    "id": "MP_fighter_equipment_0",
+    "family": "small_plane_airframe",
+    "cost": 58.5,
+    "priority": 5.0,
+    "year": 2000.0,
+    "techs": [
+      "early_fighter"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 152
+  },
+  {
+    "id": "fighter_equipment_0",
+    "family": "small_plane_airframe",
+    "cost": 45.0,
+    "priority": 5.0,
+    "year": 2000.0,
+    "techs": [
+      "early_fighter"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 153
+  },
+  {
+    "id": "MP_fighter_equipment_1",
+    "family": "small_plane_airframe",
+    "cost": 63.7,
+    "priority": 10.0,
+    "year": 2050.0,
+    "techs": [
+      "MP_fighter1"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 154
+  },
+  {
+    "id": "cv_MP_fighter_equipment_1",
+    "family": "small_plane_airframe",
+    "cost": 70.1,
+    "priority": 10.0,
+    "year": 2050.0,
+    "techs": [
+      "cv_MP_fighter1"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 155
+  },
+  {
+    "id": "fighter_equipment_1",
+    "family": "small_plane_airframe",
+    "cost": 49.0,
+    "priority": 10.0,
+    "year": 2050.0,
+    "techs": [
+      "fighter1"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 156
+  },
+  {
+    "id": "MP_fighter_equipment_2",
+    "family": "small_plane_airframe",
+    "cost": 67.6,
+    "priority": 10.0,
+    "year": 2060.0,
+    "techs": [
+      "MP_fighter2"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 157
+  },
+  {
+    "id": "fighter_equipment_2",
+    "family": "small_plane_airframe",
+    "cost": 52.0,
+    "priority": 10.0,
+    "year": 2060.0,
+    "techs": [
+      "fighter2"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 158
+  },
+  {
+    "id": "MP_fighter_equipment_3",
+    "family": "small_plane_airframe",
+    "cost": 71.5,
+    "priority": 10.0,
+    "year": 2065.0,
+    "techs": [
+      "MP_fighter3"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 159
+  },
+  {
+    "id": "fighter_equipment_3",
+    "family": "small_plane_airframe",
+    "cost": 55.0,
+    "priority": 10.0,
+    "year": 2065.0,
+    "techs": [
+      "fighter3"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 160
+  },
+  {
+    "id": "MP_fighter_equipment_4",
+    "family": "small_plane_airframe",
+    "cost": 75.4,
+    "priority": 10.0,
+    "year": 2070.0,
+    "techs": [
+      "MP_fighter4"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 161
+  },
+  {
+    "id": "fighter_equipment_4",
+    "family": "small_plane_airframe",
+    "cost": 58.0,
+    "priority": 10.0,
+    "year": 2070.0,
+    "techs": [
+      "fighter4"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 162
+  },
+  {
+    "id": "MP_fighter_equipment_5",
+    "family": "small_plane_airframe",
+    "cost": 80.6,
+    "priority": 10.0,
+    "year": 2075.0,
+    "techs": [
+      "MP_fighter5"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 163
+  },
+  {
+    "id": "fighter_equipment_5",
+    "family": "small_plane_airframe",
+    "cost": 62.0,
+    "priority": 10.0,
+    "year": 2075.0,
+    "techs": [
+      "fighter5"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_fighter_equipment",
+    "module_unlocks": [],
+    "can_produce": "if = { limit = { has_dlc = \"Arms Against Tyranny\" } NOT = { always = no } } else = { NOT = { always = no } }",
+    "index": 164
+  },
+  {
+    "id": "CAS_equipment_0",
+    "family": "small_plane_cas_airframe",
+    "cost": 55.0,
+    "priority": 40.0,
+    "year": 2000.0,
+    "techs": [
+      "early_fighter"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 165
+  },
+  {
+    "id": "CAS_equipment_1",
+    "family": "small_plane_cas_airframe",
+    "cost": 58.0,
+    "priority": 40.0,
+    "year": 2050.0,
+    "techs": [
+      "CAS1"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 166
+  },
+  {
+    "id": "CAS_equipment_2",
+    "family": "small_plane_cas_airframe",
+    "cost": 61.0,
+    "priority": 40.0,
+    "year": 2060.0,
+    "techs": [
+      "CAS2"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 167
+  },
+  {
+    "id": "CAS_equipment_3",
+    "family": "small_plane_cas_airframe",
+    "cost": 64.0,
+    "priority": 40.0,
+    "year": 2065.0,
+    "techs": [
+      "CAS3"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 168
+  },
+  {
+    "id": "CAS_equipment_4",
+    "family": "small_plane_cas_airframe",
+    "cost": 67.0,
+    "priority": 40.0,
+    "year": 2070.0,
+    "techs": [
+      "CAS4"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 169
+  },
+  {
+    "id": "cv_CAS_equipment_4",
+    "family": "small_plane_cas_airframe",
+    "cost": 80.4,
+    "priority": 40.0,
+    "year": 2070.0,
+    "techs": [
+      "cv_CAS4"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 170
+  },
+  {
+    "id": "CAS_equipment_5",
+    "family": "small_plane_cas_airframe",
+    "cost": 70.0,
+    "priority": 40.0,
+    "year": 2075.0,
+    "techs": [
+      "CAS5"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 171
+  },
+  {
+    "id": "cv_CAS_equipment_5",
+    "family": "small_plane_cas_airframe",
+    "cost": 84.0,
+    "priority": 40.0,
+    "year": 2075.0,
+    "techs": [
+      "cv_CAS5"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 172
+  },
+  {
+    "id": "sp_anti_air_equipment_1",
+    "family": "sp_anti_air_equipment",
+    "cost": 4.0,
+    "priority": 80.0,
+    "year": 2050.0,
+    "techs": [
+      "sp_antiair1"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_anti_air_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 173
+  },
+  {
+    "id": "sp_anti_air_equipment_2",
+    "family": "sp_anti_air_equipment",
+    "cost": 4.5,
+    "priority": 80.0,
+    "year": 2060.0,
+    "techs": [
+      "sp_antiair2"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_anti_air_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 174
+  },
+  {
+    "id": "sp_anti_air_equipment_3",
+    "family": "sp_anti_air_equipment",
+    "cost": 5.0,
+    "priority": 80.0,
+    "year": 2065.0,
+    "techs": [
+      "sp_antiair3"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_anti_air_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 175
+  },
+  {
+    "id": "sp_anti_air_equipment_4",
+    "family": "sp_anti_air_equipment",
+    "cost": 5.5,
+    "priority": 80.0,
+    "year": 2070.0,
+    "techs": [
+      "sp_antiair4"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_anti_air_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 176
+  },
+  {
+    "id": "sp_anti_air_equipment_5",
+    "family": "sp_anti_air_equipment",
+    "cost": 6.0,
+    "priority": 80.0,
+    "year": 2075.0,
+    "techs": [
+      "sp_antiair5"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_anti_air_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 177
+  },
+  {
+    "id": "sp_artillery_equipment_1",
+    "family": "sp_artillery_equipment",
+    "cost": 9.0,
+    "priority": 50.0,
+    "year": 2050.0,
+    "techs": [
+      "sp_artillery1"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_artillery_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 178
+  },
+  {
+    "id": "sp_artillery_equipment_2",
+    "family": "sp_artillery_equipment",
+    "cost": 11.0,
+    "priority": 50.0,
+    "year": 2062.0,
+    "techs": [
+      "sp_artillery2"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_artillery_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 179
+  },
+  {
+    "id": "sp_artillery_equipment_3",
+    "family": "sp_artillery_equipment",
+    "cost": 13.0,
+    "priority": 50.0,
+    "year": 2070.0,
+    "techs": [
+      "sp_artillery3"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_artillery_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 180
+  },
+  {
+    "id": "sp_artillery_equipment_4",
+    "family": "sp_artillery_equipment",
+    "cost": 15.0,
+    "priority": 50.0,
+    "year": 2075.0,
+    "techs": [
+      "sp_artillery4"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_artillery_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 181
+  },
+  {
+    "id": "support_equipment_1",
+    "family": "support_equipment",
+    "cost": 4.0,
+    "priority": 20.0,
+    "year": 2000.0,
+    "techs": [
+      "APDC_land_units_bootstrap",
+      "tech_support"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_support_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 183
+  },
+  {
+    "id": "train_equipment_1",
+    "family": "train_equipment",
+    "cost": 70.0,
+    "priority": 10.0,
+    "year": 2000.0,
+    "techs": [
+      "basic_train"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_train",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 184
+  },
+  {
+    "id": "train_equipment_2",
+    "family": "train_equipment",
+    "cost": 50.0,
+    "priority": 20.0,
+    "year": 2050.0,
+    "techs": [
+      "wartime_train"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_train",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 185
+  },
+  {
+    "id": "train_equipment_3",
+    "family": "train_equipment",
+    "cost": 105.0,
+    "priority": 30.0,
+    "year": 2000.0,
+    "techs": [
+      "armored_train"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_train",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 186
+  },
+  {
+    "id": "transport_helicopter_equipment_0",
+    "family": "transport_helicopter_equipment",
+    "cost": 3.0,
+    "priority": 30.0,
+    "year": 2000.0,
+    "techs": [
+      "early_helicopter"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_helicopter_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 187
+  },
+  {
+    "id": "transport_helicopter_equipment_1",
+    "family": "transport_helicopter_equipment",
+    "cost": 3.0,
+    "priority": 30.0,
+    "year": 2050.0,
+    "techs": [
+      "transport_helicopter"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_helicopter_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 188
+  },
+  {
+    "id": "transport_helicopter_equipment_2",
+    "family": "transport_helicopter_equipment",
+    "cost": 3.3,
+    "priority": 30.0,
+    "year": 2060.0,
+    "techs": [
+      "transport_helicopter2"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_helicopter_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 189
+  },
+  {
+    "id": "transport_helicopter_equipment_3",
+    "family": "transport_helicopter_equipment",
+    "cost": 3.6,
+    "priority": 30.0,
+    "year": 2065.0,
+    "techs": [
+      "transport_helicopter3"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_helicopter_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 190
+  },
+  {
+    "id": "transport_helicopter_equipment_4",
+    "family": "transport_helicopter_equipment",
+    "cost": 3.9,
+    "priority": 30.0,
+    "year": 2070.0,
+    "techs": [
+      "transport_helicopter4"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_helicopter_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 191
+  },
+  {
+    "id": "transport_helicopter_equipment_5",
+    "family": "transport_helicopter_equipment",
+    "cost": 4.2,
+    "priority": 30.0,
+    "year": 2075.0,
+    "techs": [
+      "transport_helicopter5"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_helicopter_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 192
+  },
+  {
+    "id": "transport_plane_equipment_1",
+    "family": "transport_plane_equipment",
+    "cost": 80.0,
+    "priority": 130.0,
+    "year": 2000.0,
+    "techs": [
+      "early_transport_plane"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_strat_bomber_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 193
+  },
+  {
+    "id": "transport_plane_equipment_2",
+    "family": "transport_plane_equipment",
+    "cost": 80.0,
+    "priority": 130.0,
+    "year": 2060.0,
+    "techs": [
+      "improved_transport_plane"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_strat_bomber_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 194
+  },
+  {
+    "id": "transport_plane_equipment_3",
+    "family": "transport_plane_equipment",
+    "cost": 80.0,
+    "priority": 130.0,
+    "year": 2070.0,
+    "techs": [
+      "strategic_airlifter"
+    ],
+    "modules": {},
+    "module_techs": [],
+    "picture": "archetype_strat_bomber_equipment",
+    "module_unlocks": [],
+    "can_produce": "",
+    "index": 195
+  }
+]

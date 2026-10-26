@@ -1,0 +1,69 @@
+state = {
+	id = 950
+	name = "STATE_950"
+	manpower = 1300000
+	state_category = town
+	resources = {
+		steel = 24
+	}
+	history = {
+		owner = CHL
+		controller = CHL
+		add_core_of = CHL
+		victory_points = {
+			5121
+			3
+		}
+		victory_points = {
+			5169
+			3
+		}
+		victory_points = {
+			14810
+			2
+		}
+		victory_points = {
+			17490
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			14812 = {
+				naval_base = 1
+			}
+			5169 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		5118
+		5121
+		5169
+		12920
+		12954
+		13297
+		14807
+		14808
+		14809
+		14810
+		14811
+		14812
+		14813
+		14814
+		14818
+		14819
+		15307
+		17490
+		17492
+		17508
+		17509
+		17511
+		17515
+		17551
+		17555
+		17556
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,12 @@
+objectTypes = {
+pdxmesh = {
+ name = "APDC_ump_chibi_mesh"
+ file = "gfx/models/units/APDC_ump_chibi/APDC_ump_chibi.mesh"
+ animation = { id = "idle" type = "APDC_ump_chibi_idle_animation" }
+ animation = { id = "idle_look" type = "APDC_ump_chibi_idle_look_animation" }
+ animation = { id = "idle_shift" type = "APDC_ump_chibi_idle_shift_animation" }
+ animation = { id = "move" type = "APDC_ump_chibi_move_animation" }
+ animation = { id = "attack" type = "APDC_ump_chibi_attack_animation" }
+ animation = { id = "death" type = "APDC_ump_chibi_death_animation" }
+}
+}

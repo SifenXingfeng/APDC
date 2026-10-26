@@ -30,7 +30,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.10
+				APDC_eco_population_factor = 0.10
 			}
 		}
 		ETH_djibouti_sale_idea = {
@@ -45,7 +45,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = -0.15
+				APDC_eco_population_factor = -0.15
 			}
 		}
 		ETH_demoralized_ras_idea = {
@@ -97,7 +97,7 @@ ideas = {
 				always = yes
 			}
 			available = {
-				NOT = { ITA = { has_idea = ITA_army_of_africa_disheartened_idea } }
+				NOT = { ITA = { always = no } }
 			}
 
 			removal_cost = -1
@@ -122,378 +122,28 @@ ideas = {
 	}
 	country = {
 		#War Escalation NSs
-		ETH_local_weapons_manufactories_idea = {
-			picture = SOV_third_five_year_plan_military
-			allowed = {
-				always = no
-			}
+		
 
-			allowed_civil_war = {
-				always = yes
-			}
-			available = {
-				has_global_flag = second_italo_ethiopian_war_flag
-			}
-			on_remove = {
-				add_offsite_building = {
-					type = arms_factory
-					level = -2
-				}
-			}
-			on_add = {
-				add_offsite_building = {
-					type = arms_factory
-					level = 2
-				}
-			}
-			modifier = {
-				custom_modifier_tooltip = ETH_local_weapons_manufactories_tt
-			}
+		
+		
 
-			removal_cost = -1
-		}
+		
 
-		ETH_survival_against_all_odds_idea = {
-			picture = chi_war_of_resistance3
-			allowed = {
-				always = no
-			}
+		
+		
+		
+		
+		
+		
+		
+		
 
-			allowed_civil_war = {
-				always = yes
-			}
-			available = {
-				has_global_flag = second_italo_ethiopian_war_flag
-			}
+		
 
-			removal_cost = -1
-
-			targeted_modifier = {
-				tag = ITA 
-				attack_bonus_against = 0.2
-				defense_bonus_against = 0.2
-			}
-		}
-		ETH_ethiopia_supporting_independence_idea = {
-			picture = generic_democratic_drift_bonus
-			allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			
-			modifier = {
-				autonomy_gain = 2.5
-				political_power_factor = 0.1
-			}
-		}
-
-		ETH_prince_regent_idea = {
-			picture = ETH_imru_prince_regent
-			allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				has_government = liberalism
-			}
-			available = {
-				has_country_leader_with_trait = imperator_absentis
-				NOT = { is_government_in_exile = yes }
-			}
-			removal_cost = -1
-			
-			modifier = {
-				stability_factor = 0.1
-				liberalism_drift = 0.15
-			}
-		}
-
-		ETH_conservative_high_command_idea = {
-
-			picture = ETH_conservative_high_command
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				army_infantry_attack_factor = 0.1
-				land_doctrine_cost_factor = 0.50
-				research_speed_factor = -0.15
-				max_command_power_mult = -0.25
-			}
-		}
-		ETH_peoples_army_idea = {
-			picture = chi_war_of_resistance2
-			
-			allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			
-			modifier = {
-				army_infantry_attack_factor = 0.1
-				max_dig_in_factor = 0.05
-			}
-		}
-		ETH_on_our_own_idea = {
-			picture = generic_intel_bonus
-			
-			allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				always = yes
-			}
-			available = { 
-				has_war = yes 
-				# NOT = { has_completed_focus = ETH_reclaiming_ethiopia }
-				league_of_nations_is_active = yes 
-			}
-			removal_cost = -1
-			rule = {
-				can_join_factions = no 
-			}
-			modifier = {
-				
-			}
-		}
-		ETH_on_our_own_idea_aat = {
-			name = ETH_on_our_own_idea
-			picture = generic_intel_bonus
-			
-			allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				always = yes
-			}
-			available = { 
-				has_war = yes 
-				# NOT = { has_completed_focus = ETH_reclaiming_ethiopia }
-				league_of_nations_is_active = yes 
-			}
-			removal_cost = -1
-			rule = {
-				can_join_factions = no 
-				#can_access_market = no
-			}
-			modifier = {
-				
-			}
-		}
-		ETH_taxed_nobility_idea = {
-
-			picture = ETH_taxed_nobility
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				consumer_goods_factor = -0.15
-				defensive_war_stability_factor = -0.2
-			}
-		}
-		ETH_coffee_exports_idea = {
-
-			picture = ETH_coffee_exports
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				consumer_goods_factor = -0.10
-			}
-		}
-		ETH_national_studs_idea = {
-
-			picture = ETH_national_studs
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				unit_cavalry_design_cost_factor = -0.4
-				unit_camelry_design_cost_factor = -0.4
-				cavalry_attack_factor = 0.05
-			}
-		}
-		ETH_the_heroes_of_adwa_idea = {
-
-			picture = ETH_the_heroes_of_adwa 
-			
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			targeted_modifier = {
-				tag = ITA 
-				attack_bonus_against = 0.1
-			}
-			
-			modifier = {
-				war_support_factor = 0.1
-			}
-		}
-
-		ETH_the_heroes_of_adwa_upgraded_idea = {
-
-			picture = ETH_the_heroes_of_adwa_upgraded
-			name = ETH_the_heroes_of_adwa_idea
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			targeted_modifier = {
-				tag = ITA 
-				attack_bonus_against = 0.15
-			}
-			
-			modifier = {
-				war_support_factor = 0.1
-				stability_factor = 0.1
-				political_power_factor = 0.1
-				army_core_attack_factor = 0.15
-				army_core_defence_factor = 0.1
-			}
-		}
-
-		ETH_victor_emanuel_of_ethiopia_idea = {
-			picture = ETH_victor_emanuel_of_ethiopia
-			allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				is_subject_of = ITA 
-			}
-			available= {
-				is_subject_of = ITA 
-				OR = {
-					ITA = { has_government = fascism }
-					ITA = { has_government = dictatorship }
-				}
-			}
-			
-			removal_cost = -1
-			modifier = {	
-				stability_factor = 0.05
-				political_power_factor = -0.15
-			}
-		}
-		ETH_victor_emanuel_of_ethiopia_idea_bad = {
-			picture = ETH_victor_emanuel_of_ethiopia
-			name = ETH_victor_emanuel_of_ethiopia_idea
-			allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				is_subject_of = ITA 
-			}
-			available= {
-				is_subject_of = ITA 
-				OR = {
-					ITA = { has_government = fascism }
-					ITA = { has_government = dictatorship }
-				}
-			}
-			
-			removal_cost = -1
-			modifier = {	
-				political_power_factor = -0.15
-			}
-		}
-		ETH_victor_emanuel_of_ethiopia_idea_2 = {
-			picture = ETH_victor_emanuel_of_ethiopia
-			name = ETH_victor_emanuel_of_ethiopia_idea
-			allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				is_subject_of = ITA 
-			}
-			available= {
-				is_subject_of = ITA 
-				OR = {
-					ITA = { has_government = fascism }
-					ITA = { has_government = dictatorship }
-				}
-			}
-			
-			removal_cost = -1
-			modifier = {	
-				stability_factor = 0.1
-				political_power_factor = -0.05
-			}
-		}
-		ETH_victor_emanuel_of_ethiopia_idea_3 = {
-			picture = ETH_victor_emanuel_of_ethiopia
-			name = ETH_victor_emanuel_of_ethiopia_idea
-			allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				is_subject_of = ITA 
-			}
-			available= {
-				is_subject_of = ITA 
-				OR = {
-					ITA = { has_government = fascism }
-					ITA = { has_government = dictatorship }
-				}
-			}
-			
-			removal_cost = -1
-			modifier = {	
-				stability_factor = 0.1
-				political_power_factor = 0.05
-				command_power_gain_mult = 0.1
-			}
-		}
+		
+		
+		
+		
 
 #		ETH_support_for_ethiopia_idea = {
 #
@@ -518,584 +168,74 @@ ideas = {
 #			}
 #		}
 
-		ETH_italian_settlers_idea = {
-			picture = ETH_italian_settlers
-			
-			allowed = {
-				always = no
-			}
+		
 
-			allowed_civil_war = {
-				always = no
-			}
+		
+		
+		
+		
+	    
 
-			removal_cost = -1
+		
 
-			targeted_modifier = {
-				tag = ITA 
-				attack_bonus_against = -0.15
-				defense_bonus_against = -0.15
-			}
-			
-			modifier = {
-				production_speed_buildings_factor = 0.15
-				monthly_population = 0.05
-			}
-		}
+		
 
-		ETH_underground_wargames_idea = {
-			picture = chi_wargaming_division
-			
-			allowed = {
-				always = no
-			}
+		
 
-			allowed_civil_war = {
-				always = no
-			}
+		
 
-			removal_cost = -1
+		
 
-			targeted_modifier = {
-				tag = ITA 
-				attack_bonus_against = 0.15
-				defense_bonus_against = 0.15
-			}
-			
-			modifier = {
-				
-			}
-		}
-		ETH_customs_barrier_ETH_idea = {
-			picture = generic_foreign_capital
-			
-			allowed = {
-				always = no
-			}
-			available = {
-				ETH = { is_subject_of = ITA }
-			}
 
-			allowed_civil_war = {
-				always = no
-			}
-			
-			removal_cost = -1
-			
-			modifier = {
-				consumer_goods_factor = -0.15
-				industrial_capacity_factory = 0.1
-			}
-		}
-		ETH_customs_barrier_ITA_idea = {
-			picture = ETH_customs_barrier_ITA
-			
-			allowed = {
-				always = no
-			}
-			available = {
-				ETH = { is_subject_of = ITA }
-			}
+		
 
-			allowed_civil_war = {
-				always = no
-			}
+		
 
-			removal_cost = -1
-			
-			modifier = {
-				consumer_goods_factor = 0.10
-				industrial_capacity_factory = -0.1
-			}
-		}
-		ETH_defending_our_homes = {
+		
+		
 
-			picture = generic_reserve_divisions
+		
 
-			removal_cost = -1
+		
 
-			allowed = {
-				always = no # Added via focus
-			}
-			allowed_civil_war = {
-				original_tag = ETH
-				has_government = communism
-			}
+		
 
-			modifier = {			
-				army_core_attack_factor = 0.05
-				army_core_defence_factor = 0.1
-				dictatorship_drift = -0.05				
-			}
-		}
-	    ETH_military_communism = {
+		
 
-			picture = GFX_idea_ETH_military_communism
+		
 
-			removal_cost = -1
+		
 
-			allowed = {
-				always = no # Added via focus
-			}
-			allowed_civil_war = {
-				original_tag = ETH
-				has_government = communism
-			}
+		
+		
+		
+		
+		
+		
 
-			modifier = {			
-				communism_drift = 0.05		
-			}
-		}
-
-		ETH_red_army_engineers = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				 has_government = communism
-			}
-
-			removal_cost = -1
-
-			picture = new_economic_policy
-
-			modifier = {
-				industry_repair_factor = 0.20
-				production_speed_industrial_complex_factor = 0.1
-			}
-		}
-
-		ETH_aid_ethiopian_communists = {
-
-			picture = generic_manpower_bonus
-
-			allowed = {
-					original_tag = SOV
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			modifier = {
-				send_volunteer_size = 3
-				send_volunteer_divisions_required = -1
-				lend_lease_tension = -0.30
-			}
-		}
-
-		ETH_aid_SPC = {
-
-			picture = generic_manpower_bonus
-
-			allowed = {
-					original_tag = ETH
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			rule = {
-				can_send_volunteers = yes
-			}
-			modifier = {
-				send_volunteer_size = 3
-				send_volunteer_divisions_required = -1
-				lend_lease_tension = -0.30
-			}
-		}
-
-		ETH_transformation_of_nature = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				 has_government = communism
-			}
-
-			removal_cost = -1
-
-			picture = por_hydroelectric_power
-
-			modifier = {
-				production_speed_industrial_complex_factor = 0.1
-				production_speed_infrastructure_factor = 0.1
-			}
-		}
-
-		ETH_integrate_puppet = {
-			picture = generic_constitutional_guarantees
-			allowed = {always = no}
-			allowed_civil_war = {
-				always = no
-			}
-			removal_cost = -1
-			modifier = {
-				#TODO: Change down to 10
-				autonomy_gain = -100
-			}
-		}
-
-
-		ETH_scavenging_tactics_idea = {
-
-			picture = ETH_scavenging_tactics
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes 
-			}
-			removal_cost = -1
-			
-			modifier = {
-				equipment_capture_factor = 0.4
-			}
-		}
-
-		ETH_communist_international_brigades = {
-
-			picture = SPR_international_brigades
-
-			allowed = {
-				original_tag = ETH
-				has_government = communism
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			modifier = {
-				weekly_manpower = 1000
-			}
-		}
-
-		ETH_peacekeeping_forces_idea = {
-
-			picture = ETH_peacekeeping_forces
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			rule = {
-				can_send_volunteers = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				send_volunteers_tension = -0.35
-				send_volunteer_divisions_required = -0.5
-				send_volunteer_factor = 0.25
-			}
-		}
-		ETH_regional_supply_depts_idea = {
-
-			picture = generic_supply_depot
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes 
-			}
-			removal_cost = -1
-			
-			modifier = {
-				attrition = -0.25
-				supply_consumption_factor = -0.15
-				out_of_supply_factor = -0.1
-			}
-		}
-
-		ETH_the_common_soldier_idea = {
-
-			picture = ETH_the_common_soldier
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}			
-
-			removal_cost = -1
-			
-			modifier = {
-				conscription_factor = 0.1
-				modifier_army_sub_unit_infantry_defence_factor = 0.05
-				modifier_army_sub_unit_irregular_infantry_defence_factor = 0.05
-			}
-		}
-
-		ETH_raid_italian_depots_idea = {
-			picture = chi_war_of_resistance3
-			allowed = {
-				original_tag = ITA
-				ETH = { is_subject_of = ITA }
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			modifier = {
-				supply_consumption_factor = 0.1
-			}
-			targeted_modifier = {
-				tag = ETH 
-				defense_bonus_against = -0.1
-			}
-		}
-
-		ETH_the_exiles = {
-
-			picture = chi_army_corruption2
-
-			allowed = {
-				original_tag = ETH
-				has_government = fascism
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			modifier = {
-				weekly_manpower = 3000
-			}
-		}
-
-		ETH_infrastructure_projects = {
-
-			picture = generic_build_infrastructure
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-
-			removal_cost = -1
-			
-			modifier = {
-				production_speed_infrastructure_factor = 0.25
-			}
-		}
-
-		ETH_rebuilding_the_country_idea = {
-
-			picture = man_five_year_plan_industry
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-
-			removal_cost = -1
-			
-			modifier = {
-				industry_repair_factor = 0.1
-				industry_free_repair_factor = 0.1
-				repair_speed_infrastructure_factor = 0.25
-				repair_speed_rail_way_factor = 0.25
-				production_speed_buildings_factor = 0.2
-			}
-		}
-
-		ETH_education_reform = {
-			picture = generic_research_bonus
-			allowed = {
-				always = no
-			} 
-			allowed_civil_war =  {
-				always = yes
-			}
-			removal_cost = -1
-			modifier = {
-				research_speed_factor = 0.05
-			}
-		}
-
-		ETH_secularization_reform = {
-			picture = SOV_a_church_of_the_catacombs
-			allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				always = yes
-			}
-			removal_cost = -1
-			modifier = {
-				stability_factor = 0.1
-			}
-		}
-		ETH_secular_education = {
-			picture = SOV_opiate_of_the_masses
-			allowed = {
-				always = no
-			} 
-			allowed_civil_war =  {
-				always = yes
-			}
-			removal_cost = -1
-			modifier = {
-				research_speed_factor = 0.05
-			}
-		}
-		ETH_leadership_cult_education = {
-			picture = saf_soviet_advisers
-			allowed = {
-				always = no
-			} 
-			allowed_civil_war =  {
-				always = yes
-			}
-			removal_cost = -1
-			modifier = {
-				research_speed_factor = -0.05
-				stability_factor = 0.05
-			}
-		}
-		ETH_political_officers = {
-			picture = generic_communist_army
-			allowed = {
-				always = no
-			} 
-			allowed_civil_war =  {
-				always = yes
-			}
-			removal_cost = -1
-			modifier = {
-				war_support_factor = 0.05
-				army_core_defence_factor = 0.05
-			}
-		}
-		ETH_meritocratic_officers = {
-			picture = generic_army_war_college
-			allowed = {
-				always = no
-			} 
-			allowed_civil_war =  {
-				always = yes
-			}
-			removal_cost = -1
-			modifier = {
-				stability_factor = 0.05
-				army_core_attack_factor = 0.05
-			}
-		}
-		ETH_mass_transit_idea = {
-
-			picture = SPR_anarchist_public_transport
-
-			allowed = {
-				original_tag = ETH
-				has_government = communism
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			modifier = {
-				army_speed_factor = 0.10
-			}
-		}
-
-		ETH_refuge_for_spanish_exiles_idea = {
-
-			picture = SPR_anarchist_society
-
-			allowed = {
-				original_tag = ETH
-				has_government = communism
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			modifier = {
-				weekly_manpower = 1000
-				army_core_defence_factor = 0.05
-			}
-		}
-		ETH_prepare_for_the_inevitable_idea = {
-
-			picture = generic_wall_line
-
-			allowed = {
-				original_tag = ETH
-				has_government = communism
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			modifier = {
-				production_speed_bunker_factor = 0.1
-				production_speed_coastal_bunker_factor = 0.1
-			}
-		}
-		ETH_ethiopian_officers_idea = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_air_bonus		
-
-			modifier = {
-				air_ace_generation_chance_factor = 0.10
-			}
-		}
-		ETH_purge_ideology_boost_idea = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_democratic_drift_bonus		
-
-			modifier = {
-				liberalism_drift = 0.05
-				legitimacy_daily = -1
-			}
-		}
+		
+		
+		
+		
 	}
 	industrial_concern = {
-		ETH_cie = { 
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+	
+ETH_cie = { 
 
 			picture = ETH_cie
 
@@ -1109,7 +249,7 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = ETH_expanding_the_railway_network
+				always = no
 			}
 
 			cost = 75
@@ -1125,7 +265,7 @@ ideas = {
 			}
 		}
 
-		ETH_dire_dawa_industries = {
+ETH_dire_dawa_industries = {
 			picture = ETH_dire_dawa_industries
 			allowed = {
 				original_TAG = ETH
@@ -1133,7 +273,7 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = ETH_invest_in_the_east
+				always = no
 			}
 			cost = 125
 						
@@ -1144,14 +284,14 @@ ideas = {
 			traits = { industrial_concern }
 		}
 
-		ETH_ethiopian_electric_power = {
+ETH_ethiopian_electric_power = {
 			picture = ETH_ethiopian_electric_power
 			allowed = {
 				original_tag = ETH
 				has_dlc = "By Blood Alone"
 			}
 			available = {
-				has_completed_focus = ETH_modernizing_the_industry
+				always = no
 			}
 			cost = 150
 			research_bonus = {
@@ -1161,14 +301,14 @@ ideas = {
 			traits = { electronics_concern }
 		}
 
-		ETH_tenneco = {
+ETH_tenneco = {
 			picture = ETH_tenneco
 			allowed = {
 				original_tag = ETH
 				has_dlc = "By Blood Alone"
 			}
 			available = {
-				has_completed_focus = ETH_invite_foreign_prospectors
+				always = no
 			}
 			cost = 150
 
@@ -1185,7 +325,7 @@ ideas = {
 			}
 		}
 
-		ETH_standard_oil_california = {
+ETH_standard_oil_california = {
 			picture = standard_oil_california
 			name = standard_oil_california
 			allowed = {
@@ -1193,7 +333,7 @@ ideas = {
 				has_dlc = "By Blood Alone"
 			}
 			available = {
-				has_completed_focus = ETH_invite_foreign_prospectors
+				always = no
 			}
 
 			
@@ -1208,7 +348,7 @@ ideas = {
 			}
 		}
 
-		ETH_stalingrad_tractor_factory = {
+ETH_stalingrad_tractor_factory = {
 			picture = stalingrad_tractor_factory
 			allowed = {
 				original_tag = ETH
@@ -1216,7 +356,7 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ETH_soviet-ethiopian_trade_agreement
+				always = no
 			}
 
 			research_bonus = {
@@ -1229,14 +369,14 @@ ideas = {
 			}
 		}
 
-		ETH_english_electric = {
+ETH_english_electric = {
 			picture =  english_electric
 			allowed = {
 				original_TAG = ETH
 				has_dlc = "By Blood Alone"
 			}
 			visible = {
-				has_completed_focus = ETH_invite_foreign_industrialists
+				always = no
 				IF = {
 					limit = {NOT = {has_idea = ETH_english_electric}}
 					ENG = {
@@ -1261,14 +401,14 @@ ideas = {
 			}
 		}
 
-		ETH_CZE_skoda_works_2 = {
+ETH_CZE_skoda_works_2 = {
 			picture = CZE_skoda_works_2
 			allowed = {
 				original_tag = ETH
 				has_dlc = "By Blood Alone"
 			}
 			visible = {
-				has_completed_focus = ETH_invite_foreign_industrialists
+				always = no
 				IF = {
 					limit = {NOT = {has_idea = ETH_CZE_skoda_works_2}}
 					CZE = {
@@ -1289,7 +429,7 @@ ideas = {
 
 			traits = { industrial_concern }
 		}
-	}
+}
 
 	materiel_manufacturer = {
 			
@@ -1302,7 +442,7 @@ ideas = {
 				has_dlc = "By Blood Alone"
 			}
 			available = {
-				has_completed_focus = ETH_invest_in_the_west
+				always = no
 			}
 			cost = 150
 
@@ -1321,7 +461,7 @@ ideas = {
 				has_dlc = "By Blood Alone"
 			}
 			available = {
-				has_completed_focus = ETH_invest_in_the_north
+				always = no
 			}
 			cost = 150
 
@@ -1335,7 +475,23 @@ ideas = {
 
 		}
 
-		ETH_gaz = {
+		
+
+		
+
+			
+
+		
+
+		
+		
+		
+		
+
+		
+
+	
+ETH_gaz = {
 			name = gaz
 
 			picture = gaz
@@ -1346,7 +502,7 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ETH_soviet-ethiopian_trade_agreement
+				always = no
 			}
 
 			research_bonus = {
@@ -1360,7 +516,7 @@ ideas = {
 			}
 		}
 
-		beretta_ETH = { 
+beretta_ETH = { 
 			allowed = {
 				original_tag = ETH
 				has_dlc = "By Blood Alone"
@@ -1377,7 +533,7 @@ ideas = {
 			traits = { infantry_equipment_manufacturer }
 		}
 
-		breda_ETH = { 
+breda_ETH = { 
 			allowed = {
 				original_tag = ETH
 				has_dlc = "By Blood Alone"
@@ -1392,13 +548,13 @@ ideas = {
 			}
 			
 			traits = { artillery_manufacturer }
-		}	
+		}
 
-		ETH_CZE_skoda_artillery = {
+ETH_CZE_skoda_artillery = {
 
 			picture = generic_artillery_manufacturer_2
 			visible = {
-				has_completed_focus = ETH_invite_foreign_industrialists
+				always = no
 				IF = {
 					limit = {NOT = {has_idea = ETH_CZE_skoda_artillery}}
 					CZE = {
@@ -1428,14 +584,14 @@ ideas = {
 			}
 		}
 
-		ETH_mas = {
+ETH_mas = {
 			picture = mas			
 			allowed = {
 				original_tag = ETH
 				has_dlc = "By Blood Alone"
 			}
 			visible = {
-				has_completed_focus = ETH_invite_foreign_industrialists
+				always = no
 				IF = {
 					limit = {NOT = {has_idea = ETH_mas}}
 					FRA = {
@@ -1455,14 +611,15 @@ ideas = {
 			
 			traits = { infantry_equipment_manufacturer }
 		}
-		ETH_scania = {
+
+ETH_scania = {
 			picture = scania	
 			allowed = {
 				original_tag = ETH
 				has_dlc = "By Blood Alone"
 			}
 			visible = {
-				has_completed_focus = ETH_invite_foreign_industrialists
+				always = no
 				IF = {
 					limit = {NOT = {has_idea = ETH_scania}}
 					SWE = {
@@ -1486,7 +643,8 @@ ideas = {
 				# more info
 			}
 		}
-		ETH_bofors = {
+
+ETH_bofors = {
 			
 			picture = generic_artillery_manufacturer_1
 
@@ -1495,7 +653,7 @@ ideas = {
 				has_dlc = "By Blood Alone"
 			}
 			visible = {
-				has_completed_focus = ETH_invite_foreign_industrialists
+				always = no
 				IF = {
 					limit = {NOT = {has_idea = ETH_bofors}}
 					SWE = {
@@ -1524,10 +682,11 @@ ideas = {
 			modifier = {
 			}
 		}
-		ETH_mauser = {
+
+ETH_mauser = {
 			picture = mauser
 			visible = {
-				has_completed_focus = ETH_invite_foreign_industrialists
+				always = no
 				IF = {
 					limit = {NOT = {has_idea = ETH_mauser}}
 					GER = {
@@ -1558,10 +717,10 @@ ideas = {
 			}
 		}
 
-		ETH_nissan = {
+ETH_nissan = {
 			picture = nissan
 			visible = {
-				has_completed_focus = ETH_invite_foreign_industrialists
+				always = no
 				IF = {
 					limit = {NOT = {has_idea = ETH_nissan}}
 					JAP = {
@@ -1586,12 +745,25 @@ ideas = {
 			
 			traits = { motorized_equipment_manufacturer }
 		}
-
-	}
+}
 
 	tank_manufacturer = {
 		designer = yes
-		ETH_mytishchy_machine_building_plant = {
+		
+
+		
+
+		designer = yes
+
+		
+
+		
+		
+		
+		
+		
+	
+ETH_mytishchy_machine_building_plant = {
 
 			picture = SOV_mytishchy_machine_building_plant
 
@@ -1601,7 +773,7 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ETH_mytishchi-ababa_plant
+				always = no
 			}
 
 			research_bonus = {
@@ -1617,7 +789,7 @@ ideas = {
 			}
 		}
 
-		fiat_ETH = { 
+fiat_ETH = { 
 			picture = fiat
 			allowed = {
 				original_tag = ETH
@@ -1635,16 +807,14 @@ ideas = {
 			traits = { tank_manufacturer }
 		}
 
-		designer = yes
-
-		ETH_CZE_ckd = {
+ETH_CZE_ckd = {
 			picture = CZE_ckd
 			allowed = {
 				original_tag = ETH
 				has_dlc = "By Blood Alone"
 			}
 			visible = {
-				has_completed_focus = ETH_invite_foreign_industrialists
+				always = no
 				IF = {
 					limit = {NOT = {has_idea = ETH_CZE_ckd}}
 					CZE = {
@@ -1669,11 +839,11 @@ ideas = {
 			}
 		}
 
-		ETH_CZE_skoda_armor = {
+ETH_CZE_skoda_armor = {
 
 			picture = generic_tank_manufacturer_3
 			visible = {
-				has_completed_focus = ETH_invite_foreign_industrialists
+				always = no
 				IF = {
 					limit = {NOT = {has_idea = ETH_CZE_skoda_armor}}
 					CZE = {
@@ -1701,14 +871,15 @@ ideas = {
 			equipment_bonus = {
 			}
 		}
-		ETH_vickers_armstrong_eng = {
+
+ETH_vickers_armstrong_eng = {
 			picture = vickers_armstrong_eng
 			allowed = {
 				original_TAG = ETH
 				has_dlc = "By Blood Alone"
 			}
 			visible = {
-				has_completed_focus = ETH_invite_foreign_industrialists
+				always = no
 				IF = {
 					limit = {NOT = {has_idea = ETH_vickers_armstrong_eng}}
 					ENG = {
@@ -1732,11 +903,12 @@ ideas = {
 			modifier = {
 			}
 		}
-		ETH_renault_fra = {
+
+ETH_renault_fra = {
 		
 			picture = renault
 			visible = {
-				has_completed_focus = ETH_invite_foreign_industrialists
+				always = no
 				IF = {
 					limit = {NOT = {has_idea = ETH_renault_fra}}
 					FRA = {
@@ -1761,11 +933,12 @@ ideas = {
 			
 			traits = { heavy_tank_manufacturer }
 		}
-		ETH_landsverk = {
+
+ETH_landsverk = {
 			
 			picture = generic_tank_manufacturer_2
 			visible = {
-				has_completed_focus = ETH_invite_foreign_industrialists
+				always = no
 				IF = {
 					limit = {NOT = {has_idea = ETH_landsverk}}
 					SWE = {
@@ -1794,10 +967,11 @@ ideas = {
 				# notable tanks L-120 and L-60, lighter tanks as well as the medium tank Stridsvagn m/42, that was mobile and well protected.
 			}
 		}
-		ETH_henschel = {
+
+ETH_henschel = {
 			picture = henschel
 			visible = {
-				has_completed_focus = ETH_invite_foreign_industrialists
+				always = no
 				IF = {
 					limit = {NOT = {has_idea = ETH_henschel}}
 					GER = {
@@ -1826,12 +1000,17 @@ ideas = {
 				factor = 1
 			}
 		}
-	}
+}
 
 	naval_manufacturer = {
 		designer = yes
 
-		ETH_rubin_design_bureau = {
+		
+
+		
+		
+	
+ETH_rubin_design_bureau = {
 
 			picture = SOV_rubin_design_bureau
 
@@ -1841,7 +1020,7 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ETH_soviet-ethiopian_trade_agreement
+				always = no
 			}
 
 			research_bonus = {
@@ -1854,14 +1033,14 @@ ideas = {
 			}
 		}
 
-		ETH_john_brown_company = {
+ETH_john_brown_company = {
 			picture = john_brown_company
 			allowed = {
 				original_TAG = ETH
 				has_dlc = "By Blood Alone"
 			}
 			visible = {
-				has_completed_focus = ETH_invite_foreign_industrialists
+				always = no
 				IF = {
 					limit = {NOT = {has_idea = ETH_john_brown_company}}
 					ENG = {
@@ -1881,14 +1060,15 @@ ideas = {
 			
 			traits = { coastal_defence_naval_manufacturer }
 		}
-		ETH_maizuru_naval_arsenal = {
+
+ETH_maizuru_naval_arsenal = {
 			picture = maizuru_naval_arsenal		
 			allowed = {
 				original_tag = ETH
 				has_dlc = "By Blood Alone"
 			}
 			visible = {
-				has_completed_focus = ETH_invite_foreign_industrialists
+				always = no
 				IF = {
 					limit = {NOT = {has_idea = ETH_maizuru_naval_arsenal}}
 					JAP = {
@@ -1912,13 +1092,27 @@ ideas = {
 				# 
 			}
 		}
-	}
+}
 
 	aircraft_manufacturer = {
 
 		designer = yes
 
-		ETH_mig_design_bureau = {
+		
+
+		
+
+		
+
+		
+
+		
+		
+		
+		
+		
+	
+ETH_mig_design_bureau = {
 			name = mig_design_bureau
 
 			picture = mig_design_bureau
@@ -1929,7 +1123,7 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ETH_soviet-ethiopian_trade_agreement
+				always = no
 			}
 
 			research_bonus = {
@@ -1942,7 +1136,7 @@ ideas = {
 			}
 		}
 
-		macchi_ETH = { 
+macchi_ETH = { 
 			allowed = {
 				original_tag = ETH
 				has_dlc = "By Blood Alone"
@@ -1960,7 +1154,7 @@ ideas = {
 			traits = { light_aircraft_manufacturer }
 		}
 
-		caproni_ETH = { 		
+caproni_ETH = { 		
 			allowed = {
 				original_tag = ETH
 				has_dlc = "By Blood Alone"
@@ -1977,7 +1171,7 @@ ideas = {
 			traits = { CAS_manufacturer }
 		}
 
-		ETH_imam = { 
+ETH_imam = { 
 			picture	= ITA_imam
 
 			allowed = {
@@ -1996,12 +1190,12 @@ ideas = {
 			traits = { medium_aircraft_manufacturer }
 		}
 
-		ETH_CZE_avia = {
+ETH_CZE_avia = {
 
 			picture = generic_air_manufacturer_1
 
 			visible = {
-				has_completed_focus = ETH_invite_foreign_industrialists
+				always = no
 				IF = {
 					limit = {NOT = {has_idea = ETH_CZE_avia}}
 					CZE = {
@@ -2032,14 +1226,15 @@ ideas = {
 				factor = 1
 			}
 		}
-		ETH_fairey_aviation = {
+
+ETH_fairey_aviation = {
 			picture = fairey_aviation
 			allowed = {
 				original_TAG = ETH
 				has_dlc = "By Blood Alone"
 			}
 			visible = {
-				has_completed_focus = ETH_invite_foreign_industrialists
+				always = no
 				IF = {
 					limit = {NOT = {has_idea = ETH_fairey_aviation}}
 					ENG = {
@@ -2063,14 +1258,15 @@ ideas = {
 			modifier = {
 			}
 		}
-		ETH_bloch = {
+
+ETH_bloch = {
 			picture = bloch	
 			allowed = {
 				original_tag = ETH
 				has_dlc = "By Blood Alone"
 			}
 			visible = {
-				has_completed_focus = ETH_invite_foreign_industrialists
+				always = no
 				IF = {
 					limit = {NOT = {has_idea = ETH_bloch}}
 					FRA = {
@@ -2090,14 +1286,15 @@ ideas = {
 			
 			traits = { medium_aircraft_manufacturer }
 		}
-		ETH_junkers = { 
+
+ETH_junkers = { 
 			picture = junkers
 			allowed = {
 				original_tag = ETH
 				has_dlc = "By Blood Alone"
 			}
 			visible = {
-				has_completed_focus = ETH_invite_foreign_industrialists
+				always = no
 				IF = {
 					limit = {NOT = {has_idea = ETH_junkers}}
 					GER = {
@@ -2125,14 +1322,15 @@ ideas = {
 				factor = 1
 			}
 		}
-		ETH_mitsubishi = {
+
+ETH_mitsubishi = {
 			picture = mitsubishi	
 			allowed = {
 				original_tag = ETH		
 				has_dlc = "By Blood Alone"
 			}
 			visible = {
-				has_completed_focus = ETH_invite_foreign_industrialists
+				always = no
 				IF = {
 					limit = {NOT = {has_idea = ETH_mitsubishi}}
 					JAP = {
@@ -2157,5 +1355,5 @@ ideas = {
 
 			}
 		}
-	}
+}
 }

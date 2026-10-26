@@ -27,7 +27,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "political_title"
 			position = { x = 45 y = 8 }
-			textureFile = ""
+			
 			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
 			text = "POLITICAL_POLITICAL"
@@ -41,7 +41,12 @@ guiTypes = {
 			spriteType = "GFX_pol_view_bg"
 			position = { x= 0 y = 44 }
 			Orientation = "UPPER_LEFT"
-		}	
+		}
+	# Left square in the supplied background: [339,432) x [457,549), plus y=44.
+containerWindowType = {
+name = "APDC_cold_war_entry_hook" position = { x = 339 y = 501 } size = { width = 93 height = 92 } clipping = no
+}
+	
 
 		# APDC economic systems use the lower-centre plate in pol_view_bg.
 		# A 90x90 icon is centred inside this unchanged 100x100 anchor.
@@ -1108,15 +1113,17 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "traits"
-				position = { x = 0 y = 10 }
+				position = { x = 316 y = 32 }
 				font = "hoi_16mbs"
 				fixedsize = yes			
 				text = "name"
-				maxWidth = 160
-				maxHeight = 100%%
+				maxWidth = 58
+				maxHeight = 20
 				format = left
 				alwaystransparent = yes			
+			truncate = no
 			}
+		clipping = no
 		}
 		
 		instantTextboxType = {

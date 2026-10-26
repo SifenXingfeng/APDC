@@ -1,0 +1,61 @@
+state = {
+	id = 680
+	name = "STATE_680"
+	provinces = {
+		901
+		1606
+		1634
+		2013
+		3942
+		6883
+		7513
+		10882
+		12316
+		14443
+		14463
+		16273
+		16274
+		16276
+		16277
+		16278
+		16279
+		16280
+	}
+	manpower = 194466
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 4
+	history = {
+		owner = SYR
+		controller = SYR
+		add_core_of = SYR
+		victory_points = {
+			901
+			1
+		}
+		victory_points = {
+			1606
+			2
+		}
+		victory_points = {
+			6883
+			1
+		}
+		victory_points = {
+			14463
+			3
+		}
+		victory_points = {
+			16277
+			1
+		}
+		victory_points = {
+			16279
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_extra_state_shared_building_slots = 1
+	}
+}

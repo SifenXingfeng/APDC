@@ -1,0 +1,49 @@
+state = {
+	id = 918
+	name = "STATE_918"
+	resources = {
+		tungsten = 29
+		steel = 33
+		chromium = 13
+	}
+	provinces = {
+		11
+		109
+		118
+		145
+		184
+		3044
+		3100
+		3113
+		3138
+		3173
+		6132
+		6161
+		6200
+		9093
+		9143
+		9220
+		11067
+		11069
+		11120
+		11201
+		18372
+	}
+	manpower = 264688
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = NOR
+		add_core_of = ZZZ
+		victory_points = {
+			6132
+			1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

@@ -1,0 +1,22 @@
+--- before/interface/APDC_miscellaneous.gfx
++++ current/interface/APDC_miscellaneous.gfx
+@@ -1,18 +1 @@
+-spriteTypes = {
+-
+-	spriteType = {
+-		name = "GFX_GAK_diamond"
+-		texturefile = "gfx/interface/miscellaneous/GAK_diamond.dds"
+-		legacy_lazy_load = no
+-	}
+-	spriteType = {
+-		name = "GFX_GAK_diamond_revenue"
+-		texturefile = "gfx/interface/miscellaneous/GAK_diamond_revenue.dds"
+-		legacy_lazy_load = no
+-	}
+-	spriteType = {
+-		name = "GFX_GAK_diamond_expenditures"
+-		texturefile = "gfx/interface/miscellaneous/GAK_diamond_expenditures.dds"
+-		legacy_lazy_load = no
+-	}
+-}
++spriteTypes = { }

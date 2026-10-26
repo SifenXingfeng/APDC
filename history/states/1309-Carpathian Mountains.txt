@@ -1,0 +1,49 @@
+state = {
+	id = 1309
+	name = "STATE_1309"
+	provinces = {
+		442
+		466
+		536
+		3410
+		3434
+		6499
+		6522
+		15811
+		15812
+		15814
+	}
+	manpower = 1846400
+	resources = {
+		oil = 2
+		steel = 3
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = large_city
+	history = {
+		owner = POL
+		controller = POL
+		add_core_of = POL
+		victory_points = {
+			442
+			1
+		}
+		victory_points = {
+			3434
+			1
+		}
+		victory_points = {
+			6499
+			1
+		}
+		victory_points = {
+			15812
+			2
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		set_state_flag = GDP_category_rural
+	}
+}

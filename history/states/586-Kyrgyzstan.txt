@@ -1,0 +1,51 @@
+state = {
+	id = 586
+	name = "STATE_586"
+	resources = {
+		steel = 19
+		chromium = 11
+		tungsten = 4
+		aluminium = 9
+	}
+	provinces = {
+		1591
+		1840
+		4224
+		4492
+		4773
+		7711
+		10146
+		10506
+		10603
+		12340
+		12385
+		12640
+		12658
+		18818
+	}
+	manpower = 2392510
+	buildings_max_level_factor = 1
+	state_category = city
+	local_supplies = 2
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		victory_points = {
+			1591
+			15
+		}
+		victory_points = {
+			4224
+			1
+		}
+		victory_points = {
+			12640
+			3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+		}
+	}
+}

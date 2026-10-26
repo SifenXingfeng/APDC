@@ -1,0 +1,44 @@
+state={
+	id=1049
+	name="STATE_1049"
+	resources={
+		rubber = 102 #was 224 #26-02-03: was:171
+		oil = 24 #was:12 #26-02-03: was:20
+	}
+
+	history={
+		owner = INS
+		add_core_of = SSI
+		set_resistance = 0
+		set_compliance = 60
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			12113 = {
+				naval_base = 1
+			}
+			15671 = {
+				naval_base = 1
+			}
+			#
+			19268 = {
+				naval_base = 1
+			}
+		}
+
+		victory_points = {
+			4652 10
+		}
+		victory_points = {
+			12212 1
+		}
+	}
+
+	provinces={
+		1246 1277 1332 1345 1373 1401 1533 4276 4364 4652 7327 7463 7673 12113 12184 12296 12302 12343 13402 15671 15700 15701 15702 15718 15720 15721 15725 19198 19199 19202 19203 19213 19217 19221 19222 19228 19230 19236 19239 19245 19247 19248 19261 19268 19271 19285 19289 19295 19305 19367 
+	}
+	manpower = 3126543
+	state_category = rural
+
+	local_supplies=0.0 
+}

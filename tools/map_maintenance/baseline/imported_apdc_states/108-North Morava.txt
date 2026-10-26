@@ -1,0 +1,44 @@
+state = {
+	id = 108
+	name = "STATE_108"
+	resources = {
+		steel = 2
+	}
+	provinces = {
+		630
+		6634
+		6953
+		6998
+		9756
+		14666
+		15649
+		15650
+		15651
+		15652
+		15653
+		18152
+		18167
+		18168
+	}
+	manpower = 489552
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 5
+	history = {
+		owner = YUG
+		controller = YUG
+		add_core_of = YUG
+		victory_points = {
+			6953
+			1
+		}
+		victory_points = {
+			18168
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 5
+		}
+	}
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=415
+	name="STATE_415" # Herat
+	manpower = 1001058
+	
+	state_category = rural
+
+	history={
+		owner = AFG
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1  
+		}
+		victory_points = {
+			4893 1 
+		}
+		add_core_of = AFG
+	}
+
+	provinces={
+		4893 7448 7984 8053 10476 10896 12788 13617 14746 14755 18630 18633 18635 18639 18648 18649 18651 18699 
+	}
+
+	local_supplies=0.0 
+}

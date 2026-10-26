@@ -1,0 +1,44 @@
+state = {
+	id = 988
+	name = "STATE_988"
+	provinces = {
+		5075
+		5105
+		8013
+		8044
+		8066
+		12761
+		15993
+		15994
+		15996
+	}
+	state_category = rural
+	manpower = 512000
+	history = {
+		owner = PAK
+		controller = PAK
+		add_core_of = PAK
+		add_claim_by = AFG
+		victory_points = {
+			5105
+			5
+		}
+		victory_points = {
+			8066
+			2
+		}
+		victory_points = {
+			15993
+			1
+		}
+		victory_points = {
+			15996
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

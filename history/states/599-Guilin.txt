@@ -1,34 +1,48 @@
 state = {
 	id = 599
 	name = "STATE_599"
-	history = {
-		owner = PRC
-		add_core_of = PRC
-		buildings = {
-			infrastructure = 3
-		}
-		victory_points = {
-			17000
-			17
-		}
-		victory_points = {
-			12407
-			4
-		}
-		victory_points = {
-			7168
-			3
-		}
+	resources = {
+		tungsten = 5
+		steel = 5
+		chromium = 1
 	}
 	provinces = {
 		1023
 		7168
+		10039
 		10404
 		12407
 		17000
+		19686
 	}
-	manpower = 2890569
+	manpower = 3039820
 	buildings_max_level_factor = 1
-	state_category = rural
+	state_category = town
 	local_supplies = 0
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			7168
+			1
+		}
+		victory_points = {
+			10404
+			5
+		}
+		victory_points = {
+			12407
+			1
+		}
+		victory_points = {
+			19686
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
 }

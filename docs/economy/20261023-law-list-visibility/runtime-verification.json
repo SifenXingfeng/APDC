@@ -1,0 +1,27 @@
+{
+  "passed": [
+    "science_five_listed",
+    "science_selection_locked",
+    "society_five_listed",
+    "society_selection_locked",
+    "defense_five_listed",
+    "defense_selection_locked",
+    "civilian_factories_available"
+  ],
+  "failed": [],
+  "factories": "APDC_VISIBILITY FACTORIES total=33 free=28 allocated=5",
+  "error_inventory_matches_previously_classified_run": true,
+  "error_records": 705,
+  "visual_verified": false,
+  "shutdown": {
+    "closed_helpers": [
+      12844,
+      34916
+    ],
+    "still_running": false,
+    "pid": 39204,
+    "remaining_helpers": [],
+    "steam_app_running": false,
+    "stopped": "2026-10-23T18:21:49.2222091+08:00"
+  }
+}

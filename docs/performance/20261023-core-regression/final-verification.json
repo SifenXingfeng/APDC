@@ -1,0 +1,4374 @@
+{
+  "parsed_script_files": 3124,
+  "syntax_errors": [],
+  "state_history_changes": [],
+  "runtime_records": 705,
+  "external_records": 705,
+  "project_or_unclassified_records": 0,
+  "external_by_origin": {
+    "native flag asset": 6,
+    "native installation/DLC control run": 590,
+    "external Toolpack": 109
+  },
+  "project_or_unclassified": [],
+  "external": [
+    {
+      "count": 4,
+      "message": "[database_scoped_variables.cpp:267]: invalid database object for effect/trigger: experimental_rockets. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\bst.txt"
+      ]
+    },
+    {
+      "count": 4,
+      "message": "[database_scoped_variables.cpp:267]: invalid database object for effect/trigger: rocket_engines. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\bst.txt"
+      ]
+    },
+    {
+      "count": 4,
+      "message": "[database_scoped_variables.cpp:267]: invalid database object for effect/trigger: improved_rocket_engines. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\bst.txt"
+      ]
+    },
+    {
+      "count": 4,
+      "message": "[database_scoped_variables.cpp:267]: invalid database object for effect/trigger: advanced_rocket_engines. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\bst.txt"
+      ]
+    },
+    {
+      "count": 2,
+      "message": "[pdx_entity.cpp:324]: Failed to find entity \"INS_bicycle_vehicle_entity\" for attachment in bicycle",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[dlc.cpp:142]: incorrect checksum for DLC",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'sfx_ui_sd_module_turret_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/menu/sfx_ui_sd_module_turrent_01.wav' in  file: sound/sound.asset line: 730",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'sfx_ui_sd_module_sonar_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/menu/sfx_ui_sd_module_sonar_01.wav' in  file: sound/sound.asset line: 734",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'sfx_ui_sd_module_misc_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/menu/sfx_ui_sd_module_misc_01.wav' in  file: sound/sound.asset line: 738",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'sfx_ui_sd_module_engine_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/menu/sfx_ui_sd_module_engine_01.wav' in  file: sound/sound.asset line: 742",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_001' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_001.wav' in  file: sound/ww_vo.asset line: 506",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_002' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_002.wav' in  file: sound/ww_vo.asset line: 507",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_003' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_003.wav' in  file: sound/ww_vo.asset line: 508",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_004' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_004.wav' in  file: sound/ww_vo.asset line: 509",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_005' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_005.wav' in  file: sound/ww_vo.asset line: 510",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_006' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_006.wav' in  file: sound/ww_vo.asset line: 511",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_007' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_007.wav' in  file: sound/ww_vo.asset line: 512",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_008' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_008.wav' in  file: sound/ww_vo.asset line: 513",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_009' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_009.wav' in  file: sound/ww_vo.asset line: 514",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_010' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_010.wav' in  file: sound/ww_vo.asset line: 515",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_011' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_011.wav' in  file: sound/ww_vo.asset line: 516",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_012' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_012.wav' in  file: sound/ww_vo.asset line: 517",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_013' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_013.wav' in  file: sound/ww_vo.asset line: 518",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_014' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_014.wav' in  file: sound/ww_vo.asset line: 519",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_015' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_015.wav' in  file: sound/ww_vo.asset line: 520",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_016' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_016.wav' in  file: sound/ww_vo.asset line: 521",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_017' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_017.wav' in  file: sound/ww_vo.asset line: 522",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_018' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_018.wav' in  file: sound/ww_vo.asset line: 523",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_019' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_019.wav' in  file: sound/ww_vo.asset line: 524",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_020' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_020.wav' in  file: sound/ww_vo.asset line: 525",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_021' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_021.wav' in  file: sound/ww_vo.asset line: 526",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_022' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_022.wav' in  file: sound/ww_vo.asset line: 527",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_023' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_023.wav' in  file: sound/ww_vo.asset line: 528",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_024' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_024.wav' in  file: sound/ww_vo.asset line: 529",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_025' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_025.wav' in  file: sound/ww_vo.asset line: 530",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_026' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_026.wav' in  file: sound/ww_vo.asset line: 531",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_idle_027' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_027.wav' in  file: sound/ww_vo.asset line: 532",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_retreat_001' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_001.wav' in  file: sound/ww_vo.asset line: 533",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_retreat_002' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_002.wav' in  file: sound/ww_vo.asset line: 534",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_retreat_003' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_003.wav' in  file: sound/ww_vo.asset line: 535",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_retreat_004' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_004.wav' in  file: sound/ww_vo.asset line: 536",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_retreat_005' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_005.wav' in  file: sound/ww_vo.asset line: 537",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_retreat_006' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_006.wav' in  file: sound/ww_vo.asset line: 538",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_retreat_007' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_007.wav' in  file: sound/ww_vo.asset line: 539",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_retreat_008' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_008.wav' in  file: sound/ww_vo.asset line: 540",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_retreat_009' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_009.wav' in  file: sound/ww_vo.asset line: 541",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_retreat_010' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_010.wav' in  file: sound/ww_vo.asset line: 542",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_retreat_011' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_011.wav' in  file: sound/ww_vo.asset line: 543",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_retreat_012' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_012.wav' in  file: sound/ww_vo.asset line: 544",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_retreat_013' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_013.wav' in  file: sound/ww_vo.asset line: 545",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_retreat_014' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_014.wav' in  file: sound/ww_vo.asset line: 546",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_retreat_015' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_015.wav' in  file: sound/ww_vo.asset line: 547",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_retreat_016' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_016.wav' in  file: sound/ww_vo.asset line: 548",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_retreat_017' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_017.wav' in  file: sound/ww_vo.asset line: 549",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_retreat_018' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_018.wav' in  file: sound/ww_vo.asset line: 550",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_retreat_016_alt' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_016_alt.wav' in  file: sound/ww_vo.asset line: 551",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_retreat_017_alt' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_017_alt.wav' in  file: sound/ww_vo.asset line: 552",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_retreat_018_alt' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_018_alt.wav' in  file: sound/ww_vo.asset line: 553",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_001' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_001.wav' in  file: sound/ww_vo.asset line: 554",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_002' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_002.wav' in  file: sound/ww_vo.asset line: 555",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_003' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_003.wav' in  file: sound/ww_vo.asset line: 556",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_004' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_004.wav' in  file: sound/ww_vo.asset line: 557",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_005' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_005.wav' in  file: sound/ww_vo.asset line: 558",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_006' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_006.wav' in  file: sound/ww_vo.asset line: 559",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_007' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_007.wav' in  file: sound/ww_vo.asset line: 560",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_008' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_008.wav' in  file: sound/ww_vo.asset line: 561",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_009' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_009.wav' in  file: sound/ww_vo.asset line: 562",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_010' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_010.wav' in  file: sound/ww_vo.asset line: 563",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_011' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_011.wav' in  file: sound/ww_vo.asset line: 564",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_012' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_012.wav' in  file: sound/ww_vo.asset line: 565",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_013' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_013.wav' in  file: sound/ww_vo.asset line: 566",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_014' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_014.wav' in  file: sound/ww_vo.asset line: 567",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_015' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_015.wav' in  file: sound/ww_vo.asset line: 568",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_016' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_016.wav' in  file: sound/ww_vo.asset line: 569",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_017' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_017.wav' in  file: sound/ww_vo.asset line: 570",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_018' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_018.wav' in  file: sound/ww_vo.asset line: 571",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_019' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_019.wav' in  file: sound/ww_vo.asset line: 572",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_020' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_020.wav' in  file: sound/ww_vo.asset line: 573",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_021' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_021.wav' in  file: sound/ww_vo.asset line: 574",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_019_alt' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_019_alt.wav' in  file: sound/ww_vo.asset line: 575",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_020_alt' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_020_alt.wav' in  file: sound/ww_vo.asset line: 576",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_neutral_021_alt' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_021_alt.wav' in  file: sound/ww_vo.asset line: 577",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_001' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_001.wav' in  file: sound/ww_vo.asset line: 578",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_002' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_002.wav' in  file: sound/ww_vo.asset line: 579",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_003' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_003.wav' in  file: sound/ww_vo.asset line: 580",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_004' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_004.wav' in  file: sound/ww_vo.asset line: 581",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_005' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_005.wav' in  file: sound/ww_vo.asset line: 582",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_006' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_006.wav' in  file: sound/ww_vo.asset line: 583",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_007' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_007.wav' in  file: sound/ww_vo.asset line: 584",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_008' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_008.wav' in  file: sound/ww_vo.asset line: 585",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_009' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_009.wav' in  file: sound/ww_vo.asset line: 586",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_010' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_010.wav' in  file: sound/ww_vo.asset line: 587",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_011' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_011.wav' in  file: sound/ww_vo.asset line: 588",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_012' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_012.wav' in  file: sound/ww_vo.asset line: 589",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_013' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_013.wav' in  file: sound/ww_vo.asset line: 590",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_014' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_014.wav' in  file: sound/ww_vo.asset line: 591",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_015' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_015.wav' in  file: sound/ww_vo.asset line: 592",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_016' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_016.wav' in  file: sound/ww_vo.asset line: 593",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_017' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_017.wav' in  file: sound/ww_vo.asset line: 594",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_018' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_018.wav' in  file: sound/ww_vo.asset line: 595",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_019' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_019.wav' in  file: sound/ww_vo.asset line: 596",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_020' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_020.wav' in  file: sound/ww_vo.asset line: 597",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_021' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_021.wav' in  file: sound/ww_vo.asset line: 598",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_022' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_022.wav' in  file: sound/ww_vo.asset line: 599",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_023' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_023.wav' in  file: sound/ww_vo.asset line: 600",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'bel_fr_positive_024' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_024.wav' in  file: sound/ww_vo.asset line: 601",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_001' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_001.wav' in  file: sound/ww_vo.asset line: 605",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_002' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_002.wav' in  file: sound/ww_vo.asset line: 606",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_003' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_003.wav' in  file: sound/ww_vo.asset line: 607",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_004' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_004.wav' in  file: sound/ww_vo.asset line: 608",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_005' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_005.wav' in  file: sound/ww_vo.asset line: 609",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_006' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_006.wav' in  file: sound/ww_vo.asset line: 610",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_007' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_007.wav' in  file: sound/ww_vo.asset line: 611",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_008' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_008.wav' in  file: sound/ww_vo.asset line: 612",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_009' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_009.wav' in  file: sound/ww_vo.asset line: 613",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_010' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_010.wav' in  file: sound/ww_vo.asset line: 614",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_011' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_011.wav' in  file: sound/ww_vo.asset line: 615",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_012' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_012.wav' in  file: sound/ww_vo.asset line: 616",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_013' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_013.wav' in  file: sound/ww_vo.asset line: 617",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_014' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_014.wav' in  file: sound/ww_vo.asset line: 618",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_015' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_015.wav' in  file: sound/ww_vo.asset line: 619",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_016' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_016.wav' in  file: sound/ww_vo.asset line: 620",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_017' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_017.wav' in  file: sound/ww_vo.asset line: 621",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_018' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_018.wav' in  file: sound/ww_vo.asset line: 622",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_019' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_019.wav' in  file: sound/ww_vo.asset line: 623",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_020' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_020.wav' in  file: sound/ww_vo.asset line: 624",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_021' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_021.wav' in  file: sound/ww_vo.asset line: 625",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_022' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_022.wav' in  file: sound/ww_vo.asset line: 626",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_023' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_023.wav' in  file: sound/ww_vo.asset line: 627",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_024' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_024.wav' in  file: sound/ww_vo.asset line: 628",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_025' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_025.wav' in  file: sound/ww_vo.asset line: 629",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_026' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_026.wav' in  file: sound/ww_vo.asset line: 630",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_idle_027' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_027.wav' in  file: sound/ww_vo.asset line: 631",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_retreat_001' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_001.wav' in  file: sound/ww_vo.asset line: 632",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_retreat_002' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_002.wav' in  file: sound/ww_vo.asset line: 633",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_retreat_003' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_003.wav' in  file: sound/ww_vo.asset line: 634",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_retreat_004' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_004.wav' in  file: sound/ww_vo.asset line: 635",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_retreat_005' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_005.wav' in  file: sound/ww_vo.asset line: 636",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_retreat_006' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_006.wav' in  file: sound/ww_vo.asset line: 637",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_retreat_007' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_007.wav' in  file: sound/ww_vo.asset line: 638",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_retreat_008' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_008.wav' in  file: sound/ww_vo.asset line: 639",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_retreat_009' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_009.wav' in  file: sound/ww_vo.asset line: 640",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_retreat_010' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_010.wav' in  file: sound/ww_vo.asset line: 641",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_retreat_011' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_011.wav' in  file: sound/ww_vo.asset line: 642",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_retreat_012' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_012.wav' in  file: sound/ww_vo.asset line: 643",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_retreat_013' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_013.wav' in  file: sound/ww_vo.asset line: 644",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_retreat_014' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_014.wav' in  file: sound/ww_vo.asset line: 645",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_retreat_015' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_015.wav' in  file: sound/ww_vo.asset line: 646",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_retreat_016' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_016.wav' in  file: sound/ww_vo.asset line: 647",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_retreat_017' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_017.wav' in  file: sound/ww_vo.asset line: 648",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_retreat_018' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_018.wav' in  file: sound/ww_vo.asset line: 649",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_retreat_016_alt' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_016_alt.wav' in  file: sound/ww_vo.asset line: 650",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_retreat_017_alt' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_017_alt.wav' in  file: sound/ww_vo.asset line: 651",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_retreat_018_alt' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_018_alt.wav' in  file: sound/ww_vo.asset line: 652",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_001' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_001.wav' in  file: sound/ww_vo.asset line: 653",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_002' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_002.wav' in  file: sound/ww_vo.asset line: 654",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_003' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_003.wav' in  file: sound/ww_vo.asset line: 655",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_004' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_004.wav' in  file: sound/ww_vo.asset line: 656",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_005' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_005.wav' in  file: sound/ww_vo.asset line: 657",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_006' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_006.wav' in  file: sound/ww_vo.asset line: 658",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_007' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_007.wav' in  file: sound/ww_vo.asset line: 659",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_008' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_008.wav' in  file: sound/ww_vo.asset line: 660",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_009' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_009.wav' in  file: sound/ww_vo.asset line: 661",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_010' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_010.wav' in  file: sound/ww_vo.asset line: 662",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_011' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_011.wav' in  file: sound/ww_vo.asset line: 663",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_012' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_012.wav' in  file: sound/ww_vo.asset line: 664",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_013' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_013.wav' in  file: sound/ww_vo.asset line: 665",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_014' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_014.wav' in  file: sound/ww_vo.asset line: 666",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_015' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_015.wav' in  file: sound/ww_vo.asset line: 667",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_016' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_016.wav' in  file: sound/ww_vo.asset line: 668",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_017' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_017.wav' in  file: sound/ww_vo.asset line: 669",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_018' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_018.wav' in  file: sound/ww_vo.asset line: 670",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_019' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_019.wav' in  file: sound/ww_vo.asset line: 671",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_020' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_020.wav' in  file: sound/ww_vo.asset line: 672",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_021' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_021.wav' in  file: sound/ww_vo.asset line: 673",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_019_alt' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_019_alt.wav' in  file: sound/ww_vo.asset line: 674",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_020_alt' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_020_alt.wav' in  file: sound/ww_vo.asset line: 675",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_neutral_021_alt' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_021_alt.wav' in  file: sound/ww_vo.asset line: 676",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_001' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_001.wav' in  file: sound/ww_vo.asset line: 677",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_002' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_002.wav' in  file: sound/ww_vo.asset line: 678",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_003' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_003.wav' in  file: sound/ww_vo.asset line: 679",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_004' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_004.wav' in  file: sound/ww_vo.asset line: 680",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_005' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_005.wav' in  file: sound/ww_vo.asset line: 681",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_006' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_006.wav' in  file: sound/ww_vo.asset line: 682",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_007' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_007.wav' in  file: sound/ww_vo.asset line: 683",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_008' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_008.wav' in  file: sound/ww_vo.asset line: 684",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_009' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_009.wav' in  file: sound/ww_vo.asset line: 685",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_010' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_010.wav' in  file: sound/ww_vo.asset line: 686",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_011' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_011.wav' in  file: sound/ww_vo.asset line: 687",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_012' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_012.wav' in  file: sound/ww_vo.asset line: 688",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_013' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_013.wav' in  file: sound/ww_vo.asset line: 689",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_014' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_014.wav' in  file: sound/ww_vo.asset line: 690",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_015' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_015.wav' in  file: sound/ww_vo.asset line: 691",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_016' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_016.wav' in  file: sound/ww_vo.asset line: 692",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_017' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_017.wav' in  file: sound/ww_vo.asset line: 693",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_018' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_018.wav' in  file: sound/ww_vo.asset line: 694",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_019' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_019.wav' in  file: sound/ww_vo.asset line: 695",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_020' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_020.wav' in  file: sound/ww_vo.asset line: 696",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_021' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_021.wav' in  file: sound/ww_vo.asset line: 697",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_022' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_022.wav' in  file: sound/ww_vo.asset line: 698",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_023' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_023.wav' in  file: sound/ww_vo.asset line: 699",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'aus_de_positive_024' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_024.wav' in  file: sound/ww_vo.asset line: 700",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'ui_raid_mapmode_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/ui_raid_mapmode_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 43",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'ui_special_project_started_sound_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/ui_special_project_started_sound_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 48",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'ui_special_project_finished_sound_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/ui_special_project_finished_sound_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 53",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'ui_special_project_start_dismantling_facility_sound_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/ui_special_project_start_dismantling_facility_sound_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 58",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'ui_special_project_abort_dismantling_facility_sound_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/ui_special_project_abort_dismantling_facility_sound_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 63",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'ui_finished_dismantling_sound_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/ui_finished_dismantling_sound_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 68",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'ui_alert_special_project_available_sound_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/ui_alert_special_project_available_sound_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 73",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_create_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_create_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 78",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_launch_air_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_air_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 82",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_launch_air_02' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_air_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 86",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_launch_air_03' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_air_03.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 90",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_launch_paratrooper_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_paratrooper_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 94",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_launch_paratrooper_02' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_paratrooper_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 98",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_launch_paratrooper_03' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_paratrooper_03.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 102",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_launch_marine_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_marine_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 106",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_launch_marine_02' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_marine_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 110",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_launch_marine_03' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_marine_03.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 114",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_launch_nuclear_strike_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_nuclear_strike_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 118",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_launch_nuclear_strike_02' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_nuclear_strike_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 122",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_launch_nuclear_missile_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_nuclear_missile_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 126",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_launch_nuclear_missile_02' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_nuclear_missile_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 130",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_launch_nuclear_missile_03' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_nuclear_missile_03.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 134",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_result_failure_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_failure_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 138",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_result_failure_02' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_failure_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 142",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_result_limited_success_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_limited_success_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 146",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_result_limited_success_02' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_limited_success_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 150",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_result_success_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_success_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 154",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_result_success_02' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_success_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 158",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_result_success_03' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_success_03.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 162",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_result_success_04' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_success_04.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 166",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_result_critical_success_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_critical_success_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 170",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_result_critical_success_02' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_critical_success_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 174",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_result_critical_success_03' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_critical_success_03.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 178",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'raid_result_critical_success_04' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_critical_success_04.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 182",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'alert_raid_available_sound_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/alert_raid_available_sound_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 218",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'alert_raid_available_sound_02' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/alert_raid_available_sound_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 222",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'alert_raid_launchable_sound_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/alert_raid_launchable_sound_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 226",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'alert_raid_launchable_sound_02' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/alert_raid_launchable_sound_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 230",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'alert_raid_launchable_sound_03' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/alert_raid_launchable_sound_03.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 234",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'alert_raid_detected_sound_01' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/alert_raid_detected_sound_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 238",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'alert_raid_detected_sound_02' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/alert_raid_detected_sound_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 242",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio_sdl.cpp:963]: Sound with name 'alert_raid_detected_sound_03' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/alert_raid_detected_sound_03.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 246",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'sfx_ui_sd_module_turret' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'sfx_ui_sd_module_sonar' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'sfx_ui_sd_module_default' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'sfx_ui_sd_module_engine' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'BEL_infantry_idle' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'BEL_infantry_retreat' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'BEL_infantry_neutral_combat' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'BEL_infantry_positive_combat' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'BEL_infantry_move_out' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'COG_infantry_idle' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'COG_infantry_retreat' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'COG_infantry_neutral_combat' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'COG_infantry_positive_combat' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'COG_infantry_move_out' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'AUS_infantry_idle' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'AUS_infantry_retreat' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'AUS_infantry_neutral_combat' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'AUS_infantry_positive_combat' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'AUS_infantry_move_out' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'ui_raid_mapmode' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'ui_special_project_start_dismantling_facility_sound' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'ui_special_project_abort_dismantling_facility_sound' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'ui_special_project_finished_sound' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'ui_special_project_started_sound' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'ui_finished_dismantling_sound' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'ui_alert_program_unassigned_scientist_sound' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'ui_alert_special_project_available_sound' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'raid_create' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'raid_launch_air' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'raid_launch_paratrooper' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'raid_launch_marine' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'raid_launch_nuclear_strike' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'raid_launch_nuclear_missile' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'raid_result_failure' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'raid_result_limited_success' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'raid_result_success' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'raid_result_critical_success' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'raid_result_success_nuclear' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'raid_result_critical_success_nuclear' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'alert_raid_available_sound' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'alert_raid_launchable_sound' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:960]: Sound effect with name 'alert_raid_detected_sound' already added",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'sfx_ui_sd_module_turret' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'sfx_ui_sd_module_sonar' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'sfx_ui_sd_module_default' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'sfx_ui_sd_module_engine' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'BEL_infantry_idle' already has category 'Voices', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'BEL_infantry_retreat' already has category 'Voices', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'BEL_infantry_neutral_combat' already has category 'Voices', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'BEL_infantry_positive_combat' already has category 'Voices', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'BEL_infantry_move_out' already has category 'Voices', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'COG_infantry_idle' already has category 'Voices', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'COG_infantry_retreat' already has category 'Voices', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'COG_infantry_neutral_combat' already has category 'Voices', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'COG_infantry_positive_combat' already has category 'Voices', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'COG_infantry_move_out' already has category 'Voices', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'AUS_infantry_idle' already has category 'Voices', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'AUS_infantry_retreat' already has category 'Voices', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'AUS_infantry_neutral_combat' already has category 'Voices', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'AUS_infantry_positive_combat' already has category 'Voices', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'AUS_infantry_move_out' already has category 'Voices', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'ui_raid_mapmode' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'ui_special_project_finished_sound' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'ui_special_project_started_sound' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'ui_special_project_start_dismantling_facility_sound' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'ui_special_project_abort_dismantling_facility_sound' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'ui_finished_dismantling_sound' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'ui_alert_program_unassigned_scientist_sound' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'ui_alert_special_project_available_sound' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'raid_create' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'raid_launch_marine' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'raid_launch_air' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'raid_launch_paratrooper' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'raid_launch_nuclear_strike' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'raid_launch_nuclear_missile' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'raid_result_failure' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'raid_result_limited_success' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'raid_result_success' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'raid_result_critical_success' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'raid_result_success_nuclear' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'raid_result_critical_success_nuclear' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'alert_raid_available_sound' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'alert_raid_launchable_sound' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_audio.cpp:1118]: SoundEffect 'alert_raid_detected_sound' already has category 'UI', old category will be overwritten",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdxassetutil.cpp:1098]: Duplicate texture 'GER_paratrooper_diffuse.dds' found (current path 'gfx/models/units/special_forces/GER_paratrooper_diffuse.dds', previous path 'gfx/models/units/GER_paratrooper_diffuse.dds')",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdxassetutil.cpp:1098]: Duplicate texture 'GER_paratrooper_normal.dds' found (current path 'gfx/models/units/special_forces/GER_paratrooper_normal.dds', previous path 'gfx/models/units/GER_paratrooper_normal.dds')",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdxassetutil.cpp:1098]: Duplicate texture 'GER_paratrooper_snow_diffuse.dds' found (current path 'gfx/models/units/special_forces/GER_paratrooper_snow_diffuse.dds', previous path 'gfx/models/units/GER_paratrooper_snow_diffuse.dds')",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdxassetutil.cpp:1098]: Duplicate texture 'GER_paratrooper_snow_normal.dds' found (current path 'gfx/models/units/special_forces/GER_paratrooper_snow_normal.dds', previous path 'gfx/models/units/GER_paratrooper_snow_normal.dds')",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdxassetutil.cpp:1098]: Duplicate texture 'GER_paratrooper_snow_specular.dds' found (current path 'gfx/models/units/special_forces/GER_paratrooper_snow_specular.dds', previous path 'gfx/models/units/GER_paratrooper_snow_specular.dds')",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdxassetutil.cpp:1098]: Duplicate texture 'GER_paratrooper_specular.dds' found (current path 'gfx/models/units/special_forces/GER_paratrooper_specular.dds', previous path 'gfx/models/units/GER_paratrooper_specular.dds')",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_entity.cpp:2172]: Duplicate of HOL_infantry_rider_entity added to entity system",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_entity.cpp:2172]: Duplicate of HOL_cavalry_entity added to entity system",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_entity.cpp:2172]: Duplicate of HOL_cavalry_rifle_combined_entity added to entity system",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_entity.cpp:2172]: Duplicate of HOL_infantry_mg_rider_entity added to entity system",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_entity.cpp:2172]: Duplicate of HOL_cavalry_mg_combined_entity added to entity system",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_entity.cpp:2172]: Duplicate of HOL_cavalry_2_entity added to entity system",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_entity.cpp:2172]: Duplicate of INS_infantry_rider_entity added to entity system",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_entity.cpp:2172]: Duplicate of INS_cavalry_entity added to entity system",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_entity.cpp:2172]: Duplicate of INS_cavalry_rifle_combined_entity added to entity system",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_entity.cpp:2172]: Duplicate of INS_infantry_mg_rider_entity added to entity system",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_entity.cpp:2172]: Duplicate of INS_cavalry_mg_combined_entity added to entity system",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_entity.cpp:2172]: Duplicate of INS_cavalry_2_entity added to entity system",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_entity.cpp:2172]: Duplicate of MEX_infantry_rider_entity added to entity system",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_entity.cpp:2172]: Duplicate of MEX_cavalry_entity added to entity system",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_entity.cpp:2172]: Duplicate of MEX_cavalry_rifle_combined_entity added to entity system",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_entity.cpp:2172]: Duplicate of MEX_infantry_mg_rider_entity added to entity system",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_entity.cpp:2172]: Duplicate of MEX_cavalry_mg_combined_entity added to entity system",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_entity.cpp:2172]: Duplicate of MEX_cavalry_2_entity added to entity system",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[pdx_entity.cpp:2172]: Duplicate of USA_destroyer_entity added to entity system",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[equipment_graphic_database.cpp:72]: Entity referenced in equipment graphic database does not exist: \"USA_destroyer_0_entity\", associated with USA ship_hull_light",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[equipment_graphic_database.cpp:72]: Entity referenced in equipment graphic database does not exist: \"USA_destroyer_0_entity\", associated with USA ship_hull_light_4",
+      "origin": "native installation/DLC control run",
+      "evidence": []
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/ideas/tp_ideas.txt line: 92 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\ideas\\tp_ideas.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[persistent.cpp:67]: Error: \"Unknown modifier: democratic_drift, near line: 101\" in file: \"common/ideas/tp_ideas.txt\" near line: 101",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\ideas\\tp_ideas.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/ideas/tp_ideas.txt line: 112 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\ideas\\tp_ideas.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[persistent.cpp:67]: Error: \"Unknown modifier: democratic_drift, near line: 121\" in file: \"common/ideas/tp_ideas.txt\" near line: 121",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\ideas\\tp_ideas.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/ideas/tp_ideas.txt line: 132 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\ideas\\tp_ideas.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[persistent.cpp:67]: Error: \"Unknown modifier: neutrality_drift, near line: 141\" in file: \"common/ideas/tp_ideas.txt\" near line: 141",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\ideas\\tp_ideas.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/ideas/tp_ideas.txt line: 152 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\ideas\\tp_ideas.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[persistent.cpp:67]: Error: \"Unknown modifier: neutrality_drift, near line: 161\" in file: \"common/ideas/tp_ideas.txt\" near line: 161",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\ideas\\tp_ideas.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/cpt.txt line: 1260 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\cpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/cpt.txt line: 1292 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\cpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/cpt.txt line: 1324 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\cpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/cpt.txt line: 1356 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\cpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/cpt.txt line: 1388 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\cpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/cpt.txt line: 1420 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\cpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/cpt.txt line: 1444 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\cpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/cpt.txt line: 1464 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\cpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/cpt.txt line: 1484 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\cpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/cpt.txt line: 1504 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\cpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/cpt.txt line: 1524 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\cpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/cpt.txt line: 1544 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\cpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/cpt.txt line: 1564 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\cpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/cpt.txt line: 1584 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\cpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 118 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 120 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 125 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 127 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 889 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 895 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 923 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 929 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 968 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 977 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1014 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1023 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1064 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1073 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1110 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1119 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1160 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1169 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1206 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1215 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1256 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1265 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1302 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1311 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1352 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1361 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1398 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1407 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1448 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1457 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1494 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1503 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1886 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1890 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1898 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1906 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1907 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1918 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1934 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1953 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1961 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1967 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1971 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1979 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1987 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 1988 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2006 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2010 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2018 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2026 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2027 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2038 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2054 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2073 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2081 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2087 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2091 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2099 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2107 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2108 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2131 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2135 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2153 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2157 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2825 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2924 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2934 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2964 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2974 democratic. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2984 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[database_scoped_variables.h:60]: invalid database object for effect/trigger:  file: common/scripted_guis/tpt.txt line: 2994 neutrality. use var:var_name to explicitly use variables in effects/triggers",
+      "origin": "external Toolpack",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\workshop\\content\\394360\\2913150560\\common\\scripted_guis\\tpt.txt"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[flagtextureatlas.cpp:510]: Error loading flag for country KOR : Ideology communism : Path gfx/flags/ : Warning slow to read format - Consider using 32bpp instead of 24bpp",
+      "origin": "native flag asset",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\gfx\\flags\\KOR_communism.tga"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[flagtextureatlas.cpp:510]: Error loading flag for country SCO : Ideology communism : Path gfx/flags/ : Warning slow to read format - Consider using 32bpp instead of 24bpp",
+      "origin": "native flag asset",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\gfx\\flags\\SCO_communism.tga"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[flagtextureatlas.cpp:510]: Error loading flag for country ADU : Ideology communism : Path gfx/flags/ : Warning slow to read format - Consider using 32bpp instead of 24bpp",
+      "origin": "native flag asset",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\gfx\\flags\\ADU_communism.tga"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[flagtextureatlas.cpp:189]: Error loading country flag overlay: gfx/flags/medium/BUK_communism.tga : Unsupported format. Expected 32bpp, uncompressed, no color palette",
+      "origin": "native flag asset",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\gfx\\flags\\medium\\BUK_communism.tga"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[flagtextureatlas.cpp:510]: Error loading flag for country KOR : Ideology communism : Path gfx/flags/medium/ : Warning slow to read format - Consider using 32bpp instead of 24bpp",
+      "origin": "native flag asset",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\gfx\\flags\\medium\\KOR_communism.tga"
+      ]
+    },
+    {
+      "count": 1,
+      "message": "[flagtextureatlas.cpp:510]: Error loading flag for country KOR : Ideology communism : Path gfx/flags/small/ : Warning slow to read format - Consider using 32bpp instead of 24bpp",
+      "origin": "native flag asset",
+      "evidence": [
+        "D:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\gfx\\flags\\small\\KOR_communism.tga"
+      ]
+    }
+  ]
+}

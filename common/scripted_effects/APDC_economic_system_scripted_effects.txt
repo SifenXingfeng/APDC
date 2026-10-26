@@ -19,46 +19,64 @@ APDC_clear_economic_system = {
 APDC_set_economic_system_traditional_agriculture = {
 	APDC_clear_economic_system = yes
 	add_ideas = APDC_economic_system_traditional_agriculture_idea
+
+if = { limit = { has_country_flag = APDC_eco_initialized } APDC_eco_reconcile_planned = yes APDC_eco_refresh_policies = yes APDC_eco_refresh_current_supply = yes APDC_eco_calculate_budget = yes }
 }
 
 APDC_set_economic_system_dependent_economy = {
 	APDC_clear_economic_system = yes
 	add_ideas = APDC_economic_system_dependent_economy_idea
+
+if = { limit = { has_country_flag = APDC_eco_initialized } APDC_eco_reconcile_planned = yes APDC_eco_refresh_policies = yes APDC_eco_refresh_current_supply = yes APDC_eco_calculate_budget = yes }
 }
 
 APDC_set_economic_system_free_market = {
 	APDC_clear_economic_system = yes
 	add_ideas = APDC_economic_system_free_market_idea
+
+if = { limit = { has_country_flag = APDC_eco_initialized } APDC_eco_reconcile_planned = yes APDC_eco_refresh_policies = yes APDC_eco_refresh_current_supply = yes APDC_eco_calculate_budget = yes }
 }
 
 APDC_set_economic_system_mixed_market = {
 	APDC_clear_economic_system = yes
 	add_ideas = APDC_economic_system_mixed_market_idea
+
+if = { limit = { has_country_flag = APDC_eco_initialized } APDC_eco_reconcile_planned = yes APDC_eco_refresh_policies = yes APDC_eco_refresh_current_supply = yes APDC_eco_calculate_budget = yes }
 }
 
 APDC_set_economic_system_state_guided = {
 	APDC_clear_economic_system = yes
 	add_ideas = APDC_economic_system_state_guided_idea
+
+if = { limit = { has_country_flag = APDC_eco_initialized } APDC_eco_reconcile_planned = yes APDC_eco_refresh_policies = yes APDC_eco_refresh_current_supply = yes APDC_eco_calculate_budget = yes }
 }
 
 APDC_set_economic_system_state_capitalism = {
 	APDC_clear_economic_system = yes
 	add_ideas = APDC_economic_system_state_capitalism_idea
+
+if = { limit = { has_country_flag = APDC_eco_initialized } APDC_eco_reconcile_planned = yes APDC_eco_refresh_policies = yes APDC_eco_refresh_current_supply = yes APDC_eco_calculate_budget = yes }
 }
 
 APDC_set_economic_system_market_socialism = {
 	APDC_clear_economic_system = yes
 	add_ideas = APDC_economic_system_market_socialism_idea
+
+if = { limit = { has_country_flag = APDC_eco_initialized } APDC_eco_reconcile_planned = yes APDC_eco_refresh_policies = yes APDC_eco_refresh_current_supply = yes APDC_eco_calculate_budget = yes }
 }
 
 APDC_set_economic_system_decentralized_planning = {
 	APDC_clear_economic_system = yes
 	add_ideas = APDC_economic_system_decentralized_planning_idea
+
+if = { limit = { has_country_flag = APDC_eco_initialized } APDC_eco_reconcile_planned = yes APDC_eco_refresh_policies = yes APDC_eco_refresh_current_supply = yes APDC_eco_calculate_budget = yes }
 }
 
 APDC_set_economic_system_central_planning = {
 	APDC_clear_economic_system = yes
 	add_ideas = APDC_economic_system_central_planning_idea
+
+if = { limit = { has_country_flag = APDC_eco_initialized } APDC_eco_reconcile_planned = yes APDC_eco_refresh_policies = yes APDC_eco_refresh_current_supply = yes APDC_eco_calculate_budget = yes }
 }
 
 # Initial classification.  Explicit country groups take precedence, followed

@@ -1,0 +1,36 @@
+state = {
+	id = 1399
+	name = "STATE_1399"
+	provinces = {
+		14046
+		14059
+		14079
+	}
+	manpower = 884250
+	resources = {
+		steel = 16
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+	history = {
+		owner = SIE
+		controller = SIE
+		add_core_of = SIE
+		victory_points = {
+			14046
+			3
+		}
+		victory_points = {
+			14059
+			3
+		}
+		victory_points = {
+			14079
+			2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

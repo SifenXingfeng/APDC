@@ -1,0 +1,26 @@
+state = {
+	id = 281
+	name = "STATE_281"
+	manpower = 79300
+	state_category = enclave
+	history = {
+		owner = PAK
+		controller = PAK
+		add_core_of = PAK
+		victory_points = {
+			4967
+			5
+		}
+		buildings = {
+			infrastructure = 2
+			4967 = {
+				naval_base = 1
+			}
+		}
+		set_state_flag = GDP_regions_karnataka
+	}
+	provinces = {
+		4967
+	}
+	local_supplies = 0.0
+}

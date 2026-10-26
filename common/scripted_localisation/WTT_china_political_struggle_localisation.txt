@@ -1,0 +1,295 @@
+# Allows you to create your own dynamic keys
+# to be called in localization.
+# defined_text -> this is it, we're defining the text
+# text -> a discrete entry that can be picked to display in loc.
+# trigger -> determines if a text entry will be picked or not.
+# (The triggers need to be valid for the scope the key is called in
+# (eg Root or From.From).)
+# localization_key -> points to the localization key
+# that'll be used if trigger passes
+
+
+#Description depending on whether active for country or not
+
+
+#Description depending on how the nation can unlock the political struggle.
+
+
+#Tooltip depends on whether or not someone is taking over national leadership.
+
+
+ ##  ### ###      ##   ##  #  # #  # ### ###  #   #     # # ### #   # 
+#    #    #      #  # #  # #  # ## #  #  #  #  # #      # # #    # #  
+# ## ##   #      #    #  # #  # # ##  #  ###    #       ##  ##    #   
+#  # #    #      #  # #  # #  # #  #  #  #  #   #       # # #     #   
+ ##  ###  #       ##   ##   ##  #  #  #  #  #   #       # # ###   #   
+
+ ## #  #  ##  ###  ###      ## #  # ###  ###   ##  ###  ###     ###  ###  ##  ##  
+#   #  # #  # #  #  #      #   #  # #  # #  # #  # #  #  #      #  # #   #   #  # 
+ #  #### #  # ###   #       #  #  # ###  ###  #  # ###   #      #  # ##   #  #    
+  # #  # #  # #  #  #        # #  # #    #    #  # #  #  #      #  # #     # #  # 
+##  #  #  ##  #  #  #      ##   ##  #    #     ##  #  #  #      ###  ### ##   ##  
+
+#If event target is not defined. Ignore all political support for country.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### #  # #   #        ## #  # ###  ###   ##  ###  ###     ###  ###  ##  ##  
+#   #  # #   #       #   #  # #  # #  # #  # #  #  #      #  # #   #   #  # 
+##  #  # #   #        #  #  # ###  ###  #  # ###   #      #  # ##   #  #    
+#   #  # #   #         # #  # #    #    #  # #  #  #      #  # #     # #  # 
+#    ##  ### ###     ##   ##  #    #     ##  #  #  #      ###  ### ##   ##  
+
+#If event target is not defined. Ignore all political support for country.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ## ###  ##  ### ###     # # ### #   # 
+#    #  #  #  #  #       # # #    # #  
+ #   #  ####  #  ##      ##  ##    #   
+  #  #  #  #  #  #       # # #     #   
+##   #  #  #  #  ###     # # ###   #   
+
+#State support key
+
+
+#   #  ##  ###  #    ##  ###  ###   ## 
+#   # #  # #  # #   #  # #  # #  # #   
+# # # #### ###  #   #  # ###  #  #  #  
+# # # #  # #  # #   #  # #  # #  #   # 
+ # #  #  # #  # ###  ##  #  # ###  ##  
+
+
+
+
+
+#Warlord support key
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ##  ### #  # ### ###      ###   ##  ### #  # ###  ## 
+#  #  #  #  # #   #  #     #  # #  #  #  ## #  #  #   
+#  #  #  #### ##  ###      ###  #  #  #  # ##  #   #  
+#  #  #  #  # #   #  #     #    #  #  #  #  #  #    # 
+ ##   #  #  # ### #  #     #     ##  ### #  #  #  ##  
+
+#Key if other points
+
+
+ ## ###  ##  ### ###  ## 
+#    #  #  #  #  #   #   
+ #   #  ####  #  ##   #  
+  #  #  #  #  #  #     # 
+##   #  #  #  #  ### ##  
+
+#Nat China
+#595 "Fujian"
+
+
+
+#596 "Zhejiang"
+
+
+
+#597 "Shandong"
+
+
+
+#598 "Jiangsu"
+
+
+
+#600 "Jiangxi"
+
+
+
+#601 "Xikang"
+
+
+
+#602 "Hunan"
+
+
+
+#603 "Guizhou"
+
+
+
+#605 "Sichuan"
+
+
+
+#606 "Anhui"
+
+
+
+#607 "Henan"
+
+
+
+#608 "Beijing"
+
+
+
+#613 "Shanghai"
+
+
+
+#614 "Hebei"
+
+
+
+#620 "Hubei"
+
+
+
+#Shanxi
+
+#615 "Shanxi"
+
+
+
+#621 "Suiyuan"
+
+
+
+#Com China
+
+#622 "Shaanxi"
+
+
+
+#Xibei San Ma
+
+#283 "Gansu"
+
+
+
+#604 "Qinghai"
+
+
+
+#616 "Ningxia"
+
+
+
+#Sinkiang
+
+#287 "Taklamakan"
+
+
+
+#617 "Urumqi"
+
+
+
+#618 "Dzungaria"
+
+
+
+#619 "Yarkand"
+
+
+
+#Yunnan
+
+#325 "Yunnan"
+
+
+
+#Guangxi Clique
+
+#591 "Hainan"
+
+
+
+#592 "Guangzhou"
+
+
+
+#593 "Guangdong"
+
+
+
+#594 "Nanning"
+
+
+
+#599 "Guangxi"
+
+
+
+
+ ## ###  ##  ### ###     #   #  ##   ###  ##  ###  ### ### #   #     #  #  ##  #   # ### 
+#    #  #  #  #  #       ## ## #  #    # #  # #  #  #   #   # #      ## # #  # ## ## #   
+ #   #  ####  #  ##      # # # ####    # #  # ###   #   #    #       # ## #### # # # ##  
+  #  #  #  #  #  #       #   # #  # #  # #  # #  #  #   #    #       #  # #  # #   # #   
+##   #  #  #  #  ###     #   # #  #  ##   ##  #  # ###  #    #       #  # #  # #   # ### 
+
+#Call after scoping to desired state
+
+
+ ## ###  ##  ### ###     ###   ##  ### #  # ###  ## 
+#    #  #  #  #  #       #  # #  #  #  ## #  #  #   
+ #   #  ####  #  ##      ###  #  #  #  # ##  #   #  
+  #  #  #  #  #  #       #    #  #  #  #  #  #    # 
+##   #  #  #  #  ###     #     ##  ### #  #  #  ##  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#    ##   ##   ##  #        ## #  # ###  ###   ##  ###  ###     #   #  ##  ###  ### ### ### ### ###   ## 
+#   #  # #  # #  # #       #   #  # #  # #  # #  # #  #  #      ## ## #  # #  #  #  #    #  #   #  # #   
+#   #  # #    #### #        #  #  # ###  ###  #  # ###   #      # # # #  # #  #  #  ##   #  ##  ###   #  
+#   #  # #  # #  # #         # #  # #    #    #  # #  #  #      #   # #  # #  #  #  #    #  #   #  #   # 
+###  ##   ##  #  # ###     ##   ##  #    #     ##  #  #  #      #   #  ##  ###  ### #   ### ### #  # ##  
+
+
+
+
+
+

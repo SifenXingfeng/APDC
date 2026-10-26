@@ -1,0 +1,48 @@
+state = {
+	id = 1422
+	name = "STATE_1422"
+	provinces = {
+		1969
+		3619
+		4972
+		14118
+		14168
+		17964
+	}
+	manpower = 88661
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+	history = {
+		owner = NGA
+		controller = NGA
+		add_core_of = NGA
+		victory_points = {
+			1969
+			25
+		}
+		victory_points = {
+			3619
+			2
+		}
+		victory_points = {
+			4972
+			3
+		}
+		victory_points = {
+			14118
+			3
+		}
+		victory_points = {
+			14168
+			2
+		}
+		victory_points = {
+			17964
+			3
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

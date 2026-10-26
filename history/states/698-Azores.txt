@@ -1,27 +1,25 @@
 state = {
-	#Population Done
 	id = 698
 	name = "STATE_698"
-	manpower = 320072
+	manpower = 212012
 	state_category = small_island
 	history = {
-		owner = USA
-		add_core_of = USA
-		victory_points = {
-			1751
-			7
-		}
+		owner = SPR
+		controller = SPR
+		add_core_of = SPR
 		buildings = {
 			infrastructure = 2
-			radar_station = 2
-			air_base = 3
+			air_base = 1
 			1751 = {
 				naval_base = 3
 			}
 		}
-		add_core_of = SPR
+		strategic_state_location = {
+			favorable_approach = 1751
+		}
 	}
 	provinces = {
 		1751
 	}
+	local_supplies = 0.0
 }

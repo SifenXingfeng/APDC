@@ -1,0 +1,74 @@
+--- before/interface/ingamemenu.gui
++++ current/interface/ingamemenu.gui
+@@ -229,7 +229,7 @@
+ 			instantTextBoxType={
+ 				position = { x = 0 y = 0 }
+ 				name = "disk_quota"
+-				textureFile = ""
++				
+ 				font = "hoi_16mbs"
+ 				borderSize = { x = 8 y = 5 }
+ 				maxWidth = 320
+@@ -271,7 +271,7 @@
+ 		{
+ 			name = "saves_dirs"
+ 			position = { x = 10 y = 375 }
+-			textureFile = ""
++			
+ 			font = "hoi_20bs"
+ 			borderSize = {x = 0 y = 4}
+ 			text = ""	
+@@ -299,7 +299,7 @@
+ 		instantTextBoxType = {
+ 			name = "localgames_label"
+ 			position = { x = 115 y = 91 }
+-			textureFile = ""
++			
+ 			font = "hoi_20bs"
+ 			borderSize = {x = 0 y = 0}
+ 			text = "MENU_BAR_LOCALGAMES"	
+@@ -313,7 +313,7 @@
+ 		instantTextBoxType = {
+ 			name = "cloudgames_label"
+ 			position = { x = 269 y = 91 }
+-			textureFile = ""
++			
+ 			font = "hoi_20bs"
+ 			borderSize = {x = 0 y = 0}
+ 			text = "MENU_BAR_CLOUDGAMES"	
+@@ -376,7 +376,7 @@
+ 		{
+ 			name = "saves_dirs"
+ 			position = { x = 10 y = 375 }
+-			textureFile = ""
++			
+ 			font = "hoi_20bs"
+ 			borderSize = {x = 0 y = 4}
+ 			text = ""	
+@@ -404,7 +404,7 @@
+ 		instantTextBoxType = {
+ 			name = "localgames_label"
+ 			position = { x = 115 y = 91 }
+-			textureFile = ""
++			
+ 			font = "hoi_20bs"
+ 			borderSize = {x = 0 y = 0}
+ 			text = "MENU_BAR_LOCALGAMES"	
+@@ -418,7 +418,7 @@
+ 		instantTextBoxType = {
+ 			name = "cloudgames_label"
+ 			position = { x = 269 y = 91 }
+-			textureFile = ""
++			
+ 			font = "hoi_20bs"
+ 			borderSize = {x = 0 y = 0}
+ 			text = "MENU_BAR_CLOUDGAMES"	
+@@ -444,7 +444,7 @@
+ 			instantTextBoxType={
+ 				position = { x = 0 y = 0 }
+ 				name = "disk_quota"
+-				textureFile = ""
++				
+ 				font = "hoi_16mbs"
+ 				borderSize = { x = 8 y = 5 }
+ 				maxWidth = 320

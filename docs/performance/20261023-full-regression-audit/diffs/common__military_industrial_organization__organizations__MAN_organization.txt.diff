@@ -1,0 +1,35 @@
+--- before/common/military_industrial_organization/organizations/MAN_organization.txt
++++ current/common/military_industrial_organization/organizations/MAN_organization.txt
+@@ -58,8 +58,8 @@
+ 			custom_trigger_tooltip = {
+ 				tooltip = MAN_has_completed_mamc_focus_tt
+ 				OR = {
+-					has_completed_focus = MAN_mamc 
+-					has_completed_focus = MAN_tsr_mamc 
++					always = no 
++					always = no 
+ 				}
+ 			}
+ 		}
+@@ -79,8 +79,8 @@
+ 			custom_trigger_tooltip = {
+ 				tooltip = MAN_has_completed_mamc_focus_tt
+ 				OR = {
+-					has_completed_focus = MAN_mamc 
+-					has_completed_focus = MAN_tsr_mamc 
++					always = no 
++					always = no 
+ 				}
+ 			}
+ 		}
+@@ -100,8 +100,8 @@
+ 			custom_trigger_tooltip = {
+ 				tooltip = MAN_has_completed_mamc_focus_tt
+ 				OR = {
+-					has_completed_focus = MAN_mamc 
+-					has_completed_focus = MAN_tsr_mamc 
++					always = no 
++					always = no 
+ 				}
+ 			}
+ 		}

@@ -1,0 +1,671 @@
+{
+  "status": "PASS",
+  "models": [
+    {
+      "id": "APDC_b2_goliath",
+      "mesh_sha256": "57d11dd0abeac55602acf58fac4129cb023477f0491b5d063d7d97ae7875c63e",
+      "clips": [
+        {
+          "clip": "attack",
+          "frames_checked": 3,
+          "minimum_height": 2.0500001907348633,
+          "max_span": 2.91011905670166,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "death",
+          "frames_checked": 61,
+          "minimum_height": 0.003999531269073486,
+          "max_span": 3.6504918932914734,
+          "min_knee_plane_projection": null,
+          "ground_clearance_rechecked": true
+        },
+        {
+          "clip": "idle",
+          "frames_checked": 3,
+          "minimum_height": 2.4000000953674316,
+          "max_span": 2.91011905670166,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle_look",
+          "frames_checked": 3,
+          "minimum_height": 2.4000000953674316,
+          "max_span": 2.91011905670166,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle_shift",
+          "frames_checked": 3,
+          "minimum_height": 2.4000000953674316,
+          "max_span": 2.91011905670166,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "move",
+          "frames_checked": 31,
+          "minimum_height": 2.1689722537994385,
+          "max_span": 3.0406486988067627,
+          "min_knee_plane_projection": null
+        }
+      ]
+    },
+    {
+      "id": "APDC_b2_helicopter",
+      "mesh_sha256": "f18a2ed146455d5164d5c738eb81dacaeb0635da9310a3409e280ed221dc2ef8",
+      "clips": [
+        {
+          "clip": "attack",
+          "frames_checked": 3,
+          "minimum_height": 4.5,
+          "max_span": 12.979357719421387,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "death",
+          "frames_checked": 61,
+          "minimum_height": 0.003998279571533203,
+          "max_span": 12.979352474212646,
+          "min_knee_plane_projection": null,
+          "ground_clearance_rechecked": true
+        },
+        {
+          "clip": "idle",
+          "frames_checked": 3,
+          "minimum_height": 4.5,
+          "max_span": 12.979352951049805,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle_look",
+          "frames_checked": 3,
+          "minimum_height": 4.5,
+          "max_span": 12.979352951049805,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle_shift",
+          "frames_checked": 3,
+          "minimum_height": 4.5,
+          "max_span": 12.979352951049805,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "move",
+          "frames_checked": 31,
+          "minimum_height": 4.27369499206543,
+          "max_span": 13.228609085083008,
+          "min_knee_plane_projection": null
+        }
+      ]
+    },
+    {
+      "id": "APDC_f1_armed_helicopter",
+      "mesh_sha256": "0cbce8bf386524781d15212001101c929cade3f31fa4e6fefd7d2575431e0d47",
+      "clips": [
+        {
+          "clip": "attack",
+          "frames_checked": 3,
+          "minimum_height": 4.5,
+          "max_span": 12.979357719421387,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "death",
+          "frames_checked": 61,
+          "minimum_height": 0.003998279571533203,
+          "max_span": 12.979352474212646,
+          "min_knee_plane_projection": null,
+          "ground_clearance_rechecked": true
+        },
+        {
+          "clip": "idle",
+          "frames_checked": 3,
+          "minimum_height": 4.5,
+          "max_span": 12.979352951049805,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle_look",
+          "frames_checked": 3,
+          "minimum_height": 4.5,
+          "max_span": 12.979352951049805,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle_shift",
+          "frames_checked": 3,
+          "minimum_height": 4.5,
+          "max_span": 12.979352951049805,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "move",
+          "frames_checked": 31,
+          "minimum_height": 4.27369499206543,
+          "max_span": 13.228609085083008,
+          "min_knee_plane_projection": null
+        }
+      ]
+    },
+    {
+      "id": "APDC_r6_tactical_doll",
+      "mesh_sha256": "00fe1916a0e47b724020256e758f6a5aaa986eda8b194d7120d139e69d470b04",
+      "clips": [
+        {
+          "clip": "aim_exercise",
+          "frames_checked": 3,
+          "minimum_height": -0.13228626549243927,
+          "max_span": 7.292900636792183,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "attack",
+          "frames_checked": 3,
+          "minimum_height": -0.08034180104732513,
+          "max_span": 7.441089980304241,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "charge_rifle",
+          "frames_checked": 3,
+          "minimum_height": 0.46166110038757324,
+          "max_span": 6.625651121139526,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "charge_rifle_shoot",
+          "frames_checked": 3,
+          "minimum_height": -0.07021559774875641,
+          "max_span": 7.331968203186989,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "death",
+          "frames_checked": 3,
+          "minimum_height": -0.43349552154541016,
+          "max_span": 7.683248996734619,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "guard_rifle",
+          "frames_checked": 3,
+          "minimum_height": -0.13295574486255646,
+          "max_span": 7.532619670033455,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle",
+          "frames_checked": 3,
+          "minimum_height": -0.13946276903152466,
+          "max_span": 7.5939333736896515,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "jumping_jacks",
+          "frames_checked": 3,
+          "minimum_height": -0.13219881057739258,
+          "max_span": 7.953245863318443,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "long_idle02",
+          "frames_checked": 3,
+          "minimum_height": -0.13946276903152466,
+          "max_span": 7.526603996753693,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "long_idle04",
+          "frames_checked": 3,
+          "minimum_height": -0.14043153822422028,
+          "max_span": 7.526603996753693,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "long_idle05",
+          "frames_checked": 3,
+          "minimum_height": -0.13991625607013702,
+          "max_span": 7.526603996753693,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "march_move",
+          "frames_checked": 3,
+          "minimum_height": -0.11047005653381348,
+          "max_span": 7.2998902797698975,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "move",
+          "frames_checked": 41,
+          "minimum_height": -0.16293391585350037,
+          "max_span": 7.520530015230179,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "pushup",
+          "frames_checked": 3,
+          "minimum_height": -0.13219571113586426,
+          "max_span": 7.27993631362915,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "retreat",
+          "frames_checked": 3,
+          "minimum_height": -0.10585086047649384,
+          "max_span": 7.3724681586027145,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "support_attack",
+          "frames_checked": 3,
+          "minimum_height": -0.30735039710998535,
+          "max_span": 5.496856451034546,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "training",
+          "frames_checked": 3,
+          "minimum_height": -0.13219571113586426,
+          "max_span": 5.650715589523315,
+          "min_knee_plane_projection": null
+        }
+      ]
+    },
+    {
+      "id": "APDC_r6_lyuba",
+      "mesh_sha256": "e869a6f010c8a833f841fddfaa4ef5b3cef54bf5d9edae32663c9812b9660018",
+      "clips": [
+        {
+          "clip": "attack",
+          "frames_checked": 3,
+          "minimum_height": 0.3298543393611908,
+          "max_span": 7.672221809625626,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "death",
+          "frames_checked": 3,
+          "minimum_height": 0.3298543393611908,
+          "max_span": 7.724425941705704,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle",
+          "frames_checked": 3,
+          "minimum_height": 0.3298543393611908,
+          "max_span": 7.729461342096329,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle_look",
+          "frames_checked": 3,
+          "minimum_height": 0.3298543393611908,
+          "max_span": 7.737412124872208,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle_shift",
+          "frames_checked": 3,
+          "minimum_height": 0.3298543393611908,
+          "max_span": 7.724425941705704,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "move",
+          "frames_checked": 41,
+          "minimum_height": 0.32985422015190125,
+          "max_span": 7.715089321136475,
+          "min_knee_plane_projection": null
+        }
+      ]
+    },
+    {
+      "id": "APDC_b2_automaton",
+      "mesh_sha256": "d01a42e40f6987bc5fc4f89b69f80581a71e26f3fc803e379b1a2e6e0408b43b",
+      "clips": [
+        {
+          "clip": "attack",
+          "frames_checked": 3,
+          "minimum_height": 1.472234743005174e-07,
+          "max_span": 3.350408168435095,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "death",
+          "frames_checked": 61,
+          "minimum_height": 0.003999345004558563,
+          "max_span": 3.709006607532501,
+          "min_knee_plane_projection": null,
+          "ground_clearance_rechecked": true
+        },
+        {
+          "clip": "idle",
+          "frames_checked": 3,
+          "minimum_height": 0.011671572923660278,
+          "max_span": 3.338736742734909,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle_look",
+          "frames_checked": 3,
+          "minimum_height": 0.011671572923660278,
+          "max_span": 3.338736742734909,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle_shift",
+          "frames_checked": 3,
+          "minimum_height": 0.011671572923660278,
+          "max_span": 3.338736742734909,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "move",
+          "frames_checked": 31,
+          "minimum_height": -3.279000395650655e-07,
+          "max_span": 3.468388557434082,
+          "min_knee_plane_projection": 0.15102127194404602
+        }
+      ]
+    },
+    {
+      "id": "APDC_b2_multipod",
+      "mesh_sha256": "ccf98512353dbeafa1ebbce921e09584b8e6882e1fdf6f6635b6e887b70fd157",
+      "clips": [
+        {
+          "clip": "attack",
+          "frames_checked": 3,
+          "minimum_height": -4.558537369803162e-08,
+          "max_span": 4.540000081062317,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "death",
+          "frames_checked": 61,
+          "minimum_height": 0.003998756408691406,
+          "max_span": 5.404613971710205,
+          "min_knee_plane_projection": null,
+          "ground_clearance_rechecked": true
+        },
+        {
+          "clip": "idle",
+          "frames_checked": 3,
+          "minimum_height": 0.0,
+          "max_span": 4.540000081062317,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle_look",
+          "frames_checked": 3,
+          "minimum_height": 0.0,
+          "max_span": 4.540000081062317,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle_shift",
+          "frames_checked": 3,
+          "minimum_height": 0.0,
+          "max_span": 4.540000081062317,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "move",
+          "frames_checked": 31,
+          "minimum_height": -4.96823361118004e-07,
+          "max_span": 4.570789337158203,
+          "min_knee_plane_projection": 0.17304525850340724
+        }
+      ]
+    },
+    {
+      "id": "APDC_b2_doomdog",
+      "mesh_sha256": "bfabebc08cd695ec143fcc46f657f1639abebd41f4aaca9603a064f6d2abf234",
+      "clips": [
+        {
+          "clip": "attack",
+          "frames_checked": 3,
+          "minimum_height": 0.0012589656980708241,
+          "max_span": 4.087279204162769,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "death",
+          "frames_checked": 61,
+          "minimum_height": 0.003999233245849609,
+          "max_span": 4.24164491891861,
+          "min_knee_plane_projection": null,
+          "ground_clearance_rechecked": true
+        },
+        {
+          "clip": "idle",
+          "frames_checked": 3,
+          "minimum_height": 0.0012589656980708241,
+          "max_span": 4.087279204162769,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle_look",
+          "frames_checked": 3,
+          "minimum_height": 0.0012589656980708241,
+          "max_span": 4.087279204162769,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle_shift",
+          "frames_checked": 3,
+          "minimum_height": 0.0012589656980708241,
+          "max_span": 4.087279204162769,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "move",
+          "frames_checked": 31,
+          "minimum_height": -4.966184405930107e-07,
+          "max_span": 3.8347132008522635,
+          "min_knee_plane_projection": 0.11639529466629028
+        }
+      ]
+    },
+    {
+      "id": "APDC_b2_aa02",
+      "mesh_sha256": "3b33c24302a4a5cab2356d15e80b8800475941e7ee33096edf76972a4c9b7f5a",
+      "clips": [
+        {
+          "clip": "attack",
+          "frames_checked": 3,
+          "minimum_height": 1.7881393432617188e-07,
+          "max_span": 4.979177117347717,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "death",
+          "frames_checked": 61,
+          "minimum_height": 0.0039980411529541016,
+          "max_span": 4.982896566390991,
+          "min_knee_plane_projection": null,
+          "ground_clearance_rechecked": true
+        },
+        {
+          "clip": "idle",
+          "frames_checked": 3,
+          "minimum_height": 1.7881393432617188e-07,
+          "max_span": 4.979177117347717,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle_look",
+          "frames_checked": 3,
+          "minimum_height": 1.7881393432617188e-07,
+          "max_span": 4.979177117347717,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle_shift",
+          "frames_checked": 3,
+          "minimum_height": 1.7881393432617188e-07,
+          "max_span": 4.979177117347717,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "move",
+          "frames_checked": 31,
+          "minimum_height": -2.883628837935248e-07,
+          "max_span": 4.979177117347717,
+          "min_knee_plane_projection": 0.5998788401484489
+        }
+      ]
+    },
+    {
+      "id": "APDC_f1_multipod_artillery",
+      "mesh_sha256": "4780daa7bf1a0339b335cdbff94a1eb51d7b85adfe77759cc4ddec2563f3dd9d",
+      "clips": [
+        {
+          "clip": "attack",
+          "frames_checked": 3,
+          "minimum_height": -4.558537369803162e-08,
+          "max_span": 4.714087009429932,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "death",
+          "frames_checked": 61,
+          "minimum_height": 0.003998279571533203,
+          "max_span": 4.992763638496399,
+          "min_knee_plane_projection": null,
+          "ground_clearance_rechecked": true
+        },
+        {
+          "clip": "idle",
+          "frames_checked": 3,
+          "minimum_height": 0.0,
+          "max_span": 4.714087009429932,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle_look",
+          "frames_checked": 3,
+          "minimum_height": 0.0,
+          "max_span": 4.714087009429932,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle_shift",
+          "frames_checked": 3,
+          "minimum_height": 0.0,
+          "max_span": 4.714087009429932,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "move",
+          "frames_checked": 31,
+          "minimum_height": -4.96823361118004e-07,
+          "max_span": 5.0904762744903564,
+          "min_knee_plane_projection": 0.17304525850340724
+        }
+      ]
+    },
+    {
+      "id": "APDC_f1_nyto_final",
+      "mesh_sha256": "bc4af8f0e100729759ec020114a6533fbde8741bec194a39e83cf3bd8b05742d",
+      "clips": [
+        {
+          "clip": "attack",
+          "frames_checked": 3,
+          "minimum_height": -0.0566444993019104,
+          "max_span": 6.529569685459137,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "death",
+          "frames_checked": 61,
+          "minimum_height": 0.003999173641204834,
+          "max_span": 6.208819201216102,
+          "min_knee_plane_projection": null,
+          "ground_clearance_rechecked": true
+        },
+        {
+          "clip": "idle",
+          "frames_checked": 3,
+          "minimum_height": 0.01770847849547863,
+          "max_span": 6.208819689229131,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle_look",
+          "frames_checked": 3,
+          "minimum_height": 0.01770847849547863,
+          "max_span": 6.208819689229131,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle_shift",
+          "frames_checked": 3,
+          "minimum_height": 0.01770847849547863,
+          "max_span": 6.208819689229131,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "move",
+          "frames_checked": 31,
+          "minimum_height": -0.08652231842279434,
+          "max_span": 6.206528402864933,
+          "min_knee_plane_projection": 0.19727081060409546
+        }
+      ]
+    },
+    {
+      "id": "APDC_ump_chibi",
+      "mesh_sha256": "9f3e35d5d5a7bfd82c7560bcb07e580b09d1a71b017c6122620c684faba845c1",
+      "clips": [
+        {
+          "clip": "attack",
+          "frames_checked": 3,
+          "minimum_height": 0.009999940171837807,
+          "max_span": 4.411816885694861,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "death",
+          "frames_checked": 61,
+          "minimum_height": 0.003998756408691406,
+          "max_span": 4.60637754201889,
+          "min_knee_plane_projection": null,
+          "ground_clearance_rechecked": true
+        },
+        {
+          "clip": "idle",
+          "frames_checked": 3,
+          "minimum_height": 0.009999940171837807,
+          "max_span": 4.411816885694861,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle_look",
+          "frames_checked": 3,
+          "minimum_height": 0.009999940171837807,
+          "max_span": 4.411816885694861,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "idle_shift",
+          "frames_checked": 3,
+          "minimum_height": 0.009999940171837807,
+          "max_span": 4.411816885694861,
+          "min_knee_plane_projection": null
+        },
+        {
+          "clip": "move",
+          "frames_checked": 21,
+          "minimum_height": 0.009999765083193779,
+          "max_span": 4.365231411531568,
+          "min_knee_plane_projection": 0.1533432137221098
+        }
+      ]
+    }
+  ],
+  "actual_binary_meshes_reimported": true,
+  "all_moving_frames_checked": true,
+  "game_runtime_tested": false
+}

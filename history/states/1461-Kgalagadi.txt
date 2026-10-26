@@ -1,0 +1,30 @@
+state = {
+	id = 1461
+	name = "STATE_1461"
+	provinces = {
+		13627
+		13629
+		13631
+		13634
+		13635
+		13637
+		13642
+		13643
+		13655
+	}
+	manpower = 42980
+	resources = {
+		chromium = 17
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = wasteland
+	history = {
+		owner = BOT
+		controller = BOT
+		add_core_of = BOT
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

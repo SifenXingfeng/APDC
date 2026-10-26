@@ -1,0 +1,48 @@
+state = {
+	id = 610
+	name = "STATE_610"
+	resources = {
+	}
+	provinces = {
+		972
+		3828
+		3881
+		6852
+		6937
+		6988
+		7633
+		9873
+		9927
+		11855
+		14627
+		14632
+	}
+	manpower = 697192
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			3881
+			2
+		}
+		victory_points = {
+			6937
+			1
+		}
+		victory_points = {
+			7633
+			5
+		}
+		victory_points = {
+			14627
+			2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

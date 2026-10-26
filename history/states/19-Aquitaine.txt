@@ -2,68 +2,42 @@ state = {
 	id = 19
 	name = "STATE_19"
 	resources = {
-		steel = 40.000
-		aluminium = 18.000
+		steel = 14
+		aluminium = 11
 	}
-
 	history = {
 		owner = FRA
+		controller = FRA
+		add_core_of = FRA
 		victory_points = {
-			9737 15
-		}
-		victory_points = {
-			6775 5
-		}
-		victory_points = {
-			15210 1
-		}
-		victory_points = {
-			11565 3
-		}
-		victory_points = {
-			15214 3
-		}
-		victory_points = {
-			6777 3
-		}
-		victory_points = {
-			15249 1
+			9737
+			5
 		}
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3
+			arms_factory = 1
 			dockyard = 1
 			air_base = 3
-			radar_station = 1
-			
 			9737 = {
 				naval_base = 3
-				coastal_bunker = 2
-			}
-			9710 = {
-				coastal_bunker = 2
-			}
-			6777 = {
-				coastal_bunker = 2
-			}
-			6621 = {
-				coastal_bunker = 2
-			}
-			15250 = {
-				coastal_bunker = 2
-			}
-			11565 = {
-				coastal_bunker = 2
+				coastal_bunker = 1
 			}
 		}
-		add_core_of = FRA
-		
 	}
-
 	provinces = {
-		3740 6621 6762 6775 6777 6792 9710 9717 9734 9737 9751 11565 11720 14621 15210 15211 15212 15213 15214 15215 15244 15247 15248 15249 15250
+		6621
+		6762
+		6777
+		9717
+		9737
+		11565
+		15211
+		15215
+		15249
+		15250
 	}
-	manpower = 1846426
+	manpower = 1140400
 	buildings_max_level_factor = 1.000
 	state_category = city
-	local_supplies = 0.000
+	local_supplies = 0.0
 }

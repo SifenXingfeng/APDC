@@ -1,0 +1,76 @@
+state = {
+	id = 987
+	name = "STATE_987"
+	resources = {
+		steel = 2
+	}
+	provinces = {
+		1978
+		4998
+		12717
+		12763
+		15997
+		15998
+		16000
+		16001
+		16002
+		16003
+		18853
+		18868
+		18884
+	}
+	manpower = 2820418
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = PAK
+		controller = PAK
+		add_core_of = PAK
+		victory_points = {
+			1978
+			3
+		}
+		victory_points = {
+			12717
+			15
+		}
+		victory_points = {
+			12763
+			5
+		}
+		victory_points = {
+			15998
+			2
+		}
+		victory_points = {
+			16000
+			2
+		}
+		victory_points = {
+			16001
+			2
+		}
+		victory_points = {
+			16002
+			5
+		}
+		victory_points = {
+			16003
+			1
+		}
+		victory_points = {
+			18868
+			3
+		}
+		victory_points = {
+			18884
+			5
+		}
+		buildings = {
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

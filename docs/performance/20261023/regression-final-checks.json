@@ -1,0 +1,42 @@
+{
+  "retained_doctrine_roots_match_pre_task": 42,
+  "shared_flag_instances": [
+    {
+      "file": "interface/APDC_cooperation_organizations.gui",
+      "name": "APDC_cooperation_organization_chair_flag",
+      "sprite": "GFX_APDC_cooperation_organization_flag_medium_unfiltered",
+      "centerposition": "yes"
+    },
+    {
+      "file": "interface/APDC_cooperation_organizations.gui",
+      "name": "APDC_cooperation_organization_member_flag",
+      "sprite": "GFX_APDC_cooperation_organization_flag_small_unfiltered",
+      "centerposition": "yes"
+    },
+    {
+      "file": "interface/APDC_cooperation_organizations.gui",
+      "name": "APDC_diplomacy_cooperation_organization_member_flag",
+      "sprite": "GFX_APDC_cooperation_organization_flag_small_unfiltered",
+      "centerposition": "yes"
+    },
+    {
+      "file": "interface/APDC_cooperation_organizations.gui",
+      "name": "APDC_cooperation_vote_member_flag",
+      "sprite": "GFX_APDC_cooperation_organization_flag_small_unfiltered",
+      "centerposition": "yes"
+    },
+    {
+      "file": "interface/APDC_economy_panel.gui",
+      "name": "APDC_eco_trade_flag",
+      "sprite": "GFX_APDC_cooperation_organization_flag_small_unfiltered",
+      "centerposition": "yes"
+    }
+  ],
+  "original_soviet_text_bytes_unchanged": true,
+  "original_description_keys_available": 38,
+  "files_changed_in_this_audit": 11,
+  "game_launched": false,
+  "visual_confirmation": false,
+  "scope": "Source and static regression audit; previous runtime evidence predates these corrections.",
+  "backup_and_final_hashes_verified": true
+}

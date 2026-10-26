@@ -1,0 +1,177 @@
+--- before/common/factions/goals/faction_goals_short_term.txt
++++ current/common/factions/goals/faction_goals_short_term.txt
+@@ -181,39 +181,19 @@
+ 		}
+ 	}
+ 	available = {
+-		FROM = { has_completed_focus = CHI_tour_the_north }
+-	}
+-	completed = {
+-		NXM = {
+-			all_core_state = {
+-				is_owned_by = ROOT
+-			}
+-		}
++		FROM = { always = no }
++	}
++	completed = {
++		always = no
+ 		SHX = {
+ 			all_core_state = {
+ 				is_owned_by = ROOT
+ 			}
+ 		}
+-		GSM = {
+-			all_core_state = {
+-				is_owned_by = ROOT
+-			}
+-		}
+-		HBC = {
+-			all_core_state = {
+-				is_owned_by = ROOT
+-			}
+-		}
+-		XIC = {
+-			all_core_state = {
+-				is_owned_by = ROOT
+-			}
+-		}
+-		SND = {
+-			all_core_state = {
+-				is_owned_by = ROOT
+-			}
+-		}
++		always = no
++		always = no
++		always = no
++		always = no
+ 
+ 	}
+ 	complete_effect = {
+@@ -446,7 +426,7 @@
+ 		}
+ 	}
+ 	available = {
+-		FROM = { has_completed_focus = CHI_tour_the_west }
++		FROM = { always = no }
+ 	}
+ 	completed = {
+ 		XSM = {
+@@ -454,21 +434,13 @@
+ 				is_owned_by = ROOT
+ 			}
+ 		}
+-		KHM = {
+-			all_core_state = {
+-				is_owned_by = ROOT
+-			}
+-		}
++		always = no
+ 		SIK = {
+ 			all_core_state = {
+ 				is_owned_by = ROOT
+ 			}
+ 		}
+-		SIC = {
+-			all_core_state = {
+-				is_owned_by = ROOT
+-			}
+-		}
++		always = no
+ 	}
+ 	complete_effect = {
+ 		add_faction_power_projection = 50
+@@ -515,14 +487,10 @@
+ 		}
+ 	}
+ 	available = {
+-		FROM = { has_completed_focus = CHI_tour_the_south }
+-	}
+-	completed = {
+-		GDC = {
+-			all_core_state = {
+-				is_owned_by = ROOT
+-			}
+-		}
++		FROM = { always = no }
++	}
++	completed = {
++		always = no
+ 		GXC = {
+ 			all_core_state = {
+ 				is_owned_by = ROOT
+@@ -1247,73 +1215,7 @@
+ 	}
+ }
+ 
+-faction_goal_a_great_fortress = {
+-	name = a_great_fortress_goal_name
+-	description = a_great_fortress_goal_desc
+-	category = short_term
+-	group = FOCUS_FILTER_CONSOLIDATION
+-	visible = {
+-	}
+-	available = {
+-		collection_size = {
+-			input = {
+-				input = collection:faction_owned_core_states
+-				operators = {
+-					limit = {
+-						NOT = { is_fully_controlled_by = OWNER }
+-					}
+-				}
+-				name = FACTION_CORE_STATES_NOT_FULLY_CONTROLLED
+-			}
+-			value < 1
+-		}
+-	}
+-	completed = {
+-		OR = {
+-			ROOT = {
+-				has_tech = coastal_fort_tech_2
+-				has_tech = land_fort_tech_2
+-			}
+-			any_allied_country = {
+-				has_tech = coastal_fort_tech_2
+-				has_tech = land_fort_tech_2
+-			}
+-			count_in_collection = {
+-				collection = {
+-					input = game:scope
+-					operators = { faction_members }
+-					name = FACTION_NAME
+-				}
+-				buildings = { bunker coastal_bunker}
+-				size > 29
+-			}
+-		}
+-	}
+-	complete_effect = {
+-		add_faction_power_projection = 100
+-		custom_effect_tooltip = generic_skip_one_line_tt
+-		custom_effect_tooltip = ALL_FACTION_MEMBERS
+-		every_faction_member = {
+-			limit = {
+-				NOT = { has_idea = deterrence }
+-			}
+-			IF = {
+-				limit = { NOT = { has_completed_goal = faction_goal_a_great_fortress } }
+-				add_timed_idea = {
+-					idea = deterrence
+-					days = 360
+-				}
+-			}
+-		}
+-	}
+-	ai_will_do = {
+-		base = 0
+-		modifier = {
+-			add = 1
+-			has_tech = basic_fortification_tech
+-		}
+-	}
+-}
++
+ 
+ 
+ ### War Waging

@@ -1,0 +1,24 @@
+state = {
+	impassable = yes
+	id = 1172
+	name = "STATE_1172"
+	provinces = {
+		3588
+	}
+	manpower = 93070
+	resources = {
+		oil = 2
+	}
+	buildings_max_level_factor = 1
+	state_category = metropolis
+	local_supplies = 0
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = USA
+		add_core_of = ZZZ
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}

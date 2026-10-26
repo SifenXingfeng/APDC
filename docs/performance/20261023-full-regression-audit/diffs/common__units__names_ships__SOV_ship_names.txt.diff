@@ -1,0 +1,11 @@
+--- before/common/units/names_ships/SOV_ship_names.txt
++++ current/common/units/names_ships/SOV_ship_names.txt
+@@ -822,7 +822,7 @@
+ 	for_countries = { SOV }
+ 
+ 	can_use = {
+-		has_completed_focus = SOV_the_third_rome
++		always = no
+ 	}
+ 
+ 	type = ship

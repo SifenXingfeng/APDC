@@ -1,0 +1,33 @@
+state = {
+	id = 1398
+	name = "STATE_1398"
+	provinces = {
+		8006
+		15695
+		19219
+		19354
+	}
+	manpower = 248333
+	resources = {
+		rubber = 2
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = LIB
+		controller = LIB
+		add_core_of = LIB
+		victory_points = {
+			19219
+			1
+		}
+		victory_points = {
+			19354
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

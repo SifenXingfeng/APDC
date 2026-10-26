@@ -1,0 +1,41 @@
+state = {
+	id = 513
+	name = "STATE_513"
+	provinces = {
+		5053
+		7149
+		9943
+		12888
+		18012
+		18014
+		18077
+	}
+	manpower = 481911
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 0
+	history = {
+		owner = AGR
+		controller = AGR
+		add_core_of = AGR
+		victory_points = {
+			7149
+			1
+		}
+		victory_points = {
+			9943
+			3
+		}
+		victory_points = {
+			12888
+			3
+		}
+		victory_points = {
+			18077
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

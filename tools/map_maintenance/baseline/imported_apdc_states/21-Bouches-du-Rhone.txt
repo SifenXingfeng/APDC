@@ -1,0 +1,45 @@
+state = {
+	id = 21
+	name = "STATE_21"
+	manpower = 1670310
+	resources = {
+		aluminium = 60
+	}
+	state_category = city
+	history = {
+		owner = FRA
+		controller = FRA
+		add_core_of = FRA
+		victory_points = {
+			11834
+			5
+		}
+		victory_points = {
+			15234
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			arms_factory = 1
+			fuel_silo = 1
+			air_base = 10
+			11834 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+	}
+	provinces = {
+		958
+		3762
+		9736
+		11834
+		11875
+		15189
+		15195
+		15234
+	}
+	local_supplies = 0.0
+}

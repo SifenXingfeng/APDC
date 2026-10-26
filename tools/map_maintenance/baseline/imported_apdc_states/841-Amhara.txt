@@ -1,0 +1,64 @@
+state = {
+	id = 841
+	name = "STATE_841"
+	provinces = {
+		1984
+		2040
+		4954
+		13137
+		13241
+		13242
+		14107
+		14141
+		17882
+		17901
+		17904
+	}
+	manpower = 1562500
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = ETH
+		controller = ETH
+		add_core_of = ETH
+		victory_points = {
+			1984
+			3
+		}
+		victory_points = {
+			4954
+			3
+		}
+		victory_points = {
+			13241
+			2
+		}
+		victory_points = {
+			13242
+			2
+		}
+		victory_points = {
+			14107
+			1
+		}
+		victory_points = {
+			14141
+			2
+		}
+		victory_points = {
+			17882
+			2
+		}
+		victory_points = {
+			17901
+			2
+		}
+		victory_points = {
+			17904
+			1
+		}
+		buildings = {
+		}
+	}
+}

@@ -1,23 +1,27 @@
 state = {
 	id = 455
 	name = "STATE_455"
+	provinces = {
+		4574
+		7151
+		18594
+	}
+	manpower = 127091
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
 	history = {
 		owner = ISR
-		buildings = {
-			infrastructure = 5
-			air_base = 1
-		}
+		controller = ISR
+		add_core_of = ISR
 		victory_points = {
 			7151
-			15
+			30
 		}
-		add_core_of = ISR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		set_state_flag = state_renamings
 	}
-	provinces = {
-		7151
-	}
-	manpower = 255151
-	buildings_max_level_factor = 1
-	state_category = town
-	local_supplies = 0
 }

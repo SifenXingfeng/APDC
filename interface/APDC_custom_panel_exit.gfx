@@ -1,0 +1,9 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_APDC_custom_panel_exit"
+        texturefile = "gfx/interface/APDC/common/panel_exit.png"
+        noOfFrames = 1
+        transparencecheck = no
+        effectFile = "gfx/FX/buttonstate.shader"
+    }
+}

@@ -1,0 +1,22 @@
+state={ #1128
+	id=1128
+	name="MARQUESAS_ISLANDS"
+	manpower=2800
+	state_category = tiny_island
+	
+	history= {
+		owner = FRA
+		buildings = {
+			infrastructure = 1
+			19952 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		19952 19959
+	}
+
+	local_supplies=0.0 
+}

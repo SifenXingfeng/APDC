@@ -1,0 +1,32 @@
+state = {
+	id = 1412
+	name = "STATE_1412"
+	provinces = {
+		5012
+		10875
+		14342
+		14368
+		18030
+		18041
+	}
+	manpower = 5493
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = wasteland
+	history = {
+		owner = MOR
+		controller = MOR
+		add_core_of = WES
+		victory_points = {
+			14342
+			2
+		}
+		victory_points = {
+			18041
+			2
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

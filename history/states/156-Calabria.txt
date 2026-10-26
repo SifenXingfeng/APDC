@@ -1,28 +1,35 @@
 state = {
 	id = 156
 	name = "STATE_156"
-
+	manpower = 1772000
+	state_category = town
 	history = {
 		owner = ITA
-		victory_points = { 3901 7 }
-		victory_points = { 9990 10 }
-		victory_points = { 12066 7 }
-		victory_points = { 12098 4 }
-		victory_points = { 10027 1 }
-		buildings = {
-			
-			infrastructure = 4
-			dockyard = 4
-			air_base = 5
-			
-		}
+		controller = ITA
 		add_core_of = ITA
+		victory_points = {
+			3901
+			1
+		}
+		victory_points = {
+			9990
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			fuel_silo = 1
+			9990 = {
+				naval_base = 2
+			}
+		}
 	}
-
 	provinces = {
-		3901 9990 10027 12066 12098
+		3901
+		9990
+		10027
+		12066
+		12098
 	}
-	manpower = 1559578
-	buildings_max_level_factor = 1.000
-	state_category = town
+	local_supplies = 0.0
 }

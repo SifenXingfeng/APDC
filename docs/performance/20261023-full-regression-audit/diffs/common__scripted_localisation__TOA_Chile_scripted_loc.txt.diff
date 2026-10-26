@@ -1,0 +1,90 @@
+--- before/common/scripted_localisation/TOA_Chile_scripted_loc.txt
++++ current/common/scripted_localisation/TOA_Chile_scripted_loc.txt
+@@ -11,83 +11,11 @@
+ 
+ ##### Example #####
+ # Taking back patagonia
+-defined_text = {
+-	name = CHL_taking_back_patagonia_key
+-	text = {
+-		trigger = {
+-			tag = CHL
+-			NOT = {
+-				has_completed_focus = CHL_address_the_mapuche_conflict
+-			}
+-		}
+-		localization_key = CHL_taking_back_patagonia_kingdom
+-	}
+-	text = {
+-		trigger = {
+-			tag = CHL
+-			has_completed_focus = CHL_address_the_mapuche_conflict
+-		}
+-		localization_key = CHL_taking_back_patagonia_mapuche
+-	}
+-}
++
+ # Taking Back Patagonia desc
+-defined_text = {
+-	name = CHL_taking_back_patagonia_desc_key
+-	text = {
+-		trigger = {
+-			tag = CHL
+-			NOT = {
+-				has_completed_focus = CHL_address_the_mapuche_conflict
+-			}
+-		}
+-		localization_key = CHL_taking_back_patagonia_kingdom_desc
+-	}
+-	text = {
+-		trigger = {
+-			tag = CHL
+-			has_completed_focus = CHL_address_the_mapuche_conflict
+-		}
+-		localization_key = CHL_taking_back_patagonia_mapuche_desc
+-	}
+-}
++
+ 
+ # Devalue the peso
+-defined_text = {
+-	name = CHL_devalue_the_peso_key
+-	text = {
+-		trigger = {
+-			tag = CHL
+-			NOT = {
+-				has_completed_focus = CHL_introduce_the_franc
+-			}
+-		}
+-		localization_key = CHL_devalue_the_peso_peso
+-	}
+-	text = {
+-		trigger = {
+-			tag = CHL
+-			has_completed_focus = CHL_introduce_the_franc
+-		}
+-		localization_key = CHL_devalue_the_peso_franc
+-	}
+-}
++
+ # Devalue the peso desc
+-defined_text = {
+-	name = CHL_devalue_the_peso_key_desc_key
+-	text = {
+-		trigger = {
+-			tag = CHL
+-			NOT = {
+-				has_completed_focus = CHL_introduce_the_franc
+-			}
+-		}
+-		localization_key = CHL_devalue_the_peso_peso_desc
+-	}
+-	text = {
+-		trigger = {
+-			tag = CHL
+-			has_completed_focus = CHL_introduce_the_franc
+-		}
+-		localization_key = CHL_devalue_the_peso_franc_desc
+-	}
+-}
++

@@ -1,0 +1,72 @@
+state = {
+	id = 529
+	name = "STATE_529"
+	manpower = 4431000
+	state_category = large_city
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = JAP
+		add_core_of = ZZZ
+		victory_points = {
+			1092
+			10
+		}
+		victory_points = {
+			7212
+			5
+		}
+		victory_points = {
+			10052
+			2
+		}
+		victory_points = {
+			11946
+			3
+		}
+		victory_points = {
+			11985
+			2
+		}
+		victory_points = {
+			15869
+			1
+		}
+		victory_points = {
+			15870
+			1
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			dockyard = 2
+			arms_factory = 2
+			industrial_complex = 1
+			1092 = {
+				naval_base = 10
+				naval_headquarters = {
+					level = 1
+					allowed = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+				}
+				naval_facility = 1
+			}
+			9968 = {
+				dam = 1
+			}
+		}
+	}
+	provinces = {
+		1092
+		4197
+		7212
+		9968
+		10052
+		11946
+		11985
+		15869
+		15870
+	}
+	local_supplies = 0.0
+}

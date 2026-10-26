@@ -1,0 +1,29 @@
+state = {
+	id = 902
+	name = "STATE_902"
+	manpower = 332479
+	state_category = pastoral
+
+	history = {
+
+		owner = ENG
+		add_core_of = NGA
+		add_core_of = SOK
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			1891 1 # Sokoto
+		}
+
+	}
+
+	provinces = {
+		1891 1932 1969 2025 3619 3789 4938 8021 10820 13518 14050 14063 14084 14090 14099 14108 14118 14120 14144 14281 15905 17057 17964 18815 
+	}
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

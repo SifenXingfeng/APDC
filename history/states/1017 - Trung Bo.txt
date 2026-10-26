@@ -1,0 +1,56 @@
+state = {
+	id = 1017
+	name = "STATE_1017"
+	manpower = 3000000
+	state_category = town
+	resources = {
+		chromium = 4
+		tungsten = 7
+	}
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			1302
+			1
+		}
+		victory_points = {
+			4379
+			3
+		}
+		victory_points = {
+			4397
+			3
+		}
+		victory_points = {
+			7280
+			1
+		}
+		victory_points = {
+			10016
+			1
+		}
+		victory_points = {
+			12297
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		1302
+		4379
+		4397
+		7280
+		9988
+		10016
+		11909
+		12297
+		19052
+		19060
+		19142
+	}
+	local_supplies = 0.0
+}

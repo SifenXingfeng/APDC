@@ -1,19 +1,22 @@
-state = { #Population Done
+state = {
 	id = 177
 	name = "STATE_177"
-	manpower = 445762
-
+	manpower = 365500
 	state_category = rural
-
 	history = {
 		owner = SPR
+		controller = SPR
 		add_core_of = SPR
-		add_core_of = SPR
-		victory_points = { 9793 10 }
-		victory_points = { 7114 1 }
+		victory_points = {
+			7114
+			1
+		}
+		victory_points = {
+			9793
+			3
+		}
 		buildings = {
-			infrastructure = 5
-			radar_station = 1
+			infrastructure = 3
 			air_base = 1
 			9793 = {
 				naval_base = 2
@@ -23,5 +26,10 @@ state = { #Population Done
 			}
 		}
 	}
-	provinces = { 7114 9793 9845 }
+	provinces = {
+		7114
+		9793
+		9845
+	}
+	local_supplies = 0.0
 }

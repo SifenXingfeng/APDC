@@ -1,0 +1,102 @@
+--- before/common/units/engineer.txt
++++ current/common/units/engineer.txt
+@@ -1,9 +1,28 @@
+ # APDC: old land-unit IDs retained for reference compatibility; normal unlocks removed.
+ sub_units = {
+-	engineer = {
++	
++	
++	
++
++	
++
++
++	########################
++	### SPECIAL PROJECTS ###
++	########################
++
++	# WW - SP - Assault Engineers - Using Armored Engineering Vehicle -> Bridge Layer Tanks (also mine-clearing tanks, carpet-laying tanks, fascine-laying tanks)
++	
++
++	# WW - SP tech - Armored Engineers - Using Armored Engineering Vehicle -> Bridge Layer Tanks (also mine-clearing tanks, carpet-laying tanks, fascine-laying tanks)
++	
++	
++
++# Inactive identifiers required by retained engine interfaces.
++engineer = {
+ 		abbreviation = "ENG"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -97,11 +116,10 @@
+ 
+ 		same_support_type = engineer
+ 	}
+-	
+-	pioneer_support = {
++pioneer_support = {
+ 		abbreviation = "PIO"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -185,11 +203,10 @@
+ 		same_support_type = engineer
+ 		
+ 	}
+-
+-	jungle_pioneers_support = { #ToA support for jungle/rainforest terrain
++jungle_pioneers_support = { #ToA support for jungle/rainforest terrain
+ 		abbreviation = "JLS"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -260,17 +277,10 @@
+ 
+ 		same_support_type = engineer
+ 	}
+-
+-
+-	########################
+-	### SPECIAL PROJECTS ###
+-	########################
+-
+-	# WW - SP - Assault Engineers - Using Armored Engineering Vehicle -> Bridge Layer Tanks (also mine-clearing tanks, carpet-laying tanks, fascine-laying tanks)
+-	assault_engineer = {
++assault_engineer = {
+ 		abbreviation = "ASEC"
+ 		sprite = assault_engineer
+-		map_icon_category = armored
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -378,12 +388,10 @@
+ 
+ 		same_support_type = engineer
+ 	}
+-
+-	# WW - SP tech - Armored Engineers - Using Armored Engineering Vehicle -> Bridge Layer Tanks (also mine-clearing tanks, carpet-laying tanks, fascine-laying tanks)
+-	armored_engineer = {
++armored_engineer = {
+ 		abbreviation = "AREC"
+ 		sprite = armored_engineer
+-		map_icon_category = armored
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -503,5 +511,4 @@
+ 
+ 		same_support_type = engineer
+ 	}
+-	
+ }

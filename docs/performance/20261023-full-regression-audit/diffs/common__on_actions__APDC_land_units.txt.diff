@@ -1,0 +1,13 @@
+--- before/common/on_actions/APDC_land_units.txt
++++ current/common/on_actions/APDC_land_units.txt
+@@ -1,4 +1,9 @@
+ on_actions = {
+     on_startup = { effect = { every_country = { APDC_initialize_land_units = yes } } }
+-    on_monthly = { effect = { every_country = { APDC_initialize_land_units = yes } } }
++    on_monthly = { effect = {
++if = { limit = { NOT = { has_global_flag = APDC_units_monthly_lock } }
++set_global_flag = { flag = APDC_units_monthly_lock value = 1 days = 1 }
++ every_country = { APDC_initialize_land_units = yes } 
+ }
++} }
++}

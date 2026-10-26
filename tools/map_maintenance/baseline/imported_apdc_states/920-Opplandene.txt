@@ -1,0 +1,33 @@
+state = {
+	id = 920
+	name = "STATE_920"
+	resources = {
+		aluminium = 2
+	}
+	provinces = {
+		10
+		133
+		179
+		3021
+		3136
+		6042
+		6160
+		9157
+		11028
+		18361
+		18380
+	}
+	manpower = 86180
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = NOR
+		add_core_of = ZZZ
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

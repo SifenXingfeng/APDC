@@ -1,0 +1,22 @@
+state={ #1122
+	id=1122
+	name="HEARD_ISLAND"
+	manpower=1
+	state_category = tiny_island
+	
+	history= {
+		owner = ENG
+		buildings = {
+			#infrastructure = 1
+			16452 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		16452
+	}
+
+	local_supplies=0.0 
+}

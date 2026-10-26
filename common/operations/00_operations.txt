@@ -1105,7 +1105,7 @@ operation_coup_government = { ### 7 1/70
 			target = FROM
 			value > 35
 		}
-		NOT = { has_completed_focus = SPR_regional_defense_council_of_aragon }
+		NOT = { always = no }
 	}
 
 	equipment = {
@@ -1132,7 +1132,7 @@ operation_coup_government = { ### 7 1/70
 		FROM = {
 			has_civil_war = no
 			NOT = {
-				has_government = var:PREV.ROOT.current_party_ideology_group
+				always = no
 			}
 			if = {
 				limit = {
@@ -1217,7 +1217,7 @@ operation_coup_government = { ### 7 1/70
 			# Exploit prevention: Make sure ruling party is not the same as the saved one, otherwise change it!
 			if = {
 				limit = {
-					has_government = var:coup_operation_party@ROOT
+					always = no
 				}
 				set_variable = { coup_operation_party@ROOT = PREV.ROOT.current_party_ideology_group }
 			}
@@ -1397,7 +1397,7 @@ operation_boost_resistance = { ### 8 2/40
 			if = {
 				limit = {
 					ROOT = {
-						has_completed_focus = SWI_export_saboteurs
+						always = no
 					}
 				}
 				add_resistance_target = {
@@ -1446,7 +1446,7 @@ operation_boost_resistance = { ### 8 2/40
 			if = {
 				limit = {
 					ROOT = {
-						has_completed_focus = SWI_export_saboteurs
+						always = no
 					}
 				}
 				add_resistance_target = {
@@ -2548,7 +2548,7 @@ operation_steal_tech_army = { ### 16 3/55
 		else = {
 			ROOT = {
 				steal_random_tech_bonus = {
-					folder = nsb_armour_folder
+					folder = armour_folder
 					folder = artillery_folder
 					folder = infantry_folder
 					folder = support_folder
@@ -2609,7 +2609,7 @@ operation_steal_tech_army = { ### 16 3/55
 				else = {
 					ROOT = {
 						steal_random_tech_bonus = {
-							folder = nsb_armour_folder
+							folder = armour_folder
 							folder = artillery_folder
 							folder = infantry_folder
 							folder = support_folder
@@ -2650,7 +2650,7 @@ operation_steal_tech_army = { ### 16 3/55
 				else = {
 					ROOT = {
 						steal_random_tech_bonus = {
-							folder = nsb_armour_folder
+							folder = armour_folder
 							folder = artillery_folder
 							folder = infantry_folder
 							folder = support_folder
@@ -2690,7 +2690,7 @@ operation_steal_tech_army = { ### 16 3/55
 		else = {
 			ROOT = {
 				steal_random_tech_bonus = {
-					folder = nsb_armour_folder
+					folder = armour_folder
 					folder = artillery_folder
 					folder = infantry_folder
 					folder = support_folder
@@ -2822,7 +2822,7 @@ operation_steal_tech_navy = { ### 17 3/55
   		else = {
 	  		ROOT = {
 				steal_random_tech_bonus = {
-					folder = naval_folder
+					folder = mtgnavalfolder
 
 					bonus = 3.0
 					dynamic = yes
@@ -2877,7 +2877,7 @@ operation_steal_tech_navy = { ### 17 3/55
   				else = {
 					ROOT = {
 						steal_random_tech_bonus = {
-							folder = naval_folder
+							folder = mtgnavalfolder
 
 							bonus = 3.0
 							ahead_reduction = 2
@@ -2911,7 +2911,7 @@ operation_steal_tech_navy = { ### 17 3/55
 				else = {
 					ROOT = {
 						steal_random_tech_bonus = {
-							folder = naval_folder
+							folder = mtgnavalfolder
 
 							bonus = 3.0
 							ahead_reduction = 1
@@ -2929,8 +2929,8 @@ operation_steal_tech_navy = { ### 17 3/55
 	outcome_potential = {
 		ROOT = {
 			steal_random_tech_bonus = {
-				folder = naval_folder
 				folder = mtgnavalfolder
+				
 
 				bonus = 3.0
 				dynamic = yes
@@ -3041,7 +3041,7 @@ operation_steal_tech_airforce = { ### 18 3/55
 					has_dlc = "By Blood Alone"
 				}
 				steal_random_tech_bonus = {
-					folder = bba_air_techs_folder
+					folder = air_techs_folder
 					bonus = 3.0
 					dynamic = yes
 					instant = yes
@@ -3090,7 +3090,7 @@ operation_steal_tech_airforce = { ### 18 3/55
 							has_dlc = "By Blood Alone"
 						}
 						steal_random_tech_bonus = {
-							folder = bba_air_techs_folder
+							folder = air_techs_folder
 							bonus = 3.0
 							ahead_reduction = 2
 							dynamic = yes
@@ -3123,7 +3123,7 @@ operation_steal_tech_airforce = { ### 18 3/55
 
 					ROOT = {
 						steal_random_tech_bonus = {
-							folder = bba_air_techs_folder
+							folder = air_techs_folder
 							bonus = 3.0
 							ahead_reduction = 1
 							dynamic = yes
@@ -3160,7 +3160,7 @@ operation_steal_tech_airforce = { ### 18 3/55
 					has_dlc = "By Blood Alone"
 				}
 				steal_random_tech_bonus = {
-					folder = bba_air_techs_folder
+					folder = air_techs_folder
 					bonus = 3.0
 					dynamic = yes
 					instant = yes

@@ -1,0 +1,48 @@
+{
+  "observed_stage": {
+    "log": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\logs\\game.log",
+    "start": "14:09:12",
+    "end": "14:11:17",
+    "seconds": 125,
+    "phase": "RestoreDeviceObjects"
+  },
+  "pre_cold_war_comparison": {
+    "log": "D:/APDC_MarketPriorityQA_20261024_131637/logs/game.log",
+    "seconds": 12,
+    "other_pre_cold_war_samples_seconds": [
+      8,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  "cold_war_resources": {
+    "graphic_definitions": 10647,
+    "asset_files": 10653,
+    "raw_rgba_texture_MiB": 680.1,
+    "disk_MiB": 39.19,
+    "progressbar_definitions": 5311,
+    "configured_steps_total": 531100000,
+    "steps_per_progressbar": [
+      100000
+    ],
+    "dynamic_text_definitions": 12242,
+    "gui_icons": 5685,
+    "zoom_containers": 26
+  },
+  "memory_snapshot": {
+    "process_private_committed_bytes": 11002265600,
+    "process_working_set_bytes": 3939721216,
+    "physical_memory_KiB": 16386548,
+    "available_physical_memory_KiB": 1213724
+  },
+  "inference": "New Cold War graphics initialization is the primary added startup load. Resource/state declaration scale is excessive; individual internal costs, including per-step allocations, have not yet been isolated with A/B runs.",
+  "current_user_game": {
+    "pid": 37516,
+    "responding_after_load": true,
+    "stopped_by_agent": false
+  },
+  "project_code_changed": false,
+  "new_game_started_by_agent": false
+}

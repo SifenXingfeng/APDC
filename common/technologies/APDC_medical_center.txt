@@ -1,0 +1,13 @@
+technologies = {
+    APDC_medical_center_unlock = {
+        # No technology-tree folder: this is an invisible startup unlock.
+        allow = { always = no }
+        start_year = 1936
+        research_cost = 1
+        enable_building = {
+            building = APDC_medical_center
+            level = 1
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

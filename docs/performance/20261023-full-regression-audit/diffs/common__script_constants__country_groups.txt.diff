@@ -1,0 +1,89 @@
+--- before/common/script_constants/country_groups.txt
++++ current/common/script_constants/country_groups.txt
+@@ -48,15 +48,15 @@
+ 		SHX
+ 		XSM
+ 		SIK
+-		GDC
+-		SND
+-		SIC
+-		NXM
+-		GSM
+-		XIC
+-		KHM
+-		KUM
+-		RNG
++		
++		
++		
++		
++		
++		
++		
++		
++		
+     }
+     
+     chinese_warlords = {
+@@ -65,15 +65,15 @@
+         SHX
+         XSM
+         SIK
+-        GDC
+-        SND
+-        SIC
+-        NXM
+-        GSM
+-        XIC
+-        KHM
+-        KUM
+-        HBC
++        
++        
++        
++        
++        
++        
++        
++        
++        
+     }
+ 
+     islamic_world = {
+@@ -105,7 +105,7 @@
+         PAK
+         WES
+         MRT
+-        SOK
++        
+         MLI
+         NGR
+         NGA
+@@ -131,7 +131,7 @@
+         KOS              
+         KUR      
+         BLC      
+-        IMO      
++              
+         KLT      
+         KBK      
+         DJI      
+@@ -144,13 +144,13 @@
+         GNA      
+         XSM      
+         SIK
+-        KHM
+-        GSM
+-        NXM
+-        KUM
++        
++        
++        
++        
+         SAB
+         BRN
+-        CHM  
++          
+         AFG
+     }
+ 

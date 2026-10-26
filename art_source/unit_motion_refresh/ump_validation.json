@@ -1,0 +1,29 @@
+{
+  "id": "APDC_ump_chibi",
+  "new_mesh": true,
+  "reference": "89ddb1e40aa667a9794954adbdeddd7e.png",
+  "old_pair_mapping_replaced": true,
+  "clips": [
+    "idle",
+    "idle_look",
+    "idle_shift",
+    "move",
+    "attack",
+    "death"
+  ],
+  "bones": 22,
+  "vertices": 20896,
+  "triangles": 41272,
+  "smoking": false,
+  "rider_ponytail": "anatomical_left_only",
+  "carrier_ponytails": 2,
+  "carrier_eyes": "><",
+  "gait": "paired_front_arms_then_paired_rear_legs",
+  "gait_settings": {
+    "stride": 0.88,
+    "lift": 0.4,
+    "duty": 0.42,
+    "frames": 21
+  },
+  "maximum_ik_target_error": 3.03925246810483e-07
+}

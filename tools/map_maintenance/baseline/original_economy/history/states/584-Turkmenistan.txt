@@ -1,0 +1,35 @@
+state = {
+	id = 584
+	name = "STATE_584"
+
+	history = {
+	
+		owner = SOV
+		
+		victory_points = {
+			12333 2
+		}
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			7477 = { #Krasnovodsk - Caspian Sea addition
+				naval_base = 1
+			}
+		}
+		
+		add_core_of = SOV
+		add_core_of = TMS
+
+	}
+
+	provinces = {
+		756 1593 1632 1649 4482 4549 4599 4958 5003 7477 7491 7560 7563 7618 7635 7924 8099 9605 10357 10359 10406 10414 10510 10742 12161 12233 12324 12333 12359 12491 14273 14704 14705 14759 18615 18616 18626 18632 18673 18679 18681 18682 18790 18821 
+	}
+	manpower = 931458
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+
+	local_supplies = 4.0 
+	
+}

@@ -1,0 +1,58 @@
+state = {
+	id = 677
+	name = "STATE_677"
+	provinces = {
+		7140
+		7671
+		8911
+		12473
+		14465
+		14684
+		14685
+		14686
+		14687
+		16261
+	}
+	manpower = 697681
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 2
+	history = {
+		owner = SYR
+		controller = SYR
+		add_core_of = SYR
+		add_claim_by = SYR
+		victory_points = {
+			7140
+			1
+		}
+		victory_points = {
+			7671
+			2
+		}
+		victory_points = {
+			12473
+			15
+		}
+		victory_points = {
+			14684
+			1
+		}
+		victory_points = {
+			14685
+			2
+		}
+		victory_points = {
+			14686
+			1
+		}
+		victory_points = {
+			16261
+			1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_extra_state_shared_building_slots = 1
+	}
+}

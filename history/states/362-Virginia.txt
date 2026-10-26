@@ -1,54 +1,69 @@
 state = {
 	id = 362
 	name = "STATE_362"
-
 	history = {
 		owner = USA
+		controller = USA
+		add_core_of = USA
+		victory_points = {
+			788
+			5
+		}
+		victory_points = {
+			865
+			1
+		}
+		victory_points = {
+			873
+			2
+		}
+		victory_points = {
+			951
+			1
+		}
+		victory_points = {
+			10412
+			2
+		}
 		buildings = {
-			
-
-			radar_station = 1
-			infrastructure = 5
+			infrastructure = 3
+			industrial_complex = 2
 			dockyard = 4
-			air_base = 10
+			air_base = 6
+			fuel_silo = 1
 			788 = {
 				naval_base = 10
+				naval_headquarters = {
+					level = 1
+					allowed = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+				}
 			}
 		}
-		add_core_of = USA
-		victory_points = { # Norfolk/Virginia Beach
-			788 25
-		}
-		victory_points = { # Newport News
-			865 5
-		}
-		victory_points = { # Arlington/Alexandria
-			873 10
-		}
-		victory_points = { # Richmond
-			11738 15
-		}
-		victory_points = { # Lynchburg
-			10412 3
-		}
-		victory_points = { # Roanoke
-			1506 3
-		}
-		victory_points = { # Charlottesville
-			3823 1
-		}
-		victory_points = { # Fredericksburg
-			6846 1
-		}
-		victory_points = { # Harrisonburg
-			11873 1
-		}
 	}
-
 	provinces = {
-		788 1506 3925 7558 9779 9931 10412 10439 11738 11841 865 873 951 3823 3917 6846 10343 11873
+		788
+		865
+		873
+		951
+		1506
+		3823
+		3917
+		3925
+		6846
+		7558
+		9779
+		9931
+		10343
+		10412
+		10439
+		11738
+		11841
+		11873
 	}
-	manpower = 4046200
+	local_supplies = 11.0
+	manpower = 2249080
 	buildings_max_level_factor = 1.000
 	state_category = large_city
 }

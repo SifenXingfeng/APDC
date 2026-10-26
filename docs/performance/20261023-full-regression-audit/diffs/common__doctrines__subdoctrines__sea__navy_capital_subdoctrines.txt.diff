@@ -1,0 +1,232 @@
+--- before/common/doctrines/subdoctrines/sea/navy_capital_subdoctrines.txt
++++ current/common/doctrines/subdoctrines/sea/navy_capital_subdoctrines.txt
+@@ -31,7 +31,7 @@
+ 
+     rewards = {
+         flagships={
+-            battleship= {
++            mega_cruiser= {
+                 max_organisation = 5
+             }
+ 			heavy_cruiser = {
+@@ -39,7 +39,7 @@
+ 			}
+         }
+         ordnance_handling_training = {
+-			battleship = {
++			mega_cruiser = {
+ 				hg_attack = 0.05
+ 				lg_attack = 0.05
+ 				hg_armor_piercing = 0.05
+@@ -49,7 +49,7 @@
+ 			}
+         }
+         blue_water_logistics = { #TODO see if these make sense
+-            battleship = {
++            mega_cruiser = {
+ 				supply_consumption = -0.1
+ 			}
+ 			battle_cruiser = {
+@@ -57,7 +57,7 @@
+ 			}
+         }
+         bulkhead_drills = {
+-            battleship = {
++            mega_cruiser = {
+ 				naval_torpedo_damage_reduction_factor = 0.1
+ 			}
+ 			heavy_cruiser = {
+@@ -65,7 +65,7 @@
+ 			}
+         }
+         modernized_line_of_battle={
+-            battleship = {
++            mega_cruiser = {
+ 				max_organisation = 10
+ 			}
+ 			heavy_cruiser = {
+@@ -117,7 +117,7 @@
+ 				hg_attack = 0.10
+ 				lg_attack = 0.05
+ 			}
+-			battleship = {
++			mega_cruiser = {
+ 				lg_attack = 0.05
+ 			}
+         }
+@@ -130,7 +130,7 @@
+ 			}
+         }
+         planning_at_speed = {
+-            battleship = {
++            mega_cruiser = {
+ 				naval_speed = 0.1
+ 			}
+ 			battle_cruiser = {
+@@ -141,7 +141,7 @@
+ 			}
+         }
+         capital_drills={
+-            battleship = {
++            mega_cruiser = {
+ 				max_organisation = 5
+ 			}
+ 			battle_cruiser= {
+@@ -184,28 +184,25 @@
+             battle_cruiser= {
+                 surface_detection = 0.1
+             }
+-			battleship = {
++			mega_cruiser = {
+ 				surface_detection = 0.1
+ 			}
+         }
+         speed_trials = {
+             equipment_bonus = {
+-                capital_ship = {
+-                    naval_range = 0.10
+-                    instant = yes
+-                }
++                
+             }
+         }
+         modernized_officer_education = {
+             battle_cruiser= {
+                 max_organisation = 5
+             }
+-			battleship = {
++			mega_cruiser = {
+ 				max_organisation = 5
+ 			}
+         }
+         capital_raiders = {
+-            battleship = {
++            mega_cruiser = {
+ 				max_organisation = 5
+ 				convoy_raiding_coordination = 0.25
+ 				surface_detection = 0.10
+@@ -228,71 +225,7 @@
+     }
+ }
+ 
+-coastal_defence_fleet = {
+-    track = capital_ships
+-    name = SUBDOCTRINE_COASTAL_DEFENCE
+-    description = SUBDOCTRINE_COASTAL_DEFENCE_DESC
+-    icon = GFX_doctrine_floating_fortress_medium
+-
+-    xp_cost = 100
+-    xp_type = navy
+-
+-    visible = {
+-        has_dlc = "No Compromise, No Surrender"
+-    }
+-
+-    ai_will_do = { }
+-
+-    # EFFECTS
+-	effect = {
+-		IF = {
+-			limit = {
+-				NOT = {
+-					has_tech = coastal_defense_ships
+-				}
+-			}
+-			set_technology = { 
+-				coastal_defense_ships = 1 
+-			}
+-		}
+-	}
+-	naval_supply_consumption_factor = -0.15
+-	navy_max_range_factor = -0.10
+-
+-
+-    rewards = {
+-        aging_navy={
+-            modifier = { refit_speed = 0.15 }
+-        }
+-        casemate_upgrades = {
+-            equipment_bonus = {
+-                ship_hull_cruiser_coastal_defense_ship = {
+-                    anti_air_attack = 0.15
+-                    lg_attack = 0.05
+-                    instant = yes
+-                }
+-            }
+-        }
+-        escort_duties= {
+-            heavy_cruiser= {
+-                sub_detection = 0.15
+-            }
+-			light_cruiser= {
+-                sub_detection = 0.10
+-            }
+-        }
+-        hail_of_fire = {
+-            modifier = {
+-				naval_light_gun_hit_chance_factor = 0.05
+-			}
+-        }
+-        spare_part_logistics={
+-            modifier = {
+-				refit_ic_cost = -0.15
+-			}
+-        }
+-    }
+-}
++
+ 
+ naval_gunfire_support = {
+     track = capital_ships
+@@ -328,7 +261,7 @@
+ 			heavy_cruiser = {
+ 				anti_air_attack = 0.15
+ 			}		
+-			battleship = {
++			mega_cruiser = {
+ 				anti_air_attack = 0.15
+ 			}
+ 			battle_cruiser = {
+@@ -354,7 +287,7 @@
+         }
+ 
+         green_water_operations={
+-    		battleship = {
++    		mega_cruiser = {
+     			surface_visibility = -0.10
+ 			}
+ 			battle_cruiser = {
+@@ -392,7 +325,7 @@
+     rewards = {
+ 
+     	all_seas_anti_aircraft = {
+-    		battleship = {
++    		mega_cruiser = {
+     			anti_air_attack = 0.1
+     		}
+     		battle_cruiser = {
+@@ -401,13 +334,13 @@
+     	}
+ 
+     	efficient_navigation = {
+-    		battleship = {
++    		mega_cruiser = {
+     			fuel_consumption = -0.1
+     		}
+     	}
+ 
+     	broad_air_cover = {
+-    		battleship = {
++    		mega_cruiser = {
+     			max_organisation = 15
+     			surface_detection = 0.05
+     		}
+@@ -417,7 +350,7 @@
+     		}
+     	}
+     	inaccessible_skies = {
+-            battleship = {
++            mega_cruiser = {
+                 anti_air_attack = 0.15
+                 lg_attack = 0.05
+             }

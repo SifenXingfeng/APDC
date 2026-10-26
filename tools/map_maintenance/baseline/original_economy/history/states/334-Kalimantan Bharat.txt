@@ -1,0 +1,38 @@
+state = {
+	id = 334
+	name = "STATE_334"
+	manpower = 2168600
+	resources = {
+		rubber = 75 # was: 138
+		oil = 5 # was: 10
+	}
+	
+	state_category = rural
+
+	history = {
+
+		owner = INS
+		add_core_of = INS
+
+		victory_points = {
+			10237 1 
+		}
+
+		buildings = {
+			infrastructure = 1
+			1316 = {
+				naval_base = 1
+			}
+			#
+			13298 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		1304 1316 4279 4409 7227 10282 10310 12129 12955 13298
+	}
+
+	local_supplies = 0.0 
+}

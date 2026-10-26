@@ -1,0 +1,11 @@
+--- before/common/doctrines/subdoctrines/land/infantry_subdoctrines.txt
++++ current/common/doctrines/subdoctrines/land/infantry_subdoctrines.txt
+@@ -803,7 +803,7 @@
+                 has_government = communism
+                 AND = {
+                     original_tag = INS
+-                    has_completed_focus = INS_underground_revolution
++                    always = no
+                 }
+             }
+         }

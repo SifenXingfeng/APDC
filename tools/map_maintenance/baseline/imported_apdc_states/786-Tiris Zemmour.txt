@@ -1,0 +1,27 @@
+state = {
+	id = 786
+	name = "STATE_786"
+	provinces = {
+		1897
+		8035
+		14329
+		14365
+		14376
+	}
+	manpower = 38813
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 0
+	history = {
+		owner = MRT
+		controller = MRT
+		add_core_of = MRT
+		victory_points = {
+			8035
+			1
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+}

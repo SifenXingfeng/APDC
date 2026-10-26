@@ -1,0 +1,25 @@
+state = {
+	id = 74
+	name = "STATE_74"
+	manpower = 820000
+	resources = {
+		coal = 12
+	}
+	state_category = rural
+	history = {
+		owner = CZE
+		controller = CZE
+		add_core_of = CZE
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+		}
+	}
+	provinces = {
+		421
+		3414
+		6485
+		15838
+	}
+	local_supplies = 2.0
+}

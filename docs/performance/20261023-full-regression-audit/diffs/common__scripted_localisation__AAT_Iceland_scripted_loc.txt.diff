@@ -1,0 +1,23 @@
+--- before/common/scripted_localisation/AAT_Iceland_scripted_loc.txt
++++ current/common/scripted_localisation/AAT_Iceland_scripted_loc.txt
+@@ -8,19 +8,7 @@
+ # localization_key -> points to the localization key
+ # that'll be used if trigger passes
+ 
+-defined_text = {
+-	name = GetAmericanProtectionText
+-	text = {
+-		trigger = {
+-			ROOT = { is_subject_of = ENG }
+-			ENG = { has_war = yes }
+-		}
+-		localization_key = ICE_american_protection_desc_british_subject
+-	}
+-	text = {
+-		localization_key = ICE_american_protection_desc_standard
+-	}
+-}
+ 
+ 
+ 
++

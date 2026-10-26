@@ -1,0 +1,19 @@
+state = {
+	id = 1129
+	name = "CLIPPERTON_ISLAND"
+	manpower = 1
+	state_category = tiny_island
+	history = {
+		owner = FRA
+		controller = FRA
+		buildings = {
+			19995 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		19995
+	}
+	local_supplies = 0.0
+}

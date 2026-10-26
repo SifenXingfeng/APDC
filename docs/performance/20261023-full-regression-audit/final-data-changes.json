@@ -1,0 +1,907 @@
+[
+  {
+    "path": "common/doctrines/subdoctrines/sea/navy_screen_doctrines.txt",
+    "before": "4dc23bd4836030896953fd2121fc389b42d4357fe237c58c12486f07bbeebdad",
+    "after": "23a89851c9f6576a808206e42819538064ed84787c2c7b9b2914587e37ddeb40"
+  },
+  {
+    "path": "common/doctrines/subdoctrines/sea/navy_submarine_doctrines.txt",
+    "before": "4f55a39d769a04b22fe4b3c2980e78abda14e1a54d6a3b6f363187c9a4ddaca6",
+    "after": "111cffcdc4ee1bd1d60712488faaf482cfb4d189d534724dbff8bc048a0dba8c"
+  },
+  {
+    "path": "common/factions/goals/faction_goals_long_term.txt",
+    "before": "cf846bca6fe1f9951be185d77ca1808386e68f3f182c3a11cb26db2ae1469b0a",
+    "after": "5632421ec0963c337a0619c43e669c1b5968bb5018f53331a99cb2f63104490f"
+  },
+  {
+    "path": "common/factions/goals/faction_goals_medium_term.txt",
+    "before": "7290a4125779ef4c7a857300d0e25a124f7f67f4f201947c10fcb318b5dfed17",
+    "after": "ea4f9ce26bb3b94d7221636e73d2ddbad5c3f68288884c6e5ce3f88e684412f3"
+  },
+  {
+    "path": "common/factions/goals/faction_goals_short_term.txt",
+    "before": "1b57fec72a557cc3c9bce5b7f075135e8e3310c23bd5daaa645f84fdd9476515",
+    "after": "a508596d7b161b85610cabfbc320d9669d62845e01afaec3cd02d55fe507dfe6"
+  },
+  {
+    "path": "common/factions/goals/faction_manifests.txt",
+    "before": "d45130fff0fb3472e4a4274e3ad406dfcf2e71d8bacb9a07cdcbdc1f9e85bdb2",
+    "after": "543c7de7b03f37b7000d09e03642af6eb8819f0816c8eb2e171bec4b10d61190"
+  },
+  {
+    "path": "common/factions/rules/joining_rules.txt",
+    "before": "127b9a2c877e49473685754926791fd5527d889d9255fd27681958d58b1b8298",
+    "after": "7f67066a7ef085f2195ee2b9856f0b270311a2033ad4ef7e053ad7bc53b860cc"
+  },
+  {
+    "path": "common/factions/templates/APDC_german_factions.txt",
+    "before": "bc5fe3cb2ce8669a00fee45d906b3576c7c34802986b310fb9d02e3397fe82f2",
+    "after": "00e022610dc33e140e44c22682f4246a9a0eff840883c6e9aed7c9e26f415596"
+  },
+  {
+    "path": "common/factions/templates/generic_factions.txt",
+    "before": "f758173c1fbf932630f907dcc7f5c75473ba343883c247f0f34277f4fc691481",
+    "after": "8b0014a78cbdbafaa431e9622ccfad9c557a1907d40117c431c895f486817c42"
+  },
+  {
+    "path": "common/ideas/CSA.txt",
+    "before": "7d4bf273d000ca2eaea6309eb44292cc1c1f4ed9a2379392d2a21526ae88ec84",
+    "after": "bfc6b13e92961cdf70213e73a47a231b5d21ab1fc9a31edce8a942bfe0d2ede8"
+  },
+  {
+    "path": "common/ideas/_event.txt",
+    "before": "a472df0d052513ea1fbfb26086b6db430e95ab0fca6f8453d84f61539a9aafa3",
+    "after": "0077522389edb2a49eefb14cc030d3c9d90fc61587864b830612888ff2627ba9"
+  },
+  {
+    "path": "common/ideas/argentina.txt",
+    "before": "ff701b8dfbb6b9c55c228a55c6c638f4a3ca6749e49de708a47924730b91f975",
+    "after": "719725966f7a1a9ff6871a1c0a21c3665346141722758e0e0e4cd64b27202e34"
+  },
+  {
+    "path": "common/ideas/australia.txt",
+    "before": "da226d43cd1e5dbd35b9b7a13725e069d3e8848efd0387b7feb1f06e93fffac9",
+    "after": "bbbdfd75a70ffeab3876fc69a445630594dc01dd787fcb206b8ef43d306ba691"
+  },
+  {
+    "path": "common/ideas/baltic_shared.txt",
+    "before": "a53f0a263a3f21355836b218940a8ebf0701ea4b428520cb89dd2f5881e4c2ba",
+    "after": "b3567b44ae5b7c65c0683bd296b32899d7c10309f7b4a4e8ff7354d21ab369f4"
+  },
+  {
+    "path": "common/ideas/belgium.txt",
+    "before": "c67a5d821abebbc06eb4003983ce71468f007c7abf5ff54b4d6447f84dea08d2",
+    "after": "60614ae73e91cff4dfebbcc2e40b18f1b980a6d62c5741768acb127bb223a2c9"
+  },
+  {
+    "path": "common/ideas/bolivia.txt",
+    "before": "e5f2afb573e5e5b215b5c805acf89246683ab552604f78c746afe6f8bf405c56",
+    "after": "c357fa92dd1bc53dcecda175f51fc0ce7dcd18be3b06bfcc8e796d4a1af11fe5"
+  },
+  {
+    "path": "common/ideas/brazil.txt",
+    "before": "90278726ea23f03bc9ed5e980ad9255e9968bd07a126421c59b690796d636a74",
+    "after": "1d7e868649d806dbd2a72a8d362845aa2c135555ef6230023d6f6af69be5f21c"
+  },
+  {
+    "path": "common/ideas/britain.txt",
+    "before": "82895ff41cd055f25a4a307b1a49576c9419bc50c9613ddabd89bf6068aa20fe",
+    "after": "64c3cceec2d242e9539299852442ff58e1631826158c0d6fb3d4f4480b0b95ea"
+  },
+  {
+    "path": "common/ideas/british_raj.txt",
+    "before": "6a705420807ee1c9dea4f35203bb021b1056e49de250cfbf6eb704026321d6f8",
+    "after": "fc15ca17dac177d3e017f099ba567a4d19737e05f3e4b793b107b8f2590e2def"
+  },
+  {
+    "path": "common/ideas/british_raj_goe.txt",
+    "before": "35b3e75a847484522a730c6d6730f4ee164fa498339361ea525afb79bfb0db44",
+    "after": "a4676f74e8bd68378d86a57971303a1cc1050884c395d8381cb4fc7bd9b47948"
+  },
+  {
+    "path": "common/ideas/canada.txt",
+    "before": "cbbb5483003f3a967fdd7ffe6c341703c76aa751524396dd170d0f6b7e701d6e",
+    "after": "d3b40623536dc35e85b70d4aa35222921587c245fc79c84a2ccc58ddda567d8b"
+  },
+  {
+    "path": "common/ideas/chile.txt",
+    "before": "c5b245518edee61aacc03deff19f6b01cd1915e9078ff228e0e745448fcf5718",
+    "after": "b01c42cd3d8d66a8bc455b51e53bf641eff4304f74a10d079963ae1a9e0e22e7"
+  },
+  {
+    "path": "common/ideas/china.txt",
+    "before": "5ddbaabe8e54611e428ce3c543d9d06f732594d229b5b281a8e4ec6ff4f7d4b2",
+    "after": "2b457f102b5b60547fe5ff986d6696071e5600efee2f2659af45cec79c0aceab"
+  },
+  {
+    "path": "common/ideas/china_shared.txt",
+    "before": "3183591f8a65c2ea2966ae262d0f9157f67a62feb023f14e4d5ab41b94e8072c",
+    "after": "91837537c7e384c30b92a5f8866148205d718001099f5c8a0f678e9c532fea0e"
+  },
+  {
+    "path": "common/ideas/comchina.txt",
+    "before": "866615d0c93b24a1b00eea1097bf5d8538643cb4382b77b2287343755dabd7d6",
+    "after": "7cfa7def24c3bb2ea63257b6d86358a51b3d4d5b2de61f1aafab769af6ff1f82"
+  },
+  {
+    "path": "common/ideas/congo.txt",
+    "before": "1e92137a2a96f683439097c1013219301e77965a19731918d82679be9aec3448",
+    "after": "fef1db9ed2b71e4f567b65664566b8d249c32300824481f3c7584accb0bb7bdc"
+  },
+  {
+    "path": "common/ideas/czechoslovakia.txt",
+    "before": "3b21212c0d9b027c4cad54638ea65ef943018c4061c7ebfd4598b03ece140b1f",
+    "after": "51dfe3d2cc6fc1525fae7c337fdb679e96f432a73b16e451c1a431f31e7bd259"
+  },
+  {
+    "path": "common/ideas/denmark.txt",
+    "before": "74af6181035addbf3785e141303e4b07d9d38674f9102a54a31230842cf1a759",
+    "after": "711d45589d6423cc7931a48893a41b9e53cf5a1ab89439e21f6886f24d88366c"
+  },
+  {
+    "path": "common/ideas/estonia.txt",
+    "before": "d0dd37807e2bc991cfa5a9f5b46f3f35e772b99b897c17d577b483049e7e93c4",
+    "after": "e724083c2e4b7246c06d0135e9edb5e541cc8799633f551ddbeade73ab4d5df6"
+  },
+  {
+    "path": "common/ideas/ethiopia.txt",
+    "before": "642ff92f5281dbf1b42d5f1e730bb442ddf3237a1d660a98d79055752504ca76",
+    "after": "05c1edbe8f433e00b71b610e14e045756aa227b0e21320a415b9b23d4ee00c56"
+  },
+  {
+    "path": "common/ideas/finland.txt",
+    "before": "1a7f645d9ec85470b63ef715e833e4f913830ee60d9d71749d913189a89af0d0",
+    "after": "7c928f3b0ab6516bf174cbb569c854c77eff4750bf427d0efc6365dc55f202ff"
+  },
+  {
+    "path": "common/ideas/france.txt",
+    "before": "09cc94ff32c80bdcc230cedb75e79b4a583a378c40c3954c8da8fea735ecaf79",
+    "after": "f5a98507bc90b459bf9cbf9ffd253339f0dee1f22bc3ee96aabf3454fa93ade8"
+  },
+  {
+    "path": "common/ideas/hungary.txt",
+    "before": "7dafe588dd22c7851289fcfb7b502c6945dd4e39220e498d3029619cd5c4a9ae",
+    "after": "36da52a2d9ef1c693e8d6ebb0f8a619ba7fe3eb74bc59a40e2749dd56b1be7df"
+  },
+  {
+    "path": "common/ideas/iceland.txt",
+    "before": "ea39d9b3c022c9291cb0c85b4aade0d17e6d57355604f372f6ce25e3ff15e8c8",
+    "after": "874f66a29531a72171fe49b72cb67b24754adcd22941f055a45b5baecc4f84eb"
+  },
+  {
+    "path": "common/ideas/indonesia.txt",
+    "before": "98efbc95f11f647519173190cbbb4b26bceebf207996e87627502abef71bb24b",
+    "after": "24507d6e681505fc908d55b33e0efae2f8f02e57cc0173d009f29ceb2a5d742a"
+  },
+  {
+    "path": "common/ideas/iraq.txt",
+    "before": "5ea1543abd6158e16b4dd51d8c048321e79a16f7077f09c2180e2eea4f6308ab",
+    "after": "2bd1dbdcb7945d490ec0bb72c4b966f1a63336926af58c8fa50a29975a3811aa"
+  },
+  {
+    "path": "common/ideas/japan.txt",
+    "before": "32901ffb5552fc7274f44b56322bb3f65d3cf2f12af056eb1c262a91faf4d64a",
+    "after": "5e98835ed7efa555cb68b8ea68db7475a93b519b5c4c876749c34a5fda625971"
+  },
+  {
+    "path": "common/ideas/latvia.txt",
+    "before": "73fecf3de9a26bb66ae33d36ebeca8d392c23cd93a87dd7804652339d864bd21",
+    "after": "8d409586b9479d4f2f375f990eaf62d030e7fd07b1f5befaaed9a65a33dab2d5"
+  },
+  {
+    "path": "common/ideas/lithuania.txt",
+    "before": "a7bf652907be0dd1d8eed0122298fb6ff0f1ed0c88f4649af198976a05342b3d",
+    "after": "d539d97a1189c9880a94f937ecc6cd9a547b7470c4e405f7a09684aec4cdc412"
+  },
+  {
+    "path": "common/ideas/luxembourg.txt",
+    "before": "d381d7f20c60aac57c12bde609f4310d44199ff0f229ad7973ae5ba911610383",
+    "after": "1155cb7f403aeb7ae5a7da84ae4a2302848fbc95cc7319d3a8f0cd7fcfe7d9bd"
+  },
+  {
+    "path": "common/ideas/new_zealand.txt",
+    "before": "9adf79a330bde42b3855bf5649176a97ed720e26f0df41c58a1ae741a6dd678b",
+    "after": "82a906fc6da10c373a1249a1269c6e3b9701109d3db269620a69700f42900ee5"
+  },
+  {
+    "path": "common/ideas/paraguay.txt",
+    "before": "056b9a85992825220d6e3fbe7abe609cc286fa5cdcb9e81c1642a5af9314da89",
+    "after": "0e6729df802f9f4693ff2e186110791708e7745464b77710fd058cd48df09bd7"
+  },
+  {
+    "path": "common/ideas/persia.txt",
+    "before": "1da638503f7defed70b1357f9b8a3e06bfd9e28b6e20688f1f0b3b42bce66b1f",
+    "after": "957f784d0d7090f1b46a68cb569928eb7105020ebc5d6c0aa5f78cb092926fbd"
+  },
+  {
+    "path": "common/ideas/philippines.txt",
+    "before": "c29fcf763e4319f63bd0a304f22f7d805b228b12a5435e0eb51ab3e058179efb",
+    "after": "0aaf65693a375552b5a1e876460f2d0a705b4e847b89f46b7b8e4f9cc0a17dc1"
+  },
+  {
+    "path": "common/ideas/poland.txt",
+    "before": "fc861aa3638eef5a12d1ac6b49cbf8220fb2a0708be4bf9fedc6c357c12842b5",
+    "after": "4e937aac34a92100e781858187b9907ff5eea4ee88797839c0983ce185c3c7b8"
+  },
+  {
+    "path": "common/ideas/portugal.txt",
+    "before": "d3556db1b4f9f6226bd6a9c35645909ee0af28ffad3dea73df0088dc694f9653",
+    "after": "41c25a155ee8877c7c0d2b364d791633eed427c4ec0313b17e24aad00dfc8352"
+  },
+  {
+    "path": "common/ideas/romania.txt",
+    "before": "167678c86ece73005ba94c67e3a37f45a9168ca194c79109d69535faf4a155e6",
+    "after": "3cc4b8365c86579b80fda79dd86a7cce6ad5808b01f37dcaa6a66378d59a7201"
+  },
+  {
+    "path": "common/ideas/slovakia.txt",
+    "before": "d2f67ebcf166fbceac80277eacbfc49691af30ac6b2f3b8742d9fbfdb07a20a3",
+    "after": "85d33350fe224ce8ee6dcc62e10e46bcab171c3f93c2cac1e605c14b3bacf55a"
+  },
+  {
+    "path": "common/ideas/south_africa.txt",
+    "before": "122af6b74329e3df0a8bd721fc264a043caca9170235b886caa71ace25073ba9",
+    "after": "8054e3b91a676af62ebc2178f2ab1949bcfff86bd37218734a40d7a1ae4d76a2"
+  },
+  {
+    "path": "common/ideas/spain_republic.txt",
+    "before": "f4f9171fc08bcc3395007f9fa018427886d0d150a52e3539feec0c223440879a",
+    "after": "233efa00f24dc0315b4aa0654986879dc5740a2b99b1dc2c1b6b3b862b9d938b"
+  },
+  {
+    "path": "common/ideas/sweden.txt",
+    "before": "0b219de0db75eec4273ba4ac40bb26ea75ed0e36bb91cfe91a4e17ba5180f701",
+    "after": "b330b206d6e394be62af706a037768d60337560c350afb8567cb29d3755eed0c"
+  },
+  {
+    "path": "common/ideas/switzerland.txt",
+    "before": "d4a76839814ccdccc903acd42af5b39060462bb9360fc903d193169af2519f6a",
+    "after": "78f0ca70db8fe27af4c83c5213ec2d5b4bd2ee5fc472733dfcdbe901e82259d4"
+  },
+  {
+    "path": "common/ideas/turkey.txt",
+    "before": "a898b9b1e80551a9aae7f8aaa043d875ef1838946450b5ee522d3794a6b9115d",
+    "after": "903996c30376d7caeb0ce4f59973bc21a76f5d7b608e91e9aa6afa30fb77ef6b"
+  },
+  {
+    "path": "common/ideas/usa.txt",
+    "before": "342818a2c6fb6030363a20a89c10cefd23e6a7be21fc1894123400c679004437",
+    "after": "a8e14ae34f563c2f35c7d349719cb4e62f406f9213d474bb50e0266361a70369"
+  },
+  {
+    "path": "common/ideas/zzz_generic.txt",
+    "before": "a7bd2ad1999b95d5ed420f329bde768bc1065106991f092fc0dbb91bae0fb548",
+    "after": "36e87335272efa539e8050db946715952eaae5f5647f99b902af1123ac56db08"
+  },
+  {
+    "path": "common/intelligence_agency_upgrades/intelligence_agency_upgrades.txt",
+    "before": "727f89a8f96120f0d3a8b4f3952d20162f3b74fc8e9188f7324784b1c2a0e44e",
+    "after": "bcaf5397d73e72d112474238e527b34b0c6fca456cdcf4daaa57942acd6af97c"
+  },
+  {
+    "path": "common/military_industrial_organization/organizations/AST_organization.txt",
+    "before": "0db6a66cc99d475555c183abcafcb7e24eb45bca30ccf34a7c4ba0b60145f15b",
+    "after": "1643479d66a2e58d7a38ef1a6d9d8f093bf60820135bb1ff89c281ed428adfdb"
+  },
+  {
+    "path": "common/military_industrial_organization/organizations/BRA_organization.txt",
+    "before": "a3f715006e4bb1bf41dc556c23a5ad0e13c687e7fd882d7d652ce4fb6e874f89",
+    "after": "783f7cf0330e468558057cdf34ee842d1b0cf3bed2e7fed18c4b031a4a33c4ad"
+  },
+  {
+    "path": "common/military_industrial_organization/organizations/CZE_organization.txt",
+    "before": "baac946c5fd4e4639f265860f966a3aab959f593a72334a9a9e9707589e9edd7",
+    "after": "62acf6068ccd50c6628e92966c31dde5f3ceb87a06a65dbe6df57eed18e4018a"
+  },
+  {
+    "path": "common/military_industrial_organization/organizations/ITA_organization.txt",
+    "before": "f9a8704564ced584a7aed818cf631d4262a1837c8da3bec9feafaf767865e62f",
+    "after": "b54ff76917b17b3defbf40950486d9e4a30528e2fec5fb495eec20a2f99dd9e1"
+  },
+  {
+    "path": "common/modifiers/00_static_modifiers.txt",
+    "before": "79c26b042fec65a888295198787cd8d5786ac9b094ae46610ea8bafad5313b81",
+    "after": "d9589516a0c43ada0cfb1f66249244de78e76c9dfe768fe73c0a4db5fd767b71"
+  },
+  {
+    "path": "common/operation_phases/lar_resistance_contacts.txt",
+    "before": "6b2a85f04d9ef414b988cf7e47b647c7fdbdfc2a86335e5df53186412480f1ec",
+    "after": "abd3cdf148b466b077db9de0c242f81a221bcbcfa1d35b311f36c677b9cbbe5d"
+  },
+  {
+    "path": "common/operations/00_operations.txt",
+    "before": "dc99a592d17b49d2f6f7f7596797de95bb4773e88b172ce1486821ed9b8341af",
+    "after": "4fca3029774a72b8ecad0db594c0cff0d9358820ba628848b49e0107f9f53094"
+  },
+  {
+    "path": "common/raids/nuclear_raids.txt",
+    "before": "7c5c2478eb44256cb263412b89e83b0d3f8fea99a58a2d730aad97ddee4d10cf",
+    "after": "b181a5216176b4b02a7df99a02ee98c5a0bc4823944de6eacbf1f35791b62b0a"
+  },
+  {
+    "path": "common/scorers/country/ai_decryption_scorer.txt",
+    "before": "be0546ba4e4ccf15f8ad9d0fb0720122513b6776a6702ab84b92363e82b4ddb4",
+    "after": "e12e929c5c6d9c72b78418af7569b9f94a49a4913d241047136e48847654ead5"
+  },
+  {
+    "path": "common/scorers/country/generic_operation_target_scorer.txt",
+    "before": "894f2840033a4d61439c8b6407a0fc25904de7669fba8b6784d74586c48e7019",
+    "after": "1546b6f85a332a31b6a0664815cded2d1ef80d9c4ae484c5b8094e01c3022502"
+  },
+  {
+    "path": "common/scripted_effects/APDC_economy_backend.txt",
+    "before": "da6a1c051361dd5b184020d308ddd16aea824463146c6ed0e9bc99007fa5de2a",
+    "after": "72b44434a9bd7e7c067c9b4b70cd0adc849845117bbcc6cb178468c22c8671c4"
+  },
+  {
+    "path": "common/scripted_localisation/00_scripted_localisation_RU_loc.txt",
+    "before": "d93a61cfd7690454aaf832fd9cdf797394ab6c6858b77c83f3237f077fad264f",
+    "after": "6d26d64ba8d223cbb1df4e299523ae2f8bf5e076c7fae20037745583efcdbedb"
+  },
+  {
+    "path": "common/scripted_localisation/00_scripted_localisation_countries_RU_loc.txt",
+    "before": "99e8b912ec78ca795ab7a5fe6c62058594868d99c6e9cb34dc9e539953f840f4",
+    "after": "7269454873a908c2d0a4a2894bf1adaa275c871b0c89b9853252698b1cd01258"
+  },
+  {
+    "path": "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt",
+    "before": "6278249ab50604d88d57782d6da77ca9acfd13af3b193688d1780c799b8bdddc",
+    "after": "f28bde44aa6fbcfd699a3ea69d10a2db731c6ffbefeab8b10d1d2195aa39696c"
+  },
+  {
+    "path": "common/special_projects/projects/land_projects.txt",
+    "before": "8636b0f59393ec0c622d955db2796530818b64b135b36d57161df8f060a9af84",
+    "after": "e67d710436a34b899f19de31fe747546984039d25499f62d91188d01fe3ad494"
+  },
+  {
+    "path": "common/special_projects/projects/naval_projects.txt",
+    "before": "b4ba0746c02321cd29e6758b24b7d897c4fd6505ff746529864616a094ba8a7e",
+    "after": "c43180fa5ab1252c62703ddc0cd75d9f96b8d85bce2fec7afe11bf97068fdbba"
+  },
+  {
+    "path": "common/special_projects/projects/nuclear_projects.txt",
+    "before": "d21dd6db5579d35ac822f895bdecea297258cfc4ec1ea7ea1d57e2ed206393f6",
+    "after": "8768495de9d5997852a83bb44782d0221be7ecfda13d8550c64a0c7856b37082"
+  },
+  {
+    "path": "common/special_projects/projects/rocket_projects.txt",
+    "before": "ca761f96950a79b855f4569a543e6fd4d5e6a4f588a7f640711fd97ab6084d87",
+    "after": "adec8e34727a8bf475154abe7670ab41340cf397e4deaca298e299fa89dd2d65"
+  },
+  {
+    "path": "common/units/names_divisions/AFA_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "354e3d8096265000cecef5647d9eaa0d63d91167ea24a902bd0ab66d37041257"
+  },
+  {
+    "path": "common/units/names_divisions/AFG_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "0704f4bbd2986d1d44304432de8eac8647b26e6eabda02b803332a5d4d7e44f9"
+  },
+  {
+    "path": "common/units/names_divisions/ALB_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "55e9a0717c7a07f9b203593e3556239c11c4297770db560ad6cdef8e77cb59cd"
+  },
+  {
+    "path": "common/units/names_divisions/ARBC_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "ab85737b1960e718dc5811401bb6e65bc445656f0a7a2827b3ccb87184697f7d"
+  },
+  {
+    "path": "common/units/names_divisions/ARM_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "12652b62de2c345aab1b3d69045affa9c4e59d00170db2d46084ee87b3bb5ecd"
+  },
+  {
+    "path": "common/units/names_divisions/AST_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "c3df06b8f6957108d33740fb16355114267f280a73bfe832d253317a01149a08"
+  },
+  {
+    "path": "common/units/names_divisions/AUS_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "a04afa73f37df59b0db483d27b7098c5a446003518ad50b20e7e1356a966bcb6"
+  },
+  {
+    "path": "common/units/names_divisions/AZR_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "efcc90b7e4fb643d73c12cafa22a096ffc807fbde443149143547db4baac49d9"
+  },
+  {
+    "path": "common/units/names_divisions/BAY_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "b7a8d33b5003c50ef6188dedc628a0e6358b2b527a2b27fcd2de97762b9c59f8"
+  },
+  {
+    "path": "common/units/names_divisions/BEL_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "357329e613074773dc783369c8c2d21e84fde0a5be5e2c578c72171c6673a051"
+  },
+  {
+    "path": "common/units/names_divisions/BHU_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "3eeac8a7baa4b8ccaa03746cd0c7eb52424648efb23676bfadd4c10a934958ff"
+  },
+  {
+    "path": "common/units/names_divisions/BLR_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "55123bfa5ce640c4d7eba9dcc7dda09f433a6dcd7ef7ffc1a904ad4a17acc1c5"
+  },
+  {
+    "path": "common/units/names_divisions/BRA_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "b66271be87d50152bff94ed36d746bb5a884b649a10432d904dd33aba27a086c"
+  },
+  {
+    "path": "common/units/names_divisions/BRM_names_division.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "568427105d9783f74b3f37096b7a3a8696f2fff9a635a14a8fb23fcd83bc90dc"
+  },
+  {
+    "path": "common/units/names_divisions/BUL_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "f92a4d38ebdef022801ea5f459622c741cd826d9861ca3274daf93bb826917dd"
+  },
+  {
+    "path": "common/units/names_divisions/BYZ_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "3db4737027f6335c31a599534a84a7926a1b96478cf351987cca0cca09ec46f6"
+  },
+  {
+    "path": "common/units/names_divisions/CAN_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "99ad791e1412165cf0da2b21e737cfe0448277fdeb3259d7006ec540ba86c813"
+  },
+  {
+    "path": "common/units/names_divisions/CHI_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "01de27571a78c7667b99b60082e02a817db12e14863df0ea16d656a8c9157f3e"
+  },
+  {
+    "path": "common/units/names_divisions/CRO_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "84dc421667755a7bea881d3d101475e4cee6097070430c67001926445ae8b4ba"
+  },
+  {
+    "path": "common/units/names_divisions/CSA_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "d001bf7dd8883b9b39c8450496112798b247d028aa2e3f7bea57650c860d392c"
+  },
+  {
+    "path": "common/units/names_divisions/CZE_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "3b8c45ce81aa22e234d545c24f5a0fca833a13b67ae12e861747839eb130db21"
+  },
+  {
+    "path": "common/units/names_divisions/DDR_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "b2a76afd773755748c5fcd959cd8d1997d2e90796d33cb7cc7fbef26e50a27ce"
+  },
+  {
+    "path": "common/units/names_divisions/DEN_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "3e74996c60392a3d0f6ee9bb62eddfb14bab43974e0669a96ffdffcf7cea6965"
+  },
+  {
+    "path": "common/units/names_divisions/ENGL_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "854d5ab137da929f17bae12ca8b371e97d810a5fe0bc96721194201506374434"
+  },
+  {
+    "path": "common/units/names_divisions/ENG_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "5f3e41e0897824232d0808ce7b8667c4b145cdd8dfc09e16ea262f3e0509c2fc"
+  },
+  {
+    "path": "common/units/names_divisions/EST_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "ba347e090e4285f2b9da32527e4a7080c6e8761dec075a894029450ea10d9ab6"
+  },
+  {
+    "path": "common/units/names_divisions/ETH_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "bf5cc3178b0feb6338b15f3af20a76754b6458b7eccbed2f65933185b23b0a78"
+  },
+  {
+    "path": "common/units/names_divisions/FIN_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "fc0106d5afc263053ef3e9a22012860b5ac81138aa483839669bdcceb45481d3"
+  },
+  {
+    "path": "common/units/names_divisions/FRA_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "bfc707c6f2a36183bb30b21761e0b3e2b8f9e90237867afe5d9f18caa9dff73f"
+  },
+  {
+    "path": "common/units/names_divisions/FREN_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "cdc887018d98b0eb95402bd6c8d7e14fdd0a8d8bad00cc34fb793179709e51a1"
+  },
+  {
+    "path": "common/units/names_divisions/GEO_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "2107306c3383fecae2c8b925f9a5e43b4e910c880fc2cf47734cc1a8e5d2a9fa"
+  },
+  {
+    "path": "common/units/names_divisions/GER_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "48eec2ce699021e8fd3cb0814a3d22f899aa3f47fbcb334be3e0126db826619d"
+  },
+  {
+    "path": "common/units/names_divisions/GRE_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "10c3ff92671d700dc389f55da82c75d04e77b16a40c931dd12adc023664c9d24"
+  },
+  {
+    "path": "common/units/names_divisions/GXC_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "3f5526d3fa6b854d81da2f4433f8d1c3d1846d219c8c2bb5264764406256d9bf"
+  },
+  {
+    "path": "common/units/names_divisions/HAN_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "483da5b56b933d1bd4d47390fadf438601a7843c82f811d611eca2d9593b005c"
+  },
+  {
+    "path": "common/units/names_divisions/HOL_INS_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "e424e2de5c595aa7898cbb887c8bba1c2c0738bc91e9b138f7b1b1b9a003e4c7"
+  },
+  {
+    "path": "common/units/names_divisions/HUN_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "8489b2c5dedbd36bef5a664e75320a86bc72afd61a061107596add5d8c19def0"
+  },
+  {
+    "path": "common/units/names_divisions/ICE_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "ac8c97b709fcc926feb79fdaf099e4ef00459c236d4a810076ddaed684aea844"
+  },
+  {
+    "path": "common/units/names_divisions/IRE_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "999801e63063cd5e681ec112c49deb1c39ad5b4dc414868b25c3eb878f173e83"
+  },
+  {
+    "path": "common/units/names_divisions/IRQ_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "447c89abc1b3c818d2a33bc4cd043dba722832de016ea8a8378e6a454121ef57"
+  },
+  {
+    "path": "common/units/names_divisions/ISR_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "f2abe0ad2801c6b748eeb2d9164856f912c35546855c97d3cb7bb785f73c3a2e"
+  },
+  {
+    "path": "common/units/names_divisions/ITA_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "2a9f43e01dd7744a6b95fb90afb7b862a23e0199cef741376814c56d1052b582"
+  },
+  {
+    "path": "common/units/names_divisions/JAP_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "a45532531a42daad955701e0fd6d9915373616ad093e11202d98feed53602729"
+  },
+  {
+    "path": "common/units/names_divisions/KAZ_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "550ebcc7f85a96626a359f0d0c5536185016881936d40cd832692d6aac905e66"
+  },
+  {
+    "path": "common/units/names_divisions/KOR_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "2792ff71fab8bf1eca60e37e4f7af9ebb6e7ea1fb45aaa0abcbdcfc94b963320"
+  },
+  {
+    "path": "common/units/names_divisions/LAT_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "50bb5810986043d83c5a85ca090e96f34631a7257c3e0d40a4a4f4bdbd617b92"
+  },
+  {
+    "path": "common/units/names_divisions/LIT_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "92ae1df666e6b78048859efd9023dac5727dcc2d364aa4932cbe5c40336c7a8e"
+  },
+  {
+    "path": "common/units/names_divisions/LUX_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "12b47e2eb1ec718157294abcf0ef5766619116fe8a99b78edd3f7f97c62e030b"
+  },
+  {
+    "path": "common/units/names_divisions/MAN_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "9f82eacb057068cd172beeb2d43bcbc09948b996749cd9e497bb626f83f834e4"
+  },
+  {
+    "path": "common/units/names_divisions/MEK_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "398588cb17618bfc65a11d3ba89bac1473d13619e76c2270cece6985a3d2c6ca"
+  },
+  {
+    "path": "common/units/names_divisions/MEN_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "0a40c8a4a12525410943ac94b5441e622f05c3726fb6eb077b690eff7c0c9cb7"
+  },
+  {
+    "path": "common/units/names_divisions/MEX_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "9ef24bf87b1c5faf40993103495caa5872bf4d8a9968f5752cf27fd77b59634f"
+  },
+  {
+    "path": "common/units/names_divisions/MON_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "98b67b54594b6e424d8fa74a0ca713213f716cc921d6750e6b7a6a24ea52e6fc"
+  },
+  {
+    "path": "common/units/names_divisions/NEP_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "611bb6267fa363d0a72ddaef338c7e91e7fbccc6bc451ea056c0d261366414ba"
+  },
+  {
+    "path": "common/units/names_divisions/NOR_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "4a4ab1768ffcd3870af2c80793b68218734bdf9d581a9f7de04db5634693ea97"
+  },
+  {
+    "path": "common/units/names_divisions/NZL_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "33f9074d57d52b4b2857e4df01ba358da4c7523b145b9d16e5c93faf9ba8ff95"
+  },
+  {
+    "path": "common/units/names_divisions/OMA_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "8fed705fb60dd6da3548d330b30f4c17b9df8092f256096c638084040951dc79"
+  },
+  {
+    "path": "common/units/names_divisions/PER_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "adcb32994bc6d5d5ef90f109b2746df7d7318425bc24cd1a83a43bf1de6bbb85"
+  },
+  {
+    "path": "common/units/names_divisions/PHI_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "ca48794185bf44e610ecc34084324011cab1946e79c3a3a0a7a30e1c191bf372"
+  },
+  {
+    "path": "common/units/names_divisions/POL_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "aa2d8ab7b91f12d75bbd3ebfca51f3e9d25aa34d1ff0d5a5f2cb25d65bb15e11"
+  },
+  {
+    "path": "common/units/names_divisions/POR_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "3974d7faccf98353588c275cbec7b32a8192b53924846ec0fd1119eff7be61ae"
+  },
+  {
+    "path": "common/units/names_divisions/PRC_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "4759f9298bf5bd6ac93d146f015ecb3e937705f82e3e64895d192fb3f0f9f988"
+  },
+  {
+    "path": "common/units/names_divisions/PRE_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "ade4ac6e29b1571503841b60e978cc941f0ef066536fedd7f35f8ba172cac262"
+  },
+  {
+    "path": "common/units/names_divisions/RAJ_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "524800298456d97d8f755de7b9a010419eb494fb0fe665a6a2a9e78f64353fa7"
+  },
+  {
+    "path": "common/units/names_divisions/ROM_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "b80eeabc0cebe296ffa5d907e027c407db6b822a5cd5c007e12fb85a5b2cb41c"
+  },
+  {
+    "path": "common/units/names_divisions/SAF_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "3fa70f8d4c45348bbaa535842cac524bbc8041080bfbb34132d877b5f887fe32"
+  },
+  {
+    "path": "common/units/names_divisions/SAU_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "f3ccd2c20caca79793911b7e4466712b87516179dc240b7678a603b10d802322"
+  },
+  {
+    "path": "common/units/names_divisions/SAX_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "a90ff0d3e4868920325117a5a1b674c114afb8365681cd70806b2e91d79b7132"
+  },
+  {
+    "path": "common/units/names_divisions/SHL_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "6528b9f7fd51569f444082bf9be2766bc3b71b8ed7a750ff36a40c0ec6641858"
+  },
+  {
+    "path": "common/units/names_divisions/SHX_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "67caf0c01a74b5daa06eb0fbd221a4a778a2337a8ff0672381f04669055a3890"
+  },
+  {
+    "path": "common/units/names_divisions/SIA_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "1eef164160a9651c6c7c46f9d5e9665fa81674bdf7b735557a098d21b21c916a"
+  },
+  {
+    "path": "common/units/names_divisions/SIK_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "d0d9a92cd7771e8b8d3fa419feedabf6b735cd4a10d0041865645f2808dae720"
+  },
+  {
+    "path": "common/units/names_divisions/SLO_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "9ec5a5bea173322def606c08ad01f0b0a2c4083af4186c0a54e893630f7cbce6"
+  },
+  {
+    "path": "common/units/names_divisions/SOV_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "43b4385fcf3b16e9d6bc11d1bdf6503535bc2e499ec0ee41291a89fab1bbdc41"
+  },
+  {
+    "path": "common/units/names_divisions/SPAN_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "c889be4314884da691de0af9eb826451d2150e2ef8505982a1895c7c35b7328b"
+  },
+  {
+    "path": "common/units/names_divisions/SPQR_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "313f352ff79b0ba3dc94798877975051c343494e94834844658e42abb828f909"
+  },
+  {
+    "path": "common/units/names_divisions/SPR_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "ddd3c7ec6417911126258544425f06beb6901814830e8bb0a551e643a6921f19"
+  },
+  {
+    "path": "common/units/names_divisions/SWE_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "c175edfa5a784a802fb908cce1e0d3795ce2bc0e05ce2dc21dd51368efb14dcd"
+  },
+  {
+    "path": "common/units/names_divisions/SWI_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "4012a7dbee9fb6d94b2b58bf32145d2d7b4cdc171b1aaa4ea07035625d90e5fa"
+  },
+  {
+    "path": "common/units/names_divisions/TAN_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "74fa0d0c033935fc13bd068df5d03eb39e6cf0c97c9b1052814f342e8dab7faa"
+  },
+  {
+    "path": "common/units/names_divisions/TIB_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "a67811ccdee0f0c6ebfacfded42834cd0e255c9828f49aa664a7244fdd7a8671"
+  },
+  {
+    "path": "common/units/names_divisions/TUR_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "112dfbc8ab3156707cdcbfcbcf4249f5ed97d1d3b99d96bdd880aeb98533fa6a"
+  },
+  {
+    "path": "common/units/names_divisions/UKR_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "d49f4870aaadf6ab7ce40e6c5ef185d32503c29d851a7c4417d7be6c4c974513"
+  },
+  {
+    "path": "common/units/names_divisions/USA_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "8551a352020994c347158da74f9ddc7902e43bb3d224b40df2153889bf61f725"
+  },
+  {
+    "path": "common/units/names_divisions/VIN_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "fe5a10408d97ae2aa28abf73ada1bc27fc956ab56df6a7adf9bd7010cb191ed3"
+  },
+  {
+    "path": "common/units/names_divisions/WGR_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "ae8c3fceab8e2e3eedb5bf232a46c36b4280ceb597ddc860f87f10c5460f3150"
+  },
+  {
+    "path": "common/units/names_divisions/WUR_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "7fbeb168bbef1f8f61921e9649193fd1caf94516c9d74ce89b4590c59789c3cc"
+  },
+  {
+    "path": "common/units/names_divisions/XSM_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "a78b0298f56a30ba903f876210abc9e12ff8fd704c206e219ef8f5d4b8c63805"
+  },
+  {
+    "path": "common/units/names_divisions/YEM_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "1f899c191c1370f21c3ca517ee244e05cfac4c7cfbca8a76ed0c96c90f1c0554"
+  },
+  {
+    "path": "common/units/names_divisions/YUG_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "a98c06e3d82001addc0cad24306c2391233755c95631fc71b8c90b37d3231d93"
+  },
+  {
+    "path": "common/units/names_divisions/YUN_names_divisions.txt",
+    "before": "e16ea43d2582c54fba29611611dd6b9955afe3a902534474535d88d689f0ae41",
+    "after": "0b27a55ea2fdcc7fae63a467b361d4cc13869634b2ba004cc4c37601494e2df2"
+  },
+  {
+    "path": "music/_songs.txt",
+    "before": "589d35211463b565e52bb41fb400cb3ed12a2f18d04fd6ea7ed614c07d056290",
+    "after": "8f7ab0b342b420c8f33a3cb3502e9058adf9679a98b098b1dfdf7b90e8f1b88b"
+  },
+  {
+    "path": "music/alliedradio.txt",
+    "before": "d3758e58d5da585ca68f0062f08b5f8df1ec45ac698892d5b6d4859cf86dfc3f",
+    "after": "ed1bceab1bfa65ad17c2102def897ef30af83d363b68c958f74f21ba966561b1"
+  },
+  {
+    "path": "music/bba_songs.txt",
+    "before": "1bdbf6973158c06066f203b726080a3c1a8e878b634d67ddca72b3d3019b96a3",
+    "after": "0268243d2cc03e96a1ffc475b999a84b2b801cb3138f350dbd85fa24f982dab4"
+  },
+  {
+    "path": "music/got_songs.txt",
+    "before": "3c4e7b892b82c3c0ba831c93e5e0cde9dfce7c9adb8f5a1b95273a87c227677a",
+    "after": "2979a14399f510f1eff22b6b3ad6a88713980d3f40ad9621e49bd7445497bca1"
+  },
+  {
+    "path": "music/lar_preorder_songs.txt",
+    "before": "6fa75c009dc029d547c17b9294cde6b5e26451169f0ee1e2191a6a117f13fc7b",
+    "after": "0bd66cd0375ec3aeb62e2b9f3b28352e63e5144ebb77c46e586cbc11a0725921"
+  },
+  {
+    "path": "music/lar_songs.txt",
+    "before": "b94daaaa90cedacf2205fced1e901d97cb9fcf915d7b35bc1e621f925f5a7400",
+    "after": "e4ca912d27addb0e1e7a797d72ba478be4f00a6cd61d80b08c60f1c708b34360"
+  },
+  {
+    "path": "music/mtg_songs.txt",
+    "before": "8fa399193df51fb6c681d3d474c30c9d7f9d40d179f9488e7b158805628a9482",
+    "after": "0ca75ff810198f35704ee1484eaa485a7f4d8a134b555972a220df6e2b148d89"
+  },
+  {
+    "path": "music/sabatonsoundtrack.txt",
+    "before": "06ef55e2c300d74e03b40b0d68feb947fcbe1c7ae5b7a4e9e0120a97da6148f5",
+    "after": "921d4591e1613f007793b79fdd2781c3077b9f9e887b08c566dd4aecc97725eb"
+  },
+  {
+    "path": "music/toa_songs.txt",
+    "before": "f4be2a345f140bf2ededd14dabcc4aa99d5aabc4d1eecff5c3d4a79b1a02975f",
+    "after": "282e60b8083f1517ca842700e61b05df1f4b6860d2a6a92bfd031de44877a2e4"
+  },
+  {
+    "path": "common/collections/APDC_generic_faction_collections.txt",
+    "before": null,
+    "after": "6b385ced842d09cf9fa0d9857134660f9a54c35cfb2b800bafa9d887e9a67162"
+  },
+  {
+    "path": "common/technologies/APDC_generic_project_compatibility.txt",
+    "before": null,
+    "after": "f8d452d6470a1576b892abc69c205b417d341834e85e714dbf2b25f5b7fbee96"
+  },
+  {
+    "path": "common/country_leader/APDC_restored_designer_traits.txt",
+    "before": null,
+    "after": "739b157d50858f98dcf22969e1493df5c04bf612be6d2bbb8ae4468aa5842feb"
+  },
+  {
+    "path": "common/scripted_triggers/APDC_restored_selection_dependencies.txt",
+    "before": null,
+    "after": "fd0a68f87b4ec5c6018dc55d55aaef6ebaf6256a87050772e6604159cd938048"
+  },
+  {
+    "path": "common/scripted_triggers/00_scripted_triggers_FR_loc.txt",
+    "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after": "c1b6928ab960400625011ea8122d2fd3afffea3ab67d8c3070c4145076a31df4"
+  },
+  {
+    "path": "common/scripted_triggers/APDC_restored_music_designer_dependencies.txt",
+    "before": null,
+    "after": "6788389f54a915907e85eec343718b5964b9f7e3dc7fb6353727533d868e902c"
+  },
+  {
+    "path": "common/dynamic_modifiers/APDC_restored_project_dependencies.txt",
+    "before": null,
+    "after": "0ba6b3b106ac3cb3df7630620936b898cafba0f40982ee8b1157f5f3c81a41c8"
+  }
+]

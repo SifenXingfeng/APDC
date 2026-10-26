@@ -1,0 +1,42 @@
+state = {
+	id = 1040
+	name = "STATE_1040"
+	provinces = {
+		4783
+		5031
+		7511
+		7727
+		7803
+		10724
+		10770
+		10899
+		12714
+		12750
+		15555
+		15739
+		16696
+	}
+	manpower = 957106
+	resources = {
+		coal = 1
+	}
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 0
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			10724
+			1
+		}
+		victory_points = {
+			16696
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

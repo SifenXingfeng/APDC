@@ -6,7 +6,10 @@ on_actions = {
                 limit = {
                     is_ai = no
                 }
-                every_state = {
+                
+if = { limit = { NOT = { has_global_flag = APDC_region_weekly_lock } }
+set_global_flag = { flag = APDC_region_weekly_lock value = 1 days = 7 }
+every_state = {
                     #污染度设定
                     if = {
                         limit = {
@@ -28,25 +31,26 @@ on_actions = {
                     GFCC_area_security_effects_3 = yes #安全度效果修正
                     GFCC_area_reconstruction_effects_4 = yes #重建度效果修正
                 }
+}
+
             }
         }
     }
     on_daily = {
         effect = {
+if = { limit = { NOT = { has_global_flag = APDC_region_daily_lock } }
+set_global_flag = { flag = APDC_region_daily_lock value = 1 days = 1 }
+
             every_state = {
                 GFCC_area_reconstruction_effects_1 = yes #重建度受战争影响
             }
-        }
+        
+}
+}
     }
     on_startup = {
         effect = {
-            GER = {
-                if = {
-                    limit = { is_ai = no NOT = { has_country_flag = APDC_factory_diagnostics_disabled } }
-                    set_temp_variable = { APDC_fd_stage = 0 }
-                    APDC_log_factory_snapshot = yes
-                }
-            }
+            
             every_state = {
                 GFCC_area_Pollution_effects_3 = yes #所有省份设定初始值 坍塌污染初始化
                 GFCC_area_Pollution_effects_4 = yes #地区BUFF效果修正
@@ -56,13 +60,7 @@ on_actions = {
                 GFCC_area_reconstruction_effects_4 = yes #重建度效果修正
             }
 
-            GER = {
-                if = {
-                    limit = { is_ai = no NOT = { has_country_flag = APDC_factory_diagnostics_disabled } }
-                    set_temp_variable = { APDC_fd_stage = 1 }
-                    APDC_log_factory_snapshot = yes
-                }
-            }
+            
 
             #GUI窗口测试
             every_country = {

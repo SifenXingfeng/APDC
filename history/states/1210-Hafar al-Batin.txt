@@ -1,0 +1,36 @@
+state = {
+	id = 1210
+	name = "STATE_1210"
+	provinces = {
+		1955
+		7995
+		10850
+		14240
+		18547
+	}
+	manpower = 220000
+	resources = {
+		oil = 2
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = SAU
+		controller = SAU
+		add_core_of = SAU
+		victory_points = {
+			10850
+			3
+		}
+		victory_points = {
+			14240
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = GDP_category_metropolis
+		set_state_flag = state_renamings
+	}
+}

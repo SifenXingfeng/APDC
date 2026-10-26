@@ -1,0 +1,144 @@
+state = {
+	id = 1039
+	name = "STATE_1039"
+	provinces = {
+		814
+		881
+		900
+		952
+		1052
+		1137
+		1590
+		3814
+		3830
+		3900
+		3955
+		4495
+		6969
+		9768
+		9905
+		10331
+		10397
+		11752
+		11801
+		12043
+		14625
+		19474
+		19501
+		19528
+		19538
+		19600
+		19698
+		19727
+		19799
+		19913
+	}
+	manpower = 6970993
+	resources = {
+		coal = 2
+	}
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			814
+			5
+		}
+		victory_points = {
+			900
+			15
+		}
+		victory_points = {
+			1052
+			1
+		}
+		victory_points = {
+			1137
+			1
+		}
+		victory_points = {
+			1590
+			5
+		}
+		victory_points = {
+			3830
+			2
+		}
+		victory_points = {
+			3900
+			2
+		}
+		victory_points = {
+			9768
+			1
+		}
+		victory_points = {
+			9905
+			1
+		}
+		victory_points = {
+			10397
+			2
+		}
+		victory_points = {
+			11801
+			1
+		}
+		victory_points = {
+			14625
+			2
+		}
+		victory_points = {
+			19474
+			5
+		}
+		victory_points = {
+			19528
+			2
+		}
+		victory_points = {
+			19538
+			1
+		}
+		victory_points = {
+			19600
+			1
+		}
+		victory_points = {
+			19727
+			3
+		}
+		victory_points = {
+			19799
+			3
+		}
+		victory_points = {
+			19913
+			1
+		}
+		buildings = {
+			infrastructure = 1
+			1590 = {
+				landmark_great_wall_section = {
+					level = 1
+					allowed = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+				}
+			}
+			3900 = {
+				naval_base = 2
+				landmark_great_wall_section = {
+					level = 1
+					allowed = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+				}
+			}
+		}
+	}
+}

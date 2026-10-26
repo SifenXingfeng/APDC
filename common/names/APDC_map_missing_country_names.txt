@@ -1,0 +1,1078 @@
+# Missing map-country generic name pools only; existing APDC pools preserved.
+
+AGR = {
+	male = {
+		names = {
+			Aali "Abd Al-Latif"  Abdul "Abdul-Rahman" Abu Adnan Ahmed Ali Amir Ammar Ashfaq Ayuub Baqi Bassem Danyal Esmail Fadil Fareed Fawzi Gabir Ghufran Haider Hakeem Hamid Hanif Hatim Houssam Husain Ibrahim
+			Idris Imen Iskandar "Ismai'il" Jafar Jamal Jibril Karim Latif Mahometus Maqsud "Mikha'il" Mohammed Mostafa Murtada Nadeem Najm Navid Nur Omar Osama Qasim Rais Rashid Rayan Ruh Saif Salih Shad Shakir
+			Shukri Sulaiman Taj Tayyib Wafai Yakub Yuhanna Zahi Zawar Zulfaqar
+			#Algeria Specific
+			Abdelaziz Abdelkader Abdelmalek Albert Boualem Chadli Frantz Ferhat Giorgio Houari Jacques Kamel Kateb Madjid Mehdi Moufdi Nabil Rabah Rafik Sofiane Yacine Yasmina
+		}
+	}
+	female = {
+		names = {
+			Aaliyah Aisha Amaal Anisa Ayda Basma Djamila Farah Fatin Gamila Hadia Haifa Haniyah Hosni Ihab Israa Jathibiyya Khalida Latifa Maha Mona Nadia Nashwa Nimat Rabab Rana Rayhana Ruqayyah Sahar Samia Sarah
+			Shahrizad Shayma Suraya Uzma Yasmin Zahia Zakiya Zulekha
+			#Algeria Specific
+			Ahlam Assia Hélène
+		}
+	}
+	surnames = {
+		Abdullah Abdulrashid Ahmad Ahmed Ajam "Al-Amin" Alfarsi "Al-Ghazzawi" "Al-Hashim" Ali "Al-Mufti" Amjad Boulos Bousaid Hakim Hussain Kader Karim Karimi Mohammed Muhammad Naaji Nagi Najm Nejem Qadir Saab Samara
+		Saqqaf Sultan Tawfeek Tawfiq Zaman
+		#Algeria Specific
+		Abbas Abeid Arkoun "Ben Bella" Bendjedid Bentaleb Bitat Bougherra Boumediene Bouteflika Brahimi Camus Chiellini Cixous Daoud Derrida Djebar Djebbour "El Djezairi" Fanon Feghouli Ghilas Khadra Mosteghanemi Sansal
+		Sellal Yacine Zakaria
+	}
+	callsigns = { }
+}
+
+ALS = {
+male = {
+		names = {
+			Abner Adam Albert Alexander Alfred Allison Ambrose Amos Augustus Benjamin Braxton
+			Cadmus Carnot Charles Chester Christopher Cyrus Daniel Donald Edmund Edward
+			Elkanah Eugene Evander Ezra Felix Francis Frank George Gideon Hamilton Henry
+			Hinchie Hiram Horace Howard Isaac James Jeffrey Jerome Jesse John Jonas Jonathan
+			Joseph Joshua Jubal Kirby Lafayette Lawrence Lemual Leonida Leslie Lewis Louis
+			Lucas Luke Malvin Mark Matthew Michael Nathan Nathaniel Norton Oscar Patrick
+			Peter Pierre Rand Randolph Raphael Richard Robert Russell Samuel Simon Sterling
+			Steven Stonewall Thomas Ulysses Wade Walter Wilburn William Wilton Zach
+		  }
+	}
+female = {
+		names = { Mary Jane Kate Eleanor Charlotte Lisa Isabel Jay Carol Nancy Margaret }
+	}
+surnames = {
+		Abbott Abercrombie Allen Ames Anderson Andrews Appleton Archer Armistead
+		Armstrong Arthur Asboth Atkins Babcock Baker Banks Barkhauer Barksdale Barnard
+		Barnes Barnum Barry Barstow Bartlett Bates Baxter Beatty Beauregard Bee Belknap Bender
+		Benning Benton Blair Blunt Bowie Bradley Bragg Breckenridge Brown Buckner Buell
+		Buford Burnside Butler Caldwell Campbell Carr Chamberlain Chapman Cheatham
+		Chipman Clayton Cleburne Clemens Coburn Connor Conrad Cook Cooper Crittenden
+		Custer Davies Davis Dotson Doubleday Early Ector Ewell Ewing Farnsworth Floyd
+		Ford Forrest Forsyth Foster Franklin French Fry Gano Garnett Gibbs Gilbert Gordon
+		Granbury Grant Green Gregg Griffin Halleck Hamlin Hampton Hancock Hardee Hardeman
+		Harrison Hatch Hayes Hays Heintzelman Heth Hill Hindman Holmgren Hood Hooker
+		Houston Howard Hunter Imboden Iverson Jackson Jenkins Johnson Johnston Jones
+		Kemper Kershaw Keyes Kimball King Lane Law Lee Longstreet Loring Lyon Mabry
+		Magruder Mahone Maxey McArthur McClellan McCook McCulloch McDowell McLaws Meade
+		Mitchell Moore Morgan Mosby Nelson Paine Pemberton Pender Pettigrew Phelps
+		Pickett Pillow Polk Pope Porter Posey Potter Powell Price Randal Reynolds Rhodes
+		Rice Robertson Robinson Rodes Rosencrans Ross Rosser Saloman Scales Schenck
+		Schofield Scott Scurry Sedgwick Semmes Seward Sheridan Sherman Sibley Sickles
+		Smith Sprague Steele Stevens Stevenson Stone Stuart Sullivan Taylor Terrell
+		Travis Trimble Tyler "Van Dorn"  Wade Wadsworth Walker Wallace Ward Warner
+		Washington Waterhouse Waul Wells Wharton Wheeler Whitfield Wigfall Wilcox
+		Williams Wilson Wise Wofford Wright Young Zoidberg
+	}
+callsigns = { "Goose" "Iceman" "Maverick" "Apollo" "Animal" "Boom-Boom" "Badger" "Brick" "Cajun" "Challenger" "Chip" "Eagle" "Ghost" "Hawk" "Jaws" "Moses" "Mad Dog" }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+AMZ = {
+male = {
+		names = {
+			Afonso Antônio Artur Augusto Aurélio Benjamin Cândido Carlos Celso Custódio
+			Delfim Deodoro Eduardo Emílio Epitácio Ernesto Fábio Fernando Filipe Floriano
+			"Francisco de Paula" "Francisco Xavier" Federico Gaspar Gastão Getúlio Henrique Hermes Humberto Isaías
+			João Joaquim José Júlio Juscelino Luís Manuel "Marco Antônio" Mário Miguel
+			Nereu Nilo Paulo Pedro Prudente Silviano Tancredo Urbano Venceslau Vital
+		  }
+	}
+female = {
+		names = { Aldara Beatriz Berengaria Branca Blanche Constance Estevainha Stephania Fruilhe Guiomar Joana Leonor Margarida Maria Sancha Teresa Constança }
+	}
+surnames = {
+		Barreto Bernardes Bittencourt Brandão Bras "Cabral da Silva" Caldwell Constant Costa "da Camara"
+		"da Costa" "da Fonseca" "de Aguiar" "de Barros" "de Beaurepaire-Rohan" "de Bragança" "de Carvalho" "de Itapevi" "de Lima e Silva" "de Melo"
+		"de Noronha" "de Oliveira" "de Orleans" "de Souza Neto" "de Suruf" Dutra Fragoso Frontin Galvão Jordão
+		Labatut Lopes Maciel Mallet Marques "Marques de Sousa" Maurity Moreira Osório Peixoto
+		Pena Pessoa Pinto Rondon "Saldanha da Gama" Santos Soares Tavares Vargas Wandenkolk
+	}
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+ATG = {
+male = {
+		names = {
+			Alfred Anil Arthur Ato Carson Darrel David Dwayne Ellis Everald Garfield George Hasely Ian Inshan Isaiah Learie Leroy Leslie Lloyd Marc Marlon Marvin "Michel-Jean" Pat Ravi Rodill Rudranath Stephen Stokely Tubal Ulric
+			Willie
+		}
+	}
+female = {
+		names = {
+			"Fay-Ann" Denise Denyse Destra Dionne Heather Hilary Marlene Rasika Rosa Valerie Wendy Winifred
+		}
+	}
+surnames = {
+		Abdulah Andrews Belgrave Bishop Black Boodhoo Bravo Butler Carmichael Charles Cipriani Clarke Crawford Dhanraj Dookeran Ganga Gattoo Gomes Granger Haddaway Hingwan Hodge "Hudson-Phillips" James Jones Khan Mottley Lewis Lovelace
+		Mahabir Manning Marcelle McDonald Mendes Mohammed Naipaul Noreiga Padmore Philip Philmore Ramadhin Ramnarine Roberts Rougier Roberts Samaroo Selvon Stollmeyer Vaucrosson Warner Wise Yetming
+	}
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+ATU = {
+	male = {
+		names = {
+			Albert Alexander Alfred Archibald Arthur Benjamin Bernard Bradley Charles Colbert
+			Colin Cyril Dara David Donald Douglas Edmund Edward Fairfax Francis Geoffrey
+			George Graham Henrey Herbert Horatio Hubert Hugh Ian Jack Jake James Jeremy John
+			Leopold Lester Martin Max Nigel Oswald Percy Peter Reginald Richard Robert
+			Russell Stanley Stephen Thomas Wallace William Winston Zachary
+		  }
+	}
+	female = {
+		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+	}
+	surnames = {
+		Allenby Battemberg Beatty Beresford Black Brown Buller Butler Campbell Cardigan
+		Churchill Cochrane Cockburn Collin Darling Dundas Faithfull Fisher French
+		Golightly Gough Grant Grenfell Haig Hamilton Hardinge Havelock Hope Irons
+		Jellicoe Kitchener Leiper Lyons Madden Milne Montgomery Moresby Mundy Murphy
+		Napier Nicholson Nicholson Plummer Ragland Roberts Roberts Seaton Seymour Shapley
+		Smith Spring Steele Stewart Sutherland Thesiger Tyron Tyrwhitt Wilde Williams
+		Windsor Wolseley Wood Wright
+		}
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+
+	prefix = o_operation
+
+	operation = {
+		225 = {
+			o_acrobat
+			o_agreement
+			o_daffodil
+			o_snowdrop
+			o_battleaxe
+			o_brevity
+			o_compass
+			o_crusader
+			o_guillotine
+			o_lightfoot
+			o_supercharge
+			o_pugilist
+			o_vulcan
+		}
+		128 = {
+			o_acrobat
+			o_agreement
+			o_daffodil
+			o_snowdrop
+			o_battleaxe
+			o_brevity
+			o_compass
+			o_crusader
+			o_guillotine
+			o_lightfoot
+			o_supercharge
+			o_pugilist
+			o_vulcan
+		}
+		126 = {
+			o_torch
+			o_acrobat
+			o_agreement
+			o_daffodil
+			o_snowdrop
+			o_battleaxe
+			o_brevity
+			o_compass
+			o_crusader
+			o_guillotine
+			o_lightfoot
+			o_supercharge
+			o_pugilist
+			o_vulcan
+		}
+		182 = {
+			o_torch
+		}
+		202 = {
+			o_abstention
+		}
+		208 = {
+			o_jubilee
+			o_bluecoat
+			o_Astonia
+			o_charnwood
+			o_epsom
+			o_goodwood
+			o_greenline
+			o_pomegranate
+			o_totalize
+			o_overlord
+		}
+		19 = {
+			o_jubilee
+			o_bluecoat
+			o_Astonia
+			o_charnwood
+			o_epsom
+			o_goodwood
+			o_greenline
+			o_pomegranate
+			o_totalize
+			o_overlord
+		}
+		7 = {
+			o_plunder
+			o_varsity
+		}
+		28 = {
+			o_accolade
+			o_exporter
+			o_mandibles
+			o_manna
+		}
+		69 = {
+			o_accolade
+			o_exporter
+			o_mandibles
+			o_manna
+		}
+		23 = {
+			o_baytown
+			o_slapstick
+			o_chesterfield
+			o_diadem
+			o_encore
+			o_husky
+			o_shingle
+			o_olive
+		}
+		189 = {
+			o_anakim
+			o_capital
+			o_dracula
+			o_longcloth
+			o_talon
+			o_thursday
+		}
+		142 = {
+			o_krohcol
+			o_matador
+		}
+		116 = {
+			o_countenance
+		}
+		188 = {
+			o_zipper
+			o_broadsword
+		}
+		161 = {
+			o_fork
+		}
+		11 = {
+			o_primrose
+			o_r4
+		}
+		191 = {
+			o_primrose
+			o_r4
+		}
+		5 = {
+			o_infatuate
+			o_comet
+			o_market_garden
+		}
+		0 = {
+			o_constellation
+			o_clipper
+			o_aintree
+			o_fusilade
+		}
+	}
+
+	first = {
+		o_umbral o_shadow o_sunlight o_starry o_mountain o_crescent o_active o_joint o_allied o_unified o_resolute o_courageous o_dark o_bright o_defiant o_poised o_proud o_spotless
+		o_iron o_steel o_bronze o_alpha o_beta o_gamma o_reckless o_stalwart o_red o_green o_orange o_blue o_ochre o_grey o_purple o_restless
+	}
+
+	second = {
+		o_storm o_fox o_shield o_scimitar o_sword o_spirit o_wolf o_panther o_slingshot o_wind o_garden o_thunder o_rain o_hail o_pegasus o_star o_apron o_dome o_homecoming o_laser
+		o_phalanx o_resolve o_heart o_support o_heat o_moon o_oak o_ash o_fire o_force o_hill o_river o_eagle o_raptor o_hawk o_lion o_tiger
+	}
+
+}
+
+BEN = {
+	male = {
+		names = {
+			Abdoulaye Abou Abraham Adrien Alois Alpohonse Angueran Anicet Antoine Assogba Aziz Basile Benoit Calixte Chabi Christian Christophe Daniel Dauda Djimon Edgar Emile Felix Florent Frederic Gabriel Georges Gnonnas Guy
+			Hubert Jean "Jean-Baptiste" "Jean-Marie" Jose Joseph Justin Khaled Leonard Lionel Mathiue Maurice Michel Migan Moussa Nicephore Noel Olympe Pascal Paul "Paul-Emile" Paulin Pierre "Rene-Marie" Robert Rogatien Romuald
+			Shafiq Simon Sourou Tahirou Theodore Theophile Tiamiou Tometin Wilfried Yayi Zul
+		}
+	}
+	female = {
+		names = {
+			Adelaide Angelique "Berthe-Evelyne" Christine Colette Fabienne Gloria Mariam "Marie-Elise" Odile Rosine
+		}
+	}
+	surnames = {
+		Adeagbo Adenon Adjamonsi Adjibade Affo Agba Ahomadegbe Ahouanmenou Ahouanwanou Alladaye Alley Apithy Badaru Balagoun "Bhely-Quenum" Biaou Boni Chitou Congacou "Couao-Zotti" Couchoro Dakpogan Dansou Darboux Diallo Dohou
+		Dossou "Dossou-Yavo" Edjekpan Ehouzou Ehuzu Fantodji Fassinou Feraez Gbaguidi Gbedo Gnanligo Gnimagon Gnonlonfoun Hacheme Hazoume Holo Houeto Houngbedji Hounsou Hountondji Idohou Joachim Kerekou Kidjo Kolawole Kotchoni
+		Kouandete Koussihouede Loueke Lozes Maga Maiga Mama Monnou Moumouni Nata Ogoudjobi Ogouma Okanla Oke Oladipo Osho Ouzerou Pedro Pliva Pliya Salami Savi Sinzogan Soglo "de Souza" Tawema Tevoedjre Wantchekon Zinsou
+		Zinzindohoue
+	}
+	callsigns = { }
+}
+
+BKF = {
+	male = {
+		names = {
+			Ablasse Aboubakar Adama Alain Alidou Andre Aristide Bilgho Blaise Boubacar Boureima Constantin Dani Daniel Dieudonne Djibrill Dramane Emile Franck Francois Frederic Fulgence Gabin Gaston Gerard Hama Henri Idrissa Jacky Jean "Jean-Baptiste" Joseph Julien
+			Lassina "Luc-Adolphe" Malidoma Maurice Moro Moussa Nazi Norbert Olivier Paul Pierre Rabaki Rene Saye Sekou Serge Thomas Zabore
+		}
+	}
+	female = {
+		names = {
+			Alssata Angelika Celine Fanta Irene Juliette Koniswinde Marie "Marie-Ange" Marlene Marthe Monique Noellie Salimata Severine
+		}
+	}
+	surnames = {
+		Badini Balima Bassole Bassolet Bicaba Boni Bonkoungou Compaore Conombo Coulibaly Dabire Damiba Diallo Guirma Guissou Ido Ilboudo Kabore "Ki-Zerbo" Koala Kobeane Kone Kora Kougri Kouyate Lamizana Nacro Nebie Nombre
+		Ouedraogo Pare Sankara Sanon Sanou Savadogo Sawadogo Somda Somdah Some Soulama Tiao Tiendrebeogo Titinga Traore Yameogo Yoda Yougbara Yougbare Zebango Zerbo Zio Zongo Zoubga Zoungrana
+	}
+	callsigns = { }
+}
+
+BRB = {
+male = {
+		names = {
+			Alfred Anil Arthur Ato Carson Darrel David Dwayne Ellis Everald Garfield George Hasely Ian Inshan Isaiah Learie Leroy Leslie Lloyd Marc Marlon Marvin "Michel-Jean" Pat Ravi Rodill Rudranath Stephen Stokely Tubal Ulric
+			Willie
+		}
+	}
+female = {
+		names = {
+			"Fay-Ann" Denise Denyse Destra Dionne Heather Hilary Marlene Rasika Rosa Valerie Wendy Winifred
+		}
+	}
+surnames = {
+		Abdulah Andrews Belgrave Bishop Black Boodhoo Bravo Butler Carmichael Charles Cipriani Clarke Crawford Dhanraj Dookeran Ganga Gattoo Gomes Granger Haddaway Hingwan Hodge "Hudson-Phillips" James Jones Khan Mottley Lewis Lovelace
+		Mahabir Manning Marcelle McDonald Mendes Mohammed Naipaul Noreiga Padmore Philip Philmore Ramadhin Ramnarine Roberts Rougier Roberts Samaroo Selvon Stollmeyer Vaucrosson Warner Wise Yetming
+	}
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+COK = {
+male = {
+		names = {
+			John Alf Adrian Louis Hallam Henry Shane Stafford William Frederick Thomas Ronald Lawrence Bruce Ray Stuart Brian Bob Scott Guy
+			Kai Kupe Hahona Hehu Rongo Tangaroa
+		 }
+	}
+female = {
+		names = {
+			Sheila Wanda Mary Amelia Chloe Leslie Zoe Sophie Evie Barbera Olivia Charlotte Amelia Ava Mia Chloe Zoe Evie Sophie Emily Ella Matilda
+			Aroha Arini Ana Whina Panai Hauku
+		}
+	}
+surnames = {
+		Hope Tennyson Northcote War Thesinger Denman Forster Baird Issac Stewart Fisher Cook Davis Armstrong Anderson Mitchell MacKenzie
+
+	 }
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+DHF = {
+male = {
+		names = {
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" Ahmad Ali
+			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Jamal Kamil Khalid
+			Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim Shukri
+			Tawfiq Umar Uthman Yahya Yusuf Zafir
+		}
+		surnames = { "al-Baghdadi" "al-Basri" "al-Ghazzawi" "al-Halabi" "al-Hamawi" "al-Himsi"
+				"al-Mawsili" "al-Nablusi" "al-Qudsi" "al-Shami"
+				"ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali"
+				"ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid"
+				"ibn Muhammad" "ibn Mustafa" "ibn Salim"
+				"ibn Umar" "ibn Uthman" "ibn Yusuf"
+		}
+	}
+female = {
+		names = {
+			Nadiyya Adila Amsha Asiya Faghira Habiba Hanifa Jahaira Kamala Layla Maryam Nafisa Nyawela Parand
+			Parween Paymaneh Paywand Qamara Rafiqa Rasa Rashida Reshawna
+			Saaman Sabba Saghar Sahba Sajida Samira Semeah Setara Shahrbano Shahzadah Shameem Shararah
+			Sheeftah Sheeva Shogofa Shokouh Shola Sholah Simin Souzan
+			Taliba Tanaz Taneen Yagana Yakta Yasmin Zaynab
+		}
+		surnames = { "al-Baghdadi" "al-Basri" "al-Ghazzawi" "al-Halabi" "al-Hamawi" "al-Himsi"
+				"al-Mawsili" "al-Nablusi" "al-Qudsi" "al-Shami"
+				"bint Abd Allah" "bint Abd al-Qadir" "bint Abu Bakr" "bint Ahmad" "bint Ali"
+				"bint Fuad" "bint Halil" "bint Hasan" "bint Hisham" "bint Ishaq" "bint Ja'far" "ibm Kamil" "bint Khalid"
+				"bint Muhammad" "bint Mustafa" "bint Salim"
+				"bint Umar" "bint Uthman" "bint Yusuf"
+		}
+	}
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+DMA = {
+male = {
+		names = {
+			Alfred Anil Arthur Ato Carson Darrel David Dwayne Ellis Everald Garfield George Hasely Ian Inshan Isaiah Learie Leroy Leslie Lloyd Marc Marlon Marvin "Michel-Jean" Pat Ravi Rodill Rudranath Stephen Stokely Tubal Ulric
+			Willie
+		}
+	}
+female = {
+		names = {
+			"Fay-Ann" Denise Denyse Destra Dionne Heather Hilary Marlene Rasika Rosa Valerie Wendy Winifred
+		}
+	}
+surnames = {
+		Abdulah Andrews Belgrave Bishop Black Boodhoo Bravo Butler Carmichael Charles Cipriani Clarke Crawford Dhanraj Dookeran Ganga Gattoo Gomes Granger Haddaway Hingwan Hodge "Hudson-Phillips" James Jones Khan Mottley Lewis Lovelace
+		Mahabir Manning Marcelle McDonald Mendes Mohammed Naipaul Noreiga Padmore Philip Philmore Ramadhin Ramnarine Roberts Rougier Roberts Samaroo Selvon Stollmeyer Vaucrosson Warner Wise Yetming
+	}
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+FLA = {
+male = {
+		names = {
+			Abdoulaye Abu Adama Afel Alioune Alpha Amadou Amadu Barema Boucader Brehima Cheick Daba Dramane Drissa Habib Ibrahima Ismael Issa Janvier "Jean-Charles" Keletigui Koman Lamine Louis Mamadou Manthia Mari Massa Mohamed
+			Mohammed Moussa Ousmane Seku Soueloum Soumaila Soumbeila Soungalo Souleymane Sulayman Tiebile Toumani Waly Yaya Yoro
+		}
+		surnames = {
+			Abouta "Al-Sahili" Aya Ba Bagayogo Bagayoko Bastide Bocoum Camara Cisse Coulibaly Dabo Damba Dembele Diabate Diagho Diakite Diallo Diarra Diawara Diop Doumbia Drame Fakoly "ibn Gao" Guindo "ag Hamani" "Al Kaburi" Keita
+			"Ba Konare" Konare Kone Kouyate Maiga "Maiga-Ba" Mariko "Al Massufi" "M'Bodji" Modja "N'Diaye" Niare Oiane Ouologuem Taleb Taya Teguedi Timbo Tolba Toure Tall Tamboura Tireira Tounkara Toure Traore "ibn Umar" Zabo
+		}
+	}
+female = {
+		names = {
+			Astan Diene Fanta Fatoumata Kadiatou Mah Mariam Mariatou Mintou Nagnouma Nare Rahmatou Ramata Sidibe
+		}
+		surnames = {
+			Abouta "Al-Sahili" Aya Ba Bagayogo Bagayoko Bastide Bocoum Camara Cisse Coulibaly Dabo Damba Dembele Diabate Diagho Diakite Diallo Diarra Diawara Diop Doumbia Drame Fakoly "bint Gao" Guindo "ag Hamani" "Al Kaburi" Keita
+			"Ba Konare" Konare Kone Kouyate Maiga "Maiga-Ba" Mariko "Al Massufi" "M'Bodji" Modja "N'Diaye" Niare Oiane Ouologuem Taleb Taya Teguedi Timbo Tolba Toure Tall Tamboura Tireira Tounkara Toure Traore "bint Umar" Zabo
+		}
+	}
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+FPL = {
+male = {
+		names = {
+			Abdou Abdoulaye Aboubacar Adamou Albade Alhassane Ali Aliou Amadou Ambroise Aminatou Andre Badie Barcourgne Boubou Boukary Brigi Damoure Dary Daouda Djibo Falke Foumakoye Garba Gremah Habi Hama Hamani Hamid Hamidou
+			Harouna Hassoumi Ibrahim Ide Idrissa Ilguilas Ismael Issa Issake Issouf Issoufou Kader Kalla Karidjo Karim Kassaly Mahamadou Mahamane Malam Mamadou Maman Mamane Mano Mayaki Mdou Mohamadou Mohamed Moumouni Mounkaila
+			Moussa Moustapha Nassirou Nnimmo Omara Ouhoumoudou Oum Oumar Oumarou Ousmane Ouwo Rabiou Rabo Rhissa Salamtou Salou Saloum Sanoussi Seyni Souley Yacouba William Zakari Zodi
+		}
+	}
+female = {
+		names = {
+			Aichatou Amina Balkissa Lailatou Mariama Nafissa Nafissatou Rachidatou Salifou
+		}
+	}
+surnames = {
+		Abani Abdoulahi Abdoulaye Abouba Adamou Adji Aissata Alassane Algabid Alhassan Ali Amadou Ankourao Assoumane Ba Bacharou Bakary Bana Bare Bassey Bazeye Bazindre Bazoum Bo Boucar "ag Boula" Cheiffou Cisse Courmo Daborg
+		Danda Daouda Dasuda Dayak Diori Djermakoye Djibo Gabde Gado Gamatie Ganda Gao Garba Gourouza Habou Hama Harouna Hassane Hima Ide Ikhia Issaka Issoufou Jackou Kaka Kountche Labo Lago Lambo Lamine Laouali
+		Lele Lompo Maazou "ag Maha" Mahamadou Mahamidou Maidah Maiga Maikido Mainassara Maliki Mamani Marte Massaoudou Mayaki Mindaoudou Moctar Moumouni "N'Gounou" Oubandawaki Ouedraogo Ouhoumoudou Oumarou Oumarou Ousmane
+		Ovnteni Rafini Ramatou Sabo Saguirou Saibou "Saidou-Djermakoye" Saley Salifou Salissou Saminou Seydou Sidibe Sidikou Sido Souleymane Tandja Tondi Traore Toure Wanke Weila Zeine Zika
+	}
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+GDB = {
+male = {
+		names = {
+			David Adrián Agustín Álvaro Anastasio Andrés Ángel Antonio Bernardo Emiliano Emilio
+			Enrique Ernesto Felipe Félix Francisco "Francisco Javier" Gabriel Gaspar Gregorio Ignacio
+			Jerónimo Joaquín José "José Manuel" "José María" Juan "Juan Bautista" Justo Lázaro Manuel
+			Mariano Martín Melchor Miguel Nicolás Pablo Pascual Pedro Porfirio Ramón Anselmo Cecilio
+			Ricardo Rómulo Salvador Sebastián Tomás Valentín Valeriano Venustiano Vicente Victoriano
+		  }
+	}
+female = {
+		names = {
+			Adelita Araceli Belén Camila Candelaria Chavela Consuelo Cristina Delfina Esperanza
+			Fidelia Graciela Isadora Isabella Jimena Ximena Luciana Lucrecia María Marisol
+			Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
+		}
+	}
+surnames = {
+		Martínez Almonte Álvarez Arista Barragán Bocanegra Bravo Bustamante Canalizo Carranza Caserta
+		Cervantes Corona Corra "de Ampudia" "de Cos" "de Itúrbide" Díaz Echeverría Escandón Escobedo
+		Fagoaga "Fernández del Valle" Flores Gómez González Guerrero Huerta Kosterlitzky "López de Santa Ana" Lozada
+		"Martínez del Río" Mejía Miramón Múzquiz Obregón Pedraza Pimentel Reyes "Rincón Gallardo" Robles
+		Ruíz Salas Sánchez "Sarmaniego del Castillo" "Vázquez de la Cadena" Villa Woll Zapata Zaragoza Zuloaga
+	}
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+GHA = {
+male = {
+		names = {
+			Abidemi Abiodun Abubakar Adebayo Adebowale Adegoke Adisa Akachi Akpofure Alhaji Amadi Ayodele Ayomide Azubuike Babatunde Bitrus Chibueze Chibuzo Chidiebere Chidiegwu Chidubem Chijindum Chikelu Chima Chinedu Chinwe
+			Chinwendu Chioma Cuks Chukwuemeka Dayo Efemena Ejiroghene Ekenedilichukwu Ekwueme Emem Enitan Eseoghene Folami Idowu Ikenna Iniobong Itoro Kayin Kyauta Lekan Ndidi Nkemdilim Obi Oghenekevwe Okafor Okonkwo Okoro
+			Olamide Olanrewaju Olufemi Olufunmilayo Olujimi Olumide Oluwafunmilayo Oluwasegun Oluwaseyi Oluwayemisi Onyekachi Opeyemi Oyibo Udo Uduakobong Umukoro Uzoma
+		}
+	}
+female = {
+		names = {
+			Abeni Abiodun Adanna Ade Adebowale Detokunbo Akachi Akuchi Alheri Amara Anuli Ayodele Ayotunde Bosede Chiamaka Chibuike Chichi Chidiebere Chidiegwu Chijindum Chike Chikere Chinedu Chinwe Chinwendu Chinyelu Chioma
+			Dada Ebele Efemena Ejiroghene Ekenedilichukwu Emem Enitan Fadimatu Fumnanya Gbemisola Idowu Ifiok Ime Inyene Kayin Mojisola Ndidi Nkechi Nkemdilim Nkiruka Nnenna Nwanneka Ogechukwukama Oghenekevwe Olamide Olubunmi
+			Olufunke Olufunmilola Oluwakanyinsola Oluwaseun Oluwatoyin Omobolanle Oni Onyekachi Opeyemi Oyibo Temitope Udo Uduakobong Uzoma Yejide
+		}
+	}
+surnames = {
+		Abdullahi Abiola Abioye Abubakar Adeoye Adoti Adebayo Adesina Adeyemi Aduba Agbaje Agrinya Agu Agumanu Akenzua Akerele Akinjide Akintola Akinyemi Akpabio Ali Aliu Amaechi Attah Azebry Azikiwe Baba Babangida Balogun
+		Bankole Bassey Bello Bolaji Chukwu Danjuma Darego Effiong Ejiofor Etienam Eze Ezekwesili Gbadamosi Hassan Ibeh Ibrahim Igbinedion Ikande Imam Iwuchukwu Jaja Kabir Kalu Kazah Konkwo Lawal Mohammed Nenge Njoku Nwankwo
+		Obasanjo Obi Oderasak Odoemene Odusanya Ojukwu Okafor Okeke Okereke Okonkwo Okorie Okoro Okoye Okpara Olanrewaju Olatunji Oni Onyilogwu Oparei Orji Osagie Osahon Oyawale Pepple Popoola Princewill Shehu Tersoo Tinubu Uba
+		Umburter Uthman Voeman
+	}
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+GRD = {
+male = {
+		names = {
+			Alfred Anil Arthur Ato Carson Darrel David Dwayne Ellis Everald Garfield George Hasely Ian Inshan Isaiah Learie Leroy Leslie Lloyd Marc Marlon Marvin "Michel-Jean" Pat Ravi Rodill Rudranath Stephen Stokely Tubal Ulric
+			Willie
+		}
+	}
+female = {
+		names = {
+			"Fay-Ann" Denise Denyse Destra Dionne Heather Hilary Marlene Rasika Rosa Valerie Wendy Winifred
+		}
+	}
+surnames = {
+		Abdulah Andrews Belgrave Bishop Black Boodhoo Bravo Butler Carmichael Charles Cipriani Clarke Crawford Dhanraj Dookeran Ganga Gattoo Gomes Granger Haddaway Hingwan Hodge "Hudson-Phillips" James Jones Khan Mottley Lewis Lovelace
+		Mahabir Manning Marcelle McDonald Mendes Mohammed Naipaul Noreiga Padmore Philip Philmore Ramadhin Ramnarine Roberts Rougier Roberts Samaroo Selvon Stollmeyer Vaucrosson Warner Wise Yetming
+	}
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+ISP = {
+male = {
+		names = {
+			Abdou Abdoulaye Aboubacar Adamou Albade Alhassane Ali Aliou Amadou Ambroise Aminatou Andre Badie Barcourgne Boubou Boukary Brigi Damoure Dary Daouda Djibo Falke Foumakoye Garba Gremah Habi Hama Hamani Hamid Hamidou
+			Harouna Hassoumi Ibrahim Ide Idrissa Ilguilas Ismael Issa Issake Issouf Issoufou Kader Kalla Karidjo Karim Kassaly Mahamadou Mahamane Malam Mamadou Maman Mamane Mano Mayaki Mdou Mohamadou Mohamed Moumouni Mounkaila
+			Moussa Moustapha Nassirou Nnimmo Omara Ouhoumoudou Oum Oumar Oumarou Ousmane Ouwo Rabiou Rabo Rhissa Salamtou Salou Saloum Sanoussi Seyni Souley Yacouba William Zakari Zodi
+		}
+	}
+female = {
+		names = {
+			Aichatou Amina Balkissa Lailatou Mariama Nafissa Nafissatou Rachidatou Salifou
+		}
+	}
+surnames = {
+		Abani Abdoulahi Abdoulaye Abouba Adamou Adji Aissata Alassane Algabid Alhassan Ali Amadou Ankourao Assoumane Ba Bacharou Bakary Bana Bare Bassey Bazeye Bazindre Bazoum Bo Boucar "ag Boula" Cheiffou Cisse Courmo Daborg
+		Danda Daouda Dasuda Dayak Diori Djermakoye Djibo Gabde Gado Gamatie Ganda Gao Garba Gourouza Habou Hama Harouna Hassane Hima Ide Ikhia Issaka Issoufou Jackou Kaka Kountche Labo Lago Lambo Lamine Laouali
+		Lele Lompo Maazou "ag Maha" Mahamadou Mahamidou Maidah Maiga Maikido Mainassara Maliki Mamani Marte Massaoudou Mayaki Mindaoudou Moctar Moumouni "N'Gounou" Oubandawaki Ouedraogo Ouhoumoudou Oumarou Oumarou Ousmane
+		Ovnteni Rafini Ramatou Sabo Saguirou Saibou "Saidou-Djermakoye" Saley Salifou Salissou Saminou Seydou Sidibe Sidikou Sido Souleymane Tandja Tondi Traore Toure Wanke Weila Zeine Zika
+	}
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+JNM = {
+male = {
+		names = {
+			Abdoulaye Abu Adama Afel Alioune Alpha Amadou Amadu Barema Boucader Brehima Cheick Daba Dramane Drissa Habib Ibrahima Ismael Issa Janvier "Jean-Charles" Keletigui Koman Lamine Louis Mamadou Manthia Mari Massa Mohamed
+			Mohammed Moussa Ousmane Seku Soueloum Soumaila Soumbeila Soungalo Souleymane Sulayman Tiebile Toumani Waly Yaya Yoro
+		}
+		surnames = {
+			Abouta "Al-Sahili" Aya Ba Bagayogo Bagayoko Bastide Bocoum Camara Cisse Coulibaly Dabo Damba Dembele Diabate Diagho Diakite Diallo Diarra Diawara Diop Doumbia Drame Fakoly "ibn Gao" Guindo "ag Hamani" "Al Kaburi" Keita
+			"Ba Konare" Konare Kone Kouyate Maiga "Maiga-Ba" Mariko "Al Massufi" "M'Bodji" Modja "N'Diaye" Niare Oiane Ouologuem Taleb Taya Teguedi Timbo Tolba Toure Tall Tamboura Tireira Tounkara Toure Traore "ibn Umar" Zabo
+		}
+	}
+female = {
+		names = {
+			Astan Diene Fanta Fatoumata Kadiatou Mah Mariam Mariatou Mintou Nagnouma Nare Rahmatou Ramata Sidibe
+		}
+		surnames = {
+			Abouta "Al-Sahili" Aya Ba Bagayogo Bagayoko Bastide Bocoum Camara Cisse Coulibaly Dabo Damba Dembele Diabate Diagho Diakite Diallo Diarra Diawara Diop Doumbia Drame Fakoly "bint Gao" Guindo "ag Hamani" "Al Kaburi" Keita
+			"Ba Konare" Konare Kone Kouyate Maiga "Maiga-Ba" Mariko "Al Massufi" "M'Bodji" Modja "N'Diaye" Niare Oiane Ouologuem Taleb Taya Teguedi Timbo Tolba Toure Tall Tamboura Tireira Tounkara Toure Traore "bint Umar" Zabo
+		}
+	}
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+KIR = {
+male = {
+		names = {
+			Anirudh Ballu Brij Dixon Epeli Faraz George Hari Imran Isikia Jeremaia Jesoni Josateki Lokeshani Kaliopate Paresh Poseci Rajesh Rajnesh Ram Sangeeta Satya Savenaca Sarojini Shivlal Taito Angelita Christine Gabrissa Greta Joanne Lanja Lovelite Margaret Marlene Millicent Olympia Reanna Sheba Sheeva Kaingaue Kaitinano Karitaake Keina Maere Makurita Nei Norma Taoriba Teekoa Tekarei Teresia Tessie Tio
+			Aleki Aputi Enele Haych Laini Laki Malosi Peleki Peniamina Petelo Semis Sinalei Taito Tuala Tusitala Uaine Uati Vaea Apisai Bikenibeu Faimalaga Fiatau Filoimea Ionatana Kamuta Koloa Lagitupu Maatia Saufatu Seve Solofa Toaripi Tomasi Tomu Tulaga Tupua
+		}
+	}
+female = {
+		names = {
+			Alamea Alaula Alika Elikapeka Halia Iokina Iolana Kailani Kalea Kamaile Kamea Kanoa Kawena Keala Keola Keona Kiele Kina
+			Kinipela Konane Lahela Lanai Lani Leiko Leilani Liliha Lilo Luana Mahina Maile Makana Makelina Malana Maleah Malia Mana
+			Miliani Moana Nalanie Napua Noelani Nohealani Okalani Onaona Palila Pilialoha Ulani
+		}
+	}
+surnames = {
+		Ali "Bhagwan-Rolls" Bune Chandra Heffernan Iqbal Khan Konrote Kumar Lal Luveni Nagindas Nailatikau Nandan Narayan Nawalowalo Niranjan Pillay Punja Samisoni Savua Seeto Singh Siwatibau Tavola Toganivalu Vitusagavulu Waradi Adeang Aroi Brechtefeld Dagiero Deireragea Detenamo Detudamo Dowabobo Doweiya Dowiyogo Fritz Fusi Garabwan Gobure Hartman Harris Hendrie Kam Kun Moses Peo Peter Solomon Starr Stephen Thomas Uera Waibeiya Zacharias Baaro Baiteke Biniati Breckterfield Christopher David Dowiyogo Etita Iuta Karianako Katoatau Lambourne Makin Meme Mwemweata Nariki Nawai Russell Ruuka Tabaroua Takooa Tatonga Teaiwa Tekanene Tewaaki Thomas Tito Toromon Faapo Tino Vui Aveau Iusitinio Kini Keil Malielegaoi Lauofo Ropati Mauiliu Liuga Tultama Mataafa Tumaalii Pinati Lameko Leiataua Posala Apinelu Ielemia Ionatana Latasi Lauti Leupena Luka Manuella Paeniu Puapua Sione Sopoanga Talake Telito Teo Toafa Tuilimu Uota
+		Uan Yeeting
+		Waqanisau
+	}
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+KNA = {
+male = {
+		names = {
+			Alfred Anil Arthur Ato Carson Darrel David Dwayne Ellis Everald Garfield George Hasely Ian Inshan Isaiah Learie Leroy Leslie Lloyd Marc Marlon Marvin "Michel-Jean" Pat Ravi Rodill Rudranath Stephen Stokely Tubal Ulric
+			Willie
+		}
+	}
+female = {
+		names = {
+			"Fay-Ann" Denise Denyse Destra Dionne Heather Hilary Marlene Rasika Rosa Valerie Wendy Winifred
+		}
+	}
+surnames = {
+		Abdulah Andrews Belgrave Bishop Black Boodhoo Bravo Butler Carmichael Charles Cipriani Clarke Crawford Dhanraj Dookeran Ganga Gattoo Gomes Granger Haddaway Hingwan Hodge "Hudson-Phillips" James Jones Khan Mottley Lewis Lovelace
+		Mahabir Manning Marcelle McDonald Mendes Mohammed Naipaul Noreiga Padmore Philip Philmore Ramadhin Ramnarine Roberts Rougier Roberts Samaroo Selvon Stollmeyer Vaucrosson Warner Wise Yetming
+	}
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+LCA = {
+male = {
+		names = {
+			Alfred Anil Arthur Ato Carson Darrel David Dwayne Ellis Everald Garfield George Hasely Ian Inshan Isaiah Learie Leroy Leslie Lloyd Marc Marlon Marvin "Michel-Jean" Pat Ravi Rodill Rudranath Stephen Stokely Tubal Ulric
+			Willie
+		}
+	}
+female = {
+		names = {
+			"Fay-Ann" Denise Denyse Destra Dionne Heather Hilary Marlene Rasika Rosa Valerie Wendy Winifred
+		}
+	}
+surnames = {
+		Abdulah Andrews Belgrave Bishop Black Boodhoo Bravo Butler Carmichael Charles Cipriani Clarke Crawford Dhanraj Dookeran Ganga Gattoo Gomes Granger Haddaway Hingwan Hodge "Hudson-Phillips" James Jones Khan Mottley Lewis Lovelace
+		Mahabir Manning Marcelle McDonald Mendes Mohammed Naipaul Noreiga Padmore Philip Philmore Ramadhin Ramnarine Roberts Rougier Roberts Samaroo Selvon Stollmeyer Vaucrosson Warner Wise Yetming
+	}
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+LLU = {
+	male = {
+		names = {
+			Albert Alexandre Alexis Alphonse André Antoine Auguste Barthélémy Baudouin Blaise Camille Clément Charles Constant
+			Damien David Désiré Didier Edmond Édouard Emmanuel Émile Etienne Eugène Félix Fernand Feullien Florent François Frédéric Georges
+			Gérard Gilles Guillaume Gustave Henri Hercule Hubert Ignace Isidore Jacques Jean Jean-Baptiste Jean-François Jean-Louis
+			Jean-Jacques Joseph Jules Lambert Laurent Léon Léonard Léopold Louis Lucien Mathieu Maxime Maximilien Nicolas Olivier
+			Pascal Patrice Paul Philippe Philippe-Joseph Pierre Pierre-Guillaume Sébastien Sylvain Théophile Victor Vincent Werner
+		}
+	}
+	female = {
+		names = { Marie }
+	}
+	surnames = {
+		Allard Barbanson Barthélémy Baugniet Beaucarne Berger Berthels Beyts Biver Blargnies Brialmont Bredart Cauvin Collet
+		Cols Claus Clerix Coquilhat d'Arenberg d'Huart d'Omalius d'Oreye d'Oultremont David Davignon "de Baillet" "de Beaufort"
+		"de Behr" "de Bocarmé" "de Bousies" "de Brouckère" "de Broqueville" "de Burlet" "de Celles" "de Chasteler" "de Coppin de Falaen"
+		"de Croÿ" "de Decker" "de Dixmude" "de Gerlache" "de Grez" "de Hemptinne" "de Labbeville" "de Lannoy" "de Ligne" "de Leuze" "de Melin"
+		"de Mérode" "de Pelichy" "de Quarre" "de Riquet" "de Robaulx" "de Rouille" "de Sauvage" "de Sécus" "de Selys Longchamps"
+		"de Stassart" "de Stockem" "de Theux de Meylandt" "de Trazegnies" "de Trooz" "de Viron" "de Waha" Defacqz Deguise Delacroix
+		"Desmanet de Biesme" Destriveaux Dethier Devaux Deville Dewandre Dhanis Dreze "du Bois" "du Bus" "du Pont" "du Val de Beaulieu" Dumont
+		Fallon Fendius Figeys Fleury-Dubay Fleussu Forgeur Frison Fuchs Gendebien Goffint Henry "Huysman d'Annecroix" Jacques Joos Jottrand
+		Lahure Lardinois "le Cocq" "le Hon" Lebeau Leclercq Lefebvre Leman Malou Marcq Marlet Masbourg Nagelmackers Nalinne Nothomb
+		Orban Pétillon Picquet Pirmez Pirson Raikem Roeser Rogier Rouen Rouppe Seron Thonus Thorn "van Snick" Wahis Wangermée Wyvekens Zoude
+
+	 }
+	callsigns = { }
+}
+
+LSO = {
+male = {
+		names = {
+			Sarel Rudolf Andries Hendrik Piet Racheltjie Dirkie Siener Koos Danie Christiaan Louis Petrus Paul Eugene Joubert
+		  }
+	}
+female = {
+		names = { Iminathi Minenhle Rethabile Bokamoso Karabo Amogelang Tshegofatso Lesedi }
+	}
+surnames = { Cilliers Botha Joubert Kruger Duquesne Potgieter "van Rensburg" "de la Rey" Theron "de Wet" Pretorius Retief "de Beer" Uys }
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+MHL = {
+male = {
+		names = {
+			Anirudh Ballu Brij Dixon Epeli Faraz George Hari Imran Isikia Jeremaia Jesoni Josateki Lokeshani Kaliopate Paresh Poseci Rajesh Rajnesh Ram Sangeeta Satya Savenaca Sarojini Shivlal Taito Angelita Christine Gabrissa Greta Joanne Lanja Lovelite Margaret Marlene Millicent Olympia Reanna Sheba Sheeva Kaingaue Kaitinano Karitaake Keina Maere Makurita Nei Norma Taoriba Teekoa Tekarei Teresia Tessie Tio
+			Aleki Aputi Enele Haych Laini Laki Malosi Peleki Peniamina Petelo Semis Sinalei Taito Tuala Tusitala Uaine Uati Vaea Apisai Bikenibeu Faimalaga Fiatau Filoimea Ionatana Kamuta Koloa Lagitupu Maatia Saufatu Seve Solofa Toaripi Tomasi Tomu Tulaga Tupua
+		}
+	}
+female = {
+		names = {
+			Alamea Alaula Alika Elikapeka Halia Iokina Iolana Kailani Kalea Kamaile Kamea Kanoa Kawena Keala Keola Keona Kiele Kina
+			Kinipela Konane Lahela Lanai Lani Leiko Leilani Liliha Lilo Luana Mahina Maile Makana Makelina Malana Maleah Malia Mana
+			Miliani Moana Nalanie Napua Noelani Nohealani Okalani Onaona Palila Pilialoha Ulani
+		}
+	}
+surnames = {
+		Ali "Bhagwan-Rolls" Bune Chandra Heffernan Iqbal Khan Konrote Kumar Lal Luveni Nagindas Nailatikau Nandan Narayan Nawalowalo Niranjan Pillay Punja Samisoni Savua Seeto Singh Siwatibau Tavola Toganivalu Vitusagavulu Waradi Adeang Aroi Brechtefeld Dagiero Deireragea Detenamo Detudamo Dowabobo Doweiya Dowiyogo Fritz Fusi Garabwan Gobure Hartman Harris Hendrie Kam Kun Moses Peo Peter Solomon Starr Stephen Thomas Uera Waibeiya Zacharias Baaro Baiteke Biniati Breckterfield Christopher David Dowiyogo Etita Iuta Karianako Katoatau Lambourne Makin Meme Mwemweata Nariki Nawai Russell Ruuka Tabaroua Takooa Tatonga Teaiwa Tekanene Tewaaki Thomas Tito Toromon Faapo Tino Vui Aveau Iusitinio Kini Keil Malielegaoi Lauofo Ropati Mauiliu Liuga Tultama Mataafa Tumaalii Pinati Lameko Leiataua Posala Apinelu Ielemia Ionatana Latasi Lauti Leupena Luka Manuella Paeniu Puapua Sione Sopoanga Talake Telito Teo Toafa Tuilimu Uota
+		Uan Yeeting
+		Waqanisau
+	}
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+NIU = {
+male = {
+		names = {
+			Anirudh Ballu Brij Dixon Epeli Faraz George Hari Imran Isikia Jeremaia Jesoni Josateki Lokeshani Kaliopate Paresh Poseci Rajesh Rajnesh Ram Sangeeta Satya Savenaca Sarojini Shivlal Taito Angelita Christine Gabrissa Greta Joanne Lanja Lovelite Margaret Marlene Millicent Olympia Reanna Sheba Sheeva Kaingaue Kaitinano Karitaake Keina Maere Makurita Nei Norma Taoriba Teekoa Tekarei Teresia Tessie Tio
+			Aleki Aputi Enele Haych Laini Laki Malosi Peleki Peniamina Petelo Semis Sinalei Taito Tuala Tusitala Uaine Uati Vaea Apisai Bikenibeu Faimalaga Fiatau Filoimea Ionatana Kamuta Koloa Lagitupu Maatia Saufatu Seve Solofa Toaripi Tomasi Tomu Tulaga Tupua
+		}
+	}
+female = {
+		names = {
+			Alamea Alaula Alika Elikapeka Halia Iokina Iolana Kailani Kalea Kamaile Kamea Kanoa Kawena Keala Keola Keona Kiele Kina
+			Kinipela Konane Lahela Lanai Lani Leiko Leilani Liliha Lilo Luana Mahina Maile Makana Makelina Malana Maleah Malia Mana
+			Miliani Moana Nalanie Napua Noelani Nohealani Okalani Onaona Palila Pilialoha Ulani
+		}
+	}
+surnames = {
+		Ali "Bhagwan-Rolls" Bune Chandra Heffernan Iqbal Khan Konrote Kumar Lal Luveni Nagindas Nailatikau Nandan Narayan Nawalowalo Niranjan Pillay Punja Samisoni Savua Seeto Singh Siwatibau Tavola Toganivalu Vitusagavulu Waradi Adeang Aroi Brechtefeld Dagiero Deireragea Detenamo Detudamo Dowabobo Doweiya Dowiyogo Fritz Fusi Garabwan Gobure Hartman Harris Hendrie Kam Kun Moses Peo Peter Solomon Starr Stephen Thomas Uera Waibeiya Zacharias Baaro Baiteke Biniati Breckterfield Christopher David Dowiyogo Etita Iuta Karianako Katoatau Lambourne Makin Meme Mwemweata Nariki Nawai Russell Ruuka Tabaroua Takooa Tatonga Teaiwa Tekanene Tewaaki Thomas Tito Toromon Faapo Tino Vui Aveau Iusitinio Kini Keil Malielegaoi Lauofo Ropati Mauiliu Liuga Tultama Mataafa Tumaalii Pinati Lameko Leiataua Posala Apinelu Ielemia Ionatana Latasi Lauti Leupena Luka Manuella Paeniu Puapua Sione Sopoanga Talake Telito Teo Toafa Tuilimu Uota
+		Uan Yeeting
+		Waqanisau
+	}
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+NRU = {
+male = {
+		names = {
+			Anirudh Ballu Brij Dixon Epeli Faraz George Hari Imran Isikia Jeremaia Jesoni Josateki Lokeshani Kaliopate Paresh Poseci Rajesh Rajnesh Ram Sangeeta Satya Savenaca Sarojini Shivlal Taito Angelita Christine Gabrissa Greta Joanne Lanja Lovelite Margaret Marlene Millicent Olympia Reanna Sheba Sheeva Kaingaue Kaitinano Karitaake Keina Maere Makurita Nei Norma Taoriba Teekoa Tekarei Teresia Tessie Tio
+			Aleki Aputi Enele Haych Laini Laki Malosi Peleki Peniamina Petelo Semis Sinalei Taito Tuala Tusitala Uaine Uati Vaea Apisai Bikenibeu Faimalaga Fiatau Filoimea Ionatana Kamuta Koloa Lagitupu Maatia Saufatu Seve Solofa Toaripi Tomasi Tomu Tulaga Tupua
+		}
+	}
+female = {
+		names = {
+			Alamea Alaula Alika Elikapeka Halia Iokina Iolana Kailani Kalea Kamaile Kamea Kanoa Kawena Keala Keola Keona Kiele Kina
+			Kinipela Konane Lahela Lanai Lani Leiko Leilani Liliha Lilo Luana Mahina Maile Makana Makelina Malana Maleah Malia Mana
+			Miliani Moana Nalanie Napua Noelani Nohealani Okalani Onaona Palila Pilialoha Ulani
+		}
+	}
+surnames = {
+		Ali "Bhagwan-Rolls" Bune Chandra Heffernan Iqbal Khan Konrote Kumar Lal Luveni Nagindas Nailatikau Nandan Narayan Nawalowalo Niranjan Pillay Punja Samisoni Savua Seeto Singh Siwatibau Tavola Toganivalu Vitusagavulu Waradi Adeang Aroi Brechtefeld Dagiero Deireragea Detenamo Detudamo Dowabobo Doweiya Dowiyogo Fritz Fusi Garabwan Gobure Hartman Harris Hendrie Kam Kun Moses Peo Peter Solomon Starr Stephen Thomas Uera Waibeiya Zacharias Baaro Baiteke Biniati Breckterfield Christopher David Dowiyogo Etita Iuta Karianako Katoatau Lambourne Makin Meme Mwemweata Nariki Nawai Russell Ruuka Tabaroua Takooa Tatonga Teaiwa Tekanene Tewaaki Thomas Tito Toromon Faapo Tino Vui Aveau Iusitinio Kini Keil Malielegaoi Lauofo Ropati Mauiliu Liuga Tultama Mataafa Tumaalii Pinati Lameko Leiataua Posala Apinelu Ielemia Ionatana Latasi Lauti Leupena Luka Manuella Paeniu Puapua Sione Sopoanga Talake Telito Teo Toafa Tuilimu Uota
+		Uan Yeeting
+		Waqanisau
+	}
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+SML = {
+male = {
+		names = {
+			Aar Abadir Abd Abdallah Abdi Abdihakim Abdillahi Abdiqasim Abdirahman Abdirashid Abdirizak Abdisalam Abdiweli Abdourahman Abdulkadir Abdullahi Abdulsalami Adan Aden Ahmed Ali Arawelo Ayub Dahir Daud Elman Faisal Farah Hasan Hassan Hirsi Ibrahim Ismail Jama Jaylaani Liban
+			Maxamed Mo Mohamed Mohammed Mohamoud Mohamud Muse Mustafa Nur Nuruddin Olol Omar Osman Rageh Salaad Sharif Shaykh Shire Uways Warsame Yusuf
+		}
+	}
+female = {
+		names = {
+			Amina Asha Asli Ayaan Edna Fatima Fowziya Halima Hanan Hawa Hodan Idyl Iman Khadija Ladan Maryam Siham Waris Yasmin Yasmine Yussur Zahra
+		}
+	}
+surnames = {
+		Aato Abade Abdi Abdillahi Abdulle Abdulmajid Abrar Abubakar Adan Addou Afrax "Al-Amawi" Ahmed Ali Allas Aptidon "Ar-Rida" Aweys Awl Bani "Al-Barawi" Barre Bile Daar Daud Diinle Dirie Duale Elmi Farah Farole Feiruz Galal
+		Galaydh Ghalib Ghedi Haji "Haji-Faqi" Hashi Hassan Hersi Hirsi Hussein Ibrahim Ibrahim Ikar Irro Islam Ismail Issa Isse "Al-Jabarti" Jama Osman Jibrell Kahin Kassim "Al-Kawneyn" Kediye Kenadid Kusow Liibaan Maanta Madobe
+		Mahamuud Malimey Moalim Mohallim Mohamed Muhammad Mukhtar Mumin Mursal Nalayeh Nur Omaar Omer Osman Osoble Qalanjo Qarshe "Al-Qutbi" Said Samatar Sharmarke Shermarke Shirdon Shire Siad Silanyo Sinimo Sufi Timacade Waberi
+		Warfa Warsame "Al-Zayla'i"
+	}
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+SSD = {
+	male = {
+		names = {
+			Abdelkarim "Abdel Aziz" Ahmad Alexander Alfred Alkhalifa Awn Gaafar Hassan Haitham Ismail John Lam Mandour Minni Mo Mohammed Nagmeldin Omar Omer Osman Rashid Sadiq Sayed Tayeb Todd Abel Alek Aldo Aliir "Angelo Dayu" Ataui Ater Dominic Deng Francis Guor Kiir Kuol Luol Jacob Jackson John Majak Manute "Nhial Deng" Philip Salva Santino Thon Valentino
+		}
+	}
+	female = {
+		names = {
+			Zeinab Anjelina Margret Rose
+		}
+	}
+	surnames = {
+	    Abdullah Abubakr Akol AlKabli "Al-Azhari" "Al-Bashir" "Al-Mahdi" "Al-Mirghani" Alsharif Badawi BakrElmahdi Eltayeb Garang Ibrahim Ismail "El Kachief" Keir Khalifa "Matthews-Jouda" Minnawi "El Mubarak" Mustafa Nimeiry
+		Salman Salih Siddig Taban Wardi Abugo Agor Adut Alier Aliir Aligo Bol Bok "Bul Dau" Daw Deng Dut Garang Hassan Kenyi Lohalith Lokonyen Majok Maker Marial Mayardit "Manyang Juuk" Nhial Panyang Wek
+	}
+	callsigns = { }
+}
+
+SWZ = {
+male = {
+		names = {
+			Sarel Rudolf Andries Hendrik Piet Racheltjie Dirkie Siener Koos Danie Christiaan Louis Petrus Paul Eugene Joubert
+		  }
+	}
+female = {
+		names = { Iminathi Minenhle Rethabile Bokamoso Karabo Amogelang Tshegofatso Lesedi }
+	}
+surnames = { Cilliers Botha Joubert Kruger Duquesne Potgieter "van Rensburg" "de la Rey" Theron "de Wet" Pretorius Retief "de Beer" Uys }
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+TON = {
+male = {
+		names = {
+			Anirudh Ballu Brij Dixon Epeli Faraz George Hari Imran Isikia Jeremaia Jesoni Josateki Lokeshani Kaliopate Paresh Poseci Rajesh Rajnesh Ram Sangeeta Satya Savenaca Sarojini Shivlal Taito Angelita Christine Gabrissa Greta Joanne Lanja Lovelite Margaret Marlene Millicent Olympia Reanna Sheba Sheeva Kaingaue Kaitinano Karitaake Keina Maere Makurita Nei Norma Taoriba Teekoa Tekarei Teresia Tessie Tio
+			Aleki Aputi Enele Haych Laini Laki Malosi Peleki Peniamina Petelo Semis Sinalei Taito Tuala Tusitala Uaine Uati Vaea Apisai Bikenibeu Faimalaga Fiatau Filoimea Ionatana Kamuta Koloa Lagitupu Maatia Saufatu Seve Solofa Toaripi Tomasi Tomu Tulaga Tupua
+		}
+	}
+female = {
+		names = {
+			Alamea Alaula Alika Elikapeka Halia Iokina Iolana Kailani Kalea Kamaile Kamea Kanoa Kawena Keala Keola Keona Kiele Kina
+			Kinipela Konane Lahela Lanai Lani Leiko Leilani Liliha Lilo Luana Mahina Maile Makana Makelina Malana Maleah Malia Mana
+			Miliani Moana Nalanie Napua Noelani Nohealani Okalani Onaona Palila Pilialoha Ulani
+		}
+	}
+surnames = {
+		Ali "Bhagwan-Rolls" Bune Chandra Heffernan Iqbal Khan Konrote Kumar Lal Luveni Nagindas Nailatikau Nandan Narayan Nawalowalo Niranjan Pillay Punja Samisoni Savua Seeto Singh Siwatibau Tavola Toganivalu Vitusagavulu Waradi Adeang Aroi Brechtefeld Dagiero Deireragea Detenamo Detudamo Dowabobo Doweiya Dowiyogo Fritz Fusi Garabwan Gobure Hartman Harris Hendrie Kam Kun Moses Peo Peter Solomon Starr Stephen Thomas Uera Waibeiya Zacharias Baaro Baiteke Biniati Breckterfield Christopher David Dowiyogo Etita Iuta Karianako Katoatau Lambourne Makin Meme Mwemweata Nariki Nawai Russell Ruuka Tabaroua Takooa Tatonga Teaiwa Tekanene Tewaaki Thomas Tito Toromon Faapo Tino Vui Aveau Iusitinio Kini Keil Malielegaoi Lauofo Ropati Mauiliu Liuga Tultama Mataafa Tumaalii Pinati Lameko Leiataua Posala Apinelu Ielemia Ionatana Latasi Lauti Leupena Luka Manuella Paeniu Puapua Sione Sopoanga Talake Telito Teo Toafa Tuilimu Uota
+		Uan Yeeting
+		Waqanisau
+	}
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+TUV = {
+male = {
+		names = {
+			Anirudh Ballu Brij Dixon Epeli Faraz George Hari Imran Isikia Jeremaia Jesoni Josateki Lokeshani Kaliopate Paresh Poseci Rajesh Rajnesh Ram Sangeeta Satya Savenaca Sarojini Shivlal Taito Angelita Christine Gabrissa Greta Joanne Lanja Lovelite Margaret Marlene Millicent Olympia Reanna Sheba Sheeva Kaingaue Kaitinano Karitaake Keina Maere Makurita Nei Norma Taoriba Teekoa Tekarei Teresia Tessie Tio
+			Aleki Aputi Enele Haych Laini Laki Malosi Peleki Peniamina Petelo Semis Sinalei Taito Tuala Tusitala Uaine Uati Vaea Apisai Bikenibeu Faimalaga Fiatau Filoimea Ionatana Kamuta Koloa Lagitupu Maatia Saufatu Seve Solofa Toaripi Tomasi Tomu Tulaga Tupua
+		}
+	}
+female = {
+		names = {
+			Alamea Alaula Alika Elikapeka Halia Iokina Iolana Kailani Kalea Kamaile Kamea Kanoa Kawena Keala Keola Keona Kiele Kina
+			Kinipela Konane Lahela Lanai Lani Leiko Leilani Liliha Lilo Luana Mahina Maile Makana Makelina Malana Maleah Malia Mana
+			Miliani Moana Nalanie Napua Noelani Nohealani Okalani Onaona Palila Pilialoha Ulani
+		}
+	}
+surnames = {
+		Ali "Bhagwan-Rolls" Bune Chandra Heffernan Iqbal Khan Konrote Kumar Lal Luveni Nagindas Nailatikau Nandan Narayan Nawalowalo Niranjan Pillay Punja Samisoni Savua Seeto Singh Siwatibau Tavola Toganivalu Vitusagavulu Waradi Adeang Aroi Brechtefeld Dagiero Deireragea Detenamo Detudamo Dowabobo Doweiya Dowiyogo Fritz Fusi Garabwan Gobure Hartman Harris Hendrie Kam Kun Moses Peo Peter Solomon Starr Stephen Thomas Uera Waibeiya Zacharias Baaro Baiteke Biniati Breckterfield Christopher David Dowiyogo Etita Iuta Karianako Katoatau Lambourne Makin Meme Mwemweata Nariki Nawai Russell Ruuka Tabaroua Takooa Tatonga Teaiwa Tekanene Tewaaki Thomas Tito Toromon Faapo Tino Vui Aveau Iusitinio Kini Keil Malielegaoi Lauofo Ropati Mauiliu Liuga Tultama Mataafa Tumaalii Pinati Lameko Leiataua Posala Apinelu Ielemia Ionatana Latasi Lauti Leupena Luka Manuella Paeniu Puapua Sione Sopoanga Talake Telito Teo Toafa Tuilimu Uota
+		Uan Yeeting
+		Waqanisau
+	}
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+VCT = {
+male = {
+		names = {
+			Alfred Anil Arthur Ato Carson Darrel David Dwayne Ellis Everald Garfield George Hasely Ian Inshan Isaiah Learie Leroy Leslie Lloyd Marc Marlon Marvin "Michel-Jean" Pat Ravi Rodill Rudranath Stephen Stokely Tubal Ulric
+			Willie
+		}
+	}
+female = {
+		names = {
+			"Fay-Ann" Denise Denyse Destra Dionne Heather Hilary Marlene Rasika Rosa Valerie Wendy Winifred
+		}
+	}
+surnames = {
+		Abdulah Andrews Belgrave Bishop Black Boodhoo Bravo Butler Carmichael Charles Cipriani Clarke Crawford Dhanraj Dookeran Ganga Gattoo Gomes Granger Haddaway Hingwan Hodge "Hudson-Phillips" James Jones Khan Mottley Lewis Lovelace
+		Mahabir Manning Marcelle McDonald Mendes Mohammed Naipaul Noreiga Padmore Philip Philmore Ramadhin Ramnarine Roberts Rougier Roberts Samaroo Selvon Stollmeyer Vaucrosson Warner Wise Yetming
+	}
+callsigns = { }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}
+
+ZZZ = {
+male = {
+		names = {
+			Abner Adam Albert Alexander Alfred Allison Ambrose Amos Augustus Benjamin Braxton
+			Cadmus Carnot Charles Chester Christopher Cyrus Daniel Donald Edmund Edward
+			Elkanah Eugene Evander Ezra Felix Francis Frank George Gideon Hamilton Henry
+			Hinchie Hiram Horace Howard Isaac James Jeffrey Jerome Jesse John Jonas Jonathan
+			Joseph Joshua Jubal Kirby Lafayette Lawrence Lemual Leonida Leslie Lewis Louis
+			Lucas Luke Malvin Mark Matthew Michael Nathan Nathaniel Norton Oscar Patrick
+			Peter Pierre Rand Randolph Raphael Richard Robert Russell Samuel Simon Sterling
+			Steven Stonewall Thomas Ulysses Wade Walter Wilburn William Wilton Zach
+		  }
+	}
+female = {
+		names = { Mary Jane Kate Eleanor Charlotte Lisa Isabel Jay Carol Nancy Margaret }
+	}
+surnames = {
+		Abbott Abercrombie Allen Ames Anderson Andrews Appleton Archer Armistead
+		Armstrong Arthur Asboth Atkins Babcock Baker Banks Barkhauer Barksdale Barnard
+		Barnes Barnum Barry Barstow Bartlett Bates Baxter Beatty Beauregard Bee Belknap Bender
+		Benning Benton Blair Blunt Bowie Bradley Bragg Breckenridge Brown Buckner Buell
+		Buford Burnside Butler Caldwell Campbell Carr Chamberlain Chapman Cheatham
+		Chipman Clayton Cleburne Clemens Coburn Connor Conrad Cook Cooper Crittenden
+		Custer Davies Davis Dotson Doubleday Early Ector Ewell Ewing Farnsworth Floyd
+		Ford Forrest Forsyth Foster Franklin French Fry Gano Garnett Gibbs Gilbert Gordon
+		Granbury Grant Green Gregg Griffin Halleck Hamlin Hampton Hancock Hardee Hardeman
+		Harrison Hatch Hayes Hays Heintzelman Heth Hill Hindman Holmgren Hood Hooker
+		Houston Howard Hunter Imboden Iverson Jackson Jenkins Johnson Johnston Jones
+		Kemper Kershaw Keyes Kimball King Lane Law Lee Longstreet Loring Lyon Mabry
+		Magruder Mahone Maxey McArthur McClellan McCook McCulloch McDowell McLaws Meade
+		Mitchell Moore Morgan Mosby Nelson Paine Pemberton Pender Pettigrew Phelps
+		Pickett Pillow Polk Pope Porter Posey Potter Powell Price Randal Reynolds Rhodes
+		Rice Robertson Robinson Rodes Rosencrans Ross Rosser Saloman Scales Schenck
+		Schofield Scott Scurry Sedgwick Semmes Seward Sheridan Sherman Sibley Sickles
+		Smith Sprague Steele Stevens Stevenson Stone Stuart Sullivan Taylor Terrell
+		Travis Trimble Tyler "Van Dorn"  Wade Wadsworth Walker Wallace Ward Warner
+		Washington Waterhouse Waul Wells Wharton Wheeler Whitfield Wigfall Wilcox
+		Williams Wilson Wise Wofford Wright Young Zoidberg
+	}
+callsigns = { "Goose" "Iceman" "Maverick" "Apollo" "Animal" "Boom-Boom" "Badger" "Brick" "Cajun" "Challenger" "Chip" "Eagle" "Ghost" "Hawk" "Jaws" "Moses" "Mad Dog" }
+ prefix = o_operation
+ operation = { 0 = { o_default_operation } }
+ use_geographical_default_operation_names = yes
+ offensive_operation_suffix = o_strat_offensive_default
+ defensive_operation_suffix = o_strat_defensive_default
+ naval_operation_suffix = o_strat_naval_default
+}

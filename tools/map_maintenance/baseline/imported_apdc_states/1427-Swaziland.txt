@@ -1,0 +1,29 @@
+state = {
+	id = 1427
+	name = "STATE_1427"
+	provinces = {
+		7900
+		17832
+		17835
+	}
+	manpower = 237729
+	resources = {
+		chromium = 4
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = city
+	history = {
+		owner = SWZ
+		controller = SWZ
+		add_core_of = SAF
+		add_core_of = SWZ
+		victory_points = {
+			7900
+			1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}

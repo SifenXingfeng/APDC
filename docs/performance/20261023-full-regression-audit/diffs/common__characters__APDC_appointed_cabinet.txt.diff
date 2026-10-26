@@ -1,0 +1,7 @@
+--- before/common/characters/APDC_appointed_cabinet.txt
++++ current/common/characters/APDC_appointed_cabinet.txt
+@@ -0,0 +1,4 @@
++characters = {
++LLU_tobias_verhagen = { name = LLU_tobias_verhagen_name portraits = { civilian = { large = GFX_leader_unknown } } }
++LLU_oliver_marchand = { name = LLU_oliver_marchand_name portraits = { civilian = { large = GFX_leader_unknown } } }
++}

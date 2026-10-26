@@ -1,0 +1,35 @@
+state = {
+	id = 654
+	name = "STATE_654"
+	provinces = {
+		1702
+		1779
+		4781
+		4800
+		7262
+		8601
+		10531
+		10713
+		12509
+		12528
+		14393
+		14866
+		15457
+	}
+	manpower = 838129
+	resources = {
+		coal = 1
+	}
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 2
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 1
+		}
+		add_extra_state_shared_building_slots = 2
+	}
+}

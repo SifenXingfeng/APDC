@@ -125,7 +125,7 @@ ideas = {
         GER_APDC_nationwide_lockdown = {
             allowed = { original_tag = GER }
             removal_cost = -1
-            modifier = { monthly_population = -0.80 stability_factor = -0.05 consumer_goods_factor = 0.02 }
+            modifier = { monthly_population = -0.80 stability_factor = -0.05 APDC_eco_population_factor = 0.02 }
         }
         GER_APDC_ghost_beyond_the_oder = {
             allowed = { original_tag = GER }
@@ -135,7 +135,7 @@ ideas = {
         GER_APDC_readiness_level_three = {
             allowed = { original_tag = GER }
             removal_cost = -1
-            modifier = { army_org_factor = 0.05 industrial_capacity_factory = 0.10 stability_factor = -0.05 consumer_goods_factor = 0.03 custom_modifier_tooltip = GER_APDC_free_conscription_law_upgrade_tt }
+            modifier = { army_org_factor = 0.05 industrial_capacity_factory = 0.10 stability_factor = -0.05 APDC_eco_population_factor = 0.03 custom_modifier_tooltip = GER_APDC_free_conscription_law_upgrade_tt }
         }
         GER_APDC_internal_unity_in_emergency = {
             allowed = { original_tag = GER }
@@ -183,7 +183,7 @@ ideas = {
         GER_APDC_preferential_policy_modifier = {
             allowed = { original_tag = GER }
             removal_cost = -1
-            modifier = { consumer_goods_factor = 0.03 }
+            modifier = { APDC_eco_population_factor = 0.03 }
         }
         GER_APDC_armaments_independence_modifier = {
             allowed = { original_tag = GER }

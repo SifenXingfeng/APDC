@@ -1,0 +1,49 @@
+state = {
+	id = 1009
+	name = "STATE_1009"
+	state_category = rural
+	resources = {
+		chromium = 7
+	}
+	provinces = {
+		1948
+		1995
+		2017
+		2062
+		2078
+		2101
+		14743
+		14744
+		14745
+		14747
+		14756
+		18644
+	}
+	history = {
+		owner = AFG
+		controller = AFG
+		add_core_of = AFG
+		victory_points = {
+			1995
+			1
+		}
+		victory_points = {
+			2017
+			2
+		}
+		victory_points = {
+			2078
+			2
+		}
+		victory_points = {
+			14743
+			1
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	manpower = 281165
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

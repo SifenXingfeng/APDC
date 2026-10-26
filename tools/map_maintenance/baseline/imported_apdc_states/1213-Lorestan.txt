@@ -1,0 +1,49 @@
+state = {
+	id = 1213
+	name = "STATE_1213"
+	provinces = {
+		2065
+		5050
+		18745
+		18760
+		18773
+		18781
+	}
+	manpower = 316527
+	resources = {
+		chromium = 1
+		steel = 1
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = PER
+		controller = PER
+		add_core_of = KUR
+		add_core_of = PER
+		victory_points = {
+			2065
+			1
+		}
+		victory_points = {
+			5050
+			2
+		}
+		victory_points = {
+			18745
+			3
+		}
+		victory_points = {
+			18773
+			1
+		}
+		victory_points = {
+			18781
+			2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

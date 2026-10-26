@@ -1,0 +1,91 @@
+# Desktop staging only: no country/unit overrides.
+objectTypes = {
+  
+  pdxmesh = {
+ name = "APDC_b2_goliath_mesh"
+ file = "gfx/models/units/APDC_b2_goliath/APDC_b2_goliath.mesh"
+ animation = { id = "idle" type = "APDC_b2_goliath_idle_animation" }
+ animation = { id = "idle_look" type = "APDC_b2_goliath_idle_look_animation" }
+ animation = { id = "idle_shift" type = "APDC_b2_goliath_idle_shift_animation" }
+ animation = { id = "move" type = "APDC_b2_goliath_move_animation" }
+ animation = { id = "attack" type = "APDC_b2_goliath_attack_animation" }
+ animation = { id = "death" type = "APDC_b2_goliath_death_animation" }
+}
+
+  pdxmesh = {
+ name = "APDC_b2_automaton_mesh"
+ file = "gfx/models/units/APDC_b2_automaton/APDC_b2_automaton.mesh"
+ animation = { id = "idle" type = "APDC_b2_automaton_idle_animation" }
+ animation = { id = "idle_look" type = "APDC_b2_automaton_idle_look_animation" }
+ animation = { id = "idle_shift" type = "APDC_b2_automaton_idle_shift_animation" }
+ animation = { id = "move" type = "APDC_b2_automaton_move_animation" }
+ animation = { id = "attack" type = "APDC_b2_automaton_attack_animation" }
+ animation = { id = "death" type = "APDC_b2_automaton_death_animation" }
+}
+
+  pdxmesh = {
+ name = "APDC_b2_multipod_mesh"
+ file = "gfx/models/units/APDC_b2_multipod/APDC_b2_multipod.mesh"
+ animation = { id = "idle" type = "APDC_b2_multipod_idle_animation" }
+ animation = { id = "idle_look" type = "APDC_b2_multipod_idle_look_animation" }
+ animation = { id = "idle_shift" type = "APDC_b2_multipod_idle_shift_animation" }
+ animation = { id = "move" type = "APDC_b2_multipod_move_animation" }
+ animation = { id = "attack" type = "APDC_b2_multipod_attack_animation" }
+ animation = { id = "death" type = "APDC_b2_multipod_death_animation" }
+}
+
+  pdxmesh = {
+ name = "APDC_b2_doomdog_mesh"
+ file = "gfx/models/units/APDC_b2_doomdog/APDC_b2_doomdog.mesh"
+ animation = { id = "idle" type = "APDC_b2_doomdog_idle_animation" }
+ animation = { id = "idle_look" type = "APDC_b2_doomdog_idle_look_animation" }
+ animation = { id = "idle_shift" type = "APDC_b2_doomdog_idle_shift_animation" }
+ animation = { id = "move" type = "APDC_b2_doomdog_move_animation" }
+ animation = { id = "attack" type = "APDC_b2_doomdog_attack_animation" }
+ animation = { id = "death" type = "APDC_b2_doomdog_death_animation" }
+}
+
+  pdxmesh = {
+ name = "APDC_b2_aa02_mesh"
+ file = "gfx/models/units/APDC_b2_aa02/APDC_b2_aa02.mesh"
+ animation = { id = "idle" type = "APDC_b2_aa02_idle_animation" }
+ animation = { id = "idle_look" type = "APDC_b2_aa02_idle_look_animation" }
+ animation = { id = "idle_shift" type = "APDC_b2_aa02_idle_shift_animation" }
+ animation = { id = "move" type = "APDC_b2_aa02_move_animation" }
+ animation = { id = "attack" type = "APDC_b2_aa02_attack_animation" }
+ animation = { id = "death" type = "APDC_b2_aa02_death_animation" }
+}
+
+  pdxmesh = {
+    name = "APDC_b2_light_tank_mesh"
+    file = "gfx/models/units/APDC_b2_light_tank/APDC_b2_light_tank.mesh"
+    animation = { id = "idle" type = "APDC_b2_light_tank_idle_animation" }
+    animation = { id = "move" type = "APDC_b2_light_tank_move_animation" }
+    animation = { id = "attack" type = "APDC_b2_light_tank_attack_animation" }
+  }
+  pdxmesh = {
+    name = "APDC_b2_amphibious_tank_mesh"
+    file = "gfx/models/units/APDC_b2_amphibious_tank/APDC_b2_amphibious_tank.mesh"
+    animation = { id = "idle" type = "APDC_b2_amphibious_tank_idle_animation" }
+    animation = { id = "move" type = "APDC_b2_amphibious_tank_move_animation" }
+    animation = { id = "attack" type = "APDC_b2_amphibious_tank_attack_animation" }
+  }
+  pdxmesh = {
+ name = "APDC_b2_helicopter_mesh"
+ file = "gfx/models/units/APDC_b2_helicopter/APDC_b2_helicopter.mesh"
+ animation = { id = "idle" type = "APDC_b2_helicopter_idle_animation" }
+ animation = { id = "idle_look" type = "APDC_b2_helicopter_idle_look_animation" }
+ animation = { id = "idle_shift" type = "APDC_b2_helicopter_idle_shift_animation" }
+ animation = { id = "move" type = "APDC_b2_helicopter_move_animation" }
+ animation = { id = "attack" type = "APDC_b2_helicopter_attack_animation" }
+ animation = { id = "death" type = "APDC_b2_helicopter_death_animation" }
+}
+
+  pdxmesh = {
+    name = "APDC_b2_armored_engineer_mesh"
+    file = "gfx/models/units/APDC_b2_armored_engineer/APDC_b2_armored_engineer.mesh"
+    animation = { id = "idle" type = "APDC_b2_armored_engineer_idle_animation" }
+    animation = { id = "move" type = "APDC_b2_armored_engineer_move_animation" }
+    animation = { id = "attack" type = "APDC_b2_armored_engineer_attack_animation" }
+  }
+}

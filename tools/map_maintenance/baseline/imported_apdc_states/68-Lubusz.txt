@@ -1,0 +1,41 @@
+state = {
+	id = 68
+	name = "STATE_68"
+	resources = {
+		aluminium = 17
+		coal = 2
+		steel = 2
+	}
+	provinces = {
+		444
+		537
+		3438
+		3473
+		3572
+		6236
+		9387
+		9470
+		11478
+	}
+	manpower = 1720490
+	buildings_max_level_factor = 1
+	state_category = city
+	local_supplies = 0
+	history = {
+		owner = POL
+		controller = POL
+		add_core_of = POL
+		victory_points = {
+			3438
+			2
+		}
+		victory_points = {
+			11478
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+}

@@ -1,0 +1,15 @@
+objectTypes = {
+    pdxmesh = {
+        name = "APDC_medical_center_mesh"
+        file = "gfx/models/buildings/APDC_medical_center/APDC_medical_center.mesh"
+        scale = 1.0
+        meshsettings = {
+            name = "APDC_medical_centerShape"
+            index = 0
+            texture_diffuse = "APDC_medical_center_diffuse.dds"
+            texture_normal = "APDC_medical_center_normal.dds"
+            texture_specular = "APDC_medical_center_specular.dds"
+            shader = "PdxMeshAdvancedSnow"
+        }
+    }
+}

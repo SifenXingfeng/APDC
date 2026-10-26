@@ -1,0 +1,86 @@
+state = {
+	id = 315
+	name = "STATE_315"
+	manpower = 3607919
+	resources = {
+		steel = 3
+		chromium = 90
+	}
+	state_category = town
+	history = {
+		owner = CUB
+		controller = CUB
+		add_core_of = CUB
+		victory_points = {
+			1550
+			3
+		}
+		victory_points = {
+			4476
+			3
+		}
+		victory_points = {
+			4600
+			2
+		}
+		victory_points = {
+			7451
+			3
+		}
+		victory_points = {
+			7546
+			2
+		}
+		victory_points = {
+			7590
+			3
+		}
+		victory_points = {
+			7622
+			15
+		}
+		victory_points = {
+			10374
+			2
+		}
+		victory_points = {
+			10498
+			1
+		}
+		victory_points = {
+			12347
+			3
+		}
+		victory_points = {
+			14440
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+			7622 = {
+				naval_base = 3
+			}
+			1550 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		1550
+		4476
+		4600
+		7451
+		7546
+		7590
+		7622
+		10374
+		10498
+		12347
+		14440
+		13618
+	}
+	local_supplies = 0.0
+}

@@ -9,12 +9,12 @@ equipments = {
 					has_dlc = "Arms Against Tyranny"
 				}
 				NOT = {
-					has_idea = BUL_army_restrictions_aat
+					always = no
 				}
 			}
 			else = {
 				NOT = {
-					has_idea = BUL_army_restrictions
+					always = no
 				}
 			}
 		}

@@ -1,0 +1,879 @@
+# Optional per-type fixtures. Regimental supports require three line battalions in their column. No automatic start-game deployment.
+division_template = {
+	name = "列装测试 民兵"
+	regiments = {
+		apdc_militia = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 轻步兵"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 摩托化步兵"
+	regiments = {
+		apdc_motorized = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 轮式机械化步兵"
+	regiments = {
+		apdc_wheeled_mechanized = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 履带式机械化步兵"
+	regiments = {
+		apdc_tracked_mechanized = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 国家宪兵"
+	regiments = {
+		apdc_national_gendarmerie = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 重步兵"
+	regiments = {
+		apdc_heavy_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 山地步兵"
+	regiments = {
+		apdc_mountaineers = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 空中突击步兵"
+	regiments = {
+		apdc_air_assault = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 空降兵-轻步兵"
+	regiments = {
+		apdc_paratrooper = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 空降兵-机械化步兵"
+	regiments = {
+		apdc_airborne_mechanized = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 海军陆战队-轻步兵"
+	regiments = {
+		apdc_marine = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 海军陆战队-机械化步兵"
+	regiments = {
+		apdc_amphibious_mechanized = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 游骑兵"
+	regiments = {
+		apdc_rangers = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 涅托"
+	regiments = {
+		apdc_nyto = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 主战坦克"
+	regiments = {
+		apdc_mbt = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 轻型坦克"
+	regiments = {
+		apdc_light_tank = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 反坦克导弹发射车"
+	regiments = {
+		apdc_atgm_vehicle = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 野战自行防空车"
+	regiments = {
+		apdc_spaag = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 空降轻型坦克"
+	regiments = {
+		apdc_airborne_light_tank = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 坦克支援车"
+	regiments = {
+		apdc_tank_support = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 两栖坦克"
+	regiments = {
+		apdc_amphibious_tank = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 武装直升机"
+	regiments = {
+		apdc_attack_helicopter = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 基础机械部队"
+	regiments = {
+		apdc_basic_robot = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 伴随式战术人形"
+	regiments = {
+		apdc_doll_escort = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 小编组战术人形"
+	regiments = {
+		apdc_doll_small = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 大编组战术人形"
+	regiments = {
+		apdc_doll_large = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 摩托化伴随式战术人形"
+	regiments = {
+		apdc_motorized_doll_escort = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 摩托化小编组战术人形"
+	regiments = {
+		apdc_motorized_doll_small = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 摩托化大编组战术人形"
+	regiments = {
+		apdc_motorized_doll_large = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 轮式机械化伴随式战术人形"
+	regiments = {
+		apdc_wheeled_doll_escort = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 轮式机械化小编组战术人形"
+	regiments = {
+		apdc_wheeled_doll_small = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 轮式机械化大编组战术人形"
+	regiments = {
+		apdc_wheeled_doll_large = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 履带式机械化伴随式战术人形"
+	regiments = {
+		apdc_tracked_doll_escort = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 履带式机械化小编组战术人形"
+	regiments = {
+		apdc_tracked_doll_small = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 履带式机械化大编组战术人形"
+	regiments = {
+		apdc_tracked_doll_large = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 空中突击伴随式战术人形"
+	regiments = {
+		apdc_air_assault_doll_escort = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 空中突击小编组战术人形"
+	regiments = {
+		apdc_air_assault_doll_small = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 空中突击大编组战术人形"
+	regiments = {
+		apdc_air_assault_doll_large = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 多足支援机甲"
+	regiments = {
+		apdc_multipod = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 歌莉娅装置"
+	regiments = {
+		apdc_goliath = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 牵引式火炮"
+	regiments = {
+		apdc_towed_artillery = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 摩托化火炮"
+	regiments = {
+		apdc_truck_artillery = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 自行火炮"
+	regiments = {
+		apdc_sp_artillery = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 多管火箭炮"
+	regiments = {
+		apdc_mlrs = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 短程战术导弹"
+	regiments = {
+		apdc_tactical_missile = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 多足机械火炮"
+	regiments = {
+		apdc_multipod_artillery = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 摩托化综合勤务连"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_combined_service = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 运输直升机"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_transport_helicopter_support = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 前线机械工厂"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_field_workshop = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 蛙人部队（水域渗透）"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_frogmen = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 气垫船"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_hovercraft_support = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 精英人形渗透小队"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_elite_doll_infiltration = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 防化连"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_cbrn = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 步兵侦查连"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_infantry_recon = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 无人侦查连"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_robot_recon = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 摩托化侦察连"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_motorized_recon = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 机械化侦察连"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_mechanized_recon = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 装甲侦察连"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_armor_recon = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 无人机侦查连"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_uav_recon = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 宪兵连"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_military_police = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 工兵连"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_engineer = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 装甲工兵"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_armored_engineer = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 前线指挥连"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_frontline_command = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 机甲连（AA02类机甲）"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_aa02_support = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 末日魔犬"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_doomsday_dog_support = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 师级自行火炮支援"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_sp_artillery_support = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 师级牵引式火炮支援"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_towed_artillery_support = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 师级火箭炮支援"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_mlrs_support = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 师级摩托化火炮支援"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_truck_artillery_support = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 师级野战自行防空支援"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_spaag_support = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 师级反坦克导弹发射车支援"
+	regiments = {
+		apdc_infantry = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+		apdc_atgm_support = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 团级自律机械火炮"
+	regiments = { apdc_mbt = { x = 0 y = 0 } apdc_mbt = { x = 0 y = 1 } apdc_mbt = { x = 0 y = 2 } }
+	regimental_support = {
+		apdc_reg_robot_artillery = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 团级自行迫击炮"
+	regiments = { apdc_mbt = { x = 0 y = 0 } apdc_mbt = { x = 0 y = 1 } apdc_mbt = { x = 0 y = 2 } }
+	regimental_support = {
+		apdc_reg_mortar = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 团级自行防空支援"
+	regiments = { apdc_mbt = { x = 0 y = 0 } apdc_mbt = { x = 0 y = 1 } apdc_mbt = { x = 0 y = 2 } }
+	regimental_support = {
+		apdc_reg_spaag = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 团级反坦克导弹发射车支援"
+	regiments = { apdc_mbt = { x = 0 y = 0 } apdc_mbt = { x = 0 y = 1 } apdc_mbt = { x = 0 y = 2 } }
+	regimental_support = {
+		apdc_reg_atgm = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 团级自行火炮支援"
+	regiments = { apdc_mbt = { x = 0 y = 0 } apdc_mbt = { x = 0 y = 1 } apdc_mbt = { x = 0 y = 2 } }
+	regimental_support = {
+		apdc_reg_sp_artillery = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 团级牵引式火炮支援"
+	regiments = { apdc_infantry = { x = 0 y = 0 } apdc_infantry = { x = 0 y = 1 } apdc_infantry = { x = 0 y = 2 } }
+	regimental_support = {
+		apdc_reg_towed_artillery = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 团级防空步兵连"
+	regiments = { apdc_mbt = { x = 0 y = 0 } apdc_mbt = { x = 0 y = 1 } apdc_mbt = { x = 0 y = 2 } }
+	regimental_support = {
+		apdc_reg_infantry_aa = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "列装测试 团级重武器连"
+	regiments = { apdc_infantry = { x = 0 y = 0 } apdc_infantry = { x = 0 y = 1 } apdc_infantry = { x = 0 y = 2 } }
+	regimental_support = {
+		apdc_reg_heavy_weapons = {
+			x = 0
+			y = 0
+		}
+	}
+}

@@ -1,0 +1,4 @@
+on_actions = {
+    on_startup = { effect = { every_country = { APDC_initialize_land_units = yes } } }
+    on_monthly = { effect = { every_country = { APDC_initialize_land_units = yes } } }
+}

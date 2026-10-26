@@ -1,0 +1,11 @@
+--- before/common/military_industrial_organization/organizations/SWI_organization.txt
++++ current/common/military_industrial_organization/organizations/SWI_organization.txt
+@@ -61,7 +61,7 @@
+ 		has_dlc = "By Blood Alone"
+ 	}
+ 	available = {
+-		owner = { has_completed_focus = SWI_swiss_airplane_designs }
++		owner = { always = no }
+ 	}
+ }
+ 

@@ -1,0 +1,408 @@
+--- before/common/scripted_triggers/FRA_scripted_triggers.txt
++++ current/common/scripted_triggers/FRA_scripted_triggers.txt
+@@ -1,405 +1 @@
+-#	Example:
+-# 
+-#	example_trigger = {
+-#		tag = GER
+-#		is_ai = no
+-#	}
+-#
+-#
+-#	In a script file:
+-#
+-#	trigger = {
+-#		exampel_trigger = yes
+-#	}
+-# 
+-
+-
+-FRA_controls_north_africa = {
+-	1415 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	462 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	1384 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	1380 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	460 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	458 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	458 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-}
+-FRA_controls_syria = {
+-	680 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	677 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	554 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	553 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-}
+-
+-FRA_controls_indochina = {
+-	1017 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	670 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	1066 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	741 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	592 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-}
+-FRA_controls_west_africa = {
+-	786 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	272 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	1402 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	779 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	1396 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	541 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	676 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	64 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-}
+-
+-FRA_controls_central_africa = {
+-	912 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	1423 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	198 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	1153 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-	1350 = {
+-		OR = {
+-			is_controlled_by = ROOT
+-			CONTROLLER = {
+-				OR = {
+-					is_in_faction_with = ROOT
+-					is_subject_of = ROOT
+-				}
+-			}
+-		}
+-	}
+-}
+-FRA_has_inefficient_economy = {
+-	if = {
+-		limit = { has_idea = FRA_inefficient_economy_2 }
+-		has_idea = FRA_inefficient_economy_2
+-	}
+-	else = {
+-		has_idea = FRA_inefficient_economy_1
+-	}
+-}
+-FRA_has_worker_shortage = {
+-	OR = {
+-		has_idea = FRA_full_employment
+-		has_idea = FRA_worker_shortage
+-	}
+-}
+-
+-is_owned_or_subject_trigger = {
+-	CONTROLLER = {
+-		OR = {
+-			tag = ROOT
+-			is_subject_of = ROOT
+-		}
+-	}
+-}
+-
+-USA_can_sell_weapons_trigger = {
+-	OR = {
+-		AND = {
+-			original_tag = PHI
+-			is_ally_with = USA
+-		}
+-		NOT = { 
+-			USA = {
+-				OR = {
+-					AND = {
+-						has_completed_focus = USA_neutrality_act 
+-						NOT = { has_completed_focus = USA_lend_lease_act } #Can't sell weapons if US has declared dictatorship without passing Lend-Lease Act
+-					}
+-					has_war_with = FRA
+-				}
+-			}
+-		}
+-	}
+-	USA = { has_civil_war = no }
+-}
+-
+-has_any_occupation_cost_trigger = {
+-	OR = {
+-		has_idea = FRA_occupation_costs_1
+-		has_idea = FRA_occupation_costs_2
+-		has_idea = FRA_occupation_costs_3
+-		has_idea = FRA_occupation_costs_4
+-	}
+-}
+-
+-is_vichy_france = {
+-	has_country_flag = vichy_france	
+-}+# APDC: unused imported script definitions removed.

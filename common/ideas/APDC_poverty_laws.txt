@@ -6,9 +6,9 @@ ideas = {
 		no_poverty = {
 			cost = -1
 			traits = { poverty_idea }
-			default = yes
-			allowed = { always = yes }
-			available = { has_idea = no_poverty }
+			
+			allowed = { always = no }
+			available = { always = no }
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = { }
@@ -17,28 +17,28 @@ ideas = {
 		poverty5 = {
 			cost = -1
 			traits = { poverty_idea }
-			allowed = { always = yes }
-			available = { has_idea = poverty5 }
+			allowed = { always = no }
+			available = { always = no }
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
 				monthly_population = -0.04
 				production_speed_buildings_factor = -0.05
-				consumer_goods_factor = 0.08
+				APDC_eco_population_factor = 0.08
 			}
 		}
 
 		poverty4 = {
 			cost = -1
 			traits = { poverty_idea }
-			allowed = { always = yes }
-			available = { has_idea = poverty4 }
+			allowed = { always = no }
+			available = { always = no }
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
 				monthly_population = -0.07
 				production_speed_buildings_factor = -0.10
-				consumer_goods_factor = 0.14
+				APDC_eco_population_factor = 0.14
 				research_speed_factor = -0.025
 			}
 		}
@@ -46,14 +46,14 @@ ideas = {
 		poverty3 = {
 			cost = -1
 			traits = { poverty_idea }
-			allowed = { always = yes }
-			available = { has_idea = poverty3 }
+			allowed = { always = no }
+			available = { always = no }
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
 				monthly_population = -0.12
 				production_speed_buildings_factor = -0.15
-				consumer_goods_factor = 0.20
+				APDC_eco_population_factor = 0.20
 				research_speed_factor = -0.05
 			}
 		}
@@ -62,14 +62,14 @@ ideas = {
 			cost = -1
 			traits = { poverty_idea }
 			picture = poverty_generic
-			allowed = { always = yes }
-			available = { has_idea = poverty2 }
+			allowed = { always = no }
+			available = { always = no }
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
 				monthly_population = -0.13
 				production_speed_buildings_factor = -0.16
-				consumer_goods_factor = 0.22
+				APDC_eco_population_factor = 0.22
 				research_speed_factor = -0.075
 			}
 		}
@@ -77,14 +77,14 @@ ideas = {
 		poverty1 = {
 			cost = -1
 			traits = { poverty_idea }
-			allowed = { always = yes }
-			available = { has_idea = poverty1 }
+			allowed = { always = no }
+			available = { always = no }
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
 				monthly_population = -0.14
 				production_speed_buildings_factor = -0.18
-				consumer_goods_factor = 0.26
+				APDC_eco_population_factor = 0.26
 				research_speed_factor = -0.1
 			}
 		}
@@ -92,14 +92,14 @@ ideas = {
 		poverty = {
 			cost = -1
 			traits = { poverty_idea }
-			allowed = { always = yes }
-			available = { has_idea = poverty }
+			allowed = { always = no }
+			available = { always = no }
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
 				monthly_population = -0.15
 				production_speed_buildings_factor = -0.20
-				consumer_goods_factor = 0.3
+				APDC_eco_population_factor = 0.3
 				conscription = -0.009
 				research_speed_factor = -0.15
 			}

@@ -1,0 +1,24 @@
+state = {
+	id = 1137
+	name = "STATE_1137"
+	provinces = {
+		2271
+	}
+	manpower = 69761
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = city
+	history = {
+		owner = JAP
+		controller = JAP
+		add_core_of = COL
+		add_core_of = JAP
+		victory_points = {
+			2271
+			3
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

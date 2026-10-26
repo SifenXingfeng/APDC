@@ -1,0 +1,1 @@
+on_actions = { on_daily_GER = { effect = { if = { limit = { NOT = { has_country_flag = QA_panel_tested } } set_country_flag = QA_panel_tested QA_panel_fixtures = yes } log = "APDC_PANEL_DAY date=[GetDateText]" } } }

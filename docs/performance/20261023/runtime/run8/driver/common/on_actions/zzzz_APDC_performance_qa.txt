@@ -1,0 +1,5 @@
+on_actions = {
+ on_daily = { effect = { add_to_variable = { global.APDC_perf_daily_calls = 1 } } }
+ on_startup = { effect = { log = "APDC_PERF START" } }
+ on_daily_GER = { effect = { log = "APDC_PERF DAY date=[GetDateText] ticks=[?APDC_eco_day_ticks] weeks=[?APDC_eco_week_ticks] calls=[?global.APDC_perf_daily_calls]" } }
+}

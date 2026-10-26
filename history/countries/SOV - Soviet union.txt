@@ -1,7 +1,9 @@
+# APDC: regular roster and production models available at scenario initialization.
+set_technology = { APDC_land_units_bootstrap = 1 }
 # Shared empty OOB preserves startup initialization until a country OOB is authored.
 set_oob = "APDC_empty"
 
-capital = 1442 #莫斯科
+capital = 1157 #莫斯科
 
 starting_train_buffer = 3.0
 
@@ -45,14 +47,6 @@ set_autonomy = {
 }
 
 #非军事区
-213 = { set_demilitarized_zone = yes }
-215 = { set_demilitarized_zone = yes }
-1359 = { set_demilitarized_zone = yes }
-1712 = { set_demilitarized_zone = yes }
-1722 = { set_demilitarized_zone = yes }
-644 = { set_demilitarized_zone = yes }
-
-# The New Soviet Union establishes and leads the Warsaw Pact using the existing
 # APDC template and icon.
 set_rule = { can_create_factions = yes }
 create_faction_from_template = faction_template_APDC_warsaw_pact

@@ -1,33 +1,27 @@
 state = {
-	#Population Done
 	id = 164
 	name = "STATE_164"
+	manpower = 120000
+	state_category = small_island
 	history = {
-		owner = ITA
-		add_core_of = ITA
-		victory_points = {
-			10007
-			1
-		}
+		owner = GRE
+		controller = GRE
+		add_core_of = GRE
+		add_claim_by = TUR
 		buildings = {
 			infrastructure = 3
 			air_base = 1
-			radar_station = 1
+			10007 = {
+				naval_base = 4
+			}
 			7003 = {
 				naval_base = 1
 			}
-			10007 = {
-				naval_base = 3
-			}
 		}
-		add_core_of = GRE
-		add_claim_by = TUR
 	}
 	provinces = {
 		7003
 		10007
 	}
-	manpower = 218777
-	buildings_max_level_factor = 1
-	state_category = rural
+	local_supplies = 0.0
 }

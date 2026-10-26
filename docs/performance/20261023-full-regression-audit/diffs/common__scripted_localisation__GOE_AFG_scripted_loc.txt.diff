@@ -1,0 +1,22 @@
+--- before/common/scripted_localisation/GOE_AFG_scripted_loc.txt
++++ current/common/scripted_localisation/GOE_AFG_scripted_loc.txt
+@@ -12,18 +12,4 @@
+ ##### Example #####
+ 
+ 
+-defined_text = {
+-	name = AFG_get_turkik_people_name_key
+-	text = {
+-		trigger = {
+-			tag = AFG
+-		}
+-		localization_key = afg_turkik_people_name_key
+-	}
+-	text = {
+-		trigger = {
+-			NOT = { tag = AFG }
+-		}
+-		localization_key = not_afg_turkik_people_name_key
+-	}
+-}
++

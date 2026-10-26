@@ -1,0 +1,93 @@
+state = {
+	id = 375
+	name = "STATE_375"
+	resources = {
+		oil = 137
+		aluminium = 33
+		coal = 7
+	}
+	provinces = {
+		805
+		1500
+		1915
+		1954
+		1998
+		2055
+		2082
+		3875
+		3972
+		4577
+		4955
+		5001
+		5038
+		5085
+		6968
+		7628
+		7981
+		8064
+		9773
+		9829
+		9908
+		9920
+		10504
+		10740
+		10778
+		10861
+		10894
+		12301
+		12486
+		12848
+		12875
+		12893
+	}
+	manpower = 3803894
+	buildings_max_level_factor = 1
+	state_category = metropolis
+	local_supplies = 9
+	history = {
+		owner = USA
+		controller = USA
+		add_core_of = USA
+		victory_points = {
+			1998
+			1
+		}
+		victory_points = {
+			2082
+			2
+		}
+		victory_points = {
+			3972
+			2
+		}
+		victory_points = {
+			9773
+			2
+		}
+		victory_points = {
+			9920
+			1
+		}
+		victory_points = {
+			10504
+			2
+		}
+		victory_points = {
+			10740
+			5
+		}
+		victory_points = {
+			10861
+			1
+		}
+		victory_points = {
+			12875
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 9
+			air_base = 3
+		}
+	}
+}

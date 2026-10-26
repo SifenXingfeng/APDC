@@ -1,0 +1,101 @@
+state = {
+	id = 422
+	name = "STATE_422"
+	manpower = 5500000
+	state_category = rural
+	resources = {
+		rubber = 60
+	}
+	history = {
+		owner = PAK
+		controller = PAK
+		add_core_of = PAK
+		victory_points = {
+			7260
+			1
+		}
+		victory_points = {
+			7344
+			1
+		}
+		victory_points = {
+			10201
+			1
+		}
+		victory_points = {
+			10229
+			2
+		}
+		victory_points = {
+			12258
+			1
+		}
+		victory_points = {
+			16145
+			5
+		}
+		victory_points = {
+			16146
+			1
+		}
+		victory_points = {
+			16149
+			1
+		}
+		victory_points = {
+			16151
+			25
+		}
+		victory_points = {
+			16152
+			5
+		}
+		victory_points = {
+			16153
+			2
+		}
+		victory_points = {
+			16154
+			1
+		}
+		victory_points = {
+			16155
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+			10201 = {
+				naval_base = 5
+			}
+			7260 = {
+				naval_base = 3
+				coastal_bunker = 3
+			}
+		}
+	}
+	provinces = {
+		1213
+		4219
+		7260
+		7344
+		10201
+		10229
+		10287
+		12258
+		16143
+		16144
+		16145
+		16146
+		16147
+		16148
+		16149
+		16151
+		16152
+		16153
+		16154
+		16155
+	}
+	local_supplies = 0.0
+}

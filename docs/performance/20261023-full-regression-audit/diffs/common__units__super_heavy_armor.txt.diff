@@ -1,0 +1,17 @@
+--- before/common/units/super_heavy_armor.txt
++++ current/common/units/super_heavy_armor.txt
+@@ -1,9 +1,12 @@
+ # APDC: old land-unit IDs retained for reference compatibility; normal unlocks removed.
+ sub_units = {
+-	super_heavy_armor = {
++	
++
++# Inactive identifiers required by retained engine interfaces.
++super_heavy_armor = {
+ 		abbreviation = "STK"
+ 		sprite = heavy_armor
+-		map_icon_category = armored
++		
+ 		priority = 2520
+ 		ai_priority = 2520
+ 		active = no

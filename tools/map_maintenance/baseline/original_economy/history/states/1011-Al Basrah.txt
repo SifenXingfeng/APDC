@@ -1,0 +1,43 @@
+state = {
+	id = 1011
+	name = "STATE_1011"
+
+	resources = {
+		steel = 4
+		aluminium = 7
+	}
+	
+	state_category = town
+	manpower = 980164
+
+	history = {
+
+		owner = IRQ
+		add_core_of = IRQ
+
+		victory_points = {
+			2089 5 # Basrah
+		}
+		victory_points = {
+			8001 3 # Najaf
+		}
+		victory_points = {
+			12726 1 # Nasiriyah
+		}
+
+		buildings = {
+			infrastructure = 2 #was: 5
+			arms_factory = 1
+			industrial_complex = 1
+			15765 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces = {
+		78 2004 2089 7977 7994 8001 12726 15746 15747 15748 15749 15750 15753 15754 15765 16305 16307 16312 16313 16319 16321 18451 18452 18454 18458 10876
+	}
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

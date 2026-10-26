@@ -1,0 +1,36 @@
+state = {
+	id = 1482
+	name = "STATE_1482"
+	provinces = {
+		12821
+		13423
+		18565
+		18573
+		18583
+	}
+	manpower = 272251
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+	history = {
+		owner = YEM
+		controller = YEM
+		add_core_of = YEM
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			12821
+			1
+		}
+		victory_points = {
+			13423
+			1
+		}
+		victory_points = {
+			18583
+			1
+		}
+		set_state_flag = state_renamings
+	}
+}

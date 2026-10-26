@@ -1,0 +1,24 @@
+state = {
+	id = 1012
+	name = "STATE_1012"
+	provinces = {
+		8098
+		15991
+	}
+	state_category = town
+	manpower = 480164
+	history = {
+		owner = PAK
+		controller = PAK
+		add_core_of = PAK
+		victory_points = {
+			8098
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

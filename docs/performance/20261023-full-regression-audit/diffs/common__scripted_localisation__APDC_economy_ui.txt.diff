@@ -1,0 +1,202 @@
+--- before/common/scripted_localisation/APDC_economy_ui.txt
++++ current/common/scripted_localisation/APDC_economy_ui.txt
+@@ -129,7 +129,6 @@
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 2 } } localization_key = amphibious_tank_equipment_1 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 3 } } localization_key = amphibious_tank_equipment_2 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 4 } } localization_key = amphibious_tank_equipment_3 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 5 } } localization_key = amphibious_tank_chassis_1 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 6 } } localization_key = apdc_aa02_equipment_1 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 7 } } localization_key = apdc_airborne_ifv_equipment_1 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 8 } } localization_key = apdc_airborne_tank_equipment_1 }
+@@ -173,11 +172,6 @@
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 46 } } localization_key = artillery_equipment_3 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 47 } } localization_key = artillery_equipment_4 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 48 } } localization_key = artillery_equipment_5 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 49 } } localization_key = cv_small_plane_airframe_0 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 50 } } localization_key = cv_small_plane_airframe_1 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 51 } } localization_key = cv_small_plane_airframe_2 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 52 } } localization_key = cv_small_plane_airframe_3 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 53 } } localization_key = cv_small_plane_airframe_4 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 54 } } localization_key = cv_MP_fighter_equipment_0 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 55 } } localization_key = cv_MP_fighter_equipment_2 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 56 } } localization_key = cv_MP_fighter_equipment_3 }
+@@ -193,10 +187,6 @@
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 66 } } localization_key = cv_CAS_equipment_2 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 67 } } localization_key = cv_CAS_equipment_3 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 68 } } localization_key = floating_harbor_equipment_1 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 69 } } localization_key = heavy_tank_chassis_0 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 70 } } localization_key = heavy_tank_chassis_1 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 71 } } localization_key = heavy_tank_chassis_2 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 72 } } localization_key = heavy_tank_chassis_3 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 73 } } localization_key = helicopter_gunship_equipment_0 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 74 } } localization_key = helicopter_gunship_equipment_1 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 75 } } localization_key = helicopter_gunship_equipment_2 }
+@@ -214,11 +204,6 @@
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 87 } } localization_key = infantry_fighting_vehicle_equipment_3 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 88 } } localization_key = infantry_fighting_vehicle_equipment_4 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 89 } } localization_key = infantry_fighting_vehicle_equipment_5 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 90 } } localization_key = large_plane_airframe_0 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 91 } } localization_key = large_plane_airframe_1 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 92 } } localization_key = large_plane_airframe_2 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 93 } } localization_key = large_plane_airframe_3 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 94 } } localization_key = large_plane_airframe_4 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 95 } } localization_key = strat_bomber_equipment_0 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 96 } } localization_key = strat_bomber_equipment_1 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 97 } } localization_key = strat_bomber_equipment_2 }
+@@ -231,36 +216,22 @@
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 104 } } localization_key = light_tank_equipment_3 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 105 } } localization_key = light_tank_equipment_4 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 106 } } localization_key = light_tank_equipment_5 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 107 } } localization_key = light_tank_chassis_0 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 108 } } localization_key = light_tank_chassis_1 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 109 } } localization_key = light_tank_chassis_2 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 110 } } localization_key = light_tank_chassis_3 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 111 } } localization_key = mechanized_equipment_1 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 112 } } localization_key = mechanized_equipment_2 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 113 } } localization_key = mechanized_equipment_3 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 114 } } localization_key = mechanized_equipment_4 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 115 } } localization_key = mechanized_equipment_5 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 116 } } localization_key = mechanized_equipment_6 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 117 } } localization_key = medium_plane_airframe_0 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 118 } } localization_key = medium_plane_airframe_1 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 119 } } localization_key = medium_plane_airframe_2 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 120 } } localization_key = medium_plane_airframe_3 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 121 } } localization_key = medium_plane_airframe_4 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 122 } } localization_key = scout_plane_equipment_1 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 123 } } localization_key = scout_plane_equipment_2 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 124 } } localization_key = scout_plane_equipment_3 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 125 } } localization_key = scout_plane_equipment_4 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 126 } } localization_key = medium_tank_chassis_0 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 127 } } localization_key = medium_tank_chassis_1 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 128 } } localization_key = medium_tank_chassis_2 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 129 } } localization_key = medium_tank_chassis_3 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 130 } } localization_key = modern_tank_equipment_1 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 131 } } localization_key = modern_tank_equipment_2 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 132 } } localization_key = modern_tank_equipment_3 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 133 } } localization_key = modern_tank_equipment_4 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 134 } } localization_key = modern_tank_equipment_5 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 135 } } localization_key = modern_tank_equipment_6 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 136 } } localization_key = modern_tank_chassis_1 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 137 } } localization_key = motorized_equipment_0 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 138 } } localization_key = motorized_equipment_1 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 139 } } localization_key = motorized_equipment_2 }
+@@ -270,11 +241,6 @@
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 143 } } localization_key = rocket_artillery_equipment_3 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 144 } } localization_key = rocket_artillery_equipment_4 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 145 } } localization_key = rocket_artillery_equipment_5 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 146 } } localization_key = small_plane_airframe_0 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 147 } } localization_key = small_plane_airframe_1 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 148 } } localization_key = small_plane_airframe_2 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 149 } } localization_key = small_plane_airframe_3 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 150 } } localization_key = small_plane_airframe_4 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 151 } } localization_key = small_plane_airframe_5 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 152 } } localization_key = MP_fighter_equipment_0 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 153 } } localization_key = fighter_equipment_0 }
+@@ -306,7 +272,6 @@
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 179 } } localization_key = sp_artillery_equipment_2 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 180 } } localization_key = sp_artillery_equipment_3 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 181 } } localization_key = sp_artillery_equipment_4 }
+-text = { trigger = { check_variable = { APDC_eco_equipment_id = 182 } } localization_key = super_heavy_tank_chassis_1 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 183 } } localization_key = support_equipment_1 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 184 } } localization_key = train_equipment_1 }
+ text = { trigger = { check_variable = { APDC_eco_equipment_id = 185 } } localization_key = train_equipment_2 }
+@@ -329,7 +294,6 @@
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 2 } } localization_key = amphibious_tank_equipment_1 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 3 } } localization_key = amphibious_tank_equipment_2 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 4 } } localization_key = amphibious_tank_equipment_3 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 5 } } localization_key = amphibious_tank_chassis_1 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 6 } } localization_key = apdc_aa02_equipment_1 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 7 } } localization_key = apdc_airborne_ifv_equipment_1 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 8 } } localization_key = apdc_airborne_tank_equipment_1 }
+@@ -373,11 +337,6 @@
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 46 } } localization_key = artillery_equipment_3 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 47 } } localization_key = artillery_equipment_4 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 48 } } localization_key = artillery_equipment_5 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 49 } } localization_key = cv_small_plane_airframe_0 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 50 } } localization_key = cv_small_plane_airframe_1 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 51 } } localization_key = cv_small_plane_airframe_2 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 52 } } localization_key = cv_small_plane_airframe_3 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 53 } } localization_key = cv_small_plane_airframe_4 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 54 } } localization_key = cv_MP_fighter_equipment_0 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 55 } } localization_key = cv_MP_fighter_equipment_2 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 56 } } localization_key = cv_MP_fighter_equipment_3 }
+@@ -393,10 +352,6 @@
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 66 } } localization_key = cv_CAS_equipment_2 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 67 } } localization_key = cv_CAS_equipment_3 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 68 } } localization_key = floating_harbor_equipment_1 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 69 } } localization_key = heavy_tank_chassis_0 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 70 } } localization_key = heavy_tank_chassis_1 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 71 } } localization_key = heavy_tank_chassis_2 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 72 } } localization_key = heavy_tank_chassis_3 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 73 } } localization_key = helicopter_gunship_equipment_0 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 74 } } localization_key = helicopter_gunship_equipment_1 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 75 } } localization_key = helicopter_gunship_equipment_2 }
+@@ -414,11 +369,6 @@
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 87 } } localization_key = infantry_fighting_vehicle_equipment_3 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 88 } } localization_key = infantry_fighting_vehicle_equipment_4 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 89 } } localization_key = infantry_fighting_vehicle_equipment_5 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 90 } } localization_key = large_plane_airframe_0 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 91 } } localization_key = large_plane_airframe_1 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 92 } } localization_key = large_plane_airframe_2 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 93 } } localization_key = large_plane_airframe_3 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 94 } } localization_key = large_plane_airframe_4 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 95 } } localization_key = strat_bomber_equipment_0 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 96 } } localization_key = strat_bomber_equipment_1 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 97 } } localization_key = strat_bomber_equipment_2 }
+@@ -431,36 +381,22 @@
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 104 } } localization_key = light_tank_equipment_3 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 105 } } localization_key = light_tank_equipment_4 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 106 } } localization_key = light_tank_equipment_5 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 107 } } localization_key = light_tank_chassis_0 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 108 } } localization_key = light_tank_chassis_1 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 109 } } localization_key = light_tank_chassis_2 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 110 } } localization_key = light_tank_chassis_3 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 111 } } localization_key = mechanized_equipment_1 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 112 } } localization_key = mechanized_equipment_2 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 113 } } localization_key = mechanized_equipment_3 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 114 } } localization_key = mechanized_equipment_4 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 115 } } localization_key = mechanized_equipment_5 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 116 } } localization_key = mechanized_equipment_6 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 117 } } localization_key = medium_plane_airframe_0 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 118 } } localization_key = medium_plane_airframe_1 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 119 } } localization_key = medium_plane_airframe_2 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 120 } } localization_key = medium_plane_airframe_3 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 121 } } localization_key = medium_plane_airframe_4 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 122 } } localization_key = scout_plane_equipment_1 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 123 } } localization_key = scout_plane_equipment_2 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 124 } } localization_key = scout_plane_equipment_3 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 125 } } localization_key = scout_plane_equipment_4 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 126 } } localization_key = medium_tank_chassis_0 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 127 } } localization_key = medium_tank_chassis_1 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 128 } } localization_key = medium_tank_chassis_2 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 129 } } localization_key = medium_tank_chassis_3 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 130 } } localization_key = modern_tank_equipment_1 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 131 } } localization_key = modern_tank_equipment_2 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 132 } } localization_key = modern_tank_equipment_3 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 133 } } localization_key = modern_tank_equipment_4 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 134 } } localization_key = modern_tank_equipment_5 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 135 } } localization_key = modern_tank_equipment_6 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 136 } } localization_key = modern_tank_chassis_1 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 137 } } localization_key = motorized_equipment_0 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 138 } } localization_key = motorized_equipment_1 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 139 } } localization_key = motorized_equipment_2 }
+@@ -470,11 +406,6 @@
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 143 } } localization_key = rocket_artillery_equipment_3 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 144 } } localization_key = rocket_artillery_equipment_4 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 145 } } localization_key = rocket_artillery_equipment_5 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 146 } } localization_key = small_plane_airframe_0 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 147 } } localization_key = small_plane_airframe_1 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 148 } } localization_key = small_plane_airframe_2 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 149 } } localization_key = small_plane_airframe_3 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 150 } } localization_key = small_plane_airframe_4 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 151 } } localization_key = small_plane_airframe_5 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 152 } } localization_key = MP_fighter_equipment_0 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 153 } } localization_key = fighter_equipment_0 }
+@@ -506,7 +437,6 @@
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 179 } } localization_key = sp_artillery_equipment_2 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 180 } } localization_key = sp_artillery_equipment_3 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 181 } } localization_key = sp_artillery_equipment_4 }
+-text = { trigger = { check_variable = { APDC_eco_purchase_id = 182 } } localization_key = super_heavy_tank_chassis_1 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 183 } } localization_key = support_equipment_1 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 184 } } localization_key = train_equipment_1 }
+ text = { trigger = { check_variable = { APDC_eco_purchase_id = 185 } } localization_key = train_equipment_2 }

@@ -1,4 +1,6 @@
-﻿# Shared empty OOB preserves startup initialization until a country OOB is authored.
+# APDC: regular roster and production models available at scenario initialization.
+set_technology = { APDC_land_units_bootstrap = 1 }
+# Shared empty OOB preserves startup initialization until a country OOB is authored.
 set_oob = "APDC_empty"
 
 set_politics = {
@@ -17,61 +19,3 @@ set_stability = 0.90
 set_war_support = 0.5
 
 #非军事区
-146 = { set_demilitarized_zone = yes }
-595 = { set_demilitarized_zone = yes }
-596 = { set_demilitarized_zone = yes }
-597 = { set_demilitarized_zone = yes }
-598 = { set_demilitarized_zone = yes }
-606 = { set_demilitarized_zone = yes }
-613 = { set_demilitarized_zone = yes }
-716 = { set_demilitarized_zone = yes }
-810 = { set_demilitarized_zone = yes }
-811 = { set_demilitarized_zone = yes }
-812 = { set_demilitarized_zone = yes }
-813 = { set_demilitarized_zone = yes }
-959 = { set_demilitarized_zone = yes }
-1020 = { set_demilitarized_zone = yes }
-1022 = { set_demilitarized_zone = yes }
-1265 = { set_demilitarized_zone = yes }
-1636 = { set_demilitarized_zone = yes }
-1637 = { set_demilitarized_zone = yes }
-1645 = { set_demilitarized_zone = yes }
-1713 = { set_demilitarized_zone = yes }
-2327 = { set_demilitarized_zone = yes }
-2328 = { set_demilitarized_zone = yes }
-2329 = { set_demilitarized_zone = yes }
-2330 = { set_demilitarized_zone = yes }
-2331 = { set_demilitarized_zone = yes }
-2332 = { set_demilitarized_zone = yes }
-2333 = { set_demilitarized_zone = yes }
-2334 = { set_demilitarized_zone = yes }
-2335 = { set_demilitarized_zone = yes }
-2336 = { set_demilitarized_zone = yes }
-2337 = { set_demilitarized_zone = yes }
-2339 = { set_demilitarized_zone = yes }
-2340 = { set_demilitarized_zone = yes }
-2341 = { set_demilitarized_zone = yes }
-2342 = { set_demilitarized_zone = yes }
-2343 = { set_demilitarized_zone = yes }
-2346 = { set_demilitarized_zone = yes }
-2347 = { set_demilitarized_zone = yes }
-2366 = { set_demilitarized_zone = yes }
-2437 = { set_demilitarized_zone = yes }
-
-# 原红区开局非军事区
-623 = { set_demilitarized_zone = yes }
-624 = { set_demilitarized_zone = yes }
-625 = { set_demilitarized_zone = yes }
-626 = { set_demilitarized_zone = yes }
-627 = { set_demilitarized_zone = yes }
-628 = { set_demilitarized_zone = yes }
-1455 = { set_demilitarized_zone = yes }
-1456 = { set_demilitarized_zone = yes }
-1457 = { set_demilitarized_zone = yes }
-1458 = { set_demilitarized_zone = yes }
-1459 = { set_demilitarized_zone = yes }
-1460 = { set_demilitarized_zone = yes }
-1461 = { set_demilitarized_zone = yes }
-1462 = { set_demilitarized_zone = yes }
-1463 = { set_demilitarized_zone = yes }
-2324 = { set_demilitarized_zone = yes }

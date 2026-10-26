@@ -1,0 +1,39 @@
+state = {
+	id = 556
+	name = "STATE_556"
+	provinces = {
+		5045
+		13671
+		14111
+		14113
+		14114
+		14139
+		14159
+	}
+	manpower = 831196
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 2
+	history = {
+		owner = MLI
+		controller = MLI
+		add_core_of = ISP
+		add_core_of = JNM
+		add_core_of = MLI
+		victory_points = {
+			5045
+			1
+		}
+		victory_points = {
+			13671
+			3
+		}
+		victory_points = {
+			14113
+			3
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

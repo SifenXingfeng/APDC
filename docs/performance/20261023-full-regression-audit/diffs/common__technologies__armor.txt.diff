@@ -1,0 +1,1355 @@
+--- before/common/technologies/armor.txt
++++ current/common/technologies/armor.txt
+@@ -7,12 +7,14 @@
+ 
+ 		}
+ 		# APDC: retired land-unit unlock removed.
+-		on_research_complete_limit = {
+-			NOT = {	has_template_containing_unit = light_armor }
+-			NOT = {	has_template_containing_unit = heavy_armor }
+-			NOT = {	has_template_containing_unit = medium_armor }
+-		}
++		
+ 		on_research_complete = {
++if = { limit = {
++			NOT = {	always = no }
++			NOT = {	always = no }
++			NOT = {	always = no }
++		}
++
+ 			hidden_effect = {
+ 				if = {
+ 					limit = {
+@@ -31,7 +33,13 @@
+ 			}
+ 
+ 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+-		}
++		
++}
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++
+ 
+ 		path = {
+ 			leads_to_tech = basic_light_tank
+@@ -85,12 +93,14 @@
+ 			light_tank_equipment_1
+ 		}
+ 
+-		on_research_complete_limit = {
+-			NOT = {	has_template_containing_unit = light_armor }
+-			NOT = {	has_template_containing_unit = heavy_armor }
+-			NOT = {	has_template_containing_unit = medium_armor }
+-		}
++		
+ 		on_research_complete = {
++if = { limit = {
++			NOT = {	always = no }
++			NOT = {	always = no }
++			NOT = {	always = no }
++		}
++
+ 			hidden_effect = {
+ 				if = {
+ 					limit = {
+@@ -109,7 +119,13 @@
+ 			}
+ 
+ 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+-		}
++		
++}
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++
+ 
+ 		path = {
+ 			leads_to_tech = improved_light_tank
+@@ -214,7 +230,13 @@
+ 		}
+ 
+ 		special_project_specialization = { specialization_land }
+-	}
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
+ 
+ 	advanced_light_tank = { 
+ 
+@@ -223,7 +245,7 @@
+ 		}
+ 		path = {
+ 			leads_to_tech = advanced_light_tank_2
+-			research_cost = 1
++			research_cost_coeff = 1
+ 		}
+ 		research_cost = 2
+ 		start_year = 2065
+@@ -263,7 +285,13 @@
+ 			mio_cat_tech_light_armor_and_modules
+ 		}
+ 		special_project_specialization = { specialization_land }
+-	}
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
+ 
+ 	advanced_light_tank_2 = { 
+ 
+@@ -272,7 +300,7 @@
+ 		}
+ 		path = {
+ 			leads_to_tech = future_light_tank
+-			research_cost = 1
++			research_cost_coeff = 1
+ 		}
+ 		research_cost = 2
+ 		start_year = 2065
+@@ -312,7 +340,13 @@
+ 			mio_cat_tech_light_armor_and_modules
+ 		}
+ 		special_project_specialization = { specialization_land }
+-	}
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
+ 
+ 	future_light_tank = { 
+ 
+@@ -359,7 +393,13 @@
+ 			mio_cat_tech_light_armor_and_modules
+ 		}
+ 		special_project_specialization = { specialization_land }
+-	}
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
+ 
+ 
+ 	main_battle_tank = { 
+@@ -415,7 +455,13 @@
+ 			mio_cat_tech_main_battle_armor_and_modules
+ 		}
+ 		special_project_specialization = { specialization_land }
+-	}
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
+ 	main_battle_tank2 = { 
+ 
+ 		enable_equipments = {
+@@ -467,7 +513,13 @@
+ 			mio_cat_tech_main_battle_armor_and_modules
+ 		}
+ 		special_project_specialization = { specialization_land }
+-	}
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
+ 	main_battle_tank3 = { 
+ 
+ 		enable_equipments = {
+@@ -515,7 +567,13 @@
+ 			mio_cat_tech_main_battle_armor_and_modules
+ 		}
+ 		special_project_specialization = { specialization_land }
+-	}
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
+ 	main_battle_tank4 = { 
+ 
+ 		enable_equipments = {
+@@ -568,7 +626,13 @@
+ 			mio_cat_tech_main_battle_armor_and_modules
+ 		}
+ 		special_project_specialization = { specialization_land }
+-	}
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
+ 
+ 	main_battle_tank5 = { 
+ 
+@@ -617,7 +681,13 @@
+ 			mio_cat_tech_main_battle_armor_and_modules
+ 		}
+ 		special_project_specialization = { specialization_land }
+-	}
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
+ 
+ 	main_battle_tank6 = { 
+ 
+@@ -667,28 +737,25 @@
+ 			mio_cat_tech_main_battle_armor_and_modules
+ 		}
+ 		special_project_specialization = { specialization_land }
+-	}
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
+ 	improve_ap1 = {
+-		modern_armor = {
+-			ap_attack = 0.05
+-			hard_attack = 0.05
+-		}
++		
+ 		apdc_mbt = {
+ 			ap_attack = 0.05
+ 			hard_attack = 0.05
+ 		}
+-		light_armor = {
+-			ap_attack = 0.05
+-			hard_attack = 0.05
+-		}
++		
+ 		apdc_light_tank = {
+ 			ap_attack = 0.05
+ 			hard_attack = 0.05
+ 		}
+-		infantry_fighting_vehicle = {
+-			ap_attack = 0.05
+-			hard_attack = 0.05
+-		}
++		
+ 		apdc_tracked_mechanized = {
+ 			ap_attack = 0.05
+ 			hard_attack = 0.05
+@@ -717,26 +784,17 @@
+ 		}
+ 	}
+ 	improve_ap2 = {
+-		modern_armor = {
+-			ap_attack = 0.05
+-			hard_attack = 0.05
+-		}
++		
+ 		apdc_mbt = {
+ 			ap_attack = 0.05
+ 			hard_attack = 0.05
+ 		}
+-		light_armor = {
+-			ap_attack = 0.05
+-			hard_attack = 0.05
+-		}
++		
+ 		apdc_light_tank = {
+ 			ap_attack = 0.05
+ 			hard_attack = 0.05
+ 		}
+-		infantry_fighting_vehicle = {
+-			ap_attack = 0.05
+-			hard_attack = 0.05
+-		}
++		
+ 		apdc_tracked_mechanized = {
+ 			ap_attack = 0.05
+ 			hard_attack = 0.05
+@@ -765,27 +823,18 @@
+ 		}
+ 	}
+ 	improve_ap3 = {
+-		modern_armor = {
+-			ap_attack = 0.05
+-			hard_attack = 0.05
+-		}
++		
+ 		apdc_mbt = {
+ 			ap_attack = 0.05
+ 			hard_attack = 0.05
+ 		}
+-		light_armor = {
+-			ap_attack = 0.05
+-			hard_attack = 0.05
+-		}
++		
+ 		apdc_light_tank = {
+ 			ap_attack = 0.05
+ 			hard_attack = 0.05
+ 		}
+ 
+-		infantry_fighting_vehicle = {
+-			ap_attack = 0.05
+-			hard_attack = 0.05
+-		}
++		
+ 		apdc_tracked_mechanized = {
+ 			ap_attack = 0.05
+ 			hard_attack = 0.05
+@@ -809,26 +858,17 @@
+ 		}
+ 	}
+ 	improve_he1 = {
+-		modern_armor = {
+-			soft_attack = 0.05
+-			defense = 0.1
+-		}
++		
+ 		apdc_mbt = {
+ 			soft_attack = 0.05
+ 			defense = 0.1
+ 		}
+-		light_armor = {
+-			soft_attack = 0.05
+-			defense = 0.1
+-		}
++		
+ 		apdc_light_tank = {
+ 			soft_attack = 0.05
+ 			defense = 0.1
+ 		}
+-		infantry_fighting_vehicle = {
+-			soft_attack = 0.05
+-			defense = 0.1
+-		}
++		
+ 		apdc_tracked_mechanized = {
+ 			soft_attack = 0.05
+ 			defense = 0.1
+@@ -857,26 +897,17 @@
+ 	}
+ 
+ 	improve_he2 = {
+-		modern_armor = {
+-			soft_attack = 0.05
+-			defense = 0.1
+-		}
++		
+ 		apdc_mbt = {
+ 			soft_attack = 0.05
+ 			defense = 0.1
+ 		}
+-		light_armor = {
+-			soft_attack = 0.05
+-			defense = 0.1
+-		}
++		
+ 		apdc_light_tank = {
+ 			soft_attack = 0.05
+ 			defense = 0.1
+ 		}
+-		infantry_fighting_vehicle = {
+-			soft_attack = 0.05
+-			defense = 0.1
+-		}
++		
+ 		apdc_tracked_mechanized = {
+ 			soft_attack = 0.05
+ 			defense = 0.1
+@@ -900,31 +931,19 @@
+ 		}
+ 	}
+ 	improve_armor1 = {
+-		modern_armor = {
+-			armor_value = 0.05
+-			defense = 0.05
+-			breakthrough = 0.05
+-		}
++		
+ 		apdc_mbt = {
+ 			armor_value = 0.05
+ 			defense = 0.05
+ 			breakthrough = 0.05
+ 		}
+-		light_armor = {
+-			armor_value = 0.05
+-			defense = 0.05
+-			breakthrough = 0.05
+-		}
++		
+ 		apdc_light_tank = {
+ 			armor_value = 0.05
+ 			defense = 0.05
+ 			breakthrough = 0.05
+ 		}
+-		infantry_fighting_vehicle = {
+-			armor_value = 0.05
+-			defense = 0.05
+-			breakthrough = 0.05
+-		}
++		
+ 		apdc_tracked_mechanized = {
+ 			armor_value = 0.05
+ 			defense = 0.05
+@@ -949,31 +968,19 @@
+ 		}
+ 	}
+ 	improve_armor2 = {
+-		modern_armor = {
+-			armor_value = 0.05
+-			defense = 0.05
+-			breakthrough = 0.05
+-		}
++		
+ 		apdc_mbt = {
+ 			armor_value = 0.05
+ 			defense = 0.05
+ 			breakthrough = 0.05
+ 		}
+-		light_armor = {
+-			armor_value = 0.05
+-			defense = 0.05
+-			breakthrough = 0.05
+-		}
++		
+ 		apdc_light_tank = {
+ 			armor_value = 0.05
+ 			defense = 0.05
+ 			breakthrough = 0.05
+ 		}
+-		infantry_fighting_vehicle = {
+-			armor_value = 0.05
+-			defense = 0.05
+-			breakthrough = 0.05
+-		}
++		
+ 		apdc_tracked_mechanized = {
+ 			armor_value = 0.05
+ 			defense = 0.05
+@@ -998,31 +1005,19 @@
+ 		}
+ 	}
+ 	improve_armor3 = {
+-		modern_armor = {
+-			armor_value = 0.05
+-			defense = 0.05
+-			breakthrough = 0.05
+-		}
++		
+ 		apdc_mbt = {
+ 			armor_value = 0.05
+ 			defense = 0.05
+ 			breakthrough = 0.05
+ 		}
+-		light_armor = {
+-			armor_value = 0.05
+-			defense = 0.05
+-			breakthrough = 0.05
+-		}
++		
+ 		apdc_light_tank = {
+ 			armor_value = 0.05
+ 			defense = 0.05
+ 			breakthrough = 0.05
+ 		}
+-		infantry_fighting_vehicle = {
+-			armor_value = 0.05
+-			defense = 0.05
+-			breakthrough = 0.05
+-		}
++		
+ 		apdc_tracked_mechanized = {
+ 			armor_value = 0.05
+ 			defense = 0.05
+@@ -1046,7 +1041,451 @@
+ 			factor = 1
+ 		}
+ 	}
+-	infantry_fighting_vehicle = { 
++	
++	infantry_fighting_vehicle2 = { 
++
++		enable_equipments = {
++			infantry_fighting_vehicle_equipment_1
++		}
++		path = {
++			leads_to_tech = infantry_fighting_vehicle3
++			research_cost_coeff = 1
++		}
++		research_cost = 2
++		start_year = 2050
++
++		folder = {
++			name = armour_folder
++			position = { x = 0 y = 2 }
++		}
++
++		ai_will_do = {
++			base = 1
++
++			modifier = {
++				factor = 2
++				date > "2061.1.1"
++			}
++
++			modifier = {
++				factor = 2
++				date > "2062.1.1"
++			}
++
++			modifier = {
++				factor = 2
++				date > "2063.1.1"
++			}
++		}
++
++		categories = {
++			armor
++			mio_cat_tech_all_armor_and_modules
++			cat_infantry_fighting_vehicle
++		}
++		special_project_specialization = { specialization_land }
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
++	infantry_fighting_vehicle3 = { 
++
++		enable_equipments = {
++			infantry_fighting_vehicle_equipment_2
++		}
++		sub_technologies = {
++			amphibious_mechanized2
++		}
++		path = {
++			leads_to_tech = infantry_fighting_vehicle4
++			research_cost_coeff = 1
++		}
++		research_cost = 2
++		start_year = 2060
++
++		folder = {
++			name = armour_folder
++			position = { x = 0 y = 4 }
++		}
++
++		ai_will_do = {
++			base = 1
++
++			modifier = {
++				factor = 2
++				date > "2061.1.1"
++			}
++
++			modifier = {
++				factor = 2
++				date > "2062.1.1"
++			}
++
++			modifier = {
++				factor = 2
++				date > "2063.1.1"
++			}
++		}
++
++		categories = {
++			armor
++			mio_cat_tech_all_armor_and_modules
++			cat_infantry_fighting_vehicle
++		}
++		special_project_specialization = { specialization_land }
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
++	infantry_fighting_vehicle4 = { 
++
++		enable_equipments = {
++			infantry_fighting_vehicle_equipment_3
++		}
++		path = {
++			leads_to_tech = infantry_fighting_vehicle5
++			research_cost_coeff = 1
++		}
++		research_cost = 2
++		start_year = 2065
++
++		folder = {
++			name = armour_folder
++			position = { x = 0 y = 6 }
++		}
++
++		ai_will_do = {
++			base = 1
++
++			modifier = {
++				factor = 2
++				date > "2066.1.1"
++			}
++
++			modifier = {
++				factor = 2
++				date > "2067.1.1"
++			}
++
++			modifier = {
++				factor = 2
++				date > "2068.1.1"
++			}
++		}
++
++		categories = {
++			armor
++			mio_cat_tech_all_armor_and_modules
++			cat_infantry_fighting_vehicle
++		}
++		special_project_specialization = { specialization_land }
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
++
++	infantry_fighting_vehicle5 = { 
++
++		enable_equipments = {
++			infantry_fighting_vehicle_equipment_4
++		}
++		path = {
++			leads_to_tech = infantry_fighting_vehicle6
++			research_cost_coeff = 1
++		}
++		sub_technologies = {
++			amphibious_mechanized3
++		}
++		research_cost = 2
++		start_year = 2070
++
++		folder = {
++			name = armour_folder
++			position = { x = 0 y = 8 }
++		}
++
++		ai_will_do = {
++			base = 1
++
++			modifier = {
++				factor = 2
++				date > "2071.1.1"
++			}
++
++			modifier = {
++				factor = 2
++				date > "2072.1.1"
++			}
++
++			modifier = {
++				factor = 2
++				date > "2073.1.1"
++			}
++		}
++
++		categories = {
++			armor
++			mio_cat_tech_all_armor_and_modules
++			cat_infantry_fighting_vehicle
++		}
++		special_project_specialization = { specialization_land }
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
++
++	infantry_fighting_vehicle6 = { 
++
++		enable_equipments = {
++			infantry_fighting_vehicle_equipment_5
++		}
++		research_cost = 2
++		start_year = 2075
++
++		folder = {
++			name = armour_folder
++			position = { x = 0 y = 10 }
++		}
++
++		ai_will_do = {
++			base = 1
++
++			modifier = {
++				factor = 2
++				date > "2076.1.1"
++			}
++
++			modifier = {
++				factor = 2
++				date > "2077.1.1"
++			}
++
++			modifier = {
++				factor = 2
++				date > "2078.1.1"
++			}
++		}
++
++		categories = {
++			armor
++			mio_cat_tech_all_armor_and_modules
++			cat_infantry_fighting_vehicle
++		}
++		special_project_specialization = { specialization_land }
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
++	amphibious_tank = { 
++
++		enable_equipments = {
++			amphibious_tank_equipment_1
++		}
++		# APDC: retired land-unit unlock removed.
++		path = {
++			leads_to_tech = amphibious_tank2
++			research_cost_coeff = 1
++		}
++		folder = {
++			name = armour_folder
++			position = { x = 6 y = 1 }
++		}
++		research_cost = 2
++		start_year = 2000
++
++		ai_will_do = {
++			base = 1
++
++			modifier = {
++				factor = 2
++				date > "2061.1.1"
++			}
++
++			modifier = {
++				factor = 2
++				date > "2062.1.1"
++			}
++
++			modifier = {
++				factor = 2
++				date > "2063.1.1"
++			}
++		}
++
++		categories = {
++			armor
++			mio_cat_tech_all_armor_and_modules
++			tp_tech
++		}
++		special_project_specialization = { specialization_land }
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
++
++	amphibious_tank2 = { 
++
++		enable_equipments = {
++			amphibious_tank_equipment_2
++		}
++		path = {
++			leads_to_tech = amphibious_tank3
++			research_cost_coeff = 1
++		}
++		folder = {
++			name = armour_folder
++			position = { x = 6 y = 6 }
++		}
++		research_cost = 2
++		start_year = 2065
++
++		ai_will_do = {
++			base = 1
++
++			modifier = {
++				factor = 2
++				date > "2066.1.1"
++			}
++
++			modifier = {
++				factor = 2
++				date > "2067.1.1"
++			}
++
++			modifier = {
++				factor = 2
++				date > "2068.1.1"
++			}
++		}
++
++		categories = {
++			armor
++			mio_cat_tech_all_armor_and_modules
++			tp_tech
++		}
++		special_project_specialization = { specialization_land }
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
++
++	amphibious_tank3 = { 
++
++		enable_equipments = {
++			amphibious_tank_equipment_3
++		}
++		folder = {
++			name = armour_folder
++			position = { x = 6 y = 10 }
++		}
++		research_cost = 2
++		start_year = 2075
++
++		ai_will_do = {
++			base = 1
++
++			modifier = {
++				factor = 2
++				date > "2076.1.1"
++			}
++
++			modifier = {
++				factor = 2
++				date > "2077.1.1"
++			}
++
++			modifier = {
++				factor = 2
++				date > "2078.1.1"
++			}
++		}
++
++		categories = {
++			armor
++			mio_cat_tech_all_armor_and_modules
++			tp_tech
++		}
++		special_project_specialization = { specialization_land }
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
++	
++
++	amphibious_mechanized2 = {
++		enable_equipments = {
++			amphibious_mechanized_equipment_1
++		}
++
++		research_cost = 1.5
++		start_year = 2060
++		categories = {
++			armor
++			mio_cat_tech_all_armor_and_modules
++			cat_infantry_fighting_vehicle
++		}
++
++		ai_will_do = {
++			base = 1
++		}
++		special_project_specialization = { specialization_land }
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
++
++	amphibious_mechanized3 = {
++		enable_equipments = {
++			amphibious_mechanized_equipment_1
++		}
++		research_cost = 1.5
++		start_year = 2070
++		categories = {
++			armor
++			mio_cat_tech_all_armor_and_modules
++			cat_infantry_fighting_vehicle
++		}
++
++		ai_will_do = {
++			base = 1
++		}
++		special_project_specialization = { specialization_land }
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
++
++infantry_fighting_vehicle = { 
+ 
+ 		enable_equipments = {
+ 			infantry_fighting_vehicle_equipment_0
+@@ -1092,352 +1531,14 @@
+ 			cat_infantry_fighting_vehicle
+ 		}
+ 		special_project_specialization = { specialization_land }
+-	}
+-	infantry_fighting_vehicle2 = { 
+-
+-		enable_equipments = {
+-			infantry_fighting_vehicle_equipment_1
+-		}
+-		path = {
+-			leads_to_tech = infantry_fighting_vehicle3
+-			research_cost_coeff = 1
+-		}
+-		research_cost = 2
+-		start_year = 2050
+-
+-		folder = {
+-			name = armour_folder
+-			position = { x = 0 y = 2 }
+-		}
+-
+-		ai_will_do = {
+-			base = 1
+-
+-			modifier = {
+-				factor = 2
+-				date > "2061.1.1"
+-			}
+-
+-			modifier = {
+-				factor = 2
+-				date > "2062.1.1"
+-			}
+-
+-			modifier = {
+-				factor = 2
+-				date > "2063.1.1"
+-			}
+-		}
+-
+-		categories = {
+-			armor
+-			mio_cat_tech_all_armor_and_modules
+-			cat_infantry_fighting_vehicle
+-		}
+-		special_project_specialization = { specialization_land }
+-	}
+-	infantry_fighting_vehicle3 = { 
+-
+-		enable_equipments = {
+-			infantry_fighting_vehicle_equipment_2
+-		}
+-		sub_technologies = {
+-			amphibious_mechanized2
+-		}
+-		path = {
+-			leads_to_tech = infantry_fighting_vehicle4
+-			research_cost_coeff = 1
+-		}
+-		research_cost = 2
+-		start_year = 2060
+-
+-		folder = {
+-			name = armour_folder
+-			position = { x = 0 y = 4 }
+-		}
+-
+-		ai_will_do = {
+-			base = 1
+-
+-			modifier = {
+-				factor = 2
+-				date > "2061.1.1"
+-			}
+-
+-			modifier = {
+-				factor = 2
+-				date > "2062.1.1"
+-			}
+-
+-			modifier = {
+-				factor = 2
+-				date > "2063.1.1"
+-			}
+-		}
+-
+-		categories = {
+-			armor
+-			mio_cat_tech_all_armor_and_modules
+-			cat_infantry_fighting_vehicle
+-		}
+-		special_project_specialization = { specialization_land }
+-	}
+-	infantry_fighting_vehicle4 = { 
+-
+-		enable_equipments = {
+-			infantry_fighting_vehicle_equipment_3
+-		}
+-		path = {
+-			leads_to_tech = infantry_fighting_vehicle5
+-			research_cost_coeff = 1
+-		}
+-		research_cost = 2
+-		start_year = 2065
+-
+-		folder = {
+-			name = armour_folder
+-			position = { x = 0 y = 6 }
+-		}
+-
+-		ai_will_do = {
+-			base = 1
+-
+-			modifier = {
+-				factor = 2
+-				date > "2066.1.1"
+-			}
+-
+-			modifier = {
+-				factor = 2
+-				date > "2067.1.1"
+-			}
+-
+-			modifier = {
+-				factor = 2
+-				date > "2068.1.1"
+-			}
+-		}
+-
+-		categories = {
+-			armor
+-			mio_cat_tech_all_armor_and_modules
+-			cat_infantry_fighting_vehicle
+-		}
+-		special_project_specialization = { specialization_land }
+-	}
+-
+-	infantry_fighting_vehicle5 = { 
+-
+-		enable_equipments = {
+-			infantry_fighting_vehicle_equipment_4
+-		}
+-		path = {
+-			leads_to_tech = infantry_fighting_vehicle6
+-			research_cost_coeff = 1
+-		}
+-		sub_technologies = {
+-			amphibious_mechanized3
+-		}
+-		research_cost = 2
+-		start_year = 2070
+-
+-		folder = {
+-			name = armour_folder
+-			position = { x = 0 y = 8 }
+-		}
+-
+-		ai_will_do = {
+-			base = 1
+-
+-			modifier = {
+-				factor = 2
+-				date > "2071.1.1"
+-			}
+-
+-			modifier = {
+-				factor = 2
+-				date > "2072.1.1"
+-			}
+-
+-			modifier = {
+-				factor = 2
+-				date > "2073.1.1"
+-			}
+-		}
+-
+-		categories = {
+-			armor
+-			mio_cat_tech_all_armor_and_modules
+-			cat_infantry_fighting_vehicle
+-		}
+-		special_project_specialization = { specialization_land }
+-	}
+-
+-	infantry_fighting_vehicle6 = { 
+-
+-		enable_equipments = {
+-			infantry_fighting_vehicle_equipment_5
+-		}
+-		research_cost = 2
+-		start_year = 2075
+-
+-		folder = {
+-			name = armour_folder
+-			position = { x = 0 y = 10 }
+-		}
+-
+-		ai_will_do = {
+-			base = 1
+-
+-			modifier = {
+-				factor = 2
+-				date > "2076.1.1"
+-			}
+-
+-			modifier = {
+-				factor = 2
+-				date > "2077.1.1"
+-			}
+-
+-			modifier = {
+-				factor = 2
+-				date > "2078.1.1"
+-			}
+-		}
+-
+-		categories = {
+-			armor
+-			mio_cat_tech_all_armor_and_modules
+-			cat_infantry_fighting_vehicle
+-		}
+-		special_project_specialization = { specialization_land }
+-	}
+-	amphibious_tank = { 
+-
+-		enable_equipments = {
+-			amphibious_tank_equipment_1
+-		}
+-		# APDC: retired land-unit unlock removed.
+-		path = {
+-			leads_to_tech = amphibious_tank2
+-			research_cost_coeff = 1
+-		}
+-		folder = {
+-			name = armour_folder
+-			position = { x = 6 y = 1 }
+-		}
+-		research_cost = 2
+-		start_year = 2000
+-
+-		ai_will_do = {
+-			base = 1
+-
+-			modifier = {
+-				factor = 2
+-				date > "2061.1.1"
+-			}
+-
+-			modifier = {
+-				factor = 2
+-				date > "2062.1.1"
+-			}
+-
+-			modifier = {
+-				factor = 2
+-				date > "2063.1.1"
+-			}
+-		}
+-
+-		categories = {
+-			armor
+-			mio_cat_tech_all_armor_and_modules
+-			tp_tech
+-		}
+-		special_project_specialization = { specialization_land }
+-	}
+-
+-	amphibious_tank2 = { 
+-
+-		enable_equipments = {
+-			amphibious_tank_equipment_2
+-		}
+-		path = {
+-			leads_to_tech = amphibious_tank3
+-			research_cost_coeff = 1
+-		}
+-		folder = {
+-			name = armour_folder
+-			position = { x = 6 y = 6 }
+-		}
+-		research_cost = 2
+-		start_year = 2065
+-
+-		ai_will_do = {
+-			base = 1
+-
+-			modifier = {
+-				factor = 2
+-				date > "2066.1.1"
+-			}
+-
+-			modifier = {
+-				factor = 2
+-				date > "2067.1.1"
+-			}
+-
+-			modifier = {
+-				factor = 2
+-				date > "2068.1.1"
+-			}
+-		}
+-
+-		categories = {
+-			armor
+-			mio_cat_tech_all_armor_and_modules
+-			tp_tech
+-		}
+-		special_project_specialization = { specialization_land }
+-	}
+-
+-	amphibious_tank3 = { 
+-
+-		enable_equipments = {
+-			amphibious_tank_equipment_3
+-		}
+-		folder = {
+-			name = armour_folder
+-			position = { x = 6 y = 10 }
+-		}
+-		research_cost = 2
+-		start_year = 2075
+-
+-		ai_will_do = {
+-			base = 1
+-
+-			modifier = {
+-				factor = 2
+-				date > "2076.1.1"
+-			}
+-
+-			modifier = {
+-				factor = 2
+-				date > "2077.1.1"
+-			}
+-
+-			modifier = {
+-				factor = 2
+-				date > "2078.1.1"
+-			}
+-		}
+-
+-		categories = {
+-			armor
+-			mio_cat_tech_all_armor_and_modules
+-			tp_tech
+-		}
+-		special_project_specialization = { specialization_land }
+-	}
+-	amphibious_mechanized = {
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
++amphibious_mechanized = {
+ 		enable_equipments = {
+ 			amphibious_mechanized_equipment_1
+ 		}
+@@ -1454,42 +1555,11 @@
+ 			base = 1
+ 		}
+ 		special_project_specialization = { specialization_land }
+-	}
+-
+-	amphibious_mechanized2 = {
+-		enable_equipments = {
+-			amphibious_mechanized_equipment_1
+-		}
+-
+-		research_cost = 1.5
+-		start_year = 2060
+-		categories = {
+-			armor
+-			mio_cat_tech_all_armor_and_modules
+-			cat_infantry_fighting_vehicle
+-		}
+-
+-		ai_will_do = {
+-			base = 1
+-		}
+-		special_project_specialization = { specialization_land }
+-	}
+-
+-	amphibious_mechanized3 = {
+-		enable_equipments = {
+-			amphibious_mechanized_equipment_1
+-		}
+-		research_cost = 1.5
+-		start_year = 2070
+-		categories = {
+-			armor
+-			mio_cat_tech_all_armor_and_modules
+-			cat_infantry_fighting_vehicle
+-		}
+-
+-		ai_will_do = {
+-			base = 1
+-		}
+-		special_project_specialization = { specialization_land }
+-	}
+-}
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
++}

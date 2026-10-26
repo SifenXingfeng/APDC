@@ -1,0 +1,35 @@
+{
+  "backend_matches_pre_ui_bytes": true,
+  "laws_match_pre_ui_bytes": true,
+  "coefficients": {
+    "undisturbed_isolation": {
+      "custom": "1",
+      "native_expected": null
+    },
+    "isolation": {
+      "custom": "1",
+      "native_expected": null
+    },
+    "civilian_economy": {
+      "custom": "1",
+      "native_expected": null
+    },
+    "low_economic_mobilisation": {
+      "custom": "0.85",
+      "native_expected": null
+    },
+    "partial_economic_mobilisation": {
+      "custom": "0.7",
+      "native_expected": null
+    },
+    "war_economy": {
+      "custom": "0.55",
+      "native_expected": null
+    },
+    "tot_economic_mobilisation": {
+      "custom": "0.4",
+      "native_expected": null
+    }
+  },
+  "pending": "Native row coefficient display must be implemented without changing factory reservation."
+}

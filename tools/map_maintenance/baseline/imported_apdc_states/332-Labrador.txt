@@ -1,0 +1,31 @@
+state = {
+	id = 332
+	name = "STATE_332"
+	provinces = {
+		1426
+		4720
+		4787
+		7810
+		12503
+		13165
+		13180
+		17251
+		17255
+		17258
+	}
+	manpower = 36413
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 0
+	history = {
+		owner = USA
+		controller = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 1
+			12503 = {
+				naval_base = 1
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 1231
+	name = "STATE_1231"
+	provinces = {
+		11564
+		13252
+		17468
+		18177
+	}
+	manpower = 159728
+	resources = {
+		coal = 1
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+	history = {
+		owner = YUG
+		controller = YUG
+		add_core_of = ITA
+		add_core_of = YUG
+		buildings = {
+			infrastructure = 3
+			11564 = {
+				naval_base = 2
+			}
+		}
+	}
+}

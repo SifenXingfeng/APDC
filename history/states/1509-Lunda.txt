@@ -1,0 +1,40 @@
+state = {
+	id = 1509
+	name = "STATE_1509"
+	provinces = {
+		7548
+		13371
+		13824
+		13825
+		13835
+		13839
+		13856
+		17925
+		17927
+		17928
+	}
+	manpower = 582564
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = ANG
+		controller = ANG
+		add_core_of = ANG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13371
+			3
+		}
+		victory_points = {
+			13839
+			3
+		}
+		victory_points = {
+			17927
+			2
+		}
+	}
+}

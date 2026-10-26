@@ -1,0 +1,865 @@
+{
+  "static_code_nodes": {
+    "APDC_eco_produce_equipment": {
+      "before_static_nodes": 5160,
+      "after_static_nodes": 89
+    },
+    "APDC_eco_refresh_policies": {
+      "before_static_nodes": 114,
+      "after_static_nodes": 36
+    }
+  },
+  "daily_observations": [
+    {
+      "day": 1,
+      "weeks": 0,
+      "starts": 1,
+      "cycles": 1,
+      "cursor": 11,
+      "quota": 2,
+      "refreshed": 179,
+      "rollups": 324,
+      "research": 156
+    },
+    {
+      "day": 2,
+      "weeks": 0,
+      "starts": 1,
+      "cycles": 1,
+      "cursor": 11,
+      "quota": 2,
+      "refreshed": 202,
+      "rollups": 480,
+      "research": 156
+    },
+    {
+      "day": 3,
+      "weeks": 0,
+      "starts": 2,
+      "cycles": 2,
+      "cursor": 1,
+      "quota": 1,
+      "refreshed": 225,
+      "rollups": 683,
+      "research": 157
+    },
+    {
+      "day": 4,
+      "weeks": 0,
+      "starts": 2,
+      "cycles": 2,
+      "cursor": 1,
+      "quota": 1,
+      "refreshed": 247,
+      "rollups": 839,
+      "research": 157
+    },
+    {
+      "day": 5,
+      "weeks": 0,
+      "starts": 2,
+      "cycles": 2,
+      "cursor": 1,
+      "quota": 1,
+      "refreshed": 269,
+      "rollups": 997,
+      "research": 157
+    },
+    {
+      "day": 6,
+      "weeks": 1,
+      "starts": 3,
+      "cycles": 2,
+      "cursor": 1,
+      "quota": 1,
+      "refreshed": 291,
+      "rollups": 1153,
+      "research": 313
+    },
+    {
+      "day": 7,
+      "weeks": 1,
+      "starts": 3,
+      "cycles": 2,
+      "cursor": 2,
+      "quota": 1,
+      "refreshed": 318,
+      "rollups": 1310,
+      "research": 315
+    },
+    {
+      "day": 8,
+      "weeks": 1,
+      "starts": 10,
+      "cycles": 9,
+      "cursor": 4,
+      "quota": 1,
+      "refreshed": 341,
+      "rollups": 1472,
+      "research": 315
+    },
+    {
+      "day": 9,
+      "weeks": 1,
+      "starts": 10,
+      "cycles": 9,
+      "cursor": 4,
+      "quota": 1,
+      "refreshed": 364,
+      "rollups": 1628,
+      "research": 315
+    },
+    {
+      "day": 10,
+      "weeks": 1,
+      "starts": 10,
+      "cycles": 9,
+      "cursor": 4,
+      "quota": 1,
+      "refreshed": 386,
+      "rollups": 1787,
+      "research": 315
+    },
+    {
+      "day": 11,
+      "weeks": 1,
+      "starts": 10,
+      "cycles": 9,
+      "cursor": 4,
+      "quota": 1,
+      "refreshed": 408,
+      "rollups": 1943,
+      "research": 315
+    },
+    {
+      "day": 12,
+      "weeks": 1,
+      "starts": 10,
+      "cycles": 9,
+      "cursor": 4,
+      "quota": 1,
+      "refreshed": 430,
+      "rollups": 2101,
+      "research": 315
+    },
+    {
+      "day": 13,
+      "weeks": 2,
+      "starts": 11,
+      "cycles": 9,
+      "cursor": 1,
+      "quota": 1,
+      "refreshed": 452,
+      "rollups": 2257,
+      "research": 471
+    },
+    {
+      "day": 14,
+      "weeks": 2,
+      "starts": 11,
+      "cycles": 9,
+      "cursor": 2,
+      "quota": 1,
+      "refreshed": 474,
+      "rollups": 2413,
+      "research": 471
+    },
+    {
+      "day": 15,
+      "weeks": 2,
+      "starts": 11,
+      "cycles": 10,
+      "cursor": 3,
+      "quota": 1,
+      "refreshed": 497,
+      "rollups": 2574,
+      "research": 471
+    },
+    {
+      "day": 16,
+      "weeks": 2,
+      "starts": 11,
+      "cycles": 10,
+      "cursor": 3,
+      "quota": 1,
+      "refreshed": 520,
+      "rollups": 2730,
+      "research": 471
+    },
+    {
+      "day": 17,
+      "weeks": 2,
+      "starts": 11,
+      "cycles": 10,
+      "cursor": 3,
+      "quota": 1,
+      "refreshed": 542,
+      "rollups": 2888,
+      "research": 471
+    },
+    {
+      "day": 18,
+      "weeks": 2,
+      "starts": 11,
+      "cycles": 10,
+      "cursor": 3,
+      "quota": 1,
+      "refreshed": 564,
+      "rollups": 3044,
+      "research": 471
+    },
+    {
+      "day": 19,
+      "weeks": 2,
+      "starts": 11,
+      "cycles": 10,
+      "cursor": 3,
+      "quota": 1,
+      "refreshed": 586,
+      "rollups": 3202,
+      "research": 471
+    },
+    {
+      "day": 20,
+      "weeks": 3,
+      "starts": 12,
+      "cycles": 10,
+      "cursor": 1,
+      "quota": 1,
+      "refreshed": 608,
+      "rollups": 3358,
+      "research": 627
+    },
+    {
+      "day": 21,
+      "weeks": 3,
+      "starts": 12,
+      "cycles": 10,
+      "cursor": 2,
+      "quota": 1,
+      "refreshed": 630,
+      "rollups": 3514,
+      "research": 627
+    },
+    {
+      "day": 22,
+      "weeks": 3,
+      "starts": 12,
+      "cycles": 10,
+      "cursor": 3,
+      "quota": 1,
+      "refreshed": 653,
+      "rollups": 3675,
+      "research": 627
+    },
+    {
+      "day": 23,
+      "weeks": 3,
+      "starts": 12,
+      "cycles": 10,
+      "cursor": 4,
+      "quota": 1,
+      "refreshed": 676,
+      "rollups": 3831,
+      "research": 627
+    },
+    {
+      "day": 24,
+      "weeks": 3,
+      "starts": 12,
+      "cycles": 11,
+      "cursor": 5,
+      "quota": 1,
+      "refreshed": 698,
+      "rollups": 3989,
+      "research": 627
+    },
+    {
+      "day": 25,
+      "weeks": 3,
+      "starts": 12,
+      "cycles": 11,
+      "cursor": 5,
+      "quota": 1,
+      "refreshed": 720,
+      "rollups": 4145,
+      "research": 627
+    },
+    {
+      "day": 26,
+      "weeks": 3,
+      "starts": 12,
+      "cycles": 11,
+      "cursor": 5,
+      "quota": 1,
+      "refreshed": 742,
+      "rollups": 4303,
+      "research": 627
+    },
+    {
+      "day": 27,
+      "weeks": 4,
+      "starts": 13,
+      "cycles": 11,
+      "cursor": 1,
+      "quota": 1,
+      "refreshed": 764,
+      "rollups": 4459,
+      "research": 783
+    },
+    {
+      "day": 28,
+      "weeks": 4,
+      "starts": 13,
+      "cycles": 11,
+      "cursor": 2,
+      "quota": 1,
+      "refreshed": 786,
+      "rollups": 4615,
+      "research": 783
+    },
+    {
+      "day": 29,
+      "weeks": 4,
+      "starts": 13,
+      "cycles": 11,
+      "cursor": 3,
+      "quota": 1,
+      "refreshed": 809,
+      "rollups": 4776,
+      "research": 783
+    },
+    {
+      "day": 30,
+      "weeks": 4,
+      "starts": 13,
+      "cycles": 11,
+      "cursor": 4,
+      "quota": 1,
+      "refreshed": 832,
+      "rollups": 4932,
+      "research": 783
+    },
+    {
+      "day": 31,
+      "weeks": 4,
+      "starts": 13,
+      "cycles": 12,
+      "cursor": 5,
+      "quota": 1,
+      "refreshed": 854,
+      "rollups": 5090,
+      "research": 783
+    },
+    {
+      "day": 32,
+      "weeks": 4,
+      "starts": 13,
+      "cycles": 12,
+      "cursor": 5,
+      "quota": 1,
+      "refreshed": 876,
+      "rollups": 5246,
+      "research": 783
+    },
+    {
+      "day": 33,
+      "weeks": 4,
+      "starts": 13,
+      "cycles": 12,
+      "cursor": 5,
+      "quota": 1,
+      "refreshed": 898,
+      "rollups": 5404,
+      "research": 783
+    },
+    {
+      "day": 34,
+      "weeks": 5,
+      "starts": 14,
+      "cycles": 12,
+      "cursor": 1,
+      "quota": 1,
+      "refreshed": 920,
+      "rollups": 5560,
+      "research": 939
+    },
+    {
+      "day": 35,
+      "weeks": 5,
+      "starts": 14,
+      "cycles": 12,
+      "cursor": 2,
+      "quota": 1,
+      "refreshed": 942,
+      "rollups": 5716,
+      "research": 939
+    },
+    {
+      "day": 36,
+      "weeks": 5,
+      "starts": 14,
+      "cycles": 13,
+      "cursor": 3,
+      "quota": 1,
+      "refreshed": 965,
+      "rollups": 5877,
+      "research": 939
+    },
+    {
+      "day": 37,
+      "weeks": 5,
+      "starts": 14,
+      "cycles": 13,
+      "cursor": 3,
+      "quota": 1,
+      "refreshed": 988,
+      "rollups": 6033,
+      "research": 939
+    },
+    {
+      "day": 38,
+      "weeks": 5,
+      "starts": 14,
+      "cycles": 13,
+      "cursor": 3,
+      "quota": 1,
+      "refreshed": 1010,
+      "rollups": 6191,
+      "research": 939
+    },
+    {
+      "day": 39,
+      "weeks": 5,
+      "starts": 14,
+      "cycles": 13,
+      "cursor": 3,
+      "quota": 1,
+      "refreshed": 1032,
+      "rollups": 6347,
+      "research": 939
+    },
+    {
+      "day": 40,
+      "weeks": 5,
+      "starts": 14,
+      "cycles": 13,
+      "cursor": 3,
+      "quota": 1,
+      "refreshed": 1054,
+      "rollups": 6505,
+      "research": 939
+    },
+    {
+      "day": 41,
+      "weeks": 6,
+      "starts": 15,
+      "cycles": 13,
+      "cursor": 1,
+      "quota": 1,
+      "refreshed": 1076,
+      "rollups": 6661,
+      "research": 1095
+    },
+    {
+      "day": 42,
+      "weeks": 6,
+      "starts": 15,
+      "cycles": 13,
+      "cursor": 2,
+      "quota": 1,
+      "refreshed": 1098,
+      "rollups": 6817,
+      "research": 1095
+    },
+    {
+      "day": 43,
+      "weeks": 6,
+      "starts": 15,
+      "cycles": 13,
+      "cursor": 3,
+      "quota": 1,
+      "refreshed": 1121,
+      "rollups": 6978,
+      "research": 1095
+    },
+    {
+      "day": 44,
+      "weeks": 6,
+      "starts": 15,
+      "cycles": 13,
+      "cursor": 4,
+      "quota": 1,
+      "refreshed": 1144,
+      "rollups": 7134,
+      "research": 1095
+    },
+    {
+      "day": 45,
+      "weeks": 6,
+      "starts": 15,
+      "cycles": 14,
+      "cursor": 5,
+      "quota": 1,
+      "refreshed": 1166,
+      "rollups": 7292,
+      "research": 1095
+    },
+    {
+      "day": 46,
+      "weeks": 6,
+      "starts": 15,
+      "cycles": 14,
+      "cursor": 5,
+      "quota": 1,
+      "refreshed": 1188,
+      "rollups": 7448,
+      "research": 1095
+    },
+    {
+      "day": 47,
+      "weeks": 6,
+      "starts": 15,
+      "cycles": 14,
+      "cursor": 5,
+      "quota": 1,
+      "refreshed": 1210,
+      "rollups": 7606,
+      "research": 1095
+    },
+    {
+      "day": 48,
+      "weeks": 7,
+      "starts": 16,
+      "cycles": 14,
+      "cursor": 1,
+      "quota": 1,
+      "refreshed": 1232,
+      "rollups": 7762,
+      "research": 1251
+    },
+    {
+      "day": 49,
+      "weeks": 7,
+      "starts": 16,
+      "cycles": 14,
+      "cursor": 2,
+      "quota": 1,
+      "refreshed": 1254,
+      "rollups": 7918,
+      "research": 1251
+    },
+    {
+      "day": 50,
+      "weeks": 7,
+      "starts": 16,
+      "cycles": 14,
+      "cursor": 3,
+      "quota": 1,
+      "refreshed": 1277,
+      "rollups": 8079,
+      "research": 1251
+    },
+    {
+      "day": 51,
+      "weeks": 7,
+      "starts": 16,
+      "cycles": 14,
+      "cursor": 4,
+      "quota": 1,
+      "refreshed": 1300,
+      "rollups": 8235,
+      "research": 1251
+    },
+    {
+      "day": 52,
+      "weeks": 7,
+      "starts": 16,
+      "cycles": 14,
+      "cursor": 5,
+      "quota": 1,
+      "refreshed": 1322,
+      "rollups": 8393,
+      "research": 1251
+    },
+    {
+      "day": 53,
+      "weeks": 7,
+      "starts": 16,
+      "cycles": 15,
+      "cursor": 6,
+      "quota": 1,
+      "refreshed": 1344,
+      "rollups": 8549,
+      "research": 1251
+    },
+    {
+      "day": 54,
+      "weeks": 7,
+      "starts": 16,
+      "cycles": 15,
+      "cursor": 6,
+      "quota": 1,
+      "refreshed": 1366,
+      "rollups": 8707,
+      "research": 1251
+    },
+    {
+      "day": 55,
+      "weeks": 8,
+      "starts": 17,
+      "cycles": 15,
+      "cursor": 1,
+      "quota": 1,
+      "refreshed": 1388,
+      "rollups": 8863,
+      "research": 1407
+    },
+    {
+      "day": 56,
+      "weeks": 8,
+      "starts": 17,
+      "cycles": 15,
+      "cursor": 2,
+      "quota": 1,
+      "refreshed": 1410,
+      "rollups": 9019,
+      "research": 1407
+    },
+    {
+      "day": 57,
+      "weeks": 8,
+      "starts": 17,
+      "cycles": 15,
+      "cursor": 3,
+      "quota": 1,
+      "refreshed": 1433,
+      "rollups": 9180,
+      "research": 1407
+    },
+    {
+      "day": 58,
+      "weeks": 8,
+      "starts": 17,
+      "cycles": 15,
+      "cursor": 4,
+      "quota": 1,
+      "refreshed": 1456,
+      "rollups": 9336,
+      "research": 1407
+    }
+  ],
+  "stable_daily_deltas": [
+    {
+      "day": 17,
+      "directory_refreshes": 22,
+      "statistics_rollups": 158
+    },
+    {
+      "day": 18,
+      "directory_refreshes": 22,
+      "statistics_rollups": 156
+    },
+    {
+      "day": 19,
+      "directory_refreshes": 22,
+      "statistics_rollups": 158
+    },
+    {
+      "day": 20,
+      "directory_refreshes": 22,
+      "statistics_rollups": 156
+    },
+    {
+      "day": 21,
+      "directory_refreshes": 22,
+      "statistics_rollups": 156
+    },
+    {
+      "day": 22,
+      "directory_refreshes": 23,
+      "statistics_rollups": 161
+    },
+    {
+      "day": 23,
+      "directory_refreshes": 23,
+      "statistics_rollups": 156
+    },
+    {
+      "day": 24,
+      "directory_refreshes": 22,
+      "statistics_rollups": 158
+    },
+    {
+      "day": 25,
+      "directory_refreshes": 22,
+      "statistics_rollups": 156
+    },
+    {
+      "day": 26,
+      "directory_refreshes": 22,
+      "statistics_rollups": 158
+    },
+    {
+      "day": 27,
+      "directory_refreshes": 22,
+      "statistics_rollups": 156
+    },
+    {
+      "day": 28,
+      "directory_refreshes": 22,
+      "statistics_rollups": 156
+    },
+    {
+      "day": 29,
+      "directory_refreshes": 23,
+      "statistics_rollups": 161
+    },
+    {
+      "day": 30,
+      "directory_refreshes": 23,
+      "statistics_rollups": 156
+    },
+    {
+      "day": 31,
+      "directory_refreshes": 22,
+      "statistics_rollups": 158
+    },
+    {
+      "day": 32,
+      "directory_refreshes": 22,
+      "statistics_rollups": 156
+    },
+    {
+      "day": 33,
+      "directory_refreshes": 22,
+      "statistics_rollups": 158
+    },
+    {
+      "day": 34,
+      "directory_refreshes": 22,
+      "statistics_rollups": 156
+    },
+    {
+      "day": 35,
+      "directory_refreshes": 22,
+      "statistics_rollups": 156
+    },
+    {
+      "day": 36,
+      "directory_refreshes": 23,
+      "statistics_rollups": 161
+    },
+    {
+      "day": 37,
+      "directory_refreshes": 23,
+      "statistics_rollups": 156
+    },
+    {
+      "day": 38,
+      "directory_refreshes": 22,
+      "statistics_rollups": 158
+    },
+    {
+      "day": 39,
+      "directory_refreshes": 22,
+      "statistics_rollups": 156
+    },
+    {
+      "day": 40,
+      "directory_refreshes": 22,
+      "statistics_rollups": 158
+    },
+    {
+      "day": 41,
+      "directory_refreshes": 22,
+      "statistics_rollups": 156
+    },
+    {
+      "day": 42,
+      "directory_refreshes": 22,
+      "statistics_rollups": 156
+    },
+    {
+      "day": 43,
+      "directory_refreshes": 23,
+      "statistics_rollups": 161
+    },
+    {
+      "day": 44,
+      "directory_refreshes": 23,
+      "statistics_rollups": 156
+    },
+    {
+      "day": 45,
+      "directory_refreshes": 22,
+      "statistics_rollups": 158
+    },
+    {
+      "day": 46,
+      "directory_refreshes": 22,
+      "statistics_rollups": 156
+    },
+    {
+      "day": 47,
+      "directory_refreshes": 22,
+      "statistics_rollups": 158
+    },
+    {
+      "day": 48,
+      "directory_refreshes": 22,
+      "statistics_rollups": 156
+    },
+    {
+      "day": 49,
+      "directory_refreshes": 22,
+      "statistics_rollups": 156
+    },
+    {
+      "day": 50,
+      "directory_refreshes": 23,
+      "statistics_rollups": 161
+    },
+    {
+      "day": 51,
+      "directory_refreshes": 23,
+      "statistics_rollups": 156
+    },
+    {
+      "day": 52,
+      "directory_refreshes": 22,
+      "statistics_rollups": 158
+    },
+    {
+      "day": 53,
+      "directory_refreshes": 22,
+      "statistics_rollups": 156
+    },
+    {
+      "day": 54,
+      "directory_refreshes": 22,
+      "statistics_rollups": 158
+    },
+    {
+      "day": 55,
+      "directory_refreshes": 22,
+      "statistics_rollups": 156
+    },
+    {
+      "day": 56,
+      "directory_refreshes": 22,
+      "statistics_rollups": 156
+    },
+    {
+      "day": 57,
+      "directory_refreshes": 23,
+      "statistics_rollups": 161
+    },
+    {
+      "day": 58,
+      "directory_refreshes": 23,
+      "statistics_rollups": 156
+    }
+  ],
+  "note": "Script counts and actual invocation counters, not frame-time or CPU timing measurements."
+}

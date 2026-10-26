@@ -1,0 +1,42 @@
+on_actions = { on_daily_GER = { effect = {
+if = { limit = { date > 2060.1.16 NOT = { has_country_flag = QA_pulses_tested } } set_country_flag = QA_pulses_tested
+if = { limit = { check_variable = { global.QA_APDC_region_daily_lock = APDC_eco_day_ticks } }
+log = "APDC_ECO_ASSERT PASS region_world_pass_once_daily"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL region_world_pass_once_daily"
+}
+if = { limit = { check_variable = { global.QA_APDC_eco_daily_tick_lock = APDC_eco_day_ticks } }
+log = "APDC_ECO_ASSERT PASS economy_world_pass_once_daily"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL economy_world_pass_once_daily"
+}
+if = { limit = { check_variable = { global.QA_APDC_region_weekly_lock = APDC_eco_week_ticks } }
+log = "APDC_ECO_ASSERT PASS region_world_pass_once_weekly"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL region_world_pass_once_weekly"
+}
+if = { limit = { check_variable = { global.QA_APDC_eco_weekly_tick_lock = APDC_eco_week_ticks } }
+log = "APDC_ECO_ASSERT PASS economy_world_pass_once_weekly"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL economy_world_pass_once_weekly"
+}
+}
+if = { limit = { date > 2060.2.2 NOT = { has_country_flag = QA_monthly_tested } } set_country_flag = QA_monthly_tested
+if = { limit = { check_variable = { global.QA_APDC_system_monthly_lock = 1 } }
+log = "APDC_ECO_ASSERT PASS monthly_system_pass_once"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL monthly_system_pass_once"
+}
+if = { limit = { check_variable = { global.QA_APDC_units_monthly_lock = 1 } }
+log = "APDC_ECO_ASSERT PASS monthly_unit_pass_once"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL monthly_unit_pass_once"
+}
+}
+} } }

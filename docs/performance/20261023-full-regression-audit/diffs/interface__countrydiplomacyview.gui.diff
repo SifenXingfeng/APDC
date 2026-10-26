@@ -1,0 +1,164 @@
+--- before/interface/countrydiplomacyview.gui
++++ current/interface/countrydiplomacyview.gui
+@@ -825,7 +825,7 @@
+ 			instantTextboxType = {
+ 				name = "player_name"
+ 				position = { x = 35 y = 4 }
+-				textureFile = ""
++				
+ 				font = "hoi_18mbs"
+ 				borderSize = {x = 0 y = 0}
+ 				text = "Player"
+@@ -841,7 +841,7 @@
+ 		instantTextboxType = {
+ 			name = "diplomacy_title"
+ 			position = { x = 45 y = 8 }
+-			textureFile = ""
++			
+ 			font = "hoi_36header"
+ 			borderSize = {x = 0 y = 0}
+ 			text = "DIPLOMACY_DIPLOMACY"
+@@ -989,7 +989,7 @@
+ 		instantTextboxType = {
+ 			name = "name"
+ 			position = { x = 24 y = 5 }
+-			textureFile = ""
++			
+ 			font = "hoi_18mbs"
+ 			borderSize = { x = 0 y = 0 }
+ 			maxWidth = 180
+@@ -1014,7 +1014,7 @@
+ 		instantTextboxType = {
+ 			name = "name"
+ 			position = { x = 8 y = 4 }
+-			textureFile = ""
++			
+ 			font = "hoi_18mbs"
+ 			borderSize = { x = 0 y = 0 }
+ 			text = "Maus"
+@@ -1028,7 +1028,7 @@
+ 		instantTextboxType = {
+ 			name = "cost"
+ 			position = { x = 125 y = 5 }
+-			textureFile = ""
++			
+ 			font = "hoi_16mbs"
+ 			borderSize = { x = 0 y = 0 }
+ 			text = ""
+@@ -1237,7 +1237,7 @@
+ 		instantTextBoxType = {
+ 			name = "diplo_reply"
+ 			position = { x = 117 y = 200 }
+-			textureFile = ""
++			
+ 			font = "hoi_24header"
+ 			borderSize = {x = 0 y = 0}
+ 			text = "REPLYTEXT"
+@@ -1321,7 +1321,7 @@
+ 		instantTextBoxType = {
+ 			name = "diplo_reply"
+ 			position = { x = 117 y = 310 }
+-			textureFile = ""
++			
+ 			font = "hoi_24header"
+ 			borderSize = {x = 0 y = 0}
+ 			text = "REPLYTEXT"
+@@ -2063,7 +2063,7 @@
+ 			instantTextBoxType = {
+ 				name = "diplo_reply"
+ 				position = { x = 117 y = 200 }
+-				textureFile = ""
++				
+ 				font = "hoi_24header"
+ 				borderSize = {x = 0 y = 0}
+ 				text = "REPLYTEXT"
+@@ -2243,7 +2243,7 @@
+ 			instantTextBoxType = {
+ 				name = "diplo_reply"
+ 				position = { x = 107 y = 320 }
+-				textureFile = ""
++				
+ 				font = "hoi_24header"
+ 				borderSize = {x = 0 y = 0}
+ 				text = "REPLYTEXT"
+@@ -2357,7 +2357,7 @@
+ 			instantTextBoxType = {
+ 				name = "diplo_reply"
+ 				position = { x=110 y=505 }
+-				textureFile = ""
++				
+ 				font = "hoi_24header"
+ 				borderSize = {x = 0 y = 0}
+ 				text = "REPLY_NOT_NEEDED"
+@@ -2555,7 +2555,7 @@
+ 			instantTextBoxType = {
+ 				name = "diplo_reply"
+ 				position = { x=110 y=505 }
+-				textureFile = ""
++				
+ 				font = "hoi_24header"
+ 				borderSize = {x = 0 y = 0}
+ 				text = "REPLYTEXT"
+@@ -2822,7 +2822,7 @@
+ 			instantTextBoxType = {
+ 				name = "diplo_reply"
+ 				position = { x = 117 y = 261 }
+-				textureFile = ""
++				
+ 				font = "hoi_24header"
+ 				borderSize = {x = 0 y = 0}
+ 				text = "REPLYTEXT"
+@@ -2936,7 +2936,7 @@
+ 			instantTextBoxType = {
+ 				name = "diplo_reply"
+ 				position = { x = 117 y = 261 }
+-				textureFile = ""
++				
+ 				font = "hoi_24header"
+ 				borderSize = {x = 0 y = 0}
+ 				text = "REPLYTEXT"
+@@ -3534,7 +3534,7 @@
+ 			instantTextboxType = {
+ 				name = "active_licenses_title"
+ 				position = { x = -430 y = 88 }
+-				textureFile = ""
++				
+ 				font = "hoi_20b"
+ 				borderSize = {x = 0 y = 0}
+ 				text = "DIPLOMACY_SHOW_ACTIVE_LICENSES"
+@@ -3563,7 +3563,7 @@
+ 			instantTextboxType = {
+ 				name = "available_licenses_title"
+ 				position = { x = -430 y = 115 }
+-				textureFile = ""
++				
+ 				font = "hoi_20b"
+ 				borderSize = {x = 0 y = 0}
+ 				text = "DIPLOMACY_SHOW_AVAILABLE_LICENSES"
+@@ -3643,7 +3643,7 @@
+ 			instantTextBoxType = {
+ 				name = "diplo_reply"
+ 				position = { x = 90 y = 559 }
+-				textureFile = ""
++				
+ 				font = "hoi_24header"
+ 				borderSize = {x = 0 y = 0}
+ 				text = "REPLYTEXT"
+@@ -5027,7 +5027,7 @@
+ 		instantTextboxType = {
+ 			name = "name"
+ 			position = { x = 28 y = 6 }
+-			textureFile = ""
++			
+ 			font = "hoi_18mbs"
+ 			borderSize = {x = 0 y = 0}
+ 			text = "Maus"
+@@ -5041,7 +5041,7 @@
+ 		instantTextboxType = {
+ 			name = "general_name"
+ 			position = { x = 30 y = 22 }
+-			textureFile = ""
++			
+ 			font = "hoi_16mbs"
+ 			borderSize = {x = 0 y = 0}
+ 			text = "Perkele-tankki"

@@ -1,0 +1,31 @@
+
+state={
+	id=986
+	name="STATE_986" #
+	manpower = 16959758 
+	
+	state_category = town
+	
+	resources={
+
+	}
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = KHL 
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			10729 3
+		}
+
+	}
+
+	provinces={
+		1129 2076 5968 7106 10729 12005 12708 12822 14435 16022 16024 16033 16034 16035 16036 16041 16042 18855 18877 18886 18913 18915 18927 18944 18952 19009 
+	}
+
+	local_supplies=0.0 
+}

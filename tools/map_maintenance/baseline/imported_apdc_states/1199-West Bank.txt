@@ -1,0 +1,45 @@
+state = {
+	id = 1199
+	name = "STATE_1199"
+	provinces = {
+		1
+		14455
+		14470
+		14472
+		14473
+		15803
+		15805
+	}
+	manpower = 241926
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = ISR
+		controller = ISR
+		add_core_of = ISR
+		victory_points = {
+			14455
+			3
+		}
+		victory_points = {
+			14470
+			1
+		}
+		victory_points = {
+			14472
+			3
+		}
+		victory_points = {
+			15803
+			1
+		}
+		victory_points = {
+			15805
+			10
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}

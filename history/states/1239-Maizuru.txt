@@ -1,0 +1,24 @@
+state = {
+	impassable = yes
+	id = 1239
+	name = "STATE_1239"
+	provinces = {
+		1136
+	}
+	manpower = 667500
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = metropolis
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = JAP
+		add_core_of = ZZZ
+		buildings = {
+			infrastructure = 4
+			1136 = {
+				naval_base = 6
+			}
+		}
+	}
+}

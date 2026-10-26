@@ -1,0 +1,84 @@
+--- before/common/doctrines/subdoctrines/sea/navy_screen_doctrines.txt
++++ current/common/doctrines/subdoctrines/sea/navy_screen_doctrines.txt
+@@ -300,67 +300,7 @@
+     }
+ }
+ 
+-screen_support_focus = {
+-	track = screens
+-    name = SUBDOCTRINE_SCREEN_SUPPORT_FOCUS
+-    description = SUBDOCTRINE_SCREEN_SUPPORT_FOCUS_DESC
+-    icon = GFX_doctrine_convoy_escorts_medium
+-
+-    xp_cost = 100
+-    xp_type = navy
+-
+-    available = {
+-   		always = yes
+-   		is_special_project_completed = sp:sp_naval_support_ships
+-
+-    }
+-    visible = {
+-    	has_dlc = "No Compromise, No Surrender"
+-    }
+-
+-    navy_max_range_factor = 0.1
+-
+-    rewards = {
+-    	close_support_integration = {
+-    		naval_general_support_value_factor = 0.1
+-    		destroyer = {
+-    			max_organisation = 30
+-    		}
+-    	}
+-    	sustainable_task_forces = {
+-    		naval_general_support_factor = 0.1
+-    		light_cruiser = {
+-    			naval_range = 0.1
+-    		}
+-    	}
+-    	maintenance_routines = {
+-    		support_ship = {
+-    			max_organisation = 20
+-    			max_strength = 0.2
+-    		}
+-
+-
+-    	}
+-    	protected_naval_expansion = {
+-    		destroyer = {
+-    			naval_range = 0.1
+-    		}
+-    		heavy_cruiser = {
+-    			hg_attack = 0.1
+-    		}
+-
+-    	}
+-    	patrol_pattern_improvements = {
+-    		destroyer = {
+-    			patrol_coordination = 0.2
+-    		}
+-    		light_cruiser = {
+-    			patrol_coordination = 0.2
+-    		}	
+-
+-    	}
+-    }
+-}
++
+ 
+ jeune_ecole = {
+ 	track = screens
+@@ -391,11 +331,7 @@
+     			torpedo_attack = 0.1
+     		}
+             equipment_bonus = {
+-                ship_hull_torpedo_cruiser = {
+-                    torpedo_attack = 0.1
+-                    lg_attack = 0.1
+-                    instant = yes
+-                }
++                
+             }
+     	}
+     	total_economic_warfare = {

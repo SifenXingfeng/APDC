@@ -1,0 +1,42 @@
+--- before/common/units/field_hospital.txt
++++ current/common/units/field_hospital.txt
+@@ -1,9 +1,15 @@
+ # APDC: old land-unit IDs retained for reference compatibility; normal unlocks removed.
+ sub_units = {
+-	field_hospital = {
++	
++
++	
++
++
++# Inactive identifiers required by retained engine interfaces.
++field_hospital = {
+ 		abbreviation = "HOS"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -61,11 +67,10 @@
+ 
+ 		same_support_type = field_hospital
+ 	}
+-
+-	helicopter_field_hospital = {
++helicopter_field_hospital = {
+ 		abbreviation = "HELF"
+ 		sprite = helicopter_brigade
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -125,7 +130,6 @@
+ 		same_support_type = field_hospital
+ 		same_support_type = helicopter_field_hospital
+ 	}
+-
+ }
+ 
+ 

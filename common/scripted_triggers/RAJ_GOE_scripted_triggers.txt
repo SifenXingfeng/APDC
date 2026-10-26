@@ -1,0 +1,11 @@
+#scripted trigger for RAJ - GOE
+
+
+is_raj_or_raj_inheritor = {
+	OR = {
+		original_tag = RAJ
+		original_tag = BAN
+		original_tag = PAK
+	}
+}
+

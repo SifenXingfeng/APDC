@@ -1,0 +1,83 @@
+state = {
+	id = 900
+	name = "STATE_900"
+	resources = {
+		coal = 1
+	}
+	provinces = {
+		1992
+		4889
+		7978
+		8109
+		10820
+		14050
+		14065
+		14081
+		14084
+		15209
+		15439
+		15447
+		15450
+		15902
+	}
+	manpower = 514586
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = NGA
+		controller = NGA
+		add_core_of = NGA
+		victory_points = {
+			1992
+			3
+		}
+		victory_points = {
+			4889
+			1
+		}
+		victory_points = {
+			8109
+			3
+		}
+		victory_points = {
+			10820
+			2
+		}
+		victory_points = {
+			14050
+			3
+		}
+		victory_points = {
+			14065
+			3
+		}
+		victory_points = {
+			14081
+			5
+		}
+		victory_points = {
+			15209
+			1
+		}
+		victory_points = {
+			15439
+			3
+		}
+		victory_points = {
+			15447
+			1
+		}
+		victory_points = {
+			15450
+			1
+		}
+		victory_points = {
+			15902
+			3
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

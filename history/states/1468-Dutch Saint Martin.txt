@@ -1,0 +1,23 @@
+state = {
+	id = 1468
+	name = "STATE_1468"
+	provinces = {
+		19994
+	}
+	manpower = 148097
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = LLU
+		controller = LLU
+		add_core_of = GDL
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			19994
+			1
+		}
+	}
+}

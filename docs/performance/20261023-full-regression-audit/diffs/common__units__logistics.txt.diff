@@ -1,0 +1,50 @@
+--- before/common/units/logistics.txt
++++ current/common/units/logistics.txt
+@@ -1,9 +1,20 @@
+ # APDC: old land-unit IDs retained for reference compatibility; normal unlocks removed.
+ sub_units = {
+-	logistics_company = {
++	
++
++	########################
++	### SPECIAL PROJECTS ###
++	########################
++
++	# WW - SP tech - Helicopter Logistics - Using Helicopters -> Helicopter Transport
++	
++
++
++# Inactive identifiers required by retained engine interfaces.
++logistics_company = {
+ 		abbreviation = "LOG"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -55,16 +66,10 @@
+ 		}
+ 		same_support_type = logistics_company
+ 	}
+-
+-	########################
+-	### SPECIAL PROJECTS ###
+-	########################
+-
+-	# WW - SP tech - Helicopter Logistics - Using Helicopters -> Helicopter Transport
+-	helicopter_transport = {
++helicopter_transport = {
+ 		abbreviation = "HELT"
+ 		sprite = helicopter_brigade
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -142,5 +147,4 @@
+ 		same_support_type = logistics_company
+ 		same_support_type = helicopter_transport
+ 	}
+-
+ }

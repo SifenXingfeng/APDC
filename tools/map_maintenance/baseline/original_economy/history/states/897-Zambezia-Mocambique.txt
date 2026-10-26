@@ -1,0 +1,27 @@
+state={
+	id=897
+	name="STATE_897"
+	manpower = 1386000
+	state_category = pastoral 
+
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 2
+			2123 = {
+				naval_base = 1
+
+			}
+
+		}
+
+		add_core_of = MZB
+
+	}
+	provinces={
+		2123 2159 2180 2202 2217 5164 10972 12971 13729 13741 13752 13754 13775 13776 13792 13795 13796 13800 13812 13820 13821 17848 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

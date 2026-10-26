@@ -1,0 +1,33 @@
+{
+  "overrides": [
+    [
+      "NGame",
+      "START_DATE"
+    ],
+    [
+      "NGame",
+      "END_DATE"
+    ],
+    [
+      "NDiplomacy",
+      "TENSION_TIME_SCALE_START_DATE"
+    ],
+    [
+      "NCountry",
+      "GIE_EXILE_ARMY_LEADER_START_LEVEL"
+    ],
+    [
+      "NMilitary",
+      "UNIT_LEADER_MODIFIER_COOLDOWN_REFERENCE_MANPOWER"
+    ],
+    [
+      "NMilitary",
+      "UNIT_LEADER_MODIFIER_COOLDOWN_MANPOWER_EXPONENT"
+    ],
+    [
+      "NCharacter",
+      "POLITICAL_ADVISOR_SLOTS_IN_MENU"
+    ]
+  ],
+  "obsolete": []
+}

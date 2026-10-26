@@ -1,0 +1,15 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            every_country = {
+                if = {
+                    limit = { NOT = { has_tech = APDC_medical_center_unlock } }
+                    set_technology = {
+                        APDC_medical_center_unlock = 1
+                        popup = no
+                    }
+                }
+            }
+        }
+    }
+}

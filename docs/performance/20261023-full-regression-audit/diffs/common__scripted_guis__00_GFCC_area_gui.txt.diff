@@ -1,0 +1,117 @@
+--- before/common/scripted_guis/00_GFCC_area_gui.txt
++++ current/common/scripted_guis/00_GFCC_area_gui.txt
+@@ -1,57 +1,57 @@
+-scripted_gui = {
+-	# 显示UI按钮
+-	GFCC_area_gui_show_window = {
+-		context_type = selected_state_context
+-		window_name = "GFCC_area_gui_show_window"
+-
+-		parent_window_token = selected_state_view
+-
+-		dirty = global.refresh_gui
+-
+-		visible = {
+-			# OR = {
+-			# 	NOT = { is_owned_by = ROOT }
+-			# 	NOT = { is_controlled_by = ROOT }
+-			# }
+-			ROOT = { has_country_flag = GFCC_area_gui_hide_window }
+-		}
+-
+-		effects = {
+-			GFCC_area_gui_up_arrow_click = {
+-				ROOT = { clr_country_flag = GFCC_area_gui_hide_window }
+-				update_gui  = yes
+-			}
+-		}
+-	}
+-
+-	# 地区系统主UI 以及 隐藏按钮 参考自《千禧黎明》投资系统
+-	GFCC_area_gui_window = {
+-		context_type = selected_state_context
+-		window_name = "GFCC_area_gui_window"
+-		parent_window_token = selected_state_view
+-
+-		dirty = global.refresh_gui
+-
+-		visible = {
+-			# OR = {
+-			# 	NOT = { is_owned_by = ROOT }
+-			# 	NOT = { is_controlled_by = ROOT }
+-			# }
+-			ROOT = { NOT = { has_country_flag = GFCC_area_gui_hide_window } }
+-		}
+-
+-		properties = {
+-			
+-		}
+-
+-		effects = {
+-			# 隐藏主UI
+-			GFCC_area_gui_down_arrow_click = {
+-				ROOT = { set_country_flag = GFCC_area_gui_hide_window }
+-				update_gui = yes #此处有个报错点：“refresh_gui”已经落后，会触发报错
+-			}
+-			
+-		}
+-	}
+-
+-}
++scripted_gui = {
++	# 显示UI按钮
++	GFCC_area_gui_show_window = {
++		context_type = selected_state_context
++		window_name = "GFCC_area_gui_show_window"
++
++		parent_window_token = selected_state_view
++
++		dirty = global.refresh_gui
++
++		visible = {
++			# OR = {
++			# 	NOT = { is_owned_by = ROOT }
++			# 	NOT = { is_controlled_by = ROOT }
++			# }
++			ROOT = { has_country_flag = GFCC_area_gui_hide_window }
++		}
++
++		effects = {
++			GFCC_area_gui_up_arrow_click = {
++				ROOT = { clr_country_flag = GFCC_area_gui_hide_window }
++				add_to_variable = { global.refresh_gui = 1 }
++			}
++		}
++	}
++
++	# 地区系统主UI 以及 隐藏按钮 参考自《千禧黎明》投资系统
++	GFCC_area_gui_window = {
++		context_type = selected_state_context
++		window_name = "GFCC_area_gui_window"
++		parent_window_token = selected_state_view
++
++		dirty = global.refresh_gui
++
++		visible = {
++			# OR = {
++			# 	NOT = { is_owned_by = ROOT }
++			# 	NOT = { is_controlled_by = ROOT }
++			# }
++			ROOT = { NOT = { has_country_flag = GFCC_area_gui_hide_window } }
++		}
++
++		properties = {
++			
++		}
++
++		effects = {
++			# 隐藏主UI
++			GFCC_area_gui_down_arrow_click = {
++				ROOT = { set_country_flag = GFCC_area_gui_hide_window }
++				add_to_variable = { global.refresh_gui = 1 } #此处有个报错点：“refresh_gui”已经落后，会触发报错
++			}
++			
++		}
++	}
++
++}

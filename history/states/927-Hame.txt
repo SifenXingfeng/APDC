@@ -1,0 +1,40 @@
+state = {
+	id = 927
+	name = "STATE_927"
+	provinces = {
+		67
+		3009
+		3025
+		3137
+		6009
+		6047
+		6163
+		9160
+		9167
+		11066
+		11172
+		13101
+		13107
+	}
+	manpower = 375607
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = SOV
+		add_core_of = ZZZ
+		victory_points = {
+			67
+			1
+		}
+		victory_points = {
+			3137
+			2
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

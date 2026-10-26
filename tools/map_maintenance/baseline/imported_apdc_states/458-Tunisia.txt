@@ -1,0 +1,90 @@
+state = {
+	id = 458
+	name = "STATE_458"
+	manpower = 1982940
+	state_category = town
+	resources = {
+		steel = 31
+	}
+	history = {
+		owner = TUN
+		controller = TUN
+		add_core_of = TUN
+		victory_points = {
+			1037
+			1
+		}
+		victory_points = {
+			1046
+			1
+		}
+		victory_points = {
+			4061
+			1
+		}
+		victory_points = {
+			4163
+			1
+		}
+		victory_points = {
+			7077
+			1
+		}
+		victory_points = {
+			9994
+			2
+		}
+		victory_points = {
+			10091
+			2
+		}
+		victory_points = {
+			11921
+			5
+		}
+		victory_points = {
+			11969
+			20
+		}
+		victory_points = {
+			13177
+			3
+		}
+		victory_points = {
+			18062
+			1
+		}
+		victory_points = {
+			18101
+			5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 8
+			9994 = {
+				naval_base = 8
+			}
+		}
+	}
+	provinces = {
+		1037
+		1046
+		4061
+		4129
+		4163
+		7077
+		7180
+		9994
+		10091
+		11921
+		11969
+		13177
+		18026
+		18061
+		18062
+		18072
+		18101
+	}
+	local_supplies = 0.0
+}

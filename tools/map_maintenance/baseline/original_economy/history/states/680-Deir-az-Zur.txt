@@ -1,0 +1,32 @@
+state={
+	id=680
+	name="STATE_680"
+	manpower = 324110
+	
+	state_category = wasteland
+
+	history={
+		owner = SYR
+		victory_points = {
+			3942 1
+		}
+		victory_points = {
+			1549 1
+		}
+		victory_points = {
+			6883 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SYR
+		add_core_of = KUR
+	}
+
+
+	provinces={
+		901 1549 1578 1606 1634 2013 3942 6883 7513 10383 10882 12316 12442 14443 14463 14466 14469 16269 16272 16273 16274 16276 16277 16278 16279 16280 16281 16282 16283 18477 
+	}
+
+	local_supplies=4.0 
+}

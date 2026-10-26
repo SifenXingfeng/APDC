@@ -1,0 +1,11 @@
+--- before/common/scorers/country/generic_operation_target_scorer.txt
++++ current/common/scorers/country/generic_operation_target_scorer.txt
+@@ -57,7 +57,7 @@
+ 			}
+ 
+ 			modifier = {
+-				has_government = FROM
++				always = no
+ 				NOT = { has_war_with = FROM }
+ 				factor = 0.6
+ 			}

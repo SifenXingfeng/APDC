@@ -1,25 +1,26 @@
-state = { #Population + VPs Done
+state = {
 	id = 711
 	name = "STATE_711"
-	manpower = 927
+	manpower = 1625
 	state_category = tiny_island
-
 	history = {
-		owner = INS
-		add_core_of = INS
+		owner = ENG
+		controller = ENG
+		add_claim_by = AST
+		victory_points = {
+			13005
+			1
+		}
 		buildings = {
 			infrastructure = 2
-			radar_station = 2
 			13005 = {
 				naval_base = 1
 			}
-			air_base = 1
 		}
-		add_claim_by = AST
 		set_state_flag = GDP_regions_sumatra
 	}
-
 	provinces = {
 		13005
 	}
+	local_supplies = 0.0
 }

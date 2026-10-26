@@ -1,0 +1,57 @@
+{
+  "layout": {
+    "supplied_PNGs_byte_identical": true,
+    "background_size": [
+      550,
+      636
+    ],
+    "icon_size": [
+      83,
+      80
+    ],
+    "square_in_background": [
+      339,
+      457,
+      432,
+      549
+    ],
+    "icon_in_background": [
+      344,
+      463,
+      427,
+      543
+    ],
+    "centre_matches_square": [
+      385.5,
+      503
+    ],
+    "native_button_shader": "gfx/FX/buttonstate.shader (Up/Over/Down)",
+    "old_top_bar_entry_removed": true,
+    "preview_kind": "deterministic layout preview; not a native screenshot",
+    "native_button_hit_area": [
+      93,
+      92
+    ],
+    "transparent_areas_clickable": true,
+    "art_padding": [
+      5,
+      6
+    ],
+    "normal_art_pixels_unchanged": true,
+    "mouse_hover_or_click_sent": false
+  },
+  "smoke_project_or_unclassified_errors": 0,
+  "smoke_scope": "Normal background game load and unchanged entry callback; final transparent padding/rectangular hit area checked statically afterward. Political-page positioning is a deterministic layout preview, not a mouse-driven native political-page screenshot.",
+  "cleanup": {
+    "still_running": false,
+    "stopped": "2026-10-25T17:02:15.7532475+08:00",
+    "closed_helpers": [
+      39420,
+      24584
+    ],
+    "remaining_helpers": [],
+    "steam_app_running": false,
+    "pid": 39484
+  },
+  "background_path_correction": "../20261025-politics-background-fix/audit.json"
+}

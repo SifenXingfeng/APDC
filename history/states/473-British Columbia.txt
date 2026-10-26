@@ -1,0 +1,45 @@
+state = {
+	id = 473
+	name = "STATE_473"
+	resources = {
+		oil = 1
+		coal = 3
+	}
+	provinces = {
+		1323
+		1737
+		1858
+		4343
+		4870
+		4877
+		7677
+		7753
+		7761
+		7820
+		7853
+		10228
+		10273
+		10644
+		12578
+		17231
+	}
+	manpower = 443941
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 4
+	history = {
+		owner = USA
+		controller = USA
+		add_core_of = USA
+		victory_points = {
+			7677
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 3
+		}
+	}
+}

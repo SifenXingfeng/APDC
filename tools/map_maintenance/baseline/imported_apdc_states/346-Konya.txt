@@ -1,0 +1,54 @@
+state = {
+	id = 346
+	name = "STATE_346"
+	provinces = {
+		869
+		940
+		3788
+		6807
+		6894
+		7143
+		9755
+		9763
+		9811
+		9861
+		11792
+		11860
+		13122
+		16219
+		16251
+	}
+	manpower = 895208
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = TUR
+		controller = TUR
+		add_core_of = TUR
+		victory_points = {
+			940
+			2
+		}
+		victory_points = {
+			6807
+			2
+		}
+		victory_points = {
+			9763
+			1
+		}
+		victory_points = {
+			9861
+			10
+		}
+		victory_points = {
+			11860
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 5
+		}
+	}
+}

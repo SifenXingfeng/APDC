@@ -1,0 +1,26 @@
+{
+  "profile": "D:\\APDC_ColdWarQA_20261024_225442",
+  "date": "2026-10-24T23:01:46",
+  "checks_passed": 74,
+  "failures": [],
+  "project_runtime_errors": 0,
+  "external_records": 705,
+  "state_history_changes": [],
+  "input_fix": "Native-size transparent TGA hitboxes; real-size tab sprites; same method as existing economy/cooperation UI.",
+  "solid_pie": true,
+  "selected_tab_above_page": true,
+  "one_shared_switch_cost": true,
+  "saved_cost_compatibility": "Reuses existing execute_cost array as the single switch fee; legacy stop_cost array is ignored.",
+  "validation_boundary": "Checks native texture input dimensions, stacking, bindings, engine effects/PP payment, and read-only native screenshots. No real mouse or keyboard interaction was performed.",
+  "process_cleanup": {
+    "steam_app_running": false,
+    "stopped": "2026-10-24T22:58:35.9163733+08:00",
+    "pid": 27680,
+    "remaining_helpers": [],
+    "closed_helpers": [
+      44896,
+      3520
+    ],
+    "still_running": false
+  }
+}

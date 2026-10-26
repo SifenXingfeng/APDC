@@ -206,11 +206,8 @@ technologies = {
 			building = radar_station
 			level = 5
 		}
-		coordination_bonus = 0.01
-		enable_equipment_modules = {
-			land_reinforce_rate = 0.01
-			coordination_bonus = 0.02
-		}
+		coordination_bonus = 0.03
+		land_reinforce_rate = 0.01
 
 		special_project_specialization = { specialization_air specialization_nuclear }
 

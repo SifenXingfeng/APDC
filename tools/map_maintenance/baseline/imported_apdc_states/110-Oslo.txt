@@ -1,0 +1,44 @@
+state = {
+	id = 110
+	name = "STATE_110"
+	provinces = {
+		3007
+		3171
+		6115
+		9103
+		11078
+		11151
+		11184
+		18368
+		18369
+		18376
+		18383
+	}
+	manpower = 684061
+	buildings_max_level_factor = 1
+	state_category = large_town
+	local_supplies = 0
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = NOR
+		add_core_of = ZZZ
+		victory_points = {
+			3171
+			1
+		}
+		victory_points = {
+			6115
+			10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			6115 = {
+				naval_base = 6
+				coastal_bunker = 3
+			}
+		}
+	}
+}

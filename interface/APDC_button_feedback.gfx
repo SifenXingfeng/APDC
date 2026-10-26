@@ -1,0 +1,12 @@
+spriteTypes = {
+spriteType = {
+name = "GFX_APDC_cw_return" texturefile = "gfx/interface/APDC/cold_war/option_first.png" noOfFrames = 1 effectFile = "gfx/FX/buttonstate.shader"
+}
+spriteType = {
+name = "GFX_APDC_cw_law_option_feedback" texturefile = "gfx/interface/APDC/cold_war/option_first.png" noOfFrames = 1 effectFile = "gfx/FX/APDC_buttonstate_optional_art.shader"
+}
+spriteType = {
+name = "GFX_APDC_cooperation_law_option_feedback" texturefile = "gfx/interface/APDC/cooperation_organizations/legislation/law_option_available.dds" noOfFrames = 1 effectFile = "gfx/FX/APDC_buttonstate_optional_art.shader"
+}
+
+}

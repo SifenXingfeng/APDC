@@ -1,0 +1,124 @@
+--- before/common/military_industrial_organization/organizations/SWE_organization.txt
++++ current/common/military_industrial_organization/organizations/SWE_organization.txt
+@@ -29,7 +29,7 @@
+ 	visible = {
+ 		IF = {
+ 			limit = { FROM = { original_tag = ETH } }
+-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
++			FROM = { always = no }
+ 		}
+ 	}
+ 
+@@ -58,7 +58,7 @@
+ 			custom_trigger_tooltip = {
+ 				tooltip = has_invited_mio_tt
+ 				FROM = {
+-					has_completed_focus = BRA_invite_foreign_companies
++					always = no
+ 					has_country_flag = has_landsverk_mio_flag
+ 				}
+ 			}
+@@ -73,7 +73,7 @@
+ 		all_parents = { generic_mio_streamlined_production }
+ 		special_trait_background  = yes
+ 		position = { x=0 y=1 }
+-		available = { SWE = { has_completed_focus = SWE_allow_landsverk_to_operate } }
++		available = { SWE = { always = no } }
+ 		production_bonus = {
+ 			production_capacity_factor = 0.03
+ 		}
+@@ -127,7 +127,7 @@
+ 			custom_trigger_tooltip = {
+ 				tooltip = has_invited_mio_tt
+ 				FROM = {
+-					has_completed_focus = BRA_invite_foreign_companies
++					always = no
+ 					has_country_flag = has_gotaverken_mio_flag
+ 				}
+ 			}
+@@ -142,7 +142,7 @@
+ 		any_parent = { generic_mio_trait_semi_armor_piercing_shells generic_mio_trait_super_heavy_shells generic_mio_trait_high_velocity_guns }
+ 		special_trait_background  = yes
+ 		position = { x=0 y=2 }
+-		available = { SWE = { has_completed_focus = SWE_gotaverken } }
++		available = { SWE = { always = no } }
+ 		production_bonus = {
+ 			production_capacity_factor = 0.06
+ 		}
+@@ -183,7 +183,7 @@
+ 			custom_trigger_tooltip = {
+ 				tooltip = has_invited_mio_tt
+ 				FROM = {
+-					has_completed_focus = BRA_invite_foreign_companies
++					always = no
+ 					has_country_flag = has_saab_mio_flag
+ 				}
+ 			}
+@@ -262,7 +262,7 @@
+ 	visible = {
+ 		IF = {
+ 			limit = { FROM = { original_tag = ETH } }
+-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
++			FROM = { always = no }
+ 		}
+ 	}
+ 
+@@ -314,7 +314,7 @@
+ 			custom_trigger_tooltip = {
+ 				tooltip = has_invited_mio_tt
+ 				FROM = {
+-					has_completed_focus = BRA_invite_foreign_companies
++					always = no
+ 					has_country_flag = has_scania_vabis_mio_flag
+ 				}
+ 			}
+@@ -345,11 +345,11 @@
+ 	visible = {
+ 		IF = {
+ 			limit = { FROM = { original_tag = ETH } }
+-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
++			FROM = { always = no }
+ 		}
+ 		IF = {
+ 			limit = { FROM = { original_tag = PER } }
+-			FROM = { has_completed_focus = PER_swedish_artillery }
++			FROM = { always = no }
+ 		}
+ 	}
+ 
+@@ -375,7 +375,7 @@
+ 		}
+ 		IF = {
+ 			limit = { FROM = { original_tag = PER } }
+-			FROM = { has_completed_focus = PER_swedish_artillery }
++			FROM = { always = no }
+ 		}
+ 	}
+ 
+@@ -396,7 +396,7 @@
+ 
+ 		all_parents = { generic_mio_trait_improved_hydraulic_recoil_system }
+ 		available = {
+-			SWE = { has_completed_focus = SWE_bofors_fly_swatter }
++			SWE = { always = no }
+ 		}
+ 
+ 		limit_to_equipment_type = {
+@@ -419,7 +419,7 @@
+ 
+ 		all_parents = { generic_mio_trait_improved_hydraulic_recoil_system }
+ 		available = {
+-			SWE = { has_completed_focus = SWE_bofors_anti_tank_gun }
++			SWE = { always = no }
+ 		}
+ 
+ 		limit_to_equipment_type = {
+@@ -447,7 +447,7 @@
+ 
+ 		all_parents = { generic_mio_trait_sliding_breech_block }
+ 		available = {
+-			SWE = { has_completed_focus = SWE_defense_in_depth }
++			SWE = { always = no }
+ 		}
+ 
+ 		equipment_bonus = {

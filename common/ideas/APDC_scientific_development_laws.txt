@@ -6,22 +6,24 @@ ideas = {
 		proper_science_base = {
 			level = 1
 			traits = { science_idea }
-			cost = 40
-			default = yes
-			allowed = { always = yes }
-			on_add = { unlock_project_facilities = yes }
+			cost = -1
+			
+			allowed = { always = no }
+			
 			removal_cost = -1
 			modifier = { }
 			ai_will_do = { factor = 10000 }
 			cancel_if_invalid = no
-		}
+		
+available = { always = no }
+}
 
 		big_science_base = {
 			level = 2
 			traits = { science_idea }
-			cost = 40
-			allowed = { always = yes }
-			on_add = { unlock_project_facilities = yes }
+			cost = -1
+			allowed = { always = no }
+			
 			removal_cost = -1
 			modifier = {
 				research_speed_factor = -0.3
@@ -47,13 +49,15 @@ ideas = {
 				}
 			}
 			cancel_if_invalid = no
-		}
+		
+available = { always = no }
+}
 
 		better_science_base = {
 			level = 3
 			traits = { science_idea }
-			cost = 40
-			allowed = { always = yes }
+			cost = -1
+			allowed = { always = no }
 			removal_cost = -1
 			modifier = {
 				research_speed_factor = -0.55
@@ -79,13 +83,15 @@ ideas = {
 				}
 			}
 			cancel_if_invalid = no
-		}
+		
+available = { always = no }
+}
 
 		poor_science_base = {
 			level = 4
 			traits = { science_idea }
-			cost = 40
-			allowed = { always = yes }
+			cost = -1
+			allowed = { always = no }
 			removal_cost = -1
 			modifier = {
 				special_project_speed_factor = -0.45
@@ -108,6 +114,8 @@ ideas = {
 				}
 			}
 			cancel_if_invalid = no
-		}
+		
+available = { always = no }
+}
 	}
 }

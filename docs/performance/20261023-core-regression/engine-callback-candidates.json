@@ -1,0 +1,194 @@
+[
+  {
+    "path": "common/scripted_effects/SWE_scripted_effects.txt",
+    "root": "lerp",
+    "exact_exe_string": true,
+    "status": "not an engine script callback: ordinary unused SWE scripted arithmetic utility; executable string match alone is insufficient"
+  },
+  {
+    "path": "common/scripted_effects/zz_debug_effects.txt",
+    "root": "ai_test_startup_effect",
+    "exact_exe_string": true,
+    "status": "native AI test-mode setup, not ordinary-game callback; remains excluded with unused debug fixtures"
+  },
+  {
+    "path": "common/scripted_triggers/00_diplo_action_valid_triggers.txt",
+    "root": "is_diplomatic_action_valid_stage_coup",
+    "exact_exe_string": false,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/00_diplo_action_valid_triggers.txt",
+    "root": "is_diplomatic_action_valid_boost_party_popularity",
+    "exact_exe_string": false,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/00_resistance_initiate_triggers.txt",
+    "root": "should_activate_active_crypto_bonuses",
+    "exact_exe_string": true,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/00_resistance_initiate_triggers.txt",
+    "root": "should_not_activate_active_crypto_bonuses",
+    "exact_exe_string": true,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/00_resistance_initiate_triggers.txt",
+    "root": "should_initiate_resistance",
+    "exact_exe_string": true,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_GUARANTEE_ENABLE_TRIGGER_OVERRIDES_GAME_TRIGGER",
+    "exact_exe_string": true,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_GUARANTEE_ENABLE_TRIGGER",
+    "exact_exe_string": true,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_REVOKE_GUARANTEE_ENABLE_TRIGGER",
+    "exact_exe_string": true,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER",
+    "exact_exe_string": true,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_MILACC_ENABLE_TRIGGER",
+    "exact_exe_string": false,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_OFFER_MILACC_ENABLE_TRIGGER",
+    "exact_exe_string": false,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_REVOKE_OFFER_MILACC_ENABLE_TRIGGER",
+    "exact_exe_string": false,
+    "status": "intentional exclusion: only PHI/USA/IRQ/ENG treaty or DEN protectorate exceptions; no generic rule"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_REVOKE_OFFER_DOCKING_RIGHTS_ENABLE_TRIGGER",
+    "exact_exe_string": false,
+    "status": "intentional exclusion: only PHI/USA/IRQ/ENG treaty or DEN protectorate exceptions; no generic rule"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_REVOKE_OFFER_AIR_BASE_ACCESS_ENABLE_TRIGGER",
+    "exact_exe_string": false,
+    "status": "intentional exclusion: only PHI/USA/IRQ/ENG treaty or DEN protectorate exceptions; no generic rule"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_DOCKING_RIGHTS_ENABLE_TRIGGER",
+    "exact_exe_string": false,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_OFFER_DOCKING_RIGHTS_ENABLE_TRIGGER",
+    "exact_exe_string": false,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER",
+    "exact_exe_string": true,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER",
+    "exact_exe_string": false,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER",
+    "exact_exe_string": false,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER",
+    "exact_exe_string": true,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_BOOST_PARTY_POPULARITY_ENABLE_TRIGGER",
+    "exact_exe_string": false,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_STAGE_COUP_ENABLE_TRIGGER",
+    "exact_exe_string": false,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_LEAVE_FACTION_ENABLE_TRIGGER",
+    "exact_exe_string": false,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_ASSUME_FACTION_LEADERSHIP_ENABLE_TRIGGER",
+    "exact_exe_string": false,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_KICK_FROM_FACTION_ENABLE_TRIGGER",
+    "exact_exe_string": false,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER",
+    "exact_exe_string": true,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER",
+    "exact_exe_string": false,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER",
+    "exact_exe_string": false,
+    "status": "restored generic engine callback; WW2 exceptions omitted where applicable"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_JOIN_FACTION_ENABLE_TRIGGER",
+    "exact_exe_string": false,
+    "status": "intentional exclusion: only PHI/USA/IRQ/ENG treaty or DEN protectorate exceptions; no generic rule"
+  },
+  {
+    "path": "common/scripted_triggers/diplomacy_scripted_triggers.txt",
+    "root": "DIPLOMACY_OFFER_JOIN_FACTION_ENABLE_TRIGGER",
+    "exact_exe_string": false,
+    "status": "intentional exclusion: only PHI/USA/IRQ/ENG treaty or DEN protectorate exceptions; no generic rule"
+  }
+]

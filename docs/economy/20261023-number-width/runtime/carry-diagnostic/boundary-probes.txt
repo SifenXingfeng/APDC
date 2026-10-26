@@ -1,0 +1,29 @@
+set_variable = { APDC_eco_supply_m = 999.99499 }
+APDC_eco_refresh_number_ui = yes
+log = "APDC_UNITS ROUND_BELOW |[APDCEconomySupplyValue]|"
+set_variable = { APDC_eco_supply_m = 999.995 }
+APDC_eco_refresh_number_ui = yes
+log = "APDC_UNITS ROUND_SUPPLY |[APDCEconomySupplyValue]|"
+set_variable = { APDC_eco_demand_m = 999.995 }
+APDC_eco_refresh_number_ui = yes
+log = "APDC_UNITS ROUND_DEMAND |[APDCEconomyDemandValue]|"
+set_variable = { APDC_eco_cash_m = -1000 } set_variable = { APDC_eco_cash_k = 5 }
+APDC_eco_refresh_number_ui = yes
+log = "APDC_UNITS ROUND_NEGATIVE |[APDCEconomyCashAmount]|"
+set_variable = { APDC_eco_cash_m = 999 } set_variable = { APDC_eco_cash_k = 995 }
+APDC_eco_refresh_number_ui = yes
+log = "APDC_UNITS ROUND_CASH |[APDCEconomyCashAmount]|"
+set_variable = { APDC_eco_cash_m = 0 } set_variable = { APDC_eco_cash_k = 999.995 }
+APDC_eco_refresh_number_ui = yes
+log = "APDC_UNITS ROUND_K |[APDCEconomyCashAmount]|"
+set_variable = { APDC_eco_trade_net_m = 999.995 }
+APDC_eco_refresh_number_ui = yes
+log = "APDC_UNITS ROUND_TRADE |[APDCEconomyTradeValue]|"
+set_variable = { APDC_eco_supply_m = 999995000 }
+APDC_eco_refresh_number_ui = yes
+log = "APDC_UNITS ROUND_QA |[APDCEconomySupplyValue]|"
+set_variable = { APDC_eco_purchase_cost_m = 999 } set_variable = { APDC_eco_purchase_cost_k = 995 }
+APDC_eco_refresh_number_ui = yes
+log = "APDC_UNITS ROUND_PURCHASE |[APDCEconomyPurchaseAmount]|"
+QA_click_back = yes
+log = "APDC_WIDTH COMPLETE"

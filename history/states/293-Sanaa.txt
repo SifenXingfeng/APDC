@@ -1,0 +1,34 @@
+state = {
+	id = 293
+	name = "STATE_293"
+	resources = {
+	}
+	provinces = {
+		10840
+		13429
+		18590
+	}
+	manpower = 393079
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = YEM
+		controller = YEM
+		add_core_of = YEM
+		victory_points = {
+			10840
+			25
+		}
+		victory_points = {
+			13429
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		set_state_flag = state_renamings
+	}
+}

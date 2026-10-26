@@ -1,0 +1,26 @@
+state = {
+	id = 1474
+	name = "STATE_1474"
+	provinces = {
+		11350
+	}
+	manpower = 19121
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = small_island
+	history = {
+		owner = BRB
+		controller = BRB
+		add_core_of = BRB
+		buildings = {
+			infrastructure = 2
+			11350 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			11350
+			3
+		}
+	}
+}

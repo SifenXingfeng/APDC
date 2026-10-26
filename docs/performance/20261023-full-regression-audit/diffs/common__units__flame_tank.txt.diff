@@ -1,0 +1,76 @@
+--- before/common/units/flame_tank.txt
++++ current/common/units/flame_tank.txt
+@@ -1,9 +1,16 @@
+ # APDC: old land-unit IDs retained for reference compatibility; normal unlocks removed.
+ sub_units = {
+-	light_flame_tank = {
++	
++
++	
++
++	
++
++# Inactive identifiers required by retained engine interfaces.
++light_flame_tank = {
+ 		abbreviation = "LFT"
+ 		sprite = light_flame_tank
+-		map_icon_category = armored
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -52,7 +59,7 @@
+ 		armor_value = -0.75
+ 
+ 		need = {
+-			light_tank_flame_chassis = 15
++			
+ 		}
+ 
+ 		forest = {
+@@ -86,11 +93,10 @@
+ 
+ 		same_support_type = flame
+ 	}
+-
+-	medium_flame_tank = {
++medium_flame_tank = {
+ 		abbreviation = "MFT"
+ 		sprite = medium_armor
+-		map_icon_category = armored
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -141,7 +147,7 @@
+ 		armor_value = -0.7
+ 
+ 		need = {
+-			medium_tank_flame_chassis = 15
++			
+ 		}
+ 
+ 		forest = {
+@@ -175,11 +181,10 @@
+ 
+ 		same_support_type = flame
+ 	}
+-
+-	heavy_flame_tank = {
++heavy_flame_tank = {
+ 		abbreviation = "HFT"
+ 		sprite = heavy_armor
+-		map_icon_category = armored
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -230,7 +235,7 @@
+ 
+ 
+ 		need = {
+-			heavy_tank_flame_chassis = 15
++			
+ 		}
+ 
+ 		forest = {

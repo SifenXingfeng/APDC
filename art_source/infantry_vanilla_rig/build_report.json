@@ -1,0 +1,51 @@
+{
+  "skeleton": "GER_infantry.mesh",
+  "bones": 33,
+  "vanilla_bind_data_exact": true,
+  "max_export_bind_error": 0.0001456737518310547,
+  "entity_scale": 0.5570277319107337,
+  "mesh_objects": [
+    {
+      "object": "APDC_r6_infantry",
+      "vertices": 4966,
+      "max_influences": 3
+    },
+    {
+      "object": "APDC_r6_infantry_vanilla_head",
+      "vertices": 470,
+      "max_influences": 4
+    }
+  ],
+  "weapon_split": true,
+  "animation_types": [
+    "GER_infantry_rifle_idle_animation",
+    "GER_infantry_rifle_attack_animation",
+    "GER_infantry_rifle_support_attack_animation",
+    "GER_infantry_rifle_charge_animation",
+    "GER_infantry_rifle_charge_shoot_animation",
+    "GER_infantry_rifle_moving_animation",
+    "GER_infantry_rifle_march_animation",
+    "GER_infantry_rifle_retreat_animation",
+    "GER_infantry_rifle_death_animation",
+    "GER_infantry_rifle_long_idle_01_animation",
+    "GER_infantry_rifle_long_idle_02_animation",
+    "GER_infantry_rifle_long_idle_03_animation",
+    "GER_infantry_rifle_long_idle_04_animation",
+    "GER_infantry_rifle_long_idle_05_animation",
+    "GER_infantry_cavalry_rider_rifle_idle_animation",
+    "GER_infantry_cavalry_rider_rifle_moving_animation",
+    "GER_infantry_idle_training_animation",
+    "GER_infantry_jumping_jacks_animation",
+    "GER_infantry_pushup_animation",
+    "GER_infantry_guard_rifle_animation",
+    "GER_infantry_aim_exercise_animation",
+    "infantry_bicycle_idle_animation",
+    "infantry_bicycle_idle_2_animation",
+    "infantry_bicycle_move_animation",
+    "infantry_bicycle_move_2_animation",
+    "infantry_bicycle_retreat_animation",
+    "infantry_bicycle_retreat_2_animation"
+  ],
+  "scope": "generic infantry only; tactical dolls, UMP and penguin unchanged",
+  "input_r6_asset_sha256": "09e656ff256f6768909097b2da543ecd5cc983d30e804d9c39efcc339f4e3e49"
+}

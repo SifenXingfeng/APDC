@@ -1080,10 +1080,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
-		path = {
-			leads_to_tech = sp_improved_repair_ship
-			research_cost_coeff = 1
-		}
+		
 
 		folder = {
 			name = mtgnavalsupportfolder
@@ -1665,10 +1662,7 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		path = {
-			leads_to_tech = sp_multi_product_supply_ships
-			research_cost_coeff = 1
-		}	
+			
 
 		research_cost = 1.5
 		start_year = 2000
@@ -1710,10 +1704,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = sp_improved_support_ship
-			research_cost_coeff = 1
-		}
+		
 
 		enable_equipments = {
 			floating_harbor_equipment_1
@@ -1744,7 +1735,13 @@ technologies = {
 			tp_tech
 		}
 		special_project_specialization = { specialization_naval }
-	}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
 
 	mtg_tank_landing_craft = {
 

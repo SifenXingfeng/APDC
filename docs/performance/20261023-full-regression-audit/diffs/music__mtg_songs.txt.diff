@@ -1,0 +1,51 @@
+--- before/music/mtg_songs.txt
++++ current/music/mtg_songs.txt
+@@ -0,0 +1,48 @@
++
++music_station = "base_music"
++
++music = {
++	song = "claustrophobic_march"
++
++	chance = {
++		factor = 1
++		
++		
++		
++	}
++
++}
++
++music = {
++	song = "communist_america"
++
++	chance = {
++		factor = 1
++		
++		
++		
++		
++	}
++}
++
++music = {
++	song = "confederate_flags"
++
++	chance = {
++		factor = 1
++		
++		
++		
++		
++	}
++}
++
++music = {
++	song = "democratic_movements"
++
++	chance = {
++		factor = 1
++		
++		
++	}
++}

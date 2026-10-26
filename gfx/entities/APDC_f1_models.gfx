@@ -1,0 +1,92 @@
+# Desktop staging only: no country/unit overrides.
+objectTypes = {
+  pdxmesh = {
+ name = "APDC_f1_nyto_final_mesh"
+ file = "gfx/models/units/APDC_f1_nyto_final/APDC_f1_nyto_final.mesh"
+ animation = { id = "idle" type = "APDC_f1_nyto_final_idle_animation" }
+ animation = { id = "idle_look" type = "APDC_f1_nyto_final_idle_look_animation" }
+ animation = { id = "idle_shift" type = "APDC_f1_nyto_final_idle_shift_animation" }
+ animation = { id = "move" type = "APDC_f1_nyto_final_move_animation" }
+ animation = { id = "attack" type = "APDC_f1_nyto_final_attack_animation" }
+ animation = { id = "death" type = "APDC_f1_nyto_final_death_animation" }
+}
+
+  pdxmesh = {
+    name = "APDC_f1_wheeled_atgm_mesh"
+    file = "gfx/models/units/APDC_f1_wheeled_atgm/APDC_f1_wheeled_atgm.mesh"
+    animation = { id = "idle" type = "APDC_f1_wheeled_atgm_idle_animation" }
+    animation = { id = "move" type = "APDC_f1_wheeled_atgm_move_animation" }
+    animation = { id = "attack" type = "APDC_f1_wheeled_atgm_attack_animation" }
+  }
+  pdxmesh = {
+    name = "APDC_f1_tank_support_mesh"
+    file = "gfx/models/units/APDC_f1_tank_support/APDC_f1_tank_support.mesh"
+    animation = { id = "idle" type = "APDC_f1_tank_support_idle_animation" }
+    animation = { id = "move" type = "APDC_f1_tank_support_move_animation" }
+    animation = { id = "attack" type = "APDC_f1_tank_support_attack_animation" }
+  }
+  pdxmesh = {
+    name = "APDC_f1_self_propelled_gun_mesh"
+    file = "gfx/models/units/APDC_f1_self_propelled_gun/APDC_f1_self_propelled_gun.mesh"
+    animation = { id = "idle" type = "APDC_f1_self_propelled_gun_idle_animation" }
+    animation = { id = "move" type = "APDC_f1_self_propelled_gun_move_animation" }
+    animation = { id = "attack" type = "APDC_f1_self_propelled_gun_attack_animation" }
+  }
+  pdxmesh = {
+    name = "APDC_f1_self_propelled_aa_mesh"
+    file = "gfx/models/units/APDC_f1_self_propelled_aa/APDC_f1_self_propelled_aa.mesh"
+    animation = { id = "idle" type = "APDC_f1_self_propelled_aa_idle_animation" }
+    animation = { id = "move" type = "APDC_f1_self_propelled_aa_move_animation" }
+    animation = { id = "attack" type = "APDC_f1_self_propelled_aa_attack_animation" }
+  }
+  pdxmesh = {
+    name = "APDC_f1_self_propelled_mortar_mesh"
+    file = "gfx/models/units/APDC_f1_self_propelled_mortar/APDC_f1_self_propelled_mortar.mesh"
+    animation = { id = "idle" type = "APDC_f1_self_propelled_mortar_idle_animation" }
+    animation = { id = "move" type = "APDC_f1_self_propelled_mortar_move_animation" }
+    animation = { id = "attack" type = "APDC_f1_self_propelled_mortar_attack_animation" }
+  }
+  pdxmesh = {
+    name = "APDC_f1_truck_artillery_mesh"
+    file = "gfx/models/units/APDC_f1_truck_artillery/APDC_f1_truck_artillery.mesh"
+    animation = { id = "idle" type = "APDC_f1_truck_artillery_idle_animation" }
+    animation = { id = "move" type = "APDC_f1_truck_artillery_move_animation" }
+    animation = { id = "attack" type = "APDC_f1_truck_artillery_attack_animation" }
+  }
+  pdxmesh = {
+    name = "APDC_f1_truck_mlrs_mesh"
+    file = "gfx/models/units/APDC_f1_truck_mlrs/APDC_f1_truck_mlrs.mesh"
+    animation = { id = "idle" type = "APDC_f1_truck_mlrs_idle_animation" }
+    animation = { id = "move" type = "APDC_f1_truck_mlrs_move_animation" }
+    animation = { id = "attack" type = "APDC_f1_truck_mlrs_attack_animation" }
+  }
+  pdxmesh = {
+    name = "APDC_f1_truck_missile_mesh"
+    file = "gfx/models/units/APDC_f1_truck_missile/APDC_f1_truck_missile.mesh"
+    animation = { id = "idle" type = "APDC_f1_truck_missile_idle_animation" }
+    animation = { id = "move" type = "APDC_f1_truck_missile_move_animation" }
+    animation = { id = "attack" type = "APDC_f1_truck_missile_attack_animation" }
+  }
+  pdxmesh = {
+ name = "APDC_f1_multipod_artillery_mesh"
+ file = "gfx/models/units/APDC_f1_multipod_artillery/APDC_f1_multipod_artillery.mesh"
+ animation = { id = "idle" type = "APDC_f1_multipod_artillery_idle_animation" }
+ animation = { id = "idle_look" type = "APDC_f1_multipod_artillery_idle_look_animation" }
+ animation = { id = "idle_shift" type = "APDC_f1_multipod_artillery_idle_shift_animation" }
+ animation = { id = "move" type = "APDC_f1_multipod_artillery_move_animation" }
+ animation = { id = "attack" type = "APDC_f1_multipod_artillery_attack_animation" }
+ animation = { id = "death" type = "APDC_f1_multipod_artillery_death_animation" }
+}
+
+  pdxmesh = {
+ name = "APDC_f1_armed_helicopter_mesh"
+ file = "gfx/models/units/APDC_f1_armed_helicopter/APDC_f1_armed_helicopter.mesh"
+ animation = { id = "idle" type = "APDC_f1_armed_helicopter_idle_animation" }
+ animation = { id = "idle_look" type = "APDC_f1_armed_helicopter_idle_look_animation" }
+ animation = { id = "idle_shift" type = "APDC_f1_armed_helicopter_idle_shift_animation" }
+ animation = { id = "move" type = "APDC_f1_armed_helicopter_move_animation" }
+ animation = { id = "attack" type = "APDC_f1_armed_helicopter_attack_animation" }
+ animation = { id = "death" type = "APDC_f1_armed_helicopter_death_animation" }
+}
+
+}

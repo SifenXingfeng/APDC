@@ -1,0 +1,26 @@
+state = {
+	id = 899
+	name = "STATE_899"
+	provinces = {
+		2012
+		10915
+		14149
+		14152
+		14169
+		14178
+	}
+	manpower = 410708
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = MLI
+		controller = MLI
+		add_core_of = ISP
+		add_core_of = JNM
+		add_core_of = MLI
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

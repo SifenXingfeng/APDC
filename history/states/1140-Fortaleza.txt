@@ -1,0 +1,26 @@
+state = {
+	id = 1140
+	name = "STATE_1140"
+	provinces = {
+		5107
+	}
+	manpower = 408000
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+	history = {
+		owner = BRA
+		controller = BRA
+		add_core_of = BRA
+		victory_points = {
+			5107
+			15
+		}
+		buildings = {
+			infrastructure = 2
+			5107 = {
+				naval_base = 3
+			}
+		}
+	}
+}

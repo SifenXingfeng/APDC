@@ -1,0 +1,42 @@
+state = {
+	id = 773
+	name = "STATE_773"
+	provinces = {
+		5036
+		13958
+		13976
+		15442
+		19368
+	}
+	manpower = 342533
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = COG
+		controller = COG
+		add_core_of = CMR
+		add_core_of = COG
+		victory_points = {
+			5036
+			2
+		}
+		victory_points = {
+			13958
+			2
+		}
+		victory_points = {
+			13976
+			30
+		}
+		victory_points = {
+			19368
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+	}
+}

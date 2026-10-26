@@ -1,0 +1,45 @@
+state = {
+	id = 1282
+	name = "STATE_1282"
+	provinces = {
+		1054
+		4056
+		10085
+		12060
+		16839
+		19512
+	}
+	manpower = 2597110
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = KOR
+		add_core_of = ZZZ
+		victory_points = {
+			1054
+			3
+		}
+		victory_points = {
+			4056
+			5
+		}
+		victory_points = {
+			12060
+			20
+		}
+		victory_points = {
+			16839
+			5
+		}
+		buildings = {
+			infrastructure = 2
+			4056 = {
+				naval_base = 4
+			}
+			dockyard = 1
+		}
+	}
+}

@@ -1,36 +1,34 @@
 state = {
 	id = 390
 	name = "STATE_390"
-
+	manpower = 692849
+	state_category = rural
 	history = {
 		owner = USA
-		buildings = {
-			infrastructure = 4
-			air_base = 1
-			
-		}
+		controller = USA
 		add_core_of = USA
-		victory_points = { # Rapid City
-			1747 3
+		victory_points = {
+			10595
+			1
 		}
-		victory_points = { # Sioux Falls
-			10595 3
-		}
-		victory_points = { # Pierre
-			12620 1
-		}
-		victory_points = { # Brookings
-			12667 1
-		}
-		victory_points = { # Aberdeen
-			7862 1
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
 		}
 	}
-
 	provinces = {
-		1747 1875 3750 4839 7745 7771 4880 7862 10569 10595 12620 12667
+		1747
+		1875
+		3750
+		4839
+		4880
+		7745
+		7771
+		7862
+		10569
+		10595
+		12620
+		12667
 	}
-	manpower = 1605063
-	buildings_max_level_factor = 1.000
-	state_category = town
+	local_supplies = 0.0
 }

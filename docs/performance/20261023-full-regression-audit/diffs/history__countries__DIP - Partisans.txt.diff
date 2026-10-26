@@ -1,0 +1,25 @@
+--- before/history/countries/DIP - Partisans.txt
++++ current/history/countries/DIP - Partisans.txt
+@@ -1,22 +0,0 @@
+-# APDC: regular roster and production models available at scenario initialization.
+-set_technology = { APDC_land_units_bootstrap = 1 }
+-# Shared empty OOB preserves startup initialization until a country OOB is authored.
+-set_oob = "APDC_empty"
+-
+-capital = 430 # Dacca
+-
+-set_research_slots = 2
+-
+-set_politics = {
+-	ruling_party = dictatorship
+-	last_election = "2058.2.11"
+-	election_frequency = 48
+-	elections_allowed = yes
+-}
+-
+-set_popularities = {
+-	liberalism = 30
+-	communism = 5
+-	dictatorship = 60
+-	fascism = 5
+-}

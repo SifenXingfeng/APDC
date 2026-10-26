@@ -1,0 +1,36 @@
+state = {
+	id = 1168
+	name = "STATE_1168"
+	provinces = {
+		1320
+		1690
+		4747
+		10198
+		10327
+		10687
+		10690
+		10693
+		12673
+		17293
+	}
+	manpower = 679737
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = large_town
+	history = {
+		owner = USA
+		controller = USA
+		add_core_of = USA
+		victory_points = {
+			1690
+			3
+		}
+		victory_points = {
+			10690
+			2
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}

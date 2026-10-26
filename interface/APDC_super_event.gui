@@ -23,13 +23,13 @@ guiTypes = {
 			position = { x = 47 y = 128 }
 			size = { width = 674 height = 323 }
 			clipping = yes
-			Orientation = "UPPER_LEFT"
+			Orientation = upper_left
 
 			iconType = {
 				name = "APDC_super_event_picture"
 				spriteType = "GFX_tiled_window_transparent"
 				position = { x = -15 y = -52 }
-				Orientation = "UPPER_LEFT"
+				Orientation = upper_left
 				alwaystransparent = yes
 			}
 		}
@@ -39,7 +39,7 @@ guiTypes = {
 			name = "APDC_super_event_frame"
 			spriteType = "GFX_APDC_super_event_frame"
 			position = { x = 0 y = 0 }
-			Orientation = "UPPER_LEFT"
+			Orientation = upper_left
 			alwaystransparent = yes
 		}
 
@@ -90,7 +90,7 @@ guiTypes = {
 			position = { x = 206 y = 460 }
 			spriteType = "GFX_event_option_entry"
 			clicksound = click_default
-			shortcut = "ENTER"
+			shortcut = "RETURN"
 		}
 
 		instantTextBoxType = {

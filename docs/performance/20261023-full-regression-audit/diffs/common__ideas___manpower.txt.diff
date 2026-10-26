@@ -1,0 +1,664 @@
+--- before/common/ideas/_manpower.txt
++++ current/common/ideas/_manpower.txt
+@@ -22,7 +22,7 @@
+ 			on_add = {
+ 				if = {
+ 					limit = { SIA_should_add_national_savings_bond = yes }
+-					SIA_refresh_nsb_spirit = yes
++					
+ 					add_ideas = idea_SIA_nsb_disarmed_nation
+ 				}
+ 
+@@ -33,12 +33,12 @@
+ 					}
+ 					if = {
+ 						limit = { check_variable = { SIA_current_manpower_law > -1 } }
+-						SIA_decrease_military_approval = yes
+-						SIA_increase_civilian_approval = yes
++						
++						
+ 					}
+ 					else = {
+-						SIA_increase_military_approval = yes
+-						SIA_decrease_civilian_approval = yes
++						
++						
+ 					}
+ 
+ 					set_variable = { SIA_current_manpower_law = -1 }
+@@ -139,7 +139,7 @@
+ 			on_add = {
+ 				if = {
+ 					limit = { SIA_should_add_national_savings_bond = yes }
+-					SIA_refresh_nsb_spirit = yes
++					
+ 					add_ideas = idea_SIA_nsb_volunteer_only
+ 				}
+ 
+@@ -150,12 +150,12 @@
+ 					}
+ 					if = {
+ 						limit = { check_variable = { SIA_current_manpower_law > 0 } }
+-						SIA_decrease_military_approval = yes
+-						SIA_increase_civilian_approval = yes
++						
++						
+ 					}
+ 					else = {
+-						SIA_increase_military_approval = yes
+-						SIA_decrease_civilian_approval = yes
++						
++						
+ 					}
+ 
+ 					set_variable = { SIA_current_manpower_law = 0 }
+@@ -181,7 +181,7 @@
+ 							has_dlc = "Thunder at Our Gates"
+ 						}
+ 					}
+-					has_completed_focus = AST_citizen_military_forces
++					always = no
+ 				}
+ 				if = {
+ 					limit = {
+@@ -195,7 +195,7 @@
+ 						original_tag = CAN
+ 						has_dlc = "Together for Victory"
+ 					}
+-					has_completed_focus = CAN_commit_to_the_war
++					always = no
+ 				}
+ 				if = {
+ 					limit = {
+@@ -264,7 +264,7 @@
+ 					limit = {
+ 						original_tag = ENG
+ 						has_dlc = "Man the Guns"
+-						has_completed_focus = ENG_concessions_to_the_trade_unions
++						always = no
+ 					}
+ 					NOT = { has_country_flag = ENG_cannot_increase_conscription_law }
+ 				}
+@@ -273,7 +273,7 @@
+ 						original_tag = SPR
+ 						has_dlc = "La Resistance"
+ 					}
+-					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
++					NOT = { always = no }
+ 				}
+ 				if = {
+ 					limit = {
+@@ -285,12 +285,12 @@
+ 							has_dlc = "Arms Against Tyranny"
+ 						}
+ 						NOT = {
+-							has_idea = BUL_army_restrictions_aat
++							always = no
+ 						}
+ 					}
+ 					else = {
+ 						NOT = {
+-							has_idea = BUL_army_restrictions
++							always = no
+ 						}
+ 					}
+ 				}
+@@ -305,7 +305,7 @@
+ 						original_tag = AUS
+ 					}
+ 					NOT = {
+-						has_idea = AUS_treaty_of_saint_germain_en_laye
++						always = no
+ 					}
+ 				}
+ 				IF = {
+@@ -313,7 +313,7 @@
+ 						has_dlc	= "Graveyard of Empires"
+ 						original_tag = AFG
+ 					}
+-					has_completed_focus = AFG_adopt_nufus
++					always = no
+ 				}
+ 			}
+ 
+@@ -373,8 +373,8 @@
+ 					original_tag = JAP
+ 					has_idea = volunteer_only
+ 					OR = {
+-						has_active_mission = JAP_army_faction_demands_conscription_law_change
+-						has_active_mission = JAP_naval_faction_demands_conscription_law_change
++						always = no
++						always = no
+ 					}
+ 					factor = 10
+ 				}
+@@ -383,7 +383,7 @@
+ 			on_add = {
+ 				if = {
+ 					limit = { SIA_should_add_national_savings_bond = yes }
+-					SIA_refresh_nsb_spirit = yes
++					
+ 					add_ideas = idea_SIA_nsb_limited_conscription
+ 				}
+ 
+@@ -394,12 +394,12 @@
+ 					}
+ 					if = {
+ 						limit = { check_variable = { SIA_current_manpower_law > 1 } }
+-						SIA_decrease_military_approval = yes
+-						SIA_increase_civilian_approval = yes
++						
++						
+ 					}
+ 					else = {
+-						SIA_increase_military_approval = yes
+-						SIA_decrease_civilian_approval = yes
++						
++						
+ 					}
+ 
+ 					set_variable = { SIA_current_manpower_law = 1 }
+@@ -474,8 +474,8 @@
+ 						AST_conscription_level_extensive_conscription = yes
+ 					}
+ 					ELSE = {
+-						has_completed_focus = AST_citizen_military_forces
+-						has_completed_focus = AST_fight_work_or_perish
++						always = no
++						always = no
+ 					}
+ 				}
+ 				if = {
+@@ -483,8 +483,8 @@
+ 						original_tag = CAN
+ 						has_dlc = "Together for Victory"
+ 					}
+-					has_completed_focus = CAN_commit_to_the_war
+-					has_completed_focus = CAN_if_day
++					always = no
++					always = no
+ 				}
+ 				if = {
+ 					limit = {
+@@ -553,7 +553,7 @@
+ 					limit = {
+ 						original_tag = ENG
+ 						has_dlc = "Man the Guns"
+-						has_completed_focus = ENG_concessions_to_the_trade_unions
++						always = no
+ 					}
+ 					NOT = { has_country_flag = ENG_cannot_increase_conscription_law }
+ 				}
+@@ -562,7 +562,7 @@
+ 						original_tag = SPR
+ 						has_dlc = "La Resistance"
+ 					}
+-					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
++					NOT = { always = no }
+ 				}
+ 				if = {
+ 					limit = {
+@@ -574,12 +574,12 @@
+ 							has_dlc = "Arms Against Tyranny"
+ 						}
+ 						NOT = {
+-							has_idea = BUL_army_restrictions_aat
++							always = no
+ 						}
+ 					}
+ 					else = {
+ 						NOT = {
+-							has_idea = BUL_army_restrictions
++							always = no
+ 						}
+ 					}
+ 				}
+@@ -594,7 +594,7 @@
+ 						original_tag = AUS
+ 					}
+ 					NOT = {
+-						has_idea = AUS_treaty_of_saint_germain_en_laye
++						always = no
+ 					}
+ 				}
+ 				IF = {
+@@ -602,7 +602,7 @@
+ 						has_dlc	= "Graveyard of Empires"
+ 						original_tag = AFG
+ 					}
+-					has_completed_focus = AFG_adopt_nufus
++					always = no
+ 				}				
+ 			}
+ 			ai_will_do = {
+@@ -661,15 +661,15 @@
+ 						original_tag = URG
+ 						original_tag = PAR
+ 					}
+-					has_completed_focus = GUAY_coup_detat
++					always = no
+ 				}
+ 
+ 				modifier = {
+ 					original_tag = JAP
+ 					has_idea = limited_conscription
+ 					OR = {
+-						has_active_mission = JAP_army_faction_demands_conscription_law_change
+-						has_active_mission = JAP_naval_faction_demands_conscription_law_change
++						always = no
++						always = no
+ 					}
+ 					factor = 10
+ 				}
+@@ -692,7 +692,7 @@
+ 			on_add = {
+ 				if = {
+ 					limit = { SIA_should_add_national_savings_bond = yes }
+-					SIA_refresh_nsb_spirit = yes
++					
+ 					add_ideas = idea_SIA_nsb_extensive_conscription
+ 				}
+ 
+@@ -703,12 +703,12 @@
+ 					}
+ 					if = {
+ 						limit = { check_variable = { SIA_current_manpower_law > 2 } }
+-						SIA_decrease_military_approval = yes
+-						SIA_increase_civilian_approval = yes
++						
++						
+ 					}
+ 					else = {
+-						SIA_increase_military_approval = yes
+-						SIA_decrease_civilian_approval = yes
++						
++						
+ 					}
+ 
+ 					set_variable = { SIA_current_manpower_law = 2 }
+@@ -775,8 +775,8 @@
+ 						AST_conscription_level_service_by_requirement = yes
+ 					}
+ 					ELSE = {
+-						has_completed_focus = AST_citizen_military_forces
+-						has_completed_focus = AST_fight_work_or_perish
++						always = no
++						always = no
+ 					}
+ 				}
+ 
+@@ -786,8 +786,8 @@
+ 						has_dlc = "Together for Victory"
+ 					}
+ 					OR = {
+-						has_completed_focus = CAN_compromise_with_quebec
+-						has_completed_focus = CAN_forced_quebec_conscription
++						always = no
++						always = no
+ 					}
+ 				}
+ 				if = {
+@@ -857,7 +857,7 @@
+ 					limit = {
+ 						original_tag = ENG
+ 						has_dlc = "Man the Guns"
+-						has_completed_focus = ENG_concessions_to_the_trade_unions
++						always = no
+ 					}
+ 					NOT = { has_country_flag = ENG_cannot_increase_conscription_law }
+ 				}
+@@ -866,7 +866,7 @@
+ 						original_tag = SPR
+ 						has_dlc = "La Resistance"
+ 					}
+-					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
++					NOT = { always = no }
+ 				}
+ 				if = {
+ 					limit = {
+@@ -878,12 +878,12 @@
+ 							has_dlc = "Arms Against Tyranny"
+ 						}
+ 						NOT = {
+-							has_idea = BUL_army_restrictions_aat
++							always = no
+ 						}
+ 					}
+ 					else = {
+ 						NOT = {
+-							has_idea = BUL_army_restrictions
++							always = no
+ 						}
+ 					}
+ 				}
+@@ -898,7 +898,7 @@
+ 						original_tag = AUS
+ 					}
+ 					NOT = {
+-						has_idea = AUS_treaty_of_saint_germain_en_laye
++						always = no
+ 					}
+ 				}
+ 				IF = {
+@@ -906,7 +906,7 @@
+ 						has_dlc	= "Graveyard of Empires"
+ 						original_tag = AFG
+ 					}
+-					has_completed_focus = AFG_adopt_nufus
++					always = no
+ 				}
+ 			}
+ 
+@@ -970,15 +970,15 @@
+ 						original_tag = URG
+ 						original_tag = PAR
+ 					}
+-					has_completed_focus = GUAY_coup_detat
++					always = no
+ 				}
+ 
+ 				modifier = {
+ 					original_tag = JAP
+ 					has_idea = extensive_conscription
+ 					OR = {
+-						has_active_mission = JAP_army_faction_demands_conscription_law_change
+-						has_active_mission = JAP_naval_faction_demands_conscription_law_change
++						always = no
++						always = no
+ 					}
+ 					factor = 5
+ 				}
+@@ -1002,7 +1002,7 @@
+ 			on_add = {
+ 				if = {
+ 					limit = { SIA_should_add_national_savings_bond = yes }
+-					SIA_refresh_nsb_spirit = yes
++					
+ 					add_ideas = idea_SIA_nsb_service_by_requirement
+ 				}
+ 
+@@ -1013,12 +1013,12 @@
+ 					}
+ 					if = {
+ 						limit = { check_variable = { SIA_current_manpower_law > 3 } }
+-						SIA_decrease_military_approval = yes
+-						SIA_increase_civilian_approval = yes
++						
++						
+ 					}
+ 					else = {
+-						SIA_increase_military_approval = yes
+-						SIA_decrease_civilian_approval = yes
++						
++						
+ 					}
+ 
+ 					set_variable = { SIA_current_manpower_law = 3 }
+@@ -1055,8 +1055,8 @@
+ 						AST_conscription_level_all_adults_serve = yes
+ 					}
+ 					ELSE = {
+-						has_completed_focus = AST_citizen_military_forces
+-						has_completed_focus = AST_fight_work_or_perish
++						always = no
++						always = no
+ 					}
+ 				}
+ 
+@@ -1066,8 +1066,8 @@
+ 						has_dlc = "Together for Victory"
+ 					}
+ 					OR = {
+-						has_completed_focus = CAN_compromise_with_quebec
+-						has_completed_focus = CAN_forced_quebec_conscription
++						always = no
++						always = no
+ 					}
+ 				}
+ 				if = {
+@@ -1137,7 +1137,7 @@
+ 					limit = {
+ 						original_tag = ENG
+ 						has_dlc = "Man the Guns"
+-						has_completed_focus = ENG_concessions_to_the_trade_unions
++						always = no
+ 					}
+ 					NOT = { has_country_flag = ENG_cannot_increase_conscription_law }
+ 				}
+@@ -1146,7 +1146,7 @@
+ 						original_tag = SPR
+ 						has_dlc = "La Resistance"
+ 					}
+-					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
++					NOT = { always = no }
+ 				}
+ 				if = {
+ 					limit = {
+@@ -1158,12 +1158,12 @@
+ 							has_dlc = "Arms Against Tyranny"
+ 						}
+ 						NOT = {
+-							has_idea = BUL_army_restrictions_aat
++							always = no
+ 						}
+ 					}
+ 					else = {
+ 						NOT = {
+-							has_idea = BUL_army_restrictions
++							always = no
+ 						}
+ 					}
+ 				}
+@@ -1178,7 +1178,7 @@
+ 						original_tag = AUS
+ 					}
+ 					NOT = {
+-						has_idea = AUS_treaty_of_saint_germain_en_laye
++						always = no
+ 					}
+ 				}
+ 				IF = {
+@@ -1186,7 +1186,7 @@
+ 						has_dlc	= "Graveyard of Empires"
+ 						original_tag = AFG
+ 					}
+-					has_completed_focus = AFG_adopt_nufus
++					always = no
+ 				}
+ 			}
+ 
+@@ -1231,8 +1231,8 @@
+ 					original_tag = JAP
+ 					has_idea = service_by_requirement
+ 					OR = {
+-						has_active_mission = JAP_army_faction_demands_conscription_law_change
+-						has_active_mission = JAP_naval_faction_demands_conscription_law_change
++						always = no
++						always = no
+ 					}
+ 					factor = 3
+ 				}
+@@ -1244,7 +1244,7 @@
+ 					limit = {
+ 						has_dlc = "Arms Against Tyranny"
+ 						original_tag = FIN
+-						has_completed_focus = FIN_militarized_society
++						always = no
+ 						NOT = { has_idea = FIN_militarized_society }
+ 					}
+ 					add_ideas = FIN_militarized_society
+@@ -1252,7 +1252,7 @@
+ 
+ 				if = {
+ 					limit = { SIA_should_add_national_savings_bond = yes }
+-					SIA_refresh_nsb_spirit = yes
++					
+ 					add_ideas = idea_SIA_nsb_all_adults_serve
+ 				}
+ 
+@@ -1263,12 +1263,12 @@
+ 					}
+ 					if = {
+ 						limit = { check_variable = { SIA_current_manpower_law > 4 } }
+-						SIA_decrease_military_approval = yes
+-						SIA_increase_civilian_approval = yes
++						
++						
+ 					}
+ 					else = {
+-						SIA_increase_military_approval = yes
+-						SIA_decrease_civilian_approval = yes
++						
++						
+ 					}
+ 
+ 					set_variable = { SIA_current_manpower_law = 4 }
+@@ -1318,8 +1318,8 @@
+ 						AST_conscription_level_scraping_the_barrel = yes
+ 					}
+ 					ELSE = {
+-						has_completed_focus = AST_citizen_military_forces
+-						has_completed_focus = AST_fight_work_or_perish
++						always = no
++						always = no
+ 					}
+ 				}
+ 
+@@ -1329,8 +1329,8 @@
+ 						has_dlc = "Together for Victory"
+ 					}
+ 					OR = {
+-						has_completed_focus = CAN_compromise_with_quebec
+-						has_completed_focus = CAN_forced_quebec_conscription
++						always = no
++						always = no
+ 					}
+ 				}
+ 				if = {
+@@ -1400,7 +1400,7 @@
+ 					limit = {
+ 						original_tag = ENG
+ 						has_dlc = "Man the Guns"
+-						has_completed_focus = ENG_concessions_to_the_trade_unions
++						always = no
+ 					}
+ 					NOT = { has_country_flag = ENG_cannot_increase_conscription_law }
+ 				}
+@@ -1409,7 +1409,7 @@
+ 						original_tag = SPR
+ 						has_dlc = "La Resistance"
+ 					}
+-					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
++					NOT = { always = no }
+ 				}
+ 				if = {
+ 					limit = {
+@@ -1421,12 +1421,12 @@
+ 							has_dlc = "Arms Against Tyranny"
+ 						}
+ 						NOT = {
+-							has_idea = BUL_army_restrictions_aat
++							always = no
+ 						}
+ 					}
+ 					else = {
+ 						NOT = {
+-							has_idea = BUL_army_restrictions
++							always = no
+ 						}
+ 					}
+ 				}
+@@ -1441,7 +1441,7 @@
+ 						original_tag = AUS
+ 					}
+ 					NOT = {
+-						has_idea = AUS_treaty_of_saint_germain_en_laye
++						always = no
+ 					}
+ 				}
+ 				IF = {
+@@ -1449,7 +1449,7 @@
+ 						has_dlc	= "Graveyard of Empires"
+ 						original_tag = AFG
+ 					}
+-					has_completed_focus = AFG_adopt_nufus
++					always = no
+ 				}	
+ 			}
+ 
+@@ -1480,8 +1480,8 @@
+ 					original_tag = JAP
+ 					has_idea = all_adults_serve
+ 					OR = {
+-						has_active_mission = JAP_army_faction_demands_conscription_law_change
+-						has_active_mission = JAP_naval_faction_demands_conscription_law_change
++						always = no
++						always = no
+ 					}
+ 					factor = 2
+ 				}
+@@ -1493,7 +1493,7 @@
+ 					limit = {
+ 						has_dlc = "Arms Against Tyranny"
+ 						original_tag = FIN
+-						has_completed_focus = FIN_militarized_society
++						always = no
+ 						NOT = { has_idea = FIN_militarized_society }
+ 					}
+ 					add_ideas = FIN_militarized_society
+@@ -1501,7 +1501,7 @@
+ 
+ 				if = {
+ 					limit = { SIA_should_add_national_savings_bond = yes }
+-					SIA_refresh_nsb_spirit = yes
++					
+ 					add_ideas = idea_SIA_nsb_scraping_the_barrel
+ 				}
+ 
+@@ -1512,12 +1512,12 @@
+ 					}
+ 					if = {
+ 						limit = { check_variable = { SIA_current_manpower_law > 5 } }
+-						SIA_decrease_military_approval = yes
+-						SIA_increase_civilian_approval = yes
++						
++						
+ 					}
+ 					else = {
+-						SIA_increase_military_approval = yes
+-						SIA_decrease_civilian_approval = yes
++						
++						
+ 					}
+ 
+ 					set_variable = { SIA_current_manpower_law = 5 }
+@@ -1612,10 +1612,10 @@
+ 				always = no
+ 			}
+ 			allowed_to_remove = {
+-				has_completed_focus = SWI_professionalize_militias
+-				has_completed_focus = SWI_join_the_allies
+-				has_completed_focus = SWI_join_france
+-				has_completed_focus = SWI_jump_into_action
++				always = no
++				always = no
++				always = no
++				always = no
+ 			}
+ 			ai_will_do = {
+ 				factor = 0
+@@ -1638,10 +1638,10 @@
+ 				always = no
+ 			}
+ 			allowed_to_remove = {
+- 				has_completed_focus = SWI_professionalize_militias
+-				has_completed_focus = SWI_join_the_allies
+-				has_completed_focus = SWI_join_france
+-				has_completed_focus = SWI_jump_into_action
++ 				always = no
++				always = no
++				always = no
++				always = no
+ 			}
+ 			ai_will_do = {
+ 				factor = 0

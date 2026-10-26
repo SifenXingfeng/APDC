@@ -1,0 +1,43 @@
+state = {
+	id = 535
+	name = "STATE_535"
+	manpower = 3871000
+	state_category = city
+	resources = {
+		steel = 27
+		tungsten = 8
+	}
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = JAP
+		add_core_of = ZZZ
+		victory_points = {
+			7102
+			2
+		}
+		victory_points = {
+			10032
+			5
+		}
+		victory_points = {
+			10128
+			3
+		}
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2
+			infrastructure = 2
+			dockyard = 1
+			fuel_silo = 1
+		}
+	}
+	provinces = {
+		998
+		7102
+		10032
+		10128
+		15880
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,26 @@
+state = {
+	id = 775
+	name = "STATE_775"
+	provinces = {
+		4902
+		10893
+		14201
+		14270
+	}
+	manpower = 16088
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 1
+	history = {
+		owner = CHA
+		controller = CHA
+		add_core_of = CHA
+		victory_points = {
+			14201
+			2
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+}

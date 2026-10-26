@@ -1,0 +1,23 @@
+state = {
+	id = 1135
+	name = "STATE_1135"
+	provinces = {
+		19951
+	}
+	manpower = 250824
+	resources = {
+		tungsten = 1
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+		}
+	}
+}

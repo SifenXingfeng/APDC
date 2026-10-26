@@ -1,0 +1,55 @@
+state = {
+	id = 507
+	name = "STATE_507"
+	manpower = 34346
+	state_category = pastoral
+	resources = {
+		oil = 2
+		coal = 4
+	}
+	history = {
+		owner = CHL
+		controller = CHL
+		add_core_of = CHL
+		add_claim_by = ARG
+		victory_points = {
+			5215
+			2
+		}
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+			5215 = {
+				naval_base = 1
+			}
+			5201 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		5201
+		5209
+		5215
+		8218
+		14797
+		14798
+		14799
+		14800
+		14801
+		14802
+		14803
+		14804
+		14883
+		14887
+		15104
+		15105
+		15121
+		17494
+		17517
+		17936
+		17939
+		17941
+	}
+	local_supplies = 0.0
+}

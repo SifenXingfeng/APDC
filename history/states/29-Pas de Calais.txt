@@ -1,0 +1,60 @@
+state = {
+	id = 29
+	name = "STATE_29"
+	manpower = 2976400
+	state_category = large_city
+	resources = {
+		steel = 24
+		aluminium = 8
+		coal = 30
+	}
+	history = {
+		owner = FRA
+		controller = FRA
+		add_core_of = FRA
+		victory_points = {
+			575
+			2
+		}
+		victory_points = {
+			11483
+			5
+		}
+		victory_points = {
+			11548
+			1
+		}
+		victory_points = {
+			11606
+			2
+		}
+		victory_points = {
+			18110
+			1
+		}
+		victory_points = {
+			18112
+			1
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			air_base = 10
+			575 = {
+				naval_base = 6
+			}
+		}
+	}
+	provinces = {
+		575
+		3536
+		11483
+		11548
+		11606
+		18110
+		18112
+		18115
+		18117
+	}
+	local_supplies = 15.0
+}

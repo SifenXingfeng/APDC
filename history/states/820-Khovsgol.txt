@@ -1,0 +1,42 @@
+state = {
+	id = 820
+	name = "STATE_820"
+	provinces = {
+		298
+		1689
+		1791
+		1834
+		1859
+		4882
+		10634
+		12579
+		12605
+		12649
+		17108
+		19446
+		19469
+		19605
+		19628
+		19677
+	}
+	history = {
+		owner = MON
+		controller = MON
+		add_core_of = MON
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = GDP_regions_outer_mongolia
+		set_variable = {
+			china_state_ref = 57
+		}
+		set_variable = {
+			china_region_ref = 7
+		}
+		set_state_flag = GDP_category_rural
+	}
+	manpower = 88200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

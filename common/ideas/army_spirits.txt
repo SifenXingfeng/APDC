@@ -280,10 +280,10 @@ ideas = {
 			ledger = army
 			visible = { 
 				has_military_academy = yes 
-				has_completed_focus = NOR_officers_academy
+				always = no
 			}
 			available = { 
-				NOR_AAT = yes 
+				always = no 
 			}
 			modifier = {
 				army_leader_start_level = 2
@@ -306,8 +306,8 @@ ideas = {
 			available = { 
 				has_military_academy = yes 
 				NOT = {
-					has_completed_focus = CHI_close_whampoa
-					has_completed_focus = CHI_end_military_primacy
+					always = no
+					always = no
 				}
 			}
 			visible = { 
@@ -324,9 +324,9 @@ ideas = {
 			}
 			allowed_to_remove = {
 				OR = {
-					has_completed_focus = CHI_end_military_primacy
-					has_completed_focus = CHI_close_whampoa 
-					has_completed_focus = CHI_focus_on_meritocratic_principles
+					always = no
+					always = no 
+					always = no
 				}
 			}
 			ai_will_do = {
@@ -385,7 +385,7 @@ ideas = {
 			ledger = army
 
 			modifier = {
-				unit_engineer_design_cost_factor = -1
+				unit_apdc_engineer_design_cost_factor = -1
 				dig_in_speed_factor = 0.1
 				railway_gun_bombardment_factor = 0.25
 			}
@@ -398,7 +398,7 @@ ideas = {
 				modifier = {
 					factor = 2
 					OR = {
-					has_doctrine = siege_artillery
+					always = no
 					has_doctrine = defensive_postures
 					has_doctrine = fire_concentration
 					has_doctrine = field_engineering
@@ -416,7 +416,7 @@ ideas = {
 						has_dlc = "Graveyard of Empires"
 					}
 					OR = {
-						has_completed_focus = AFG_reintroduce_war_elephants
+						always = no
 						has_doctrine = grand_battleplan
 						has_doctrine = mounted_infantry
 					}
@@ -431,7 +431,7 @@ ideas = {
 
 			modifier = {
 				experience_gain_factor = 0.1
-				unit_cavalry_design_cost_factor = -1
+				unit_apdc_infantry_design_cost_factor = -1
 				supply_combat_penalties_on_core_factor = -0.2
 			}
 			ai_will_do = {
@@ -536,18 +536,18 @@ ideas = {
 			ledger = army
 			modifier = {
 
-				experience_gain_motorized_combat_factor = 0.1
-				experience_gain_mechanized_combat_factor = 0.1
-				unit_light_armor_design_cost_factor = -1
+				experience_gain_apdc_motorized_combat_factor = 0.1
+				experience_gain_apdc_tracked_mechanized_combat_factor = 0.1
+				unit_apdc_light_tank_design_cost_factor = -1
 				#light_tank_destroyer_brigade
-				unit_medium_armor_design_cost_factor = -1
+				unit_apdc_mbt_design_cost_factor = -1
 				#medium_tank_destroyer_brigade 
-				unit_modern_armor_design_cost_factor = -1
-				unit_heavy_armor_design_cost_factor = -1
+				
+				
 				#heavy_tank_destroyer_brigade 
-				unit_super_heavy_armor_design_cost_factor = -1
-				unit_motorized_design_cost_factor = -1
-				unit_mechanized_design_cost_factor = -1
+				
+				unit_apdc_motorized_design_cost_factor = -1
+				unit_apdc_tracked_mechanized_design_cost_factor = -1
 			}
 			ai_will_do = {
 				base = 1
@@ -580,16 +580,16 @@ ideas = {
 			available = { has_doctrine = superior_firepower }
 			ledger = army
 			modifier = {
-				experience_gain_artillery_combat_factor = 0.1
-				unit_infantry_design_cost_factor = -1
-				unit_artillery_brigade_design_cost_factor = -1
-				unit_artillery_design_cost_factor = -1
-				unit_mot_artillery_brigade_design_cost_factor = -1
-				unit_light_sp_artillery_brigade_design_cost_factor = -1
-				unit_medium_sp_artillery_brigade_design_cost_factor = -1
-				unit_heavy_sp_artillery_brigade_design_cost_factor = -1
-				unit_super_heavy_sp_artillery_brigade_design_cost_factor = -1
-				unit_bicycle_battalion_design_cost_factor = -1
+				experience_gain_apdc_towed_artillery_support_combat_factor = 0.1
+				unit_apdc_infantry_design_cost_factor = -1
+				unit_apdc_towed_artillery_design_cost_factor = -1
+				unit_apdc_towed_artillery_support_design_cost_factor = -1
+				
+				unit_apdc_sp_artillery_design_cost_factor = -1
+				
+				
+				
+				
 			}
 			ai_will_do = {
 				base = 1
@@ -610,10 +610,10 @@ ideas = {
 			available = { has_doctrine = grand_battleplan }
 			ledger = army
 			modifier = {
-				unit_marine_design_cost_factor = -0.5
-				unit_mountaineers_design_cost_factor = -0.5
-				unit_paratrooper_design_cost_factor = -0.5
-				unit_ranger_battalion_design_cost_factor = -0.5
+				unit_apdc_marine_design_cost_factor = -0.5
+				unit_apdc_mountaineers_design_cost_factor = -0.5
+				unit_apdc_paratrooper_design_cost_factor = -0.5
+				unit_apdc_rangers_design_cost_factor = -0.5
 				special_forces_cap_flat = 24
 				extra_paratrooper_supply_grace = 24
 				extra_marine_supply_grace = 24
@@ -638,11 +638,11 @@ ideas = {
 			ledger = army
 			available = { has_doctrine = mass_assault }
 			modifier = {
-				experience_gain_infantry_combat_factor = 0.1
-				unit_infantry_design_cost_factor = -1
-				unit_motorized_design_cost_factor = -1
-				unit_mechanized_design_cost_factor = -1
-				unit_bicycle_battalion_design_cost_factor = -1
+				experience_gain_apdc_infantry_combat_factor = 0.1
+				unit_apdc_infantry_design_cost_factor = -1
+				unit_apdc_motorized_design_cost_factor = -1
+				unit_apdc_tracked_mechanized_design_cost_factor = -1
+				
 			}
 			ai_will_do = {
 				base = 1
@@ -850,7 +850,7 @@ ideas = {
 			}
 			visible = {
 				NOT = {
-					has_completed_focus = CZE_revive_the_czechoslovak_legion_dynamic
+					always = no
 				}
 			}
 			modifier = {
@@ -1031,7 +1031,7 @@ ideas = {
 					factor = 2
 					OR = {
 					has_doctrine = mobile_infantry
-					has_doctrine = air_cavalry
+					always = no
 					has_doctrine = mission_type_tactics
 					has_doctrine = self_propelled_support
 					}
@@ -1092,7 +1092,7 @@ ideas = {
 
 					has_doctrine = defensive_postures
 					has_doctrine = fire_concentration
-					has_doctrine = siege_artillery
+					always = no
 					has_doctrine = armored_infantry_support
 					}
 				}
@@ -1174,32 +1174,16 @@ ideas = {
 			}
 			
 			equipment_bonus = {
-				light_tank_artillery_chassis = {
-				instant = yes
-					hard_attack = 0.50
-					ap_attack = 1
-				}
+				
 			}
 			equipment_bonus = {
-				medium_tank_artillery_chassis = {
-				instant = yes
-					hard_attack = 0.50
-					ap_attack = 1
-				}
+				
 			}
 			equipment_bonus = {
-				heavy_tank_artillery_chassis = {
-				instant = yes
-					hard_attack = 0.50
-					ap_attack = 1
-				}
+				
 			} 				
 			equipment_bonus = {
-				modern_tank_artillery_chassis = {
-				instant = yes
-					hard_attack = 0.50
-					ap_attack = 1
-				}
+				
 			}			    		  			    			    			 			    			 				
 
 			ai_will_do = {
@@ -1246,11 +1230,7 @@ ideas = {
     			}   
 
 				equipment_bonus = {
-  					motorized_rocket_equipment = {
-						instant = yes
-						breakthrough = 0.10
-						defense = 0.10
-    				}
+  					
     			}   
 
 				equipment_bonus = {
@@ -1262,11 +1242,7 @@ ideas = {
     			}    			
 
 				equipment_bonus = {
-  					anti_air_equipment = {
-						instant = yes
-						breakthrough = 0.10
-						defense = 0.10
-    				}
+  					
     			}
     		  			    			    			 			    			 				
 

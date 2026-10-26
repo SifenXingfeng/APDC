@@ -1,0 +1,144 @@
+state = {
+	id = 1041
+	name = "STATE_1041"
+	resources = {
+		steel = 3
+	}
+	provinces = {
+		1367
+		1395
+		4925
+		7240
+		8705
+		8734
+		8853
+		8937
+		11972
+		12141
+		12705
+		12819
+		19629
+		19700
+		19729
+		19774
+		19785
+		19834
+		19843
+		19877
+		19878
+		19898
+		19906
+		19916
+		19922
+	}
+	manpower = 17432267
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			1367
+			5
+		}
+		victory_points = {
+			1395
+			3
+		}
+		victory_points = {
+			4925
+			30
+		}
+		victory_points = {
+			7240
+			5
+		}
+		victory_points = {
+			8705
+			3
+		}
+		victory_points = {
+			8734
+			1
+		}
+		victory_points = {
+			8853
+			2
+		}
+		victory_points = {
+			8937
+			5
+		}
+		victory_points = {
+			11972
+			1
+		}
+		victory_points = {
+			12141
+			1
+		}
+		victory_points = {
+			19629
+			2
+		}
+		victory_points = {
+			19729
+			1
+		}
+		victory_points = {
+			19774
+			1
+		}
+		victory_points = {
+			19785
+			1
+		}
+		victory_points = {
+			19834
+			3
+		}
+		victory_points = {
+			19843
+			2
+		}
+		victory_points = {
+			19877
+			5
+		}
+		victory_points = {
+			19878
+			5
+		}
+		victory_points = {
+			19898
+			5
+		}
+		victory_points = {
+			19906
+			3
+		}
+		victory_points = {
+			19916
+			2
+		}
+		victory_points = {
+			19922
+			3
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 2
+		}
+		set_state_flag = GDP_regions_chuanxi
+		set_variable = {
+			china_state_ref = 17
+		}
+		set_variable = {
+			china_region_ref = 2
+		}
+	}
+}

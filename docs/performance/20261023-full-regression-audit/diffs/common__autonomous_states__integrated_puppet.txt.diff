@@ -1,0 +1,20 @@
+--- before/common/autonomous_states/integrated_puppet.txt
++++ current/common/autonomous_states/integrated_puppet.txt
+@@ -91,7 +91,7 @@
+ 				has_dlc = "Gotterdammerung"			
+ 			}
+ 			NOT = {
+-				has_completed_focus = CONGO_overseas_department_of_belgium
++				always = no
+ 			}
+ 		}
+ 	}
+@@ -104,7 +104,7 @@
+ 				original_tag = COG
+ 				has_dlc = "Gotterdammerung"			
+ 			}
+-			has_completed_focus = CONGO_congo_free_state
++			always = no
+ 		}
+ 	}
+ }

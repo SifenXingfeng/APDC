@@ -1,0 +1,46 @@
+state = {
+	id = 24
+	name = "STATE_24"
+	manpower = 1546300
+	state_category = large_town
+	history = {
+		owner = FRA
+		controller = FRA
+		add_core_of = FRA
+		victory_points = {
+			512
+			3
+		}
+		victory_points = {
+			3671
+			3
+		}
+		victory_points = {
+			15231
+			1
+		}
+		victory_points = {
+			17968
+			1
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+	}
+	provinces = {
+		512
+		3493
+		3671
+		6518
+		6533
+		6547
+		6688
+		9492
+		11611
+		11631
+		15231
+		17968
+	}
+	local_supplies = 15.0
+}

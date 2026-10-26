@@ -1,0 +1,4287 @@
+#######################################################################œ
+###   Scripted triggers by Nicolas Fouqué for French localization   ###
+#######################################################################
+
+################################
+###   Leaders / Dirigeants   ###
+################################
+# Ex.: "King Zog" / "(le) Roi Zog"
+frloc_ruler_with_title_cons = {
+	OR = {
+		### ALB
+		always = no
+		### ARG
+		always = no
+		### BRA
+		has_country_leader = { name = "Prince Pedro Henrique" }
+		always = no # Tassigny
+		### BUL
+		always = no
+		### ENG
+		has_country_leader = { name = "Fallen Government" }
+		always = no # Tassigny
+		### ETH
+		always = no
+		### HOL
+		always = no
+		### ITA
+		always = no
+		always = no
+		has_country_leader = { name = "Padre Ildefonso" } # Tassigny ITA_padre_ildefonso
+		### JAP
+		always = no
+		always = no
+		### KAL
+		always = no
+		### MEN
+		always = no
+		### PAL
+		has_country_leader = { name = "Prince Henry" }
+		always = no # Tassigny
+		### RAJ
+		always = no
+		### SOV
+		always = no
+		always = no
+		always = no
+		always = no # Juste au cas où
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### SPR
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### SWI
+		always = no
+		### TUR
+		always = no
+		### YUG
+		always = no
+	}
+}
+
+# Ex.: "Imam Yahya" / "(l')Imam Yahya"
+frloc_ruler_with_title_vow = {
+	OR = {
+		### ETH
+		always = no
+		always = no
+		### RAJ
+		always = no
+		### YEM
+		always = no
+	}
+}
+
+# Ex.: "Fanny Edelman"
+frloc_ruler_name_female_cons = {
+	OR = {
+		### ARG
+		always = no
+		### BUL
+		always = no
+		### CHI
+		always = no
+		### ENG
+		always = no
+		always = no
+		always = no
+		always = no
+		has_country_leader = { name = "Nancy Wake" } # Tassigny ENG_nancy_wake
+		has_country_leader = { name = "Diana Rowden" } # Tassigny ENG_diana_rowden
+		### ETH
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### FRA
+		has_country_leader = { name = "Jeannie Rousseau" } # Tassigny FRA_jeannie_rousseau
+		has_country_leader = { name = "Joséphine Baker" } # Tassigny FRA_josephine_baker
+		### GER
+		always = no
+		### HOL
+		always = no
+		### ITA
+		always = no
+		has_country_leader = { name = "Rosa Dainelli" } # Tassigny ITA_rosa_dainelli
+		has_country_leader = { name = "Laura Garroni" } # Tassigny ITA_laura_garroni
+		has_country_leader = { name = "Stefanina Moro" } # Tassigny ITA_stefanina_moro
+		### JAP
+		has_country_leader = { name = "Yoshiko Kawashima" } # Tassigny MAN_yoshiko_kawashima
+		### MAN
+		always = no
+		### PAN
+		always = no
+		### POL
+		always = no
+		always = no
+		### POR
+		always = no
+		### RAJ
+		always = no
+		has_country_leader = { name = "Noor Inayat Khan" } # Tassigny RAJ_noor_inayat_khan
+		### SPR
+		always = no
+		always = no
+		has_country_leader = { name = "Lina Ódena" }
+		always = no # Tassigny
+		### SWI
+		always = no
+		has_country_leader = { name = "Clara Thalmann" } # Tassigny SWI_clara_thalmann
+		### TAH
+		has_country_leader = { name = "Teri'i-nui-o-Tahiti a Pomare" }
+		always = no # Tassigny
+		### TUR
+		always = no
+		always = no
+		### USA
+		has_country_leader = { name = "Wallis I" }
+		has_country_leader = { name = "Wallis Ière" } # Tassigny
+		has_country_leader = { name = "Virginia Hall" } # Tassigny USA_virginia_hall
+	}
+}
+
+# Ex.: "Elsie Farrelly"
+frloc_ruler_name_female_vow = {
+	OR = {
+		### ENG
+		has_country_leader = { name = "Elizabeth II" }
+		has_country_leader = { name = "Élisabeth II" } # Tassigny
+		### ETH
+		always = no
+		always = no
+		### FRA
+		has_country_leader = { name = "Odette Sansom" } # Tassigny FRA_odette_samson
+		### GER
+		has_country_leader = { name = "Andrea Hund" } # Tassigny GER_andrea_hund
+		### ITA
+		always = no
+		### LAT
+		always = no
+		### NZL
+		always = no
+		### POL
+		always = no
+		always = no
+		### SOV
+		has_country_leader = { name = "Ursula Kuczynski" } # Tassigny SOV_ursula_kuczynski
+		### SPR
+		always = no
+	}
+}
+
+# Ex.: "(the) Military Junta" / "(la) Junte militaire"
+frloc_ruler_female_with_title_cons = {
+	OR = {
+		### POL
+		always = no
+		### SPR
+		has_country_leader = { name = "Military Junta" }
+		always = no # Tassigny
+		has_country_leader = { name = "Anarchist Commune" }
+		always = no # Tassigny
+	}
+}
+
+# Ex.: "(the) Federal Assembly" / "(l')Assemblée fédérale"
+frloc_ruler_female_with_title_vow = {
+	OR = {
+		### ETH
+		always = no
+		### SWI
+		always = no
+	}
+}
+
+# Ex.: "Édouard Daladier"
+frloc_ruler_name_male_vow = {
+	OR = {
+		### AFG
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### ALB
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### ALG
+		has_country_leader = { name = "Ahmed Ben Bella" }
+		always = no # Tassigny
+		### AOI
+		always = no
+		always = no
+		### ARG
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### AST
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### AUS
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### BEL
+		always = no
+		always = no
+		always = no
+		### BHU
+		always = no
+		always = no
+		### BLR
+		has_country_leader = { name = "Adam Stankievic" }
+		always = no # Tassigny
+		### BOL
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### BRA
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### BRI
+		has_country_leader = { name = "Olier Mordrel" }
+		always = no # Tassigny
+		### BUL
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### CAN
+		always = no
+		always = no
+		always = no
+		always = no
+		### CAT
+		has_country_leader = { name = "Andreu Nin i Pérez" }
+		always = no # Tassigny
+		### CHI
+		always = no
+		### CHL
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### COL
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### COS
+		always = no
+		always = no
+		always = no
+		always = no
+		### CRI
+		always = no
+		### CRO
+		has_country_leader = { name = "Ante Pavelic" }
+		always = no # Tassigny
+		### CUB
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### CZE
+		always = no
+		always = no
+		always = no
+		### DAG
+		always = no
+		### DEN
+		always = no
+		always = no
+		always = no
+		always = no
+		### DNZ
+		has_country_leader = { name = "Albert Forster" }
+		always = no # Tassigny
+		has_country_leader = { name = "Arthur Brill" }
+		always = no # Tassigny
+		has_country_leader = { name = "Anton Plenikowski" }
+		always = no # Tassigny
+		### DOM
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### ECU
+		always = no
+		always = no
+		always = no
+		always = no
+		### ELS
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### EGY
+		has_country_leader = { name = "Ahmed Husayn" }
+		always = no # Tassigny
+		### ENG
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		has_country_leader = { name = "Edward VIII" }
+		always = no # Tassigny
+		### EST
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		has_country_leader = { name = "August Kork" }
+		always = no # Tassigny
+		### ETH
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### FIN
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### FRA
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		has_country_leader = { name = "Henri VI" }
+		always = no # Tassigny
+		has_country_leader = { name = "Alphonse I" }
+		always = no # Tassigny
+		### GER
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		has_country_leader = { name = "Adolfos I" }
+		has_country_leader = { name = "Adolphe Ier" } # Tassigny
+		has_country_leader = { name = "Erich Koch" }
+		has_country_leader = { name = "Achim Hund" } # Tassigny GER_achim_hund
+		has_country_leader = { name = "Otto Skorzeny" } # Tassigny GER_otto_skorzeny
+		has_country_leader = { name = "Eleysa Bazna" }
+		has_country_leader = { name = "Elyesa Bazna" } # Tassigny elyesa_bazna / TUR_elyesa_bazna
+		### GLC
+		has_country_leader = { name = "Alfonso Daniel Castelao" }
+		always = no # Tassigny
+		### GRE
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### GUA
+		always = no
+		### HAI
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### HOL
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### HON
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### HUN
+		always = no
+		always = no
+		always = no
+		always = no
+		### ICE
+		has_country_leader = { name = "Einar Olgeirsson" }
+		always = no # Tassigny
+		### INS
+		always = no
+		always = no
+		### IRE
+		always = no
+		always = no
+		always = no
+		always = no
+		### IRQ
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### ISR
+		has_country_leader = { name = "Itzhak Gaster" }
+		### ITA
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		has_country_leader = { name = "Augustus Mussolini" }
+		always = no
+		always = no
+		has_country_leader = { name = "Emilio Faldella" } # Tassigny ITA_emilio_faldella
+		has_country_leader = { name = "Edgardo Sogno" } # Tassigny ITA_emilio_faldella
+		has_country_leader = { name = "Hugh O'Flaherty" } # Tassigny ITA_hugh_oflaherty
+		### JAP
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### JOR
+		has_country_leader = { name = "Abdullah bin al-Hussein" }
+		always = no # Tassigny
+		### KAL
+		always = no
+		### KAZ
+		has_country_leader = { name = "Ilyas Zhansugurov" }
+		always = no # Tassigny
+		### KKP
+		always = no
+		### KAR
+		always = no
+		### KSH
+		has_country_leader = { name = "Aleksander Majkowski" }
+		always = no # Tassigny
+		### KUR
+		always = no
+		has_country_leader = { name = "Îhsan Nûrî" }
+		always = no
+		### LAT
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### LBA
+		has_country_leader = { name = "Ettore Bastico" }
+		always = no # Tassigny
+		has_country_leader = { name = "Idris Senussi" }
+		always = no # Tassigny
+		### LIB
+		always = no
+		always = no
+		always = no
+		always = no
+		has_country_leader = { name = "Edwin Barclay" }
+		always = no # Tassigny
+		### LIT
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### LUX
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### MAL
+		always = no
+		always = no
+		### MAN
+		always = no
+		always = no
+		### MEX
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### MON
+		always = no
+		always = no
+		always = no
+		### MZB
+		has_country_leader = { name = "Eduardo Tsonga" }
+		always = no # Tassigny
+		### NEP
+		always = no
+		always = no
+		### NIC
+		always = no
+		always = no
+		### NOR
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### NZL
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### OMA
+		always = no
+		always = no
+		always = no
+		always = no
+		### PAK
+		has_country_leader = { name = "Iftikhar Khan Janjua" }
+		always = no # Tassigny
+		has_country_leader = { name = "Akbar Khan" }
+		### PAL
+		has_country_leader = { name = "Ahmed Hilmi Pasha" }
+		always = no # Tassigny
+		has_country_leader = { name = "Amin al-Husseini" }
+		always = no # Tassigny
+		### PAN
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### PAR
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### PER
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### PHI
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### POL
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### POR
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no # Tassigny (pas vanille)
+		has_country_leader = { name = "Armando Agatão Lança" }
+		always = no # Tassigny
+		### PRC
+		always = no
+		### PRU
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### RAJ
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### RIF
+		always = no
+		### ROM
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### SAF
+		always = no
+		always = no
+		always = no
+		### SAU
+		always = no
+		always = no
+		always = no
+		### SIK
+		always = no
+		### SLO
+		always = no
+		always = no
+		always = no
+		### SOV
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		has_country_leader = { name = "Alexander Radó" } # Vanille
+		### SPR
+		always = no
+		always = no
+		always = no
+		has_country_leader = { name = "Emilio Mola" }
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		has_country_leader = { name = "Alfonso XIII" }
+		always = no # Tassigny
+		has_country_leader = { name = "Eduardo Medrano Rivas" }
+		always = no # Tassigny
+		### SWE
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### SWI
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### SYR
+		has_country_leader = { name = "Antun Saadeh" }
+		always = no # Tassigny
+		### TAN
+		always = no
+		always = no
+		### TAT
+		always = no
+		### TUR
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### URG
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### USA
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		has_country_leader = { name = "Alf Landon" }
+		always = no # Tassigny
+		has_country_leader = { name = "Adam Hilt" }
+		### VEN
+		always = no
+		always = no
+		always = no
+		always = no
+		always = no
+		### VGE
+		always = no
+		### XSM
+		always = no
+		### YEM
+		always = no
+		always = no
+		always = no
+		always = no
+		### YAK
+		always = no
+		### YUG
+		always = no
+		always = no
+		always = no
+		always = no
+	}
+}
+
+
+
+
+########################################################################################################################
+###   Collaboration Governments articles & flexions / Articles et flexions pour les gouvernements de collaboration   ###
+########################################################################################################################
+#Ex.: LE Brésil portugais / DU Brésil portugais / DU Brésil portugais / AU Brésil portugais / AU Brésil portugais
+frloc_collabgov_sg_masc_cons_au_01 = {
+	always = no
+}
+
+#Ex.: L'Afghanistan soviétique / DE L'Afghanistan soviétique / DE L'Afghanistan soviétique / À L'Afghanistan soviétique / EN Afghanistan soviétique
+frloc_collabgov_sg_masc_vow_02 = {
+	always = no
+}
+
+#Ex.: LA Bavière française / DE LA Bavière française / DE Bavière française / À LA Bavière française / EN Bavière française
+frloc_collabgov_sg_fem_cons_en_03 = {
+	always = no
+}
+
+#Ex.: L'Écosse européenne / DE L'Écosse européenne / D'Écosse européenne / À L'Écosse européenne / EN Écosse européenne
+frloc_collabgov_sg_fem_vow_04 = {
+	always = no
+}
+
+#Ex.: LES Pays-Bas belges / DES Pays-Bas belges / DES Pays-Bas belges / AUX Pays-Bas belges / DANS LES Pays-Bas belges
+frloc_collabgov_pl_masc_05 = {
+	always = no
+}
+
+#Ex.: LES Philippines américaines / DES Philippines américaines / DES Philippines américaines / AUX Philippines américaines / DANS LES Philippines américaines
+frloc_collabgov_pl_fem_06 = {
+	always = no
+}
+
+#Ex.: Ø Dantzig américaine / DE Dantzig américaine / DE Dantzig américaine / À Dantzig américaine / À Dantzig américaine
+frloc_collabgov_noart_sg_fem_cons_07 = {
+	always = no
+}
+
+
+##############################################################################################
+###   Cosmetic Nation articles & flexions / Articles et flexions pour les pays maquillés   ###
+##############################################################################################
+#Ex.: LE Royaume de Libye / DU Royaume de Libye / DU Royaume de Libye / AU Royaume de Libye / DANS LE Royaume de Libye
+frloc_cosmtags_sg_masc_cons_dansle_01 = {
+	OR = {
+		always = no # jimma_fascism
+		always = no # jimma_neutrality
+		always = no # gojjam OR gojjam_neutrality OR gojjam_democratic OR gojjam_ITA_fascism_subject
+		always = no # RAJ_UK_democratic OR RAJ_UK_neutrality
+		always = no # RAJ_UK_subject
+		always = no # RAJ_UK_autonomy_dominion
+		always = no # CAN_UK_autonomy_dominion
+		always = no # USA_UK_autonomy_dominion
+		always = no # USA_SAF_EDW_autonomy_dominion
+		always = no # LBA_GER_autonomy_colony
+		always = no # LBA_GER_autonomy_reichsprotectorate
+		always = no # LBA_GER_fascism_autonomy_puppet
+		always = no # LBA_ITA_fascism_autonomy_satellite OR LBA_ITA_fascism_autonomy_dominion
+		always = no # KEN_GER_autonomy_colony
+		always = no # KEN_GER_autonomy_reichsprotectorate
+		always = no # KEN_GER_fascism_autonomy_puppet
+		always = no # ZIM_GER_autonomy_colony
+		always = no # ZIM_GER_autonomy_reichsprotectorate
+		always = no # ZIM_GER_fascism_autonomy_puppet
+		always = no # KEN_ENG_autonomy_dominion
+		always = no # ZIM_ENG_autonomy_dominion
+		always = no # BOT_ENG_autonomy_dominion
+		always = no # BOT_ENG_autonomy_puppet
+		always = no # ETH_ITA_fascism_autonomy_satellite OR ETH_ITA_fascism_autonomy_dominion
+		always = no # ETH_ITA_fascism_autonomy_reichsprotectorate OR ETH_ITA_fascism_autonomy_puppet
+		always = no # ETH_ITA_fascism_autonomy_colony
+		always = no # UKR_GER_autonomy_satellite
+		always = no # UKR_GER_autonomy_colony
+		always = no # UKR_GER_autonomy_reichsprotectorate
+		always = no # UKR_GER_fascism_autonomy_puppet
+		always = no # UKR_GER_autonomy_reichskommissariat
+		always = no # UKR_GER_autonomy_integrated_puppet
+		always = no # UKR_GER_autonomy_dominion
+		always = no # BLR_GER_autonomy_reichsprotectorate
+		always = no # BLR_GER_fascism_autonomy_puppet
+		always = no # BLR_GER_autonomy_reichskommissariat
+		always = no # BLR_GER_autonomy_integrated_puppet
+		always = no # HOL_GER_fascism_autonomy_reichskommissariat OR HOL_GER_fascism_autonomy_integrated_puppet OR HOL_GER_fascism_autonomy_reichsprotectorate OR HOL_GER_fascism_autonomy_puppet OR HOL_GER_fascism_autonomy_colony
+		always = no # BEL_GER_fascism_autonomy_reichskommissariat OR BEL_GER_fascism_autonomy_integrated_puppet OR BEL_GER_fascism_autonomy_reichsprotectorate OR BEL_GER_fascism_autonomy_puppet OR BEL_GER_fascism_autonomy_colony
+		always = no # EST_GER_fascism_autonomy_reichskommissariat OR EST_GER_fascism_autonomy_integrated_puppet OR EST_GER_fascism_autonomy_reichsprotectorate OR EST_GER_fascism_autonomy_puppet OR EST_GER_fascism_autonomy_colony
+		always = no # LIT_GER_fascism_autonomy_reichskommissariat OR LIT_GER_fascism_autonomy_integrated_puppet OR LIT_GER_fascism_autonomy_reichsprotectorate OR LIT_GER_fascism_autonomy_puppet OR LIT_GER_fascism_autonomy_colony
+		always = no # LAT_GER_fascism_autonomy_reichskommissariat OR LAT_GER_fascism_autonomy_integrated_puppet OR LAT_GER_fascism_autonomy_reichsprotectorate OR LAT_GER_fascism_autonomy_puppet OR LAT_GER_fascism_autonomy_colony
+		always = no # NOR_GER_fascism_autonomy_reichskommissariat OR NOR_GER_fascism_autonomy_integrated_puppet OR NOR_GER_fascism_autonomy_reichsprotectorate OR NOR_GER_fascism_autonomy_puppet OR NOR_GER_fascism_autonomy_colony
+		always = no # CZE_GER_fascism_autonomy_reichsprotectorate OR CZE_GER_fascism_autonomy_puppet
+		always = no # POL_GER_fascism_autonomy_reichsprotectorate OR POL_GER_fascism_autonomy_puppet
+		always = no # HUN_MONARCHY_democratic OR HUN_MONARCHY_fascism
+		always = no # GER_provisional_gvt_democratic
+		always = no # MAN_JAP_fascism_autonomy_colony
+		always = no # SCA_UNIFIED_neutrality
+		always = no # NDC_UNIFIED_democratic
+		always = no # EUR_UNIFIED_neutrality
+		always = no # MUT_UNIFIED_neutrality
+		always = no # SPQR_UNIFIED_neutrality
+		always = no # RAT_UNIFIED_neutrality
+		always = no # HRE_UNIFIED_neutrality
+		always = no # CHI_JAP_fascism_autonomy_puppet OR CHI_JAP_fascism_autonomy_reichsprotectorate OR CHI_JAP_fascism_autonomy_wtt_imperial_protectorate
+		always = no # CHI_power_struggle_defeated_democratic
+		always = no # ENG_imperial_federation_unified_communism OR ENG_imperial_federation_india_unified_communism
+		always = no # ENG_imperial_federation_unified_democratic OR ENG_imperial_federation_india_unified_democratic
+		always = no # MEX_cristero_fascism
+		always = no # MEX_cristero_neutrality
+		always = no # USA_wallis_simpson_neutrality
+		always = no # CAN_north_america_dominion_neutrality OR CAN_north_america_dominion_fascism
+		always = no # ENG_MEX_dominion_democratic OR ENG_MEX_dominion_neutrality OR ENG_MEX_dominion_fascism OR ENG_MEX_dominion_communism
+		always = no # ENG_england_neutrality
+		always = no # SPA_directory_fascism OR SPA_directory_neutrality
+		always = no # SPR_anarchist_spain_neutrality
+		always = no # SPB_kingdom_neutrality
+		always = no # SPC_regional_defense_council_of_iberia_neutrality
+		always = no # SPC_global_defense_council_neutrality
+		always = no # KOP_kingdom_portugal_neutrality
+		always = no # ADU_fascism
+		always = no # united_polynesia_neutrality
+		always = no # KPB_kingdom_portugal_and_brazil_neutrality
+		always = no # KPB_kingdom_portugal_and_brazil_fascism
+		always = no # SPR_anarchist_castille_neutrality
+		always = no # FRANCO_SPAIN_neutrality
+		always = no # TBE_third_bulgarian_empire_fascism OR TBE_third_bulgarian_empire_neutrality
+		always = no # GRE_neutrality
+		always = no # GRE_communism
+		always = no # GRE_GREATER_GREECE_neutrality
+		always = no # KUR_FRA_autonomy_colony OR KUR_FRA_autonomy_puppet OR KUR_FRA_autonomy_integrated_puppet
+		always = no # ARM_UK_autonomy_dominion OR ARM_UK_autonomy_colony OR ARM_UK_autonomy_puppet
+		always = no # CYP_UK_autonomy_dominion OR CYP_UK_autonomy_colony OR CYP_UK_autonomy_puppet
+		always = no # TRN_fascism
+		always = no # OTT_SULTANATE_fascism OR OTT_SULTANATE_neutrality
+		always = no # GREATER_LIT_neutrality
+		always = no # LAT_MIL_neutrality
+		always = no # POL_KINGDOM OR POL_KINGDOM_fascism
+		always = no # LIT_MONARCHY OR LIT_MONARCHY_POL_subject
+		always = no # LIT_MONARCHY_democratic OR LIT_MONARCHY_POL_subject
+		always = no # ROM_polish_loyalists OR ROM_polish_loyalists_neutrality
+		always = no # POL_ROM_UNION_neutrality
+		always = no # CRI_GER_fascism_subject
+		always = no # CRI_ITA_fascism_subject
+		always = no # VGE_GER_fascism_subject
+		always = no # YAM_JAP_neutrality_subject
+		always = no # YAM_JAP_fascism_subject
+		always = no # TAY_JAP_neutrality_subject
+		always = no # BYA_JAP_neutrality_subject
+		always = no # YAK_JAP_neutrality_subject
+		always = no # CKK_JAP_neutrality_subject
+		always = no # CKK_JAP_fascism_subject
+		always = no # VLA_SOV_communism_subject
+		always = no # VLA_JAP_neutrality_subject
+		always = no # VLA_JAP_fascism_subject
+		always = no # FER_JAP_neutrality_subject
+		always = no # DNZ_GER_fascism_subject
+		always = no # LIVONIA_neutrality
+		always = no # POL_KINGDOM_RUS OR POL_KINGDOM_RUS_fascism
+		always = no # turkestan_united_neutrality
+		always = no # siberia_unified_fascism
+		always = no # SOV_PROVISIONAL_neutrality
+		always = no # ALB_ITA_fascism_subject
+		always = no # MNT_ITA_fascism_subject
+		always = no # AFA_ITA_fascism_subject
+		always = no # ITA_neutrality
+		always = no # papal_states_fascism
+		always = no # regnum_bospori
+		always = no # ITA_rds
+		always = no # dalmatia_neutrality
+		always = no # SWI_alpine_neutrality
+		always = no # SWI_GER_puppet_fascism
+		always = no # SWI_ITA_puppet_fascism
+		# LOWER ORDER OF PRIORITY / ORDRE DE PRIORITÉ BASSE
+		always = no # ENG_fascism_subject
+		always = no # SOV_autonomy_integrated_puppet
+		always = no # SOV_GER_fascism_autonomy_reichskommissariat
+		always = no # SOV_autonomy_reichskommissariat
+		always = no # SOV_autonomy_reichsprotectorate
+		always = no # SOV_autonomy_wtt_imperial_protectorate
+		always = no # USA_fascism_subject
+		always = no # POL_FRA_neutrality_subject
+		always = no # CHI_autonomy_reichskommissariat
+		always = no # CHI_GER_autonomy_reichsprotectorate
+		always = no # CHI_autonomy_reichsprotectorate
+		always = no # SER_ITA_fascism_subject
+		always = no # GEO_GER_fascism_subject
+		always = no # BOS_ITA_fascism_subject
+		always = no # HRZ_ITA_fascism_subject
+		always = no # BOS_without_HRZ_ITA_fascism_subject
+		always = no # MAC_ITA_fascism_subject
+		always = no # KOS_ITA_fascism_subject
+		always = no # TRA_ITA_fascism_subject
+		always = no # AST_autonomy_dominion
+		always = no # TOS_neutrality_subject
+		always = no # SPM_subject
+		always = no # WGR_fascism
+		always = no # DDR_neutrality
+	}
+}
+
+#Ex.: LE Kenya britannique / DU Kenya britannique / DU Kenya britannique / AU Kenya britannique / AU Kenya britannique
+frloc_cosmtags_sg_masc_cons_au_02 = {
+	OR = {
+		always = no # COG_subject
+		always = no # KEN_ENG_autonomy_puppet
+		always = no # BOT_ENG_autonomy_integrated_puppet
+		always = no # MAN_JAP_fascism_autonomy_puppet OR MAN_JAP_fascism_autonomy_reichsprotectorate OR MAN_JAP_fascism_autonomy_integrated_puppet OR MAN_JAP_fascism_autonomy_reichskommissariat OR MAN_JAP_fascism_autonomy_wtt_imperial_protectorate
+		always = no # UNL_UNIFIED_fascism
+		always = no # UNL_UNIFIED_democratic
+		always = no # MUT_UNIFIED_fascism
+		always = no # MUT_UNIFIED_democratic
+		always = no # JAP_showa_restoration_fascism
+		always = no # GER_greater_german_reich_fascism
+		always = no # ENG_imperialist_canada_fascism OR ENG_imperialist_canada_neutrality
+		always = no # TRN_neutrality
+		# LOWER ORDER OF PRIORITY / ORDRE DE PRIORITÉ BASSE
+		always = no # DEN_subject
+		always = no # POR_subject
+		always = no # BRA_subject
+		always = no # JAP_subject
+	}
+}
+
+#Ex.: L'Empire allemand / DE L'Empire allemand / DE L'Empire allemand / À L'Empire allemand / DANS L'Empire allemand
+frloc_cosmtags_sg_masc_vow_dansl_03 = {
+	OR = {
+		always = no # gojjam_fascism
+		always = no # FRA_UK_fascism
+		always = no # CZE_ONLY_fascism
+		always = no # HUN_EMPIRE_fascism
+		always = no # GER_german_empire_neutrality
+		always = no # MAN_JAP_fascism_autonomy_dominion OR MAN_JAP_fascism_autonomy_satellite OR MAN_JAP_fascism_autonomy_wtt_imperial_associate
+		always = no # SCA_UNIFIED_fascism
+		always = no # SCA_UNIFIED_communism
+		always = no # NDC_UNIFIED_fascism
+	 	always = no # GCO_UNIFIED_fascism
+		always = no # PLC_UNIFIED_fascism
+		always = no # UNL_UNIFIED_communism
+		always = no # USC_UNIFIED_fascism
+		always = no # USC_UNIFIED_communism
+		always = no # BAL_UNIFIED_fascism
+		always = no # MUT_UNIFIED_communism
+		always = no # SPQR_UNIFIED_fascism
+		always = no # PER_UNIFIED_fascism
+		always = no # BYZ_UNIFIED_fascism
+		always = no # ARA_UNIFIED_fascism
+		always = no # MAJ_UNIFIED_fascism
+		always = no # RAT_UNIFIED_fascism
+		always = no # RAT_UNIFIED_communism
+		always = no # HRE_UNIFIED_fascism
+		always = no # MAN_restored_fascism OR MAN_restored_neutrality
+		always = no # CHI_warlord_PRC_fascism
+		always = no # JAP_showa_restoration_neutrality OR JAP_showa_restoration_democratic
+		always = no # ENG_imperial_federation_unified_fascism OR ENG_imperial_federation_india_unified_fascism
+		always = no # USA_REBEL_fascism
+		always = no # FRA_THIRD_EMPIRE_neutrality
+		always = no # FRA_VICHY_fascism OR FRA_VICHY_neutrality
+		always = no # SPA_spanish_empire_fascism
+		always = no # EOB_empire_brazil_neutrality
+		always = no # united_polynesia_fascism
+		always = no # CAT_aragon_fascism
+		always = no # ESU_POR_unified_fascism
+		always = no # FRANCO_SPAIN_fascism
+		always = no # BOS_without_HRZ_fascism
+		always = no # SER_fascism
+		always = no # GRE_fascism
+		always = no # GRE_GREATER_GREECE_fascism
+		always = no # MAE_fascism
+		always = no # MAE_neutrality
+		always = no # KUR_FRA_autonomy_dominion
+		always = no # TUR_fascism
+		always = no # TUR_PROVISIONARY_communism OR TUR_PROVISIONARY_democratic OR TUR_PROVISIONARY_fascism OR TUR_PROVISIONARY_neutrality
+		always = no # OTT_UNIFIED_neutrality
+		always = no # BLR_baltic
+		always = no # POL_EMPIRE_fascism
+		always = no # NEN_SOV_communism_subject
+		always = no # YAM_SOV_communism_subject
+		always = no # OVO_SOV_communism_subject
+		always = no # TAY_SOV_communism_subject
+		always = no # CKK_SOV_communism_subject
+		always = no # EST_UGRA_fascism
+		always = no # SLAVIC_UNIFIED_fascism
+		always = no # turkestan_united_fascism
+		always = no # mountainous_republics_unified_neutrality
+		always = no # transcaucasia_unified_fascism
+		always = no # siberia_unified_neutrality
+		always = no # idel_ural_neutrality OR idel_ural_fascism
+		always = no # empire_of_axum
+		always = no # empire_of_solomon
+		always = no # empire_of_zion
+		always = no # ETH_African_Union_fascism
+		always = no # greater_italy_neutrality
+		always = no # SWI_alpine_fascism
+		always = no # east_africa_fascism
+		always = no # horn_of_africa_fascism
+		always = no # ITA_italian_empire_neutrality OR ITA_italian_empire_fascism
+		always = no # ITA_italian_empire_democratic
+		# LOWER ORDER OF PRIORITY / ORDRE DE PRIORITÉ BASSE
+		always = no # FRA_GER_fascism_autonomy_reichsprotectorate OR FRA_GER_fascism_autonomy_puppet
+		always = no # IRQ_subject
+		always = no # KHA_SOV_communism_subject
+	}
+}
+
+#Ex.: LA Deutsch-Mittelafrika / DE LA Deutsch-Mittelafrika / DE Deutsch-Mittelafrika / À LA Deutsch-Mittelafrika / DANS LA Deutsch-Mittelafrika
+frloc_cosmtags_sg_fem_cons_dansla_de_04 = {
+		always = no # ZIM_GER_autonomy_integrated_puppet OR ZIM_GER_autonomy_reichskommissariat
+}
+
+#Ex.: LA Commune du Cap / DE LA Commune du Cap / DE LA Commune du Cap / À LA Commune du Cap / DANS LA Commune du Cap
+frloc_cosmtags_sg_fem_cons_dansla_dela_05 = {
+	OR = {
+		always = no # greater_jimma OR greater_jimma_neutrality OR greater_jimma_fascism
+		always = no # greater_jimma_democratic
+		always = no # greater_jimma_communism
+		always = no # greater_ethiopia OR greater_ethiopia_neutrality OR greater_ethiopia_fascism
+		always = no # greater_ethiopia_democratic
+		always = no # greater_ethiopia_communism
+		always = no # greater_gojjam OR greater_gojjam_neutrality OR greater_gojjam_fascism
+		always = no # greater_gojjam_democratic
+		always = no # greater_gojjam_communism
+		always = no # jimma_democratic
+		always = no # jimma_communism
+		always = no # gojjam_communism
+		always = no # SAF_COM_communist
+		always = no # CAN_UK_autonomy_colony
+		always = no # CAN_UK_autonomy_puppet
+		always = no # USA_UK_autonomy_integrated_puppet
+		always = no # USA_SAF_EDW_autonomy_integrated_puppet
+		always = no # FIN_SOV_communism_autonomy_dominion OR FIN_SOV_communism_autonomy_colony OR FIN_SOV_communism_autonomy_puppet OR FIN_SOV_communism_autonomy_integrated_puppet
+		always = no # UKR_SOV_communism_autonomy_dominion OR UKR_SOV_communism_autonomy_colony OR UKR_SOV_communism_autonomy_puppet OR UKR_SOV_communism_autonomy_integrated_puppet
+		always = no # BLR_SOV_communism_autonomy_dominion OR BLR_SOV_communism_autonomy_colony OR BLR_SOV_communism_autonomy_puppet OR BLR_SOV_communism_autonomy_integrated_puppet
+		always = no # EST_SOV_communism_autonomy_dominion OR EST_SOV_communism_autonomy_colony OR EST_SOV_communism_autonomy_puppet OR EST_SOV_communism_autonomy_integrated_puppet
+		always = no # LIT_SOV_communism_autonomy_dominion OR LIT_SOV_communism_autonomy_colony OR LIT_SOV_communism_autonomy_puppet OR LIT_SOV_communism_autonomy_integrated_puppet
+		always = no # LAT_SOV_communism_autonomy_dominion OR LAT_SOV_communism_autonomy_colony OR LAT_SOV_communism_autonomy_puppet OR LAT_SOV_communism_autonomy_integrated_puppet
+		always = no # KEN_ENG_autonomy_colony
+		always = no # ZIM_ENG_autonomy_colony
+		always = no # BOT_ENG_autonomy_colony
+		always = no # CZE_ONLY_communism
+		always = no # HUN_EMPIRE_democratic
+		always = no # HUN_GREATER_democratic
+		always = no # GER_provisional_gvt_neutrality
+		always = no # NDC_UNIFIED_neutrality
+		always = no # PLC_UNIFIED_neutrality
+		always = no # PLC_UNIFIED_democratic
+		always = no # PLC_UNIFIED_communism
+		always = no # USC_UNIFIED_neutrality
+		always = no # BAL_UNIFIED_democratic
+		always = no # BAL_UNIFIED_communism
+		always = no # EUR_UNIFIED_communism
+		always = no # SPQR_UNIFIED_democratic
+		always = no # PER_UNIFIED_communism
+		always = no # BYZ_UNIFIED_democratic
+		always = no # BYZ_UNIFIED_communism
+		always = no # ARA_UNIFIED_democratic
+		always = no # MAJ_UNIFIED_neutrality
+		always = no # MAJ_UNIFIED_democratic
+		always = no # MAJ_UNIFIED_communism
+		always = no # RAT_UNIFIED_democratic
+		always = no # HRE_UNIFIED_democratic
+		always = no # HRE_UNIFIED_communism
+		always = no # CHI_JAP_fascism_autonomy_wtt_imperial_associate
+		always = no # MAN_kwantung_army_communism
+		always = no # PRC_proclaimed_communism
+		always = no # PRC_proclaimed_democratic
+		always = no # CHI_warlord_leader_democratic
+		always = no # CHI_warlord_PRC_democratic
+		always = no # MAN_restored_democratic
+		always = no # MAN_restored_communism
+		always = no # JAP_showa_restoration_communism
+		always = no # SPQR_UNIFIED_communism
+		always = no # CHI_power_struggle_defeated_neutrality
+		always = no # ENG_imperial_federation_unified_neutrality OR ENG_imperial_federation_india_unified_neutrality
+		always = no # MEX_cristero_democratic
+		always = no # MEX_cristero_communism
+		always = no # ENG_england_communism
+		always = no # ENG_england_fascism
+		always = no # SOV_russia_communism
+		always = no # HOL_benelux_unified_democratic
+		always = no # FRA_ORLEANS_neutrality
+		always = no # FRA_FREE_democratic
+		always = no # SPR_anarchist_spain_communism
+		always = no # SPR_republican_spain_communism
+		always = no # SPC_poum_communism
+		always = no # ADU_democratic OR ADU_communism
+		always = no # united_polynesia_democratic
+		always = no # SPR_POR_anarchism_neutrality
+		always = no # CAT_aragon_democratic OR CAT_aragon_neutrality OR CAT_aragon_communism
+		always = no # FRANCO_SPAIN_democratic OR FRANCO_SPAIN_communism
+		always = no # SPR_castille_communism OR SPR_castille_fascism OR SPR_castille_neutrality
+		always = no # dalmatia_fascism
+		always = no # dalmatia_ITA_fascism_subject
+		always = no # dalmatia_democratic
+		always = no # dalmatia_communism
+		always = no # transylvania_fascism OR transylvania_neutrality
+		always = no # SER_democratic OR SER_communism
+		always = no # BOS_without_HRZ_communism
+		always = no # BUL_fascism OR BUL_communism
+		always = no # LBA_GER_autonomy_puppet
+		always = no # UBF_united_balkan_federation_communism OR UBF_united_balkan_federation_democratic OR UBF_united_balkan_federation_fascism OR UBF_united_balkan_federation_neutrality
+		always = no # TBE_third_bulgarian_empire_communism
+		always = no # TBE_third_bulgarian_empire_democratic
+		always = no # GRE_democratic
+		always = no # GRE_com_independent_communism OR GRE_com_independent_democratic OR GRE_com_independent_fascism OR GRE_com_independent_neutrality
+		always = no # GRE_GREATER_GREECE_communism
+		always = no # MAE_communism
+		always = no # MAE_democratic
+		always = no # KOS_YUG_subject
+		always = no # CRO_YUG_subject
+		always = no # dalmatia_YUG_subject
+		always = no # CRO_YUG_subject
+		always = no # SLV_YUG_subject
+		always = no # BOS_YUG_subject
+		always = no # HRZ_YUG_subject
+		always = no # MAC_YUG_subject
+		always = no # MNT_YUG_subject
+		always = no # TRA_YUG_subject
+		always = no # vojvodina_YUG_subject
+		always = no # TUR_democratic OR TUR_communism
+		always = no # TRN_democratic
+		always = no # OTT_SULTANATE_communism OR OTT_SULTANATE_democratic
+		always = no # OTT_UNIFIED_communism OR OTT_UNIFIED_democratic OR OTT_UNIFIED_fascism
+		always = no # GREATER_LIT_communism OR GREATER_LIT_fascism
+		always = no # OSTLAND_democratic
+		always = no # OSTLAND_communism
+		always = no # POL_SANATION_neutrality OR POL_SANATION_democratic OR POL_SANATION_fascism
+		always = no # POL_ROM_UNION_communism
+		always = no # POL_ROM_UNION_democratic
+		always = no # POL_PEASANT_communism
+		always = no # POL_NATDEM_fascism
+		always = no # LIT_MIL_neutrality
+		always = no # USA_CSA_neutrality
+		always = no # SOV_ROME
+		always = no # CRI_SOV_communism_subject
+		always = no # KAR_SOV_communism_subject
+		always = no # ABK_SOV_communism_subject
+		always = no # CIN_SOV_communism_subject
+		always = no # DAG_SOV_communism_subject
+		always = no # NOA_SOV_communism_subject
+		always = no # KBK_SOV_communism_subject
+		always = no # KAL_SOV_communism_subject
+		always = no # KHI_SOV_communism_subject
+		always = no # KKP_SOV_communism_subject
+		always = no # BUK_SOV_communism_subject
+		always = no # ALT_SOV_communism_subject
+		always = no # VGE_SOV_communism_subject
+		always = no # TAT_SOV_communism_subject
+		always = no # BSK_SOV_communism_subject
+		always = no # KOM_SOV_communism_subject
+		always = no # TAY_JAP_fascism_subject
+		always = no # BYA_SOV_communism_subject
+		always = no # BYA_JAP_fascism_subject
+		always = no # YAK_SOV_communism_subject
+		always = no # FER_SOV_communism_subject
+		always = no # FER_JAP_fascism_subject
+		always = no # UDM_SOV_communism_subject
+		always = no # SIK_SOV_communism_subject
+		always = no # MEL_SOV_communism_subject
+		always = no # CHU_SOV_communism_subject
+		always = no # EST_FIN_democratic OR EST_FIN_fascism OR EST_FIN_communism
+		always = no # EST_UGRA_democratic OR EST_UGRA_communism
+		always = no # LIVONIA_communism
+		always = no # SLAVIC_UNIFIED_democratic
+		always = no # SLAVIC_UNIFIED_communism
+		always = no # turkestan_united_democratic OR turkestan_united_communism
+		always = no # turkestan_united_SOV_communism_subject
+		always = no # mountainous_republics_unified_democratic OR mountainous_republics_unified_communism
+		always = no # mountainous_republics_unified_SOV_communism_subject
+		always = no # transcaucasia_unified_neutrality OR transcaucasia_unified_democratic OR transcaucasia_unified_communism
+		always = no # transcaucasia_unified_SOV_communism_subject
+		always = no # siberia_unified_democratic
+		always = no # siberia_unified_SOV_communism_subject
+		always = no # idel_ural_democratic OR idel_ural_communism
+		always = no # idel_ural_SOV_communism_subject
+		always = no # DON_SOV_subject_communism
+		always = no # KUB_SOV_subject_communism
+		always = no # LIT_belarus_communism OR LAT_belarus_communism OR EST_belarus_communism
+		always = no # LIT_belarus_democratic OR LAT_belarus_democratic OR EST_belarus_democratic
+		always = no # PLC_UNIFIED_RUS OR PLC_UNIFIED_RUS_fascism
+		always = no # SOV_right_opposition_communism
+		always = no # russian_empire_communism
+		always = no # empire_of_solomon_communism
+		always = no # empire_of_solomon_democratic
+		always = no # empire_of_zion_communism
+		always = no # empire_of_zion_democratic
+		always = no # greater_italy_fascism OR greater_italy_democratic
+		always = no # SWI_alpine_democratic
+		always = no # HAR_ETH_neutrality_subject
+		always = no # TIG_ETH_neutrality_subject
+		always = no # AFA_ETH_neutrality_subject
+		always = no # BEG_ETH_neutrality_subject
+		always = no # GBA_ETH_neutrality_subject
+		always = no # SID_ETH_neutrality_subject
+		always = no # ORO_ETH_neutrality_subject
+		always = no # QEM_ETH_neutrality_subject
+		always = no # ITA_socialist_republic_democratic
+		always = no # ITA_socialist_republic_communism
+		always = no # ETH_ethiopian_federation_democratic
+		always = no # regnum_bospori_communism
+		always = no # regnum_bospori_democratic
+		always = no # ITA_rsi
+		always = no # GER_autonomy_supervised_state
+		always = no # GER_SOV_communism_autonomy_puppet
+		always = no # ENG_SOV_communism_subject
+		always = no # POL_SOV_communism_subject
+		always = no # SWI_GER_puppet_democratic
+		always = no # SWI_ITA_puppet_democratic
+		always = no # SWI_FRA_puppet_fascism
+		always = no # SWI_SOV_puppet_communism
+		always = no # east_africa_democratic
+		always = no # horn_of_africa_neutrality
+		always = no # horn_of_africa_democratic
+		always = no # ITA_italian_empire_communism
+		always = no # AOI_ITA_democratic_subject
+		always = no # WGR_democratic
+		always = no # WGR_communism
+		always = no # DDR_fascism
+		always = no # DDR_communism
+		# LOWER ORDER OF PRIORITY / ORDRE DE PRIORITÉ BASSE
+		always = no # ENG_communism_subject
+		always = no # SOV_autonomy_supervised_state
+		always = no # USA_communism_subject
+		always = no # HOL_FRA_democratic_subject
+		always = no # POL_communism_subject
+		always = no # CHI_autonomy_colony
+		always = no # SLV_ITA_fascism_subject
+		always = no # LBV_autonomy_supervised_state
+		always = no # PAP_autonomy_supervised_state
+		always = no # TOS_autonomy_supervised_state
+		always = no # SPM_autonomy_supervised_state
+		always = no # TTS_autonomy_supervised_state
+	}
+}
+
+#Ex.: LA Malaisie britannique / DE LA Malaisie britannique / DE Malaisie britannique / À LA Malaisie britannique / EN Malaisie britannique
+frloc_cosmtags_sg_fem_cons_en_de_06 = {
+	OR = {
+		always = no # MAL_subject
+		always = no # MAL_UK_democratic
+		always = no # LBA_GER_autonomy_dominion OR LBA_GER_autonomy_satellite
+		always = no # LBA_GER_autonomy_integrated_puppet OR LBA_GER_autonomy_reichskommissariat
+		always = no # LBA_ITA_fascism_autonomy_reichsprotectorate OR LBA_ITA_fascism_autonomy_puppet
+		always = no # LBA_ITA_fascism_autonomy_colony
+		always = no # ZIM_GER_autonomy_dominion OR ZIM_GER_autonomy_satellite
+		always = no # ZIM_ENG_autonomy_puppet
+		always = no # BLR_GER_autonomy_dominion
+		always = no # HOL_GER_fascism_autonomy_satellite OR HOL_GER_fascism_autonomy_dominion
+		always = no # BEL_GER_fascism_autonomy_satellite OR BEL_GER_fascism_autonomy_dominion
+		always = no # LIT_GER_fascism_autonomy_satellite OR LIT_GER_fascism_autonomy_dominion
+		always = no # LAT_GER_fascism_autonomy_satellite OR LAT_GER_fascism_autonomy_dominion
+		always = no # CZE_ONLY_democratic
+		always = no # HUN_GREATER_neutrality OR HUN_GREATER_fascism
+		always = no # SCA_UNIFIED_democratic
+		always = no # PER_UNIFIED_neutrality
+		always = no # PRC_proclaimed_neutrality
+		always = no # CHI_warlord_leader_neutrality
+		always = no # CHI_warlord_PRC_neutrality OR CHI_warlord_PRC_communism
+		always = no # SPR_castille_democratic
+		always = no # BOS_without_HRZ_democratic OR BOS_without_HRZ_neutrality
+		always = no # transylvania_democratic
+		always = no # vojvodina
+		always = no # SER_neutrality
+		always = no # BUL_neutrality
+		always = no # GRE_dem_monarchy_democratic OR GRE_dem_monarchy_communism OR GRE_dem_monarchy_neutrality
+		always = no # CYP_UK_autonomy_integrated_puppet
+		always = no # TUR_neutrality
+		always = no # GREATER_LIT_democratic
+		always = no # POL_ROM_UNION_fascism
+		always = no # EST_FIN_neutrality
+		always = no # EST_UGRA_neutrality
+		always = no # LIVONIA_fascism
+		always = no # LIT_belarus_neutrality OR LAT_belarus_neutrality
+		always = no # SWI_FRA_puppet_democratic
+		always = no # SWI_helvetic_republic
+		always = no # ZIM_GER_autonomy_puppet
+		always = no # SOV_autonomy_colony
+		always = no # SOV_autonomy_puppet
+		# LOWER ORDER OF PRIORITY / ORDRE DE PRIORITÉ BASSE
+		always = no # SWE_subject
+		always = no # FRA_subject
+		always = no # BEL_subject
+		always = no # HOL_subject
+		always = no # CZE_subject
+		always = no # POL_subject
+		always = no # LIT_subject
+		always = no # LAT_subject
+		always = no # ROM_subject
+		always = no # YUG_subject
+		always = no # YUG_subject
+		#AND = { OR = { tag = TUR original_tag = TUR } is_subject = yes } # TUR_subject # TODO Can't work because or other cosmetic tags
+		#AND = { OR = { tag = GRE original_tag = GRE } is_subject = yes } # GRE_subject # TODO Can't work because or other cosmetic tags
+		always = no # NOR_subject
+		#AND = { OR = { tag = BUL original_tag = BUL } is_subject = yes } # BUL_subject # TODO Can't work because or other cosmetic tags
+		always = no # FIN_subject
+		always = no # HUN_subject
+		always = no # BOL_subject
+		always = no # LBV_subject
+		always = no # TOS_subject
+	}
+}
+
+#Ex.: LA France libre / DE LA France libre / DE LA France libre / À LA France libre / EN France libre
+frloc_cosmtags_sg_fem_cons_en_dela_07 = {
+	OR = {
+		always = no # KEN_GER_autonomy_integrated_puppet OR KEN_GER_autonomy_reichskommissariat
+	 	always = no # GCO_UNIFIED_neutrality
+	 	always = no # GCO_UNIFIED_democratic
+	 	always = no # GCO_UNIFIED_communism
+		always = no # ENG_imperialist_new_zealand_fascism OR ENG_imperialist_new_zealand_neutrality
+		always = no # USA_CSA_democratic
+		always = no # USA_CSA_communism
+		always = no # MEX_SPR_fascism_subject OR MEX_SPR_neutrality_subject OR MEX_SPA_fascism_subject OR MEX_SPA_neutrality_subject OR MEX_cristero_SPR_fascism_subject OR MEX_cristero_SPR_neutrality_subject OR MEX_cristero_SPA_fascism_subject OR MEX_cristero_SPA_neutrality_subject
+		always = no # BUL_democratic
+		always = no # BUL_zveno_bulgaria
+		# LOWER ORDER OF PRIORITY / ORDRE DE PRIORITÉ BASSE
+		always = no # ENG_democratic_subject OR ENG_neutrality_subject
+		always = no # CHI_autonomy_puppet
+		always = no # WGR_neutrality
+	}
+}
+
+#Ex.: L'Afrique orientale italienne / DE L'Afrique orientale italienne / D'Afrique orientale italienne / À L'Afrique orientale italienne / EN Afrique orientale italienne
+frloc_cosmtags_sg_fem_vow_en_d_08 = {
+	OR = {
+		always = no # LBA_ITA_fascism_autonomy_reichskommissariat OR LBA_ITA_fascism_autonomy_integrated_puppet
+		always = no # KEN_GER_autonomy_dominion OR KEN_GER_autonomy_satellite
+		always = no # KEN_ENG_autonomy_integrated_puppet
+		always = no # ETH_ITA_fascism_autonomy_reichskommissariat OR ETH_ITA_fascism_autonomy_integrated_puppet
+		always = no # BLR_GER_autonomy_satellite OR BLR_GER_autonomy_colony
+		always = no # EST_GER_fascism_autonomy_satellite OR EST_GER_fascism_autonomy_dominion
+		always = no # HUN_EMPIRE_neutrality
+		always = no # GER_german_monarchy_democratic
+		always = no # ARA_UNIFIED_neutrality
+		always = no # ENG_england_democratic
+		always = no # SPR_republican_spain_democratic
+		always = no # ESU_POR_unified_neutrality
+		always = no # GRE_GREATER_GREECE_democratic
+		always = no # OSTLAND_fascism OR OSTLAND_neutrality
+		always = no # EST_belarus_neutrality
+		always = no # ITA_socialist_republic_neutrality
+		always = no # UKR_GER_autonomy_puppet
+		always = no # BLR_GER_autonomy_puppet
+		always = no # KEN_GER_autonomy_puppet
+		always = no # GER_autonomy_puppet
+		always = no # east_africa_neutrality
+		always = no # AOI_ITA_fascism_subject OR AOI_ITA_neutrality_subject OR AOI_ITA_communism_subject
+		# LOWER ORDER OF PRIORITY / ORDRE DE PRIORITÉ BASSE
+		always = no # AUS_subject
+		always = no # EST_subject
+		always = no # SPR_subject
+		always = no # ITA_subject
+		always = no # ALB_subject
+		always = no # IRE_subject
+		always = no # ARG_subject
+		always = no # CHI_autonomy_supervised_state
+		always = no # AST_subject
+	}
+}
+
+#Ex.: L'Amérique du Nord britannique / DE L'Amérique du Nord britannique / DE L'Amérique du Nord britannique / À L'Amérique du Nord britannique / EN Amérique du Nord britannique
+frloc_cosmtags_sg_fem_vow_en_del_09 = {
+		always = no # CAN_UK_autonomy_integrated_puppet
+}
+
+#Ex.: L'Union franco-britannique / DE L'Union franco-britannique / DE L'Union franco-britannique / À L'Union franco-britannique / DANS L'Union franco-britannique
+frloc_cosmtags_sg_fem_vow_dansl_del_10 = {
+	OR = {
+		always = no # FRA_UK_democratic
+		always = no # FRA_UK_communism
+		always = no # HUN_EMPIRE_communism
+		always = no # HUN_GREATER_communism
+		always = no # BAL_UNIFIED_neutrality
+		always = no # EUR_UNIFIED_fascism
+		always = no # EUR_UNIFIED_democratic
+		always = no # PER_UNIFIED_democratic
+		always = no # CHI_JAP_fascism_autonomy_integrated_puppet OR CHI_JAP_fascism_autonomy_reichskommissariat
+		always = no # ENG_imperialist_south_africa_fascism OR ENG_imperialist_south_africa_neutrality
+		always = no # ENG_imperialist_australia_fascism OR ENG_imperialist_australia_neutrality
+		always = no # ENG_communist_civil_war_communism
+		always = no # SPR_nationalist_spain_neutrality OR SPR_nationalist_spain_fascism
+		always = no # SPR_carlist_spain_neutrality
+		always = no # ESU_POR_unified_communism
+		always = no # united_polynesia_communism
+		always = no # KPB_kingdom_portugal_and_brazil_communism
+		always = no # transylvania_communism
+		always = no # GRE_byz_republic_fascism OR GRE_byz_republic_communism OR GRE_byz_republic_democratic OR GRE_byz_republic_neutrality
+		always = no # GRE_dem_monarchy_fascism
+		always = no # GRE_stalinist_communism OR GRE_stalinist_fascism OR GRE_stalinist_neutrality OR GRE_stalinist_democratic
+		always = no # ARM_UK_autonomy_integrated_puppet
+		always = no # TRN_communism
+		always = no # POL_PEASANT_democratic
+		always = no # SLAVIC_UNIFIED_neutrality
+		always = no # mountainous_republics_unified_fascism
+		always = no # siberia_unified_communism
+		always = no # LIT_belarus_fascism OR LAT_belarus_fascism OR EST_belarus_fascism
+		always = no # SOV_PANSLAVIC
+		always = no # SOV_left_opposition_communism
+		always = no # empire_of_axum_communism
+		always = no # ETH_African_Union_communism OR ETH_African_Union_neutrality OR ETH_African_Union_democratic
+		always = no # greater_italy_communism
+		always = no # SWI_alpine_communism
+		always = no # papal_states_democratic
+		always = no # papal_states_communism
+		always = no # ITA_socialist_republic_fascism
+		always = no # ethiopia_anarcho_communist
+		always = no # east_africa_communism
+		always = no # horn_of_africa_communism
+		always = no # DDR_democratic
+		# LOWER ORDER OF PRIORITY / ORDRE DE PRIORITÉ BASSE
+		always = no # USA_democratic_subject
+		always = no # SWI_democratic_subject
+	}
+}
+
+#Ex.: LES Territoires sous contrôle britannique / DES Territoires sous contrôle britannique / DES Territoires sous contrôle britannique / AUX Territoires sous contrôle britannique / DANS LES Territoires sous contrôle britannique
+frloc_cosmtags_pl_masc_11 = {
+	OR = {
+		always = no # USA_UK_autonomy_puppet
+		always = no # USA_SAF_EDW_autonomy_puppet
+		always = no # ZIM_ENG_autonomy_integrated_puppet
+	 	always = no # NDC_UNIFIED_communism
+		always = no # USC_UNIFIED_democratic
+		always = no # MAN_kwantung_army_fascism
+		always = no # USA_CSA_fascism
+		always = no # USA_REBEL_democratic
+		always = no # USA_REBEL_communism
+		always = no # USA_REBEL_neutrality
+		always = no # YAK_JAP_fascism_subject
+		always = no # papal_states_neutrality
+		always = no # SOV_autonomy_dominion
+		# LOWER ORDER OF PRIORITY / ORDRE DE PRIORITÉ BASSE
+		always = no # USA_neutrality_subject
+		always = no # CHI_autonomy_dominion
+		always = no # CHI_autonomy_integrated_puppet
+		always = no # CUB_ETH_neutrality_subject
+		always = no # SWI_ENG_puppet_democratic
+		always = no # SWI_ENG_puppet_fascism
+		always = no # PAP_subject
+	}
+}
+
+#Ex.: LES Indes néerlandaises / DES Indes néerlandaises / DES Indes néerlandaises / AUX Indes néerlandaises / DANS LES Indes néerlandaises
+frloc_cosmtags_pl_fem_12 = {
+	OR = {
+		always = no # INS_HOL_democratic
+		always = no # INS_subject
+		always = no # USA_UK_autonomy_colony
+		always = no # USA_SAF_EDW_autonomy_colony
+		always = no # UNL_UNIFIED_neutrality
+		always = no # ARA_UNIFIED_communism
+		always = no # MAN_kwantung_army_democratic
+		always = no # ESU_POR_unified_democratic
+		always = no # KPB_kingdom_portugal_and_brazil_democratic
+		always = no # LIVONIA_democratic
+		always = no # SWI_fascism_subject
+		always = no # TTS_subject
+	}
+}
+
+#Ex.: Ø Byzance / DE Byzance / DE Byzance / À Byzance / À Byzance
+frloc_cosmtags_sg_fem_vow_noarticle_13 = {
+	OR = {
+		always = no # BYZ_UNIFIED_neutrality
+		always = no # jimma_ITA_fascism_subject
+	}
+}
+
+#Ex.: Ø al-Andalus / D'al-Andalus / D'al-Andalus / À al-Andalus / EN al-Andalus
+frloc_cosmtags_sg_masc_vow_noarticle_14 = {
+		always = no # ADU_neutrality
+}
+
+
+
+###########################################################################
+###   Nation articles & flexions / Articles et flexions pour les pays   ###
+###########################################################################
+#Ex.: LE Japon / DU Japon / DU Japon / AU Japon / AU Japon
+frloc_tags_sg_masc_cons_le_du_au_01a = {
+	OR = {
+		always = no
+		always = no
+		always = no
+		always = no
+	}
+}
+
+#Ex.: LE Reich allemand / DU Reich allemand / DU Reich allemand / AU Reich allemand / DANS LE Reich allemand
+frloc_tags_sg_masc_cons_le_du_dansle_01b = {
+	OR = {
+		always = no
+		always = no
+		always = no
+		always = no
+	}
+}
+
+#Ex.: L'État français / DE L'État français / DE L'État français / À L'État français / DANS L'État français
+frloc_tags_sg_masc_vow_l_del_dansl_02a = {
+	OR = {
+		always = no
+		always = no
+		always = no
+		always = no
+	}
+}
+
+#Ex.: L'Islandveldi / DE L'Islandveldi / D'Islandveldi / À L'Islandveldi / DANS L'Islandveldi
+frloc_tags_sg_masc_vow_l_d_dansl_02b = {
+	always = no
+}
+
+#Ex.: L'Uruguay / DE L'Uruguay / D'Uruguay / À L'Uruguay / EN Uruguay
+frloc_tags_sg_masc_vow_l_d_en_02c = {
+	OR = {
+		always = no
+		always = no
+	}
+}
+
+#Ex.: LA Hongrie / DE LA Hongrie / DE Hongrie / À LA Hongrie / EN Hongrie
+frloc_tags_sg_fem_cons_la_de_en_03a = {
+	OR = {
+		always = no
+		always = no
+		always = no
+		always = no
+	}
+}
+
+#Ex.: LA Ligue argentine / DE LA Ligue argentine / DE LA Ligue argentine / À LA Ligue argentine / DANS LA Ligue argentine
+frloc_tags_sg_fem_cons_la_dela_dansla_03b = {
+	OR = {
+		always = no
+		always = no
+		always = no
+		always = no
+	}
+}
+
+#Ex.: LA Terra Mariana / DE LA Terra Mariana / DE LA Terra Mariana / À LA Terra Mariana / EN Terra Mariana
+frloc_tags_sg_fem_cons_la_dela_en_03c = {
+	OR = {
+		always = no
+		always = no
+		always = no
+	}
+}
+
+#Ex.: L'Italie / DE L'Italie / D'Italie / À L'Italie / EN Italie
+frloc_tags_sg_fem_vow_l_d_en_04a = {
+	OR = {
+		always = no
+		always = no
+		always = no
+		always = no
+	}
+}
+
+#Ex.: L'Espagne nationaliste / DE L'Espagne nationaliste / DE L'Espagne nationaliste / À L'Espagne nationaliste / DANS L'Espagne nationaliste
+frloc_tags_sg_fem_vow_l_del_dansl_04b = {
+	OR = {
+		always = no
+		always = no
+		always = no
+		always = no
+	}
+}
+
+#Ex.: L'Australie centraliste / DE L'Australie centraliste / DE L'Australie centraliste / À L'Australie centraliste / EN Australie centraliste
+frloc_tags_sg_fem_vow_l_del_en_04c = {
+	always = no
+}
+
+#Ex.: LES Loups de fer lituaniens / DES Loups de fer lituaniens / DES Loups de fer lituaniens / AUX Loups de fer lituaniens / DANS LES Loups de fer lituaniens
+frloc_tags_pl_masc_les_des_dansles_05a = {
+	OR = {
+		always = no
+		always = no
+		always = no
+		always = no
+	}
+}
+
+#Ex.: LES États-Unis / DES États-Unis / DES États-Unis / AUX États-Unis / AUX États-Unis
+frloc_tags_pl_masc_les_des_aux_05b = {
+	always = no
+}
+
+#Ex.: LES Philippines ganapistes / DES Philippines ganapistes / DES Philippines ganapistes / AUX Philippines ganapistes / DANS LES Philippines ganapistes
+frloc_tags_pl_fem_les_des_dansles_06a = {
+	OR = {
+		always = no
+		always = no
+		always = no
+		always = no
+	}
+}
+
+#Ex.: LES Philippines / DES Philippines / DES Philippines / AUX Philippines / AUX Philippines
+frloc_tags_pl_fem_les_des_aux_06b = {
+	always = no
+}
+
+#Ex.: (ø) Cuba / DE Cuba / DE Cuba / À Cuba / À Cuba
+frloc_tags_noart_sg_masc_x_de_a_07a = {
+	OR = {
+		always = no
+		always = no
+	}
+}
+
+#Ex.: (ø) Haïti / D'Haïti / D'Haïti / À Haïti / À Haïti
+frloc_tags_noart_sg_masc_x_d_a_07b = {
+	OR = {
+		always = no
+		always = no
+	}
+}
+
+#Ex.: (ø) Israël / D'Israël / D'Israël / À Israël / EN Israël
+frloc_tags_noart_sg_masc_x_d_en_07c = {
+	OR = {
+		always = no
+		always = no
+	}
+}
+
+#Ex.: (ø) Malte / DE Malte / DE Malte / À Malte / À Malte
+frloc_tags_noart_sg_fem_x_de_a_08a = {
+	OR = {
+		always = no
+		always = no
+	}
+}
+
+#Ex.: (ø) Oromia / D'Oromia / D'Oromia / À L'Oromia / EN Oromia
+frloc_tags_noart_sg_fem_x_d_en_08b = {
+	OR = {
+		always = no
+	}
+}
+
+
+
+#################################################
+###   Political Parties / Partis politiques   ###
+#################################################
+
+### Ruling Parties / Partis au pouvoir ###
+
+#Ex.: LE Kuomintang / DU Kuomintang / AU Kuomintang # TODO : 140x
+frloc_parties_sg_masc_cons_01a_all = {
+	OR = {
+		always = no
+		always = no
+		always = no
+		always = no
+	}
+}
+
+#Ex.: L'Ordre Nouveau / DE L'Ordre Nouveau / À L'Ordre Nouveau
+frloc_parties_sg_masc_vow_02a_all = { # TODO : 112x
+	OR = {
+		always = no
+		always = no
+		always = no
+		always = no
+	}
+}
+
+#Ex.: LA Légion arménienne / DE LA Légion arménienne / À LA Légion arménienne
+frloc_parties_sg_fem_cons_03a_all = { # TODO : 140x
+	OR = {
+		always = no
+		always = no
+		always = no
+		always = no
+	}
+}
+
+#Ex.: L'Assemblée constituante / DE L'Assemblée constituante / À L'Assemblée constituante
+frloc_parties_sg_fem_vow_04a_all = { # TODO : 112x
+	OR = {
+		always = no
+		always = no
+		always = no
+		always = no
+	}
+}
+
+#Ex.: LES Verts / DES Verts / AUX Verts
+frloc_parties_pl_masc_05a_all = { # TODO : 112x
+	OR = {
+		always = no
+		always = no
+		always = no
+		always = no
+	}
+}
+
+#Ex.: LES Kataëb / DES Kataëb / AUX Kataëb
+frloc_parties_pl_fem_06a_all = { # TODO : 56x
+	always = no
+}
+
+#Ex.: (ø) Misr el-Fatah / DE Misr el-Fatah / À Misr el-Fatah
+frloc_parties_noart_sg_fem_cons_07a_all = { # TODO : 56x
+	always = no
+}
+
+#Ex. for party in power: LES Chevaux de feu / DES Chevaux de feu / AUX Chevaux de feu (= frloc_parties_pl_masc_05a)
+#Ex. for classic fascist party: LA Clique des chevaux de feu / DE LA Clique des chevaux de feu / À LA Clique des chevaux de feu (= frloc_parties_sg_fem_cons_03a)
+frloc_parties_special_fasc_AZR_all = { # TODO : 56x
+	always = no
+}
+
+
+### Fascist Parties / Partis fascistes ###
+
+#Ex.: LE Kuomintang / DU Kuomintang / AU Kuomintang # TODO : 140x
+frloc_parties_sg_masc_cons_01a_fasc = {
+	OR = {
+		tag = ADU tag = AFA tag = AFG tag = ALB tag = ALG tag = ALT tag = ANG tag = AOI tag = AST tag = AUS tag = BAH tag = BAN tag = BAS tag = BAY tag = BEG tag = BEL tag = BHU tag = BLR tag = BLZ tag = BOS tag = BOT tag = BRD tag = BRI tag = BRM tag = BSK tag = BYA tag = CAM tag = CAN tag = CAR tag = CAT tag = CAY tag = CHA tag = CHU tag = CIN tag = CKK tag = CMR tag = COG tag = COL tag = COR tag = COS tag = CRC tag = CSA tag = CUB tag = CYP tag = DAG tag = DAH tag = DDR tag = DEN tag = DJI tag = DNZ tag = DOM tag = DON tag = ECU tag = ELS tag = EQG tag = ERI tag = ETH tag = FIJ tag = FRA tag = FSM tag = GAB tag = GAM tag = GBA tag = GDL tag = GEO tag = GER tag = GHA tag = GNA tag = GNB tag = GUA tag = GUM tag = GXC tag = GYA tag = HAI tag = HAN tag = HAR tag = HOL tag = HON tag = HRZ tag = HUN tag = ICE tag = IRE tag = IRQ tag = ISR tag = ITA tag = IVO tag = JAM tag = KAR tag = KAZ tag = KBK tag = KEN tag = KHA tag = KHI tag = KKP tag = KOM tag = KOR tag = KOS tag = KSH tag = KUB tag = KUR tag = KUW tag = KYR tag = LAO tag = LBA tag = LBV tag = LIB tag = LIT tag = LUX #pf1
+		tag = MAC tag = MAD tag = MAN tag = MEK tag = MEN tag = MLD tag = MLI tag = MLT tag = MLW tag = MOL tag = MON tag = MOR tag = MRT tag = MZB tag = NEN tag = NEP tag = NGA tag = NGR tag = NIC tag = NIR tag = NMB tag = OCC tag = OMA tag = ORO tag = OVO tag = PAK tag = PAN tag = PAP tag = PAR tag = PER tag = PHI tag = PNG tag = POR tag = PRC tag = PRE tag = PUE tag = QAT tag = QEM tag = RCG tag = RIF tag = RWA tag = SAF tag = SAM tag = SAU tag = SAX tag = SCO tag = SEN tag = SER tag = SHL tag = SHX tag = SIA tag = SID tag = SIE tag = SIK tag = SIL tag = SLO tag = SLV tag = SOL tag = SOM tag = SOV tag = SPM tag = SRL tag = SUD tag = SUR tag = SWE tag = SWI tag = SYR tag = TAH tag = TAJ tag = TAN tag = TAY tag = TIB tag = TIG tag = TMS tag = TOG tag = TRA tag = TRI tag = TTS tag = TUN tag = TUR tag = TZN tag = UAE tag = UDM tag = UGA tag = URG always = no tag = UZB tag = VEN tag = VLA tag = VOL tag = WES tag = WGR tag = WLS tag = WUR tag = XSM tag = YAK tag = YAM tag = YEM tag = YUN tag = ZAM tag = ZIM #pf2
+		original_tag = ADU original_tag = AFA original_tag = AFG original_tag = ALB original_tag = ALG original_tag = ALT original_tag = ANG original_tag = AOI original_tag = AST original_tag = AUS original_tag = BAH original_tag = BAN original_tag = BAS original_tag = BAY original_tag = BEG original_tag = BEL original_tag = BHU original_tag = BLR original_tag = BLZ original_tag = BOS original_tag = BOT original_tag = BRD original_tag = BRI original_tag = BRM original_tag = BSK original_tag = BAY original_tag = CAM original_tag = CAN original_tag = CAR original_tag = CAT original_tag = CAY original_tag = CHA original_tag = CHU original_tag = CIN original_tag = CKK original_tag = CMR original_tag = COG original_tag = COL original_tag = COR original_tag = COS original_tag = CRC original_tag = CSA original_tag = CUB original_tag = CYP original_tag = DAG original_tag = DAH original_tag = DDR original_tag = DEN original_tag = DJI original_tag = DNZ original_tag = DOM original_tag = DON original_tag = ECU original_tag = ELS original_tag = EQG original_tag = ERI original_tag = ETH original_tag = FIJ original_tag = FRA original_tag = FSM original_tag = GAB original_tag = GAM original_tag = GBA original_tag = GDL original_tag = GEO original_tag = GER original_tag = GHA original_tag = GNA original_tag = GNB original_tag = GUA original_tag = GUM original_tag = GXC original_tag = GYA original_tag = HAI original_tag = HAN original_tag = HAR original_tag = HOL original_tag = HON original_tag = HRZ original_tag = HUN original_tag = ICE original_tag = IRE original_tag = IRQ original_tag = ISR original_tag = ITA original_tag = IVO original_tag = JAM original_tag = KAR original_tag = KAZ original_tag = KAR original_tag = KEN original_tag = KHA original_tag = KHI original_tag = KKP original_tag = KOM original_tag = KOR original_tag = KOS original_tag = KSH original_tag = KUB original_tag = KUR original_tag = KUW original_tag = KYR original_tag = LAO original_tag = LBA original_tag = LBV original_tag = LIB original_tag = LIT original_tag = LUX #pf1
+		original_tag = MAC original_tag = MAD original_tag = MAN original_tag = MEK original_tag = MEN original_tag = MLD original_tag = MLI original_tag = MLT original_tag = MLW original_tag = MOL original_tag = MON original_tag = MOR original_tag = MRT original_tag = MZB original_tag = NEN original_tag = NEP original_tag = NGA original_tag = NGR original_tag = NIC original_tag = NIR original_tag = NMB original_tag = OCC original_tag = OMA original_tag = ORO original_tag = OVO original_tag = PAK original_tag = PAN original_tag = PAP original_tag = PAR original_tag = PER original_tag = PHI original_tag = PNG original_tag = POR original_tag = PRC original_tag = PRE original_tag = PUE original_tag = QAT original_tag = QEM original_tag = RCG original_tag = RIF original_tag = RWA original_tag = SAF original_tag = SAM original_tag = SAU original_tag = SAX original_tag = SCO original_tag = SEN original_tag = SER original_tag = SHL original_tag = SHX original_tag = SIA original_tag = SID original_tag = SIE original_tag = SIK original_tag = SIL original_tag = SLO original_tag = SLV original_tag = SOL original_tag = SOM original_tag = SOV original_tag = SPM original_tag = SRL original_tag = SUD original_tag = SUR original_tag = SWE original_tag = SWI original_tag = SYR original_tag = TAH original_tag = TAJ original_tag = TAN original_tag = TAY original_tag = TIB original_tag = TIG original_tag = TMS original_tag = TOG original_tag = TRA original_tag = TRI original_tag = TTS original_tag = TUN original_tag = TUR original_tag = TZN original_tag = UAE original_tag = UDM original_tag = UGA original_tag = URG always = no original_tag = UZB original_tag = VEN original_tag = VLA original_tag = VOL original_tag = WES original_tag = WGR original_tag = WLS original_tag = WUR original_tag = XSM original_tag = YAK original_tag = YAM original_tag = YEM original_tag = YUN original_tag = ZAM original_tag = ZIM #pf2
+		always = no
+		always = no #pf
+		always = no
+		always = no #pf
+	}
+}
+
+#Ex.: L'Ordre Nouveau / DE L'Ordre Nouveau / À L'Ordre Nouveau
+frloc_parties_sg_masc_vow_02a_fasc = { # TODO : 112x
+	OR = {
+		tag = FIN tag = INS tag = NAV #pf
+		original_tag = FIN original_tag = INS original_tag = NAV #pf
+		always = no
+	}
+}
+
+#Ex.: LA Légion arménienne / DE LA Légion arménienne / À LA Légion arménienne
+frloc_parties_sg_fem_cons_03a_fasc = { # TODO : 140x
+	OR = {
+		tag = ARM tag = BOL tag = CHL tag = CRI tag = CZE tag = GLC tag = HAW tag = JAP tag = JOR tag = KAL tag = LAT tag = NOA tag = NOR tag = NZL tag = SPR always = no always = no always = no always = no tag = TOS tag = USA tag = VGE tag = VIN tag = YUG #pf
+		original_tag = ARM original_tag = BOL original_tag = CHL original_tag = CRI original_tag = CZE original_tag = GLC original_tag = HAW original_tag = JAP original_tag = JOR original_tag = KAL original_tag = LAT original_tag = NOA original_tag = NOR original_tag = NZL original_tag = SPR always = no always = no always = no always = no original_tag = TOS original_tag = USA original_tag = VGE original_tag = VIN original_tag = YUG #pf
+		always = no #pf
+		always = no #pf
+		always = no #pf
+	}
+}
+
+#Ex.: L'Assemblée constituante / DE L'Assemblée constituante / À L'Assemblée constituante
+frloc_parties_sg_fem_vow_04a_fasc = { # TODO : 112x
+	OR = {
+		tag = ABK tag = ARG tag = BUK tag = BUL tag = CRO tag = ENG tag = EST tag = FER tag = PAL tag = PRU tag = RAJ tag = TAT tag = UKR #pf
+		original_tag = ABK original_tag = ARG original_tag = BUK original_tag = BUL original_tag = CRO original_tag = ENG original_tag = EST original_tag = FER original_tag = PAL original_tag = PRU original_tag = RAJ original_tag = TAT original_tag = UKR #pf
+		always = no
+		always = no
+		always = no
+		always = no #pf
+	}
+}
+
+#Ex.: LES Verts / DES Verts / AUX Verts
+frloc_parties_pl_masc_05a_fasc = { # TODO : 112x
+	OR = {
+		tag = MAL tag = MNT #pf
+		original_tag = MAL original_tag = MNT #pf
+		always = no
+	}
+}
+
+#Ex.: LES Kataëb / DES Kataëb / AUX Kataëb
+frloc_parties_pl_fem_06a_fasc = { # TODO : 56x
+	OR = {
+		tag = CHI tag = LEB tag = MEL #pf
+		original_tag = CHI original_tag = LEB original_tag = MEL #pf
+	}
+}
+
+#Ex.: (ø) Misr el-Fatah / DE Misr el-Fatah / À Misr el-Fatah
+frloc_parties_noart_sg_fem_cons_07a_fasc = { # TODO : 56x
+	OR = {
+		tag = CAT tag = EGY #pf
+		original_tag = CAT original_tag = EGY #pf
+	}
+}
+
+#Ex. for party in power: LES Chevaux de feu / DES Chevaux de feu / AUX Chevaux de feu (= frloc_parties_pl_masc_05a)
+#Ex. for classic fascist party: LA Clique des chevaux de feu / DE LA Clique des chevaux de feu / À LA Clique des chevaux de feu (= frloc_parties_sg_fem_cons_03a)
+frloc_parties_special_fasc_AZR_fasc = { # TODO : 56x
+	OR = {
+		tag = AZR #pf
+		original_tag = AZR #pf
+	}
+}
+
+
+### Communist Parties / Partis communistes ###
+
+#Ex.: LE Kuomintang / DU Kuomintang / AU Kuomintang # TODO : 140x
+frloc_parties_sg_masc_cons_01a_comm = {
+	OR = {
+		tag = ABK tag = ADU tag = AFA tag = AFG tag = ALB tag = ALG tag = ALT tag = ANG tag = AOI tag = ARG tag = ARM tag = AST tag = AUS tag = AZR tag = BAH tag = BAN tag = BAS tag = BAY tag = BEG tag = BEL tag = BHU tag = BLR tag = BLZ tag = BOL tag = BOS tag = BOT tag = BRA tag = BRD tag = BRI tag = BRM tag = BSK tag = BUK tag = BUL tag = BYA tag = CAM tag = CAN tag = CAR tag = CAT tag = CAY tag = CHA tag = CHI tag = CHL tag = CHU tag = CIN tag = CMR tag = COG tag = COL tag = COR tag = COS tag = CRC tag = CRO tag = CSA tag = CUB tag = CYP tag = CZE tag = DAG tag = DAH tag = DDR tag = DEN tag = DJI tag = DNZ tag = DOM tag = DON tag = ECU tag = EGY tag = ELS tag = ENG tag = EQG tag = ERI tag = FIJ tag = FIN tag = GAB tag = GAM tag = GBA tag = GDL tag = GEO tag = GER tag = GHA tag = GLC tag = GNA tag = GNB tag = GRE tag = GUA tag = GUM tag = GXC tag = GYA tag = HAI tag = HAN tag = HAR tag = HAW tag = HOL tag = HON tag = HRZ tag = HUN tag = ICE tag = INS tag = IRE tag = IRQ tag = ISR tag = ITA tag = IVO tag = JAM tag = JAP tag = KAR tag = KAZ tag = KBK tag = KEN tag = KHA tag = KHI tag = KKP tag = KOR tag = KOS tag = KSH tag = KUB tag = KUR tag = KUW tag = KYR tag = LAO tag = LAT tag = LBA tag = LBV tag = LIB tag = LIT tag = LUX #pc1
+		tag = MAC tag = MAD tag = MAL tag = MAN tag = MEK tag = MEL tag = MEN tag = MEX tag = MLD tag = MLI tag = MLT tag = MLW tag = MNT tag = MOL tag = MON tag = MOR tag = MRT tag = MZB tag = NEN tag = NEP tag = NGA tag = NGR tag = NIC tag = NIR tag = NMB tag = NOA tag = NOR tag = NZL tag = OCC tag = OMA tag = ORO tag = PAK tag = PAN tag = PAP tag = PAR tag = PER tag = PHI tag = PNG tag = POL tag = POR tag = PRC tag = PRE tag = PRU tag = PUE tag = QAT tag = QEM tag = RAJ tag = RCG tag = RIF tag = RWA tag = ROM tag = SAF tag = SAM tag = SAU tag = SAX tag = SCO tag = SEN tag = SHL tag = SHX tag = SIA tag = SID tag = SIE tag = SIK tag = SIL tag = SLO tag = SLV tag = SOL tag = SOM tag = SOV tag = SPM tag = SPR always = no always = no always = no always = no tag = SRL tag = SUD tag = SUR tag = SWE tag = SWI tag = SYR tag = TAJ tag = TAN tag = TAT tag = TIB tag = TIG tag = TMS tag = TOG tag = TOS tag = TRA tag = TRI tag = TTS tag = TUN tag = TUR tag = TZN tag = UAE tag = UDM tag = UGA tag = UKR tag = URG tag = USA always = no tag = UZB tag = VEN tag = VGE tag = VIN tag = VOL tag = WES tag = WGR tag = WLS tag = WUR tag = XSM tag = YAM tag = YEM tag = YUG tag = YUN tag = ZAM tag = ZIM #pc2
+		original_tag = ABK original_tag = ADU original_tag = AFA original_tag = AFG original_tag = ALB original_tag = ALG original_tag = ALT original_tag = ANG original_tag = AOI original_tag = ARG original_tag = ARM original_tag = AST original_tag = AUS original_tag = AZR original_tag = BAH original_tag = BAN original_tag = BAS original_tag = BAY original_tag = BEG original_tag = BEL original_tag = BHU original_tag = BLR original_tag = BLZ original_tag = BOL original_tag = BOS original_tag = BOT original_tag = BRA original_tag = BRD original_tag = BRI original_tag = BRM original_tag = BSK original_tag = BUK original_tag = BUL original_tag = BYA original_tag = CAM original_tag = CAN original_tag = CAR original_tag = CAT original_tag = CAY original_tag = CHA original_tag = CHI original_tag = CHL original_tag = CHU original_tag = CIN original_tag = CMR original_tag = COG original_tag = COL original_tag = COR original_tag = COS original_tag = CRC original_tag = CRO original_tag = CSA original_tag = CUB original_tag = CYP original_tag = CZE original_tag = DAG original_tag = DAH original_tag = DDR original_tag = DEN original_tag = DJI original_tag = DNZ original_tag = DOM original_tag = DON original_tag = ECU original_tag = EGY original_tag = ELS original_tag = ENG original_tag = EQG original_tag = ERI original_tag = FIJ original_tag = FIN original_tag = GAB original_tag = GAM original_tag = GBA original_tag = GDL original_tag = GEO original_tag = GER original_tag = GHA original_tag = GLC original_tag = GNA original_tag = GNB original_tag = GRE original_tag = GUA original_tag = GUM original_tag = GXC original_tag = GYA original_tag = HAI original_tag = HAN original_tag = HAR original_tag = HAW original_tag = HOL original_tag = HON original_tag = HRZ original_tag = HUN original_tag = ICE original_tag = INS original_tag = IRE original_tag = IRQ original_tag = ISR original_tag = ITA original_tag = IVO original_tag = JAM original_tag = JAP original_tag = KAR original_tag = KAZ original_tag = KBK original_tag = KEN original_tag = KHA original_tag = KHI original_tag = KKP original_tag = KOR original_tag = KOS original_tag = KSH original_tag = KUB original_tag = KUR original_tag = KUW original_tag = KYR original_tag = LAO original_tag = LAT original_tag = LBA original_tag = LBV original_tag = LIB original_tag = LIT original_tag = LUX #pc1
+		original_tag = MAC original_tag = MAD original_tag = MAL original_tag = MAN original_tag = MEK original_tag = MEL original_tag = MEN original_tag = MEX original_tag = MLD original_tag = MLI original_tag = MLT original_tag = MLW original_tag = MNT original_tag = MOL original_tag = MON original_tag = MOR original_tag = MRT original_tag = MZB original_tag = NEN original_tag = NEP original_tag = NGA original_tag = NGR original_tag = NIC original_tag = NIR original_tag = NMB original_tag = NOA original_tag = NOR original_tag = NZL original_tag = OCC original_tag = OMA original_tag = ORO original_tag = PAK original_tag = PAN original_tag = PAP original_tag = PAR original_tag = PER original_tag = PHI original_tag = PNG original_tag = POL original_tag = POR original_tag = PRC original_tag = PRE original_tag = PRU original_tag = PUE original_tag = QAT original_tag = QEM original_tag = RAJ original_tag = RCG original_tag = RIF original_tag = RWA original_tag = ROM original_tag = SAF original_tag = SAM original_tag = SAU original_tag = SAX original_tag = SCO original_tag = SEN original_tag = SHL original_tag = SHX original_tag = SIA original_tag = SID original_tag = SIE original_tag = SIK original_tag = SIL original_tag = SLO original_tag = SLV original_tag = SOL original_tag = SOM original_tag = SOV original_tag = SPM original_tag = SPR always = no always = no always = no always = no original_tag = SRL original_tag = SUD original_tag = SUR original_tag = SWE original_tag = SWI original_tag = SYR original_tag = TAJ original_tag = TAN original_tag = TAT original_tag = TIB original_tag = TIG original_tag = TMS original_tag = TOG original_tag = TOS original_tag = TRA original_tag = TRI original_tag = TTS original_tag = TUN original_tag = TUR original_tag = TZN original_tag = UAE original_tag = UDM original_tag = UGA original_tag = UKR original_tag = URG original_tag = USA always = no original_tag = UZB original_tag = VEN original_tag = VGE original_tag = VIN original_tag = VOL original_tag = WES original_tag = WGR original_tag = WLS original_tag = WUR original_tag = XSM original_tag = YAM original_tag = YEM original_tag = YUG original_tag = YUN original_tag = ZAM original_tag = ZIM #pc2
+		always = no #pc
+		always = no #pc
+		always = no #pc
+		always = no #pc
+		always = no #pc
+		always = no #pc
+		always = no #pc
+	}
+}
+
+#Ex.: L'Eestimaa Kommunistlik Partei / DE L'Eestimaa Kommunistlik Partei / À L'Eestimaa Kommunistlik Partei
+frloc_parties_sg_masc_vow_02a_comm = {
+	OR = {
+		tag = EST tag = NAV #pc
+		original_tag = EST original_tag = NAV #pc
+	}
+}
+
+#Ex.: LA Légion arménienne / DE LA Légion arménienne / À LA Légion arménienne
+frloc_parties_sg_fem_cons_03a_comm = { # TODO : 140x
+	OR = {
+		tag = CRI tag = FER tag = JOR tag = KOM tag = LEB tag = OVO tag = PAL tag = SER tag = VLA #pc
+		original_tag = CRI original_tag = FER original_tag = JOR original_tag = KOM original_tag = LEB original_tag = OVO original_tag = PAL original_tag = SER original_tag = VLA #pc
+	}
+}
+
+#Ex.: LES Lions noirs / DES Lions noirs / AUX Lions noirs
+frloc_parties_pl_masc_05a_comm = {
+	OR = {
+		always = no #pc
+		always = no #pc
+	}
+}
+
+#Ex.: L'Assemblée sociale de Polynésie / DE L'Assemblée sociale de Polynésie / À L'Assemblée sociale de Polynésie
+frloc_parties_sg_fem_vow_04a_comm = {
+	OR = {
+		tag = CKK tag = FSM tag = KAL tag = TAH tag = TAY tag = YAK #pc
+		original_tag = CKK original_tag = FSM original_tag = KAL original_tag = TAH original_tag = TAY original_tag = YAK #pc
+		always = no #pc
+		always = no #pc
+		always = no #pc
+	}
+}
+
+
+
+### Democratic Parties / Partis démocratiques ###
+
+#Ex.: LE Kuomintang / DU Kuomintang / AU Kuomintang # TODO : 140x
+frloc_parties_sg_masc_cons_01a_demo = {
+	OR = {
+		tag = ADU tag = AFA tag = AFG tag = ALB tag = ALG tag = ALT tag = ANG tag = AOI tag = AST tag = AUS tag = AZR tag = BAH tag = BAN tag = BAS tag = BAY tag = BEG tag = BEL tag = BHU tag = BLZ tag = BOL tag = BOS tag = BOT tag = BRD tag = BRM tag = BYA tag = CAM tag = CAN tag = CAR tag = CAY tag = CHA tag = CHL tag = CHU tag = CIN tag = CMR tag = COG tag = COL tag = COR tag = COS tag = CRC tag = CRI tag = CRO tag = CSA tag = CYP tag = CZE tag = DAG tag = DAH tag = DDR tag = DJI tag = DNZ tag = DON tag = EGY tag = ELS tag = ENG tag = EQG tag = ERI tag = EST tag = FER tag = FIJ tag = FIN tag = GAB tag = GAM tag = GBA tag = GDL tag = GEO tag = GER tag = GHA tag = GLC tag = GNA tag = GNB tag = GRE tag = GUA tag = GUM tag = GXC tag = GYA tag = HAI tag = HAN tag = HAR tag = HAW tag = HON tag = HRZ tag = HUN tag = ICE tag = INS tag = IRE tag = IRQ tag = ISR tag = IVO tag = JAM tag = JAP tag = JOR tag = KAL tag = KAZ tag = KBK tag = KEN tag = KHA tag = KHI tag = KKP tag = KOM tag = KOR tag = KOS tag = KSH tag = KUB tag = KUR tag = KUW tag = LAO tag = KYR tag = LAT tag = LBA tag = LBV tag = LEB tag = LIB tag = LIT tag = LUX #pd1
+		tag = MAC tag = MAD tag = MAN tag = MEK tag = MEL tag = MEN tag = MEX tag = MLD tag = MLI tag = MLT tag = MLW tag = MOL tag = MON tag = MOR tag = MRT tag = MZB tag = NEN tag = NEP tag = NGA tag = NGR tag = NIC tag = NIR tag = NMB tag = NOA tag = NZL tag = OCC tag = OMA tag = ORO tag = PAK tag = PAL tag = PAN tag = PAP tag = PAR tag = PER tag = PHI tag = PNG tag = PRC tag = PRE tag = PRU tag = PUE tag = QAT tag = QEM tag = RAJ tag = RCG tag = RIF tag = RWA tag = ROM tag = SAF tag = SAM tag = SAU tag = SAX tag = SCO tag = SEN tag = SHL tag = SHX tag = SIA tag = SID tag = SIE tag = SIK tag = SIL tag = SLO tag = SLV tag = SOL tag = SOM tag = SOV tag = SPM tag = SPR tag = SRL tag = SUD tag = SUR tag = SWE tag = SYR tag = TAJ tag = TAN tag = TAT tag = TIB tag = TIG tag = TMS tag = TOG tag = TRA tag = TRI tag = TTS tag = TUN tag = TUR tag = TZN tag = UAE tag = UDM tag = UGA tag = URG tag = USA always = no tag = UZB tag = VEN tag = VIN tag = VLA tag = VOL tag = WES tag = WGR tag = WLS tag = WUR tag = XSM tag = YAK tag = YAM tag = YEM tag = YUG tag = YUN tag = ZAM tag = ZIM #pd2
+		original_tag = ADU original_tag = AFA original_tag = AFG original_tag = ALB original_tag = ALG original_tag = ALT original_tag = ANG original_tag = AOI original_tag = AST original_tag = AUS original_tag = AZR original_tag = BAH original_tag = BAN original_tag = BAS original_tag = BAY original_tag = BEG original_tag = BEL original_tag = BHU original_tag = BLZ original_tag = BOL original_tag = BOS original_tag = BOT original_tag = BRD original_tag = BRM original_tag = BYA original_tag = CAM original_tag = CAN original_tag = CAR original_tag = CAY original_tag = CHA original_tag = CHL original_tag = CHU original_tag = CIN original_tag = CMR original_tag = COG original_tag = COL original_tag = COR original_tag = COS original_tag = CRC original_tag = CRI original_tag = CRO original_tag = CSA original_tag = CYP original_tag = CZE original_tag = DAG original_tag = DAH original_tag = DDR original_tag = DJI original_tag = DNZ original_tag = DON original_tag = EGY original_tag = ELS original_tag = ENG original_tag = EQG original_tag = ERI original_tag = EST original_tag = FER original_tag = FIJ original_tag = FIN original_tag = GAB original_tag = GAM original_tag = GBA original_tag = GDL original_tag = GEO original_tag = GER original_tag = GHA original_tag = GLC original_tag = GNA original_tag = GNB original_tag = GRE original_tag = GUA original_tag = GUM original_tag = GXC original_tag = GYA original_tag = HAI original_tag = HAN original_tag = HAR original_tag = HAW original_tag = HON original_tag = HRZ original_tag = HUN original_tag = ICE original_tag = INS original_tag = IRE original_tag = IRQ original_tag = ISR original_tag = IVO original_tag = JAM original_tag = JAP original_tag = JOR original_tag = KAL original_tag = KAZ original_tag = KBK original_tag = KEN original_tag = KHA original_tag = KHI original_tag = KKP original_tag = KOM original_tag = KOR original_tag = KOS original_tag = KSH original_tag = KUB original_tag = KUR original_tag = KUW original_tag = LAO original_tag = KYR original_tag = LAT original_tag = LBA original_tag = LBV original_tag = LEB original_tag = LIB original_tag = LIT original_tag = LUX #pd1
+		original_tag = MAC original_tag = MAD original_tag = MAN original_tag = MEK original_tag = MEL original_tag = MEN original_tag = MEX original_tag = MLD original_tag = MLI original_tag = MLT original_tag = MLW original_tag = MOL original_tag = MON original_tag = MOR original_tag = MRT original_tag = MZB original_tag = NEN original_tag = NEP original_tag = NGA original_tag = NGR original_tag = NIC original_tag = NIR original_tag = NMB original_tag = NOA original_tag = NZL original_tag = OCC original_tag = OMA original_tag = ORO original_tag = PAK original_tag = PAL original_tag = PAN original_tag = PAP original_tag = PAR original_tag = PER original_tag = PHI original_tag = PNG original_tag = PRC original_tag = PRE original_tag = PRU original_tag = PUE original_tag = QAT original_tag = QEM original_tag = RAJ original_tag = RCG original_tag = RIF original_tag = RWA original_tag = ROM original_tag = SAF original_tag = SAM original_tag = SAU original_tag = SAX original_tag = SCO original_tag = SEN original_tag = SHL original_tag = SHX original_tag = SIA original_tag = SID original_tag = SIE original_tag = SIK original_tag = SIL original_tag = SLO original_tag = SLV original_tag = SOL original_tag = SOM original_tag = SOV original_tag = SPM original_tag = SPR original_tag = SRL original_tag = SUD original_tag = SUR original_tag = SWE original_tag = SYR original_tag = TAJ original_tag = TAN original_tag = TAT original_tag = TIB original_tag = TIG original_tag = TMS original_tag = TOG original_tag = TRA original_tag = TRI original_tag = TTS original_tag = TUN original_tag = TUR original_tag = TZN original_tag = UAE original_tag = UDM original_tag = UGA original_tag = URG original_tag = USA always = no original_tag = UZB original_tag = VEN original_tag = VIN original_tag = VLA original_tag = VOL original_tag = WES original_tag = WGR original_tag = WLS original_tag = WUR original_tag = XSM original_tag = YAK original_tag = YAM original_tag = YEM original_tag = YUG original_tag = YUN original_tag = ZAM original_tag = ZIM #pd2
+		always = no #pd
+		always = no #pd
+		always = no #pd
+		always = no #pd
+	}
+}
+
+#Ex.: L'Ordre Nouveau / DE L'Ordre Nouveau / À L'Ordre Nouveau
+frloc_parties_sg_masc_vow_02a_demo = { # TODO : 112x
+	OR = {
+		tag = NOR #pd
+		original_tag = NOR #pd
+		always = no #pd
+	}
+}
+
+#Ex.: LA Légion arménienne / DE LA Légion arménienne / À LA Légion arménienne
+frloc_parties_sg_fem_cons_03a_demo = { # TODO : 140x
+	OR = {
+		tag = ARM tag = BLR tag = BRI tag = BSK tag = BUL tag = CHI tag = CKK tag = DEN tag = DOM tag = ECU tag = HOL tag = MNT tag = OVO tag = TAY #pd
+		original_tag = ARM original_tag = BLR original_tag = BRI original_tag = BSK original_tag = BUL original_tag = CHI original_tag = CKK original_tag = DEN original_tag = DOM original_tag = ECU original_tag = HOL original_tag = MNT original_tag = OVO original_tag = TAY #pd
+		always = no #pd
+		always = no #pd
+		always = no #pd
+		always = no #pd
+	}
+}
+
+#Ex.: L'Assemblée constituante / DE L'Assemblée constituante / À L'Assemblée constituante
+frloc_parties_sg_fem_vow_04a_demo = { # TODO : 112x
+	OR = {
+		tag = ABK tag = ARG tag = BRA tag = CAT tag = CUB tag = ETH tag = FSM tag = MAL tag = NAV tag = POR tag = SWI tag = TAH tag = TOS tag = UKR tag = VGE #pd
+		original_tag = ABK original_tag = ARG original_tag = BRA original_tag = CAT original_tag = CUB original_tag = ETH original_tag = FSM original_tag = MAL original_tag = NAV original_tag = POR original_tag = SWI original_tag = TAH original_tag = TOS original_tag = UKR original_tag = VGE #pd
+	}
+}
+
+#Ex.: LES Verts / DES Verts / AUX Verts
+frloc_parties_pl_masc_05a_demo = { # TODO : 112x
+	OR = {
+		tag = BUK tag = KAR tag = SER #pd
+		original_tag = BUK original_tag = KAR original_tag = SER #pd
+	}
+}
+
+
+### Neutral Parties / Partis neutres ###
+
+#Ex.: LE Kuomintang / DU Kuomintang / AU Kuomintang # TODO : 140x
+frloc_parties_sg_masc_cons_01a_neut = {
+	OR = {
+		tag = ABK tag = ADU tag = AFA tag = ALG tag = ALT tag = ANG tag = AOI tag = AST tag = AUS tag = BAH tag = BAN tag = BAS tag = BAY tag = BEG tag = BEL tag = BLZ tag = BOL tag = BOS tag = BOT tag = BRD tag = BRM tag = CAR tag = CAY tag = CHA tag = CHI tag = CHL tag = CIN tag = CKK tag = CMR tag = COG tag = COL tag = COR tag = COS tag = CRC tag = CRI tag = CRO tag = CSA tag = CUB tag = CYP tag = CZE tag = DAH tag = DDR tag = DEN tag = DJI tag = DNZ tag = DOM tag = DON tag = ECU tag = ELS tag = ENG tag = EQG tag = ERI tag = ETH tag = FER tag = FIJ tag = FIN tag = FSM tag = GAB tag = GAM tag = GBA tag = GDL tag = GER tag = GHA tag = GNA tag = GNB tag = GRE tag = GUA tag = GUM tag = GYA tag = HAI tag = HAN tag = HAR tag = HOL tag = HON tag = HRZ tag = HUN tag = ICE tag = IRE tag = ISR tag = ITA tag = IVO tag = JAM tag = KAL tag = KBK tag = KEN tag = KHA tag = KHI tag = KKP tag = KOM tag = KOS tag = KSH tag = KUB tag = KUR tag = KUW tag = KYR tag = LAT tag = LBA tag = LBV tag = LIB tag = LUX #pn1
+		tag = MAC tag = MAD tag = MAN tag = MEK tag = MEL tag = MEN tag = MEX tag = MLD tag = MLI tag = MLT tag = MLW tag = MNT tag = MOL tag = MON tag = MOR tag = MRT tag = MZB tag = NEN tag = NGA tag = NGR tag = NIC tag = NIR tag = NMB tag = NOR tag = NZL tag = OCC tag = ORO tag = OVO tag = PAN tag = PAP tag = PAR tag = PHI tag = PNG tag = PRC tag = PRE tag = PRU tag = PUE tag = QAT tag = QEM tag = RAJ tag = RCG tag = RIF tag = ROM tag = RWA tag = SAF tag = SAM tag = SAX tag = SCO tag = SEN tag = SHL tag = SHX tag = SIA tag = SID tag = SIE tag = SIK tag = SIL tag = SLO tag = SLV tag = SOL tag = SOM tag = SOV tag = SPM tag = SRL tag = SUD tag = SUR tag = TAJ tag = TAN tag = TAT tag = TAY tag = TIB tag = TIG tag = TMS tag = TOG tag = TOS tag = TRA tag = TRI tag = TTS tag = TUN tag = TUR tag = TZN tag = UAE tag = UGA tag = UKR tag = URG tag = USA always = no tag = UZB tag = VIN tag = VOL tag = WES tag = WGR tag = WLS tag = WUR tag = YAM tag = YUG tag = YUN tag = ZAM tag = ZIM #pn2
+		original_tag = ABK original_tag = ADU original_tag = AFA original_tag = ALG original_tag = ALT original_tag = ANG original_tag = AOI original_tag = AST original_tag = AUS original_tag = BAH original_tag = BAN original_tag = BAS original_tag = BAY original_tag = BEG original_tag = BEL original_tag = BLZ original_tag = BOL original_tag = BOS original_tag = BOT original_tag = BRD original_tag = BRM original_tag = CAR original_tag = CAY original_tag = CHA original_tag = CHI original_tag = CHL original_tag = CIN original_tag = CKK original_tag = CMR original_tag = COG original_tag = COL original_tag = COR original_tag = COS original_tag = CRC original_tag = CRI original_tag = CRO original_tag = CSA original_tag = CUB original_tag = CYP original_tag = CZE original_tag = DAH original_tag = DDR original_tag = DEN original_tag = DJI original_tag = DNZ original_tag = DOM original_tag = DON original_tag = ECU original_tag = ELS original_tag = ENG original_tag = EQG original_tag = ERI original_tag = ETH original_tag = FER original_tag = FIJ original_tag = FIN original_tag = FSM original_tag = GAB original_tag = GAM original_tag = GBA original_tag = GDL original_tag = GER original_tag = GHA original_tag = GNA original_tag = GNB original_tag = GRE original_tag = GUA original_tag = GUM original_tag = GYA original_tag = HAI original_tag = HAN original_tag = HAR original_tag = HOL original_tag = HON original_tag = HRZ original_tag = HUN original_tag = ICE original_tag = IRE original_tag = ISR original_tag = ITA original_tag = IVO original_tag = JAM original_tag = KAL original_tag = KBK original_tag = KEN original_tag = KHA original_tag = KHI original_tag = KKP original_tag = KOM original_tag = KOS original_tag = KSH original_tag = KUB original_tag = KUR original_tag = KUW original_tag = KYR original_tag = LAT original_tag = LBA original_tag = LBV original_tag = LIB original_tag = LUX #pn1
+		original_tag = MAC original_tag = MAD original_tag = MAN original_tag = MEK original_tag = MEL original_tag = MEN original_tag = MEX original_tag = MLD original_tag = MLI original_tag = MLT original_tag = MLW original_tag = MNT original_tag = MOL original_tag = MON original_tag = MOR original_tag = MRT original_tag = MZB original_tag = NEN original_tag = NGA original_tag = NGR original_tag = NIC original_tag = NIR original_tag = NMB original_tag = NOR original_tag = NZL original_tag = OCC original_tag = ORO original_tag = OVO original_tag = PAN original_tag = PAP original_tag = PAR original_tag = PHI original_tag = PNG original_tag = PRC original_tag = PRE original_tag = PRU original_tag = PUE original_tag = QAT original_tag = QEM original_tag = RAJ original_tag = RCG original_tag = RIF original_tag = ROM original_tag = RWA original_tag = SAF original_tag = SAM original_tag = SAX original_tag = SCO original_tag = SEN original_tag = SHL original_tag = SHX original_tag = SIA original_tag = SID original_tag = SIE original_tag = SIK original_tag = SIL original_tag = SLO original_tag = SLV original_tag = SOL original_tag = SOM original_tag = SOV original_tag = SPM original_tag = SRL original_tag = SUD original_tag = SUR original_tag = TAJ original_tag = TAN original_tag = TAT original_tag = TAY original_tag = TIB original_tag = TIG original_tag = TMS original_tag = TOG original_tag = TOS original_tag = TRA original_tag = TRI original_tag = TTS original_tag = TUN original_tag = TUR original_tag = TZN original_tag = UAE original_tag = UGA original_tag = UKR original_tag = URG original_tag = USA always = no original_tag = UZB original_tag = VIN original_tag = VOL original_tag = WES original_tag = WGR original_tag = WLS original_tag = WUR original_tag = YAM original_tag = YUG original_tag = YUN original_tag = ZAM original_tag = ZIM #pn2
+		always = no #pn
+		always = no #pn
+		always = no #pn
+		always = no #pn
+		always = no #pn
+	}
+}
+
+#Ex.: L'Ordre Nouveau / DE L'Ordre Nouveau / À L'Ordre Nouveau
+frloc_parties_sg_masc_vow_02a_neut = { # TODO : 112x
+	OR = {
+		tag = HAW tag = NAV #pn
+		original_tag = HAW original_tag = NAV #pn
+		always = no #pn
+	}
+}
+
+#Ex.: LA Légion arménienne / DE LA Légion arménienne / À LA Légion arménienne
+frloc_parties_sg_fem_cons_03a_neut = { # TODO : 140x
+	OR = {
+		tag = AFG tag = ALB tag = ARG tag = BHU tag = CAM tag = CAN tag = CAT tag = GEO tag = GXC tag = IRQ tag = JOR tag = KAR tag = KOR tag = MAL tag = NEP tag = NOA tag = OMA tag = PAK tag = PER tag = SAU tag = SPR always = no always = no always = no always = no tag = SWE tag = TAH tag = UDM tag = VGE tag = XSM tag = YEM #pn
+		original_tag = AFG original_tag = ALB original_tag = ARG original_tag = BHU original_tag = CAM original_tag = CAN original_tag = CAT original_tag = GEO original_tag = GXC original_tag = IRQ original_tag = JOR original_tag = KAR original_tag = KOR original_tag = LIT original_tag = NEP original_tag = NOA original_tag = OMA original_tag = PAK original_tag = PER original_tag = POL original_tag = SPR always = no always = no always = no always = no original_tag = SWE original_tag = TAH original_tag = UDM original_tag = VGE original_tag = XSM original_tag = YEM #pn
+		always = no #pn
+		always = no #pn
+		always = no #pn
+		always = no #pn
+		always = no #pn
+		always = no #pn
+	}
+}
+
+#Ex.: L'Assemblée constituante / DE L'Assemblée constituante / À L'Assemblée constituante
+frloc_parties_sg_fem_vow_04a_neut = { # TODO : 112x
+	OR = {
+		tag = ARM tag = AZR tag = BLR tag = BRI tag = BSK tag = CHU tag = EST tag = GLC tag = VEN tag = VLA tag = YAK #pn
+		original_tag = ARM original_tag = AZR original_tag = BLR original_tag = BRI original_tag = BSK original_tag = CHU original_tag = EST original_tag = GLC original_tag = VEN original_tag = VLA original_tag = YAK #pn
+		always = no #pn
+		always = no #pn
+		always = no #pn
+		always = no #pn
+	}
+}
+
+#Ex.: LES Verts / DES Verts / AUX Verts
+frloc_parties_pl_masc_05a_neut = { # TODO : 112x
+	OR = {
+		tag = BUK tag = BUL tag = BYA tag = DAG tag = EGY tag = KAZ tag = INS tag = LAO tag = LEB tag = PAL tag = SER tag = SYR #pn
+		original_tag = BUK original_tag = BUL original_tag = BYA original_tag = DAG original_tag = EGY original_tag = KAZ original_tag = INS original_tag = LAO original_tag = LEB original_tag = PAL original_tag = SER original_tag = SYR #pn
+	}
+}
+
+
+
+############################################
+###   Capital States / États capitales   ###
+############################################
+#Ex.: À Chypre / DE Chypre
+frloc_capital_a_de_audessusde = {
+	is_capital = yes
+	OR = {
+		state = 183
+		state = 315
+		state = 319
+		state = 331
+		state = 524
+		state = 543
+		state = 631
+		state = 632
+		state = 638
+		state = 641
+		state = 672
+		state = 673
+		state = 695
+		state = 706
+		state = 707
+		state = 725
+		state = 729
+		state = 730
+		state = 734
+	}
+}
+
+#Ex.: À Okinawa / D'Okinawa
+frloc_capital_a_d_audessusd = {
+	is_capital = yes
+	OR = {
+		state = 318
+		state = 526
+		state = 629
+		state = 645
+	}
+}
+
+#Ex.: AU Luxembourg / DU Luxembourg
+frloc_capital_au_du_audessusdu = {
+	is_capital = yes
+	OR = {
+		state = 8
+		state = 101
+		state = 105
+		state = 153
+		state = 158
+		state = 272
+		state = 274
+		state = 289
+		state = 290
+		state = 293
+		state = 298
+		state = 301
+		state = 304
+		state = 309
+		state = 311
+		state = 312
+		state = 313
+		state = 314
+		state = 316
+		state = 317
+		state = 322
+		state = 323
+		state = 324
+		state = 329
+		state = 332
+		state = 375
+		state = 376
+		state = 386
+		state = 430
+		state = 431
+		state = 440
+		state = 441
+		state = 444
+		state = 466
+		state = 517
+		state = 539
+		state = 540
+		state = 542
+		state = 544
+		state = 547
+		state = 549
+		state = 553
+		state = 556
+		state = 558
+		state = 559
+		state = 656
+		state = 657
+		state = 670
+		state = 671
+		state = 702
+		state = 741
+	}
+}
+
+#Ex.: AUTOUR D'Ankara / D'Ankara
+frloc_capital_autourd_d_audessusd = {
+	is_capital = yes
+	OR = {
+		state = 49
+		state = 192
+		state = 214
+		state = 215
+		state = 216
+		state = 222
+		state = 236
+		state = 237
+		state = 250
+		state = 253
+		state = 294
+		state = 339
+		state = 341
+		state = 342
+		state = 343
+		state = 344
+		state = 347
+		state = 353
+		state = 399
+		state = 401
+		state = 402
+		state = 407
+		state = 411
+		state = 415
+		state = 427
+		state = 437
+		state = 447
+		state = 449
+		state = 456
+		state = 459
+		state = 492
+		state = 506
+		state = 562
+		state = 564
+		state = 566
+		state = 571
+		state = 584
+		state = 585
+		state = 586
+		state = 589
+		state = 590
+		state = 617
+		state = 651
+		state = 652
+		state = 658
+		state = 659
+		state = 677
+	}
+}
+
+#Ex.: AUTOUR DE Varsovie / DE Varsovie
+frloc_capital_autourde_de_audessusde = {
+	is_capital = yes
+	OR = {
+		state = 10
+		state = 11
+		state = 40
+		state = 41
+		state = 48
+		state = 85
+		state = 86
+		state = 87
+		state = 88
+		state = 89
+		state = 90
+		state = 91
+		state = 92
+		state = 95
+		state = 96
+		state = 97
+		state = 98
+		state = 112
+		state = 116
+		state = 118
+		state = 147
+		state = 148
+		state = 163
+		state = 167
+		state = 168
+		state = 169
+		state = 173
+		state = 175
+		state = 176
+		state = 179
+		state = 180
+		state = 181
+		state = 188
+		state = 189
+		state = 191
+		state = 193
+		state = 194
+		state = 195
+		state = 196
+		state = 197
+		state = 198
+		state = 199
+		state = 200
+		state = 201
+		state = 202
+		state = 203
+		state = 204
+		state = 205
+		state = 206
+		state = 207
+		state = 208
+		state = 209
+		state = 210
+		state = 211
+		state = 212
+		state = 213
+		state = 217
+		state = 218
+		state = 219
+		state = 220
+		state = 221
+		state = 223
+		state = 224
+		state = 225
+		state = 226
+		state = 227
+		state = 228
+		state = 232
+		state = 234
+		state = 235
+		state = 238
+		state = 239
+		state = 240
+		state = 241
+		state = 242
+		state = 243
+		state = 244
+		state = 245
+		state = 246
+		state = 247
+		state = 248
+		state = 249
+		state = 251
+		state = 252
+		state = 254
+		state = 255
+		state = 256
+		state = 257
+		state = 258
+		state = 259
+		state = 260
+		state = 262
+		state = 263
+		state = 264
+		state = 265
+		state = 266
+		state = 267
+		state = 277
+		state = 279
+		state = 291
+		state = 295
+		state = 302
+		state = 303
+		state = 321
+		state = 326
+		state = 327
+		state = 336
+		state = 340
+		state = 345
+		state = 346
+		state = 348
+		state = 349
+		state = 350
+		state = 351
+		state = 352
+		state = 354
+		state = 355
+		state = 356
+		state = 358
+		state = 397
+		state = 398
+		state = 400
+		state = 403
+		state = 404
+		state = 405
+		state = 406
+		state = 408
+		state = 409
+		state = 414
+		state = 417
+		state = 418
+		state = 419
+		state = 422
+		state = 423
+		state = 424
+		state = 425
+		state = 429
+		state = 436
+		state = 438
+		state = 439
+		state = 442
+		state = 445
+		state = 448
+		state = 450
+		state = 451
+		state = 452
+		state = 460
+		state = 461
+		state = 462
+		state = 493
+		state = 499
+		state = 500
+		state = 501
+		state = 511
+		state = 513
+		state = 551
+		state = 554
+		state = 560
+		state = 563
+		state = 565
+		state = 567
+		state = 568
+		state = 569
+		state = 570
+		state = 572
+		state = 573
+		state = 574
+		state = 575
+		state = 576
+		state = 577
+		state = 578
+		state = 579
+		state = 580
+		state = 582
+		state = 583
+		state = 588
+		state = 592
+		state = 594
+		state = 608
+		state = 613
+		state = 640
+		state = 653
+		state = 654
+		state = 662
+		state = 665
+		state = 676
+		state = 680
+		state = 686
+		state = 718
+		state = 722
+		state = 742
+		state = 743
+		state = 744
+		state = 745
+		state = 746
+		state = 747
+		state = 748
+		state = 749
+		state = 750
+		state = 751
+		state = 752
+		state = 753
+		state = 755
+		state = 756
+		state = 757
+		state = 758
+		state = 760
+		state = 761
+		state = 762
+		state = 763
+		state = 782
+		state = 783
+		state = 784
+		state = 788
+		state = 789
+		state = 791
+		state = 793
+		state = 795
+		state = 446 # Problem: there should be a way to avoid "autour de Le Caire" > "autour du Caire"
+		state = 681 # Problem: there should be a way to avoid "autour de Le Cap" > "autour du Cap"
+	}
+}
+
+#Ex.: AUX Baléares / DES Baléares
+frloc_capital_aux_des_audessusdes = {
+	is_capital = yes
+	OR = {
+		state = 177
+		state = 178
+		state = 281
+		state = 299
+		state = 647
+		state = 649
+		state = 668
+		state = 754
+	}
+}
+
+##Ex.: DANS La Manche / DE La Manche
+#frloc_capital_dans_de_audessusde = {} # Not used anymore
+
+#Ex.: DANS L'Ostmark / DE L'Ostmark
+frloc_capital_dansl_del_audessusdel = {
+	is_capital = yes
+	OR = {
+		state = 68
+		state = 111
+		state = 136
+		state = 154
+		state = 380
+		state = 385
+		state = 387
+		state = 395
+		state = 396
+		state = 494
+		state = 495
+		state = 504
+		state = 561
+		state = 581
+		state = 606
+		state = 682
+	}
+}
+
+#Ex.: DANS LA Loire / DE LA Loire
+frloc_capital_dansla_dela_audessusdela = {
+	is_capital = yes
+	OR = {
+		state = 30
+		state = 278
+	}
+}
+
+#Ex.: DANS LE Latium / DU Latium
+frloc_capital_dansle_du_audessusdu = {
+	is_capital = yes
+	OR = {
+		state = 2
+		state = 12
+		state = 13
+		state = 20
+		state = 22
+		state = 23
+		state = 24
+		state = 25
+		state = 29
+		state = 33
+		state = 35
+		state = 37
+		state = 38
+		state = 39
+		state = 42
+		state = 50
+		state = 58
+		state = 59
+		state = 61
+		state = 64
+		state = 82
+		state = 99
+		state = 113
+		state = 121
+		state = 122
+		state = 126
+		state = 127
+		state = 130
+		state = 131
+		state = 132
+		state = 133
+		state = 134
+		state = 135
+		state = 139
+		state = 140
+		state = 141
+		state = 142
+		state = 143
+		state = 144
+		state = 164
+		state = 174
+		state = 186
+		state = 273
+		state = 275
+		state = 276
+		state = 280
+		state = 282
+		state = 283
+		state = 287
+		state = 292
+		state = 306
+		state = 307
+		state = 325
+		state = 328
+		state = 338
+		state = 359
+		state = 361
+		state = 368
+		state = 369
+		state = 370
+		state = 373
+		state = 379
+		state = 381
+		state = 382
+		state = 383
+		state = 384
+		state = 388
+		state = 389
+		state = 390
+		state = 391
+		state = 393
+		state = 394
+		state = 410
+		state = 412
+		state = 413
+		state = 416
+		state = 420
+		state = 421
+		state = 428
+		state = 433
+		state = 435
+		state = 443
+		state = 453
+		state = 457
+		state = 465
+		state = 467
+		state = 468
+		state = 471
+		state = 472
+		state = 474
+		state = 475
+		state = 476
+		state = 477
+		state = 478
+		state = 479
+		state = 480
+		state = 481
+		state = 482
+		state = 483
+		state = 485
+		state = 486
+		state = 487
+		state = 488
+		state = 489
+		state = 490
+		state = 491
+		state = 496
+		state = 497
+		state = 498
+		state = 502
+		state = 503
+		state = 505
+		state = 508
+		state = 509
+		state = 514
+		state = 515
+		state = 520
+		state = 521
+		state = 531
+		state = 532
+		state = 533
+		state = 534
+		state = 535
+		state = 538
+		state = 541
+		state = 546
+		state = 552
+		state = 591
+		state = 593
+		state = 595
+		state = 596
+		state = 597
+		state = 598
+		state = 599
+		state = 600
+		state = 601
+		state = 602
+		state = 603
+		state = 604
+		state = 605
+		state = 607
+		state = 609
+		state = 610
+		state = 611
+		state = 612
+		state = 614
+		state = 615
+		state = 616
+		state = 619
+		state = 620
+		state = 621
+		state = 622
+		state = 637
+		state = 675
+		state = 678
+		state = 679
+		state = 683
+		state = 685
+		state = 688
+		state = 699
+		state = 714
+		state = 715
+		state = 716
+		state = 717
+		state = 719
+		state = 721
+		state = 728
+		state = 732
+		state = 759
+		state = 764
+		state = 765
+		state = 767
+		state = 768
+		state = 769
+		state = 770
+		state = 772
+		state = 773
+		state = 774
+		state = 775
+		state = 776
+		state = 777
+		state = 781
+		state = 786
+		state = 787
+		state = 792
+		state = 796
+	}
+}
+
+#Ex.: DANS LES Flandres / DES Flandres
+frloc_capital_dansles_des_audessusdes = {
+	is_capital = yes
+	OR = {
+		state = 6
+		state = 32
+		state = 69
+		state = 972
+		state = 74
+		state = 120
+		state = 128
+		state = 129
+		state = 157
+		state = 187
+		state = 233
+		state = 270
+		state = 308
+		state = 337
+		state = 555
+		state = 624
+		state = 633
+		state = 634
+		state = 636
+		state = 639
+		state = 642
+		state = 643
+		state = 667
+		state = 684
+		state = 690
+		state = 692
+		state = 693
+		state = 694
+		state = 696
+		state = 698
+		state = 708
+		state = 709
+		state = 712
+		state = 713
+		state = 726
+		state = 727
+		state = 733
+		state = 738
+		state = 739
+		state = 790
+	}
+}
+
+#Ex.: EN Corse / DE Corse
+frloc_capital_en_de_audessusde = {
+	is_capital = yes
+	OR = {
+		state = 31
+		state = 507
+		state = 529
+	}
+}
+
+#Ex.: EN Corse / DE Corse
+frloc_capital_en_de_audessusdela = {
+	is_capital = yes
+	OR = {
+		state = 1
+		state = 3
+		state = 4
+		state = 7
+		state = 9
+		state = 14
+		state = 15
+		state = 17
+		state = 18
+		state = 21
+		state = 27
+		state = 34
+		state = 36
+		state = 43
+		state = 45
+		state = 46
+		state = 47
+		state = 51
+		state = 52
+		state = 53
+		state = 54
+		state = 55
+		state = 56
+		state = 57
+		state = 60
+		state = 62
+		state = 63
+		state = 65
+		state = 66
+		state = 67
+		state = 70
+		state = 71
+		state = 72
+		state = 73
+		state = 75
+		state = 76
+		state = 77
+		state = 78
+		state = 79
+		state = 80
+		state = 83
+		state = 84
+		state = 93
+		state = 94
+		state = 102
+		state = 103
+		state = 104
+		state = 106
+		state = 107
+		state = 108
+		state = 109
+		state = 114
+		state = 115
+		state = 117
+		state = 137
+		state = 138
+		state = 146
+		state = 150
+		state = 151
+		state = 152
+		state = 155
+		state = 156
+		state = 159
+		state = 160
+		state = 162
+		state = 165
+		state = 171
+		state = 172
+		state = 182
+		state = 184
+		state = 190
+		state = 231
+		state = 268
+		state = 269
+		state = 285
+		state = 286
+		state = 288
+		state = 296
+		state = 297
+		state = 310
+		state = 330
+		state = 357
+		state = 360
+		state = 362
+		state = 363
+		state = 364
+		state = 365
+		state = 366
+		state = 371
+		state = 378
+		state = 454
+		state = 455
+		state = 458
+		state = 464
+		state = 469
+		state = 473
+		state = 484
+		state = 510
+		state = 512
+		state = 516
+		state = 518
+		state = 523
+		state = 525
+		state = 527
+		state = 537
+		state = 545
+		state = 557
+		state = 618
+		state = 635
+		state = 644
+		state = 655
+		state = 661
+		state = 663
+		state = 664
+		state = 666
+		state = 669
+		state = 687
+		state = 689
+		state = 691
+		state = 700
+		state = 701
+		state = 720
+		state = 724
+		state = 731
+		state = 735
+		state = 766
+		state = 778
+		state = 779
+		state = 780
+		state = 785
+		state = 1017
+	}
+}
+
+#Ex.: EN Île-de-France / D'Île-de-France
+frloc_capital_en_d_audessusdel = {
+	is_capital = yes
+	OR = {
+		state = 5
+		state = 16
+		state = 19
+		state = 26
+		state = 28
+		state = 44
+		state = 81
+		state = 100
+		state = 110
+		state = 119
+		state = 123
+		state = 125
+		state = 149
+		state = 161
+		state = 170
+	}
+}
+
+#Ex.: EN Île-de-France / D'Île-de-France
+frloc_capital_en_del_audessusdel = {
+	is_capital = yes
+	OR = {
+		state = 166
+		state = 185
+		state = 229
+		state = 230
+		state = 261
+		state = 271
+		state = 300
+		state = 305
+		state = 320
+		state = 367
+		state = 372
+		state = 374
+		state = 377
+		state = 392
+		state = 426
+		state = 432
+		state = 434
+		state = 463
+		state = 470
+		state = 519
+		state = 522
+		state = 548
+		state = 550
+		state = 660
+		state = 674
+		state = 736
+		state = 794
+	}
+}
+
+#Ex.: SUR Gotland / DE Gotland
+frloc_capital_sur_de_audessusde = {
+	is_capital = yes
+	OR = {
+		state = 124
+		state = 333
+		state = 334
+		state = 335
+		state = 528
+		state = 530
+		state = 623
+		state = 625
+		state = 626
+		state = 627
+		state = 628
+		state = 646
+		state = 648
+		state = 697
+		state = 704
+		state = 705
+		state = 710
+		state = 737
+	}
+}
+
+#Ex.: SUR Åland / D'Åland
+frloc_capital_sur_d_audessusd = {
+	is_capital = yes
+	OR = {
+		state = 145
+		state = 536
+		state = 650
+	}
+}
+
+#Ex.: SUR L'Île du Nord / DE L'Île du Nord
+frloc_capital_surl_del_audessusdel = {
+	is_capital = yes
+	OR = {
+		state = 284
+		state = 587
+		state = 630
+		state = 703
+		state = 711
+		state = 723
+		state = 740
+	}
+}
+
+##########################
+###   States / États   ###
+##########################
+#Ex.: LE Luxembourg / DU Luxembourg / grand
+frloc_state_sg_masc_cons_art_le_du_x_01 = {
+	OR = {
+		state = 2
+		state = 8
+		state = 12
+		state = 13
+		state = 20
+		state = 22
+		state = 23
+		state = 24
+		state = 25
+		state = 29
+		state = 33
+		state = 35
+		state = 37
+		state = 38
+		state = 39
+		state = 42
+		state = 50
+		state = 58
+		state = 59
+		state = 61
+		state = 64
+		state = 82
+		state = 99
+		state = 101
+		state = 105
+		state = 113
+		state = 121
+		state = 122
+		state = 126
+		state = 127
+		state = 130
+		state = 131
+		state = 132
+		state = 133
+		state = 134
+		state = 135
+		state = 139
+		state = 140
+		state = 141
+		state = 142
+		state = 143
+		state = 144
+		state = 153
+		state = 158
+		state = 164
+		state = 174
+		state = 186
+		state = 272
+		state = 273
+		state = 274
+		state = 275
+		state = 276
+		state = 280
+		state = 282
+		state = 283
+		state = 287
+		state = 289
+		state = 290
+		state = 292
+		state = 293
+		state = 298
+		state = 301
+		state = 304
+		state = 306
+		state = 307
+		state = 309
+		state = 311
+		state = 312
+		state = 313
+		state = 314
+		state = 316
+		state = 317
+		state = 322
+		state = 323
+		state = 324
+		state = 325
+		state = 328
+		state = 329
+		state = 332
+		state = 338
+		state = 359
+		state = 361
+		state = 368
+		state = 369
+		state = 370
+		state = 373
+		state = 375
+		state = 376
+		state = 379
+		state = 381
+		state = 382
+		state = 383
+		state = 384
+		state = 386
+		state = 388
+		state = 389
+		state = 390
+		state = 391
+		state = 393
+		state = 394
+		state = 410
+		state = 412
+		state = 413
+		state = 416
+		state = 420
+		state = 421
+		state = 428
+		state = 430
+		state = 431
+		state = 433
+		state = 435
+		state = 440
+		state = 441
+		state = 443
+		state = 444
+		state = 453
+		state = 457
+		state = 465
+		state = 466
+		state = 467
+		state = 468
+		state = 471
+		state = 472
+		state = 474
+		state = 475
+		state = 476
+		state = 477
+		state = 478
+		state = 479
+		state = 480
+		state = 481
+		state = 482
+		state = 483
+		state = 485
+		state = 486
+		state = 487
+		state = 488
+		state = 489
+		state = 490
+		state = 491
+		state = 496
+		state = 497
+		state = 498
+		state = 502
+		state = 503
+		state = 505
+		state = 508
+		state = 509
+		state = 514
+		state = 515
+		state = 517
+		state = 520
+		state = 521
+		state = 531
+		state = 532
+		state = 533
+		state = 534
+		state = 535
+		state = 538
+		state = 539
+		state = 540
+		state = 541
+		state = 542
+		state = 544
+		state = 546
+		state = 547
+		state = 549
+		state = 552
+		state = 553
+		state = 556
+		state = 558
+		state = 559
+		state = 591
+		state = 593
+		state = 595
+		state = 596
+		state = 597
+		state = 598
+		state = 599
+		state = 600
+		state = 601
+		state = 602
+		state = 603
+		state = 604
+		state = 605
+		state = 607
+		state = 609
+		state = 610
+		state = 611
+		state = 612
+		state = 614
+		state = 615
+		state = 616
+		state = 619
+		state = 620
+		state = 621
+		state = 622
+		state = 637
+		state = 656
+		state = 657
+		state = 670
+		state = 671
+		state = 675
+		state = 678
+		state = 679
+		state = 683
+		state = 685
+		state = 688
+		state = 699
+		state = 702
+		state = 714
+		state = 715
+		state = 716
+		state = 717
+		state = 719
+		state = 721
+		state = 728
+		state = 732
+		state = 741
+		state = 759
+		state = 764
+		state = 765
+		state = 767
+		state = 768
+		state = 769
+		state = 770
+		state = 772
+		state = 773
+		state = 774
+		state = 775
+		state = 776
+		state = 777
+		state = 781
+		state = 786
+		state = 787
+		state = 792
+		state = 796
+	}
+}
+
+#Ex.: Cuba / DE Cuba / grand
+frloc_state_sg_masc_cons_noart_x_de_x_02 = {
+	OR = {
+		state = 124
+		state = 183
+		state = 315
+		state = 319
+		state = 334
+		state = 446
+		state = 524
+		state = 528
+		state = 529
+		state = 530
+		state = 543
+		state = 681
+		state = 695
+		state = 705
+		state = 707
+		state = 710
+		state = 725
+		state = 730
+		state = 737
+	}
+}
+
+#Ex.: L'Aragon / D'Aragon / grand
+frloc_state_sg_masc_vow_art_l_d_x_03 = {
+	OR = {
+		state = 110
+		state = 166
+		state = 229
+		state = 261
+		state = 300
+		state = 305
+		state = 367
+		state = 372
+		state = 374
+		state = 377
+		state = 392
+		state = 426
+		state = 432
+		state = 434
+		state = 548
+		state = 794
+	}
+}
+
+#Ex.: L'Utah / DE L'Utah / grand
+frloc_state_sg_masc_vow_art_l_del_x_04 = {
+	OR = {
+		state = 136
+		state = 154
+		state = 380
+		state = 385
+		state = 387
+		state = 395
+		state = 396
+		state = 494
+		state = 495
+		state = 504
+		state = 561
+		state = 581
+		state = 587
+		state = 606
+		state = 630
+		state = 682
+	}
+}
+
+#Ex.: Haïti / D'Haïti / grand
+frloc_state_sg_masc_vow_noart_x_d_x_05 = {
+	OR = {
+		state = 145
+		state = 318
+		state = 526
+		state = 536
+		state = 650
+	}
+}
+
+#Ex.: LA Corse / DE LA Corse / grande
+frloc_state_sg_fem_cons_art_la_dela_e_06 = {
+	OR = {
+		state = 1
+		state = 3
+		state = 4
+		state = 7
+		state = 9
+		state = 14
+		state = 15
+		state = 17
+		state = 18
+		state = 21
+		state = 27
+		state = 30
+		state = 34
+		state = 36
+		state = 43
+		state = 45
+		state = 46
+		state = 47
+		state = 51
+		state = 52
+		state = 53
+		state = 54
+		state = 55
+		state = 56
+		state = 57
+		state = 60
+		state = 62
+		state = 63
+		state = 65
+		state = 66
+		state = 67
+		state = 70
+		state = 71
+		state = 72
+		state = 73
+		state = 75
+		state = 76
+		state = 77
+		state = 78
+		state = 79
+		state = 80
+		state = 83
+		state = 84
+		state = 93
+		state = 94
+		state = 102
+		state = 103
+		state = 104
+		state = 106
+		state = 107
+		state = 108
+		state = 109
+		state = 114
+		state = 115
+		state = 117
+		state = 137
+		state = 138
+		state = 146
+		state = 150
+		state = 151
+		state = 152
+		state = 155
+		state = 156
+		state = 159
+		state = 160
+		state = 162
+		state = 165
+		state = 171
+		state = 172
+		state = 182
+		state = 184
+		state = 190
+		state = 231
+		state = 268
+		state = 269
+		state = 278
+		state = 285
+		state = 286
+		state = 288
+		state = 296
+		state = 297
+		state = 310
+		state = 330
+		state = 357
+		state = 360
+		state = 362
+		state = 363
+		state = 364
+		state = 365
+		state = 366
+		state = 371
+		state = 378
+		state = 454
+		state = 455
+		state = 458
+		state = 464
+		state = 469
+		state = 473
+		state = 484
+		state = 510
+		state = 512
+		state = 516
+		state = 518
+		state = 523
+		state = 525
+		state = 527
+		state = 537
+		state = 545
+		state = 557
+		state = 618
+		state = 635
+		state = 644
+		state = 655
+		state = 661
+		state = 663
+		state = 664
+		state = 666
+		state = 669
+		state = 687
+		state = 689
+		state = 691
+		state = 700
+		state = 701
+		state = 720
+		state = 724
+		state = 731
+		state = 735
+		state = 766
+		state = 771
+		state = 778
+		state = 779
+		state = 780
+		state = 785
+		state = 1017
+	}
+}
+
+#Ex.: Varsovie / DE Varsovie / grande
+frloc_state_sg_fem_cons_noart_x_de_e_07 = {
+	OR = {
+		state = 10
+		state = 11
+		state = 40
+		state = 41
+		state = 48
+		state = 85
+		state = 86
+		state = 87
+		state = 88
+		state = 89
+		state = 90
+		state = 91
+		state = 92
+		state = 95
+		state = 96
+		state = 97
+		state = 98
+		state = 112
+		state = 116
+		state = 118
+		state = 147
+		state = 148
+		state = 163
+		state = 167
+		state = 168
+		state = 169
+		state = 173
+		state = 175
+		state = 176
+		state = 179
+		state = 180
+		state = 181
+		state = 188
+		state = 189
+		state = 191
+		state = 193
+		state = 194
+		state = 195
+		state = 196
+		state = 197
+		state = 198
+		state = 199
+		state = 200
+		state = 201
+		state = 202
+		state = 203
+		state = 204
+		state = 205
+		state = 206
+		state = 207
+		state = 208
+		state = 209
+		state = 210
+		state = 211
+		state = 212
+		state = 213
+		state = 217
+		state = 218
+		state = 219
+		state = 220
+		state = 221
+		state = 223
+		state = 224
+		state = 225
+		state = 226
+		state = 227
+		state = 228
+		state = 232
+		state = 234
+		state = 235
+		state = 238
+		state = 239
+		state = 240
+		state = 241
+		state = 242
+		state = 243
+		state = 244
+		state = 245
+		state = 246
+		state = 247
+		state = 248
+		state = 249
+		state = 251
+		state = 252
+		state = 254
+		state = 255
+		state = 256
+		state = 257
+		state = 258
+		state = 259
+		state = 260
+		state = 262
+		state = 263
+		state = 264
+		state = 265
+		state = 266
+		state = 267
+		state = 277
+		state = 279
+		state = 291
+		state = 295
+		state = 302
+		state = 303
+		state = 321
+		state = 326
+		state = 327
+		state = 331
+		state = 333
+		state = 335
+		state = 336
+		state = 340
+		state = 345
+		state = 346
+		state = 348
+		state = 349
+		state = 350
+		state = 351
+		state = 352
+		state = 354
+		state = 355
+		state = 356
+		state = 358
+		state = 397
+		state = 398
+		state = 400
+		state = 403
+		state = 404
+		state = 405
+		state = 406
+		state = 408
+		state = 409
+		state = 414
+		state = 417
+		state = 418
+		state = 419
+		state = 422
+		state = 423
+		state = 424
+		state = 425
+		state = 429
+		state = 436
+		state = 438
+		state = 439
+		state = 442
+		state = 445
+		state = 448
+		state = 450
+		state = 451
+		state = 452
+		state = 460
+		state = 461
+		state = 462
+		state = 493
+		state = 499
+		state = 500
+		state = 501
+		state = 507
+		state = 511
+		state = 513
+		state = 551
+		state = 554
+		state = 560
+		state = 563
+		state = 565
+		state = 567
+		state = 568
+		state = 569
+		state = 570
+		state = 572
+		state = 573
+		state = 574
+		state = 575
+		state = 576
+		state = 577
+		state = 578
+		state = 579
+		state = 580
+		state = 582
+		state = 583
+		state = 588
+		state = 592
+		state = 594
+		state = 608
+		state = 613
+		state = 623
+		state = 625
+		state = 626
+		state = 627
+		state = 628
+		state = 631
+		state = 632
+		state = 638
+		state = 640
+		state = 641
+		state = 646
+		state = 648
+		state = 653
+		state = 654
+		state = 662
+		state = 665
+		state = 672
+		state = 673
+		state = 676
+		state = 680
+		state = 686
+		state = 697
+		state = 704
+		state = 706
+		state = 718
+		state = 722
+		state = 729
+		state = 734
+		state = 742
+		state = 743
+		state = 744
+		state = 745
+		state = 746
+		state = 747
+		state = 748
+		state = 749
+		state = 750
+		state = 751
+		state = 752
+		state = 753
+		state = 755
+		state = 756
+		state = 757
+		state = 758
+		state = 760
+		state = 761
+		state = 762
+		state = 763
+		state = 782
+		state = 783
+		state = 784
+		state = 788
+		state = 789
+		state = 791
+		state = 793
+		state = 795
+	}
+}
+
+#Ex.: L'Île-de-France / DE L'Île-de-France / grande
+frloc_state_sg_fem_vow_art_l_del_e_08 = {
+	OR = {
+		state = 16
+		state = 68
+		state = 111
+		state = 320
+		state = 284
+		state = 703
+		state = 711
+		state = 723
+		state = 740
+	}
+}
+
+#Ex.: L'Auvergne / D'Auvergne / grande
+frloc_state_sg_fem_vow_art_l_d_e_09 = {
+	OR = {
+		state = 5
+		state = 19
+		state = 26
+		state = 28
+		state = 44
+		state = 81
+		state = 100
+		state = 119
+		state = 123
+		state = 125
+		state = 149
+		state = 161
+		state = 170
+		state = 185
+		state = 230
+		state = 271
+		state = 463
+		state = 470
+		state = 519
+		state = 522
+		state = 550
+		state = 660
+		state = 674
+		state = 736
+	}
+}
+
+#Ex.: Ankara / D'Ankara / grande
+frloc_state_sg_fem_vow_noart_x_d_e_10 = {
+	OR = {
+		state = 49
+		state = 192
+		state = 214
+		state = 215
+		state = 216
+		state = 222
+		state = 236
+		state = 237
+		state = 250
+		state = 253
+		state = 294
+		state = 339
+		state = 341
+		state = 342
+		state = 343
+		state = 344
+		state = 347
+		state = 353
+		state = 399
+		state = 401
+		state = 402
+		state = 407
+		state = 411
+		state = 415
+		state = 427
+		state = 437
+		state = 447
+		state = 449
+		state = 456
+		state = 459
+		state = 492
+		state = 506
+		state = 562
+		state = 564
+		state = 566
+		state = 571
+		state = 584
+		state = 585
+		state = 586
+		state = 589
+		state = 590
+		state = 617
+		state = 629
+		state = 645
+		state = 651
+		state = 652
+		state = 658
+		state = 659
+		state = 677
+	}
+}
+
+#Ex.: LES Golog / DES Golog / grands
+frloc_state_pl_masc_cons_art_les_des_s_11 = {
+		state = 754
+}
+
+#Ex.: x / DE x / grands
+#frloc_state_pl_masc_cons_noart_x_de_s_12 = {} # Currently unnecessary
+
+#Ex.: LES x / DES x / grands
+#frloc_state_pl_masc_vow_art_les_des_s_13 = {} # Currently unnecessary
+
+#Ex.: x / DE x / grands
+#frloc_state_pl_masc_vow_noart_x_de_s_14 = {} # Currently unnecessary
+
+#Ex.: LES Baléares / DES Baléares / grandes
+frloc_state_pl_fem_cons_art_les_des_es_15 = {
+	OR = {
+		state = 6
+		state = 32
+		state = 69
+		state = 972
+		state = 74
+		state = 120
+		state = 128
+		state = 129
+		state = 157
+		state = 177
+		state = 178
+		state = 187
+		state = 233
+		state = 270
+		state = 281
+		state = 299
+		state = 308
+		state = 337
+		state = 555
+		state = 624
+		state = 633
+		state = 634
+		state = 636
+		state = 639
+		state = 642
+		state = 643
+		state = 647
+		state = 649
+		state = 667
+		state = 668
+		state = 684
+		state = 690
+		state = 692
+		state = 693
+		state = 694
+		state = 696
+		state = 698
+		state = 708
+		state = 709
+		state = 712
+		state = 713
+		state = 726
+		state = 727
+		state = 733
+		state = 738
+		state = 739
+		state = 790
+	}
+}
+
+#Ex.: x / DE x / grandes
+#frloc_state_pl_fem_cons_noart_x_de_es_16 = {} # Currently unnecessary
+
+#Ex.: x / DES x / grandes
+frloc_state_pl_fem_vow_art_x_des_es_17 = {} # Currently unnecessary
+
+#Ex.: Midi-Pyrénées / DE Midi-Pyrénées / grandes
+frloc_state_pl_fem_vow_noart_x_de_es_18 = {
+		state = 31
+}
+
+
+
+################################################
+###   Strategic Areas / Zones stratégiques   ###
+################################################
+
+frloc_strategic_area_audessusde = {
+	OR = {
+		region = 159
+		region = 181
+		region = 187
+	}
+}
+
+frloc_strategic_area_audessusdel = {
+	OR = {
+		region = 3
+		region = 4
+		region = 8
+		region = 17
+		region = 23
+		region = 24
+		region = 26
+		region = 33
+		region = 34
+		region = 38
+		region = 39
+		region = 60
+		region = 66
+		region = 71
+		region = 99
+		region = 112
+		region = 116
+		region = 121
+		region = 122
+		region = 126
+		region = 128
+		region = 129
+		region = 130
+		region = 139
+		region = 140
+		region = 141
+		region = 142
+		region = 144
+		region = 145
+		region = 146
+		region = 148
+		region = 161
+		region = 162
+		region = 163
+		region = 164
+		region = 168
+		region = 173
+		region = 182
+		region = 183
+		region = 184
+		region = 185
+		region = 194
+		region = 195
+		region = 196
+	}
+}
+
+frloc_strategic_area_audessusdela = {
+	OR = {
+		region = 9
+		region = 13
+		region = 14
+		region = 16
+		region = 18
+		region = 22
+		region = 25
+		region = 29
+		region = 30
+		region = 40
+		region = 41
+		region = 45
+		region = 46
+		region = 49
+		region = 50
+		region = 53
+		region = 55
+		region = 57
+		region = 59
+		region = 61
+		region = 64
+		region = 67
+		region = 68
+		region = 69
+		region = 70
+		region = 75
+		region = 76
+		region = 77
+		region = 78
+		region = 79
+		region = 80
+		region = 81
+		region = 83
+		region = 84
+		region = 86
+		region = 87
+		region = 88
+		region = 91
+		region = 92
+		region = 93
+		region = 94
+		region = 95
+		region = 96
+		region = 97
+		region = 98
+		region = 100
+		region = 104
+		region = 105
+		region = 107
+		region = 110
+		region = 117
+		region = 118
+		region = 131
+		region = 136
+		region = 137
+		region = 147
+		region = 149
+		region = 150
+		region = 151
+		region = 152
+		region = 155
+		region = 157
+		region = 166
+		region = 167
+		region = 169
+		region = 172
+		region = 178
+		region = 179
+		region = 186
+		region = 188
+		region = 189
+		region = 197
+	}
+}
+
+frloc_strategic_area_audessusdes = {
+	OR = {
+		region = 21
+		region = 37
+		region = 43
+		region = 47
+		region = 48
+		region = 54
+		region = 63
+		region = 89
+		region = 90
+		region = 102
+		region = 106
+		region = 108
+		region = 109
+		region = 124
+		region = 138
+		region = 154
+		region = 158
+		region = 160
+		region = 170
+		region = 171
+		region = 174
+		region = 199
+		region = 201
+	}
+}
+
+frloc_strategic_area_audessusdu = {
+	OR = {
+		region = 1
+		region = 2
+		region = 5
+		region = 6
+		region = 7
+		region = 10
+		region = 11
+		region = 12
+		region = 19
+		region = 20
+		region = 27
+		region = 28
+		region = 31
+		region = 32
+		region = 35
+		region = 36
+		region = 42
+		region = 44
+		region = 51
+		region = 52
+		region = 56
+		region = 58
+		region = 62
+		region = 65
+		region = 72
+		region = 73
+		region = 74
+		region = 82
+		region = 85
+		region = 101
+		region = 103
+		region = 111
+		region = 113
+		region = 114
+		region = 115
+		region = 119
+		region = 120
+		region = 123
+		region = 125
+		region = 127
+		region = 132
+		region = 133
+		region = 134
+		region = 135
+		region = 143
+		region = 153
+		region = 156
+		region = 165
+		region = 175
+		region = 176
+		region = 177
+		region = 180
+		region = 190
+		region = 191
+		region = 192
+		region = 193
+		region = 198
+		region = 200
+	}
+}

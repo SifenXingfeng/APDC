@@ -1,0 +1,49 @@
+state = {
+	id = 1417
+	name = "STATE_1417"
+	provinces = {
+		2050
+		12731
+		14048
+		14074
+		15203
+	}
+	manpower = 7598846
+	resources = {
+		rubber = 1
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = NGA
+		controller = NGA
+		add_core_of = NGA
+		victory_points = {
+			2050
+			50
+		}
+		victory_points = {
+			12731
+			3
+		}
+		victory_points = {
+			14048
+			5
+		}
+		victory_points = {
+			14074
+			3
+		}
+		victory_points = {
+			15203
+			20
+		}
+		buildings = {
+			infrastructure = 2
+			2050 = {
+				naval_base = 3
+			}
+		}
+	}
+}

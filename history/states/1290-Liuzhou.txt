@@ -1,0 +1,70 @@
+state = {
+	id = 1290
+	name = "STATE_1290"
+	provinces = {
+		1597
+		4134
+		7095
+		10431
+		12436
+		19473
+		19506
+		19532
+		19540
+		19572
+	}
+	manpower = 4342600
+	resources = {
+		chromium = 2
+		steel = 8
+		tungsten = 8
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			1597
+			3
+		}
+		victory_points = {
+			4134
+			1
+		}
+		victory_points = {
+			7095
+			1
+		}
+		victory_points = {
+			12436
+			1
+		}
+		victory_points = {
+			19473
+			10
+		}
+		victory_points = {
+			19506
+			3
+		}
+		victory_points = {
+			19532
+			1
+		}
+		victory_points = {
+			19540
+			3
+		}
+		victory_points = {
+			19572
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+		}
+	}
+}

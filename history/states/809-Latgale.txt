@@ -1,0 +1,28 @@
+state = {
+	id = 809
+	name = "STATE_809"
+	provinces = {
+		233
+		265
+		6222
+		11358
+		14586
+		14591
+		15686
+	}
+	manpower = 260875
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = ZZZ
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		set_state_flag = GDP_regions_latvia
+	}
+}

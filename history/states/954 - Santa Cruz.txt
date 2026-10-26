@@ -1,0 +1,64 @@
+state = {
+	id = 954
+	name = "STATE_954"
+	manpower = 132000
+	state_category = rural
+	resources = {
+		oil = 3
+		coal = 2
+	}
+	history = {
+		owner = ARG
+		controller = ARG
+		add_core_of = ARG
+		victory_points = {
+			13305
+			1
+		}
+		victory_points = {
+			15015
+			2
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = GDP_regions_santa_cruz
+	}
+	provinces = {
+		5173
+		10986
+		12952
+		13305
+		13306
+		14805
+		14893
+		14998
+		15002
+		15003
+		15004
+		15006
+		15008
+		15010
+		15012
+		15014
+		15015
+		15016
+		15017
+		15052
+		15171
+		17495
+		17520
+		17533
+		17534
+		17535
+		17537
+		17538
+		17539
+		17540
+		17541
+		17546
+		17548
+		17549
+	}
+	local_supplies = 0.0
+}

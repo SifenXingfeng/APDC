@@ -1,0 +1,32 @@
+state = {
+	id = 715
+	name = "STATE_715"
+	manpower = 3643373
+	
+	state_category = town
+
+	history = { 
+
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+
+		victory_points = {
+			11836 1 # Tongliao
+		}
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces = {
+		1499 1508 1558 1627 1638 3877 3978 4514 6893 7499 9788 9831 10429 11836 11903 12337 12469 12478 14626 14629 14630 14631 19542 19585 19588 19896 
+	}
+
+	local_supplies = 0.0 
+}

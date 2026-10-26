@@ -1,0 +1,11 @@
+--- before/common/autonomous_states/colony.txt
++++ current/common/autonomous_states/colony.txt
+@@ -84,7 +84,7 @@
+ 				original_tag = RAJ
+ 				NOT = { has_focus_tree = indian_focus_goe	}			
+ 			}
+-			has_completed_focus = RAJ_cripps_mission
++			always = no
+ 		}
+ 		#trigger here
+ 	}

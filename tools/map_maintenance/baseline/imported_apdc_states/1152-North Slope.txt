@@ -1,0 +1,27 @@
+state = {
+	id = 1152
+	name = "STATE_1152"
+	provinces = {
+		16828
+		16829
+		17163
+		17188
+		17190
+		17191
+		17203
+		17209
+		17213
+	}
+	manpower = 9067
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = "rural"
+	history = {
+		owner = ALS
+		controller = ALS
+		add_core_of = ALS
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

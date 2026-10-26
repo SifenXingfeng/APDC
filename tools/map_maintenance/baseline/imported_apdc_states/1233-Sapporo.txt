@@ -1,0 +1,29 @@
+state = {
+	id = 1233
+	name = "STATE_1233"
+	provinces = {
+		10444
+	}
+	manpower = 200800
+	resources = {
+		coal = 1
+		steel = 1
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = EZO
+		add_core_of = JAP
+		add_core_of = ZZZ
+		victory_points = {
+			10444
+			10
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

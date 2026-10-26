@@ -1,0 +1,46 @@
+state = {
+	id = 284
+	name = "STATE_284"
+	manpower = 449918
+	resources = {
+		coal = 1
+	}
+	state_category = city
+	history = {
+		owner = NZL
+		controller = NZL
+		add_core_of = NZL
+		victory_points = {
+			1801
+			1
+		}
+		victory_points = {
+			1814
+			3
+		}
+		victory_points = {
+			4804
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 1
+			1814 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = {
+		1801
+		1814
+		4804
+		7692
+		7783
+		7826
+		12604
+		12617
+		19939
+	}
+	local_supplies = 0.0
+}

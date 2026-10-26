@@ -1,0 +1,82 @@
+state = {
+	id = 348
+	name = "STATE_348"
+	resources = {
+		chromium = 32
+		coal = 1
+	}
+	provinces = {
+		806
+		886
+		921
+		961
+		3870
+		3921
+		6888
+		6956
+		6977
+		9830
+		11746
+		16246
+		16247
+		16248
+		16250
+		16255
+		16256
+	}
+	manpower = 1534565
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 6
+	history = {
+		owner = TUR
+		controller = TUR
+		add_core_of = TUR
+		victory_points = {
+			806
+			2
+		}
+		victory_points = {
+			886
+			1
+		}
+		victory_points = {
+			921
+			1
+		}
+		victory_points = {
+			3870
+			5
+		}
+		victory_points = {
+			3921
+			1
+		}
+		victory_points = {
+			9830
+			1
+		}
+		victory_points = {
+			11746
+			5
+		}
+		victory_points = {
+			16246
+			2
+		}
+		victory_points = {
+			16248
+			2
+		}
+		victory_points = {
+			16256
+			3
+		}
+		buildings = {
+			infrastructure = 2
+			11746 = {
+				naval_base = 3
+			}
+		}
+	}
+}

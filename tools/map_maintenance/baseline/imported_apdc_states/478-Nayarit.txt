@@ -1,0 +1,79 @@
+state = {
+	id = 478
+	name = "STATE_478"
+	resources = {
+		tungsten = 8
+	}
+	provinces = {
+		1941
+		2051
+		2567
+		5052
+		10172
+		12746
+		12873
+		13089
+		14494
+		14497
+		14498
+		14515
+		14516
+		14519
+		14520
+		17313
+		17314
+		17327
+	}
+	manpower = 2470875
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = MEX
+		controller = MEX
+		add_core_of = MEX
+		victory_points = {
+			2567
+			2
+		}
+		victory_points = {
+			10172
+			5
+		}
+		victory_points = {
+			12746
+			2
+		}
+		victory_points = {
+			12873
+			3
+		}
+		victory_points = {
+			13089
+			25
+		}
+		victory_points = {
+			14494
+			2
+		}
+		victory_points = {
+			14497
+			3
+		}
+		victory_points = {
+			14498
+			1
+		}
+		victory_points = {
+			14515
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			1941 = {
+				naval_base = 1
+			}
+		}
+	}
+}

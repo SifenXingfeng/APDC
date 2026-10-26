@@ -1,0 +1,47 @@
+state = {
+	id = 1236
+	name = "STATE_1236"
+	provinces = {
+		5208
+		8140
+		12987
+		17403
+		17416
+	}
+	manpower = 755545
+	resources = {
+		aluminium = 1
+		chromium = 1
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = BRA
+		controller = BRA
+		add_core_of = BRA
+		victory_points = {
+			5208
+			1
+		}
+		victory_points = {
+			8140
+			1
+		}
+		victory_points = {
+			12987
+			15
+		}
+		victory_points = {
+			17403
+			2
+		}
+		victory_points = {
+			17416
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

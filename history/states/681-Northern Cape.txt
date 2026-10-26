@@ -1,0 +1,53 @@
+state = {
+	id = 681
+	name = "STATE_681"
+	provinces = {
+		1509
+		4528
+		5203
+		10415
+		10442
+		10697
+		13497
+		13504
+		13507
+		13512
+		13515
+		13517
+		13519
+		13525
+		13530
+		13538
+		13548
+		13573
+		15379
+		15380
+		17824
+		17825
+		17826
+		17827
+		17828
+	}
+	manpower = 951848
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = SAF
+		controller = SAF
+		add_core_of = SAF
+		victory_points = {
+			13530
+			3
+		}
+		victory_points = {
+			13573
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 1
+		}
+	}
+}

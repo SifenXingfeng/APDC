@@ -1,0 +1,44 @@
+state = {
+	id = 735
+	name = "STATE_735"
+	state_category = town
+	manpower = 907500
+	history = {
+		owner = FRA
+		controller = FRA
+		add_core_of = FRA
+		victory_points = {
+			778
+			2
+		}
+		victory_points = {
+			6609
+			1
+		}
+		victory_points = {
+			9909
+			3
+		}
+		buildings = {
+			infrastructure = 2
+			9909 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = {
+		778
+		3764
+		6609
+		6975
+		9603
+		9745
+		9909
+		11573
+		14639
+		17994
+		17995
+	}
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0
+}

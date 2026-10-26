@@ -1,0 +1,26 @@
+--- before/history/countries/RNG - Reorganized National Government.txt
++++ current/history/countries/RNG - Reorganized National Government.txt
+@@ -1,23 +0,0 @@
+-# APDC: regular roster and production models available at scenario initialization.
+-set_technology = { APDC_land_units_bootstrap = 1 }
+-# Shared empty OOB preserves startup initialization until a country OOB is authored.
+-set_oob = "APDC_empty"
+-
+-capital = 613 # Shanghai
+-
+-set_convoys = 10
+-
+-set_stability = 0.4
+-
+-set_war_support = 0.4
+-
+-set_politics = {
+-	ruling_party = dictatorship
+-	last_election = "2058.1.1"
+-	election_frequency = 48
+-	elections_allowed = no
+-}
+-
+-set_popularities = {
+-	dictatorship = 100
+-}

@@ -1,0 +1,51 @@
+state = {
+	id = 1279
+	name = "STATE_1279"
+	provinces = {
+		1571
+		4551
+		5427
+		6863
+		7569
+		9798
+		10215
+		10519
+		10521
+		12342
+		12443
+		12500
+		19481
+	}
+	manpower = 2058008
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			1571
+			3
+		}
+		victory_points = {
+			4551
+			1
+		}
+		victory_points = {
+			6863
+			1
+		}
+		victory_points = {
+			12342
+			3
+		}
+		victory_points = {
+			12443
+			1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

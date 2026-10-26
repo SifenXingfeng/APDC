@@ -1,0 +1,36 @@
+state = {
+	id = 1321
+	name = "STATE_1321"
+	resources = {
+	}
+	provinces = {
+		8036
+		14064
+		17898
+	}
+	manpower = 380000
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = ETH
+		controller = ETH
+		add_core_of = ETH
+		add_core_of = SOM
+		victory_points = {
+			8036
+			3
+		}
+		victory_points = {
+			14064
+			1
+		}
+		victory_points = {
+			17898
+			3
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

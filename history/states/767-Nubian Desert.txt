@@ -1,0 +1,44 @@
+state = {
+	id = 767
+	name = "STATE_767"
+	provinces = {
+		4138
+		4963
+		7987
+		8105
+		10745
+		10900
+		12836
+		14227
+		14241
+		14246
+		14254
+		14269
+		14279
+		14292
+		14312
+		14433
+		18479
+		18483
+		18494
+		18498
+		18503
+		18504
+	}
+	manpower = 333287
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 0
+	history = {
+		owner = SUD
+		controller = SUD
+		add_core_of = SUD
+		buildings = {
+			infrastructure = 0
+		}
+		victory_points = {
+			12836
+			1
+		}
+	}
+}

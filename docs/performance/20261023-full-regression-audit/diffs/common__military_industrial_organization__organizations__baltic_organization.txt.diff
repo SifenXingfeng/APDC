@@ -1,0 +1,11 @@
+--- before/common/military_industrial_organization/organizations/baltic_organization.txt
++++ current/common/military_industrial_organization/organizations/baltic_organization.txt
+@@ -46,7 +46,7 @@
+ 	available = {
+ 		FROM = { NOT = { has_war_with = ENG } }
+ 		FROM = {
+-			has_completed_focus = BALTIC_british_designers
++			always = no
+ 		}
+ 	}
+ }

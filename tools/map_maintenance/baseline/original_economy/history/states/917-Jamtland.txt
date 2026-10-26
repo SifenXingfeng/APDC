@@ -1,0 +1,29 @@
+state = {
+	id = 917
+	name = "STATE_917"
+	
+	manpower = 65000
+	state_category = rural
+
+	resources = {
+		steel = 20
+	}
+
+	history = {
+		victory_points = {	
+			11148 1
+		}
+		owner = SWE
+		add_core_of = SWE
+		add_core_of = SMI
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		46 113 168 3039 3108 3111 3162 3191 6010 6126 6129 6185 6207 9066 9141 9148 9154 9171 9229 11049 11052 11053 11116 11148 11187 13117 18365 
+	}
+	local_supplies=0.000
+}

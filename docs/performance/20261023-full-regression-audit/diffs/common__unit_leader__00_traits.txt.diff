@@ -1,0 +1,442 @@
+--- before/common/unit_leader/00_traits.txt
++++ current/common/unit_leader/00_traits.txt
+@@ -84,7 +84,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Army Officers
+-				FROM = { has_idea = SOV_purged_junior_army_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 		}
+@@ -114,7 +114,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Army Officers
+-				FROM = { has_idea = SOV_purged_junior_army_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 		}
+@@ -145,7 +145,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Army Officers
+-				FROM = { has_idea = SOV_purged_junior_army_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 		}
+@@ -237,7 +237,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Army Officers
+-				FROM = { has_idea = SOV_purged_junior_army_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 		}
+@@ -273,7 +273,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Army Officers
+-				FROM = { has_idea = SOV_purged_junior_army_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 		}
+@@ -309,7 +309,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Army Officers
+-				FROM = { has_idea = SOV_purged_junior_army_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 		}
+@@ -342,7 +342,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Army Officers
+-				FROM = { has_idea = SOV_purged_junior_army_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 		}
+@@ -370,7 +370,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Army Officers
+-				FROM = { has_idea = SOV_purged_junior_army_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 		}
+@@ -415,7 +415,7 @@
+ 					OR = {
+ 						has_idea = best_of_the_best_spirit
+ 						has_idea = academy_scholarships_spirit
+-						has_idea = SOV_purged_junior_army_officers_3
++						always = no
+ 					}
+ 				}
+ 			}
+@@ -444,7 +444,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Army Officers
+-				FROM = { has_idea = SOV_purged_junior_army_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 			
+@@ -482,7 +482,7 @@
+ 					OR = {
+ 						has_idea = best_of_the_best_spirit
+ 						has_idea = academy_scholarships_spirit
+-						has_idea = SOV_purged_junior_army_officers_3
++						always = no
+ 					}
+ 				}
+ 			}
+@@ -504,7 +504,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Army Officers
+-				FROM = { has_idea = SOV_purged_junior_army_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 			
+@@ -546,7 +546,7 @@
+ 					OR = {
+ 						has_idea = best_of_the_best_spirit
+ 						has_idea = academy_scholarships_spirit
+-						has_idea = SOV_purged_junior_army_officers_3
++						always = no
+ 					}
+ 				}
+ 			}
+@@ -571,7 +571,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Army Officers
+-				FROM = { has_idea = SOV_purged_junior_army_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 			
+@@ -706,13 +706,13 @@
+ 			modifier = { #ITALY
+ 				factor = 2
+ 				FROM = {
+-					has_completed_focus = ITA_comandante_diavolo
++					always = no
+ 				}
+ 			}
+ 			modifier = { #ITALY
+ 				factor = 2
+ 				FROM = {
+-					has_completed_focus = ITA_proclaim_the_italian_empire
++					always = no
+ 				}
+ 			}
+ 		}
+@@ -769,13 +769,13 @@
+ 			modifier = { #ITALY
+ 				factor = 2
+ 				FROM = {
+-					has_completed_focus = ITA_strengthen_ascari_corps
++					always = no
+ 				}
+ 			}
+ 			modifier = { #ITALY
+ 				factor = 2
+ 				FROM = {
+-					has_completed_focus = ITA_novus_ordo
++					always = no
+ 				}
+ 			}
+ 		}
+@@ -849,15 +849,15 @@
+ 			modifier = { #ITALY
+ 				factor = 2
+ 				FROM = {
+-					has_completed_focus = ITA_strengthen_the_blackshirts
++					always = no
+ 				}
+ 			}
+ 			modifier = { #ITALY
+ 				factor = 2
+ 				FROM = {
+ 					OR = {
+-						has_completed_focus = ITA_divino_duce
+-						has_completed_focus = ITA_a_greater_purpose
++						always = no
++						always = no
+ 					}
+ 				}
+ 			}
+@@ -1868,27 +1868,7 @@
+ 		gui_row = 10
+ 	}
+ 	
+-	paratrooper = { 
+-		type = corps_commander
+-		gain_xp = {
+-			always = no # not gainable
+-		}
+-		cost = 500
+-		modifier = {
+-			extra_paratrooper_supply_grace = 240
+-		}
+-		
+-		enable_ability = glider_planes
+-		
+-		ai_will_do = {
+-			factor = 1
+-		}
+-		
+-		trait_type = assignable_trait
+-		any_parent = { commando }
+-		
+-		gui_row = 11
+-	}
++	
+ 	
+ 	
+ 	camouflage_expert = { 
+@@ -2737,7 +2717,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Navy Officers
+-				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 		}
+@@ -2764,7 +2744,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Navy Officers
+-				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 		}
+@@ -2793,7 +2773,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Navy Officers
+-				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 		}
+@@ -2820,7 +2800,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Navy Officers
+-				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 		}
+@@ -2846,7 +2826,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Navy Officers
+-				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 		}
+@@ -2873,7 +2853,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Navy Officers
+-				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 		}
+@@ -2900,7 +2880,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Navy Officers
+-				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 		}
+@@ -2926,7 +2906,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Navy Officers
+-				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 		}
+@@ -2953,7 +2933,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Navy Officers
+-				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 		}
+@@ -2982,7 +2962,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Navy Officers
+-				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 		}
+@@ -3008,7 +2988,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Navy Officers
+-				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 		}
+@@ -3035,7 +3015,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Navy Officers
+-				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 		}
+@@ -3062,7 +3042,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Navy Officers
+-				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 		}
+@@ -3084,7 +3064,7 @@
+ 				OR = {
+ 					has_idea = best_of_the_best_naval_academy_spirit
+ 					has_idea = naval_academy_scholarships_spirit
+-					has_idea = SOV_purged_junior_navy_officers_3 
++					always = no 
+ 				}
+ 			}
+ 		}
+@@ -3108,7 +3088,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Navy Officers
+-				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 			modifier = {
+@@ -3132,7 +3112,7 @@
+ 				OR = {
+ 					has_idea = best_of_the_best_naval_academy_spirit
+ 					has_idea = naval_academy_scholarships_spirit
+-					has_idea = SOV_purged_junior_navy_officers_3 
++					always = no 
+ 				}
+ 			}
+ 		}
+@@ -3156,7 +3136,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Navy Officers
+-				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 			modifier = {
+@@ -3181,7 +3161,7 @@
+ 				OR = {
+ 					has_idea = best_of_the_best_naval_academy_spirit
+ 					has_idea = naval_academy_scholarships_spirit
+-					has_idea = SOV_purged_junior_navy_officers_3 
++					always = no 
+ 				}
+ 			}
+ 		}
+@@ -3205,7 +3185,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Navy Officers
+-				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 			modifier = {
+@@ -3230,7 +3210,7 @@
+ 				OR = {
+ 					has_idea = best_of_the_best_naval_academy_spirit
+ 					has_idea = naval_academy_scholarships_spirit
+-					has_idea = SOV_purged_junior_navy_officers_3 
++					always = no 
+ 				}
+ 			}
+ 		}
+@@ -3254,7 +3234,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Navy Officers
+-				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 			modifier = {
+@@ -3279,7 +3259,7 @@
+ 				OR = {
+ 					has_idea = best_of_the_best_naval_academy_spirit
+ 					has_idea = naval_academy_scholarships_spirit
+-					has_idea = SOV_purged_junior_navy_officers_3 
++					always = no 
+ 				}
+ 			}
+ 		}
+@@ -3303,7 +3283,7 @@
+ 				factor = 0
+ 			}
+ 			modifier = { #Purged Junior Navy Officers
+-				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
++				FROM = { always = no }
+ 				factor = 0
+ 			}
+ 			modifier = {
+@@ -3551,12 +3531,12 @@
+ 				FROM = {
+ 					OR = {
+ 						dictatorship < 0.05
+-						has_completed_focus = BUL_overthrow_the_tsar
+-						has_completed_focus = BUL_abolish_the_monarchy
+-						has_completed_focus = BUL_depose_the_tsar
++						always = no
++						always = no
++						always = no
+ 						AND = {
+-							has_completed_focus = BUL_plot_against_boris
+-							NOT = { has_completed_focus = BUL_the_return_of_ferdinand_i }
++							always = no
++							NOT = { always = no }
+ 						}
+ 					}
+ 				}
+@@ -3579,7 +3559,7 @@
+ 				factor = 0
+ 				OR = {
+ 					FROM = { communism < 0.05 }
+-					FROM = { has_completed_focus = BUL_crush_the_communists }
++					FROM = { always = no }
+ 				}
+ 			}
+ 		}

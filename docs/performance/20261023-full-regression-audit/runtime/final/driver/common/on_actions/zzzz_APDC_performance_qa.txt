@@ -1,0 +1,58 @@
+on_actions = { on_daily_GER = { effect = {
+add_to_variable = { QA_full_days = 1 }
+if = { limit = { check_variable = { QA_full_days = 1 } }
+division_template = { name = "QA automatic infantry names" regiments = { apdc_infantry = { x = 0 y = 0 } } }
+BAH = { if = { limit = { has_available_idea_with_traits = { idea = industrial_concern limit = 0 characters = no } } log = "APDC_FULL_ASSERT PASS automatic_industrial_concern_available" } else = { log = "APDC_FULL_ASSERT FAIL automatic_industrial_concern_available" }
+ }
+BRA = { if = { limit = { has_military_industrial_organization = BRA_cbc_organization } log = "APDC_FULL_ASSERT PASS Brazil_CBC_MIO_exists" } else = { log = "APDC_FULL_ASSERT FAIL Brazil_CBC_MIO_exists" }
+ }
+}
+if = { limit = { check_variable = { QA_full_days = 3 } }
+complete_special_project = sp:sp_naval_cruiser_submarine
+if = { limit = { is_special_project_completed = sp:sp_naval_cruiser_submarine } log = "APDC_FULL_ASSERT PASS complete_sp_naval_cruiser_submarine" } else = { log = "APDC_FULL_ASSERT FAIL complete_sp_naval_cruiser_submarine" }
+complete_special_project = sp:sp_naval_fleet_submarine
+if = { limit = { is_special_project_completed = sp:sp_naval_fleet_submarine } log = "APDC_FULL_ASSERT PASS complete_sp_naval_fleet_submarine" } else = { log = "APDC_FULL_ASSERT FAIL complete_sp_naval_fleet_submarine" }
+complete_special_project = sp:sp_naval_nuclear_submarine
+if = { limit = { is_special_project_completed = sp:sp_naval_nuclear_submarine } log = "APDC_FULL_ASSERT PASS complete_sp_naval_nuclear_submarine" } else = { log = "APDC_FULL_ASSERT FAIL complete_sp_naval_nuclear_submarine" }
+complete_special_project = sp:sp_naval_rocket_launching_submarine
+if = { limit = { is_special_project_completed = sp:sp_naval_rocket_launching_submarine } log = "APDC_FULL_ASSERT PASS complete_sp_naval_rocket_launching_submarine" } else = { log = "APDC_FULL_ASSERT FAIL complete_sp_naval_rocket_launching_submarine" }
+complete_special_project = sp:sp_naval_nuclear_missile_submarine
+if = { limit = { is_special_project_completed = sp:sp_naval_nuclear_missile_submarine } log = "APDC_FULL_ASSERT PASS complete_sp_naval_nuclear_missile_submarine" } else = { log = "APDC_FULL_ASSERT FAIL complete_sp_naval_nuclear_missile_submarine" }
+complete_special_project = sp:sp_naval_nuclear_torpedo
+if = { limit = { is_special_project_completed = sp:sp_naval_nuclear_torpedo } log = "APDC_FULL_ASSERT PASS complete_sp_naval_nuclear_torpedo" } else = { log = "APDC_FULL_ASSERT FAIL complete_sp_naval_nuclear_torpedo" }
+complete_special_project = sp:sp_naval_midget_submarine
+if = { limit = { is_special_project_completed = sp:sp_naval_midget_submarine } log = "APDC_FULL_ASSERT PASS complete_sp_naval_midget_submarine" } else = { log = "APDC_FULL_ASSERT FAIL complete_sp_naval_midget_submarine" }
+complete_special_project = sp:sp_naval_aip_engine
+if = { limit = { is_special_project_completed = sp:sp_naval_aip_engine } log = "APDC_FULL_ASSERT PASS complete_sp_naval_aip_engine" } else = { log = "APDC_FULL_ASSERT FAIL complete_sp_naval_aip_engine" }
+complete_special_project = sp:sp_naval_anechoic_tiles
+if = { limit = { is_special_project_completed = sp:sp_naval_anechoic_tiles } log = "APDC_FULL_ASSERT PASS complete_sp_naval_anechoic_tiles" } else = { log = "APDC_FULL_ASSERT FAIL complete_sp_naval_anechoic_tiles" }
+complete_special_project = sp:sp_naval_submarine_carrier
+if = { limit = { is_special_project_completed = sp:sp_naval_submarine_carrier } log = "APDC_FULL_ASSERT PASS complete_sp_naval_submarine_carrier" } else = { log = "APDC_FULL_ASSERT FAIL complete_sp_naval_submarine_carrier" }
+complete_special_project = sp:sp_naval_underway_replenishment
+if = { limit = { is_special_project_completed = sp:sp_naval_underway_replenishment } log = "APDC_FULL_ASSERT PASS complete_sp_naval_underway_replenishment" } else = { log = "APDC_FULL_ASSERT FAIL complete_sp_naval_underway_replenishment" }
+complete_special_project = sp:sp_naval_proximity_fuze
+if = { limit = { is_special_project_completed = sp:sp_naval_proximity_fuze } log = "APDC_FULL_ASSERT PASS complete_sp_naval_proximity_fuze" } else = { log = "APDC_FULL_ASSERT FAIL complete_sp_naval_proximity_fuze" }
+complete_special_project = sp:sp_naval_support_ships
+if = { limit = { is_special_project_completed = sp:sp_naval_support_ships } log = "APDC_FULL_ASSERT PASS complete_sp_naval_support_ships" } else = { log = "APDC_FULL_ASSERT FAIL complete_sp_naval_support_ships" }
+complete_special_project = sp:sp_rockets_flying_bomb
+if = { limit = { is_special_project_completed = sp:sp_rockets_flying_bomb } log = "APDC_FULL_ASSERT PASS complete_sp_rockets_flying_bomb" } else = { log = "APDC_FULL_ASSERT FAIL complete_sp_rockets_flying_bomb" }
+complete_special_project = sp:sp_rockets_ballistic_missile
+if = { limit = { is_special_project_completed = sp:sp_rockets_ballistic_missile } log = "APDC_FULL_ASSERT PASS complete_sp_rockets_ballistic_missile" } else = { log = "APDC_FULL_ASSERT FAIL complete_sp_rockets_ballistic_missile" }
+complete_special_project = sp:sp_rockets_medium_range_ballistic_missile
+if = { limit = { is_special_project_completed = sp:sp_rockets_medium_range_ballistic_missile } log = "APDC_FULL_ASSERT PASS complete_sp_rockets_medium_range_ballistic_missile" } else = { log = "APDC_FULL_ASSERT FAIL complete_sp_rockets_medium_range_ballistic_missile" }
+complete_special_project = sp:sp_rockets_long_range_ballistic_missile
+if = { limit = { is_special_project_completed = sp:sp_rockets_long_range_ballistic_missile } log = "APDC_FULL_ASSERT PASS complete_sp_rockets_long_range_ballistic_missile" } else = { log = "APDC_FULL_ASSERT FAIL complete_sp_rockets_long_range_ballistic_missile" }
+complete_special_project = sp:sp_rockets_ground_to_air_missile
+if = { limit = { is_special_project_completed = sp:sp_rockets_ground_to_air_missile } log = "APDC_FULL_ASSERT PASS complete_sp_rockets_ground_to_air_missile" } else = { log = "APDC_FULL_ASSERT FAIL complete_sp_rockets_ground_to_air_missile" }
+complete_special_project = sp:sp_nuclear_warheads
+if = { limit = { is_special_project_completed = sp:sp_nuclear_warheads } log = "APDC_FULL_ASSERT PASS complete_sp_nuclear_warheads" } else = { log = "APDC_FULL_ASSERT FAIL complete_sp_nuclear_warheads" }
+complete_special_project = sp:sp_land_stronghold_network
+if = { limit = { is_special_project_completed = sp:sp_land_stronghold_network } log = "APDC_FULL_ASSERT PASS complete_sp_land_stronghold_network" } else = { log = "APDC_FULL_ASSERT FAIL complete_sp_land_stronghold_network" }
+if = { limit = { has_tech = stronghold_network_tech } log = "APDC_FULL_ASSERT PASS stronghold_technology_granted" } else = { log = "APDC_FULL_ASSERT FAIL stronghold_technology_granted" }
+}
+if = { limit = { check_variable = { QA_full_days = 5 } } set_variable = { global.QA_full_bad_core = 0 } set_variable = { global.QA_full_core_states = 0 } every_state = { limit = { is_core_of = controller } add_to_variable = { global.QA_full_core_states = 1 } if = { limit = { has_resistance = yes } add_to_variable = { global.QA_full_bad_core = 1 } } }
+if = { limit = { check_variable = { global.QA_full_bad_core = 0 } check_variable = { global.QA_full_core_states > 1400 } } log = "APDC_FULL_ASSERT PASS world_core_states_do_not_resist" } else = { log = "APDC_FULL_ASSERT FAIL world_core_states_do_not_resist" }
+log = "APDC_FULL_COUNTS core_states=[?global.QA_full_core_states] bad_core=[?global.QA_full_bad_core]"
+}
+log = "APDC_FULL_DAY day=[?QA_full_days]"
+} } }

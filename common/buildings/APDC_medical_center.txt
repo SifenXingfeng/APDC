@@ -1,0 +1,16 @@
+buildings = {
+    APDC_medical_center = {
+        base_cost = 6000
+        icon_frame = 32
+        show_on_map = 1
+        always_shown = yes
+        infrastructure_construction_effect = yes
+        hide_if_missing_tech = yes
+        show_modifier = no
+        value = 0
+        level_cap = {
+            state_max = 1
+        }
+        # Visual/buildability prototype: deliberately no country/state modifiers.
+    }
+}

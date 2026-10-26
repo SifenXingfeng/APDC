@@ -1,0 +1,25 @@
+state = {
+	id = 699
+	name = "STATE_699"
+	provinces = {
+		14313
+		14314
+		14326
+		14339
+		14347
+		14356
+		18024
+	}
+	manpower = 6408
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 0
+	history = {
+		owner = WES
+		controller = WES
+		add_core_of = WES
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

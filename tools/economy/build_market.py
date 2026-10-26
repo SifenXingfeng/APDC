@@ -1,0 +1,243 @@
+"""Weekly, double-buffered consumer market; daily checks never rematch partners."""
+from common import *
+
+P = 'APDC_eco_'
+G = 'global.APDC_eco_market_'
+
+
+def effect(name, body):
+    return block(P + name, body)
+
+
+def assign(name, value):
+    return f'set_variable = {{ {name} = {value} }}\n'
+
+
+def build():
+    s = ''
+    scorers = ''
+    for b in (0, 1):
+        q = f'{G}quantity_{b}'
+        sellers = f'{G}sellers_{b}'
+        buyers = f'{G}buyers_{b}'
+        local = lambda k: f'{P}market_{k}_{b}'
+        scorer = lambda k: f'{P}market_{k}_{b}'
+        for key, array, score in [
+            ('tariff', G+'exporters', local('tariff_score')),
+            ('supply', G+'group', local('remaining_export')),
+            ('buyer_tariff', G+'importers', local('tariff_score')),
+            ('demand', G+'group', local('demand_score')),
+        ]:
+            scorers += block(scorer(key), block('targets',
+                f'target_array = {array}\n' + block('score',
+                    'base = 0\n' + block('modifier', f'add = {score}'))))
+
+        flush = f'''if = {{ limit = {{ check_variable = {{ {G}group^num > 0 }} }}
+get_sorted_scored_countries = {{ scorer = {scorer('supply')} array = {G}sorted_group }}
+for_each_scope_loop = {{ array = {G}sorted_group add_to_array = {{ array = {G}order value = THIS }} }}
+clear_array = {G}group
+}}
+'''
+        buyer_flush = f'''if = {{ limit = {{ check_variable = {{ {G}group^num > 0 }} }}
+get_sorted_scored_countries = {{ scorer = {scorer('demand')} array = {G}sorted_group }}
+for_each_scope_loop = {{ array = {G}sorted_group add_to_array = {{ array = {G}sorted_buyers value = THIS }} }}
+clear_array = {G}group
+}}
+'''
+        begin = f'''clear_array = {sellers}
+clear_array = {buyers}
+clear_array = {q}
+clear_array = {G}exporters
+clear_array = {G}importers
+clear_array = {G}order
+clear_array = {G}group
+clear_array = {G}tariff_order
+clear_array = {G}sorted_group
+clear_array = {G}sorted_buyers
+every_country = {{
+clear_array = {local('partners')}
+clear_array = {local('edges')}
+{assign(local('remaining_import'), P+'import_target_m')}
+{assign(local('remaining_export'), P+'export_target_m')}
+# Freeze the absolute pre-trade shortage, before trade-law coverage. The
+# current supply_m may already include the previous plan's imports/exports.
+{assign(local('demand_score'), '{ value = '+P+'domestic_m add = '+P+'extra_input subtract = '+P+'extra_output max = 0 multiply = '+P+'distribution multiply = -1 add = '+P+'demand_m max = 0 }')}
+{assign(local('tariff_score'), '{ value = '+P+'tariff multiply = -1 }')}
+{assign(local('imports'), 0)}{assign(local('exports'), 0)}
+if = {{ limit = {{ check_variable = {{ {local('remaining_export')} > 0 }} }} add_to_array = {{ array = {G}exporters value = THIS }} }}
+if = {{ limit = {{ check_variable = {{ {local('remaining_import')} > 0 }} }} add_to_array = {{ array = {G}importers value = THIS }} }}
+}}
+get_sorted_scored_countries = {{ scorer = {scorer('tariff')} array = {G}tariff_order }}
+{assign(G+'group_tariff', -1)}
+for_each_scope_loop = {{ array = {G}tariff_order
+if = {{ limit = {{ NOT = {{ check_variable = {{ {local('tariff_score')} = {G}group_tariff }} }} }}
+{flush}{assign(G+'group_tariff', local('tariff_score'))}
+}}
+add_to_array = {{ array = {G}group value = THIS }}
+}}
+{flush}
+# Every seller has the same own export tariff for all its buyers, so ordering
+# buyers by their import tariff also orders the combined bilateral tariff.
+get_sorted_scored_countries = {{ scorer = {scorer('buyer_tariff')} array = {G}tariff_order }}
+{assign(G+'group_tariff', -1)}
+for_each_scope_loop = {{ array = {G}tariff_order
+if = {{ limit = {{ NOT = {{ check_variable = {{ {local('tariff_score')} = {G}group_tariff }} }} }}
+{buyer_flush}{assign(G+'group_tariff', local('tariff_score'))}
+}}
+add_to_array = {{ array = {G}group value = THIS }}
+}}
+{buyer_flush}
+{assign(G+'pending_buffer', b)}{assign(G+'cursor', 0)}
+{assign(G+'batch_size', '{ value = '+G+'order^num add = 6 divide = 7 }')}
+{assign(G+'batch_unrounded', G+'batch_size')}
+round_variable = {G}batch_size
+if = {{ limit = {{ check_variable = {{ {G}batch_size > {G}batch_unrounded }} }} subtract_from_variable = {{ {G}batch_size = 1 }} }}
+{assign(G+'batch_size', '{ value = '+G+'batch_size max = 1 }')}
+set_global_flag = APDC_eco_market_busy
+set_global_flag = APDC_eco_market_priority_v1
+clr_global_flag = APDC_eco_market_requested
+'''
+        # Integer floor((n+6)/7) is exactly ceil(n/7).
+        s += effect(f'market_begin_{b}', begin)
+
+        deal = f'''{assign(G+'edge', q+'^num')}
+{assign(G+'buyer', 'THIS')}
+add_to_array = {{ array = {sellers} value = var:{G}seller }}
+add_to_array = {{ array = {buyers} value = THIS }}
+add_to_array = {{ array = {q} value = {G}deal }}
+add_to_array = {{ array = {local('partners')} value = var:{G}seller }}
+add_to_array = {{ array = {local('edges')} value = {G}edge }}
+add_to_variable = {{ {local('imports')} = {G}deal }}
+subtract_from_variable = {{ {local('remaining_import')} = {G}deal }}
+var:{G}seller = {{
+add_to_array = {{ array = {local('partners')} value = var:{G}buyer }}
+add_to_array = {{ array = {local('edges')} value = {G}edge }}
+add_to_variable = {{ {local('exports')} = {G}deal }}
+subtract_from_variable = {{ {local('remaining_export')} = {G}deal }}
+}}
+subtract_from_variable = {{ {G}supply = {G}deal }}
+'''
+        match = f'''{assign(G+'supply', local('remaining_export'))}
+# The weekly buyer order is reused by every seller. Fill one buyer's entire
+# remaining import quota before offering any supply to the next eligible one.
+for_each_scope_loop = {{ array = {G}sorted_buyers
+if = {{ limit = {{
+check_variable = {{ {G}supply > 0 }}
+exists = yes
+check_variable = {{ {local('remaining_import')} > 0 }}
+NOT = {{ has_war_with = var:{G}seller }}
+NOT = {{ is_embargoed_by = var:{G}seller }}
+NOT = {{ is_embargoing = var:{G}seller }}
+NOT = {{ tag = var:{G}seller }}
+}}
+{assign(G+'deal', '{ value = '+G+'supply min = '+local('remaining_import')+' max = 0 }')}
+if = {{ limit = {{ check_variable = {{ {G}deal > 0 }} }} {deal} }}
+}}
+}}
+'''
+        s += effect(f'market_match_seller_{b}', match)
+        step = f'''for_loop_effect = {{ start = 0 end = {G}batch_size value = APDC_eco_market_batch_iteration
+if = {{ limit = {{ check_variable = {{ {G}cursor < {G}order^num }} }}
+{assign(G+'seller', G+'order^'+G+'cursor')}
+var:{G}seller = {{ APDC_eco_market_match_seller_{b} = yes }}
+add_to_variable = {{ {G}cursor = 1 }}
+}}
+}}
+if = {{ limit = {{ NOT = {{ check_variable = {{ {G}cursor < {G}order^num }} }} }}
+{assign(G+'active_buffer', b)}
+clr_global_flag = APDC_eco_market_busy
+add_to_variable = {{ {G}completed_cycles = 1 }}
+APDC_eco_validate_world_trade = yes
+}}
+'''
+        s += effect(f'market_step_{b}', step)
+
+        validate = f'''every_country = {{
+{assign(local('import_scale'), 1)}{assign(local('export_scale'), 1)}
+if = {{ limit = {{ check_variable = {{ {local('imports')} > 0 }} }}
+{assign(local('import_scale'), '{ value = '+P+'import_target_m divide = '+local('imports')+' clamp = { min = 0 max = 1 } }')}
+}}
+if = {{ limit = {{ check_variable = {{ {local('exports')} > 0 }} }}
+{assign(local('export_scale'), '{ value = '+P+'export_target_m divide = '+local('exports')+' clamp = { min = 0 max = 1 } }')}
+}}
+{assign(local('imports'), 0)}{assign(local('exports'), 0)}
+}}
+for_each_loop = {{ array = {sellers}
+set_temp_variable = {{ APDC_eco_market_seller_token = v }}
+set_temp_variable = {{ APDC_eco_market_edge_index = i }}
+{assign(G+'validation_edge', 'APDC_eco_market_edge_index')}
+{assign(G+'checked_deal', q+'^'+G+'validation_edge')}
+if = {{ limit = {{ check_variable = {{ {G}checked_deal > 0 }} }}
+{assign(G+'seller', 'APDC_eco_market_seller_token')}
+{assign(G+'buyer', buyers+'^'+G+'validation_edge')}
+{assign(G+'scale', 0)}
+var:{G}seller = {{ if = {{ limit = {{ exists = yes }} {assign(G+'scale', local('export_scale'))} }} }}
+var:{G}buyer = {{
+if = {{ limit = {{
+exists = yes
+NOT = {{ has_war_with = var:{G}seller }}
+NOT = {{ is_embargoed_by = var:{G}seller }}
+NOT = {{ is_embargoing = var:{G}seller }}
+}}
+{assign(G+'scale', '{ value = '+G+'scale min = '+local('import_scale')+' }')}
+}} else = {{ {assign(G+'scale', 0)} }}
+}}
+multiply_variable = {{ {G}checked_deal = {G}scale }}
+{assign(q+'^'+G+'validation_edge', G+'checked_deal')}
+var:{G}seller = {{ add_to_variable = {{ {local('exports')} = {G}checked_deal }} }}
+var:{G}buyer = {{ add_to_variable = {{ {local('imports')} = {G}checked_deal }} }}
+}}
+}}
+every_country = {{
+{assign(P+'imports_m', local('imports'))}{assign(P+'exports_m', local('exports'))}
+{assign(P+'tariffs_m', '{ value = '+P+'imports_m add = '+P+'exports_m multiply = '+P+'tariff }')}
+APDC_eco_apply_current_trade = yes
+}}
+'''
+        s += effect(f'validate_market_{b}', validate)
+        render = f'''for_each_loop = {{ array = {local('partners')}
+set_temp_variable = {{ APDC_eco_ui_trade_partner = v }}
+set_temp_variable = {{ APDC_eco_ui_trade_index = i }}
+set_temp_variable = {{ APDC_eco_ui_trade_edge = {local('edges')}^APDC_eco_ui_trade_index }}
+{assign(G+'ui_edge', 'APDC_eco_ui_trade_edge')}
+set_temp_variable = {{ APDC_eco_ui_trade_amount = {q}^{G}ui_edge }}
+if = {{ limit = {{ check_variable = {{ APDC_eco_ui_trade_amount > 0 }} }}
+{assign(G+'ui_seller', sellers+'^'+G+'ui_edge')}
+if = {{ limit = {{ tag = var:{G}ui_seller }} multiply_temp_variable = {{ APDC_eco_ui_trade_amount = -1 }} }}
+add_to_array = {{ array = APDC_eco_trade_partners value = APDC_eco_ui_trade_partner }}
+add_to_array = {{ array = APDC_eco_trade_amounts value = APDC_eco_ui_trade_amount }}
+}}
+}}
+'''
+        s += effect(f'render_trade_{b}', render)
+
+    def choose(stem, field='active_buffer'):
+        return cond(f'check_variable = {{ {G}{field} = 0 }}',
+                    f'{P}{stem}_0 = yes\n', f'{P}{stem}_1 = yes\n')
+
+    s += effect('apply_current_trade', assign(P+'supply_m',
+        '{ value = '+P+'domestic_m add = '+P+'extra_input subtract = '+P+'extra_output add = '+P+'imports_m subtract = '+P+'exports_m max = 0 multiply = '+P+'distribution }')+
+        'APDC_eco_calculate_gap = yes\n')
+    s += effect('validate_world_trade', choose('validate_market'))
+    s += effect('render_trade', 'clear_array = APDC_eco_trade_partners\nclear_array = APDC_eco_trade_amounts\n'+choose('render_trade'))
+    s += effect('clear_world_market', 'set_global_flag = APDC_eco_market_requested\n')
+    s += effect('market_begin', cond(f'check_variable = {{ {G}active_buffer = 0 }}',
+                                    'APDC_eco_market_begin_1 = yes\n', 'APDC_eco_market_begin_0 = yes\n'))
+    s += effect('market_step', cond('has_global_flag = APDC_eco_market_busy', choose('market_step', 'pending_buffer')))
+    s += effect('market_daily', cond('has_global_flag = APDC_eco_market_requested NOT = { has_global_flag = APDC_eco_market_busy }',
+                                     'APDC_eco_market_begin = yes\n')+'APDC_eco_market_step = yes\n')
+    s += effect('market_bootstrap', cond('NOT = { has_global_flag = APDC_eco_market_v2_ready }',
+        assign(G+'active_buffer', 0)+'set_global_flag = APDC_eco_market_v2_ready\nAPDC_eco_market_begin = yes\n'
+        '# Initial load only: prepare the first valid plan before time advances.\n'
+        'for_loop_effect = { start = 0 end = 7 value = APDC_eco_initial_market_batch APDC_eco_market_step = yes }\n')+
+        cond('has_global_flag = APDC_eco_market_v2_ready NOT = { has_global_flag = APDC_eco_market_priority_v1 }',
+             '# An older save can contain a partial equal-share plan and its\n'
+             '# per-seller buyer scratch array. Rebuild only the pending plan.\n'
+             'set_global_flag = APDC_eco_market_priority_v1\nclr_global_flag = APDC_eco_market_busy\n'
+             'set_global_flag = APDC_eco_market_requested\n'))
+    write('common/scripted_effects/APDC_economy_market.txt', s)
+    write('common/scorers/country/APDC_economy_market.txt', scorers)
+
+
+if __name__ == '__main__':
+    build()

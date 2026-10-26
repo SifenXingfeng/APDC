@@ -1,0 +1,31 @@
+state = {
+	id = 777
+	name = "STATE_777"
+	provinces = {
+		1951
+		19312
+	}
+	manpower = 367115
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = TOG
+		controller = TOG
+		add_core_of = TOG
+		victory_points = {
+			1951
+			20
+		}
+		victory_points = {
+			19312
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			1951 = {
+				naval_base = 1
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+state = {
+	id = 1359
+	name = "STATE_1359"
+	provinces = {
+		10868
+		14267
+		14291
+	}
+	manpower = 19811
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = wasteland
+	history = {
+		owner = FLA
+		controller = FLA
+		add_core_of = FLA
+		add_core_of = ISP
+		add_core_of = JNM
+		add_core_of = MLI
+		buildings = {
+			infrastructure = 0
+		}
+	}
+}

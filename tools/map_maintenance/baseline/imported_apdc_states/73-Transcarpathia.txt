@@ -1,0 +1,30 @@
+state = {
+	id = 73
+	name = "STATE_73"
+	manpower = 854300
+	state_category = rural
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		victory_points = {
+			3548
+			1
+		}
+		victory_points = {
+			11691
+			2
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		3548
+		6571
+		9563
+		11536
+		11691
+	}
+	local_supplies = 0.0
+}

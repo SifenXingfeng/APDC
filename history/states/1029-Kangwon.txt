@@ -1,0 +1,38 @@
+state = {
+	id = 1029
+	name = "STATE_1029"
+	resources = {
+		tungsten = 7
+	}
+	provinces = {
+		1148
+		4004
+		7021
+		9936
+		12011
+	}
+	manpower = 948864
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = KOR
+		controller = KOR
+		add_core_of = KOR
+		victory_points = {
+			1148
+			1
+		}
+		victory_points = {
+			4004
+			3
+		}
+		victory_points = {
+			7021
+			2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

@@ -1,0 +1,88 @@
+state = {
+	id = 868
+	name = "STATE_868"
+	provinces = {
+		1357
+		1535
+		1548
+		4511
+		4582
+		7516
+		7601
+		10384
+		10411
+		10425
+		10438
+		12195
+		12264
+		12360
+		12373
+		12388
+		12402
+		12417
+		12431
+		19020
+		19022
+		19092
+		19094
+		19095
+		19106
+		19115
+		19137
+		19141
+		19148
+	}
+	history = {
+		owner = SIA
+		controller = SIA
+		add_core_of = SIA
+		victory_points = {
+			4511
+			1
+		}
+		victory_points = {
+			10425
+			1
+		}
+		victory_points = {
+			10438
+			1
+		}
+		victory_points = {
+			12388
+			3
+		}
+		victory_points = {
+			19022
+			1
+		}
+		victory_points = {
+			19092
+			1
+		}
+		victory_points = {
+			19106
+			3
+		}
+		victory_points = {
+			19115
+			3
+		}
+		victory_points = {
+			19137
+			1
+		}
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 1
+		}
+		set_state_flag = GDP_regions_isan
+	}
+	manpower = 1373994
+	resources = {
+		coal = 1
+	}
+	state_category = town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

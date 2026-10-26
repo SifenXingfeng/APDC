@@ -1,0 +1,28 @@
+--- before/common/military_industrial_organization/organizations/POR_organization.txt
++++ current/common/military_industrial_organization/organizations/POR_organization.txt
+@@ -47,7 +47,7 @@
+ 		tag = POR
+ 	}
+ 	available = { 
+-		owner = { has_completed_focus = POR_ogma }
++		owner = { always = no }
+ 	}
+ }
+ 
+@@ -88,7 +88,7 @@
+ 		tag = POR
+ 	}
+ 	available = { 
+-		owner = { has_completed_focus = POR_ogme }
++		owner = { always = no }
+ 	}
+ }
+ 
+@@ -101,6 +101,6 @@
+ 	}
+ 
+ 	available = { 
+-		owner = { has_completed_focus = POR_portuguese_artillery }
++		owner = { always = no }
+ 	}
+ }

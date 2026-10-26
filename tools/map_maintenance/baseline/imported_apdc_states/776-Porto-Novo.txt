@@ -1,0 +1,31 @@
+state = {
+	id = 776
+	name = "STATE_776"
+	provinces = {
+		10919
+		14236
+	}
+	manpower = 245739
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 1
+	history = {
+		owner = BEN
+		controller = BEN
+		add_core_of = BEN
+		victory_points = {
+			10919
+			10
+		}
+		victory_points = {
+			14236
+			3
+		}
+		buildings = {
+			infrastructure = 2
+			10919 = {
+				naval_base = 1
+			}
+		}
+	}
+}

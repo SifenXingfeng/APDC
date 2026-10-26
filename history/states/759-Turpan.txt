@@ -1,0 +1,30 @@
+state = {
+	id = 759
+	name = "STATE_759"
+	provinces = {
+		8086
+		19391
+		19407
+		19409
+		19417
+		19429
+	}
+	manpower = 109365
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 0
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+		}
+		set_variable = {
+			china_state_ref = 43
+		}
+		set_variable = {
+			china_region_ref = 5
+		}
+	}
+}

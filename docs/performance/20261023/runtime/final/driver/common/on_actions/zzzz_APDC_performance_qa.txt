@@ -1,0 +1,4 @@
+on_actions = {
+ on_startup = { effect = { log = "APDC_PERF START" } }
+ on_daily_GER = { effect = { log = "APDC_PERF DAY date=[GetDateText] ticks=[?APDC_eco_day_ticks] weeks=[?APDC_eco_week_ticks]" } }
+}

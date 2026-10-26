@@ -1,7 +1,9 @@
+# APDC: regular roster and production models available at scenario initialization.
+set_technology = { APDC_land_units_bootstrap = 1 }
 # Shared empty OOB preserves startup initialization until a country OOB is authored.
 set_oob = "APDC_empty"
 
-capital = 1300 #伦敦
+capital = 126 #伦敦
 
 starting_train_buffer = 4
 set_research_slots = 4
@@ -24,6 +26,3 @@ set_popularities = {
 }
 
 #非军事区
-120 = { set_demilitarized_zone = yes }
-337 = { set_demilitarized_zone = yes }
-1322 = { set_demilitarized_zone = yes }

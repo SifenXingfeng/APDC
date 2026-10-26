@@ -1,0 +1,20 @@
+APDC_units_testing = {
+    APDC_units_test_regular = {
+        icon = generic_army_support
+        visible = { is_ai = no }
+        available = { always = yes }
+        cost = 0
+        fire_only_once = yes
+        complete_effect = { country_event = { id = APDC_UNITS.1 } }
+        ai_will_do = { factor = 0 }
+    }
+    APDC_units_test_eggs = {
+        icon = generic_army_support
+        visible = { is_ai = no NOT = { has_tech = APDC_land_units_easter_eggs } }
+        available = { always = yes }
+        cost = 0
+        fire_only_once = yes
+        complete_effect = { set_technology = { APDC_land_units_easter_eggs = 1 popup = no } }
+        ai_will_do = { factor = 0 }
+    }
+}

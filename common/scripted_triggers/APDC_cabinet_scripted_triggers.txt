@@ -637,7 +637,7 @@ APDC_cabinet_candidate_1_enabled = {
 	APDC_is_communism_in_governing_coalition = yes
 	check_variable = { APDC_cabinet_used_communism < APDC_cabinet_available_communism }
 	has_political_power > 149
-	NOT = { has_idea = GER_APDC_romy_riefenstahl }
+	NOT = { always = no }
 	NOT = { APDC_cabinet_candidate_1_in_cabinet = yes }
 }
 
@@ -651,7 +651,7 @@ APDC_cabinet_candidate_2_enabled = {
 	APDC_is_communism_in_governing_coalition = yes
 	check_variable = { APDC_cabinet_used_communism < APDC_cabinet_available_communism }
 	has_political_power > 149
-	NOT = { has_idea = GER_APDC_eugene_rugosa }
+	NOT = { always = no }
 	NOT = { APDC_cabinet_candidate_2_in_cabinet = yes }
 }
 

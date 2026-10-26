@@ -1,51 +1,66 @@
 state = {
 	id = 162
 	name = "STATE_162"
-
+	manpower = 3084933
+	state_category = large_city
 	history = {
 		owner = ITA
+		controller = ITA
+		add_core_of = ITA
 		victory_points = {
-			9907 15
+			1616
+			1
 		}
 		victory_points = {
-			11833 10
+			6875
+			1
 		}
 		victory_points = {
-			6946 8
+			6946
+			1
 		}
 		victory_points = {
-			14650 5
+			6973
+			2
 		}
 		victory_points = {
-			1616 10
+			9879
+			1
 		}
 		victory_points = {
-			6875 5
+			9907
+			5
 		}
 		victory_points = {
-			910 6
-		}
-		victory_points = {
-			9879 7
+			11833
+			2
 		}
 		buildings = {
-			infrastructure = 5
-			radar_station = 1
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
 			dockyard = 3
 			air_base = 2
-			
+			6973 = {
+				naval_base = 10
+			}
 			11833 = {
 				naval_base = 4
 			}
 		}
-		add_core_of = ITA
 	}
-
 	provinces = {
-		910 1616 6875 6946 9879 9907 11833 11889 14650 14651 15192
+		910
+		1616
+		6875
+		6946
+		6973
+		9879
+		9907
+		11833
+		11889
+		14651
+		15192
 	}
-	manpower = 3286367
-	buildings_max_level_factor = 1.000
-	state_category = large_city
-	local_supplies = 0.000
+	local_supplies = 0.0
 }

@@ -1,0 +1,175 @@
+--- before/common/scripted_guis/APDC_economy_panel_ui.txt
++++ current/common/scripted_guis/APDC_economy_panel_ui.txt
+@@ -1,6 +1,7 @@
+ scripted_gui = {
+ APDC_eco_panel_ui = {
+ context_type = player_context
++dirty = APDC_eco_ui_revision
+ window_name = "APDC_eco_panel"
+ visible = { has_variable = APDC_eco_panel_open }
+ properties = {
+@@ -96,38 +97,72 @@
+ effects = {
+ APDC_eco_law_button_click = { set_variable = { APDC_eco_requested_law = APDC_eco_law_level }
+ APDC_eco_change_law = yes
+-APDC_eco_sync_ui = yes }
++APDC_eco_sync_ui = yes 
++add_to_variable = { APDC_eco_ui_revision = 1 }
++}
+ APDC_eco_eq_buy_click = { set_variable = { APDC_eco_purchase_id = APDC_eco_equipment_id }
+ set_variable = { APDC_eco_purchase_quantity = 1 }
+ set_variable = { APDC_eco_purchase_open = 1 }
+-APDC_eco_prepare_purchase = yes }
+-APDC_eco_back_click = { clear_variable = APDC_eco_panel_open clear_variable = APDC_eco_selected_group clear_variable = APDC_eco_purchase_open clear_variable = APDC_eco_trade_open }
++APDC_eco_prepare_purchase = yes 
++add_to_variable = { APDC_eco_ui_revision = 1 }
++}
++APDC_eco_back_click = { clear_variable = APDC_eco_panel_open clear_variable = APDC_eco_selected_group clear_variable = APDC_eco_purchase_open clear_variable = APDC_eco_trade_open 
++add_to_variable = { APDC_eco_ui_revision = 1 }
++}
+ APDC_eco_food_law_click = { set_variable = { APDC_eco_selected_group = 2 }
+- }
++ 
++add_to_variable = { APDC_eco_ui_revision = 1 }
++}
+ APDC_eco_education_law_click = { set_variable = { APDC_eco_selected_group = 3 }
+- }
++ 
++add_to_variable = { APDC_eco_ui_revision = 1 }
++}
+ APDC_eco_medical_law_click = { set_variable = { APDC_eco_selected_group = 4 }
+- }
++ 
++add_to_variable = { APDC_eco_ui_revision = 1 }
++}
+ APDC_eco_tax_law_click = { set_variable = { APDC_eco_selected_group = 1 }
+- }
++ 
++add_to_variable = { APDC_eco_ui_revision = 1 }
++}
+ APDC_eco_development_law_click = { set_variable = { APDC_eco_selected_group = 5 }
+- }
++ 
++add_to_variable = { APDC_eco_ui_revision = 1 }
++}
+ APDC_eco_research_law_click = { set_variable = { APDC_eco_selected_group = 6 }
+- }
++ 
++add_to_variable = { APDC_eco_ui_revision = 1 }
++}
+ APDC_eco_military_law_click = { set_variable = { APDC_eco_selected_group = 7 }
+- }
++ 
++add_to_variable = { APDC_eco_ui_revision = 1 }
++}
+ APDC_eco_investment_law_click = { set_variable = { APDC_eco_selected_group = 8 }
+- }
++ 
++add_to_variable = { APDC_eco_ui_revision = 1 }
++}
+ APDC_eco_distribution_law_click = { set_variable = { APDC_eco_selected_group = 9 }
+- }
++ 
++add_to_variable = { APDC_eco_ui_revision = 1 }
++}
+ APDC_eco_consumption_law_click = { set_variable = { APDC_eco_selected_group = 10 }
+- }
++ 
++add_to_variable = { APDC_eco_ui_revision = 1 }
++}
+ APDC_eco_public_plus_click = { add_to_variable = { APDC_eco_public_civ = 1 }
+-APDC_eco_refresh_current_supply = yes APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }
++APDC_eco_refresh_current_supply = yes APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes 
++add_to_variable = { APDC_eco_ui_revision = 1 }
++}
+ APDC_eco_public_minus_click = { add_to_variable = { APDC_eco_public_civ = -1 }
+-APDC_eco_refresh_current_supply = yes APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }
+-APDC_eco_trade_toggle_click = { if = { limit = { has_variable = APDC_eco_trade_open } clear_variable = APDC_eco_trade_open set_variable = { APDC_eco_trade_toggle_frame = 1 } } else = { set_variable = { APDC_eco_trade_open = 1 } set_variable = { APDC_eco_trade_toggle_frame = 2 } } }
+-APDC_eco_law_close_click = { clear_variable = APDC_eco_selected_group }
++APDC_eco_refresh_current_supply = yes APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes 
++add_to_variable = { APDC_eco_ui_revision = 1 }
++}
++APDC_eco_trade_toggle_click = { if = { limit = { has_variable = APDC_eco_trade_open } clear_variable = APDC_eco_trade_open set_variable = { APDC_eco_trade_toggle_frame = 1 } } else = { set_variable = { APDC_eco_trade_open = 1 } set_variable = { APDC_eco_trade_toggle_frame = 2 } } 
++add_to_variable = { APDC_eco_ui_revision = 1 }
++}
++APDC_eco_law_close_click = { clear_variable = APDC_eco_selected_group 
++add_to_variable = { APDC_eco_ui_revision = 1 }
++}
+ }
+ dynamic_lists = {
+ APDC_eco_law_list = {
+@@ -145,51 +180,74 @@
+ }
+ APDC_eco_purchase_ui = {
+ context_type = player_context
++dirty = APDC_eco_ui_revision
+ window_name = "APDC_eco_purchase"
+ visible = { has_variable = APDC_eco_panel_open has_variable = APDC_eco_purchase_open }
+ effects = {
+ APDC_eco_qty_add_1_click = {
+ add_to_variable = { APDC_eco_purchase_quantity = 1 }
+ APDC_eco_prepare_purchase = yes
++
++add_to_variable = { APDC_eco_ui_revision = 1 }
+ }
+ APDC_eco_qty_remove_1_click = {
+ add_to_variable = { APDC_eco_purchase_quantity = -1 }
+ APDC_eco_prepare_purchase = yes
++
++add_to_variable = { APDC_eco_ui_revision = 1 }
+ }
+ APDC_eco_qty_add_10_click = {
+ add_to_variable = { APDC_eco_purchase_quantity = 10 }
+ APDC_eco_prepare_purchase = yes
++
++add_to_variable = { APDC_eco_ui_revision = 1 }
+ }
+ APDC_eco_qty_remove_10_click = {
+ add_to_variable = { APDC_eco_purchase_quantity = -10 }
+ APDC_eco_prepare_purchase = yes
++
++add_to_variable = { APDC_eco_ui_revision = 1 }
+ }
+ APDC_eco_qty_add_100_click = {
+ add_to_variable = { APDC_eco_purchase_quantity = 100 }
+ APDC_eco_prepare_purchase = yes
++
++add_to_variable = { APDC_eco_ui_revision = 1 }
+ }
+ APDC_eco_qty_remove_100_click = {
+ add_to_variable = { APDC_eco_purchase_quantity = -100 }
+ APDC_eco_prepare_purchase = yes
++
++add_to_variable = { APDC_eco_ui_revision = 1 }
+ }
+ APDC_eco_qty_add_1000_click = {
+ add_to_variable = { APDC_eco_purchase_quantity = 1000 }
+ APDC_eco_prepare_purchase = yes
++
++add_to_variable = { APDC_eco_ui_revision = 1 }
+ }
+ APDC_eco_qty_remove_1000_click = {
+ add_to_variable = { APDC_eco_purchase_quantity = -1000 }
+ APDC_eco_prepare_purchase = yes
++
++add_to_variable = { APDC_eco_ui_revision = 1 }
+ }
+ APDC_eco_qty_max_click = {
+ set_variable = { APDC_eco_purchase_quantity = APDC_eco_purchase_stock }
+ APDC_eco_prepare_purchase = yes
++
++add_to_variable = { APDC_eco_ui_revision = 1 }
+ }
+ APDC_eco_purchase_close_click = {
+ clear_variable = APDC_eco_purchase_open
++
++add_to_variable = { APDC_eco_ui_revision = 1 }
+ }
+ APDC_eco_purchase_accept_click = {
+ APDC_eco_purchase_equipment = yes
+ APDC_eco_sync_ui = yes
++
++add_to_variable = { APDC_eco_ui_revision = 1 }
+ }
+ 
+ }

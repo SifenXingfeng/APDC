@@ -1,0 +1,36 @@
+state = {
+	id = 1020
+	name = "STATE_1020"
+	manpower = 1111000
+	state_category = rural
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = JAP
+		add_core_of = ZZZ
+		victory_points = {
+			1167
+			2
+		}
+		victory_points = {
+			7145
+			2
+		}
+		victory_points = {
+			10055
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		1167
+		1191
+		7050
+		7145
+		10055
+	}
+	local_supplies = 0.0
+}

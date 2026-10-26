@@ -1,0 +1,36 @@
+state = {
+	id = 209
+	name = "STATE_209"
+	provinces = {
+		264
+		415
+		3310
+		3333
+		9120
+		9408
+		11097
+		11202
+		11392
+		13127
+		15987
+		18283
+		18353
+	}
+	manpower = 531574
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = SOV
+		add_core_of = ZZZ
+		victory_points = {
+			11202
+			2
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}

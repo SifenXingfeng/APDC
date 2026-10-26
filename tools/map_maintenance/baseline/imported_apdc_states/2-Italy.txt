@@ -1,0 +1,80 @@
+state = {
+	id = 2
+	name = "STATE_2"
+	manpower = 2781971
+	state_category = city
+	history = {
+		owner = ITA
+		controller = ITA
+		add_core_of = ITA
+		victory_points = {
+			3885
+			1
+		}
+		victory_points = {
+			9904
+			1
+		}
+		victory_points = {
+			11751
+			1
+		}
+		victory_points = {
+			11846
+			1
+		}
+		victory_points = {
+			13413
+			2
+		}
+		victory_points = {
+			14478
+			20
+		}
+		victory_points = {
+			14652
+			1
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 8
+			arms_factory = 1
+			industrial_complex = 4
+			11751 = {
+				naval_base = 5
+			}
+			11846 = {
+				naval_base = 2
+			}
+			13413 = {
+				naval_base = 1
+			}
+			9904 = {
+				landmark_colosseum = {
+					level = 1
+					allowed = {
+						has_dlc = "Gotterdammerung"
+					}
+				}
+			}
+		}
+	}
+	provinces = {
+		923
+		3885
+		6862
+		9750
+		9794
+		9904
+		11751
+		11846
+		11882
+		13413
+		14652
+		14653
+		14654
+		14655
+		14478
+	}
+	local_supplies = 0.0
+}

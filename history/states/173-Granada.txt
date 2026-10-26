@@ -2,44 +2,59 @@ state = {
 	id = 173
 	name = "STATE_173"
 	resources = {
-		steel = 16.000
+		steel = 8.000
 	}
-
 	history = {
 		owner = SPR
+		controller = SPR
+		add_core_of = SPR
 		victory_points = {
-			9979 15
+			747
+			3
 		}
 		victory_points = {
-			1176 10
+			1176
+			3
 		}
 		victory_points = {
-			7068 3
+			9979
+			5
 		}
 		victory_points = {
-			7153 3
-		}
-		victory_points = {
-			10063 2
+			12038
+			2
 		}
 		buildings = {
-			
-			
-			infrastructure = 5
+			infrastructure = 3
+			industrial_complex = 2
 			air_base = 4
 			9979 = {
 				naval_base = 2
 			}
+			12038 = {
+				naval_base = 1
+			}
 		}
-		add_core_of = SPR
 		set_state_flag = GDP_category_town
 	}
-
 	provinces = {
-		1090 1176 1192 7068 7153 9979 10009 10063
+		747
+		1090
+		1176
+		1192
+		4065
+		7068
+		7153
+		7196
+		9979
+		10009
+		10063
+		11956
+		12038
+		13228
 	}
-	manpower = 1567364
+	manpower = 1662292
 	buildings_max_level_factor = 1.000
-	state_category = large_town
-	local_supplies = 0.000
+	state_category = city
+	local_supplies = 6.0
 }

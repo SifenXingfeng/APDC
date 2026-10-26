@@ -1,0 +1,31 @@
+state = {
+	id = 1202
+	name = "STATE_1202"
+	provinces = {
+		6636
+		8153
+		11919
+	}
+	manpower = 368000
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+	history = {
+		owner = ISR
+		controller = ISR
+		add_core_of = ISR
+		victory_points = {
+			6636
+			1
+		}
+		victory_points = {
+			11919
+			3
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 5
+		}
+		set_state_flag = state_renamings
+	}
+}

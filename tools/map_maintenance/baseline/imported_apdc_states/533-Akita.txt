@@ -1,0 +1,48 @@
+state = {
+	id = 533
+	name = "STATE_533"
+	resources = {
+		steel = 4
+		oil = 1
+		coal = 1
+	}
+	provinces = {
+		6873
+		6994
+		9859
+		9865
+		11847
+		19457
+		19626
+	}
+	manpower = 2876563
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 9
+	history = {
+		owner = EZO
+		controller = EZO
+		add_core_of = EZO
+		add_core_of = JAP
+		victory_points = {
+			6994
+			2
+		}
+		victory_points = {
+			19457
+			2
+		}
+		victory_points = {
+			19626
+			2
+		}
+		buildings = {
+			industrial_complex = 1
+			fuel_silo = 1
+			infrastructure = 2
+			9859 = {
+				naval_base = 6
+			}
+		}
+	}
+}

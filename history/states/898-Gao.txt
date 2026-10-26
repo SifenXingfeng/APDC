@@ -1,0 +1,36 @@
+state = {
+	id = 898
+	name = "STATE_898"
+	provinces = {
+		2047
+		2068
+		5101
+		14212
+		14214
+		14228
+		14230
+		14255
+	}
+	manpower = 166493
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 0
+	history = {
+		owner = ISP
+		controller = ISP
+		add_core_of = ISP
+		add_core_of = JNM
+		add_core_of = MLI
+		victory_points = {
+			2068
+			1
+		}
+		victory_points = {
+			14212
+			2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

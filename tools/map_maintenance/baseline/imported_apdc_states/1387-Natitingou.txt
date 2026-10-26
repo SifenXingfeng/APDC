@@ -1,0 +1,39 @@
+state = {
+	id = 1387
+	name = "STATE_1387"
+	provinces = {
+		7424
+		12762
+		12874
+		14104
+		14117
+	}
+	manpower = 614347
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+	history = {
+		owner = BEN
+		controller = BEN
+		add_core_of = BEN
+		victory_points = {
+			7424
+			1
+		}
+		victory_points = {
+			12762
+			2
+		}
+		victory_points = {
+			12874
+			2
+		}
+		victory_points = {
+			14104
+			1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

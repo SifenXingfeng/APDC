@@ -1,0 +1,30 @@
+state = {
+	id = 1301
+	name = "STATE_1301"
+	provinces = {
+		14
+		144
+		9174
+		9204
+		11029
+		18384
+	}
+	manpower = 373124
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = large_town
+	history = {
+		owner = NOR
+		controller = NOR
+		add_core_of = NOR
+		victory_points = {
+			18384
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 4
+			dockyard = 1
+		}
+	}
+}

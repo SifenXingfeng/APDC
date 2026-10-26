@@ -1,0 +1,36 @@
+state = {
+	id = 753
+	name = "STATE_753"
+	provinces = {
+		1257
+		4375
+		4403
+		9966
+		10132
+		14676
+		15522
+		19636
+		19682
+		19718
+		19742
+	}
+	manpower = 3419144
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 1
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = GDP_regions_chuanxi
+		set_variable = {
+			china_state_ref = 17
+		}
+		set_variable = {
+			china_region_ref = 2
+		}
+	}
+}

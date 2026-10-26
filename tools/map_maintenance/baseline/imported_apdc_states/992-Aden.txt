@@ -1,0 +1,33 @@
+state = {
+	id = 992
+	name = "STATE_992"
+	state_category = rural
+	manpower = 80516
+	history = {
+		owner = YEM
+		controller = YEM
+		add_core_of = YEM
+		victory_points = {
+			5074
+			5
+		}
+		victory_points = {
+			13374
+			3
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			5074 = {
+				naval_base = 1
+			}
+		}
+		set_state_flag = state_renamings
+	}
+	provinces = {
+		5074
+		13374
+	}
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

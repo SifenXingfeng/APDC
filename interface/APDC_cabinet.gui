@@ -6691,7 +6691,7 @@ guiTypes = {
 		iconType = { name = "APDC_top_fundamentalism_ruling_underline" position = { x = 914 y = 191 } spriteType = "GFX_leading_pol_party_bg" scale = 0.72 alwaystransparent = yes }
 		iconType = { name = "APDC_top_fundamentalism_swatch" position = { x = 900 y = 191 } spriteType = "GFX_APDC_cabinet_ideology_swatch" frame = 9 alwaystransparent = yes }
 		instantTextboxType = { name = "APDC_top_fundamentalism_name" position = { x = 917 y = 189 } font = "APDC_cabinet_18" text = "APDC_CABINET_PARTY_FUNDAMENTALISM_COLORED" maxWidth = 150 maxHeight = 17 format = left alwaystransparent = yes }
-		buttonType = { name = "APDC_cabinet_panel_close" position = { x = -50 y = 12 } quadTextureSprite = "GFX_closebutton" Orientation = "UPPER_RIGHT" shortcut = "ESCAPE" clicksound = click_close pdx_tooltip = "APDC_CABINET_PANEL_CLOSE_TOOLTIP" }
+		buttonType = { name = "APDC_cabinet_panel_close" position = { x = 12 y = 11 } size = { x = 96 y = 47 } spriteType = "GFX_APDC_custom_panel_exit" shortcut = "ESCAPE" clicksound = click_close pdx_tooltip = "APDC_CABINET_PANEL_CLOSE_TOOLTIP" }
 		iconType = { name = "APDC_cabinet_footer_background" position = { x = 16 y = 909 } spriteType = "GFX_APDC_cabinet_panel_footer" alwaystransparent = yes }
 		buttonType = { name = "APDC_cabinet_dismiss_member" position = { x = 466 y = 925 } spriteType = "GFX_button_148x34" buttonText = "APDC_CABINET_DISMISS_MEMBER" buttonFont = "hoi_18mbs" clicksound = click_default pdx_tooltip = "APDC_CABINET_DISMISS_TOOLTIP" }
 	}

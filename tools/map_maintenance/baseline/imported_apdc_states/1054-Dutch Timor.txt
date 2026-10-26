@@ -1,0 +1,38 @@
+state = {
+	id = 1054
+	name = "STATE_1054"
+	resources = {
+	}
+	history = {
+		owner = INS
+		controller = INS
+		add_core_of = TML
+		victory_points = {
+			1339
+			2
+		}
+		victory_points = {
+			1355
+			5
+		}
+		victory_points = {
+			4358
+			2
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			1355 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		1339
+		1355
+		4358
+	}
+	manpower = 216435
+	state_category = small_island
+	local_supplies = 0.0
+}

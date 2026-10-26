@@ -1,0 +1,10 @@
+on_actions = { on_daily_GER = { effect = { if = { limit = { NOT = { has_country_flag = QA_visibility_done } } set_country_flag = QA_visibility_done
+if = { limit = { has_allowed_idea_with_traits = { idea = science_idea limit = 4 characters = no } } log = "APDC_VISIBILITY PASS science_five_listed" } else = { log = "APDC_VISIBILITY FAIL science_five_listed" }
+if = { limit = { NOT = { has_available_idea_with_traits = { idea = science_idea limit = 0 characters = no } } } log = "APDC_VISIBILITY PASS science_selection_locked" } else = { log = "APDC_VISIBILITY FAIL science_selection_locked" }
+if = { limit = { has_allowed_idea_with_traits = { idea = society_idea limit = 4 characters = no } } log = "APDC_VISIBILITY PASS society_five_listed" } else = { log = "APDC_VISIBILITY FAIL society_five_listed" }
+if = { limit = { NOT = { has_available_idea_with_traits = { idea = society_idea limit = 0 characters = no } } } log = "APDC_VISIBILITY PASS society_selection_locked" } else = { log = "APDC_VISIBILITY FAIL society_selection_locked" }
+if = { limit = { has_allowed_idea_with_traits = { idea = poverty_idea limit = 4 characters = no } } log = "APDC_VISIBILITY PASS defense_five_listed" } else = { log = "APDC_VISIBILITY FAIL defense_five_listed" }
+if = { limit = { NOT = { has_available_idea_with_traits = { idea = poverty_idea limit = 0 characters = no } } } log = "APDC_VISIBILITY PASS defense_selection_locked" } else = { log = "APDC_VISIBILITY FAIL defense_selection_locked" }
+if = { limit = { num_of_civilian_factories_available_for_projects > 0 } log = "APDC_VISIBILITY PASS civilian_factories_available" } else = { log = "APDC_VISIBILITY FAIL civilian_factories_available" }
+log = "APDC_VISIBILITY FACTORIES total=[?num_of_civilian_factories] free=[?num_of_civilian_factories_available_for_projects] allocated=[?APDC_eco_public_civ]"
+ } log = "APDC_VISIBILITY DAY date=[GetDateText]" } } }

@@ -1,0 +1,38 @@
+state = {
+	id = 1504
+	name = "STATE_1504"
+	provinces = {
+		8164
+		11014
+		13975
+		15536
+	}
+	manpower = 291520
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = SOM
+		controller = SOM
+		add_core_of = SOM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			8164
+			2
+		}
+		victory_points = {
+			13975
+			1
+		}
+		victory_points = {
+			15536
+			3
+		}
+		victory_points = {
+			11014
+			2
+		}
+	}
+}

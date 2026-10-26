@@ -3,29 +3,17 @@ state = {
 	name = "STATE_637"
 	history = {
 		owner = SOV
-		buildings = {
-			infrastructure = 2
-			dockyard = 2
-			7878 = {
-				naval_base = 5
-			}
-			12207 = {
-				naval_base = 1
-			}
-			air_base = 1
-		}
+		controller = SOV
 		add_core_of = SOV
 		victory_points = {
 			7878
-			8
+			2
 		}
-		victory_points = {
-			1863
-			1
-		}
-		victory_points = {
-			4728
-			1
+		buildings = {
+			infrastructure = 1
+			12207 = {
+				naval_base = 1
+			}
 		}
 	}
 	provinces = {
@@ -33,20 +21,18 @@ state = {
 		1839
 		1863
 		4728
-		4744
-		5738
-		5936
-		5972
-		7710
 		7878
-		8437
-		8654
 		12207
 		12522
+		8437
 		16964
+		5936
+		8654
+		5972
+		4744
 	}
-	manpower = 231435
+	manpower = 48831
 	buildings_max_level_factor = 1
-	state_category = rural
-	local_supplies = 0
+	state_category = "pastoral"
+	local_supplies = 0.0
 }

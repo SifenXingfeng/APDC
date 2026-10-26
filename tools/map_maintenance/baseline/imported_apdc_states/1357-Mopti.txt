@@ -1,0 +1,35 @@
+state = {
+	id = 1357
+	name = "STATE_1357"
+	provinces = {
+		8116
+		14172
+		14195
+		14196
+		14430
+		15912
+		15913
+	}
+	manpower = 423281
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = wasteland
+	history = {
+		owner = JNM
+		controller = JNM
+		add_core_of = ISP
+		add_core_of = JNM
+		add_core_of = MLI
+		victory_points = {
+			8116
+			2
+		}
+		victory_points = {
+			14172
+			1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

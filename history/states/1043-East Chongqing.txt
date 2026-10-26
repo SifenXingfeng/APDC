@@ -1,0 +1,84 @@
+state = {
+	id = 1043
+	name = "STATE_1043"
+	resources = {
+		steel = 5
+	}
+	provinces = {
+		4041
+		7948
+		10144
+		10304
+		10822
+		11865
+		15708
+		19496
+		19535
+		19645
+		19649
+		19651
+		19690
+		19764
+	}
+	manpower = 1362219
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			4041
+			3
+		}
+		victory_points = {
+			7948
+			1
+		}
+		victory_points = {
+			11865
+			2
+		}
+		victory_points = {
+			15708
+			1
+		}
+		victory_points = {
+			19496
+			5
+		}
+		victory_points = {
+			19535
+			2
+		}
+		victory_points = {
+			19645
+			1
+		}
+		victory_points = {
+			19649
+			2
+		}
+		victory_points = {
+			19651
+			1
+		}
+		victory_points = {
+			19690
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		set_state_flag = GDP_regions_chuandong
+		set_variable = {
+			china_state_ref = 16
+		}
+		set_variable = {
+			china_region_ref = 2
+		}
+		set_state_flag = GDP_category_town
+	}
+}

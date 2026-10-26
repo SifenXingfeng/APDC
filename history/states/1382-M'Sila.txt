@@ -1,0 +1,41 @@
+state = {
+	id = 1382
+	name = "STATE_1382"
+	provinces = {
+		7033
+		10059
+		13077
+		18044
+	}
+	manpower = 422612
+	resources = {
+		steel = 2
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+	history = {
+		owner = AGR
+		controller = AGR
+		add_core_of = AGR
+		victory_points = {
+			7033
+			2
+		}
+		victory_points = {
+			10059
+			2
+		}
+		victory_points = {
+			13077
+			3
+		}
+		victory_points = {
+			18044
+			1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

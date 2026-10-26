@@ -1,0 +1,54 @@
+state = {
+	id = 1076
+	name = "STATE_1076"
+	state_category = metropolis
+	local_supplies = 1
+	manpower = 2314096
+	history = {
+		owner = SIA
+		controller = SIA
+		add_core_of = SIA
+		victory_points = {
+			1427
+			2
+		}
+		victory_points = {
+			7408
+			50
+		}
+		victory_points = {
+			10250
+			3
+		}
+		victory_points = {
+			12224
+			1
+		}
+		victory_points = {
+			19111
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			7408 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces = {
+		1427
+		7408
+		10250
+		12224
+		19090
+		19111
+		19125
+		19136
+		19153
+		19154
+	}
+}

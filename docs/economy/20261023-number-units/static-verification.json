@@ -1,0 +1,34 @@
+{
+  "units": [
+    "",
+    "K",
+    "M",
+    "B",
+    "T",
+    "Qa",
+    "Qi",
+    "Sx",
+    "Sp",
+    "Oc",
+    "No",
+    "Dc"
+  ],
+  "factor": 1000,
+  "decimals": 2,
+  "negative_uses_absolute_magnitude": true,
+  "preserves_two_part_currency_precision": true,
+  "shared_main_and_tooltip_format": true,
+  "no_fixed_m_currency_or_consumer_widgets": true,
+  "protected_game_logic_unchanged": [
+    "common/ideas/APDC_economy_laws.txt",
+    "common/ideas/_economic.txt",
+    "common/dynamic_modifiers/APDC_economy_dynamic_modifiers.txt",
+    "common/scripted_effects/APDC_economy_backend.txt",
+    "common/scripted_effects/APDC_economy_market.txt",
+    "common/scripted_effects/APDC_economy_equipment.txt",
+    "common/on_actions/zz_APDC_economy.txt"
+  ],
+  "gui_geometry_and_gfx_unchanged": true,
+  "python_compile_passed": true,
+  "visual_verified": false
+}

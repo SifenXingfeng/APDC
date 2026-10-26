@@ -1,0 +1,30 @@
+state = {
+	id = 1221
+	name = "STATE_1221"
+	provinces = {
+		13616
+		18753
+		18780
+	}
+	manpower = 99593
+	resources = {
+		chromium = 1
+		oil = 2
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+	history = {
+		owner = PER
+		controller = PER
+		add_core_of = PER
+		victory_points = {
+			18753
+			1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = GDP_category_town
+	}
+}

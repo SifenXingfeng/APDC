@@ -1,0 +1,81 @@
+state = {
+	id = 425
+	name = "STATE_425"
+	manpower = 6552000
+	state_category = rural
+	resources = {
+		chromium = 10
+		steel = 12
+	}
+	history = {
+		owner = PAK
+		controller = PAK
+		add_core_of = MYS
+		victory_points = {
+			1412
+			3
+		}
+		victory_points = {
+			4315
+			10
+		}
+		victory_points = {
+			4344
+			1
+		}
+		victory_points = {
+			7244
+			5
+		}
+		victory_points = {
+			7395
+			3
+		}
+		victory_points = {
+			8011
+			50
+		}
+		victory_points = {
+			8100
+			1
+		}
+		victory_points = {
+			10208
+			5
+		}
+		victory_points = {
+			12146
+			3
+		}
+		victory_points = {
+			18874
+			1
+		}
+		victory_points = {
+			19005
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			7244 = {
+				naval_base = 1
+			}
+		}
+		set_state_flag = GDP_regions_karnataka
+	}
+	provinces = {
+		1412
+		4315
+		4344
+		7244
+		7395
+		8011
+		8100
+		10208
+		12146
+		18874
+		19005
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,61 @@
+state = {
+	id = 869
+	name = "STATE_869"
+	provinces = {
+		1253
+		1488
+		1990
+		4496
+		7353
+		7492
+		7531
+		7675
+		8045
+		10371
+		19050
+		19051
+		19066
+		19069
+		19071
+		19079
+		19093
+		19124
+		19159
+		19160
+	}
+	history = {
+		owner = SIA
+		controller = SIA
+		add_core_of = SIA
+		victory_points = {
+			1488
+			5
+		}
+		victory_points = {
+			7531
+			2
+		}
+		victory_points = {
+			19079
+			2
+		}
+		victory_points = {
+			19124
+			1
+		}
+		victory_points = {
+			19159
+			2
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower = 2000000
+	resources = {
+		coal = 1
+	}
+	state_category = town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

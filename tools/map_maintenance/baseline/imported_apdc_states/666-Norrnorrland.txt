@@ -1,0 +1,34 @@
+state = {
+	id = 666
+	name = "STATE_666"
+	resources = {
+		tungsten = 9
+		steel = 10
+		chromium = 5
+	}
+	provinces = {
+		61
+		151
+		201
+		6168
+		6170
+		6208
+		11060
+		11208
+		18360
+		18367
+	}
+	manpower = 19651
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = NOR
+		controller = NOR
+		add_core_of = NOR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+}

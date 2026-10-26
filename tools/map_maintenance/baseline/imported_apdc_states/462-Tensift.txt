@@ -1,0 +1,48 @@
+state = {
+	id = 462
+	name = "STATE_462"
+	provinces = {
+		1102
+		4108
+		4139
+		11943
+		18096
+		18099
+		18102
+	}
+	manpower = 445903
+	resources = {
+		chromium = 1
+	}
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 0
+	history = {
+		owner = MOR
+		controller = MOR
+		add_core_of = MOR
+		victory_points = {
+			4108
+			10
+		}
+		victory_points = {
+			4139
+			1
+		}
+		victory_points = {
+			11943
+			3
+		}
+		victory_points = {
+			18096
+			1
+		}
+		victory_points = {
+			18099
+			2
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

@@ -1,29 +1,46 @@
 state = {
 	id = 591
 	name = "STATE_591"
-
+	provinces = {
+		1038
+		1070
+		8347
+		8448
+		8851
+	}
+	manpower = 1581818
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 1
 	history = {
 		owner = PRC
+		controller = PRC
 		add_core_of = PRC
 		victory_points = {
-			8851 17
+			1038
+			3
+		}
+		victory_points = {
+			1070
+			10
+		}
+		victory_points = {
+			8347
+			2
+		}
+		victory_points = {
+			8448
+			1
+		}
+		victory_points = {
+			8851
+			1
 		}
 		buildings = {
-			infrastructure = 4
-			radar_station = 2
-			air_base = 1
-
-			8851 = {
-				naval_base = 5
+			infrastructure = 1
+			1070 = {
+				naval_base = 2
 			}
 		}
 	}
-
-	provinces = {
-		1070 8448 8851
-	}
-	manpower = 1121849
-	buildings_max_level_factor = 1.000
-	state_category = rural
-	local_supplies = 0.000
 }

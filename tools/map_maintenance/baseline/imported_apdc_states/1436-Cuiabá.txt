@@ -1,0 +1,35 @@
+state = {
+	id = 1436
+	name = "STATE_1436"
+	provinces = {
+		2111
+		2142
+		5148
+		17407
+		17469
+	}
+	manpower = 42857
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = BRA
+		controller = BRA
+		add_core_of = BRA
+		victory_points = {
+			2111
+			5
+		}
+		victory_points = {
+			2142
+			1
+		}
+		victory_points = {
+			5148
+			3
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

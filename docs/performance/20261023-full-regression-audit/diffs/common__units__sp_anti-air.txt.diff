@@ -1,0 +1,18 @@
+--- before/common/units/sp_anti-air.txt
++++ current/common/units/sp_anti-air.txt
+@@ -5,10 +5,13 @@
+ 
+ sub_units = {
+ 
+-	sp_anti_air = {
++	
++
++# Inactive identifiers required by retained engine interfaces.
++sp_anti_air = {
+ 		abbreviation = "SAS"
+ 		sprite = medium_armor
+-		map_icon_category = armored
++		
+ 		priority = 301
+ 		ai_priority = 100
+ 		active = no

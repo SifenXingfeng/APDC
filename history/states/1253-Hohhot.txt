@@ -1,0 +1,72 @@
+state = {
+	id = 1253
+	name = "STATE_1253"
+	provinces = {
+		2087
+		4525
+		7631
+		10424
+		10629
+		12609
+		12880
+		15196
+		16863
+		17214
+		19415
+		19502
+		19541
+		19563
+		19595
+	}
+	manpower = 1318417
+	resources = {
+		coal = 6
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			7631
+			1
+		}
+		victory_points = {
+			10424
+			1
+		}
+		victory_points = {
+			15196
+			1
+		}
+		victory_points = {
+			16863
+			15
+		}
+		victory_points = {
+			17214
+			1
+		}
+		victory_points = {
+			19415
+			1
+		}
+		victory_points = {
+			19502
+			10
+		}
+		victory_points = {
+			19541
+			1
+		}
+		victory_points = {
+			19563
+			3
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

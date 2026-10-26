@@ -1,0 +1,78 @@
+# Allows you to create your own dynamic keys
+# to be called in localization.
+# defined_text -> this is it, we're defining the text
+# text -> a discrete entry that can be picked to display in loc.
+# trigger -> determines if a text entry will be picked or not.
+# (The triggers need to be valid for the scope the key is called in
+# (eg Root or From.From).)
+# localization_key -> points to the localization key
+# that'll be used if trigger passes
+
+
+
+
+
+
+
+
+
+
+
+
+
+defined_text = { #Used to change a propaganda campaign GFX, so that it looks aged.
+	name = SIA_GetPropagandaLeftSlotAge
+	text = {
+		trigger = {
+			has_country_flag = SIA_propaganda_left_slot_is_old_flag
+		}
+		localization_key = GFX_SIA_propaganda_strip_aged_1
+	}
+	text = {
+		localization_key = GFX_SIA_propaganda_strip
+	}
+}
+
+defined_text = { #Used to change a propaganda campaign GFX, so that it looks aged.
+	name = SIA_GetPropagandaCenterSlotAge
+	text = {
+		trigger = {
+			has_country_flag = SIA_propaganda_center_slot_is_old_flag
+		}
+		localization_key = GFX_SIA_propaganda_strip_aged_2
+	}
+	text = {
+		localization_key = GFX_SIA_propaganda_strip
+	}
+}
+
+defined_text = { #Used to change a propaganda campaign GFX, so that it looks aged.
+	name = SIA_GetPropagandaRightSlotAge
+	text = {
+		trigger = {
+			has_country_flag = SIA_propaganda_right_slot_is_old_flag
+		}
+		localization_key = GFX_SIA_propaganda_strip_aged_3
+	}
+	text = {
+		localization_key = GFX_SIA_propaganda_strip
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+state = {
+	id = 541
+	name = "STATE_541"
+	manpower = 254100
+	state_category = pastoral
+	history = {
+		owner = NMB
+		controller = NMB
+		add_core_of = NMB
+		victory_points = {
+			2207
+			1
+		}
+		victory_points = {
+			4879
+			5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		2207
+		4879
+		7770
+		13630
+		13647
+		13652
+		13661
+		13663
+		13664
+		13679
+		13684
+		17916
+	}
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

@@ -1,0 +1,26 @@
+--- before/interface/APDC_cooperation_organizations.gfx
++++ current/interface/APDC_cooperation_organizations.gfx
+@@ -21,18 +21,22 @@
+ 		textureFile = "gfx/interface/APDC/cooperation_organizations/no_cooperation_organization.dds"
+ 	}
+ 
+-	# Cooperation-organization flags omit textureFile1 to remove the vanilla
++	# Cooperation-organization flags use a transparent textureFile1 to remove the vanilla
+ 	# scanline/drape overlay while textureFile2 keeps the rectangular mask.
+ 	# Small flags use an APDC shader that clamps sampling to their own atlas cell;
+ 	# APDC frames remain separate GUI layers.
++	# GUI users explicitly set centerposition = yes to preserve the center origin
++	# used by the former overlay-free shields.
+ 	maskedShieldType = {
+ 		name = "GFX_APDC_cooperation_organization_flag_medium_unfiltered"
++		textureFile1 = "gfx/interface/APDC/cooperation_organizations/transparent_overlay_medium.tga"
+ 		textureFile2 = "gfx/interface/shield_medium_mask.tga"
+ 		effectFile = "gfx/FX/maskedflag.lua"
+ 	}
+ 
+ 	maskedShieldType = {
+ 		name = "GFX_APDC_cooperation_organization_flag_small_unfiltered"
++		textureFile1 = "gfx/interface/APDC/cooperation_organizations/transparent_overlay_small.tga"
+ 		textureFile2 = "gfx/interface/shield_small_mask.tga"
+ 		effectFile = "gfx/FX/APDC_maskedflag_plain_small.shader"
+ 	}

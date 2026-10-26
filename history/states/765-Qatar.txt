@@ -1,0 +1,31 @@
+state = {
+	id = 765
+	name = "STATE_765"
+	manpower = 51600
+	state_category = pastoral
+	history = {
+		owner = QAT
+		controller = QAT
+		add_core_of = QAT
+		victory_points = {
+			8051
+			15
+		}
+		victory_points = {
+			15807
+			1
+		}
+		buildings = {
+			infrastructure = 1
+			8051 = {
+				naval_base = 2
+			}
+		}
+		add_extra_state_shared_building_slots = 1
+	}
+	provinces = {
+		8051
+		15807
+	}
+	local_supplies = 0.0
+}

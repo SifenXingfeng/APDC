@@ -1,0 +1,481 @@
+[
+  {
+    "unit": "apdc_militia",
+    "model": "infantry",
+    "entity": "apdc_militia_entity"
+  },
+  {
+    "unit": "apdc_infantry",
+    "model": "infantry",
+    "entity": "apdc_infantry_entity"
+  },
+  {
+    "unit": "apdc_motorized",
+    "model": [
+      "truck",
+      "infantry"
+    ],
+    "entity": "apdc_motorized_entity"
+  },
+  {
+    "unit": "apdc_wheeled_mechanized",
+    "model": "wheeled",
+    "entity": "apdc_wheeled_mechanized_entity"
+  },
+  {
+    "unit": "apdc_tracked_mechanized",
+    "model": "tracked",
+    "entity": "apdc_tracked_mechanized_entity"
+  },
+  {
+    "unit": "apdc_national_gendarmerie",
+    "model": "infantry",
+    "entity": "apdc_national_gendarmerie_entity"
+  },
+  {
+    "unit": "apdc_heavy_infantry",
+    "model": "infantry",
+    "entity": "apdc_heavy_infantry_entity"
+  },
+  {
+    "unit": "apdc_mountaineers",
+    "model": "infantry",
+    "entity": "apdc_mountaineers_entity"
+  },
+  {
+    "unit": "apdc_air_assault",
+    "model": [
+      "helo",
+      "infantry"
+    ],
+    "entity": "apdc_air_assault_entity"
+  },
+  {
+    "unit": "apdc_paratrooper",
+    "model": "infantry",
+    "entity": "apdc_paratrooper_entity"
+  },
+  {
+    "unit": "apdc_airborne_mechanized",
+    "model": "tracked",
+    "entity": "apdc_airborne_mechanized_entity"
+  },
+  {
+    "unit": "apdc_marine",
+    "model": "infantry",
+    "entity": "apdc_marine_entity"
+  },
+  {
+    "unit": "apdc_amphibious_mechanized",
+    "model": "amphib_mech",
+    "entity": "apdc_amphibious_mechanized_entity"
+  },
+  {
+    "unit": "apdc_rangers",
+    "model": "infantry",
+    "entity": "apdc_rangers_entity"
+  },
+  {
+    "unit": "apdc_nyto",
+    "model": "nyto",
+    "entity": "apdc_nyto_entity"
+  },
+  {
+    "unit": "apdc_lyuba",
+    "model": [
+      "truck",
+      "lyuba"
+    ],
+    "entity": "apdc_lyuba_entity"
+  },
+  {
+    "unit": "apdc_ump_sisters",
+    "model": "ump_chibi",
+    "entity": "apdc_ump_sisters_entity"
+  },
+  {
+    "unit": "apdc_mbt",
+    "model": "mbt",
+    "entity": "apdc_mbt_entity"
+  },
+  {
+    "unit": "apdc_light_tank",
+    "model": "light_tank",
+    "entity": "apdc_light_tank_entity"
+  },
+  {
+    "unit": "apdc_atgm_vehicle",
+    "model": "atgm",
+    "entity": "apdc_atgm_vehicle_entity"
+  },
+  {
+    "unit": "apdc_spaag",
+    "model": "spaag",
+    "entity": "apdc_spaag_entity"
+  },
+  {
+    "unit": "apdc_airborne_light_tank",
+    "model": "light_tank",
+    "entity": "apdc_airborne_light_tank_entity"
+  },
+  {
+    "unit": "apdc_tank_support",
+    "model": "tank_support",
+    "entity": "apdc_tank_support_entity"
+  },
+  {
+    "unit": "apdc_amphibious_tank",
+    "model": "amphib_tank",
+    "entity": "apdc_amphibious_tank_entity"
+  },
+  {
+    "unit": "apdc_attack_helicopter",
+    "model": "attack_helo",
+    "entity": "apdc_attack_helicopter_entity"
+  },
+  {
+    "unit": "apdc_basic_robot",
+    "model": "basic_robot",
+    "entity": "apdc_basic_robot_entity"
+  },
+  {
+    "unit": "apdc_doll_escort",
+    "model": [
+      "doll",
+      "infantry"
+    ],
+    "entity": "apdc_doll_escort_entity"
+  },
+  {
+    "unit": "apdc_doll_small",
+    "model": "doll",
+    "entity": "apdc_doll_small_entity"
+  },
+  {
+    "unit": "apdc_doll_large",
+    "model": "doll",
+    "entity": "apdc_doll_large_entity"
+  },
+  {
+    "unit": "apdc_motorized_doll_escort",
+    "model": [
+      "truck",
+      "doll"
+    ],
+    "entity": "apdc_motorized_doll_escort_entity"
+  },
+  {
+    "unit": "apdc_motorized_doll_small",
+    "model": [
+      "truck",
+      "doll"
+    ],
+    "entity": "apdc_motorized_doll_small_entity"
+  },
+  {
+    "unit": "apdc_motorized_doll_large",
+    "model": [
+      "truck",
+      "doll"
+    ],
+    "entity": "apdc_motorized_doll_large_entity"
+  },
+  {
+    "unit": "apdc_wheeled_doll_escort",
+    "model": [
+      "wheeled",
+      "doll"
+    ],
+    "entity": "apdc_wheeled_doll_escort_entity"
+  },
+  {
+    "unit": "apdc_wheeled_doll_small",
+    "model": [
+      "wheeled",
+      "doll"
+    ],
+    "entity": "apdc_wheeled_doll_small_entity"
+  },
+  {
+    "unit": "apdc_wheeled_doll_large",
+    "model": [
+      "wheeled",
+      "doll"
+    ],
+    "entity": "apdc_wheeled_doll_large_entity"
+  },
+  {
+    "unit": "apdc_tracked_doll_escort",
+    "model": [
+      "tracked",
+      "doll"
+    ],
+    "entity": "apdc_tracked_doll_escort_entity"
+  },
+  {
+    "unit": "apdc_tracked_doll_small",
+    "model": [
+      "tracked",
+      "doll"
+    ],
+    "entity": "apdc_tracked_doll_small_entity"
+  },
+  {
+    "unit": "apdc_tracked_doll_large",
+    "model": [
+      "tracked",
+      "doll"
+    ],
+    "entity": "apdc_tracked_doll_large_entity"
+  },
+  {
+    "unit": "apdc_air_assault_doll_escort",
+    "model": [
+      "helo",
+      "doll"
+    ],
+    "entity": "apdc_air_assault_doll_escort_entity"
+  },
+  {
+    "unit": "apdc_air_assault_doll_small",
+    "model": [
+      "helo",
+      "doll"
+    ],
+    "entity": "apdc_air_assault_doll_small_entity"
+  },
+  {
+    "unit": "apdc_air_assault_doll_large",
+    "model": [
+      "helo",
+      "doll"
+    ],
+    "entity": "apdc_air_assault_doll_large_entity"
+  },
+  {
+    "unit": "apdc_multipod",
+    "model": "multipod",
+    "entity": "apdc_multipod_entity"
+  },
+  {
+    "unit": "apdc_goliath",
+    "model": "goliath",
+    "entity": "apdc_goliath_entity"
+  },
+  {
+    "unit": "apdc_towed_artillery",
+    "model": [
+      "towed",
+      "infantry"
+    ],
+    "entity": "apdc_towed_artillery_entity"
+  },
+  {
+    "unit": "apdc_truck_artillery",
+    "model": "truck_art",
+    "entity": "apdc_truck_artillery_entity"
+  },
+  {
+    "unit": "apdc_sp_artillery",
+    "model": "spg",
+    "entity": "apdc_sp_artillery_entity"
+  },
+  {
+    "unit": "apdc_mlrs",
+    "model": "mlrs",
+    "entity": "apdc_mlrs_entity"
+  },
+  {
+    "unit": "apdc_tactical_missile",
+    "model": "missile",
+    "entity": "apdc_tactical_missile_entity"
+  },
+  {
+    "unit": "apdc_multipod_artillery",
+    "model": "multipod_art",
+    "entity": "apdc_multipod_artillery_entity"
+  },
+  {
+    "unit": "apdc_combined_service",
+    "model": [
+      "truck",
+      "infantry"
+    ],
+    "entity": "apdc_combined_service_entity"
+  },
+  {
+    "unit": "apdc_transport_helicopter_support",
+    "model": "helo",
+    "entity": "apdc_transport_helicopter_support_entity"
+  },
+  {
+    "unit": "apdc_field_workshop",
+    "model": "engineer",
+    "entity": "apdc_field_workshop_entity"
+  },
+  {
+    "unit": "apdc_frogmen",
+    "model": "infantry",
+    "entity": "apdc_frogmen_entity"
+  },
+  {
+    "unit": "apdc_hovercraft_support",
+    "model": [
+      "amphib_mech",
+      "infantry"
+    ],
+    "entity": "apdc_hovercraft_support_entity"
+  },
+  {
+    "unit": "apdc_elite_doll_infiltration",
+    "model": "doll",
+    "entity": "apdc_elite_doll_infiltration_entity"
+  },
+  {
+    "unit": "apdc_cbrn",
+    "model": "infantry",
+    "entity": "apdc_cbrn_entity"
+  },
+  {
+    "unit": "apdc_infantry_recon",
+    "model": "infantry",
+    "entity": "apdc_infantry_recon_entity"
+  },
+  {
+    "unit": "apdc_robot_recon",
+    "model": "basic_robot",
+    "entity": "apdc_robot_recon_entity"
+  },
+  {
+    "unit": "apdc_motorized_recon",
+    "model": [
+      "truck",
+      "infantry"
+    ],
+    "entity": "apdc_motorized_recon_entity"
+  },
+  {
+    "unit": "apdc_mechanized_recon",
+    "model": "wheeled",
+    "entity": "apdc_mechanized_recon_entity"
+  },
+  {
+    "unit": "apdc_armor_recon",
+    "model": "mbt",
+    "entity": "apdc_armor_recon_entity"
+  },
+  {
+    "unit": "apdc_uav_recon",
+    "model": "infantry",
+    "entity": "apdc_uav_recon_entity"
+  },
+  {
+    "unit": "apdc_military_police",
+    "model": "infantry",
+    "entity": "apdc_military_police_entity"
+  },
+  {
+    "unit": "apdc_engineer",
+    "model": "infantry",
+    "entity": "apdc_engineer_entity"
+  },
+  {
+    "unit": "apdc_armored_engineer",
+    "model": "engineer",
+    "entity": "apdc_armored_engineer_entity"
+  },
+  {
+    "unit": "apdc_frontline_command",
+    "model": [
+      "truck",
+      "infantry"
+    ],
+    "entity": "apdc_frontline_command_entity"
+  },
+  {
+    "unit": "apdc_aa02_support",
+    "model": "aa02",
+    "entity": "apdc_aa02_support_entity"
+  },
+  {
+    "unit": "apdc_doomsday_dog_support",
+    "model": "doomsday_dog",
+    "entity": "apdc_doomsday_dog_support_entity"
+  },
+  {
+    "unit": "apdc_sp_artillery_support",
+    "model": "spg",
+    "entity": "apdc_sp_artillery_support_entity"
+  },
+  {
+    "unit": "apdc_towed_artillery_support",
+    "model": [
+      "towed",
+      "infantry"
+    ],
+    "entity": "apdc_towed_artillery_support_entity"
+  },
+  {
+    "unit": "apdc_mlrs_support",
+    "model": "mlrs",
+    "entity": "apdc_mlrs_support_entity"
+  },
+  {
+    "unit": "apdc_truck_artillery_support",
+    "model": "truck_art",
+    "entity": "apdc_truck_artillery_support_entity"
+  },
+  {
+    "unit": "apdc_spaag_support",
+    "model": "spaag",
+    "entity": "apdc_spaag_support_entity"
+  },
+  {
+    "unit": "apdc_atgm_support",
+    "model": "atgm",
+    "entity": "apdc_atgm_support_entity"
+  },
+  {
+    "unit": "apdc_reg_robot_artillery",
+    "model": "multipod_art",
+    "entity": "apdc_reg_robot_artillery_entity"
+  },
+  {
+    "unit": "apdc_reg_mortar",
+    "model": "mortar",
+    "entity": "apdc_reg_mortar_entity"
+  },
+  {
+    "unit": "apdc_reg_spaag",
+    "model": "spaag",
+    "entity": "apdc_reg_spaag_entity"
+  },
+  {
+    "unit": "apdc_reg_atgm",
+    "model": "atgm",
+    "entity": "apdc_reg_atgm_entity"
+  },
+  {
+    "unit": "apdc_reg_sp_artillery",
+    "model": "spg",
+    "entity": "apdc_reg_sp_artillery_entity"
+  },
+  {
+    "unit": "apdc_reg_towed_artillery",
+    "model": [
+      "towed",
+      "infantry"
+    ],
+    "entity": "apdc_reg_towed_artillery_entity"
+  },
+  {
+    "unit": "apdc_reg_infantry_aa",
+    "model": "infantry",
+    "entity": "apdc_reg_infantry_aa_entity"
+  },
+  {
+    "unit": "apdc_reg_heavy_weapons",
+    "model": "infantry",
+    "entity": "apdc_reg_heavy_weapons_entity"
+  }
+]

@@ -1,0 +1,45 @@
+state = {
+	id = 456
+	name = "STATE_456"
+	provinces = {
+		1028
+		1206
+		10844
+		11999
+		15794
+		15795
+		15797
+		15798
+		15799
+		15800
+		18505
+		18512
+	}
+	manpower = 2204095
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = EGY
+		controller = EGY
+		add_core_of = EGY
+		victory_points = {
+			11999
+			3
+		}
+		victory_points = {
+			15794
+			1
+		}
+		victory_points = {
+			15795
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			11999 = {
+				dam = 1
+			}
+		}
+	}
+}

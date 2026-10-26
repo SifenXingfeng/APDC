@@ -1,0 +1,27 @@
+state = {
+	id = 1373
+	name = "STATE_1373"
+	provinces = {
+		1975
+		14187
+	}
+	manpower = 77688
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = ISP
+		controller = ISP
+		add_core_of = FPL
+		add_core_of = ISP
+		add_core_of = JNM
+		add_core_of = NGR
+		victory_points = {
+			14187
+			1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

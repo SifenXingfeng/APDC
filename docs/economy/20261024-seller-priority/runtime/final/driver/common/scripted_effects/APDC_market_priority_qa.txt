@@ -1,0 +1,1011 @@
+QA_market_priority = {
+every_country = {
+set_variable = { APDC_eco_import_target_m = 0 }
+set_variable = { APDC_eco_export_target_m = 0 }
+set_variable = { APDC_eco_domestic_m = 0 }
+set_variable = { APDC_eco_extra_input = 0 }
+set_variable = { APDC_eco_extra_output = 0 }
+set_variable = { APDC_eco_demand_m = 0 }
+set_variable = { APDC_eco_distribution = 1 }
+set_variable = { APDC_eco_tariff = 0 }
+}
+GER = {
+set_variable = { APDC_eco_export_target_m = 5 }
+set_variable = { APDC_eco_tariff = 2.5 }
+}
+FRA = {
+set_variable = { APDC_eco_import_target_m = 4 }
+set_variable = { APDC_eco_tariff = 0 }
+set_variable = { APDC_eco_demand_m = 10 }
+}
+ENG = {
+set_variable = { APDC_eco_import_target_m = 10 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 100 }
+}
+LLU = {
+set_variable = { APDC_eco_import_target_m = 10 }
+set_variable = { APDC_eco_tariff = 2.5 }
+set_variable = { APDC_eco_demand_m = 1000 }
+}
+APDC_eco_market_begin_0 = yes
+for_loop_effect = { start = 0 end = 7 value = QA_priority_drain APDC_eco_market_step = yes }
+FRA = { if = { limit = { check_variable = { APDC_eco_imports_m = 4 } }
+log = "APDC_PRIORITY PASS buffer_0_lowest_tariff_filled"
+}
+else = {
+log = "APDC_PRIORITY FAIL buffer_0_lowest_tariff_filled"
+}
+ }
+ENG = { if = { limit = { check_variable = { APDC_eco_imports_m = 1 } }
+log = "APDC_PRIORITY PASS buffer_0_second_tariff_gets_remainder"
+}
+else = {
+log = "APDC_PRIORITY FAIL buffer_0_second_tariff_gets_remainder"
+}
+ }
+LLU = { if = { limit = { check_variable = { APDC_eco_imports_m = 0 } }
+log = "APDC_PRIORITY PASS buffer_0_higher_tariff_waits_despite_larger_gap"
+}
+else = {
+log = "APDC_PRIORITY FAIL buffer_0_higher_tariff_waits_despite_larger_gap"
+}
+ }
+GER = { if = { limit = { check_variable = { APDC_eco_exports_m = 5 } }
+log = "APDC_PRIORITY PASS buffer_0_supply_cap"
+}
+else = {
+log = "APDC_PRIORITY FAIL buffer_0_supply_cap"
+}
+ }
+if = { limit = { check_variable = { global.APDC_eco_market_quantity_0^num = 2 } check_variable = { global.APDC_eco_market_quantity_0^0 = 4 } check_variable = { global.APDC_eco_market_quantity_0^1 = 1 } }
+log = "APDC_PRIORITY PASS buffer_0_two_sequential_deals"
+}
+else = {
+log = "APDC_PRIORITY FAIL buffer_0_two_sequential_deals"
+}
+set_variable = { global.QA_priority_balance = 0 }
+every_country = { add_to_variable = { global.QA_priority_balance = APDC_eco_imports_m } subtract_from_variable = { global.QA_priority_balance = APDC_eco_exports_m } }
+if = { limit = { check_variable = { global.QA_priority_balance > -0.0001 } check_variable = { global.QA_priority_balance < 0.0001 } }
+log = "APDC_PRIORITY PASS buffer_0_conservation"
+}
+else = {
+log = "APDC_PRIORITY FAIL buffer_0_conservation"
+}
+every_country = {
+set_variable = { APDC_eco_import_target_m = 0 }
+set_variable = { APDC_eco_export_target_m = 0 }
+set_variable = { APDC_eco_domestic_m = 0 }
+set_variable = { APDC_eco_extra_input = 0 }
+set_variable = { APDC_eco_extra_output = 0 }
+set_variable = { APDC_eco_demand_m = 0 }
+set_variable = { APDC_eco_distribution = 1 }
+set_variable = { APDC_eco_tariff = 0 }
+}
+GER = {
+set_variable = { APDC_eco_export_target_m = 5 }
+}
+FRA = {
+set_variable = { APDC_eco_import_target_m = 2 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 100 }
+}
+ENG = {
+set_variable = { APDC_eco_import_target_m = 10 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 50 }
+}
+LLU = {
+set_variable = { APDC_eco_import_target_m = 10 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 10 }
+}
+APDC_eco_market_begin_0 = yes
+for_loop_effect = { start = 0 end = 7 value = QA_priority_drain APDC_eco_market_step = yes }
+FRA = { if = { limit = { check_variable = { APDC_eco_imports_m = 2 } }
+log = "APDC_PRIORITY PASS buffer_0_absolute_gap_beats_larger_import_quota"
+}
+else = {
+log = "APDC_PRIORITY FAIL buffer_0_absolute_gap_beats_larger_import_quota"
+}
+ }
+ENG = { if = { limit = { check_variable = { APDC_eco_imports_m = 3 } }
+log = "APDC_PRIORITY PASS buffer_0_next_buyer_only_after_first_filled"
+}
+else = {
+log = "APDC_PRIORITY FAIL buffer_0_next_buyer_only_after_first_filled"
+}
+ }
+LLU = { if = { limit = { check_variable = { APDC_eco_imports_m = 0 } }
+log = "APDC_PRIORITY PASS buffer_0_smallest_gap_waits"
+}
+else = {
+log = "APDC_PRIORITY FAIL buffer_0_smallest_gap_waits"
+}
+ }
+every_country = {
+set_variable = { APDC_eco_import_target_m = 0 }
+set_variable = { APDC_eco_export_target_m = 0 }
+set_variable = { APDC_eco_domestic_m = 0 }
+set_variable = { APDC_eco_extra_input = 0 }
+set_variable = { APDC_eco_extra_output = 0 }
+set_variable = { APDC_eco_demand_m = 0 }
+set_variable = { APDC_eco_distribution = 1 }
+set_variable = { APDC_eco_tariff = 0 }
+}
+GER = {
+set_variable = { APDC_eco_export_target_m = 5 }
+set_variable = { APDC_eco_tariff = 2.5 }
+}
+FRA = {
+set_variable = { APDC_eco_import_target_m = 4 }
+set_variable = { APDC_eco_tariff = 0 }
+set_variable = { APDC_eco_demand_m = 10 }
+}
+ENG = {
+set_variable = { APDC_eco_import_target_m = 10 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 100 }
+}
+LLU = {
+set_variable = { APDC_eco_import_target_m = 10 }
+set_variable = { APDC_eco_tariff = 2.5 }
+set_variable = { APDC_eco_demand_m = 1000 }
+}
+APDC_eco_market_begin_1 = yes
+for_loop_effect = { start = 0 end = 7 value = QA_priority_drain APDC_eco_market_step = yes }
+FRA = { if = { limit = { check_variable = { APDC_eco_imports_m = 4 } }
+log = "APDC_PRIORITY PASS buffer_1_lowest_tariff_filled"
+}
+else = {
+log = "APDC_PRIORITY FAIL buffer_1_lowest_tariff_filled"
+}
+ }
+ENG = { if = { limit = { check_variable = { APDC_eco_imports_m = 1 } }
+log = "APDC_PRIORITY PASS buffer_1_second_tariff_gets_remainder"
+}
+else = {
+log = "APDC_PRIORITY FAIL buffer_1_second_tariff_gets_remainder"
+}
+ }
+LLU = { if = { limit = { check_variable = { APDC_eco_imports_m = 0 } }
+log = "APDC_PRIORITY PASS buffer_1_higher_tariff_waits_despite_larger_gap"
+}
+else = {
+log = "APDC_PRIORITY FAIL buffer_1_higher_tariff_waits_despite_larger_gap"
+}
+ }
+GER = { if = { limit = { check_variable = { APDC_eco_exports_m = 5 } }
+log = "APDC_PRIORITY PASS buffer_1_supply_cap"
+}
+else = {
+log = "APDC_PRIORITY FAIL buffer_1_supply_cap"
+}
+ }
+if = { limit = { check_variable = { global.APDC_eco_market_quantity_1^num = 2 } check_variable = { global.APDC_eco_market_quantity_1^0 = 4 } check_variable = { global.APDC_eco_market_quantity_1^1 = 1 } }
+log = "APDC_PRIORITY PASS buffer_1_two_sequential_deals"
+}
+else = {
+log = "APDC_PRIORITY FAIL buffer_1_two_sequential_deals"
+}
+set_variable = { global.QA_priority_balance = 0 }
+every_country = { add_to_variable = { global.QA_priority_balance = APDC_eco_imports_m } subtract_from_variable = { global.QA_priority_balance = APDC_eco_exports_m } }
+if = { limit = { check_variable = { global.QA_priority_balance > -0.0001 } check_variable = { global.QA_priority_balance < 0.0001 } }
+log = "APDC_PRIORITY PASS buffer_1_conservation"
+}
+else = {
+log = "APDC_PRIORITY FAIL buffer_1_conservation"
+}
+every_country = {
+set_variable = { APDC_eco_import_target_m = 0 }
+set_variable = { APDC_eco_export_target_m = 0 }
+set_variable = { APDC_eco_domestic_m = 0 }
+set_variable = { APDC_eco_extra_input = 0 }
+set_variable = { APDC_eco_extra_output = 0 }
+set_variable = { APDC_eco_demand_m = 0 }
+set_variable = { APDC_eco_distribution = 1 }
+set_variable = { APDC_eco_tariff = 0 }
+}
+GER = {
+set_variable = { APDC_eco_export_target_m = 5 }
+}
+FRA = {
+set_variable = { APDC_eco_import_target_m = 2 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 100 }
+}
+ENG = {
+set_variable = { APDC_eco_import_target_m = 10 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 50 }
+}
+LLU = {
+set_variable = { APDC_eco_import_target_m = 10 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 10 }
+}
+APDC_eco_market_begin_1 = yes
+for_loop_effect = { start = 0 end = 7 value = QA_priority_drain APDC_eco_market_step = yes }
+FRA = { if = { limit = { check_variable = { APDC_eco_imports_m = 2 } }
+log = "APDC_PRIORITY PASS buffer_1_absolute_gap_beats_larger_import_quota"
+}
+else = {
+log = "APDC_PRIORITY FAIL buffer_1_absolute_gap_beats_larger_import_quota"
+}
+ }
+ENG = { if = { limit = { check_variable = { APDC_eco_imports_m = 3 } }
+log = "APDC_PRIORITY PASS buffer_1_next_buyer_only_after_first_filled"
+}
+else = {
+log = "APDC_PRIORITY FAIL buffer_1_next_buyer_only_after_first_filled"
+}
+ }
+LLU = { if = { limit = { check_variable = { APDC_eco_imports_m = 0 } }
+log = "APDC_PRIORITY PASS buffer_1_smallest_gap_waits"
+}
+else = {
+log = "APDC_PRIORITY FAIL buffer_1_smallest_gap_waits"
+}
+ }
+every_country = {
+set_variable = { APDC_eco_import_target_m = 0 }
+set_variable = { APDC_eco_export_target_m = 0 }
+set_variable = { APDC_eco_domestic_m = 0 }
+set_variable = { APDC_eco_extra_input = 0 }
+set_variable = { APDC_eco_extra_output = 0 }
+set_variable = { APDC_eco_demand_m = 0 }
+set_variable = { APDC_eco_distribution = 1 }
+set_variable = { APDC_eco_tariff = 0 }
+}
+GER = {
+set_variable = { APDC_eco_export_target_m = 5 }
+}
+FRA = {
+set_variable = { APDC_eco_import_target_m = 10 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 100 }
+}
+ENG = {
+set_variable = { APDC_eco_import_target_m = 1 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 10 }
+}
+APDC_eco_market_begin = yes
+for_loop_effect = { start = 0 end = 7 value = QA_priority_drain APDC_eco_market_step = yes }
+FRA = { if = { limit = { check_variable = { APDC_eco_imports_m = 5 } }
+log = "APDC_PRIORITY PASS unfilled_first_buyer_receives_all_available_supply"
+}
+else = {
+log = "APDC_PRIORITY FAIL unfilled_first_buyer_receives_all_available_supply"
+}
+ }
+ENG = { if = { limit = { check_variable = { APDC_eco_imports_m = 0 } }
+log = "APDC_PRIORITY PASS no_equal_share_for_second_buyer"
+}
+else = {
+log = "APDC_PRIORITY FAIL no_equal_share_for_second_buyer"
+}
+ }
+every_country = {
+set_variable = { APDC_eco_import_target_m = 0 }
+set_variable = { APDC_eco_export_target_m = 0 }
+set_variable = { APDC_eco_domestic_m = 0 }
+set_variable = { APDC_eco_extra_input = 0 }
+set_variable = { APDC_eco_extra_output = 0 }
+set_variable = { APDC_eco_demand_m = 0 }
+set_variable = { APDC_eco_distribution = 1 }
+set_variable = { APDC_eco_tariff = 0 }
+}
+GER = {
+set_variable = { APDC_eco_export_target_m = 0.1 }
+}
+ENG = {
+set_variable = { APDC_eco_import_target_m = 0.1 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 0.4 }
+}
+FRA = {
+set_variable = { APDC_eco_import_target_m = 0.1 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 0.2 }
+}
+APDC_eco_market_begin = yes
+for_loop_effect = { start = 0 end = 7 value = QA_priority_drain APDC_eco_market_step = yes }
+ENG = { if = { limit = { check_variable = { APDC_eco_imports_m = 0.1 } }
+log = "APDC_PRIORITY PASS eng_fractional_gap_has_priority"
+}
+else = {
+log = "APDC_PRIORITY FAIL eng_fractional_gap_has_priority"
+}
+ }
+FRA = { if = { limit = { check_variable = { APDC_eco_imports_m = 0 } }
+log = "APDC_PRIORITY PASS fra_smaller_fractional_gap_waits"
+}
+else = {
+log = "APDC_PRIORITY FAIL fra_smaller_fractional_gap_waits"
+}
+ }
+every_country = {
+set_variable = { APDC_eco_import_target_m = 0 }
+set_variable = { APDC_eco_export_target_m = 0 }
+set_variable = { APDC_eco_domestic_m = 0 }
+set_variable = { APDC_eco_extra_input = 0 }
+set_variable = { APDC_eco_extra_output = 0 }
+set_variable = { APDC_eco_demand_m = 0 }
+set_variable = { APDC_eco_distribution = 1 }
+set_variable = { APDC_eco_tariff = 0 }
+}
+GER = {
+set_variable = { APDC_eco_export_target_m = 0.1 }
+}
+FRA = {
+set_variable = { APDC_eco_import_target_m = 0.1 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 0.4 }
+}
+ENG = {
+set_variable = { APDC_eco_import_target_m = 0.1 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 0.2 }
+}
+APDC_eco_market_begin = yes
+for_loop_effect = { start = 0 end = 7 value = QA_priority_drain APDC_eco_market_step = yes }
+FRA = { if = { limit = { check_variable = { APDC_eco_imports_m = 0.1 } }
+log = "APDC_PRIORITY PASS fra_fractional_gap_has_priority"
+}
+else = {
+log = "APDC_PRIORITY FAIL fra_fractional_gap_has_priority"
+}
+ }
+ENG = { if = { limit = { check_variable = { APDC_eco_imports_m = 0 } }
+log = "APDC_PRIORITY PASS eng_smaller_fractional_gap_waits"
+}
+else = {
+log = "APDC_PRIORITY FAIL eng_smaller_fractional_gap_waits"
+}
+ }
+every_country = {
+set_variable = { APDC_eco_import_target_m = 0 }
+set_variable = { APDC_eco_export_target_m = 0 }
+set_variable = { APDC_eco_domestic_m = 0 }
+set_variable = { APDC_eco_extra_input = 0 }
+set_variable = { APDC_eco_extra_output = 0 }
+set_variable = { APDC_eco_demand_m = 0 }
+set_variable = { APDC_eco_distribution = 1 }
+set_variable = { APDC_eco_tariff = 0 }
+}
+GER = {
+set_variable = { APDC_eco_export_target_m = 5 }
+}
+FRA = {
+set_variable = { APDC_eco_import_target_m = 4 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 1000 }
+set_variable = { APDC_eco_domestic_m = 900 }
+set_variable = { APDC_eco_supply_m = 9999 }
+}
+ENG = {
+set_variable = { APDC_eco_import_target_m = 8 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 10 }
+set_variable = { APDC_eco_supply_m = 9999 }
+}
+APDC_eco_market_begin_0 = yes
+for_loop_effect = { start = 0 end = 7 value = QA_priority_drain APDC_eco_market_step = yes }
+FRA = { if = { limit = { check_variable = { APDC_eco_imports_m = 4 } }
+log = "APDC_PRIORITY PASS absolute_shortage_beats_shortage_percentage"
+}
+else = {
+log = "APDC_PRIORITY FAIL absolute_shortage_beats_shortage_percentage"
+}
+ }
+ENG = { if = { limit = { check_variable = { APDC_eco_imports_m = 1 } }
+log = "APDC_PRIORITY PASS old_trade_supply_does_not_shrink_priority_gap"
+}
+else = {
+log = "APDC_PRIORITY FAIL old_trade_supply_does_not_shrink_priority_gap"
+}
+ }
+FRA = { if = { limit = { check_variable = { APDC_eco_market_demand_score_0 = 100 } }
+log = "APDC_PRIORITY PASS priority_uses_pre_trade_domestic_supply"
+}
+else = {
+log = "APDC_PRIORITY FAIL priority_uses_pre_trade_domestic_supply"
+}
+ }
+every_country = {
+set_variable = { APDC_eco_import_target_m = 0 }
+set_variable = { APDC_eco_export_target_m = 0 }
+set_variable = { APDC_eco_domestic_m = 0 }
+set_variable = { APDC_eco_extra_input = 0 }
+set_variable = { APDC_eco_extra_output = 0 }
+set_variable = { APDC_eco_demand_m = 0 }
+set_variable = { APDC_eco_distribution = 1 }
+set_variable = { APDC_eco_tariff = 0 }
+}
+GER = {
+set_variable = { APDC_eco_export_target_m = 5 }
+}
+FRA = {
+set_variable = { APDC_eco_import_target_m = 10 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 100 }
+set_variable = { APDC_eco_domestic_m = 100 }
+set_variable = { APDC_eco_extra_input = 20 }
+set_variable = { APDC_eco_distribution = 0.5 }
+}
+ENG = {
+set_variable = { APDC_eco_import_target_m = 10 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 60 }
+set_variable = { APDC_eco_domestic_m = 20 }
+set_variable = { APDC_eco_extra_output = 10 }
+set_variable = { APDC_eco_distribution = 0.5 }
+}
+APDC_eco_market_begin_1 = yes
+for_loop_effect = { start = 0 end = 7 value = QA_priority_drain APDC_eco_market_step = yes }
+FRA = { if = { limit = { check_variable = { APDC_eco_market_demand_score_1 = 40 } }
+log = "APDC_PRIORITY PASS gap_includes_extra_input_and_distribution"
+}
+else = {
+log = "APDC_PRIORITY FAIL gap_includes_extra_input_and_distribution"
+}
+ }
+ENG = { if = { limit = { check_variable = { APDC_eco_market_demand_score_1 = 55 } }
+log = "APDC_PRIORITY PASS gap_includes_extra_output_and_distribution"
+}
+else = {
+log = "APDC_PRIORITY FAIL gap_includes_extra_output_and_distribution"
+}
+ }
+ENG = { if = { limit = { check_variable = { APDC_eco_imports_m = 5 } }
+log = "APDC_PRIORITY PASS larger_final_gap_has_priority"
+}
+else = {
+log = "APDC_PRIORITY FAIL larger_final_gap_has_priority"
+}
+ }
+every_country = {
+set_variable = { APDC_eco_import_target_m = 0 }
+set_variable = { APDC_eco_export_target_m = 0 }
+set_variable = { APDC_eco_domestic_m = 0 }
+set_variable = { APDC_eco_extra_input = 0 }
+set_variable = { APDC_eco_extra_output = 0 }
+set_variable = { APDC_eco_demand_m = 0 }
+set_variable = { APDC_eco_distribution = 1 }
+set_variable = { APDC_eco_tariff = 0 }
+}
+GER = {
+set_variable = { APDC_eco_export_target_m = 6 }
+set_variable = { APDC_eco_tariff = 0 }
+}
+SOV = {
+set_variable = { APDC_eco_export_target_m = 10 }
+set_variable = { APDC_eco_tariff = 2.5 }
+}
+FRA = {
+set_variable = { APDC_eco_import_target_m = 4 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 100 }
+}
+ENG = {
+set_variable = { APDC_eco_import_target_m = 5 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 50 }
+}
+LLU = {
+set_variable = { APDC_eco_import_target_m = 5 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 10 }
+}
+APDC_eco_market_begin = yes
+for_loop_effect = { start = 0 end = 7 value = QA_priority_drain APDC_eco_market_step = yes }
+GER = { if = { limit = { check_variable = { APDC_eco_exports_m = 6 } }
+log = "APDC_PRIORITY PASS ger_exporter_tariff_preference_preserved"
+}
+else = {
+log = "APDC_PRIORITY FAIL ger_exporter_tariff_preference_preserved"
+}
+ }
+SOV = { if = { limit = { check_variable = { APDC_eco_exports_m = 8 } }
+log = "APDC_PRIORITY PASS sov_exporter_tariff_preference_preserved"
+}
+else = {
+log = "APDC_PRIORITY FAIL sov_exporter_tariff_preference_preserved"
+}
+ }
+FRA = { if = { limit = { check_variable = { APDC_eco_imports_m = 4 } }
+log = "APDC_PRIORITY PASS fra_not_overfilled_across_sellers"
+}
+else = {
+log = "APDC_PRIORITY FAIL fra_not_overfilled_across_sellers"
+}
+ }
+ENG = { if = { limit = { check_variable = { APDC_eco_imports_m = 5 } }
+log = "APDC_PRIORITY PASS eng_not_overfilled_across_sellers"
+}
+else = {
+log = "APDC_PRIORITY FAIL eng_not_overfilled_across_sellers"
+}
+ }
+LLU = { if = { limit = { check_variable = { APDC_eco_imports_m = 5 } }
+log = "APDC_PRIORITY PASS llu_not_overfilled_across_sellers"
+}
+else = {
+log = "APDC_PRIORITY FAIL llu_not_overfilled_across_sellers"
+}
+ }
+set_variable = { global.QA_priority_balance = 0 }
+every_country = { add_to_variable = { global.QA_priority_balance = APDC_eco_imports_m } subtract_from_variable = { global.QA_priority_balance = APDC_eco_exports_m } }
+if = { limit = { check_variable = { global.QA_priority_balance > -0.0001 } check_variable = { global.QA_priority_balance < 0.0001 } }
+log = "APDC_PRIORITY PASS multiple_seller_conservation"
+}
+else = {
+log = "APDC_PRIORITY FAIL multiple_seller_conservation"
+}
+every_country = {
+set_variable = { APDC_eco_import_target_m = 0 }
+set_variable = { APDC_eco_export_target_m = 0 }
+set_variable = { APDC_eco_domestic_m = 0 }
+set_variable = { APDC_eco_extra_input = 0 }
+set_variable = { APDC_eco_extra_output = 0 }
+set_variable = { APDC_eco_demand_m = 0 }
+set_variable = { APDC_eco_distribution = 1 }
+set_variable = { APDC_eco_tariff = 0 }
+}
+GER = {
+set_variable = { APDC_eco_export_target_m = 4 }
+set_variable = { APDC_eco_tariff = 1 }
+}
+SOV = {
+set_variable = { APDC_eco_export_target_m = 10 }
+set_variable = { APDC_eco_tariff = 1 }
+}
+FRA = {
+set_variable = { APDC_eco_import_target_m = 7 }
+set_variable = { APDC_eco_demand_m = 100 }
+}
+ENG = {
+set_variable = { APDC_eco_import_target_m = 2 }
+set_variable = { APDC_eco_demand_m = 50 }
+}
+APDC_eco_market_begin = yes
+for_loop_effect = { start = 0 end = 7 value = QA_priority_drain APDC_eco_market_step = yes }
+SOV = { if = { limit = { check_variable = { APDC_eco_exports_m = 9 } }
+log = "APDC_PRIORITY PASS same_tariff_larger_exporter_still_first"
+}
+else = {
+log = "APDC_PRIORITY FAIL same_tariff_larger_exporter_still_first"
+}
+ }
+GER = { if = { limit = { check_variable = { APDC_eco_exports_m = 0 } }
+log = "APDC_PRIORITY PASS smaller_exporter_waits"
+}
+else = {
+log = "APDC_PRIORITY FAIL smaller_exporter_waits"
+}
+ }
+every_country = {
+set_variable = { APDC_eco_import_target_m = 0 }
+set_variable = { APDC_eco_export_target_m = 0 }
+set_variable = { APDC_eco_domestic_m = 0 }
+set_variable = { APDC_eco_extra_input = 0 }
+set_variable = { APDC_eco_extra_output = 0 }
+set_variable = { APDC_eco_demand_m = 0 }
+set_variable = { APDC_eco_distribution = 1 }
+set_variable = { APDC_eco_tariff = 0 }
+}
+GER = {
+set_variable = { APDC_eco_export_target_m = 5 }
+}
+FRA = {
+set_variable = { APDC_eco_import_target_m = 5 }
+set_variable = { APDC_eco_tariff = 0 }
+set_variable = { APDC_eco_demand_m = 100 }
+}
+ENG = {
+set_variable = { APDC_eco_import_target_m = 5 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 50 }
+}
+GER = { send_embargo = FRA }
+APDC_eco_market_begin = yes
+for_loop_effect = { start = 0 end = 7 value = QA_priority_drain APDC_eco_market_step = yes }
+FRA = { if = { limit = { check_variable = { APDC_eco_imports_m = 0 } }
+log = "APDC_PRIORITY PASS seller_embargo_excludes_top_buyer"
+}
+else = {
+log = "APDC_PRIORITY FAIL seller_embargo_excludes_top_buyer"
+}
+ }
+ENG = { if = { limit = { check_variable = { APDC_eco_imports_m = 5 } }
+log = "APDC_PRIORITY PASS seller_embargo_continues_to_eligible_buyer"
+}
+else = {
+log = "APDC_PRIORITY FAIL seller_embargo_continues_to_eligible_buyer"
+}
+ }
+GER = { break_embargo = FRA }
+every_country = {
+set_variable = { APDC_eco_import_target_m = 0 }
+set_variable = { APDC_eco_export_target_m = 0 }
+set_variable = { APDC_eco_domestic_m = 0 }
+set_variable = { APDC_eco_extra_input = 0 }
+set_variable = { APDC_eco_extra_output = 0 }
+set_variable = { APDC_eco_demand_m = 0 }
+set_variable = { APDC_eco_distribution = 1 }
+set_variable = { APDC_eco_tariff = 0 }
+}
+GER = {
+set_variable = { APDC_eco_export_target_m = 5 }
+set_variable = { APDC_eco_tariff = 1 }
+}
+FRA = {
+set_variable = { APDC_eco_import_target_m = 4 }
+set_variable = { APDC_eco_tariff = 2.5 }
+set_variable = { APDC_eco_demand_m = 100 }
+}
+ENG = {
+set_variable = { APDC_eco_import_target_m = 4 }
+set_variable = { APDC_eco_tariff = 2.5 }
+set_variable = { APDC_eco_demand_m = 50 }
+}
+APDC_eco_market_begin = yes
+for_loop_effect = { start = 0 end = 7 value = QA_priority_drain APDC_eco_market_step = yes }
+FRA = { if = { limit = { check_variable = { APDC_eco_tariffs_m = 10 } }
+log = "APDC_PRIORITY PASS buyer_own_tariff_receipt"
+}
+else = {
+log = "APDC_PRIORITY FAIL buyer_own_tariff_receipt"
+}
+ }
+GER = { if = { limit = { check_variable = { APDC_eco_tariffs_m = 5 } }
+log = "APDC_PRIORITY PASS seller_own_tariff_receipt"
+}
+else = {
+log = "APDC_PRIORITY FAIL seller_own_tariff_receipt"
+}
+ }
+FRA = {
+set_variable = { APDC_eco_import_target_m = 1 }
+}
+APDC_eco_validate_world_trade = yes
+FRA = { if = { limit = { check_variable = { APDC_eco_imports_m = 1 } }
+log = "APDC_PRIORITY PASS daily_validation_reduces_imports"
+}
+else = {
+log = "APDC_PRIORITY FAIL daily_validation_reduces_imports"
+}
+ }
+GER = { if = { limit = { check_variable = { APDC_eco_exports_m = 2 } }
+log = "APDC_PRIORITY PASS daily_validation_reduces_paired_exports"
+}
+else = {
+log = "APDC_PRIORITY FAIL daily_validation_reduces_paired_exports"
+}
+ }
+FRA = {
+set_variable = { APDC_eco_import_target_m = 4 }
+}
+APDC_eco_validate_world_trade = yes
+FRA = { if = { limit = { check_variable = { APDC_eco_imports_m = 1 } }
+log = "APDC_PRIORITY PASS daily_validation_does_not_rematch"
+}
+else = {
+log = "APDC_PRIORITY FAIL daily_validation_does_not_rematch"
+}
+ }
+APDC_eco_market_begin = yes
+for_loop_effect = { start = 0 end = 7 value = QA_priority_drain APDC_eco_market_step = yes }
+FRA = { if = { limit = { check_variable = { APDC_eco_imports_m = 4 } }
+log = "APDC_PRIORITY PASS weekly_rematch_restores_priority_quota"
+}
+else = {
+log = "APDC_PRIORITY FAIL weekly_rematch_restores_priority_quota"
+}
+ }
+APDC_eco_render_trade = yes
+set_variable = { QA_priority_display_sum = 0 }
+for_each_loop = { array = APDC_eco_trade_amounts add_to_variable = { QA_priority_display_sum = v } }
+if = { limit = { check_variable = { QA_priority_display_sum = -5 } check_variable = { APDC_eco_trade_partners^num = APDC_eco_trade_amounts^num } }
+log = "APDC_PRIORITY PASS seller_display_matches_exports"
+}
+else = {
+log = "APDC_PRIORITY FAIL seller_display_matches_exports"
+}
+send_embargo = FRA
+APDC_eco_validate_world_trade = yes
+FRA = { if = { limit = { check_variable = { APDC_eco_imports_m = 0 } }
+log = "APDC_PRIORITY PASS active_embargo_cancels_existing_deal"
+}
+else = {
+log = "APDC_PRIORITY FAIL active_embargo_cancels_existing_deal"
+}
+ }
+ENG = { if = { limit = { check_variable = { APDC_eco_imports_m = 1 } }
+log = "APDC_PRIORITY PASS daily_cancel_does_not_redirect_supply"
+}
+else = {
+log = "APDC_PRIORITY FAIL daily_cancel_does_not_redirect_supply"
+}
+ }
+GER = { if = { limit = { check_variable = { APDC_eco_exports_m = 1 } }
+log = "APDC_PRIORITY PASS active_embargo_keeps_paired_quantities"
+}
+else = {
+log = "APDC_PRIORITY FAIL active_embargo_keeps_paired_quantities"
+}
+ }
+APDC_eco_market_begin = yes
+for_loop_effect = { start = 0 end = 7 value = QA_priority_drain APDC_eco_market_step = yes }
+ENG = { if = { limit = { check_variable = { APDC_eco_imports_m = 4 } }
+log = "APDC_PRIORITY PASS next_week_uses_remaining_eligible_demand"
+}
+else = {
+log = "APDC_PRIORITY FAIL next_week_uses_remaining_eligible_demand"
+}
+ }
+break_embargo = FRA
+every_country = {
+set_variable = { APDC_eco_import_target_m = 0 }
+set_variable = { APDC_eco_export_target_m = 0 }
+set_variable = { APDC_eco_domestic_m = 0 }
+set_variable = { APDC_eco_extra_input = 0 }
+set_variable = { APDC_eco_extra_output = 0 }
+set_variable = { APDC_eco_demand_m = 0 }
+set_variable = { APDC_eco_distribution = 1 }
+set_variable = { APDC_eco_tariff = 0 }
+}
+GER = {
+set_variable = { APDC_eco_export_target_m = 3 }
+set_variable = { APDC_eco_tariff = 0 }
+}
+SOV = {
+set_variable = { APDC_eco_export_target_m = 5 }
+set_variable = { APDC_eco_tariff = 1 }
+}
+FRA = {
+set_variable = { APDC_eco_import_target_m = 6 }
+set_variable = { APDC_eco_demand_m = 100 }
+}
+ENG = {
+set_variable = { APDC_eco_import_target_m = 2 }
+set_variable = { APDC_eco_demand_m = 50 }
+}
+GER = {
+set_variable = { APDC_eco_exports_m = 0 }
+}
+FRA = {
+set_variable = { APDC_eco_imports_m = 0 }
+}
+set_variable = { QA_priority_active_before = global.APDC_eco_market_active_buffer }
+APDC_eco_market_begin = yes
+APDC_eco_market_step = yes
+if = { limit = { has_global_flag = APDC_eco_market_busy check_variable = { global.APDC_eco_market_active_buffer = QA_priority_active_before } }
+log = "APDC_PRIORITY PASS partial_batch_keeps_current_buffer"
+}
+else = {
+log = "APDC_PRIORITY FAIL partial_batch_keeps_current_buffer"
+}
+FRA = { if = { limit = { check_variable = { APDC_eco_imports_m = 0 } }
+log = "APDC_PRIORITY PASS partial_batch_does_not_publish_imports"
+}
+else = {
+log = "APDC_PRIORITY FAIL partial_batch_does_not_publish_imports"
+}
+ }
+GER = { if = { limit = { check_variable = { APDC_eco_exports_m = 0 } }
+log = "APDC_PRIORITY PASS partial_batch_does_not_publish_exports"
+}
+else = {
+log = "APDC_PRIORITY FAIL partial_batch_does_not_publish_exports"
+}
+ }
+APDC_eco_market_step = yes
+if = { limit = { NOT = { has_global_flag = APDC_eco_market_busy } }
+log = "APDC_PRIORITY PASS completed_batch_switches_plan"
+}
+else = {
+log = "APDC_PRIORITY FAIL completed_batch_switches_plan"
+}
+FRA = { if = { limit = { check_variable = { APDC_eco_imports_m = 6 } }
+log = "APDC_PRIORITY PASS next_seller_finishes_first_buyer"
+}
+else = {
+log = "APDC_PRIORITY FAIL next_seller_finishes_first_buyer"
+}
+ }
+ENG = { if = { limit = { check_variable = { APDC_eco_imports_m = 2 } }
+log = "APDC_PRIORITY PASS next_seller_then_fills_second_buyer"
+}
+else = {
+log = "APDC_PRIORITY FAIL next_seller_then_fills_second_buyer"
+}
+ }
+set_variable = { global.QA_priority_balance = 0 }
+every_country = { add_to_variable = { global.QA_priority_balance = APDC_eco_imports_m } subtract_from_variable = { global.QA_priority_balance = APDC_eco_exports_m } }
+if = { limit = { check_variable = { global.QA_priority_balance > -0.0001 } check_variable = { global.QA_priority_balance < 0.0001 } }
+log = "APDC_PRIORITY PASS batch_publish_conservation"
+}
+else = {
+log = "APDC_PRIORITY FAIL batch_publish_conservation"
+}
+set_global_flag = APDC_eco_market_busy
+clr_global_flag = APDC_eco_market_priority_v1
+set_variable = { QA_priority_active_before = global.APDC_eco_market_active_buffer }
+APDC_eco_market_bootstrap = yes
+if = { limit = { has_global_flag = APDC_eco_market_priority_v1 has_global_flag = APDC_eco_market_requested NOT = { has_global_flag = APDC_eco_market_busy } check_variable = { global.APDC_eco_market_active_buffer = QA_priority_active_before } }
+log = "APDC_PRIORITY PASS old_save_restarts_only_pending_plan"
+}
+else = {
+log = "APDC_PRIORITY FAIL old_save_restarts_only_pending_plan"
+}
+FRA = { if = { limit = { check_variable = { APDC_eco_imports_m = 6 } }
+log = "APDC_PRIORITY PASS old_save_keeps_live_imports"
+}
+else = {
+log = "APDC_PRIORITY FAIL old_save_keeps_live_imports"
+}
+ }
+APDC_eco_market_daily = yes
+if = { limit = { has_global_flag = APDC_eco_market_busy check_variable = { global.APDC_eco_market_cursor = 1 } }
+log = "APDC_PRIORITY PASS old_save_rebuild_is_batched"
+}
+else = {
+log = "APDC_PRIORITY FAIL old_save_rebuild_is_batched"
+}
+APDC_eco_market_step = yes
+set_variable = { global.QA_priority_balance = 0 }
+every_country = { add_to_variable = { global.QA_priority_balance = APDC_eco_imports_m } subtract_from_variable = { global.QA_priority_balance = APDC_eco_exports_m } }
+if = { limit = { check_variable = { global.QA_priority_balance > -0.0001 } check_variable = { global.QA_priority_balance < 0.0001 } }
+log = "APDC_PRIORITY PASS old_save_rebuild_conservation"
+}
+else = {
+log = "APDC_PRIORITY FAIL old_save_rebuild_conservation"
+}
+every_country = {
+set_variable = { APDC_eco_import_target_m = 0 }
+set_variable = { APDC_eco_export_target_m = 0 }
+set_variable = { APDC_eco_domestic_m = 0 }
+set_variable = { APDC_eco_extra_input = 0 }
+set_variable = { APDC_eco_extra_output = 0 }
+set_variable = { APDC_eco_demand_m = 0 }
+set_variable = { APDC_eco_distribution = 1 }
+set_variable = { APDC_eco_tariff = 0 }
+}
+GER = {
+set_variable = { APDC_eco_export_target_m = 5 }
+}
+APDC_eco_market_begin = yes
+for_loop_effect = { start = 0 end = 7 value = QA_priority_drain APDC_eco_market_step = yes }
+GER = { if = { limit = { check_variable = { APDC_eco_exports_m = 0 } }
+log = "APDC_PRIORITY PASS no_buyers_no_exports"
+}
+else = {
+log = "APDC_PRIORITY FAIL no_buyers_no_exports"
+}
+ }
+every_country = {
+set_variable = { APDC_eco_import_target_m = 0 }
+set_variable = { APDC_eco_export_target_m = 0 }
+set_variable = { APDC_eco_domestic_m = 0 }
+set_variable = { APDC_eco_extra_input = 0 }
+set_variable = { APDC_eco_extra_output = 0 }
+set_variable = { APDC_eco_demand_m = 0 }
+set_variable = { APDC_eco_distribution = 1 }
+set_variable = { APDC_eco_tariff = 0 }
+}
+FRA = {
+set_variable = { APDC_eco_import_target_m = 5 }
+set_variable = { APDC_eco_demand_m = 100 }
+}
+APDC_eco_market_begin = yes
+for_loop_effect = { start = 0 end = 7 value = QA_priority_drain APDC_eco_market_step = yes }
+FRA = { if = { limit = { check_variable = { APDC_eco_imports_m = 0 } }
+log = "APDC_PRIORITY PASS no_sellers_no_imports"
+}
+else = {
+log = "APDC_PRIORITY FAIL no_sellers_no_imports"
+}
+ }
+every_country = {
+set_variable = { APDC_eco_import_target_m = 0 }
+set_variable = { APDC_eco_export_target_m = 0 }
+set_variable = { APDC_eco_domestic_m = 0 }
+set_variable = { APDC_eco_extra_input = 0 }
+set_variable = { APDC_eco_extra_output = 0 }
+set_variable = { APDC_eco_demand_m = 0 }
+set_variable = { APDC_eco_distribution = 1 }
+set_variable = { APDC_eco_tariff = 0 }
+}
+SOV = {
+set_variable = { APDC_eco_export_target_m = 5 }
+}
+ENG = {
+set_variable = { APDC_eco_import_target_m = 5 }
+set_variable = { APDC_eco_tariff = 0 }
+set_variable = { APDC_eco_demand_m = 100 }
+}
+FRA = {
+set_variable = { APDC_eco_import_target_m = 5 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 50 }
+}
+SOV = { declare_war_on = { target = ENG type = annex_everything } }
+if = { limit = { SOV = { has_war_with = ENG } }
+log = "APDC_PRIORITY PASS war_fixture_is_active"
+}
+else = {
+log = "APDC_PRIORITY FAIL war_fixture_is_active"
+}
+APDC_eco_market_begin = yes
+for_loop_effect = { start = 0 end = 7 value = QA_priority_drain APDC_eco_market_step = yes }
+ENG = { if = { limit = { check_variable = { APDC_eco_imports_m = 0 } }
+log = "APDC_PRIORITY PASS war_excludes_highest_priority_buyer"
+}
+else = {
+log = "APDC_PRIORITY FAIL war_excludes_highest_priority_buyer"
+}
+ }
+FRA = { if = { limit = { check_variable = { APDC_eco_imports_m = 5 } }
+log = "APDC_PRIORITY PASS war_skips_to_next_eligible_buyer"
+}
+else = {
+log = "APDC_PRIORITY FAIL war_skips_to_next_eligible_buyer"
+}
+ }
+SOV = { white_peace = { tag = ENG } }
+set_variable = { global.QA_priority_balance = 0 }
+every_country = { add_to_variable = { global.QA_priority_balance = APDC_eco_imports_m } subtract_from_variable = { global.QA_priority_balance = APDC_eco_exports_m } }
+if = { limit = { check_variable = { global.QA_priority_balance > -0.0001 } check_variable = { global.QA_priority_balance < 0.0001 } }
+log = "APDC_PRIORITY PASS war_filter_conservation"
+}
+else = {
+log = "APDC_PRIORITY FAIL war_filter_conservation"
+}
+every_country = {
+set_variable = { APDC_eco_import_target_m = 0 }
+set_variable = { APDC_eco_export_target_m = 0 }
+set_variable = { APDC_eco_domestic_m = 0 }
+set_variable = { APDC_eco_extra_input = 0 }
+set_variable = { APDC_eco_extra_output = 0 }
+set_variable = { APDC_eco_demand_m = 0 }
+set_variable = { APDC_eco_distribution = 1 }
+set_variable = { APDC_eco_tariff = 0 }
+}
+GER = {
+set_variable = { APDC_eco_export_target_m = 5 }
+}
+FRA = {
+set_variable = { APDC_eco_import_target_m = 5 }
+set_variable = { APDC_eco_tariff = 0 }
+set_variable = { APDC_eco_demand_m = 100 }
+}
+ENG = {
+set_variable = { APDC_eco_import_target_m = 5 }
+set_variable = { APDC_eco_tariff = 1 }
+set_variable = { APDC_eco_demand_m = 50 }
+}
+FRA = { send_embargo = GER }
+APDC_eco_market_begin = yes
+for_loop_effect = { start = 0 end = 7 value = QA_priority_drain APDC_eco_market_step = yes }
+FRA = { if = { limit = { check_variable = { APDC_eco_imports_m = 0 } }
+log = "APDC_PRIORITY PASS buyer_embargo_excludes_top_buyer"
+}
+else = {
+log = "APDC_PRIORITY FAIL buyer_embargo_excludes_top_buyer"
+}
+ }
+ENG = { if = { limit = { check_variable = { APDC_eco_imports_m = 5 } }
+log = "APDC_PRIORITY PASS buyer_embargo_continues_to_eligible_buyer"
+}
+else = {
+log = "APDC_PRIORITY FAIL buyer_embargo_continues_to_eligible_buyer"
+}
+ }
+every_country = { APDC_eco_refresh_policies = yes APDC_eco_calculate_country = yes }
+APDC_eco_market_begin = yes
+for_loop_effect = { start = 0 end = 7 value = QA_priority_drain APDC_eco_market_step = yes }
+log = "APDC_PRIORITY COMPLETE"
+
+}

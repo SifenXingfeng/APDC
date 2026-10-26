@@ -1,0 +1,20 @@
+--- before/common/military_industrial_organization/organizations/PER_organization.txt
++++ current/common/military_industrial_organization/organizations/PER_organization.txt
+@@ -19,7 +19,7 @@
+ 
+  	available = {
+  		PER = {
+- 			has_completed_focus = PER_establish_tehran_armor
++ 			always = no
+  		}
+  	}
+  }
+@@ -47,7 +47,7 @@
+ 
+  	available = {
+  		PER = {
+- 			has_completed_focus = PER_found_iranian_shipyards
++ 			always = no
+  		}
+  	}
+  }

@@ -1,0 +1,23 @@
+state = {
+	id = 331
+	name = "STATE_331"
+	provinces = {
+		7758
+		7788
+		12680
+		12698
+	}
+	manpower = 204048
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = USA
+		controller = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+}

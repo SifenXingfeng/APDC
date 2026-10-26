@@ -1,0 +1,35 @@
+state = {
+	id = 1178
+	name = "STATE_1178"
+	provinces = {
+		3912
+		6963
+		9899
+		11775
+		11828
+	}
+	manpower = 882699
+	resources = {
+		steel = 2
+		tungsten = 2
+	}
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = KOR
+		controller = KOR
+		add_core_of = KOR
+		victory_points = {
+			3912
+			2
+		}
+		victory_points = {
+			11828
+			3
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

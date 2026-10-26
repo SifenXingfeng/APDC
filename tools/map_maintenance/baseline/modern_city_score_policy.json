@@ -1,0 +1,32 @@
+{
+  "population_year": 2025,
+  "thresholds": [
+    50000,
+    100000,
+    200000,
+    500000,
+    1000000,
+    2000000,
+    3500000,
+    5000000,
+    7500000,
+    10000000,
+    20000000
+  ],
+  "scores": [
+    1,
+    2,
+    3,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    40,
+    50
+  ],
+  "modern_capital": "One tier higher; minimum 1; cap 50",
+  "economic_bonus": "2020 urban GDP global top 1%, minimum 500000 residents in 2025; one tier higher, not stacked with capital",
+  "economic_gdp_cutoff": 93010606571.51962
+}

@@ -1,0 +1,46 @@
+{
+  "development_tiers": {
+    "city_idea": [
+      "APDC_eco_science_1",
+      "APDC_eco_science_2",
+      "APDC_eco_science_3",
+      "APDC_eco_science_4",
+      "APDC_eco_science_5"
+    ],
+    "society_development_idea": [
+      "APDC_eco_society_1",
+      "APDC_eco_society_2",
+      "APDC_eco_society_3",
+      "APDC_eco_society_4",
+      "APDC_eco_society_5"
+    ],
+    "poverty_level_idea": [
+      "APDC_eco_defense_1",
+      "APDC_eco_defense_2",
+      "APDC_eco_defense_3",
+      "APDC_eco_defense_4",
+      "APDC_eco_defense_5"
+    ]
+  },
+  "each_category_has_five_allowed_but_unavailable_tiers": true,
+  "all_modifier_blocks_unchanged": true,
+  "protected_files_unchanged": [
+    "common/ideas/_economic.txt",
+    "common/scripted_effects/APDC_economy_backend.txt",
+    "common/dynamic_modifiers/APDC_economy_dynamic_modifiers.txt"
+  ],
+  "coefficient_field": {
+    "width": 58,
+    "truncate": "no",
+    "fits_row": true
+  },
+  "parsed_scripts": 3132,
+  "syntax_errors": [],
+  "python_generators_compile": true,
+  "runtime_test_started": true,
+  "reason": "Original user PID 8740 exited before launch; only owned test PID 39204 was terminated after assertions completed.",
+  "visual_verified": false,
+  "runtime_passed_checks": 7,
+  "runtime_failed_checks": 0,
+  "reusable_QA_also_checks_listing": true
+}

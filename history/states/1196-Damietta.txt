@@ -1,0 +1,40 @@
+state = {
+	id = 1196
+	name = "STATE_1196"
+	provinces = {
+		10005
+		12004
+		15768
+		15770
+		15780
+		15781
+	}
+	manpower = 1344885
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+	history = {
+		owner = EGY
+		controller = EGY
+		add_core_of = EGY
+		victory_points = {
+			10005
+			3
+		}
+		victory_points = {
+			15768
+			3
+		}
+		victory_points = {
+			15770
+			1
+		}
+		victory_points = {
+			15780
+			2
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}

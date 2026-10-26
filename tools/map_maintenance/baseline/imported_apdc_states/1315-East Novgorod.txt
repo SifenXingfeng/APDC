@@ -1,0 +1,29 @@
+state = {
+	id = 1315
+	name = "STATE_1315"
+	provinces = {
+		8
+		110
+		248
+		6086
+		6154
+		6225
+		9212
+		11191
+		17118
+	}
+	manpower = 546289
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+		}
+		set_state_flag = GDP_category_city
+	}
+}

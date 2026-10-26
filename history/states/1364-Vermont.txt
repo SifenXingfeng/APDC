@@ -1,0 +1,25 @@
+state = {
+	id = 1364
+	name = "STATE_1364"
+	provinces = {
+		4445
+		7629
+		9675
+	}
+	manpower = 720404
+	resources = {
+		steel = 1
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = metropolis
+	history = {
+		owner = USA
+		controller = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 4
+		}
+		set_state_flag = GDP_regions_new_england
+	}
+}

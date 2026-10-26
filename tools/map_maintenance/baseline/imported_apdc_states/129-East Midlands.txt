@@ -1,0 +1,67 @@
+state = {
+	id = 129
+	name = "STATE_129"
+	manpower = 2212021
+	state_category = city
+	resources = {
+		steel = 11
+		coal = 8
+	}
+	history = {
+		owner = ENG
+		controller = ENG
+		add_core_of = ENG
+		victory_points = {
+			6237
+			3
+		}
+		victory_points = {
+			9250
+			2
+		}
+		victory_points = {
+			9268
+			3
+		}
+		victory_points = {
+			11279
+			5
+		}
+		victory_points = {
+			11382
+			5
+		}
+		victory_points = {
+			16335
+			1
+		}
+		victory_points = {
+			16358
+			1
+		}
+		victory_points = {
+			16370
+			2
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 5
+		}
+	}
+	provinces = {
+		364
+		3353
+		6237
+		9250
+		9268
+		9322
+		11279
+		11382
+		16335
+		16358
+		16370
+	}
+	local_supplies = 0.0
+}

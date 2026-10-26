@@ -1,0 +1,84 @@
+state = {
+	id = 318
+	name = "STATE_318"
+	manpower = 2380000
+	state_category = town
+	resources = {
+		chromium = 2
+	}
+	history = {
+		owner = HAI
+		controller = HAI
+		add_core_of = HAI
+		add_claim_by = DOM
+		victory_points = {
+			1594
+			3
+		}
+		victory_points = {
+			1635
+			1
+		}
+		victory_points = {
+			4641
+			15
+		}
+		victory_points = {
+			15584
+			1
+		}
+		victory_points = {
+			15634
+			3
+		}
+		victory_points = {
+			15635
+			2
+		}
+		victory_points = {
+			15636
+			3
+		}
+		victory_points = {
+			15638
+			3
+		}
+		victory_points = {
+			15639
+			1
+		}
+		victory_points = {
+			15642
+			2
+		}
+		victory_points = {
+			15644
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+			4641 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces = {
+		1594
+		1635
+		4641
+		15584
+		15603
+		15634
+		15635
+		15636
+		15638
+		15639
+		15641
+		15642
+		15644
+	}
+	local_supplies = 0.0
+}

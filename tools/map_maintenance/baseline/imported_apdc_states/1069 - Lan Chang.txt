@@ -1,0 +1,25 @@
+state = {
+	id = 1069
+	name = "STATE_1069"
+	manpower = 214000
+	state_category = pastoral
+	history = {
+		owner = LAO
+		controller = LAO
+		add_core_of = LAO
+		victory_points = {
+			10456
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = GDP_regions_north_thailand
+	}
+	provinces = {
+		10330
+		10456
+		10356
+	}
+	local_supplies = 0.0
+}

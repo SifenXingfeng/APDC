@@ -1,0 +1,34 @@
+state = {
+	id = 1425
+	name = "STATE_1425"
+	provinces = {
+		1883
+		3181
+		13650
+		14082
+		14097
+		14105
+		14119
+	}
+	manpower = 360614
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+	history = {
+		owner = CHA
+		controller = CHA
+		add_core_of = CHA
+		victory_points = {
+			13650
+			3
+		}
+		victory_points = {
+			14119
+			2
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = state_renamings
+	}
+}

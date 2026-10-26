@@ -1,0 +1,1992 @@
+[
+  {
+    "path": "common/units/amphibious_armor.txt",
+    "kind": "disable_legacy_units",
+    "changes": 4
+  },
+  {
+    "path": "common/units/amphibious_mech.txt",
+    "kind": "disable_legacy_units",
+    "changes": 1
+  },
+  {
+    "path": "common/units/anti-air.txt",
+    "kind": "disable_legacy_units",
+    "changes": 1
+  },
+  {
+    "path": "common/units/anti-air_brigade.txt",
+    "kind": "disable_legacy_units",
+    "changes": 2
+  },
+  {
+    "path": "common/units/anti_tank.txt",
+    "kind": "disable_legacy_units",
+    "changes": 1
+  },
+  {
+    "path": "common/units/anti_tank_brigade.txt",
+    "kind": "disable_legacy_units",
+    "changes": 2
+  },
+  {
+    "path": "common/units/armored_car_battalion.txt",
+    "kind": "disable_legacy_units",
+    "changes": 1
+  },
+  {
+    "path": "common/units/artillery.txt",
+    "kind": "disable_legacy_units",
+    "changes": 4
+  },
+  {
+    "path": "common/units/artillery_brigade.txt",
+    "kind": "disable_legacy_units",
+    "changes": 5
+  },
+  {
+    "path": "common/units/blackshirt_assault_battalion.txt",
+    "kind": "disable_legacy_units",
+    "changes": 1
+  },
+  {
+    "path": "common/units/bus.txt",
+    "kind": "disable_legacy_units",
+    "changes": 1
+  },
+  {
+    "path": "common/units/cavalry.txt",
+    "kind": "disable_legacy_units",
+    "changes": 3
+  },
+  {
+    "path": "common/units/engineer.txt",
+    "kind": "disable_legacy_units",
+    "changes": 5
+  },
+  {
+    "path": "common/units/field_hospital.txt",
+    "kind": "disable_legacy_units",
+    "changes": 4
+  },
+  {
+    "path": "common/units/fire_support.txt",
+    "kind": "disable_legacy_units",
+    "changes": 6
+  },
+  {
+    "path": "common/units/flame_tank.txt",
+    "kind": "disable_legacy_units",
+    "changes": 3
+  },
+  {
+    "path": "common/units/heavy_armor.txt",
+    "kind": "disable_legacy_units",
+    "changes": 1
+  },
+  {
+    "path": "common/units/helicopter_brigade.txt",
+    "kind": "disable_legacy_units",
+    "changes": 8
+  },
+  {
+    "path": "common/units/infantry.txt",
+    "kind": "disable_legacy_units",
+    "changes": 14
+  },
+  {
+    "path": "common/units/land_cruiser.txt",
+    "kind": "disable_legacy_units",
+    "changes": 1
+  },
+  {
+    "path": "common/units/light_armor.txt",
+    "kind": "disable_legacy_units",
+    "changes": 1
+  },
+  {
+    "path": "common/units/logistics.txt",
+    "kind": "disable_legacy_units",
+    "changes": 4
+  },
+  {
+    "path": "common/units/maintenance.txt",
+    "kind": "disable_legacy_units",
+    "changes": 2
+  },
+  {
+    "path": "common/units/medium_armor.txt",
+    "kind": "disable_legacy_units",
+    "changes": 1
+  },
+  {
+    "path": "common/units/military_police.txt",
+    "kind": "disable_legacy_units",
+    "changes": 4
+  },
+  {
+    "path": "common/units/modern_armor.txt",
+    "kind": "disable_legacy_units",
+    "changes": 1
+  },
+  {
+    "path": "common/units/recon.txt",
+    "kind": "disable_legacy_units",
+    "changes": 10
+  },
+  {
+    "path": "common/units/signal.txt",
+    "kind": "disable_legacy_units",
+    "changes": 2
+  },
+  {
+    "path": "common/units/sp_anti-air.txt",
+    "kind": "disable_legacy_units",
+    "changes": 1
+  },
+  {
+    "path": "common/units/sp_anti-air_brigade.txt",
+    "kind": "disable_legacy_units",
+    "changes": 10
+  },
+  {
+    "path": "common/units/sp_artillery.txt",
+    "kind": "disable_legacy_units",
+    "changes": 1
+  },
+  {
+    "path": "common/units/sp_artillery_brigade.txt",
+    "kind": "disable_legacy_units",
+    "changes": 6
+  },
+  {
+    "path": "common/units/sturmtruppe_battalion.txt",
+    "kind": "disable_legacy_units",
+    "changes": 1
+  },
+  {
+    "path": "common/units/super_heavy_armor.txt",
+    "kind": "disable_legacy_units",
+    "changes": 1
+  },
+  {
+    "path": "common/units/tank_destroyer_brigade.txt",
+    "kind": "disable_legacy_units",
+    "changes": 9
+  },
+  {
+    "path": "common/technologies/armor.txt",
+    "kind": "technology_doctrine_references",
+    "changes": 29
+  },
+  {
+    "path": "common/technologies/artillery.txt",
+    "kind": "technology_doctrine_references",
+    "changes": 9
+  },
+  {
+    "path": "common/technologies/infantry.txt",
+    "kind": "technology_doctrine_references",
+    "changes": 21
+  },
+  {
+    "path": "common/technologies/land_doctrine.txt",
+    "kind": "technology_doctrine_references",
+    "changes": 22
+  },
+  {
+    "path": "common/technologies/NSB_armor.txt",
+    "kind": "technology_doctrine_references",
+    "changes": 8
+  },
+  {
+    "path": "common/technologies/support.txt",
+    "kind": "technology_doctrine_references",
+    "changes": 22
+  },
+  {
+    "path": "common/doctrines/subdoctrines/land/armor_subdoctrines.txt",
+    "kind": "technology_doctrine_references",
+    "changes": 43
+  },
+  {
+    "path": "common/doctrines/subdoctrines/land/combat_support_subdoctrines.txt",
+    "kind": "technology_doctrine_references",
+    "changes": 34
+  },
+  {
+    "path": "common/doctrines/subdoctrines/land/infantry_subdoctrines.txt",
+    "kind": "technology_doctrine_references",
+    "changes": 27
+  },
+  {
+    "path": "common/doctrines/subdoctrines/land/operations_subdoctrines.txt",
+    "kind": "technology_doctrine_references",
+    "changes": 13
+  },
+  {
+    "path": "common/doctrines/subdoctrines/special_forces/special_forces_subdoctrines.txt",
+    "kind": "technology_doctrine_references",
+    "changes": 6
+  },
+  {
+    "path": "common/special_projects/projects/air_projects.txt",
+    "kind": "technology_doctrine_references",
+    "changes": 4
+  },
+  {
+    "path": "common/special_projects/projects/land_projects.txt",
+    "kind": "technology_doctrine_references",
+    "changes": 5
+  },
+  {
+    "path": "history/units/MAD_2060.txt",
+    "kind": "existing_oob_unit_ids",
+    "changes": 6
+  },
+  {
+    "path": "history/countries/AAA - SYSTEM.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ABK - Abkhazia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ADU - Andalusia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/AFA - Afar.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/AFG - Afghanistan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/AGR - Algeria.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ALB - Albania.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ALG - Algeria.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ALS - Alaska People's Republic.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ALT - Altai Republic.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/AMZ - Northern Amazonia Administered Territory.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ANG - Angola.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ANU - Ainu.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/AOI - Italian East Africa.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ARG - Argentina.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ARM - Armenia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/AST - Australia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ASY - Assyria.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ATU - Antarctic Union.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/AUS - Austria.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/AZR - Azerbaijan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BAH - Bahamas.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BAN - Bangladesh.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BAR - Barotseland.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BAS - British Antilles.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BAY - Bavaria.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BEG - Benishangul-Gumuz.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BEL - Belgium.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BEN - Benin.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BHR - Bahrain.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BHU - Bhutan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BIA - Biafra.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BKF - Burkina faso.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BLC - Balochistan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BLR - Belarus.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BLZ - Belize.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BOL - Bolivia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BOS - Bosnia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BOT - Botswana.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BRA - Brazil.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BRD - Burundi.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BRI - Brittany.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BRM - Burma.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BRN - Brunei.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BSK - Bashkortostan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BUK - Bukharan Republic.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BUL - Bulgaria.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/BYA - Buryatia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/CAM - Cambodia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/CAN - Canada.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/CAR - Central African Republic.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/CAT - Catalonia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/CAY - Cayenne.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/CBV - Cabo Verde.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/CHA - Chad.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/CHI - China.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/CHL - Chile.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/CHM - Champa.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/CHR - Charrua.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/CHU - Chuvashia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/CIN - Chechnya-Ingushetia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/CIP - Central Indian Provinces.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/CKK - Chukotka.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/CMR - Cameroon.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/COG - Congo.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/COL - Colombia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/COR - Corsica.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/COS - Costa Rica.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/CRC - Curacao.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/CRI - Crimea.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/CRO - Croatia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/CSA - CSA.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/CUB - Cuba.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/CYP - Cyprus.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/CZE - Czechoslovakia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/DAG - Dagestan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/DAH - Dahomey.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/DDR - East Germany.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/DEN - Denmark.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/DIP - Partisans.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/DJI - Djibouti.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/DNZ - Danzig.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/DOM - Dominican Republic.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/DON - Don Republic.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ECU - Ecuador.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/EGY - Egypt.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ELS - El Salvador.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ENG - Britain.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/EQG - Equatorial Guinea.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ERI - Eritrea.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/EST - Estonia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ETH - Ethiopia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/EVE - Evenkia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/EZO - Ezo Republic.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/FER - Far Eastern Republic.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/FIJ - Fiji.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/FIN - Finland.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/FOR - Formosa.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/FRA - France.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/FSA - Federation of South Arabia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/FSM - Micronesia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/GAB - Gabon.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/GAM - The Gambia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/GAR - Guarani.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/GBA - Gambela.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/GDB - Gods Brigade.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/GDC - Guangdong.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/GDL - Guadeloupe.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/GEN - Generalgouvernement.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/GEO - Georgia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/GER - Germany.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/GHA - Ghana.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/GLC - Galicia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/GNA - Guinea.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/GNB - Guinea-Bissau.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/GRE - Greece.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/GRN - Greenland.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/GSM - Gansu Ma.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/GUA - Guatemla.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/GUM - Guam.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/GXC - Guangxi.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/GYA - Guyana.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/HAI - Haiti.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/HAN - Hanover.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/HAR - Harar.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/HAW - Hawaii.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/HBC  - Hebei-Chahar.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/HES - Hesse.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/HOL - Holland.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/HON - Honduras.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/HRZ - Herzegovina.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/HUN - Hungary.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/HYD - Hyderabad.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/IAS - Isthmo Amerindia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ICE - Iceland.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/IMO - Omani Imamate.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/INC - Inca.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/INS - Indonesia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/INU - Inuit.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/IRE - Ireland.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/IRQ - Iraq.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ISR - Israel.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ITA - Italy.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ITZ - Itza.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/IVO - Ivory Coast.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/JAM - Jamaica.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/JAN - Jan Mayen.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/JAP - Japan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/JOR - Jordan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/KAL - Kalmykia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/KAR - Karelia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/KAS - Kashmir.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/KAT - Katanga.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/KAZ - Kazakhstan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/KBK - Kabardino-Balkaria.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/KEN - Kenya.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/KHA - Khakassia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/KHI - Khiva.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/KHL - Khalistan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/KHM - Khotan Ma.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/KKP - Karakalpakstan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/KLT -Kalat.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/KOL - Kolhapur and Deccan States.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/KOM - Komi Republic.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/KOR - Korea.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/KOS - Kosovo.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/KSH - Kashubia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/KUB - Kuban Republic.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/KUM - Kumul Khanate.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/KUR - Kurdistan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/KUW - Kuwait.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/KYR - Kyrgyzstan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/LAO - Laos.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/LAT - Latvia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/LBA - Libya.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/LBV - Lombardy Venetia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/LEB - Lebanon.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/LIB - Liberia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/LIT - Lithuania.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/LLU - Lowlands Union.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/LUX - Luxemburg.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/MAC - Macedonia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/MAD - Madagascar.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/MAL - Malaysia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/MAN - Manchukou.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/MAY - Maya.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/MEK - Mecklenburg.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/MEL - Mari El.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/MEN - Mengkukuo.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/MEX - Mexico.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/MIS - Miskito.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/MLD - Maldives.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/MLI - Mali.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/MLT - Malta.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/MLW - Malawi.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/MNT - Montenegro.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/MOL - Moldova.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/MON - Mongolia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/MOR - Morocco.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/MPU - Manipur.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/MRT - Mauritania.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/MYS - Mysore.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/MZB - Mozambique.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/NAH - Nahua.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/NAV - Navarra.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/NEN - Nenetsia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/NEP - Nepal.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/NGA - Nigeria.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/NGR - Niger.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/NIC - Nicaragua.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/NIR - Northern Ireland.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/NMB - Namibia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/NOA - North Ossetia-Alania.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/NOR - Norway.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/NWF - North Western Frontier States.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/NXM - Ningxia Ma.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/NZL - New Zealand.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/OCC - Occitania.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/OKN - Okinawa.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/OMA - Oman.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ORO - Oromo.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/OVO - Ostyakia Vogulia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/PAK - Pakistan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/PAL - Palestine.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/PAN - Panama.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/PAP - Papal States.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/PAR - Paraguay.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/PER - Persia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/PHI - Philippines.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/PLU - Palau.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/PNG - Papua New Guinea.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/POL - Poland.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/POR - Portugal.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/PRC - ComChina.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/PRE - Prussia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/PRU - Peru.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/PSH - Pashtunistan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/PSR - Philippine Second Republic.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/PUE - Puerto Rico.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/QAT - Qatar.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/QEM - Qemant.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/QUE - Quebec.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RAA - Reichskommisariat Australasien.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RAJ - British Raj.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RAN - Reichskommisariat Anden.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RAP - Rapa Nui.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RAR - Reichskommisariat Arabien.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RAS - Madras States.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RCG - Republic of Congo.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RCO - Reichskommisariat Kolumbus.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RGB - Reichskommisariat Grossbritannien.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RHD - Reichskommisariat Grosshindustan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RHI - Rhineland.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RIF - Rif.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RIG - Rio Grande.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RJP - Rajputana.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RKA - Reichskommisariat Mittelafrika.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RKB - Reichskommisariat Belgien.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RKC - Reichskommisariat Balkan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RKG - Reichskommisariat Norwegen.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RKH - Bohmen Mahren.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RKI - Reichskommisariat Iberien.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RKK - Reichskommisariat Kaukasien.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RKL - Reichskommisariat Urals.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RKM - Reichskommisariat Moskowien.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RKN - Reichskommisariat Niederlande.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RKO - Reichskommisariat Ostland.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RKT - Reichskommisariat Turkestan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RKU - Reichskommisariat Ukraine.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RKV - Reichskommisariat Klein Venedig.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RNA - Reichskommisariat Nordafrika.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RNG - Reorganized National Government.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ROA - Reichskommisariat Ostasien.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ROM - Romania.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RUS - Reichskommisariat Nordamerika.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RWA - Rwanda.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/RZE - Red Zone.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SAF - South Africa.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SAM - Samoa.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SAU - Saudi Arabia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SAX - Saxony.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SCO - Scotland.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SEN - Senegal.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SER - Serbia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SHL - Schleswig-Holstein.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SHX - Shanxi.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SIA - Siam.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SID - Sidamo.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SIE - Sierra Leone.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SIK - Sinkiang.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SIL - Silesia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SLO - Slovakia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SLV - Slovenia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SMI - Sami.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SOL - Solomon Islands.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SOM - Somalia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SOV - Soviet union.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SPM - Sardinia Piedmont.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SPR - Spain.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SRL - Sri Lanka.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SSD - South Sudan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SUD - Sudan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SUR - Suriname.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SWE - Sweden.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SWI - Switzerland.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/SYR - Syria.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/TAH - Tahiti.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/TAJ - Tajikistan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/TAN - Tannu Tuva.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/TAT - Tatarstan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/TAY - Taymyria.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/TIB - Tibet.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/TIG - Tigray.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/TMS - Turkmenistan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/TOG - Togo.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/TOS - Tuscany.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/TRA - Transylvania.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/TRI - Trinidad and Tobago.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/TTS - The Two Sicilies.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/TUN - Tunisia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/TUR - Turkey.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/TZN - Tanzania.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/UAE - United Arab Emirates.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/UDM - Udmurtia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/UGA - Uganda.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/UKR - Ukraine.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/URG - Uruguay.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/USA - USA.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/UZB - Uzbekistan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/VEN - Venezula.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/VGE - Volga Germany.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/VIN - Vietnam.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/VLA - Vladivostok.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/VOL - Upper Volta.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/WES - Western Sahara.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/WGR - West Germany.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/WLA - Welsh Argentina.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/WLS - Wales.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/WUR - Wurtemberg.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/XSM - Xibei San Ma.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/YAK - Yakutia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/YAM - Yamalia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/YEM - Yeman.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/YUC - Yucatan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/YUG - Yugoslavia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/YUN - Yunnan.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ZAM - Zambia.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ZIM - Zimbabwe.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  },
+  {
+    "path": "history/countries/ZZZ - anarchy.txt",
+    "kind": "country_start_unlock",
+    "changes": 1
+  }
+]

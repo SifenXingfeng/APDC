@@ -1,0 +1,29 @@
+--- before/common/ideas/mongolia.txt
++++ current/common/ideas/mongolia.txt
+@@ -2,25 +2,7 @@
+ 
+ 	country = {
+ 
+-		MON_income_from_hulunbuir_idea = {
+-
+-			picture = prc_permit_opium_trade
+-
+-			allowed = {
+-				original_tag = MON
+-			}
+-
+-			allowed_civil_war = {
+-				always = yes
+-			}
+-
+-			removal_cost = -1
+-			
+-			modifier = {
+-				APDC_eco_population_factor = -0.05
+-			}
+-
+-		}
++		
+ 
+ 	}
+ 

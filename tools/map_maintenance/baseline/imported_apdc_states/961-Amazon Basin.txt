@@ -1,0 +1,42 @@
+state = {
+	id = 961
+	name = "STATE_961"
+	provinces = {
+		10960
+		12919
+		13083
+		13343
+		13346
+		13347
+		13348
+		13349
+		13350
+		13351
+		13352
+		15174
+		15175
+		17436
+		17441
+		18029
+	}
+	manpower = 46073
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 0
+	history = {
+		owner = AMZ
+		controller = AMZ
+		add_core_of = AMZ
+		add_core_of = BRA
+		victory_points = {
+			13350
+			1
+		}
+		victory_points = {
+			17441
+			1
+		}
+		buildings = {
+		}
+	}
+}

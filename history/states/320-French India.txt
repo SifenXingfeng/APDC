@@ -1,0 +1,26 @@
+state = {
+	id = 320
+	name = "STATE_320"
+	manpower = 286410
+	state_category = enclave
+	history = {
+		owner = PAK
+		controller = PAK
+		add_core_of = PAK
+		victory_points = {
+			10149
+			10
+		}
+		buildings = {
+			infrastructure = 3
+			10149 = {
+				naval_base = 1
+			}
+		}
+		set_state_flag = GDP_regions_tamil_nadu
+	}
+	provinces = {
+		10149
+	}
+	local_supplies = 0.0
+}

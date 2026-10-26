@@ -1,0 +1,27 @@
+state = {
+	id = 1162
+	name = "STATE_1162"
+	provinces = {
+		3960
+	}
+	manpower = 118872
+	resources = {
+		aluminium = 1
+		oil = 4
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = metropolis
+	history = {
+		owner = USA
+		controller = USA
+		add_core_of = USA
+		victory_points = {
+			3960
+			20
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}

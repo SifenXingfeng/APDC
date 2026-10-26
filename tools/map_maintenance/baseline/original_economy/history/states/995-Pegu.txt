@@ -1,0 +1,40 @@
+state = {
+	id = 995
+	name = "STATE_995"
+	
+	state_category = city
+	manpower = 1272324
+	
+	
+	history = {
+
+		owner = BRM
+		add_core_of = BRM
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			19118 = { #was 1330
+				naval_base = 1
+			}
+		}
+
+		victory_points = {
+			1330 15 # Rangoon
+		}
+
+		victory_points = {
+			10344 1 # Taungoo
+		}
+
+	}
+
+	provinces = {
+		1330 1417 4293 10154 10267 10283 10344 12127 12197 13734 19023 19025 19098 19105 19117 19118 19130 19144 19150 
+	}
+
+	buildings_max_level_factor = 1.000
+	local_supplies = 6
+	
+}

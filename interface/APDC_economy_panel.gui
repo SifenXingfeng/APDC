@@ -1,0 +1,667 @@
+guiTypes = {
+containerWindowType = {
+name = "APDC_eco_law_row" position = { x = 0 y = 0 } size = { width = 462 height = 74 } 
+buttonType = {
+name = "APDC_eco_law_button" position = { x = 3 y = 0 } size = { x = 462 y = 74 } spriteType = "GFX_idea_entry_bg_3" clicksound = click_default pdx_tooltip = "APDC_ECO_LAW_TOOLTIP" 
+}
+iconType = {
+name = "APDC_eco_law_current" position = { x = 3 y = 0 } spriteType = "GFX_idea_entry_bg_3" alwaystransparent = yes frame = 2
+}
+buttonType = {
+name = "APDC_eco_law_icon" position = { x = 12 y = 4 } size = { x = 60 y = 68 } spriteType = "GFX_idea_generic_build_infrastructure" clicksound = click_default pdx_tooltip = "APDC_ECO_LAW_TOOLTIP" 
+}
+instantTextboxType = {
+name = "APDC_eco_law_name" position = { x = 84 y = -13 } font = "hoi_18mbs" text = "APDC_ECO_LAW_NAME" maxWidth = 160 maxHeight = 100%% fixedsize = yes format = left vertical_alignment = center alwaystransparent = yes 
+}
+instantTextboxType = {
+name = "APDC_eco_law_cost" position = { x = 200 y = 32 } font = "hoi_16mbs" text = "APDC_ECO_LAW_COST" maxWidth = 142 maxHeight = 10 format = center alwaystransparent = yes
+}
+
+}
+containerWindowType = {
+name = "APDC_eco_equipment_row" position = { x = 0 y = 0 } size = { width = 277 height = 45 } 
+iconType = {
+name = "APDC_eco_eq_row_bg" position = { x = 0 y = 0 } spriteType = "GFX_APDC_eco_eq_row" alwaystransparent = yes 
+}
+instantTextboxType = {
+name = "APDC_eco_eq_name" position = { x = 9 y = 4 } font = "hoi_16mbs" text = "APDC_ECO_EQ_NAME" maxWidth = 125 maxHeight = 23 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+instantTextboxType = {
+name = "APDC_eco_eq_stock" position = { x = 136 y = 5 } font = "hoi_18mbs" text = "APDC_ECO_EQ_STOCK" maxWidth = 61 maxHeight = 21 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_eq_buy" position = { x = 208 y = 9 } size = { x = 62 y = 21 } spriteType = "GFX_APDC_eco_buy" clicksound = click_default pdx_tooltip = "APDC_ECO_BUY_TIP" 
+}
+instantTextboxType = {
+name = "APDC_eco_eq_buy_text" position = { x = 208 y = 8 } font = "hoi_18mbs" text = "APDC_ECO_BUY" maxWidth = 62 maxHeight = 23 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_eq_bar_0" position = { x = 7 y = 34 } spriteType = "GFX_APDC_eco_eqp_0" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_eq_bar_1" position = { x = 44 y = 34 } spriteType = "GFX_APDC_eco_eqp_1" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_eq_bar_2" position = { x = 81 y = 34 } spriteType = "GFX_APDC_eco_eqp_2" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_eq_bar_3" position = { x = 118 y = 34 } spriteType = "GFX_APDC_eco_eqp_3" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_eq_bar_4" position = { x = 155 y = 34 } spriteType = "GFX_APDC_eco_eqp_4" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_eq_bar_5" position = { x = 192 y = 34 } spriteType = "GFX_APDC_eco_eqp_5" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_eq_bar_6" position = { x = 229 y = 34 } spriteType = "GFX_APDC_eco_eqp_6" alwaystransparent = yes 
+}
+
+}
+containerWindowType = {
+name = "APDC_eco_trade_row" position = { x = 0 y = 0 } size = { width = 157 height = 30 } 
+iconType = {
+name = "APDC_eco_trade_flag" position = { x = 19 y = 15 } spriteType = "GFX_APDC_cooperation_organization_flag_small_unfiltered" alwaystransparent = yes scale = 0.5 centerposition = yes
+}
+instantTextboxType = {
+name = "APDC_eco_trade_amount" position = { x = 42 y = 0 } font = "hoi_18mbs" text = "APDC_ECO_TRADE_COUNTRY_AMOUNT" maxWidth = 100 maxHeight = 30 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes  truncate = no
+}
+
+}
+containerWindowType = {
+name = "APDC_eco_trade_menu" position = { x = 0 y = 0 } size = { width = 188 height = 222 } 
+iconType = {
+name = "APDC_eco_trade_menu_bg" position = { x = 0 y = 0 } spriteType = "GFX_APDC_eco_trade_menu" alwaystransparent = yes 
+}
+containerWindowType = {
+name = "APDC_eco_trade_scroll" position = { x = 5 y = 4 } size = { width = 178 height = 208 } clipping = yes verticalScrollbar = "right_vertical_slider" autohide_scrollbars = yes smooth_scrolling = yes scroll_wheel_factor = 30 margin = { top = 0 right = 10 bottom = 0 }
+background = { name = "Background" spriteType = "GFX_tiled_window_transparent" }
+gridBoxType = {
+name = "APDC_eco_trade_list" position = { x = 0 y = 0 } size = { width = 157 height = 100% } slotsize = { width = 157 height = 30 } max_slots_horizontal = 1 format = "UPPER_LEFT"
+}
+
+}
+
+}
+containerWindowType = {
+name = "APDC_eco_law_side" position = { x = 574 y = 80 } size = { width = 500 height = 590 } show_position = { x = 1074 y = 80 } show_animation_type = decelerated hide_animation_type = accelerated animation_time = 300 clipping = no
+background = { name = "Background" spriteType = "GFX_tiled_plain_bg" }
+instantTextboxType = {
+name = "APDC_eco_law_title" position = { x = 15 y = 8 } font = "hoi_20b" text = "APDC_ECO_LAW_TITLE" maxWidth = 450 maxHeight = 30 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+containerWindowType = {
+name = "APDC_eco_law_scroll" position = { x = 8 y = 54 } size = { width = 488 height = 504 } clipping = yes verticalScrollbar = "right_vertical_slider" autohide_scrollbars = yes smooth_scrolling = yes scroll_wheel_factor = 74 margin = { top = 0 right = 10 bottom = 0 }
+background = { name = "Background" spriteType = "GFX_tiled_window_transparent" }
+gridBoxType = {
+name = "APDC_eco_law_list" position = { x = 0 y = 0 } size = { width = 462 height = 100% } slotsize = { width = 462 height = 74 } max_slots_horizontal = 1 format = "UPPER_LEFT"
+}
+
+}
+buttonType = {
+name = "APDC_eco_law_close" position = { x = 450 y = 5 } size = { x = 40 y = 40 } spriteType = "GFX_closebutton" clicksound = click_default pdx_tooltip = "APDC_ECO_CLOSE" 
+}
+
+}
+containerWindowType = {
+name = "APDC_eco_panel" position = { x = -250 y = 0 } size = { width = 1078 height = 972 } orientation = center origo = center moveable = yes click_to_front = yes clipping = no
+background = { name = "Background" spriteType = "GFX_tiled_window_transparent" }
+containerWindowType = {
+name = "APDC_eco_law_hook" position = { x = 0 y = 0 } size = { width = 1 height = 1 } clipping = no
+
+}
+iconType = {
+name = "APDC_eco_panel_art" position = { x = 0 y = 0 } spriteType = "GFX_APDC_eco_panel" alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_back" position = { x = 12 y = 11 } size = { x = 96 y = 47 } spriteType = "GFX_APDC_custom_panel_exit" clicksound = click_default pdx_tooltip = "APDC_ECO_BACK" 
+}
+instantTextboxType = {
+name = "APDC_eco_title" position = { x = 20 y = 66 } font = "hoi_36header" text = "APDC_ECO_TITLE" maxWidth = 230 maxHeight = 40 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+instantTextboxType = {
+name = "APDC_eco_cash" position = { x = 485 y = 65 } font = "hoi_24header" text = "APDC_ECO_CASH" maxWidth = 258 maxHeight = 40 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes  truncate = no
+}
+buttonType = {
+name = "APDC_eco_cash_tip" position = { x = 485 y = 65 } size = { x = 258 y = 40 } spriteType = "GFX_APDC_eco_cash_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_CASH_TIP" 
+}
+instantTextboxType = {
+name = "APDC_eco_weekly" position = { x = 742 y = 65 } font = "hoi_24header" text = "APDC_ECO_WEEKLY" maxWidth = 310 maxHeight = 40 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes  truncate = no
+}
+buttonType = {
+name = "APDC_eco_weekly_tip" position = { x = 742 y = 65 } size = { x = 310 y = 40 } spriteType = "GFX_APDC_eco_weekly_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_WEEKLY_TIP" 
+}
+instantTextboxType = {
+name = "APDC_eco_food_heading" position = { x = 20 y = 142 } font = "hoi_36header" text = "APDC_ECO_FOOD" maxWidth = 180 maxHeight = 42 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_food_bar_0_0" position = { x = 277 y = 149 } spriteType = "GFX_APDC_eco_welfare_0" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_food_bar_0_1" position = { x = 316 y = 149 } spriteType = "GFX_APDC_eco_welfare_1" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_food_bar_1_0" position = { x = 413 y = 149 } spriteType = "GFX_APDC_eco_welfare_0" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_food_bar_1_1" position = { x = 452 y = 149 } spriteType = "GFX_APDC_eco_welfare_1" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_food_bar_2_0" position = { x = 549 y = 149 } spriteType = "GFX_APDC_eco_welfare_0" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_food_bar_2_1" position = { x = 588 y = 149 } spriteType = "GFX_APDC_eco_welfare_1" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_food_bar_3_0" position = { x = 685 y = 149 } spriteType = "GFX_APDC_eco_welfare_0" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_food_bar_3_1" position = { x = 724 y = 149 } spriteType = "GFX_APDC_eco_welfare_1" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_food_tier_1_tray" position = { x = 210 y = 125 } spriteType = "GFX_APDC_eco_tray" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_food_tier_1_icon" position = { x = 247 y = 162 } spriteType = "GFX_idea_generic_build_infrastructure" alwaystransparent = yes centerposition = yes
+}
+buttonType = {
+name = "APDC_eco_food_tier_1_tip" position = { x = 210 y = 125 } size = { x = 74 y = 74 } spriteType = "GFX_APDC_eco_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_food_1_TIP" 
+}
+iconType = {
+name = "APDC_eco_food_tier_2_tray" position = { x = 346 y = 125 } spriteType = "GFX_APDC_eco_tray" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_food_tier_2_icon" position = { x = 383 y = 162 } spriteType = "GFX_idea_generic_build_infrastructure" alwaystransparent = yes centerposition = yes
+}
+buttonType = {
+name = "APDC_eco_food_tier_2_tip" position = { x = 346 y = 125 } size = { x = 74 y = 74 } spriteType = "GFX_APDC_eco_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_food_2_TIP" 
+}
+iconType = {
+name = "APDC_eco_food_tier_3_tray" position = { x = 482 y = 125 } spriteType = "GFX_APDC_eco_tray" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_food_tier_3_icon" position = { x = 519 y = 162 } spriteType = "GFX_idea_generic_build_infrastructure" alwaystransparent = yes centerposition = yes
+}
+buttonType = {
+name = "APDC_eco_food_tier_3_tip" position = { x = 482 y = 125 } size = { x = 74 y = 74 } spriteType = "GFX_APDC_eco_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_food_3_TIP" 
+}
+iconType = {
+name = "APDC_eco_food_tier_4_tray" position = { x = 618 y = 125 } spriteType = "GFX_APDC_eco_tray" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_food_tier_4_icon" position = { x = 655 y = 162 } spriteType = "GFX_idea_generic_build_infrastructure" alwaystransparent = yes centerposition = yes
+}
+buttonType = {
+name = "APDC_eco_food_tier_4_tip" position = { x = 618 y = 125 } size = { x = 74 y = 74 } spriteType = "GFX_APDC_eco_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_food_4_TIP" 
+}
+iconType = {
+name = "APDC_eco_food_tier_5_tray" position = { x = 754 y = 125 } spriteType = "GFX_APDC_eco_tray" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_food_tier_5_icon" position = { x = 791 y = 162 } spriteType = "GFX_idea_generic_build_infrastructure" alwaystransparent = yes centerposition = yes
+}
+buttonType = {
+name = "APDC_eco_food_tier_5_tip" position = { x = 754 y = 125 } size = { x = 74 y = 74 } spriteType = "GFX_APDC_eco_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_food_5_TIP" 
+}
+instantTextboxType = {
+name = "APDC_eco_food_weekly" position = { x = 840 y = 149 } font = "hoi_16mbs" text = "APDC_ECO_FOOD_WEEKLY" maxWidth = 76 maxHeight = 25 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes  truncate = no
+}
+buttonType = {
+name = "APDC_eco_food_weekly_tip" position = { x = 840 y = 149 } size = { x = 76 y = 25 } spriteType = "GFX_APDC_eco_weekly_change_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_FOOD_WEEKLY_TIP" 
+}
+buttonType = {
+name = "APDC_eco_food_law" position = { x = 920 y = 126 } size = { x = 70 y = 70 } spriteType = "GFX_idea_generic_build_infrastructure" clicksound = click_default pdx_tooltip = "APDC_ECO_ACTIVE_food_spending" 
+}
+instantTextboxType = {
+name = "APDC_eco_education_heading" position = { x = 20 y = 230 } font = "hoi_36header" text = "APDC_ECO_EDUCATION" maxWidth = 180 maxHeight = 42 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_education_bar_0_0" position = { x = 277 y = 237 } spriteType = "GFX_APDC_eco_welfare_0" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_education_bar_0_1" position = { x = 316 y = 237 } spriteType = "GFX_APDC_eco_welfare_1" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_education_bar_1_0" position = { x = 413 y = 237 } spriteType = "GFX_APDC_eco_welfare_0" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_education_bar_1_1" position = { x = 452 y = 237 } spriteType = "GFX_APDC_eco_welfare_1" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_education_bar_2_0" position = { x = 549 y = 237 } spriteType = "GFX_APDC_eco_welfare_0" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_education_bar_2_1" position = { x = 588 y = 237 } spriteType = "GFX_APDC_eco_welfare_1" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_education_bar_3_0" position = { x = 685 y = 237 } spriteType = "GFX_APDC_eco_welfare_0" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_education_bar_3_1" position = { x = 724 y = 237 } spriteType = "GFX_APDC_eco_welfare_1" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_education_tier_1_tray" position = { x = 210 y = 213 } spriteType = "GFX_APDC_eco_tray" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_education_tier_1_icon" position = { x = 247 y = 250 } spriteType = "GFX_idea_generic_build_infrastructure" alwaystransparent = yes centerposition = yes
+}
+buttonType = {
+name = "APDC_eco_education_tier_1_tip" position = { x = 210 y = 213 } size = { x = 74 y = 74 } spriteType = "GFX_APDC_eco_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_education_1_TIP" 
+}
+iconType = {
+name = "APDC_eco_education_tier_2_tray" position = { x = 346 y = 213 } spriteType = "GFX_APDC_eco_tray" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_education_tier_2_icon" position = { x = 383 y = 250 } spriteType = "GFX_idea_generic_build_infrastructure" alwaystransparent = yes centerposition = yes
+}
+buttonType = {
+name = "APDC_eco_education_tier_2_tip" position = { x = 346 y = 213 } size = { x = 74 y = 74 } spriteType = "GFX_APDC_eco_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_education_2_TIP" 
+}
+iconType = {
+name = "APDC_eco_education_tier_3_tray" position = { x = 482 y = 213 } spriteType = "GFX_APDC_eco_tray" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_education_tier_3_icon" position = { x = 519 y = 250 } spriteType = "GFX_idea_generic_build_infrastructure" alwaystransparent = yes centerposition = yes
+}
+buttonType = {
+name = "APDC_eco_education_tier_3_tip" position = { x = 482 y = 213 } size = { x = 74 y = 74 } spriteType = "GFX_APDC_eco_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_education_3_TIP" 
+}
+iconType = {
+name = "APDC_eco_education_tier_4_tray" position = { x = 618 y = 213 } spriteType = "GFX_APDC_eco_tray" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_education_tier_4_icon" position = { x = 655 y = 250 } spriteType = "GFX_idea_generic_build_infrastructure" alwaystransparent = yes centerposition = yes
+}
+buttonType = {
+name = "APDC_eco_education_tier_4_tip" position = { x = 618 y = 213 } size = { x = 74 y = 74 } spriteType = "GFX_APDC_eco_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_education_4_TIP" 
+}
+iconType = {
+name = "APDC_eco_education_tier_5_tray" position = { x = 754 y = 213 } spriteType = "GFX_APDC_eco_tray" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_education_tier_5_icon" position = { x = 791 y = 250 } spriteType = "GFX_idea_generic_build_infrastructure" alwaystransparent = yes centerposition = yes
+}
+buttonType = {
+name = "APDC_eco_education_tier_5_tip" position = { x = 754 y = 213 } size = { x = 74 y = 74 } spriteType = "GFX_APDC_eco_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_education_5_TIP" 
+}
+instantTextboxType = {
+name = "APDC_eco_education_weekly" position = { x = 840 y = 237 } font = "hoi_16mbs" text = "APDC_ECO_EDUCATION_WEEKLY" maxWidth = 76 maxHeight = 25 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes  truncate = no
+}
+buttonType = {
+name = "APDC_eco_education_weekly_tip" position = { x = 840 y = 237 } size = { x = 76 y = 25 } spriteType = "GFX_APDC_eco_weekly_change_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_EDUCATION_WEEKLY_TIP" 
+}
+buttonType = {
+name = "APDC_eco_education_law" position = { x = 920 y = 214 } size = { x = 70 y = 70 } spriteType = "GFX_idea_generic_build_infrastructure" clicksound = click_default pdx_tooltip = "APDC_ECO_ACTIVE_education_spending" 
+}
+instantTextboxType = {
+name = "APDC_eco_medical_heading" position = { x = 20 y = 318 } font = "hoi_36header" text = "APDC_ECO_MEDICAL" maxWidth = 180 maxHeight = 42 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_medical_bar_0_0" position = { x = 277 y = 325 } spriteType = "GFX_APDC_eco_welfare_0" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_medical_bar_0_1" position = { x = 316 y = 325 } spriteType = "GFX_APDC_eco_welfare_1" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_medical_bar_1_0" position = { x = 413 y = 325 } spriteType = "GFX_APDC_eco_welfare_0" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_medical_bar_1_1" position = { x = 452 y = 325 } spriteType = "GFX_APDC_eco_welfare_1" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_medical_bar_2_0" position = { x = 549 y = 325 } spriteType = "GFX_APDC_eco_welfare_0" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_medical_bar_2_1" position = { x = 588 y = 325 } spriteType = "GFX_APDC_eco_welfare_1" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_medical_bar_3_0" position = { x = 685 y = 325 } spriteType = "GFX_APDC_eco_welfare_0" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_medical_bar_3_1" position = { x = 724 y = 325 } spriteType = "GFX_APDC_eco_welfare_1" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_medical_tier_1_tray" position = { x = 210 y = 301 } spriteType = "GFX_APDC_eco_tray" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_medical_tier_1_icon" position = { x = 247 y = 338 } spriteType = "GFX_idea_generic_build_infrastructure" alwaystransparent = yes centerposition = yes
+}
+buttonType = {
+name = "APDC_eco_medical_tier_1_tip" position = { x = 210 y = 301 } size = { x = 74 y = 74 } spriteType = "GFX_APDC_eco_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_medical_1_TIP" 
+}
+iconType = {
+name = "APDC_eco_medical_tier_2_tray" position = { x = 346 y = 301 } spriteType = "GFX_APDC_eco_tray" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_medical_tier_2_icon" position = { x = 383 y = 338 } spriteType = "GFX_idea_generic_build_infrastructure" alwaystransparent = yes centerposition = yes
+}
+buttonType = {
+name = "APDC_eco_medical_tier_2_tip" position = { x = 346 y = 301 } size = { x = 74 y = 74 } spriteType = "GFX_APDC_eco_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_medical_2_TIP" 
+}
+iconType = {
+name = "APDC_eco_medical_tier_3_tray" position = { x = 482 y = 301 } spriteType = "GFX_APDC_eco_tray" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_medical_tier_3_icon" position = { x = 519 y = 338 } spriteType = "GFX_idea_generic_build_infrastructure" alwaystransparent = yes centerposition = yes
+}
+buttonType = {
+name = "APDC_eco_medical_tier_3_tip" position = { x = 482 y = 301 } size = { x = 74 y = 74 } spriteType = "GFX_APDC_eco_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_medical_3_TIP" 
+}
+iconType = {
+name = "APDC_eco_medical_tier_4_tray" position = { x = 618 y = 301 } spriteType = "GFX_APDC_eco_tray" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_medical_tier_4_icon" position = { x = 655 y = 338 } spriteType = "GFX_idea_generic_build_infrastructure" alwaystransparent = yes centerposition = yes
+}
+buttonType = {
+name = "APDC_eco_medical_tier_4_tip" position = { x = 618 y = 301 } size = { x = 74 y = 74 } spriteType = "GFX_APDC_eco_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_medical_4_TIP" 
+}
+iconType = {
+name = "APDC_eco_medical_tier_5_tray" position = { x = 754 y = 301 } spriteType = "GFX_APDC_eco_tray" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_medical_tier_5_icon" position = { x = 791 y = 338 } spriteType = "GFX_idea_generic_build_infrastructure" alwaystransparent = yes centerposition = yes
+}
+buttonType = {
+name = "APDC_eco_medical_tier_5_tip" position = { x = 754 y = 301 } size = { x = 74 y = 74 } spriteType = "GFX_APDC_eco_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_medical_5_TIP" 
+}
+instantTextboxType = {
+name = "APDC_eco_medical_weekly" position = { x = 840 y = 325 } font = "hoi_16mbs" text = "APDC_ECO_MEDICAL_WEEKLY" maxWidth = 76 maxHeight = 25 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes  truncate = no
+}
+buttonType = {
+name = "APDC_eco_medical_weekly_tip" position = { x = 840 y = 325 } size = { x = 76 y = 25 } spriteType = "GFX_APDC_eco_weekly_change_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_MEDICAL_WEEKLY_TIP" 
+}
+buttonType = {
+name = "APDC_eco_medical_law" position = { x = 920 y = 302 } size = { x = 70 y = 70 } spriteType = "GFX_idea_generic_build_infrastructure" clicksound = click_default pdx_tooltip = "APDC_ECO_ACTIVE_medical_spending" 
+}
+instantTextboxType = {
+name = "APDC_eco_tax_label" position = { x = 20 y = 421 } font = "hoi_24header" text = "APDC_ECO_TAX" maxWidth = 177 maxHeight = 40 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_tax_law" position = { x = 198 y = 405 } size = { x = 70 y = 70 } spriteType = "GFX_idea_generic_build_infrastructure" clicksound = click_default pdx_tooltip = "APDC_ECO_ACTIVE_tax" 
+}
+instantTextboxType = {
+name = "APDC_eco_development_label" position = { x = 283 y = 421 } font = "hoi_24header" text = "APDC_ECO_DEVELOPMENT" maxWidth = 177 maxHeight = 40 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_development_law" position = { x = 461 y = 405 } size = { x = 70 y = 70 } spriteType = "GFX_idea_generic_build_infrastructure" clicksound = click_default pdx_tooltip = "APDC_ECO_ACTIVE_development" 
+}
+instantTextboxType = {
+name = "APDC_eco_research_label" position = { x = 546 y = 421 } font = "hoi_24header" text = "APDC_ECO_RESEARCH" maxWidth = 177 maxHeight = 40 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_research_law" position = { x = 724 y = 405 } size = { x = 70 y = 70 } spriteType = "GFX_idea_generic_build_infrastructure" clicksound = click_default pdx_tooltip = "APDC_ECO_ACTIVE_research" 
+}
+instantTextboxType = {
+name = "APDC_eco_military_label" position = { x = 809 y = 421 } font = "hoi_24header" text = "APDC_ECO_MILITARY" maxWidth = 177 maxHeight = 40 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_military_law" position = { x = 987 y = 405 } size = { x = 70 y = 70 } spriteType = "GFX_idea_generic_build_infrastructure" clicksound = click_default pdx_tooltip = "APDC_ECO_ACTIVE_military" 
+}
+instantTextboxType = {
+name = "APDC_eco_investment_label" position = { x = 20 y = 793 } font = "hoi_24header" text = "APDC_ECO_INVESTMENT" maxWidth = 145 maxHeight = 40 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_investment_law" position = { x = 165 y = 780 } size = { x = 70 y = 70 } spriteType = "GFX_idea_generic_build_infrastructure" clicksound = click_default pdx_tooltip = "APDC_ECO_ACTIVE_investment" 
+}
+instantTextboxType = {
+name = "APDC_eco_distribution_label" position = { x = 255 y = 793 } font = "hoi_24header" text = "APDC_ECO_DISTRIBUTION" maxWidth = 145 maxHeight = 40 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_distribution_law" position = { x = 400 y = 780 } size = { x = 70 y = 70 } spriteType = "GFX_idea_generic_build_infrastructure" clicksound = click_default pdx_tooltip = "APDC_ECO_ACTIVE_distribution" 
+}
+instantTextboxType = {
+name = "APDC_eco_consumption_label" position = { x = 490 y = 793 } font = "hoi_24header" text = "APDC_ECO_CONSUMPTION" maxWidth = 145 maxHeight = 40 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_consumption_law" position = { x = 635 y = 780 } size = { x = 70 y = 70 } spriteType = "GFX_idea_generic_build_infrastructure" clicksound = click_default pdx_tooltip = "APDC_ECO_ACTIVE_consumption" 
+}
+instantTextboxType = {
+name = "APDC_eco_public" position = { x = 27 y = 574 } font = "hoi_18mbs" text = "APDC_ECO_PUBLIC" maxWidth = 145 maxHeight = 22 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+instantTextboxType = {
+name = "APDC_eco_public_count" position = { x = 63 y = 599 } font = "hoi_18mbs" text = "APDC_ECO_PUBLIC_COUNT" maxWidth = 70 maxHeight = 24 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_public_plus" position = { x = 140 y = 598 } size = { x = 28 y = 25 } spriteType = "GFX_APDC_eco_allocation_hitbox" clicksound = click_default  
+}
+instantTextboxType = {
+name = "APDC_eco_plus" position = { x = 140 y = 598 } font = "hoi_18mbs" text = "APDC_ECO_PLUS" maxWidth = 28 maxHeight = 25 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_public_minus" position = { x = 29 y = 598 } size = { x = 28 y = 25 } spriteType = "GFX_APDC_eco_allocation_hitbox" clicksound = click_default  
+}
+instantTextboxType = {
+name = "APDC_eco_minus" position = { x = 29 y = 598 } font = "hoi_18mbs" text = "APDC_ECO_MINUS" maxWidth = 28 maxHeight = 25 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+instantTextboxType = {
+name = "APDC_eco_private" position = { x = 27 y = 673 } font = "hoi_18mbs" text = "APDC_ECO_PRIVATE" maxWidth = 145 maxHeight = 22 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+instantTextboxType = {
+name = "APDC_eco_private_count" position = { x = 27 y = 698 } font = "hoi_18mbs" text = "APDC_ECO_PRIVATE_COUNT" maxWidth = 145 maxHeight = 24 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+instantTextboxType = {
+name = "APDC_eco_domestic" position = { x = 279 y = 622 } font = "hoi_18mbs" text = "APDC_ECO_DOMESTIC" maxWidth = 119 maxHeight = 51 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes multiline = yes truncate = no
+}
+instantTextboxType = {
+name = "APDC_eco_dist" position = { x = 455 y = 625 } font = "hoi_18mbs" text = "APDC_ECO_DISTRIBUTION_VALUE" maxWidth = 61 maxHeight = 50 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes multiline = yes truncate = no
+}
+instantTextboxType = {
+name = "APDC_eco_extra_in" position = { x = 201 y = 721 } font = "hoi_18mbs" text = "APDC_ECO_EXTRA_IN" maxWidth = 117 maxHeight = 45 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes multiline = yes truncate = no
+}
+instantTextboxType = {
+name = "APDC_eco_extra_out" position = { x = 357 y = 721 } font = "hoi_18mbs" text = "APDC_ECO_EXTRA_OUT" maxWidth = 117 maxHeight = 45 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes multiline = yes truncate = no
+}
+buttonType = {
+name = "APDC_eco_domestic_tip" position = { x = 279 y = 622 } size = { x = 119 y = 51 } spriteType = "GFX_APDC_eco_domestic_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_DOMESTIC_TIP" 
+}
+buttonType = {
+name = "APDC_eco_distribution_tip" position = { x = 455 y = 625 } size = { x = 61 y = 50 } spriteType = "GFX_APDC_eco_distribution_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_DISTRIBUTION_TIP" 
+}
+instantTextboxType = {
+name = "APDC_eco_supply_heading" position = { x = 580 y = 606 } font = "hoi_18mbs" text = "APDC_ECO_SUPPLY_HEADING" maxWidth = 54 maxHeight = 30 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+instantTextboxType = {
+name = "APDC_eco_supply_value" position = { x = 572 y = 666 } font = "hoi_16mbs" text = "APDC_ECO_SUPPLY_VALUE" maxWidth = 64 maxHeight = 30 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes  truncate = no
+}
+instantTextboxType = {
+name = "APDC_eco_demand_heading" position = { x = 637 y = 606 } font = "hoi_18mbs" text = "APDC_ECO_DEMAND_HEADING" maxWidth = 54 maxHeight = 30 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+instantTextboxType = {
+name = "APDC_eco_demand_value" position = { x = 635 y = 666 } font = "hoi_16mbs" text = "APDC_ECO_DEMAND_VALUE" maxWidth = 64 maxHeight = 30 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes  truncate = no
+}
+instantTextboxType = {
+name = "APDC_eco_trade_label" position = { x = 279 y = 523 } font = "hoi_18mbs" text = "APDC_ECO_TRADE" maxWidth = 130 maxHeight = 44 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes multiline = yes truncate = no
+}
+iconType = {
+name = "APDC_eco_direction" position = { x = 331 y = 574 } spriteType = "GFX_APDC_eco_direction" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_trade_toggle_icon" position = { x = 409 y = 534 } spriteType = "GFX_APDC_eco_trade_toggle" alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_trade_toggle" position = { x = 401 y = 519 } size = { x = 56 y = 52 } spriteType = "GFX_APDC_eco_trade_hitbox" clicksound = click_default 
+}
+containerWindowType = {
+name = "APDC_eco_trade_hook" position = { x = 274 y = 292 } size = { width = 1 height = 1 } clipping = no
+
+}
+instantTextboxType = {
+name = "APDC_eco_private_mil" position = { x = 742 y = 533 } font = "hoi_24header" text = "APDC_ECO_PRIVATE_MIL" maxWidth = 310 maxHeight = 42 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+containerWindowType = {
+name = "APDC_eco_equipment_scroll" position = { x = 750 y = 604 } size = { width = 293 height = 303 } clipping = yes verticalScrollbar = "right_vertical_slider" autohide_scrollbars = yes smooth_scrolling = yes scroll_wheel_factor = 45 margin = { top = 0 right = 10 bottom = 0 }
+background = { name = "Background" spriteType = "GFX_tiled_window_transparent" }
+gridBoxType = {
+name = "APDC_eco_equipment_list" position = { x = 0 y = 0 } size = { width = 277 height = 100% } slotsize = { width = 277 height = 45 } max_slots_horizontal = 1 format = "UPPER_LEFT"
+}
+
+}
+iconType = {
+name = "APDC_eco_civ_build_0" position = { x = 25 y = 875 } spriteType = "GFX_APDC_eco_construction_0" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_civ_build_1" position = { x = 62 y = 875 } spriteType = "GFX_APDC_eco_construction_1" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_civ_build_2" position = { x = 99 y = 875 } spriteType = "GFX_APDC_eco_construction_2" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_civ_build_3" position = { x = 136 y = 875 } spriteType = "GFX_APDC_eco_construction_3" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_civ_build_4" position = { x = 173 y = 875 } spriteType = "GFX_APDC_eco_construction_4" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_civ_build_5" position = { x = 210 y = 875 } spriteType = "GFX_APDC_eco_construction_5" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_civ_build_6" position = { x = 247 y = 875 } spriteType = "GFX_APDC_eco_construction_6" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_civ_build_7" position = { x = 284 y = 875 } spriteType = "GFX_APDC_eco_construction_7" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_civ_build_8" position = { x = 321 y = 875 } spriteType = "GFX_APDC_eco_construction_8" alwaystransparent = yes 
+}
+instantTextboxType = {
+name = "APDC_eco_civ_construction_build" position = { x = 31 y = 900 } font = "hoi_18mbs" text = "APDC_ECO_CIV_BUILD" maxWidth = 319 maxHeight = 30 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+instantTextboxType = {
+name = "APDC_eco_civ_construction_stop" position = { x = 31 y = 900 } font = "hoi_18mbs" text = "APDC_ECO_CIV_STOP" maxWidth = 319 maxHeight = 30 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+instantTextboxType = {
+name = "APDC_eco_civ_construction_close" position = { x = 31 y = 900 } font = "hoi_18mbs" text = "APDC_ECO_CIV_CLOSE" maxWidth = 319 maxHeight = 30 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_civ_build_tip" position = { x = 25 y = 875 } size = { x = 333 y = 68 } spriteType = "GFX_APDC_eco_build_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_CIV_BUILD_TIP" 
+}
+iconType = {
+name = "APDC_eco_mil_build_0" position = { x = 388 y = 875 } spriteType = "GFX_APDC_eco_construction_0" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_mil_build_1" position = { x = 425 y = 875 } spriteType = "GFX_APDC_eco_construction_1" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_mil_build_2" position = { x = 462 y = 875 } spriteType = "GFX_APDC_eco_construction_2" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_mil_build_3" position = { x = 499 y = 875 } spriteType = "GFX_APDC_eco_construction_3" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_mil_build_4" position = { x = 536 y = 875 } spriteType = "GFX_APDC_eco_construction_4" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_mil_build_5" position = { x = 573 y = 875 } spriteType = "GFX_APDC_eco_construction_5" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_mil_build_6" position = { x = 610 y = 875 } spriteType = "GFX_APDC_eco_construction_6" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_mil_build_7" position = { x = 647 y = 875 } spriteType = "GFX_APDC_eco_construction_7" alwaystransparent = yes 
+}
+iconType = {
+name = "APDC_eco_mil_build_8" position = { x = 684 y = 875 } spriteType = "GFX_APDC_eco_construction_8" alwaystransparent = yes 
+}
+instantTextboxType = {
+name = "APDC_eco_mil_construction_build" position = { x = 394 y = 900 } font = "hoi_18mbs" text = "APDC_ECO_MIL_BUILD" maxWidth = 319 maxHeight = 30 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+instantTextboxType = {
+name = "APDC_eco_mil_construction_stop" position = { x = 394 y = 900 } font = "hoi_18mbs" text = "APDC_ECO_MIL_STOP" maxWidth = 319 maxHeight = 30 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+instantTextboxType = {
+name = "APDC_eco_mil_construction_close" position = { x = 394 y = 900 } font = "hoi_18mbs" text = "APDC_ECO_MIL_CLOSE" maxWidth = 319 maxHeight = 30 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_mil_build_tip" position = { x = 388 y = 875 } size = { x = 333 y = 68 } spriteType = "GFX_APDC_eco_build_hitbox" clicksound = click_default pdx_tooltip = "APDC_ECO_MIL_BUILD_TIP" 
+}
+containerWindowType = {
+name = "APDC_eco_purchase_hook" position = { x = 276 y = 180 } size = { width = 1 height = 1 } clipping = no
+
+}
+
+}
+containerWindowType = {
+name = "APDC_eco_purchase" position = { x = 0 y = 0 } size = { width = 527 height = 612 } click_to_front = yes clipping = no
+background = { name = "Background" spriteType = "GFX_diplo_action_lend_lease_bg" }
+instantTextboxType = {
+name = "APDC_eco_purchase_title" position = { x = 100 y = 28 } font = "hoi_24header" text = "APDC_ECO_PURCHASE_TITLE" maxWidth = 327 maxHeight = 32 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+instantTextboxType = {
+name = "APDC_eco_purchase_name" position = { x = 30 y = 83 } font = "hoi_24header" text = "APDC_ECO_PURCHASE_NAME" maxWidth = 467 maxHeight = 36 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+instantTextboxType = {
+name = "APDC_eco_purchase_stock" position = { x = 30 y = 170 } font = "hoi_20b" text = "APDC_ECO_PURCHASE_STOCK" maxWidth = 467 maxHeight = 30 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+instantTextboxType = {
+name = "APDC_eco_purchase_quantity" position = { x = 30 y = 220 } font = "hoi_20b" text = "APDC_ECO_PURCHASE_QUANTITY" maxWidth = 467 maxHeight = 30 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+instantTextboxType = {
+name = "APDC_eco_purchase_cost" position = { x = 30 y = 440 } font = "hoi_20b" text = "APDC_ECO_PURCHASE_COST" maxWidth = 467 maxHeight = 40 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes  truncate = no
+}
+buttonType = {
+name = "APDC_eco_qty_add_1" position = { x = 34 y = 315 } size = { x = 108 y = 32 } spriteType = "GFX_APDC_eco_button_quantity" clicksound = click_default 
+}
+instantTextboxType = {
+name = "APDC_eco_qty_add_1_label" position = { x = 34 y = 315 } font = "hoi_18mbs" text = "APDC_ECO_PLUS_1" maxWidth = 108 maxHeight = 32 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_qty_remove_1" position = { x = 34 y = 355 } size = { x = 108 y = 32 } spriteType = "GFX_APDC_eco_button_quantity" clicksound = click_default 
+}
+instantTextboxType = {
+name = "APDC_eco_qty_remove_1_label" position = { x = 34 y = 355 } font = "hoi_18mbs" text = "APDC_ECO_MINUS_1" maxWidth = 108 maxHeight = 32 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_qty_add_10" position = { x = 150 y = 315 } size = { x = 108 y = 32 } spriteType = "GFX_APDC_eco_button_quantity" clicksound = click_default 
+}
+instantTextboxType = {
+name = "APDC_eco_qty_add_10_label" position = { x = 150 y = 315 } font = "hoi_18mbs" text = "APDC_ECO_PLUS_10" maxWidth = 108 maxHeight = 32 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_qty_remove_10" position = { x = 150 y = 355 } size = { x = 108 y = 32 } spriteType = "GFX_APDC_eco_button_quantity" clicksound = click_default 
+}
+instantTextboxType = {
+name = "APDC_eco_qty_remove_10_label" position = { x = 150 y = 355 } font = "hoi_18mbs" text = "APDC_ECO_MINUS_10" maxWidth = 108 maxHeight = 32 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_qty_add_100" position = { x = 266 y = 315 } size = { x = 108 y = 32 } spriteType = "GFX_APDC_eco_button_quantity" clicksound = click_default 
+}
+instantTextboxType = {
+name = "APDC_eco_qty_add_100_label" position = { x = 266 y = 315 } font = "hoi_18mbs" text = "APDC_ECO_PLUS_100" maxWidth = 108 maxHeight = 32 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_qty_remove_100" position = { x = 266 y = 355 } size = { x = 108 y = 32 } spriteType = "GFX_APDC_eco_button_quantity" clicksound = click_default 
+}
+instantTextboxType = {
+name = "APDC_eco_qty_remove_100_label" position = { x = 266 y = 355 } font = "hoi_18mbs" text = "APDC_ECO_MINUS_100" maxWidth = 108 maxHeight = 32 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_qty_add_1000" position = { x = 382 y = 315 } size = { x = 108 y = 32 } spriteType = "GFX_APDC_eco_button_quantity" clicksound = click_default 
+}
+instantTextboxType = {
+name = "APDC_eco_qty_add_1000_label" position = { x = 382 y = 315 } font = "hoi_18mbs" text = "APDC_ECO_PLUS_1000" maxWidth = 108 maxHeight = 32 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_qty_remove_1000" position = { x = 382 y = 355 } size = { x = 108 y = 32 } spriteType = "GFX_APDC_eco_button_quantity" clicksound = click_default 
+}
+instantTextboxType = {
+name = "APDC_eco_qty_remove_1000_label" position = { x = 382 y = 355 } font = "hoi_18mbs" text = "APDC_ECO_MINUS_1000" maxWidth = 108 maxHeight = 32 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_qty_max" position = { x = 190 y = 395 } size = { x = 145 y = 30 } spriteType = "GFX_APDC_eco_button_maximum" clicksound = click_default 
+}
+instantTextboxType = {
+name = "APDC_eco_qty_max_text" position = { x = 190 y = 395 } font = "hoi_18mbs" text = "APDC_ECO_MAX" maxWidth = 145 maxHeight = 30 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_purchase_accept" position = { x = 170 y = 510 } size = { x = 185 y = 42 } spriteType = "GFX_APDC_eco_button_accept" clicksound = click_default pdx_tooltip = "APDC_ECO_BUY_TIP" 
+}
+instantTextboxType = {
+name = "APDC_eco_purchase_accept_text" position = { x = 170 y = 510 } font = "hoi_20b" text = "APDC_ECO_BUY" maxWidth = 185 maxHeight = 42 fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes 
+}
+buttonType = {
+name = "APDC_eco_purchase_close" position = { x = 477 y = 9 } size = { x = 40 y = 40 } spriteType = "GFX_closebutton" clicksound = click_default pdx_tooltip = "APDC_ECO_CLOSE" 
+}
+
+}
+
+}

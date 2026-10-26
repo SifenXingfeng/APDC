@@ -1,0 +1,30 @@
+state = {
+	id = 935
+	name = "STATE_935"
+	provinces = {
+		2132
+		2178
+		8179
+	}
+	manpower = 1224000
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = BRA
+		controller = BRA
+		add_core_of = BRA
+		victory_points = {
+			2132
+			2
+		}
+		victory_points = {
+			8179
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+}

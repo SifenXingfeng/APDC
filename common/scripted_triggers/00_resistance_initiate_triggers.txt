@@ -1,0 +1,18 @@
+# Engine callbacks: these are invoked by hoi4.exe without a scripted caller.
+# Keep the generic rules even when removing unrelated imported country scripts.
+
+should_activate_active_crypto_bonuses = {
+	always = no
+}
+
+should_not_activate_active_crypto_bonuses = {
+	always = no
+}
+
+# State scope; FROM is the occupier. Also checked daily for active resistance,
+# so existing saves can disable resistance that was wrongly enabled in cores.
+should_initiate_resistance = {
+	impassable = no
+	check_variable = { core_countries^num > 0 }
+	NOT = { is_core_of = FROM }
+}

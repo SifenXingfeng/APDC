@@ -1,0 +1,71 @@
+state = {
+	id = 1351
+	name = "STATE_1351"
+	provinces = {
+		6039
+		9137
+		10831
+		13993
+		14006
+		14012
+		15297
+		15441
+		15444
+		15448
+		15452
+		15453
+		15454
+		15455
+	}
+	manpower = 959092
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = CMR
+		controller = CMR
+		add_core_of = CMR
+		victory_points = {
+			6039
+			20
+		}
+		victory_points = {
+			10831
+			3
+		}
+		victory_points = {
+			13993
+			1
+		}
+		victory_points = {
+			14006
+			2
+		}
+		victory_points = {
+			14012
+			1
+		}
+		victory_points = {
+			15441
+			3
+		}
+		victory_points = {
+			15444
+			2
+		}
+		victory_points = {
+			15448
+			2
+		}
+		victory_points = {
+			15452
+			3
+		}
+		buildings = {
+			infrastructure = 2
+			6039 = {
+				naval_base = 1
+			}
+		}
+	}
+}

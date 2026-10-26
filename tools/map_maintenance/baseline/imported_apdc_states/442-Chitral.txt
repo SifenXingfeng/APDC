@@ -1,0 +1,45 @@
+state = {
+	id = 442
+	name = "STATE_442"
+	resources = {
+		steel = 1
+	}
+	provinces = {
+		4558
+		14232
+		15999
+		16004
+		16006
+		18870
+	}
+	manpower = 3115762
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 5
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PAK
+		add_core_of = PRC
+		victory_points = {
+			15999
+			1
+		}
+		victory_points = {
+			16004
+			1
+		}
+		victory_points = {
+			16006
+			2
+		}
+		victory_points = {
+			18870
+			2
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+	}
+}

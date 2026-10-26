@@ -29,7 +29,19 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 		
-	}
+	
+instantTextBoxType = {
+			name = "date"
+			position = { x = -10000 y = -10000 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "FE_BOOKMARK_DATE"
+			maxWidth = 185
+			maxHeight = 20
+			fixedsize = yes
+			format = centre
+		}
+}
 
 	containerWindowType = {
 		name = "spirit_idea_entry"
@@ -141,7 +153,27 @@ guiTypes = {
 			pdx_tooltip = "APDC_DISABLED_INTERESTING_COUNTRY_TOOLTIP"
 		}
 
-	}
+	
+instantTextBoxType = {
+			name = "country_name"
+			position = { x = -10000 y = -10000 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 131
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+
+buttonType = {
+			name = "country_leader"
+			quadTextureSprite ="GFX_leader_unknown"
+			position = { x = -10000 y = -10000 }
+			scale=0.75
+			clicksound = click_checkbox
+		}
+}
 
 	### country entry
 	containerWindowType = {
@@ -327,7 +359,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "saves_dirs"
 			position = { x = 10 y = 375 }
-			textureFile = ""
+			
 			font = "hoi_20bs"
 			borderSize = {x = 0 y = 4}
 			text = ""
@@ -401,7 +433,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "localgames_label"
 			position = { x = 115 y = 131 }
-			textureFile = ""
+			
 			font = "hoi_20bs"
 			borderSize = {x = 0 y = 0}
 			text = "MENU_BAR_LOCALGAMES"
@@ -416,7 +448,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "cloudgames_label"
 			position = { x = 269 y = 131 }
-			textureFile = ""
+			
 			font = "hoi_20bs"
 			borderSize = {x = 0 y = 0}
 			text = "MENU_BAR_CLOUDGAMES"
@@ -431,7 +463,7 @@ guiTypes = {
 				instantTextBoxType = {
 			name = "menu_label"
 			position = { x = 145 y = 85 }
-			textureFile = ""
+			
 			font = "hoi_20bs"
 			borderSize = {x = 0 y = 0}
 			text = "MENU_BAR_IRONMAN_SAVE"
@@ -506,7 +538,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 350 y = 14 }
-			textureFile = ""
+			
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
 			text = "FE_SELECT_SCENARIO"
@@ -605,7 +637,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 441 y = 10 }
-			textureFile = ""
+			
 			font = "hoi_24header"
 			borderSize = {x = 0 y = 0}
 			text = "FE_SELECT_COUNTRY"
@@ -918,7 +950,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "leader"
 				position = { x = 0 y = -115 }
-				textureFile = ""
+				
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = ""
@@ -929,7 +961,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "ideology_label"
 				position = { x = 0 y = -92 }
-				textureFile = ""
+				
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "IDEOLOGY"
@@ -1081,7 +1113,56 @@ guiTypes = {
 			format = left
 			scrollbartype = "standardlistbox_slider"
 		}
-	}
+	
+dropDownBoxType = {
+			name = "more_countries"
+			position = { x = -10000 y = -10000 }
+
+			expandButton = {
+				name = "expand_button"
+				position = { x = 1168 y = -4 }
+				quadTextureSprite = "GFX_peace_drop_down_button"
+				clicksound = click_default
+			}
+
+			expandedWindow = {
+				name = "expanded_window"
+				position = { x=0 y= -300 }
+				show_position = { x = 0 y = 25 }
+				show_animation_type = decelerated
+				hide_animation_type = accelerated
+				animation_time = 300
+				size = { width=1205 height=58 }	# dynamically resized in code using countries_mini_expanded's slot size
+				verticalScrollbar = "right_vertical_slider"
+				scroll_wheel_factor = 50
+				smooth_scrolling = yes
+				margin = { top = 7 bottom = 7 right = 6 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_1b_thin_border"
+				}
+
+				gridBoxType = {
+					name = "countries_mini_expanded"
+					position = { x = 8 y = 0 }
+					size = { width = 199 height = 100%% }
+					slotsize = { width = 52 height = 38 }
+					add_horizontal = yes
+					max_slots_horizontal = 22
+					format = "UPPER_LEFT"
+				}
+			}
+		}
+
+OverlappingElementsBoxType = {
+			name = "filters"
+			position = { x = -10000 y = -10000 }
+			size = { x = 1181 y = 32 }
+			format = center
+			spacing = 14.0
+		}
+}
 
 	containerWindowType = {
 		name ="gamesetup_important_message_window"
@@ -1098,7 +1179,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "important_message"
 			position = { x = 0 y = 20 }
-			textureFile = ""
+			
 			font = "hoi_20b"
 			borderSize = {x = 4 y = 4}
 			text = "HOST_PREPARING_GAME"
@@ -1244,7 +1325,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "government"
 				position = { x = 72 y = 51 }
-				textureFile = ""
+				
 				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
@@ -1254,7 +1335,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "elections_label"
 				position = { x = 6 y = 75 }
-				textureFile = ""
+				
 				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				text = "POLITICS_NEXTELECTION"
@@ -1265,7 +1346,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "elections"
 				position = { x = 72 y = 75 }
-				textureFile = ""
+				
 				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
@@ -1275,7 +1356,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "party_label"
 				position = { x = 6 y = 99 }
-				textureFile = ""
+				
 				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				text = "RULING_PARTY"
@@ -1286,7 +1367,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "party"
 				position = { x = 148 y = 99 }
-				textureFile = ""
+				
 				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 264
@@ -1751,7 +1832,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "option_name"
 			position = { x = 4 y = 2 }
-			textureFile = ""
+			
 			font = "hoi_16mbs"
 			maxWidth = 230
 			maxHeight = 16
@@ -2288,7 +2369,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "selected_nation_label"
 				position = { x = -375 y = 55 }
-				textureFile = ""
+				
 				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				text = "FE_NO_COUNTRY_SELECTED"
@@ -2398,6 +2479,21 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 
+		}
+	}
+
+containerWindowType = {
+		name = "country_filter"
+		size = { width = 149 height = 33 }
+
+		buttonType = {
+			name = "button"
+			quadTextureSprite = "GFX_country_filter_entry"
+			buttonText = "FILTER"
+			buttonFont = "hoi_16mbs"
+			clicksound = click_default
+			oversound = ui_menu_over
+			frame = 2
 		}
 	}
 }

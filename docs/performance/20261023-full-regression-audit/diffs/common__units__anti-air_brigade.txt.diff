@@ -1,0 +1,50 @@
+--- before/common/units/anti-air_brigade.txt
++++ current/common/units/anti-air_brigade.txt
+@@ -5,10 +5,14 @@
+ 
+ sub_units = {
+ 
+-	anti_air_brigade = {
++	
++	
++
++# Inactive identifiers required by retained engine interfaces.
++anti_air_brigade = {
+ 		abbreviation = "ANA"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		priority = 301
+ 		ai_priority = 10
+ 		active = no
+@@ -39,7 +43,7 @@
+ 		supply_consumption = 0.1
+ 
+ 		need = {
+-			anti_air_equipment = 36
++			
+ 		}
+ 
+ 		forest = {
+@@ -66,10 +70,10 @@
+ 			attack = -0.4
+ 		}
+ 	}
+-	mot_anti_air_brigade = {
++mot_anti_air_brigade = {
+ 		abbreviation = "MAA"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		priority = 301
+ 		ai_priority = 10
+ 		active = no
+@@ -105,7 +109,7 @@
+ 		}
+ 
+ 		need = {
+-			anti_air_equipment = 36
++			
+ 			motorized_equipment = 36
+ 		}
+ 

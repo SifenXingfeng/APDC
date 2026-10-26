@@ -1,0 +1,66 @@
+state = {
+	id = 779
+	name = "STATE_779"
+	provinces = {
+		8122
+		14014
+		14047
+		15288
+		15296
+		15405
+		15406
+		15407
+		15409
+		15410
+		15411
+		15415
+	}
+	manpower = 1100210
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 1
+	history = {
+		owner = IVO
+		controller = IVO
+		add_core_of = IVO
+		victory_points = {
+			14014
+			3
+		}
+		victory_points = {
+			14047
+			5
+		}
+		victory_points = {
+			15288
+			5
+		}
+		victory_points = {
+			15296
+			3
+		}
+		victory_points = {
+			15405
+			1
+		}
+		victory_points = {
+			15406
+			2
+		}
+		victory_points = {
+			15407
+			1
+		}
+		victory_points = {
+			15411
+			1
+		}
+		victory_points = {
+			15415
+			1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

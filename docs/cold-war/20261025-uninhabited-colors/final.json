@@ -1,0 +1,54 @@
+{
+  "tag": "ZZZ",
+  "scope": "Cold War world map only",
+  "fill_rgb": [
+    0,
+    0,
+    0
+  ],
+  "foreign_border_rgb": [
+    255,
+    0,
+    0
+  ],
+  "return_matches_initial_world": true,
+  "static": {
+    "black_masks_alpha_preserved": 1700,
+    "normal_border_frame_byte_identical": 3611,
+    "red_border_alpha_and_dimensions_preserved": 3611,
+    "other_GFX_definitions_unchanged": 7036,
+    "detail_and_game_map_protected_files": 3635,
+    "protected_changes": []
+  },
+  "native": {
+    "changed_pixels": 6053,
+    "pixels_changed_outside_uninhabited_and_its_borders": 0,
+    "max_channel_difference_outside": 0,
+    "pure_black_pixels": 1529
+  },
+  "runtime": {
+    "detail_unchanged_pixels": 250000,
+    "ownership_restore_unchanged_outside_autosave_message": true,
+    "autosave_overlay_excluded_rectangle": [
+      400,
+      382,
+      607,
+      414
+    ],
+    "passed": 87,
+    "failed": [],
+    "missing": [],
+    "project_or_unclassified_errors": 0,
+    "cleanup": {
+      "still_running": false,
+      "remaining_helpers": [],
+      "pid": 35856,
+      "steam_app_running": false,
+      "stopped": "2026-10-25T16:19:56.8691961+08:00",
+      "closed_helpers": [
+        42580,
+        5424
+      ]
+    }
+  }
+}

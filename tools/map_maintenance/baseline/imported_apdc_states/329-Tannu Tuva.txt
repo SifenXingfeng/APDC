@@ -1,0 +1,42 @@
+state = {
+	id = 329
+	name = "STATE_329"
+	manpower = 85000
+	resources = {
+		chromium = 2
+	}
+	state_category = rural
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		victory_points = {
+			10627
+			1
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		1676
+		1877
+		4680
+		7703
+		7731
+		7804
+		7819
+		10597
+		10627
+		10646
+		12610
+		12625
+		19579
+		19639
+		19680
+		19706
+	}
+	local_supplies = 0.0
+}

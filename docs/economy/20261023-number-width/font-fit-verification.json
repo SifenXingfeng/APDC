@@ -1,0 +1,190 @@
+{
+  "fields": {
+    "cash": {
+      "font": "hoi_24header",
+      "box": [
+        258,
+        40
+      ],
+      "cases": 936,
+      "widest_ink_px": 161,
+      "widest_sample": "国库：+000.00No£APDC_ruble_texticon£",
+      "minimum_horizontal_margin_px": 47.0
+    },
+    "weekly": {
+      "font": "hoi_24header",
+      "box": [
+        310,
+        40
+      ],
+      "cases": 936,
+      "widest_ink_px": 198,
+      "widest_sample": "每周变化：+000.00No£APDC_ruble_texticon£",
+      "minimum_horizontal_margin_px": 54.0
+    },
+    "domestic": {
+      "font": "hoi_18mbs",
+      "box": [
+        119,
+        51
+      ],
+      "cases": 312,
+      "widest_ink_px": 70,
+      "widest_sample": "总消费品\n000.00Qa",
+      "minimum_horizontal_margin_px": 24.0
+    },
+    "supply_value": {
+      "font": "hoi_16mbs",
+      "box": [
+        64,
+        30
+      ],
+      "cases": 312,
+      "widest_ink_px": 60,
+      "widest_sample": "000.00Qa",
+      "minimum_horizontal_margin_px": 1.5
+    },
+    "demand_value": {
+      "font": "hoi_16mbs",
+      "box": [
+        64,
+        30
+      ],
+      "cases": 312,
+      "widest_ink_px": 60,
+      "widest_sample": "000.00Qa",
+      "minimum_horizontal_margin_px": 1.5
+    },
+    "extra_in": {
+      "font": "hoi_18mbs",
+      "box": [
+        117,
+        45
+      ],
+      "cases": 312,
+      "widest_ink_px": 111,
+      "widest_sample": "额外输入消费品\n000.00",
+      "minimum_horizontal_margin_px": 3.0
+    },
+    "extra_out": {
+      "font": "hoi_18mbs",
+      "box": [
+        117,
+        45
+      ],
+      "cases": 312,
+      "widest_ink_px": 111,
+      "widest_sample": "额外输出消费品\n000.00",
+      "minimum_horizontal_margin_px": 3.0
+    },
+    "trade_label": {
+      "font": "hoi_18mbs",
+      "box": [
+        130,
+        44
+      ],
+      "cases": 936,
+      "widest_ink_px": 80,
+      "widest_sample": "贸易消费品\n000.00",
+      "minimum_horizontal_margin_px": 24.5
+    },
+    "trade_amount": {
+      "font": "hoi_18mbs",
+      "box": [
+        100,
+        30
+      ],
+      "cases": 936,
+      "widest_ink_px": 79,
+      "widest_sample": "+000.00Qa",
+      "minimum_horizontal_margin_px": 10.0
+    },
+    "purchase_cost": {
+      "font": "hoi_20b",
+      "box": [
+        467,
+        40
+      ],
+      "cases": 936,
+      "widest_ink_px": 136,
+      "widest_sample": "总价：+000.00Qa£APDC_ruble_texticon£",
+      "minimum_horizontal_margin_px": 164.5
+    },
+    "dist": {
+      "font": "hoi_18mbs",
+      "box": [
+        61,
+        50
+      ],
+      "cases": 2,
+      "widest_ink_px": 56,
+      "widest_sample": "分配率\n100.0%",
+      "minimum_horizontal_margin_px": 2.5
+    },
+    "food_weekly": {
+      "font": "hoi_16mbs",
+      "box": [
+        76,
+        25
+      ],
+      "cases": 2,
+      "widest_ink_px": 60,
+      "widest_sample": "+99.99/周",
+      "minimum_horizontal_margin_px": 8.0
+    },
+    "education_weekly": {
+      "font": "hoi_16mbs",
+      "box": [
+        76,
+        25
+      ],
+      "cases": 2,
+      "widest_ink_px": 60,
+      "widest_sample": "+99.99/周",
+      "minimum_horizontal_margin_px": 8.0
+    },
+    "medical_weekly": {
+      "font": "hoi_16mbs",
+      "box": [
+        76,
+        25
+      ],
+      "cases": 2,
+      "widest_ink_px": 60,
+      "widest_sample": "+99.99/周",
+      "minimum_horizontal_margin_px": 8.0
+    }
+  },
+  "failures": [],
+  "visual_verified": false,
+  "method": "Native bitmap font advances, pair kerning and ink bounds, including outline, both native ASCII and Chinese overrides; all compact suffixes and signs.",
+  "supply_demand_columns": {
+    "chinese": {
+      "ink_ranges_px": [
+        [
+          574.0,
+          634.5
+        ],
+        [
+          637.0,
+          697.5
+        ]
+      ],
+      "gap_px": 2.5
+    },
+    "base_font": {
+      "ink_ranges_px": [
+        [
+          574.5,
+          633.0
+        ],
+        [
+          637.5,
+          696.0
+        ]
+      ],
+      "gap_px": 4.5
+    }
+  },
+  "supply_demand_gap_px": 2.5
+}

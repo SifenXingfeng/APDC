@@ -1,0 +1,52 @@
+state = {
+	id = 903
+	name = "STATE_903"
+	provinces = {
+		2066
+		8133
+		13927
+		13940
+		13948
+		13949
+		13959
+		15533
+		17884
+	}
+	manpower = 549504
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = KEN
+		controller = KEN
+		add_core_of = KEN
+		add_core_of = SOM
+		victory_points = {
+			8133
+			2
+		}
+		victory_points = {
+			13940
+			3
+		}
+		victory_points = {
+			13948
+			1
+		}
+		victory_points = {
+			13949
+			3
+		}
+		victory_points = {
+			13959
+			3
+		}
+		victory_points = {
+			15533
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

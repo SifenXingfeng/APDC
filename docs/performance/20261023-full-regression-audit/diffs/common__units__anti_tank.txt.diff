@@ -1,0 +1,18 @@
+--- before/common/units/anti_tank.txt
++++ current/common/units/anti_tank.txt
+@@ -1,10 +1,13 @@
+ # APDC: old land-unit IDs retained for reference compatibility; normal unlocks removed.
+ sub_units = {
+ 
+-	anti_tank = {
++	
++
++# Inactive identifiers required by retained engine interfaces.
++anti_tank = {
+ 		abbreviation = "AT"
+ 		sprite = anti_tank
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no

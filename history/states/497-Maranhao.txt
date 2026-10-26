@@ -1,39 +1,57 @@
-
 state = {
 	id = 497
 	name = "STATE_497"
+	manpower = 575050
+	state_category = pastoral
 	resources = {
-		rubber = 30.000
-		aluminium = 9.000
+		rubber = 13
 	}
-
 	history = {
 		owner = BRA
-		buildings = {
-			infrastructure = 2
-			radar_station = 2
-			air_base = 1
-		}
+		controller = BRA
 		add_core_of = BRA
 		victory_points = {
-			12933 10
+			2150
+			5
 		}
 		victory_points = {
-			17404 10
+			5220
+			1
 		}
 		victory_points = {
-			5220 8
+			12913
+			3
 		}
 		victory_points = {
-			12913 3
+			12933
+			10
+		}
+		victory_points = {
+			12947
+			1
+		}
+		victory_points = {
+			17404
+			2
+		}
+		victory_points = {
+			17419
+			2
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 1
 		}
 	}
-
 	provinces = {
-		2150 5220 12913 12933 12947 17404 17419
+		2150
+		5220
+		12913
+		12933
+		12947
+		13275
+		17404
+		17419
 	}
-	manpower = 2771371
-	buildings_max_level_factor = 1.000
-	state_category = rural
-	local_supplies = 0.000
+	local_supplies = 0.0
 }

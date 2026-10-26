@@ -1,0 +1,237 @@
+--- before/common/factions/goals/faction_goals_medium_term.txt
++++ current/common/factions/goals/faction_goals_medium_term.txt
+@@ -157,9 +157,9 @@
+ 	}
+ 	available = {
+ 		OR = {
+-			FROM = { has_completed_focus = ITA_italian_irredentism }
++			FROM = { always = no }
+ 			any_allied_country = {
+-				has_completed_focus = ITA_italian_irredentism
++				always = no
+ 			}
+ 		}
+ 	}
+@@ -639,140 +639,11 @@
+ 	}
+ }
+ 
+-faction_goal_the_northern_mandate = {
+-	name = faction_goal_the_northern_mandate_name
+-	description = faction_goal_the_northern_mandate_desc
+-	category = medium_term
+-	group = FOCUS_FILTER_ANNEXATION
+-	allowed = {
+-	}
+-	visible = {
+-		FROM = {
+-			original_tag = CHI
+-			has_government = fascism
+-		}
+-	}
+-	available = {
+-		FROM = { has_completed_focus = CHI_the_northern_mandate }
+-	}
+-	ratio_progress = {
+-		total_amount_collection = collection:the_northern_mandate_states
+-		completed_amount_collection = {
+-			input = collection:the_northern_mandate_states
+-			operators = {
+-				limit = {
+-					is_controlled_by_ROOT_or_ally = yes
+-				}
+-			}
+-			name = COLLECTION_FACTION_CONTROLS_NORTHERN_MANDATE
+-		}
+-	}
+-	auto_complete = yes
+-	complete_effect = {
+-		add_faction_power_projection = 100
+-		every_state = {
+-			limit = {
+-				CHI_northern_mandate_states = yes
+-			}
+-			add_dynamic_modifier = {
+-				modifier = NORDIC_efficient_resource_extraction
+-			}
+-		}
+-	}
+-	ai_will_do = {
+-		base = 1
+-	}
+-}
+-
+-faction_goal_the_southern_mandate = {
+-	name = faction_goal_the_southern_mandate_name
+-	description = faction_goal_the_southern_mandate_desc
+-	category = medium_term
+-	group = FOCUS_FILTER_ANNEXATION
+-	allowed = {
+-	}
+-	visible = {
+-		FROM = {
+-			original_tag = CHI
+-			has_government = fascism
+-		}
+-	}
+-	available = {
+-		FROM = { has_completed_focus = CHI_the_southern_mandate }
+-	}
+-	ratio_progress = {
+-		total_amount_collection = collection:the_southern_mandate_states
+-		completed_amount_collection = {
+-			input = collection:the_southern_mandate_states
+-			operators = {
+-				limit = {
+-					is_controlled_by_ROOT_or_ally = yes
+-				}
+-			}
+-			name = COLLECTION_FACTION_CONTROLS_SOUTHERN_MANDATE
+-		}
+-	}
+-	auto_complete = yes
+-	complete_effect = {
+-		add_faction_power_projection = 100
+-		every_state = {
+-			limit = {
+-				CHI_southern_mandate_states = yes
+-			}
+-			add_dynamic_modifier = {
+-				modifier = NORDIC_efficient_resource_extraction
+-			}
+-		}
+-	}
+-	ai_will_do = {
+-		base = 1
+-	}
+-}
+-
+-faction_goal_the_greater_game = {
+-	name = faction_goal_the_greater_game_name
+-	description = faction_goal_the_greater_game_desc
+-	category = medium_term
+-	group = FOCUS_FILTER_ANNEXATION
+-	allowed = {
+-	}
+-	visible = {
+-		FROM = {
+-			original_tag = CHI
+-			has_government = fascism
+-		}
+-	}
+-	available = {
+-		FROM = { has_completed_focus = CHI_the_greater_game }
+-	}
+-	ratio_progress = {
+-		total_amount_collection = collection:the_greater_game_states
+-		completed_amount_collection = {
+-			input = collection:the_greater_game_states
+-			operators = {
+-				limit = {
+-					is_controlled_by_ROOT_or_ally = yes
+-				}
+-			}
+-			name = COLLECTION_FACTION_CONTROLS_GREATER_GAME
+-		}
+-	}
+-	auto_complete = yes
+-	complete_effect = {
+-		add_faction_power_projection = 50
+-		every_state = {
+-			limit = {
+-				CHI_greater_game_states = yes
+-			}
+-			add_dynamic_modifier = {
+-				modifier = NORDIC_efficient_resource_extraction
+-			}
+-		}
+-	}
+-	ai_will_do = {
+-		base = 1
+-	}
+-}
++
++
++
++
++
+ 
+ faction_goal_subjugate_the_faction = {
+ 	name = faction_goal_subjugate_the_faction_name
+@@ -791,7 +662,7 @@
+ 	available = {
+ 		FROM = {
+ 			is_faction_leader = yes
+-			has_completed_focus = CHI_from_many_to_one
++			always = no
+ 		}
+ 	}
+ 	completed = {
+@@ -969,43 +840,7 @@
+ ##   ##    #   ### ###  #       ##  #  # ###  ##  #  # 
+ 
+ 
+-faction_goal_indifference_is_a_threat = {
+-	name = indifference_is_a_threat_goal_name
+-	description = indifference_is_a_threat_goal_desc
+-	category = medium_term
+-	group = FOCUS_FILTER_CONSOLIDATION
+-	allowed = {
+-		
+-	}
+-	visible = {
+-		FROM = {
+-			original_tag = SOV
+-		}
+-	}
+-	completed = {
+-		collection_size = {
+-			input = {
+-				input = collection:europe_non_aligned_countries
+-				name = COLLECTION_COUNTRIES_EUROPE_NON_ALIGNED
+-			}
+-			value < 5
+-		}
+-	}
+-	complete_effect = {
+-		add_faction_power_projection = 500
+-		custom_effect_tooltip = generic_skip_one_line_tt
+-		custom_effect_tooltip = ALL_FACTION_MEMBERS
+-		every_faction_member = {
+-			IF = {
+-				limit = { NOT = { has_completed_goal = faction_goal_indifference_is_a_threat } }
+-				add_political_power = 50
+-			}
+-		}
+-	}
+-	ai_will_do = {
+-		base = 1
+-	}
+-}
++
+ 
+ faction_goal_undoing_brest_litowsk = {
+ 	name = undoing_brest_litowsk_goal_name
+@@ -1115,8 +950,8 @@
+ 		modifier = {
+ 			add = 10
+ 			OR = {
+-				has_completed_focus = POL_the_between_the_seas_concept
+-				has_completed_focus = POL_sea_to_sea
++				always = no
++				always = no
+ 			}
+ 		}
+ 	}
+@@ -1193,9 +1028,9 @@
+ 						limit = {
+ 							OR = {
+ 								has_tech = marines
+-								has_tech = amphibious_mechanized_infantry
++								always = no
+ 								has_tech = amphibious_tank
+-								has_tech = amphibious_tank_chassis
++								always = no
+ 							}
+ 						}
+ 					}

@@ -2,38 +2,100 @@ state = {
 	id = 325
 	name = "STATE_325"
 	resources = {
-		steel = 6.000
-		aluminium = 16.000
-		rubber = 8.000
-		tungsten = 8.000
+		tungsten = 1
 	}
-
+	provinces = {
+		1319
+		5756
+		5997
+		7446
+		7606
+		8023
+		10346
+		12282
+		19492
+		19493
+		19503
+		19533
+		19558
+		19562
+		19761
+	}
+	manpower = 4997500
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 3
 	history = {
 		owner = PRC
+		controller = PRC
 		add_core_of = PRC
 		victory_points = {
-			7446 31
+			1319
+			15
 		}
 		victory_points = {
-			19533 2
+			5756
+			2
 		}
 		victory_points = {
-			19558 1
+			5997
+			5
+		}
+		victory_points = {
+			7446
+			1
+		}
+		victory_points = {
+			7606
+			1
+		}
+		victory_points = {
+			8023
+			1
+		}
+		victory_points = {
+			10346
+			1
+		}
+		victory_points = {
+			12282
+			2
+		}
+		victory_points = {
+			19492
+			3
+		}
+		victory_points = {
+			19493
+			2
+		}
+		victory_points = {
+			19503
+			5
+		}
+		victory_points = {
+			19533
+			5
+		}
+		victory_points = {
+			19558
+			1
+		}
+		victory_points = {
+			19562
+			2
 		}
 		buildings = {
-			air_base = 2
-
-			infrastructure = 4
-			
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
 		}
-
+		set_variable = {
+			china_state_ref = 20
+		}
+		set_variable = {
+			china_region_ref = 2
+		}
+		set_state_flag = GDP_category_town
 	}
-
-	provinces = {
-		5756 7446 19533 19558
-	}
-	manpower = 2542453
-	buildings_max_level_factor = 1.000
-	state_category = large_town
-	local_supplies = 0.000
 }

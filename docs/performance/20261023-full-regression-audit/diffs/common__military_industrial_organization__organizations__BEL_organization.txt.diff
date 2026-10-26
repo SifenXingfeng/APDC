@@ -1,0 +1,80 @@
+--- before/common/military_industrial_organization/organizations/BEL_organization.txt
++++ current/common/military_industrial_organization/organizations/BEL_organization.txt
+@@ -78,7 +78,7 @@
+ 
+         available = {
+             owner = {
+-                has_completed_focus = BEL_fonderie_royale_de_canons_liege
++                always = no
+             }
+         }	
+ 
+@@ -113,7 +113,7 @@
+ 
+         available = {
+             owner = {
+-                has_completed_focus = BEL_fonderie_royale_de_canons_liege
++                always = no
+             }
+         }			
+ 
+@@ -264,7 +264,7 @@
+ 
+         available = {
+             owner = {
+-                has_completed_focus = CONGO_compagnie_belge_maritime_du_congo
++                always = no
+             }
+         }			
+ 		
+@@ -458,8 +458,8 @@
+         available = {
+             owner = {
+             	OR = {
+-            		has_completed_focus = COG_standardize_military_production
+-            		has_completed_focus = BEL_fn_herstal
++            		always = no
++            		always = no
+             	}
+             }
+         }			
+@@ -483,8 +483,8 @@
+         available = {
+             owner = {
+             	OR = {
+-            		has_completed_focus = COG_expand_production_facilities
+-            		has_completed_focus = BEL_stampe_et_vertrongen
++            		always = no
++            		always = no
+             	}
+             }
+         }		
+@@ -608,7 +608,7 @@
+ 
+         available = {
+             owner = {
+-                has_completed_focus = BEL_fn_herstal
++                always = no
+             }
+         }	
+ 
+@@ -722,7 +722,7 @@
+ 
+         available = {
+             owner = {
+-                has_completed_focus = BEL_cockerill
++                always = no
+             }
+         }	
+ 
+@@ -774,8 +774,8 @@
+         available = {
+             owner = {
+             	OR = {
+-            		has_completed_focus = BEL_minerva_imperia
+-            		has_completed_focus = COG_standardize_military_production
++            		always = no
++            		always = no
+             	}
+             }
+         }	

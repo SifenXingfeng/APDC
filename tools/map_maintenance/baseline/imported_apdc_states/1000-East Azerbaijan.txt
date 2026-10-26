@@ -1,0 +1,54 @@
+state = {
+	id = 1000
+	name = "STATE_1000"
+	resources = {
+		steel = 5
+	}
+	provinces = {
+		1896
+		2071
+		4755
+		4825
+		12793
+		12861
+		15145
+		18771
+		18775
+		18793
+		18803
+	}
+	manpower = 653719
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 4
+	history = {
+		owner = PER
+		controller = PER
+		add_core_of = PER
+		victory_points = {
+			1896
+			10
+		}
+		victory_points = {
+			4825
+			1
+		}
+		victory_points = {
+			12793
+			1
+		}
+		victory_points = {
+			12861
+			2
+		}
+		victory_points = {
+			18793
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+		}
+		add_extra_state_shared_building_slots = 1
+	}
+}

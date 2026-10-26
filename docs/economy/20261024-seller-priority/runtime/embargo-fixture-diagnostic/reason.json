@@ -1,0 +1,17 @@
+{
+  "reason": "QA break_embargo uses ROOT=GER when called in FRA scope; native error confirms attempted self-relation. Foreign embargo contaminated subsequent fixtures. Production trade code unchanged.",
+  "failed_checks": [
+    "buyer_own_tariff_receipt",
+    "seller_own_tariff_receipt",
+    "daily_validation_reduces_imports",
+    "daily_validation_reduces_paired_exports",
+    "daily_validation_does_not_rematch",
+    "weekly_rematch_restores_priority_quota",
+    "seller_display_matches_exports",
+    "daily_cancel_does_not_redirect_supply",
+    "active_embargo_keeps_paired_quantities",
+    "next_seller_finishes_first_buyer",
+    "old_save_keeps_live_imports"
+  ],
+  "correction": "Move foreign-sender embargo case last; do not call break_embargo from the wrong ROOT."
+}

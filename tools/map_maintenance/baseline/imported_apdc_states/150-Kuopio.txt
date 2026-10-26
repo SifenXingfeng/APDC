@@ -1,0 +1,36 @@
+state = {
+	id = 150
+	name = "STATE_150"
+	resources = {
+		steel = 1
+	}
+	provinces = {
+		136
+		141
+		3125
+		6033
+		6078
+		9104
+		11141
+		11199
+		11210
+		13103
+		13104
+		18439
+		18440
+	}
+	manpower = 159413
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = SOV
+		add_core_of = ZZZ
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+}

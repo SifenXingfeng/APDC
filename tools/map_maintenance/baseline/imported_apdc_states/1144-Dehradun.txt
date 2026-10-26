@@ -1,0 +1,42 @@
+state = {
+	id = 1144
+	name = "STATE_1144"
+	provinces = {
+		1898
+		3989
+		10021
+		13485
+		18861
+		18872
+	}
+	manpower = 4390197
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PAK
+		add_core_of = PRC
+		victory_points = {
+			10021
+			3
+		}
+		victory_points = {
+			13485
+			2
+		}
+		victory_points = {
+			18861
+			3
+		}
+		victory_points = {
+			18872
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = GDP_regions_uttar_pradesh
+	}
+}

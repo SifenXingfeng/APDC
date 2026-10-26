@@ -1,0 +1,49 @@
+{
+  "pass": [
+    "automatic_industrial_concern_available",
+    "Brazil_CBC_MIO_exists",
+    "complete_sp_naval_cruiser_submarine",
+    "complete_sp_naval_fleet_submarine",
+    "complete_sp_naval_nuclear_submarine",
+    "complete_sp_naval_rocket_launching_submarine",
+    "complete_sp_naval_nuclear_missile_submarine",
+    "complete_sp_naval_nuclear_torpedo",
+    "complete_sp_naval_midget_submarine",
+    "complete_sp_naval_aip_engine",
+    "complete_sp_naval_anechoic_tiles",
+    "complete_sp_naval_submarine_carrier",
+    "complete_sp_naval_underway_replenishment",
+    "complete_sp_naval_proximity_fuze",
+    "complete_sp_naval_support_ships",
+    "complete_sp_rockets_flying_bomb",
+    "complete_sp_rockets_ballistic_missile",
+    "complete_sp_rockets_medium_range_ballistic_missile",
+    "complete_sp_rockets_long_range_ballistic_missile",
+    "complete_sp_rockets_ground_to_air_missile",
+    "complete_sp_nuclear_warheads",
+    "complete_sp_land_stronghold_network",
+    "stronghold_technology_granted",
+    "world_core_states_do_not_resist"
+  ],
+  "fail": [],
+  "last_day": 33,
+  "date": "2060.02.02.23",
+  "core_counts": [
+    "APDC_FULL_COUNTS core_states=1490 bad_core=0"
+  ],
+  "automatic_name_group_save_excerpt": "name=\"QA automatic infantry names\"\n\t\tdivision_names_group=\"GER_Inf_01\"\n\t\tcountry=\"GER\"\n\t\toriginal_tag=\"GER\"\n\t\tforeign_template_tag=\"---\"\n\t\tpriority=1\n\t\tallow_new_equipment=yes\n\t\tallow_foreign_equipment=yes\n\t\tregiments={\n\t\t\tapdc_infantry={ x=0 y=0 }\n\t\t}\n\t\ttemplate_counter=-1\n\t\tingame_set_template_counter=no\n\t\torigin_type=master_host\n\t}\n\tdivision_template={\n\t\tid={ id=584 type=52 }\n\t\tname=\"\u8f7b\u6b65\u5175\u5e082060A\u578b\"\n\t\tcountry=\"ATU\"\n\t\toriginal_tag=\"ATU\"\n\t\tforeign_template_tag=\"---\"\n\t\tpriority=1\n\t\tallow_new_equipment=yes\n\t\tallow_foreign_equipment=y",
+  "autosave": "D:\\APDC_FullRegressionQA_20261023_152149\\save games\\autosave.hoi4",
+  "autosave_sha256": "7181a2deaa60801a2fa7184226c3adc8b2157a8f341a84c28013a319535acaf7",
+  "process_cleanup": {
+    "closed_helpers": [
+      564,
+      11132
+    ],
+    "still_running": false,
+    "pid": 19196,
+    "remaining_helpers": [],
+    "steam_app_running": false,
+    "stopped": "2026-10-23T15:24:15.7852003+08:00"
+  },
+  "actual_dlc_count": 43
+}

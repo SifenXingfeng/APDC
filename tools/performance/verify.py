@@ -1,0 +1,54 @@
+"""Read-only project syntax/protection checks and evidence-based log triage."""
+import argparse,collections,json,re,hashlib
+from pathlib import Path
+from repair import ROOT,OUT,BACKUP,GAME,parse
+from triage import inventory
+from engine_callbacks import audit as audit_engine_callbacks
+
+def run(logdir,name):
+ errors=[];count=0
+ callback_report=audit_engine_callbacks()
+ errors.extend({'file':'common/scripted_triggers','problem':str(row)} for row in callback_report['errors'])
+ for folder in ['common','events','history','interface']:
+  for p in (ROOT/folder).rglob('*'):
+   if p.suffix not in ['.txt','.gui','.gfx']:continue
+   count+=1
+   try:
+    raw=p.read_bytes()
+    if raw.startswith(b'\xef\xbb\xbf'):errors.append({'file':p.relative_to(ROOT).as_posix(),'problem':'script has BOM'})
+    parse(raw.decode('utf-8-sig'))
+   except Exception as exc:errors.append({'file':p.relative_to(ROOT).as_posix(),'problem':str(exc)})
+ original=json.loads((BACKUP/'sha256.json').read_text('utf-8'));state_changes=[]
+ for rel,h in original.items():
+  if rel.startswith('history/states/') and hashlib.sha256((ROOT/rel).read_bytes()).hexdigest()!=h:state_changes.append(rel)
+ native=inventory(OUT/'runtime/native/logs/error.log')
+ native_messages={g['message'] for g in native['groups']}
+ current=inventory(logdir/'error.log');classified=[];unclassified=[]
+ toolpack=Path('D:/SteamLibrary/steamapps/workshop/content/394360/2913150560')
+ for g in current['groups']:
+  msg=g['message'];origin=None;evidence=[]
+  if msg in native_messages:origin='native installation/DLC control run'
+  for rel in ['common/ideas/tp_ideas.txt','common/scripted_guis/tpt.txt','common/scripted_guis/cpt.txt']:
+   if rel in msg and not (ROOT/rel).exists() and (toolpack/rel).exists():origin='external Toolpack';evidence.append(str(toolpack/rel))
+  m=re.search(r'invalid database object for effect/trigger: (experimental_rockets|rocket_engines|improved_rocket_engines|advanced_rocket_engines)\.',msg)
+  if m and not any(m[1] in p.read_text('utf-8-sig') for p in (ROOT/'common').rglob('*.txt')):
+   callers=[p for p in (toolpack/'common/scripted_guis').glob('*.txt') if m[1] in p.read_text('utf-8-sig')]
+   if callers:origin='external Toolpack';evidence.extend(str(p) for p in callers)
+  if '[flagtextureatlas.cpp:' in msg:
+   m=re.search(r'overlay: (gfx/flags/[^\s]+\.tga)',msg)
+   if m and not (ROOT/m[1]).exists() and (GAME/m[1]).exists():origin='native flag asset';evidence.append(str(GAME/m[1]))
+   m=re.search(r'country (\w+) : Ideology (\w+) : Path (gfx/flags/[^ ]*)',msg)
+   if m:
+    rel=m[3]+m[1]+'_'+m[2]+'.tga'
+    if not (ROOT/rel).exists() and (GAME/rel).exists():origin='native flag asset';evidence.append(str(GAME/rel))
+  item={'count':g['count'],'message':msg,'origin':origin,'evidence':evidence}
+  (classified if origin else unclassified).append(item)
+ report={'parsed_script_files':count,'syntax_errors':errors,'state_history_changes':state_changes,'runtime_records':current['records'],'external_records':sum(x['count'] for x in classified),'project_or_unclassified_records':sum(x['count'] for x in unclassified),'external_by_origin':dict(collections.Counter({o:sum(x['count'] for x in classified if x['origin']==o) for o in {x['origin'] for x in classified}})),'project_or_unclassified':unclassified,'external':classified}
+ (OUT/(name+'-verification.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2),'utf-8')
+ print(json.dumps({k:v for k,v in report.items() if k not in ['external','project_or_unclassified']},ensure_ascii=False))
+ for row in unclassified:print('UNCLASSIFIED',row['count'],row['message'][:650])
+ return report
+
+if __name__=='__main__':
+ from pathlib import Path
+ parser=argparse.ArgumentParser();parser.add_argument('--logs',type=Path,default=Path('D:/APDC_PerformanceQA_20261023/logs'));parser.add_argument('--name',default='latest');a=parser.parse_args();run(a.logs,a.name)

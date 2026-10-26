@@ -1,0 +1,223 @@
+--- before/interface/APDC_super_event.gui
++++ current/interface/APDC_super_event.gui
+@@ -1,110 +1,110 @@
+-guiTypes = {
+-	containerWindowType = {
+-		name = "APDC_super_event_window"
+-		position = { x = -381 y = -276 }
+-		size = { width = 763 height = 552 }
+-		moveable = yes
+-		clipping = no
+-		Orientation = CENTER
+-
+-		show_sound = world_news_effect
+-		hide_sound = menu_close_window
+-
+-		# A native-size, nearly invisible background supplies a reliable drag area.
+-		background = {
+-			name = "APDC_super_event_drag_background"
+-			spriteType = "GFX_APDC_super_event_drag_hitbox"
+-		}
+-
+-		# The 700x400 event picture is centered at (32,76), then clipped to the
+-		# frame's inner screen so it cannot leak through the outer transparency.
+-		containerWindowType = {
+-			name = "APDC_super_event_picture_clip"
+-			position = { x = 47 y = 128 }
+-			size = { width = 674 height = 323 }
+-			clipping = yes
+-			Orientation = "UPPER_LEFT"
+-
+-			iconType = {
+-				name = "APDC_super_event_picture"
+-				spriteType = "GFX_tiled_window_transparent"
+-				position = { x = -15 y = -52 }
+-				Orientation = "UPPER_LEFT"
+-				alwaystransparent = yes
+-			}
+-		}
+-
+-		# Drawn after the event picture so the frame remains the top layer.
+-		iconType = {
+-			name = "APDC_super_event_frame"
+-			spriteType = "GFX_APDC_super_event_frame"
+-			position = { x = 0 y = 0 }
+-			Orientation = "UPPER_LEFT"
+-			alwaystransparent = yes
+-		}
+-
+-		instantTextBoxType = {
+-			name = "APDC_super_event_title_text"
+-			position = { x = 90 y = 52 }
+-			font = "hoi_36header"
+-			borderSize = { x = 0 y = 0 }
+-			text = "APDC_super_event_title"
+-			maxWidth = 583
+-			maxHeight = 48
+-			fixedsize = yes
+-			format = center
+-			alwaystransparent = yes
+-		}
+-
+-		instantTextBoxType = {
+-			name = "APDC_super_event_quote_text"
+-			position = { x = 64 y = 365 }
+-			font = "hoi_20bs"
+-			borderSize = { x = 0 y = 0 }
+-			text = "APDC_super_event_quote"
+-			maxWidth = 635
+-			maxHeight = 42
+-			fixedsize = yes
+-			format = left
+-			vertical_alignment = center
+-			alwaystransparent = yes
+-		}
+-
+-		instantTextBoxType = {
+-			name = "APDC_super_event_attribution_text"
+-			position = { x = 184 y = 407 }
+-			font = "hoi_20bs"
+-			borderSize = { x = 0 y = 0 }
+-			text = "APDC_super_event_attribution"
+-			maxWidth = 395
+-			maxHeight = 32
+-			fixedsize = yes
+-			format = center
+-			vertical_alignment = center
+-			alwaystransparent = yes
+-		}
+-
+-		# Reuse the same 352x48 option button artwork as the news window.
+-		buttonType = {
+-			name = "APDC_super_event_comment_button"
+-			position = { x = 206 y = 460 }
+-			spriteType = "GFX_event_option_entry"
+-			clicksound = click_default
+-			shortcut = "ENTER"
+-		}
+-
+-		instantTextBoxType = {
+-			name = "APDC_super_event_comment_text"
+-			position = { x = 211 y = 464 }
+-			font = "hoi_20bs"
+-			borderSize = { x = 0 y = 0 }
+-			text = "APDC_super_event_comment"
+-			maxWidth = 342
+-			maxHeight = 32
+-			fixedsize = yes
+-			format = center
+-			vertical_alignment = center
+-			alwaystransparent = yes
+-		}
+-	}
+-}
++guiTypes = {
++	containerWindowType = {
++		name = "APDC_super_event_window"
++		position = { x = -381 y = -276 }
++		size = { width = 763 height = 552 }
++		moveable = yes
++		clipping = no
++		Orientation = CENTER
++
++		show_sound = world_news_effect
++		hide_sound = menu_close_window
++
++		# A native-size, nearly invisible background supplies a reliable drag area.
++		background = {
++			name = "APDC_super_event_drag_background"
++			spriteType = "GFX_APDC_super_event_drag_hitbox"
++		}
++
++		# The 700x400 event picture is centered at (32,76), then clipped to the
++		# frame's inner screen so it cannot leak through the outer transparency.
++		containerWindowType = {
++			name = "APDC_super_event_picture_clip"
++			position = { x = 47 y = 128 }
++			size = { width = 674 height = 323 }
++			clipping = yes
++			Orientation = upper_left
++
++			iconType = {
++				name = "APDC_super_event_picture"
++				spriteType = "GFX_tiled_window_transparent"
++				position = { x = -15 y = -52 }
++				Orientation = upper_left
++				alwaystransparent = yes
++			}
++		}
++
++		# Drawn after the event picture so the frame remains the top layer.
++		iconType = {
++			name = "APDC_super_event_frame"
++			spriteType = "GFX_APDC_super_event_frame"
++			position = { x = 0 y = 0 }
++			Orientation = upper_left
++			alwaystransparent = yes
++		}
++
++		instantTextBoxType = {
++			name = "APDC_super_event_title_text"
++			position = { x = 90 y = 52 }
++			font = "hoi_36header"
++			borderSize = { x = 0 y = 0 }
++			text = "APDC_super_event_title"
++			maxWidth = 583
++			maxHeight = 48
++			fixedsize = yes
++			format = center
++			alwaystransparent = yes
++		}
++
++		instantTextBoxType = {
++			name = "APDC_super_event_quote_text"
++			position = { x = 64 y = 365 }
++			font = "hoi_20bs"
++			borderSize = { x = 0 y = 0 }
++			text = "APDC_super_event_quote"
++			maxWidth = 635
++			maxHeight = 42
++			fixedsize = yes
++			format = left
++			vertical_alignment = center
++			alwaystransparent = yes
++		}
++
++		instantTextBoxType = {
++			name = "APDC_super_event_attribution_text"
++			position = { x = 184 y = 407 }
++			font = "hoi_20bs"
++			borderSize = { x = 0 y = 0 }
++			text = "APDC_super_event_attribution"
++			maxWidth = 395
++			maxHeight = 32
++			fixedsize = yes
++			format = center
++			vertical_alignment = center
++			alwaystransparent = yes
++		}
++
++		# Reuse the same 352x48 option button artwork as the news window.
++		buttonType = {
++			name = "APDC_super_event_comment_button"
++			position = { x = 206 y = 460 }
++			spriteType = "GFX_event_option_entry"
++			clicksound = click_default
++			shortcut = "RETURN"
++		}
++
++		instantTextBoxType = {
++			name = "APDC_super_event_comment_text"
++			position = { x = 211 y = 464 }
++			font = "hoi_20bs"
++			borderSize = { x = 0 y = 0 }
++			text = "APDC_super_event_comment"
++			maxWidth = 342
++			maxHeight = 32
++			fixedsize = yes
++			format = center
++			vertical_alignment = center
++			alwaystransparent = yes
++		}
++	}
++}

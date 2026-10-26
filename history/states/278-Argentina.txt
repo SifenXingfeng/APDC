@@ -1,0 +1,128 @@
+state = {
+	id = 278
+	name = "STATE_278"
+	manpower = 5596366
+	state_category = large_city
+	history = {
+		owner = ARG
+		controller = ARG
+		add_core_of = ARG
+		victory_points = {
+			1568
+			2
+		}
+		victory_points = {
+			1624
+			1
+		}
+		victory_points = {
+			1639
+			3
+		}
+		victory_points = {
+			4602
+			1
+		}
+		victory_points = {
+			7621
+			5
+		}
+		victory_points = {
+			10390
+			1
+		}
+		victory_points = {
+			10402
+			1
+		}
+		victory_points = {
+			10981
+			1
+		}
+		victory_points = {
+			12351
+			1
+		}
+		victory_points = {
+			12364
+			50
+		}
+		victory_points = {
+			14943
+			5
+		}
+		victory_points = {
+			14946
+			1
+		}
+		victory_points = {
+			15044
+			1
+		}
+		victory_points = {
+			15260
+			1
+		}
+		victory_points = {
+			17500
+			2
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 5
+			dockyard = 1
+			air_base = 4
+			12364 = {
+				naval_base = 7
+				bunker = 1
+				coastal_bunker = 1
+			}
+			7621 = {
+				naval_base = 2
+			}
+			1639 = {
+				naval_base = 1
+			}
+		}
+		set_state_flag = GDP_regions_la_plata
+	}
+	provinces = {
+		1555
+		1568
+		1596
+		1624
+		1639
+		4573
+		4602
+		4643
+		7621
+		10375
+		10390
+		10402
+		10418
+		10981
+		12351
+		12364
+		12379
+		12394
+		12409
+		12494
+		14917
+		14933
+		14941
+		14942
+		14943
+		14946
+		15044
+		15256
+		15257
+		15258
+		15259
+		15260
+		17500
+		17524
+		17526
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,27 @@
+state = {
+	id = 1130
+	name = "COOK_ISLANDS"
+	manpower = 14000
+	state_category = tiny_island
+	history = {
+		owner = COK
+		controller = COK
+		add_core_of = COK
+		add_core_of = NZL
+		victory_points = {
+			19964
+			1
+		}
+		buildings = {
+			infrastructure = 1
+			19976 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		19964
+		19976
+	}
+	local_supplies = 0.0
+}

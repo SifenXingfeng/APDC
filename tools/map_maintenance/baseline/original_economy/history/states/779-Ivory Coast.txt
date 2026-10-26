@@ -1,0 +1,27 @@
+
+state={
+	id=779
+	name="STATE_779" # Ivory Coast
+	manpower = 3850734
+	
+	state_category = pastoral
+	history={
+		owner = FRA
+		add_core_of = IVO
+		victory_points = {
+			10803 1
+		}
+		buildings = {
+			infrastructure = 2
+			10803 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		5013 8065 8122 9125 10762 10803 14014 14039 14047 14077 14083 14427 14696 15279 15287 15288 15293 15294 15295 15296 15298 15399 15400 15401 15402 15403 15404 15405 15406 15407 15408 15409 15410 15411 15412 15413 15414 15415 15416 19209 19255 19309 
+	}
+
+	local_supplies=1.0 
+}

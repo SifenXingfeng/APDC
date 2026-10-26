@@ -1,0 +1,76 @@
+state = {
+	id = 1032
+	name = "STATE_1032"
+	provinces = {
+		8049
+		10733
+		12156
+		16836
+		19507
+		19515
+		19565
+		19593
+		19610
+		19692
+	}
+	manpower = 3592923
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			8049
+			3
+		}
+		victory_points = {
+			10733
+			3
+		}
+		victory_points = {
+			12156
+			2
+		}
+		victory_points = {
+			16836
+			2
+		}
+		victory_points = {
+			19507
+			5
+		}
+		victory_points = {
+			19515
+			1
+		}
+		victory_points = {
+			19565
+			1
+		}
+		victory_points = {
+			19593
+			1
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+			industrial_complex = 2
+			10733 = {
+				bunker = 2
+			}
+			12156 = {
+				bunker = 2
+			}
+		}
+		set_state_flag = GDP_regions_shaanxi
+		set_variable = {
+			china_state_ref = 38
+		}
+		set_variable = {
+			china_region_ref = 5
+		}
+		set_state_flag = GDP_category_town
+	}
+}

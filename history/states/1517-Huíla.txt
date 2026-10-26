@@ -1,0 +1,30 @@
+state = {
+	id = 1517
+	name = "STATE_1517"
+	provinces = {
+		8138
+		13758
+		13759
+		13784
+	}
+	manpower = 192000
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+	history = {
+		owner = ANG
+		controller = ANG
+		add_core_of = ANG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			8138
+			10
+		}
+		victory_points = {
+			13784
+			1
+		}
+	}
+}

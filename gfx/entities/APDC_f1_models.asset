@@ -1,0 +1,298 @@
+entity = { name = "APDC_f1_nyto_final_entity" pdxmesh = "APDC_f1_nyto_final_mesh" scale = 0.8
+ default_state = "idle"
+ state = { name = "idle" animation = "idle" animation_blend_time = 0.15 looping = no chance = 2
+ }
+ state = { name = "idle" animation = "idle_look" animation_blend_time = 0.15 looping = no chance = 2
+ }
+ state = { name = "idle" animation = "idle_shift" animation_blend_time = 0.15 looping = no chance = 2
+ }
+ state = { name = "move" animation = "move" animation_blend_time = 0.15
+ }
+ state = { name = "retreat" animation = "move" animation_blend_time = 0.15
+ }
+ state = { name = "attack" animation = "attack" animation_blend_time = 0.15
+ }
+ state = { name = "defend" animation = "attack" animation_blend_time = 0.15
+ }
+ state = { name = "support_attack" animation = "attack" animation_blend_time = 0.15
+ }
+ state = { name = "training" animation = "idle_look" animation_blend_time = 0.15
+ }
+ state = { name = "death" animation = "death" animation_blend_time = 0.15 looping = no
+ }
+}
+
+
+entity = {
+  name = "APDC_f1_wheeled_atgm_entity"
+  pdxmesh = "APDC_f1_wheeled_atgm_mesh"
+  scale = 0.5
+  state = { name = "idle" animation = "idle" animation_blend_time = 0.2
+  }
+  state = { name = "move" animation = "move" animation_blend_time = 0.2
+  }
+  state = { name = "retreat" animation = "move" animation_blend_time = 0.2
+  }
+  state = { name = "attack" animation = "attack" animation_blend_time = 0.2
+  }
+  state = { name = "defend" animation = "attack" animation_blend_time = 0.2
+  }
+  state = { name = "support_attack" animation = "attack" animation_blend_time = 0.2
+  }
+  state = { name = "training" animation = "idle" animation_blend_time = 0.2
+  }
+  state = { name = "death" animation = "idle" animation_blend_time = 0.2
+  }
+}
+
+entity = {
+  name = "APDC_f1_tank_support_entity"
+  pdxmesh = "APDC_f1_tank_support_mesh"
+  scale = 0.5
+  state = { name = "idle" animation = "idle" animation_blend_time = 0.2
+  }
+  state = { name = "move" animation = "move" animation_blend_time = 0.2
+    event = { time = 0 node = "left_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
+    event = { time = 0 node = "right_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
+  }
+  state = { name = "retreat" animation = "move" animation_blend_time = 0.2
+    event = { time = 0 node = "left_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
+    event = { time = 0 node = "right_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
+  }
+  state = { name = "attack" animation = "attack" animation_blend_time = 0.2
+  }
+  state = { name = "defend" animation = "attack" animation_blend_time = 0.2
+  }
+  state = { name = "support_attack" animation = "attack" animation_blend_time = 0.2
+  }
+  state = { name = "training" animation = "idle" animation_blend_time = 0.2
+  }
+  state = { name = "death" animation = "idle" animation_blend_time = 0.2
+  }
+  game_data = { texture_anim_speed = 0.5 }
+}
+
+entity = {
+  name = "APDC_f1_self_propelled_gun_entity"
+  pdxmesh = "APDC_f1_self_propelled_gun_mesh"
+  scale = 0.5
+  state = { name = "idle" animation = "idle" animation_blend_time = 0.2
+  }
+  state = { name = "move" animation = "move" animation_blend_time = 0.2
+    event = { time = 0 node = "left_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
+    event = { time = 0 node = "right_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
+  }
+  state = { name = "retreat" animation = "move" animation_blend_time = 0.2
+    event = { time = 0 node = "left_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
+    event = { time = 0 node = "right_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
+  }
+  state = { name = "attack" animation = "attack" animation_blend_time = 0.2
+    event = { time = 0.2 node = "barrel" particle = "heavy_tank_attack_barrel_particle" keep_particle = yes }
+  }
+  state = { name = "defend" animation = "attack" animation_blend_time = 0.2
+    event = { time = 0.2 node = "barrel" particle = "heavy_tank_attack_barrel_particle" keep_particle = yes }
+  }
+  state = { name = "support_attack" animation = "attack" animation_blend_time = 0.2
+    event = { time = 0.2 node = "barrel" particle = "heavy_tank_attack_barrel_particle" keep_particle = yes }
+  }
+  state = { name = "training" animation = "idle" animation_blend_time = 0.2
+  }
+  state = { name = "death" animation = "idle" animation_blend_time = 0.2
+  }
+  game_data = { texture_anim_speed = 0.5 }
+}
+
+entity = {
+  name = "APDC_f1_self_propelled_aa_entity"
+  pdxmesh = "APDC_f1_self_propelled_aa_mesh"
+  scale = 0.5
+  state = { name = "idle" animation = "idle" animation_blend_time = 0.2
+  }
+  state = { name = "move" animation = "move" animation_blend_time = 0.2
+    event = { time = 0 node = "left_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
+    event = { time = 0 node = "right_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
+  }
+  state = { name = "retreat" animation = "move" animation_blend_time = 0.2
+    event = { time = 0 node = "left_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
+    event = { time = 0 node = "right_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
+  }
+  state = { name = "attack" animation = "attack" animation_blend_time = 0.2
+  }
+  state = { name = "defend" animation = "attack" animation_blend_time = 0.2
+  }
+  state = { name = "support_attack" animation = "attack" animation_blend_time = 0.2
+  }
+  state = { name = "training" animation = "idle" animation_blend_time = 0.2
+  }
+  state = { name = "death" animation = "idle" animation_blend_time = 0.2
+  }
+  game_data = { texture_anim_speed = 0.5 }
+}
+
+entity = {
+  name = "APDC_f1_self_propelled_mortar_entity"
+  pdxmesh = "APDC_f1_self_propelled_mortar_mesh"
+  scale = 0.5
+  state = { name = "idle" animation = "idle" animation_blend_time = 0.2
+  }
+  state = { name = "move" animation = "move" animation_blend_time = 0.2
+    event = { time = 0 node = "left_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
+    event = { time = 0 node = "right_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
+  }
+  state = { name = "retreat" animation = "move" animation_blend_time = 0.2
+    event = { time = 0 node = "left_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
+    event = { time = 0 node = "right_tracks" particle = "tank_moving_tracks_particle" keep_particle = no trigger_once = yes }
+  }
+  state = { name = "attack" animation = "attack" animation_blend_time = 0.2
+    event = { time = 0.2 node = "barrel" particle = "heavy_tank_attack_barrel_particle" keep_particle = yes }
+  }
+  state = { name = "defend" animation = "attack" animation_blend_time = 0.2
+    event = { time = 0.2 node = "barrel" particle = "heavy_tank_attack_barrel_particle" keep_particle = yes }
+  }
+  state = { name = "support_attack" animation = "attack" animation_blend_time = 0.2
+    event = { time = 0.2 node = "barrel" particle = "heavy_tank_attack_barrel_particle" keep_particle = yes }
+  }
+  state = { name = "training" animation = "idle" animation_blend_time = 0.2
+  }
+  state = { name = "death" animation = "idle" animation_blend_time = 0.2
+  }
+  game_data = { texture_anim_speed = 0.5 }
+}
+
+entity = {
+  name = "APDC_f1_truck_artillery_entity"
+  pdxmesh = "APDC_f1_truck_artillery_mesh"
+  scale = 0.53
+  state = { name = "idle" animation = "idle" animation_blend_time = 0.2
+  }
+  state = { name = "move" animation = "move" animation_blend_time = 0.2
+  }
+  state = { name = "retreat" animation = "move" animation_blend_time = 0.2
+  }
+  state = { name = "attack" animation = "attack" animation_blend_time = 0.2
+    event = { time = 0.2 node = "barrel" particle = "heavy_tank_attack_barrel_particle" keep_particle = yes }
+  }
+  state = { name = "defend" animation = "attack" animation_blend_time = 0.2
+    event = { time = 0.2 node = "barrel" particle = "heavy_tank_attack_barrel_particle" keep_particle = yes }
+  }
+  state = { name = "support_attack" animation = "attack" animation_blend_time = 0.2
+    event = { time = 0.2 node = "barrel" particle = "heavy_tank_attack_barrel_particle" keep_particle = yes }
+  }
+  state = { name = "training" animation = "idle" animation_blend_time = 0.2
+  }
+  state = { name = "death" animation = "idle" animation_blend_time = 0.2
+  }
+}
+
+entity = {
+  name = "APDC_f1_truck_mlrs_entity"
+  pdxmesh = "APDC_f1_truck_mlrs_mesh"
+  scale = 0.53
+  state = { name = "idle" animation = "idle" animation_blend_time = 0.2
+  }
+  state = { name = "move" animation = "move" animation_blend_time = 0.2
+  }
+  state = { name = "retreat" animation = "move" animation_blend_time = 0.2
+  }
+  state = { name = "attack" animation = "attack" animation_blend_time = 0.2
+  }
+  state = { name = "defend" animation = "attack" animation_blend_time = 0.2
+  }
+  state = { name = "support_attack" animation = "attack" animation_blend_time = 0.2
+  }
+  state = { name = "training" animation = "idle" animation_blend_time = 0.2
+  }
+  state = { name = "death" animation = "idle" animation_blend_time = 0.2
+  }
+}
+
+entity = {
+  name = "APDC_f1_truck_missile_entity"
+  pdxmesh = "APDC_f1_truck_missile_mesh"
+  scale = 0.53
+  state = { name = "idle" animation = "idle" animation_blend_time = 0.2
+  }
+  state = { name = "move" animation = "move" animation_blend_time = 0.2
+  }
+  state = { name = "retreat" animation = "move" animation_blend_time = 0.2
+  }
+  state = { name = "attack" animation = "attack" animation_blend_time = 0.2
+  }
+  state = { name = "defend" animation = "attack" animation_blend_time = 0.2
+  }
+  state = { name = "support_attack" animation = "attack" animation_blend_time = 0.2
+  }
+  state = { name = "training" animation = "idle" animation_blend_time = 0.2
+  }
+  state = { name = "death" animation = "idle" animation_blend_time = 0.2
+  }
+}
+
+entity = { name = "APDC_f1_multipod_artillery_entity" pdxmesh = "APDC_f1_multipod_artillery_mesh" scale = 0.6
+ default_state = "idle"
+ state = { name = "idle" animation = "idle" animation_blend_time = 0.15 looping = no chance = 2
+ }
+ state = { name = "idle" animation = "idle_look" animation_blend_time = 0.15 looping = no chance = 2
+ }
+ state = { name = "idle" animation = "idle_shift" animation_blend_time = 0.15 looping = no chance = 2
+ }
+ state = { name = "move" animation = "move" animation_blend_time = 0.15
+ }
+ state = { name = "retreat" animation = "move" animation_blend_time = 0.15
+ }
+ state = { name = "attack" animation = "attack" animation_blend_time = 0.15
+ event = { time = 0.18 node = "barrel" particle = "heavy_tank_attack_barrel_particle" keep_particle = yes sound = { soundeffect = "infantry_rifle_attack" } }
+ event = { time = 0.38 node = "barrel" particle = "heavy_tank_attack_barrel_particle" keep_particle = yes sound = { soundeffect = "infantry_rifle_attack" } }
+ event = { time = 0.58 node = "barrel" particle = "heavy_tank_attack_barrel_particle" keep_particle = yes sound = { soundeffect = "infantry_rifle_attack" } }
+ }
+ state = { name = "defend" animation = "attack" animation_blend_time = 0.15
+ event = { time = 0.18 node = "barrel" particle = "heavy_tank_attack_barrel_particle" keep_particle = yes sound = { soundeffect = "infantry_rifle_attack" } }
+ event = { time = 0.38 node = "barrel" particle = "heavy_tank_attack_barrel_particle" keep_particle = yes sound = { soundeffect = "infantry_rifle_attack" } }
+ event = { time = 0.58 node = "barrel" particle = "heavy_tank_attack_barrel_particle" keep_particle = yes sound = { soundeffect = "infantry_rifle_attack" } }
+ }
+ state = { name = "support_attack" animation = "attack" animation_blend_time = 0.15
+ event = { time = 0.18 node = "barrel" particle = "heavy_tank_attack_barrel_particle" keep_particle = yes sound = { soundeffect = "infantry_rifle_attack" } }
+ event = { time = 0.38 node = "barrel" particle = "heavy_tank_attack_barrel_particle" keep_particle = yes sound = { soundeffect = "infantry_rifle_attack" } }
+ event = { time = 0.58 node = "barrel" particle = "heavy_tank_attack_barrel_particle" keep_particle = yes sound = { soundeffect = "infantry_rifle_attack" } }
+ }
+ state = { name = "training" animation = "idle_look" animation_blend_time = 0.15
+ }
+ state = { name = "death" animation = "death" animation_blend_time = 0.15 looping = no
+ }
+}
+
+
+entity = { name = "APDC_f1_armed_helicopter_entity" pdxmesh = "APDC_f1_armed_helicopter_mesh" scale = 0.4
+ default_state = "idle"
+ state = { name = "idle" animation = "idle" animation_blend_time = 0.15 looping = no chance = 2
+ }
+ state = { name = "idle" animation = "idle_look" animation_blend_time = 0.15 looping = no chance = 2
+ }
+ state = { name = "idle" animation = "idle_shift" animation_blend_time = 0.15 looping = no chance = 2
+ }
+ state = { name = "move" animation = "move" animation_blend_time = 0.15
+ }
+ state = { name = "retreat" animation = "move" animation_blend_time = 0.15
+ }
+ state = { name = "attack" animation = "attack" animation_blend_time = 0.15
+ event = { time = 0.18 node = "barrel" particle = "rifle_muzzle_particle" keep_particle = yes sound = { soundeffect = "infantry_rifle_attack" } }
+ event = { time = 0.38 node = "barrel" particle = "rifle_muzzle_particle" keep_particle = yes sound = { soundeffect = "infantry_rifle_attack" } }
+ event = { time = 0.58 node = "barrel" particle = "rifle_muzzle_particle" keep_particle = yes sound = { soundeffect = "infantry_rifle_attack" } }
+ }
+ state = { name = "defend" animation = "attack" animation_blend_time = 0.15
+ event = { time = 0.18 node = "barrel" particle = "rifle_muzzle_particle" keep_particle = yes sound = { soundeffect = "infantry_rifle_attack" } }
+ event = { time = 0.38 node = "barrel" particle = "rifle_muzzle_particle" keep_particle = yes sound = { soundeffect = "infantry_rifle_attack" } }
+ event = { time = 0.58 node = "barrel" particle = "rifle_muzzle_particle" keep_particle = yes sound = { soundeffect = "infantry_rifle_attack" } }
+ }
+ state = { name = "support_attack" animation = "attack" animation_blend_time = 0.15
+ event = { time = 0.18 node = "barrel" particle = "rifle_muzzle_particle" keep_particle = yes sound = { soundeffect = "infantry_rifle_attack" } }
+ event = { time = 0.38 node = "barrel" particle = "rifle_muzzle_particle" keep_particle = yes sound = { soundeffect = "infantry_rifle_attack" } }
+ event = { time = 0.58 node = "barrel" particle = "rifle_muzzle_particle" keep_particle = yes sound = { soundeffect = "infantry_rifle_attack" } }
+ }
+ state = { name = "training" animation = "idle_look" animation_blend_time = 0.15
+ }
+ state = { name = "death" animation = "death" animation_blend_time = 0.15 looping = no
+ }
+}
+
+

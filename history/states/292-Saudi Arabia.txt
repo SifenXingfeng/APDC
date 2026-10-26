@@ -1,0 +1,52 @@
+state = {
+	id = 292
+	name = "STATE_292"
+	provinces = {
+		5093
+		8004
+		8060
+		10870
+		10923
+		12727
+		12813
+		12870
+		13445
+		14385
+		18543
+		18580
+	}
+	manpower = 600385
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = SAU
+		controller = SAU
+		add_core_of = SAU
+		victory_points = {
+			10923
+			1
+		}
+		victory_points = {
+			12727
+			40
+		}
+		victory_points = {
+			12813
+			1
+		}
+		victory_points = {
+			14385
+			1
+		}
+		victory_points = {
+			18580
+			2
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+}

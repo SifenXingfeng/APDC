@@ -1,0 +1,65 @@
+state = {
+	id = 658
+	name = "STATE_658"
+	manpower = 170200
+	resources = {
+		oil = 5
+	}
+	state_category = pastoral
+	history = {
+		owner = UAE
+		controller = UAE
+		add_core_of = UAE
+		victory_points = {
+			7960
+			10
+		}
+		victory_points = {
+			8108
+			1
+		}
+		victory_points = {
+			10904
+			2
+		}
+		victory_points = {
+			18555
+			25
+		}
+		victory_points = {
+			18558
+			3
+		}
+		victory_points = {
+			18571
+			1
+		}
+		victory_points = {
+			18574
+			1
+		}
+		victory_points = {
+			18589
+			1
+		}
+		buildings = {
+			infrastructure = 1
+			7960 = {
+				naval_base = 3
+			}
+		}
+		add_extra_state_shared_building_slots = 3
+	}
+	provinces = {
+		2048
+		7960
+		8108
+		10904
+		18555
+		18558
+		18571
+		18574
+		18589
+	}
+	local_supplies = 4.0
+}

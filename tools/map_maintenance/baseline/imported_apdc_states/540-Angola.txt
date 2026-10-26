@@ -1,0 +1,38 @@
+state = {
+	id = 540
+	name = "STATE_540"
+	provinces = {
+		8248
+		13829
+		13848
+		17926
+		17929
+	}
+	manpower = 333333
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = ANG
+		controller = ANG
+		add_core_of = ANG
+		victory_points = {
+			8248
+			50
+		}
+		victory_points = {
+			13848
+			2
+		}
+		victory_points = {
+			17929
+			3
+		}
+		buildings = {
+			infrastructure = 1
+			8248 = {
+				naval_base = 1
+			}
+		}
+	}
+}

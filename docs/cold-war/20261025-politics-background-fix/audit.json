@@ -1,0 +1,30 @@
+{
+  "backgrounds": [
+    {
+      "path": "gfx/interface/pol_view_bg.dds",
+      "size": [
+        550,
+        636
+      ],
+      "rgba_pixels_different_from_user_PNG": 0,
+      "alpha_pixels_different": 0,
+      "sha256": "48a55cd5f2e821600d0f5bd9546805b3c92760faa403c2744fce23ab186b3b52"
+    },
+    {
+      "path": "gfx/interface/pol_view_bg_no_dlc.dds",
+      "size": [
+        550,
+        636
+      ],
+      "rgba_pixels_different_from_user_PNG": 0,
+      "alpha_pixels_different": 0,
+      "sha256": "48a55cd5f2e821600d0f5bd9546805b3c92760faa403c2744fce23ab186b3b52"
+    }
+  ],
+  "native_sprite_binding": "GFX_pol_view_bg",
+  "no_DLC_native_path_also_replaced": true,
+  "entry_original_art_unchanged": true,
+  "button_native_hover_and_pressed_shader_preserved": true,
+  "rebuild_idempotent": true,
+  "validation": "Native sprite/texture paths, exact decoded RGBA pixel comparison, parser checks; no political-page in-game visual capture."
+}

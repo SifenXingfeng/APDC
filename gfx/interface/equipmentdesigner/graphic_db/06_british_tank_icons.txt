@@ -1,0 +1,535 @@
+ENG = {
+	light_tank_chassis = {
+		pool = {
+			models = {
+				ENG_light_armor_2_entity #Valentine (Advanced LT)
+				ENG_light_armor_1_entity #Matilda (Improved LT)
+				commonwealth_gfx_light_armor_entity #Vickers Medium MK II (Basic Light Tank) (Base Game tank) (The model is actually a Vickers VI)
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			models = {
+				ENG_light_armor_1_entity #Matilda (Improved LT)
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			models = {
+				ENG_light_armor_2_entity #Valentine (Advanced LT)
+			}
+		}
+	}
+
+	medium_tank_chassis = {
+		pool = {
+			models = {
+				ENG_medium_armor_2_entity #Comet (Advanced MT)
+				commonwealth_gfx_medium_armor_entity #Crusader (Basic Medium Tank) (Base Game tank)
+				ENG_medium_armor_1_entity #Cromwell (Improved MT)
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			models = {
+				ENG_medium_armor_1_entity #Cromwell (Improved MT)
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			models = {
+				ENG_medium_armor_2_entity #Comet (Advanced MT)
+			}
+		}
+	}
+
+	heavy_tank_chassis = {
+		pool = {
+			models = {
+				ENG_heavy_armor_2_entity #Churchill Black Prince (Advanced HT)
+				commonwealth_gfx_heavy_armor_entity #Churchill (Improved Heavy Tank) (Base Game tank)
+				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT)
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			models = {
+				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT) -> Pick oldest tank
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			models = {
+				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT)
+			}
+		}
+	}
+	#heavy_tank_chassis_2 uses vanilla heavy_armor_entity
+	heavy_tank_chassis_3 = {
+		pool = {
+			models = {
+				ENG_heavy_armor_2_entity #Churchill Black Prince (Advanced HT)
+			}
+		}
+	}
+
+	super_heavy_tank_chassis = {
+		pool = {
+			models = { #Only one tier so advanced should show up at the top of the list for heavy in this category
+				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT)
+				commonwealth_gfx_heavy_armor_entity #Churchill (Improved Heavy Tank) (Base Game tank)
+				ENG_heavy_armor_2_entity #Churchill Black Prince (Advanced HT)
+				ENG_super_heavy_armor_entity #Tortoise (SH Tank)
+			}
+		}
+	}
+
+	modern_tank_chassis = {
+		pool = {
+			weight = 1945
+			models = {
+			
+				commonwealth_gfx_medium_armor_entity #Crusader (Basic Medium Tank) (Base Game tank)
+				ENG_medium_armor_1_entity #Cromwell (Improved MT)
+				ENG_medium_armor_2_entity #Comet (Advanced MT)
+				ENG_modern_armor_entity #Centurion (Modern Tank)
+			}
+		}
+	}
+
+
+##################### AA, SPA, TD chassis
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+}	
+
+
+RAJ = {
+	light_tank_chassis = {
+		pool = {
+			models = {
+				ENG_light_armor_1_entity #Matilda (Improved LT)
+				ENG_light_armor_2_entity #Valentine (Advanced LT)
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			models = {
+				ENG_light_armor_1_entity #Matilda (Improved LT)
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			models = {
+				ENG_light_armor_2_entity #Valentine (Advanced LT)
+			}
+		}
+	}
+
+	medium_tank_chassis = {
+		pool = {
+			models = {
+				ENG_medium_armor_1_entity #Cromwell (Improved MT)
+				ENG_medium_armor_2_entity #Comet (Advanced MT)
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			models = {
+				ENG_medium_armor_1_entity #Cromwell (Improved MT)
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			models = {
+				ENG_medium_armor_2_entity #Comet (Advanced MT)
+			}
+		}
+	}
+
+	heavy_tank_chassis = {
+		pool = {
+			models = {
+				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT)
+				ENG_heavy_armor_2_entity #Churchill Black Prince (Advanced HT)
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			models = {
+				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT) -> Pick oldest tank
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			models = {
+				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT)
+			}
+		}
+	}
+	#heavy_tank_chassis_2 uses vanilla heavy_armor_entity
+	heavy_tank_chassis_3 = {
+		pool = {
+			models = {
+				ENG_heavy_armor_2_entity #Churchill Black Prince (Advanced HT)
+			}
+		}
+	}
+}
+
+AST = {
+	light_tank_chassis = {
+		pool = {
+			models = {
+				ENG_light_armor_1_entity #Matilda (Improved LT)
+				ENG_light_armor_2_entity #Valentine (Advanced LT)
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			models = {
+				ENG_light_armor_1_entity #Matilda (Improved LT)
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			models = {
+				ENG_light_armor_2_entity #Valentine (Advanced LT)
+			}
+		}
+	}
+
+	medium_tank_chassis = {
+		pool = {
+			models = {
+				ENG_medium_armor_1_entity #Cromwell (Improved MT)
+				ENG_medium_armor_2_entity #Comet (Advanced MT)
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			models = {
+				ENG_medium_armor_1_entity #Cromwell (Improved MT)
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			models = {
+				ENG_medium_armor_2_entity #Comet (Advanced MT)
+			}
+		}
+	}
+
+	heavy_tank_chassis = {
+		pool = {
+			models = {
+				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT)
+				ENG_heavy_armor_2_entity #Churchill Black Prince (Advanced HT)
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			models = {
+				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT) -> Pick oldest tank
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			models = {
+				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT)
+			}
+		}
+	}
+	#heavy_tank_chassis_2 uses vanilla heavy_armor_entity
+	heavy_tank_chassis_3 = {
+		pool = {
+			models = {
+				ENG_heavy_armor_2_entity #Churchill Black Prince (Advanced HT)
+			}
+		}
+	}
+}
+
+CAN = {
+	light_tank_chassis = {
+		pool = {
+			models = {
+				ENG_light_armor_1_entity #Matilda (Improved LT)
+				ENG_light_armor_2_entity #Valentine (Advanced LT)
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			models = {
+				ENG_light_armor_1_entity #Matilda (Improved LT)
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			models = {
+				ENG_light_armor_2_entity #Valentine (Advanced LT)
+			}
+		}
+	}
+
+	medium_tank_chassis = {
+		pool = {
+			models = {
+				ENG_medium_armor_1_entity #Cromwell (Improved MT)
+				ENG_medium_armor_2_entity #Comet (Advanced MT)
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			models = {
+				ENG_medium_armor_1_entity #Cromwell (Improved MT)
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			models = {
+				ENG_medium_armor_2_entity #Comet (Advanced MT)
+			}
+		}
+	}
+
+	heavy_tank_chassis = {
+		pool = {
+			models = {
+				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT)
+				ENG_heavy_armor_2_entity #Churchill Black Prince (Advanced HT)
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			models = {
+				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT) -> Pick oldest tank
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			models = {
+				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT)
+			}
+		}
+	}
+	#heavy_tank_chassis_2 uses vanilla heavy_armor_entity
+	heavy_tank_chassis_3 = {
+		pool = {
+			models = {
+				ENG_heavy_armor_2_entity #Churchill Black Prince (Advanced HT)
+			}
+		}
+	}
+}
+
+NZL = {
+	light_tank_chassis = {
+		pool = {
+			models = {
+				ENG_light_armor_1_entity #Matilda (Improved LT)
+				ENG_light_armor_2_entity #Valentine (Advanced LT)
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			models = {
+				ENG_light_armor_1_entity #Matilda (Improved LT)
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			models = {
+				ENG_light_armor_2_entity #Valentine (Advanced LT)
+			}
+		}
+	}
+
+	medium_tank_chassis = {
+		pool = {
+			models = {
+				ENG_medium_armor_1_entity #Cromwell (Improved MT)
+				ENG_medium_armor_2_entity #Comet (Advanced MT)
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			models = {
+				ENG_medium_armor_1_entity #Cromwell (Improved MT)
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			models = {
+				ENG_medium_armor_2_entity #Comet (Advanced MT)
+			}
+		}
+	}
+
+	heavy_tank_chassis = {
+		pool = {
+			models = {
+				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT)
+				ENG_heavy_armor_2_entity #Churchill Black Prince (Advanced HT)
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			models = {
+				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT) -> Pick oldest tank
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			models = {
+				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT)
+			}
+		}
+	}
+	#heavy_tank_chassis_2 uses vanilla heavy_armor_entity
+	heavy_tank_chassis_3 = {
+		pool = {
+			models = {
+				ENG_heavy_armor_2_entity #Churchill Black Prince (Advanced HT)
+			}
+		}
+	}
+}
+
+SAF = {
+	light_tank_chassis = {
+		pool = {
+			models = {
+				ENG_light_armor_1_entity #Matilda (Improved LT)
+				ENG_light_armor_2_entity #Valentine (Advanced LT)
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			models = {
+				ENG_light_armor_1_entity #Matilda (Improved LT)
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			models = {
+				ENG_light_armor_2_entity #Valentine (Advanced LT)
+			}
+		}
+	}
+
+	medium_tank_chassis = {
+		pool = {
+			models = {
+				ENG_medium_armor_1_entity #Cromwell (Improved MT)
+				ENG_medium_armor_2_entity #Comet (Advanced MT)
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			models = {
+				ENG_medium_armor_1_entity #Cromwell (Improved MT)
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			models = {
+				ENG_medium_armor_2_entity #Comet (Advanced MT)
+			}
+		}
+	}
+
+	heavy_tank_chassis = {
+		pool = {
+			models = {
+				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT)
+				ENG_heavy_armor_2_entity #Churchill Black Prince (Advanced HT)
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			models = {
+				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT) -> Pick oldest tank
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			models = {
+				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT)
+			}
+		}
+	}
+	#heavy_tank_chassis_2 uses vanilla heavy_armor_entity
+	heavy_tank_chassis_3 = {
+		pool = {
+			models = {
+				ENG_heavy_armor_2_entity #Churchill Black Prince (Advanced HT)
+			}
+		}
+	}
+}

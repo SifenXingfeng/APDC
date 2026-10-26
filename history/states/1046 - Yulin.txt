@@ -1,0 +1,47 @@
+state = {
+	id = 1046
+	name = "STATE_1046"
+	resources = {
+		coal = 12
+	}
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			4986
+			5
+		}
+		victory_points = {
+			7314
+			2
+		}
+		victory_points = {
+			7659
+			1
+		}
+		victory_points = {
+			16833
+			1
+		}
+		victory_points = {
+			16846
+			3
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		4986
+		7314
+		7659
+		16833
+		16846
+		19620
+	}
+	manpower = 1057400
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.0
+}

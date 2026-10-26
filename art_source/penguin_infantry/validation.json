@@ -1,0 +1,2533 @@
+{
+  "triangles": 11104,
+  "exported_vertices": 6312,
+  "bones": 33,
+  "max_influences": 4,
+  "unchanged_joint_export_error_before_exact_restore": 2.3990869522094727e-06,
+  "rig": "vanilla 33-joint topology, shortened penguin legs and adapted animation copies",
+  "game_runtime_tested": false,
+  "rig_adaptation": {
+    "moved_joint_heights": {
+      "Hip": 1.6,
+      "LeftUpLeg": 1.45,
+      "RightUpLeg": 1.45,
+      "LeftLeg": 0.98,
+      "RightLeg": 0.98
+    },
+    "arm_forward_offset": 0.7,
+    "joint_world_deltas_game": {
+      "Hip": [
+        0.0,
+        -2.384211540222168,
+        0.0
+      ],
+      "LeftUpLeg": [
+        -2.9802322387695312e-08,
+        -2.005709409713745,
+        -1.4901161193847656e-08
+      ],
+      "LeftLeg": [
+        0.0,
+        -1.0581867694854736,
+        2.2351741790771484e-08
+      ],
+      "LeftShoulder": [
+        -1.1920928955078125e-07,
+        0.0,
+        -0.7000000476837158
+      ],
+      "LeftArm": [
+        0.0,
+        0.0,
+        -0.7000000476837158
+      ],
+      "LeftForeArm": [
+        -2.384185791015625e-07,
+        0.0,
+        -0.699999988079071
+      ],
+      "LeftForeArmRoll": [
+        0.0,
+        0.0,
+        -0.699999988079071
+      ],
+      "LeftHand": [
+        0.0,
+        0.0,
+        -0.6999999284744263
+      ],
+      "Left_Hand_node": [
+        0.0,
+        0.0,
+        -0.6999999284744263
+      ],
+      "Left_Hand_node_2": [
+        0.0,
+        4.76837158203125e-07,
+        -0.6999999284744263
+      ],
+      "Left_Hand_node_3": [
+        0.0,
+        0.0,
+        -0.6999999284744263
+      ],
+      "Left_Hand_node_4": [
+        0.0,
+        0.0,
+        -0.699999988079071
+      ],
+      "RightShoulder": [
+        -1.1920928955078125e-07,
+        0.0,
+        -0.7000000476837158
+      ],
+      "RightArm": [
+        -2.384185791015625e-07,
+        4.76837158203125e-07,
+        -0.7000000476837158
+      ],
+      "RightForeArm": [
+        -2.384185791015625e-07,
+        4.76837158203125e-07,
+        -0.7000000476837158
+      ],
+      "RightForeArmRoll": [
+        -2.384185791015625e-07,
+        9.5367431640625e-07,
+        -0.699999988079071
+      ],
+      "RightHand": [
+        -2.384185791015625e-07,
+        9.5367431640625e-07,
+        -0.6999999284744263
+      ],
+      "Right_Hand_node": [
+        -2.384185791015625e-07,
+        9.5367431640625e-07,
+        -0.6999999284744263
+      ],
+      "Right_Hand_node_2": [
+        -2.384185791015625e-07,
+        9.5367431640625e-07,
+        -0.699999988079071
+      ],
+      "Right_Hand_node_3": [
+        -2.384185791015625e-07,
+        9.5367431640625e-07,
+        -0.6999999284744263
+      ],
+      "Right_Hand_node_4": [
+        -2.384185791015625e-07,
+        9.5367431640625e-07,
+        -0.6999999284744263
+      ],
+      "RightUpLeg": [
+        0.0,
+        -2.0057055950164795,
+        -3.725290298461914e-08
+      ],
+      "RightLeg": [
+        -5.960464477539063e-08,
+        -1.05818510055542,
+        -4.470348358154297e-08
+      ]
+    },
+    "topology_preserved": true,
+    "bones": 33,
+    "clips": [
+      {
+        "source": "GER_infantry_aim_exercise.anim",
+        "output": "APDC_GER_infantry_aim_exercise.anim",
+        "fps": 30.097719192504883,
+        "samples": 308
+      },
+      {
+        "source": "GER_infantry_aim_exercise_mg.anim",
+        "output": "APDC_GER_infantry_aim_exercise_mg.anim",
+        "fps": 30.094636917114258,
+        "samples": 318
+      },
+      {
+        "source": "GER_infantry_attack_crouch_mg.anim",
+        "output": "APDC_GER_infantry_attack_crouch_mg.anim",
+        "fps": 30.306121826171875,
+        "samples": 99
+      },
+      {
+        "source": "GER_infantry_attack_crouch_rifle.anim",
+        "output": "APDC_GER_infantry_attack_crouch_rifle.anim",
+        "fps": 30.384614944458008,
+        "samples": 79
+      },
+      {
+        "source": "GER_infantry_attack_stand_mg.anim",
+        "output": "APDC_GER_infantry_attack_stand_mg.anim",
+        "fps": 30.3125,
+        "samples": 97
+      },
+      {
+        "source": "GER_infantry_attack_stand_rifle.anim",
+        "output": "APDC_GER_infantry_attack_stand_rifle.anim",
+        "fps": 30.384614944458008,
+        "samples": 79
+      },
+      {
+        "source": "GER_infantry_cavalry_rider_idle_mg.anim",
+        "output": "APDC_GER_infantry_cavalry_rider_idle_mg.anim",
+        "fps": 30.100000381469727,
+        "samples": 301
+      },
+      {
+        "source": "GER_infantry_cavalry_rider_idle_rifle.anim",
+        "output": "APDC_GER_infantry_cavalry_rider_idle_rifle.anim",
+        "fps": 30.100000381469727,
+        "samples": 301
+      },
+      {
+        "source": "GER_infantry_cavalry_rider_moving_mg.anim",
+        "output": "APDC_GER_infantry_cavalry_rider_moving_mg.anim",
+        "fps": 30.63829803466797,
+        "samples": 48
+      },
+      {
+        "source": "GER_infantry_cavalry_rider_moving_rifle.anim",
+        "output": "APDC_GER_infantry_cavalry_rider_moving_rifle.anim",
+        "fps": 30.0,
+        "samples": 48
+      },
+      {
+        "source": "GER_infantry_charge_mg.anim",
+        "output": "APDC_GER_infantry_charge_mg.anim",
+        "fps": 30.5,
+        "samples": 61
+      },
+      {
+        "source": "GER_infantry_charge_mg_shoot.anim",
+        "output": "APDC_GER_infantry_charge_mg_shoot.anim",
+        "fps": 30.5,
+        "samples": 61
+      },
+      {
+        "source": "GER_infantry_charge_rifle.anim",
+        "output": "APDC_GER_infantry_charge_rifle.anim",
+        "fps": 30.5,
+        "samples": 61
+      },
+      {
+        "source": "GER_infantry_charge_rifle_shoot.anim",
+        "output": "APDC_GER_infantry_charge_rifle_shoot.anim",
+        "fps": 30.375,
+        "samples": 81
+      },
+      {
+        "source": "GER_infantry_death_mg.anim",
+        "output": "APDC_GER_infantry_death_mg.anim",
+        "fps": 30.329669952392578,
+        "samples": 92
+      },
+      {
+        "source": "GER_infantry_death_rifle.anim",
+        "output": "APDC_GER_infantry_death_rifle.anim",
+        "fps": 30.4761905670166,
+        "samples": 64
+      },
+      {
+        "source": "GER_infantry_guard_rifle.anim",
+        "output": "APDC_GER_infantry_guard_rifle.anim",
+        "fps": 30.05208396911621,
+        "samples": 577
+      },
+      {
+        "source": "GER_infantry_idle_mg.anim",
+        "output": "APDC_GER_infantry_idle_mg.anim",
+        "fps": 30.1675968170166,
+        "samples": 180
+      },
+      {
+        "source": "GER_infantry_idle_rifle.anim",
+        "output": "APDC_GER_infantry_idle_rifle.anim",
+        "fps": 30.16666603088379,
+        "samples": 181
+      },
+      {
+        "source": "GER_infantry_idle_training.anim",
+        "output": "APDC_GER_infantry_idle_training.anim",
+        "fps": 30.34482765197754,
+        "samples": 88
+      },
+      {
+        "source": "GER_infantry_jumping_jacks.anim",
+        "output": "APDC_GER_infantry_jumping_jacks.anim",
+        "fps": 30.176469802856445,
+        "samples": 171
+      },
+      {
+        "source": "GER_infantry_long_idle01_mg.anim",
+        "output": "APDC_GER_infantry_long_idle01_mg.anim",
+        "fps": 30.10909080505371,
+        "samples": 276
+      },
+      {
+        "source": "GER_infantry_long_idle01_rifle.anim",
+        "output": "APDC_GER_infantry_long_idle01_rifle.anim",
+        "fps": 30.10909080505371,
+        "samples": 276
+      },
+      {
+        "source": "GER_infantry_long_idle02_mg.anim",
+        "output": "APDC_GER_infantry_long_idle02_mg.anim",
+        "fps": 30.0,
+        "samples": 248
+      },
+      {
+        "source": "GER_infantry_long_idle02_rifle.anim",
+        "output": "APDC_GER_infantry_long_idle02_rifle.anim",
+        "fps": 30.0,
+        "samples": 248
+      },
+      {
+        "source": "GER_infantry_long_idle03_mg.anim",
+        "output": "APDC_GER_infantry_long_idle03_mg.anim",
+        "fps": 30.039011001586914,
+        "samples": 770
+      },
+      {
+        "source": "GER_infantry_long_idle03_rifle.anim",
+        "output": "APDC_GER_infantry_long_idle03_rifle.anim",
+        "fps": 30.039011001586914,
+        "samples": 770
+      },
+      {
+        "source": "GER_infantry_long_idle04_mg.anim",
+        "output": "APDC_GER_infantry_long_idle04_mg.anim",
+        "fps": 30.16853904724121,
+        "samples": 179
+      },
+      {
+        "source": "GER_infantry_long_idle04_rifle.anim",
+        "output": "APDC_GER_infantry_long_idle04_rifle.anim",
+        "fps": 30.16853904724121,
+        "samples": 179
+      },
+      {
+        "source": "GER_infantry_long_idle05_mg.anim",
+        "output": "APDC_GER_infantry_long_idle05_mg.anim",
+        "fps": 30.163043975830078,
+        "samples": 185
+      },
+      {
+        "source": "GER_infantry_long_idle05_rifle.anim",
+        "output": "APDC_GER_infantry_long_idle05_rifle.anim",
+        "fps": 30.163043975830078,
+        "samples": 185
+      },
+      {
+        "source": "GER_infantry_march_mg.anim",
+        "output": "APDC_GER_infantry_march_mg.anim",
+        "fps": 30.85714340209961,
+        "samples": 36
+      },
+      {
+        "source": "GER_infantry_march_rifle.anim",
+        "output": "APDC_GER_infantry_march_rifle.anim",
+        "fps": 30.85714340209961,
+        "samples": 36
+      },
+      {
+        "source": "GER_infantry_moving_mg.anim",
+        "output": "APDC_GER_infantry_moving_mg.anim",
+        "fps": 30.75,
+        "samples": 41
+      },
+      {
+        "source": "GER_infantry_moving_rifle.anim",
+        "output": "APDC_GER_infantry_moving_rifle.anim",
+        "fps": 30.75,
+        "samples": 41
+      },
+      {
+        "source": "GER_infantry_pushup.anim",
+        "output": "APDC_GER_infantry_pushup.anim",
+        "fps": 30.060606002807617,
+        "samples": 496
+      },
+      {
+        "source": "GER_infantry_retreat_mg.anim",
+        "output": "APDC_GER_infantry_retreat_mg.anim",
+        "fps": 30.600000381469727,
+        "samples": 51
+      },
+      {
+        "source": "GER_infantry_retreat_rifle.anim",
+        "output": "APDC_GER_infantry_retreat_rifle.anim",
+        "fps": 30.600000381469727,
+        "samples": 51
+      },
+      {
+        "source": "bicycle_infantry_idle.anim",
+        "output": "APDC_bicycle_infantry_idle.anim",
+        "fps": 30.337078094482422,
+        "samples": 90
+      },
+      {
+        "source": "bicycle_infantry_idle_2.anim",
+        "output": "APDC_bicycle_infantry_idle_2.anim",
+        "fps": 30.33333396911621,
+        "samples": 91
+      },
+      {
+        "source": "bicycle_infantry_moving.anim",
+        "output": "APDC_bicycle_infantry_moving.anim",
+        "fps": 30.75,
+        "samples": 41
+      },
+      {
+        "source": "bicycle_infantry_moving_2.anim",
+        "output": "APDC_bicycle_infantry_moving_2.anim",
+        "fps": 30.375,
+        "samples": 81
+      },
+      {
+        "source": "bicycle_infantry_retreat.anim",
+        "output": "APDC_bicycle_infantry_retreat.anim",
+        "fps": 30.75,
+        "samples": 41
+      },
+      {
+        "source": "bicycle_infantry_retreat_2.anim",
+        "output": "APDC_bicycle_infantry_retreat_2.anim",
+        "fps": 30.375,
+        "samples": 81
+      }
+    ]
+  },
+  "rest_dimensions": [
+    5.506322860717773,
+    3.607999801635742,
+    7.3949995040893555
+  ],
+  "entity_scale": 0.77,
+  "parts": {
+    "body": [
+      0,
+      2009
+    ],
+    "upper_beak": [
+      2009,
+      2328
+    ],
+    "lower_beak": [
+      2328,
+      2647
+    ],
+    "mouth_seam": [
+      2647,
+      2934
+    ],
+    "glasses_rim_-1": [
+      2934,
+      3193
+    ],
+    "lens_-1": [
+      3193,
+      3452
+    ],
+    "temple_-1": [
+      3452,
+      3497
+    ],
+    "glasses_rim_1": [
+      3497,
+      3756
+    ],
+    "lens_1": [
+      3756,
+      4015
+    ],
+    "bridge": [
+      4015,
+      4042
+    ],
+    "temple_1": [
+      4042,
+      4087
+    ],
+    "Left_flipper": [
+      4087,
+      4412
+    ],
+    "Left_ankle": [
+      4412,
+      4547
+    ],
+    "Left_foot_web": [
+      4547,
+      4718
+    ],
+    "Left_toe_-1": [
+      4718,
+      4853
+    ],
+    "Left_toe_0": [
+      4853,
+      4988
+    ],
+    "Left_toe_1": [
+      4988,
+      5123
+    ],
+    "Right_flipper": [
+      5123,
+      5448
+    ],
+    "Right_ankle": [
+      5448,
+      5583
+    ],
+    "Right_foot_web": [
+      5583,
+      5754
+    ],
+    "Right_toe_-1": [
+      5754,
+      5889
+    ],
+    "Right_toe_0": [
+      5889,
+      6024
+    ],
+    "Right_toe_1": [
+      6024,
+      6159
+    ],
+    "tail": [
+      6159,
+      6312
+    ]
+  },
+  "textures": [
+    {
+      "file": "APDC_penguin_diffuse.dds",
+      "size": [
+        1024,
+        1024
+      ],
+      "mip_levels": 11,
+      "format": "DXT5/BC3",
+      "sha256": "850046b583fd0d89aa3bc17f653221ebf2fc9b0ceb298444d64c31b7201f5d66"
+    },
+    {
+      "file": "APDC_penguin_normal.dds",
+      "size": [
+        1024,
+        1024
+      ],
+      "mip_levels": 11,
+      "format": "DXT5/BC3",
+      "sha256": "01ef2bc29bd40fb2c8e71634d6e3bfe55afa5180d574a8d3696760290b985dd1"
+    },
+    {
+      "file": "APDC_penguin_specular.dds",
+      "size": [
+        1024,
+        1024
+      ],
+      "mip_levels": 11,
+      "format": "DXT5/BC3",
+      "sha256": "96c56556ac1ba10da3fcc59e46364e19d52596e8e2851e9c80e5dbb0bf9c0567"
+    }
+  ],
+  "animation_files_resolved": 44,
+  "animation_bone_compatibility": true,
+  "mesh_and_final_dds_reimported": true,
+  "posed_previews_from_game_files": [
+    "待机",
+    "行军",
+    "射击",
+    "蹲姿",
+    "死亡",
+    "训练"
+  ],
+  "sampled_animation_checks": [
+    {
+      "file": "APDC_GER_infantry_aim_exercise.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.7093918323516846,
+            5.443427562713623,
+            6.14584731683135
+          ]
+        },
+        {
+          "frame": 77,
+          "dimensions": [
+            3.662705421447754,
+            4.043946385383606,
+            7.304385773837566
+          ]
+        },
+        {
+          "frame": 154,
+          "dimensions": [
+            3.3322718143463135,
+            3.9510796070098877,
+            7.284623870626092
+          ]
+        },
+        {
+          "frame": 231,
+          "dimensions": [
+            3.6688761711120605,
+            4.056164264678955,
+            7.293025806546211
+          ]
+        },
+        {
+          "frame": 308,
+          "dimensions": [
+            3.709391713142395,
+            5.443426847457886,
+            6.14584668725729
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_aim_exercise_mg.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.7093918323516846,
+            5.443427562713623,
+            6.14584731683135
+          ]
+        },
+        {
+          "frame": 80,
+          "dimensions": [
+            3.5550808906555176,
+            4.130247116088867,
+            7.392527416348457
+          ]
+        },
+        {
+          "frame": 159,
+          "dimensions": [
+            3.48610258102417,
+            3.9201433658599854,
+            7.322436310350895
+          ]
+        },
+        {
+          "frame": 238,
+          "dimensions": [
+            3.816006898880005,
+            4.186859369277954,
+            7.3609509319067
+          ]
+        },
+        {
+          "frame": 318,
+          "dimensions": [
+            3.709391713142395,
+            5.443426847457886,
+            6.14584668725729
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_attack_crouch_mg.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.6628477573394775,
+            4.5091564655303955,
+            7.0818798542022705
+          ]
+        },
+        {
+          "frame": 25,
+          "dimensions": [
+            3.5016722679138184,
+            4.587553977966309,
+            7.071446776390076
+          ]
+        },
+        {
+          "frame": 50,
+          "dimensions": [
+            3.5113394260406494,
+            4.431221961975098,
+            7.102685332298279
+          ]
+        },
+        {
+          "frame": 74,
+          "dimensions": [
+            3.574304223060608,
+            4.47929310798645,
+            7.098774194717407
+          ]
+        },
+        {
+          "frame": 99,
+          "dimensions": [
+            3.6628477573394775,
+            4.5091564655303955,
+            7.0818798542022705
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_attack_crouch_rifle.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.511819839477539,
+            4.507107496261597,
+            7.116667032241821
+          ]
+        },
+        {
+          "frame": 20,
+          "dimensions": [
+            3.4780465364456177,
+            4.448388576507568,
+            7.133472561836243
+          ]
+        },
+        {
+          "frame": 40,
+          "dimensions": [
+            3.4479262828826904,
+            4.413302898406982,
+            7.126952648162842
+          ]
+        },
+        {
+          "frame": 59,
+          "dimensions": [
+            3.473941445350647,
+            4.420381784439087,
+            7.128446340560913
+          ]
+        },
+        {
+          "frame": 79,
+          "dimensions": [
+            3.511819839477539,
+            4.507107496261597,
+            7.116667032241821
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_attack_stand_mg.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.673035740852356,
+            4.13775897026062,
+            7.329272486269474
+          ]
+        },
+        {
+          "frame": 25,
+          "dimensions": [
+            3.661542296409607,
+            4.0302793979644775,
+            7.340215101838112
+          ]
+        },
+        {
+          "frame": 49,
+          "dimensions": [
+            3.5007230043411255,
+            4.073774576187134,
+            7.359527342021465
+          ]
+        },
+        {
+          "frame": 73,
+          "dimensions": [
+            3.496382236480713,
+            4.053601980209351,
+            7.351575464010239
+          ]
+        },
+        {
+          "frame": 97,
+          "dimensions": [
+            3.673035740852356,
+            4.13775897026062,
+            7.329272486269474
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_attack_stand_rifle.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.6607003211975098,
+            4.049375295639038,
+            7.334766194224358
+          ]
+        },
+        {
+          "frame": 20,
+          "dimensions": [
+            3.6527645587921143,
+            3.9454734325408936,
+            7.2938632890582085
+          ]
+        },
+        {
+          "frame": 40,
+          "dimensions": [
+            3.70851993560791,
+            4.244243144989014,
+            7.34257522970438
+          ]
+        },
+        {
+          "frame": 59,
+          "dimensions": [
+            3.6991831064224243,
+            4.402920722961426,
+            7.323751047253609
+          ]
+        },
+        {
+          "frame": 79,
+          "dimensions": [
+            3.6607003211975098,
+            4.049375295639038,
+            7.334766194224358
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_cavalry_rider_idle_mg.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.676309585571289,
+            3.6548972129821777,
+            7.014302730560303
+          ]
+        },
+        {
+          "frame": 76,
+          "dimensions": [
+            3.6763163805007935,
+            3.6401472091674805,
+            7.009995698928833
+          ]
+        },
+        {
+          "frame": 151,
+          "dimensions": [
+            3.6783453226089478,
+            3.698012351989746,
+            6.9980628490448
+          ]
+        },
+        {
+          "frame": 226,
+          "dimensions": [
+            3.667839288711548,
+            3.919809341430664,
+            6.947632074356079
+          ]
+        },
+        {
+          "frame": 301,
+          "dimensions": [
+            3.6763315200805664,
+            3.648609161376953,
+            7.016361832618713
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_cavalry_rider_idle_rifle.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.6763153076171875,
+            3.63993763923645,
+            7.01151442527771
+          ]
+        },
+        {
+          "frame": 76,
+          "dimensions": [
+            3.676316022872925,
+            3.6406729221343994,
+            7.009889602661133
+          ]
+        },
+        {
+          "frame": 151,
+          "dimensions": [
+            3.678256392478943,
+            3.698761463165283,
+            6.996973395347595
+          ]
+        },
+        {
+          "frame": 226,
+          "dimensions": [
+            3.6677690744400024,
+            3.895695924758911,
+            6.946584343910217
+          ]
+        },
+        {
+          "frame": 301,
+          "dimensions": [
+            3.676315426826477,
+            3.6399364471435547,
+            7.0115145444869995
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_cavalry_rider_moving_mg.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.676310896873474,
+            3.675891876220703,
+            7.019132494926453
+          ]
+        },
+        {
+          "frame": 12,
+          "dimensions": [
+            3.6763263940811157,
+            3.639592170715332,
+            7.049386620521545
+          ]
+        },
+        {
+          "frame": 24,
+          "dimensions": [
+            3.6763105392456055,
+            3.6756036281585693,
+            7.0352537631988525
+          ]
+        },
+        {
+          "frame": 36,
+          "dimensions": [
+            3.6763265132904053,
+            3.639801263809204,
+            7.050588250160217
+          ]
+        },
+        {
+          "frame": 48,
+          "dimensions": [
+            3.6763111352920532,
+            3.6748297214508057,
+            7.019254207611084
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_cavalry_rider_moving_rifle.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.676310896873474,
+            3.675891876220703,
+            7.019132494926453
+          ]
+        },
+        {
+          "frame": 12,
+          "dimensions": [
+            3.6763259172439575,
+            3.639616847038269,
+            7.050001859664917
+          ]
+        },
+        {
+          "frame": 24,
+          "dimensions": [
+            3.676310896873474,
+            3.6738104820251465,
+            7.0352089405059814
+          ]
+        },
+        {
+          "frame": 36,
+          "dimensions": [
+            3.6763263940811157,
+            3.6396536827087402,
+            7.04999303817749
+          ]
+        },
+        {
+          "frame": 48,
+          "dimensions": [
+            3.676302909851074,
+            3.674685478210449,
+            7.01731264591217
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_charge_mg.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.7209243774414062,
+            5.21089506149292,
+            7.543264150619507
+          ]
+        },
+        {
+          "frame": 16,
+          "dimensions": [
+            3.81501305103302,
+            5.1710028648376465,
+            7.427946895360947
+          ]
+        },
+        {
+          "frame": 31,
+          "dimensions": [
+            3.695395350456238,
+            5.313925504684448,
+            7.540079832077026
+          ]
+        },
+        {
+          "frame": 46,
+          "dimensions": [
+            3.685852289199829,
+            5.311008810997009,
+            7.447071701288223
+          ]
+        },
+        {
+          "frame": 61,
+          "dimensions": [
+            3.720924735069275,
+            5.210895538330078,
+            7.543262600898743
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_charge_mg_shoot.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.720924973487854,
+            5.210895776748657,
+            7.543264150619507
+          ]
+        },
+        {
+          "frame": 16,
+          "dimensions": [
+            3.6395652294158936,
+            4.130112171173096,
+            7.211133476346731
+          ]
+        },
+        {
+          "frame": 31,
+          "dimensions": [
+            3.71316921710968,
+            4.111366510391235,
+            7.654214471578598
+          ]
+        },
+        {
+          "frame": 46,
+          "dimensions": [
+            3.725426197052002,
+            4.911200284957886,
+            7.658416509628296
+          ]
+        },
+        {
+          "frame": 61,
+          "dimensions": [
+            3.7209248542785645,
+            5.210896253585815,
+            7.54326069355011
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_charge_rifle.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.7884901762008667,
+            5.157752990722656,
+            7.543330907821655
+          ]
+        },
+        {
+          "frame": 16,
+          "dimensions": [
+            3.7977534532546997,
+            5.12321662902832,
+            7.427944868803024
+          ]
+        },
+        {
+          "frame": 31,
+          "dimensions": [
+            3.7520750761032104,
+            5.235582113265991,
+            7.540080666542053
+          ]
+        },
+        {
+          "frame": 46,
+          "dimensions": [
+            3.685102343559265,
+            5.215452075004578,
+            7.458050340414047
+          ]
+        },
+        {
+          "frame": 61,
+          "dimensions": [
+            3.788392424583435,
+            5.158273220062256,
+            7.543262600898743
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_charge_rifle_shoot.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.7884901762008667,
+            5.157752990722656,
+            7.543332815170288
+          ]
+        },
+        {
+          "frame": 21,
+          "dimensions": [
+            3.5482224225997925,
+            4.445515513420105,
+            7.211097605526447
+          ]
+        },
+        {
+          "frame": 41,
+          "dimensions": [
+            3.7327773571014404,
+            3.934752941131592,
+            7.282148990780115
+          ]
+        },
+        {
+          "frame": 61,
+          "dimensions": [
+            3.7750301361083984,
+            4.2753764390945435,
+            7.197248667478561
+          ]
+        },
+        {
+          "frame": 81,
+          "dimensions": [
+            3.7884905338287354,
+            5.157753944396973,
+            7.5433326959609985
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_death_mg.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.673035740852356,
+            4.13775897026062,
+            7.329272486269474
+          ]
+        },
+        {
+          "frame": 23,
+          "dimensions": [
+            3.622763991355896,
+            3.320926547050476,
+            7.701257020235062
+          ]
+        },
+        {
+          "frame": 46,
+          "dimensions": [
+            3.667065143585205,
+            6.464308977127075,
+            5.992043107748032
+          ]
+        },
+        {
+          "frame": 69,
+          "dimensions": [
+            4.058952331542969,
+            8.04310417175293,
+            3.5963014364242554
+          ]
+        },
+        {
+          "frame": 92,
+          "dimensions": [
+            4.0600199699401855,
+            8.03037017583847,
+            3.560174822807312
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_death_rifle.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.594935417175293,
+            4.045730352401733,
+            7.336672425270081
+          ]
+        },
+        {
+          "frame": 16,
+          "dimensions": [
+            3.5176273584365845,
+            3.7661325931549072,
+            7.712955564260483
+          ]
+        },
+        {
+          "frame": 32,
+          "dimensions": [
+            3.5689070224761963,
+            3.857276141643524,
+            7.6275259256362915
+          ]
+        },
+        {
+          "frame": 48,
+          "dimensions": [
+            3.6622177362442017,
+            6.799843907356262,
+            5.515864849090576
+          ]
+        },
+        {
+          "frame": 64,
+          "dimensions": [
+            3.965107798576355,
+            7.9419326186180115,
+            3.6796337366104126
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_guard_rifle.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.7093838453292847,
+            5.456637024879456,
+            6.129382841289043
+          ]
+        },
+        {
+          "frame": 145,
+          "dimensions": [
+            3.7127312421798706,
+            3.6982446908950806,
+            7.477544687688351
+          ]
+        },
+        {
+          "frame": 289,
+          "dimensions": [
+            3.7127188444137573,
+            3.92098331451416,
+            7.465545110404491
+          ]
+        },
+        {
+          "frame": 433,
+          "dimensions": [
+            3.7125113010406494,
+            3.88386869430542,
+            7.4692902863025665
+          ]
+        },
+        {
+          "frame": 577,
+          "dimensions": [
+            3.7116817235946655,
+            3.6976659297943115,
+            7.478066109120846
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_idle_mg.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.67633855342865,
+            3.755293369293213,
+            7.473648212850094
+          ]
+        },
+        {
+          "frame": 45,
+          "dimensions": [
+            3.6924127340316772,
+            3.7710299491882324,
+            7.452109694480896
+          ]
+        },
+        {
+          "frame": 90,
+          "dimensions": [
+            3.5591424703598022,
+            3.4922916889190674,
+            7.445619106292725
+          ]
+        },
+        {
+          "frame": 135,
+          "dimensions": [
+            3.557046055793762,
+            3.396860122680664,
+            7.414953820407391
+          ]
+        },
+        {
+          "frame": 180,
+          "dimensions": [
+            3.67633855342865,
+            3.755293369293213,
+            7.473648212850094
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_idle_rifle.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.676564335823059,
+            3.831430435180664,
+            7.461821638047695
+          ]
+        },
+        {
+          "frame": 46,
+          "dimensions": [
+            3.682892918586731,
+            3.85519015789032,
+            7.487143367528915
+          ]
+        },
+        {
+          "frame": 91,
+          "dimensions": [
+            3.618247151374817,
+            3.524421453475952,
+            7.498046368360519
+          ]
+        },
+        {
+          "frame": 136,
+          "dimensions": [
+            3.614615797996521,
+            3.55051589012146,
+            7.503440082073212
+          ]
+        },
+        {
+          "frame": 181,
+          "dimensions": [
+            3.676564335823059,
+            3.831430435180664,
+            7.461821638047695
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_idle_training.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.709390163421631,
+            5.45757520198822,
+            6.1281638741493225
+          ]
+        },
+        {
+          "frame": 22,
+          "dimensions": [
+            3.709396004676819,
+            5.506431460380554,
+            5.969105031341314
+          ]
+        },
+        {
+          "frame": 44,
+          "dimensions": [
+            3.7093859910964966,
+            5.480686664581299,
+            5.829373441636562
+          ]
+        },
+        {
+          "frame": 66,
+          "dimensions": [
+            3.709397077560425,
+            5.4286192655563354,
+            5.9927221573889256
+          ]
+        },
+        {
+          "frame": 88,
+          "dimensions": [
+            3.709390163421631,
+            5.45757520198822,
+            6.1281638741493225
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_jumping_jacks.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.709385395050049,
+            5.456833243370056,
+            6.129021070897579
+          ]
+        },
+        {
+          "frame": 43,
+          "dimensions": [
+            3.712532877922058,
+            3.6191823482513428,
+            8.439386021345854
+          ]
+        },
+        {
+          "frame": 86,
+          "dimensions": [
+            3.7125332355499268,
+            3.654638886451721,
+            8.333502501249313
+          ]
+        },
+        {
+          "frame": 128,
+          "dimensions": [
+            6.443282127380371,
+            3.7502521276474,
+            7.646388500928879
+          ]
+        },
+        {
+          "frame": 171,
+          "dimensions": [
+            3.7093838453292847,
+            5.456637024879456,
+            6.129382841289043
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_long_idle01_mg.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.67633855342865,
+            3.755293846130371,
+            7.473648212850094
+          ]
+        },
+        {
+          "frame": 69,
+          "dimensions": [
+            3.3843342065811157,
+            3.8963547945022583,
+            7.419396549463272
+          ]
+        },
+        {
+          "frame": 138,
+          "dimensions": [
+            3.4616146087646484,
+            3.6633729934692383,
+            7.345807623118162
+          ]
+        },
+        {
+          "frame": 207,
+          "dimensions": [
+            3.6831281185150146,
+            3.5961618423461914,
+            7.418987810611725
+          ]
+        },
+        {
+          "frame": 276,
+          "dimensions": [
+            3.67633855342865,
+            3.755293846130371,
+            7.473648212850094
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_long_idle01_rifle.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.676564335823059,
+            3.831430435180664,
+            7.461821638047695
+          ]
+        },
+        {
+          "frame": 69,
+          "dimensions": [
+            3.384339690208435,
+            3.3490720987319946,
+            7.419385796412826
+          ]
+        },
+        {
+          "frame": 138,
+          "dimensions": [
+            3.4196358919143677,
+            3.6633732318878174,
+            7.345804248005152
+          ]
+        },
+        {
+          "frame": 207,
+          "dimensions": [
+            3.683127522468567,
+            3.399978518486023,
+            7.418988116085529
+          ]
+        },
+        {
+          "frame": 276,
+          "dimensions": [
+            3.676564335823059,
+            3.831430435180664,
+            7.461821638047695
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_long_idle02_mg.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.67633855342865,
+            3.755292534828186,
+            7.473648212850094
+          ]
+        },
+        {
+          "frame": 62,
+          "dimensions": [
+            3.879430890083313,
+            3.310940742492676,
+            7.4695886969566345
+          ]
+        },
+        {
+          "frame": 124,
+          "dimensions": [
+            3.8402146100997925,
+            3.2059394121170044,
+            7.479199729859829
+          ]
+        },
+        {
+          "frame": 186,
+          "dimensions": [
+            3.214032292366028,
+            3.4640763998031616,
+            7.477382995188236
+          ]
+        },
+        {
+          "frame": 248,
+          "dimensions": [
+            3.67633855342865,
+            3.755292534828186,
+            7.473648212850094
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_long_idle02_rifle.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.676564335823059,
+            3.831430435180664,
+            7.461821638047695
+          ]
+        },
+        {
+          "frame": 62,
+          "dimensions": [
+            3.878860592842102,
+            3.307450294494629,
+            7.469573974609375
+          ]
+        },
+        {
+          "frame": 124,
+          "dimensions": [
+            3.840214252471924,
+            3.124186635017395,
+            7.479197099804878
+          ]
+        },
+        {
+          "frame": 186,
+          "dimensions": [
+            3.2140328884124756,
+            3.4640759229660034,
+            7.477382928133011
+          ]
+        },
+        {
+          "frame": 248,
+          "dimensions": [
+            3.676564335823059,
+            3.831430435180664,
+            7.461821638047695
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_long_idle03_mg.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.712817430496216,
+            3.7508175373077393,
+            7.489901930093765
+          ]
+        },
+        {
+          "frame": 193,
+          "dimensions": [
+            3.709960699081421,
+            3.7860703468322754,
+            7.463572978973389
+          ]
+        },
+        {
+          "frame": 385,
+          "dimensions": [
+            3.6934913396835327,
+            3.8397735357284546,
+            7.468000665307045
+          ]
+        },
+        {
+          "frame": 577,
+          "dimensions": [
+            3.6768428087234497,
+            3.6389076709747314,
+            7.468319617211819
+          ]
+        },
+        {
+          "frame": 770,
+          "dimensions": [
+            3.712817430496216,
+            3.7508175373077393,
+            7.489901930093765
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_long_idle03_rifle.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.676564335823059,
+            3.831430435180664,
+            7.461821638047695
+          ]
+        },
+        {
+          "frame": 193,
+          "dimensions": [
+            3.6971782445907593,
+            3.6495264768600464,
+            7.457855328917503
+          ]
+        },
+        {
+          "frame": 385,
+          "dimensions": [
+            3.6898512840270996,
+            3.7885172367095947,
+            7.464345745742321
+          ]
+        },
+        {
+          "frame": 577,
+          "dimensions": [
+            3.6766728162765503,
+            3.638464331626892,
+            7.468181818723679
+          ]
+        },
+        {
+          "frame": 770,
+          "dimensions": [
+            3.676564335823059,
+            3.831430435180664,
+            7.461821638047695
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_long_idle04_mg.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.67633855342865,
+            3.755293369293213,
+            7.473648212850094
+          ]
+        },
+        {
+          "frame": 45,
+          "dimensions": [
+            3.782061219215393,
+            3.952858805656433,
+            6.472513899207115
+          ]
+        },
+        {
+          "frame": 90,
+          "dimensions": [
+            3.804507613182068,
+            3.971752882003784,
+            6.437812268733978
+          ]
+        },
+        {
+          "frame": 134,
+          "dimensions": [
+            3.778561592102051,
+            3.975241184234619,
+            6.455057665705681
+          ]
+        },
+        {
+          "frame": 179,
+          "dimensions": [
+            3.67633855342865,
+            3.755293369293213,
+            7.473648212850094
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_long_idle04_rifle.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.676564335823059,
+            3.831430435180664,
+            7.461821638047695
+          ]
+        },
+        {
+          "frame": 45,
+          "dimensions": [
+            3.7820606231689453,
+            3.9528591632843018,
+            6.4725135415792465
+          ]
+        },
+        {
+          "frame": 90,
+          "dimensions": [
+            3.804507613182068,
+            3.971753239631653,
+            6.437809556722641
+          ]
+        },
+        {
+          "frame": 134,
+          "dimensions": [
+            3.778562307357788,
+            3.9752416610717773,
+            6.455057188868523
+          ]
+        },
+        {
+          "frame": 179,
+          "dimensions": [
+            3.676564335823059,
+            3.831430435180664,
+            7.461821638047695
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_long_idle05_mg.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.67633855342865,
+            3.755293846130371,
+            7.473648212850094
+          ]
+        },
+        {
+          "frame": 47,
+          "dimensions": [
+            4.2106932401657104,
+            4.233556747436523,
+            7.161692500114441
+          ]
+        },
+        {
+          "frame": 93,
+          "dimensions": [
+            3.676390528678894,
+            3.7096052169799805,
+            7.408848688006401
+          ]
+        },
+        {
+          "frame": 139,
+          "dimensions": [
+            3.581315755844116,
+            3.6590662002563477,
+            7.419042378664017
+          ]
+        },
+        {
+          "frame": 185,
+          "dimensions": [
+            3.67633855342865,
+            3.755293846130371,
+            7.473648212850094
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_long_idle05_rifle.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.676564335823059,
+            3.831430435180664,
+            7.461821638047695
+          ]
+        },
+        {
+          "frame": 47,
+          "dimensions": [
+            4.210693597793579,
+            4.233555793762207,
+            7.161693781614304
+          ]
+        },
+        {
+          "frame": 93,
+          "dimensions": [
+            3.676390051841736,
+            3.669731378555298,
+            7.400945894420147
+          ]
+        },
+        {
+          "frame": 139,
+          "dimensions": [
+            3.581317186355591,
+            3.6755555868148804,
+            7.420786049216986
+          ]
+        },
+        {
+          "frame": 185,
+          "dimensions": [
+            3.676564335823059,
+            3.831430435180664,
+            7.461821638047695
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_march_mg.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.6894158124923706,
+            3.872221827507019,
+            7.43525493144989
+          ]
+        },
+        {
+          "frame": 9,
+          "dimensions": [
+            3.7115416526794434,
+            3.868205428123474,
+            8.041414499282837
+          ]
+        },
+        {
+          "frame": 18,
+          "dimensions": [
+            3.7224966287612915,
+            4.0724135637283325,
+            7.546815901994705
+          ]
+        },
+        {
+          "frame": 27,
+          "dimensions": [
+            3.712130069732666,
+            3.8646087646484375,
+            8.000086069107056
+          ]
+        },
+        {
+          "frame": 36,
+          "dimensions": [
+            3.6894160509109497,
+            3.8722223043441772,
+            7.435257315635681
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_march_rifle.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.6894158124923706,
+            3.872221827507019,
+            7.43525493144989
+          ]
+        },
+        {
+          "frame": 9,
+          "dimensions": [
+            3.7115414142608643,
+            3.868204712867737,
+            8.041423439979553
+          ]
+        },
+        {
+          "frame": 18,
+          "dimensions": [
+            3.722498655319214,
+            4.072412610054016,
+            7.546827286481857
+          ]
+        },
+        {
+          "frame": 27,
+          "dimensions": [
+            3.712129831314087,
+            3.8646072149276733,
+            8.000087141990662
+          ]
+        },
+        {
+          "frame": 36,
+          "dimensions": [
+            3.6894160509109497,
+            3.8722223043441772,
+            7.435257315635681
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_moving_mg.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.689695715904236,
+            3.7241746187210083,
+            7.646643131971359
+          ]
+        },
+        {
+          "frame": 11,
+          "dimensions": [
+            3.712695360183716,
+            3.724027395248413,
+            7.934338450431824
+          ]
+        },
+        {
+          "frame": 21,
+          "dimensions": [
+            3.6914491653442383,
+            3.7879821062088013,
+            7.81186306476593
+          ]
+        },
+        {
+          "frame": 31,
+          "dimensions": [
+            3.7127444744110107,
+            3.7231611013412476,
+            8.004603624343872
+          ]
+        },
+        {
+          "frame": 41,
+          "dimensions": [
+            3.689695715904236,
+            3.7241746187210083,
+            7.646643131971359
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_moving_rifle.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.6897010803222656,
+            3.7231088876724243,
+            7.442367643117905
+          ]
+        },
+        {
+          "frame": 11,
+          "dimensions": [
+            3.7126965522766113,
+            3.724003791809082,
+            7.9378814697265625
+          ]
+        },
+        {
+          "frame": 21,
+          "dimensions": [
+            3.6914480924606323,
+            3.723904609680176,
+            7.669532090425491
+          ]
+        },
+        {
+          "frame": 31,
+          "dimensions": [
+            3.712745428085327,
+            3.7231656312942505,
+            8.013793349266052
+          ]
+        },
+        {
+          "frame": 41,
+          "dimensions": [
+            3.6897010803222656,
+            3.7231088876724243,
+            7.442367643117905
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_pushup.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.709390163421631,
+            5.45757520198822,
+            6.1281638741493225
+          ]
+        },
+        {
+          "frame": 124,
+          "dimensions": [
+            3.7060075998306274,
+            7.34344482421875,
+            3.7359254360198975
+          ]
+        },
+        {
+          "frame": 248,
+          "dimensions": [
+            3.7825682163238525,
+            7.4451611042022705,
+            3.216344952583313
+          ]
+        },
+        {
+          "frame": 372,
+          "dimensions": [
+            3.706009268760681,
+            7.324123382568359,
+            3.824407458305359
+          ]
+        },
+        {
+          "frame": 496,
+          "dimensions": [
+            3.709390163421631,
+            5.45757520198822,
+            6.1281638741493225
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_retreat_mg.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.6910053491592407,
+            3.9916635751724243,
+            7.271192729473114
+          ]
+        },
+        {
+          "frame": 13,
+          "dimensions": [
+            3.6619430780410767,
+            3.99460506439209,
+            7.715660929679871
+          ]
+        },
+        {
+          "frame": 26,
+          "dimensions": [
+            3.6751139163970947,
+            4.08141028881073,
+            7.558260351419449
+          ]
+        },
+        {
+          "frame": 38,
+          "dimensions": [
+            3.7086989879608154,
+            4.155508518218994,
+            7.379000961780548
+          ]
+        },
+        {
+          "frame": 51,
+          "dimensions": [
+            3.691005229949951,
+            3.9916619062423706,
+            7.271192759275436
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_GER_infantry_retreat_rifle.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            4.515405297279358,
+            4.081915736198425,
+            7.053891658782959
+          ]
+        },
+        {
+          "frame": 13,
+          "dimensions": [
+            4.032509446144104,
+            4.10666561126709,
+            7.57381534576416
+          ]
+        },
+        {
+          "frame": 26,
+          "dimensions": [
+            3.9373531341552734,
+            3.9873428344726562,
+            7.813766121864319
+          ]
+        },
+        {
+          "frame": 38,
+          "dimensions": [
+            4.278863549232483,
+            4.153392314910889,
+            7.284589380025864
+          ]
+        },
+        {
+          "frame": 51,
+          "dimensions": [
+            4.512661695480347,
+            4.081985116004944,
+            7.051530748605728
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_bicycle_infantry_idle.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.6869579553604126,
+            4.897570848464966,
+            7.110795924440026
+          ]
+        },
+        {
+          "frame": 23,
+          "dimensions": [
+            3.6868185997009277,
+            4.955051422119141,
+            7.073725802823901
+          ]
+        },
+        {
+          "frame": 45,
+          "dimensions": [
+            3.6866841316223145,
+            4.95089852809906,
+            7.041503384709358
+          ]
+        },
+        {
+          "frame": 67,
+          "dimensions": [
+            3.6868138313293457,
+            4.889161109924316,
+            7.082215936854482
+          ]
+        },
+        {
+          "frame": 90,
+          "dimensions": [
+            3.6869579553604126,
+            4.897570848464966,
+            7.110795924440026
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_bicycle_infantry_idle_2.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.6869579553604126,
+            4.897570848464966,
+            7.110795924440026
+          ]
+        },
+        {
+          "frame": 23,
+          "dimensions": [
+            3.686532497406006,
+            4.7848169803619385,
+            7.086220655590296
+          ]
+        },
+        {
+          "frame": 46,
+          "dimensions": [
+            3.686718225479126,
+            4.7749937772750854,
+            7.077309295535088
+          ]
+        },
+        {
+          "frame": 68,
+          "dimensions": [
+            3.6873403787612915,
+            4.854470252990723,
+            7.085586111992598
+          ]
+        },
+        {
+          "frame": 91,
+          "dimensions": [
+            3.68695867061615,
+            4.897568583488464,
+            7.110796367749572
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_bicycle_infantry_moving.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.691386342048645,
+            5.539780974388123,
+            6.637454152107239
+          ]
+        },
+        {
+          "frame": 11,
+          "dimensions": [
+            3.691398024559021,
+            5.481825351715088,
+            6.498102396726608
+          ]
+        },
+        {
+          "frame": 21,
+          "dimensions": [
+            3.691410779953003,
+            5.429321765899658,
+            6.686985611915588
+          ]
+        },
+        {
+          "frame": 31,
+          "dimensions": [
+            3.691397786140442,
+            5.485131621360779,
+            6.506463199853897
+          ]
+        },
+        {
+          "frame": 41,
+          "dimensions": [
+            3.6913853883743286,
+            5.539782166481018,
+            6.637455031275749
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_bicycle_infantry_moving_2.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.691386342048645,
+            5.539780974388123,
+            6.637454152107239
+          ]
+        },
+        {
+          "frame": 21,
+          "dimensions": [
+            3.6929104328155518,
+            5.419095516204834,
+            6.661479115486145
+          ]
+        },
+        {
+          "frame": 41,
+          "dimensions": [
+            3.7594093084335327,
+            5.474750399589539,
+            6.616145730018616
+          ]
+        },
+        {
+          "frame": 61,
+          "dimensions": [
+            3.6916826963424683,
+            5.494500398635864,
+            6.682545304298401
+          ]
+        },
+        {
+          "frame": 81,
+          "dimensions": [
+            3.6913853883743286,
+            5.539782166481018,
+            6.637455031275749
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_bicycle_infantry_retreat.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.6882946491241455,
+            6.034188866615295,
+            5.242491632699966
+          ]
+        },
+        {
+          "frame": 11,
+          "dimensions": [
+            3.6856577396392822,
+            6.040282249450684,
+            5.060078710317612
+          ]
+        },
+        {
+          "frame": 21,
+          "dimensions": [
+            3.6831077337265015,
+            6.045167446136475,
+            5.23219758272171
+          ]
+        },
+        {
+          "frame": 31,
+          "dimensions": [
+            3.6856577396392822,
+            6.0402820110321045,
+            5.080706834793091
+          ]
+        },
+        {
+          "frame": 41,
+          "dimensions": [
+            3.688294529914856,
+            6.034188270568848,
+            5.242493242025375
+          ]
+        }
+      ]
+    },
+    {
+      "file": "APDC_bicycle_infantry_retreat_2.anim",
+      "samples": [
+        {
+          "frame": 1,
+          "dimensions": [
+            3.6882946491241455,
+            6.034188866615295,
+            5.242491632699966
+          ]
+        },
+        {
+          "frame": 21,
+          "dimensions": [
+            4.02746307849884,
+            6.363117694854736,
+            5.31453999876976
+          ]
+        },
+        {
+          "frame": 41,
+          "dimensions": [
+            4.087018013000488,
+            6.315308928489685,
+            4.814295649528503
+          ]
+        },
+        {
+          "frame": 61,
+          "dimensions": [
+            3.6821423768997192,
+            6.020553112030029,
+            5.393945038318634
+          ]
+        },
+        {
+          "frame": 81,
+          "dimensions": [
+            3.688294529914856,
+            6.034188270568848,
+            5.242493242025375
+          ]
+        }
+      ]
+    }
+  ]
+}

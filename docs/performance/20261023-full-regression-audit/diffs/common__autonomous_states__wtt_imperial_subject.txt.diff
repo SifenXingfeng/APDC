@@ -1,0 +1,13 @@
+--- before/common/autonomous_states/wtt_imperial_subject.txt
++++ current/common/autonomous_states/wtt_imperial_subject.txt
+@@ -48,8 +48,8 @@
+ 		original_tag = MAN
+ 		OR = {
+ 			has_country_flag = MAN_assertiveness
+-			has_completed_focus = MAN_assertiveness
+-			has_completed_focus = MAN_tsr_assertiveness
++			always = no
++			always = no
+ 		}
+ 			
+ 		

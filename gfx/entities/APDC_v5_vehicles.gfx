@@ -1,0 +1,38 @@
+# Independent staged assets; no country or equipment overrides.
+objectTypes = {
+  pdxmesh = {
+    name = "APDC_v5_mbt_mesh"
+    file = "gfx/models/units/APDC_v5_mbt/APDC_v5_mbt.mesh"
+    animation = { id = "idle" type = "APDC_v5_mbt_idle_animation" }
+    animation = { id = "move" type = "APDC_v5_mbt_move_animation" }
+    animation = { id = "attack" type = "APDC_v5_mbt_attack_animation" }
+  }
+  pdxmesh = {
+    name = "APDC_v5_truck_mesh"
+    file = "gfx/models/units/APDC_v5_truck/APDC_v5_truck.mesh"
+    animation = { id = "idle" type = "APDC_v5_truck_idle_animation" }
+    animation = { id = "move" type = "APDC_v5_truck_move_animation" }
+    animation = { id = "attack" type = "APDC_v5_truck_attack_animation" }
+  }
+  pdxmesh = {
+    name = "APDC_v5_wheeled_mesh"
+    file = "gfx/models/units/APDC_v5_wheeled/APDC_v5_wheeled.mesh"
+    animation = { id = "idle" type = "APDC_v5_wheeled_idle_animation" }
+    animation = { id = "move" type = "APDC_v5_wheeled_move_animation" }
+    animation = { id = "attack" type = "APDC_v5_wheeled_attack_animation" }
+  }
+  pdxmesh = {
+    name = "APDC_v5_amphibious_mesh"
+    file = "gfx/models/units/APDC_v5_amphibious/APDC_v5_amphibious.mesh"
+    animation = { id = "idle" type = "APDC_v5_amphibious_idle_animation" }
+    animation = { id = "move" type = "APDC_v5_amphibious_move_animation" }
+    animation = { id = "attack" type = "APDC_v5_amphibious_attack_animation" }
+  }
+  pdxmesh = {
+    name = "APDC_v5_tracked_mesh"
+    file = "gfx/models/units/APDC_v5_tracked/APDC_v5_tracked.mesh"
+    animation = { id = "idle" type = "APDC_v5_tracked_idle_animation" }
+    animation = { id = "move" type = "APDC_v5_tracked_move_animation" }
+    animation = { id = "attack" type = "APDC_v5_tracked_attack_animation" }
+  }
+}

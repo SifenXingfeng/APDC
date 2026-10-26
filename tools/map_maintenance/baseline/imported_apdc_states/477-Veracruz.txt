@@ -1,0 +1,102 @@
+state = {
+	id = 477
+	name = "STATE_477"
+	manpower = 1951460
+	state_category = town
+	resources = {
+		oil = 9
+	}
+	history = {
+		owner = MEX
+		controller = MEX
+		add_core_of = MEX
+		victory_points = {
+			443
+			1
+		}
+		victory_points = {
+			8079
+			2
+		}
+		victory_points = {
+			8089
+			10
+		}
+		victory_points = {
+			10732
+			1
+		}
+		victory_points = {
+			12810
+			5
+		}
+		victory_points = {
+			14488
+			3
+		}
+		victory_points = {
+			14496
+			2
+		}
+		victory_points = {
+			14499
+			5
+		}
+		victory_points = {
+			14507
+			2
+		}
+		victory_points = {
+			16886
+			1
+		}
+		victory_points = {
+			16895
+			3
+		}
+		victory_points = {
+			16961
+			3
+		}
+		victory_points = {
+			17134
+			1
+		}
+		victory_points = {
+			17311
+			3
+		}
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			12810 = {
+				naval_base = 3
+			}
+			10889 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = {
+		443
+		7490
+		8079
+		8089
+		10732
+		10889
+		12810
+		14487
+		14488
+		14496
+		14499
+		14507
+		14513
+		16886
+		16895
+		16961
+		17134
+		17311
+		17325
+	}
+	local_supplies = 0.0
+}

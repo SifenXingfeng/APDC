@@ -1,0 +1,22 @@
+--- before/common/military_industrial_organization/organizations/COG_organization.txt
++++ current/common/military_industrial_organization/organizations/COG_organization.txt
+@@ -147,8 +147,8 @@
+ 	        available = {
+ 	            owner = {
+ 	            	OR = {
+-	            		has_completed_focus = CONGO_modernize_force_publique
+-	            		has_completed_focus = COG_standardize_military_production
++	            		always = no
++	            		always = no
+ 	            	}
+ 	            }
+ 	        }	
+@@ -209,7 +209,7 @@
+ 
+ 	available = {
+ 		FROM = {
+-			has_completed_focus = COG_societe_africaine_dexplosifs_congo
++			always = no
+ 		}
+ 	}
+ 

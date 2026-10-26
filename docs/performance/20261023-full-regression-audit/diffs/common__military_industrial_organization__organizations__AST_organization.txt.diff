@@ -1,0 +1,168 @@
+--- before/common/military_industrial_organization/organizations/AST_organization.txt
++++ current/common/military_industrial_organization/organizations/AST_organization.txt
+@@ -27,7 +27,7 @@
+ 
+ 		available = {
+ 		    owner = {
+-		        has_completed_focus = AST_yeramba
++		        always = no
+ 		    }
+ 		}	
+ 
+@@ -105,7 +105,7 @@
+ 
+ 		available = {
+ 		    owner = {
+-		        has_completed_focus = AST_yeramba
++		        always = no
+ 		    }
+ 		}	
+ 
+@@ -184,7 +184,7 @@
+ 
+ 		available = {
+ 		    owner = {
+-		        has_completed_focus = AST_yeramba
++		        always = no
+ 		    }
+ 		}	
+ 
+@@ -264,7 +264,7 @@
+ 		has_dlc = "Thunder at Our Gates"
+ 	}
+ 	available = {
+-       	owner = { has_completed_focus = AST_united_states_as_our_keystone }
++       	owner = { always = no }
+      }
+ 
+     add_trait = { 
+@@ -275,7 +275,7 @@
+     	position = { x=5 y=0 }  
+     	available = {
+     	    owner = {
+-    	        has_completed_focus = AST_yeramba
++    	        always = no
+     	    }
+     	}	
+     	equipment_bonus = {
+@@ -355,7 +355,7 @@
+ 		}
+ 	}
+ 	available = {
+-		owner = { has_completed_focus = AST_cockatoo_island_shipyards}
++		owner = { always = no}
+ 	}
+ }
+ 
+@@ -370,7 +370,7 @@
+ 		}
+ 	}
+ 	available = {
+-		owner = { has_completed_focus = AST_kangaroo_point_shipyards}
++		owner = { always = no}
+ 	}
+ }
+ 
+@@ -383,7 +383,7 @@
+ 		has_dlc = "Thunder at Our Gates"
+ 	}
+ 	available = {
+-		owner = { has_completed_focus = AST_kangaroo_point_dry_dock_taog }
++		owner = { always = no }
+ 	}
+ 
+ 	add_trait = {
+@@ -530,8 +530,8 @@
+ 	available = {
+ 		owner = {
+ 			OR = {
+-				has_completed_focus = AST_british_pacific_fleet
+-				has_completed_focus = AST_britain_supplying_ships
++				always = no
++				always = no
+ 			}
+ 		}
+ 	}
+@@ -598,8 +598,8 @@
+ 	available = {
+ 		owner = { 
+ 			OR = {
+-				has_completed_focus = AST_solidarity_by_the_empire
+-				has_completed_focus = AST_british_pact
++				always = no
++				always = no
+ 			}
+ 		}
+ 	}
+@@ -647,7 +647,7 @@
+ 
+ 		available = {
+ 			owner = {
+-				has_tech = jet_engines
++				always = no
+ 			}
+ 		}
+ 
+@@ -828,7 +828,7 @@
+ 	}
+ 	available = {
+ 		owner = {
+-			has_completed_focus = AST_commonwealth_aircraft_corporation
++			always = no
+ 			is_subject_of = ENG 
+ 		}
+ 	}
+@@ -844,7 +844,7 @@
+ 	}
+ 	available = {
+ 		owner = { 
+-			has_completed_focus = AST_united_states_as_our_keystone 
++			always = no 
+ 		}
+ 	}
+ 
+@@ -910,7 +910,7 @@
+ 	}
+ 	available = {
+ 		owner = { 
+-			has_completed_focus = AST_united_states_as_our_keystone 
++			always = no 
+ 		}
+ 	}
+ 
+@@ -996,7 +996,7 @@
+ 
+ 		available = {
+ 		    owner = {
+-		        has_completed_focus = AST_department_of_supply_and_development_taog
++		        always = no
+ 		    }
+ 		}	
+ 
+@@ -1291,7 +1291,7 @@
+ 
+         available = {
+             owner = {
+-                has_completed_focus = AST_lee_enfield_no1_mark3
++                always = no
+             }
+         }	
+ 
+@@ -1311,7 +1311,7 @@
+ 
+ 		available = {
+ 		    owner = {
+-		        has_completed_focus = AST_owen_gun
++		        always = no
+ 		    }
+ 		}	
+ 
+@@ -1333,7 +1333,7 @@
+ 
+ 		available = {
+ 		    owner = {
+-		        has_completed_focus = AST_department_of_supply_and_development_taog
++		        always = no
+ 		    }
+ 		}	
+ 

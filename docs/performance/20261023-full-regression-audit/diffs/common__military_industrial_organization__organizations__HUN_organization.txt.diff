@@ -1,0 +1,123 @@
+--- before/common/military_industrial_organization/organizations/HUN_organization.txt
++++ current/common/military_industrial_organization/organizations/HUN_organization.txt
+@@ -23,12 +23,12 @@
+  				has_dlc = "Gotterdammerung"
+  			}
+  			FROM = {
+- 				has_completed_focus = wuw_HUN_the_turan
++ 				always = no
+  			}
+  		}
+  		ELSE = {
+  			FROM = {
+- 				has_completed_focus = HUN_develop_tanks
++ 				always = no
+  			}
+  		}
+  	}
+@@ -49,12 +49,12 @@
+  				has_dlc = "Gotterdammerung"
+  			}
+  			FROM = {
+- 				has_completed_focus = wuw_HUN_establish_the_mavag_army_division
++ 				always = no
+  			}
+  		}
+  		ELSE = {
+  			FROM = {
+- 				has_completed_focus = HUN_assault_gun_focus
++ 				always = no
+  			}
+  		}
+  	}
+@@ -77,7 +77,7 @@
+  				}
+  			}
+  			FROM = {
+- 				has_completed_focus = wuw_HUN_license_fiat_tankettes
++ 				always = no
+  			}
+  		}
+  	}
+@@ -110,7 +110,7 @@
+  				}
+  			}
+  			FROM = {
+- 				has_completed_focus = wuw_HUN_seek_german_contracts
++ 				always = no
+  			}
+  		}
+  	}
+@@ -153,14 +153,14 @@
+ 					}
+ 				}
+ 			}
+-			owner = { has_completed_focus = HUN_naval_warfare }
++			owner = { always = no }
+ 		}
+ 
+ 		IF = {
+ 			limit = { 
+ 				has_dlc = "Gotterdammerung"
+ 			}
+-			owner = { has_completed_focus = wuw_HUN_enlarge_the_ganz_danubius_division }
++			owner = { always = no }
+ 		}
+ 	}
+ }
+@@ -183,14 +183,14 @@
+ 					}
+ 				}
+ 			}
+-			owner = { has_completed_focus = HUN_naval_warfare }
++			owner = { always = no }
+ 		}
+ 
+ 		IF = {
+ 			limit = { 
+ 				has_dlc = "Gotterdammerung"
+ 			}
+-			owner = { has_completed_focus = wuw_HUN_reinstate_the_navy }
++			owner = { always = no }
+ 		}
+ 	}
+ }
+@@ -219,12 +219,12 @@
+ 				has_dlc = "Gotterdammerung"
+ 			}
+ 			FROM = {
+-				has_completed_focus = wuw_HUN_the_matyasfold_fighter_factory
++				always = no
+ 			}
+ 		}
+ 		ELSE = {
+ 			FROM = {
+-				has_completed_focus = HUN_establish_the_air_force
++				always = no
+ 			}
+ 		}
+ 	}
+@@ -241,7 +241,7 @@
+ 
+ 	available = {
+ 		FROM = {
+-			has_completed_focus = wuw_HUN_establish_the_mavag_aircraft_factory
++			always = no
+ 		}
+ 	}
+ }
+@@ -309,12 +309,12 @@
+ 				has_dlc = "Gotterdammerung"
+ 			}
+ 			FROM = {
+-				has_completed_focus = wuw_HUN_danuvia_submachine_guns
++				always = no
+ 			}
+ 		}
+ 		ELSE = {
+ 			FROM = {
+-				has_completed_focus = HUN_danuvia_submachine_guns
++				always = no
+ 			}
+ 		}
+ 	}

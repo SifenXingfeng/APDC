@@ -1,32 +1,54 @@
 state = {
 	id = 475
 	name = "STATE_475"
-
+	manpower = 805874
+	state_category = rural
 	history = {
 		owner = MEX
+		controller = MEX
+		add_core_of = MEX
+		victory_points = {
+			12753
+			5
+		}
+		victory_points = {
+			12867
+			3
+		}
+		victory_points = {
+			14479
+			3
+		}
+		victory_points = {
+			14485
+			2
+		}
+		victory_points = {
+			16894
+			3
+		}
+		victory_points = {
+			17328
+			1
+		}
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = MEX
-		victory_points = {
-			12753 4
-		}
-		victory_points = {
-			14479 4
-		}
-		victory_points = {
-			16894 2
-		}
-		victory_points = {
-			16922 1
-		}
 	}
-
 	provinces = {
-		1900 12753 14479 14481 16894 16922 17328
+		1900
+		2021
+		12753
+		12867
+		14479
+		14481
+		14485
+		14486
+		16894
+		16922
+		17316
+		17328
+		17331
 	}
-	manpower = 1435377
-	buildings_max_level_factor = 1.000
-	state_category = rural
-	local_supplies = 0.000
+	local_supplies = 0.0
 }

@@ -1,0 +1,170 @@
+state = {
+	id = 595
+	name = "STATE_595"
+	provinces = {
+		1006
+		1094
+		1138
+		1166
+		1193
+		4070
+		4099
+		4113
+		4169
+		4196
+		7027
+		7071
+		7131
+		10012
+		10042
+		10069
+		10084
+		11961
+		11986
+		12057
+		12084
+		19577
+		19584
+		19589
+		19621
+		19633
+		19642
+		19669
+		19687
+		19715
+		19739
+		19758
+		19759
+		19765
+		19773
+		19782
+	}
+	manpower = 9841898
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = PRC
+		add_core_of = ZZZ
+		victory_points = {
+			1166
+			2
+		}
+		victory_points = {
+			1193
+			3
+		}
+		victory_points = {
+			4070
+			1
+		}
+		victory_points = {
+			4099
+			2
+		}
+		victory_points = {
+			4169
+			3
+		}
+		victory_points = {
+			4196
+			15
+		}
+		victory_points = {
+			7027
+			15
+		}
+		victory_points = {
+			7071
+			10
+		}
+		victory_points = {
+			7131
+			1
+		}
+		victory_points = {
+			10012
+			1
+		}
+		victory_points = {
+			10042
+			1
+		}
+		victory_points = {
+			10069
+			3
+		}
+		victory_points = {
+			10084
+			1
+		}
+		victory_points = {
+			11961
+			2
+		}
+		victory_points = {
+			11986
+			2
+		}
+		victory_points = {
+			12057
+			1
+		}
+		victory_points = {
+			12084
+			3
+		}
+		victory_points = {
+			19584
+			2
+		}
+		victory_points = {
+			19642
+			15
+		}
+		victory_points = {
+			19669
+			1
+		}
+		victory_points = {
+			19687
+			1
+		}
+		victory_points = {
+			19739
+			1
+		}
+		victory_points = {
+			19758
+			2
+		}
+		victory_points = {
+			19759
+			10
+		}
+		victory_points = {
+			19773
+			3
+		}
+		victory_points = {
+			19782
+			3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			4196 = {
+				naval_base = 3
+				coastal_bunker = 1
+				bunker = 1
+			}
+			7071 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+	}
+}

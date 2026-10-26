@@ -1,0 +1,75 @@
+state = {
+	id = 1392
+	name = "STATE_1392"
+	provinces = {
+		12787
+		14025
+		14034
+		15281
+		15282
+		15283
+		15284
+		15417
+		15418
+		15419
+		15420
+		15421
+	}
+	manpower = 1309076
+	resources = {
+		chromium = 2
+		steel = 3
+		tungsten = 3
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = GHA
+		controller = GHA
+		add_core_of = GHA
+		victory_points = {
+			12787
+			2
+		}
+		victory_points = {
+			14025
+			2
+		}
+		victory_points = {
+			14034
+			1
+		}
+		victory_points = {
+			15282
+			3
+		}
+		victory_points = {
+			15283
+			1
+		}
+		victory_points = {
+			15284
+			1
+		}
+		victory_points = {
+			15418
+			2
+		}
+		victory_points = {
+			15419
+			1
+		}
+		victory_points = {
+			15420
+			1
+		}
+		victory_points = {
+			15421
+			20
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

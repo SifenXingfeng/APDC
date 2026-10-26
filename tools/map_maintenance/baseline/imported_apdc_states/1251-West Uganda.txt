@@ -1,0 +1,42 @@
+state = {
+	id = 1251
+	name = "STATE_1251"
+	provinces = {
+		7133
+		13935
+		13952
+		19351
+		19362
+	}
+	manpower = 1255580
+	resources = {
+		rubber = 1
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = COG
+		controller = COG
+		add_core_of = UGA
+		victory_points = {
+			7133
+			3
+		}
+		victory_points = {
+			13935
+			3
+		}
+		victory_points = {
+			13952
+			1
+		}
+		victory_points = {
+			19362
+			2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

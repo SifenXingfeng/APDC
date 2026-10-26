@@ -1,0 +1,87 @@
+{
+  "root_cause": "Valid map data was confused with a valid visible GUI binding. The dirty revision was consumed while the parent was hidden; first opening reused the same revision, leaving literal red frames and all border icons visible.",
+  "before_reproduced": "Pristine first opening reproduced the user image while logs showed FRA=3 and ui=1 both before and after opening.",
+  "fix": "Separate cached-data build count from GUI dirty revision; force binding on initial opening, reopening, return and startup without rebuilding valid data.",
+  "passed": 87,
+  "failed": [],
+  "missing": [],
+  "stages": [
+    {
+      "stage": "FIRST_OPEN",
+      "day": 1,
+      "ui": 3,
+      "builds": 1,
+      "france_frame": 3
+    },
+    {
+      "stage": "CLOSED",
+      "day": 9,
+      "ui": 3,
+      "builds": 1,
+      "france_frame": 3
+    },
+    {
+      "stage": "REOPEN",
+      "day": 17,
+      "ui": 4,
+      "builds": 1,
+      "france_frame": 3
+    },
+    {
+      "stage": "DETAIL",
+      "day": 25,
+      "ui": 4,
+      "builds": 1,
+      "france_frame": 3
+    },
+    {
+      "stage": "RETURN",
+      "day": 33,
+      "ui": 5,
+      "builds": 1,
+      "france_frame": 3
+    }
+  ],
+  "pixel_comparisons": {
+    "first_open": {
+      "pixels": 500000,
+      "changed_pixels": 0,
+      "max_channel_difference": 0
+    },
+    "reopen": {
+      "pixels": 500000,
+      "changed_pixels": 0,
+      "max_channel_difference": 0
+    },
+    "return": {
+      "pixels": 500000,
+      "changed_pixels": 0,
+      "max_channel_difference": 0
+    },
+    "detail": {
+      "pixels": 250000,
+      "changed_pixels": 0,
+      "max_channel_difference": 0
+    }
+  },
+  "project_or_unclassified_errors": 0,
+  "protected_files": 3635,
+  "protected_changes": [],
+  "gfx_shader_gui_bytes_unchanged": [
+    "interface/APDC_cold_war.gfx",
+    "gfx/FX/APDC_cw_palette.shader",
+    "interface/APDC_cold_war.gui"
+  ],
+  "cleanup": {
+    "stopped": "2026-10-25T15:55:11.8766728+08:00",
+    "remaining_helpers": [],
+    "pid": 41900,
+    "steam_app_running": false,
+    "closed_helpers": [
+      17468,
+      6308
+    ],
+    "still_running": false
+  },
+  "validation_boundary": "Native rendering after real entry/close/map/return callback effects, no territory/control changes before those captures. No mouse or keyboard input was sent."
+}

@@ -1,0 +1,7 @@
+apdc_cw_can_select_law = {
+check_variable = { apdc_cw_law_locked^apdc_cw_law_row = 0 }
+check_variable = { apdc_cw_law_unlocked^apdc_cw_law_row = 1 }
+NOT = { check_variable = { apdc_cw_law_running^apdc_cw_law_row = apdc_cw_option } }
+OR = { check_variable = { apdc_cw_option = 0 } check_variable = { apdc_cw_option = 1 } }
+NOT = { check_variable = { political_power < apdc_cw_law_execute_cost^apdc_cw_law_row } }
+}

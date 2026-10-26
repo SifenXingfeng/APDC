@@ -1,0 +1,83 @@
+--- before/common/factions/rules/joining_rules.txt
++++ current/common/factions/rules/joining_rules.txt
+@@ -30,7 +30,7 @@
+ 		}
+ 		IF = {
+ 			limit = { NOT = { has_rule = can_join_opposite_factions } }
+-			has_government = FROM
++			always = no
+ 		}
+ 	}
+ }
+@@ -57,7 +57,7 @@
+ 		}
+ 		IF = {
+ 			limit = { NOT = { has_rule = can_join_opposite_factions } }
+-			has_government = FROM
++			always = no
+ 		}
+ 	}
+ }
+@@ -110,7 +110,7 @@
+ 
+ 		IF = {
+ 			limit = { NOT = { has_rule = can_join_opposite_factions } }
+-			has_government = FROM
++			always = no
+ 		}
+ 	}
+ }
+@@ -127,7 +127,7 @@
+ 		has_government = fascism
+ 		IF = {
+ 			limit = { NOT = { has_rule = can_join_opposite_factions } }
+-			has_government = FROM
++			always = no
+ 		}
+ 	}
+ }
+@@ -147,7 +147,7 @@
+ 		}
+ 		IF = {
+ 			limit = { NOT = { has_rule = can_join_opposite_factions } }
+-			has_government = FROM
++			always = no
+ 		}
+ 	}
+ }
+@@ -158,7 +158,7 @@
+ 		base = 0
+ 	}
+ 	trigger = {
+-		has_government = FROM
++		always = no
+ 	}
+ }
+ 
+@@ -174,7 +174,7 @@
+ 		has_government = communism
+ 		IF = {
+ 			limit = { NOT = { has_rule = can_join_opposite_factions } }
+-			has_government = FROM
++			always = no
+ 		}
+ 	}
+ }
+@@ -194,7 +194,7 @@
+ 		}
+ 		IF = {
+ 			limit = { NOT = { has_rule = can_join_opposite_factions } }
+-			has_government = FROM
++			always = no
+ 		}
+ 	}
+ }
+@@ -211,7 +211,7 @@
+ 		ROOT = { is_subject_of = FROM }
+ 		IF = {
+ 			limit = { NOT = { has_rule = can_join_opposite_factions } }
+-			has_government = FROM
++			always = no
+ 		}
+ 	}
+ 	modifier= {

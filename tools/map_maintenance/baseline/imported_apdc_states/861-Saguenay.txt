@@ -1,0 +1,30 @@
+state = {
+	id = 861
+	name = "STATE_861"
+	manpower = 50000
+	state_category = pastoral
+	history = {
+		owner = USA
+		controller = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		4666
+		10176
+		17276
+		490
+		6740
+		13162
+		17252
+		17259
+		17267
+		17271
+		17272
+		13181
+	}
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

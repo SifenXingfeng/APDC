@@ -1,34 +1,31 @@
 state = {
 	id = 332
 	name = "STATE_332"
-
+	provinces = {
+		1426
+		4720
+		4787
+		7810
+		12503
+		13165
+		13180
+		17251
+		17255
+		17258
+	}
+	manpower = 36413
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 0
 	history = {
 		owner = USA
+		controller = USA
 		add_core_of = USA
 		buildings = {
-
-			infrastructure = 2
-			radar_station = 3
-			air_base = 3
+			infrastructure = 1
 			12503 = {
-				naval_base = 2
+				naval_base = 1
 			}
 		}
-		add_core_of = CAN
-		victory_points = {
-			12503 1
-		}
-		victory_points = {
-			1785 1
-		}
-		
 	}
-
-	provinces = {
-		1426 1785 4720 4787 12503 13165 13180 17255 17258
-	}
-	manpower = 13789
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
 }

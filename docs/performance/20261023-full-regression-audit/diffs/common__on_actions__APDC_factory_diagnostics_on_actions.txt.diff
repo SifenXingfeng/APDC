@@ -1,0 +1,19 @@
+--- before/common/on_actions/APDC_factory_diagnostics_on_actions.txt
++++ current/common/on_actions/APDC_factory_diagnostics_on_actions.txt
+@@ -1,15 +1 @@
+-on_actions = {
+-    # Country-specific pulse: do not repeat the snapshot for every country.
+-    on_daily_GER = {
+-        effect = {
+-            if = {
+-                limit = {
+-                    is_ai = no
+-                    NOT = { has_country_flag = APDC_factory_diagnostics_disabled }
+-                }
+-                set_temp_variable = { APDC_fd_stage = 2 }
+-                APDC_log_factory_snapshot = yes
+-            }
+-        }
+-    }
+-}
++# Factory diagnostics are opt-in QA helpers, not recurring gameplay work.

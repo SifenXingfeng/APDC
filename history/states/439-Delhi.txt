@@ -1,0 +1,101 @@
+state = {
+	id = 439
+	name = "STATE_439"
+	provinces = {
+		2002
+		2032
+		2086
+		11955
+		12868
+		16037
+		16038
+		16039
+		16040
+		16043
+		18892
+		18895
+		18904
+		18929
+		18936
+		19006
+	}
+	manpower = 636246
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 1.000
+	history = {
+		owner = PAK
+		controller = PAK
+		add_core_of = PAK
+		victory_points = {
+			2002
+			5
+		}
+		victory_points = {
+			2032
+			5
+		}
+		victory_points = {
+			2086
+			50
+		}
+		victory_points = {
+			11955
+			10
+		}
+		victory_points = {
+			12868
+			3
+		}
+		victory_points = {
+			16037
+			3
+		}
+		victory_points = {
+			16038
+			15
+		}
+		victory_points = {
+			16039
+			5
+		}
+		victory_points = {
+			16040
+			3
+		}
+		victory_points = {
+			16043
+			3
+		}
+		victory_points = {
+			18892
+			10
+		}
+		victory_points = {
+			18895
+			3
+		}
+		victory_points = {
+			18904
+			3
+		}
+		victory_points = {
+			18929
+			5
+		}
+		victory_points = {
+			18936
+			3
+		}
+		victory_points = {
+			19006
+			2
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 4
+		}
+		set_state_flag = GDP_regions_punjab
+	}
+}

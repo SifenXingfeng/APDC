@@ -1,0 +1,46 @@
+state = {
+	id = 434
+	name = "STATE_434"
+	manpower = 200000
+	state_category = wasteland
+	resources = {
+		tungsten = 49
+	}
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PAK
+		add_core_of = PRC
+		victory_points = {
+			19730
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = state_renamings
+		set_variable = {
+			china_state_ref = 22
+		}
+		set_variable = {
+			china_region_ref = 2
+		}
+	}
+	provinces = {
+		1996
+		10810
+		12730
+		16137
+		16138
+		16985
+		17009
+		18852
+		19638
+		19657
+		19670
+		19691
+		19730
+		19750
+	}
+	local_supplies = 0.0
+}

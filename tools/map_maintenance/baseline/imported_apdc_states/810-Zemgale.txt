@@ -1,0 +1,42 @@
+state = {
+	id = 810
+	name = "STATE_810"
+	provinces = {
+		222
+		310
+		319
+		341
+		3255
+		3298
+		6459
+		9275
+		14361
+		14589
+		14590
+		14592
+		14595
+		14596
+	}
+	manpower = 600250
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = ZZZ
+		victory_points = {
+			310
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			310 = {
+				bunker = 2
+			}
+			air_base = 3
+		}
+	}
+}

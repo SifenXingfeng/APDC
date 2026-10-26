@@ -1,0 +1,77 @@
+--- before/common/focus_inlay_windows/cze_industry_focus_inlay_window.txt
++++ current/common/focus_inlay_windows/cze_industry_focus_inlay_window.txt
+@@ -101,12 +101,12 @@
+ 					value = 1
+ 				}
+ 
+-				CZE_show_current_skoda_prioty_idea_stats_no_focus = yes
++				
+ 
+ 				set_variable = { skoda_focus_var = 0 }
+ 
+ 				hidden_effect = {
+-					CZE_update_skoda_tier = yes
++					
+ 				}
+             }
+         }
+@@ -126,10 +126,10 @@
+ 					value = 1
+ 				}
+ 
+-                CZE_show_current_skoda_prioty_idea_stats_infantry_focus = yes
+-
+-                hidden_effect = {
+-					CZE_update_skoda_tier = yes
++                
++
++                hidden_effect = {
++					
+ 				}
+             }
+         }
+@@ -149,10 +149,10 @@
+ 					value = 1
+ 				}
+ 
+-                CZE_show_current_skoda_prioty_idea_stats_tank_focus = yes
+-
+-                hidden_effect = {
+-					CZE_update_skoda_tier = yes
++                
++
++                hidden_effect = {
++					
+ 				}
+             }
+         }
+@@ -172,10 +172,10 @@
+ 					value = 1
+ 				}
+ 
+-                CZE_show_current_skoda_prioty_idea_stats_plane_focus = yes
+-
+-                hidden_effect = {
+-					CZE_update_skoda_tier = yes
++                
++
++                hidden_effect = {
++					
+ 				}
+             }
+         }
+@@ -195,10 +195,10 @@
+ 					value = 1
+ 				}
+ 
+-                CZE_show_current_skoda_prioty_idea_stats_naval_focus = yes
+-
+-                hidden_effect = {
+-					CZE_update_skoda_tier = yes
++                
++
++                hidden_effect = {
++					
+ 				}
+             }
+         }

@@ -1,0 +1,24 @@
+state = {
+	id = 1232
+	name = "STATE_1232"
+	provinces = {
+		1106
+		10203
+	}
+	manpower = 117062
+	resources = {
+		chromium = 2
+		steel = 2
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = GRE
+		controller = GRE
+		add_core_of = GRE
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

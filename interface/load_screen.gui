@@ -3,7 +3,7 @@ guiTypes = {
 
 	windowType = {
 		name = "load_screen"
-		backGround =""
+		
 		position = { x = 0 y = 0 }
 		size = { x = 1024 y = 768 }
 		moveable = 0
@@ -29,7 +29,7 @@ guiTypes = {
 				
 		windowType = {
 			name = "status"
-			backGround =""
+			
 			position = { x = 0 y = 0 }
 			size = { x = 1024 y = 768 }
 			moveable = 0
@@ -48,7 +48,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "text"
 				position = { x = -400 y = 13 }
-				textureFile = ""
+				
 				font = "loadscreen_header"
 				borderSize = {x = 0 y = 0}
 				text = ""	
@@ -68,7 +68,7 @@ guiTypes = {
 		
 		windowType = {
 			name = "tip"
-			backGround =""
+			
 			position = { x = 0 y = 0 }
 			size = { x = 1024 y = 200 }
 			moveable = 0
@@ -88,7 +88,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "text"
 				position = { x = -450 y = -157 }
-				textureFile = ""
+				
 				font = "loadscreen_tip"
 				borderSize = {x = 0 y = 0}
 				text = ""	

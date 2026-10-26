@@ -2,37 +2,49 @@ state = {
 	id = 447
 	name = "STATE_447"
 	resources = {
-		oil = 7.000
+		tungsten = 1
+		steel = 1
 	}
-
+	provinces = {
+		4076
+		4145
+		7164
+		15776
+		15777
+		18507
+	}
+	manpower = 1753275
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
 	history = {
 		owner = EGY
+		controller = EGY
+		add_core_of = EGY
 		victory_points = {
-			4076 30
+			4076
+			25
 		}
 		victory_points = {
-			7164 9
+			4145
+			5
 		}
 		victory_points = {
-			4145 3
+			7164
+			2
 		}
 		buildings = {
-			infrastructure = 4
-			
-			dockyard = 1
-			air_base = 6
+			infrastructure = 3
+			industrial_complex = 1
 			4076 = {
 				naval_base = 8
+				naval_supply_hub = 1
 			}
+			air_base = 6
 		}
-		add_core_of = EGY
+		victory_points = {
+			18507
+			2
+		}
 	}
-
-	provinces = {
-		4076 4145 7164
-	}
-	manpower = 3182416
-	buildings_max_level_factor = 1.000
-	state_category = city
-	local_supplies = 0.000
 }

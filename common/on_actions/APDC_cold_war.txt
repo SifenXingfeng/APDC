@@ -1,0 +1,5 @@
+on_actions = {
+on_startup = { effect = { GER = { apdc_cw_bootstrap = yes } every_country = { limit = { is_ai = no } apdc_cw_bind_world_ui = yes } } }
+on_daily = { effect = { if = { limit = { NOT = { has_global_flag = apdc_cw_daily_lock } } set_global_flag = { flag = apdc_cw_daily_lock value = 1 days = 1 } apdc_cw_bootstrap = yes apdc_cw_daily = yes } } }
+on_state_owner_changed = { effect = { if = { limit = { has_global_flag = apdc_cw_ready_v1 } apdc_cw_invalidate_maps = yes } } }
+}

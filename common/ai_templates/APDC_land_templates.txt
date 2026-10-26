@@ -1,0 +1,82 @@
+# Temporary AI migration baselines, not the design-document division appendix.
+APDC_infantry_template = {
+	blocked_for = { AAA }
+	role = infantry
+	upgrade_prio = {
+		factor = 1
+	}
+	APDC_infantry_baseline = {
+		upgrade_prio = {
+			factor = 1
+		}
+		target_template = {
+			regiments = {
+				apdc_infantry = 6
+			}
+			support = {
+				apdc_engineer = 1
+			}
+		}
+	}
+}
+APDC_motorized_template = {
+	blocked_for = { AAA }
+	role = motorized
+	upgrade_prio = {
+		factor = 1
+	}
+	APDC_motorized_baseline = {
+		upgrade_prio = {
+			factor = 1
+		}
+		target_template = {
+			regiments = {
+				apdc_motorized = 6
+			}
+			support = {
+				apdc_combined_service = 1
+			}
+		}
+	}
+}
+APDC_armor_template = {
+	blocked_for = { AAA }
+	role = armor
+	upgrade_prio = {
+		factor = 1
+	}
+	APDC_armor_baseline = {
+		upgrade_prio = {
+			factor = 1
+		}
+		target_template = {
+			regiments = {
+				apdc_light_tank = 3
+				apdc_motorized = 6
+			}
+			support = {
+				apdc_engineer = 1
+			}
+		}
+	}
+}
+APDC_apdc_automation_template = {
+	blocked_for = { AAA }
+	role = apdc_automation
+	upgrade_prio = {
+		factor = 1
+	}
+	APDC_apdc_automation_baseline = {
+		upgrade_prio = {
+			factor = 1
+		}
+		target_template = {
+			regiments = {
+				apdc_doll_small = 6
+			}
+			support = {
+				apdc_robot_recon = 1
+			}
+		}
+	}
+}

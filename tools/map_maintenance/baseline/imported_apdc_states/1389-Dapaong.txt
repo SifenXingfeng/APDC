@@ -1,0 +1,38 @@
+state = {
+	id = 1389
+	name = "STATE_1389"
+	provinces = {
+		11718
+		12785
+		12843
+		13212
+	}
+	manpower = 734231
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+	history = {
+		owner = TOG
+		controller = TOG
+		add_core_of = TOG
+		victory_points = {
+			11718
+			3
+		}
+		victory_points = {
+			12785
+			2
+		}
+		victory_points = {
+			12843
+			2
+		}
+		victory_points = {
+			13212
+			3
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

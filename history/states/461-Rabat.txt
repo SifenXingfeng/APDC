@@ -1,0 +1,87 @@
+state = {
+	id = 461
+	name = "STATE_461"
+	resources = {
+		chromium = 2
+		coal = 1
+		steel = 27
+	}
+	provinces = {
+		1194
+		9945
+		10070
+		10113
+		12087
+		12100
+		15111
+		18063
+		18065
+		18066
+		18069
+		18080
+	}
+	manpower = 1077403
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = MOR
+		controller = MOR
+		add_core_of = MOR
+		victory_points = {
+			1194
+			1
+		}
+		victory_points = {
+			9945
+			1
+		}
+		victory_points = {
+			10070
+			20
+		}
+		victory_points = {
+			10113
+			2
+		}
+		victory_points = {
+			12087
+			3
+		}
+		victory_points = {
+			12100
+			1
+		}
+		victory_points = {
+			15111
+			10
+		}
+		victory_points = {
+			18063
+			2
+		}
+		victory_points = {
+			18066
+			1
+		}
+		victory_points = {
+			18069
+			2
+		}
+		victory_points = {
+			18080
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			12100 = {
+				naval_base = 3
+			}
+			9945 = {
+				naval_base = 3
+			}
+			air_base = 3
+		}
+	}
+}

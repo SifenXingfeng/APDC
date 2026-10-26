@@ -1,0 +1,110 @@
+state = {
+	id = 600
+	name = "STATE_600"
+	provinces = {
+		1066
+		1110
+		1153
+		1628
+		3992
+		4038
+		4083
+		4185
+		7007
+		7054
+		9984
+		12030
+		13141
+		19452
+		19454
+		19460
+		19462
+		19470
+		19480
+		19498
+		19531
+		19570
+	}
+	manpower = 8764690
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 3
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = PRC
+		add_core_of = ZZZ
+		victory_points = {
+			1066
+			5
+		}
+		victory_points = {
+			1110
+			2
+		}
+		victory_points = {
+			1153
+			3
+		}
+		victory_points = {
+			1628
+			2
+		}
+		victory_points = {
+			3992
+			20
+		}
+		victory_points = {
+			4038
+			2
+		}
+		victory_points = {
+			4083
+			2
+		}
+		victory_points = {
+			4185
+			3
+		}
+		victory_points = {
+			7054
+			2
+		}
+		victory_points = {
+			9984
+			5
+		}
+		victory_points = {
+			12030
+			2
+		}
+		victory_points = {
+			19452
+			1
+		}
+		victory_points = {
+			19460
+			1
+		}
+		victory_points = {
+			19462
+			3
+		}
+		victory_points = {
+			19480
+			2
+		}
+		victory_points = {
+			19498
+			1
+		}
+		victory_points = {
+			19570
+			2
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+}

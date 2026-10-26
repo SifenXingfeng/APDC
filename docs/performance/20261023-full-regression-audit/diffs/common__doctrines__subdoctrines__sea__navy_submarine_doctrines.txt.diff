@@ -1,0 +1,192 @@
+--- before/common/doctrines/subdoctrines/sea/navy_submarine_doctrines.txt
++++ current/common/doctrines/subdoctrines/sea/navy_submarine_doctrines.txt
+@@ -176,69 +176,7 @@
+     }
+ }
+ 
+-submarine_coastal_defense = {
+-	track = submarines
+-    name = SUBDOCTRINE_SUBMARINE_COASTAL_DEFENSE
+-    description = SUBDOCTRINE_SUBMARINE_COASTAL_DEFENSE_DESC
+-    icon = GFX_doctrine_undersea_blockade_medium
+-
+-    xp_cost = 100
+-    xp_type = navy
+-
+-    available = {
+-        is_special_project_completed = sp:sp_naval_midget_submarine
+-    }
+-    visible = {
+-        has_dlc = "No Compromise, No Surrender"
+-    }
+-
+-    submarine = {
+-        supply_consumption = -0.02
+-    }
+-
+-    rewards = {
+-
+-    	optimized_compartments = {
+-            equipment_bonus = {
+-                ship_hull_midget_submarine = {
+-                    reliability = 0.2
+-                    instant = yes
+-                }
+-            }
+-    	}
+-    	patrol_vigilance = {
+-    		submarine = {
+-    			max_organisation = 20
+-    			surface_detection = 0.2
+-    		}
+-    	}
+-    	maneuever_fire = {
+-            equipment_bonus = {
+-                ship_hull_midget_submarine = {
+-                    torpedo_attack = 0.1
+-                    instant = yes
+-                }
+-            }
+-    	}
+-    	locals_knowledge = {
+-    		submarine = {
+-    			sub_visibility = -0.05
+-    		}
+-    	}
+-    	counter_submarine_operations = {
+-    		submarine = {
+-    			torpedo_attack = 0.1
+-    		}
+-            equipment_bonus = {
+-                ship_hull_midget_submarine = {
+-                    sub_visibility = -0.05
+-
+-                    instant = yes
+-                }
+-            }
+-    	}
+-    }
+-}
++
+ 
+ coastal_minelaying = {
+ 	track = submarines
+@@ -294,117 +232,4 @@
+     }
+ }
+ 
+-long_range_submarines = {
+-    track = submarines
+-    name = SUBDOCTRINE_SUBMARINE_LONG_RANGE_SUBMARINES
+-    description = SUBDOCTRINE_SUBMARINE_LONG_RANGE_SUBMARINES_DESC
+-    icon = GFX_doctrine_long_range_submarines_medium
+-
+-    xp_cost = 100
+-    xp_type = navy
+-
+-    available = {
+-        OR = {
+-            is_special_project_completed = sp:sp_naval_cruiser_submarine
+-            is_special_project_completed = sp:sp_naval_submarine_carrier
+-        }
+-        
+-    }
+-    visible = {
+-        has_dlc = "No Compromise, No Surrender"
+-    }
+-
+-    naval_torpedo_hit_chance_factor = 0.1
+-
+-    rewards = {
+-
+-        ocean_patrols = {
+-            equipment_bonus = {
+-                ship_hull_fleet_submarine = {
+-                    surface_detection = 0.1
+-                    instant = yes
+-                }
+-                ship_hull_cruiser_submarine = {
+-                    surface_detection = 0.1
+-                    instant = yes
+-                }
+-                ship_hull_nuclear_submarine = {
+-                    surface_detection = 0.1
+-                    instant = yes
+-                }
+-            }
+-            submarine = {
+-                max_organisation = 10
+-            }
+-        }
+-        improved_dive_protocols = {
+-            equipment_bonus = {
+-                ship_hull_fleet_submarine = {
+-                    surface_visibility = -0.05
+-                    instant = yes
+-                }
+-                ship_hull_cruiser_submarine = {
+-                    surface_visibility = -0.05
+-                    instant = yes
+-                }
+-                ship_hull_carrier_submarine = {
+-                    surface_visibility = -0.1
+-                    instant = yes
+-                }
+-                ship_hull_nuclear_submarine = {
+-                    surface_visibility = -0.05
+-                    instant = yes
+-                }
+-            }
+-        }
+-        support_the_surface = {
+-            equipment_bonus = {
+-                ship_hull_fleet_submarine = {
+-                    naval_speed = 0.1
+-                    torpedo_attack = 0.2
+-                    instant = yes
+-                }
+-                ship_hull_cruiser_submarine = {
+-                    naval_speed = 0.1
+-                    torpedo_attack = 0.2
+-                    instant = yes
+-                }
+-                ship_hull_carrier_submarine = {
+-                    naval_speed = 0.2
+-                    instant = yes
+-                }
+-                ship_hull_nuclear_submarine = {
+-                    naval_speed = 0.1
+-                    torpedo_attack = 0.1
+-                    instant = yes
+-                }
+-            }
+-        }
+-        stowage_efficiency = {
+-            equipment_bonus = {
+-                ship_hull_fleet_submarine = {
+-                    fuel_consumption = -0.2
+-                    instant = yes
+-                }
+-                ship_hull_cruiser_submarine = {
+-                    fuel_consumption = -0.2
+-                    instant = yes
+-                }
+-                ship_hull_carrier_submarine = {
+-                    submarine_carrier_size = 2
+-                    instant = yes
+-                }
+-            }
+-        }
+-
+-        deep_water_supremacy = {
+-            submarine = {
+-                sub_detection = 0.2
+-                torpedo_attack = 0.1
+-            }
+-        }   
+-
+-    }
+-
+-
+-
++

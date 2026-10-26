@@ -1,0 +1,342 @@
+{
+  "technology": [
+    "aa_cannon_1",
+    "aa_cannon_2",
+    "aa_cannon_3",
+    "aa_hmg",
+    "aa_lmg",
+    "advanced_battleship",
+    "advanced_carrier",
+    "advanced_destroyer",
+    "advanced_heavy_cruiser",
+    "advanced_heavy_tank_chassis",
+    "advanced_large_airframe",
+    "advanced_light_cruiser",
+    "advanced_light_tank_chassis",
+    "advanced_medium_airframe",
+    "advanced_medium_tank_chassis",
+    "advanced_small_airframe",
+    "advanced_submarine",
+    "aerial_hangars",
+    "air_torpedoe_1",
+    "air_torpedoe_2",
+    "air_torpedoe_3",
+    "aircraft_construction",
+    "amphibious_drive",
+    "amphibious_tank_chassis",
+    "armor_piercing_bombs",
+    "armor_tech_1",
+    "armor_tech_2",
+    "armor_tech_3",
+    "armor_tech_4",
+    "basic_battlecruiser",
+    "basic_battleship",
+    "basic_carrier",
+    "basic_destroyer",
+    "basic_heavy_cruiser",
+    "basic_heavy_tank_chassis",
+    "basic_large_airframe",
+    "basic_light_cruiser",
+    "basic_light_tank_chassis",
+    "basic_medium_airframe",
+    "basic_medium_tank_chassis",
+    "basic_small_airframe",
+    "basic_submarine",
+    "bba_early_transport_plane",
+    "bba_improved_transport_plane",
+    "bba_strategic_airlifter",
+    "early_battlecruiser",
+    "early_battleship",
+    "early_bombs",
+    "early_carrier",
+    "early_destroyer",
+    "early_heavy_cruiser",
+    "early_light_cruiser",
+    "early_submarine",
+    "engine_tech_1",
+    "engine_tech_2",
+    "engine_tech_3",
+    "engine_tech_4",
+    "engines_1",
+    "engines_2",
+    "engines_3",
+    "engines_4",
+    "gwtank_chassis",
+    "heavy_battleship2",
+    "heavy_bombs",
+    "improved_battleship",
+    "improved_carrier",
+    "improved_destroyer",
+    "improved_heavy_cruiser",
+    "improved_heavy_tank_chassis",
+    "improved_large_airframe",
+    "improved_light_cruiser",
+    "improved_light_tank_chassis",
+    "improved_medium_airframe",
+    "improved_medium_tank_chassis",
+    "improved_small_airframe",
+    "improved_submarine",
+    "iw_large_airframe",
+    "iw_medium_airframe",
+    "iw_small_airframe",
+    "landing_craft",
+    "main_battle_tank_chassis",
+    "miniature_fighters",
+    "modern_large_airframe",
+    "modern_medium_airframe",
+    "modern_small_airframe",
+    "photo_reconnaisance",
+    "range_improvements",
+    "reinforced_wings_mothership",
+    "sp_armored_advanced_flamethrower_tech",
+    "sp_armored_lc_high_impact_obliterator_cannon_tech",
+    "sp_armored_lc_naval_engine_conversion_tech",
+    "sp_armored_lc_specialized_field_manuals_tech",
+    "sp_armored_lc_transmission_improvements_tech",
+    "sp_armored_lc_weapon_fire_control_tech",
+    "sp_centrifugal_jet_tech",
+    "super_heavy_tank_chassis",
+    "survivability_studies",
+    "tank_landing_craft",
+    "transport"
+  ],
+  "projects": [
+    {
+      "id": "sp_air_bouncing_bomb",
+      "reason": [
+        "missing prerequisite heavy_bombs",
+        "missing prerequisite tactical_bomber2"
+      ]
+    },
+    {
+      "id": "sp_air_earthshaker_bomb",
+      "reason": [
+        "missing prerequisite heavy_bombs"
+      ]
+    },
+    {
+      "id": "sp_air_intercontinental_bomber",
+      "reason": [
+        "missing prerequisite improved_large_airframe"
+      ]
+    },
+    {
+      "id": "sp_air_mothership_aircraft",
+      "reason": [
+        "missing prerequisite improved_large_airframe"
+      ]
+    },
+    {
+      "id": "sp_air_jet_engine",
+      "reason": [
+        "missing prerequisite engines_2",
+        "missing prerequisite improved_medium_airframe",
+        "missing prerequisite improved_small_airframe",
+        "missing prerequisite tactical_bomber2"
+      ]
+    },
+    {
+      "id": "sp_air_axial_jet_engine",
+      "reason": [
+        "missing prerequisite advanced_medium_airframe",
+        "missing prerequisite advanced_small_airframe",
+        "missing prerequisite engines_3",
+        "missing prerequisite jet_fighter1",
+        "missing prerequisite jet_tactical_bomber1"
+      ]
+    },
+    {
+      "id": "sp_land_land_cruiser",
+      "reason": [
+        "missing prerequisite super_heavy_tank",
+        "missing prerequisite super_heavy_tank_chassis"
+      ]
+    },
+    {
+      "id": "sp_land_super_heavy_howitzer",
+      "reason": [
+        "missing prerequisite gw_artillery"
+      ]
+    },
+    {
+      "id": "sp_land_multi_charge_large_caliber_gun",
+      "reason": [
+        "retired output technology popup"
+      ]
+    },
+    {
+      "id": "sp_land_stronghold_network",
+      "reason": [
+        "missing prerequisite basic_fortification_tech",
+        "retired output technology popup"
+      ]
+    },
+    {
+      "id": "sp_land_large_caliber_kinetic_energy_sabot",
+      "reason": [
+        "missing prerequisite interwar_antitank",
+        "retired output technology popup",
+        "retired output technology sp_land_large_caliber_kinetic_energy_sabot_gd_tech",
+        "retired output technology sp_land_large_caliber_kinetic_energy_sabot_no_gd_tech"
+      ]
+    },
+    {
+      "id": "sp_naval_cruiser_submarine",
+      "reason": [
+        "missing prerequisite early_submarine"
+      ]
+    },
+    {
+      "id": "sp_naval_fleet_submarine",
+      "reason": [
+        "missing prerequisite improved_submarine"
+      ]
+    },
+    {
+      "id": "sp_naval_midget_submarine",
+      "reason": [
+        "missing prerequisite early_submarine"
+      ]
+    },
+    {
+      "id": "sp_naval_aip_engine",
+      "reason": [
+        "missing prerequisite basic_submarine"
+      ]
+    },
+    {
+      "id": "sp_naval_anechoic_tiles",
+      "reason": [
+        "missing prerequisite basic_submarine"
+      ]
+    },
+    {
+      "id": "sp_naval_submarine_carrier",
+      "reason": [
+        "missing prerequisite basic_carrier",
+        "missing prerequisite improved_submarine"
+      ]
+    },
+    {
+      "id": "sp_naval_torpedo_cruiser",
+      "reason": [
+        "missing prerequisite early_light_cruiser"
+      ]
+    },
+    {
+      "id": "sp_naval_super_heavy_battleship",
+      "reason": [
+        "missing prerequisite early_battleship"
+      ]
+    },
+    {
+      "id": "sp_naval_modern_battleship",
+      "reason": [
+        "missing prerequisite advanced_battleship"
+      ]
+    },
+    {
+      "id": "sp_naval_modern_carrier",
+      "reason": [
+        "missing prerequisite advanced_carrier"
+      ]
+    },
+    {
+      "id": "sp_naval_ice_carrier",
+      "reason": [
+        "missing prerequisite improved_carrier"
+      ]
+    },
+    {
+      "id": "sp_naval_underway_replenishment",
+      "reason": [
+        "retired output technology popup",
+        "retired output technology sp_naval_underway_replenishment_pick_a",
+        "retired output technology sp_naval_underway_replenishment_pick_b"
+      ]
+    },
+    {
+      "id": "sp_naval_proximity_fuze",
+      "reason": [
+        "missing prerequisite improved_radio",
+        "retired output technology popup",
+        "retired output technology sp_naval_proximity_fuze_tech"
+      ]
+    },
+    {
+      "id": "sp_naval_support_ships",
+      "reason": [
+        "missing prerequisite transport",
+        "retired output technology popup",
+        "retired output technology sp_naval_repair_ships_pick_a",
+        "retired output technology sp_naval_repair_ships_pick_b",
+        "retired output technology sp_naval_repair_ships_pick_c",
+        "retired output technology sp_naval_support_ships_pick_a",
+        "retired output technology sp_naval_support_ships_pick_b",
+        "retired output technology sp_naval_support_ships_pick_c"
+      ]
+    },
+    {
+      "id": "sp_naval_escort_carrier",
+      "reason": [
+        "missing prerequisite basic_carrier"
+      ]
+    },
+    {
+      "id": "sp_nuclear_reactor",
+      "reason": [
+        "retired output technology nuclear_reactor_heavy_water",
+        "retired output technology popup"
+      ]
+    },
+    {
+      "id": "sp_commercial_nuclear_reactor",
+      "reason": [
+        "retired output technology popup"
+      ]
+    },
+    {
+      "id": "sp_nuclear_bomb",
+      "reason": [
+        "retired output technology popup"
+      ]
+    },
+    {
+      "id": "sp_thermo_nuclear_bomb",
+      "reason": [
+        "retired output technology popup"
+      ]
+    },
+    {
+      "id": "sp_air_radar",
+      "reason": [
+        "retired output technology popup"
+      ]
+    },
+    {
+      "id": "sp_rockets_flying_bomb",
+      "reason": [
+        "missing prerequisite experimental_rockets"
+      ]
+    },
+    {
+      "id": "sp_rockets_ballistic_missile",
+      "reason": [
+        "missing prerequisite experimental_rockets",
+        "missing prerequisite radio"
+      ]
+    },
+    {
+      "id": "sp_rockets_ground_to_air_missile",
+      "reason": [
+        "missing prerequisite experimental_rockets"
+      ]
+    },
+    {
+      "id": "sp_rocket_interceptor",
+      "reason": [
+        "missing prerequisite experimental_rockets"
+      ]
+    }
+  ]
+}

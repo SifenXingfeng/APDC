@@ -1,0 +1,48 @@
+state = {
+	id = 1296
+	name = "STATE_1296"
+	provinces = {
+		994
+		5346
+		7257
+		11963
+		11990
+		19762
+	}
+	manpower = 1898182
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			994
+			1
+		}
+		victory_points = {
+			7257
+			3
+		}
+		victory_points = {
+			11963
+			2
+		}
+		victory_points = {
+			11990
+			3
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		set_variable = {
+			china_state_ref = 36
+		}
+		set_variable = {
+			china_region_ref = 4
+		}
+		set_state_flag = GDP_regions_hainan
+	}
+}

@@ -1,0 +1,24 @@
+state = {
+	id = 1466
+	name = "STATE_1466"
+	provinces = {
+		14360
+		14391
+	}
+	manpower = 4060
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = wasteland
+	history = {
+		owner = LBA
+		controller = LBA
+		add_core_of = LBA
+		buildings = {
+			infrastructure = 0
+		}
+		victory_points = {
+			14391
+			2
+		}
+	}
+}

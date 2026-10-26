@@ -1,0 +1,51 @@
+state = {
+	id = 949
+	name = "STATE_949"
+	manpower = 34347
+	state_category = pastoral
+	resources = {
+		aluminium = 1
+	}
+	resources = {
+		oil = 1
+	}
+	history = {
+		owner = CHL
+		controller = CHL
+		add_core_of = CHL
+		victory_points = {
+			2161
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = GDP_regions_aysen
+	}
+	provinces = {
+		2161
+		5159
+		8198
+		10961
+		13295
+		14806
+		14833
+		14836
+		14881
+		14884
+		15167
+		15168
+		15169
+		15170
+		17501
+		17502
+		17514
+		17542
+		17544
+		17550
+		17553
+		17937
+		17940
+	}
+	local_supplies = 0.0
+}

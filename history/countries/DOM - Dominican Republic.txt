@@ -1,4 +1,6 @@
-﻿# Shared empty OOB preserves startup initialization until a country OOB is authored.
+# APDC: regular roster and production models available at scenario initialization.
+set_technology = { APDC_land_units_bootstrap = 1 }
+# Shared empty OOB preserves startup initialization until a country OOB is authored.
 set_oob = "APDC_empty"
 
 capital = 319 # Santo Domingo

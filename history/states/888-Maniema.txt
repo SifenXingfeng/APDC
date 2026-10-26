@@ -1,0 +1,50 @@
+state = {
+	id = 888
+	name = "STATE_888"
+	provinces = {
+		13886
+		13887
+		13910
+		13918
+		14331
+		14699
+		19206
+		19684
+	}
+	manpower = 472126
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = COG
+		controller = COG
+		add_core_of = COG
+		victory_points = {
+			13886
+			1
+		}
+		victory_points = {
+			13910
+			2
+		}
+		victory_points = {
+			13918
+			1
+		}
+		victory_points = {
+			14699
+			3
+		}
+		victory_points = {
+			19206
+			2
+		}
+		victory_points = {
+			19684
+			2
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

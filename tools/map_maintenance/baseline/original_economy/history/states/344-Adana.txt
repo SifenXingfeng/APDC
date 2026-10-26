@@ -1,0 +1,44 @@
+
+state={
+	id=344
+	name="STATE_344"
+	manpower = 1081781
+	
+	resources = {
+		coal = 2 #initial distribution
+	}
+
+	state_category = town
+
+	history={
+		owner = TUR
+		victory_points = {
+			9893 15
+		}
+		victory_points = {
+			7620 10
+		}
+		victory_points = {
+			6813 3
+		}
+		victory_points = {
+			11746 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			11746 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = TUR
+		add_claim_by = KUR
+	}
+
+	provinces={
+		806 886 3889 3921 6813 9893 9912 11746 16244 16245 16246 16247 16248 16250 16255 16256 
+	}
+
+
+	local_supplies=0.0 
+}

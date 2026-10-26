@@ -1,0 +1,30 @@
+on_actions = {
+	# Root initialization for the system: only countries without an explicitly
+	# assigned economic system are classified here.
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = { NOT = { APDC_has_economic_system = yes } }
+				APDC_assign_initial_economic_system = yes
+			}
+		}
+	}
+
+	# Released countries and other dynamically created tags do not necessarily
+	# pass through a history file.  This fills only a missing system and never
+	# recalibrates or replaces an existing choice.
+	on_monthly = {
+		effect = {
+if = { limit = { NOT = { has_global_flag = APDC_system_monthly_lock } }
+set_global_flag = { flag = APDC_system_monthly_lock value = 1 days = 1 }
+add_to_variable = { global.QA_APDC_system_monthly_lock = 1 }
+
+			every_country = {
+				limit = { NOT = { APDC_has_economic_system = yes } }
+				APDC_assign_initial_economic_system = yes
+			}
+		
+}
+}
+	}
+}

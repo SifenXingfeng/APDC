@@ -1,0 +1,53 @@
+state = {
+	id = 60
+	name = "STATE_60"
+	resources = {
+		steel = 8
+		chromium = 3
+		tungsten = 3
+		coal = 8
+	}
+	provinces = {
+		425
+		482
+		538
+		3500
+		3561
+		6421
+		6501
+		6524
+		6582
+		9497
+		11404
+		15844
+	}
+	manpower = 3066434
+	buildings_max_level_factor = 1
+	state_category = large_city
+	local_supplies = 0
+	history = {
+		owner = GER
+		controller = GER
+		add_core_of = GER
+		victory_points = {
+			3561
+			2
+		}
+		victory_points = {
+			6501
+			1
+		}
+		victory_points = {
+			6582
+			3
+		}
+		victory_points = {
+			15844
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+}

@@ -1,0 +1,57 @@
+state = {
+	id = 748
+	name = "STATE_748"
+	provinces = {
+		1010
+		4325
+		9939
+		10763
+		19592
+		19746
+		19777
+		19784
+	}
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			1010
+			10
+		}
+		victory_points = {
+			4325
+			1
+		}
+		victory_points = {
+			9939
+			1
+		}
+		victory_points = {
+			10763
+			2
+		}
+		victory_points = {
+			19746
+			2
+		}
+		victory_points = {
+			19777
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		set_variable = {
+			china_state_ref = 18
+		}
+		set_variable = {
+			china_region_ref = 2
+		}
+		set_state_flag = GDP_category_town
+	}
+	manpower = 1500000
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0
+}

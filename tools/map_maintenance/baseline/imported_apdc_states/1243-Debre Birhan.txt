@@ -1,0 +1,38 @@
+state = {
+	id = 1243
+	name = "STATE_1243"
+	provinces = {
+		13239
+		14085
+		14098
+		15562
+	}
+	manpower = 600000
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+	history = {
+		owner = ETH
+		controller = ETH
+		add_core_of = ETH
+		victory_points = {
+			13239
+			1
+		}
+		victory_points = {
+			14085
+			3
+		}
+		victory_points = {
+			14098
+			2
+		}
+		victory_points = {
+			15562
+			2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

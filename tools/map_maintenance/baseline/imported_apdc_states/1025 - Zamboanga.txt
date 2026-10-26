@@ -1,0 +1,57 @@
+state = {
+	id = 1025
+	name = "STATE_1025"
+	manpower = 295467
+	resources = {
+		coal = 2
+	}
+	state_category = pastoral
+	history = {
+		owner = PHI
+		controller = PHI
+		add_core_of = PHI
+		victory_points = {
+			4399
+			1
+		}
+		victory_points = {
+			7360
+			2
+		}
+		victory_points = {
+			7417
+			3
+		}
+		victory_points = {
+			12245
+			1
+		}
+		victory_points = {
+			14736
+			2
+		}
+		victory_points = {
+			14737
+			5
+		}
+		buildings = {
+			infrastructure = 1
+			1421 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		1421
+		4399
+		7360
+		7389
+		7417
+		10184
+		12245
+		14736
+		14737
+		14738
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 1332
+	name = "STATE_1332"
+	provinces = {
+		19967
+		19981
+	}
+	manpower = 51429
+	buildings_max_level_factor = 1
+	state_category = small_island
+	local_supplies = 0
+	history = {
+		owner = TON
+		controller = TON
+		add_core_of = FIJ
+		add_core_of = TON
+		victory_points = {
+			19981
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			19967 = {
+				naval_base = 1
+			}
+		}
+	}
+}

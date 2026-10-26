@@ -1,0 +1,26 @@
+--- before/common/scripted_triggers/MTG_congress_scripted_triggers.txt
++++ current/common/scripted_triggers/MTG_congress_scripted_triggers.txt
+@@ -14,21 +14,9 @@
+ #
+ 
+ 
+-congress_low_support_trigger = {
+-	custom_trigger_tooltip = {
+-		tooltip = congress_low_support_trigger_tt
+-		check_variable = { var = senators_support value = quorum_low compare = greater_than_or_equals }
+-		check_variable = { var = representatives_support value = 174 compare = greater_than_or_equals }
+-	}
+-}
+ 
+-congress_medium_support_trigger = {
+-	custom_trigger_tooltip = {
+-		tooltip = congress_medium_support_trigger_tt
+-		check_variable = { var = senators_support value = quorum_medium compare = greater_than_or_equals }
+-		check_variable = { var = representatives_support value = 218 compare = greater_than_or_equals }
+-	}
+-}
++
++
+ 
+ congress_high_support_trigger = {
+ 	custom_trigger_tooltip = {

@@ -1,0 +1,66 @@
+state = {
+	id = 339
+	name = "STATE_339"
+	manpower = 1401889
+	resources = {
+		chromium = 50
+	}
+	state_category = large_town
+	history = {
+		owner = TUR
+		controller = TUR
+		add_core_of = TUR
+		victory_points = {
+			928
+			2
+		}
+		victory_points = {
+			4112
+			15
+		}
+		victory_points = {
+			6992
+			2
+		}
+		victory_points = {
+			7130
+			1
+		}
+		victory_points = {
+			11848
+			1
+		}
+		victory_points = {
+			16211
+			3
+		}
+		victory_points = {
+			16213
+			3
+		}
+		victory_points = {
+			16214
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+			4112 = {
+				naval_base = 5
+			}
+		}
+	}
+	provinces = {
+		928
+		4112
+		6992
+		7130
+		11848
+		16210
+		16211
+		16213
+		16214
+	}
+	local_supplies = 8.0
+}

@@ -2,13 +2,9 @@ state = {
 	id = 379
 	name = "STATE_379"
 	resources = {
-		steel = 136
-		tungsten = 62
-		aluminium = 74
-	}
-	history = {
-		owner = ZZZ
-		add_core_of = ZZZ
+		steel = 65
+		tungsten = 30
+		aluminium = 23
 	}
 	provinces = {
 		1862
@@ -18,7 +14,6 @@ state = {
 		4799
 		4816
 		7756
-		7827
 		7879
 		10422
 		10591
@@ -27,8 +22,28 @@ state = {
 		12425
 		17286
 	}
-	manpower = 2
+	manpower = 84987
 	buildings_max_level_factor = 1
-	state_category = town
+	state_category = rural
 	local_supplies = 0
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = USA
+		add_core_of = ZZZ
+		victory_points = {
+			4799
+			20
+		}
+		victory_points = {
+			10422
+			3
+		}
+		buildings = {
+			infrastructure = 2
+			4799 = {
+				dam_mountain = 1
+			}
+		}
+	}
 }

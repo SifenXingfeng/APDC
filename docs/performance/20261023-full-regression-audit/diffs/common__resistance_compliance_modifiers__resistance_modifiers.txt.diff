@@ -1,0 +1,11 @@
+--- before/common/resistance_compliance_modifiers/resistance_modifiers.txt
++++ current/common/resistance_compliance_modifiers/resistance_modifiers.txt
+@@ -110,7 +110,7 @@
+ 		if = {
+ 			limit = {
+ 				RAJ = { 
+-					has_completed_focus = RAJ_forward_bloc 
++					always = no 
+ 					NOT = { 
+ 						has_dynamic_modifier = { modifier = idea_RAJ_famine_country }  
+ 					}

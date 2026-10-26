@@ -1,0 +1,84 @@
+#NATIONAL SPIRITS
+#Divided Nation
+
+#Skoda Works
+
+
+#Czech Army
+
+#Czech Air Force
+
+#Czech Navy
+
+
+##STATE MODIFIERS
+#A DIVIDED NATION STATE MODIFIERS
+
+
+
+
+
+
+
+
+
+
+
+
+
+#END A DIVIDED NATION STATE MODIFIERS#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Raids
+sokolov_raided_limited_success_modifier = {
+	enable = { always = yes }
+	icon = GFX_modifiers_BEL_eben_emael_raided
+	state_repair_speed_bunker_factor = -0.05
+	land_bunker_effectiveness_factor = -0.05
+}
+
+sokolov_raided_success_modifier = {
+	enable = { always = yes }
+	icon = GFX_modifiers_BEL_eben_emael_raided
+
+	land_bunker_effectiveness_factor = -0.25
+	state_repair_speed_bunker_factor = -0.25
+}
+
+sokolov_raided_critical_modifier = {
+	enable = { always = yes }
+	icon = GFX_modifiers_BEL_eben_emael_raided
+
+	land_bunker_effectiveness_factor = -0.50
+	state_repair_speed_bunker_factor = -0.50
+}
+
+

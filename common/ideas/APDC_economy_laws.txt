@@ -1,0 +1,1462 @@
+ideas = {
+city_idea = {
+law = yes
+use_list_view = yes
+APDC_eco_science_1 = {
+picture = poor_science_base
+allowed = { always = yes }
+available = { has_idea = APDC_eco_science_1 }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+traits = { science_idea }
+modifier = {
+political_power_gain = 0.3
+research_speed_factor = -0.8
+air_doctrine_cost_factor = 0.8
+land_doctrine_cost_factor = 0.8
+naval_doctrine_cost_factor = 0.8
+special_forces_doctrine_cost_factor = 0.8
+special_project_speed_factor = -0.45
+APDC_eco_research_maintenance_factor = -0.8
+APDC_eco_project_maintenance_factor = -0.45
+APDC_eco_society_weekly = -0.02
+APDC_eco_defense_weekly = -0.02
+}
+
+}
+APDC_eco_science_2 = {
+picture = better_science_base
+allowed = { always = yes }
+available = { has_idea = APDC_eco_science_2 }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+traits = { science_idea }
+modifier = {
+political_power_gain = 0.2
+research_speed_factor = -0.55
+air_doctrine_cost_factor = 0.55
+land_doctrine_cost_factor = 0.55
+naval_doctrine_cost_factor = 0.55
+special_forces_doctrine_cost_factor = 0.55
+special_project_speed_factor = -0.35
+APDC_eco_research_maintenance_factor = -0.55
+APDC_eco_project_maintenance_factor = -0.35
+APDC_eco_society_weekly = -0.01
+APDC_eco_defense_weekly = -0.01
+}
+
+}
+APDC_eco_science_3 = {
+picture = proper_science_base
+allowed = { always = yes }
+available = { has_idea = APDC_eco_science_3 }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+traits = { science_idea }
+modifier = {
+political_power_gain = 0.1
+research_speed_factor = -0.3
+air_doctrine_cost_factor = 0.3
+land_doctrine_cost_factor = 0.3
+naval_doctrine_cost_factor = 0.3
+special_forces_doctrine_cost_factor = 0.3
+special_project_speed_factor = -0.25
+APDC_eco_research_maintenance_factor = -0.3
+APDC_eco_project_maintenance_factor = -0.25
+}
+
+}
+APDC_eco_science_4 = {
+picture = big_science_base
+allowed = { always = yes }
+available = { has_idea = APDC_eco_science_4 }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+traits = { science_idea }
+modifier = {
+APDC_eco_society_weekly = 0.01
+APDC_eco_defense_weekly = 0.01
+}
+
+}
+APDC_eco_science_5 = {
+picture = big_science_base
+allowed = { always = yes }
+available = { has_idea = APDC_eco_science_5 }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+traits = { science_idea }
+modifier = {
+political_power_gain = -0.1
+research_speed_factor = 0.1
+air_doctrine_cost_factor = -0.1
+land_doctrine_cost_factor = -0.1
+naval_doctrine_cost_factor = -0.1
+special_forces_doctrine_cost_factor = -0.1
+special_project_speed_factor = 0.15
+APDC_eco_research_maintenance_factor = 0.1
+APDC_eco_project_maintenance_factor = 0.15
+APDC_eco_society_weekly = 0.02
+APDC_eco_defense_weekly = 0.02
+}
+
+}
+
+}
+society_development_idea = {
+law = yes
+use_list_view = yes
+APDC_eco_society_1 = {
+picture = tribal_society
+allowed = { always = yes }
+available = { has_idea = APDC_eco_society_1 }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+traits = { society_idea }
+modifier = {
+local_resources_factor = -0.7
+monthly_population = -0.45
+supply_consumption_factor = -0.9
+production_speed_buildings_factor = -0.4
+out_of_power_impact_factor = 0.7
+production_factory_max_efficiency_factor = -0.3
+research_speed_factor = -0.7
+industrial_capacity_factory = -0.4
+industrial_capacity_dockyard = -0.6
+industry_air_damage_factor = -0.7
+max_fuel_factor = -0.4
+APDC_eco_construction_maintenance_factor = -0.4
+APDC_eco_mil_maintenance_factor = -0.4
+APDC_eco_nav_maintenance_factor = -0.4
+APDC_eco_civ_goods = 0.1
+APDC_eco_science_weekly = -0.02
+}
+rule = { can_join_factions = no can_access_market = no }
+
+}
+APDC_eco_society_2 = {
+picture = agrarian_society
+allowed = { always = yes }
+available = { has_idea = APDC_eco_society_2 }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+traits = { society_idea }
+modifier = {
+local_resources_factor = -0.5
+monthly_population = -0.25
+supply_consumption_factor = -0.6
+production_speed_buildings_factor = -0.3
+out_of_power_impact_factor = 0.5
+production_factory_max_efficiency_factor = -0.2
+research_speed_factor = -0.5
+industrial_capacity_factory = -0.3
+industrial_capacity_dockyard = -0.5
+industry_air_damage_factor = -0.5
+max_fuel_factor = -0.2
+APDC_eco_construction_maintenance_factor = -0.3
+APDC_eco_mil_maintenance_factor = -0.3
+APDC_eco_nav_maintenance_factor = -0.3
+APDC_eco_civ_goods = 0.5
+APDC_eco_science_weekly = -0.01
+}
+
+}
+APDC_eco_society_3 = {
+picture = outdated_industry
+allowed = { always = yes }
+available = { has_idea = APDC_eco_society_3 }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+traits = { society_idea }
+modifier = {
+local_resources_factor = -0.2
+monthly_population = -0.1
+supply_consumption_factor = -0.3
+production_speed_buildings_factor = -0.2
+out_of_power_impact_factor = 0.2
+production_factory_max_efficiency_factor = -0.1
+research_speed_factor = -0.2
+industrial_capacity_factory = -0.2
+industrial_capacity_dockyard = -0.2
+industry_air_damage_factor = -0.2
+APDC_eco_construction_maintenance_factor = -0.2
+APDC_eco_mil_maintenance_factor = -0.2
+APDC_eco_nav_maintenance_factor = -0.2
+APDC_eco_civ_goods = 1
+}
+
+}
+APDC_eco_society_4 = {
+picture = modern_society
+allowed = { always = yes }
+available = { has_idea = APDC_eco_society_4 }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+traits = { society_idea }
+modifier = {
+APDC_eco_science_weekly = 0.01
+APDC_eco_civ_goods = 2
+}
+
+}
+APDC_eco_society_5 = {
+picture = modern_society
+allowed = { always = yes }
+available = { has_idea = APDC_eco_society_5 }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+traits = { society_idea }
+modifier = {
+local_resources_factor = 0.1
+supply_consumption_factor = 0.1
+production_speed_buildings_factor = 0.1
+research_speed_factor = 0.1
+industrial_capacity_factory = 0.1
+industrial_capacity_dockyard = 0.1
+APDC_eco_construction_maintenance_factor = -0.1
+APDC_eco_mil_maintenance_factor = -0.1
+APDC_eco_nav_maintenance_factor = -0.1
+APDC_eco_civ_goods = 4
+APDC_eco_science_weekly = 0.02
+}
+
+}
+
+}
+poverty_level_idea = {
+law = yes
+use_list_view = yes
+APDC_eco_defense_1 = {
+picture = poverty5
+allowed = { always = yes }
+available = { has_idea = APDC_eco_defense_1 }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+traits = { poverty_idea }
+modifier = {
+air_advisor_cost_factor = 0.4
+navy_advisor_cost_factor = 0.4
+training_time_factor = -0.4
+army_org_factor = -0.4
+conscription_factor = 0.4
+army_attack_factor = -0.4
+army_defence_factor = -0.4
+army_advisor_cost_factor = 0.4
+land_doctrine_cost_factor = 0.4
+air_doctrine_cost_factor = 0.4
+naval_doctrine_cost_factor = 0.4
+APDC_eco_army_maintenance_factor = -0.4
+APDC_eco_air_maintenance_factor = -0.4
+APDC_eco_navy_maintenance_factor = -0.4
+}
+
+}
+APDC_eco_defense_2 = {
+picture = poverty4
+allowed = { always = yes }
+available = { has_idea = APDC_eco_defense_2 }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+traits = { poverty_idea }
+modifier = {
+air_advisor_cost_factor = 0.25
+navy_advisor_cost_factor = 0.25
+training_time_factor = -0.25
+army_org_factor = -0.25
+conscription_factor = 0.25
+army_attack_factor = -0.25
+army_defence_factor = -0.25
+army_advisor_cost_factor = 0.25
+land_doctrine_cost_factor = 0.25
+air_doctrine_cost_factor = 0.25
+naval_doctrine_cost_factor = 0.25
+APDC_eco_army_maintenance_factor = -0.25
+APDC_eco_air_maintenance_factor = -0.25
+APDC_eco_navy_maintenance_factor = -0.25
+}
+
+}
+APDC_eco_defense_3 = {
+picture = poverty3
+allowed = { always = yes }
+available = { has_idea = APDC_eco_defense_3 }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+traits = { poverty_idea }
+modifier = {
+air_advisor_cost_factor = 0.1
+navy_advisor_cost_factor = 0.1
+training_time_factor = -0.1
+army_org_factor = -0.1
+conscription_factor = 0.1
+army_attack_factor = -0.1
+army_defence_factor = -0.1
+army_advisor_cost_factor = 0.1
+land_doctrine_cost_factor = 0.1
+air_doctrine_cost_factor = 0.1
+naval_doctrine_cost_factor = 0.1
+APDC_eco_army_maintenance_factor = -0.1
+APDC_eco_air_maintenance_factor = -0.1
+APDC_eco_navy_maintenance_factor = -0.1
+}
+
+}
+APDC_eco_defense_4 = {
+picture = poverty1
+allowed = { always = yes }
+available = { has_idea = APDC_eco_defense_4 }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+traits = { poverty_idea }
+modifier = {
+}
+
+}
+APDC_eco_defense_5 = {
+picture = no_poverty
+allowed = { always = yes }
+available = { has_idea = APDC_eco_defense_5 }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+traits = { poverty_idea }
+modifier = {
+air_advisor_cost_factor = -0.1
+navy_advisor_cost_factor = -0.1
+training_time_factor = 0.1
+army_org_factor = 0.1
+conscription_factor = -0.1
+army_attack_factor = 0.1
+army_defence_factor = 0.1
+army_advisor_cost_factor = -0.1
+land_doctrine_cost_factor = -0.1
+air_doctrine_cost_factor = -0.1
+naval_doctrine_cost_factor = -0.1
+APDC_eco_army_maintenance_factor = 0.1
+APDC_eco_air_maintenance_factor = 0.1
+APDC_eco_navy_maintenance_factor = 0.1
+}
+
+}
+
+}
+hidden_ideas = {
+APDC_eco_food_1 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+stability_factor = -0.2
+monthly_population = -0.15
+conscription = -0.005
+production_speed_buildings_factor = -0.2
+research_speed_factor = -0.15
+APDC_eco_population_factor = 0.3
+APDC_eco_society_weekly = -0.02
+APDC_eco_science_weekly = -0.02
+}
+
+}
+APDC_eco_food_2 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+stability_factor = -0.1
+monthly_population = -0.1
+production_speed_buildings_factor = -0.15
+research_speed_factor = -0.1
+APDC_eco_population_factor = 0.2
+APDC_eco_society_weekly = -0.01
+APDC_eco_science_weekly = -0.01
+}
+
+}
+APDC_eco_food_3 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+monthly_population = -0.05
+production_speed_buildings_factor = -0.1
+research_speed_factor = -0.05
+APDC_eco_population_factor = 0.1
+}
+
+}
+APDC_eco_food_4 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_society_weekly = 0.01
+APDC_eco_science_weekly = 0.01
+}
+
+}
+APDC_eco_food_5 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+monthly_population = 0.05
+production_speed_buildings_factor = 0.1
+research_speed_factor = 0.05
+APDC_eco_population_factor = -0.1
+APDC_eco_society_weekly = 0.02
+APDC_eco_science_weekly = 0.02
+}
+
+}
+APDC_eco_education_1 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+production_speed_buildings_factor = -0.2
+research_speed_factor = -0.6
+land_mastery_gain_factor = -0.35
+naval_mastery_gain_factor = -0.35
+air_mastery_gain_factor = -0.35
+special_forces_mastery_gain_factor = -0.35
+APDC_eco_science_weekly = -0.02
+APDC_eco_defense_weekly = -0.02
+}
+
+}
+APDC_eco_education_2 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+production_speed_buildings_factor = -0.1
+research_speed_factor = -0.4
+land_mastery_gain_factor = -0.25
+naval_mastery_gain_factor = -0.25
+air_mastery_gain_factor = -0.25
+special_forces_mastery_gain_factor = -0.25
+APDC_eco_science_weekly = -0.01
+APDC_eco_defense_weekly = -0.01
+}
+
+}
+APDC_eco_education_3 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+production_speed_buildings_factor = -0.05
+research_speed_factor = -0.2
+land_mastery_gain_factor = -0.15
+naval_mastery_gain_factor = -0.15
+air_mastery_gain_factor = -0.15
+special_forces_mastery_gain_factor = -0.15
+}
+
+}
+APDC_eco_education_4 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_science_weekly = 0.01
+APDC_eco_defense_weekly = 0.01
+}
+
+}
+APDC_eco_education_5 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+production_speed_buildings_factor = 0.05
+research_speed_factor = 0.1
+land_mastery_gain_factor = 0.15
+naval_mastery_gain_factor = 0.15
+air_mastery_gain_factor = 0.15
+special_forces_mastery_gain_factor = 0.15
+APDC_eco_science_weekly = 0.02
+APDC_eco_defense_weekly = 0.02
+}
+
+}
+APDC_eco_medical_1 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+monthly_population = -0.35
+conscription = -0.005
+production_speed_buildings_factor = -0.4
+industrial_capacity_factory = -0.4
+industrial_capacity_dockyard = -0.6
+APDC_eco_population_factor = 0.25
+APDC_eco_society_weekly = -0.02
+APDC_eco_defense_weekly = -0.02
+}
+
+}
+APDC_eco_medical_2 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+monthly_population = -0.25
+production_speed_buildings_factor = -0.25
+industrial_capacity_factory = -0.25
+industrial_capacity_dockyard = -0.4
+APDC_eco_population_factor = 0.15
+APDC_eco_society_weekly = -0.01
+APDC_eco_defense_weekly = -0.01
+}
+
+}
+APDC_eco_medical_3 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+monthly_population = -0.1
+production_speed_buildings_factor = -0.1
+industrial_capacity_factory = -0.1
+industrial_capacity_dockyard = -0.2
+APDC_eco_population_factor = 0.05
+}
+
+}
+APDC_eco_medical_4 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_society_weekly = 0.01
+APDC_eco_defense_weekly = 0.01
+}
+
+}
+APDC_eco_medical_5 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+monthly_population = 0.1
+production_speed_buildings_factor = 0.1
+industrial_capacity_factory = 0.1
+industrial_capacity_dockyard = 0.2
+APDC_eco_population_factor = -0.05
+APDC_eco_society_weekly = 0.02
+APDC_eco_defense_weekly = 0.02
+}
+
+}
+APDC_eco_tax_1 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+stability_factor = 0.1
+APDC_eco_head_tax = 1
+APDC_eco_consumption_tax = 0.5
+APDC_eco_population_factor = 0.1
+APDC_eco_private_civ_expansion_factor = 0.2
+APDC_eco_private_mil_expansion_factor = 0.2
+APDC_eco_food_weekly = 0.02
+}
+
+}
+APDC_eco_tax_2 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+stability_factor = 0.05
+APDC_eco_head_tax = 2.5
+APDC_eco_consumption_tax = 1
+APDC_eco_population_factor = 0.05
+APDC_eco_private_civ_expansion_factor = 0.1
+APDC_eco_private_mil_expansion_factor = 0.1
+APDC_eco_food_weekly = 0.01
+}
+
+}
+APDC_eco_tax_3 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_head_tax = 5
+APDC_eco_consumption_tax = 2
+}
+
+}
+APDC_eco_tax_4 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+stability_factor = -0.05
+APDC_eco_head_tax = 7.5
+APDC_eco_consumption_tax = 3
+APDC_eco_population_factor = -0.05
+APDC_eco_private_civ_expansion_factor = -0.1
+APDC_eco_private_mil_expansion_factor = -0.1
+APDC_eco_food_weekly = -0.01
+}
+
+}
+APDC_eco_tax_5 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+stability_factor = -0.1
+APDC_eco_head_tax = 10
+APDC_eco_consumption_tax = 5
+APDC_eco_population_factor = -0.1
+APDC_eco_private_civ_expansion_factor = -0.2
+APDC_eco_private_mil_expansion_factor = -0.2
+APDC_eco_food_weekly = -0.02
+}
+
+}
+APDC_eco_food_spending_1 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_food_weekly = -0.02
+}
+
+}
+APDC_eco_food_spending_2 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_food_cost = 0.5
+}
+
+}
+APDC_eco_food_spending_3 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_food_cost = 1
+APDC_eco_food_weekly = 0.01
+}
+
+}
+APDC_eco_food_spending_4 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_food_cost = 2.5
+APDC_eco_subsidy = 1
+APDC_eco_food_weekly = 0.02
+}
+
+}
+APDC_eco_food_spending_5 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_food_cost = 5
+APDC_eco_subsidy = 2.5
+APDC_eco_food_weekly = 0.04
+}
+
+}
+APDC_eco_education_spending_1 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_education_weekly = -0.02
+}
+
+}
+APDC_eco_education_spending_2 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_education_cost = 0.5
+}
+
+}
+APDC_eco_education_spending_3 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_education_cost = 1
+APDC_eco_education_weekly = 0.01
+}
+
+}
+APDC_eco_education_spending_4 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_education_cost = 2.5
+APDC_eco_subsidy = 1
+APDC_eco_education_weekly = 0.02
+}
+
+}
+APDC_eco_education_spending_5 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_education_cost = 5
+APDC_eco_subsidy = 2.5
+APDC_eco_education_weekly = 0.04
+}
+
+}
+APDC_eco_medical_spending_1 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_medical_weekly = -0.02
+}
+
+}
+APDC_eco_medical_spending_2 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_medical_cost = 0.5
+}
+
+}
+APDC_eco_medical_spending_3 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_medical_cost = 1
+APDC_eco_medical_weekly = 0.01
+}
+
+}
+APDC_eco_medical_spending_4 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_medical_cost = 2.5
+APDC_eco_subsidy = 1
+APDC_eco_medical_weekly = 0.02
+}
+
+}
+APDC_eco_medical_spending_5 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_medical_cost = 5
+APDC_eco_subsidy = 2.5
+APDC_eco_medical_weekly = 0.04
+}
+
+}
+APDC_eco_development_1 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+stability_factor = -0.1
+production_speed_buildings_factor = -0.2
+production_factory_max_efficiency_factor = -0.1
+industrial_capacity_factory = -0.2
+industrial_capacity_dockyard = -0.2
+APDC_eco_construction_maintenance = 0.02
+APDC_eco_mil_maintenance = 0.02
+APDC_eco_nav_maintenance = 0.03
+APDC_eco_society_weekly = -0.02
+}
+
+}
+APDC_eco_development_2 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_construction_maintenance = 0.05
+APDC_eco_mil_maintenance = 0.05
+APDC_eco_nav_maintenance = 0.075
+}
+
+}
+APDC_eco_development_3 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+production_speed_buildings_factor = 0.1
+industrial_capacity_factory = 0.1
+industrial_capacity_dockyard = 0.1
+APDC_eco_construction_maintenance = 0.1
+APDC_eco_mil_maintenance = 0.1
+APDC_eco_nav_maintenance = 0.15
+APDC_eco_society_weekly = 0.01
+}
+
+}
+APDC_eco_development_4 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+stability_factor = 0.1
+production_speed_buildings_factor = 0.2
+production_factory_max_efficiency_factor = 0.1
+industrial_capacity_factory = 0.2
+industrial_capacity_dockyard = 0.2
+APDC_eco_construction_maintenance = 0.2
+APDC_eco_mil_maintenance = 0.2
+APDC_eco_nav_maintenance = 0.3
+APDC_eco_society_weekly = 0.02
+}
+
+}
+APDC_eco_development_5 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+stability_factor = 0.2
+production_speed_buildings_factor = 0.4
+production_factory_max_efficiency_factor = 0.2
+industrial_capacity_factory = 0.4
+industrial_capacity_dockyard = 0.4
+APDC_eco_construction_maintenance = 0.5
+APDC_eco_mil_maintenance = 0.5
+APDC_eco_nav_maintenance = 0.75
+APDC_eco_society_weekly = 0.04
+}
+
+}
+APDC_eco_research_1 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+research_speed_factor = -0.2
+special_project_speed_factor = -0.2
+APDC_eco_research_maintenance = 0.1
+APDC_eco_project_maintenance = 0.2
+APDC_eco_research_slots = -1
+APDC_eco_science_weekly = -0.02
+}
+
+}
+APDC_eco_research_2 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_research_maintenance = 0.2
+APDC_eco_project_maintenance = 0.5
+}
+
+}
+APDC_eco_research_3 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+research_speed_factor = 0.1
+special_project_speed_factor = 0.1
+APDC_eco_research_maintenance = 0.5
+APDC_eco_project_maintenance = 1
+APDC_eco_science_weekly = 0.01
+}
+
+}
+APDC_eco_research_4 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+research_speed_factor = 0.2
+special_project_speed_factor = 0.2
+APDC_eco_research_maintenance = 1
+APDC_eco_project_maintenance = 2
+APDC_eco_research_slots = 1
+APDC_eco_science_weekly = 0.02
+}
+
+}
+APDC_eco_research_5 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+research_speed_factor = 0.4
+special_project_speed_factor = 0.4
+APDC_eco_research_maintenance = 2
+APDC_eco_project_maintenance = 5
+APDC_eco_research_slots = 2
+APDC_eco_science_weekly = 0.04
+}
+
+}
+APDC_eco_military_1 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+war_support_factor = -0.2
+army_org_factor = -0.2
+army_attack_factor = -0.2
+army_defence_factor = -0.2
+navy_org_factor = -0.2
+naval_coordination = -0.2
+air_accidents_factor = 0.2
+air_mission_efficiency = -0.2
+APDC_eco_army_maintenance = 5
+APDC_eco_navy_maintenance = 10
+APDC_eco_air_maintenance = 10
+APDC_eco_defense_weekly = -0.02
+}
+
+}
+APDC_eco_military_2 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_army_maintenance = 10
+APDC_eco_navy_maintenance = 20
+APDC_eco_air_maintenance = 20
+}
+
+}
+APDC_eco_military_3 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+army_org_factor = 0.1
+army_attack_factor = 0.1
+army_defence_factor = 0.1
+APDC_eco_army_maintenance = 20
+APDC_eco_navy_maintenance = 50
+APDC_eco_air_maintenance = 50
+APDC_eco_defense_weekly = 0.01
+}
+
+}
+APDC_eco_military_4 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+war_support_factor = 0.1
+army_org_factor = 0.2
+army_attack_factor = 0.2
+army_defence_factor = 0.2
+navy_org_factor = 0.2
+naval_coordination = 0.2
+air_accidents_factor = -0.2
+air_mission_efficiency = 0.2
+APDC_eco_army_maintenance = 50
+APDC_eco_navy_maintenance = 100
+APDC_eco_air_maintenance = 100
+APDC_eco_defense_weekly = 0.02
+}
+
+}
+APDC_eco_military_5 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+war_support_factor = 0.2
+army_org_factor = 0.4
+army_attack_factor = 0.4
+army_defence_factor = 0.4
+navy_org_factor = 0.4
+naval_coordination = 0.4
+air_accidents_factor = -0.4
+air_mission_efficiency = 0.4
+APDC_eco_army_maintenance = 100
+APDC_eco_navy_maintenance = 200
+APDC_eco_air_maintenance = 200
+APDC_eco_defense_weekly = 0.04
+}
+
+}
+APDC_eco_investment_1 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_civ_expansion_base = 5
+APDC_eco_mil_expansion_base = 5
+}
+
+}
+APDC_eco_investment_2 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_goods_output_factor = 0.1
+APDC_eco_civ_expansion_base = 10
+APDC_eco_mil_expansion_base = 10
+APDC_eco_investment_cost = 0.1
+}
+
+}
+APDC_eco_investment_3 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_goods_output_factor = 0.2
+APDC_eco_civ_expansion_base = 15
+APDC_eco_mil_expansion_base = 15
+APDC_eco_investment_cost = 0.2
+}
+
+}
+APDC_eco_investment_4 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_goods_output_factor = 0.5
+APDC_eco_civ_expansion_base = 20
+APDC_eco_mil_expansion_base = 20
+APDC_eco_investment_cost = 0.5
+}
+
+}
+APDC_eco_investment_5 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_goods_output_factor = 1
+APDC_eco_civ_expansion_base = 25
+APDC_eco_mil_expansion_base = 25
+APDC_eco_investment_cost = 1
+}
+
+}
+APDC_eco_distribution_1 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_private_civ_expansion_factor = 0.5
+APDC_eco_private_mil_expansion_factor = 0.5
+}
+
+}
+APDC_eco_distribution_2 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+political_power_gain = -0.1
+APDC_eco_distribution_bonus = 0.05
+APDC_eco_private_civ_expansion_factor = 0.2
+APDC_eco_private_mil_expansion_factor = 0.2
+APDC_eco_subsidy = 1
+}
+
+}
+APDC_eco_distribution_3 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+political_power_gain = -0.2
+APDC_eco_distribution_bonus = 0.1
+APDC_eco_private_civ_expansion_factor = 0.1
+APDC_eco_private_mil_expansion_factor = 0.1
+APDC_eco_subsidy = 1.5
+}
+
+}
+APDC_eco_distribution_4 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+political_power_gain = -0.5
+APDC_eco_distribution_bonus = 0.15
+APDC_eco_subsidy = 2
+}
+
+}
+APDC_eco_distribution_5 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_planned_pp_distribution = 0.15
+}
+
+}
+APDC_eco_consumption_1 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+political_power_gain = -0.5
+APDC_eco_population_factor = -0.2
+APDC_eco_private_civ_expansion_factor = -0.2
+APDC_eco_private_mil_expansion_factor = -0.2
+}
+
+}
+APDC_eco_consumption_2 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+political_power_gain = -0.25
+APDC_eco_population_factor = -0.1
+APDC_eco_private_civ_expansion_factor = -0.1
+APDC_eco_private_mil_expansion_factor = -0.1
+}
+
+}
+APDC_eco_consumption_3 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+}
+
+}
+APDC_eco_consumption_4 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_subsidy = 1
+APDC_eco_population_factor = 0.1
+APDC_eco_private_civ_expansion_factor = 0.1
+APDC_eco_private_mil_expansion_factor = 0.1
+}
+
+}
+APDC_eco_consumption_5 = {
+picture = generic_build_infrastructure
+allowed = { always = no }
+available = { always = no }
+allowed_civil_war = { always = yes }
+cost = -1
+removal_cost = -1
+cancel_if_invalid = no
+modifier = {
+APDC_eco_subsidy = 2
+APDC_eco_population_factor = 0.2
+APDC_eco_private_civ_expansion_factor = 0.2
+APDC_eco_private_mil_expansion_factor = 0.2
+}
+
+}
+
+}
+
+}

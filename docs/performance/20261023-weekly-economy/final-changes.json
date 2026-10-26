@@ -1,0 +1,117 @@
+[
+  {
+    "path": "common/on_actions/zz_APDC_economy.txt",
+    "before": "a4d92b511ce00a4425fc1bf4c5afd69f82c8b082d75322018b554e5db1bf61df",
+    "after": "ce001814d136beb0583454cd1709c9b2ee5420d2bcdede76d00e6d8da8ca1e66"
+  },
+  {
+    "path": "common/scripted_effects/APDC_economy_backend.txt",
+    "before": "b94701ca82d8fa29d5f7dd543a86829801afa1d3ca41969aee24bec95b3f8eda",
+    "after": "da6a1c051361dd5b184020d308ddd16aea824463146c6ed0e9bc99007fa5de2a"
+  },
+  {
+    "path": "common/scripted_effects/APDC_economy_equipment.txt",
+    "before": "8dff1d1337e5aa3696cc9bef48eeef65e71cb28a143f8245d674ff0751620678",
+    "after": "a61a6a1f607d85f2abc53313dc9bcf15987bfe855a5427113dcfdf9c373ea09c"
+  },
+  {
+    "path": "common/scripted_effects/APDC_economy_ui.txt",
+    "before": "548622418057142b1778be6758006da3ee6a78f14e5a640f7d77d91ebd1719fa",
+    "after": "badf22e9988330783bc1f5e67aaf2eba29a8c1c1905741b5eb8e88497e953207"
+  },
+  {
+    "path": "common/scripted_guis/APDC_economic_system_scripted_gui.txt",
+    "before": "da832cada5712bec38af067ce4b07b655279588716de813aae7dffc2bf58bf8e",
+    "after": "9dc6386e26f694b5719a3928b4e97a083c35d1716ac4b6edad47ed69ab9b20a9"
+  },
+  {
+    "path": "common/scripted_guis/APDC_economy_panel_ui.txt",
+    "before": "9a597fe864b1b752cd42532ce5ed27044c3893c6f6dd2fc78ff6d9e75cb1ee66",
+    "after": "732f24fe025a558280cca924feb1978b3ad513626e542d513c98d9c8b0ed41ad"
+  },
+  {
+    "path": "common/technologies/air_techs.txt",
+    "before": "31450b779b20611c80ef8940a0a1b9e8d1ff62c387031c2d3c0cea31d2394199",
+    "after": "e3cc528ce4416e8b7460417ef916abe723c840823b8ed50a3cb6a8e223dfe617"
+  },
+  {
+    "path": "common/technologies/APDC_land_units.txt",
+    "before": "7e97987585602757242ce884df2e802ac6953095028b53647dfcff8ce4fc23e6",
+    "after": "31112eec5c8375696c8dae0b1410c3d61634648ee78770b9809606e57b962d52"
+  },
+  {
+    "path": "common/technologies/armor.txt",
+    "before": "98d8502911e513846f0ec372366963aaa571de48765f080e8a6d01b883d1cc11",
+    "after": "49a3390b02ee6fbb56de11224683fb1f3bd83b4fd7565b8f46331b268a5d1212"
+  },
+  {
+    "path": "common/technologies/artillery.txt",
+    "before": "777281c035f40ecf4579083a663b2adb2bfd63979a4b34d0f36ba129b798691e",
+    "after": "7f16b2fcec93ae0796df8c70dc4f852ba92d031707f76d06f2f2750a5c039a8b"
+  },
+  {
+    "path": "common/technologies/bba_air_techs.txt",
+    "before": "370282db8bf52d856cc4a5f9ef51da850085e1163ef097d6cc540884e41d406a",
+    "after": "2b6d7d55add10f70dc130107db45970e4b743438eb65445c89136872926ee572"
+  },
+  {
+    "path": "common/technologies/infantry.txt",
+    "before": "c78b2489d61fc25f993b00bca5b1693a8d43855d5d453403ffa1cd2106f0efbb",
+    "after": "ccf6d7512bd607ade14969e58a33eaa23bb8448cf82e80d2146c93708e06de5f"
+  },
+  {
+    "path": "common/technologies/MTG_naval_Support.txt",
+    "before": "d10ac41cb2e598bbdc81e29a3a996491f5bb8c1cb6c414d75b1f732010029d43",
+    "after": "954e6f9ce7a45de9b2166de3b1d86c915e72959e4b9f4779528253e698ce0ef0"
+  },
+  {
+    "path": "common/technologies/support.txt",
+    "before": "d914faeb5c728f0dad9aad9db12d713742680f5b16e43aa1f849665afc89f631",
+    "after": "2752ac2801b8bf4127c482708697c4488aea75ad0436f23f9ba1c3ab83686d99"
+  },
+  {
+    "path": "tools/economy/build_all.py",
+    "before": "3ffd3c938519855028938981b3bba8af49c9364386b9202b53f7d1732c7ecd40",
+    "after": "2ddaa1fd300d0ab8bc4e5e5966ba1425daad124fa5c4cb85f174bcf531cb14a7"
+  },
+  {
+    "path": "tools/economy/build_backend.py",
+    "before": "2f353cd6fc222e240fb01a1bccec6f464817d9d96a200ade71e01f798771e037",
+    "after": "fbd76a9d594b3eff8a4f863641d55648f2a8c36fa7802c2304b6fbe8cf0c0a6d"
+  },
+  {
+    "path": "tools/economy/build_equipment.py",
+    "before": "5c0f7a90fc05826f26817e020546a9f598576699302aeb5f882f5b549df52e58",
+    "after": "1a307135f8a69bcf1108cb5bd3c7bbd75b22c447761260329322568f1ee2e588"
+  },
+  {
+    "path": "tools/economy/build_ui.py",
+    "before": "08a0f615e2b96d09dc10e03c49f3b23907513ba327a70088160fdc5f48c11601",
+    "after": "9c317f285b36e315a1f1884248be828ab32ef4b0ebb2c64364c68c00a38b58db"
+  },
+  {
+    "path": "tools/economy/build_market.py",
+    "before": null,
+    "after": "60e5740907a8a690ed70f0ef36e4609cf4f1b9c3cbee0b0470fdf6b14dcc78d3"
+  },
+  {
+    "path": "common/scripted_effects/APDC_economy_market.txt",
+    "before": null,
+    "after": "72bb9d4a439ac88bc1a013728d93398855560cfce5be1b084e50f2f423b84460"
+  },
+  {
+    "path": "common/scorers/country/APDC_economy_market.txt",
+    "before": null,
+    "after": "71252d837c506c738877318d743b71775836b594168d57d067a35574a4f58ec1"
+  },
+  {
+    "path": "tools/performance/weekly_economy_qa.py",
+    "before": null,
+    "after": "74d6f44525f3985468f5bc71efbfb89d370eda560642de4226ea721d134b5893"
+  },
+  {
+    "path": "tools/performance/finalize_weekly_economy.py",
+    "before": null,
+    "after": "f3de7338015e956cc74fa5ddc14d326ff71b34a1c131baf5a828bf887b132976"
+  }
+]

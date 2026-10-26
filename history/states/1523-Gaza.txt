@@ -1,0 +1,28 @@
+state = {
+	id = 1523
+	name = "STATE_1523"
+	provinces = {
+		13638
+		13639
+		13648
+		13662
+		17845
+		17857
+	}
+	manpower = 525429
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = MZB
+		controller = MZB
+		add_core_of = MZB
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13638
+			3
+		}
+	}
+}

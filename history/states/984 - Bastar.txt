@@ -1,0 +1,29 @@
+state = {
+	id = 984
+	name = "STATE_984"
+	manpower = 30650
+	state_category = rural
+	resources = {
+	}
+	history = {
+		owner = PAK
+		controller = PAK
+		add_core_of = PAK
+		victory_points = {
+			1622
+			2
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = GDP_regions_madhya_pradesh
+	}
+	provinces = {
+		1622
+		7428
+		7465
+		12490
+		16082
+	}
+	local_supplies = 0.0
+}

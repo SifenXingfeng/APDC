@@ -1,0 +1,32 @@
+state = {
+	id = 263
+	name = "STATE_263"
+	provinces = {
+		117
+		320
+		3089
+		9234
+		11072
+		11109
+		18265
+		18287
+		18352
+	}
+	manpower = 546289
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 11
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		victory_points = {
+			117
+			2
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		set_state_flag = GDP_regions_pleskau
+	}
+}

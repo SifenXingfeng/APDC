@@ -1,0 +1,48 @@
+state = {
+	id = 1318
+	name = "STATE_1318"
+	provinces = {
+		744
+		3728
+		3741
+		6761
+		9701
+		11652
+		11655
+		11672
+		11689
+	}
+	manpower = 1578600
+	resources = {
+		coal = 1
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = ROM
+		controller = ROM
+		add_core_of = ROM
+		victory_points = {
+			3728
+			1
+		}
+		victory_points = {
+			3741
+			2
+		}
+		victory_points = {
+			6761
+			1
+		}
+		victory_points = {
+			9701
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+		}
+		set_state_flag = GDP_category_town
+	}
+}

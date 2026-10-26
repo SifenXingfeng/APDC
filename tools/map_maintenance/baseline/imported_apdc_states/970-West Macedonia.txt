@@ -1,0 +1,49 @@
+state = {
+	id = 970
+	name = "STATE_970"
+	resources = {
+		chromium = 34
+		aluminium = 9
+	}
+	provinces = {
+		833
+		867
+		974
+		3865
+		9295
+		11856
+		14669
+		14678
+		18172
+		18188
+	}
+	manpower = 740688
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = YUG
+		controller = YUG
+		add_core_of = YUG
+		victory_points = {
+			867
+			1
+		}
+		victory_points = {
+			974
+			1
+		}
+		victory_points = {
+			14669
+			2
+		}
+		victory_points = {
+			18172
+			1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+}

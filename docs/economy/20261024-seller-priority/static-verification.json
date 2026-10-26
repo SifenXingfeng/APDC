@@ -1,0 +1,22 @@
+{
+  "changed_existing_files": [
+    "common/scorers/country/APDC_economy_market.txt",
+    "common/scripted_effects/APDC_economy_market.txt",
+    "tools/economy/build_market.py",
+    "tools/performance/weekly_economy_qa.py"
+  ],
+  "python_compile_passed": true,
+  "preserved_trade_effects": [
+    "APDC_eco_validate_market_0",
+    "APDC_eco_validate_market_1",
+    "APDC_eco_render_trade_0",
+    "APDC_eco_render_trade_1",
+    "APDC_eco_apply_current_trade"
+  ],
+  "no_per_seller_sort_or_world_scan": true,
+  "no_equal_share_division": true,
+  "buyer_gap_is_absolute_pre_trade_and_frozen_per_cycle": true,
+  "protected_economy_backend_ui_and_unit_formatter_unchanged": true,
+  "parsed_scripts": 3132,
+  "syntax_errors": []
+}

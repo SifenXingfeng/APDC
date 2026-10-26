@@ -1,0 +1,451 @@
+[
+  {
+    "file": "common/special_projects/projects/naval_projects.txt",
+    "id": "sp_naval_cruiser_submarine",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [
+      "early_submarine"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/naval_projects.txt",
+    "id": "sp_naval_fleet_submarine",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [
+      "improved_submarine"
+    ],
+    "parents": [
+      "sp_naval_cruiser_submarine"
+    ]
+  },
+  {
+    "file": "common/special_projects/projects/naval_projects.txt",
+    "id": "sp_naval_nuclear_submarine",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [],
+    "parents": [
+      "sp_naval_fleet_submarine",
+      "sp_nuclear_engines"
+    ]
+  },
+  {
+    "file": "common/special_projects/projects/naval_projects.txt",
+    "id": "sp_naval_rocket_launching_submarine",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [],
+    "parents": [
+      "sp_naval_fleet_submarine",
+      "sp_rockets_ballistic_missile"
+    ]
+  },
+  {
+    "file": "common/special_projects/projects/naval_projects.txt",
+    "id": "sp_naval_nuclear_missile_submarine",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [],
+    "parents": [
+      "sp_naval_nuclear_submarine",
+      "sp_naval_rocket_launching_submarine"
+    ]
+  },
+  {
+    "file": "common/special_projects/projects/naval_projects.txt",
+    "id": "sp_naval_nuclear_torpedo",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [],
+    "parents": [
+      "sp_naval_nuclear_submarine"
+    ]
+  },
+  {
+    "file": "common/special_projects/projects/naval_projects.txt",
+    "id": "sp_naval_midget_submarine",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [
+      "early_submarine"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/naval_projects.txt",
+    "id": "sp_naval_aip_engine",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [
+      "basic_submarine"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/naval_projects.txt",
+    "id": "sp_naval_anechoic_tiles",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [
+      "basic_submarine"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/naval_projects.txt",
+    "id": "sp_naval_submarine_carrier",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [
+      "basic_carrier",
+      "improved_submarine"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/naval_projects.txt",
+    "id": "sp_naval_torpedo_cruiser",
+    "missing_equipment": [
+      "ship_hull_torpedo_cruiser",
+      "torpedo_cruiser"
+    ],
+    "missing_modules": [],
+    "missing_techs": [
+      "early_light_cruiser"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/naval_projects.txt",
+    "id": "sp_naval_super_heavy_battleship",
+    "missing_equipment": [
+      "ship_hull_super_heavy_1",
+      "SH_battleship_1"
+    ],
+    "missing_modules": [],
+    "missing_techs": [
+      "early_battleship"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/naval_projects.txt",
+    "id": "sp_naval_modern_battleship",
+    "missing_equipment": [
+      "ship_hull_heavy_modern",
+      "modern_battleship"
+    ],
+    "missing_modules": [],
+    "missing_techs": [
+      "advanced_battleship"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/naval_projects.txt",
+    "id": "sp_naval_modern_carrier",
+    "missing_equipment": [
+      "ship_hull_carrier_modern",
+      "modern_carrier"
+    ],
+    "missing_modules": [],
+    "missing_techs": [
+      "advanced_carrier"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/naval_projects.txt",
+    "id": "sp_naval_ice_carrier",
+    "missing_equipment": [
+      "ship_hull_mega_carrier",
+      "mega_carrier"
+    ],
+    "missing_modules": [],
+    "missing_techs": [
+      "improved_carrier"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/naval_projects.txt",
+    "id": "sp_naval_underway_replenishment",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/naval_projects.txt",
+    "id": "sp_naval_proximity_fuze",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [
+      "improved_radio"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/naval_projects.txt",
+    "id": "sp_naval_support_ships",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [
+      "transport"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/naval_projects.txt",
+    "id": "sp_naval_escort_carrier",
+    "missing_equipment": [
+      "ship_hull_escort_carrier",
+      "escort_carrier"
+    ],
+    "missing_modules": [],
+    "missing_techs": [
+      "basic_carrier"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/rocket_projects.txt",
+    "id": "sp_rockets_flying_bomb",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [
+      "experimental_rockets"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/rocket_projects.txt",
+    "id": "sp_rockets_ballistic_missile",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [
+      "experimental_rockets",
+      "radio"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/rocket_projects.txt",
+    "id": "sp_rockets_medium_range_ballistic_missile",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [],
+    "parents": [
+      "sp_rockets_ballistic_missile"
+    ]
+  },
+  {
+    "file": "common/special_projects/projects/rocket_projects.txt",
+    "id": "sp_rockets_long_range_ballistic_missile",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [],
+    "parents": [
+      "sp_rockets_medium_range_ballistic_missile",
+      "sp_nuclear_warheads"
+    ]
+  },
+  {
+    "file": "common/special_projects/projects/rocket_projects.txt",
+    "id": "sp_rockets_ground_to_air_missile",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [
+      "experimental_rockets"
+    ],
+    "parents": [
+      "sp_rockets_ballistic_missile"
+    ]
+  },
+  {
+    "file": "common/special_projects/projects/rocket_projects.txt",
+    "id": "sp_rocket_interceptor",
+    "missing_equipment": [
+      "rocket_interceptor_equipment_1"
+    ],
+    "missing_modules": [],
+    "missing_techs": [
+      "experimental_rockets"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/air_projects.txt",
+    "id": "sp_air_bouncing_bomb",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [
+      "heavy_bombs",
+      "tactical_bomber2"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/air_projects.txt",
+    "id": "sp_air_earthshaker_bomb",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [
+      "heavy_bombs"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/air_projects.txt",
+    "id": "sp_air_intercontinental_bomber",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [
+      "improved_large_airframe"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/air_projects.txt",
+    "id": "sp_air_mothership_aircraft",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [
+      "improved_large_airframe"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/air_projects.txt",
+    "id": "sp_air_jet_engine",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [
+      "engines_2",
+      "improved_small_airframe",
+      "improved_medium_airframe",
+      "tactical_bomber2"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/air_projects.txt",
+    "id": "sp_air_axial_jet_engine",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [
+      "engines_3",
+      "advanced_small_airframe",
+      "advanced_medium_airframe",
+      "jet_fighter1",
+      "jet_tactical_bomber1"
+    ],
+    "parents": [
+      "sp_air_jet_engine"
+    ]
+  },
+  {
+    "file": "common/special_projects/projects/air_projects.txt",
+    "id": "sp_air_supersonic_jet",
+    "missing_equipment": [
+      "supersonic_fighter_equipment_1"
+    ],
+    "missing_modules": [],
+    "missing_techs": [],
+    "parents": [
+      "sp_air_axial_jet_engine"
+    ]
+  },
+  {
+    "file": "common/special_projects/projects/air_projects.txt",
+    "id": "sp_air_helicopter",
+    "missing_equipment": [
+      "helicopter_equipment_1"
+    ],
+    "missing_modules": [],
+    "missing_techs": [],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/land_projects.txt",
+    "id": "sp_land_land_cruiser",
+    "missing_equipment": [
+      "land_cruiser_equipment_1"
+    ],
+    "missing_modules": [],
+    "missing_techs": [
+      "super_heavy_tank_chassis",
+      "super_heavy_tank"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/land_projects.txt",
+    "id": "sp_land_super_heavy_howitzer",
+    "missing_equipment": [
+      "super_heavy_artillery_equipment_1"
+    ],
+    "missing_modules": [],
+    "missing_techs": [
+      "gw_artillery"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/land_projects.txt",
+    "id": "sp_land_self_propelled_super_heavy_howitzer",
+    "missing_equipment": [
+      "self_propelled_super_heavy_artillery_equipment_1"
+    ],
+    "missing_modules": [],
+    "missing_techs": [],
+    "parents": [
+      "sp_land_military_engineering_vehicles",
+      "sp_land_super_heavy_howitzer"
+    ]
+  },
+  {
+    "file": "common/special_projects/projects/land_projects.txt",
+    "id": "sp_land_multi_charge_large_caliber_gun",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [],
+    "parents": [
+      "sp_land_super_heavy_howitzer"
+    ]
+  },
+  {
+    "file": "common/special_projects/projects/land_projects.txt",
+    "id": "sp_land_stronghold_network",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [
+      "basic_fortification_tech"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/land_projects.txt",
+    "id": "sp_land_large_caliber_kinetic_energy_sabot",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [
+      "interwar_antitank"
+    ],
+    "parents": []
+  },
+  {
+    "file": "common/special_projects/projects/nuclear_projects.txt",
+    "id": "sp_nuclear_warheads",
+    "missing_equipment": [],
+    "missing_modules": [],
+    "missing_techs": [],
+    "parents": [
+      "sp_nuclear_bomb",
+      "sp_rockets_medium_range_ballistic_missile"
+    ]
+  }
+]

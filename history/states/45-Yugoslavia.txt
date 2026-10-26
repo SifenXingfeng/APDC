@@ -1,0 +1,30 @@
+state = {
+	id = 45
+	name = "STATE_45"
+	provinces = {
+		619
+		3617
+		3623
+		9621
+	}
+	manpower = 670897
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = YUG
+		controller = YUG
+		add_core_of = YUG
+		victory_points = {
+			619
+			3
+		}
+		victory_points = {
+			9621
+			1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}

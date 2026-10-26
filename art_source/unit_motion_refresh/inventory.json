@@ -1,0 +1,6048 @@
+{
+  "models": {
+    "APDC_b2_aa02": {
+      "objects": [
+        {
+          "name": "APDC_b2_aa02Shape",
+          "bones": [
+            "root",
+            "hull",
+            "left_leg_upper",
+            "left_leg_lower",
+            "left_leg_foot",
+            "wheel_ankle_-1",
+            "left_arm",
+            "left_wrist",
+            "right_leg_upper",
+            "right_leg_lower",
+            "right_leg_foot",
+            "wheel_ankle_1",
+            "right_arm",
+            "right_wrist",
+            "gun"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_b2_aa02_diffuse.dds"
+              ],
+              "n": [
+                "APDC_b2_aa02_normal.dds"
+              ],
+              "spec": [
+                "APDC_b2_aa02_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "barrel",
+          {
+            "p": [
+              0.0,
+              0.03520011901855469,
+              -3.869999885559082
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_b2_amphibious_tank": {
+      "objects": [
+        {
+          "name": "APDC_b2_amphibious_tankShape",
+          "bones": [
+            "root",
+            "hull",
+            "turret",
+            "gun",
+            "wheel_L_1",
+            "wheel_L_2",
+            "wheel_L_3",
+            "wheel_L_4",
+            "wheel_L_5",
+            "wheel_L_6",
+            "wheel_L_7",
+            "wheel_L_front",
+            "wheel_L_rear",
+            "wheel_R_1",
+            "wheel_R_2",
+            "wheel_R_3",
+            "wheel_R_4",
+            "wheel_R_5",
+            "wheel_R_6",
+            "wheel_R_7",
+            "wheel_R_front",
+            "wheel_R_rear"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_b2_amphibious_tank_diffuse.dds"
+              ],
+              "n": [
+                "APDC_b2_amphibious_tank_normal.dds"
+              ],
+              "spec": [
+                "APDC_b2_amphibious_tank_specular.dds"
+              ]
+            },
+            {
+              "shader": [
+                "PdxMeshAdvancedAnim"
+              ],
+              "diff": [
+                "APDC_b2_amphibious_tank_tracks_diffuse.dds"
+              ],
+              "n": [
+                "APDC_b2_amphibious_tank_tracks_normal.dds"
+              ],
+              "spec": [
+                "APDC_b2_amphibious_tank_tracks_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "left_tracks",
+          {
+            "p": [
+              -1.4600000381469727,
+              0.031120004132390022,
+              1.2000000476837158
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ],
+        [
+          "right_tracks",
+          {
+            "p": [
+              1.4600000381469727,
+              0.031120004132390022,
+              1.2000000476837158
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ],
+        [
+          "barrel",
+          {
+            "p": [
+              0.0,
+              0.0,
+              -4.75
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ],
+        [
+          "exhaust",
+          {
+            "p": [
+              1.2999999523162842,
+              0.31999993324279785,
+              2.700000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_b2_armored_engineer": {
+      "objects": [
+        {
+          "name": "APDC_b2_armored_engineerShape",
+          "bones": [
+            "root",
+            "hull",
+            "turret",
+            "boom",
+            "bucket",
+            "wheel_L_1",
+            "wheel_L_2",
+            "wheel_L_3",
+            "wheel_L_4",
+            "wheel_L_5",
+            "wheel_L_6",
+            "wheel_L_7",
+            "wheel_L_front",
+            "wheel_L_rear",
+            "wheel_R_1",
+            "wheel_R_2",
+            "wheel_R_3",
+            "wheel_R_4",
+            "wheel_R_5",
+            "wheel_R_6",
+            "wheel_R_7",
+            "wheel_R_front",
+            "wheel_R_rear"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_b2_armored_engineer_diffuse.dds"
+              ],
+              "n": [
+                "APDC_b2_armored_engineer_normal.dds"
+              ],
+              "spec": [
+                "APDC_b2_armored_engineer_specular.dds"
+              ]
+            },
+            {
+              "shader": [
+                "PdxMeshAdvancedAnim"
+              ],
+              "diff": [
+                "APDC_b2_armored_engineer_tracks_diffuse.dds"
+              ],
+              "n": [
+                "APDC_b2_armored_engineer_tracks_normal.dds"
+              ],
+              "spec": [
+                "APDC_b2_armored_engineer_tracks_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "left_tracks",
+          {
+            "p": [
+              -1.4600000381469727,
+              0.031120004132390022,
+              1.2000000476837158
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ],
+        [
+          "right_tracks",
+          {
+            "p": [
+              1.4600000381469727,
+              0.031120004132390022,
+              1.2000000476837158
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ],
+        [
+          "exhaust",
+          {
+            "p": [
+              -0.8600000143051147,
+              0.8500000238418579,
+              0.3499999940395355
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_b2_automaton": {
+      "objects": [
+        {
+          "name": "APDC_b2_automatonShape",
+          "bones": [
+            "root",
+            "hull",
+            "L0_upper",
+            "L0_lower",
+            "L0_foot",
+            "wheel_L0",
+            "L1_upper",
+            "L1_lower",
+            "L1_foot",
+            "wheel_L1",
+            "R0_upper",
+            "R0_lower",
+            "R0_foot",
+            "wheel_R0",
+            "R1_upper",
+            "R1_lower",
+            "R1_foot",
+            "wheel_R1",
+            "gun"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_b2_automaton_diffuse.dds"
+              ],
+              "n": [
+                "APDC_b2_automaton_normal.dds"
+              ],
+              "spec": [
+                "APDC_b2_automaton_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "barrel",
+          {
+            "p": [
+              0.0,
+              0.0,
+              -1.2799999713897705
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_b2_doomdog": {
+      "objects": [
+        {
+          "name": "APDC_b2_doomdogShape",
+          "bones": [
+            "root",
+            "hull",
+            "L0_upper",
+            "L0_lower",
+            "L0_foot",
+            "L1_upper",
+            "L1_lower",
+            "L1_foot",
+            "gun_left",
+            "R0_upper",
+            "R0_lower",
+            "R0_foot",
+            "R1_upper",
+            "R1_lower",
+            "R1_foot",
+            "gun_right"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_b2_doomdog_diffuse.dds"
+              ],
+              "n": [
+                "APDC_b2_doomdog_normal.dds"
+              ],
+              "spec": [
+                "APDC_b2_doomdog_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "barrel",
+          {
+            "p": [
+              -0.04999995231628418,
+              1.9399998188018799,
+              0.14000000059604645
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun_left"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_b2_goliath": {
+      "objects": [
+        {
+          "name": "APDC_b2_goliathShape",
+          "bones": [
+            "root",
+            "hull",
+            "L0_upper",
+            "L0_lower",
+            "L0_foot",
+            "L1_upper",
+            "L1_lower",
+            "L1_foot",
+            "left_arm",
+            "left_claw",
+            "R0_upper",
+            "R0_lower",
+            "R0_foot",
+            "R1_upper",
+            "R1_lower",
+            "R1_foot",
+            "right_arm",
+            "right_claw"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_b2_goliath_diffuse.dds"
+              ],
+              "n": [
+                "APDC_b2_goliath_normal.dds"
+              ],
+              "spec": [
+                "APDC_b2_goliath_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": []
+    },
+    "APDC_b2_helicopter": {
+      "objects": [
+        {
+          "name": "APDC_b2_helicopterShape",
+          "bones": [
+            "root",
+            "hull",
+            "rotor",
+            "tail_rotor"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_b2_helicopter_diffuse.dds"
+              ],
+              "n": [
+                "APDC_b2_helicopter_normal.dds"
+              ],
+              "spec": [
+                "APDC_b2_helicopter_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "exhaust",
+          {
+            "p": [
+              0.6000000238418579,
+              1.4099998474121094,
+              1.6699999570846558
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_b2_light_tank": {
+      "objects": [
+        {
+          "name": "APDC_b2_light_tankShape",
+          "bones": [
+            "root",
+            "hull",
+            "turret",
+            "gun",
+            "wheel_L_1",
+            "wheel_L_2",
+            "wheel_L_3",
+            "wheel_L_4",
+            "wheel_L_5",
+            "wheel_L_6",
+            "wheel_L_7",
+            "wheel_L_front",
+            "wheel_L_rear",
+            "wheel_R_1",
+            "wheel_R_2",
+            "wheel_R_3",
+            "wheel_R_4",
+            "wheel_R_5",
+            "wheel_R_6",
+            "wheel_R_7",
+            "wheel_R_front",
+            "wheel_R_rear"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_b2_light_tank_diffuse.dds"
+              ],
+              "n": [
+                "APDC_b2_light_tank_normal.dds"
+              ],
+              "spec": [
+                "APDC_b2_light_tank_specular.dds"
+              ]
+            },
+            {
+              "shader": [
+                "PdxMeshAdvancedAnim"
+              ],
+              "diff": [
+                "APDC_b2_light_tank_tracks_diffuse.dds"
+              ],
+              "n": [
+                "APDC_b2_light_tank_tracks_normal.dds"
+              ],
+              "spec": [
+                "APDC_b2_light_tank_tracks_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "left_tracks",
+          {
+            "p": [
+              -1.343999981880188,
+              0.031120004132390022,
+              1.2000000476837158
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ],
+        [
+          "right_tracks",
+          {
+            "p": [
+              1.343999981880188,
+              0.031120004132390022,
+              1.2000000476837158
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ],
+        [
+          "barrel",
+          {
+            "p": [
+              0.0,
+              0.0,
+              -3.6999998092651367
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ],
+        [
+          "exhaust",
+          {
+            "p": [
+              1.1799999475479126,
+              0.22999989986419678,
+              2.869999885559082
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_b2_multipod": {
+      "objects": [
+        {
+          "name": "APDC_b2_multipodShape",
+          "bones": [
+            "root",
+            "hull",
+            "L0_upper",
+            "L0_lower",
+            "L0_foot",
+            "L1_upper",
+            "L1_lower",
+            "L1_foot",
+            "L2_upper",
+            "L2_lower",
+            "L2_foot",
+            "R0_upper",
+            "R0_lower",
+            "R0_foot",
+            "R1_upper",
+            "R1_lower",
+            "R1_foot",
+            "R2_upper",
+            "R2_lower",
+            "R2_foot",
+            "gun"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_b2_multipod_diffuse.dds"
+              ],
+              "n": [
+                "APDC_b2_multipod_normal.dds"
+              ],
+              "spec": [
+                "APDC_b2_multipod_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "barrel",
+          {
+            "p": [
+              0.0,
+              0.0,
+              -1.7699999809265137
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_f1_armed_helicopter": {
+      "objects": [
+        {
+          "name": "APDC_f1_armed_helicopterShape",
+          "bones": [
+            "root",
+            "hull",
+            "rotor",
+            "tail_rotor",
+            "turret",
+            "gun"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_f1_armed_helicopter_diffuse.dds"
+              ],
+              "n": [
+                "APDC_f1_armed_helicopter_normal.dds"
+              ],
+              "spec": [
+                "APDC_f1_armed_helicopter_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "exhaust",
+          {
+            "p": [
+              0.6000000238418579,
+              1.4099998474121094,
+              1.6699999570846558
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "barrel",
+          {
+            "p": [
+              0.0,
+              0.0,
+              -1.0099999904632568
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_f1_multipod_artillery": {
+      "objects": [
+        {
+          "name": "APDC_f1_multipod_artilleryShape",
+          "bones": [
+            "root",
+            "hull",
+            "L0_upper",
+            "L0_lower",
+            "L0_foot",
+            "L1_upper",
+            "L1_lower",
+            "L1_foot",
+            "L2_upper",
+            "L2_lower",
+            "L2_foot",
+            "R0_upper",
+            "R0_lower",
+            "R0_foot",
+            "R1_upper",
+            "R1_lower",
+            "R1_foot",
+            "R2_upper",
+            "R2_lower",
+            "R2_foot",
+            "turret",
+            "gun"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_f1_multipod_artillery_diffuse.dds"
+              ],
+              "n": [
+                "APDC_f1_multipod_artillery_normal.dds"
+              ],
+              "spec": [
+                "APDC_f1_multipod_artillery_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "barrel",
+          {
+            "p": [
+              0.0,
+              0.4799997806549072,
+              -2.5500001907348633
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_f1_nyto_final": {
+      "objects": [
+        {
+          "name": "Face-000",
+          "bones": [
+            "root",
+            "hull",
+            "spine",
+            "chest",
+            "head",
+            "hair",
+            "cloak",
+            "left_upperarm",
+            "left_forearm",
+            "left_hand",
+            "right_upperarm",
+            "right_forearm",
+            "right_hand",
+            "left_leg_upper",
+            "left_leg_lower",
+            "left_leg_foot",
+            "right_leg_upper",
+            "right_leg_lower",
+            "right_leg_foot"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_f1_nyto_final_face_diffuse.dds"
+              ],
+              "n": [
+                "APDC_f1_nyto_final_face_normal.dds"
+              ],
+              "spec": [
+                "APDC_f1_nyto_final_face_specular.dds"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "APDC_b2_nytoShape",
+          "bones": [
+            "root",
+            "hull",
+            "spine",
+            "chest",
+            "head",
+            "hair",
+            "cloak",
+            "left_upperarm",
+            "left_forearm",
+            "left_hand",
+            "right_upperarm",
+            "right_forearm",
+            "right_hand",
+            "left_leg_upper",
+            "left_leg_lower",
+            "left_leg_foot",
+            "right_leg_upper",
+            "right_leg_lower",
+            "right_leg_foot"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_f1_nyto_final_diffuse.dds"
+              ],
+              "n": [
+                "APDC_f1_nyto_final_normal.dds"
+              ],
+              "spec": [
+                "APDC_f1_nyto_final_specular.dds"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Wing_lower_facet_1_geometry",
+          "bones": [
+            "root",
+            "hull",
+            "spine",
+            "chest",
+            "head",
+            "hair",
+            "cloak",
+            "left_upperarm",
+            "left_forearm",
+            "left_hand",
+            "right_upperarm",
+            "right_forearm",
+            "right_hand",
+            "left_leg_upper",
+            "left_leg_lower",
+            "left_leg_foot",
+            "right_leg_upper",
+            "right_leg_lower",
+            "right_leg_foot"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_f1_nyto_final_accessories_diffuse.dds"
+              ],
+              "n": [
+                "APDC_f1_nyto_final_accessories_normal.dds"
+              ],
+              "spec": [
+                "APDC_f1_nyto_final_accessories_specular.dds"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Side_layer_-1_0_geometry",
+          "bones": [
+            "root",
+            "hull",
+            "spine",
+            "chest",
+            "head",
+            "hair",
+            "cloak",
+            "left_upperarm",
+            "left_forearm",
+            "left_hand",
+            "right_upperarm",
+            "right_forearm",
+            "right_hand",
+            "left_leg_upper",
+            "left_leg_lower",
+            "left_leg_foot",
+            "right_leg_upper",
+            "right_leg_lower",
+            "right_leg_foot"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_f1_nyto_final_accessories_diffuse.dds"
+              ],
+              "n": [
+                "APDC_f1_nyto_final_accessories_normal.dds"
+              ],
+              "spec": [
+                "APDC_f1_nyto_final_accessories_specular.dds"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fringe_center_right_silk_0",
+          "bones": [
+            "root",
+            "hull",
+            "spine",
+            "chest",
+            "head",
+            "hair",
+            "cloak",
+            "left_upperarm",
+            "left_forearm",
+            "left_hand",
+            "right_upperarm",
+            "right_forearm",
+            "right_hand",
+            "left_leg_upper",
+            "left_leg_lower",
+            "left_leg_foot",
+            "right_leg_upper",
+            "right_leg_lower",
+            "right_leg_foot"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_f1_nyto_final_accessories_diffuse.dds"
+              ],
+              "n": [
+                "APDC_f1_nyto_final_accessories_normal.dds"
+              ],
+              "spec": [
+                "APDC_f1_nyto_final_accessories_specular.dds"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Back_hair_12_silk_0",
+          "bones": [
+            "root",
+            "hull",
+            "spine",
+            "chest",
+            "head",
+            "hair",
+            "cloak",
+            "left_upperarm",
+            "left_forearm",
+            "left_hand",
+            "right_upperarm",
+            "right_forearm",
+            "right_hand",
+            "left_leg_upper",
+            "left_leg_lower",
+            "left_leg_foot",
+            "right_leg_upper",
+            "right_leg_lower",
+            "right_leg_foot"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_f1_nyto_final_accessories_diffuse.dds"
+              ],
+              "n": [
+                "APDC_f1_nyto_final_accessories_normal.dds"
+              ],
+              "spec": [
+                "APDC_f1_nyto_final_accessories_specular.dds"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Back_hair_02_silk_0",
+          "bones": [
+            "root",
+            "hull",
+            "spine",
+            "chest",
+            "head",
+            "hair",
+            "cloak",
+            "left_upperarm",
+            "left_forearm",
+            "left_hand",
+            "right_upperarm",
+            "right_forearm",
+            "right_hand",
+            "left_leg_upper",
+            "left_leg_lower",
+            "left_leg_foot",
+            "right_leg_upper",
+            "right_leg_lower",
+            "right_leg_foot"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_f1_nyto_final_accessories_diffuse.dds"
+              ],
+              "n": [
+                "APDC_f1_nyto_final_accessories_normal.dds"
+              ],
+              "spec": [
+                "APDC_f1_nyto_final_accessories_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "weapon",
+          {
+            "p": [
+              -0.12000000476837158,
+              1.4499998092651367,
+              -1.4901161193847656e-08
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "left_hand"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_f1_self_propelled_aa": {
+      "objects": [
+        {
+          "name": "APDC_f1_self_propelled_aaShape",
+          "bones": [
+            "root",
+            "hull",
+            "turret",
+            "gun",
+            "radar",
+            "wheel_L_1",
+            "wheel_L_2",
+            "wheel_L_3",
+            "wheel_L_4",
+            "wheel_L_5",
+            "wheel_L_6",
+            "wheel_L_7",
+            "wheel_R_1",
+            "wheel_R_2",
+            "wheel_R_3",
+            "wheel_R_4",
+            "wheel_R_5",
+            "wheel_R_6",
+            "wheel_R_7"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_f1_self_propelled_aa_diffuse.dds"
+              ],
+              "n": [
+                "APDC_f1_self_propelled_aa_normal.dds"
+              ],
+              "spec": [
+                "APDC_f1_self_propelled_aa_specular.dds"
+              ]
+            },
+            {
+              "shader": [
+                "PdxMeshAdvancedAnim"
+              ],
+              "diff": [
+                "APDC_f1_self_propelled_aa_tracks_diffuse.dds"
+              ],
+              "n": [
+                "APDC_f1_self_propelled_aa_tracks_normal.dds"
+              ],
+              "spec": [
+                "APDC_f1_self_propelled_aa_tracks_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "left_exhaust",
+          {
+            "p": [
+              -0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "right_exhaust",
+          {
+            "p": [
+              0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "left_tracks",
+          {
+            "p": [
+              -1.2000000476837158,
+              0.18000000715255737,
+              1.7999999523162842
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ],
+        [
+          "right_tracks",
+          {
+            "p": [
+              1.2000000476837158,
+              0.18000000715255737,
+              1.7999999523162842
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ],
+        [
+          "barrel",
+          {
+            "p": [
+              0.0,
+              0.16000008583068848,
+              -2.5
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ],
+        [
+          "barrel_5",
+          {
+            "p": [
+              0.0,
+              0.3300001621246338,
+              -2.5
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ],
+        [
+          "barrel_6",
+          {
+            "p": [
+              2.200000047683716,
+              0.16000008583068848,
+              -2.5
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ],
+        [
+          "barrel_7",
+          {
+            "p": [
+              2.200000047683716,
+              0.3300001621246338,
+              -2.5
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_f1_self_propelled_gun": {
+      "objects": [
+        {
+          "name": "APDC_f1_self_propelled_gunShape",
+          "bones": [
+            "root",
+            "hull",
+            "turret",
+            "gun",
+            "wheel_L_1",
+            "wheel_L_2",
+            "wheel_L_3",
+            "wheel_L_4",
+            "wheel_L_5",
+            "wheel_L_6",
+            "wheel_L_7",
+            "wheel_R_1",
+            "wheel_R_2",
+            "wheel_R_3",
+            "wheel_R_4",
+            "wheel_R_5",
+            "wheel_R_6",
+            "wheel_R_7"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_f1_self_propelled_gun_diffuse.dds"
+              ],
+              "n": [
+                "APDC_f1_self_propelled_gun_normal.dds"
+              ],
+              "spec": [
+                "APDC_f1_self_propelled_gun_specular.dds"
+              ]
+            },
+            {
+              "shader": [
+                "PdxMeshAdvancedAnim"
+              ],
+              "diff": [
+                "APDC_f1_self_propelled_gun_tracks_diffuse.dds"
+              ],
+              "n": [
+                "APDC_f1_self_propelled_gun_tracks_normal.dds"
+              ],
+              "spec": [
+                "APDC_f1_self_propelled_gun_tracks_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "left_exhaust",
+          {
+            "p": [
+              -0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "right_exhaust",
+          {
+            "p": [
+              0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "left_tracks",
+          {
+            "p": [
+              -1.2000000476837158,
+              0.18000000715255737,
+              1.7999999523162842
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ],
+        [
+          "right_tracks",
+          {
+            "p": [
+              1.2000000476837158,
+              0.18000000715255737,
+              1.7999999523162842
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ],
+        [
+          "barrel",
+          {
+            "p": [
+              0.0,
+              0.7300000190734863,
+              -4.460000038146973
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_f1_self_propelled_mortar": {
+      "objects": [
+        {
+          "name": "APDC_f1_self_propelled_mortarShape",
+          "bones": [
+            "root",
+            "hull",
+            "turret",
+            "gun",
+            "wheel_L_1",
+            "wheel_L_2",
+            "wheel_L_3",
+            "wheel_L_4",
+            "wheel_L_5",
+            "wheel_L_6",
+            "wheel_L_7",
+            "wheel_R_1",
+            "wheel_R_2",
+            "wheel_R_3",
+            "wheel_R_4",
+            "wheel_R_5",
+            "wheel_R_6",
+            "wheel_R_7"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_f1_self_propelled_mortar_diffuse.dds"
+              ],
+              "n": [
+                "APDC_f1_self_propelled_mortar_normal.dds"
+              ],
+              "spec": [
+                "APDC_f1_self_propelled_mortar_specular.dds"
+              ]
+            },
+            {
+              "shader": [
+                "PdxMeshAdvancedAnim"
+              ],
+              "diff": [
+                "APDC_f1_self_propelled_mortar_tracks_diffuse.dds"
+              ],
+              "n": [
+                "APDC_f1_self_propelled_mortar_tracks_normal.dds"
+              ],
+              "spec": [
+                "APDC_f1_self_propelled_mortar_tracks_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "left_exhaust",
+          {
+            "p": [
+              -0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "right_exhaust",
+          {
+            "p": [
+              0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "left_tracks",
+          {
+            "p": [
+              -1.2000000476837158,
+              0.18000000715255737,
+              1.7999999523162842
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ],
+        [
+          "right_tracks",
+          {
+            "p": [
+              1.2000000476837158,
+              0.18000000715255737,
+              1.7999999523162842
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ],
+        [
+          "barrel",
+          {
+            "p": [
+              0.0,
+              1.2300000190734863,
+              -1.2400000095367432
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_f1_tank_support": {
+      "objects": [
+        {
+          "name": "APDC_f1_tank_supportShape",
+          "bones": [
+            "root",
+            "hull",
+            "turret",
+            "gun",
+            "wheel_L_1",
+            "wheel_L_2",
+            "wheel_L_3",
+            "wheel_L_4",
+            "wheel_L_5",
+            "wheel_L_6",
+            "wheel_L_7",
+            "wheel_R_1",
+            "wheel_R_2",
+            "wheel_R_3",
+            "wheel_R_4",
+            "wheel_R_5",
+            "wheel_R_6",
+            "wheel_R_7"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_f1_tank_support_diffuse.dds"
+              ],
+              "n": [
+                "APDC_f1_tank_support_normal.dds"
+              ],
+              "spec": [
+                "APDC_f1_tank_support_specular.dds"
+              ]
+            },
+            {
+              "shader": [
+                "PdxMeshAdvancedAnim"
+              ],
+              "diff": [
+                "APDC_f1_tank_support_tracks_diffuse.dds"
+              ],
+              "n": [
+                "APDC_f1_tank_support_tracks_normal.dds"
+              ],
+              "spec": [
+                "APDC_f1_tank_support_tracks_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "left_exhaust",
+          {
+            "p": [
+              -0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "right_exhaust",
+          {
+            "p": [
+              0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "left_tracks",
+          {
+            "p": [
+              -1.2000000476837158,
+              0.18000000715255737,
+              1.7999999523162842
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ],
+        [
+          "right_tracks",
+          {
+            "p": [
+              1.2000000476837158,
+              0.18000000715255737,
+              1.7999999523162842
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ],
+        [
+          "barrel",
+          {
+            "p": [
+              0.0,
+              0.059999942779541016,
+              -2.5299997329711914
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ],
+        [
+          "barrel_5",
+          {
+            "p": [
+              0.3400000035762787,
+              0.059999942779541016,
+              -2.5299997329711914
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_f1_truck_artillery": {
+      "objects": [
+        {
+          "name": "APDC_f1_truck_artilleryShape",
+          "bones": [
+            "root",
+            "hull",
+            "outrigger_-1_-1.1",
+            "outrigger_-1_3.4",
+            "outrigger_1_-1.1",
+            "outrigger_1_3.4",
+            "turret",
+            "gun",
+            "wheel_L_1",
+            "wheel_L_2",
+            "wheel_L_3",
+            "wheel_L_4",
+            "wheel_R_1",
+            "wheel_R_2",
+            "wheel_R_3",
+            "wheel_R_4"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_f1_truck_artillery_diffuse.dds"
+              ],
+              "n": [
+                "APDC_f1_truck_artillery_normal.dds"
+              ],
+              "spec": [
+                "APDC_f1_truck_artillery_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "left_exhaust",
+          {
+            "p": [
+              -0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "right_exhaust",
+          {
+            "p": [
+              0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "barrel",
+          {
+            "p": [
+              0.0,
+              1.5299999713897705,
+              -5.300000190734863
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_f1_truck_missile": {
+      "objects": [
+        {
+          "name": "APDC_f1_truck_missileShape",
+          "bones": [
+            "root",
+            "hull",
+            "outrigger_-1_-1.1",
+            "outrigger_-1_3.4",
+            "outrigger_1_-1.1",
+            "outrigger_1_3.4",
+            "turret",
+            "launcher",
+            "wheel_L_1",
+            "wheel_L_2",
+            "wheel_L_3",
+            "wheel_L_4",
+            "wheel_R_1",
+            "wheel_R_2",
+            "wheel_R_3",
+            "wheel_R_4"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_f1_truck_missile_diffuse.dds"
+              ],
+              "n": [
+                "APDC_f1_truck_missile_normal.dds"
+              ],
+              "spec": [
+                "APDC_f1_truck_missile_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "left_exhaust",
+          {
+            "p": [
+              -0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "right_exhaust",
+          {
+            "p": [
+              0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "missile",
+          {
+            "p": [
+              -0.5199999809265137,
+              0.3899998664855957,
+              -5.269999980926514
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "launcher"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_f1_truck_mlrs": {
+      "objects": [
+        {
+          "name": "APDC_f1_truck_mlrsShape",
+          "bones": [
+            "root",
+            "hull",
+            "outrigger_-1_-1.1",
+            "outrigger_-1_3.4",
+            "outrigger_1_-1.1",
+            "outrigger_1_3.4",
+            "turret",
+            "launcher",
+            "wheel_L_1",
+            "wheel_L_2",
+            "wheel_L_3",
+            "wheel_L_4",
+            "wheel_R_1",
+            "wheel_R_2",
+            "wheel_R_3",
+            "wheel_R_4"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_f1_truck_mlrs_diffuse.dds"
+              ],
+              "n": [
+                "APDC_f1_truck_mlrs_normal.dds"
+              ],
+              "spec": [
+                "APDC_f1_truck_mlrs_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "left_exhaust",
+          {
+            "p": [
+              -0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "right_exhaust",
+          {
+            "p": [
+              0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "missile",
+          {
+            "p": [
+              0.0,
+              1.5,
+              -3.6999998092651367
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "launcher"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_f1_wheeled_atgm": {
+      "objects": [
+        {
+          "name": "APDC_f1_wheeled_atgmShape",
+          "bones": [
+            "root",
+            "hull",
+            "turret",
+            "wheel_L_1",
+            "wheel_L_2",
+            "wheel_L_3",
+            "wheel_L_4",
+            "wheel_R_1",
+            "wheel_R_2",
+            "wheel_R_3",
+            "wheel_R_4"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_f1_wheeled_atgm_diffuse.dds"
+              ],
+              "n": [
+                "APDC_f1_wheeled_atgm_normal.dds"
+              ],
+              "spec": [
+                "APDC_f1_wheeled_atgm_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "left_exhaust",
+          {
+            "p": [
+              -0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "right_exhaust",
+          {
+            "p": [
+              0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "missile",
+          {
+            "p": [
+              -0.9700000286102295,
+              0.940000057220459,
+              -1.25
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "turret"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_penguin": {
+      "objects": [
+        {
+          "name": "APDC_penguinShape",
+          "bones": [
+            "Root",
+            "Hip",
+            "LeftUpLeg",
+            "LeftLeg",
+            "LeftFoot",
+            "LeftToeBase",
+            "back_mid",
+            "LeftShoulder",
+            "LeftArm",
+            "LeftForeArm",
+            "LeftForeArmRoll",
+            "LeftHand",
+            "Left_Hand_node",
+            "Left_Hand_node_2",
+            "Left_Hand_node_3",
+            "Left_Hand_node_4",
+            "head",
+            "RightShoulder",
+            "RightArm",
+            "RightForeArm",
+            "RightForeArmRoll",
+            "RightHand",
+            "Right_Hand_node",
+            "Right_Hand_node_2",
+            "Right_Hand_node_3",
+            "Right_Hand_node_4",
+            "mid_back_node",
+            "RightUpLeg",
+            "RightLeg",
+            "RightFoot",
+            "RightToeBase",
+            "Root_node_1",
+            "Root_node_2"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_penguin_diffuse.dds"
+              ],
+              "n": [
+                "APDC_penguin_normal.dds"
+              ],
+              "spec": [
+                "APDC_penguin_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "left_foot",
+          {
+            "p": [
+              -0.7966998815536499,
+              -0.13991263508796692,
+              0.7786972522735596
+            ],
+            "q": [
+              -0.0020582701545208693,
+              0.36341992020606995,
+              -0.007875384762883186,
+              0.9315899014472961
+            ],
+            "pa": [
+              "LeftToeBase"
+            ]
+          }
+        ],
+        [
+          "head",
+          {
+            "p": [
+              0.010582268238067627,
+              -6.20727014541626,
+              -0.5316901206970215
+            ],
+            "q": [
+              2.2351741790771484e-08,
+              1.3600265932976058e-15,
+              -7.450582373280668e-09,
+              1.0
+            ],
+            "pa": [
+              "head"
+            ]
+          }
+        ],
+        [
+          "right_foot",
+          {
+            "p": [
+              1.0989763736724854,
+              -0.029544970020651817,
+              -0.3036474287509918
+            ],
+            "q": [
+              -0.0006979033350944519,
+              0.20711563527584076,
+              4.448833715287037e-05,
+              0.9783162474632263
+            ],
+            "pa": [
+              "RightToeBase"
+            ]
+          }
+        ],
+        [
+          "Character1_Ctrl_Reference",
+          {
+            "p": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_r6_ak12": {
+      "objects": [
+        {
+          "name": "APDC_r6_ak12Shape",
+          "bones": [
+            "root",
+            "hull",
+            "gun"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_r6_ak12_diffuse.dds"
+              ],
+              "n": [
+                "APDC_r6_ak12_normal.dds"
+              ],
+              "spec": [
+                "APDC_r6_ak12_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "barrel",
+          {
+            "p": [
+              0.0,
+              0.20999997854232788,
+              -1.350000023841858
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ],
+        [
+          "grip",
+          {
+            "p": [
+              0.0,
+              -0.009999990463256836,
+              0.3100000023841858
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ],
+        [
+          "stock",
+          {
+            "p": [
+              0.0,
+              0.0899999737739563,
+              1.149999976158142
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_r6_infantry": {
+      "objects": [
+        {
+          "name": "GER_infantryShape-000",
+          "bones": [
+            "root",
+            "hull",
+            "spine",
+            "chest",
+            "head",
+            "hair",
+            "left_upperarm",
+            "left_forearm",
+            "left_hand",
+            "right_upperarm",
+            "right_forearm",
+            "right_hand",
+            "gun",
+            "cloak",
+            "left_leg_upper",
+            "left_leg_lower",
+            "left_leg_foot",
+            "right_leg_upper",
+            "right_leg_lower",
+            "right_leg_foot"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_r6_infantry_face_diffuse.dds"
+              ],
+              "n": [
+                "APDC_r6_infantry_face_normal.dds"
+              ],
+              "spec": [
+                "APDC_r6_infantry_face_specular.dds"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "APDC_r6_infantryShape",
+          "bones": [
+            "root",
+            "hull",
+            "spine",
+            "chest",
+            "head",
+            "hair",
+            "left_upperarm",
+            "left_forearm",
+            "left_hand",
+            "right_upperarm",
+            "right_forearm",
+            "right_hand",
+            "gun",
+            "cloak",
+            "left_leg_upper",
+            "left_leg_lower",
+            "left_leg_foot",
+            "right_leg_upper",
+            "right_leg_lower",
+            "right_leg_foot"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_r6_infantry_diffuse.dds"
+              ],
+              "n": [
+                "APDC_r6_infantry_normal.dds"
+              ],
+              "spec": [
+                "APDC_r6_infantry_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "barrel",
+          {
+            "p": [
+              -1.0299999713897705,
+              0.11999988555908203,
+              -0.44999998807907104
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_r6_lyuba": {
+      "objects": [
+        {
+          "name": "APDC_r6_lyubaShape",
+          "bones": [
+            "root",
+            "hull",
+            "spine",
+            "chest",
+            "head",
+            "hair",
+            "gun",
+            "arm_-1",
+            "forearm_-1",
+            "arm_1",
+            "forearm_1",
+            "thigh_-1",
+            "shin_-1",
+            "thigh_1",
+            "shin_1",
+            "wheel_-1",
+            "wheel_1"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_r6_lyuba_diffuse.dds"
+              ],
+              "n": [
+                "APDC_r6_lyuba_normal.dds"
+              ],
+              "spec": [
+                "APDC_r6_lyuba_specular.dds"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MakeHuman_female_old_head",
+          "bones": [
+            "root",
+            "hull",
+            "spine",
+            "chest",
+            "head",
+            "hair",
+            "gun",
+            "arm_-1",
+            "forearm_-1",
+            "arm_1",
+            "forearm_1",
+            "thigh_-1",
+            "shin_-1",
+            "thigh_1",
+            "shin_1",
+            "wheel_-1",
+            "wheel_1"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_r6_lyuba_diffuse.dds"
+              ],
+              "n": [
+                "APDC_r6_lyuba_normal.dds"
+              ],
+              "spec": [
+                "APDC_r6_lyuba_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "barrel",
+          {
+            "p": [
+              -0.8600000143051147,
+              0.11999988555908203,
+              -0.49000000953674316
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_r6_tactical_doll": {
+      "objects": [
+        {
+          "name": "APDC_r6_tactical_dollShape",
+          "bones": [
+            "root",
+            "hull",
+            "spine",
+            "chest",
+            "head",
+            "hair",
+            "left_upperarm",
+            "left_forearm",
+            "left_hand",
+            "right_upperarm",
+            "right_forearm",
+            "right_hand",
+            "gun",
+            "cloak",
+            "left_leg_upper",
+            "left_leg_lower",
+            "left_leg_foot",
+            "right_leg_upper",
+            "right_leg_lower",
+            "right_leg_foot"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_r6_tactical_doll_diffuse.dds"
+              ],
+              "n": [
+                "APDC_r6_tactical_doll_normal.dds"
+              ],
+              "spec": [
+                "APDC_r6_tactical_doll_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "barrel",
+          {
+            "p": [
+              -1.0399999618530273,
+              0.09999990463256836,
+              -0.5200000405311584
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_r6_towed_artillery": {
+      "objects": [
+        {
+          "name": "APDC_r6_towed_artilleryShape",
+          "bones": [
+            "root",
+            "hull",
+            "trail_0",
+            "trail_1",
+            "trail_2",
+            "turret",
+            "gun",
+            "wheel_-1",
+            "wheel_1"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_r6_towed_artillery_diffuse.dds"
+              ],
+              "n": [
+                "APDC_r6_towed_artillery_normal.dds"
+              ],
+              "spec": [
+                "APDC_r6_towed_artillery_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "barrel",
+          {
+            "p": [
+              0.0,
+              2.061349868774414,
+              -3.3094000816345215
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_r6_ump45": {
+      "objects": [
+        {
+          "name": "Face-000",
+          "bones": [
+            "root",
+            "hull",
+            "spine",
+            "chest",
+            "head",
+            "hair",
+            "left_upperarm",
+            "left_forearm",
+            "left_hand",
+            "right_upperarm",
+            "right_forearm",
+            "right_hand",
+            "gun",
+            "cloak",
+            "left_leg_upper",
+            "left_leg_lower",
+            "left_leg_foot",
+            "right_leg_upper",
+            "right_leg_lower",
+            "right_leg_foot"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_r6_ump45_face_diffuse.dds"
+              ],
+              "n": [
+                "APDC_r6_ump45_face_normal.dds"
+              ],
+              "spec": [
+                "APDC_r6_ump45_face_specular.dds"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "APDC_r6_ump45Shape",
+          "bones": [
+            "root",
+            "hull",
+            "spine",
+            "chest",
+            "head",
+            "hair",
+            "left_upperarm",
+            "left_forearm",
+            "left_hand",
+            "right_upperarm",
+            "right_forearm",
+            "right_hand",
+            "gun",
+            "cloak",
+            "left_leg_upper",
+            "left_leg_lower",
+            "left_leg_foot",
+            "right_leg_upper",
+            "right_leg_lower",
+            "right_leg_foot"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_r6_ump45_diffuse.dds"
+              ],
+              "n": [
+                "APDC_r6_ump45_normal.dds"
+              ],
+              "spec": [
+                "APDC_r6_ump45_specular.dds"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "APDC_added_posterior_cranium_NO_FACE_NO_EYES",
+          "bones": [
+            "root",
+            "hull",
+            "spine",
+            "chest",
+            "head",
+            "hair",
+            "left_upperarm",
+            "left_forearm",
+            "left_hand",
+            "right_upperarm",
+            "right_forearm",
+            "right_hand",
+            "gun",
+            "cloak",
+            "left_leg_upper",
+            "left_leg_lower",
+            "left_leg_foot",
+            "right_leg_upper",
+            "right_leg_lower",
+            "right_leg_foot"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_r6_ump45_diffuse.dds"
+              ],
+              "n": [
+                "APDC_r6_ump45_normal.dds"
+              ],
+              "spec": [
+                "APDC_r6_ump45_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "barrel",
+          {
+            "p": [
+              -0.9800000190734863,
+              0.08999991416931152,
+              -0.5600000023841858
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_r6_ump9": {
+      "objects": [
+        {
+          "name": "Face-000",
+          "bones": [
+            "root",
+            "hull",
+            "spine",
+            "chest",
+            "head",
+            "hair",
+            "left_upperarm",
+            "left_forearm",
+            "left_hand",
+            "right_upperarm",
+            "right_forearm",
+            "right_hand",
+            "gun",
+            "cloak",
+            "left_leg_upper",
+            "left_leg_lower",
+            "left_leg_foot",
+            "right_leg_upper",
+            "right_leg_lower",
+            "right_leg_foot"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_r6_ump9_face_diffuse.dds"
+              ],
+              "n": [
+                "APDC_r6_ump9_face_normal.dds"
+              ],
+              "spec": [
+                "APDC_r6_ump9_face_specular.dds"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "APDC_r6_ump9Shape",
+          "bones": [
+            "root",
+            "hull",
+            "spine",
+            "chest",
+            "head",
+            "hair",
+            "left_upperarm",
+            "left_forearm",
+            "left_hand",
+            "right_upperarm",
+            "right_forearm",
+            "right_hand",
+            "gun",
+            "cloak",
+            "left_leg_upper",
+            "left_leg_lower",
+            "left_leg_foot",
+            "right_leg_upper",
+            "right_leg_lower",
+            "right_leg_foot"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_r6_ump9_diffuse.dds"
+              ],
+              "n": [
+                "APDC_r6_ump9_normal.dds"
+              ],
+              "spec": [
+                "APDC_r6_ump9_specular.dds"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "APDC_added_posterior_cranium_NO_FACE_NO_EYES",
+          "bones": [
+            "root",
+            "hull",
+            "spine",
+            "chest",
+            "head",
+            "hair",
+            "left_upperarm",
+            "left_forearm",
+            "left_hand",
+            "right_upperarm",
+            "right_forearm",
+            "right_hand",
+            "gun",
+            "cloak",
+            "left_leg_upper",
+            "left_leg_lower",
+            "left_leg_foot",
+            "right_leg_upper",
+            "right_leg_lower",
+            "right_leg_foot"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_r6_ump9_diffuse.dds"
+              ],
+              "n": [
+                "APDC_r6_ump9_normal.dds"
+              ],
+              "spec": [
+                "APDC_r6_ump9_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "barrel",
+          {
+            "p": [
+              -0.9800000190734863,
+              0.08999991416931152,
+              -0.5600000023841858
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_v5_amphibious": {
+      "objects": [
+        {
+          "name": "APDC_v5_amphibiousShape",
+          "bones": [
+            "root",
+            "hull",
+            "turret",
+            "gun",
+            "wheel_L_1",
+            "wheel_L_2",
+            "wheel_L_3",
+            "wheel_L_4",
+            "wheel_L_5",
+            "wheel_L_6",
+            "wheel_L_front",
+            "wheel_L_rear",
+            "wheel_R_1",
+            "wheel_R_2",
+            "wheel_R_3",
+            "wheel_R_4",
+            "wheel_R_5",
+            "wheel_R_6",
+            "wheel_R_front",
+            "wheel_R_rear"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_v5_amphibious_diffuse.dds"
+              ],
+              "n": [
+                "APDC_v5_amphibious_normal.dds"
+              ],
+              "spec": [
+                "APDC_v5_amphibious_specular.dds"
+              ]
+            },
+            {
+              "shader": [
+                "PdxMeshAdvancedAnim"
+              ],
+              "diff": [
+                "APDC_v5_amphibious_tracks_diffuse.dds"
+              ],
+              "n": [
+                "APDC_v5_amphibious_tracks_normal.dds"
+              ],
+              "spec": [
+                "APDC_v5_amphibious_tracks_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "barrel",
+          {
+            "p": [
+              0.039999961853027344,
+              0.0,
+              -0.8300000429153442
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ],
+        [
+          "left_exhaust",
+          {
+            "p": [
+              0.25,
+              1.620999813079834,
+              0.2800000011920929
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "right_exhaust",
+          {
+            "p": [
+              1.0800000429153442,
+              1.620999813079834,
+              0.2800000011920929
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "left_tracks",
+          {
+            "p": [
+              -1.524999976158142,
+              0.18000000715255737,
+              1.7999999523162842
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ],
+        [
+          "right_tracks",
+          {
+            "p": [
+              1.524999976158142,
+              0.18000000715255737,
+              1.7999999523162842
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_v5_mbt": {
+      "objects": [
+        {
+          "name": "APDC_v5_mbtShape",
+          "bones": [
+            "root",
+            "hull",
+            "turret",
+            "gun",
+            "wheel_L_1",
+            "wheel_L_2",
+            "wheel_L_3",
+            "wheel_L_4",
+            "wheel_L_5",
+            "wheel_L_6",
+            "wheel_L_7",
+            "wheel_R_1",
+            "wheel_R_2",
+            "wheel_R_3",
+            "wheel_R_4",
+            "wheel_R_5",
+            "wheel_R_6",
+            "wheel_R_7"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_v5_mbt_diffuse.dds"
+              ],
+              "n": [
+                "APDC_v5_mbt_normal.dds"
+              ],
+              "spec": [
+                "APDC_v5_mbt_specular.dds"
+              ]
+            },
+            {
+              "shader": [
+                "PdxMeshAdvancedAnim"
+              ],
+              "diff": [
+                "APDC_v5_mbt_tracks_diffuse.dds"
+              ],
+              "n": [
+                "APDC_v5_mbt_tracks_normal.dds"
+              ],
+              "spec": [
+                "APDC_v5_mbt_tracks_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "barrel",
+          {
+            "p": [
+              0.0,
+              0.0,
+              -4.529999732971191
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ],
+        [
+          "left_exhaust",
+          {
+            "p": [
+              -0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "right_exhaust",
+          {
+            "p": [
+              0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "left_tracks",
+          {
+            "p": [
+              -1.2000000476837158,
+              0.18000000715255737,
+              1.7999999523162842
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ],
+        [
+          "right_tracks",
+          {
+            "p": [
+              1.2000000476837158,
+              0.18000000715255737,
+              1.7999999523162842
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_v5_tracked": {
+      "objects": [
+        {
+          "name": "APDC_v5_trackedShape",
+          "bones": [
+            "root",
+            "hull",
+            "turret",
+            "gun",
+            "wheel_L_1",
+            "wheel_L_2",
+            "wheel_L_3",
+            "wheel_L_4",
+            "wheel_L_5",
+            "wheel_L_6",
+            "wheel_L_7",
+            "wheel_R_1",
+            "wheel_R_2",
+            "wheel_R_3",
+            "wheel_R_4",
+            "wheel_R_5",
+            "wheel_R_6",
+            "wheel_R_7"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_v5_tracked_diffuse.dds"
+              ],
+              "n": [
+                "APDC_v5_tracked_normal.dds"
+              ],
+              "spec": [
+                "APDC_v5_tracked_specular.dds"
+              ]
+            },
+            {
+              "shader": [
+                "PdxMeshAdvancedAnim"
+              ],
+              "diff": [
+                "APDC_v5_tracked_tracks_diffuse.dds"
+              ],
+              "n": [
+                "APDC_v5_tracked_tracks_normal.dds"
+              ],
+              "spec": [
+                "APDC_v5_tracked_tracks_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "barrel",
+          {
+            "p": [
+              0.0,
+              0.0,
+              -2.7300000190734863
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ],
+        [
+          "left_exhaust",
+          {
+            "p": [
+              -0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "right_exhaust",
+          {
+            "p": [
+              0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "left_tracks",
+          {
+            "p": [
+              -1.2000000476837158,
+              0.18000000715255737,
+              1.7999999523162842
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ],
+        [
+          "right_tracks",
+          {
+            "p": [
+              1.2000000476837158,
+              0.18000000715255737,
+              1.7999999523162842
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_v5_truck": {
+      "objects": [
+        {
+          "name": "APDC_v5_truckShape",
+          "bones": [
+            "root",
+            "hull",
+            "wheel_L_1",
+            "wheel_L_2",
+            "wheel_L_3",
+            "wheel_L_4",
+            "wheel_R_1",
+            "wheel_R_2",
+            "wheel_R_3",
+            "wheel_R_4"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_v5_truck_diffuse.dds"
+              ],
+              "n": [
+                "APDC_v5_truck_normal.dds"
+              ],
+              "spec": [
+                "APDC_v5_truck_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "left_exhaust",
+          {
+            "p": [
+              -0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "right_exhaust",
+          {
+            "p": [
+              0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "left_tracks",
+          {
+            "p": [
+              -1.2000000476837158,
+              0.18000000715255737,
+              1.7999999523162842
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ],
+        [
+          "right_tracks",
+          {
+            "p": [
+              1.2000000476837158,
+              0.18000000715255737,
+              1.7999999523162842
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_v5_wheeled": {
+      "objects": [
+        {
+          "name": "APDC_v5_wheeledShape",
+          "bones": [
+            "root",
+            "hull",
+            "turret",
+            "gun",
+            "wheel_L_1",
+            "wheel_L_2",
+            "wheel_L_3",
+            "wheel_L_4",
+            "wheel_R_1",
+            "wheel_R_2",
+            "wheel_R_3",
+            "wheel_R_4"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_v5_wheeled_diffuse.dds"
+              ],
+              "n": [
+                "APDC_v5_wheeled_normal.dds"
+              ],
+              "spec": [
+                "APDC_v5_wheeled_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "barrel",
+          {
+            "p": [
+              0.0,
+              0.0,
+              -2.7300000190734863
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "gun"
+            ]
+          }
+        ],
+        [
+          "left_exhaust",
+          {
+            "p": [
+              -0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "right_exhaust",
+          {
+            "p": [
+              0.800000011920929,
+              0.2999999523162842,
+              3.200000047683716
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "hull"
+            ]
+          }
+        ],
+        [
+          "left_tracks",
+          {
+            "p": [
+              -1.2000000476837158,
+              0.18000000715255737,
+              1.7999999523162842
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ],
+        [
+          "right_tracks",
+          {
+            "p": [
+              1.2000000476837158,
+              0.18000000715255737,
+              1.7999999523162842
+            ],
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "pa": [
+              "root"
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_AK12_attachment": {
+      "objects": [
+        {
+          "name": "APDC_AK12_vanilla_attachmentShape",
+          "bones": [],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_vanilla_infantry_diffuse.dds"
+              ],
+              "n": [
+                "APDC_vanilla_infantry_normal.dds"
+              ],
+              "spec": [
+                "APDC_vanilla_infantry_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": [
+        [
+          "cartridge",
+          {
+            "p": [
+              0.30399999022483826,
+              0.39629998803138733,
+              0.16099999845027924
+            ],
+            "q": [
+              0.0,
+              0.0,
+              -0.0,
+              -1.0
+            ],
+            "tx": [
+              1.0,
+              0.0,
+              -0.0,
+              0.0,
+              0.0,
+              1.0,
+              -0.0,
+              0.0,
+              -0.0,
+              -0.0,
+              1.0,
+              0.0,
+              0.30399999022483826,
+              0.39629998803138733,
+              0.16099999845027924,
+              1.0
+            ]
+          }
+        ],
+        [
+          "muzzle",
+          {
+            "p": [
+              0.0,
+              0.36399999260902405,
+              -2.746000051498413
+            ],
+            "q": [
+              0.0,
+              0.0,
+              -0.0,
+              -1.0
+            ],
+            "tx": [
+              1.0,
+              0.0,
+              -0.0,
+              0.0,
+              0.0,
+              1.0,
+              -0.0,
+              0.0,
+              -0.0,
+              -0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.36399999260902405,
+              -2.746000051498413,
+              1.0
+            ]
+          }
+        ]
+      ]
+    },
+    "APDC_vanilla_infantry": {
+      "objects": [
+        {
+          "name": "APDC_vanilla_infantryFaceShape",
+          "bones": [
+            "Root",
+            "Hip",
+            "LeftUpLeg",
+            "LeftLeg",
+            "LeftFoot",
+            "LeftToeBase",
+            "back_mid",
+            "LeftShoulder",
+            "LeftArm",
+            "LeftForeArm",
+            "LeftForeArmRoll",
+            "LeftHand",
+            "Left_Hand_node",
+            "Left_Hand_node_2",
+            "Left_Hand_node_3",
+            "Left_Hand_node_4",
+            "head",
+            "RightShoulder",
+            "RightArm",
+            "RightForeArm",
+            "RightForeArmRoll",
+            "RightHand",
+            "Right_Hand_node",
+            "Right_Hand_node_2",
+            "Right_Hand_node_3",
+            "Right_Hand_node_4",
+            "mid_back_node",
+            "RightUpLeg",
+            "RightLeg",
+            "RightFoot",
+            "RightToeBase",
+            "Root_node_1",
+            "Root_node_2"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_vanilla_infantry_face_diffuse.dds"
+              ],
+              "n": [
+                "APDC_vanilla_infantry_face_normal.dds"
+              ],
+              "spec": [
+                "APDC_vanilla_infantry_face_specular.dds"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "APDC_vanilla_infantryShape",
+          "bones": [
+            "Root",
+            "Hip",
+            "LeftUpLeg",
+            "LeftLeg",
+            "LeftFoot",
+            "LeftToeBase",
+            "back_mid",
+            "LeftShoulder",
+            "LeftArm",
+            "LeftForeArm",
+            "LeftForeArmRoll",
+            "LeftHand",
+            "Left_Hand_node",
+            "Left_Hand_node_2",
+            "Left_Hand_node_3",
+            "Left_Hand_node_4",
+            "head",
+            "RightShoulder",
+            "RightArm",
+            "RightForeArm",
+            "RightForeArmRoll",
+            "RightHand",
+            "Right_Hand_node",
+            "Right_Hand_node_2",
+            "Right_Hand_node_3",
+            "Right_Hand_node_4",
+            "mid_back_node",
+            "RightUpLeg",
+            "RightLeg",
+            "RightFoot",
+            "RightToeBase",
+            "Root_node_1",
+            "Root_node_2"
+          ],
+          "materials": [
+            {
+              "shader": [
+                "PdxMeshAdvanced"
+              ],
+              "diff": [
+                "APDC_vanilla_infantry_diffuse.dds"
+              ],
+              "n": [
+                "APDC_vanilla_infantry_normal.dds"
+              ],
+              "spec": [
+                "APDC_vanilla_infantry_specular.dds"
+              ]
+            }
+          ]
+        }
+      ],
+      "locators": []
+    }
+  },
+  "sources": {
+    "APDC_b2_aa02": {
+      "info": {
+        "id": "APDC_b2_aa02",
+        "label": "AA02类机甲",
+        "kind": "biped",
+        "triangles": 28004,
+        "vertices": 48963,
+        "bones": 15,
+        "materials": 1,
+        "dimensions": [
+          4.309678554534912,
+          4.979176998138428,
+          4.23400354385376
+        ],
+        "scale": 0.52,
+        "animation_clips": [
+          "idle",
+          "move",
+          "attack"
+        ],
+        "legs": [
+          {
+            "name": "left_leg",
+            "hip": [
+              -0.6912,
+              0.09,
+              2.016191442799568
+            ],
+            "knee": [
+              -1.1124,
+              -0.56,
+              1.232991442799568
+            ],
+            "ankle": [
+              -1.1124,
+              0.01,
+              0.3265914427995682
+            ],
+            "phase": 0,
+            "bones": [
+              "left_leg_upper",
+              "left_leg_lower",
+              "left_leg_foot"
+            ]
+          },
+          {
+            "name": "right_leg",
+            "hip": [
+              0.6912,
+              0.09,
+              2.016191442799568
+            ],
+            "knee": [
+              1.1124,
+              -0.56,
+              1.232991442799568
+            ],
+            "ankle": [
+              1.1124,
+              0.01,
+              0.3265914427995682
+            ],
+            "phase": 3.141592653589793,
+            "bones": [
+              "right_leg_upper",
+              "right_leg_lower",
+              "right_leg_foot"
+            ]
+          }
+        ],
+        "parts": {
+          "heavy_biped_mechanical_core": 0,
+          "sensor_head_and_backpack": 25322,
+          "long_left_shoulder_rail_cannon": 41614,
+          "right_shoulder_missile_box": 41878
+        },
+        "notes": [],
+        "game_runtime_tested": false,
+        "not_installed": true
+      },
+      "blend": "D:\\Desktop\\第二批十套模型_待接入\\可编辑源文件\\AA02类机甲\\APDC_b2_aa02.blend",
+      "label": "AA02类机甲"
+    },
+    "APDC_b2_automaton": {
+      "info": {
+        "id": "APDC_b2_automaton",
+        "label": "基础自动化机械",
+        "kind": "walker",
+        "triangles": 13740,
+        "vertices": 24863,
+        "bones": 19,
+        "materials": 1,
+        "dimensions": [
+          2.450000047683716,
+          3.0920000076293945,
+          3.3504083156585693
+        ],
+        "scale": 0.65,
+        "animation_clips": [
+          "idle",
+          "move",
+          "attack"
+        ],
+        "legs": [
+          {
+            "name": "L0",
+            "hip": [
+              -0.55,
+              -0.41,
+              1.8599999797344209
+            ],
+            "knee": [
+              -0.79,
+              -0.7133999999999999,
+              1.0699999797344208
+            ],
+            "ankle": [
+              -1.04,
+              -0.861,
+              0.2599999797344208
+            ],
+            "phase": 0.0,
+            "bones": [
+              "L0_upper",
+              "L0_lower",
+              "L0_foot"
+            ]
+          },
+          {
+            "name": "L1",
+            "hip": [
+              -0.55,
+              0.42,
+              1.8599999797344209
+            ],
+            "knee": [
+              -0.79,
+              0.7308,
+              1.0699999797344208
+            ],
+            "ankle": [
+              -1.04,
+              0.882,
+              0.2599999797344208
+            ],
+            "phase": 3.141592653589793,
+            "bones": [
+              "L1_upper",
+              "L1_lower",
+              "L1_foot"
+            ]
+          },
+          {
+            "name": "R0",
+            "hip": [
+              0.55,
+              -0.41,
+              1.8599999797344209
+            ],
+            "knee": [
+              0.79,
+              -0.7133999999999999,
+              1.0699999797344208
+            ],
+            "ankle": [
+              1.04,
+              -0.861,
+              0.2599999797344208
+            ],
+            "phase": 3.141592653589793,
+            "bones": [
+              "R0_upper",
+              "R0_lower",
+              "R0_foot"
+            ]
+          },
+          {
+            "name": "R1",
+            "hip": [
+              0.55,
+              0.42,
+              1.8599999797344209
+            ],
+            "knee": [
+              0.79,
+              0.7308,
+              1.0699999797344208
+            ],
+            "ankle": [
+              1.04,
+              0.882,
+              0.2599999797344208
+            ],
+            "phase": 0.0,
+            "bones": [
+              "R1_upper",
+              "R1_lower",
+              "R1_foot"
+            ]
+          }
+        ],
+        "parts": {
+          "compact_sloped_single_eye_body": 0,
+          "short_front_weapon": 25568
+        },
+        "notes": [],
+        "game_runtime_tested": false,
+        "not_installed": true
+      },
+      "blend": "D:\\Desktop\\第二批十套模型_待接入\\可编辑源文件\\基础自动化机械\\APDC_b2_automaton.blend",
+      "label": "基础自动化机械"
+    },
+    "APDC_b2_doomdog": {
+      "info": {
+        "id": "APDC_b2_doomdog",
+        "label": "末日魔犬",
+        "kind": "walker",
+        "triangles": 15368,
+        "vertices": 28087,
+        "bones": 16,
+        "materials": 1,
+        "dimensions": [
+          2.5758955478668213,
+          2.1399998664855957,
+          4.08853816986084
+        ],
+        "scale": 0.62,
+        "animation_clips": [
+          "idle",
+          "move",
+          "attack"
+        ],
+        "legs": [
+          {
+            "name": "L0",
+            "hip": [
+              -0.59,
+              -0.25,
+              1.51
+            ],
+            "knee": [
+              -0.88,
+              -0.45999999999999996,
+              1.04
+            ],
+            "ankle": [
+              -1.1,
+              -0.96,
+              0.14
+            ],
+            "phase": 0.0,
+            "bones": [
+              "L0_upper",
+              "L0_lower",
+              "L0_foot"
+            ]
+          },
+          {
+            "name": "L1",
+            "hip": [
+              -0.59,
+              0.36,
+              1.51
+            ],
+            "knee": [
+              -0.88,
+              0.15,
+              1.04
+            ],
+            "ankle": [
+              -1.1,
+              -0.35,
+              0.14
+            ],
+            "phase": 3.141592653589793,
+            "bones": [
+              "L1_upper",
+              "L1_lower",
+              "L1_foot"
+            ]
+          },
+          {
+            "name": "R0",
+            "hip": [
+              0.59,
+              -0.25,
+              1.51
+            ],
+            "knee": [
+              0.88,
+              -0.45999999999999996,
+              1.04
+            ],
+            "ankle": [
+              1.1,
+              -0.96,
+              0.14
+            ],
+            "phase": 3.141592653589793,
+            "bones": [
+              "R0_upper",
+              "R0_lower",
+              "R0_foot"
+            ]
+          },
+          {
+            "name": "R1",
+            "hip": [
+              0.59,
+              0.36,
+              1.51
+            ],
+            "knee": [
+              0.88,
+              0.15,
+              1.04
+            ],
+            "ankle": [
+              1.1,
+              -0.35,
+              0.14
+            ],
+            "phase": 0.0,
+            "bones": [
+              "R1_upper",
+              "R1_lower",
+              "R1_foot"
+            ]
+          }
+        ],
+        "parts": {
+          "black_tapered_upright_armour": 0
+        },
+        "notes": [
+          "末日魔犬的背部双长匣按参考建立；具体武器逻辑和射击特效未接入。"
+        ],
+        "game_runtime_tested": false,
+        "not_installed": true
+      },
+      "blend": "D:\\Desktop\\第二批十套模型_待接入\\可编辑源文件\\末日魔犬\\APDC_b2_doomdog.blend",
+      "label": "末日魔犬"
+    },
+    "APDC_b2_goliath": {
+      "info": {
+        "id": "APDC_b2_goliath",
+        "label": "歌莉娅装置",
+        "kind": "walker",
+        "triangles": 7668,
+        "vertices": 14458,
+        "bones": 18,
+        "materials": 1,
+        "dimensions": [
+          2.180000066757202,
+          1.4815236330032349,
+          2.9101192951202393
+        ],
+        "scale": 0.7,
+        "animation_clips": [
+          "idle",
+          "move",
+          "attack"
+        ],
+        "legs": [
+          {
+            "name": "L0",
+            "hip": [
+              -0.58,
+              -0.36,
+              1.02
+            ],
+            "knee": [
+              -0.89,
+              -0.34559999999999996,
+              0.62
+            ],
+            "ankle": [
+              -1.0,
+              -0.576,
+              0.09
+            ],
+            "phase": 0.0,
+            "bones": [
+              "L0_upper",
+              "L0_lower",
+              "L0_foot"
+            ]
+          },
+          {
+            "name": "L1",
+            "hip": [
+              -0.58,
+              0.38,
+              1.02
+            ],
+            "knee": [
+              -0.89,
+              0.3648,
+              0.62
+            ],
+            "ankle": [
+              -1.0,
+              0.6080000000000001,
+              0.09
+            ],
+            "phase": 3.141592653589793,
+            "bones": [
+              "L1_upper",
+              "L1_lower",
+              "L1_foot"
+            ]
+          },
+          {
+            "name": "R0",
+            "hip": [
+              0.58,
+              -0.36,
+              1.02
+            ],
+            "knee": [
+              0.89,
+              -0.34559999999999996,
+              0.62
+            ],
+            "ankle": [
+              1.0,
+              -0.576,
+              0.09
+            ],
+            "phase": 3.141592653589793,
+            "bones": [
+              "R0_upper",
+              "R0_lower",
+              "R0_foot"
+            ]
+          },
+          {
+            "name": "R1",
+            "hip": [
+              0.58,
+              0.38,
+              1.02
+            ],
+            "knee": [
+              0.89,
+              0.3648,
+              0.62
+            ],
+            "ankle": [
+              1.0,
+              0.6080000000000001,
+              0.09
+            ],
+            "phase": 0.0,
+            "bones": [
+              "R1_upper",
+              "R1_lower",
+              "R1_foot"
+            ]
+          }
+        ],
+        "parts": {
+          "segmented_crimson_egg_shell": 0
+        },
+        "notes": [
+          "歌莉娅的 attack 为蓄势下蹲循环，未新增自爆伤害、爆炸逻辑或技能。"
+        ],
+        "game_runtime_tested": false,
+        "not_installed": true
+      },
+      "blend": "D:\\Desktop\\第二批十套模型_待接入\\可编辑源文件\\歌莉娅装置\\APDC_b2_goliath.blend",
+      "label": "歌莉娅装置"
+    },
+    "APDC_b2_nyto": {
+      "info": {
+        "id": "APDC_b2_nyto",
+        "label": "涅托",
+        "kind": "biped",
+        "triangles": 12042,
+        "vertices": 23558,
+        "bones": 19,
+        "materials": 1,
+        "dimensions": [
+          4.691800117492676,
+          0.7489603161811829,
+          6.226528167724609
+        ],
+        "scale": 0.8,
+        "animation_clips": [
+          "idle",
+          "move",
+          "attack"
+        ],
+        "legs": [
+          {
+            "name": "left_leg",
+            "hip": [
+              -0.21,
+              0,
+              2.76
+            ],
+            "knee": [
+              -0.25,
+              -0.04,
+              1.5499999999999998
+            ],
+            "ankle": [
+              -0.24,
+              0.015,
+              0.24
+            ],
+            "phase": 0,
+            "bones": [
+              "left_leg_upper",
+              "left_leg_lower",
+              "left_leg_foot"
+            ]
+          },
+          {
+            "name": "right_leg",
+            "hip": [
+              0.21,
+              0,
+              2.76
+            ],
+            "knee": [
+              0.25,
+              -0.04,
+              1.5499999999999998
+            ],
+            "ankle": [
+              0.24,
+              0.015,
+              0.24
+            ],
+            "phase": 3.141592653589793,
+            "bones": [
+              "right_leg_upper",
+              "right_leg_lower",
+              "right_leg_foot"
+            ]
+          }
+        ],
+        "parts": {
+          "slender_armoured_humanoid_body": 0,
+          "collar_and_gold_accents": 8804,
+          "asymmetric_long_white_robe": 9740,
+          "stylized_anime_face": 12872,
+          "white_layered_hair": 19304,
+          "temple_devices_and_hanging_silver_ornaments": 21544,
+          "large_mechanical_scythe": 21820
+        },
+        "notes": [
+          "涅托为地图尺度的风格化重建：独立人形骨架，披袍使用混合权重，头发与镰刀有独立挂载；不是从原作品提取的高模或原动画。"
+        ],
+        "game_runtime_tested": false,
+        "not_installed": true
+      },
+      "blend": "D:\\Desktop\\第二批十套模型_待接入\\可编辑源文件\\涅托\\APDC_b2_nyto.blend",
+      "label": "涅托"
+    },
+    "APDC_b2_amphibious_tank": {
+      "info": {
+        "id": "APDC_b2_amphibious_tank",
+        "label": "通用两栖坦克",
+        "kind": "tracked",
+        "triangles": 30124,
+        "vertices": 53397,
+        "bones": 22,
+        "materials": 2,
+        "dimensions": [
+          3.544342041015625,
+          9.630000114440918,
+          3.85129451751709
+        ],
+        "scale": 0.5,
+        "animation_clips": [
+          "idle",
+          "move",
+          "attack"
+        ],
+        "legs": [],
+        "parts": {
+          "low_boat_hull": 0,
+          "detailed_suspension_and_tracks": 56,
+          "wheel_L_1": 6440,
+          "wheel_L_2": 7920,
+          "wheel_L_3": 9400,
+          "wheel_L_4": 10880,
+          "wheel_L_5": 12360,
+          "wheel_L_6": 13840,
+          "wheel_L_7": 15320,
+          "wheel_L_front": 16800,
+          "wheel_L_rear": 18700,
+          "wheel_R_1": 26984,
+          "wheel_R_2": 28464,
+          "wheel_R_3": 29944,
+          "wheel_R_4": 31424,
+          "wheel_R_5": 32904,
+          "wheel_R_6": 34384,
+          "wheel_R_7": 35864,
+          "wheel_R_front": 37344,
+          "wheel_R_rear": 39244,
+          "sloping_amphibious_turret": 51628,
+          "rear_waterjets": 55680
+        },
+        "notes": [],
+        "game_runtime_tested": false,
+        "not_installed": true
+      },
+      "blend": "D:\\Desktop\\第二批十套模型_待接入\\可编辑源文件\\通用两栖坦克\\APDC_b2_amphibious_tank.blend",
+      "label": "通用两栖坦克"
+    },
+    "APDC_b2_multipod": {
+      "info": {
+        "id": "APDC_b2_multipod",
+        "label": "通用多足机械",
+        "kind": "walker",
+        "triangles": 17752,
+        "vertices": 32468,
+        "bones": 21,
+        "materials": 1,
+        "dimensions": [
+          3.395895481109619,
+          4.539999961853027,
+          4.409999847412109
+        ],
+        "scale": 0.6,
+        "animation_clips": [
+          "idle",
+          "move",
+          "attack"
+        ],
+        "legs": [
+          {
+            "name": "L0",
+            "hip": [
+              -0.53,
+              -0.66,
+              1.54
+            ],
+            "knee": [
+              -1.1,
+              -0.9400000000000001,
+              1.33
+            ],
+            "ankle": [
+              -1.32,
+              -1.31,
+              0.14
+            ],
+            "phase": 0.0,
+            "bones": [
+              "L0_upper",
+              "L0_lower",
+              "L0_foot"
+            ]
+          },
+          {
+            "name": "L1",
+            "hip": [
+              -0.53,
+              0.04,
+              1.54
+            ],
+            "knee": [
+              -1.22,
+              0.04,
+              1.33
+            ],
+            "ankle": [
+              -1.51,
+              0.04,
+              0.14
+            ],
+            "phase": 3.141592653589793,
+            "bones": [
+              "L1_upper",
+              "L1_lower",
+              "L1_foot"
+            ]
+          },
+          {
+            "name": "L2",
+            "hip": [
+              -0.53,
+              0.74,
+              1.54
+            ],
+            "knee": [
+              -1.1,
+              1.02,
+              1.33
+            ],
+            "ankle": [
+              -1.32,
+              1.3900000000000001,
+              0.14
+            ],
+            "phase": 0.0,
+            "bones": [
+              "L2_upper",
+              "L2_lower",
+              "L2_foot"
+            ]
+          },
+          {
+            "name": "R0",
+            "hip": [
+              0.53,
+              -0.66,
+              1.54
+            ],
+            "knee": [
+              1.1,
+              -0.9400000000000001,
+              1.33
+            ],
+            "ankle": [
+              1.32,
+              -1.31,
+              0.14
+            ],
+            "phase": 3.141592653589793,
+            "bones": [
+              "R0_upper",
+              "R0_lower",
+              "R0_foot"
+            ]
+          },
+          {
+            "name": "R1",
+            "hip": [
+              0.53,
+              0.04,
+              1.54
+            ],
+            "knee": [
+              1.22,
+              0.04,
+              1.33
+            ],
+            "ankle": [
+              1.51,
+              0.04,
+              0.14
+            ],
+            "phase": 0.0,
+            "bones": [
+              "R1_upper",
+              "R1_lower",
+              "R1_foot"
+            ]
+          },
+          {
+            "name": "R2",
+            "hip": [
+              0.53,
+              0.74,
+              1.54
+            ],
+            "knee": [
+              1.1,
+              1.02,
+              1.33
+            ],
+            "ankle": [
+              1.32,
+              1.3900000000000001,
+              0.14
+            ],
+            "phase": 3.141592653589793,
+            "bones": [
+              "R2_upper",
+              "R2_lower",
+              "R2_foot"
+            ]
+          }
+        ],
+        "parts": {
+          "low_tan_multi_leg_core": 0,
+          "tall_swept_dorsal_spine": 31840,
+          "low_forward_cannon": 32014
+        },
+        "notes": [
+          "低分辨率参考未完整显示远侧腿部；本模型按六足对称机构补齐。"
+        ],
+        "game_runtime_tested": false,
+        "not_installed": true
+      },
+      "blend": "D:\\Desktop\\第二批十套模型_待接入\\可编辑源文件\\通用多足机械\\APDC_b2_multipod.blend",
+      "label": "通用多足机械"
+    },
+    "APDC_b2_helicopter": {
+      "info": {
+        "id": "APDC_b2_helicopter",
+        "label": "通用直升机",
+        "kind": "helicopter",
+        "triangles": 9512,
+        "vertices": 17413,
+        "bones": 4,
+        "materials": 1,
+        "dimensions": [
+          11.13447093963623,
+          12.979352951049805,
+          4.586025238037109
+        ],
+        "scale": 0.4,
+        "animation_clips": [
+          "idle",
+          "move",
+          "attack"
+        ],
+        "legs": [],
+        "parts": {
+          "rounded_transport_helicopter_fuselage": 0,
+          "five_blade_main_rotor": 14600,
+          "three_blade_tail_rotor": 17040,
+          "aerials_and_access_details": 17208
+        },
+        "notes": [
+          "按参考建为运输直升机；战斗状态为悬停，未额外添加机枪或火箭巢。旋翼使用独立骨骼。"
+        ],
+        "game_runtime_tested": false,
+        "not_installed": true
+      },
+      "blend": "D:\\Desktop\\第二批十套模型_待接入\\可编辑源文件\\通用直升机\\APDC_b2_helicopter.blend",
+      "label": "通用直升机"
+    },
+    "APDC_b2_armored_engineer": {
+      "info": {
+        "id": "APDC_b2_armored_engineer",
+        "label": "通用装甲工程车辆",
+        "kind": "tracked",
+        "triangles": 26076,
+        "vertices": 45938,
+        "bones": 23,
+        "materials": 2,
+        "dimensions": [
+          3.544342041015625,
+          7.518880367279053,
+          4.801119804382324
+        ],
+        "scale": 0.5,
+        "animation_clips": [
+          "idle",
+          "move",
+          "attack"
+        ],
+        "legs": [],
+        "parts": {
+          "engineer_low_tracked_hull": 0,
+          "detailed_suspension_and_tracks": 56,
+          "wheel_L_1": 6440,
+          "wheel_L_2": 7920,
+          "wheel_L_3": 9400,
+          "wheel_L_4": 10880,
+          "wheel_L_5": 12360,
+          "wheel_L_6": 13840,
+          "wheel_L_7": 15320,
+          "wheel_L_front": 16800,
+          "wheel_L_rear": 18700,
+          "wheel_R_1": 26984,
+          "wheel_R_2": 28464,
+          "wheel_R_3": 29944,
+          "wheel_R_4": 31424,
+          "wheel_R_5": 32904,
+          "wheel_R_6": 34384,
+          "wheel_R_7": 35864,
+          "wheel_R_front": 37344,
+          "wheel_R_rear": 39244,
+          "open_engineer_working_station": 44968,
+          "raised_hydraulic_bucket_assembly": 45880
+        },
+        "notes": [
+          "工程工作动画为铲斗小幅动作；未制作地形开挖或施工特效。"
+        ],
+        "game_runtime_tested": false,
+        "not_installed": true
+      },
+      "blend": "D:\\Desktop\\第二批十套模型_待接入\\可编辑源文件\\通用装甲工程车辆\\APDC_b2_armored_engineer.blend",
+      "label": "通用装甲工程车辆"
+    },
+    "APDC_b2_light_tank": {
+      "info": {
+        "id": "APDC_b2_light_tank",
+        "label": "通用轻型坦克",
+        "kind": "tracked",
+        "triangles": 26756,
+        "vertices": 46921,
+        "bones": 22,
+        "materials": 2,
+        "dimensions": [
+          3.2627367973327637,
+          8.139778137207031,
+          3.8112757205963135
+        ],
+        "scale": 0.5,
+        "animation_clips": [
+          "idle",
+          "move",
+          "attack"
+        ],
+        "legs": [],
+        "parts": {
+          "light_tank_wedge_hull": 0,
+          "detailed_suspension_and_tracks": 56,
+          "wheel_L_1": 6440,
+          "wheel_L_2": 7920,
+          "wheel_L_3": 9400,
+          "wheel_L_4": 10880,
+          "wheel_L_5": 12360,
+          "wheel_L_6": 13840,
+          "wheel_L_7": 15320,
+          "wheel_L_front": 16800,
+          "wheel_L_rear": 18700,
+          "wheel_R_1": 26984,
+          "wheel_R_2": 28464,
+          "wheel_R_3": 29944,
+          "wheel_R_4": 31424,
+          "wheel_R_5": 32904,
+          "wheel_R_6": 34384,
+          "wheel_R_7": 35864,
+          "wheel_R_front": 37344,
+          "wheel_R_rear": 39244,
+          "large_angular_light_tank_turret": 46140
+        },
+        "notes": [],
+        "game_runtime_tested": false,
+        "not_installed": true
+      },
+      "blend": "D:\\Desktop\\第二批十套模型_待接入\\可编辑源文件\\通用轻型坦克\\APDC_b2_light_tank.blend",
+      "label": "通用轻型坦克"
+    },
+    "APDC_r6_ump45": {
+      "info": {
+        "face_source": "D:\\Desktop\\涅托头部_授权脸模方案\\接身修订\\涅托_新头接身_导出材质.blend",
+        "authorized_face": "Cerydra original Face",
+        "face_vertex_uv_sha256": "b020a7620dacaad57df00b7f2e99998eee97c739fff8a5fc862df806ea17b6fc",
+        "face_shape_and_uv_preserved": true,
+        "posterior_cranium_reused_from_nyto": true,
+        "eye_geometry_created": false,
+        "neck_bottom": 4.225,
+        "neck_top": 4.47,
+        "neck_axis_y": 0.025,
+        "nyto_chin_z": 4.352,
+        "id": "APDC_r6_ump45",
+        "label": "UMP45",
+        "kind": "biped",
+        "scale": 0.8,
+        "camera": [
+          6,
+          -17,
+          7.6
+        ],
+        "ortho": 7.4,
+        "triangles": 31774,
+        "vertices": 66325,
+        "bones": 20,
+        "objects": [
+          "APDC_r6_ump45",
+          "APDC_r6_ump45_authorized_face",
+          "APDC_r6_ump45_nyto_depth_cranium"
+        ],
+        "parts": {
+          "layered_body_and_clothes": 0,
+          "short_flesh_neck": 12280,
+          "shirt_collar_and_black_yellow_jacket": 12400,
+          "layered_hair_and_ponytail": 16034,
+          "character_head_accessories": 37842
+        },
+        "game_runtime_tested": false,
+        "installed": false
+      },
+      "blend": "D:\\Desktop\\剩余六套单位与步枪_待接入\\可编辑源文件\\UMP45\\APDC_r6_ump45.blend",
+      "label": "UMP45"
+    },
+    "APDC_r6_ump9": {
+      "info": {
+        "face_source": "D:\\Desktop\\涅托头部_授权脸模方案\\接身修订\\涅托_新头接身_导出材质.blend",
+        "authorized_face": "Cerydra original Face",
+        "face_vertex_uv_sha256": "b020a7620dacaad57df00b7f2e99998eee97c739fff8a5fc862df806ea17b6fc",
+        "face_shape_and_uv_preserved": true,
+        "posterior_cranium_reused_from_nyto": true,
+        "eye_geometry_created": false,
+        "neck_bottom": 4.225,
+        "neck_top": 4.47,
+        "neck_axis_y": 0.025,
+        "nyto_chin_z": 4.352,
+        "id": "APDC_r6_ump9",
+        "label": "UMP9",
+        "kind": "biped",
+        "scale": 0.8,
+        "camera": [
+          6,
+          -17,
+          7.6
+        ],
+        "ortho": 7.4,
+        "triangles": 31053,
+        "vertices": 64721,
+        "bones": 20,
+        "objects": [
+          "APDC_r6_ump9",
+          "APDC_r6_ump9_authorized_face",
+          "APDC_r6_ump9_nyto_depth_cranium"
+        ],
+        "parts": {
+          "layered_body_and_clothes": 0,
+          "short_flesh_neck": 12560,
+          "shirt_collar_and_black_yellow_jacket": 12680,
+          "layered_hair_and_ponytail": 17268,
+          "character_head_accessories": 35380
+        },
+        "game_runtime_tested": false,
+        "installed": false
+      },
+      "blend": "D:\\Desktop\\剩余六套单位与步枪_待接入\\可编辑源文件\\UMP9\\APDC_r6_ump9.blend",
+      "label": "UMP9"
+    },
+    "APDC_r6_lyuba": {
+      "info": {
+        "face_source": "MakeHuman hm08 base + caucasian-female-old.target",
+        "source_url": "https://github.com/makehumancommunity/makehuman",
+        "license": "CC0-1.0",
+        "source_files": "D:\\Desktop\\剩余六套单位与步枪_待接入\\来源记录\\MakeHuman_CC0",
+        "extracted_head_vertices": 4329,
+        "created_face_from_scratch": false,
+        "id": "APDC_r6_lyuba",
+        "label": "柳芭老妈",
+        "kind": "wheelchair",
+        "scale": 1.02,
+        "camera": [
+          7,
+          -13,
+          6
+        ],
+        "ortho": 5.0,
+        "triangles": 37438,
+        "vertices": 69149,
+        "bones": 17,
+        "objects": [
+          "APDC_r6_lyuba",
+          "APDC_r6_lyuba_CC0_elderly_head"
+        ],
+        "parts": {
+          "seated_elderly_body": 8904
+        },
+        "game_runtime_tested": false,
+        "installed": false
+      },
+      "blend": "D:\\Desktop\\剩余六套单位与步枪_待接入\\可编辑源文件\\柳芭老妈\\APDC_r6_lyuba.blend",
+      "label": "柳芭老妈"
+    },
+    "APDC_r6_tactical_doll": {
+      "info": {
+        "id": "APDC_r6_tactical_doll",
+        "label": "通用战术人形",
+        "kind": "biped",
+        "scale": 0.8,
+        "camera": [
+          8,
+          -16,
+          8
+        ],
+        "ortho": 7.4,
+        "triangles": 13952,
+        "vertices": 25947,
+        "bones": 20,
+        "objects": [
+          "APDC_r6_tactical_doll"
+        ],
+        "parts": {
+          "layered_body_and_clothes": 0,
+          "mechanical_chest": 11144,
+          "compact_mechanical_head": 12160
+        },
+        "game_runtime_tested": false,
+        "installed": false
+      },
+      "blend": "D:\\Desktop\\剩余六套单位与步枪_待接入\\可编辑源文件\\通用战术人形\\APDC_r6_tactical_doll.blend",
+      "label": "通用战术人形"
+    },
+    "APDC_r6_infantry": {
+      "info": {
+        "face_source": "D:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\gfx\\models\\units\\GER_infantry.mesh",
+        "extracted_head_vertices": 474,
+        "source_body_included": false,
+        "face_uniform_scale": 0.62,
+        "neck_bottom": 4.23,
+        "neck_top": 4.44,
+        "neck_axis_y": 0.055,
+        "id": "APDC_r6_infantry",
+        "label": "通用步兵人物",
+        "kind": "biped",
+        "scale": 0.8,
+        "camera": [
+          8,
+          -16,
+          8
+        ],
+        "ortho": 7.4,
+        "triangles": 12386,
+        "vertices": 19196,
+        "bones": 20,
+        "objects": [
+          "APDC_r6_infantry",
+          "APDC_r6_infantry_vanilla_head"
+        ],
+        "parts": {
+          "layered_body_and_clothes": 0,
+          "multicam_plate_carrier": 9752,
+          "short_neck": 10732,
+          "helmet_and_full_black_visor": 10852
+        },
+        "game_runtime_tested": false,
+        "installed": false
+      },
+      "blend": "D:\\Desktop\\剩余六套单位与步枪_待接入\\可编辑源文件\\通用步兵人物\\APDC_r6_infantry.blend",
+      "label": "通用步兵人物"
+    },
+    "APDC_r6_ak12": {
+      "info": {
+        "id": "APDC_r6_ak12",
+        "label": "通用步枪_AK12",
+        "kind": "prop",
+        "scale": 0.8,
+        "camera": [
+          8,
+          -3,
+          3
+        ],
+        "ortho": 3.3,
+        "triangles": 2320,
+        "vertices": 4387,
+        "bones": 3,
+        "objects": [
+          "APDC_r6_ak12"
+        ],
+        "parts": {},
+        "game_runtime_tested": false,
+        "installed": false
+      },
+      "blend": "D:\\Desktop\\剩余六套单位与步枪_待接入\\可编辑源文件\\通用步枪_AK12\\APDC_r6_ak12.blend",
+      "label": "通用步枪_AK12"
+    },
+    "APDC_r6_towed_artillery": {
+      "info": {
+        "id": "APDC_r6_towed_artillery",
+        "label": "通用牵引火炮",
+        "kind": "artillery",
+        "scale": 0.64,
+        "camera": [
+          9,
+          -12,
+          8
+        ],
+        "ortho": 8.3,
+        "triangles": 4298,
+        "vertices": 7737,
+        "bones": 9,
+        "objects": [
+          "APDC_r6_towed_artillery"
+        ],
+        "parts": {
+          "central_mount": 0,
+          "wheel_-1": 192,
+          "wheel_1": 2280,
+          "folding_trail_0": 4368,
+          "folding_trail_1": 4692,
+          "folding_trail_2": 5016,
+          "trunnion_cradle": 5340,
+          "long_barrel_and_recoil": 7068
+        },
+        "game_runtime_tested": false,
+        "installed": false
+      },
+      "blend": "D:\\Desktop\\剩余六套单位与步枪_待接入\\可编辑源文件\\通用牵引火炮\\APDC_r6_towed_artillery.blend",
+      "label": "通用牵引火炮"
+    },
+    "APDC_f1_truck_mlrs": {
+      "info": {
+        "id": "APDC_f1_truck_mlrs",
+        "label": "卡车多管火箭炮",
+        "base": "truck",
+        "kind": "wheeled",
+        "scale": 0.53,
+        "camera": [
+          12,
+          -15,
+          11
+        ],
+        "ortho": 12.5,
+        "notes": [
+          "保留既有 truck 主体、底盘及涂装，仅新增或替换武器上装。"
+        ],
+        "parts": {
+          "four_axle_chassis": 0,
+          "wheel_L_1": 48,
+          "wheel_L_2": 2148,
+          "wheel_L_3": 4248,
+          "wheel_L_4": 6348,
+          "wheel_R_1": 8616,
+          "wheel_R_2": 10716,
+          "wheel_R_3": 12816,
+          "wheel_R_4": 14916,
+          "flat_weapons_deck": 19436,
+          "new_weapon_turret": 20324
+        },
+        "legs": [],
+        "triangles": 12736,
+        "vertices": 23414,
+        "bones": 16,
+        "objects": [
+          "APDC_f1_truck_mlrs"
+        ],
+        "game_runtime_tested": false,
+        "installed": false
+      },
+      "blend": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\卡车多管火箭炮\\APDC_f1_truck_mlrs.blend",
+      "label": "卡车多管火箭炮"
+    },
+    "APDC_f1_truck_missile": {
+      "info": {
+        "id": "APDC_f1_truck_missile",
+        "label": "卡车战术导弹发射车",
+        "base": "truck",
+        "kind": "wheeled",
+        "scale": 0.53,
+        "camera": [
+          12,
+          -15,
+          11
+        ],
+        "ortho": 12.5,
+        "notes": [
+          "保留既有 truck 主体、底盘及涂装，仅新增或替换武器上装。"
+        ],
+        "parts": {
+          "four_axle_chassis": 0,
+          "wheel_L_1": 48,
+          "wheel_L_2": 2148,
+          "wheel_L_3": 4248,
+          "wheel_L_4": 6348,
+          "wheel_R_1": 8616,
+          "wheel_R_2": 10716,
+          "wheel_R_3": 12816,
+          "wheel_R_4": 14916,
+          "flat_weapons_deck": 19436,
+          "new_weapon_turret": 20324
+        },
+        "legs": [],
+        "triangles": 12204,
+        "vertices": 22646,
+        "bones": 16,
+        "objects": [
+          "APDC_f1_truck_missile"
+        ],
+        "game_runtime_tested": false,
+        "installed": false
+      },
+      "blend": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\卡车战术导弹发射车\\APDC_f1_truck_missile.blend",
+      "label": "卡车战术导弹发射车"
+    },
+    "APDC_f1_truck_artillery": {
+      "info": {
+        "id": "APDC_f1_truck_artillery",
+        "label": "卡车炮",
+        "base": "truck",
+        "kind": "wheeled",
+        "scale": 0.53,
+        "camera": [
+          12,
+          -15,
+          11
+        ],
+        "ortho": 12.5,
+        "notes": [
+          "保留既有 truck 主体、底盘及涂装，仅新增或替换武器上装。"
+        ],
+        "parts": {
+          "four_axle_chassis": 0,
+          "wheel_L_1": 48,
+          "wheel_L_2": 2148,
+          "wheel_L_3": 4248,
+          "wheel_L_4": 6348,
+          "wheel_R_1": 8616,
+          "wheel_R_2": 10716,
+          "wheel_R_3": 12816,
+          "wheel_R_4": 14916,
+          "flat_weapons_deck": 19436,
+          "new_weapon_turret": 20324
+        },
+        "legs": [],
+        "triangles": 11820,
+        "vertices": 21794,
+        "bones": 16,
+        "objects": [
+          "APDC_f1_truck_artillery"
+        ],
+        "game_runtime_tested": false,
+        "installed": false
+      },
+      "blend": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\卡车炮\\APDC_f1_truck_artillery.blend",
+      "label": "卡车炮"
+    },
+    "APDC_f1_tank_support": {
+      "info": {
+        "id": "APDC_f1_tank_support",
+        "label": "坦克支援车",
+        "base": "mbt",
+        "kind": "tracked",
+        "scale": 0.5,
+        "camera": [
+          12,
+          -15,
+          11
+        ],
+        "ortho": 12.5,
+        "notes": [
+          "保留既有 mbt 主体、底盘及涂装，仅新增或替换武器上装。"
+        ],
+        "parts": {
+          "low_sloped_hull": 0,
+          "wheel_L_1": 368,
+          "wheel_L_2": 1384,
+          "wheel_L_3": 2400,
+          "wheel_L_4": 3416,
+          "wheel_L_5": 4432,
+          "wheel_L_6": 5448,
+          "wheel_L_7": 6464,
+          "wheel_R_1": 7792,
+          "wheel_R_2": 8808,
+          "wheel_R_3": 9824,
+          "wheel_R_4": 10840,
+          "wheel_R_5": 11856,
+          "wheel_R_6": 12872,
+          "wheel_R_7": 13888,
+          "new_weapon_turret": 18372
+        },
+        "legs": [],
+        "triangles": 12232,
+        "vertices": 21480,
+        "bones": 18,
+        "objects": [
+          "APDC_f1_tank_support"
+        ],
+        "game_runtime_tested": false,
+        "installed": false
+      },
+      "blend": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\坦克支援车\\APDC_f1_tank_support.blend",
+      "label": "坦克支援车"
+    },
+    "APDC_f1_multipod_artillery": {
+      "info": {
+        "id": "APDC_f1_multipod_artillery",
+        "label": "多足机械火炮",
+        "base": "multipod",
+        "kind": "walker",
+        "scale": 0.6,
+        "camera": [
+          10,
+          -14,
+          9
+        ],
+        "ortho": 7.8,
+        "notes": [
+          "保留既有 multipod 主体、底盘及涂装，仅新增或替换武器上装。",
+          "共用原六足机构及交替步态，上装改为带炮盾的火炮。"
+        ],
+        "parts": {
+          "low_tan_multi_leg_core": 0,
+          "new_weapon_turret": 31840
+        },
+        "legs": [
+          {
+            "name": "L0",
+            "hip": [
+              -0.53,
+              -0.66,
+              1.54
+            ],
+            "knee": [
+              -1.1,
+              -0.9400000000000001,
+              1.33
+            ],
+            "ankle": [
+              -1.32,
+              -1.31,
+              0.14
+            ],
+            "phase": 0.0,
+            "bones": [
+              "L0_upper",
+              "L0_lower",
+              "L0_foot"
+            ]
+          },
+          {
+            "name": "L1",
+            "hip": [
+              -0.53,
+              0.04,
+              1.54
+            ],
+            "knee": [
+              -1.22,
+              0.04,
+              1.33
+            ],
+            "ankle": [
+              -1.51,
+              0.04,
+              0.14
+            ],
+            "phase": 3.141592653589793,
+            "bones": [
+              "L1_upper",
+              "L1_lower",
+              "L1_foot"
+            ]
+          },
+          {
+            "name": "L2",
+            "hip": [
+              -0.53,
+              0.74,
+              1.54
+            ],
+            "knee": [
+              -1.1,
+              1.02,
+              1.33
+            ],
+            "ankle": [
+              -1.32,
+              1.3900000000000001,
+              0.14
+            ],
+            "phase": 0.0,
+            "bones": [
+              "L2_upper",
+              "L2_lower",
+              "L2_foot"
+            ]
+          },
+          {
+            "name": "R0",
+            "hip": [
+              0.53,
+              -0.66,
+              1.54
+            ],
+            "knee": [
+              1.1,
+              -0.9400000000000001,
+              1.33
+            ],
+            "ankle": [
+              1.32,
+              -1.31,
+              0.14
+            ],
+            "phase": 3.141592653589793,
+            "bones": [
+              "R0_upper",
+              "R0_lower",
+              "R0_foot"
+            ]
+          },
+          {
+            "name": "R1",
+            "hip": [
+              0.53,
+              0.04,
+              1.54
+            ],
+            "knee": [
+              1.22,
+              0.04,
+              1.33
+            ],
+            "ankle": [
+              1.51,
+              0.04,
+              0.14
+            ],
+            "phase": 0.0,
+            "bones": [
+              "R1_upper",
+              "R1_lower",
+              "R1_foot"
+            ]
+          },
+          {
+            "name": "R2",
+            "hip": [
+              0.53,
+              0.74,
+              1.54
+            ],
+            "knee": [
+              1.1,
+              1.02,
+              1.33
+            ],
+            "ankle": [
+              1.32,
+              1.3900000000000001,
+              0.14
+            ],
+            "phase": 3.141592653589793,
+            "bones": [
+              "R2_upper",
+              "R2_lower",
+              "R2_foot"
+            ]
+          }
+        ],
+        "triangles": 18256,
+        "vertices": 33414,
+        "bones": 22,
+        "objects": [
+          "APDC_f1_multipod_artillery"
+        ],
+        "game_runtime_tested": false,
+        "installed": false
+      },
+      "blend": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\多足机械火炮\\APDC_f1_multipod_artillery.blend",
+      "label": "多足机械火炮"
+    },
+    "APDC_f1_self_propelled_gun": {
+      "info": {
+        "id": "APDC_f1_self_propelled_gun",
+        "label": "履带自行火炮",
+        "base": "mbt",
+        "kind": "tracked",
+        "scale": 0.5,
+        "camera": [
+          12,
+          -15,
+          11
+        ],
+        "ortho": 12.5,
+        "notes": [
+          "保留既有 mbt 主体、底盘及涂装，仅新增或替换武器上装。"
+        ],
+        "parts": {
+          "low_sloped_hull": 0,
+          "wheel_L_1": 368,
+          "wheel_L_2": 1384,
+          "wheel_L_3": 2400,
+          "wheel_L_4": 3416,
+          "wheel_L_5": 4432,
+          "wheel_L_6": 5448,
+          "wheel_L_7": 6464,
+          "wheel_R_1": 7792,
+          "wheel_R_2": 8808,
+          "wheel_R_3": 9824,
+          "wheel_R_4": 10840,
+          "wheel_R_5": 11856,
+          "wheel_R_6": 12872,
+          "wheel_R_7": 13888,
+          "new_weapon_turret": 18372
+        },
+        "legs": [],
+        "triangles": 11436,
+        "vertices": 20101,
+        "bones": 18,
+        "objects": [
+          "APDC_f1_self_propelled_gun"
+        ],
+        "game_runtime_tested": false,
+        "installed": false
+      },
+      "blend": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\履带自行火炮\\APDC_f1_self_propelled_gun.blend",
+      "label": "履带自行火炮"
+    },
+    "APDC_f1_self_propelled_mortar": {
+      "info": {
+        "id": "APDC_f1_self_propelled_mortar",
+        "label": "履带自行迫击炮",
+        "base": "tracked",
+        "kind": "tracked",
+        "scale": 0.5,
+        "camera": [
+          12,
+          -15,
+          11
+        ],
+        "ortho": 12.5,
+        "notes": [
+          "保留既有 tracked 主体、底盘及涂装，仅新增或替换武器上装。"
+        ],
+        "parts": {
+          "wedge_ifv_hull": 0,
+          "wheel_L_1": 368,
+          "wheel_L_2": 1384,
+          "wheel_L_3": 2400,
+          "wheel_L_4": 3416,
+          "wheel_L_5": 4432,
+          "wheel_L_6": 5448,
+          "wheel_L_7": 6464,
+          "wheel_R_1": 7792,
+          "wheel_R_2": 8808,
+          "wheel_R_3": 9824,
+          "wheel_R_4": 10840,
+          "wheel_R_5": 11856,
+          "wheel_R_6": 12872,
+          "wheel_R_7": 13888,
+          "new_weapon_turret": 17524
+        },
+        "legs": [],
+        "triangles": 10916,
+        "vertices": 19034,
+        "bones": 18,
+        "objects": [
+          "APDC_f1_self_propelled_mortar"
+        ],
+        "game_runtime_tested": false,
+        "installed": false
+      },
+      "blend": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\履带自行迫击炮\\APDC_f1_self_propelled_mortar.blend",
+      "label": "履带自行迫击炮"
+    },
+    "APDC_f1_self_propelled_aa": {
+      "info": {
+        "id": "APDC_f1_self_propelled_aa",
+        "label": "履带自行防空车",
+        "base": "mbt",
+        "kind": "tracked",
+        "scale": 0.5,
+        "camera": [
+          12,
+          -15,
+          11
+        ],
+        "ortho": 12.5,
+        "notes": [
+          "保留既有 mbt 主体、底盘及涂装，仅新增或替换武器上装。"
+        ],
+        "parts": {
+          "low_sloped_hull": 0,
+          "wheel_L_1": 368,
+          "wheel_L_2": 1384,
+          "wheel_L_3": 2400,
+          "wheel_L_4": 3416,
+          "wheel_L_5": 4432,
+          "wheel_L_6": 5448,
+          "wheel_L_7": 6464,
+          "wheel_R_1": 7792,
+          "wheel_R_2": 8808,
+          "wheel_R_3": 9824,
+          "wheel_R_4": 10840,
+          "wheel_R_5": 11856,
+          "wheel_R_6": 12872,
+          "wheel_R_7": 13888,
+          "new_weapon_turret": 18372
+        },
+        "legs": [],
+        "triangles": 12896,
+        "vertices": 22567,
+        "bones": 19,
+        "objects": [
+          "APDC_f1_self_propelled_aa"
+        ],
+        "game_runtime_tested": false,
+        "installed": false
+      },
+      "blend": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\履带自行防空车\\APDC_f1_self_propelled_aa.blend",
+      "label": "履带自行防空车"
+    },
+    "APDC_f1_armed_helicopter": {
+      "info": {
+        "id": "APDC_f1_armed_helicopter",
+        "label": "武装直升机",
+        "base": "helicopter",
+        "kind": "helicopter",
+        "scale": 0.4,
+        "camera": [
+          13,
+          -16,
+          13
+        ],
+        "ortho": 16.3,
+        "notes": [
+          "保留既有 helicopter 主体、底盘及涂装，仅新增或替换武器上装。",
+          "保留运输机机身和双旋翼，增加短翼、左右火箭巢、导弹挂架及机首机炮。"
+        ],
+        "parts": {
+          "rounded_transport_helicopter_fuselage": 0,
+          "five_blade_main_rotor": 14600,
+          "three_blade_tail_rotor": 17040,
+          "aerials_and_access_details": 17208,
+          "chin_gun": 17316,
+          "weapons_wings": 18308
+        },
+        "legs": [],
+        "triangles": 10960,
+        "vertices": 19957,
+        "bones": 6,
+        "objects": [
+          "APDC_f1_armed_helicopter"
+        ],
+        "game_runtime_tested": false,
+        "installed": false
+      },
+      "blend": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\武装直升机\\APDC_f1_armed_helicopter.blend",
+      "label": "武装直升机"
+    },
+    "APDC_f1_nyto_final": {
+      "info": {
+        "id": "APDC_f1_nyto_final",
+        "label": "涅托_定稿游戏版",
+        "base": "nyto",
+        "kind": "biped",
+        "scale": 0.8,
+        "camera": [
+          6,
+          -17,
+          8
+        ],
+        "ortho": 8.6,
+        "approved_source": "D:\\Desktop\\涅托头部_授权脸模方案\\接身修订\\涅托_新头接身_导出材质.blend",
+        "source_sha256": "0665256d58ac8396e4d0951c96ae99623df265544cd387313635a4d7dfb64b65",
+        "face_vertex_uv_sha256_before_triangulation": "b020a7620dacaad57df00b7f2e99998eee97c739fff8a5fc862df806ea17b6fc",
+        "face_shape_and_uv_preserved": true,
+        "neck_height_unchanged": true,
+        "decimation_used": false,
+        "notes": [
+          "采用最终短嵌入脖颈版本，不重新建眼睛。",
+          "身体、头发、脸、眼罩、纹章全身导出。",
+          "分拆绘制网格以满足 16 位顶点索引，不降低定稿头部精度。"
+        ],
+        "triangles": 134147,
+        "vertices": 274257,
+        "bones": 19,
+        "objects": [
+          "APDC_f1_nyto_final_face",
+          "APDC_f1_nyto_final_body",
+          "APDC_f1_nyto_final_accessories_0",
+          "APDC_f1_nyto_final_accessories_1",
+          "APDC_f1_nyto_final_accessories_2",
+          "APDC_f1_nyto_final_accessories_3",
+          "APDC_f1_nyto_final_accessories_4"
+        ],
+        "game_runtime_tested": false,
+        "installed": false
+      },
+      "blend": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\涅托_定稿游戏版\\APDC_f1_nyto_final.blend",
+      "label": "涅托_定稿游戏版"
+    },
+    "APDC_f1_wheeled_atgm": {
+      "info": {
+        "id": "APDC_f1_wheeled_atgm",
+        "label": "轮式反坦克导弹车",
+        "base": "wheeled",
+        "kind": "wheeled",
+        "scale": 0.5,
+        "camera": [
+          12,
+          -15,
+          11
+        ],
+        "ortho": 12.5,
+        "notes": [
+          "保留既有 wheeled 主体、底盘及涂装，仅新增或替换武器上装。"
+        ],
+        "parts": {
+          "eight_wheel_boat_nose_hull": 0,
+          "wheel_L_1": 56,
+          "wheel_L_2": 2120,
+          "wheel_L_3": 4184,
+          "wheel_L_4": 6248,
+          "wheel_R_1": 8648,
+          "wheel_R_2": 10712,
+          "wheel_R_3": 12776,
+          "wheel_R_4": 14840,
+          "new_weapon_turret": 18556
+        },
+        "legs": [],
+        "triangles": 11372,
+        "vertices": 20995,
+        "bones": 11,
+        "objects": [
+          "APDC_f1_wheeled_atgm"
+        ],
+        "game_runtime_tested": false,
+        "installed": false
+      },
+      "blend": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\轮式反坦克导弹车\\APDC_f1_wheeled_atgm.blend",
+      "label": "轮式反坦克导弹车"
+    },
+    "APDC_v5_amphibious": {
+      "info": {
+        "id": "APDC_v5_amphibious",
+        "label": "通用两栖机械化车辆",
+        "triangles": 32812,
+        "vertices": 57898,
+        "bones": 20,
+        "materials": 2,
+        "dimensions_blender_xyz": [
+          3.799999952316284,
+          7.837762832641602,
+          4.34911584854126
+        ],
+        "recommended_entity_scale": 0.5,
+        "animations": [
+          "idle",
+          "move",
+          "attack"
+        ],
+        "game_runtime_tested": false,
+        "parts": {
+          "v2_short_blunt_boat_hull": 0,
+          "v2_exposed_running_gear": 268,
+          "wheel_L_1": 6652,
+          "wheel_L_2": 8132,
+          "wheel_L_3": 9612,
+          "wheel_L_4": 11092,
+          "wheel_L_5": 12572,
+          "wheel_L_6": 14052,
+          "wheel_L_front": 15532,
+          "wheel_L_rear": 17432,
+          "wheel_R_1": 25716,
+          "wheel_R_2": 27196,
+          "wheel_R_3": 28676,
+          "wheel_R_4": 30156,
+          "wheel_R_5": 31636,
+          "wheel_R_6": 33116,
+          "wheel_R_front": 34596,
+          "wheel_R_rear": 36496,
+          "v2_bow_trim_vane_and_front_fittings": 38396,
+          "v2_two_periscope_observation_cupolas": 42152,
+          "v2_raised_rear_cargo_compartment": 44436,
+          "v2_round_exhaust_and_perforated_guard": 54332,
+          "v2_low_offset_dual_weapon_turret": 55316,
+          "v2_inferred_rear_ramp_waterjets": 58408
+        }
+      },
+      "blend": "D:\\Desktop\\通用车辆五套模型_待接入\\可编辑源文件\\通用两栖机械化车辆\\APDC_v5_amphibious.blend",
+      "label": "通用两栖机械化车辆"
+    },
+    "APDC_v5_mbt": {
+      "info": {
+        "id": "APDC_v5_mbt",
+        "label": "通用主战坦克",
+        "triangles": 11792,
+        "vertices": 30475,
+        "bones": 18,
+        "materials": 2,
+        "dimensions_blender_xyz": [
+          3.984999895095825,
+          9.699999809265137,
+          3.9501469135284424
+        ],
+        "recommended_entity_scale": 0.5,
+        "animations": [
+          "idle",
+          "move",
+          "attack"
+        ],
+        "game_runtime_tested": false,
+        "parts": {
+          "low_sloped_hull": 0,
+          "wheel_L_1": 368,
+          "wheel_L_2": 1384,
+          "wheel_L_3": 2400,
+          "wheel_L_4": 3416,
+          "wheel_L_5": 4432,
+          "wheel_L_6": 5448,
+          "wheel_L_7": 6464,
+          "wheel_R_1": 7792,
+          "wheel_R_2": 8808,
+          "wheel_R_3": 9824,
+          "wheel_R_4": 10840,
+          "wheel_R_5": 11856,
+          "wheel_R_6": 12872,
+          "wheel_R_7": 13888,
+          "turret_armour": 18372
+        }
+      },
+      "blend": "D:\\Desktop\\通用车辆五套模型_待接入\\可编辑源文件\\通用主战坦克\\APDC_v5_mbt.blend",
+      "label": "通用主战坦克"
+    },
+    "APDC_v5_truck": {
+      "info": {
+        "id": "APDC_v5_truck",
+        "label": "通用军用卡车",
+        "triangles": 11740,
+        "vertices": 31485,
+        "bones": 10,
+        "materials": 1,
+        "dimensions_blender_xyz": [
+          3.0739998817443848,
+          9.281000137329102,
+          3.6825637817382812
+        ],
+        "recommended_entity_scale": 0.53,
+        "animations": [
+          "idle",
+          "move",
+          "attack"
+        ],
+        "game_runtime_tested": false,
+        "parts": {
+          "four_axle_chassis": 0,
+          "wheel_L_1": 48,
+          "wheel_L_2": 2148,
+          "wheel_L_3": 4248,
+          "wheel_L_4": 6348,
+          "wheel_R_1": 8616,
+          "wheel_R_2": 10716,
+          "wheel_R_3": 12816,
+          "wheel_R_4": 14916,
+          "canvas_cargo_body": 19436
+        }
+      },
+      "blend": "D:\\Desktop\\通用车辆五套模型_待接入\\可编辑源文件\\通用军用卡车\\APDC_v5_truck.blend",
+      "label": "通用军用卡车"
+    },
+    "APDC_v5_tracked": {
+      "info": {
+        "id": "APDC_v5_tracked",
+        "label": "通用履带式机械化车辆",
+        "triangles": 11096,
+        "vertices": 29604,
+        "bones": 18,
+        "materials": 2,
+        "dimensions_blender_xyz": [
+          3.430000066757202,
+          7.3277997970581055,
+          4.090146541595459
+        ],
+        "recommended_entity_scale": 0.5,
+        "animations": [
+          "idle",
+          "move",
+          "attack"
+        ],
+        "game_runtime_tested": false,
+        "parts": {
+          "wedge_ifv_hull": 0,
+          "wheel_L_1": 368,
+          "wheel_L_2": 1384,
+          "wheel_L_3": 2400,
+          "wheel_L_4": 3416,
+          "wheel_L_5": 4432,
+          "wheel_L_6": 5448,
+          "wheel_L_7": 6464,
+          "wheel_R_1": 7792,
+          "wheel_R_2": 8808,
+          "wheel_R_3": 9824,
+          "wheel_R_4": 10840,
+          "wheel_R_5": 11856,
+          "wheel_R_6": 12872,
+          "wheel_R_7": 13888,
+          "turret_armour": 17524
+        }
+      },
+      "blend": "D:\\Desktop\\通用车辆五套模型_待接入\\可编辑源文件\\通用履带式机械化车辆\\APDC_v5_tracked.blend",
+      "label": "通用履带式机械化车辆"
+    },
+    "APDC_v5_wheeled": {
+      "info": {
+        "id": "APDC_v5_wheeled",
+        "label": "通用轮式装甲车辆",
+        "triangles": 11228,
+        "vertices": 29993,
+        "bones": 12,
+        "materials": 1,
+        "dimensions_blender_xyz": [
+          3.503999948501587,
+          7.440543174743652,
+          4.31624174118042
+        ],
+        "recommended_entity_scale": 0.5,
+        "animations": [
+          "idle",
+          "move",
+          "attack"
+        ],
+        "game_runtime_tested": false,
+        "parts": {
+          "eight_wheel_boat_nose_hull": 0,
+          "wheel_L_1": 56,
+          "wheel_L_2": 2120,
+          "wheel_L_3": 4184,
+          "wheel_L_4": 6248,
+          "wheel_R_1": 8648,
+          "wheel_R_2": 10712,
+          "wheel_R_3": 12776,
+          "wheel_R_4": 14840,
+          "turret_armour": 18556
+        }
+      },
+      "blend": "D:\\Desktop\\通用车辆五套模型_待接入\\可编辑源文件\\通用轮式装甲车辆\\APDC_v5_wheeled.blend",
+      "label": "通用轮式装甲车辆"
+    }
+  }
+}

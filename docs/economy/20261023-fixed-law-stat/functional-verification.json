@@ -1,0 +1,39 @@
+{
+  "passed": [
+    "undisturbed_isolation",
+    "isolation",
+    "civilian_economy",
+    "low_economic_mobilisation",
+    "partial_economic_mobilisation",
+    "war_economy",
+    "tot_economic_mobilisation"
+  ],
+  "failed": [],
+  "fixed_labels_in_same_country": "APDC_FIXED_LABELS same_country=GER civilian=\u0011Y1.00\u0011! low=\u0011Y0.85\u0011! partial=\u0011Y0.70\u0011! war=\u0011Y0.55\u0011! total=\u0011Y0.40\u0011!",
+  "factory_snapshots": [
+    "APDC_FIXED_FACTORY law=undisturbed_isolation total=33 free=28 assigned=5",
+    "APDC_FIXED_FACTORY law=isolation total=33 free=28 assigned=5",
+    "APDC_FIXED_FACTORY law=civilian_economy total=33 free=28 assigned=5",
+    "APDC_FIXED_FACTORY law=low_economic_mobilisation total=33 free=28 assigned=5",
+    "APDC_FIXED_FACTORY law=partial_economic_mobilisation total=34 free=29 assigned=5",
+    "APDC_FIXED_FACTORY law=war_economy total=34 free=29 assigned=5",
+    "APDC_FIXED_FACTORY law=tot_economic_mobilisation total=35 free=30 assigned=5"
+  ],
+  "backend_and_allocation_unchanged": true,
+  "modifier_blocks_unchanged": true,
+  "generator_idempotent": true,
+  "native_selector_opened": false,
+  "visual_verified": false,
+  "post_runtime_gui_change": "Number maximum height 10 -> 20; statically parsed after change.",
+  "shutdown": {
+    "closed_helpers": [
+      35476,
+      38668
+    ],
+    "still_running": false,
+    "pid": 3916,
+    "remaining_helpers": [],
+    "steam_app_running": false,
+    "stopped": "2026-10-23T17:42:32.2801857+08:00"
+  }
+}

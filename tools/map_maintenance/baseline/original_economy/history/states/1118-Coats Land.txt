@@ -1,0 +1,18 @@
+state = { #1118
+	id = 1118
+	name = "COATS_LAND"
+	manpower = 1
+	
+	state_category = wasteland
+
+	history={
+		owner = ZZZ
+		set_state_flag = ice_shelf
+	}
+
+	provinces={
+		16425 17637 17673 17739 17759 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,59 @@
+state = {
+	id = 479
+	name = "STATE_479"
+	resources = {
+		oil = 5
+	}
+	provinces = {
+		2083
+		5015
+		5021
+		5590
+		10769
+		12721
+		12835
+		13088
+		14522
+		14524
+		17062
+		17321
+	}
+	manpower = 563448
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = GDB
+		controller = GDB
+		add_core_of = MEX
+		add_core_of = RIG
+		victory_points = {
+			2083
+			3
+		}
+		victory_points = {
+			5015
+			5
+		}
+		victory_points = {
+			5021
+			5
+		}
+		victory_points = {
+			10769
+			1
+		}
+		victory_points = {
+			12835
+			25
+		}
+		victory_points = {
+			14524
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+}

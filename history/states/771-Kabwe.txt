@@ -1,0 +1,42 @@
+state = {
+	id = 771
+	name = "STATE_771"
+	resources = {
+		chromium = 5
+		tungsten = 1
+	}
+	provinces = {
+		10538
+		13751
+		13765
+		13778
+		13785
+		13787
+		13788
+		16126
+	}
+	manpower = 200740
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = ZAM
+		controller = ZAM
+		add_core_of = ZAM
+		victory_points = {
+			13751
+			1
+		}
+		victory_points = {
+			13778
+			3
+		}
+		victory_points = {
+			13788
+			2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

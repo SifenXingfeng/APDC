@@ -1,0 +1,51 @@
+--- 
+
++++ 
+
+@@ -222,5 +222,5 @@
+
+  # Seller order is export tariff ascending, remaining supply descending. The
+  # buyer's own import tariff is constant across offers and cannot affect rank.
+- b='clear_array = global.APDC_eco_exporters\nevery_country = {\nAPDC_eco_clear_trade = yes\n'+cond(check('remaining_export_m','>',0),'add_to_array = { array = global.APDC_eco_exporters value = THIS }')+'}\n'
++ b='clear_array = global.APDC_eco_exporters\nclear_array = global.APDC_eco_importers\nevery_country = {\nAPDC_eco_clear_trade = yes\n'+cond(check('remaining_export_m','>',0),'add_to_array = { array = global.APDC_eco_exporters value = THIS }')+cond(check('remaining_import_m','>',0),'add_to_array = { array = global.APDC_eco_importers value = THIS }')+'}\n'
+  b+='''while_loop_effect = {
+  limit = { check_variable = { global.APDC_eco_exporters^num > 0 } }
+@@ -241,5 +241,6 @@
+
+  remove_from_array = { array = global.APDC_eco_exporters value = var:global.APDC_eco_seller }
+  clear_array = global.APDC_eco_buyers
+- every_country = {
++ for_each_scope_loop = {
++  array = global.APDC_eco_importers
+   if = {
+    limit = {
+@@ -289,8 +290,8 @@
+
+  set_variable = { APDC_eco_supply_m = { value = APDC_eco_domestic_m add = APDC_eco_extra_input subtract = APDC_eco_extra_output add = APDC_eco_imports_m subtract = APDC_eco_exports_m max = 0 multiply = APDC_eco_distribution } }
+  APDC_eco_calculate_gap = yes
+- APDC_eco_calculate_budget = yes
+ }
+ clear_array = global.APDC_eco_buyers
+ clear_array = global.APDC_eco_next_buyers
++clear_array = global.APDC_eco_importers
+ clear_variable = global.APDC_eco_seller
+ clear_variable = global.APDC_eco_buyer
+@@ -350,5 +351,6 @@
+
+ def build_planned():
+  b=cond(P+'is_planned = yes',
+-  'remove_ideas = APDC_eco_distribution_1\nremove_ideas = APDC_eco_distribution_2\nremove_ideas = APDC_eco_distribution_3\nremove_ideas = APDC_eco_distribution_4\nadd_ideas = APDC_eco_distribution_5\n'
++  cond('OR = { NOT = { has_idea = APDC_eco_distribution_5 } has_idea = APDC_eco_distribution_1 has_idea = APDC_eco_distribution_2 has_idea = APDC_eco_distribution_3 has_idea = APDC_eco_distribution_4 }',
++   'remove_ideas = APDC_eco_distribution_1\nremove_ideas = APDC_eco_distribution_2\nremove_ideas = APDC_eco_distribution_3\nremove_ideas = APDC_eco_distribution_4\nadd_ideas = APDC_eco_distribution_5\n')+
+   'every_controlled_state = {\n'+''.join(
+    f'set_temp_variable = {{ APDC_eco_convert = building_level@APDC_eco_private_{k} }}\n'
+@@ -411,5 +413,7 @@
+
+  s=build_laws(data)+build_initialize()+build_country()+build_trade()+build_growth()+build_planned()+build_budget()
+  s+=effect('daily_country','APDC_eco_initialize_country = yes\nAPDC_eco_reconcile_planned = yes\nAPDC_eco_refresh_policies = yes\nAPDC_eco_bankruptcy = yes\nAPDC_eco_calculate_country = yes\n')
+- s+=effect('daily_after_market','APDC_eco_advance_civ = yes\nAPDC_eco_advance_mil = yes\nAPDC_eco_refresh_equipment = yes\nAPDC_eco_produce_equipment = yes\n'+add('day_ticks',1)+cond('has_variable = APDC_eco_panel_open','APDC_eco_sync_ui = yes'))
++ # Cash is settled weekly using that day's laws. Only an open human panel
++ # needs a daily projection; action APIs and weekly settlement refresh it.
++ s+=effect('daily_after_market','APDC_eco_advance_civ = yes\nAPDC_eco_advance_mil = yes\nAPDC_eco_refresh_equipment = yes\nAPDC_eco_produce_equipment = yes\n'+add('day_ticks',1)+cond('is_ai = no has_variable = APDC_eco_panel_open','APDC_eco_calculate_budget = yes\nAPDC_eco_sync_ui = yes'))
+  write('common/scripted_effects/APDC_economy_backend.txt',s)
+  # Generic on_daily/on_weekly fire in country scopes. A global date guard

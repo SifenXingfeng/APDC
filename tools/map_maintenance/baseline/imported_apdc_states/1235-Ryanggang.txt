@@ -1,0 +1,28 @@
+state = {
+	id = 1235
+	name = "STATE_1235"
+	provinces = {
+		906
+		3803
+		3860
+		3904
+		11878
+	}
+	manpower = 513197
+	resources = {
+		coal = 1
+		steel = 2
+		tungsten = 2
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = KOR
+		controller = KOR
+		add_core_of = KOR
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

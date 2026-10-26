@@ -1,0 +1,68 @@
+state = {
+	id = 628
+	name = "STATE_628"
+	manpower = 3426194
+	state_category = large_town
+	history = {
+		owner = PHI
+		controller = PHI
+		add_core_of = PHI
+		victory_points = {
+			1261
+			5
+		}
+		victory_points = {
+			1368
+			2
+		}
+		victory_points = {
+			7423
+			2
+		}
+		victory_points = {
+			12118
+			15
+		}
+		victory_points = {
+			14721
+			1
+		}
+		victory_points = {
+			14722
+			5
+		}
+		victory_points = {
+			14723
+			3
+		}
+		victory_points = {
+			14726
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			12118 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		1261
+		1368
+		7385
+		7423
+		10186
+		10302
+		12112
+		12118
+		12153
+		14720
+		14721
+		14722
+		14723
+		14724
+		14725
+		14726
+	}
+	local_supplies = 6.0
+}

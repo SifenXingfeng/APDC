@@ -1,0 +1,74 @@
+--- before/common/military_industrial_organization/organizations/RAJ_GOE_organization .txt
++++ current/common/military_industrial_organization/organizations/RAJ_GOE_organization .txt
+@@ -163,7 +163,7 @@
+ 		
+ 		special_trait_background  = yes
+ 		position = { x=-1 y=0 }
+-		available = { RAJ = { has_completed_focus = RAJ_gun_and_shell_factory_cossipore } }
++		available = { RAJ = { always = no } }
+ 		production_bonus = {
+ 			production_efficiency_cap_factor = 0.05
+ 		}
+@@ -182,7 +182,7 @@
+ 		
+ 		special_trait_background  = yes
+ 		position = { x=0 y=1 }
+-		available = { RAJ = { has_completed_focus = RAJ_ordnance_factory_khamaria_jabalpur } }
++		available = { RAJ = { always = no } }
+ 		equipment_bonus = {
+ 			soft_attack = 0.05
+ 			breakthrough = 0.05
+@@ -201,7 +201,7 @@
+ 		
+ 		special_trait_background  = yes
+ 		position = { x=0 y=1 }
+-		available = { RAJ = { has_completed_focus = RAJ_rifle_factory_ishapore_west_bengal } }
++		available = { RAJ = { always = no } }
+ 
+ 		equipment_bonus = {
+ 			defense = 0.06
+@@ -224,7 +224,7 @@
+ 
+ 		special_trait_background  = yes
+ 		position = { x=1 y=0 }
+-		available = { RAJ = { has_completed_focus = RAJ_ordnance_factory_kanpur_uttar_pradesh } }
++		available = { RAJ = { always = no } }
+ 		organization_modifier = {
+ 			military_industrial_organization_research_bonus = 0.15
+ 			military_industrial_organization_funds_gain = 0.2
+@@ -260,7 +260,7 @@
+ 		}
+ 		special_trait_background  = yes
+ 		position = { x=1 y=1 }
+-		available = { RAJ = { has_completed_focus = RAJ_cordite_factory_aruvankadu_tamil_nadu } }
++		available = { RAJ = { always = no } }
+ 		production_bonus = {
+ 			production_cost_factor = 0.03
+ 		}
+@@ -280,7 +280,7 @@
+ 
+ 		special_trait_background  = yes
+ 		position = { x=-1 y=0 }
+-		available = { RAJ = { has_completed_focus = RAJ_ordnance_factory_kanpur_uttar_pradesh } }
++		available = { RAJ = { always = no } }
+ 		organization_modifier = {
+ 			military_industrial_organization_research_bonus = 0.15
+ 			military_industrial_organization_funds_gain = 0.15
+@@ -316,7 +316,7 @@
+ 
+ 		special_trait_background  = yes
+ 		position = { x=1 y=0 }
+-		available = { RAJ = { has_completed_focus = RAJ_ordnance_factory_medak } }
++		available = { RAJ = { always = no } }
+ 		organization_modifier = {
+ 			military_industrial_organization_research_bonus = 0.2
+ 		}
+@@ -330,7 +330,7 @@
+ 		limit_to_equipment_type = { mechanized_equipment amphibious_mechanized_equipment }
+ 		special_trait_background  = yes
+ 		position = { x=0 y=1 }	
+-		available = { RAJ = { has_completed_focus = RAJ_chariot_of_victory } }
++		available = { RAJ = { always = no } }
+ 
+ 		equipment_bonus = {
+ 			breakthrough = 0.06

@@ -1,0 +1,42 @@
+state = {
+	id = 966
+	name = "STATE_966"
+	resources = {
+		rubber = 6
+	}
+	provinces = {
+		10874
+		12853
+		12999
+		13274
+		13354
+	}
+	manpower = 609406
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = AMZ
+		controller = AMZ
+		add_core_of = AMZ
+		add_core_of = BRA
+		victory_points = {
+			12853
+			15
+		}
+		victory_points = {
+			12999
+			3
+		}
+		victory_points = {
+			13274
+			1
+		}
+		buildings = {
+			infrastructure = 1
+			12853 = {
+				naval_base = 2
+			}
+		}
+	}
+}

@@ -1,0 +1,42 @@
+state = {
+	id = 1008
+	name = "STATE_1008"
+	manpower = 562330
+	state_category = rural
+	provinces = {
+		4949
+		5020
+		5064
+		10789
+		14757
+		15974
+		18623
+		18631
+	}
+	history = {
+		owner = AFG
+		controller = AFG
+		add_core_of = AFG
+		victory_points = {
+			5064
+			5
+		}
+		victory_points = {
+			10789
+			2
+		}
+		victory_points = {
+			14757
+			1
+		}
+		victory_points = {
+			15974
+			2
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

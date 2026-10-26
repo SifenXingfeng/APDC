@@ -1,0 +1,55 @@
+ETH_is_horn_of_africa_original_tag = {
+	OR = {
+		original_tag = ETH
+		original_tag = SOM
+		original_tag = ERI
+		original_tag = DJI
+		original_tag = AFA
+		original_tag = HAR
+		original_tag = TIG
+		original_tag = BEG
+		original_tag = GBA
+		original_tag = SID
+		original_tag = ORO
+		original_tag = QEM
+	}
+}
+
+ITA_is_italian_tag_for_music = {
+	OR = {
+		original_tag = ITA
+		original_tag = AOI
+		original_tag = LBV
+		original_tag = PAP
+		original_tag = TOS
+		original_tag = SPM
+		original_tag = TTS
+	}
+}
+
+should_play_south_american_music = {
+	capital_scope = { is_on_continent = south_america }
+}
+
+TUR_debt_council_has_no_sway = {
+	custom_trigger_tooltip = {
+		tooltip = TUR_debt_council_has_no_sway_tt
+		NOT = {
+			OR = {
+				has_idea = TUR_debt_council
+				has_idea = TUR_tpda
+			}
+		}
+	}
+}
+
+TUR_a_monopoly_has_been_formed = {
+	custom_trigger_tooltip = {
+		tooltip = TUR_a_monopoly_has_been_formed_tt
+		AND = {
+			has_idea = koc_ticaret_as_armor
+			has_idea = koc_ticaret_as_shipyard
+			has_idea = koc_ticaret_as_defense_industry
+		}
+	}
+}

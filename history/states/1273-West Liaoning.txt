@@ -1,0 +1,88 @@
+state = {
+	id = 1273
+	name = "STATE_1273"
+	provinces = {
+		934
+		3934
+		6837
+		6898
+		6951
+		8771
+		9788
+		9835
+		11815
+		11886
+		16913
+		19459
+		19461
+		19491
+		19514
+		19804
+	}
+	manpower = 3128199
+	resources = {
+		chromium = 1
+		coal = 3
+		oil = 1
+		steel = 7
+		tungsten = 1
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = city
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			3934
+			5
+		}
+		victory_points = {
+			6837
+			3
+		}
+		victory_points = {
+			6951
+			1
+		}
+		victory_points = {
+			9835
+			5
+		}
+		victory_points = {
+			11886
+			1
+		}
+		victory_points = {
+			16913
+			1
+		}
+		victory_points = {
+			19459
+			5
+		}
+		victory_points = {
+			19461
+			1
+		}
+		victory_points = {
+			19491
+			1
+		}
+		victory_points = {
+			19514
+			3
+		}
+		victory_points = {
+			19804
+			2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		set_variable = {
+			china_state_ref = 48
+		}
+	}
+}

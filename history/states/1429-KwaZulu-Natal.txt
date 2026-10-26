@@ -1,0 +1,67 @@
+state = {
+	id = 1429
+	name = "STATE_1429"
+	provinces = {
+		1468
+		1494
+		8178
+		13508
+		13509
+		13513
+		13516
+		13522
+		13526
+		13528
+		13531
+		13532
+		13535
+		13537
+		13540
+		13541
+		13547
+		15384
+		15385
+		15386
+		15387
+		17833
+	}
+	manpower = 1743349
+	resources = {
+		chromium = 26
+		coal = 2
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = city
+	history = {
+		owner = SAF
+		controller = SAF
+		add_core_of = SAF
+		victory_points = {
+			1468
+			15
+		}
+		victory_points = {
+			13522
+			1
+		}
+		victory_points = {
+			13535
+			1
+		}
+		victory_points = {
+			13537
+			3
+		}
+		victory_points = {
+			15386
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			1468 = {
+				naval_base = 2
+			}
+		}
+	}
+}

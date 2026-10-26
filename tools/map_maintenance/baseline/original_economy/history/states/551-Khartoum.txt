@@ -1,0 +1,30 @@
+
+state={
+	id=551
+	name = "STATE_551"
+	manpower = 821003
+
+	history={
+		owner = ENG
+		add_core_of = SUD
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 2
+		}
+		victory_points = {
+			12806 3 
+		}
+		
+		
+
+	}
+
+	provinces={
+		2088 4963 8105 10743 10745 12796 12806 12826 12836 12881 14205 14221 14225 14227 14241 14246 14254 14269 14312 14433 18479 18480 18481 18483 18484 18485 18488 18491 18496 18498 18499 18503 18504 18506 18508 18510 18513 18514 18515 18516 
+	}
+	
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

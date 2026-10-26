@@ -1,0 +1,17 @@
+state = { #1092
+	id = 1092
+	name = "LARSEN_ICE_SHELF"
+	manpower = 1
+	state_category = wasteland
+	
+	history= {
+		owner = ZZZ
+		set_state_flag = ice_shelf
+	}
+	
+	provinces={
+		17572 17610 17629 17671 17675
+	}
+
+	local_supplies = 0.0
+}

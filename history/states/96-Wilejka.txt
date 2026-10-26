@@ -1,0 +1,34 @@
+state = {
+	id = 96
+	name = "STATE_96"
+	provinces = {
+		277
+		358
+		406
+		6340
+		6413
+		9236
+		9341
+		11342
+		11391
+		14563
+		14571
+		14576
+		14577
+		14584
+		15604
+	}
+	manpower = 680625
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = GDP_regions_belarus
+	}
+}

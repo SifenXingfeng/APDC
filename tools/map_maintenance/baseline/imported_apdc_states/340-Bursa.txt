@@ -1,0 +1,76 @@
+state = {
+	id = 340
+	name = "STATE_340"
+	resources = {
+		chromium = 41
+		steel = 4
+	}
+	provinces = {
+		947
+		3786
+		3851
+		6864
+		6871
+		6912
+		9887
+		11811
+		11867
+		16207
+		16208
+		16215
+		16257
+	}
+	manpower = 1202512
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = TUR
+		controller = TUR
+		add_core_of = TUR
+		victory_points = {
+			947
+			15
+		}
+		victory_points = {
+			3786
+			3
+		}
+		victory_points = {
+			3851
+			2
+		}
+		victory_points = {
+			6871
+			1
+		}
+		victory_points = {
+			6912
+			2
+		}
+		victory_points = {
+			11811
+			5
+		}
+		victory_points = {
+			11867
+			1
+		}
+		victory_points = {
+			16208
+			1
+		}
+		victory_points = {
+			16257
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			11811 = {
+				naval_base = 2
+			}
+			dockyard = 1
+		}
+	}
+}

@@ -1,0 +1,98 @@
+--- before/tools/performance/finalize_report.py
++++ current/tools/performance/finalize_report.py
+@@ -0,0 +1,95 @@
++"""Publish this repair checkpoint only after completed, clean runtime evidence."""
++from pathlib import Path
++import json,re,shutil,hashlib
++from repair import ROOT,OUT,BACKUP,MANIFEST
++from verify import run
++
++def finish():
++ qa=Path('D:/APDC_PerformanceQA_20261023');stop=json.loads((qa/'silent-stop.json').read_text('utf-8-sig'));start=json.loads((qa/'silent-process.json').read_text('utf-8-sig'))
++ assert stop['pid']==start['pid'] and not stop['still_running']
++ if 'steam_app_running' in stop:
++  assert not stop['steam_app_running'] and not stop.get('remaining_helpers')
++ else:
++  # Historical stop records checked only the main process. A separately
++  # verified correction is required before calling that cleanup complete.
++  correction=json.loads((OUT/'process_cleanup_correction.json').read_text('utf-8'))
++  assert correction['last_test_pid']==start['pid'] and correction['steam_app_running']==0
++  assert not correction['remaining_game_pids'] and not correction['remaining_helper_pids']
++ dst=OUT/'runtime/final';dst.mkdir(parents=True,exist_ok=True)
++ for name in ['logs','driver','mod','silent-process.json','silent-stop.json','dlc_load.json','settings.txt']:
++  p=qa/name
++  if p.is_dir():shutil.copytree(p,dst/name,dirs_exist_ok=True)
++  elif p.exists():shutil.copy2(p,dst/name)
++ verification=run(dst/'logs','final')
++ assert not verification['syntax_errors'] and not verification['state_history_changes']
++ assert verification['project_or_unclassified_records']==0
++ log=(dst/'logs/game.log').read_text('utf-8',errors='replace')
++ assertions=re.findall(r'APDC_ECO_ASSERT (PASS|FAIL) (\w+)',log)
++ assert len(assertions)==29 and all(s=='PASS' for s,n in assertions)
++ (OUT/'behavioral_assertions_final.json').write_text(json.dumps({'pass':[n for s,n in assertions],'fail':[]},indent=2),'utf-8')
++ markers=re.findall(r'APDC_PERF DAY[^\n]+',log);last_tick=int(re.search(r'ticks=(\d+)',markers[-1])[1])
++ heads=re.findall(r'\[([0-9.:]+)\]\[(2060\.[0-9.]+)\]',log[:log.rfind('APDC_PERF DAY')]);last_date=heads[-1][1]
++ original=json.loads((BACKUP/'sha256.json').read_text('utf-8'));changes=json.loads(MANIFEST.read_text('utf-8'));first={}
++ for c in changes:first.setdefault(c['path'],c['before'])
++ paths=set(original)|set(first)|{'tools/economy/equipment_ids.json'}
++ paths.update(p.relative_to(ROOT).as_posix() for p in (ROOT/'tools/performance').iterdir() if p.suffix in ['.py','.ps1'])
++ delta=[]
++ for rel in sorted(paths):
++  before=original.get(rel,first.get(rel));p=ROOT/rel;after=hashlib.sha256(p.read_bytes()).hexdigest() if p.is_file() else None
++  if before!=after:delta.append({'path':rel,'before':before,'after':after})
++ (OUT/'final-changes.json').write_text(json.dumps(delta,ensure_ascii=False,indent=2),'utf-8')
++ ids=json.loads((OUT/'equipment_id_preservation.json').read_text('utf-8'));assert not ids['mismatches']
++ bench=json.loads((OUT/'benchmark.json').read_text('utf-8'));baseline=bench['run6'];optimized=bench['run7']
++ doc=f'''# APDC 报错清理与性能优化验收（2026-10-23）
++
++最终版本通过 GER 2060 后台普通开局，推进至 {last_date}，完成 {last_tick} 次每日经济更新。游戏为 Operation Postern 1.19.3，实际启用 43 个 DLC、APDC 与用户原有 Toolpack；额外 QA 模组仅在隔离测试中启用。
++
++最终日志中，项目导致或尚未归类的报错为 **0**。静态解析 **{verification['parsed_script_files']}** 个脚本/界面文件，没有语法或脚本 BOM 问题。29 项引擎内行为断言全部通过。此结论覆盖本轮实际开局、日期推进和测试场景，不表示所有未来剧情均已逐一触发。
++
++## 删除与修复
++
++- 删除引发错误且与 APDC 无关的旧国家剧情、任务、国策条件、袭击分支、废弃科技树及其失效调用；没有为这些残余补回整套原版/TNO 玩法。
++- 对删除文件后会从游戏本体重新加载的内容，使用同路径空覆盖文件，确保旧代码不再生效。
++- APDC 的苏联国策、事件、人物任命、合作组织和既有玩法保留，修复字段、命名空间、前置/互斥关系、控件及必要接口。
++- 军官团与当前学说仍引用的旧部队 ID 保留为不可列装的兼容定义，不恢复旧部队科技。82 类 APDC 自定义部队定义与本轮开始前逐字一致；全部州历史的 SHA-256 与本轮备份一致。
++- 清理当前地图及项目翻译的重复下层定义，保留 APDC 权威替换值；修复国旗编码、必要字体与图标绑定。合作组织国旗使用透明叠加贴图，不恢复原版条纹效果。
++- 项目自定义主题曲由 48 kHz 转为引擎要求的 44.1 kHz，仍为同一曲目、双声道；时长由 296.576000 秒变为 296.576009 秒。项目隐私图标仅修正 DDS 层数声明，全部像素和 Alpha 不变。
++
++## 性能修改
++
++- 地区系统每日全图遍历从每个国家各执行一次改为全世界每日一次。原入口实测每天触发 156 次；更新计数断言确认地区与经济全图更新每天各执行一次。
++- 多人情况下地区周更新也只做一次；内阁日刷新、经济体制与部队月初始化的全图遍历增加全局周期保护，保留第一次调用的顺序。
++- 删除临时的每日全州工厂诊断日志。
++- 费用预算在每周实际结算、面板显示和玩家操作时刷新，关闭面板的 AI 无需每日遍历所有科技/专项来估算预算。预算公式和每周扣款、发展度结算函数与优化前逐字一致。
++- 计划经济已经采用计划分配时，不再每日重复移除/添加同一法案。
++- 没有有效私营军工产能时跳过逐装备生产；面板只计算已解锁装备的库存与进度显示。
++- 消费品交易先收集进口需求国，再按原顺序匹配卖家。关税、禁运、交战排除、供给排序及等额分配规则保留。
++- 仍保留每日装备解锁检查，避免外部工具直接改科技时漏更新；没有使用不能保证兼容的科技数量缓存。
++
++同机、同场景、同一测试速度的单次对照，取 2060 年 1 月 5 日至 31 日，避开开局初始化和月度存档：
++
++| 版本 | 推进天数 | 实际用时 | 平均每游戏日 |
++|---|---:|---:|---:|
++| 清理报错后、性能优化前 | 26 | {baseline['seconds']} 秒 | {baseline['seconds_per_day']:.2f} 秒 |
++| 性能优化后 | 26 | {optimized['seconds']} 秒 | {optimized['seconds_per_day']:.2f} 秒 |
++
++用时减少约 **{bench['elapsed_reduction']*100:.1f}%**。测试速度为 3 档，QA 的理论最低推进时间为 1.2 秒/天；日志时间精度为秒。此数值是日期推进耗时，不是 FPS 或所有后期战局的性能承诺。原始计时见 `benchmark.json` 和 `runtime/run6`、`runtime/run7`。
++
++## 存档与功能验证
++
++固定装备编号表位于 `tools/economy/equipment_ids.json`，保留原 195 个编号，不再因清理/排序重用编号。当前 160 款装备全部沿用原编号，移除的 35 个编号保留不用，避免旧库存、生产进度和解锁标记串到其他装备；UI 数组按最大编号分配空间。
++
++29 项引擎断言覆盖采购精确扣款与余额不足、150 PP 法案切换、破产锁定、消费税供给口径、贸易守恒及双方关税、连续建设/拆除与余量、20 组随机建设拆除、受损工厂拆除、供需停建区间、基础产能、发展度边界、计划经济建筑/库存转换及每日/每周/每月全图更新次数。详见 `behavioral_assertions_final.json`。
++
++## 排除的外部报错与后台运行
++
++最终仍有 {verification['external_records']} 条外部记录：原版/DLC 对照运行中也出现的 {verification['external_by_origin'].get('native installation/DLC control run',0)} 条、Toolpack 自身旧科技/意识形态引用 {verification['external_by_origin'].get('external Toolpack',0)} 条，以及本体拥有的国旗资产格式提示 {verification['external_by_origin'].get('native flag asset',0)} 条。没有修改其他模组或游戏安装文件。逐条来源证据见 `final-verification.json`，原版对照见 `runtime/native/logs`。
++
++测试使用独立 `-userdir` 和 Windows 私有桌面；游戏及其日志窗口在用户桌面的窗口数均为 0，没有切换输入桌面。仅终止本次创建的进程句柄及身份匹配的测试日志窗口。最终 PID {start['pid']} 已退出；过程记录见 `runtime/final/silent-process.json` 与 `silent-stop.json`。用户原有存档、启动器启用模组和设置没有被测试配置覆盖。
++
++原始备份：`{BACKUP.as_posix()}`。最终变动及前后哈希见 `final-changes.json`，逐步操作见 `repairs.json`；一次性清理脚本已移到备份的 `implementation_tools`，避免误运行旧的探索脚本。项目中保留只读验证、隔离启动和功能验证工具。
++'''
++ (OUT/'README.md').write_text(doc,'utf-8')
++ print('Final checkpoint:',OUT/'README.md','changed files',len(delta),'last date',last_date,'assertions',len(assertions))
++
++if __name__=='__main__':finish()

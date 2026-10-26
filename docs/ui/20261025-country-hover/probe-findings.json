@@ -1,0 +1,9 @@
+{
+  "stage": "isolation probes; no APDC runtime changes",
+  "unsupported_native_GUI_types": [
+    "multiSpriteButtonType",
+    "windowType (nested in current containerWindowType)"
+  ],
+  "evidence": "Current installed HOI4 parser reports Unexpected token; historical engine string entries do not imply a usable current GUI interface.",
+  "currently_testing": "Multiple background definitions in a containerWindowType; whether they can form one input target with a combined mask."
+}

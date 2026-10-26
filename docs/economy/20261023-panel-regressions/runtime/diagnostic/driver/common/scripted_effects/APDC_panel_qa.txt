@@ -1,0 +1,229 @@
+QA_click_public_plus = {
+ add_to_variable = { APDC_eco_public_civ = 1 }
+APDC_eco_refresh_current_supply = yes APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes 
+add_to_variable = { APDC_eco_ui_revision = 1 }
+
+}
+QA_click_public_minus = {
+ add_to_variable = { APDC_eco_public_civ = -1 }
+APDC_eco_refresh_current_supply = yes APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes 
+add_to_variable = { APDC_eco_ui_revision = 1 }
+
+}
+QA_click_eq_buy = {
+ set_variable = { APDC_eco_purchase_id = APDC_eco_equipment_id }
+set_variable = { APDC_eco_purchase_quantity = 1 }
+set_variable = { APDC_eco_purchase_open = 1 }
+APDC_eco_prepare_purchase = yes 
+add_to_variable = { APDC_eco_ui_revision = 1 }
+
+}
+QA_click_qty_add_10 = {
+
+add_to_variable = { APDC_eco_purchase_quantity = 10 }
+APDC_eco_prepare_purchase = yes
+
+add_to_variable = { APDC_eco_ui_revision = 1 }
+
+}
+QA_click_qty_remove_1 = {
+
+add_to_variable = { APDC_eco_purchase_quantity = -1 }
+APDC_eco_prepare_purchase = yes
+
+add_to_variable = { APDC_eco_ui_revision = 1 }
+
+}
+QA_click_qty_max = {
+
+set_variable = { APDC_eco_purchase_quantity = APDC_eco_purchase_stock }
+APDC_eco_prepare_purchase = yes
+
+add_to_variable = { APDC_eco_ui_revision = 1 }
+
+}
+QA_click_purchase_accept = {
+
+APDC_eco_purchase_equipment = yes
+APDC_eco_sync_ui = yes
+
+add_to_variable = { APDC_eco_ui_revision = 1 }
+
+}
+QA_click_purchase_close = {
+
+clear_variable = APDC_eco_purchase_open
+
+add_to_variable = { APDC_eco_ui_revision = 1 }
+
+}
+QA_click_trade_toggle = {
+ if = { limit = { has_variable = APDC_eco_trade_open } clear_variable = APDC_eco_trade_open set_variable = { APDC_eco_trade_toggle_frame = 1 } } else = { set_variable = { APDC_eco_trade_open = 1 } set_variable = { APDC_eco_trade_toggle_frame = 2 } } 
+add_to_variable = { APDC_eco_ui_revision = 1 }
+
+}
+QA_click_tax_law = {
+ set_variable = { APDC_eco_selected_group = 1 }
+ 
+add_to_variable = { APDC_eco_ui_revision = 1 }
+
+}
+QA_click_law_button = {
+ set_variable = { APDC_eco_requested_law = APDC_eco_law_level }
+APDC_eco_change_law = yes
+clear_variable = APDC_eco_selected_group
+APDC_eco_sync_ui = yes 
+add_to_variable = { APDC_eco_ui_revision = 1 }
+
+}
+QA_click_law_close = {
+ clear_variable = APDC_eco_selected_group 
+add_to_variable = { APDC_eco_ui_revision = 1 }
+
+}
+QA_click_back = {
+ clear_variable = APDC_eco_panel_open clear_variable = APDC_eco_selected_group clear_variable = APDC_eco_purchase_open clear_variable = APDC_eco_trade_open 
+add_to_variable = { APDC_eco_ui_revision = 1 }
+
+}
+QA_panel_fixtures = {
+log = "APDC_PANEL_INITIAL public=[?APDC_eco_public_civ] available=[?APDC_eco_public_available] native_total=[?num_of_civilian_factories] native_available=[?num_of_civilian_factories_available_for_projects] goods=[?APDC_eco_goods_per_civ_m] demand=[?APDC_eco_demand_m] private=[?APDC_eco_private_civ]"
+if = { limit = { check_variable = { APDC_eco_public_available > 0 } } log = "APDC_PANEL_ASSERT PASS initial_public_capacity_positive" } else = { log = "APDC_PANEL_ASSERT FAIL initial_public_capacity_positive" }
+set_variable = { APDC_eco_public_civ = 0 } APDC_eco_refresh_current_supply = yes
+QA_click_public_plus = yes
+if = { limit = { check_variable = { APDC_eco_public_civ = 1 } } log = "APDC_PANEL_ASSERT PASS assign_one_public_factory" } else = { log = "APDC_PANEL_ASSERT FAIL assign_one_public_factory" }
+QA_click_public_minus = yes
+if = { limit = { check_variable = { APDC_eco_public_civ = 0 } } log = "APDC_PANEL_ASSERT PASS unassign_one_public_factory" } else = { log = "APDC_PANEL_ASSERT FAIL unassign_one_public_factory" }
+if = { limit = { NOT = { has_available_idea_with_traits = { idea = city_idea limit = 0 characters = no } } } log = "APDC_PANEL_ASSERT PASS city_idea_locked" } else = { log = "APDC_PANEL_ASSERT FAIL city_idea_locked" }
+if = { limit = { NOT = { has_available_idea_with_traits = { idea = society_development_idea limit = 0 characters = no } } } log = "APDC_PANEL_ASSERT PASS society_development_idea_locked" } else = { log = "APDC_PANEL_ASSERT FAIL society_development_idea_locked" }
+if = { limit = { NOT = { has_available_idea_with_traits = { idea = poverty_level_idea limit = 0 characters = no } } } log = "APDC_PANEL_ASSERT PASS poverty_level_idea_locked" } else = { log = "APDC_PANEL_ASSERT FAIL poverty_level_idea_locked" }
+remove_ideas = undisturbed_isolation
+remove_ideas = isolation
+remove_ideas = civilian_economy
+remove_ideas = low_economic_mobilisation
+remove_ideas = partial_economic_mobilisation
+remove_ideas = war_economy
+remove_ideas = tot_economic_mobilisation
+add_ideas = undisturbed_isolation
+APDC_eco_refresh_policies = yes
+if = { limit = { check_variable = { APDC_eco_population_base = 1 } } log = "APDC_PANEL_ASSERT PASS undisturbed_isolation_coefficient" } else = { log = "APDC_PANEL_ASSERT FAIL undisturbed_isolation_coefficient" }
+set_temp_variable = { QA_native_cg = modifier@consumer_goods_expected_value }
+if = { limit = { NOT = { check_variable = { QA_native_cg > 0 } } } log = "APDC_PANEL_ASSERT PASS undisturbed_isolation_no_native_reservation" } else = { log = "APDC_PANEL_ASSERT FAIL undisturbed_isolation_no_native_reservation" }
+remove_ideas = undisturbed_isolation
+remove_ideas = isolation
+remove_ideas = civilian_economy
+remove_ideas = low_economic_mobilisation
+remove_ideas = partial_economic_mobilisation
+remove_ideas = war_economy
+remove_ideas = tot_economic_mobilisation
+add_ideas = isolation
+APDC_eco_refresh_policies = yes
+if = { limit = { check_variable = { APDC_eco_population_base = 1 } } log = "APDC_PANEL_ASSERT PASS isolation_coefficient" } else = { log = "APDC_PANEL_ASSERT FAIL isolation_coefficient" }
+set_temp_variable = { QA_native_cg = modifier@consumer_goods_expected_value }
+if = { limit = { NOT = { check_variable = { QA_native_cg > 0 } } } log = "APDC_PANEL_ASSERT PASS isolation_no_native_reservation" } else = { log = "APDC_PANEL_ASSERT FAIL isolation_no_native_reservation" }
+remove_ideas = undisturbed_isolation
+remove_ideas = isolation
+remove_ideas = civilian_economy
+remove_ideas = low_economic_mobilisation
+remove_ideas = partial_economic_mobilisation
+remove_ideas = war_economy
+remove_ideas = tot_economic_mobilisation
+add_ideas = civilian_economy
+APDC_eco_refresh_policies = yes
+if = { limit = { check_variable = { APDC_eco_population_base = 1 } } log = "APDC_PANEL_ASSERT PASS civilian_economy_coefficient" } else = { log = "APDC_PANEL_ASSERT FAIL civilian_economy_coefficient" }
+set_temp_variable = { QA_native_cg = modifier@consumer_goods_expected_value }
+if = { limit = { NOT = { check_variable = { QA_native_cg > 0 } } } log = "APDC_PANEL_ASSERT PASS civilian_economy_no_native_reservation" } else = { log = "APDC_PANEL_ASSERT FAIL civilian_economy_no_native_reservation" }
+remove_ideas = undisturbed_isolation
+remove_ideas = isolation
+remove_ideas = civilian_economy
+remove_ideas = low_economic_mobilisation
+remove_ideas = partial_economic_mobilisation
+remove_ideas = war_economy
+remove_ideas = tot_economic_mobilisation
+add_ideas = low_economic_mobilisation
+APDC_eco_refresh_policies = yes
+if = { limit = { check_variable = { APDC_eco_population_base = 0.85 } } log = "APDC_PANEL_ASSERT PASS low_economic_mobilisation_coefficient" } else = { log = "APDC_PANEL_ASSERT FAIL low_economic_mobilisation_coefficient" }
+set_temp_variable = { QA_native_cg = modifier@consumer_goods_expected_value }
+if = { limit = { NOT = { check_variable = { QA_native_cg > 0 } } } log = "APDC_PANEL_ASSERT PASS low_economic_mobilisation_no_native_reservation" } else = { log = "APDC_PANEL_ASSERT FAIL low_economic_mobilisation_no_native_reservation" }
+remove_ideas = undisturbed_isolation
+remove_ideas = isolation
+remove_ideas = civilian_economy
+remove_ideas = low_economic_mobilisation
+remove_ideas = partial_economic_mobilisation
+remove_ideas = war_economy
+remove_ideas = tot_economic_mobilisation
+add_ideas = partial_economic_mobilisation
+APDC_eco_refresh_policies = yes
+if = { limit = { check_variable = { APDC_eco_population_base = 0.7 } } log = "APDC_PANEL_ASSERT PASS partial_economic_mobilisation_coefficient" } else = { log = "APDC_PANEL_ASSERT FAIL partial_economic_mobilisation_coefficient" }
+set_temp_variable = { QA_native_cg = modifier@consumer_goods_expected_value }
+if = { limit = { NOT = { check_variable = { QA_native_cg > 0 } } } log = "APDC_PANEL_ASSERT PASS partial_economic_mobilisation_no_native_reservation" } else = { log = "APDC_PANEL_ASSERT FAIL partial_economic_mobilisation_no_native_reservation" }
+remove_ideas = undisturbed_isolation
+remove_ideas = isolation
+remove_ideas = civilian_economy
+remove_ideas = low_economic_mobilisation
+remove_ideas = partial_economic_mobilisation
+remove_ideas = war_economy
+remove_ideas = tot_economic_mobilisation
+add_ideas = war_economy
+APDC_eco_refresh_policies = yes
+if = { limit = { check_variable = { APDC_eco_population_base = 0.55 } } log = "APDC_PANEL_ASSERT PASS war_economy_coefficient" } else = { log = "APDC_PANEL_ASSERT FAIL war_economy_coefficient" }
+set_temp_variable = { QA_native_cg = modifier@consumer_goods_expected_value }
+if = { limit = { NOT = { check_variable = { QA_native_cg > 0 } } } log = "APDC_PANEL_ASSERT PASS war_economy_no_native_reservation" } else = { log = "APDC_PANEL_ASSERT FAIL war_economy_no_native_reservation" }
+remove_ideas = undisturbed_isolation
+remove_ideas = isolation
+remove_ideas = civilian_economy
+remove_ideas = low_economic_mobilisation
+remove_ideas = partial_economic_mobilisation
+remove_ideas = war_economy
+remove_ideas = tot_economic_mobilisation
+add_ideas = tot_economic_mobilisation
+APDC_eco_refresh_policies = yes
+if = { limit = { check_variable = { APDC_eco_population_base = 0.4 } } log = "APDC_PANEL_ASSERT PASS tot_economic_mobilisation_coefficient" } else = { log = "APDC_PANEL_ASSERT FAIL tot_economic_mobilisation_coefficient" }
+set_temp_variable = { QA_native_cg = modifier@consumer_goods_expected_value }
+if = { limit = { NOT = { check_variable = { QA_native_cg > 0 } } } log = "APDC_PANEL_ASSERT PASS tot_economic_mobilisation_no_native_reservation" } else = { log = "APDC_PANEL_ASSERT FAIL tot_economic_mobilisation_no_native_reservation" }
+remove_ideas = undisturbed_isolation
+remove_ideas = isolation
+remove_ideas = civilian_economy
+remove_ideas = low_economic_mobilisation
+remove_ideas = partial_economic_mobilisation
+remove_ideas = war_economy
+remove_ideas = tot_economic_mobilisation
+add_ideas = civilian_economy
+set_technology = { infantry_weapons = 1 popup = no }
+APDC_eco_refresh_equipment = yes
+set_variable = { APDC_eco_stocks^79 = 20 }
+set_temp_variable = { APDC_eco_equipment_id = 79 }
+set_variable = { APDC_eco_cash_m = 10 } set_variable = { APDC_eco_cash_k = 0 } set_variable = { APDC_eco_panel_open = 1 }
+QA_click_eq_buy = yes
+if = { limit = { check_variable = { APDC_eco_purchase_open = 1 } check_variable = { APDC_eco_purchase_quantity = 1 } } log = "APDC_PANEL_ASSERT PASS equipment_row_opens_purchase" } else = { log = "APDC_PANEL_ASSERT FAIL equipment_row_opens_purchase" }
+QA_click_qty_add_10 = yes
+if = { limit = { check_variable = { APDC_eco_purchase_quantity = 11 } } log = "APDC_PANEL_ASSERT PASS quantity_add_10" } else = { log = "APDC_PANEL_ASSERT FAIL quantity_add_10" }
+QA_click_qty_remove_1 = yes
+if = { limit = { check_variable = { APDC_eco_purchase_quantity = 10 } } log = "APDC_PANEL_ASSERT PASS quantity_remove_1" } else = { log = "APDC_PANEL_ASSERT FAIL quantity_remove_1" }
+QA_click_qty_max = yes
+if = { limit = { check_variable = { APDC_eco_purchase_quantity = 20 } } log = "APDC_PANEL_ASSERT PASS quantity_max" } else = { log = "APDC_PANEL_ASSERT FAIL quantity_max" }
+QA_click_purchase_accept = yes
+if = { limit = { check_variable = { APDC_eco_stocks^79 = 0 } check_variable = { APDC_eco_cash_m = 9 } check_variable = { APDC_eco_cash_k = 998.28 } } log = "APDC_PANEL_ASSERT PASS accept_buys_and_deducts" } else = { log = "APDC_PANEL_ASSERT FAIL accept_buys_and_deducts" }
+set_variable = { APDC_eco_stocks^79 = 5 } set_variable = { APDC_eco_cash_m = 0 } set_variable = { APDC_eco_cash_k = 0 }
+QA_click_eq_buy = yes
+QA_click_purchase_accept = yes
+if = { limit = { check_variable = { APDC_eco_stocks^79 = 5 } } log = "APDC_PANEL_ASSERT PASS cannot_buy_without_money" } else = { log = "APDC_PANEL_ASSERT FAIL cannot_buy_without_money" }
+QA_click_purchase_close = yes
+if = { limit = { NOT = { has_variable = APDC_eco_purchase_open } } log = "APDC_PANEL_ASSERT PASS purchase_close" } else = { log = "APDC_PANEL_ASSERT FAIL purchase_close" }
+QA_click_trade_toggle = yes
+if = { limit = { has_variable = APDC_eco_trade_open check_variable = { APDC_eco_trade_toggle_frame = 2 } } log = "APDC_PANEL_ASSERT PASS trade_expand_frame_2" } else = { log = "APDC_PANEL_ASSERT FAIL trade_expand_frame_2" }
+QA_click_trade_toggle = yes
+if = { limit = { NOT = { has_variable = APDC_eco_trade_open } check_variable = { APDC_eco_trade_toggle_frame = 1 } } log = "APDC_PANEL_ASSERT PASS trade_collapse_frame_1" } else = { log = "APDC_PANEL_ASSERT FAIL trade_collapse_frame_1" }
+QA_click_tax_law = yes
+if = { limit = { check_variable = { APDC_eco_selected_group = 1 } } log = "APDC_PANEL_ASSERT PASS law_group_opens" } else = { log = "APDC_PANEL_ASSERT FAIL law_group_opens" }
+set_variable = { APDC_eco_cash_m = 1 } add_political_power = 1000 set_temp_variable = { APDC_eco_law_level = 2 }
+QA_click_law_button = yes
+if = { limit = { has_idea = APDC_eco_tax_2 NOT = { has_variable = APDC_eco_selected_group } } log = "APDC_PANEL_ASSERT PASS selected_law_closes_sidebar" } else = { log = "APDC_PANEL_ASSERT FAIL selected_law_closes_sidebar" }
+QA_click_tax_law = yes
+QA_click_law_close = yes
+if = { limit = { NOT = { has_variable = APDC_eco_selected_group } } log = "APDC_PANEL_ASSERT PASS manual_close_sidebar" } else = { log = "APDC_PANEL_ASSERT FAIL manual_close_sidebar" }
+QA_click_back = yes
+if = { limit = { NOT = { has_variable = APDC_eco_panel_open } NOT = { has_variable = APDC_eco_selected_group } NOT = { has_variable = APDC_eco_purchase_open } NOT = { has_variable = APDC_eco_trade_open } } log = "APDC_PANEL_ASSERT PASS panel_back_closes_children" } else = { log = "APDC_PANEL_ASSERT FAIL panel_back_closes_children" }
+set_variable = { APDC_eco_purchase_id = 79 } set_variable = { APDC_eco_purchase_quantity = 1 } set_variable = { APDC_eco_panel_open = 1 } set_variable = { APDC_eco_purchase_open = 1 } set_variable = { APDC_eco_selected_group = 1 } set_variable = { APDC_eco_trade_open = 1 } APDC_eco_prepare_purchase = yes APDC_eco_sync_ui = yes
+
+}

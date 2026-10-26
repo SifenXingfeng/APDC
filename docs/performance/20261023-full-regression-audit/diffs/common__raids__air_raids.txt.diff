@@ -1,0 +1,38 @@
+--- before/common/raids/air_raids.txt
++++ current/common/raids/air_raids.txt
+@@ -302,7 +302,7 @@
+ 
+ 		# Can prepare
+ 		available = {
+-			is_special_project_completed = sp:sp_air_bouncing_bomb
++			always = no
+ 			has_war_with = FROM
+ 		}
+ 
+@@ -546,7 +546,7 @@
+ 
+ 		# Can prepare
+ 		available = {
+-			is_special_project_completed = sp:sp_air_bouncing_bomb
++			always = no
+ 
+ 		}
+ 
+@@ -1119,7 +1119,7 @@
+ 
+ 		# Can prepare
+ 		available = {
+-			is_special_project_completed = sp:sp_air_earthshaker_bomb
++			always = no
+ 		}
+ 		launchable = {
+ 			has_war_with = FROM
+@@ -1333,7 +1333,7 @@
+ 
+ 		# Raid Type is visible
+ 		visible = {
+-			is_special_project_completed = sp:sp_air_earthshaker_bomb
++			always = no
+ 		}
+ 		# Specific Target is visible
+ 		show_target = {

@@ -1,0 +1,65 @@
+--- before/common/military_industrial_organization/organizations/FRA_organization.txt
++++ current/common/military_industrial_organization/organizations/FRA_organization.txt
+@@ -31,7 +31,7 @@
+ 			limit = {
+ 				FROM = { original_tag = ETH }
+ 			}
+-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
++			FROM = { always = no }
+ 		}
+ 	}
+ 
+@@ -60,7 +60,7 @@
+ 			custom_trigger_tooltip = {
+ 				tooltip = has_invited_mio_tt
+ 				FROM = {
+-					has_completed_focus = BRA_invite_foreign_companies
++					always = no
+ 					has_country_flag = has_renault_mio_flag
+ 				}
+ 			}
+@@ -155,7 +155,7 @@
+ 			limit = {
+ 				FROM = { original_tag = FRA } 
+ 			}
+-			FROM = { has_completed_focus = FRA_form_the_state_arsenals }
++			FROM = { always = no }
+ 		}
+ 	}
+ }
+@@ -222,7 +222,7 @@
+ 			custom_trigger_tooltip = {
+ 				tooltip = has_invited_mio_tt
+ 				FROM = {
+-					has_completed_focus = BRA_invite_foreign_companies
++					always = no
+ 					has_country_flag = has_acf_mio_flag
+ 				}
+ 			}
+@@ -271,7 +271,7 @@
+ 			limit = {
+ 				FROM = { original_tag = ETH }
+ 			}
+-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
++			FROM = { always = no }
+ 		}
+ 	}
+ 	
+@@ -300,7 +300,7 @@
+ 			custom_trigger_tooltip = {
+ 				tooltip = has_invited_mio_tt
+ 				FROM = {
+-					has_completed_focus = BRA_invite_foreign_companies
++					always = no
+ 					has_country_flag = has_bloch_mio_flag
+ 				}
+ 			}
+@@ -419,7 +419,7 @@
+ 			limit = {
+ 				FROM = { original_tag = ETH }
+ 			}
+-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
++			FROM = { always = no }
+ 		}
+ 	}
+ 

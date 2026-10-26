@@ -1,0 +1,246 @@
+--- before/events/SOV_events.txt
++++ current/events/SOV_events.txt
+@@ -1,118 +1,126 @@
+-namespace = SOV_events_trigger
+-
+-country_event = {
+-    id = consolidate_gold_ring_achievements.1
+-    title = consolidate_gold_ring_achievements.1.t
+-    desc  = consolidate_gold_ring_achievements.1.d
+-    picture = GFX_consolidate_gold_ring_achievements_event
+-
+-    is_triggered_only = yes
+-
+-    option = {
+-        name = consolidate_gold_ring_achievements.1.a
+-    }
+-}
+-
+-country_event = {
+-    id = establish_logistics_coordination_committee.1
+-    title = establish_logistics_coordination_committee.1.t
+-    desc  = establish_logistics_coordination_committee.1.d
+-    picture = GFX_establish_logistics_coordination_committee_event
+-
+-    is_triggered_only = yes
+-
+-    option = {
+-        name = establish_logistics_coordination_committee.1.a
+-    }
+-}
+-
+-country_event = {
+-    id = assign_officers_to_state_owned.1
+-    title = assign_officers_to_state_owned.1.t
+-    desc  = assign_officers_to_state_owned.1.d
+-    picture = GFX_assign_officers_to_state_owned_event
+-
+-    is_triggered_only = yes
+-
+-    option = {
+-        name = assign_officers_to_state_owned.1.a
+-    }
+-}
+-
+-country_event = {
+-    id = appoint_inspectors.1
+-    title = appoint_inspectors.1.t
+-    desc  = appoint_inspectors.1.d
+-    picture = GFX_appoint_inspectors_event
+-
+-    is_triggered_only = yes
+-
+-    option = {
+-        name = appoint_inspectors.1.a
+-    }
+-}
+-
+-country_event = {
+-    id = best_officer_in_soviet.1
+-    title = best_officer_in_soviet.1.t
+-    desc  = best_officer_in_soviet.1.d
+-    picture = GFX_best_officer_in_soviet_event
+-
+-    is_triggered_only = yes
+-
+-    option = {
+-        name = best_officer_in_soviet.1.a
+-    }
+-}
+-
+-country_event = {
+-    id = add_buget_for_KGB.1
+-    title = add_buget_for_KGB.1.t
+-    desc  = add_buget_for_KGB.1.d
+-    picture = GFX_add_buget_for_KGB_event
+-
+-    is_triggered_only = yes
+-
+-    option = {
+-        name = add_buget_for_KGB.1.a
+-    }
+-}
+-
+-country_event = {
+-    id = promote_silver_ring_scheme.1
+-    title = promote_silver_ring_scheme.1.t
+-    desc  = promote_silver_ring_scheme.1.d
+-    picture = GFX_promote_silver_ring_scheme_event
+-
+-    is_triggered_only = yes
+-
+-    option = {
+-        name = promote_silver_ring_scheme.1.a
+-    }
+-}
+-
+-country_event = {
+-    id = share_success_stories.1
+-    title = share_success_stories.1.t
+-    desc  = share_success_stories.1.d
+-    picture = GFX_share_success_stories_event
+-
+-    is_triggered_only = yes
+-
+-    option = {
+-        name = share_success_stories.1.a
+-    }
+-}
+-
+-country_event = {
+-    id = thunderous_but_feeble_reform.1
+-    title = thunderous_but_feeble_reform.1.t
+-    desc  = thunderous_but_feeble_reform.1.d
+-    picture = GFX_thunderous_but_feeble_reform_event
+-
+-    is_triggered_only = yes
+-
+-    option = {
+-        name = thunderous_but_feeble_reform.1.a
+-    }
++add_namespace = consolidate_gold_ring_achievements
++add_namespace = establish_logistics_coordination_committee
++add_namespace = assign_officers_to_state_owned
++add_namespace = appoint_inspectors
++add_namespace = best_officer_in_soviet
++add_namespace = add_buget_for_KGB
++add_namespace = promote_silver_ring_scheme
++add_namespace = share_success_stories
++add_namespace = thunderous_but_feeble_reform
++
++country_event = {
++    id = consolidate_gold_ring_achievements.1
++    title = consolidate_gold_ring_achievements.1.t
++    desc  = consolidate_gold_ring_achievements.1.d
++    picture = GFX_consolidate_gold_ring_achievements_event
++
++    is_triggered_only = yes
++
++    option = {
++        name = consolidate_gold_ring_achievements.1.a
++    }
++}
++
++country_event = {
++    id = establish_logistics_coordination_committee.1
++    title = establish_logistics_coordination_committee.1.t
++    desc  = establish_logistics_coordination_committee.1.d
++    picture = GFX_establish_logistics_coordination_committee_event
++
++    is_triggered_only = yes
++
++    option = {
++        name = establish_logistics_coordination_committee.1.a
++    }
++}
++
++country_event = {
++    id = assign_officers_to_state_owned.1
++    title = assign_officers_to_state_owned.1.t
++    desc  = assign_officers_to_state_owned.1.d
++    picture = GFX_assign_officers_to_state_owned_event
++
++    is_triggered_only = yes
++
++    option = {
++        name = assign_officers_to_state_owned.1.a
++    }
++}
++
++country_event = {
++    id = appoint_inspectors.1
++    title = appoint_inspectors.1.t
++    desc  = appoint_inspectors.1.d
++    picture = GFX_appoint_inspectors_event
++
++    is_triggered_only = yes
++
++    option = {
++        name = appoint_inspectors.1.a
++    }
++}
++
++country_event = {
++    id = best_officer_in_soviet.1
++    title = best_officer_in_soviet.1.t
++    desc  = best_officer_in_soviet.1.d
++    picture = GFX_best_officer_in_soviet_event
++
++    is_triggered_only = yes
++
++    option = {
++        name = best_officer_in_soviet.1.a
++    }
++}
++
++country_event = {
++    id = add_buget_for_KGB.1
++    title = add_buget_for_KGB.1.t
++    desc  = add_buget_for_KGB.1.d
++    picture = GFX_add_buget_for_KGB_event
++
++    is_triggered_only = yes
++
++    option = {
++        name = add_buget_for_KGB.1.a
++    }
++}
++
++country_event = {
++    id = promote_silver_ring_scheme.1
++    title = promote_silver_ring_scheme.1.t
++    desc  = promote_silver_ring_scheme.1.d
++    picture = GFX_promote_silver_ring_scheme_event
++
++    is_triggered_only = yes
++
++    option = {
++        name = promote_silver_ring_scheme.1.a
++    }
++}
++
++country_event = {
++    id = share_success_stories.1
++    title = share_success_stories.1.t
++    desc  = share_success_stories.1.d
++    picture = GFX_share_success_stories_event
++
++    is_triggered_only = yes
++
++    option = {
++        name = share_success_stories.1.a
++    }
++}
++
++country_event = {
++    id = thunderous_but_feeble_reform.1
++    title = thunderous_but_feeble_reform.1.t
++    desc  = thunderous_but_feeble_reform.1.d
++    picture = GFX_thunderous_but_feeble_reform_event
++
++    is_triggered_only = yes
++
++    option = {
++        name = thunderous_but_feeble_reform.1.a
++    }
+ }

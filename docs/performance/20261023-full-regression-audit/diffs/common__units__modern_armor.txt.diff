@@ -1,0 +1,18 @@
+--- before/common/units/modern_armor.txt
++++ current/common/units/modern_armor.txt
+@@ -1,10 +1,13 @@
+ # APDC: old land-unit IDs retained for reference compatibility; normal unlocks removed.
+ sub_units = {
+ 
+-	modern_armor = {
++	
++
++# Inactive identifiers required by retained engine interfaces.
++modern_armor = {
+ 		abbreviation = "OTK"
+ 		sprite = "medium_armor"
+-		map_icon_category = armored
++		
+ 		priority = 2510
+ 		ai_priority = 3510
+ 		active = no

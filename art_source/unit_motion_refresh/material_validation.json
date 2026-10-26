@@ -1,0 +1,455 @@
+{
+  "correction": "inverse of erroneous prior sRGB decode, not an arbitrary brightness multiplier",
+  "shader_source": "D:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\gfx\\FX\\standardfuncsgfx.fxh",
+  "data_textures_unchanged": true,
+  "files": [
+    {
+      "file": "gfx\\models\\units\\APDC_b2_amphibious_tank\\APDC_b2_amphibious_tank_diffuse.dds",
+      "source": "D:\\Desktop\\第二批十套模型_待接入\\可编辑源文件\\通用两栖坦克\\APDC_b2_amphibious_tank_diffuse.png",
+      "before_sha256": "8f0832b804f5ee33c3c83c6901ff060d33198fd6992a7ba21f3dc563261122d5",
+      "mean_rgb_before": [
+        48.73095726966858,
+        35.97384858131409,
+        25.232871055603027
+      ],
+      "mean_rgb_after": [
+        98.8971631526947,
+        85.80345845222473,
+        68.04576539993286
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_b2_amphibious_tank\\APDC_b2_amphibious_tank_tracks_diffuse.dds",
+      "source": "D:\\Desktop\\第二批十套模型_待接入\\可编辑源文件\\通用两栖坦克\\APDC_b2_amphibious_tank_tracks_diffuse.png",
+      "before_sha256": "c44b9be39d40f5f4ab24222b6d606b1ba7be4ef172c38d31c385addf474aff5e",
+      "mean_rgb_before": [
+        14.777263641357422,
+        13.808021545410156,
+        10.592330932617188
+      ],
+      "mean_rgb_after": [
+        62.5286750793457,
+        60.97196578979492,
+        53.66189193725586
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_b2_helicopter\\APDC_b2_helicopter_diffuse.dds",
+      "source": "D:\\Desktop\\第二批十套模型_待接入\\可编辑源文件\\通用直升机\\APDC_b2_helicopter_diffuse.png",
+      "before_sha256": "a4e03deca26b4894c943478cc70283809fc70e1137189c99734043fe01c43976",
+      "mean_rgb_before": [
+        48.72787642478943,
+        35.961493730545044,
+        25.219451189041138
+      ],
+      "mean_rgb_after": [
+        98.89141464233398,
+        85.79812550544739,
+        68.04334235191345
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_b2_armored_engineer\\APDC_b2_armored_engineer_diffuse.dds",
+      "source": "D:\\Desktop\\第二批十套模型_待接入\\可编辑源文件\\通用装甲工程车辆\\APDC_b2_armored_engineer_diffuse.png",
+      "before_sha256": "f1a02ec16e786fabdaabf6120de0b91203a6a9a15d4fb04a3552c5c7bbd34644",
+      "mean_rgb_before": [
+        48.73253607749939,
+        35.97263312339783,
+        25.23212695121765
+      ],
+      "mean_rgb_after": [
+        98.89320421218872,
+        85.80447220802307,
+        68.0471179485321
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_b2_armored_engineer\\APDC_b2_armored_engineer_tracks_diffuse.dds",
+      "source": "D:\\Desktop\\第二批十套模型_待接入\\可编辑源文件\\通用装甲工程车辆\\APDC_b2_armored_engineer_tracks_diffuse.png",
+      "before_sha256": "29b08d677f12a293f9e8cd00d19ac68eabc15e76f6ee1c0d0b104d39935c5b44",
+      "mean_rgb_before": [
+        14.775936126708984,
+        13.806991577148438,
+        10.59073257446289
+      ],
+      "mean_rgb_after": [
+        62.51948928833008,
+        60.967952728271484,
+        53.65523910522461
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_b2_light_tank\\APDC_b2_light_tank_diffuse.dds",
+      "source": "D:\\Desktop\\第二批十套模型_待接入\\可编辑源文件\\通用轻型坦克\\APDC_b2_light_tank_diffuse.png",
+      "before_sha256": "dc8e4d30f8f5d38f5842bf0f2e7e500290464dad3b99b2f625ba855e92d6979b",
+      "mean_rgb_before": [
+        48.729522466659546,
+        35.97058987617493,
+        25.2296724319458
+      ],
+      "mean_rgb_after": [
+        98.8875744342804,
+        85.79780697822571,
+        68.03724932670593
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_b2_light_tank\\APDC_b2_light_tank_tracks_diffuse.dds",
+      "source": "D:\\Desktop\\第二批十套模型_待接入\\可编辑源文件\\通用轻型坦克\\APDC_b2_light_tank_tracks_diffuse.png",
+      "before_sha256": "48e6b670c26cf98f47a1c8fba1ad138c81c81c17779a2526b18c8bce86599d9e",
+      "mean_rgb_before": [
+        14.77872085571289,
+        13.809070587158203,
+        10.592845916748047
+      ],
+      "mean_rgb_after": [
+        62.531185150146484,
+        60.97536087036133,
+        53.6639518737793
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_f1_truck_mlrs\\APDC_f1_truck_mlrs_diffuse.dds",
+      "source": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\卡车多管火箭炮\\APDC_f1_truck_mlrs_diffuse.png",
+      "before_sha256": "3acae08c6e3ed2ae4c6848bb2e43c99c1f14d4e2eacd7fd749291408aa55d0f0",
+      "mean_rgb_before": [
+        35.1206910610199,
+        23.763537645339966,
+        16.075817584991455
+      ],
+      "mean_rgb_after": [
+        83.89039444923401,
+        71.11679697036743,
+        57.72516965866089
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_f1_truck_missile\\APDC_f1_truck_missile_diffuse.dds",
+      "source": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\卡车战术导弹发射车\\APDC_f1_truck_missile_diffuse.png",
+      "before_sha256": "3acae08c6e3ed2ae4c6848bb2e43c99c1f14d4e2eacd7fd749291408aa55d0f0",
+      "mean_rgb_before": [
+        35.1206910610199,
+        23.763537645339966,
+        16.075817584991455
+      ],
+      "mean_rgb_after": [
+        83.89039444923401,
+        71.11679697036743,
+        57.72516965866089
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_f1_truck_artillery\\APDC_f1_truck_artillery_diffuse.dds",
+      "source": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\卡车炮\\APDC_f1_truck_artillery_diffuse.png",
+      "before_sha256": "3acae08c6e3ed2ae4c6848bb2e43c99c1f14d4e2eacd7fd749291408aa55d0f0",
+      "mean_rgb_before": [
+        35.1206910610199,
+        23.763537645339966,
+        16.075817584991455
+      ],
+      "mean_rgb_after": [
+        83.89039444923401,
+        71.11679697036743,
+        57.72516965866089
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_f1_tank_support\\APDC_f1_tank_support_diffuse.dds",
+      "source": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\坦克支援车\\APDC_f1_tank_support_diffuse.png",
+      "before_sha256": "4a67708a8c074bd98808634b282cb59bbf7a96c898be0e13c86cad48551694b6",
+      "mean_rgb_before": [
+        35.12480425834656,
+        23.768646955490112,
+        16.079775094985962
+      ],
+      "mean_rgb_after": [
+        83.90305304527283,
+        71.12902021408081,
+        57.736918687820435
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_f1_tank_support\\APDC_f1_tank_support_tracks_diffuse.dds",
+      "source": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\坦克支援车\\APDC_f1_tank_support_tracks_diffuse.png",
+      "before_sha256": "e5d09f156c88bf5ef3b4ca3cf72b82543e305f046d78b1c7521f80e84a764725",
+      "mean_rgb_before": [
+        13.431289672851562,
+        12.63797378540039,
+        9.607257843017578
+      ],
+      "mean_rgb_after": [
+        61.37965393066406,
+        59.52663803100586,
+        51.57191848754883
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_f1_self_propelled_gun\\APDC_f1_self_propelled_gun_diffuse.dds",
+      "source": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\履带自行火炮\\APDC_f1_self_propelled_gun_diffuse.png",
+      "before_sha256": "4a67708a8c074bd98808634b282cb59bbf7a96c898be0e13c86cad48551694b6",
+      "mean_rgb_before": [
+        35.12480425834656,
+        23.768646955490112,
+        16.079775094985962
+      ],
+      "mean_rgb_after": [
+        83.90305304527283,
+        71.12902021408081,
+        57.736918687820435
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_f1_self_propelled_gun\\APDC_f1_self_propelled_gun_tracks_diffuse.dds",
+      "source": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\履带自行火炮\\APDC_f1_self_propelled_gun_tracks_diffuse.png",
+      "before_sha256": "e5d09f156c88bf5ef3b4ca3cf72b82543e305f046d78b1c7521f80e84a764725",
+      "mean_rgb_before": [
+        13.431289672851562,
+        12.63797378540039,
+        9.607257843017578
+      ],
+      "mean_rgb_after": [
+        61.37965393066406,
+        59.52663803100586,
+        51.57191848754883
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_f1_self_propelled_mortar\\APDC_f1_self_propelled_mortar_diffuse.dds",
+      "source": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\履带自行迫击炮\\APDC_f1_self_propelled_mortar_diffuse.png",
+      "before_sha256": "e943e74d7f7fd43e4a45d5976e73ec24caeeb7e3f488a38b9731768f946fa767",
+      "mean_rgb_before": [
+        35.1153039932251,
+        23.757747650146484,
+        16.07177448272705
+      ],
+      "mean_rgb_after": [
+        83.8901150226593,
+        71.11720037460327,
+        57.727089643478394
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_f1_self_propelled_mortar\\APDC_f1_self_propelled_mortar_tracks_diffuse.dds",
+      "source": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\履带自行迫击炮\\APDC_f1_self_propelled_mortar_tracks_diffuse.png",
+      "before_sha256": "925befbeba43dd093585b517588792c64ddc3acc4e6b53442466dbe99210da3d",
+      "mean_rgb_before": [
+        13.434673309326172,
+        12.639808654785156,
+        9.611988067626953
+      ],
+      "mean_rgb_after": [
+        61.39542007446289,
+        59.536495208740234,
+        51.59400939941406
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_f1_self_propelled_aa\\APDC_f1_self_propelled_aa_diffuse.dds",
+      "source": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\履带自行防空车\\APDC_f1_self_propelled_aa_diffuse.png",
+      "before_sha256": "4a67708a8c074bd98808634b282cb59bbf7a96c898be0e13c86cad48551694b6",
+      "mean_rgb_before": [
+        35.12480425834656,
+        23.768646955490112,
+        16.079775094985962
+      ],
+      "mean_rgb_after": [
+        83.90305304527283,
+        71.12902021408081,
+        57.736918687820435
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_f1_self_propelled_aa\\APDC_f1_self_propelled_aa_tracks_diffuse.dds",
+      "source": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\履带自行防空车\\APDC_f1_self_propelled_aa_tracks_diffuse.png",
+      "before_sha256": "e5d09f156c88bf5ef3b4ca3cf72b82543e305f046d78b1c7521f80e84a764725",
+      "mean_rgb_before": [
+        13.431289672851562,
+        12.63797378540039,
+        9.607257843017578
+      ],
+      "mean_rgb_after": [
+        61.37965393066406,
+        59.52663803100586,
+        51.57191848754883
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_f1_armed_helicopter\\APDC_f1_armed_helicopter_diffuse.dds",
+      "source": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\武装直升机\\APDC_f1_armed_helicopter_diffuse.png",
+      "before_sha256": "a4e03deca26b4894c943478cc70283809fc70e1137189c99734043fe01c43976",
+      "mean_rgb_before": [
+        48.72787642478943,
+        35.961493730545044,
+        25.219451189041138
+      ],
+      "mean_rgb_after": [
+        98.89141464233398,
+        85.79812550544739,
+        68.04334235191345
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_f1_wheeled_atgm\\APDC_f1_wheeled_atgm_diffuse.dds",
+      "source": "D:\\Desktop\\模型收尾_涅托与武器变体\\可编辑源文件\\轮式反坦克导弹车\\APDC_f1_wheeled_atgm_diffuse.png",
+      "before_sha256": "e3e2eb29a009ab2c891c7fa5d1474c5befeadec6a26fada6589ea89be80b67ea",
+      "mean_rgb_before": [
+        35.111979722976685,
+        23.75507426261902,
+        16.069711208343506
+      ],
+      "mean_rgb_after": [
+        83.87956142425537,
+        71.10493040084839,
+        57.71272802352905
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_v5_amphibious\\APDC_v5_amphibious_diffuse.dds",
+      "source": "D:\\Desktop\\通用车辆五套模型_待接入\\可编辑源文件\\通用两栖机械化车辆\\APDC_v5_amphibious_diffuse.png",
+      "before_sha256": "1fd5fcf2909b451cd60f8b9fc6d826f7ca7ad7115a27d6605244b3bdd5a66a21",
+      "mean_rgb_before": [
+        27.104936599731445,
+        20.00003457069397,
+        13.043964385986328
+      ],
+      "mean_rgb_after": [
+        77.0029685497284,
+        66.99756169319153,
+        53.65080261230469
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_v5_amphibious\\APDC_v5_amphibious_tracks_diffuse.dds",
+      "source": "D:\\Desktop\\通用车辆五套模型_待接入\\可编辑源文件\\通用两栖机械化车辆\\APDC_v5_amphibious_tracks_diffuse.png",
+      "before_sha256": "6dfffc6fda6bbf7cc755e0f50075ef2e0ae775e03119561bf6da594c43e835f8",
+      "mean_rgb_before": [
+        13.433784484863281,
+        12.636974334716797,
+        9.609275817871094
+      ],
+      "mean_rgb_after": [
+        61.390018463134766,
+        59.52574920654297,
+        51.582298278808594
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_v5_mbt\\APDC_v5_mbt_diffuse.dds",
+      "source": "D:\\Desktop\\通用车辆五套模型_待接入\\可编辑源文件\\通用主战坦克\\APDC_v5_mbt_diffuse.png",
+      "before_sha256": "4a67708a8c074bd98808634b282cb59bbf7a96c898be0e13c86cad48551694b6",
+      "mean_rgb_before": [
+        35.12480425834656,
+        23.768646955490112,
+        16.079775094985962
+      ],
+      "mean_rgb_after": [
+        83.90305304527283,
+        71.12902021408081,
+        57.736918687820435
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_v5_mbt\\APDC_v5_mbt_tracks_diffuse.dds",
+      "source": "D:\\Desktop\\通用车辆五套模型_待接入\\可编辑源文件\\通用主战坦克\\APDC_v5_mbt_tracks_diffuse.png",
+      "before_sha256": "e5d09f156c88bf5ef3b4ca3cf72b82543e305f046d78b1c7521f80e84a764725",
+      "mean_rgb_before": [
+        13.431289672851562,
+        12.63797378540039,
+        9.607257843017578
+      ],
+      "mean_rgb_after": [
+        61.37965393066406,
+        59.52663803100586,
+        51.57191848754883
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_v5_truck\\APDC_v5_truck_diffuse.dds",
+      "source": "D:\\Desktop\\通用车辆五套模型_待接入\\可编辑源文件\\通用军用卡车\\APDC_v5_truck_diffuse.png",
+      "before_sha256": "3acae08c6e3ed2ae4c6848bb2e43c99c1f14d4e2eacd7fd749291408aa55d0f0",
+      "mean_rgb_before": [
+        35.1206910610199,
+        23.763537645339966,
+        16.075817584991455
+      ],
+      "mean_rgb_after": [
+        83.89039444923401,
+        71.11679697036743,
+        57.72516965866089
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_v5_tracked\\APDC_v5_tracked_diffuse.dds",
+      "source": "D:\\Desktop\\通用车辆五套模型_待接入\\可编辑源文件\\通用履带式机械化车辆\\APDC_v5_tracked_diffuse.png",
+      "before_sha256": "e943e74d7f7fd43e4a45d5976e73ec24caeeb7e3f488a38b9731768f946fa767",
+      "mean_rgb_before": [
+        35.1153039932251,
+        23.757747650146484,
+        16.07177448272705
+      ],
+      "mean_rgb_after": [
+        83.8901150226593,
+        71.11720037460327,
+        57.727089643478394
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_v5_tracked\\APDC_v5_tracked_tracks_diffuse.dds",
+      "source": "D:\\Desktop\\通用车辆五套模型_待接入\\可编辑源文件\\通用履带式机械化车辆\\APDC_v5_tracked_tracks_diffuse.png",
+      "before_sha256": "925befbeba43dd093585b517588792c64ddc3acc4e6b53442466dbe99210da3d",
+      "mean_rgb_before": [
+        13.434673309326172,
+        12.639808654785156,
+        9.611988067626953
+      ],
+      "mean_rgb_after": [
+        61.39542007446289,
+        59.536495208740234,
+        51.59400939941406
+      ],
+      "alpha_unchanged": true
+    },
+    {
+      "file": "gfx\\models\\units\\APDC_v5_wheeled\\APDC_v5_wheeled_diffuse.dds",
+      "source": "D:\\Desktop\\通用车辆五套模型_待接入\\可编辑源文件\\通用轮式装甲车辆\\APDC_v5_wheeled_diffuse.png",
+      "before_sha256": "e3e2eb29a009ab2c891c7fa5d1474c5befeadec6a26fada6589ea89be80b67ea",
+      "mean_rgb_before": [
+        35.111979722976685,
+        23.75507426261902,
+        16.069711208343506
+      ],
+      "mean_rgb_after": [
+        83.87956142425537,
+        71.10493040084839,
+        57.71272802352905
+      ],
+      "alpha_unchanged": true
+    }
+  ]
+}

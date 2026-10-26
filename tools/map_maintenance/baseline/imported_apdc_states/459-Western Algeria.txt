@@ -1,0 +1,60 @@
+state = {
+	id = 459
+	name = "STATE_459"
+	resources = {
+		steel = 15
+	}
+	provinces = {
+		1145
+		3959
+		4131
+		4146
+		9964
+		11939
+		18078
+	}
+	manpower = 720987
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = AGR
+		controller = AGR
+		add_core_of = AGR
+		victory_points = {
+			1145
+			20
+		}
+		victory_points = {
+			3959
+			5
+		}
+		victory_points = {
+			4131
+			1
+		}
+		victory_points = {
+			4146
+			1
+		}
+		victory_points = {
+			9964
+			2
+		}
+		victory_points = {
+			11939
+			1
+		}
+		victory_points = {
+			18078
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			1145 = {
+				naval_base = 2
+			}
+			air_base = 5
+		}
+	}
+}

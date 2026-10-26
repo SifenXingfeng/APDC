@@ -1,0 +1,78 @@
+state = {
+	impassable = yes
+	id = 613
+	name = "STATE_613"
+	provinces = {
+		4042
+		7014
+		10034
+		10076
+		12052
+		12076
+		19802
+		19809
+		19858
+		19925
+	}
+	manpower = 6180392
+	buildings_max_level_factor = 1
+	state_category = large_city
+	local_supplies = 0
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = PRC
+		add_core_of = ZZZ
+		victory_points = {
+			4042
+			5
+		}
+		victory_points = {
+			7014
+			1
+		}
+		victory_points = {
+			10034
+			3
+		}
+		victory_points = {
+			10076
+			50
+		}
+		victory_points = {
+			12052
+			1
+		}
+		victory_points = {
+			12076
+			50
+		}
+		victory_points = {
+			19802
+			1
+		}
+		victory_points = {
+			19809
+			3
+		}
+		victory_points = {
+			19858
+			1
+		}
+		victory_points = {
+			19925
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			7014 = {
+				naval_base = 6
+				coastal_bunker = 1
+				bunker = 1
+			}
+			air_base = 6
+			dockyard = 1
+		}
+	}
+}

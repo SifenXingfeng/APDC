@@ -1,0 +1,144 @@
+{
+  "source_save": "Real user autosave copied before repair; 2060.3.1.2",
+  "profile": "D:\\APDC_CoreRegressionQA_20261023_141904",
+  "actual_start": "2060.03.01.02",
+  "observations": [
+    {
+      "day": 1,
+      "core_states": 1490,
+      "core_resistance": 0,
+      "noncore_resistance": 46,
+      "foreign_control": 0
+    },
+    {
+      "day": 2,
+      "core_states": 1490,
+      "core_resistance": 0,
+      "noncore_resistance": 46,
+      "foreign_control": 0
+    },
+    {
+      "day": 3,
+      "core_states": 1490,
+      "core_resistance": 0,
+      "noncore_resistance": 46,
+      "foreign_control": 0
+    },
+    {
+      "day": 4,
+      "core_states": 1490,
+      "core_resistance": 0,
+      "noncore_resistance": 46,
+      "foreign_control": 0
+    }
+  ],
+  "berlin_assertions_passed": 4,
+  "date_advancement": "2060.03.04.23",
+  "project_or_unclassified_errors": 0,
+  "engine_callbacks_checked": 25,
+  "engine_helper_checked": 1,
+  "actual_dlcs": [
+    "Allied Armor Pack",
+    "Allied Radio Music Pack",
+    "Allied Speeches Pack",
+    "Anniversary Pack",
+    "Arms Against Tyranny",
+    "Arms Against Tyranny Preorder Bonus",
+    "Axis Armor Pack",
+    "Battle for the Bosporus",
+    "British Tanks Unit Pack",
+    "By Blood Alone",
+    "By Blood Alone Preorder Bonus",
+    "Content Creator Pack - Soviet Union 2D Art",
+    "Eastern Front Planes Pack",
+    "Expansion Pass 1: Ride of the Valkyries",
+    "Expansion Pass 1: Supporter Pack",
+    "Expansion Pass 2: Seaplane Tenders",
+    "French Tanks Unit Pack",
+    "German March Order Music Pack",
+    "German Tanks Unit Pack",
+    "Gotterdammerung",
+    "Graveyard of Empires",
+    "Heavy Cruisers Unit Pack",
+    "Historical German Portraits",
+    "La Resistance",
+    "La Resistance Preorder Bonus",
+    "Man the Guns",
+    "No Compromise, No Surrender",
+    "No Step Back",
+    "No Step Back Preorder Bonus",
+    "Peace For Our Time",
+    "Poland: United and Ready",
+    "Prototype Vehicles",
+    "Radio Pack",
+    "Rocket Launcher Unit Pack",
+    "Sabaton Soundtrack",
+    "Sabaton Soundtrack Vol.2",
+    "Songs of the Eastern Front",
+    "Soviet Tanks Unit Pack",
+    "Thunder at Our Gates",
+    "Trial of Allegiance",
+    "Trial of Allegiance Preorder Bonus",
+    "US Tanks Unit Pack",
+    "Warships of the Pacific"
+  ],
+  "actual_mods": [
+    "APDC performance diagnostics",
+    "Toolpack without the Errors",
+    "灏戝コ鍓嶇嚎-APDC"
+  ],
+  "process_cleanup": {
+    "closed_helpers": [
+      6392,
+      24324
+    ],
+    "still_running": false,
+    "pid": 6004,
+    "remaining_helpers": [],
+    "steam_app_running": false,
+    "stopped": "2026-10-23T14:21:05.5505785+08:00"
+  },
+  "user_evidence_unchanged": [
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\logs\\system.log",
+      "sha256_before": "ac77788fca20579694500b9d91a3aaeca0bff4756a45e70bf423331984939f70",
+      "sha256_after": "ac77788fca20579694500b9d91a3aaeca0bff4756a45e70bf423331984939f70"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\logs\\game.log",
+      "sha256_before": "bd83128b53ec23269268094aa7a671ae92fa824afb4f6ccb239c488a20adf127",
+      "sha256_after": "bd83128b53ec23269268094aa7a671ae92fa824afb4f6ccb239c488a20adf127"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\logs\\error.log",
+      "sha256_before": "72d9adc5438773777a5bfb5f414a56d305af0ea99b74f28a49a51ecc66ab6ca1",
+      "sha256_after": "72d9adc5438773777a5bfb5f414a56d305af0ea99b74f28a49a51ecc66ab6ca1"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\continue_game.json",
+      "sha256_before": "a6cc4bf2c5168b0491961048cc5d27d0d42619a8099852a89341ff14d0546c69",
+      "sha256_after": "a6cc4bf2c5168b0491961048cc5d27d0d42619a8099852a89341ff14d0546c69"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\dlc_load.json",
+      "sha256_before": "c16d9e533268cba344c09005b17e8468cc83f3eea24bb88be91d5ee0772ca426",
+      "sha256_after": "c16d9e533268cba344c09005b17e8468cc83f3eea24bb88be91d5ee0772ca426"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\settings.txt",
+      "sha256_before": "f398a3efe8d6a2ca97d08e91109b1c8a1ad9dab474999792f2b019b61e522fbf",
+      "sha256_after": "f398a3efe8d6a2ca97d08e91109b1c8a1ad9dab474999792f2b019b61e522fbf"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\save games\\autosave.hoi4",
+      "sha256_before": "5d48a2458284077ca1d60374aa037ee3d86012a3f9369f3f57c7ce820873e8bd",
+      "sha256_after": "5d48a2458284077ca1d60374aa037ee3d86012a3f9369f3f57c7ce820873e8bd"
+    }
+  ],
+  "original_autosave_unchanged": true,
+  "limitations": [
+    "No foreground or visual inspection.",
+    "This run verifies recovery of the copied existing save; no separate new-game run.",
+    "Additional diplomatic callbacks were checked for presence, syntax and load errors, not every diplomatic action interaction."
+  ]
+}

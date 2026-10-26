@@ -1,0 +1,33 @@
+--- before/common/abilities/JAP_abilities.txt
++++ current/common/abilities/JAP_abilities.txt
+@@ -13,8 +13,8 @@
+ 			is_border_war = no
+ 			OWNER = {
+ 				OR = {
+-					has_completed_focus = JAP_warrior_spirit
+-					has_completed_focus = SPA_cultivate_fanaticism
++					always = no
++					always = no
+ 				}
+ 			}
+ 		}
+@@ -61,8 +61,8 @@
+ 			is_border_war = no
+ 			OWNER = {
+ 				OR = {
+-					has_completed_focus = JAP_indoctrination_in_the_military_academy
+-					has_completed_focus = JAP_issue_the_senjinkun_military_code
++					always = no
++					always = no
+ 				}
+ 			}
+ 		}
+@@ -107,7 +107,7 @@
+ 		allowed = {
+ 			is_border_war = no
+ 			OWNER = {
+-				has_completed_focus = JAP_the_art_of_warfare
++				always = no
+ 			}
+ 		}
+ 		

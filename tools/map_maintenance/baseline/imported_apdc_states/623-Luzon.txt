@@ -1,0 +1,75 @@
+state = {
+	id = 623
+	name = "STATE_623"
+	resources = {
+		rubber = 1
+		chromium = 9
+	}
+	provinces = {
+		4101
+		4214
+		4233
+		4350
+		4368
+		4423
+		7325
+		10167
+		10241
+		10252
+		10298
+		12213
+		12253
+		14706
+		19370
+		19374
+		19379
+		19383
+		19384
+		19385
+	}
+	manpower = 1881457
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = PHI
+		controller = PHI
+		add_core_of = PHI
+		victory_points = {
+			4101
+			2
+		}
+		victory_points = {
+			4350
+			2
+		}
+		victory_points = {
+			4423
+			1
+		}
+		victory_points = {
+			10241
+			2
+		}
+		victory_points = {
+			12253
+			2
+		}
+		victory_points = {
+			14706
+			5
+		}
+		victory_points = {
+			19384
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			12213 = {
+				naval_base = 1
+			}
+			air_base = 3
+		}
+	}
+}

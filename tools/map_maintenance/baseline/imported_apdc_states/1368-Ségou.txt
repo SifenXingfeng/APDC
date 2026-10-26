@@ -1,0 +1,42 @@
+state = {
+	id = 1368
+	name = "STATE_1368"
+	provinces = {
+		12751
+		12794
+		12838
+		14145
+		14179
+		14182
+		14186
+	}
+	manpower = 630032
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+	history = {
+		owner = MLI
+		controller = MLI
+		add_core_of = ISP
+		add_core_of = JNM
+		add_core_of = LSO
+		add_core_of = MLI
+		add_core_of = SWZ
+		victory_points = {
+			12751
+			3
+		}
+		victory_points = {
+			14145
+			1
+		}
+		victory_points = {
+			14182
+			1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = state_renamings
+	}
+}

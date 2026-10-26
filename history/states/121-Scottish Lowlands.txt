@@ -1,0 +1,51 @@
+state = {
+	id = 121
+	name = "STATE_121"
+	manpower = 1431624
+	state_category = city
+	history = {
+		owner = ENG
+		controller = ENG
+		add_core_of = ENG
+		victory_points = {
+			6300
+			1
+		}
+		victory_points = {
+			9383
+			1
+		}
+		victory_points = {
+			9392
+			5
+		}
+		victory_points = {
+			16374
+			1
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 3
+			6300 = {
+				naval_base = 5
+			}
+		}
+		set_state_flag = GDP_regions_scotland
+		set_state_flag = GDP_category_rural
+	}
+	provinces = {
+		159
+		6300
+		9314
+		9383
+		9392
+		11378
+		16350
+		16352
+		16353
+		16374
+	}
+	local_supplies = 0.0
+}

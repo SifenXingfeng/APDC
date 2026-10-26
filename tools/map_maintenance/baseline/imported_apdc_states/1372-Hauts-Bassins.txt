@@ -1,0 +1,36 @@
+state = {
+	id = 1372
+	name = "STATE_1372"
+	provinces = {
+		7983
+		14096
+		14100
+		14115
+	}
+	manpower = 472027
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+	history = {
+		owner = BKF
+		controller = BKF
+		add_core_of = BKF
+		add_core_of = ISP
+		add_core_of = JNM
+		victory_points = {
+			14096
+			1
+		}
+		victory_points = {
+			14100
+			1
+		}
+		victory_points = {
+			14115
+			10
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

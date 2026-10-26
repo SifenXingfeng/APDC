@@ -1,0 +1,29 @@
+state = {
+	id = 1437
+	name = "STATE_1437"
+	provinces = {
+		2176
+		2334
+		10494
+		17357
+	}
+	manpower = 229768
+	resources = {
+		oil = 1
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+	history = {
+		owner = COL
+		controller = COL
+		add_core_of = COL
+		victory_points = {
+			2176
+			2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

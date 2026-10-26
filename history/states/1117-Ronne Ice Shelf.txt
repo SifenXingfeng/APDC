@@ -1,0 +1,19 @@
+state = {
+	id = 1117
+	name = "RONNE_ICE_SHELF"
+	manpower = 1
+	state_category = wasteland
+	history = {
+		owner = ATU
+		controller = ATU
+		add_core_of = ATU
+		set_state_flag = ice_shelf
+	}
+	provinces = {
+		17565
+		17663
+		17727
+		17774
+	}
+	local_supplies = 0.0
+}

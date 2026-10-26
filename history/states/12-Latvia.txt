@@ -1,0 +1,32 @@
+state = {
+	id = 12
+	name = "STATE_12"
+	manpower = 408500
+	resources = {
+		steel = 1
+	}
+	state_category = rural
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = ZZZ
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 3
+		}
+		set_state_flag = GDP_regions_latvia
+	}
+	provinces = {
+		3388
+		7482
+		9317
+		9501
+		10323
+		10493
+		11222
+		11302
+		14598
+	}
+	local_supplies = 0.0
+}

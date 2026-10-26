@@ -1,0 +1,36 @@
+state = {
+	id = 1163
+	name = "STATE_1163"
+	provinces = {
+		1453
+		7524
+		7552
+		15349
+	}
+	manpower = 560425
+	resources = {
+		oil = 8
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = city
+	history = {
+		owner = USA
+		controller = USA
+		add_core_of = USA
+		victory_points = {
+			1453
+			3
+		}
+		victory_points = {
+			7552
+			5
+		}
+		buildings = {
+			infrastructure = 3
+			7552 = {
+				naval_base = 5
+			}
+		}
+	}
+}

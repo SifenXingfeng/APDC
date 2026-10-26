@@ -1,0 +1,191 @@
+--- before/common/raids/nuclear_raids.txt
++++ current/common/raids/nuclear_raids.txt
+@@ -172,7 +172,7 @@
+ 				victim_effects = {
+ 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
+ 					var:target_state = {
+-						bathe_in_hellfire_nuclear = yes
++						
+ 						custom_effect_tooltip = raid_nuclear_strike_tt
+ 						add_dynamic_modifier = {
+ 							modifier = fallout_atomic
+@@ -200,7 +200,7 @@
+ 				victim_effects = {
+ 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
+ 					var:target_state = {
+-						bathe_in_hellfire_nuclear = yes
++						
+ 						custom_effect_tooltip = raid_nuclear_strike_tt
+ 						add_dynamic_modifier = {
+ 							modifier = fallout_atomic
+@@ -229,7 +229,7 @@
+ 					}
+ 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
+ 					var:target_state = {
+-						bathe_in_hellfire_nuclear = yes
++						
+ 						custom_effect_tooltip = raid_nuclear_strike_tt
+ 						add_dynamic_modifier = {
+ 							modifier = fallout_atomic
+@@ -287,7 +287,7 @@
+ 		}
+ 		# Raid Type is visible
+ 		visible = {
+-			is_special_project_completed = sp:sp_nuclear_warheads
++			always = no
+ 		}
+ 		# Specific Target is visible
+ 		show_target = {
+@@ -375,7 +375,7 @@
+ 				victim_effects = {
+ 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
+ 					var:target_state = {
+-						bathe_in_hellfire_nuclear = yes
++						
+ 						#custom_effect_tooltip = raid_nuclear_strike_tt
+ 						add_dynamic_modifier = {
+ 							modifier = fallout_atomic
+@@ -398,7 +398,7 @@
+ 				victim_effects = {
+ 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
+ 					var:target_state = {
+-						bathe_in_hellfire_nuclear = yes
++						
+ 						add_dynamic_modifier = {
+ 							modifier = fallout_atomic
+ 							days = 365
+@@ -459,7 +459,7 @@
+ 		}
+ 		# Raid Type is visible
+ 		visible = {
+-			is_special_project_completed = sp:sp_nuclear_warheads
++			always = no
+ 		}
+ 		# Specific Target is visible
+ 		show_target = {
+@@ -547,7 +547,7 @@
+ 				victim_effects = {
+ 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
+ 					var:target_state = {
+-						bathe_in_hellfire_nuclear = yes
++						
+ 						#custom_effect_tooltip = raid_nuclear_strike_tt
+ 						add_dynamic_modifier = {
+ 							modifier = fallout_atomic
+@@ -559,7 +559,7 @@
+ 							province = var:ROOT.target_province #optional use either province or state
+ 							use_nuke = no #will consume nuke if specified
+ 						}
+-						PHI_cobalt_sea_achievement = yes
++						
+ 					}
+ 				}
+ 			}
+@@ -571,7 +571,7 @@
+ 				victim_effects = {
+ 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
+ 					var:target_state = {
+-						bathe_in_hellfire_nuclear = yes
++						
+ 						add_dynamic_modifier = {
+ 							modifier = fallout_atomic
+ 							days = 365
+@@ -582,7 +582,7 @@
+ 							province = var:ROOT.target_province #optional use either province or state
+ 							use_nuke = no #will consume nuke if specified
+ 						}
+-						PHI_cobalt_sea_achievement = yes
++						
+ 					}
+ 				}
+ 			}
+@@ -774,7 +774,7 @@
+ 				victim_effects = {
+ 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }   
+ 					var:target_state = {
+-						bathe_in_hellfire_thermonuclear = yes
++						
+ 						custom_effect_tooltip = raid_nuclear_strike_tt
+ 						hidden_effect = {
+ 							IF = {
+@@ -810,7 +810,7 @@
+ 				victim_effects = {
+ 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
+ 					var:target_state = {
+-						bathe_in_hellfire_thermonuclear = yes
++						
+ 						custom_effect_tooltip = raid_nuclear_strike_tt
+ 						hidden_effect = {
+ 							IF = {
+@@ -887,7 +887,7 @@
+ 		}
+ 		# Raid Type is visible
+ 		visible = {
+-			is_special_project_completed = sp:sp_nuclear_warheads
++			always = no
+ 		}
+ 		# Specific Target is visible
+ 		show_target = {
+@@ -974,7 +974,7 @@
+ 				victim_effects = {
+ 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
+ 					var:target_state = {
+-						bathe_in_hellfire_thermonuclear = yes
++						
+ 						#custom_effect_tooltip = raid_nuclear_strike_tt
+ 						add_dynamic_modifier = {
+ 							modifier = fallout_thermonuclear
+@@ -998,7 +998,7 @@
+ 				victim_effects = {
+ 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
+ 					var:target_state = {
+-						bathe_in_hellfire_thermonuclear = yes
++						
+ 						add_dynamic_modifier = {
+ 							modifier = fallout_thermonuclear
+ 							days = 730
+@@ -1061,7 +1061,7 @@
+ 		}
+ 		# Raid Type is visible
+ 		visible = {
+-			is_special_project_completed = sp:sp_nuclear_warheads
++			always = no
+ 		}
+ 		# Specific Target is visible
+ 		show_target = {
+@@ -1148,7 +1148,7 @@
+ 				victim_effects = {
+ 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
+ 					var:target_state = {
+-						bathe_in_hellfire_thermonuclear = yes
++						
+ 						#custom_effect_tooltip = raid_nuclear_strike_tt
+ 						add_dynamic_modifier = {
+ 							modifier = fallout_thermonuclear
+@@ -1162,7 +1162,7 @@
+ 							use_nuke = no #will consume nuke if specified
+ 							nuke_type = thermonuclear_bomb
+ 						}
+-						PHI_cobalt_sea_achievement = yes
++						
+ 					}
+ 				}
+ 			}
+@@ -1173,7 +1173,7 @@
+ 				victim_effects = {
+ 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
+ 					var:target_state = {
+-						bathe_in_hellfire_thermonuclear = yes
++						
+ 						add_dynamic_modifier = {
+ 							modifier = fallout_thermonuclear
+ 							days = 730
+@@ -1185,7 +1185,7 @@
+ 							use_nuke = no #will consume nuke if specified
+ 							nuke_type = thermonuclear_bomb
+ 						}
+-						PHI_cobalt_sea_achievement = yes
++						
+ 					}
+ 				}
+ 			}

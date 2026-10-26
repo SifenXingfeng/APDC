@@ -1,0 +1,16 @@
+--- before/music/lar_preorder_songs.txt
++++ current/music/lar_preorder_songs.txt
+@@ -0,0 +1,13 @@
++
++music_station = "base_music"
++
++music = {
++	song = "march_of_the_eagles"
++
++	chance = {
++		factor = 1
++		
++		
++	}
++
++}

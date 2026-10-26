@@ -1,0 +1,54 @@
+--- before/localisation/simp_chinese/APDC_RZE_l_simp_chinese.yml
++++ current/localisation/simp_chinese/APDC_RZE_l_simp_chinese.yml
+@@ -1,27 +1,25 @@
+-l_simp_chinese:
+- #政党
+- RZE_communism_party:0 "无政府状态"
+- RZE_democratic_party:0 "无政府状态"
+- RZE_neutrality_party:0 "无政府状态"
+- RZE_fascism_party:0 "无政府状态"
+-
+- #人物
+- RZE_Nothing:0 "红区"
+- RZE_Nothing_desc:0 "紧邻黑区，属于需要重点推行净化治理的重污染区。此区域存在相当浓度的坍塌辐射，无论人类或人形，进入此区域都必须进行周密防护。 常住人口接近于无，但仍有不明身份的人类存在。有大量ELID-Infected游荡。\n\n以荒漠为主。由于频繁的坍塌风暴和严重的水土流失，该区域植被贫乏，沟壑纵横，地表也因经常遭受高浓度坍塌辐射而出现了一定程度的硅状化现象。\n\n部分地势较低的区域出现了占地广阔、分布密集，且风格趋同的植物群。在非花期时，其所在区域辐射浓度明显低于周边；花期时，该区域辐射浓度会急剧升高。此类植物在单个区域内表现出外形相似、色彩相似的特征，但不同区域间，植物群的外形和色彩存在一定差异。"
+-
+- #国家名称
+- RZE_fascism:0 "红区"
+- RZE_fascism_DEF:0 "红区"
+- RZE_democratic:0 "红区"
+- RZE_democratic_DEF:0 "红区"
+- RZE_neutrality:0 "红区"
+- RZE_neutrality_DEF:0 "红区"
+- RZE_communism:0 "红区"
+- RZE_communism_DEF:0 "红区"
+- RZE_fascism_ADJ:0 "红区"
+- RZE_democratic_ADJ:0 "红区"
+- RZE_neutrality_ADJ:0 "红区"
+- RZE_communism_ADJ:0 "红区"
+- RZE:0 "红区"
+- RZE_DEF:0 "红区"
+- RZE_ADJ:0 "红区"+l_simp_chinese:
++ #政党
++ RZE_democratic_party:0 "无政府状态"
++ RZE_neutrality_party:0 "无政府状态"
++
++ #人物
++ RZE_Nothing:0 "红区"
++ RZE_Nothing_desc:0 "紧邻黑区，属于需要重点推行净化治理的重污染区。此区域存在相当浓度的坍塌辐射，无论人类或人形，进入此区域都必须进行周密防护。 常住人口接近于无，但仍有不明身份的人类存在。有大量ELID-Infected游荡。\n\n以荒漠为主。由于频繁的坍塌风暴和严重的水土流失，该区域植被贫乏，沟壑纵横，地表也因经常遭受高浓度坍塌辐射而出现了一定程度的硅状化现象。\n\n部分地势较低的区域出现了占地广阔、分布密集，且风格趋同的植物群。在非花期时，其所在区域辐射浓度明显低于周边；花期时，该区域辐射浓度会急剧升高。此类植物在单个区域内表现出外形相似、色彩相似的特征，但不同区域间，植物群的外形和色彩存在一定差异。"
++
++ #国家名称
++ RZE_fascism:0 "红区"
++ RZE_fascism_DEF:0 "红区"
++ RZE_democratic:0 "红区"
++ RZE_democratic_DEF:0 "红区"
++ RZE_neutrality:0 "红区"
++ RZE_neutrality_DEF:0 "红区"
++ RZE_communism:0 "红区"
++ RZE_communism_DEF:0 "红区"
++ RZE_fascism_ADJ:0 "红区"
++ RZE_democratic_ADJ:0 "红区"
++ RZE_neutrality_ADJ:0 "红区"
++ RZE_communism_ADJ:0 "红区"
++ RZE:0 "红区"
++ RZE_DEF:0 "红区"
++ RZE_ADJ:0 "红区"

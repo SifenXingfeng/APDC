@@ -1,0 +1,34 @@
+state = {
+	id = 1498
+	name = "STATE_1498"
+	provinces = {
+		2096
+		13978
+		13994
+		18526
+	}
+	manpower = 154059
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+	history = {
+		owner = SSD
+		controller = SSD
+		add_core_of = SSD
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			2096
+			5
+		}
+		victory_points = {
+			13994
+			5
+		}
+		victory_points = {
+			13978
+			2
+		}
+	}
+}

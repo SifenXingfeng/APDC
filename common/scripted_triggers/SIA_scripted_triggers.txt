@@ -1,0 +1,22 @@
+#	Example:
+# 
+#	example_trigger = {
+#		tag = GER
+#		is_ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		example_trigger = yes
+#	}
+# 
+
+
+
+SIA_should_add_national_savings_bond = {
+	has_dlc = "Thunder at Our Gates"
+	original_tag = SIA
+	always = no
+}

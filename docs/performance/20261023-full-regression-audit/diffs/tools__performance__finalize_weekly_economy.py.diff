@@ -1,0 +1,86 @@
+--- before/tools/performance/finalize_weekly_economy.py
++++ current/tools/performance/finalize_weekly_economy.py
+@@ -0,0 +1,83 @@
++"""Read-only runtime/protection audit and evidence packaging for this change."""
++from pathlib import Path
++import collections, hashlib, json, re, shutil, sys
++
++ROOT=Path(__file__).resolve().parents[2]
++OUT=ROOT/'docs/performance/20261023-weekly-economy'
++sys.path.insert(0,str(ROOT/'tools/unit_overhaul'))
++from cw import parse,walk
++
++
++def digest(p):return hashlib.sha256(p.read_bytes()).hexdigest()
++def signature(n):return n.key,n.op,n.value,tuple(signature(c) for c in n.children)
++
++
++def main():
++    backup=Path((OUT/'backup.txt').read_text('utf-8'))
++    qa=Path((OUT/'qa-profile.txt').read_text('utf-8'))
++    stop=json.loads((qa/'silent-stop.json').read_text('utf-8-sig'))
++    assert not stop['still_running'] and not stop['remaining_helpers'] and not stop['steam_app_running'],stop
++    final=OUT/'runtime/final'
++    for rel in ['logs/error.log','logs/game.log','silent-process.json','silent-stop.json','dlc_load.json']:
++        source=qa/rel;target=final/rel;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source,target)
++    native=ROOT/'docs/performance/20261023/runtime/native/logs/error.log'
++    target=OUT/'runtime/native/logs/error.log';target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(native,target)
++    import verify
++    verify.OUT=OUT;verify.BACKUP=backup
++    verification=verify.run(qa/'logs','final')
++    assert not verification['syntax_errors'] and not verification['state_history_changes'] and not verification['project_or_unclassified_records']
++    game=(qa/'logs/game.log').read_text('utf-8-sig',errors='replace')
++    expected=set()
++    for p in (qa/'driver/common/scripted_effects').glob('*.txt'):
++        expected.update(re.findall(r'APDC_ECO_ASSERT PASS ([^"\r\n]+)',p.read_text('utf-8')))
++    passed=set(re.findall(r'APDC_ECO_ASSERT PASS ([^\r\n]+)',game))
++    failed=re.findall(r'APDC_ECO_ASSERT FAIL ([^\r\n]+)',game)
++    assert expected==passed and not failed,(expected-passed,failed)
++    (OUT/'behavioral-assertions.json').write_text(json.dumps({'expected':len(expected),'passed':len(passed),'failed':failed,'checks':sorted(passed)},ensure_ascii=False,indent=2),'utf-8')
++    index=json.loads((backup/'sha256.json').read_text('utf-8'));changes=[]
++    for rel,h in index.items():
++        p=ROOT/rel;current=digest(p) if p.exists() else None
++        if current!=h:changes.append({'path':rel,'before':h,'after':current})
++    for rel in ['tools/economy/build_market.py','common/scripted_effects/APDC_economy_market.txt','common/scorers/country/APDC_economy_market.txt','tools/performance/weekly_economy_qa.py','tools/performance/finalize_weekly_economy.py']:
++        assert rel not in index
++        changes.append({'path':rel,'before':None,'after':digest(ROOT/rel)})
++    protected=['history/','common/units/','common/doctrines/','interface/APDC_cooperation','interface/APDC_cabinet','common/ideas/APDC','common/modifier_definitions/APDC','common/countries/','common/characters/','interface/APDC_economy_panel.gui','interface/APDC_economy_panel.gfx']
++    assert not [c for c in changes if any(c['path'].startswith(pre) for pre in protected)]
++    assert digest(ROOT/'tools/economy/equipment_ids.json')==index['tools/economy/equipment_ids.json']
++    preservation={'unchanged_state_histories':sum(k.startswith('history/states/') for k in index),'protected_changes':[],'equipment_ids_unchanged':True,'technology_checks':0,'equipment_unlock_callbacks':0,'callback_problems':[]}
++    for rel in index:
++        if not rel.startswith('common/technologies/'):continue
++        old=parse((backup/'original'/rel).read_text('utf-8-sig'));new=parse((ROOT/rel).read_text('utf-8-sig'))
++        a={n.key:n for w in old if w.key=='technologies' for n in w.children};b={n.key:n for w in new if w.key=='technologies' for n in w.children}
++        assert a.keys()==b.keys()
++        for key,n in a.items():
++            m=b[key];preservation['technology_checks']+=1
++            assert [signature(x) for x in n.children if x.key not in ['on_research_complete','on_research_complete_limit']]==[signature(x) for x in m.children if x.key not in ['on_research_complete','on_research_complete_limit']],(rel,key)
++            callback=m.get('on_research_complete');original=n.get('on_research_complete');limit=n.get('on_research_complete_limit')
++            if callback and any(x.key=='APDC_eco_equipment_unlocked' for x in walk(callback.children)):
++                preservation['equipment_unlock_callbacks']+=1
++                if limit:
++                    inner=callback.children[0];assert inner.key=='if' and signature(inner.get('limit'))[3]==signature(limit)[3]
++                    actual=[x for x in inner.children if x.key!='limit']
++                else:actual=callback.children[:-1]
++                assert [signature(x) for x in actual]==[signature(x) for x in (original.children if original else [])],(rel,key,'callback')
++    (OUT/'preservation.json').write_text(json.dumps(preservation,ensure_ascii=False,indent=2),'utf-8')
++    nodes={}
++    for rel,name in [('common/scripted_effects/APDC_economy_equipment.txt','APDC_eco_produce_equipment'),('common/scripted_effects/APDC_economy_backend.txt','APDC_eco_refresh_policies')]:
++        before=next(n for n in parse((backup/'original'/rel).read_text('utf-8-sig')) if n.key==name)
++        after=next(n for n in parse((ROOT/rel).read_text('utf-8-sig')) if n.key==name)
++        nodes[name]={'before_static_nodes':len(list(walk(before.children))),'after_static_nodes':len(list(walk(after.children)))}
++    daily=[]
++    pattern=r'APDC_WEEKLY DAY date=.*?ticks=(\d+) weeks=(\d+) starts=(\d+) cycles=(\d+) cursor=(\d+) quota=(\d+) refreshed=(\d+) rollups=(\d+) research=(\d+)'
++    for match in re.finditer(pattern,game):daily.append(dict(zip(['day','weeks','starts','cycles','cursor','quota','refreshed','rollups','research'],map(int,match.groups()))))
++    stable=[{'day':b['day'],'directory_refreshes':b['refreshed']-a['refreshed'],'statistics_rollups':b['rollups']-a['rollups']} for a,b in zip(daily,daily[1:]) if b['day']>16]
++    performance={'static_code_nodes':nodes,'daily_observations':daily,'stable_daily_deltas':stable,'note':'Script counts and actual invocation counters, not frame-time or CPU timing measurements.'}
++    (OUT/'performance-evidence.json').write_text(json.dumps(performance,ensure_ascii=False,indent=2),'utf-8')
++    (OUT/'final-changes.json').write_text(json.dumps(changes,ensure_ascii=False,indent=2),'utf-8')
++    (backup/'final-changes.json').write_text(json.dumps(changes,ensure_ascii=False,indent=2),'utf-8')
++    summary={'assertions_passed':len(passed),'project_errors':verification['project_or_unclassified_records'],'external_errors':verification['external_records'],'parsed_scripts':verification['parsed_script_files'],'last_day':daily[-1] if daily else None,'preservation':preservation,'process_cleanup':stop,'backup':str(backup),'limitations':['No foreground/visual UI inspection.','No frame-time profiling; counts do not prove the entire game is stutter-free.']}
++    (OUT/'report.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2),'utf-8')
++    print(json.dumps({k:v for k,v in summary.items() if k not in ['backup','limitations']},ensure_ascii=False))
++
++
++if __name__=='__main__':main()

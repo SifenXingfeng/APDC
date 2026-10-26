@@ -1,0 +1,64 @@
+state = {
+	id = 991
+	name = "STATE_991"
+	provinces = {
+		1949
+		2036
+		7080
+		10807
+		16084
+		18828
+		18907
+		18911
+		18912
+	}
+	state_category = rural
+	manpower = 3523000
+	history = {
+		owner = PAK
+		controller = PAK
+		add_core_of = CIP
+		victory_points = {
+			1949
+			3
+		}
+		victory_points = {
+			2036
+			3
+		}
+		victory_points = {
+			7080
+			10
+		}
+		victory_points = {
+			10807
+			2
+		}
+		victory_points = {
+			16084
+			3
+		}
+		victory_points = {
+			18828
+			1
+		}
+		victory_points = {
+			18907
+			1
+		}
+		victory_points = {
+			18911
+			3
+		}
+		victory_points = {
+			18912
+			3
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = GDP_regions_madhya_pradesh
+	}
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

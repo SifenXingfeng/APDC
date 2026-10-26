@@ -1,0 +1,63 @@
+state = {
+	id = 1441
+	name = "STATE_1441"
+	provinces = {
+		2308
+		13862
+		13876
+		13885
+		13893
+		13895
+		13908
+		13922
+		14413
+		14419
+		15165
+		15647
+		15851
+	}
+	manpower = 918493
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = TZN
+		controller = TZN
+		add_core_of = TZN
+		victory_points = {
+			13885
+			1
+		}
+		victory_points = {
+			13893
+			2
+		}
+		victory_points = {
+			13895
+			1
+		}
+		victory_points = {
+			13908
+			5
+		}
+		victory_points = {
+			13922
+			2
+		}
+		victory_points = {
+			14413
+			2
+		}
+		victory_points = {
+			14419
+			3
+		}
+		victory_points = {
+			15647
+			1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

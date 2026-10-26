@@ -1,0 +1,20 @@
+--- before/common/operations/SIA_operations.txt
++++ current/common/operations/SIA_operations.txt
+@@ -15,7 +15,7 @@
+ 	}
+ 
+ 	visible = {
+-		has_completed_focus = SIA_destroy_the_indochinese_ports
++		always = no
+ 		num_of_operatives > 0
+ 		any_of_scopes = {
+ 			array = SIA.indochina_states
+@@ -48,7 +48,7 @@
+ 	outcome_execute = {
+ 		random_list = {
+ 			90 = {
+-				SIA_plant_indochina_port_charges = yes
++				
+ 			}
+ 			10 = {
+ 				custom_effect_tooltip = operation_SIA_sabotage_indochina_ports_failed_tt

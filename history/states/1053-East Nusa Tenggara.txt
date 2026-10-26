@@ -1,0 +1,57 @@
+state = {
+	id = 1053
+	name = "STATE_1053"
+	resources = {
+	}
+	history = {
+		owner = INS
+		controller = INS
+		add_core_of = INS
+		victory_points = {
+			1298
+			1
+		}
+		victory_points = {
+			7321
+			2
+		}
+		victory_points = {
+			10175
+			2
+		}
+		victory_points = {
+			10219
+			1
+		}
+		victory_points = {
+			12151
+			1
+		}
+		victory_points = {
+			13393
+			1
+		}
+		buildings = {
+			infrastructure = 1
+			4301 = {
+				naval_base = 1
+			}
+			10175 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		1298
+		4301
+		7321
+		10175
+		10219
+		12151
+		13393
+		13394
+	}
+	manpower = 1385395
+	state_category = small_island
+	local_supplies = 0.0
+}

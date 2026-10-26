@@ -1,0 +1,30 @@
+state = {
+	id = 1480
+	name = "STATE_1480"
+	provinces = {
+		13458
+		13460
+		18560
+	}
+	manpower = 65118
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = OMA
+		controller = OMA
+		add_core_of = OMA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13458
+			1
+		}
+		victory_points = {
+			13460
+			2
+		}
+		set_state_flag = state_renamings
+	}
+}

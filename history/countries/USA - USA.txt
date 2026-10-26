@@ -1,7 +1,9 @@
+# APDC: regular roster and production models available at scenario initialization.
+set_technology = { APDC_land_units_bootstrap = 1 }
 # Shared empty OOB preserves startup initialization until a country OOB is authored.
 set_oob = "APDC_empty"
 
-capital = 992 #华盛顿特区
+capital = 1165 #华盛顿特区
 
 starting_train_buffer = 5
 
@@ -67,13 +69,3 @@ set_autonomy = {
 }
 
 # 原红区开局非军事区
-101 = { set_demilitarized_zone = yes }
-376 = { set_demilitarized_zone = yes }
-381 = { set_demilitarized_zone = yes }
-382 = { set_demilitarized_zone = yes }
-387 = { set_demilitarized_zone = yes }
-388 = { set_demilitarized_zone = yes }
-467 = { set_demilitarized_zone = yes }
-739 = { set_demilitarized_zone = yes }
-1432 = { set_demilitarized_zone = yes }
-2470 = { set_demilitarized_zone = yes }

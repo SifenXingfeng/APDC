@@ -1,0 +1,25 @@
+--- before/common/autonomous_states/wuw_european_union_puppet.txt
++++ current/common/autonomous_states/wuw_european_union_puppet.txt
+@@ -77,18 +77,18 @@
+ 				AND = {
+ 					original_tag = BEL
+ 					OR = {
+-						has_completed_focus = BEL_european_community 
+-						has_completed_focus = BEL_the_council_of_europe
++						always = no 
++						always = no
+ 					}
+ 				}
+ 				AND = {
+ 					original_tag = AUS
+-					has_completed_focus = AUS_via_danube_to_europe
++					always = no
+ 				}
+ 
+ 				AND = {
+ 					original_tag = HOL
+-					has_completed_focus = HOL_foundations_for_a_european_union
++					always = no
+ 				}
+ 				
+ 			}

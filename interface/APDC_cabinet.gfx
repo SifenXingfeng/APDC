@@ -12,7 +12,8 @@ spriteTypes = {
 		name = "GFX_APDC_cabinet_member_panel_bg"
 		texturefile = "gfx/interface/cabinet/APDC_cabinet_member_panel_bg.png"
 		transparencecheck = yes
-	}
+	effectFile = "gfx/FX/static_button.shader"
+}
 	spriteType = {
 		# Nine high-resolution seamless wedges, one frame per APDC ideology colour.
 		# One hundred rotated instances form the coalition-only pie chart.

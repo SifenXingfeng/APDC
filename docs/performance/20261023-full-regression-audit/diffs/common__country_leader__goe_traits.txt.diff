@@ -1,0 +1,352 @@
+--- before/common/country_leader/goe_traits.txt
++++ current/common/country_leader/goe_traits.txt
+@@ -94,91 +94,21 @@
+ 		}
+ 	}
+ 
+-	PER_glory_of_cyrus_trait = {
+-		sprite = 5
+-		justify_war_goal_time = -0.25
+-		war_stability_factor = 0.3
+-		army_core_defence_factor = 0.1
+-		annex_cost_factor = -0.1
+-
+-		ai_will_do = {
+-			factor = 2
+-		}
+-	}
+-
+-	PER_shahanshah_trait = {
+-		sprite = 5
+-		non_core_manpower = 0.025
+-		party_popularity_stability_factor = 0.02
+-		compliance_growth = 0.1
+-
+-		ai_will_do = {
+-			factor = 2
+-		}
+-	}
+-
+-	PER_heistant_king_trait = {
+-		sprite = 5
+-		autonomy_gain = 0.2
+-		party_popularity_stability_factor = -0.1
+-
+-		ai_will_do = {
+-			factor = 2
+-		}
+-	}
+-
+-	PER_complient_king = {
+-		sprite = 5
+-		autonomy_gain = 0.3
+-		stability_factor = 0.2
+-
+-		ai_will_do = {
+-			factor = 2
+-		}
+-	}
+-
+-	PER_savior_of_iran = {
+-		sprite = 5
+-		war_support_factor = 0.05
+-		stability_factor = 0.2
+-		army_core_attack_factor = 0.1
+-		army_core_defence_factor = 0.1
+-
+-		ai_will_do = {
+-			factor = 2
+-		}
+-	}
+-
+-	PER_deposed_shah_trait = {
+-		sprite = 5
+-		autonomy_gain = 0.1
+-		stability_factor = 0.1
+-
+-		ai_will_do = {
+-			factor = 2
+-		}
+-	}
+-
+-	PER_disinherited_heir_trait = {
+-		sprite = 5
+-		dictatorship_drift = 0.1
+-		stability_factor = -0.05
+-
+-		ai_will_do = {
+-			factor = 2
+-		}
+-	}
+-
+-	PER_rightful_king_trait = {
+-		sprite = 5
+-		political_power_factor = 0.1
+-		stability_factor = -0.02
+-
+-
+-		ai_will_do = {
+-			factor = 2
+-		}
+-	}
++	
++
++	
++
++	
++
++	
++
++	
++
++	
++
++	
++
++	
+ 
+ 	sikh_activist = {
+ 		sprite = 13
+@@ -480,178 +410,64 @@
+ 		political_power_factor = 0.2
+ 	}
+ 
+-	RAJ_GOE_patron_of_education = {
+-		research_speed_factor = 0.08
+-	}
+-
+-	RAJ_GOE_wealthy_philantrophist = {
+-		APDC_eco_population_factor = -0.1
+-		sprite = 13
+-	}
+-
+-	RAJ_GOE_the_reformer_maharaja = {
+-		stability_factor = 0.1
+-		resistance_growth_on_our_occupied_states = 0.1
+-		sprite = 13
+-	}
+-
+-	RAJ_GOE_divisive_monarch = {
+-		stability_factor = 0.1
+-		sprite = 13
+-	}
+-
+-	RAJ_GOE_a_way_with_words = {
+-		annex_cost_factor = -0.2
+-		justify_war_goal_time = -0.33
+-		sprite = 13
+-	}
+-
+-	RAJ_GOE_the_bengal_advocate = {
+-		political_power_factor = 0.08
+-		war_support_factor = 0.05
+-		stability_factor = 0.05
+-		sprite = 5
+-	}
+-
+-	RAJ_GOE_economic_realist = {
+-		APDC_eco_population_factor = -0.15
+-		stability_factor = -0.025
+-		sprite = 10
+-	}
+-
+-	RAJ_GOE_baluchistans_soverign = {
+-		army_core_defence_factor = 0.10
+-		army_core_attack_factor = 0.10
+-		sprite = 5
+-	}
+-
+-	RAJ_GOE_anti_socialist = {
+-		communism_drift = -0.04
+-		enemy_operative_capture_chance_factor = 0.05
+-		army_intel_factor = 0.1
+-		sprite = 13
+-	}
+-
+-	RAJ_GOE_visionary_maharaja = {
+-		production_speed_industrial_complex_factor = 0.06
+-		production_speed_infrastructure_factor = 0.12
+-		sprite = 10
+-	}
+-
+-	RAJ_GOE_cautious_investor = {
+-		production_speed_industrial_complex_factor = 0.06
+-		production_speed_infrastructure_factor = 0.04
+-		production_speed_arms_factory_factor = -0.025
+-		sprite = 10
+-	}
+-
+-	RAJ_GOE_guardian_of_the_hills = {
+-		war_support_factor = 0.08
+-		terrain_trait_xp_gain_factor = 0.15
+-		sprite = 5
+-	}
+-
+-	RAJ_GOE_cautious_strategist = {
+-		army_core_defence_factor = 0.12
+-		sprite = 5
+-	}
+-
+-	RAJ_GOE_financial_strategist = {
+-		production_speed_industrial_complex_factor = 0.08
+-		stability_factor = 0.05
+-		sprite = 10
+-	}
+-
+-	RAJ_GOE_costly_reformer = {
+-		APDC_eco_population_factor = 0.12
+-		stability_factor = 0.05
+-		political_power_factor = -0.05
+-		sprite = 10
+-	}
+-
+-	RAJ_GOE_scholar_king = {
+-		research_speed_factor = 0.08
+-		sprite = 13
+-	}
+-
+-	RAJ_GOE_cultural_icon = {
+-		research_speed_factor = 0.05
+-		stability_factor = 0.05
+-		sprite = 13
+-	}
+-
+-	RAJ_conservationalist = {
+-		sprite = 13
+-		production_speed_buildings_factor = -0.05
+-		war_support_factor = -0.05
+-		stability_weekly = 0.001
+-		research_speed_factor = 0.08
+-		political_power_factor = 0.15
+-	}
+-
+-	RAJ_freedom_fighter = {
+-		sprite = 13
+-		army_attack_against_major_factor = 0.08
+-		army_defence_against_major_factor = 0.1
+-		supply_consumption_factor = -0.03
+-		communism_drift = 0.03
+-	}
+-
+-	RAJ_trade_union_leader = {
+-		sprite = 13
+-		stability_factor = 0.1
+-		communism_drift = 0.03
+-	}
+-
+-	RAJ_founder_of_the_csp = {
+-		sprite = 13
+-		communism_drift = 0.03
+-		APDC_eco_population_factor = -0.05
+-		production_factory_start_efficiency_factor = 0.1
+-	}
+-
+-	RAJ_union_leader = {
+-		sprite = 10
+-		APDC_eco_population_factor = 0.08
+-		production_factory_efficiency_gain_factor = 0.06
+-		production_factory_max_efficiency_factor = 0.06
+-		communism_drift = 0.03
+-	}
+-
+-	RAJ_social_reformer = {
+-		sprite = 13
+-		drift_defence_factor = 0.1
+-		research_speed_factor = 0.03
+-		enemy_operative_capture_chance_factor = 0.05
+-		civilian_intel_to_others = -15
+-		army_intel_to_others = -15
+-		airforce_intel_to_others = -15
+-		communism_drift = 0.03
+-	}
+-
+-	RAJ_heir_of_the_empire = {
+-		stability_factor = 0.1
+-		army_core_defence_factor = 0.1
+-		army_core_attack_factor = 0.05
+-		political_power_factor = 0.05
+-	}
++	
++
++	
++
++	
++
++	
++
++	
++
++	
++
++	
++
++	
++
++	
++
++	
++
++	
++
++	
++
++	
++
++	
++
++	
++
++	
++
++	
++
++	
++
++	
++
++	
++
++	
++
++	
++
++	
++
++	
+ 
+ 	motor_tycoon = {
+ 		sprite = 13
+ 		production_speed_arms_factory_factor = 0.04
+ 		equipment_bonus = {
+-			motorized = {
+-				build_cost_ic = -0.07
+-				instant = yes
+-			}
+ 			
++			
+ 		}
+ 
+ 		equipment_bonus = {
+-			mechanized = {
+-				build_cost_ic = -0.07
+-				instant = yes
+-			}
++			
+ 		}
+ 
+ 		equipment_bonus = {
+@@ -705,13 +521,7 @@
+ 		naval_coordination = -0.1
+ 	}
+ 
+-	RAJ_timurs_succesor = {
+-		sprite = 13
+-		drift_defence_factor = 0.25
+-		stability_factor = 0.1
+-		war_support_factor = 0.2
+-		justify_war_goal_time = -0.5
+-	}
++	
+ 
+ 	red_tiger_of_bengal = {
+ 		sprite = 13

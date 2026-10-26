@@ -1,0 +1,36 @@
+state = {
+	id = 211
+	name = "STATE_211"
+	provinces = {
+		6814
+		6967
+		9888
+		9902
+		9919
+		18158
+	}
+	manpower = 740942
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 4
+	history = {
+		owner = BUL
+		controller = BUL
+		add_core_of = BUL
+		victory_points = {
+			6814
+			1
+		}
+		victory_points = {
+			9902
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			9902 = {
+				naval_base = 1
+			}
+		}
+	}
+}

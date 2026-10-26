@@ -1,0 +1,33 @@
+state = {
+	id = 843
+	name = "STATE_843"
+	provinces = {
+		5097
+		7944
+		15557
+		15558
+	}
+	manpower = 650000
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = ETH
+		controller = ETH
+		add_core_of = ETH
+		victory_points = {
+			5097
+			3
+		}
+		victory_points = {
+			7944
+			1
+		}
+		victory_points = {
+			15557
+			2
+		}
+		buildings = {
+		}
+	}
+}

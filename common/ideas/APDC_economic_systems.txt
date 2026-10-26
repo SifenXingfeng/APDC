@@ -8,7 +8,7 @@ ideas = {
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = 0.25
+				APDC_eco_population_factor = 0.25
 				industrial_capacity_factory = -0.30
 				production_speed_buildings_factor = -0.30
 				research_speed_factor = -0.25
@@ -22,7 +22,7 @@ ideas = {
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = 0.15
+				APDC_eco_population_factor = 0.15
 				industrial_capacity_factory = -0.15
 				production_speed_buildings_factor = 0.10
 				research_speed_factor = -0.15
@@ -36,7 +36,7 @@ ideas = {
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = -0.15
+				APDC_eco_population_factor = -0.15
 				industrial_capacity_factory = 0.25
 				production_speed_buildings_factor = 0.20
 				research_speed_factor = 0.20
@@ -50,7 +50,7 @@ ideas = {
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = -0.08
+				APDC_eco_population_factor = -0.08
 				industrial_capacity_factory = 0.15
 				production_speed_buildings_factor = 0.15
 				research_speed_factor = 0.12
@@ -64,7 +64,7 @@ ideas = {
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = -0.10
+				APDC_eco_population_factor = -0.10
 				industrial_capacity_factory = 0.20
 				production_speed_buildings_factor = 0.30
 				research_speed_factor = 0.10
@@ -78,7 +78,7 @@ ideas = {
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = -0.12
+				APDC_eco_population_factor = -0.12
 				industrial_capacity_factory = 0.30
 				production_speed_buildings_factor = 0.25
 				research_speed_factor = 0.05
@@ -92,7 +92,7 @@ ideas = {
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = -0.12
+				APDC_eco_population_factor = -0.12
 				industrial_capacity_factory = 0.22
 				production_speed_buildings_factor = 0.18
 				research_speed_factor = 0.15
@@ -106,7 +106,7 @@ ideas = {
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = -0.15
+				APDC_eco_population_factor = -0.15
 				industrial_capacity_factory = 0.18
 				production_speed_buildings_factor = 0.12
 				research_speed_factor = 0.15
@@ -120,7 +120,7 @@ ideas = {
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = -0.20
+				APDC_eco_population_factor = -0.20
 				industrial_capacity_factory = 0.35
 				production_speed_buildings_factor = 0.35
 				research_speed_factor = -0.10

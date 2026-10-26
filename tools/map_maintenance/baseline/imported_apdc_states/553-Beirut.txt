@@ -1,0 +1,38 @@
+state = {
+	id = 553
+	name = "STATE_553"
+	provinces = {
+		792
+		18592
+		18595
+		18596
+	}
+	manpower = 490667
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = ISR
+		controller = ISR
+		add_core_of = ISR
+		victory_points = {
+			792
+			1
+		}
+		victory_points = {
+			18595
+			15
+		}
+		victory_points = {
+			18596
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			792 = {
+				naval_base = 3
+			}
+		}
+	}
+}

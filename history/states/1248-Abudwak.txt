@@ -1,0 +1,32 @@
+state = {
+	id = 1248
+	name = "STATE_1248"
+	provinces = {
+		12757
+		12812
+		13253
+		14066
+		14076
+		15543
+	}
+	manpower = 473684
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = ETH
+		controller = ETH
+		add_core_of = ETH
+		add_core_of = SOM
+		victory_points = {
+			13253
+			2
+		}
+		victory_points = {
+			14076
+			2
+		}
+		buildings = {
+		}
+	}
+}

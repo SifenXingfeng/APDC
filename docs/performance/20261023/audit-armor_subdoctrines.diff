@@ -1,0 +1,705 @@
+--- 
+
++++ 
+
+@@ -51,21 +51,22 @@
+
+                 max_organisation = 7
+             }
+-		apdc_wheeled_mechanized = {
+-                default_morale = 0.1
+-                max_organisation = 7
+-            }
+             light_armor = {
+                 default_morale = 0.1
+                 max_organisation = 3
+             }
+-		apdc_light_tank = {
+-                default_morale = 0.1
+-                max_organisation = 3
+-            }
+ 			category_self_propelled_anti_air_regimental_support = {			
+-                max_organisation = 10
++                max_organisation = 5
+                 air_attack = 0.05
+ 			}
+-        }
++        
++apdc_wheeled_mechanized = {
++                default_morale = 0.1
++                max_organisation = 7
++            }
++apdc_light_tank = {
++                default_morale = 0.1
++                max_organisation = 3
++            }
++}
+         tactical_reconnaissance = {
+         #4
+@@ -81,14 +82,15 @@
+
+                 breakthrough = 0.2
+             }
+-		apdc_wheeled_mechanized = {
++            category_tanks= {
++                max_organisation = 3
++                breakthrough = 0.2
++            }
++        
++apdc_wheeled_mechanized = {
+                 default_morale = 0.2
+                 max_organisation = 3
+                 breakthrough = 0.2
+             }
+-            category_tanks= {
+-                max_organisation = 3
+-                breakthrough = 0.2
+-            }
+-        }
++}
+     }
+ }
+@@ -147,17 +149,18 @@
+
+                 max_organisation = 10
+             }
+-		apdc_infantry_recon = {
++
++            light_armor = {
++                default_morale = 0.1
++                max_organisation = 3
++            }
++        
++apdc_infantry_recon = {
+                 max_organisation = 10
+             }
+-
+-            light_armor = {
+-                default_morale = 0.1
+-                max_organisation = 3
+-            }
+-		apdc_light_tank = {
+-                default_morale = 0.1
+-                max_organisation = 3
+-            }
+-        }
++apdc_light_tank = {
++                default_morale = 0.1
++                max_organisation = 3
++            }
++}
+         tactical_reconnaissance = {
+         #4
+@@ -225,13 +228,14 @@
+
+                 soft_attack = 0.1
+             }
+-		apdc_mbt = {
++            heavy_armor = {
+                 breakthrough = 0.05
+                 soft_attack = 0.1
+             }
+-            heavy_armor = {
++        
++apdc_mbt = {
+                 breakthrough = 0.05
+                 soft_attack = 0.1
+             }
+-        }
++}
+ 		
+         armored_cohorts = {
+@@ -240,15 +244,15 @@
+
+                 max_organisation = 5
+             }
+-		apdc_mbt = {
+-                max_organisation = 5
+-            }
+             heavy_armor = {
+                 max_organisation = 5
+             }
+ 			category_tank_destroyer_regimental_support = {			
+-                max_organisation = 5
+-				ap_attack = 0.1
++				max_organisation = 5
+ 			}
+-        }
++        
++apdc_mbt = {
++                max_organisation = 5
++            }
++}
+ 		
+         maintenance_routines = {
+@@ -268,8 +272,9 @@
+
+                 supply_consumption = -0.08
+             }
+-		apdc_mbt = {
++        
++apdc_mbt = {
+                 supply_consumption = -0.08
+             }
+-        }
++}
+ 		
+         mobile_armored_strongpoints = {
+@@ -281,16 +286,12 @@
+
+                 breakthrough = 0.1
+             }
+-		apdc_mbt = {
+-                breakthrough = 0.1
+-            }
+ 			heavy_sp_anti_air_support = {
+-				max_organisation = 5
+-				air_attack = 0.1
++				air_attack = 0.05
+ 			}
+-		apdc_reg_spaag = {
+-				max_organisation = 5
+-				air_attack = 0.1
+-			}
+-        }
++        
++apdc_mbt = {
++                breakthrough = 0.1
++            }
++}
+     }
+ }
+@@ -348,12 +349,13 @@
+
+                 default_morale = 0.1
+             }
+-		apdc_tracked_mechanized = {
+-                max_organisation = 5
+-                default_morale = 0.1
+-            }
+             category_all_armor = {
+                 default_morale = 0.05
+             }
+-        }
++        
++apdc_tracked_mechanized = {
++                max_organisation = 5
++                default_morale = 0.1
++            }
++}
+         tank_desant = {
+             armored_signal = {
+@@ -438,9 +440,10 @@
+
+                 soft_attack = 0.1
+             }
+-		apdc_tracked_mechanized = {
++        
++apdc_tracked_mechanized = {
+                 defense = 0.1
+                 soft_attack = 0.1
+             }
+-        }
++}
+ 		
+         advance_under_fire = {
+@@ -449,17 +452,18 @@
+
+                 default_morale = 0.2
+             }
+-		apdc_light_tank = {
++            medium_armor = {
++                breakthrough = 0.1
++                default_morale = 0.1
++            }
++        
++apdc_light_tank = {
+                 breakthrough = 0.1
+                 default_morale = 0.2
+             }
+-            medium_armor = {
+-                breakthrough = 0.1
+-                default_morale = 0.1
+-            }
+-		apdc_mbt = {
+-                breakthrough = 0.1
+-                default_morale = 0.1
+-            }
+-        }
++apdc_mbt = {
++                breakthrough = 0.1
++                default_morale = 0.1
++            }
++}
+ 		
+         attached_support = {
+@@ -470,7 +474,4 @@
+
+                 max_organisation = 10
+             }
+-		apdc_armored_engineer = {
+-                max_organisation = 10
+-            }
+             armored_signal = {
+                 max_organisation = 10
+@@ -478,7 +479,10 @@
+
+ 			category_self_propelled_anti_air_regimental_support = {			
+                 max_organisation = 10
+-                air_attack = 0.05
+ 			}
+-        }
++        
++apdc_armored_engineer = {
++                max_organisation = 10
++            }
++}
+ 		
+         combined_anti_armor = {
+@@ -492,7 +496,5 @@
+
+             }
+ 			category_tank_destroyer_regimental_support = {			
+-                max_organisation = 5
+-                hard_attack = 0.05
+-				ap_attack = 0.15
++                max_organisation = 10
+ 			}
+         }
+@@ -544,13 +546,5 @@
+
+         defense = 0.1
+     }
+-		apdc_wheeled_mechanized = {
+-        max_organisation = 5
+-        defense = 0.1
+-    }
+     mechanized =  {
+-        max_organisation = 5
+-        defense = 0.05
+-    }
+-		apdc_tracked_mechanized =  {
+         max_organisation = 5
+         defense = 0.05
+@@ -564,10 +558,11 @@
+
+                 breakthrough = 0.05
+             }
+-		apdc_light_tank = {
++        
++apdc_light_tank = {
+                 maximum_speed = 0.1
+                 max_organisation = 5
+                 breakthrough = 0.05
+             }
+-        }
++}
+         quick_response_force = {
+             motorized_military_police = {
+@@ -581,7 +576,4 @@
+
+                 suppression_factor = 0.2
+             }
+-		apdc_wheeled_mechanized = {
+-                suppression_factor = 0.2
+-            }
+         }
+         speed_as_armour = {
+@@ -590,8 +582,4 @@
+
+                 breakthrough = 0.05
+             }
+-		apdc_light_tank = {
+-                maximum_speed = 0.05
+-                breakthrough = 0.05
+-            }
+             armored_car = {
+                 maximum_speed = 0.05
+@@ -600,5 +588,14 @@
+
+     
+             }
+-		apdc_wheeled_mechanized = {
++            mechanized = {
++                maximum_speed = 0.05
++                breakthrough = 0.05
++            }
++        
++apdc_light_tank = {
++                maximum_speed = 0.05
++                breakthrough = 0.05
++            }
++apdc_wheeled_mechanized = {
+                 maximum_speed = 0.05
+                 breakthrough = 0.1
+@@ -606,13 +603,9 @@
+
+     
+             }
+-            mechanized = {
+-                maximum_speed = 0.05
+-                breakthrough = 0.05
+-            }
+-		apdc_tracked_mechanized = {
+-                maximum_speed = 0.05
+-                breakthrough = 0.05
+-            }
+-        }
++apdc_tracked_mechanized = {
++                maximum_speed = 0.05
++                breakthrough = 0.05
++            }
++}
+         fighting_reconnaissance = {
+             armored_car_recon = {
+@@ -620,28 +613,29 @@
+
+                  soft_attack = 0.05
+             }
+-		apdc_mechanized_recon = {
+-                max_organisation = 3
+-                 soft_attack = 0.05
+-            }
+             light_tank_recon = {
+                 max_organisation = 2
+                 soft_attack = 0.05
+             }
+-		apdc_armor_recon = {
+-                max_organisation = 2
+-                soft_attack = 0.05
+-            }
+             anti_tank_battery = {
+                 ap_attack = 0.10
+             }
+-		apdc_reg_heavy_weapons = {
++            mot_fire_support = {
++                max_organisation = 5
++                soft_attack = 0.05
++                default_morale = 0.1
++            }
++        
++apdc_mechanized_recon = {
++                max_organisation = 3
++                 soft_attack = 0.05
++            }
++apdc_armor_recon = {
++                max_organisation = 2
++                soft_attack = 0.05
++            }
++apdc_reg_heavy_weapons = {
+                 ap_attack = 0.10
+             }
+-            mot_fire_support = {
+-                max_organisation = 5
+-                soft_attack = 0.05
+-                default_morale = 0.1
+-            }
+-        }
++}
+         sustained_deployments = {
+             armored_car = {
+@@ -650,9 +644,4 @@
+
+                 default_morale = 0.2
+             }
+-		apdc_wheeled_mechanized = {
+-                max_organisation = 5
+-                soft_attack = 0.05
+-                default_morale = 0.2
+-            }
+             light_armor = {
+                 max_organisation = 5
+@@ -661,5 +650,21 @@
+
+                 default_morale = 0.15
+             }
+-		apdc_light_tank = {
++            mechanized = {
++                max_organisation = 5
++                soft_attack = 0.05
++                default_morale = 0.1 
++            }
++            motorized = {
++                max_organisation = 5
++                soft_attack = 0.05
++                default_morale = 0.1
++            }
++        
++apdc_wheeled_mechanized = {
++                max_organisation = 5
++                soft_attack = 0.05
++                default_morale = 0.2
++            }
++apdc_light_tank = {
+                 max_organisation = 5
+                 soft_attack = 0.05
+@@ -667,25 +672,24 @@
+
+                 default_morale = 0.15
+             }
+-            mechanized = {
++apdc_tracked_mechanized = {
+                 max_organisation = 5
+                 soft_attack = 0.05
+                 default_morale = 0.1 
+             }
+-		apdc_tracked_mechanized = {
+-                max_organisation = 5
+-                soft_attack = 0.05
+-                default_morale = 0.1 
+-            }
+-            motorized = {
+-                max_organisation = 5
+-                soft_attack = 0.05
+-                default_morale = 0.1
+-            }
+-		apdc_motorized = {
+-                max_organisation = 5
+-                soft_attack = 0.05
+-                default_morale = 0.1
+-            }
+-        }
++apdc_motorized = {
++                max_organisation = 5
++                soft_attack = 0.05
++                default_morale = 0.1
++            }
++}
++    }
++
++apdc_wheeled_mechanized = {
++        max_organisation = 5
++        defense = 0.1
++    }
++apdc_tracked_mechanized =  {
++        max_organisation = 5
++        defense = 0.05
+     }
+ }
+@@ -727,13 +731,5 @@
+
+         defense = 0.1
+     }
+-		apdc_motorized = {
+-        max_organisation = 5
+-        defense = 0.1
+-    }
+     mechanized =  {
+-        max_organisation = 5
+-        defense = 0.05
+-    }
+-		apdc_tracked_mechanized =  {
+         max_organisation = 5
+         defense = 0.05
+@@ -747,10 +743,11 @@
+
+                 breakthrough = 0.05
+             }
+-		apdc_light_tank = {
++        
++apdc_light_tank = {
+                 maximum_speed = 0.1
+                 max_organisation = 5
+                 breakthrough = 0.05
+             }
+-        }
++}
+         quick_response_force = {
+             motorized_military_police = {
+@@ -768,25 +765,26 @@
+
+                 breakthrough = 0.05
+             }
+-		apdc_light_tank = {
+-                maximum_speed = 0.05
+-                breakthrough = 0.05
+-            }
+             motorized = {
+                 maximum_speed = 0.05
+     
+             }
+-		apdc_motorized = {
++            mechanized = {
++                maximum_speed = 0.05
++                breakthrough = 0.05
++            }
++        
++apdc_light_tank = {
++                maximum_speed = 0.05
++                breakthrough = 0.05
++            }
++apdc_motorized = {
+                 maximum_speed = 0.05
+     
+             }
+-            mechanized = {
+-                maximum_speed = 0.05
+-                breakthrough = 0.05
+-            }
+-		apdc_tracked_mechanized = {
+-                maximum_speed = 0.05
+-                breakthrough = 0.05
+-            }
+-        }
++apdc_tracked_mechanized = {
++                maximum_speed = 0.05
++                breakthrough = 0.05
++            }
++}
+         fighting_reconnaissance = {
+             recon = {
+@@ -794,13 +792,5 @@
+
+                  soft_attack = 0.05
+             }
+-		apdc_infantry_recon = {
+-                max_organisation = 3
+-                 soft_attack = 0.05
+-            }
+             light_tank_recon = {
+-                max_organisation = 2
+-                soft_attack = 0.05
+-            }
+-		apdc_armor_recon = {
+                 max_organisation = 2
+                 soft_attack = 0.05
+@@ -810,9 +800,18 @@
+
+                 ap_attack = 0.05
+             }
+-		apdc_reg_heavy_weapons = {
++        
++apdc_infantry_recon = {
++                max_organisation = 3
++                 soft_attack = 0.05
++            }
++apdc_armor_recon = {
++                max_organisation = 2
++                soft_attack = 0.05
++            }
++apdc_reg_heavy_weapons = {
+                 max_organisation = 2
+                 ap_attack = 0.05
+             }
+-        }
++}
+         sustained_deployments = {
+             light_armor = {
+@@ -822,5 +821,21 @@
+
+                 default_morale = 0.15
+             }
+-		apdc_light_tank = {
++            mechanized = {
++                max_organisation = 5
++                soft_attack = 0.05
++                default_morale = 0.1
++            }
++            motorized = {
++                max_organisation = 5
++                soft_attack = 0.05
++                default_morale = 0.1
++            }
++            mot_fire_support = {
++                max_organisation = 5
++                soft_attack = 0.05
++                default_morale = 0.1
++            }
++        
++apdc_light_tank = {
+                 max_organisation = 5
+                 soft_attack = 0.05
+@@ -828,35 +843,29 @@
+
+                 default_morale = 0.15
+             }
+-            mechanized = {
+-                max_organisation = 5
+-                soft_attack = 0.05
+-                default_morale = 0.1
+-            }
+-		apdc_tracked_mechanized = {
+-                max_organisation = 5
+-                soft_attack = 0.05
+-                default_morale = 0.1
+-            }
+-            motorized = {
+-                max_organisation = 5
+-                soft_attack = 0.05
+-                default_morale = 0.1
+-            }
+-		apdc_motorized = {
+-                max_organisation = 5
+-                soft_attack = 0.05
+-                default_morale = 0.1
+-            }
+-            mot_fire_support = {
+-                max_organisation = 5
+-                soft_attack = 0.05
+-                default_morale = 0.1
+-            }
+-		apdc_reg_heavy_weapons = {
+-                max_organisation = 5
+-                soft_attack = 0.05
+-                default_morale = 0.1
+-            }
+-        }
++apdc_tracked_mechanized = {
++                max_organisation = 5
++                soft_attack = 0.05
++                default_morale = 0.1
++            }
++apdc_motorized = {
++                max_organisation = 5
++                soft_attack = 0.05
++                default_morale = 0.1
++            }
++apdc_reg_heavy_weapons = {
++                max_organisation = 5
++                soft_attack = 0.05
++                default_morale = 0.1
++            }
++}
++    }
++
++apdc_motorized = {
++        max_organisation = 5
++        defense = 0.1
++    }
++apdc_tracked_mechanized =  {
++        max_organisation = 5
++        defense = 0.05
+     }
+ }
+@@ -895,11 +904,12 @@
+
+                 ap_attack = 0.1
+             }
+-		apdc_atgm_vehicle = {
++
++        
++apdc_atgm_vehicle = {
+                 max_organisation = 8
+                 hard_attack = 0.1
+                 ap_attack = 0.1
+             }
+-
+-        }
++}
+         committed_operational_units = {
+             assault_engineer = {
+@@ -937,11 +947,6 @@
+
+ 			category_tank_destroyer_regimental_support = {			
+                 max_organisation = 5
+-				hard_attack = 0.1
+-				ap_attack = 0.1
+ 			}
+         }
+-
+-
+-
+-    }
+-}
++    }
++}

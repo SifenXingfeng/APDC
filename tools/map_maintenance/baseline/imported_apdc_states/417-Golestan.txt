@@ -1,0 +1,40 @@
+state = {
+	id = 417
+	name = "STATE_417"
+	resources = {
+		steel = 1
+		chromium = 2
+	}
+	provinces = {
+		8040
+		8125
+		15148
+		18797
+		18809
+	}
+	manpower = 248874
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = PER
+		controller = PER
+		add_core_of = PER
+		victory_points = {
+			8040
+			5
+		}
+		victory_points = {
+			8125
+			3
+		}
+		victory_points = {
+			18809
+			2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = GDP_category_town
+	}
+}

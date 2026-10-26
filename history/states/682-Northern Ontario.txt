@@ -2,84 +2,13 @@ state = {
 	id = 682
 	name = "STATE_682"
 	resources = {
-		steel = 12
-		aluminium = 26
-
-	}
-	history = {
-		owner = USA
-		add_core_of = USA
-		buildings = {
-			infrastructure = 4
-			radar_station = 2
-		}
-		add_core_of = CAN
-		victory_points = {
-			# Sudbury
-			9467
-			10
-		}
-		victory_points = {
-			# Thunder Bay
-			7899
-			5
-		}
-		victory_points = {
-			# Sault Ste Marie
-			12582
-			5
-		}
-		victory_points = {
-			# Timmins
-			4784
-			3
-		}
-		victory_points = {
-			# Kenora
-			1769
-			1
-		}
-		victory_points = {
-			# Sioux Lookout
-			11571
-			1
-		}
-		victory_points = {
-			# Moosonee
-			9740
-			1
-		}
-		victory_points = {
-			# Marathon
-			10718
-			1
-		}
-		victory_points = {
-			# North Bay
-			6676
-			2
-		}
-		victory_points = {
-			# Wawa
-			777
-			1
-		}
-		victory_points = {
-			# Temiskaming Shores
-			1299
-			1
-		}
-		victory_points = {
-			# Fort Severn
-			17269
-			1
-		}
-		set_state_flag = GDP_regions_ontario
+		steel = 8
+		aluminium = 9
+		coal = 2
 	}
 	provinces = {
 		602
 		761
-		763
 		777
 		1299
 		1769
@@ -91,34 +20,45 @@ state = {
 		4869
 		4875
 		6510
-		6676
 		7366
 		7794
 		7899
 		9467
 		9480
-		9634
 		9740
 		10621
 		10718
 		11571
-		11602
 		12278
 		12582
 		12701
 		13094
+		13159
 		13161
 		13186
+		13201
 		17257
 		17266
-		17269
 		17273
 		17275
 		17281
-		17282
 	}
-	manpower = 724449
+	manpower = 145726
 	buildings_max_level_factor = 1
-	state_category = town
+	state_category = rural
 	local_supplies = 0
+	history = {
+		owner = USA
+		controller = USA
+		add_core_of = USA
+		victory_points = {
+			12582
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		set_state_flag = GDP_regions_ontario
+	}
 }

@@ -1,0 +1,52 @@
+state = {
+	id = 609
+	name = "STATE_609"
+	resources = {
+	}
+	provinces = {
+		10068
+		11822
+		14183
+		16916
+	}
+	manpower = 2354369
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			10068
+			30
+		}
+		victory_points = {
+			11822
+			3
+		}
+		victory_points = {
+			14183
+			3
+		}
+		victory_points = {
+			16916
+			10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			synthetic_refinery = 1
+			10068 = {
+				naval_base = 2
+			}
+		}
+		set_variable = {
+			china_state_ref = 8
+		}
+		set_variable = {
+			china_region_ref = 1
+		}
+	}
+}

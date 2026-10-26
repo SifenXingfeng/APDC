@@ -1,0 +1,23 @@
+state={ #1130
+	id=1130
+	name="COOK_ISLANDS"
+	manpower=14000
+	state_category = tiny_island
+	
+	history= {
+		owner = NZL
+		add_core_of = NZL
+		buildings = {
+			infrastructure = 1
+			19976 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		19964 19976
+	}
+
+	local_supplies=0.0 
+}

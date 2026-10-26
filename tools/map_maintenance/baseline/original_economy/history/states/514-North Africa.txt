@@ -1,0 +1,26 @@
+state = {
+	id = 514
+	name = "STATE_514" # Algerian Desert
+	manpower = 207733
+	
+	state_category = wasteland
+	impassable = yes
+	force_link_ownership_to = 513 # Tlemcen
+
+	history = {
+
+		owner = FRA
+		add_core_of = ALG
+
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		1043 1095 1901 1958 2049 5035 5095 7041 8061 8077 8088 10731 10749 12711 12842 14288 14301 14316 14327 14363 14381 14392 14397 14408 14409 14410 18008 18042 18056 
+	}
+
+	local_supplies = 0.0 
+}

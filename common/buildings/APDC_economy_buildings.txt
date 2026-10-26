@@ -1,0 +1,17 @@
+buildings = {
+APDC_eco_private_civ = {
+base_cost = 10800
+icon_frame = 1
+value = 5
+hide_if_missing_tech = yes
+level_cap = { shares_slots = yes state_max = 50 }
+}
+APDC_eco_private_mil = {
+base_cost = 7200
+icon_frame = 2
+value = 8
+hide_if_missing_tech = yes
+level_cap = { shares_slots = yes state_max = 50 }
+}
+
+}

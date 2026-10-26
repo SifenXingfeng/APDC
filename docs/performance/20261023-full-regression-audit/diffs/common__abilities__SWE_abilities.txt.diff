@@ -1,0 +1,11 @@
+--- before/common/abilities/SWE_abilities.txt
++++ current/common/abilities/SWE_abilities.txt
+@@ -11,7 +11,7 @@
+ 			is_leading_army_group = no
+ 			is_border_war = no
+ 			OWNER = {
+-				has_completed_focus = SWE_winter_drill
++				always = no
+ 			}
+ 		}
+ 		

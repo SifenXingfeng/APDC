@@ -1,0 +1,60 @@
+state = {
+	id = 1483
+	name = "STATE_1483"
+	provinces = {
+		1973
+		13421
+		13424
+		13425
+		13476
+		15582
+		18542
+		18559
+		18575
+	}
+	manpower = 1026084
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = YEM
+		controller = YEM
+		add_core_of = YEM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			1973
+			1
+		}
+		victory_points = {
+			13421
+			10
+		}
+		victory_points = {
+			13424
+			2
+		}
+		victory_points = {
+			13425
+			5
+		}
+		victory_points = {
+			13476
+			2
+		}
+		victory_points = {
+			18542
+			2
+		}
+		victory_points = {
+			18575
+			3
+		}
+		victory_points = {
+			15582
+			1
+		}
+		set_state_flag = state_renamings
+	}
+}

@@ -1,0 +1,33 @@
+state = {
+	id = 1521
+	name = "STATE_1521"
+	provinces = {
+		5155
+		12950
+		13753
+		13771
+		13774
+		17856
+		17859
+	}
+	manpower = 82513
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+	history = {
+		owner = MZB
+		controller = MZB
+		add_core_of = MZB
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13753
+			2
+		}
+		victory_points = {
+			13771
+			3
+		}
+	}
+}

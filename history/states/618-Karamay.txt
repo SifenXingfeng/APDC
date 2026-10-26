@@ -1,0 +1,39 @@
+state = {
+	id = 618
+	name = "STATE_618"
+	provinces = {
+		1708
+		1844
+		9077
+		19396
+		19398
+		19413
+	}
+	manpower = 191657
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			9077
+			2
+		}
+		victory_points = {
+			19396
+			3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		set_variable = {
+			china_state_ref = 43
+		}
+		set_variable = {
+			china_region_ref = 5
+		}
+	}
+}

@@ -1,27 +1,28 @@
-state = { #Population Done
+state = {
 	id = 178
 	name = "STATE_178"
-	manpower = 971484
-
-	state_category = town
-
+	manpower = 561347
+	state_category = small_island
 	history = {
-		owner = USA
-		add_core_of = USA
-		victory_points = { 13071 10 }
+		owner = SPR
+		controller = SPR
+		add_core_of = SPR
+		victory_points = {
+			13071
+			3
+		}
 		buildings = {
-			
-			radar_station = 2
-			air_base = 2
 			infrastructure = 2
 			13071 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = SPR
+		strategic_province_location = {
+			natural_harbor = 13071
+		}
 	}
-
 	provinces = {
 		13071
 	}
+	local_supplies = 0.0
 }

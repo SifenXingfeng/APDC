@@ -1,0 +1,40 @@
+state={
+	id=1056
+	name="STATE_1056"
+	resources={
+		rubber = 5
+	}
+
+	history={
+		owner = INS
+		add_core_of = TNE
+		add_core_of = GOW
+		set_resistance = 0
+		set_compliance = 40
+		buildings = {
+			infrastructure = 1
+			10153 = {
+				naval_base = 1
+			}
+			1351 = {
+				naval_base = 1
+			}
+		}
+
+		victory_points = {
+			10153 2
+		}
+
+		victory_points = {
+			10169 1
+		}
+	}
+
+	provinces={
+		1098 1289 1351 1484 1505 1518 4211 4262 4307 4493 4537 7311 10153 10169 10197 12358 19208 19210 19218 19220 19224 19226 19241 19265 19273 19276 19304 19306 19307 19311 19314 19316 19319 19343 
+	}
+	manpower = 1241754
+	state_category = rural
+
+	local_supplies=0.0 
+}

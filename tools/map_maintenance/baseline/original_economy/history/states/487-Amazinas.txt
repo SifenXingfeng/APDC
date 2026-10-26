@@ -1,0 +1,31 @@
+
+state = {
+	id = 487
+	name = "STATE_487"
+	manpower = 334500
+	
+	state_category = pastoral
+
+	history = {
+
+		owner = BOL
+		add_core_of = BOL
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+
+		victory_points = {
+			2160 5 
+		}
+		
+	}
+
+	provinces = {
+		2160 8157 8211 10924 10938 10982 10996 12902 12916 12917 12973 13134 13174 13195 15341 15343 15344 15355 15358 17447 17497 17498 17499 17529 17531 17532 
+	}
+	
+
+	local_supplies = 0.0 
+}

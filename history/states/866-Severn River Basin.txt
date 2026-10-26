@@ -1,0 +1,21 @@
+state = {
+	id = 866
+	name = "STATE_866"
+	provinces = {
+		763
+		17269
+	}
+	manpower = 3333
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = USA
+		controller = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = GDP_regions_ontario
+	}
+}

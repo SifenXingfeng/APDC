@@ -1,0 +1,20 @@
+--- before/common/peace_conference/cost_modifiers/AST_peace.txt
++++ current/common/peace_conference/cost_modifiers/AST_peace.txt
+@@ -6,7 +6,7 @@
+         enable = {
+             ROOT = {
+                 original_tag = AST
+-                has_completed_focus = AST_holding_the_battlefield
++                always = no
+                 is_in_faction_with = ENG
+                 has_war_together_with = ENG
+             }
+@@ -20,7 +20,7 @@
+         enable = {
+             ROOT = {
+                original_tag = AST
+-               has_completed_focus = AST_holding_the_battlefield
++               always = no
+             }
+         }
+         cost_multiplier = 0.75 #25% cost reduction

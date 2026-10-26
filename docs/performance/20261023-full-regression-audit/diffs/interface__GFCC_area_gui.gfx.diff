@@ -1,0 +1,38 @@
+--- before/interface/GFCC_area_gui.gfx
++++ current/interface/GFCC_area_gui.gfx
+@@ -1,18 +1,18 @@
+-spriteTypes = {
+-	spriteType = {
+-		name = "GFX_GFCC_area_gui_up_arrow"
+-		texturefile = "gfx/interface/GFCC_area_gui_up_arrow.dds"
+-	}
+-	spriteType = {
+-		name = "GFX_GFCC_area_gui_small_box_bg"
+-		texturefile = "gfx/interface/GFCC_area_gui_small_box_bg.dds"
+-	}
+-	spriteType = {
+-		name = "GFX_GFCC_area_gui_building_background"
+-		texturefile = "gfx/interface/GFCC_area_gui_building_background.dds"
+-	}
+-	spriteType = {
+-		name = "GFX_GFCC_area_gui_down_arrow"
+-		texturefile = "gfx/interface/GFCC_area_gui_down_arrow.dds"
+-	}c
++spriteTypes = {
++	spriteType = {
++		name = "GFX_GFCC_area_gui_up_arrow"
++		texturefile = "gfx/interface/GFCC_area_gui_up_arrow.dds"
++	}
++	spriteType = {
++		name = "GFX_GFCC_area_gui_small_box_bg"
++		texturefile = "gfx/interface/GFCC_area_gui_small_box_bg.dds"
++	}
++	spriteType = {
++		name = "GFX_GFCC_area_gui_building_background"
++		texturefile = "gfx/interface/GFCC_area_gui_building_background.dds"
++	}
++	spriteType = {
++		name = "GFX_GFCC_area_gui_down_arrow"
++		texturefile = "gfx/interface/GFCC_area_gui_down_arrow.dds"
++	}
+ }

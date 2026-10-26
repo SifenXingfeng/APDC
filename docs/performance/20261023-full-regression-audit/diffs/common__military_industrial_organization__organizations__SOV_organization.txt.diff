@@ -1,0 +1,731 @@
+--- before/common/military_industrial_organization/organizations/SOV_organization.txt
++++ current/common/military_industrial_organization/organizations/SOV_organization.txt
+@@ -91,7 +91,7 @@
+ 				} 
+ 				has_dlc = "Waking the Tiger"
+ 			}
+-			NOR_AAT = yes
++			always = no
+ 			AND = {
+ 				original_tag = PHI 
+ 				has_dlc = "No Compromise, No Surrender"
+@@ -115,7 +115,7 @@
+ 				}
+ 			}
+ 			FROM = {
+-				has_completed_focus = PHI_comitern
++				always = no
+ 			}
+ 		}
+ 
+@@ -138,7 +138,7 @@
+ 					}
+ 				} 
+ 			}
+-			FROM = { has_completed_focus = CHI_hire_soviet_designer }
++			FROM = { always = no }
+ 		}
+ 		ELSE_IF = {
+ 			limit = {
+@@ -156,7 +156,7 @@
+ 			FROM = {
+ 				OR = {
+ 					has_country_flag = SOV_accepted_Morozov
+-					has_completed_focus = CHI_sea_hire_soviet_designer
++					always = no
+ 				}
+ 			} 
+ 		}
+@@ -200,7 +200,7 @@
+ 			limit = {
+ 				FROM = { original_tag = NOR }
+ 			}
+-			FROM = { has_completed_focus = NOR_invite_soviet_designers }
++			FROM = { always = no }
+ 		}
+ 	}
+ 	visible = {
+@@ -211,8 +211,8 @@
+ 			}
+ 			FROM = { 
+ 				OR ={
+-					has_completed_focus = CHI_utilize_the_albazinian_contact
+-					has_completed_focus = CHI_secure_the_soviet_border
++					always = no
++					always = no
+ 				} 
+ 				NOT = {
+ 					has_country_flag = SOV_accepted_Astrov
+@@ -240,7 +240,7 @@
+ 				has_full_control_of_state = 195 #LENINGRAD
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_plant_no_174_flag }
+@@ -277,7 +277,7 @@
+ 				has_full_control_of_state = 252 #GORKY
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_plant_no_112_flag }
+@@ -314,7 +314,7 @@
+ 				has_full_control_of_state = 653 #SVERDLOVSK
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_ural_heavy_machine_building_plant_flag }
+@@ -370,8 +370,8 @@
+ 			}
+ 			FROM = { 
+ 				OR ={
+-					has_completed_focus = CHI_utilize_the_albazinian_contact
+-					has_completed_focus = CHI_secure_the_soviet_border
++					always = no
++					always = no
+ 				} 
+ 				NOT = {
+ 					has_country_flag = SOV_accepted_Morozov
+@@ -399,7 +399,7 @@
+ 				has_full_control_of_state = 195 #LENINGRAD
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_plant_no_174_flag }
+@@ -436,7 +436,7 @@
+ 				has_full_control_of_state = 252 #GORKY
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_plant_no_112_flag }
+@@ -473,7 +473,7 @@
+ 				has_full_control_of_state = 653 #SVERDLOVSK
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_ural_heavy_machine_building_plant_flag }
+@@ -534,7 +534,7 @@
+ 					is_subject_of = SOV
+ 				}
+ 				#is_in_faction_with = SOV
+-				NOT = { has_completed_focus = BUL_nationalization }
++				NOT = { always = no }
+ 			}
+ 		}
+ 		IF = {
+@@ -552,8 +552,8 @@
+ 			}
+ 			FROM = { 
+ 				OR ={
+-					has_completed_focus = CHI_utilize_the_albazinian_contact
+-					has_completed_focus = CHI_secure_the_soviet_border
++					always = no
++					always = no
+ 				} 
+ 				NOT = {
+ 					has_country_flag = SOV_accepted_Morozov
+@@ -586,7 +586,7 @@
+ 				has_full_control_of_state = 195 #LENINGRAD
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_plant_no_174_flag }
+@@ -623,7 +623,7 @@
+ 				has_full_control_of_state = 252 #GORKY
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_plant_no_112_flag }
+@@ -660,7 +660,7 @@
+ 				has_full_control_of_state = 653 #SVERDLOVSK
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_ural_heavy_machine_building_plant_flag }
+@@ -697,7 +697,7 @@
+ 	visible = {
+ 		IF = { 
+ 			limit = { FROM = { original_tag = ETH } } 
+-			FROM = { has_completed_focus = ETH_mytishchi-ababa_plant }
++			FROM = { always = no }
+ 		}
+ 	}
+ 
+@@ -729,7 +729,7 @@
+ 				has_full_control_of_state = 195 #LENINGRAD
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_plant_no_174_flag }
+@@ -766,7 +766,7 @@
+ 				has_full_control_of_state = 252 #GORKY
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_plant_no_112_flag }
+@@ -803,7 +803,7 @@
+ 				has_full_control_of_state = 653 #SVERDLOVSK
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_ural_heavy_machine_building_plant_flag }
+@@ -856,12 +856,12 @@
+ 				} 
+ 			}
+ 
+-			FROM = { has_completed_focus = BEL_invite_soviet_tank_makers }
++			FROM = { always = no }
+ 		}
+ 
+ 		if = {
+ 		    limit = { FROM = { original_tag = AST } }
+-		    FROM = { has_completed_focus = AST_westward_battles }
++		    FROM = { always = no }
+ 		}
+ 	}
+ 
+@@ -889,7 +889,7 @@
+ 				has_full_control_of_state = 195 #LENINGRAD
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_plant_no_174_flag }
+@@ -926,7 +926,7 @@
+ 				has_full_control_of_state = 252 #GORKY
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_plant_no_112_flag }
+@@ -963,7 +963,7 @@
+ 				has_full_control_of_state = 653 #SVERDLOVSK
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_ural_heavy_machine_building_plant_flag }
+@@ -1032,7 +1032,7 @@
+ 					is_subject_of = SOV
+ 				}
+ 				#is_in_faction_with = SOV
+-				NOT = { has_completed_focus = BUL_nationalization }
++				NOT = { always = no }
+ 			}
+ 		}
+ 	}
+@@ -1056,7 +1056,7 @@
+ 				has_full_control_of_state = 195 #LENINGRAD
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_naval_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_plant_no_370_flag }
+@@ -1106,7 +1106,7 @@
+ 				has_full_control_of_state = 195 #LENINGRAD
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_naval_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_plant_no_370_flag }
+@@ -1145,7 +1145,7 @@
+ 				has_full_control_of_state = 195 #LENINGRAD
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_naval_plants
++				always = no
+ 			}
+ 			#Only exists in this MIO
+ 		}
+@@ -1177,14 +1177,14 @@
+ 				tag = BRA
+ 				has_dlc = "Trial of Allegiance"
+ 			}
+-			NOR_AAT = yes
++			always = no
+ 		}
+ 	}
+ 
+ 	visible = {
+ 		IF = { 
+ 			limit = { FROM = { original_tag = ETH } } 
+-			FROM = { has_completed_focus = ETH_soviet-ethiopian_trade_agreement }
++			FROM = { always = no }
+ 		}
+ 	}
+ 
+@@ -1201,21 +1201,21 @@
+ 			limit = {
+ 				FROM = { original_tag = NOR }
+ 			}
+-			FROM = { has_completed_focus = NOR_invite_soviet_designers }
++			FROM = { always = no }
+ 		}
+ 
+ 		IF = {
+ 			limit = {
+ 				FROM = { original_tag = ARG }
+ 			}
+-			FROM = { has_completed_focus = ARG_russian_manufacturers }
++			FROM = { always = no }
+ 		}
+ 
+ 		IF = {
+ 			limit = {
+ 				FROM = { original_tag = BRA }
+ 			}
+-			FROM = { has_completed_focus = BRA_soviet_arms_industry }
++			FROM = { always = no }
+ 		}
+ 	}
+ 
+@@ -1238,7 +1238,7 @@
+ 				has_full_control_of_state = 195 #LENINGRAD
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_naval_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_plant_no_370_flag }
+@@ -1288,7 +1288,7 @@
+ 				has_full_control_of_state = 195 #LENINGRAD
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_naval_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_plant_no_370_flag }
+@@ -1329,8 +1329,8 @@
+ 				has_full_control_of_state = 195 #LENINGRAD
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_naval_plants
+-				has_completed_focus = SOV_surface_warfare
++				always = no
++				always = no
+ 			}
+ 			#Only exists in this MIO
+ 		}
+@@ -1362,8 +1362,8 @@
+ 				has_full_control_of_state = 195 #LENINGRAD
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_naval_plants
+-				has_completed_focus = SOV_submarine_warfare
++				always = no
++				always = no
+ 			}
+ 			#Only exists in this MIO
+ 		}
+@@ -1432,7 +1432,7 @@
+ 				has_full_control_of_state = 227 #STALINO
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_naval_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_mariupol_plant_flag }
+@@ -1482,7 +1482,7 @@
+ 				has_full_control_of_state = 227 #STALINO
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_naval_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_mariupol_plant_flag }
+@@ -1523,8 +1523,8 @@
+ 				has_full_control_of_state = 202 #KIEV
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_naval_plants
+-				has_completed_focus = SOV_surface_warfare
++				always = no
++				always = no
+ 			}
+ 			#Only exists in this MIO
+ 		}
+@@ -1556,8 +1556,8 @@
+ 				has_full_control_of_state = 227 #STALINO
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_naval_plants
+-				has_completed_focus = SOV_submarine_warfare
++				always = no
++				always = no
+ 			}
+ 			#Only exists in this MIO
+ 		}
+@@ -1621,7 +1621,7 @@
+ 				has_full_control_of_state = 227 #STALINO
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_naval_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_mariupol_plant_flag }
+@@ -1671,7 +1671,7 @@
+ 				has_full_control_of_state = 227 #STALINO
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_naval_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_mariupol_plant_flag }
+@@ -1710,7 +1710,7 @@
+ 				has_full_control_of_state = 197 #MYKOLAIV
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_naval_plants
++				always = no
+ 			}
+ 			#Only exists in this MIO
+ 		}
+@@ -1759,7 +1759,7 @@
+ 	visible = {
+ 		IF = { 
+ 			limit = { FROM = { original_tag = ETH } } 
+-			FROM = { has_completed_focus = ETH_soviet-ethiopian_trade_agreement }
++			FROM = { always = no }
+ 		}
+ 		IF = { 
+ 			limit = {
+@@ -1787,13 +1787,13 @@
+ 			limit = {
+ 				FROM = { original_tag = ARG }
+ 			}
+-			FROM = { has_completed_focus = ARG_russian_manufacturers }
++			FROM = { always = no }
+ 		}
+ 		IF = {
+ 			limit = {
+ 				FROM = { original_tag = BRA }
+ 			}
+-			FROM = { has_completed_focus = BRA_soviet_arms_industry }
++			FROM = { always = no }
+ 		}
+ 	}
+ 
+@@ -1815,7 +1815,7 @@
+ 				has_full_control_of_state = 251 #KUYBYSHEV
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_aircraft_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_plant_no_28_flag }
+@@ -1852,7 +1852,7 @@
+ 				has_full_control_of_state = 219 #MOSCOW
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_aircraft_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_plant_no_150_flag }
+@@ -1894,7 +1894,7 @@
+ 				has_full_control_of_state = 808 #RIGA
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_aircraft_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_vef_plant_flag }
+@@ -1965,7 +1965,7 @@
+ 					is_subject_of = SOV
+ 				}
+ 				#is_in_faction_with = SOV
+-				NOT = { has_completed_focus = BUL_nationalization }
++				NOT = { always = no }
+ 			}
+ 		}
+ 	}
+@@ -1988,7 +1988,7 @@
+ 				has_full_control_of_state = 251 #KUYBYSHEV
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_aircraft_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_plant_no_28_flag }
+@@ -2025,7 +2025,7 @@
+ 				has_full_control_of_state = 219 #MOSCOW
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_aircraft_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_plant_no_150_flag }
+@@ -2067,7 +2067,7 @@
+ 				has_full_control_of_state = 808 #RIGA
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_aircraft_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_vef_plant_flag }
+@@ -2118,7 +2118,7 @@
+ 		}
+ 		if = {
+ 		    limit = { FROM = { original_tag = AST } }
+-		    FROM = { has_completed_focus = AST_westward_battles }
++		    FROM = { always = no }
+ 		}
+ 	}
+ 
+@@ -2140,7 +2140,7 @@
+ 				has_full_control_of_state = 251 #KUYBYSHEV
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_aircraft_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_plant_no_28_flag }
+@@ -2177,7 +2177,7 @@
+ 				has_full_control_of_state = 219 #MOSCOW
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_aircraft_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_plant_no_150_flag }
+@@ -2219,7 +2219,7 @@
+ 				has_full_control_of_state = 808 #RIGA
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_aircraft_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_vef_plant_flag }
+@@ -2345,7 +2345,7 @@
+ 				has_full_control_of_state = 251 #KUYBYSHEV
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_aircraft_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_plant_no_28_flag }
+@@ -2382,7 +2382,7 @@
+ 				has_full_control_of_state = 219 #MOSCOW
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_aircraft_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_plant_no_150_flag }
+@@ -2424,7 +2424,7 @@
+ 				has_full_control_of_state = 808 #RIGA
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_aircraft_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_vef_plant_flag }
+@@ -2493,7 +2493,7 @@
+ 		IF = {
+ 			limit = { FROM = { original_tag = GRE } }
+ 			FROM = {
+-				has_completed_focus = GRE_appeal_to_the_soviet_union 
++				always = no 
+ 			}
+ 		}
+ 	}
+@@ -2516,7 +2516,7 @@
+ 				has_full_control_of_state = 398 #PERM
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			#Only exists in this MIO
+ 		}
+@@ -2544,7 +2544,7 @@
+ 				has_full_control_of_state = 227 #STALINO
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_nkmz_plant_flag }
+@@ -2581,7 +2581,7 @@
+ 				has_full_control_of_state = 582 #MAGNITOGORSK
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_magnitogorsk_metallurgical_plant_flag }
+@@ -2658,7 +2658,7 @@
+ 				has_full_control_of_state = 399 #UDMURTIA (Izhevsk)
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			#Only exists in this MIO
+ 		}
+@@ -2686,7 +2686,7 @@
+ 				has_full_control_of_state = 227 #STALINO
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_nkmz_plant_flag }
+@@ -2723,7 +2723,7 @@
+ 				has_full_control_of_state = 582 #MAGNITOGORSK
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_magnitogorsk_metallurgical_plant_flag }
+@@ -2770,14 +2770,14 @@
+ 				tag = AFG
+ 				has_dlc = "Graveyard of Empires"
+ 			}
+-			NOR_AAT = yes
++			always = no
+ 		}
+ 	}
+ 
+ 	visible = {
+ 		IF = { 
+ 			limit = { FROM = { original_tag = ETH } } 
+-			FROM = { has_completed_focus = ETH_soviet-ethiopian_trade_agreement }
++			FROM = { always = no }
+ 		}
+ 	}
+ 	
+@@ -2804,34 +2804,34 @@
+ 					is_subject_of = SOV
+ 				}
+ 				#is_in_faction_with = SOV
+-				NOT = { has_completed_focus = BUL_nationalization }
++				NOT = { always = no }
+ 			}
+ 		}
+ 		ELSE_IF = {
+ 			limit = {
+ 				FROM = { original_tag = NOR }
+ 			}
+-			FROM = { has_completed_focus = NOR_invite_soviet_designers }
++			FROM = { always = no }
+ 		}
+ 
+ 		IF = {
+ 			limit = {
+ 				FROM = { original_tag = ARG }
+ 			}
+-			FROM = { has_completed_focus = ARG_russian_manufacturers }
++			FROM = { always = no }
+ 		}
+ 
+ 		IF = {
+ 			limit = {
+ 				FROM = { original_tag = BRA }
+ 			}
+-			FROM = { has_completed_focus = BRA_soviet_arms_industry }
++			FROM = { always = no }
+ 		}
+ 		IF = {
+ 			limit = {
+ 				FROM = { original_tag = AFG }
+ 			}
+-			FROM = { has_completed_focus = AFG_truck_factory }
++			FROM = { always = no }
+ 		}
+ 	}
+ 
+@@ -2853,7 +2853,7 @@
+ 				has_full_control_of_state = 252 #GORKY
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			#Only exists in this MIO
+ 		}
+@@ -2881,7 +2881,7 @@
+ 				has_full_control_of_state = 227 #STALINO
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_nkmz_plant_flag }
+@@ -2918,7 +2918,7 @@
+ 				has_full_control_of_state = 582 #MAGNITOGORSK
+ 			}
+ 			FROM = {
+-				has_completed_focus = SOV_merge_tank_and_materiel_plants
++				always = no
+ 			}
+ 			FROM = {
+ 				NOT = { has_country_flag = SOV_merge_magnitogorsk_metallurgical_plant_flag }

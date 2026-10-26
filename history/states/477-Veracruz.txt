@@ -1,61 +1,102 @@
 state = {
 	id = 477
 	name = "STATE_477"
+	manpower = 1951460
+	state_category = town
 	resources = {
-		oil = 22.000
-		steel = 8.000
-		tungsten = 2.000
+		oil = 9
 	}
-
 	history = {
 		owner = MEX
+		controller = MEX
+		add_core_of = MEX
+		victory_points = {
+			443
+			1
+		}
+		victory_points = {
+			8079
+			2
+		}
+		victory_points = {
+			8089
+			10
+		}
+		victory_points = {
+			10732
+			1
+		}
+		victory_points = {
+			12810
+			5
+		}
+		victory_points = {
+			14488
+			3
+		}
+		victory_points = {
+			14496
+			2
+		}
+		victory_points = {
+			14499
+			5
+		}
+		victory_points = {
+			14507
+			2
+		}
+		victory_points = {
+			16886
+			1
+		}
+		victory_points = {
+			16895
+			3
+		}
+		victory_points = {
+			16961
+			3
+		}
+		victory_points = {
+			17134
+			1
+		}
+		victory_points = {
+			17311
+			3
+		}
 		buildings = {
-			
-			infrastructure = 3
+			infrastructure = 2
 			dockyard = 1
-			air_base = 1
-			14496 = {
+			12810 = {
 				naval_base = 3
 			}
 			10889 = {
 				naval_base = 2
 			}
 		}
-		add_core_of = MEX
-		victory_points = {
-			14496 10
-		}
-		victory_points = {
-			14499 6
-		}
-		victory_points = {
-			16895 6
-		}
-		victory_points = {
-			17311 3
-		}
-		victory_points = {
-			8079 2
-		}
-		victory_points = {
-			10889 2
-		}
-		victory_points = {
-			16961 1
-		}
-		victory_points = {
-			12810 1
-		}
-		victory_points = {
-			10732 1
-		}
 	}
-
 	provinces = {
-		443 8079 10732 10889 12810 14496 14499 14513 16895 16961 17311
+		443
+		7490
+		8079
+		8089
+		10732
+		10889
+		12810
+		14487
+		14488
+		14496
+		14499
+		14507
+		14513
+		16886
+		16895
+		16961
+		17134
+		17311
+		17325
 	}
-	manpower = 3233678
-	buildings_max_level_factor = 1.000
-	state_category = large_town
-	local_supplies = 0.000
+	local_supplies = 0.0
 }

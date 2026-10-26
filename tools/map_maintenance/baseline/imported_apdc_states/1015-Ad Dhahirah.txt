@@ -1,0 +1,36 @@
+state = {
+	id = 1015
+	name = "STATE_1015"
+	resources = {
+		oil = 1
+	}
+	provinces = {
+		4993
+		13455
+		13457
+		13459
+		18556
+		18581
+	}
+	manpower = 80342
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = OMA
+		controller = OMA
+		add_core_of = OMA
+		victory_points = {
+			13457
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			18581
+			5
+		}
+		set_state_flag = state_renamings
+	}
+}

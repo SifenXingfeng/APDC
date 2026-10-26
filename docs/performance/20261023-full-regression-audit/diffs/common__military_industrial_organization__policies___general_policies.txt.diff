@@ -1,0 +1,25 @@
+--- before/common/military_industrial_organization/policies/_general_policies.txt
++++ current/common/military_industrial_organization/policies/_general_policies.txt
+@@ -76,11 +76,11 @@
+ mio_policy_NOR_general_permanent_industrial_revolution = {
+ 	icon = GFX_idea_eng_spirit_of_the_industrial_revolution
+ 	allowed = { 
+-		owner = { NOR_AAT = yes } 	
++		owner = { always = no } 	
+ 	}
+ 	available = { 
+ 		has_mio_size > 5
+-		owner = { has_completed_focus = NOR_norwegian_engineering } 
++		owner = { always = no } 
+ 	}
+ 	organization_modifier = {
+ 		military_industrial_organization_research_bonus = 0.1
+@@ -104,7 +104,7 @@
+ 	available = { 
+ 		has_mio_size > 7
+ 		owner = {
+-			has_completed_focus = RAJ_the_ordnance_factories_board
++			always = no
+ 		} 
+ 	}
+ 

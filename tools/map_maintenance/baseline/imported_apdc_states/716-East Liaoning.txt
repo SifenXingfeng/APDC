@@ -1,0 +1,158 @@
+state = {
+	id = 716
+	name = "STATE_716"
+	resources = {
+		steel = 19
+		chromium = 3
+		tungsten = 3
+		oil = 2
+		coal = 8
+	}
+	provinces = {
+		836
+		892
+		945
+		964
+		987
+		1150
+		3783
+		3839
+		3849
+		3895
+		3970
+		6804
+		6851
+		6860
+		6868
+		6910
+		6918
+		6981
+		8910
+		9781
+		9848
+		9854
+		9885
+		11764
+		11771
+		11808
+		19883
+	}
+	manpower = 8365945
+	buildings_max_level_factor = 1
+	state_category = city
+	local_supplies = 0
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			836
+			1
+		}
+		victory_points = {
+			892
+			3
+		}
+		victory_points = {
+			945
+			1
+		}
+		victory_points = {
+			964
+			3
+		}
+		victory_points = {
+			987
+			1
+		}
+		victory_points = {
+			1150
+			20
+		}
+		victory_points = {
+			3783
+			3
+		}
+		victory_points = {
+			3895
+			5
+		}
+		victory_points = {
+			3970
+			2
+		}
+		victory_points = {
+			6804
+			1
+		}
+		victory_points = {
+			6851
+			2
+		}
+		victory_points = {
+			6860
+			1
+		}
+		victory_points = {
+			6868
+			1
+		}
+		victory_points = {
+			6981
+			2
+		}
+		victory_points = {
+			8910
+			10
+		}
+		victory_points = {
+			9781
+			1
+		}
+		victory_points = {
+			9854
+			2
+		}
+		victory_points = {
+			9885
+			5
+		}
+		victory_points = {
+			11764
+			5
+		}
+		victory_points = {
+			11771
+			25
+		}
+		victory_points = {
+			11808
+			2
+		}
+		victory_points = {
+			19883
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 1
+			11764 = {
+				naval_base = 3
+			}
+			11808 = {
+				landmark_great_wall_section = {
+					level = 1
+					allowed = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+				}
+			}
+			1150 = {
+				naval_base = 5
+				coastal_bunker = 1
+			}
+			air_base = 6
+		}
+	}
+}

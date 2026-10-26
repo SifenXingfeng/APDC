@@ -1,0 +1,584 @@
+--- before/tools/economy/build_ui.py
++++ current/tools/economy/build_ui.py
+@@ -1,282 +1,299 @@
+-"""Economy panel using APDC cabinet/organization window and list conventions."""
+-import json,shutil
+-from PIL import Image
+-from common import *
+-from build_data import TRACKS,LAWS
+-from build_backend import effect, var, mod, add, lim, P
+-
+-def icon(name,sprite,x,y,extra=''):
+- return block('iconType',f'name = "{name}" position = {{ x = {x} y = {y} }} spriteType = "{sprite}" alwaystransparent = yes '+extra)
+-def text(name,key,x,y,w=180,h=28,font='hoi_24header',extra=''):
+- return block('instantTextboxType',f'name = "{name}" position = {{ x = {x} y = {y} }} font = "{font}" text = "{key}" maxWidth = {w} maxHeight = {h} fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes '+extra)
+-def button(name,sprite,x,y,w,h,tip='',extra=''):
+- return block('buttonType',f'name = "{name}" position = {{ x = {x} y = {y} }} size = {{ x = {w} y = {h} }} spriteType = "{sprite}" clicksound = click_default '+(f'pdx_tooltip = "{tip}" ' if tip else '')+extra)
+-def window(name,body,w,h,x=0,y=0,extra=''):
+- return block('containerWindowType',f'name = "{name}" position = {{ x = {x} y = {y} }} size = {{ width = {w} height = {h} }} '+extra+'\n'+body)
+-def scroll(name,listname,entry,w,h,x,y,slotw,sloth):
+- grid=block('gridBoxType',f'name = "{listname}" position = {{ x = 0 y = 0 }} size = {{ width = {slotw} height = 100% }} slotsize = {{ width = {slotw} height = {sloth} }} max_slots_horizontal = 1 format = "UPPER_LEFT"')
+- return window(name,'background = { name = "Background" spriteType = "GFX_tiled_window_transparent" }\n'+grid,w,h,x,y,'clipping = yes verticalScrollbar = "right_vertical_slider" autohide_scrollbars = yes smooth_scrolling = yes scroll_wheel_factor = '+str(sloth)+' margin = { top = 0 right = 10 bottom = 0 }')
+-
+-def build():
+- data=json.loads((WORK/'design_data.json').read_text('utf-8')); items=json.loads((WORK/'equipment_catalogue.json').read_text('utf-8'))
+- assets=ROOT/'gfx/interface/APDC/economy';assets.mkdir(parents=True,exist_ok=True)
+- source=Path('D:/Desktop/经济面板美术素材')
+- sprites=[]
+- def sprite(name,filename,frames=1):
+-  sprites.append(block('spriteType',f'name = "GFX_APDC_eco_{name}" texturefile = "gfx/interface/APDC/economy/{filename}" noOfFrames = {frames}'))
+- files={'panel':'经济面板背景.png','tray':'民生发展度背景托盘.png','welfare':'民生发展度进度条.png','construction':'私营产业建设进度条.png','eq_row':'私营军工装备背景条.png','eq_progress':'私营军工装备生产进度条.png','buy':'购入按钮.png','direction':'消费品贸易方向条.png','trade_menu':'消费品贸易国菜单.png','trade_toggle':'消费品贸易国菜单展开按钮.png'}
+- for key,name in files.items():
+-  shutil.copy2(source/name,assets/(key+'.png'));sprite(key,key+'.png',3 if key in ['tray','welfare','construction','direction','trade_toggle'] else 1)
+- for key,w,h in [('hitbox',100,100),('back_hitbox',92,46)]:
+-  Image.new('RGBA',(w,h)).save(assets/(key+'.tga'));sprite(key,key+'.tga')
+- # Split strips into small atlases: every individual pixel of progress is
+- # addressable without exceeding the GPU's maximum texture dimensions.
+- def progress_atlas(key,frame_w,pieces):
+-  im=Image.open(source/files[key]).convert('RGBA');height=im.height;pw=frame_w//pieces
+-  for part in range(pieces):
+-   left=part*pw;right=frame_w if part==pieces-1 else left+pw;width=right-left
+-   atlas=Image.new('RGBA',(width*(width+1)*3,height))
+-   for mode in range(3):
+-    tile=im.crop((mode*frame_w+left,0,mode*frame_w+right,height))
+-    for fill in range(width+1):
+-     frame=mode*(width+1)+fill
+-     if fill:atlas.paste(tile.crop((0,0,fill,height)),(frame*width,0))
+-   name=f'{key}_{part}';atlas.save(assets/(name+'.png'));sprite(name,name+'.png',(width+1)*3)
+-  return pw
+- progress_atlas('welfare',78,2);progress_atlas('construction',333,9)
+- # Equipment progress is one color and one unit per bar.
+- im=Image.open(source/files['eq_progress']).convert('RGBA');pw=37
+- for part in range(7):
+-  atlas=Image.new('RGBA',(37*38,9));tile=im.crop((37*part,0,37*(part+1),9))
+-  for fill in range(38):
+-   if fill:atlas.paste(tile.crop((0,0,fill,9)),(fill*37,0))
+-  atlas.save(assets/f'eqp_{part}.png');sprite(f'eqp_{part}',f'eqp_{part}.png',38)
+- write('interface/APDC_economy_panel.gfx',block('spriteTypes',''.join(sprites)))
+-
+- loc={
+- 'APDC_ECO_TITLE':'经济面板','APDC_ECO_CASH':'国库：[?APDC_eco_cash_display_m|3]M₽',
+- 'APDC_ECO_WEEKLY':'每周变化：[?APDC_eco_weekly_balance_m|3+]M₽',
+- 'APDC_ECO_PUBLIC':'国营民工：[?APDC_eco_public_civ|0]','APDC_ECO_PRIVATE':'私营民工：[?APDC_eco_private_civ|1]',
+- 'APDC_ECO_DOMESTIC':'总消费品\\n[?APDC_eco_domestic_m|3]M','APDC_ECO_DISTRIBUTION':'分配率\\n[?APDC_eco_distribution|%1]',
+- 'APDC_ECO_SUPPLY':'供给\\n[?APDC_eco_supply_m|3]M','APDC_ECO_DEMAND':'需求\\n[?APDC_eco_demand_m|3]M',
+- 'APDC_ECO_EXTRA_IN':'额外输入消费品\\n[?APDC_eco_extra_input|3]M','APDC_ECO_EXTRA_OUT':'额外输出消费品\\n[?APDC_eco_extra_output|3]M',
+- 'APDC_ECO_TRADE':'贸易消费品','APDC_ECO_TRADE_AMOUNT':'[?APDC_eco_trade_net_m|3+]M',
+- 'APDC_ECO_PRIVATE_MIL':'私营军用工厂：[?APDC_eco_private_mil|1]',
+- 'APDC_ECO_PLUS':'+','APDC_ECO_MINUS':'−','APDC_ECO_BACK':'返回',
+- 'APDC_ECO_CIV_BUILD':'私营民工：剩余[?APDC_eco_civ_days|0]天',
+- 'APDC_ECO_MIL_BUILD':'私营军工：剩余[?APDC_eco_mil_days|0]天',
+- 'APDC_ECO_CIV_STOP':'私营民工：停止建设','APDC_ECO_MIL_STOP':'私营军工：停止建设',
+- 'APDC_ECO_CIV_CLOSE':'私营民工：正在缩减','APDC_ECO_MIL_CLOSE':'私营军工：正在缩减',
+- 'APDC_ECO_BUY':'购入','APDC_ECO_CLOSE':'关闭','APDC_ECO_LAW_TITLE':'[APDCEconomyLawGroupName]',
+- 'APDC_ECO_LAW_NAME':'[APDCEconomyLawName]','APDC_ECO_LAW_COST':'150 £pol_power',
+- 'APDC_ECO_LAW_CURRENT':'当前法案','APDC_ECO_LAW_TOOLTIP':'[APDCEconomyLawDescription]\\n\\n更换花费：150政治点数。\\n国库为负数时禁止更换。',
+- 'APDC_ECO_EQ_NAME':'[APDCEconomyEquipmentName]','APDC_ECO_EQ_STOCK':'[?APDC_eco_ui_stock^APDC_eco_equipment_id|0]',
+- 'APDC_ECO_PURCHASE_TITLE':'购入装备','APDC_ECO_PURCHASE_NAME':'[APDCEconomyPurchaseName]',
+- 'APDC_ECO_PURCHASE_QUANTITY':'购入数量：[?APDC_eco_purchase_quantity|0]',
+- 'APDC_ECO_PURCHASE_STOCK':'可购库存：[?APDC_eco_purchase_stock|0]',
+- 'APDC_ECO_PURCHASE_COST':'总价：[?APDC_eco_purchase_cost_m|0]M + [?APDC_eco_purchase_cost_k|3]K₽',
+- 'APDC_ECO_BUY_TIP':'立即付款，装备立即加入国家库存。国库余额不足时无法购买。',
+- 'APDC_ECO_TRADE_COUNTRY_AMOUNT':'[?ROOT.APDC_eco_trade_amounts^APDC_eco_trade_index|3+]M',
+- 'APDC_ECO_SOCIETY_TIP':'[APDCEconomySocietyDescription]',
+- 'APDC_ECO_CASH_TIP':'每周收入：[?APDC_eco_weekly_income_m|3]M₽\\n人口税：[?APDC_eco_head_tax_m|3]M₽\\n消费税：[?APDC_eco_consumption_tax_m|3]M₽\\n关税：[?APDC_eco_tariffs_m|3]M₽\\n\\n每周开支：[?APDC_eco_weekly_expenses_m|3]M₽\\n人口开支：[?APDC_eco_welfare_cost_m|3]M₽\\n消费补贴：[?APDC_eco_subsidies_m|3]M₽\\n消费品工厂投资：[?APDC_eco_investment_cost_m|3]M₽\\n建设维护：[?APDC_eco_construction_cost_m|3]M₽\\n军工生产维护：[?APDC_eco_production_cost_m|3]M₽\\n船坞生产维护：[?APDC_eco_naval_production_cost_m|3]M₽\\n科研维护：[?APDC_eco_research_cost_m|3]M₽\\n专项计划维护：[?APDC_eco_projects_cost_m|3]M₽\\n陆军维护：[?APDC_eco_army_cost_m|3]M₽\\n海军维护：[?APDC_eco_navy_cost_m|3]M₽\\n空军维护：[?APDC_eco_air_cost_m|3]M₽',
+- 'APDC_ECO_PUBLIC_TIP':'分配国营民工生产消费品。外国提供的可支配民工同样可以分配。',
+- 'APDC_ECO_DISTRIBUTION_TIP':'消费品在分配前合计，再乘以分配率得到实际供给。\\n基础分配率：[?APDC_eco_distribution|%1]'
+- }
+- for k,label,*_ in TRACKS:
+-  loc['APDC_ECO_'+k.upper()]=label
+-  loc['APDC_ECO_'+k.upper()+'_WEEKLY']='[?APDC_eco_'+k+'_change|2+]/周'
+-  for j,e in enumerate(data[k]['entries'],1):loc[f'APDC_ECO_{k}_{j}_TIP']=e['name']+'\\n'+'\\n'.join(e['source'])
+- for k,label,*_ in LAWS:
+-  loc['APDC_ECO_'+k.upper()]=label
+- for n in ['1','10','100','1000']:loc['APDC_ECO_PLUS_'+n]='+'+n;loc['APDC_ECO_MINUS_'+n]='−'+n
+- loc['APDC_ECO_MAX']='最大'
+-
+- # Scripted text resolves list parameters within the correct player scope.
+- sl=''
+- def defined(name,rows,fallback):
+-  return block('defined_text','name = '+name+'\n'+''.join('text = { trigger = { '+tr+' } localization_key = '+key+' }\n' for tr,key in rows)+'text = { localization_key = '+fallback+' }\n')
+- sl+=defined('APDCEconomyLawGroupName',[(check('selected_group','=',i),'APDC_ECO_GROUP_'+k) for i,(k,*_) in enumerate(LAWS,1)],'APDC_ECO_TITLE')
+- for mode in ['Name','Description']:
+-  sl+=defined('APDCEconomyLaw'+mode,[(check('selected_group','=',i)+' '+check('law_level','=',j),P+k+'_'+str(j)+('_desc' if mode=='Description' else '')) for i,(k,*_) in enumerate(LAWS,1) for j in range(1,6)],'APDC_ECO_TITLE')
+- sl+=defined('APDCEconomyEquipmentName',[(check('equipment_id','=',e['index']),e['id']) for e in items],'APDC_ECO_BUY')
+- sl+=defined('APDCEconomyPurchaseName',[(check('purchase_id','=',e['index']),e['id']) for e in items],'APDC_ECO_BUY')
+- sl+=defined('APDCEconomySocietyDescription',[('has_idea = '+P+'society_'+str(j),P+'society_'+str(j)+'_desc') for j in range(1,6)],'APDC_ECO_TITLE')
+- write('common/scripted_localisation/APDC_economy_ui.txt',sl)
+-
+- props=[];triggers=[];clicks=[];gui=[]
+- # Reusable list entries follow the organization system's numeric/country lists.
+- row=button(P+'law_button','GFX_idea_entry_bg_3',3,0,462,74,'APDC_ECO_LAW_TOOLTIP')
+- row+=icon(P+'law_icon','GFX_idea_generic_build_infrastructure',38,37,'centerposition = yes scale = 0.5')
+- row+=text(P+'law_name','APDC_ECO_LAW_NAME',80,7,300,27,'hoi_18mbs')
+- row+=text(P+'law_cost','APDC_ECO_LAW_COST',300,40,135,22,'hoi_16mbs')
+- row+=text(P+'law_current','APDC_ECO_LAW_CURRENT',80,40,160,22,'hoi_16mbs')
+- gui.append(window(P+'law_row',row,462,74))
+- tr='OR = { '+' '.join('AND = { '+check('selected_group','=',i)+' '+check('law_level','=',j)+' has_idea = '+P+k+'_'+str(j)+' }' for i,(k,*_) in enumerate(LAWS,1) for j in range(1,6))+' }'
+- triggers.append(P+'law_current_visible = { '+tr+' }')
+- triggers.append(P+'law_button_click_enabled = { has_political_power > 149 '+check('cash_m','>=',0)+' NOT = { '+tr+' }\n'+
+-  'OR = { NOT = { '+check('selected_group','=',9)+' } AND = { '+P+'is_planned = yes '+check('law_level','=',5)+' } AND = { '+P+'is_planned = no '+check('law_level','<',5)+' } } }')
+- clicks.append(P+'law_button_click = { '+setv('requested_law',var('law_level'))+'APDC_eco_change_law = yes\nAPDC_eco_sync_ui = yes }')
+- row=icon(P+'eq_row_bg','GFX_APDC_eco_eq_row',0,0)
+- row+=text(P+'eq_name','APDC_ECO_EQ_NAME',9,4,125,23,'hoi_16mbs')
+- row+=text(P+'eq_stock','APDC_ECO_EQ_STOCK',136,5,61,21,'vic_18_black')
+- row+=button(P+'eq_buy','GFX_APDC_eco_buy',208,9,62,21,'APDC_ECO_BUY_TIP')+text(P+'eq_buy_text','APDC_ECO_BUY',208,8,62,23,'vic_18_black')
+- for part in range(7):
+-  name=P+'eq_bar_'+str(part);row+=icon(name,'GFX_APDC_eco_eqp_'+str(part),7+part*37,34)
+-  props.append(name+' = { frame = APDC_eco_ui_eqp_'+str(part)+'^APDC_eco_equipment_id }')
+- gui.append(window(P+'equipment_row',row,277,45))
+- clicks.append(P+'eq_buy_click = { '+setv('purchase_id',var('equipment_id'))+setv('purchase_quantity',1)+setv('purchase_open',1)+'APDC_eco_prepare_purchase = yes }')
+- row=icon(P+'trade_flag','GFX_APDC_cooperation_organization_flag_small_unfiltered',19,15,'scale = 0.5 centerposition = yes')+text(P+'trade_amount','APDC_ECO_TRADE_COUNTRY_AMOUNT',42,0,100,30,'vic_18_black')
+- gui.append(window(P+'trade_row',row,157,30))
+- props.append(P+'trade_flag = { image = "[THIS.GetFlag]" }')
+-
+- body='background = { name = "Background" spriteType = "GFX_APDC_eco_panel" }\n'
+- body+=button(P+'back','GFX_APDC_eco_back_hitbox',14,12,92,46,'APDC_ECO_BACK')
+- body+=text(P+'title','APDC_ECO_TITLE',20,66,230,40,'hoi_36header')
+- body+=text(P+'cash','APDC_ECO_CASH',485,65,258,40,'hoi_24header')
+- body+=button(P+'cash_tip','GFX_APDC_eco_hitbox',485,65,572,40,'APDC_ECO_CASH_TIP')
+- body+=text(P+'weekly','APDC_ECO_WEEKLY',742,65,310,40,'hoi_24header')
+- clicks.append(P+'back_click = { clear_variable = APDC_eco_panel_open clear_variable = APDC_eco_selected_group clear_variable = APDC_eco_purchase_open clear_variable = APDC_eco_trade_open }')
+- for r,k in enumerate(['food','education','medical']):
+-  y=125+r*88
+-  body+=text(P+k+'_heading','APDC_ECO_'+k.upper(),20,y+17,180,42,'hoi_36header')
+-  for segment in range(4):
+-   for part in range(2):
+-    name=P+f'{k}_bar_{segment}_{part}';body+=icon(name,'GFX_APDC_eco_welfare_'+str(part),277+segment*136+39*part,y+24)
+-    props.append(name+' = { frame = '+name+' }')
+-  for tier in range(1,6):
+-   x=210+(tier-1)*136;name=P+f'{k}_tier_{tier}'
+-   body+=icon(name+'_tray','GFX_APDC_eco_tray',x,y)
+-   props.append(name+'_tray = { frame = '+name+'_frame }')
+-   body+=icon(name+'_icon','GFX_idea_generic_build_infrastructure',x+37,y+37,'centerposition = yes scale = 0.45')
+-   body+=text(name+'_number','APDC_ECO_TIER_'+str(tier),x+20,y+25,34,25,'hoi_20b')
+-   body+=button(name+'_tip','GFX_APDC_eco_hitbox',x,y,74,74,'APDC_ECO_'+k+'_'+str(tier)+'_TIP')
+-   loc['APDC_ECO_TIER_'+str(tier)]=str(tier)
+-  body+=text(P+k+'_weekly','APDC_ECO_'+k.upper()+'_WEEKLY',840,y+24,76,25,'hoi_16mbs')
+-  group={'food':2,'education':3,'medical':4}[k]
+-  body+=button(P+k+'_law','GFX_idea_generic_build_infrastructure',920,y+1,70,70,'APDC_ECO_GROUP_'+LAWS[group-1][0])
+-  clicks.append(P+k+'_law_click = { '+setv('selected_group',group)+' }')
+- # Four spending/tax groups occupy the same row after the requested addition.
+- for col,(key,group) in enumerate([('tax',1),('development',5),('research',6),('military',7)]):
+-  x=20+col*263;body+=text(P+key+'_label','APDC_ECO_'+key.upper(),x,421,177,40,'hoi_24header')
+-  body+=button(P+key+'_law','GFX_idea_generic_build_infrastructure',x+178,405,70,70,'APDC_ECO_GROUP_'+key)
+-  clicks.append(P+key+'_law_click = { '+setv('selected_group',group)+' }')
+- for col,(key,group) in enumerate([('investment',8),('distribution',9),('consumption',10)]):
+-  x=20+col*235;body+=text(P+key+'_label','APDC_ECO_'+key.upper(),x,793,145,40,'hoi_24header')
+-  body+=button(P+key+'_law','GFX_idea_generic_build_infrastructure',x+145,780,70,70,'APDC_ECO_GROUP_'+key)
+-  clicks.append(P+key+'_law_click = { '+setv('selected_group',group)+' }')
+- body+=text(P+'public','APDC_ECO_PUBLIC',27,581,145,30,'vic_18_black')
+- body+=button(P+'public_plus','GFX_APDC_eco_hitbox',144,571,32,27,'APDC_ECO_PUBLIC_TIP')+text(P+'plus','APDC_ECO_PLUS',144,570,32,27,'vic_18_black')
+- body+=button(P+'public_minus','GFX_APDC_eco_hitbox',144,599,32,27,'APDC_ECO_PUBLIC_TIP')+text(P+'minus','APDC_ECO_MINUS',144,598,32,27,'vic_18_black')
+- clicks.append(P+'public_plus_click = { '+add('public_civ',1)+'APDC_eco_refresh_current_supply = yes APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }')
+- clicks.append(P+'public_minus_click = { '+add('public_civ',-1)+'APDC_eco_refresh_current_supply = yes APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }')
+- triggers.append(P+'public_plus_click_enabled = { '+check('public_civ','<',var('public_available'))+' }')
+- triggers.append(P+'public_minus_click_enabled = { '+check('public_civ','>',0)+' }')
+- for name,key,x,y,w,h in [('private','PRIVATE',27,679,145,34),('domestic','DOMESTIC',282,622,112,51),('supply','SUPPLY',580,611,54,88),('demand','DEMAND',637,611,54,88),('dist','DISTRIBUTION',455,625,61,50),('extra_in','EXTRA_IN',201,721,117,45),('extra_out','EXTRA_OUT',357,721,117,45)]:
+-  body+=text(P+name,'APDC_ECO_'+key,x,y,w,h,'vic_18_black','multiline = yes')
+- body+=text(P+'trade_label','APDC_ECO_TRADE',282,527,116,29,'vic_18_black')
+- body+=text(P+'trade_net','APDC_ECO_TRADE_AMOUNT',282,552,116,20,'vic_18_black')
+- body+=icon(P+'direction','GFX_APDC_eco_direction',398,519)
+- props.append(P+'direction = { frame = APDC_eco_trade_frame }')
+- body+=icon(P+'trade_toggle_icon','GFX_APDC_eco_trade_toggle',417,529)+button(P+'trade_toggle','GFX_APDC_eco_hitbox',417,529,28,22,'APDC_ECO_TRADE')
+- props.append(P+'trade_toggle_icon = { frame = APDC_eco_trade_toggle_frame }')
+- clicks.append(P+'trade_toggle_click = { if = { limit = { has_variable = APDC_eco_trade_open } clear_variable = APDC_eco_trade_open set_variable = { APDC_eco_trade_toggle_frame = 1 } } else = { set_variable = { APDC_eco_trade_open = 1 } set_variable = { APDC_eco_trade_toggle_frame = 2 } } }')
+- body+=icon(P+'trade_menu_bg','GFX_APDC_eco_trade_menu',274,292)
+- triggers.append(P+'trade_menu_bg_visible = { has_variable = APDC_eco_trade_open }')
+- body+=scroll(P+'trade_scroll',P+'trade_list',P+'trade_row',178,208,279,296,157,30)
+- body+=text(P+'private_mil','APDC_ECO_PRIVATE_MIL',742,533,310,42,'hoi_24header')
+- body+=scroll(P+'equipment_scroll',P+'equipment_list',P+'equipment_row',290,303,750,604,277,45)
+- for c,kind in enumerate(['civ','mil']):
+-  for part in range(9):
+-   name=P+kind+'_build_'+str(part);body+=icon(name,'GFX_APDC_eco_construction_'+str(part),25+c*363+37*part,877)
+-   props.append(name+' = { frame = '+name+'_frame }')
+-  for suffix in ['build','stop','close']:
+-   name=P+kind+'_construction_'+suffix;body+=text(name,'APDC_ECO_'+kind.upper()+'_'+suffix.upper(),31+c*363,900,319,30,'hoi_18mbs')
+-   triggers.append(name+'_visible = { '+check(kind+'_velocity','>' if suffix=='build' else '=' if suffix=='stop' else '<',0)+' }')
+- # The side selector is a child of the draggable main panel, with no clipping.
+- side=text(P+'law_title','APDC_ECO_LAW_TITLE',15,8,450,30,'hoi_20b')
+- side+=scroll(P+'law_scroll',P+'law_list',P+'law_row',488,504,8,54,462,74)
+- side+=button(P+'law_close','GFX_closebutton',450,5,40,40,'APDC_ECO_CLOSE')
+- side=window(P+'law_side', 'background = { name = "Background" spriteType = "GFX_tiled_plain_bg" }\n'+side,500,590,1074,80,'clipping = no')
+- body+=side;clicks.append(P+'law_close_click = { clear_variable = APDC_eco_selected_group }')
+- triggers.append(P+'law_side_visible = { has_variable = APDC_eco_selected_group }')
+- # Visibility is also bound on renderable children, as in the cabinet system.
+- for name in [P+'law_title',P+'law_close',P+'law_scroll']:
+-  triggers.append(name+'_visible = { has_variable = APDC_eco_selected_group }')
+- # Reserve the selector's width when placing the main panel. The combined
+- # 1578px layout fits at 1920x1080 without dragging a clipped sidebar back in.
+- gui.append(window(P+'panel',body,1078,972,x=-250,extra='orientation = center origo = center moveable = yes click_to_front = yes clipping = no'))
+- # Procurement popup reuses the vanilla market purchase background and fonts.
+- buy='background = { name = "Background" spriteType = "GFX_diplo_action_lend_lease_bg" }\n'
+- buy+=text(P+'purchase_title','APDC_ECO_PURCHASE_TITLE',100,28,327,32)
+- buy+=text(P+'purchase_name','APDC_ECO_PURCHASE_NAME',30,100,467,36)
+- buy+=text(P+'purchase_stock','APDC_ECO_PURCHASE_STOCK',30,170,467,30,'hoi_20b')
+- buy+=text(P+'purchase_quantity','APDC_ECO_PURCHASE_QUANTITY',30,220,467,30,'hoi_20b')
+- buy+=text(P+'purchase_cost','APDC_ECO_PURCHASE_COST',30,375,467,50,'hoi_20b')
+- for j,amount in enumerate([1,10,100,1000]):
+-  for sign,y in [(1,275),(-1,315)]:
+-   name=P+('qty_add_' if sign>0 else 'qty_remove_')+str(amount);key='APDC_ECO_'+('PLUS_' if sign>0 else 'MINUS_')+str(amount)
+-   buy+=button(name,'GFX_standard_button_88',34+j*116,y,108,32)+text(name+'_label',key,34+j*116,y,108,32,'hoi_18mbs')
+- buy+=button(P+'qty_max','GFX_standard_button_88',190,350,145,30)+text(P+'qty_max_text','APDC_ECO_MAX',190,350,145,30,'hoi_18mbs')
+- buy+=button(P+'purchase_accept','GFX_standard_button_88',170,510,185,42,'APDC_ECO_BUY_TIP')+text(P+'purchase_accept_text','APDC_ECO_BUY',170,510,185,42,'hoi_20b')
+- buy+=button(P+'purchase_close','GFX_closebutton',477,9,40,40,'APDC_ECO_CLOSE')
+- gui.append(window(P+'purchase',buy,527,612,extra='orientation = center origo = center moveable = yes click_to_front = yes clipping = no'))
+- write('interface/APDC_economy_panel.gui',block('guiTypes',''.join(gui)))
+-
+- dynamic=block(P+'law_list','array = APDC_eco_law_levels value = APDC_eco_law_level entry_container = "APDC_eco_law_row"')
+- dynamic+=block(P+'equipment_list','array = APDC_eco_equipment_rows value = APDC_eco_equipment_id entry_container = "APDC_eco_equipment_row"')
+- dynamic+=block(P+'trade_list','array = APDC_eco_trade_partners index = APDC_eco_trade_index change_scope = yes country_scope_entry_container = "APDC_eco_trade_row"')
+- # The trade menu's row-level predicate uses ROOT, because entries change scope.
+- for name in [P+'trade_flag',P+'trade_amount']:
+-  triggers.append(name+'_visible = { ROOT = { has_variable = APDC_eco_trade_open } }')
+- triggers.append(P+'trade_scroll_visible = { has_variable = APDC_eco_trade_open }')
+- sg=block(P+'panel_ui','context_type = player_context\nwindow_name = "APDC_eco_panel"\nvisible = { has_variable = APDC_eco_panel_open }\n'+block('properties','\n'.join(props))+block('triggers','\n'.join(triggers))+block('effects','\n'.join(clicks))+block('dynamic_lists',dynamic))
+- buyclick=[]
+- for amount in [1,10,100,1000]:
+-  for sign in [1,-1]:
+-   name=P+('qty_add_' if sign>0 else 'qty_remove_')+str(amount)
+-   buyclick.append(block(name+'_click',add('purchase_quantity',amount*sign)+'APDC_eco_prepare_purchase = yes'))
+- buyclick.append(block(P+'qty_max_click',setv('purchase_quantity',var('purchase_stock'))+'APDC_eco_prepare_purchase = yes'))
+- buyclick.append(block(P+'purchase_close_click','clear_variable = APDC_eco_purchase_open'))
+- buyclick.append(block(P+'purchase_accept_click','APDC_eco_purchase_equipment = yes\nAPDC_eco_sync_ui = yes'))
+- sg+=block(P+'purchase_ui','context_type = player_context\nwindow_name = "APDC_eco_purchase"\nvisible = { has_variable = APDC_eco_panel_open has_variable = APDC_eco_purchase_open }\n'+block('effects',''.join(buyclick))+block('triggers',block(P+'purchase_accept_click_enabled',check('purchase_quantity','>',0)+' '+check('cash_m','>=',0)+' OR = { '+check('cash_m','>',var('purchase_cost_m'))+' AND = { '+check('cash_m','=',var('purchase_cost_m'))+' '+check('cash_k','>=',var('purchase_cost_k'))+' } }')))
+- write('common/scripted_guis/APDC_economy_panel_ui.txt',block('scripted_gui',sg))
+- # Derived UI values have no treasury, construction or production side effects.
+- ui='clear_array = APDC_eco_law_levels\n'+''.join('add_to_array = { array = APDC_eco_law_levels value = '+str(i)+' }\n' for i in range(1,6))
+- for k in ['stock']+['eqp_'+str(i) for i in range(7)]:
+-  ui+='clear_array = APDC_eco_ui_'+k+'\nresize_array = { array = APDC_eco_ui_'+k+' size = '+str(len(items)+1)+' value = 0 }\n'
+- for e in items:
+-  i=e['index'];ui+=f'set_variable = {{ APDC_eco_ui_stock^{i} = APDC_eco_stock_{i} }}\n'
+-  for part in range(7):
+-   ui+=calc('ui_fill',var('eq_progress_'+str(i)),('divide',e['cost']),('multiply',259),('subtract',part*37),('clamp','{ min = 0 max = 37 }'),('add',1),('round','yes'))
+-   ui+=f'set_variable = {{ APDC_eco_ui_eqp_{part}^{i} = APDC_eco_ui_fill }}\n'
+- for k in ['food','education','medical']:
+-  ui+=setv(k+'_change',mod(k+'_weekly'))
+-  if k=='food':ui+=add(k+'_change',var('food_penalty'))
+-  for tier in range(1,6):
+-   name=k+'_tier_'+str(tier)+'_frame';ui+=setv(name,1)
+-   ui+=cond(check(k,'>=',tier),setv(name,2))+cond(check(k,'>=',tier+1),setv(name,3))
+-  for segment in range(4):
+-   for part in range(2):
+-    name=f'{k}_bar_{segment}_{part}';ui+=setv(name,1)
+-    ui+=cond(check(k,'>=',segment+2),setv(name,80))
+-    fill=calc(name,var(k),('subtract',segment+1),('multiply',78),('subtract',part*39),('clamp','{ min = 0 max = 39 }'),('add',1),('round','yes'))
+-    fill+=cond(check(k+'_change','=',0),add(name,40))+cond(check(k+'_change','<',0),add(name,80))
+-    ui+=cond(check(k,'>=',segment+1)+' '+check(k,'<',segment+2),fill)
+- for kind,cost in [('civ',10800),('mil',7200)]:
+-  for part in range(9):
+-   name=kind+'_build_'+str(part)+'_frame';ui+=calc(name,var(kind+'_progress'),('divide',cost),('multiply',333),('subtract',37*part),('clamp','{ min = 0 max = 37 }'),('add',1),('round','yes'))
+-   ui+=cond(check(kind+'_velocity','=',0),add(name,38))+cond(check(kind+'_velocity','<',0),add(name,76))
+-  ui+=setv(kind+'_days',0)+cond(check(kind+'_velocity','>',0),calc(kind+'_days',cost,('subtract',var(kind+'_progress')),('divide',var(kind+'_velocity')),('round','yes')))
+- ui+=setv('trade_frame',2)+cond(check('imports_m','>',0),setv('trade_frame',1))+cond(check('exports_m','>',0),setv('trade_frame',3))
+- ui+=setv('trade_toggle_frame',1)+cond('has_variable = APDC_eco_trade_open',setv('trade_toggle_frame',2))
+- ui+=calc('trade_net_m',var('imports_m'),('subtract',var('exports_m')))
+- write('common/scripted_effects/APDC_economy_ui.txt',effect('sync_ui',ui))
+- # Every existing economic-system icon enters through this one display API.
+- p=ROOT/'common/scripted_guis/APDC_economic_system_scripted_gui.txt';s=p.read_text('utf-8-sig')
+- s=s.replace('set_variable = { APDC_eco_panel_open = 1 }','set_variable = { APDC_eco_panel_open = 1 } APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes') if 'APDC_eco_sync_ui' not in s else s
+- write(str(p.relative_to(ROOT)),s)
+- for language in ['simp_chinese','english']:
+-  write(f'localisation/{language}/APDC_economy_panel_l_{language}.yml','l_'+language+':\n'+''.join(f' {k}:0 "{v}"\n' for k,v in loc.items()),True)
+- print('Generated economy panel, political-style side selector, private market and procurement popup')
+-
+-if __name__=='__main__':build()
++"""Economy panel using APDC cabinet/organization window and list conventions."""
++import json,shutil
++from PIL import Image
++from common import *
++from build_data import TRACKS,LAWS
++from build_backend import effect, var, mod, add, lim, P
++
++def icon(name,sprite,x,y,extra=''):
++ return block('iconType',f'name = "{name}" position = {{ x = {x} y = {y} }} spriteType = "{sprite}" alwaystransparent = yes '+extra)
++def text(name,key,x,y,w=180,h=28,font='hoi_24header',extra=''):
++ return block('instantTextboxType',f'name = "{name}" position = {{ x = {x} y = {y} }} font = "{font}" text = "{key}" maxWidth = {w} maxHeight = {h} fixedsize = yes format = center vertical_alignment = center alwaystransparent = yes '+extra)
++def button(name,sprite,x,y,w,h,tip='',extra=''):
++ return block('buttonType',f'name = "{name}" position = {{ x = {x} y = {y} }} size = {{ x = {w} y = {h} }} spriteType = "{sprite}" clicksound = click_default '+(f'pdx_tooltip = "{tip}" ' if tip else '')+extra)
++def window(name,body,w,h,x=0,y=0,extra=''):
++ return block('containerWindowType',f'name = "{name}" position = {{ x = {x} y = {y} }} size = {{ width = {w} height = {h} }} '+extra+'\n'+body)
++def scroll(name,listname,entry,w,h,x,y,slotw,sloth):
++ grid=block('gridBoxType',f'name = "{listname}" position = {{ x = 0 y = 0 }} size = {{ width = {slotw} height = 100% }} slotsize = {{ width = {slotw} height = {sloth} }} max_slots_horizontal = 1 format = "UPPER_LEFT"')
++ return window(name,'background = { name = "Background" spriteType = "GFX_tiled_window_transparent" }\n'+grid,w,h,x,y,'clipping = yes verticalScrollbar = "right_vertical_slider" autohide_scrollbars = yes smooth_scrolling = yes scroll_wheel_factor = '+str(sloth)+' margin = { top = 0 right = 10 bottom = 0 }')
++
++def build():
++ data=json.loads((WORK/'design_data.json').read_text('utf-8')); items=json.loads((WORK/'equipment_catalogue.json').read_text('utf-8'))
++ assets=ROOT/'gfx/interface/APDC/economy';assets.mkdir(parents=True,exist_ok=True)
++ source=Path('D:/Desktop/经济面板美术素材')
++ sprites=[]
++ def sprite(name,filename,frames=1):
++  sprites.append(block('spriteType',f'name = "GFX_APDC_eco_{name}" texturefile = "gfx/interface/APDC/economy/{filename}" noOfFrames = {frames}'))
++ files={'panel':'经济面板背景.png','tray':'民生发展度背景托盘.png','welfare':'民生发展度进度条.png','construction':'私营产业建设进度条.png','eq_row':'私营军工装备背景条.png','eq_progress':'私营军工装备生产进度条.png','buy':'购入按钮.png','direction':'消费品贸易方向条.png','trade_menu':'消费品贸易国菜单.png','trade_toggle':'消费品贸易国菜单展开按钮.png'}
++ for key,name in files.items():
++  shutil.copy2(source/name,assets/(key+'.png'));sprite(key,key+'.png',3 if key in ['tray','welfare','construction','direction','trade_toggle'] else 1)
++ for key,w,h in [('hitbox',100,100),('back_hitbox',92,46)]:
++  Image.new('RGBA',(w,h)).save(assets/(key+'.tga'));sprite(key,key+'.tga')
++ # Split strips into small atlases: every individual pixel of progress is
++ # addressable without exceeding the GPU's maximum texture dimensions.
++ def progress_atlas(key,frame_w,pieces):
++  im=Image.open(source/files[key]).convert('RGBA');height=im.height;pw=frame_w//pieces
++  for part in range(pieces):
++   left=part*pw;right=frame_w if part==pieces-1 else left+pw;width=right-left
++   atlas=Image.new('RGBA',(width*(width+1)*3,height))
++   for mode in range(3):
++    tile=im.crop((mode*frame_w+left,0,mode*frame_w+right,height))
++    for fill in range(width+1):
++     frame=mode*(width+1)+fill
++     if fill:atlas.paste(tile.crop((0,0,fill,height)),(frame*width,0))
++   name=f'{key}_{part}';atlas.save(assets/(name+'.png'));sprite(name,name+'.png',(width+1)*3)
++  return pw
++ progress_atlas('welfare',78,2);progress_atlas('construction',333,9)
++ # Equipment progress is one color and one unit per bar.
++ im=Image.open(source/files['eq_progress']).convert('RGBA');pw=37
++ for part in range(7):
++  atlas=Image.new('RGBA',(37*38,9));tile=im.crop((37*part,0,37*(part+1),9))
++  for fill in range(38):
++   if fill:atlas.paste(tile.crop((0,0,fill,9)),(fill*37,0))
++  atlas.save(assets/f'eqp_{part}.png');sprite(f'eqp_{part}',f'eqp_{part}.png',38)
++ write('interface/APDC_economy_panel.gfx',block('spriteTypes',''.join(sprites)))
++
++ loc={
++ 'APDC_ECO_TITLE':'经济面板','APDC_ECO_CASH':'国库：[?APDC_eco_cash_display_m|3]M₽',
++ 'APDC_ECO_WEEKLY':'每周变化：[?APDC_eco_weekly_balance_m|3+]M₽',
++ 'APDC_ECO_PUBLIC':'国营民工：[?APDC_eco_public_civ|0]','APDC_ECO_PRIVATE':'私营民工：[?APDC_eco_private_civ|1]',
++ 'APDC_ECO_DOMESTIC':'总消费品\\n[?APDC_eco_domestic_m|3]M','APDC_ECO_DISTRIBUTION':'分配率\\n[?APDC_eco_distribution|%1]',
++ 'APDC_ECO_SUPPLY':'供给\\n[?APDC_eco_supply_m|3]M','APDC_ECO_DEMAND':'需求\\n[?APDC_eco_demand_m|3]M',
++ 'APDC_ECO_EXTRA_IN':'额外输入消费品\\n[?APDC_eco_extra_input|3]M','APDC_ECO_EXTRA_OUT':'额外输出消费品\\n[?APDC_eco_extra_output|3]M',
++ 'APDC_ECO_TRADE':'贸易消费品','APDC_ECO_TRADE_AMOUNT':'[?APDC_eco_trade_net_m|3+]M',
++ 'APDC_ECO_PRIVATE_MIL':'私营军用工厂：[?APDC_eco_private_mil|1]',
++ 'APDC_ECO_PLUS':'+','APDC_ECO_MINUS':'−','APDC_ECO_BACK':'返回',
++ 'APDC_ECO_CIV_BUILD':'私营民工：剩余[?APDC_eco_civ_days|0]天',
++ 'APDC_ECO_MIL_BUILD':'私营军工：剩余[?APDC_eco_mil_days|0]天',
++ 'APDC_ECO_CIV_STOP':'私营民工：停止建设','APDC_ECO_MIL_STOP':'私营军工：停止建设',
++ 'APDC_ECO_CIV_CLOSE':'私营民工：正在缩减','APDC_ECO_MIL_CLOSE':'私营军工：正在缩减',
++ 'APDC_ECO_BUY':'购入','APDC_ECO_CLOSE':'关闭','APDC_ECO_LAW_TITLE':'[APDCEconomyLawGroupName]',
++ 'APDC_ECO_LAW_NAME':'[APDCEconomyLawName]','APDC_ECO_LAW_COST':'150 £pol_power',
++ 'APDC_ECO_LAW_CURRENT':'当前法案','APDC_ECO_LAW_TOOLTIP':'[APDCEconomyLawDescription]\\n\\n更换花费：150政治点数。\\n国库为负数时禁止更换。',
++ 'APDC_ECO_EQ_NAME':'[APDCEconomyEquipmentName]','APDC_ECO_EQ_STOCK':'[?APDC_eco_ui_stock^APDC_eco_equipment_id|0]',
++ 'APDC_ECO_PURCHASE_TITLE':'购入装备','APDC_ECO_PURCHASE_NAME':'[APDCEconomyPurchaseName]',
++ 'APDC_ECO_PURCHASE_QUANTITY':'购入数量：[?APDC_eco_purchase_quantity|0]',
++ 'APDC_ECO_PURCHASE_STOCK':'可购库存：[?APDC_eco_purchase_stock|0]',
++ 'APDC_ECO_PURCHASE_COST':'总价：[?APDC_eco_purchase_cost_m|0]M + [?APDC_eco_purchase_cost_k|3]K₽',
++ 'APDC_ECO_BUY_TIP':'立即付款，装备立即加入国家库存。国库余额不足时无法购买。',
++ 'APDC_ECO_TRADE_COUNTRY_AMOUNT':'[?ROOT.APDC_eco_trade_amounts^APDC_eco_trade_index|3+]M',
++ 'APDC_ECO_SOCIETY_TIP':'[APDCEconomySocietyDescription]',
++ 'APDC_ECO_CASH_TIP':'每周收入：[?APDC_eco_weekly_income_m|3]M₽\\n人口税：[?APDC_eco_head_tax_m|3]M₽\\n消费税：[?APDC_eco_consumption_tax_m|3]M₽\\n关税：[?APDC_eco_tariffs_m|3]M₽\\n\\n每周开支：[?APDC_eco_weekly_expenses_m|3]M₽\\n人口开支：[?APDC_eco_welfare_cost_m|3]M₽\\n消费补贴：[?APDC_eco_subsidies_m|3]M₽\\n消费品工厂投资：[?APDC_eco_investment_cost_m|3]M₽\\n建设维护：[?APDC_eco_construction_cost_m|3]M₽\\n军工生产维护：[?APDC_eco_production_cost_m|3]M₽\\n船坞生产维护：[?APDC_eco_naval_production_cost_m|3]M₽\\n科研维护：[?APDC_eco_research_cost_m|3]M₽\\n专项计划维护：[?APDC_eco_projects_cost_m|3]M₽\\n陆军维护：[?APDC_eco_army_cost_m|3]M₽\\n海军维护：[?APDC_eco_navy_cost_m|3]M₽\\n空军维护：[?APDC_eco_air_cost_m|3]M₽',
++ 'APDC_ECO_PUBLIC_TIP':'分配国营民工生产消费品。外国提供的可支配民工同样可以分配。',
++ 'APDC_ECO_DISTRIBUTION_TIP':'消费品在分配前合计，再乘以分配率得到实际供给。\\n基础分配率：[?APDC_eco_distribution|%1]'
++ }
++ for k,label,*_ in TRACKS:
++  loc['APDC_ECO_'+k.upper()]=label
++  loc['APDC_ECO_'+k.upper()+'_WEEKLY']='[?APDC_eco_'+k+'_change|2+]/周'
++  for j,e in enumerate(data[k]['entries'],1):loc[f'APDC_ECO_{k}_{j}_TIP']=e['name']+'\\n'+'\\n'.join(e['source'])
++ for k,label,*_ in LAWS:
++  loc['APDC_ECO_'+k.upper()]=label
++ for n in ['1','10','100','1000']:loc['APDC_ECO_PLUS_'+n]='+'+n;loc['APDC_ECO_MINUS_'+n]='−'+n
++ loc['APDC_ECO_MAX']='最大'
++
++ # Scripted text resolves list parameters within the correct player scope.
++ sl=''
++ def defined(name,rows,fallback):
++  return block('defined_text','name = '+name+'\n'+''.join('text = { trigger = { '+tr+' } localization_key = '+key+' }\n' for tr,key in rows)+'text = { localization_key = '+fallback+' }\n')
++ sl+=defined('APDCEconomyLawGroupName',[(check('selected_group','=',i),'APDC_ECO_GROUP_'+k) for i,(k,*_) in enumerate(LAWS,1)],'APDC_ECO_TITLE')
++ for mode in ['Name','Description']:
++  sl+=defined('APDCEconomyLaw'+mode,[(check('selected_group','=',i)+' '+check('law_level','=',j),P+k+'_'+str(j)+('_desc' if mode=='Description' else '')) for i,(k,*_) in enumerate(LAWS,1) for j in range(1,6)],'APDC_ECO_TITLE')
++ sl+=defined('APDCEconomyEquipmentName',[(check('equipment_id','=',e['index']),e['id']) for e in items],'APDC_ECO_BUY')
++ sl+=defined('APDCEconomyPurchaseName',[(check('purchase_id','=',e['index']),e['id']) for e in items],'APDC_ECO_BUY')
++ sl+=defined('APDCEconomySocietyDescription',[('has_idea = '+P+'society_'+str(j),P+'society_'+str(j)+'_desc') for j in range(1,6)],'APDC_ECO_TITLE')
++ write('common/scripted_localisation/APDC_economy_ui.txt',sl)
++
++ props=[];triggers=[];clicks=[];gui=[]
++ # Reusable list entries follow the organization system's numeric/country lists.
++ row=button(P+'law_button','GFX_idea_entry_bg_3',3,0,462,74,'APDC_ECO_LAW_TOOLTIP')
++ row+=icon(P+'law_icon','GFX_idea_generic_build_infrastructure',38,37,'centerposition = yes scale = 0.5')
++ row+=text(P+'law_name','APDC_ECO_LAW_NAME',80,7,300,27,'hoi_18mbs')
++ row+=text(P+'law_cost','APDC_ECO_LAW_COST',300,40,135,22,'hoi_16mbs')
++ row+=text(P+'law_current','APDC_ECO_LAW_CURRENT',80,40,160,22,'hoi_16mbs')
++ gui.append(window(P+'law_row',row,462,74))
++ tr='OR = { '+' '.join('AND = { '+check('selected_group','=',i)+' '+check('law_level','=',j)+' has_idea = '+P+k+'_'+str(j)+' }' for i,(k,*_) in enumerate(LAWS,1) for j in range(1,6))+' }'
++ triggers.append(P+'law_current_visible = { '+tr+' }')
++ triggers.append(P+'law_button_click_enabled = { has_political_power > 149 '+check('cash_m','>=',0)+' NOT = { '+tr+' }\n'+
++  'OR = { NOT = { '+check('selected_group','=',9)+' } AND = { '+P+'is_planned = yes '+check('law_level','=',5)+' } AND = { '+P+'is_planned = no '+check('law_level','<',5)+' } } }')
++ clicks.append(P+'law_button_click = { '+setv('requested_law',var('law_level'))+'APDC_eco_change_law = yes\nAPDC_eco_sync_ui = yes }')
++ row=icon(P+'eq_row_bg','GFX_APDC_eco_eq_row',0,0)
++ row+=text(P+'eq_name','APDC_ECO_EQ_NAME',9,4,125,23,'hoi_16mbs')
++ row+=text(P+'eq_stock','APDC_ECO_EQ_STOCK',136,5,61,21,'vic_18_black')
++ row+=button(P+'eq_buy','GFX_APDC_eco_buy',208,9,62,21,'APDC_ECO_BUY_TIP')+text(P+'eq_buy_text','APDC_ECO_BUY',208,8,62,23,'vic_18_black')
++ for part in range(7):
++  name=P+'eq_bar_'+str(part);row+=icon(name,'GFX_APDC_eco_eqp_'+str(part),7+part*37,34)
++  props.append(name+' = { frame = APDC_eco_ui_eqp_'+str(part)+'^APDC_eco_equipment_id }')
++ gui.append(window(P+'equipment_row',row,277,45))
++ clicks.append(P+'eq_buy_click = { '+setv('purchase_id',var('equipment_id'))+setv('purchase_quantity',1)+setv('purchase_open',1)+'APDC_eco_prepare_purchase = yes }')
++ row=icon(P+'trade_flag','GFX_APDC_cooperation_organization_flag_small_unfiltered',19,15,'scale = 0.5 centerposition = yes')+text(P+'trade_amount','APDC_ECO_TRADE_COUNTRY_AMOUNT',42,0,100,30,'vic_18_black')
++ gui.append(window(P+'trade_row',row,157,30))
++ props.append(P+'trade_flag = { image = "[THIS.GetFlag]" }')
++
++ body='background = { name = "Background" spriteType = "GFX_APDC_eco_panel" }\n'
++ body+=button(P+'back','GFX_APDC_eco_back_hitbox',14,12,92,46,'APDC_ECO_BACK')
++ body+=text(P+'title','APDC_ECO_TITLE',20,66,230,40,'hoi_36header')
++ body+=text(P+'cash','APDC_ECO_CASH',485,65,258,40,'hoi_24header')
++ body+=button(P+'cash_tip','GFX_APDC_eco_hitbox',485,65,572,40,'APDC_ECO_CASH_TIP')
++ body+=text(P+'weekly','APDC_ECO_WEEKLY',742,65,310,40,'hoi_24header')
++ clicks.append(P+'back_click = { clear_variable = APDC_eco_panel_open clear_variable = APDC_eco_selected_group clear_variable = APDC_eco_purchase_open clear_variable = APDC_eco_trade_open }')
++ for r,k in enumerate(['food','education','medical']):
++  y=125+r*88
++  body+=text(P+k+'_heading','APDC_ECO_'+k.upper(),20,y+17,180,42,'hoi_36header')
++  for segment in range(4):
++   for part in range(2):
++    name=P+f'{k}_bar_{segment}_{part}';body+=icon(name,'GFX_APDC_eco_welfare_'+str(part),277+segment*136+39*part,y+24)
++    props.append(name+' = { frame = '+name+' }')
++  for tier in range(1,6):
++   x=210+(tier-1)*136;name=P+f'{k}_tier_{tier}'
++   body+=icon(name+'_tray','GFX_APDC_eco_tray',x,y)
++   props.append(name+'_tray = { frame = '+name+'_frame }')
++   body+=icon(name+'_icon','GFX_idea_generic_build_infrastructure',x+37,y+37,'centerposition = yes scale = 0.45')
++   body+=text(name+'_number','APDC_ECO_TIER_'+str(tier),x+20,y+25,34,25,'hoi_20b')
++   body+=button(name+'_tip','GFX_APDC_eco_hitbox',x,y,74,74,'APDC_ECO_'+k+'_'+str(tier)+'_TIP')
++   loc['APDC_ECO_TIER_'+str(tier)]=str(tier)
++  body+=text(P+k+'_weekly','APDC_ECO_'+k.upper()+'_WEEKLY',840,y+24,76,25,'hoi_16mbs')
++  group={'food':2,'education':3,'medical':4}[k]
++  body+=button(P+k+'_law','GFX_idea_generic_build_infrastructure',920,y+1,70,70,'APDC_ECO_GROUP_'+LAWS[group-1][0])
++  clicks.append(P+k+'_law_click = { '+setv('selected_group',group)+' }')
++ # Four spending/tax groups occupy the same row after the requested addition.
++ for col,(key,group) in enumerate([('tax',1),('development',5),('research',6),('military',7)]):
++  x=20+col*263;body+=text(P+key+'_label','APDC_ECO_'+key.upper(),x,421,177,40,'hoi_24header')
++  body+=button(P+key+'_law','GFX_idea_generic_build_infrastructure',x+178,405,70,70,'APDC_ECO_GROUP_'+key)
++  clicks.append(P+key+'_law_click = { '+setv('selected_group',group)+' }')
++ for col,(key,group) in enumerate([('investment',8),('distribution',9),('consumption',10)]):
++  x=20+col*235;body+=text(P+key+'_label','APDC_ECO_'+key.upper(),x,793,145,40,'hoi_24header')
++  body+=button(P+key+'_law','GFX_idea_generic_build_infrastructure',x+145,780,70,70,'APDC_ECO_GROUP_'+key)
++  clicks.append(P+key+'_law_click = { '+setv('selected_group',group)+' }')
++ body+=text(P+'public','APDC_ECO_PUBLIC',27,581,145,30,'vic_18_black')
++ body+=button(P+'public_plus','GFX_APDC_eco_hitbox',144,571,32,27,'APDC_ECO_PUBLIC_TIP')+text(P+'plus','APDC_ECO_PLUS',144,570,32,27,'vic_18_black')
++ body+=button(P+'public_minus','GFX_APDC_eco_hitbox',144,599,32,27,'APDC_ECO_PUBLIC_TIP')+text(P+'minus','APDC_ECO_MINUS',144,598,32,27,'vic_18_black')
++ clicks.append(P+'public_plus_click = { '+add('public_civ',1)+'APDC_eco_refresh_current_supply = yes APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }')
++ clicks.append(P+'public_minus_click = { '+add('public_civ',-1)+'APDC_eco_refresh_current_supply = yes APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes }')
++ triggers.append(P+'public_plus_click_enabled = { '+check('public_civ','<',var('public_available'))+' }')
++ triggers.append(P+'public_minus_click_enabled = { '+check('public_civ','>',0)+' }')
++ for name,key,x,y,w,h in [('private','PRIVATE',27,679,145,34),('domestic','DOMESTIC',282,622,112,51),('supply','SUPPLY',580,611,54,88),('demand','DEMAND',637,611,54,88),('dist','DISTRIBUTION',455,625,61,50),('extra_in','EXTRA_IN',201,721,117,45),('extra_out','EXTRA_OUT',357,721,117,45)]:
++  body+=text(P+name,'APDC_ECO_'+key,x,y,w,h,'vic_18_black','multiline = yes')
++ body+=text(P+'trade_label','APDC_ECO_TRADE',282,527,116,29,'vic_18_black')
++ body+=text(P+'trade_net','APDC_ECO_TRADE_AMOUNT',282,552,116,20,'vic_18_black')
++ body+=icon(P+'direction','GFX_APDC_eco_direction',398,519)
++ props.append(P+'direction = { frame = APDC_eco_trade_frame }')
++ body+=icon(P+'trade_toggle_icon','GFX_APDC_eco_trade_toggle',417,529)+button(P+'trade_toggle','GFX_APDC_eco_hitbox',417,529,28,22,'APDC_ECO_TRADE')
++ props.append(P+'trade_toggle_icon = { frame = APDC_eco_trade_toggle_frame }')
++ clicks.append(P+'trade_toggle_click = { if = { limit = { has_variable = APDC_eco_trade_open } clear_variable = APDC_eco_trade_open set_variable = { APDC_eco_trade_toggle_frame = 1 } } else = { set_variable = { APDC_eco_trade_open = 1 } set_variable = { APDC_eco_trade_toggle_frame = 2 } } }')
++ body+=icon(P+'trade_menu_bg','GFX_APDC_eco_trade_menu',274,292)
++ triggers.append(P+'trade_menu_bg_visible = { has_variable = APDC_eco_trade_open }')
++ body+=scroll(P+'trade_scroll',P+'trade_list',P+'trade_row',178,208,279,296,157,30)
++ body+=text(P+'private_mil','APDC_ECO_PRIVATE_MIL',742,533,310,42,'hoi_24header')
++ body+=scroll(P+'equipment_scroll',P+'equipment_list',P+'equipment_row',290,303,750,604,277,45)
++ for c,kind in enumerate(['civ','mil']):
++  for part in range(9):
++   name=P+kind+'_build_'+str(part);body+=icon(name,'GFX_APDC_eco_construction_'+str(part),25+c*363+37*part,877)
++   props.append(name+' = { frame = '+name+'_frame }')
++  for suffix in ['build','stop','close']:
++   name=P+kind+'_construction_'+suffix;body+=text(name,'APDC_ECO_'+kind.upper()+'_'+suffix.upper(),31+c*363,900,319,30,'hoi_18mbs')
++   triggers.append(name+'_visible = { '+check(kind+'_velocity','>' if suffix=='build' else '=' if suffix=='stop' else '<',0)+' }')
++ # The side selector is a child of the draggable main panel, with no clipping.
++ side=text(P+'law_title','APDC_ECO_LAW_TITLE',15,8,450,30,'hoi_20b')
++ side+=scroll(P+'law_scroll',P+'law_list',P+'law_row',488,504,8,54,462,74)
++ side+=button(P+'law_close','GFX_closebutton',450,5,40,40,'APDC_ECO_CLOSE')
++ side=window(P+'law_side', 'background = { name = "Background" spriteType = "GFX_tiled_plain_bg" }\n'+side,500,590,1074,80,'clipping = no')
++ body+=side;clicks.append(P+'law_close_click = { clear_variable = APDC_eco_selected_group }')
++ triggers.append(P+'law_side_visible = { has_variable = APDC_eco_selected_group }')
++ # Visibility is also bound on renderable children, as in the cabinet system.
++ for name in [P+'law_title',P+'law_close',P+'law_scroll']:
++  triggers.append(name+'_visible = { has_variable = APDC_eco_selected_group }')
++ # Reserve the selector's width when placing the main panel. The combined
++ # 1578px layout fits at 1920x1080 without dragging a clipped sidebar back in.
++ gui.append(window(P+'panel',body,1078,972,x=-250,extra='orientation = center origo = center moveable = yes click_to_front = yes clipping = no'))
++ # Procurement popup reuses the vanilla market purchase background and fonts.
++ buy='background = { name = "Background" spriteType = "GFX_diplo_action_lend_lease_bg" }\n'
++ buy+=text(P+'purchase_title','APDC_ECO_PURCHASE_TITLE',100,28,327,32)
++ buy+=text(P+'purchase_name','APDC_ECO_PURCHASE_NAME',30,100,467,36)
++ buy+=text(P+'purchase_stock','APDC_ECO_PURCHASE_STOCK',30,170,467,30,'hoi_20b')
++ buy+=text(P+'purchase_quantity','APDC_ECO_PURCHASE_QUANTITY',30,220,467,30,'hoi_20b')
++ buy+=text(P+'purchase_cost','APDC_ECO_PURCHASE_COST',30,375,467,50,'hoi_20b')
++ for j,amount in enumerate([1,10,100,1000]):
++  for sign,y in [(1,275),(-1,315)]:
++   name=P+('qty_add_' if sign>0 else 'qty_remove_')+str(amount);key='APDC_ECO_'+('PLUS_' if sign>0 else 'MINUS_')+str(amount)
++   buy+=button(name,'GFX_standard_button_88',34+j*116,y,108,32)+text(name+'_label',key,34+j*116,y,108,32,'hoi_18mbs')
++ buy+=button(P+'qty_max','GFX_standard_button_88',190,350,145,30)+text(P+'qty_max_text','APDC_ECO_MAX',190,350,145,30,'hoi_18mbs')
++ buy+=button(P+'purchase_accept','GFX_standard_button_88',170,510,185,42,'APDC_ECO_BUY_TIP')+text(P+'purchase_accept_text','APDC_ECO_BUY',170,510,185,42,'hoi_20b')
++ buy+=button(P+'purchase_close','GFX_closebutton',477,9,40,40,'APDC_ECO_CLOSE')
++ gui.append(window(P+'purchase',buy,527,612,extra='orientation = center origo = center moveable = yes click_to_front = yes clipping = no'))
++ write('interface/APDC_economy_panel.gui',block('guiTypes',''.join(gui)))
++
++ dynamic=block(P+'law_list','array = APDC_eco_law_levels value = APDC_eco_law_level entry_container = "APDC_eco_law_row"')
++ dynamic+=block(P+'equipment_list','array = APDC_eco_equipment_rows value = APDC_eco_equipment_id entry_container = "APDC_eco_equipment_row"')
++ dynamic+=block(P+'trade_list','array = APDC_eco_trade_partners index = APDC_eco_trade_index change_scope = yes country_scope_entry_container = "APDC_eco_trade_row"')
++ # The trade menu's row-level predicate uses ROOT, because entries change scope.
++ for name in [P+'trade_flag',P+'trade_amount']:
++  triggers.append(name+'_visible = { ROOT = { has_variable = APDC_eco_trade_open } }')
++ triggers.append(P+'trade_scroll_visible = { has_variable = APDC_eco_trade_open }')
++ sg=block(P+'panel_ui','context_type = player_context\nwindow_name = "APDC_eco_panel"\nvisible = { has_variable = APDC_eco_panel_open }\n'+block('properties','\n'.join(props))+block('triggers','\n'.join(triggers))+block('effects','\n'.join(clicks))+block('dynamic_lists',dynamic))
++ buyclick=[]
++ for amount in [1,10,100,1000]:
++  for sign in [1,-1]:
++   name=P+('qty_add_' if sign>0 else 'qty_remove_')+str(amount)
++   buyclick.append(block(name+'_click',add('purchase_quantity',amount*sign)+'APDC_eco_prepare_purchase = yes'))
++ buyclick.append(block(P+'qty_max_click',setv('purchase_quantity',var('purchase_stock'))+'APDC_eco_prepare_purchase = yes'))
++ buyclick.append(block(P+'purchase_close_click','clear_variable = APDC_eco_purchase_open'))
++ buyclick.append(block(P+'purchase_accept_click','APDC_eco_purchase_equipment = yes\nAPDC_eco_sync_ui = yes'))
++ sg+=block(P+'purchase_ui','context_type = player_context\nwindow_name = "APDC_eco_purchase"\nvisible = { has_variable = APDC_eco_panel_open has_variable = APDC_eco_purchase_open }\n'+block('effects',''.join(buyclick))+block('triggers',block(P+'purchase_accept_click_enabled',check('purchase_quantity','>',0)+' '+check('cash_m','>=',0)+' OR = { '+check('cash_m','>',var('purchase_cost_m'))+' AND = { '+check('cash_m','=',var('purchase_cost_m'))+' '+check('cash_k','>=',var('purchase_cost_k'))+' } }')))
++ # Refresh only after data or an input changes, including side selectors and
++ # quantity buttons which do not otherwise call the full display calculation.
++ sg=sg.replace('context_type = player_context\n','context_type = player_context\ndirty = APDC_eco_ui_revision\n')
++ edits=[]
++ for node in walk(parse(sg)):
++  if node.key=='effects':
++   for callback in node.children:
++    edits.append((callback.value_end-1,callback.value_end-1,'\nadd_to_variable = { APDC_eco_ui_revision = 1 }\n'))
++ sg=patches(sg,edits)
++ write('common/scripted_guis/APDC_economy_panel_ui.txt',block('scripted_gui',sg))
++ # Derived UI values have no treasury, construction or production side effects.
++ ui='APDC_eco_ensure_equipment = yes\nAPDC_eco_render_trade = yes\n'
++ ui+=cond('NOT = { check_variable = { APDC_eco_law_levels^num = 5 } }','clear_array = APDC_eco_law_levels\n'+''.join('add_to_array = { array = APDC_eco_law_levels value = '+str(i)+' }\n' for i in range(1,6)))
++ for k in ['stock']+['eqp_'+str(i) for i in range(7)]:
++  size=str(max((e['index'] for e in items),default=0)+1)
++  ui+=cond('NOT = { check_variable = { APDC_eco_ui_'+k+'^num = '+size+' } }','resize_array = { array = APDC_eco_ui_'+k+' size = '+size+' value = 0 }\n')
++ row='set_variable = { APDC_eco_ui_stock^APDC_eco_ui_equipment_index = APDC_eco_stocks^APDC_eco_ui_equipment_index }\n'
++ row+='set_variable = { global.APDC_eco_equipment_lookup_id = APDC_eco_ui_equipment_index }\n'
++ row+=setv('ui_equipment_cost','global.APDC_eco_equipment_costs^global.APDC_eco_equipment_lookup_id')
++ for part in range(7):
++  fill=calc('ui_fill','APDC_eco_production_progress^APDC_eco_ui_equipment_index',('divide',var('ui_equipment_cost')),('multiply',259),('subtract',part*37),('clamp','{ min = 0 max = 37 }'),('add',1),('round','yes'))
++  row+=cond(check('ui_equipment_cost','>',0),fill)
++  row+=f'set_variable = {{ APDC_eco_ui_eqp_{part}^APDC_eco_ui_equipment_index = APDC_eco_ui_fill }}\n'
++ ui+='for_each_loop = { array = APDC_eco_equipment_rows\nset_temp_variable = { APDC_eco_ui_equipment_index = v }\n'+row+'}\n'
++ for k in ['food','education','medical']:
++  ui+=setv(k+'_change',mod(k+'_weekly'))
++  if k=='food':ui+=add(k+'_change',var('food_penalty'))
++  for tier in range(1,6):
++   name=k+'_tier_'+str(tier)+'_frame';ui+=setv(name,1)
++   ui+=cond(check(k,'>=',tier),setv(name,2))+cond(check(k,'>=',tier+1),setv(name,3))
++  for segment in range(4):
++   for part in range(2):
++    name=f'{k}_bar_{segment}_{part}';ui+=setv(name,1)
++    ui+=cond(check(k,'>=',segment+2),setv(name,80))
++    fill=calc(name,var(k),('subtract',segment+1),('multiply',78),('subtract',part*39),('clamp','{ min = 0 max = 39 }'),('add',1),('round','yes'))
++    fill+=cond(check(k+'_change','=',0),add(name,40))+cond(check(k+'_change','<',0),add(name,80))
++    ui+=cond(check(k,'>=',segment+1)+' '+check(k,'<',segment+2),fill)
++ for kind,cost in [('civ',10800),('mil',7200)]:
++  for part in range(9):
++   name=kind+'_build_'+str(part)+'_frame';ui+=calc(name,var(kind+'_progress'),('divide',cost),('multiply',333),('subtract',37*part),('clamp','{ min = 0 max = 37 }'),('add',1),('round','yes'))
++   ui+=cond(check(kind+'_velocity','=',0),add(name,38))+cond(check(kind+'_velocity','<',0),add(name,76))
++  ui+=setv(kind+'_days',0)+cond(check(kind+'_velocity','>',0),calc(kind+'_days',cost,('subtract',var(kind+'_progress')),('divide',var(kind+'_velocity')),('round','yes')))
++ ui+=setv('trade_frame',2)+cond(check('imports_m','>',0),setv('trade_frame',1))+cond(check('exports_m','>',0),setv('trade_frame',3))
++ ui+=setv('trade_toggle_frame',1)+cond('has_variable = APDC_eco_trade_open',setv('trade_toggle_frame',2))
++ ui+=calc('trade_net_m',var('imports_m'),('subtract',var('exports_m')))
++ ui+='add_to_variable = { APDC_eco_ui_revision = 1 }\n'
++ write('common/scripted_effects/APDC_economy_ui.txt',effect('sync_ui',ui))
++ # Every existing economic-system icon enters through this one display API.
++ p=ROOT/'common/scripted_guis/APDC_economic_system_scripted_gui.txt';s=p.read_text('utf-8-sig')
++ s=s.replace('set_variable = { APDC_eco_panel_open = 1 }','set_variable = { APDC_eco_panel_open = 1 } APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes') if 'APDC_eco_sync_ui' not in s else s
++ # Opening the panel is a fresh read of research activity and country formulas.
++ s=s.replace('APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes','clr_country_flag = APDC_eco_research_counted_today APDC_eco_refresh_current_supply = yes APDC_eco_sync_ui = yes APDC_eco_calculate_budget = yes') if 'clr_country_flag = APDC_eco_research_counted_today' not in s else s
++ write(str(p.relative_to(ROOT)),s)
++ for language in ['simp_chinese','english']:
++  write(f'localisation/{language}/APDC_economy_panel_l_{language}.yml','l_'+language+':\n'+''.join(f' {k}:0 "{v}"\n' for k,v in loc.items()),True)
++ print('Generated economy panel, political-style side selector, private market and procurement popup')
++
++if __name__=='__main__':build()

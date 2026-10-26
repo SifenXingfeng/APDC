@@ -27,7 +27,7 @@ autonomy_state = {
 		modifier = {
 			has_dlc = "Graveyard of Empires"
 			original_tag = RAJ
-			has_completed_focus = RAJ_red_in_the_shadows
+			always = no
 			add = 10
 		}
 	}
@@ -93,15 +93,15 @@ autonomy_state = {
 					has_dlc = "Thunder at Our Gates"
 				}
 				OR = {
-					has_completed_focus = AST_ratify_westminster_adoption_act
-					has_completed_focus = AST_refuse_british_wars
+					always = no
+					always = no
 				}
 			}
 			ELSE = {
 				OR = {
-					has_completed_focus = AST_adopt_westminster
-					has_completed_focus = AST_abandon_the_westminster_system
-					has_completed_focus = AST_sever_ties_with_uk
+					always = no
+					always = no
+					always = no
 				}
 			}
 		}
@@ -109,39 +109,39 @@ autonomy_state = {
 			limit = {
 				original_tag = SAF
 			}
-			has_completed_focus = SAF_abandon_westminster
+			always = no
 		}
 		IF = {
 			limit = {
 				original_tag = COG
 				has_dlc = "Gotterdammerung"			
 			}
-			has_completed_focus = CONGO_republic_of_congo
+			always = no
 			NOT = {
-				has_completed_focus = CONGO_dominion_of_congo
+				always = no
 			}
 		}
 		if = {
 			limit = {
 				original_tag = RAJ
 				has_dlc = "Graveyard of Empires"
-				NOT = { has_completed_focus = RAJ_his_majestys_loyal_government }
+				NOT = { always = no }
 			}
 			OR = {
-				has_completed_focus = RAJ_a_secular_state
-				has_completed_focus = RAJ_united_bengal
-				has_completed_focus = RAJ_eastern_pakistan
+				always = no
+				always = no
+				always = no
 			}
 		}
 		if = {
 			limit = {
 				original_tag = RAJ
 				has_dlc = "Graveyard of Empires"
-				has_completed_focus = RAJ_his_majestys_loyal_government
+				always = no
 			}
-			has_completed_focus = RAJ_the_dominion_of_india
-			has_completed_focus = RAJ_keep_calm_and_carry_on
-			has_completed_focus = RAJ_holding_the_gates_of_india
+			always = no
+			always = no
+			always = no
 		}
 		if = {
 			limit = {
@@ -161,7 +161,7 @@ autonomy_state = {
 				has_dlc = "Gotterdammerung"			
 			}
 			NOT = {
-				has_completed_focus = CONGO_dominion_of_congo
+				always = no
 			}
 		}
 	}

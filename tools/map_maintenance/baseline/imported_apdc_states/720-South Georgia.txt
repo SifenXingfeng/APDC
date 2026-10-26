@@ -1,0 +1,34 @@
+state = {
+	id = 720
+	name = "STATE_720"
+	manpower = 30
+	state_category = tiny_island
+	history = {
+		owner = ENG
+		controller = ENG
+		add_claim_by = ARG
+		add_claim_by = ENG
+		victory_points = {
+			10995
+			1
+		}
+		buildings = {
+			infrastructure = 1
+			10995 = {
+				naval_base = 1
+			}
+			16455 = {
+				naval_base = 1
+			}
+			17778 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		10995
+		17778
+		16455
+	}
+	local_supplies = 0.0
+}

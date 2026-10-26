@@ -1,0 +1,13 @@
+--- before/common/technology_sharing/12_wuw_tech_sharing_groups.txt
++++ current/common/technology_sharing/12_wuw_tech_sharing_groups.txt
+@@ -47,8 +47,8 @@
+ 			OR = {
+ 				BEL = { 
+ 					OR = {
+-						has_completed_focus = BEL_european_community 
+-						has_completed_focus = BEL_the_council_of_europe
++						always = no 
++						always = no
+ 					}
+ 				}
+ 

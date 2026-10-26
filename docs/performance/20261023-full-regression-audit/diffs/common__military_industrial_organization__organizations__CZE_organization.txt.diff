@@ -1,0 +1,631 @@
+--- before/common/military_industrial_organization/organizations/CZE_organization.txt
++++ current/common/military_industrial_organization/organizations/CZE_organization.txt
+@@ -26,7 +26,7 @@
+ 	visible = {
+ 		IF = {
+ 			limit = { FROM = { original_tag = ETH } }
+-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
++			FROM = { always = no }
+ 		}
+ 	}
+ 
+@@ -65,14 +65,14 @@
+ 				original_tag = CZE
+ 				has_dlc = "Peace For Our Time"
+ 				NOT = {
+-					has_completed_focus = CZE_kickstart_rapid_rearmanent 
+-				}
+-			}
+-		}
+-
+-		available = {
+-			FROM = {
+-				has_completed_focus = CZE_keep_focus_on_weapon_exports
++					always = no 
++				}
++			}
++		}
++
++		available = {
++			FROM = {
++				always = no
+ 			}
+ 		}
+ 
+@@ -104,7 +104,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_the_tvp_project
++				always = no
+ 			}
+ 		}
+ 
+@@ -137,7 +137,7 @@
+ 				limit = {
+ 					original_tag = POL
+ 				}
+-				has_completed_focus = POL_join_CZE_military
++				always = no
+ 				OR = {
+ 					controls_state = 9
+ 					any_subject_country = {
+@@ -154,7 +154,7 @@
+ 				limit = {
+ 					original_tag = POL
+ 				}
+-				has_completed_focus = POL_join_CZE_military
++				always = no
+ 			}
+ 		}
+ 	}
+@@ -176,7 +176,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_grow_tatras_capabilities
++				always = no
+ 			}
+ 		}
+ 
+@@ -215,15 +215,15 @@
+ 	visible = {
+ 		IF = {
+ 			limit = { FROM = { original_tag = ETH } }
+-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
++			FROM = { always = no }
+ 		}
+ 		IF = {
+ 			limit = { FROM = { original_tag = HUN } }
+-			FROM = { has_completed_focus = wuw_HUN_integrate_bohemian_and_austrian_industries }
++			FROM = { always = no }
+ 		}
+ 		IF = {
+ 			limit = { FROM = { original_tag = PER } }
+-			FROM = { has_completed_focus = PER_czech_tanks }
++			FROM = { always = no }
+ 		}
+ 	}
+ 
+@@ -249,7 +249,7 @@
+ 		}
+ 		IF = {
+ 			limit = { FROM = { original_tag = PER } }
+-			FROM = { has_completed_focus = PER_czech_tanks }
++			FROM = { always = no }
+ 		}
+ 	}
+ 
+@@ -266,15 +266,15 @@
+ 				original_tag = CZE
+ 				has_dlc = "Peace For Our Time"
+ 				NOT = {
+-					has_completed_focus = CZE_kickstart_rapid_rearmanent 
+-				}
+-			}
+-		}
+-
+-		
+-		available = {
+-			FROM = {
+-				has_completed_focus = CZE_keep_focus_on_weapon_exports
++					always = no 
++				}
++			}
++		}
++
++		
++		available = {
++			FROM = {
++				always = no
+ 			}
+ 		}
+ 
+@@ -306,7 +306,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_redouble_tank_development_efforts
++				always = no
+ 			}
+ 		}
+ 
+@@ -344,7 +344,7 @@
+ 				}
+ 			}
+ 			FROM = {
+-				has_completed_focus = CZE_rearmed_and_retooled
++				always = no
+ 			}
+ 		}
+ 		if = {
+@@ -364,7 +364,7 @@
+ 				}
+ 			}
+ 			FROM = {
+-				has_completed_focus = POL_join_CZE_military
++				always = no
+ 				OR = {
+ 					controls_state = 9
+ 					any_subject_country = {
+@@ -383,7 +383,7 @@
+ 				}
+ 			}
+ 			FROM = {
+-				has_completed_focus = POL_join_CZE_military
++				always = no
+ 			}
+ 		}
+ 	}
+@@ -412,7 +412,7 @@
+ 	visible = {
+ 		IF = {
+ 			limit = { FROM = { original_tag = GER } }
+-			FROM = { has_completed_focus = GER_integrate_czech_manufacturers }
++			FROM = { always = no }
+ 		}
+ 	}
+ 
+@@ -461,7 +461,7 @@
+ 	visible = {
+ 		IF = {
+ 			limit = { FROM = { original_tag = GER } }
+-			FROM = { has_completed_focus = GER_integrate_czech_manufacturers }
++			FROM = { always = no }
+ 		}
+ 	}
+ 
+@@ -479,7 +479,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_tech = interwar_antitank
++				always = no
+ 			}
+ 		}
+ 
+@@ -605,7 +605,7 @@
+ 	visible = {
+ 		IF = {
+ 			limit = { FROM = { original_tag = ETH } }
+-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
++			FROM = { always = no }
+ 		}
+ 	}
+ 
+@@ -648,7 +648,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_joint_stock_schemes
++				always = no
+ 				NOT = { has_country_flag = CZE_mio_trait_walter_co_taken_flag }
+ 			}
+ 		}
+@@ -687,7 +687,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_diversify_bata
++				always = no
+ 				NOT = { has_country_flag = CZE_mio_trait_bata_corporation_taken_flag }
+ 			}
+ 		}
+@@ -740,7 +740,7 @@
+ 	visible = {
+ 		IF = {
+ 			limit = { FROM = { original_tag = HUN } }
+-			FROM = { has_completed_focus = wuw_HUN_integrate_bohemian_and_austrian_industries }
++			FROM = { always = no }
+ 		}
+ 	}
+ 
+@@ -781,7 +781,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_grow_ckd_secondary_facilities
++				always = no
+ 			}
+ 		}
+ 
+@@ -809,7 +809,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_joint_stock_schemes
++				always = no
+ 				NOT = { has_country_flag = CZE_mio_trait_walter_co_taken_flag }
+ 			}
+ 		}
+@@ -848,7 +848,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_diversify_bata
++				always = no
+ 				NOT = { has_country_flag = CZE_mio_trait_bata_corporation_taken_flag }
+ 			}
+ 		}
+@@ -910,7 +910,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_joint_stock_schemes
++				always = no
+ 				NOT = { has_country_flag = CZE_mio_trait_walter_co_taken_flag }
+ 			}
+ 		}
+@@ -949,7 +949,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_diversify_bata
++				always = no
+ 				NOT = { has_country_flag = CZE_mio_trait_bata_corporation_taken_flag }
+ 			}
+ 		}
+@@ -1000,7 +1000,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_joint_stock_schemes
++				always = no
+ 				NOT = { has_country_flag = CZE_mio_trait_walter_co_taken_flag }
+ 			}
+ 		}
+@@ -1039,7 +1039,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_diversify_bata
++				always = no
+ 				NOT = { has_country_flag = CZE_mio_trait_bata_corporation_taken_flag }
+ 			}
+ 		}
+@@ -1090,7 +1090,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_joint_stock_schemes
++				always = no
+ 				NOT = { has_country_flag = CZE_mio_trait_walter_co_taken_flag }
+ 			}
+ 		}
+@@ -1129,7 +1129,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_diversify_bata
++				always = no
+ 				NOT = { has_country_flag = CZE_mio_trait_bata_corporation_taken_flag }
+ 			}
+ 		}
+@@ -1177,7 +1177,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_joint_stock_schemes
++				always = no
+ 				NOT = { has_country_flag = CZE_mio_trait_walter_co_taken_flag }
+ 			}
+ 		}
+@@ -1216,7 +1216,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_diversify_bata
++				always = no
+ 				NOT = { has_country_flag = CZE_mio_trait_bata_corporation_taken_flag }
+ 			}
+ 		}
+@@ -1273,7 +1273,7 @@
+ 	visible = {
+ 		IF = {
+ 			limit = { FROM = { original_tag = GER } }
+-			FROM = { has_completed_focus = GER_integrate_czech_manufacturers }
++			FROM = { always = no }
+ 		}
+ 	}
+ 
+@@ -1316,7 +1316,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = GER_aerodynamic_research_institute
++				always = no
+ 				NOT = { has_country_flag = GER_mio_trait_aerodynamic_research_insitute_taken_flag }
+ 			}
+ 		}
+@@ -1482,15 +1482,15 @@
+ 				original_tag = CZE
+ 				has_dlc = "Peace For Our Time"
+ 				NOT = {
+-					has_completed_focus = CZE_kickstart_rapid_rearmanent 
+-				}
+-			}
+-		}
+-
+-		
+-		available = {
+-			FROM = {
+-				has_completed_focus = CZE_keep_focus_on_weapon_exports
++					always = no 
++				}
++			}
++		}
++
++		
++		available = {
++			FROM = {
++				always = no
+ 			}
+ 		}
+ 
+@@ -1527,7 +1527,7 @@
+ 				}
+ 			}
+ 			FROM = {
+-				has_completed_focus = GER_integrate_czech_manufacturers
++				always = no
+ 			}
+ 		}
+ 		if = {
+@@ -1537,7 +1537,7 @@
+ 				}
+ 			}
+ 			FROM = {
+-				has_completed_focus = POL_join_CZE_military
++				always = no
+ 			}
+ 		}
+ 	}
+@@ -1550,7 +1550,7 @@
+ 				}
+ 			}
+ 			FROM = {
+-				has_completed_focus = CZE_establish_a_armament_factory_in_uhersky_brod
++				always = no
+ 			}
+ 		}
+ 		if = {
+@@ -1579,7 +1579,7 @@
+ 				}
+ 			}
+ 			FROM = {
+-				has_completed_focus = POL_join_CZE_military
++				always = no
+ 			}
+ 		}
+ 	}
+@@ -1597,14 +1597,14 @@
+ 				original_tag = CZE
+ 				has_dlc = "Peace For Our Time"
+ 				NOT = {
+-					has_completed_focus = CZE_kickstart_rapid_rearmanent 
+-				}
+-			}
+-		}
+-		
+-		available = {
+-			FROM = {
+-				has_completed_focus = CZE_keep_focus_on_weapon_exports
++					always = no 
++				}
++			}
++		}
++		
++		available = {
++			FROM = {
++				always = no
+ 			}
+ 		}
+ 
+@@ -1635,7 +1635,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_joint_stock_schemes
++				always = no
+ 				NOT = { has_country_flag = CZE_mio_trait_walter_co_taken_flag }
+ 			}
+ 		}
+@@ -1716,7 +1716,7 @@
+ 	visible = {
+ 		IF = {
+ 			limit = { FROM = { original_tag = ETH } }
+-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
++			FROM = { always = no }
+ 		}
+ 	}
+ 
+@@ -1762,14 +1762,14 @@
+ 				original_tag = CZE
+ 				has_dlc = "Peace For Our Time"
+ 				NOT = {
+-					has_completed_focus = CZE_kickstart_rapid_rearmanent 
+-				}
+-			}
+-		}
+-
+-		available = {
+-			FROM = {
+-				has_completed_focus = CZE_keep_focus_on_weapon_exports
++					always = no 
++				}
++			}
++		}
++
++		available = {
++			FROM = {
++				always = no
+ 			}
+ 		}
+ 
+@@ -1801,7 +1801,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_expand_skoda_offices
++				always = no
+ 			}
+ 		}
+ 
+@@ -1835,7 +1835,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_expand_skoda_offices
++				always = no
+ 			}
+ 		}
+ 
+@@ -1877,7 +1877,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_expand_praga
++				always = no
+ 			}
+ 		}
+ 
+@@ -1908,7 +1908,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_diversify_bata
++				always = no
+ 				NOT = { has_country_flag = CZE_mio_trait_bata_corporation_taken_flag }
+ 			}
+ 		}
+@@ -1959,7 +1959,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_grow_tatras_capabilities
++				always = no
+ 			}
+ 		}
+ 
+@@ -1987,7 +1987,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_diversify_bata
++				always = no
+ 				NOT = { has_country_flag = CZE_mio_trait_bata_corporation_taken_flag }
+ 			}
+ 		}
+@@ -2028,7 +2028,7 @@
+ 				limit = {
+ 					original_tag = POL
+ 				}
+-				has_completed_focus = POL_join_CZE_industry
++				always = no
+ 				OR = {
+ 					controls_state = 9
+ 					any_subject_country = {
+@@ -2045,7 +2045,7 @@
+ 				limit = {
+ 					original_tag = POL
+ 				}
+-				has_completed_focus = POL_join_CZE_industry
++				always = no
+ 			}
+ 		}
+ 	}
+@@ -2067,7 +2067,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_diversify_bata
++				always = no
+ 				NOT = { has_country_flag = CZE_mio_trait_bata_corporation_taken_flag }
+ 			}
+ 		}
+@@ -2107,7 +2107,7 @@
+ 				limit = {
+ 					original_tag = POL
+ 				}
+-				has_completed_focus = POL_join_CZE_rails
++				always = no
+ 				OR = {
+ 					controls_state = 9
+ 					any_subject_country = {
+@@ -2124,7 +2124,7 @@
+ 				limit = {
+ 					original_tag = POL
+ 				}
+-				has_completed_focus = POL_join_CZE_rails
++				always = no
+ 			}
+ 		}
+ 	}
+@@ -2162,7 +2162,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_grow_ckd_secondary_facilities
++				always = no
+ 			}
+ 		}
+ 
+@@ -2190,7 +2190,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_diversify_bata
++				always = no
+ 				NOT = { has_country_flag = CZE_mio_trait_bata_corporation_taken_flag }
+ 			}
+ 		}
+@@ -2239,7 +2239,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_expand_praga
++				always = no
+ 			}
+ 		}
+ 
+@@ -2268,14 +2268,14 @@
+ 				original_tag = CZE
+ 				has_dlc = "Peace For Our Time"
+ 				NOT = {
+-					has_completed_focus = CZE_kickstart_rapid_rearmanent 
+-				}
+-			}
+-		}
+-
+-		available = {
+-			FROM = {
+-				has_completed_focus = CZE_keep_focus_on_weapon_exports
++					always = no 
++				}
++			}
++		}
++
++		available = {
++			FROM = {
++				always = no
+ 			}
+ 		}
+ 
+@@ -2306,7 +2306,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = CZE_diversify_bata
++				always = no
+ 				NOT = { has_country_flag = CZE_mio_trait_bata_corporation_taken_flag }
+ 			}
+ 		}
+@@ -3024,7 +3024,7 @@
+ 
+ 		available = {
+ 			owner = {
+-				has_tech = antitank2
++				always = no
+ 			}
+ 		}
+ 

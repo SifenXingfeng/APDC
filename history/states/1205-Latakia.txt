@@ -1,0 +1,43 @@
+state = {
+	id = 1205
+	name = "STATE_1205"
+	provinces = {
+		1088
+		5528
+		10087
+		14467
+		14683
+	}
+	manpower = 348841
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+	history = {
+		owner = SYR
+		controller = SYR
+		add_core_of = SYR
+		add_claim_by = SYR
+		victory_points = {
+			1088
+			5
+		}
+		victory_points = {
+			10087
+			1
+		}
+		victory_points = {
+			14467
+			3
+		}
+		victory_points = {
+			14683
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			1088 = {
+				naval_base = 1
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+--- before/common/scripted_effects/URG_scripted_effects.txt
++++ current/common/scripted_effects/URG_scripted_effects.txt
+@@ -1,11 +1 @@
+-add_fascist_influence = {
+-	if = {
+-		limit ={
+-			NOT = { has_idea = strong_fascist_influence }
+-		}
+-		add_timed_idea = {
+-		 	idea = strong_fascist_influence
+-		 	days = 45
+-		 }
+-	}
+-}+# APDC: unused imported script definitions removed.

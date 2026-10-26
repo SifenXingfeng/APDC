@@ -1,0 +1,41 @@
+state = {
+	id = 240
+	name = "STATE_240"
+	manpower = 1364537
+	state_category = town
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		victory_points = {
+			534
+			2
+		}
+		victory_points = {
+			6517
+			3
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		set_state_flag = GDP_category_rural
+	}
+	provinces = {
+		473
+		534
+		3492
+		6432
+		6481
+		6517
+		6577
+		6603
+		9424
+		9449
+		9489
+		9518
+		9552
+		11439
+		11500
+	}
+	local_supplies = 0.0
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "path": "common/special_projects/projects/land_projects.txt",
+    "id": "sp_land_multi_charge_large_caliber_gun",
+    "missing_parents": [
+      "sp_land_super_heavy_howitzer"
+    ]
+  },
+  {
+    "path": "common/special_projects/projects/naval_projects.txt",
+    "id": "sp_naval_nuclear_submarine",
+    "missing_parents": [
+      "sp_naval_fleet_submarine"
+    ]
+  },
+  {
+    "path": "common/special_projects/projects/naval_projects.txt",
+    "id": "sp_naval_rocket_launching_submarine",
+    "missing_parents": [
+      "sp_naval_fleet_submarine",
+      "sp_rockets_ballistic_missile"
+    ]
+  },
+  {
+    "path": "common/special_projects/projects/rocket_projects.txt",
+    "id": "sp_rockets_medium_range_ballistic_missile",
+    "missing_parents": [
+      "sp_rockets_ballistic_missile"
+    ]
+  },
+  {
+    "path": "common/special_projects/projects/naval_projects.txt",
+    "id": "sp_naval_nuclear_missile_submarine",
+    "missing_parents": [
+      "sp_naval_nuclear_submarine",
+      "sp_naval_rocket_launching_submarine"
+    ]
+  },
+  {
+    "path": "common/special_projects/projects/naval_projects.txt",
+    "id": "sp_naval_nuclear_torpedo",
+    "missing_parents": [
+      "sp_naval_nuclear_submarine"
+    ]
+  },
+  {
+    "path": "common/special_projects/projects/nuclear_projects.txt",
+    "id": "sp_nuclear_warheads",
+    "missing_parents": [
+      "sp_rockets_medium_range_ballistic_missile"
+    ]
+  },
+  {
+    "path": "common/special_projects/projects/rocket_projects.txt",
+    "id": "sp_rockets_long_range_ballistic_missile",
+    "missing_parents": [
+      "sp_rockets_medium_range_ballistic_missile"
+    ]
+  }
+]

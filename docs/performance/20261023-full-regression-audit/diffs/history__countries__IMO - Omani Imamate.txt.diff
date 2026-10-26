@@ -1,0 +1,25 @@
+--- before/history/countries/IMO - Omani Imamate.txt
++++ current/history/countries/IMO - Omani Imamate.txt
+@@ -1,22 +0,0 @@
+-# APDC: regular roster and production models available at scenario initialization.
+-set_technology = { APDC_land_units_bootstrap = 1 }
+-# Shared empty OOB preserves startup initialization until a country OOB is authored.
+-set_oob = "APDC_empty"
+-
+-capital = 1478 # Ad Dakhiliyah
+-
+-set_convoys = 5
+-
+-set_politics = {
+-	ruling_party = dictatorship
+-	last_election = "2058.1.1"
+-	election_frequency = 48
+-	elections_allowed = yes
+-}
+-
+-set_popularities = {
+-	liberalism = 5
+-	fascism = 0
+-	communism = 5
+-	dictatorship = 90
+-}

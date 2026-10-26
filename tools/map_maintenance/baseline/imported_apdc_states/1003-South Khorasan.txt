@@ -1,0 +1,30 @@
+state = {
+	id = 1003
+	name = "STATE_1003"
+	provinces = {
+		7990
+		8009
+		10890
+		12739
+		12852
+		18700
+		18792
+		18799
+	}
+	manpower = 138861
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 0
+	history = {
+		owner = PER
+		controller = PER
+		add_core_of = PER
+		victory_points = {
+			7990
+			2
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

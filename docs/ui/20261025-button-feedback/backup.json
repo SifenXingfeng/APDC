@@ -1,0 +1,67 @@
+{
+  "backup": "D:\\C-Drive-Migration-20260929\\Permanent\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\.codex_backups\\APDC\\20261025-173345-button-feedback",
+  "files": [
+    {
+      "path": "interface/APDC_cold_war.gui",
+      "sha256": "80dd6da3afd9ca0e901a414e9c9084c50b156f870091a7771a5e70df2abba19c"
+    },
+    {
+      "path": "interface/APDC_cold_war.gfx",
+      "sha256": "56ff7adffc31e455030811e03f2c6926663fb710dd39e69fa50515e34f99da24"
+    },
+    {
+      "path": "interface/APDC_cabinet.gfx",
+      "sha256": "cd2423c4fb8e2d1405c2e0ccc27443c209e62b5e6028907e6ef2834ecf6a9103"
+    },
+    {
+      "path": "interface/APDC_cooperation_organizations.gui",
+      "sha256": "b54b336ebea1b1fba63b316a8701aa7b5f4f40e0f32edbfc07f8ace642b41249"
+    },
+    {
+      "path": "interface/APDC_cooperation_organizations.gfx",
+      "sha256": "1be1fdbb74d92b2a73f1151358f3fc72454aed1d1633c793e511fb189abffcc1"
+    },
+    {
+      "path": "interface/APDC_economy_panel.gui",
+      "sha256": "a442852fd715d6f5d94fdc8981787c48b5f3da6add692f0113e618e43426a86d"
+    },
+    {
+      "path": "common/scripted_guis/APDC_cold_war.txt",
+      "sha256": "42a0b5f47c2d3bc978d6d713f981dd9ab7e018b54f0f6cdc6b349cc85d28b602"
+    },
+    {
+      "path": "tools/cold_war/build_ui.py",
+      "sha256": "7ba3cd373415eba35b65d3e595ca4edf871ebd35dcc9ec9fcfdfec9776dcb4c4"
+    },
+    {
+      "path": "tools/cold_war/build.py",
+      "sha256": "e25ae9701c3706f2646970124e481e415f517c349d24d27cc25bf507beba80f7"
+    },
+    {
+      "path": "tools/cold_war/check_ui.py",
+      "sha256": "9aed0ec07ff045f1ca2b1baed6011c03f1f2b86f959c462ff8c5c185730624ca"
+    },
+    {
+      "path": "tools/economy/build_ui.py",
+      "sha256": "3a54ad2b945180ea3681477a0bc6451465fe031f66f2b2a6c0a4a8f5658bb167"
+    }
+  ],
+  "created_runtime_files": [
+    "gfx/FX/APDC_buttonstate_optional_art.shader",
+    "gfx/FX/APDC_cw_world_feedback.shader",
+    "interface/APDC_button_feedback.gfx",
+    "gfx/interface/APDC/cold_war/option_first.png"
+  ],
+  "source_files": [
+    "tools/cold_war/button_feedback.py",
+    "tools/cold_war/build_ui.py",
+    "tools/cold_war/build.py",
+    "tools/cold_war/check_ui.py",
+    "tools/cold_war/check_loading.py",
+    "tools/economy/build_ui.py"
+  ],
+  "additional_tool_backup": {
+    "path": "tools/cold_war/check_loading.py",
+    "method": "Reconstructed by reversing the exact three-line addition; this tool was omitted from the initial byte snapshot."
+  }
+}

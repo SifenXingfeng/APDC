@@ -1,0 +1,20 @@
+{
+  "protected_game_logic_unchanged": [
+    "common/ideas/APDC_economy_laws.txt",
+    "common/ideas/_economic.txt",
+    "common/dynamic_modifiers/APDC_economy_dynamic_modifiers.txt",
+    "common/scripted_effects/APDC_economy_backend.txt",
+    "common/scripted_effects/APDC_economy_market.txt",
+    "common/on_actions/zz_APDC_economy.txt"
+  ],
+  "gui_geometry_and_gfx_unchanged": [
+    "interface/APDC_economy_panel.gui",
+    "interface/APDC_economy_panel.gfx"
+  ],
+  "new_dynamic_nonzero_rows": 38,
+  "no_formula_or_intermediate_lines": true,
+  "every_dynamic_line_hides_zero": true,
+  "word_effects_have_no_zero_entries": true,
+  "python_compile_passed": true,
+  "visual_verified": false
+}

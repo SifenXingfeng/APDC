@@ -1,0 +1,107 @@
+--- before/common/units/fire_support.txt
++++ current/common/units/fire_support.txt
+@@ -1,10 +1,23 @@
+ # APDC: old land-unit IDs retained for reference compatibility; normal unlocks removed.
+ sub_units = {
+ 
+-	fire_support = {
++	
++
++	
++
++	
++
++	
++
++	
++
++	
++
++# Inactive identifiers required by retained engine interfaces.
++fire_support = {
+ 		abbreviation = "FSC"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -50,11 +63,10 @@
+ 
+ 		can_be_parachuted = yes
+ 	}
+-
+-	mot_fire_support = {
++mot_fire_support = {
+ 		abbreviation = "FSC"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -101,11 +113,10 @@
+ 
+ 		can_be_parachuted = no
+ 	}
+-
+-	field_guns = {
++field_guns = {
+ 		abbreviation = "IFG"
+ 		sprite = artillery
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -150,11 +161,10 @@
+ 
+ 		can_be_parachuted = yes
+ 	}
+-
+-	rocket_battery = {
++rocket_battery = {
+ 		abbreviation = "RBC"
+ 		sprite = "artillery"
+-		map_icon_category = infantry
++		
+ 		priority = 1199
+ 		ai_priority = 100
+ 		active = no
+@@ -196,11 +206,10 @@
+ 		hard_attack = -0.6
+ 		can_be_parachuted = yes
+ 	}
+-
+-	anti_air_battery = {
++anti_air_battery = {
+ 		abbreviation = "RAA"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no
+@@ -225,7 +234,7 @@
+ 		training_time = 120
+ 
+ 		need = {
+-			anti_air_equipment = 12
++			
+ 		}
+ 
+ 		can_be_parachuted = yes
+@@ -246,11 +255,10 @@
+ 		hard_attack = -0.8
+ 		air_attack = -0.6
+ 	}
+-
+-	anti_tank_battery = {
++anti_tank_battery = {
+ 		abbreviation = "RAT"
+ 		sprite = anti_tank
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no

@@ -1,0 +1,87 @@
+--- before/common/scorers/country/APDC_economy_market.txt
++++ current/common/scorers/country/APDC_economy_market.txt
+@@ -0,0 +1,84 @@
++APDC_eco_market_tariff_0 = {
++targets = {
++target_array = global.APDC_eco_market_exporters
++score = {
++base = 0
++modifier = {
++add = APDC_eco_market_tariff_score_0
++}
++
++}
++
++}
++
++}
++APDC_eco_market_supply_0 = {
++targets = {
++target_array = global.APDC_eco_market_group
++score = {
++base = 0
++modifier = {
++add = APDC_eco_market_remaining_export_0
++}
++
++}
++
++}
++
++}
++APDC_eco_market_demand_0 = {
++targets = {
++target_array = global.APDC_eco_market_eligible_buyers
++score = {
++base = 0
++modifier = {
++add = APDC_eco_market_demand_score_0
++}
++
++}
++
++}
++
++}
++APDC_eco_market_tariff_1 = {
++targets = {
++target_array = global.APDC_eco_market_exporters
++score = {
++base = 0
++modifier = {
++add = APDC_eco_market_tariff_score_1
++}
++
++}
++
++}
++
++}
++APDC_eco_market_supply_1 = {
++targets = {
++target_array = global.APDC_eco_market_group
++score = {
++base = 0
++modifier = {
++add = APDC_eco_market_remaining_export_1
++}
++
++}
++
++}
++
++}
++APDC_eco_market_demand_1 = {
++targets = {
++target_array = global.APDC_eco_market_eligible_buyers
++score = {
++base = 0
++modifier = {
++add = APDC_eco_market_demand_score_1
++}
++
++}
++
++}
++
++}

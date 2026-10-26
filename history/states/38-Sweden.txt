@@ -1,0 +1,47 @@
+state = {
+	id = 38
+	name = "STATE_38"
+	provinces = {
+		49
+		125
+		130
+		182
+		205
+		3045
+		6023
+		6063
+		6067
+		9035
+		9051
+		9088
+		9117
+		9151
+		11040
+		11123
+		11129
+		11147
+		11185
+		11209
+	}
+	manpower = 887576
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = NOR
+		add_core_of = ZZZ
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			11129 = {
+				dam = 1
+			}
+			130 = {
+				naval_base = 1
+			}
+			air_base = 3
+		}
+	}
+}

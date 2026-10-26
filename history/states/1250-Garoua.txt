@@ -1,0 +1,54 @@
+state = {
+	id = 1250
+	name = "STATE_1250"
+	provinces = {
+		7963
+		11194
+		11702
+		14044
+		14080
+		14294
+		15446
+		15580
+	}
+	manpower = 548052
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = CMR
+		controller = CMR
+		add_core_of = CMR
+		victory_points = {
+			7963
+			5
+		}
+		victory_points = {
+			11194
+			3
+		}
+		victory_points = {
+			11702
+			1
+		}
+		victory_points = {
+			14044
+			1
+		}
+		victory_points = {
+			14080
+			2
+		}
+		victory_points = {
+			14294
+			5
+		}
+		victory_points = {
+			15580
+			3
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

@@ -1,0 +1,49 @@
+--- before/history/general/generic_advisors.txt
++++ current/history/general/generic_advisors.txt
+@@ -57,7 +57,7 @@
+ 						original_tag = NZL
+ 						has_dlc = "Together for Victory"
+ 					}
+-					has_completed_focus = NZL_the_lee_affair
++					always = no
+ 				}
+ 				IF = {
+ 					limit = { has_dlc = "Man the Guns" }	
+@@ -129,8 +129,8 @@
+ 						has_dlc = "Together for Victory"
+ 					}
+ 					OR = {
+-						has_completed_focus = NZL_strengthen_the_commonwealth
+-						has_completed_focus = NZL_constitution_amendment_act
++						always = no
++						always = no
+ 					}
+ 				}
+ 				IF = {
+@@ -201,7 +201,7 @@
+ 						original_tag = NZL
+ 						has_dlc = "Together for Victory"
+ 					}
+-					has_completed_focus = NZL_in_the_darkness
++					always = no
+ 				}
+ 				IF = {
+ 					limit = { has_dlc = "Man the Guns" }	
+@@ -654,7 +654,7 @@
+ 			ledger = navy
+ 			cost = 50
+ 			available = {
+-				has_completed_focus = AFG_naval_academy
++				always = no
+ 			}
+ 		}
+ 		portraits = { 
+@@ -668,7 +668,7 @@
+ 			traits = { navy_chief_reform_1 }
+ 			cost = 50
+ 			available = {
+-				has_completed_focus = AFG_naval_academy
++				always = no
+ 			}
+ 		}
+ 		portraits = { 

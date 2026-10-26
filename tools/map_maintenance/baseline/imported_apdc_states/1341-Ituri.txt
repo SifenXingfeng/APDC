@@ -1,0 +1,42 @@
+state = {
+	id = 1341
+	name = "STATE_1341"
+	provinces = {
+		2154
+		13955
+		13956
+		13972
+		19281
+	}
+	manpower = 345156
+	resources = {
+		rubber = 1
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+	history = {
+		owner = COG
+		controller = COG
+		add_core_of = COG
+		victory_points = {
+			13955
+			1
+		}
+		victory_points = {
+			13956
+			5
+		}
+		victory_points = {
+			13972
+			2
+		}
+		victory_points = {
+			19281
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

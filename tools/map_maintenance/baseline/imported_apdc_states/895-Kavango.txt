@@ -1,0 +1,32 @@
+state = {
+	id = 895
+	name = "STATE_895"
+	provinces = {
+		8136
+		12519
+		13702
+		13709
+		13712
+		13720
+		13721
+		13725
+		13732
+		17931
+	}
+	manpower = 71077
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	history = {
+		owner = NMB
+		controller = NMB
+		add_core_of = NMB
+		victory_points = {
+			13721
+			1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

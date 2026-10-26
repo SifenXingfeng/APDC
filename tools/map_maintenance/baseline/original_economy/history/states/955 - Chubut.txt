@@ -1,0 +1,44 @@
+state = {
+	id = 955
+	name = "STATE_955"
+	manpower = 395040
+	
+	state_category = rural
+	
+	resources = {
+		oil = 4
+	}
+
+	history = {
+
+		owner = ARG
+		add_core_of = ARG
+		add_core_of = WLA
+
+		buildings = {
+			infrastructure = 1
+			10953 = {
+				naval_base = 1
+			}
+		}
+
+		victory_points = {
+			13307 2 
+		}
+
+		victory_points = {
+			10953 3 
+		}
+
+		victory_points = {
+			8161 1 
+		}
+		
+	}
+
+	provinces = {
+		2169 8161 8176 10953 13296 13307 14894 14896 15001 15018 15019 15020 15023 15024 15025 15026 15027 15028 15029 17484 17486 
+	}
+
+	local_supplies = 0.0 
+}

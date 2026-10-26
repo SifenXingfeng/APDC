@@ -1,0 +1,157 @@
+leader_traits = {
+ICE_shipping_concern = {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+CAS_manufacturer = {
+		random = no
+		equipment_bonus = {
+			small_plane_cas_airframe = {
+				air_ground_attack = 0.1 reliability = 0.1
+			}
+			cv_small_plane_cas_airframe = {
+				air_ground_attack = 0.1 reliability = 0.1
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+PRC_magazine = {
+		random = no 
+
+	}
+
+PRC_nuclear_company = {
+		random = no
+	}
+
+PHI_san_miguel_trait = {
+		random = no
+
+		stability_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+PHI_marsman_and_company_trait = {
+		random = no
+
+		production_speed_buildings_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+AST_denim_factory = {
+
+		random = no
+
+		stability_factor = 0.05
+		equipment_bonus = {
+			infantry_equipment = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+AST_denim_factory_upgraded = {
+		random = no
+
+		stability_factor = 0.05
+		equipment_bonus = {
+			infantry_equipment = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+			support_equipment = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+AST_the_big_australian = {
+
+		random = no
+
+		local_resources_factor = 0.10
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+AST_steelworks_and_shipyard = {
+
+		random = no
+
+		country_resource_steel = 10
+		industrial_capacity_dockyard = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+AST_the_big_australian_upgraded = {
+
+		random = no
+
+		local_resources_factor = 0.20
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+AST_steelworks_and_shipyard_upgraded = {
+
+		random = no
+
+		country_resource_steel = 20
+		industrial_capacity_dockyard = 0.10
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+AST_mount_isa = {
+		random = no
+
+		production_lack_of_resource_penalty_factor = -0.20
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+AST_mount_isa_upgraded = {
+		random = no
+
+		production_lack_of_resource_penalty_factor = -0.25
+		local_resources_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

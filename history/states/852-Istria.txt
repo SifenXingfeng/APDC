@@ -1,0 +1,29 @@
+state = {
+	id = 852
+	name = "STATE_852"
+	resources = {
+		coal = 1
+	}
+	provinces = {
+		599
+		3772
+		11735
+	}
+	manpower = 396393
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = YUG
+		controller = YUG
+		add_core_of = YUG
+		victory_points = {
+			11735
+			2
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 2
+		}
+	}
+}

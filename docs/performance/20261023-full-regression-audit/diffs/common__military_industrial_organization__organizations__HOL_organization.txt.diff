@@ -1,0 +1,11 @@
+--- before/common/military_industrial_organization/organizations/HOL_organization.txt
++++ current/common/military_industrial_organization/organizations/HOL_organization.txt
+@@ -98,7 +98,7 @@
+ 		tag = HOL
+ 	}
+ 	available = {
+-		owner = { has_completed_focus = HOL_expand_the_artillerieinrichtingen }
++		owner = { always = no }
+ 	}
+ }
+ 

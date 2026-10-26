@@ -1,0 +1,37 @@
+state = {
+	id = 728
+	name = "STATE_728"
+	resources = {
+	}
+	provinces = {
+		7418
+		9005
+	}
+	manpower = 705446
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			7418
+			30
+		}
+		victory_points = {
+			9005
+			5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = GDP_regions_shaanxi
+		set_variable = {
+			china_state_ref = 38
+		}
+		set_variable = {
+			china_region_ref = 5
+		}
+	}
+}

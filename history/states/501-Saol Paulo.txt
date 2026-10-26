@@ -1,0 +1,55 @@
+state = {
+	id = 501
+	name = "STATE_501"
+	provinces = {
+		5112
+		5167
+		7553
+		10432
+		10513
+		17453
+		17481
+		17483
+	}
+	manpower = 2361600
+	buildings_max_level_factor = 1
+	state_category = city
+	local_supplies = 0
+	history = {
+		owner = BRA
+		controller = BRA
+		add_core_of = BRA
+		victory_points = {
+			5112
+			10
+		}
+		victory_points = {
+			10432
+			5
+		}
+		victory_points = {
+			10513
+			3
+		}
+		victory_points = {
+			17453
+			1
+		}
+		victory_points = {
+			17481
+			1
+		}
+		victory_points = {
+			17483
+			50
+		}
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 3
+			infrastructure = 3
+			5112 = {
+				naval_base = 4
+			}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+state = {
+	id = 683
+	name = "STATE_683"
+	resources = {
+		aluminium = 7
+	}
+	provinces = {
+		1712
+		2947
+		3691
+		7813
+		10721
+		13190
+		13191
+		13314
+		13315
+		16852
+		16853
+		16862
+		16865
+		17160
+		17212
+		17222
+	}
+	manpower = 53419
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 0
+	history = {
+		owner = USA
+		controller = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 1
+			3691 = {
+				naval_base = 1
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+  "profile": "D:\\APDC_ColdWarQA_20261025_152402",
+  "pid": 35656,
+  "started": "2026-10-25T15:24:29.4107884+08:00",
+  "phases": {
+    "Start RestoreDeviceObjects": "15:25:46",
+    "End RestoreDeviceObjects": "15:25:59",
+    "APDC_CW_QA BEGIN": "15:26:02",
+    "APDC_CW_QA COMPLETE": "15:26:02"
+  },
+  "sample_count": 74,
+  "peak_private_bytes": 10639069184,
+  "peak_working_set_bytes": 5247815680,
+  "final_sample": {
+    "at": "2026-10-25T15:26:55.586+08:00",
+    "private_bytes": 6465122304,
+    "working_set_bytes": 5021974528,
+    "peak_working_set_bytes": 5247815680,
+    "page_faults": 10508241
+  },
+  "restore_device_seconds": 13.0,
+  "launch_to_graphics_ready_seconds": 90.0
+}

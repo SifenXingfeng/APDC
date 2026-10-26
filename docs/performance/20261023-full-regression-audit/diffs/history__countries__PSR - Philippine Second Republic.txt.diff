@@ -1,0 +1,26 @@
+--- before/history/countries/PSR - Philippine Second Republic.txt
++++ current/history/countries/PSR - Philippine Second Republic.txt
+@@ -1,23 +0,0 @@
+-# APDC: regular roster and production models available at scenario initialization.
+-set_technology = { APDC_land_units_bootstrap = 1 }
+-# Shared empty OOB preserves startup initialization until a country OOB is authored.
+-set_oob = "APDC_empty"
+-
+-capital = 327 # Greater Manila
+-
+-set_convoys = 25
+-
+-set_stability = 0.4
+-
+-set_war_support = 0.4
+-
+-set_politics = {
+-	ruling_party = dictatorship
+-	last_election = "2058.1.1"
+-	election_frequency = 48
+-	elections_allowed = no
+-}
+-
+-set_popularities = {
+-	dictatorship = 100
+-}

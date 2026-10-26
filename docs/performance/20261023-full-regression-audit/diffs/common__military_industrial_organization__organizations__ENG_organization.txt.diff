@@ -1,0 +1,193 @@
+--- before/common/military_industrial_organization/organizations/ENG_organization.txt
++++ current/common/military_industrial_organization/organizations/ENG_organization.txt
+@@ -33,7 +33,7 @@
+ 	visible = {
+ 		IF = {
+ 			limit = { FROM = { original_tag = ETH } }
+-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
++			FROM = { always = no }
+ 		}
+ 	}
+ 	
+@@ -68,7 +68,7 @@
+ 					is_subject_of = ENG
+ 				}
+ 				#is_in_faction_with = ENG
+-				NOT = { has_completed_focus = BUL_nationalization }
++				NOT = { always = no }
+ 			}
+ 		}
+ 	}
+@@ -166,7 +166,7 @@
+ 		}
+ 		IF = {
+ 			limit = { FROM = { original_tag = ETH } }
+-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
++			FROM = { always = no }
+ 		}
+ 	
+ 	}
+@@ -202,7 +202,7 @@
+ 					is_subject_of = ENG
+ 				}
+ 				#is_in_faction_with = ENG
+-				NOT = { has_completed_focus = BUL_nationalization }
++				NOT = { always = no }
+ 			}
+ 		}
+ 		IF = {
+@@ -210,7 +210,7 @@
+ 			custom_trigger_tooltip = {
+ 				tooltip = has_invited_mio_tt
+ 				FROM = {
+-					has_completed_focus = BRA_invite_foreign_companies
++					always = no
+ 					has_country_flag = has_vauxhall_mio_flag
+ 				}
+ 			}
+@@ -269,8 +269,8 @@
+ 			}
+ 			FROM = { 
+ 				OR = {
+-					has_idea = AST_monarchist_intervention_spirit
+-					has_completed_focus = AST_for_crown_and_empire
++					always = no
++					always = no
+ 				}
+ 			}
+ 		}
+@@ -361,7 +361,7 @@
+ 			custom_trigger_tooltip = {
+ 				tooltip = has_invited_mio_tt
+ 				FROM = {
+-					has_completed_focus = BRA_invite_foreign_companies
++					always = no
+ 					has_country_flag = has_cammell_laird_mio_flag
+ 				}
+ 			}
+@@ -450,7 +450,7 @@
+ 					is_subject_of = ENG
+ 				}
+ 				#is_in_faction_with = ENG
+-				NOT = { has_completed_focus = BUL_nationalization }
++				NOT = { always = no }
+ 			}
+ 		}
+ 	}
+@@ -478,7 +478,7 @@
+ 	visible = {
+ 		IF = {
+ 			limit = { FROM = { original_tag = ETH } }
+-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
++			FROM = { always = no }
+ 		}
+ 	}
+ 	
+@@ -647,7 +647,7 @@
+ 				FROM = { tag = NOR }
+ 			}
+ 			FROM = {
+-				has_completed_focus = NOR_invite_transnational_manufacturers
++				always = no
+ 			}
+ 		}
+ 	}
+@@ -674,7 +674,7 @@
+ 	visible = {
+ 		IF = {
+ 			limit = { FROM = { original_tag = ETH } }
+-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
++			FROM = { always = no }
+ 		}
+ 	}
+ 	
+@@ -701,7 +701,7 @@
+ 					is_subject_of = ENG
+ 				}
+ 				#is_in_faction_with = ENG
+-				NOT = { has_completed_focus = BUL_nationalization }
++				NOT = { always = no }
+ 			}
+ 		}
+ 		ELSE_IF = {
+@@ -742,7 +742,7 @@
+ 			custom_trigger_tooltip = {
+ 				tooltip = has_invited_mio_tt
+ 				FROM = {
+-					has_completed_focus = BRA_invite_foreign_companies
++					always = no
+ 					has_country_flag = has_avro_mio_flag
+ 				}
+ 			}
+@@ -803,7 +803,7 @@
+ 				}
+ 			}
+ 			FROM = {
+-				has_completed_focus = BALTIC_british_designers
++				always = no
+ 			}
+ 		}
+ 	}
+@@ -875,7 +875,7 @@
+ 		}
+ 		IF = {
+ 			limit = { FROM = { original_tag = ETH } }
+-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
++			FROM = { always = no }
+ 		}	
+ 	}
+ 	
+@@ -910,7 +910,7 @@
+ 					is_subject_of = ENG
+ 				}
+ 				#is_in_faction_with = ENG
+-				NOT = { has_completed_focus = BUL_nationalization }
++				NOT = { always = no }
+ 			}
+ 		}
+ 		IF = {
+@@ -963,7 +963,7 @@
+ 				}
+ 			}
+ 			FROM = {
+-				has_completed_focus = BALTIC_british_designers
++				always = no
+ 			}
+ 		}
+ 	}
+@@ -1033,7 +1033,7 @@
+ 				}
+ 			}
+ 			FROM = {
+-				has_completed_focus = BALTIC_crossley_motors
++				always = no
+ 			}
+ 		}
+ 
+@@ -1151,7 +1151,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = shadow_scheme_focus
++				always = no
+ 			}
+ 		}
+ 
+@@ -1210,7 +1210,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = general_rearmament_focus
++				always = no
+ 
+ 			}
+ 		}
+@@ -1327,7 +1327,7 @@
+ 
+ 		available = {
+ 			FROM = {
+-				has_completed_focus = shadow_scheme_focus
++				always = no
+ 			}
+ 		}
+ 

@@ -1,0 +1,26 @@
+# Only Madagascar's standard infantry appearances are replaced.
+# Inherit vanilla state transitions, weapons and effects; no unit-stat changes.
+entity = {
+    clone = "GER_infantry_entity"
+    name = "MAD_infantry_entity"
+    pdxmesh = "APDC_penguin_rifle_mesh"
+    scale = 0.77
+}
+entity = {
+    clone = "GER_infantry_2_entity"
+    name = "MAD_infantry_2_entity"
+    pdxmesh = "APDC_penguin_mg_mesh"
+    scale = 0.77
+}
+entity = {
+    clone = "GER_infantry_3_entity"
+    name = "MAD_infantry_3_entity"
+    pdxmesh = "APDC_penguin_mg_2_mesh"
+    scale = 0.77
+}
+entity = { clone = "MAD_infantry_entity" name = "MAD_infantry_entity_desert" }
+entity = { clone = "MAD_infantry_entity" name = "MAD_infantry_entity_snow" }
+entity = { clone = "MAD_infantry_2_entity" name = "MAD_infantry_2_entity_desert" }
+entity = { clone = "MAD_infantry_2_entity" name = "MAD_infantry_2_entity_snow" }
+entity = { clone = "MAD_infantry_3_entity" name = "MAD_infantry_3_entity_desert" }
+entity = { clone = "MAD_infantry_3_entity" name = "MAD_infantry_3_entity_snow" }

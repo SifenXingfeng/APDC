@@ -1,0 +1,101 @@
+objectTypes = {
+
+pdxmesh = {
+		name = "APDC_penguin_rifle_mesh"
+		file = "gfx/models/units/APDC_penguin/APDC_penguin.mesh"
+
+		animation = { id = "idle"			type = "APDC_penguin_GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "APDC_penguin_GER_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "APDC_penguin_GER_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "APDC_penguin_GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "APDC_penguin_GER_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "APDC_penguin_GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "APDC_penguin_GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "APDC_penguin_GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "APDC_penguin_GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "APDC_penguin_GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "APDC_penguin_GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "APDC_penguin_GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "APDC_penguin_GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "APDC_penguin_GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "APDC_penguin_GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "APDC_penguin_GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "APDC_penguin_GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "APDC_penguin_GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "APDC_penguin_GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "APDC_penguin_GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "APDC_penguin_GER_infantry_aim_exercise_animation" }
+		animation = { id = "bicycle_idle"		type = "APDC_penguin_infantry_bicycle_idle_animation" }
+		animation = { id = "bicycle_idle_2"		type = "APDC_penguin_infantry_bicycle_idle_2_animation" }
+		animation = { id = "bicycle_move"		type = "APDC_penguin_infantry_bicycle_move_animation" }
+		animation = { id = "bicycle_move_2"		type = "APDC_penguin_infantry_bicycle_move_2_animation" }
+		animation = { id = "bicycle_retreat"	type = "APDC_penguin_infantry_bicycle_retreat_animation" }
+		animation = { id = "bicycle_retreat_2"	type = "APDC_penguin_infantry_bicycle_retreat_2_animation" }
+	}
+
+pdxmesh = {
+		name = "APDC_penguin_mg_mesh"
+		file = "gfx/models/units/APDC_penguin/APDC_penguin.mesh"
+
+		animation = { id = "idle"			type = "APDC_penguin_GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "APDC_penguin_GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "APDC_penguin_GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "APDC_penguin_GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "APDC_penguin_GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "APDC_penguin_GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "APDC_penguin_GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "APDC_penguin_GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "APDC_penguin_GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "APDC_penguin_GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "APDC_penguin_GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "APDC_penguin_GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "APDC_penguin_GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "APDC_penguin_GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "APDC_penguin_GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "APDC_penguin_GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "APDC_penguin_GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "APDC_penguin_GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "APDC_penguin_GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "APDC_penguin_GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "APDC_penguin_GER_infantry_aim_exercise_mg_animation" }
+		animation = { id = "bicycle_idle"		type = "APDC_penguin_infantry_bicycle_idle_animation" }
+		animation = { id = "bicycle_idle_2"		type = "APDC_penguin_infantry_bicycle_idle_2_animation" }
+		animation = { id = "bicycle_move"		type = "APDC_penguin_infantry_bicycle_move_animation" }
+		animation = { id = "bicycle_move_2"		type = "APDC_penguin_infantry_bicycle_move_2_animation" }
+		animation = { id = "bicycle_retreat"	type = "APDC_penguin_infantry_bicycle_retreat_animation" }
+		animation = { id = "bicycle_retreat_2"	type = "APDC_penguin_infantry_bicycle_retreat_2_animation" }
+	}
+
+pdxmesh = {
+		name = "APDC_penguin_mg_2_mesh"
+		file = "gfx/models/units/APDC_penguin/APDC_penguin.mesh"
+
+		animation = { id = "idle"			type = "APDC_penguin_GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "APDC_penguin_GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "APDC_penguin_GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "APDC_penguin_GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "APDC_penguin_GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "APDC_penguin_GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "APDC_penguin_GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "APDC_penguin_GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "APDC_penguin_GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "APDC_penguin_GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "APDC_penguin_GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "APDC_penguin_GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "APDC_penguin_GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "APDC_penguin_GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "APDC_penguin_GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "APDC_penguin_GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "APDC_penguin_GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "APDC_penguin_GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "APDC_penguin_GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "APDC_penguin_GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "APDC_penguin_GER_infantry_aim_exercise_mg_animation" }
+		animation = { id = "bicycle_idle"		type = "APDC_penguin_infantry_bicycle_idle_animation" }
+		animation = { id = "bicycle_idle_2"		type = "APDC_penguin_infantry_bicycle_idle_2_animation" }
+		animation = { id = "bicycle_move"		type = "APDC_penguin_infantry_bicycle_move_animation" }
+		animation = { id = "bicycle_move_2"		type = "APDC_penguin_infantry_bicycle_move_2_animation" }
+		animation = { id = "bicycle_retreat"	type = "APDC_penguin_infantry_bicycle_retreat_animation" }
+		animation = { id = "bicycle_retreat_2"	type = "APDC_penguin_infantry_bicycle_retreat_2_animation" }
+	}
+}

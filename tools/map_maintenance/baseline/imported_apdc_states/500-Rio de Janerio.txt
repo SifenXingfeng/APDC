@@ -1,0 +1,83 @@
+state = {
+	id = 500
+	name = "STATE_500"
+	manpower = 6665500
+	state_category = large_city
+	history = {
+		owner = BRA
+		controller = BRA
+		add_core_of = BRA
+		victory_points = {
+			5172
+			2
+		}
+		victory_points = {
+			8190
+			10
+		}
+		victory_points = {
+			10980
+			40
+		}
+		victory_points = {
+			17414
+			3
+		}
+		victory_points = {
+			17420
+			3
+		}
+		victory_points = {
+			17424
+			1
+		}
+		victory_points = {
+			17425
+			3
+		}
+		victory_points = {
+			17428
+			3
+		}
+		victory_points = {
+			17479
+			3
+		}
+		victory_points = {
+			17482
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 2
+			air_base = 7
+			10980 = {
+				naval_base = 7
+				landmark_cristo_redentor = {
+					level = 1
+					allowed = {
+						has_dlc = "Gotterdammerung"
+					}
+				}
+			}
+		}
+		set_state_flag = GDP_regions_rio
+		set_state_flag = GDP_category_large_city
+	}
+	provinces = {
+		5172
+		8190
+		10980
+		12996
+		17420
+		17482
+		17479
+		17428
+		17425
+		17424
+		17414
+	}
+	local_supplies = 0.0
+}

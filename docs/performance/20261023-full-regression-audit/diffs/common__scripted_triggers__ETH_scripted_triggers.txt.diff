@@ -1,0 +1,315 @@
+--- before/common/scripted_triggers/ETH_scripted_triggers.txt
++++ current/common/scripted_triggers/ETH_scripted_triggers.txt
+@@ -1,25 +1,10 @@
+ #scripted triggers for Ethiopia
+ 
+ # Is initial war still ongoing?
+-has_lon_arms_embargo = {
+-	custom_trigger_tooltip = {
+-		#TODO Localize this properly
+-		tooltip = lon_arms_resolution_tt
+-		has_global_flag = second_italo_ethiopian_war_flag
+-		FROM = { has_idea = league_of_nations_member_idea }
+-	}	
+-}
++
+ 
+ # Is the government either anarchist or anarchist communist ? 
+-has_anarchist_government = {
+-	custom_trigger_tooltip = {
+-		tooltip = has_anarchist_government_tt
+-		OR = {
+-			has_country_leader_ideology = anarcho_communism 
+-			has_country_leader_ideology = anarcho_communism 
+-		}
+-	}	
+-}
++
+ 
+ # Does Ethiopia (or anyone else that want to use this) have a Military Academy? 
+ # Add triggers for those countries as needed 
+@@ -30,7 +15,7 @@
+ 		}
+ 		custom_trigger_tooltip = {
+ 			tooltip = has_military_academy_tt 
+-			has_completed_focus = ETH_ecole_militaire_haile_selassie_1er
++			always = no
+ 		}
+ 	}
+ }
+@@ -45,7 +30,7 @@
+ 		}
+ 		custom_trigger_tooltip = {
+ 			tooltip = has_naval_academy_tt 
+-			has_completed_focus = ETH_asmera_naval_college
++			always = no
+ 		}
+ 	}
+ }
+@@ -59,7 +44,7 @@
+ 		}
+ 		custom_trigger_tooltip = {
+ 			tooltip = has_air_academy_tt 
+-			has_completed_focus = ETH_debre_zeyit_air_force_training_center
++			always = no
+ 		}
+ 	}
+ }
+@@ -72,240 +57,41 @@
+ 		}
+ 		custom_trigger_tooltip = {
+ 			tooltip = has_air_force_command_tt 
+-			has_completed_focus = ETH_the_ethiopian_air_force
++			always = no
+ 		}
+ 	}
+ }
+ 
+ # War Escalation triggers
+-has_war_escalation_level_1 = {
+-	custom_trigger_tooltip = {
+-		tooltip = has_war_escalation_level_1_tt
+-		check_variable = { ETH.ETH_war_escalation_level > 0 }
+-	}
+-}
+-has_war_escalation_level_2 = {
+-	custom_trigger_tooltip = {
+-		tooltip = has_war_escalation_level_2_tt
+-		check_variable = { ETH.ETH_war_escalation_level > 1 }
+-	}
+-}
+-has_war_escalation_level_3 = {
+-	custom_trigger_tooltip = {
+-		tooltip = has_war_escalation_level_3_tt
+-		check_variable = { ETH.ETH_war_escalation_level > 2 }
+-	}
+-}
+-has_war_escalation_level_4 = {
+-	custom_trigger_tooltip = {
+-		tooltip = has_war_escalation_level_4_tt
+-		check_variable = { ETH.ETH_war_escalation_level > 3 }
+-	}
+-}
+-has_war_escalation_level_5 = {
+-	custom_trigger_tooltip = {
+-		tooltip = has_war_escalation_level_5_tt
+-		check_variable = { ETH.ETH_war_escalation_level > 4 }
+-	}
+-}
+-has_war_escalation_level_6 = {
+-	custom_trigger_tooltip = {
+-		tooltip = has_war_escalation_level_6_tt
+-		check_variable = { ETH.ETH_war_escalation_level > 5 }
+-	}
+-}
+-has_war_escalation_level_7 = {
+-	custom_trigger_tooltip = {
+-		tooltip = has_war_escalation_level_7_tt
+-		check_variable = { ETH.ETH_war_escalation_level > 6 }
+-	}
+-}
+ 
+-league_of_nations_is_active = {
+-	custom_trigger_tooltip = {
+-		tooltip = league_of_nations_is_active_tt
+-		NOT = { has_global_flag = LoN_disbanded_flag }
+-		ETH = { NOT = { has_completed_focus = ETH_international_mediation}}
+-	}
+-}
+ 
+-controls_all_ethiopian_core_states = {
+-	custom_trigger_tooltip = {
+-		tooltip = controls_ethiopian_cores_tt 
+-		controls_state = 843 
+-		controls_state = 898 
+-		controls_state = 899 
+-		controls_state = 556
+-		controls_state = 1400
+-		controls_state = 557 
+-		controls_state = 1069
+-		controls_state = 1067 
+-		controls_state = 994 
+-		controls_state = 993 
+-	}
+-}
+ 
+-controls_half_ethiopian_owned_states = {
+-	custom_trigger_tooltip = {  
+-		tooltip = controls_50_percent_of_territory
+-		check_variable = { 
+-			var = num_owned_controlled_states 
+-			value = controlled_owned_50 
+-			compare = greater_than_or_equals
+-		}
+-	}
+-}
+-controls_more_than_half_ethiopian_owned_states = {
+-	custom_trigger_tooltip = {  
+-		tooltip = controls_more_than_50_percent_of_territory
+-		check_variable = { 
+-			var = num_owned_controlled_states 
+-			value = controlled_owned_50 
+-			compare = greater_than
+-		}
+-	}
+-}
+ 
+-is_or_will_be_jimma = {
+-	custom_trigger_tooltip = {  
+-		tooltip = is_or_will_be_jimma_tt
+-		OR = {
+-			has_cosmetic_tag = jimma 
+-			has_country_flag = jofir_rising_planned_flag
+-		}
+-	}
+-}
+ 
+-is_or_will_be_gojjam = {
+-	custom_trigger_tooltip = {  
+-		tooltip = is_or_will_be_gojjam_tt
+-		OR = {
+-			has_cosmetic_tag = gojjam 
+-			has_country_flag = hayamot_rising_planned_flag
+-		}
+-	}
+-}
++
++
++
++
++
++
++
++
++
++
++
++
++
+ 
+ # East African Colony state ? 
+-is_east_african_colony_state = {
+-	custom_trigger_tooltip = {
+-		tooltip = is_east_african_state_tt 
+-		#TODO_TA update when air zone rework is in
+-		OR = {
+-			region = 17 # Ethiopian Highlands
+-			region = 273 # Danakil 
+-			region = 274 # Ogaden 
+-			region = 217 # Lake Victoria
+-			region = 216 # Upper Nile
+-		}
+-		NOT = { is_core_of = THIS.owner }
+-	}
+ 
+-}
+ 
+ ### Balance of Power Scripted triggers
+ # Mesafint Influence or higher
+-ETH_bop_is_mesafint_influence_or_higher = {
+-	custom_trigger_tooltip = {
+-		tooltip = ETH_bop_is_mesafint_influence_or_higher_tt 
+-		OR = {
+-			is_power_balance_in_range = {
+-				id = ETH_centralization_balance
+-				range = ETH_mesafint_influence_range
+-			}
+-			is_power_balance_in_range = {
+-				id = ETH_centralization_balance
+-				range = ETH_mesafint_power_range
+-			}
+-			is_power_balance_in_range = {
+-				id = ETH_centralization_balance
+-				range = ETH_mesafint_dominant_range
+-			}
+-			is_power_balance_in_range = {
+-				id = ETH_centralization_balance
+-				range = ETH_mesafint_total_control_range
+-			}
+-		}		
+-	}
+-}
+ 
+-ETH_bop_is_mesafint_power_or_higher = {
+-	custom_trigger_tooltip = {
+-		tooltip = ETH_bop_is_mesafint_power_or_higher_tt 
+-		OR = {
+-			is_power_balance_in_range = {
+-				id = ETH_centralization_balance
+-				range = ETH_mesafint_power_range
+-			}
+-			is_power_balance_in_range = {
+-				id = ETH_centralization_balance
+-				range = ETH_mesafint_dominant_range
+-			}
+-			is_power_balance_in_range = {
+-				id = ETH_centralization_balance
+-				range = ETH_mesafint_total_control_range
+-			}
+-		}		
+-	}
+-}
+ 
+-ETH_bop_is_mekwanint_influence_or_higher = {
+-	custom_trigger_tooltip = {
+-		tooltip = ETH_bop_is_mekwanint_influence_or_higher_tt 
+-		OR = {
+-			is_power_balance_in_range = {
+-				id = ETH_centralization_balance
+-				range = ETH_mekwanint_influence_range
+-			}
+-			is_power_balance_in_range = {
+-				id = ETH_centralization_balance
+-				range = ETH_mekwanint_power_range
+-			}
+-			is_power_balance_in_range = {
+-				id = ETH_centralization_balance
+-				range = ETH_mekwanint_dominant_range
+-			}
+-			is_power_balance_in_range = {
+-				id = ETH_centralization_balance
+-				range = ETH_mekwanint_total_control_range
+-			}
+-		}		
+-	}
+-}
+ 
+-ETH_bop_is_mekwanint_power_or_higher = {
+-	custom_trigger_tooltip = {
+-		tooltip = ETH_bop_is_mekwanint_power_or_higher_tt 
+-		OR = {
+-			is_power_balance_in_range = {
+-				id = ETH_centralization_balance
+-				range = ETH_mekwanint_power_range
+-			}
+-			is_power_balance_in_range = {
+-				id = ETH_centralization_balance
+-				range = ETH_mekwanint_dominant_range
+-			}
+-			is_power_balance_in_range = {
+-				id = ETH_centralization_balance
+-				range = ETH_mekwanint_total_control_range
+-			}
+-		}		
+-	}
+-}
+ 
+-ETH_is_horn_of_africa_original_tag = {
+-	OR = {
+-		original_tag = ETH
+-		original_tag = SOM
+-		original_tag = ERI
+-		original_tag = DJI
+-		original_tag = AFA
+-		original_tag = HAR
+-		original_tag = TIG
+-		original_tag = BEG
+-		original_tag = GBA
+-		original_tag = SID
+-		original_tag = ORO
+-		original_tag = QEM
+-	}
+-}+
++
++
++

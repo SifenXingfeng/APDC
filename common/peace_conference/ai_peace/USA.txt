@@ -39,10 +39,10 @@ peace_ai_desires = {
         enable = {
             FROM.FROM.FROM = {
                 OR = {
-                    state = 525
-                    state = 1029
                     state = 1031
-                    state = 1030
+                    state = 895
+                    state = 894
+                    state = 1517
                 }
             }
             FROM = {
@@ -69,10 +69,10 @@ peace_ai_desires = {
         enable = {
             FROM.FROM.FROM = {
                 OR = {
-                    state = 525
-                    state = 1029
                     state = 1031
-                    state = 1030
+                    state = 895
+                    state = 894
+                    state = 1517
                 }
             }
             FROM = {
@@ -101,8 +101,8 @@ peace_ai_desires = {
             is_historical_focus_on = yes
             FROM.FROM.FROM = {
                 OR = {
-                    state = 527
-                    state = 1028
+                    state = 1186
+                    state = 895
                 }
             }
             FROM = {

@@ -1,0 +1,43 @@
+state = {
+	id = 106
+	name = "STATE_106"
+	resources = {
+		chromium = 36
+		aluminium = 7
+	}
+	provinces = {
+		907
+		3833
+		3882
+		6886
+		11832
+		14449
+		14668
+		18179
+		18186
+		18198
+	}
+	manpower = 736179
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = YUG
+		controller = YUG
+		add_core_of = YUG
+		add_claim_by = BUL
+		victory_points = {
+			3882
+			1
+		}
+		victory_points = {
+			14668
+			5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+		}
+	}
+}

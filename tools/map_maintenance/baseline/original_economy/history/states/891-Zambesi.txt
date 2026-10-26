@@ -1,0 +1,28 @@
+state = {
+	id = 891
+	name = "STATE_891"
+	manpower = 640000
+	state_category = pastoral
+	
+	resources = {
+		rubber = 1.000
+	}
+
+	history = {
+
+		owner = POR
+		add_core_of = ANG
+
+		buildings = {
+			infrastructure = 1
+		}
+		
+	}
+
+	provinces = {
+		1552 4735 8054 13372 13736 13738 13760 13761 13762 13766 13781 13783 13789 13791 13798 13807 13808 13810 13815 13817 13824 13825 17921 17922 17923 17924 
+	}
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

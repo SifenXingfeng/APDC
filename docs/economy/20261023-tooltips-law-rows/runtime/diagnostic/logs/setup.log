@@ -1,0 +1,1010 @@
+[19:04:37][no_game_date][idea_database.cpp:300]: Ideas loaded '00_idea.txt' ideas #0, categories #15
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/unit_modifiers/unit_modifiers.txt' #0
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #0 tag = _test_power_balance_mod name = _test_power_balance_mod
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #1 tag = weather_rain_light name = 雨
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #2 tag = weather_rain_heavy name = 暴雨
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #3 tag = weather_snow name = 雪
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #4 tag = weather_blizzard name = 暴雪
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #5 tag = weather_sandstorm name = 沙尘暴
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #6 tag = weather_arctic_water name = 极地水域
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #7 tag = weather_mud name = 泥泞
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #8 tag = weather_extreme_cold name = 严寒
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #9 tag = weather_very_cold name = 寒冷
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #10 tag = weather_very_hot name = 炎热
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #11 tag = weather_extreme_hot name = 酷热
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #12 tag = weather_ground_snow_medium name = 积雪
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #13 tag = weather_ground_snow_high name = 厚积雪
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #14 tag = flooded name = 被淹没
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #15 tag = unplanned_offensive name = 未经计划的攻势
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #16 tag = night name = 夜晚
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #17 tag = resistance_effect_base name = resistance_effect_base
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #18 tag = resistance_effect name = H当地人反抗!
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #19 tag = compliance_effect_base name = compliance_effect_base
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #20 tag = compliance_effect name = compliance_effect
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #21 tag = non_core name = 非核心
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #22 tag = non_core_controller name = 无核心的控制者
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #23 tag = lacking_consumer_goods name = lacking_consumer_goods
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #24 tag = gain_focus name = gain_focus
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #25 tag = ROM_license_german_equipment name = 德国装备生产许可
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #26 tag = ROM_foreign_motor_company name = 汽车工业关系
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #27 tag = HUN_dynastic_ties_license name = 王室支持
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #28 tag = YUG_western_license name = 南斯拉夫采购委员会
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #29 tag = FRA_coordinate_rearmament name = 协调军备重整
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #30 tag = HUN_stubborn_fools name = 冥顽不化的蠢货
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #31 tag = ROM_military_modernization name = 军事现代化
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #32 tag = free_license name = 免费生产许可
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #33 tag = ITA_military_agreements name = 军事协议
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #34 tag = stability_good_modifier name = 稳定度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #35 tag = stability_bad_modifier name = 稳定度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #36 tag = war_support_good_modifier name = 战争支持度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #37 tag = war_support_bad_modifier name = 战争支持度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #38 tag = war_support_during_war name = 战争支持度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #39 tag = attache_sent name = 已派出顾问
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #40 tag = diff_very_easy_player name = 平民难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #41 tag = diff_easy_player name = 新人难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #42 tag = diff_normal_player name = 难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #43 tag = diff_hard_player name = 老兵难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #44 tag = diff_very_hard_player name = 王牌难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #45 tag = diff_very_easy_ai name = diff_very_easy_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #46 tag = diff_easy_ai name = diff_easy_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #47 tag = diff_normal_ai name = diff_normal_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #48 tag = diff_hard_ai name = diff_hard_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #49 tag = diff_very_hard_ai name = diff_very_hard_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #50 tag = diff_strong_ai_generic name = 加强AI
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #51 tag = naval_mines_effect name = naval_mines_effect
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #52 tag = air_wing_experience_bonus_max name = air_wing_experience_bonus_max
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #53 tag = air_wing_experience_malus_min name = air_wing_experience_malus_min
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #54 tag = ship_experience_bonus_max name = ship_experience_bonus_max
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #55 tag = ship_experience_malus_min name = ship_experience_malus_min
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #56 tag = carrier_experience_bonus_max name = 来自航母的经验
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #57 tag = carrier_experience_malus_min name = 来自航母的经验
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #58 tag = pride_of_the_fleet name = 舰队荣耀
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #59 tag = pride_of_the_fleet_country name = 拥有舰队荣耀
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #60 tag = pride_of_the_fleet_sunk_temporary name = 舰队荣耀最近被击沉
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #61 tag = water_modifier_shark_infested name = water_modifier_shark_infested
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #62 tag = screening_bonus name = screening_bonus
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #63 tag = capital_screening_bonus name = capital_screening_bonus
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #64 tag = country_is_at_peace name = 国家处于和平状态
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #65 tag = country_is_at_war name = 国家处于战争状态
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #66 tag = passive_decryption_modifier name = 已破译敌方密码
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #67 tag = active_decryption_modifier name = 利用已破译的敌方密码获取全部情报
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #68 tag = intel_network_state_level_bonus name = operative_mission_icons_small|1情报网
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #69 tag = intel_network_state_level_penalty name = operative_mission_icons_small|1敌方情报网
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #70 tag = created_intelligence_agency name = 情报机构
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #71 tag = root_out_resistance_mission_modifier name = 根除抵抗组织任务
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #72 tag = operative_nationality_mission name = 来自当地国籍
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #73 tag = operative_nationality_operation name = 来自当地国籍
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #74 tag = FRA_host_the_german_exiles name = 接待德国流亡者
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #75 tag = FRA_reorganized_departments name = 重组政府部门
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #76 tag = GER_rescued_mussolini name = 救出墨索里尼
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #77 tag = FRA_carry_the_revolution_south name = 向南输出革命
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #78 tag = SOV_soviet_chinese_relations name = 苏中关系
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #79 tag = SOV_face_western_fascism_static name = SOV_face_western_fascism_static
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #80 tag = SOV_for_the_common_good_relation name = 为了共同利益
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #81 tag = ETH_league_of_nations_volunteer_resolution name = 国际联盟国际纵队决议
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #82 tag = ETH_support_spain_static_modifier name = 援助西班牙
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #83 tag = NORDIC_allow_lendlease name = 北欧租借法案
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #84 tag = NORDIC_allow_volunteers name = 北欧志愿军
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #85 tag = NORDIC_allow_more_volunteers name = 扩充北欧志愿军上限
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #86 tag = NORDIC_allow_more_planes name = 扩充北欧空中支援力量
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #87 tag = FIN_organized_support_for_finland name = 组织化援芬
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #88 tag = CHL_from_support_chile_static_modifier name = 支持阿劳卡尼亚和巴塔哥尼亚王国
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #89 tag = naval_general_support name = 海军通用支援
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #90 tag = naval_repair_support name = 海军维修支援
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #91 tag = JAP_support_ethiopia_static_modifier name = 支援埃塞俄比亚
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #92 tag = the_great_wall name = 长城
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #93 tag = CZE_license_equipment_agreement name = CZE_license_equipment_agreement
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #94 tag = CZE_i_am_agreeable_to_license name = 斯柯达和CKD采购合同
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #95 tag = CZE_usurp_the_mantle name = 宣称帝位
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #0 tag = _test_power_balance_mod name = _test_power_balance_mod
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #1 tag = weather_rain_light name = 雨
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #2 tag = weather_rain_heavy name = 暴雨
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #3 tag = weather_snow name = 雪
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #4 tag = weather_blizzard name = 暴雪
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #5 tag = weather_sandstorm name = 沙尘暴
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #6 tag = weather_arctic_water name = 极地水域
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #7 tag = weather_mud name = 泥泞
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #8 tag = weather_extreme_cold name = 严寒
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #9 tag = weather_very_cold name = 寒冷
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #10 tag = weather_very_hot name = 炎热
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #11 tag = weather_extreme_hot name = 酷热
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #12 tag = weather_ground_snow_medium name = 积雪
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #13 tag = weather_ground_snow_high name = 厚积雪
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #14 tag = flooded name = 被淹没
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #15 tag = unplanned_offensive name = 未经计划的攻势
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #16 tag = night name = 夜晚
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #17 tag = resistance_effect_base name = resistance_effect_base
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #18 tag = resistance_effect name = H当地人反抗!
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #19 tag = compliance_effect_base name = compliance_effect_base
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #20 tag = compliance_effect name = compliance_effect
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #21 tag = non_core name = 非核心
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #22 tag = non_core_controller name = 无核心的控制者
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #23 tag = lacking_consumer_goods name = lacking_consumer_goods
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #24 tag = gain_focus name = gain_focus
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #25 tag = ROM_license_german_equipment name = 德国装备生产许可
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #26 tag = ROM_foreign_motor_company name = 汽车工业关系
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #27 tag = HUN_dynastic_ties_license name = 王室支持
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #28 tag = YUG_western_license name = 南斯拉夫采购委员会
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #29 tag = FRA_coordinate_rearmament name = 协调军备重整
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #30 tag = HUN_stubborn_fools name = 冥顽不化的蠢货
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #31 tag = ROM_military_modernization name = 军事现代化
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #32 tag = free_license name = 免费生产许可
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #33 tag = ITA_military_agreements name = 军事协议
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #34 tag = stability_good_modifier name = 稳定度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #35 tag = stability_bad_modifier name = 稳定度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #36 tag = war_support_good_modifier name = 战争支持度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #37 tag = war_support_bad_modifier name = 战争支持度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #38 tag = war_support_during_war name = 战争支持度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #39 tag = attache_sent name = 已派出顾问
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #40 tag = diff_very_easy_player name = 平民难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #41 tag = diff_easy_player name = 新人难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #42 tag = diff_normal_player name = 难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #43 tag = diff_hard_player name = 老兵难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #44 tag = diff_very_hard_player name = 王牌难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #45 tag = diff_very_easy_ai name = diff_very_easy_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #46 tag = diff_easy_ai name = diff_easy_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #47 tag = diff_normal_ai name = diff_normal_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #48 tag = diff_hard_ai name = diff_hard_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #49 tag = diff_very_hard_ai name = diff_very_hard_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #50 tag = diff_strong_ai_generic name = 加强AI
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #51 tag = naval_mines_effect name = naval_mines_effect
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #52 tag = air_wing_experience_bonus_max name = air_wing_experience_bonus_max
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #53 tag = air_wing_experience_malus_min name = air_wing_experience_malus_min
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #54 tag = ship_experience_bonus_max name = ship_experience_bonus_max
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #55 tag = ship_experience_malus_min name = ship_experience_malus_min
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #56 tag = carrier_experience_bonus_max name = 来自航母的经验
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #57 tag = carrier_experience_malus_min name = 来自航母的经验
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #58 tag = pride_of_the_fleet name = 舰队荣耀
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #59 tag = pride_of_the_fleet_country name = 拥有舰队荣耀
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #60 tag = pride_of_the_fleet_sunk_temporary name = 舰队荣耀最近被击沉
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #61 tag = water_modifier_shark_infested name = water_modifier_shark_infested
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #62 tag = screening_bonus name = screening_bonus
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #63 tag = capital_screening_bonus name = capital_screening_bonus
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #64 tag = country_is_at_peace name = 国家处于和平状态
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #65 tag = country_is_at_war name = 国家处于战争状态
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #66 tag = passive_decryption_modifier name = 已破译敌方密码
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #67 tag = active_decryption_modifier name = 利用已破译的敌方密码获取全部情报
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #68 tag = intel_network_state_level_bonus name = operative_mission_icons_small|1情报网
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #69 tag = intel_network_state_level_penalty name = operative_mission_icons_small|1敌方情报网
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #70 tag = created_intelligence_agency name = 情报机构
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #71 tag = root_out_resistance_mission_modifier name = 根除抵抗组织任务
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #72 tag = operative_nationality_mission name = 来自当地国籍
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #73 tag = operative_nationality_operation name = 来自当地国籍
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #74 tag = FRA_host_the_german_exiles name = 接待德国流亡者
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #75 tag = FRA_reorganized_departments name = 重组政府部门
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #76 tag = GER_rescued_mussolini name = 救出墨索里尼
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #77 tag = FRA_carry_the_revolution_south name = 向南输出革命
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #78 tag = SOV_soviet_chinese_relations name = 苏中关系
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #79 tag = SOV_face_western_fascism_static name = SOV_face_western_fascism_static
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #80 tag = SOV_for_the_common_good_relation name = 为了共同利益
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #81 tag = ETH_league_of_nations_volunteer_resolution name = 国际联盟国际纵队决议
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #82 tag = ETH_support_spain_static_modifier name = 援助西班牙
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #83 tag = NORDIC_allow_lendlease name = 北欧租借法案
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #84 tag = NORDIC_allow_volunteers name = 北欧志愿军
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #85 tag = NORDIC_allow_more_volunteers name = 扩充北欧志愿军上限
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #86 tag = NORDIC_allow_more_planes name = 扩充北欧空中支援力量
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #87 tag = FIN_organized_support_for_finland name = 组织化援芬
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #88 tag = CHL_from_support_chile_static_modifier name = 支持阿劳卡尼亚和巴塔哥尼亚王国
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #89 tag = naval_general_support name = 海军通用支援
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #90 tag = naval_repair_support name = 海军维修支援
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #91 tag = JAP_support_ethiopia_static_modifier name = 支援埃塞俄比亚
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #92 tag = the_great_wall name = 长城
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #93 tag = CZE_license_equipment_agreement name = CZE_license_equipment_agreement
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #94 tag = CZE_i_am_agreeable_to_license name = 斯柯达和CKD采购合同
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #95 tag = CZE_usurp_the_mantle name = 宣称帝位
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #0 tag = _test_power_balance_mod name = _test_power_balance_mod
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #1 tag = weather_rain_light name = 雨
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #2 tag = weather_rain_heavy name = 暴雨
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #3 tag = weather_snow name = 雪
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #4 tag = weather_blizzard name = 暴雪
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #5 tag = weather_sandstorm name = 沙尘暴
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #6 tag = weather_arctic_water name = 极地水域
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #7 tag = weather_mud name = 泥泞
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #8 tag = weather_extreme_cold name = 严寒
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #9 tag = weather_very_cold name = 寒冷
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #10 tag = weather_very_hot name = 炎热
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #11 tag = weather_extreme_hot name = 酷热
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #12 tag = weather_ground_snow_medium name = 积雪
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #13 tag = weather_ground_snow_high name = 厚积雪
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #14 tag = flooded name = 被淹没
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #15 tag = unplanned_offensive name = 未经计划的攻势
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #16 tag = night name = 夜晚
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #17 tag = resistance_effect_base name = resistance_effect_base
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #18 tag = resistance_effect name = H当地人反抗!
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #19 tag = compliance_effect_base name = compliance_effect_base
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #20 tag = compliance_effect name = compliance_effect
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #21 tag = non_core name = 非核心
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #22 tag = non_core_controller name = 无核心的控制者
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #23 tag = lacking_consumer_goods name = lacking_consumer_goods
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #24 tag = gain_focus name = gain_focus
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #25 tag = ROM_license_german_equipment name = 德国装备生产许可
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #26 tag = ROM_foreign_motor_company name = 汽车工业关系
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #27 tag = HUN_dynastic_ties_license name = 王室支持
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #28 tag = YUG_western_license name = 南斯拉夫采购委员会
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #29 tag = FRA_coordinate_rearmament name = 协调军备重整
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #30 tag = HUN_stubborn_fools name = 冥顽不化的蠢货
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #31 tag = ROM_military_modernization name = 军事现代化
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #32 tag = free_license name = 免费生产许可
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #33 tag = ITA_military_agreements name = 军事协议
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #34 tag = stability_good_modifier name = 稳定度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #35 tag = stability_bad_modifier name = 稳定度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #36 tag = war_support_good_modifier name = 战争支持度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #37 tag = war_support_bad_modifier name = 战争支持度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #38 tag = war_support_during_war name = 战争支持度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #39 tag = attache_sent name = 已派出顾问
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #40 tag = diff_very_easy_player name = 平民难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #41 tag = diff_easy_player name = 新人难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #42 tag = diff_normal_player name = 难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #43 tag = diff_hard_player name = 老兵难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #44 tag = diff_very_hard_player name = 王牌难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #45 tag = diff_very_easy_ai name = diff_very_easy_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #46 tag = diff_easy_ai name = diff_easy_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #47 tag = diff_normal_ai name = diff_normal_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #48 tag = diff_hard_ai name = diff_hard_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #49 tag = diff_very_hard_ai name = diff_very_hard_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #50 tag = diff_strong_ai_generic name = 加强AI
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #51 tag = naval_mines_effect name = naval_mines_effect
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #52 tag = air_wing_experience_bonus_max name = air_wing_experience_bonus_max
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #53 tag = air_wing_experience_malus_min name = air_wing_experience_malus_min
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #54 tag = ship_experience_bonus_max name = ship_experience_bonus_max
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #55 tag = ship_experience_malus_min name = ship_experience_malus_min
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #56 tag = carrier_experience_bonus_max name = 来自航母的经验
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #57 tag = carrier_experience_malus_min name = 来自航母的经验
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #58 tag = pride_of_the_fleet name = 舰队荣耀
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #59 tag = pride_of_the_fleet_country name = 拥有舰队荣耀
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #60 tag = pride_of_the_fleet_sunk_temporary name = 舰队荣耀最近被击沉
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #61 tag = water_modifier_shark_infested name = water_modifier_shark_infested
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #62 tag = screening_bonus name = screening_bonus
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #63 tag = capital_screening_bonus name = capital_screening_bonus
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #64 tag = country_is_at_peace name = 国家处于和平状态
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #65 tag = country_is_at_war name = 国家处于战争状态
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #66 tag = passive_decryption_modifier name = 已破译敌方密码
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #67 tag = active_decryption_modifier name = 利用已破译的敌方密码获取全部情报
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #68 tag = intel_network_state_level_bonus name = operative_mission_icons_small|1情报网
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #69 tag = intel_network_state_level_penalty name = operative_mission_icons_small|1敌方情报网
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #70 tag = created_intelligence_agency name = 情报机构
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #71 tag = root_out_resistance_mission_modifier name = 根除抵抗组织任务
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #72 tag = operative_nationality_mission name = 来自当地国籍
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #73 tag = operative_nationality_operation name = 来自当地国籍
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #74 tag = FRA_host_the_german_exiles name = 接待德国流亡者
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #75 tag = FRA_reorganized_departments name = 重组政府部门
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #76 tag = GER_rescued_mussolini name = 救出墨索里尼
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #77 tag = FRA_carry_the_revolution_south name = 向南输出革命
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #78 tag = SOV_soviet_chinese_relations name = 苏中关系
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #79 tag = SOV_face_western_fascism_static name = SOV_face_western_fascism_static
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #80 tag = SOV_for_the_common_good_relation name = 为了共同利益
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #81 tag = ETH_league_of_nations_volunteer_resolution name = 国际联盟国际纵队决议
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #82 tag = ETH_support_spain_static_modifier name = 援助西班牙
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #83 tag = NORDIC_allow_lendlease name = 北欧租借法案
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #84 tag = NORDIC_allow_volunteers name = 北欧志愿军
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #85 tag = NORDIC_allow_more_volunteers name = 扩充北欧志愿军上限
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #86 tag = NORDIC_allow_more_planes name = 扩充北欧空中支援力量
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #87 tag = FIN_organized_support_for_finland name = 组织化援芬
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #88 tag = CHL_from_support_chile_static_modifier name = 支持阿劳卡尼亚和巴塔哥尼亚王国
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #89 tag = naval_general_support name = 海军通用支援
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #90 tag = naval_repair_support name = 海军维修支援
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #91 tag = JAP_support_ethiopia_static_modifier name = 支援埃塞俄比亚
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #92 tag = the_great_wall name = 长城
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #93 tag = CZE_license_equipment_agreement name = CZE_license_equipment_agreement
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #94 tag = CZE_i_am_agreeable_to_license name = 斯柯达和CKD采购合同
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #95 tag = CZE_usurp_the_mantle name = 宣称帝位
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #96 tag = FIN_bop_modifier_eradicate_socialism name = 根除社会主义
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #97 tag = FIN_bop_modifier_eradicate_extremists name = 根除极端分子
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #98 tag = FIN_bop_modifier_dream_of_greater_finland name = 大芬兰之梦
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #99 tag = FIN_bop_modifier_reliable_leader name = 可靠的领袖
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #100 tag = FIN_bop_modifier_realist_conservative name = 现实主义保守派
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #101 tag = FIN_bop_modifier_strong_nation name = 大国强权
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #102 tag = FIN_bop_modifier_united_nation name = 团结的国家
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #103 tag = FIN_bop_modifier_anti_fascist_crusade name = 反法西斯圣战
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #104 tag = FIN_bop_modifier_obliterated_european_fascism name = 欧洲法西斯消亡
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #105 tag = FIN_bop_modifier_a_solar_system_of_organizations name = 众星拱月
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #106 tag = FIN_bop_modifier_finnish_sovereignty_threatened name = 芬兰主权受到威胁
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #107 tag = FIN_bop_modifier_concerning_support_for_socialists name = 社会主义支持度如鲠在喉
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #108 tag = FIN_bop_modifier_concerning_support_for_extremists name = 极端分子支持度如鲠在喉
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #109 tag = FIN_bop_modifier_appointed_regent name = 临危受命
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #110 tag = FIN_bop_modifier_caretaker name = 政府看守人
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #111 tag = FIN_bop_modifier_divided_proletariat name = 无产者分崩离析
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #112 tag = FIN_bop_modifier_forgotten_finno_karelians name = 芬裔卡累利阿人遭忽视
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #0 tag = _test_power_balance_mod name = _test_power_balance_mod
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #1 tag = weather_rain_light name = 雨
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #2 tag = weather_rain_heavy name = 暴雨
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #3 tag = weather_snow name = 雪
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #4 tag = weather_blizzard name = 暴雪
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #5 tag = weather_sandstorm name = 沙尘暴
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #6 tag = weather_arctic_water name = 极地水域
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #7 tag = weather_mud name = 泥泞
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #8 tag = weather_extreme_cold name = 严寒
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #9 tag = weather_very_cold name = 寒冷
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #10 tag = weather_very_hot name = 炎热
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #11 tag = weather_extreme_hot name = 酷热
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #12 tag = weather_ground_snow_medium name = 积雪
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #13 tag = weather_ground_snow_high name = 厚积雪
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #14 tag = flooded name = 被淹没
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #15 tag = unplanned_offensive name = 未经计划的攻势
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #16 tag = night name = 夜晚
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #17 tag = resistance_effect_base name = resistance_effect_base
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #18 tag = resistance_effect name = H当地人反抗!
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #19 tag = compliance_effect_base name = compliance_effect_base
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #20 tag = compliance_effect name = compliance_effect
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #21 tag = non_core name = 非核心
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #22 tag = non_core_controller name = 无核心的控制者
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #23 tag = lacking_consumer_goods name = lacking_consumer_goods
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #24 tag = gain_focus name = gain_focus
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #25 tag = ROM_license_german_equipment name = 德国装备生产许可
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #26 tag = ROM_foreign_motor_company name = 汽车工业关系
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #27 tag = HUN_dynastic_ties_license name = 王室支持
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #28 tag = YUG_western_license name = 南斯拉夫采购委员会
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #29 tag = FRA_coordinate_rearmament name = 协调军备重整
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #30 tag = HUN_stubborn_fools name = 冥顽不化的蠢货
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #31 tag = ROM_military_modernization name = 军事现代化
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #32 tag = free_license name = 免费生产许可
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #33 tag = ITA_military_agreements name = 军事协议
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #34 tag = stability_good_modifier name = 稳定度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #35 tag = stability_bad_modifier name = 稳定度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #36 tag = war_support_good_modifier name = 战争支持度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #37 tag = war_support_bad_modifier name = 战争支持度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #38 tag = war_support_during_war name = 战争支持度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #39 tag = attache_sent name = 已派出顾问
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #40 tag = diff_very_easy_player name = 平民难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #41 tag = diff_easy_player name = 新人难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #42 tag = diff_normal_player name = 难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #43 tag = diff_hard_player name = 老兵难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #44 tag = diff_very_hard_player name = 王牌难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #45 tag = diff_very_easy_ai name = diff_very_easy_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #46 tag = diff_easy_ai name = diff_easy_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #47 tag = diff_normal_ai name = diff_normal_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #48 tag = diff_hard_ai name = diff_hard_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #49 tag = diff_very_hard_ai name = diff_very_hard_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #50 tag = diff_strong_ai_generic name = 加强AI
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #51 tag = naval_mines_effect name = naval_mines_effect
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #52 tag = air_wing_experience_bonus_max name = air_wing_experience_bonus_max
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #53 tag = air_wing_experience_malus_min name = air_wing_experience_malus_min
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #54 tag = ship_experience_bonus_max name = ship_experience_bonus_max
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #55 tag = ship_experience_malus_min name = ship_experience_malus_min
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #56 tag = carrier_experience_bonus_max name = 来自航母的经验
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #57 tag = carrier_experience_malus_min name = 来自航母的经验
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #58 tag = pride_of_the_fleet name = 舰队荣耀
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #59 tag = pride_of_the_fleet_country name = 拥有舰队荣耀
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #60 tag = pride_of_the_fleet_sunk_temporary name = 舰队荣耀最近被击沉
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #61 tag = water_modifier_shark_infested name = water_modifier_shark_infested
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #62 tag = screening_bonus name = screening_bonus
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #63 tag = capital_screening_bonus name = capital_screening_bonus
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #64 tag = country_is_at_peace name = 国家处于和平状态
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #65 tag = country_is_at_war name = 国家处于战争状态
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #66 tag = passive_decryption_modifier name = 已破译敌方密码
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #67 tag = active_decryption_modifier name = 利用已破译的敌方密码获取全部情报
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #68 tag = intel_network_state_level_bonus name = operative_mission_icons_small|1情报网
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #69 tag = intel_network_state_level_penalty name = operative_mission_icons_small|1敌方情报网
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #70 tag = created_intelligence_agency name = 情报机构
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #71 tag = root_out_resistance_mission_modifier name = 根除抵抗组织任务
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #72 tag = operative_nationality_mission name = 来自当地国籍
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #73 tag = operative_nationality_operation name = 来自当地国籍
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #74 tag = FRA_host_the_german_exiles name = 接待德国流亡者
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #75 tag = FRA_reorganized_departments name = 重组政府部门
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #76 tag = GER_rescued_mussolini name = 救出墨索里尼
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #77 tag = FRA_carry_the_revolution_south name = 向南输出革命
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #78 tag = SOV_soviet_chinese_relations name = 苏中关系
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #79 tag = SOV_face_western_fascism_static name = SOV_face_western_fascism_static
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #80 tag = SOV_for_the_common_good_relation name = 为了共同利益
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #81 tag = ETH_league_of_nations_volunteer_resolution name = 国际联盟国际纵队决议
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #82 tag = ETH_support_spain_static_modifier name = 援助西班牙
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #83 tag = NORDIC_allow_lendlease name = 北欧租借法案
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #84 tag = NORDIC_allow_volunteers name = 北欧志愿军
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #85 tag = NORDIC_allow_more_volunteers name = 扩充北欧志愿军上限
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #86 tag = NORDIC_allow_more_planes name = 扩充北欧空中支援力量
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #87 tag = FIN_organized_support_for_finland name = 组织化援芬
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #88 tag = CHL_from_support_chile_static_modifier name = 支持阿劳卡尼亚和巴塔哥尼亚王国
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #89 tag = naval_general_support name = 海军通用支援
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #90 tag = naval_repair_support name = 海军维修支援
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #91 tag = JAP_support_ethiopia_static_modifier name = 支援埃塞俄比亚
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #92 tag = the_great_wall name = 长城
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #93 tag = CZE_license_equipment_agreement name = CZE_license_equipment_agreement
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #94 tag = CZE_i_am_agreeable_to_license name = 斯柯达和CKD采购合同
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #95 tag = CZE_usurp_the_mantle name = 宣称帝位
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #96 tag = FIN_bop_modifier_eradicate_socialism name = 根除社会主义
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #97 tag = FIN_bop_modifier_eradicate_extremists name = 根除极端分子
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #98 tag = FIN_bop_modifier_dream_of_greater_finland name = 大芬兰之梦
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #99 tag = FIN_bop_modifier_reliable_leader name = 可靠的领袖
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #100 tag = FIN_bop_modifier_realist_conservative name = 现实主义保守派
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #101 tag = FIN_bop_modifier_strong_nation name = 大国强权
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #102 tag = FIN_bop_modifier_united_nation name = 团结的国家
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #103 tag = FIN_bop_modifier_anti_fascist_crusade name = 反法西斯圣战
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #104 tag = FIN_bop_modifier_obliterated_european_fascism name = 欧洲法西斯消亡
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #105 tag = FIN_bop_modifier_a_solar_system_of_organizations name = 众星拱月
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #106 tag = FIN_bop_modifier_finnish_sovereignty_threatened name = 芬兰主权受到威胁
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #107 tag = FIN_bop_modifier_concerning_support_for_socialists name = 社会主义支持度如鲠在喉
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #108 tag = FIN_bop_modifier_concerning_support_for_extremists name = 极端分子支持度如鲠在喉
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #109 tag = FIN_bop_modifier_appointed_regent name = 临危受命
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #110 tag = FIN_bop_modifier_caretaker name = 政府看守人
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #111 tag = FIN_bop_modifier_divided_proletariat name = 无产者分崩离析
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #112 tag = FIN_bop_modifier_forgotten_finno_karelians name = 芬裔卡累利阿人遭忽视
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #113 tag = SWI_guiding_principles_cantons name = 瑞士指导原则
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #114 tag = SWI_guiding_principles_council name = 瑞士指导原则
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #115 tag = SWI_guisan_power_balance name = 亨利·吉桑
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #116 tag = SWI_aktion_nationaler_widerstand_mod name = 全国抵抗运动
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #117 tag = SWI_romansh name = 已采用罗曼什语
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #118 tag = SWI_DEBUG_all_cantons name = SWI_DEBUG_all_cantons
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #119 tag = SWI_DEBUG_all_council name = SWI_DEBUG_all_council
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #120 tag = ETH_withdraw_priviliges_power_balance name = 世袭贵族特权减少
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #121 tag = ETH_increase_priviliges_power_balance name = 世袭贵族特权增加
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #122 tag = ETH_increase_communist_power_balance name = 增加对共产主义者的支持
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #123 tag = ETH_increase_anarchist_power_balance name = 提高安那其派支持度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #124 tag = ETH_BoP_spanish_exiles_modifier name = 西班牙流亡安那其的避难所
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #125 tag = ITA_power_balance_lost_core_1 name = 失去的核心地区
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #126 tag = ITA_power_balance_lost_core_2 name = 失去的核心地区
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #127 tag = ITA_power_balance_lost_core_3 name = 失去的核心地区
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #128 tag = ITA_power_balance_lost_core_4 name = 失去的核心地区
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #129 tag = ITA_power_balance_lost_core_5 name = 失去的核心地区
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #0 tag = _test_power_balance_mod name = _test_power_balance_mod
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #1 tag = weather_rain_light name = 雨
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #2 tag = weather_rain_heavy name = 暴雨
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #3 tag = weather_snow name = 雪
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #4 tag = weather_blizzard name = 暴雪
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #5 tag = weather_sandstorm name = 沙尘暴
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #6 tag = weather_arctic_water name = 极地水域
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #7 tag = weather_mud name = 泥泞
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #8 tag = weather_extreme_cold name = 严寒
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #9 tag = weather_very_cold name = 寒冷
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #10 tag = weather_very_hot name = 炎热
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #11 tag = weather_extreme_hot name = 酷热
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #12 tag = weather_ground_snow_medium name = 积雪
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #13 tag = weather_ground_snow_high name = 厚积雪
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #14 tag = flooded name = 被淹没
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #15 tag = unplanned_offensive name = 未经计划的攻势
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #16 tag = night name = 夜晚
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #17 tag = resistance_effect_base name = resistance_effect_base
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #18 tag = resistance_effect name = H当地人反抗!
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #19 tag = compliance_effect_base name = compliance_effect_base
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #20 tag = compliance_effect name = compliance_effect
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #21 tag = non_core name = 非核心
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #22 tag = non_core_controller name = 无核心的控制者
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #23 tag = lacking_consumer_goods name = lacking_consumer_goods
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #24 tag = gain_focus name = gain_focus
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #25 tag = ROM_license_german_equipment name = 德国装备生产许可
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #26 tag = ROM_foreign_motor_company name = 汽车工业关系
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #27 tag = HUN_dynastic_ties_license name = 王室支持
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #28 tag = YUG_western_license name = 南斯拉夫采购委员会
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #29 tag = FRA_coordinate_rearmament name = 协调军备重整
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #30 tag = HUN_stubborn_fools name = 冥顽不化的蠢货
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #31 tag = ROM_military_modernization name = 军事现代化
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #32 tag = free_license name = 免费生产许可
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #33 tag = ITA_military_agreements name = 军事协议
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #34 tag = stability_good_modifier name = 稳定度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #35 tag = stability_bad_modifier name = 稳定度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #36 tag = war_support_good_modifier name = 战争支持度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #37 tag = war_support_bad_modifier name = 战争支持度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #38 tag = war_support_during_war name = 战争支持度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #39 tag = attache_sent name = 已派出顾问
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #40 tag = diff_very_easy_player name = 平民难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #41 tag = diff_easy_player name = 新人难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #42 tag = diff_normal_player name = 难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #43 tag = diff_hard_player name = 老兵难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #44 tag = diff_very_hard_player name = 王牌难度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #45 tag = diff_very_easy_ai name = diff_very_easy_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #46 tag = diff_easy_ai name = diff_easy_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #47 tag = diff_normal_ai name = diff_normal_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #48 tag = diff_hard_ai name = diff_hard_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #49 tag = diff_very_hard_ai name = diff_very_hard_ai
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #50 tag = diff_strong_ai_generic name = 加强AI
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #51 tag = naval_mines_effect name = naval_mines_effect
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #52 tag = air_wing_experience_bonus_max name = air_wing_experience_bonus_max
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #53 tag = air_wing_experience_malus_min name = air_wing_experience_malus_min
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #54 tag = ship_experience_bonus_max name = ship_experience_bonus_max
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #55 tag = ship_experience_malus_min name = ship_experience_malus_min
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #56 tag = carrier_experience_bonus_max name = 来自航母的经验
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #57 tag = carrier_experience_malus_min name = 来自航母的经验
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #58 tag = pride_of_the_fleet name = 舰队荣耀
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #59 tag = pride_of_the_fleet_country name = 拥有舰队荣耀
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #60 tag = pride_of_the_fleet_sunk_temporary name = 舰队荣耀最近被击沉
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #61 tag = water_modifier_shark_infested name = water_modifier_shark_infested
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #62 tag = screening_bonus name = screening_bonus
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #63 tag = capital_screening_bonus name = capital_screening_bonus
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #64 tag = country_is_at_peace name = 国家处于和平状态
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #65 tag = country_is_at_war name = 国家处于战争状态
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #66 tag = passive_decryption_modifier name = 已破译敌方密码
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #67 tag = active_decryption_modifier name = 利用已破译的敌方密码获取全部情报
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #68 tag = intel_network_state_level_bonus name = operative_mission_icons_small|1情报网
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #69 tag = intel_network_state_level_penalty name = operative_mission_icons_small|1敌方情报网
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #70 tag = created_intelligence_agency name = 情报机构
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #71 tag = root_out_resistance_mission_modifier name = 根除抵抗组织任务
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #72 tag = operative_nationality_mission name = 来自当地国籍
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #73 tag = operative_nationality_operation name = 来自当地国籍
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #74 tag = FRA_host_the_german_exiles name = 接待德国流亡者
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #75 tag = FRA_reorganized_departments name = 重组政府部门
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #76 tag = GER_rescued_mussolini name = 救出墨索里尼
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #77 tag = FRA_carry_the_revolution_south name = 向南输出革命
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #78 tag = SOV_soviet_chinese_relations name = 苏中关系
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #79 tag = SOV_face_western_fascism_static name = SOV_face_western_fascism_static
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #80 tag = SOV_for_the_common_good_relation name = 为了共同利益
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #81 tag = ETH_league_of_nations_volunteer_resolution name = 国际联盟国际纵队决议
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #82 tag = ETH_support_spain_static_modifier name = 援助西班牙
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #83 tag = NORDIC_allow_lendlease name = 北欧租借法案
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #84 tag = NORDIC_allow_volunteers name = 北欧志愿军
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #85 tag = NORDIC_allow_more_volunteers name = 扩充北欧志愿军上限
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #86 tag = NORDIC_allow_more_planes name = 扩充北欧空中支援力量
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #87 tag = FIN_organized_support_for_finland name = 组织化援芬
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #88 tag = CHL_from_support_chile_static_modifier name = 支持阿劳卡尼亚和巴塔哥尼亚王国
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #89 tag = naval_general_support name = 海军通用支援
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #90 tag = naval_repair_support name = 海军维修支援
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #91 tag = JAP_support_ethiopia_static_modifier name = 支援埃塞俄比亚
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #92 tag = the_great_wall name = 长城
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #93 tag = CZE_license_equipment_agreement name = CZE_license_equipment_agreement
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #94 tag = CZE_i_am_agreeable_to_license name = 斯柯达和CKD采购合同
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #95 tag = CZE_usurp_the_mantle name = 宣称帝位
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #96 tag = FIN_bop_modifier_eradicate_socialism name = 根除社会主义
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #97 tag = FIN_bop_modifier_eradicate_extremists name = 根除极端分子
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #98 tag = FIN_bop_modifier_dream_of_greater_finland name = 大芬兰之梦
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #99 tag = FIN_bop_modifier_reliable_leader name = 可靠的领袖
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #100 tag = FIN_bop_modifier_realist_conservative name = 现实主义保守派
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #101 tag = FIN_bop_modifier_strong_nation name = 大国强权
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #102 tag = FIN_bop_modifier_united_nation name = 团结的国家
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #103 tag = FIN_bop_modifier_anti_fascist_crusade name = 反法西斯圣战
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #104 tag = FIN_bop_modifier_obliterated_european_fascism name = 欧洲法西斯消亡
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #105 tag = FIN_bop_modifier_a_solar_system_of_organizations name = 众星拱月
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #106 tag = FIN_bop_modifier_finnish_sovereignty_threatened name = 芬兰主权受到威胁
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #107 tag = FIN_bop_modifier_concerning_support_for_socialists name = 社会主义支持度如鲠在喉
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #108 tag = FIN_bop_modifier_concerning_support_for_extremists name = 极端分子支持度如鲠在喉
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #109 tag = FIN_bop_modifier_appointed_regent name = 临危受命
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #110 tag = FIN_bop_modifier_caretaker name = 政府看守人
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #111 tag = FIN_bop_modifier_divided_proletariat name = 无产者分崩离析
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #112 tag = FIN_bop_modifier_forgotten_finno_karelians name = 芬裔卡累利阿人遭忽视
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #113 tag = SWI_guiding_principles_cantons name = 瑞士指导原则
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #114 tag = SWI_guiding_principles_council name = 瑞士指导原则
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #115 tag = SWI_guisan_power_balance name = 亨利·吉桑
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #116 tag = SWI_aktion_nationaler_widerstand_mod name = 全国抵抗运动
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #117 tag = SWI_romansh name = 已采用罗曼什语
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #118 tag = SWI_DEBUG_all_cantons name = SWI_DEBUG_all_cantons
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #119 tag = SWI_DEBUG_all_council name = SWI_DEBUG_all_council
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #120 tag = ETH_withdraw_priviliges_power_balance name = 世袭贵族特权减少
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #121 tag = ETH_increase_priviliges_power_balance name = 世袭贵族特权增加
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #122 tag = ETH_increase_communist_power_balance name = 增加对共产主义者的支持
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #123 tag = ETH_increase_anarchist_power_balance name = 提高安那其派支持度
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #124 tag = ETH_BoP_spanish_exiles_modifier name = 西班牙流亡安那其的避难所
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #125 tag = ITA_power_balance_lost_core_1 name = 失去的核心地区
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #126 tag = ITA_power_balance_lost_core_2 name = 失去的核心地区
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #127 tag = ITA_power_balance_lost_core_3 name = 失去的核心地区
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #128 tag = ITA_power_balance_lost_core_4 name = 失去的核心地区
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #129 tag = ITA_power_balance_lost_core_5 name = 失去的核心地区
+[19:04:37][no_game_date][modifier.cpp:152]: StaticModifier #130 tag = CZE_bop_modifier_czech_sovereignty_is_threatened name = 邻国威胁
+[19:04:37][no_game_date][strategic_resource_database.cpp:88]: Strategic resources loaded 'common/resources/00_resources.txt' #7
+[19:04:37][no_game_date][equipment_database.cpp:570]: Upgrade(s) loaded 'common/units/equipment/upgrades/air_upgrades.txt' #12
+[19:04:37][no_game_date][equipment_database.cpp:570]: Upgrade(s) loaded 'common/units/equipment/upgrades/land_upgrades.txt' #11
+[19:04:37][no_game_date][equipment_database.cpp:570]: Upgrade(s) loaded 'common/units/equipment/upgrades/naval_upgrades.txt' #14
+[19:04:37][no_game_date][equipment_database.cpp:576]: Module(s) loaded 'common/units/equipment/modules/00_plane_modules.txt' #94
+[19:04:37][no_game_date][equipment_database.cpp:576]: Module(s) loaded 'common/units/equipment/modules/00_ship_modules.txt' #116
+[19:04:37][no_game_date][equipment_database.cpp:576]: Module(s) loaded 'common/units/equipment/modules/00_tank_modules.txt' #102
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/APDC_land_equipment.txt' #62
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/amphibious_mechanized.txt' #4
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/anti_air.txt' #6
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/anti_tank.txt' #4
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/armored_car.txt' #7
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/artillery.txt' #18
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/ballistic_missiles.txt' #4
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/convoys.txt' #2
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/emplacement_gun_ammo.txt' #2
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/floating_harbor.txt' #2
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/guided_missiles.txt' #4
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/helicopter.txt' #14
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/infantry.txt' #7
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/infantry_fighting_vehicle.txt' #7
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/intercontinental_bomber.txt' #2
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/mechanized.txt' #7
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/mothership.txt' #2
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/motorized.txt' #4
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/nuclear_missiles.txt' #3
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/plane_airframes.txt' #25
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/railway_gun.txt' #2
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/repair_ships.txt' #3
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/sam_missile.txt' #2
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/ship_hull_carrier.txt' #5
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/ship_hull_cruiser.txt' #5
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/ship_hull_heavy.txt' #5
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/ship_hull_light.txt' #9
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/ship_hull_submarine.txt' #20
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/specialist_armored_vehicles.txt' #2
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/super_heavy_railway_gun.txt' #2
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/support.txt' #2
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/support_ships.txt' #3
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/tank_chassis.txt' #23
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/trains.txt' #4
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/x_plane_airframes.txt' #115
+[19:04:37][no_game_date][equipment_database.cpp:564]: Equipment(s) loaded 'common/units/equipment/x_tank_chassis.txt' #15
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/unit_tags/00_categories.txt' #0
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/unit_tags/APDC_categories.txt' #0
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/critical_parts/00_critical_parts.txt' #0
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/APDC_combat.txt' #49
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/APDC_divisional_support.txt' #25
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/APDC_regimental_support.txt' #8
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/air.txt' #25
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/amphibious_armor.txt' #4
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/amphibious_mech.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/anti-air.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/anti-air_brigade.txt' #2
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/anti_tank.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/anti_tank_brigade.txt' #2
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/armored_car_battalion.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/artillery.txt' #4
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/artillery_brigade.txt' #5
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/battlecruiser.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/battleship.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/blackshirt_assault_battalion.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/bus.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/carrier.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/cavalry.txt' #3
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/destroyer.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/engineer.txt' #5
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/field_hospital.txt' #2
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/fire_support.txt' #6
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/flame_tank.txt' #3
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/heavy_armor.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/heavy_cruiser.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/helicopter_brigade.txt' #3
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/hq_support.txt' #18
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/infantry.txt' #14
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/land_cruiser.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/light_armor.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/light_cruiser.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/logistics.txt' #2
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/maintenance.txt' #2
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/medium_armor.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/military_police.txt' #2
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/modern_armor.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/railway_gun.txt' #2
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/recon.txt' #10
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/repair_ships.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/signal.txt' #2
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/sp_anti-air.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/sp_anti-air_brigade.txt' #10
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/sp_artillery.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/sp_artillery_brigade.txt' #6
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/sturmtruppe_battalion.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/submarine.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/super_heavy_armor.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/support_ships.txt' #1
+[19:04:37][no_game_date][subunit_definition_database.cpp:308]: SubUnit loaded 'common/units/tank_destroyer_brigade.txt' #9
+[19:04:37][no_game_date][opinion_modifier.cpp:455]: Opinion modifiers loaded 'common/opinion_modifiers/00_diplomatic.txt' #3
+[19:04:37][no_game_date][opinion_modifier.cpp:455]: Opinion modifiers loaded 'common/opinion_modifiers/00_opinion_modifiers.txt' #324
+[19:04:37][no_game_date][opinion_modifier.cpp:455]: Opinion modifiers loaded 'common/opinion_modifiers/GER_national_focus_opinion_modifiers.txt' #3
+[19:04:37][no_game_date][opinion_modifier.cpp:455]: Opinion modifiers loaded 'common/opinion_modifiers/aat_opinion_modifiers.txt' #62
+[19:04:37][no_game_date][opinion_modifier.cpp:455]: Opinion modifiers loaded 'common/opinion_modifiers/bba_opinion_modifiers.txt' #84
+[19:04:37][no_game_date][opinion_modifier.cpp:455]: Opinion modifiers loaded 'common/opinion_modifiers/bftb_opinion_modifiers.txt' #82
+[19:04:37][no_game_date][opinion_modifier.cpp:455]: Opinion modifiers loaded 'common/opinion_modifiers/goe_opinion_modifiers.txt' #14
+[19:04:37][no_game_date][opinion_modifier.cpp:455]: Opinion modifiers loaded 'common/opinion_modifiers/mtg_opinion_modifiers.txt' #16
+[19:04:37][no_game_date][opinion_modifier.cpp:455]: Opinion modifiers loaded 'common/opinion_modifiers/mun_opinion_modifiers.txt' #14
+[19:04:37][no_game_date][opinion_modifier.cpp:455]: Opinion modifiers loaded 'common/opinion_modifiers/nsb_opinion_modifiers.txt' #48
+[19:04:37][no_game_date][opinion_modifier.cpp:455]: Opinion modifiers loaded 'common/opinion_modifiers/sea_opinion_modifiers.txt' #50
+[19:04:37][no_game_date][opinion_modifier.cpp:455]: Opinion modifiers loaded 'common/opinion_modifiers/taog_opinion_modifiers.txt' #22
+[19:04:37][no_game_date][opinion_modifier.cpp:455]: Opinion modifiers loaded 'common/opinion_modifiers/toa_opinion_modifiers.txt' #35
+[19:04:37][no_game_date][opinion_modifier.cpp:455]: Opinion modifiers loaded 'common/opinion_modifiers/tpt_opinion_modifiers.txt' #40
+[19:04:37][no_game_date][opinion_modifier.cpp:455]: Opinion modifiers loaded 'common/opinion_modifiers/wuw_opinion_modifiers.txt' #55
+[19:04:37][no_game_date][career_profile_medal.cpp:227]: Career profile medals loaded 'common/medals/00_medals.txt' #33
+[19:04:37][no_game_date][career_profile_ribbon.cpp:150]: Career profile ribbons loaded 'common/ribbons/00_ribbons.txt' #0
+[19:04:37][no_game_date][career_profile_profile_picture.cpp:207]: Career profile profile pictures meta loaded 'common/profile_pictures/00_profile_picture.txt' #71
+[19:04:37][no_game_date][career_profile_profile_picture.cpp:491]: Career profile profile backgrounds meta loaded 'common/profile_backgrounds/00_profile_background.txt' #21
+[19:04:37][no_game_date][statetemplate.cpp:583]: Continent #1 name = europe
+[19:04:37][no_game_date][statetemplate.cpp:583]: Continent #2 name = north_america
+[19:04:37][no_game_date][statetemplate.cpp:583]: Continent #3 name = south_america
+[19:04:37][no_game_date][statetemplate.cpp:583]: Continent #4 name = australia
+[19:04:37][no_game_date][statetemplate.cpp:583]: Continent #5 name = africa
+[19:04:37][no_game_date][statetemplate.cpp:583]: Continent #6 name = asia
+[19:04:37][no_game_date][statetemplate.cpp:583]: Continent #7 name = middle_east
+[19:04:37][no_game_date][statetemplate.cpp:583]: Continent #8 name = antarctica
+[19:04:37][no_game_date][statetemplate.cpp:583]: Continent #9 name = eastern_europe
+[19:04:37][no_game_date][statetemplate.cpp:583]: Continent #10 name = pakistan
+[19:04:37][no_game_date][statetemplate.cpp:583]: Continent #11 name = gangetic_plain
+[19:04:37][no_game_date][statetemplate.cpp:583]: Continent #12 name = india
+[19:04:37][no_game_date][state_categories.cpp:151]: State categories loaded common/state_category/city.txt' #1
+[19:04:37][no_game_date][state_categories.cpp:151]: State categories loaded common/state_category/enclave.txt' #1
+[19:04:37][no_game_date][state_categories.cpp:151]: State categories loaded common/state_category/large_city.txt' #1
+[19:04:37][no_game_date][state_categories.cpp:151]: State categories loaded common/state_category/large_island.txt' #1
+[19:04:37][no_game_date][state_categories.cpp:151]: State categories loaded common/state_category/large_town.txt' #1
+[19:04:37][no_game_date][state_categories.cpp:151]: State categories loaded common/state_category/megalopolis.txt' #1
+[19:04:37][no_game_date][state_categories.cpp:151]: State categories loaded common/state_category/metropolis.txt' #1
+[19:04:37][no_game_date][state_categories.cpp:151]: State categories loaded common/state_category/pastoral.txt' #1
+[19:04:37][no_game_date][state_categories.cpp:151]: State categories loaded common/state_category/rural.txt' #1
+[19:04:37][no_game_date][state_categories.cpp:151]: State categories loaded common/state_category/small_island.txt' #1
+[19:04:37][no_game_date][state_categories.cpp:151]: State categories loaded common/state_category/tiny_island.txt' #1
+[19:04:37][no_game_date][state_categories.cpp:151]: State categories loaded common/state_category/town.txt' #1
+[19:04:37][no_game_date][state_categories.cpp:151]: State categories loaded common/state_category/wasteland.txt' #1
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/ABDA_ideas.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/APDC_economic_systems.txt' ideas #9, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/APDC_economy_laws.txt' ideas #80, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/APDC_poverty_laws.txt' ideas #7, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/APDC_scientific_development_laws.txt' ideas #4, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/APDC_society_development_laws.txt' ideas #20, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/Antarctic Union.txt' ideas #1, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/CSA.txt' ideas #2, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/GER.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/GER_national_focus_ideas.txt' ideas #36, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/SOV.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/TOA_shared_ideas.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/USB.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/_debug_spirits.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/_economic.txt' ideas #21, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/_event.txt' ideas #4, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/_manpower.txt' ideas #11, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/afghanistan.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/air_spirits.txt' ideas #18, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/albania.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/algeria.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/andalusia.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/angola.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/argentina.txt' ideas #15, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/army_spirits.txt' ideas #44, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/aussa.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/australia.txt' ideas #42, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/austria.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/bahamas.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/baltic_shared.txt' ideas #4, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/bangladesh.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/bavaria.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/belarus.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/belgium.txt' ideas #24, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/belize.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/bhutan.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/bolivia.txt' ideas #1, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/bosnia.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/botswana.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/brazil.txt' ideas #17, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/britain.txt' ideas #16, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/british_antilles.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/british_raj.txt' ideas #9, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/british_raj_goe.txt' ideas #13, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/brittany.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/bulgaria.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/burma.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/burundi.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/cameroon.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/canada.txt' ideas #12, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/catalonia.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/cayenne.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/central_african_republic.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/chad.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/chile.txt' ideas #27, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/china.txt' ideas #28, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/china_shared.txt' ideas #25, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/china_warlord.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/colombia.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/comchina.txt' ideas #53, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/congo.txt' ideas #12, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/corsica.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/costa_rica.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/croatia.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/cuba.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/curacao.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/cyprus.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/czechoslovakia.txt' ideas #52, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/czechoslovakia_skoda.txt' ideas #35, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/dahomey.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/denmark.txt' ideas #8, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/djibouti.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/dominican_republic.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/ecuador.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/egypt.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/el_salvador.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/equatorial_guinea.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/eritrea.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/estonia.txt' ideas #2, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/ethiopia.txt' ideas #46, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/fiji.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/finland.txt' ideas #29, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/france.txt' ideas #27, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/gabon.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/galicia.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/gambia.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/ghana.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/greece.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/guadeloupe.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/guam.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/guangxi_clique.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/guatemala.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/guinea.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/guinea_bissau.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/guyana.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/haiti.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/hanover.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/hawaii.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/herzegovina.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/honduras.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/hungary.txt' ideas #30, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/iceland.txt' ideas #7, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/indonesia.txt' ideas #16, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/iraq.txt' ideas #7, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/ireland.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/italy.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/ivory coast.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/jamaica.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/japan.txt' ideas #99, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/kazakhstan.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/kenya.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/kosovo.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/kurdistan.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/kuwait.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/kyrgyzstan.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/latvia.txt' ideas #2, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/liberia.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/libya.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/lithuania.txt' ideas #1, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/luxembourg.txt' ideas #1, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/macedonia.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/madagascar.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/malawi.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/malaysia.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/maldives.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/mali.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/malta.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/manchukou.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/mauritania.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/mecklenburg.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/mengkukuo.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/mexico.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/micronesia.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/moldova.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/mongolia.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/montenegro.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/morocco.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/mozambique.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/namibia.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/navarra.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/navy_spirits.txt' ideas #35, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/nepal.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/netherlands.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/new_zealand.txt' ideas #9, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/nicaragua.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/niger.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/nigeria.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/nordic_shared.txt' ideas #4, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/northern_ireland.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/norway.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/occitania.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/oman.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/pakistan.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/panama.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/papua_new_guinea.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/paraguay.txt' ideas #2, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/paraguay_uruguay_shared_ideas.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/persia.txt' ideas #9, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/peru.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/philippines.txt' ideas #18, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/poland.txt' ideas #16, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/portugal.txt' ideas #7, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/prussia.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/puerto_rico.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/qatar.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/republic_of_congo.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/romania.txt' ideas #17, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/rwanda.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/samoa.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/saudi_arabia.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/saxony.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/schleswig_holstein.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/scotland.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/senegal.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/serbia.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/shanxi.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/siam.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/sierra_leone.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/sinkiang.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/slovakia.txt' ideas #3, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/slovenia.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/solomon_islands.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/somalia.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/south_africa.txt' ideas #2, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/spain_nationalist.txt' ideas #3, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/spain_republic.txt' ideas #19, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/sri_lanka.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/sudan.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/suriname.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/sweden.txt' ideas #10, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/switzerland.txt' ideas #9, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/tahiti.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/tajikistan.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/tannu_tuva.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/tanzania.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/tibet.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/togo.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/tp_ideas.txt' ideas #8, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/transylvania.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/trinidad_and_tobago.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/tunisia.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/turkey.txt' ideas #37, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/turkmenistan.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/uganda.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/united_arab_emirates.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/upper_volta.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/uruguay.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/usa.txt' ideas #23, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/uzbekistan.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/venezuela.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/vichy_france.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/wales.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/western_sahara.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/wurtemberg.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/xibei_san_ma.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/yemen.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/yugoslavia.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/yunnan.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/zambia.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/zimbabwe.txt' ideas #0, categories #0
+[19:04:38][no_game_date][idea_database.cpp:300]: Ideas loaded 'common/ideas/zzz_generic.txt' ideas #35, categories #0
+[19:04:38][no_game_date][countryleadertraits.cpp:326]: Leader traits loaded 'common/country_leader/00_traits.txt' #975
+[19:04:38][no_game_date][countryleadertraits.cpp:326]: Leader traits loaded 'common/country_leader/APDC_development_law_traits.txt' #3
+[19:04:38][no_game_date][countryleadertraits.cpp:326]: Leader traits loaded 'common/country_leader/APDC_economy_population_traits.txt' #5
+[19:04:38][no_game_date][countryleadertraits.cpp:326]: Leader traits loaded 'common/country_leader/APDC_restored_designer_traits.txt' #14
+[19:04:38][no_game_date][countryleadertraits.cpp:326]: Leader traits loaded 'common/country_leader/goe_traits.txt' #55
+[19:04:38][no_game_date][countryleadertraits.cpp:326]: Leader traits loaded 'common/country_leader/taog_traits.txt' #23
+[19:04:38][no_game_date][countryleadertraits.cpp:326]: Leader traits loaded 'common/country_leader/toa_traits.txt' #93
+[19:04:38][no_game_date][unit_medals_database.cpp:93]: Unit Medals Loaded 'common/unit_medals/00_default.txt' #0
+[19:04:38][no_game_date][decision.cpp:4474]: Decision categories loaded 'common/decisions/categories/APDC_debug_decision_categories.txt' decision categories #1
+[19:04:38][no_game_date][decision.cpp:4474]: Decision categories loaded 'common/decisions/categories/APDC_focus_categories.txt' decision categories #1
+[19:04:38][no_game_date][decision.cpp:4474]: Decision categories loaded 'common/decisions/categories/APDC_units_testing.txt' decision categories #1
+[19:04:38][no_game_date][decision.cpp:4474]: Decision categories loaded 'common/decisions/categories/GER_national_focus_decision_categories.txt' decision categories #1
+[19:04:38][no_game_date][decision.cpp:4474]: Decision categories loaded 'common/decisions/categories/GFCC_area.txt' decision categories #1
+[19:04:38][no_game_date][decision.cpp:4474]: Decision categories loaded 'common/decisions/categories/play_a_game_decision_categories.txt' decision categories #3
+[19:04:38][no_game_date][decision.cpp:4474]: Decision categories loaded 'common/decisions/categories/toolpack_decision_categories.txt' decision categories #1
+[19:04:38][no_game_date][decision.cpp:4520]: Decisions loaded 'common/decisions/APDC_debug_decision.txt' decisions #3
+[19:04:38][no_game_date][decision.cpp:4520]: Decisions loaded 'common/decisions/APDC_units_testing.txt' decisions #2
+[19:04:38][no_game_date][decision.cpp:4520]: Decisions loaded 'common/decisions/GER_national_focus_decisions.txt' decisions #1
+[19:04:38][no_game_date][decision.cpp:4520]: Decisions loaded 'common/decisions/GFCC_area.txt' decisions #6
+[19:04:38][no_game_date][decision.cpp:4520]: Decisions loaded 'common/decisions/ROM.txt' decisions #0
+[19:04:38][no_game_date][decision.cpp:4520]: Decisions loaded 'common/decisions/play_a_game_decision.txt' decisions #15
+[19:04:38][no_game_date][decision.cpp:4520]: Decisions loaded 'common/decisions/play_a_game_war_east_decision.txt' decisions #3
+[19:04:38][no_game_date][decision.cpp:4520]: Decisions loaded 'common/decisions/play_a_game_war_west_decision.txt' decisions #3
+[19:04:38][no_game_date][decision.cpp:4520]: Decisions loaded 'common/decisions/toolpack.txt' decisions #4
+[19:04:38][no_game_date][bookmarks.cpp:362]: Bookmarks loaded 'common/bookmarks/Starting_Point.txt' Bookmarks #1
+[19:04:38][no_game_date][bookmarks.cpp:362]: Bookmarks loaded 'common/bookmarks/unknown.txt' Bookmarks #1
+[19:04:38][no_game_date][ai_strategy_database.cpp:157]: AI strategies loaded 'common/ai_strategy/APDC_land_roles.txt' #2
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 22 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 31 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 32 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 45 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 49 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 57 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 67 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 79 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 80 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 83 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 93 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 96 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 99 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 112 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 115 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 123 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 134 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 135 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 139 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 143 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 153 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 157 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 158 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 160 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 161 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 166 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 176 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 182 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 188 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 189 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 192 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 208 songs.
+[19:04:38][no_game_date][musicmanager.cpp:176]: Loaded 227 songs.
+[19:04:38][no_game_date][musicplayer.cpp:366]: MusicPlayerSettings Loaded with 227 available track and 0 selected stations.
+[19:04:39][no_game_date][ai_role_database.cpp:86]: AI Roles loaded 'common/ai_templates/APDC_land_templates.txt' #5
+[19:04:39][no_game_date][map.cpp:1319]: Calculated 141 land masses
+[19:04:39][no_game_date][eventmanager.cpp:253]: Events loaded events/APDC_play_a_game_war.txt' #7
+[19:04:39][no_game_date][eventmanager.cpp:253]: Events loaded events/APDC_unit_testing.txt' #1
+[19:04:39][no_game_date][eventmanager.cpp:253]: Events loaded events/GER_national_focus_events.txt' #8
+[19:04:39][no_game_date][eventmanager.cpp:253]: Events loaded events/SOV_events.txt' #9
+[19:04:39][no_game_date][eventmanager.cpp:253]: Events loaded events/toolpack_events.txt' #5
+[19:04:39][no_game_date][onaction.cpp:492]: common/on_actions/APDC_cooperation_legislation_on_actions.txt: ActionList #1 tag = on_startup random events = 0 events = 0
+[19:04:39][no_game_date][onaction.cpp:492]: common/on_actions/APDC_cooperation_legislation_on_actions.txt: ActionList #2 tag = on_daily_GER random events = 0 events = 0
+[19:04:39][no_game_date][onaction.cpp:492]: common/on_actions/APDC_economic_system_on_actions.txt: ActionList #3 tag = on_monthly random events = 0 events = 0
+[19:04:39][no_game_date][onaction.cpp:492]: common/on_actions/APDC_governing_coalition_on_actions.txt: ActionList #4 tag = on_ruling_party_change random events = 0 events = 0
+[19:04:39][no_game_date][onaction.cpp:492]: common/on_actions/APDC_governing_coalition_on_actions.txt: ActionList #5 tag = on_daily random events = 0 events = 0
+[19:04:39][no_game_date][onaction.cpp:492]: common/on_actions/GFCC_area_se_up.txt: ActionList #6 tag = on_weekly random events = 0 events = 0
+[19:04:39][no_game_date][onaction.cpp:492]: common/on_actions/play_a_game_on_actions.txt: ActionList #7 tag = on_monthly_FRA random events = 0 events = 0
+[19:04:39][no_game_date][onaction.cpp:492]: common/on_actions/play_a_game_on_actions.txt: ActionList #8 tag = on_monthly_ENG random events = 0 events = 0
+[19:04:39][no_game_date][onaction.cpp:492]: common/on_actions/play_a_game_on_actions.txt: ActionList #9 tag = on_monthly_LUX random events = 0 events = 0
+[19:04:39][no_game_date][onaction.cpp:492]: common/on_actions/zz_APDC_economy.txt: ActionList #10 tag = on_state_control_changed random events = 0 events = 0
+[19:04:39][no_game_date][onaction.cpp:492]: common/on_actions/zz_APDC_economy.txt: ActionList #11 tag = on_war_relation_added random events = 0 events = 0
+[19:05:10][2060.01.01.12][frontend.cpp:177]: Startup time: 55182ms
+[19:05:11][2060.01.01.12][frontendinterfacehandler.cpp:271]: Session change

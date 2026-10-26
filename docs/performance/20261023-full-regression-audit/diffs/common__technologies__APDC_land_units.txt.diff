@@ -1,0 +1,17 @@
+--- before/common/technologies/APDC_land_units.txt
++++ current/common/technologies/APDC_land_units.txt
+@@ -10,7 +10,13 @@
+ 		ai_will_do = {
+ 			factor = 0
+ 		}
+-	}
++	
++on_research_complete = {
++
++hidden_effect = { APDC_eco_equipment_unlocked = yes }
++
++}
++}
+ 	APDC_land_units_easter_eggs = {
+ 		allow = {
+ 			always = no

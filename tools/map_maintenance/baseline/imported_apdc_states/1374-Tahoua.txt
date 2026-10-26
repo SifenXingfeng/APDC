@@ -1,0 +1,36 @@
+state = {
+	id = 1374
+	name = "STATE_1374"
+	provinces = {
+		7939
+		8028
+		14181
+		14229
+	}
+	manpower = 249024
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = wasteland
+	history = {
+		owner = NGR
+		controller = NGR
+		add_core_of = FPL
+		add_core_of = ISP
+		add_core_of = JNM
+		add_core_of = NGR
+		victory_points = {
+			7939
+			3
+		}
+		victory_points = {
+			8028
+			5
+		}
+		victory_points = {
+			14181
+			2
+		}
+		buildings = {
+		}
+	}
+}

@@ -1,0 +1,106 @@
+ideas = {
+	country = {
+		
+
+		
+
+		
+	}
+
+	materiel_manufacturer = {
+
+		designer = yes
+
+		
+
+		
+
+		
+		
+
+	
+SLO_zbrojnica_roth = {
+
+			picture = generic_infantry_equipment_manufacturer_3
+
+
+			allowed = {
+				original_tag = SLO
+			}
+
+			available = {
+					
+			}
+
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+
+			traits = { infantry_equipment_manufacturer }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+SLO_povazska_bystrica = {
+			name = "SLO_povazska_bystrica_organization"
+
+			picture = HUN_mwg_raba
+
+
+			allowed = {
+				original_tag = SLO
+			}
+
+			available = {
+					
+			}
+
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+
+			traits = { motorized_equipment_manufacturer }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+SLO_svit = {
+			name = "SLO_svit_organization"
+
+			picture = generic_infantry_equipment_manufacturer_1
+
+
+			allowed = {
+				original_tag = SLO
+				has_dlc = "Peace For Our Time"
+			}
+
+			available = {
+					
+			}
+
+			research_bonus = {
+				infantry_weapons = 0.05
+				support_tech = 0.10
+			}
+
+			equipment_bonus = {
+				support_equipment = {
+					build_cost_ic = -0.03
+					reliability = 0.03
+					instant = yes
+				}
+			}
+
+			traits = { support_equipment_manufacturer }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+}
+}

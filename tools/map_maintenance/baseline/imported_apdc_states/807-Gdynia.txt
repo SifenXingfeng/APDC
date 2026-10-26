@@ -1,0 +1,52 @@
+state = {
+	id = 807
+	name = "STATE_807"
+	provinces = {
+		243
+		334
+		362
+		389
+		3324
+		3380
+		6347
+		9263
+	}
+	manpower = 842310
+	buildings_max_level_factor = 1
+	state_category = city
+	local_supplies = 0
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = POL
+		add_core_of = ZZZ
+		victory_points = {
+			243
+			1
+		}
+		victory_points = {
+			362
+			3
+		}
+		victory_points = {
+			3380
+			1
+		}
+		victory_points = {
+			9263
+			3
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			9263 = {
+				naval_base = 1
+			}
+			362 = {
+				naval_base = 5
+			}
+			dockyard = 3
+		}
+	}
+}

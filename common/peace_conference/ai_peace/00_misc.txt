@@ -40,17 +40,17 @@ peace_ai_desires = {
                             is_coastal = yes
                         }
                         state = 738 #California
-                        state = 860 #Cote Nord
+                        state = 880 #Cote Nord
                         state = 458 #Tunis
-                        state = 446 #Suez
-                        state = 126 #London
-                        state = 286 #Indochina
+                        state = 907 #Suez
+                        state = 338 #London
+                        state = 1066 #Indochina
                         AND = {
                             ROOT.FROM = { capital_scope = { is_on_continent = europe } }
                             OR = {
                                 state = 137 #Crimea
-                                state = 797 #Istanbul
-                                state = 118 #Gibraltar
+                                state = 1051 #Istanbul
+                                state = 173 #Gibraltar
                             }
                         }
                     }
@@ -91,17 +91,17 @@ peace_ai_desires = {
                             is_coastal = yes
                         }
                         state = 738 #California
-                        state = 860 #Cote Nord
+                        state = 880 #Cote Nord
                         state = 458 #Tunis
-                        state = 446 #Suez
-                        state = 126 #London
-                        state = 286 #Indochina
+                        state = 907 #Suez
+                        state = 338 #London
+                        state = 1066 #Indochina
                         AND = {
                             ROOT.FROM = { capital_scope = { is_on_continent = europe } }
                             OR = {
                                 state = 137 #Crimea
-                                state = 797 #Istanbul
-                                state = 118 #Gibraltar
+                                state = 1051 #Istanbul
+                                state = 173 #Gibraltar
                             }
                         }
                     }

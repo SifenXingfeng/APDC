@@ -1,0 +1,33 @@
+state = {
+	id = 490
+	name = "STATE_490"
+	manpower = 70020
+	state_category = pastoral
+	history = {
+		owner = PRU
+		controller = PRU
+		add_core_of = PRU
+		victory_points = {
+			13289
+			1
+		}
+		victory_points = {
+			15464
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+	}
+	provinces = {
+		8149
+		10942
+		13289
+		13290
+		15456
+		15464
+	}
+	local_supplies = 6.0
+}

@@ -1,0 +1,8 @@
+entity = {
+    name = "building_APDC_medical_center"
+    pdxmesh = "APDC_medical_center_mesh"
+    # Uniform map scale, matched to the vanilla civilian factory's overall size.
+    scale = 0.30
+    default_state = "idle"
+    state = { name = "idle" }
+}

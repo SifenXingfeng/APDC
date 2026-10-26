@@ -1,0 +1,195 @@
+--- before/common/military_industrial_organization/organizations/CHI_organization.txt
++++ current/common/military_industrial_organization/organizations/CHI_organization.txt
+@@ -34,14 +34,14 @@
+ 		owner = {
+ 			OR = {
+ 				hidden_trigger = {
+-					has_completed_focus = CHI_chinese_panzers
+-					has_completed_focus = CHI_sea_chinese_panzers
++					always = no
++					always = no
+ 				}
+ 				custom_trigger_tooltip = {
+ 					tooltip = CHI_chinese_panzers_TT
+ 					OR = {
+-						has_completed_focus = CHI_chinese_panzers
+-						has_completed_focus = CHI_sea_chinese_panzers
++						always = no
++						always = no
+ 					}
+ 				}
+ 				
+@@ -76,7 +76,7 @@
+ 				FROM = { original_tag = CHI }
+ 			}
+ 			OR = {
+-				owner = { has_completed_focus = CHI_relocate_factories_from_the_coast }
++				owner = { always = no }
+ 				owner = { controls_state = CHI.mio_locations^7 } # #613 Shanghai
+ 			}
+ 		}
+@@ -271,12 +271,12 @@
+ 	}
+ 	visible = {
+ 		owner = {
+-			has_completed_focus = CHI_strengthening_our_resolve
++			always = no
+ 		}
+ 	}
+ 	available = {
+ 		owner = {
+-			has_completed_focus = CHI_seek_out_western_fascist_cooperation 
++			always = no 
+ 			NOT = {
+ 				has_war_with = GER
+ 			}
+@@ -350,7 +350,7 @@
+ 				FROM = { original_tag = CHI }
+ 			}
+ 			OR = {
+-				owner = { has_completed_focus = CHI_relocate_factories_from_the_coast }
++				owner = { always = no }
+ 				owner = { controls_state = CHI.mio_locations^7 } # #613 Shanghai
+ 			}
+ 		}
+@@ -429,7 +429,7 @@
+ 				FROM = { original_tag = CHI }
+ 			}
+ 			OR = {
+-				owner = { has_completed_focus = CHI_relocate_factories_from_the_coast }
++				owner = { always = no }
+ 				owner = { controls_state = CHI.mio_locations^1 } #608 Beijing
+ 			}
+ 		}
+@@ -508,15 +508,15 @@
+ 		owner = { 
+ 			hidden_trigger = {
+ 				OR = {
+-					has_completed_focus = CHI_camco 
+-					has_completed_focus = CHI_sea_camco 
++					always = no 
++					always = no 
+ 				}
+ 			}
+ 			custom_trigger_tooltip = {
+ 				tooltip = CHI_camco_tt
+ 				OR = {
+-					has_completed_focus = CHI_camco 
+-					has_completed_focus = CHI_sea_camco 
++					always = no 
++					always = no 
+ 				}
+ 			}
+ 			
+@@ -549,15 +549,15 @@
+ 		owner = {
+ 			hidden_trigger = {
+ 				OR = {
+-					has_completed_focus = CHI_local_fighter_production 
+-					has_completed_focus = CHI_sea_local_fighter_production 
++					always = no 
++					always = no 
+ 				}
+ 			}
+ 			custom_trigger_tooltip = {
+ 				tooltip = CHI_local_fighter_production_tt
+ 				OR = {
+-					has_completed_focus = CHI_local_fighter_production 
+-					has_completed_focus = CHI_sea_local_fighter_production 
++					always = no 
++					always = no 
+ 				}
+ 			} 
+ 		}
+@@ -588,15 +588,15 @@
+ 		owner = {
+ 			hidden_trigger = {
+ 				OR = {
+-					has_completed_focus = CHI_local_bomber_production 
+-					has_completed_focus = CHI_sea_local_bomber_production 
++					always = no 
++					always = no 
+ 				}
+ 			}
+ 			custom_trigger_tooltip = {
+ 				tooltip = CHI_local_bomber_production_tt
+ 				OR = {
+-					has_completed_focus = CHI_local_bomber_production 
+-					has_completed_focus = CHI_sea_local_bomber_production 
++					always = no 
++					always = no 
+ 				}
+ 			} 
+ 		}
+@@ -622,7 +622,7 @@
+ 				FROM = { original_tag = CHI }
+ 			}
+ 			OR = {
+-				owner = { has_completed_focus = CHI_relocate_factories_from_the_coast }
++				owner = { always = no }
+ 				owner = { controls_state = CHI.mio_locations^8 } # #596 Zhejiang
+ 			}
+ 		}
+@@ -648,7 +648,7 @@
+ 				FROM = { original_tag = CHI }
+ 			}
+ 			OR = {
+-				owner = { has_completed_focus = CHI_relocate_factories_from_the_coast }
++				owner = { always = no }
+ 				owner = { controls_state = CHI.mio_locations^9 } # #600 Jiangxi
+ 			}
+ 		}
+@@ -743,7 +743,7 @@
+ 				hidden_trigger = { has_dlc = "No Compromise, No Surrender" }
+ 			}
+ 			OR = {
+-				owner = { has_completed_focus = CHI_relocate_factories_from_the_coast }
++				owner = { always = no }
+ 				owner = { controls_state = CHI.mio_locations^5 } # #716 Liaoning
+ 			}
+ 		}
+@@ -773,7 +773,7 @@
+ 				FROM = { original_tag = CHI }
+ 			}
+ 			OR = {
+-				owner = { has_completed_focus = CHI_relocate_factories_from_the_coast }
++				owner = { always = no }
+ 				owner = { controls_state = CHI.mio_locations^2 } # #615 Shanxi
+ 			}
+ 		}
+@@ -803,7 +803,7 @@
+ 				FROM = { original_tag = CHI }
+ 			}
+ 			OR = {
+-				owner = { has_completed_focus = CHI_relocate_factories_from_the_coast }
++				owner = { always = no }
+ 				owner = { controls_state = CHI.mio_locations^3 } # #715 Liaobei
+ 			}
+ 		}
+@@ -909,7 +909,7 @@
+ 				FROM = { original_tag = CHI }
+ 			}
+ 			OR = {
+-				owner = { has_completed_focus = CHI_relocate_factories_from_the_coast }
++				owner = { always = no }
+ 				owner = { controls_state = CHI.mio_locations^4 } ##1036 Wuhan
+ 			}
+ 		}
+@@ -996,7 +996,7 @@
+ 				FROM = { original_tag = CHI }
+ 			}
+ 			OR = {
+-				owner = { has_completed_focus = CHI_relocate_factories_from_the_coast }
++				owner = { always = no }
+ 				owner = { controls_state = CHI.mio_locations^6 } # 613 Shanghai
+ 			}
+ 		}
+@@ -1103,7 +1103,7 @@
+ 				FROM = { original_tag = CHI }
+ 			}
+ 			OR = {
+-				owner = { has_completed_focus = CHI_relocate_factories_from_the_coast }
++				owner = { always = no }
+ 				owner = { controls_state = CHI.mio_locations^6 } # 1035 Nanjing
+ 			}
+ 		}

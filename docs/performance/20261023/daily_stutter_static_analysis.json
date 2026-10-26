@@ -1,0 +1,98 @@
+{
+  "APDC_eco_refresh_policies": {
+    "path": "common/scripted_effects/APDC_economy_backend.txt",
+    "line": 687,
+    "script_nodes": 114,
+    "checks": {
+      "if": 2
+    }
+  },
+  "APDC_eco_calculate_country": {
+    "path": "common/scripted_effects/APDC_economy_backend.txt",
+    "line": 1235,
+    "script_nodes": 187,
+    "checks": {
+      "if": 3,
+      "every_controlled_state": 1
+    }
+  },
+  "APDC_eco_record_trade": {
+    "path": "common/scripted_effects/APDC_economy_backend.txt",
+    "line": 1352,
+    "script_nodes": 22,
+    "checks": {
+      "if": 2,
+      "is_in_array": 1,
+      "for_each_loop": 1,
+      "add_to_array": 2
+    }
+  },
+  "APDC_eco_clear_world_market": {
+    "path": "common/scripted_effects/APDC_economy_backend.txt",
+    "line": 1367,
+    "script_nodes": 172,
+    "checks": {
+      "if": 6,
+      "for_each_scope_loop": 4,
+      "every_country": 2,
+      "while_loop_effect": 2,
+      "clear_array": 9,
+      "add_to_array": 5
+    }
+  },
+  "APDC_eco_reconcile_planned": {
+    "path": "common/scripted_effects/APDC_economy_backend.txt",
+    "line": 2640,
+    "script_nodes": 55,
+    "checks": {
+      "if": 5,
+      "every_controlled_state": 1
+    }
+  },
+  "APDC_eco_daily_country": {
+    "path": "common/scripted_effects/APDC_economy_backend.txt",
+    "line": 4462,
+    "script_nodes": 5,
+    "checks": {}
+  },
+  "APDC_eco_daily_after_market": {
+    "path": "common/scripted_effects/APDC_economy_backend.txt",
+    "line": 4470,
+    "script_nodes": 12,
+    "checks": {
+      "if": 1
+    }
+  },
+  "APDC_eco_refresh_equipment": {
+    "path": "common/scripted_effects/APDC_economy_equipment.txt",
+    "line": 1,
+    "script_nodes": 4980,
+    "checks": {
+      "has_tech": 166,
+      "has_country_flag": 320,
+      "if": 685,
+      "clear_array": 2,
+      "add_to_array": 320
+    }
+  },
+  "APDC_eco_produce_equipment": {
+    "path": "common/scripted_effects/APDC_economy_equipment.txt",
+    "line": 2949,
+    "script_nodes": 5160,
+    "checks": {
+      "if": 322,
+      "is_in_array": 160
+    }
+  },
+  "catalogue": {
+    "items": 160,
+    "families": 62
+  },
+  "state_count": 1558,
+  "previous_measured_daily_country_scopes": 156,
+  "daily_equipment_catalogue_rebuilds_per_156_countries": 156,
+  "equipment_definition_tests_per_156_countries": 24960,
+  "tech_predicates_per_156_countries": 25896,
+  "tno_version": "1.10.0b (installed local files)",
+  "note": "Static script counts and past test country count; not runtime CPU profiling or short-circuit branch execution counts."
+}

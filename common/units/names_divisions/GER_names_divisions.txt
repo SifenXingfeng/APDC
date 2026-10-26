@@ -1,36 +1,4 @@
-# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
-# If we run out of all historical names, the names will be assigned in the old way.
-#
-# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
-#
-# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
-#
-# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
-#
-# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
-#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
-#                  for example the current one is no longer available due to the can_use trigger saying so).
-#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
-#
-# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
-#                 mechanics to be used for fallbacks, then just skip this option.
-#
-# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
-#             this option is available here mainly for a mods.
-#
-# ordered - Is a list of all historical names. 
-#           Numbers must start from 1 and up. 
-#           Numbers can't repeat in one scope.
-#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
-#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
-#           1st argument = The name. It must contain either: 
-#                          %d (for decimal number placement)
-#                          %s (for string number placement - ROMAN numbers like XIV).
-#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
-#                                      where you choose the historical division name.
-#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
-#                                      the current game version.
-
+# Name groups are automatically selected by for_countries and division_types.
 GER_Inf_01 = {
 	name = "Infantry Divisions"
 
@@ -38,7 +6,7 @@ GER_Inf_01 = {
 
 	can_use = { always = yes }
 
-	division_types = { "infantry" }
+	division_types = { apdc_infantry }
 
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { GER_Gar_01 }
@@ -377,9 +345,9 @@ GER_PEN_01 = {
 
 	for_countries = { GER } 
 
-	can_use = { has_completed_focus = GER_strafbataillon }
+	can_use = { always = no }
 
-	division_types = { "penal_battalion" "infantry" } 
+	division_types = { apdc_militia apdc_infantry } 
 
 	fallback_name = "%d. Straf-Division"
 }
@@ -391,7 +359,7 @@ GER_ALTINF_01 = {
 
 	can_use = { always = yes }
 
-	division_types = { "infantry"  }
+	division_types = { apdc_infantry }
 
 	fallback_name = "%d. Volksgrenadier-Division"
 
@@ -466,7 +434,6 @@ GER_ALTINF_01 = {
 	}
 }
 
-
 GER_LTINF_01 = {
 	name = "Ranger Divisions"
 
@@ -474,7 +441,7 @@ GER_LTINF_01 = {
 
 	can_use = { always = yes }
 
-	division_types = { "ranger_battalion"  }
+	division_types = { apdc_rangers }
 
 	fallback_name = "%d. Jäger-Division"
 
@@ -512,12 +479,12 @@ GER_MOT_01 = {
 			has_government = communism
 		}
 		OR = {
-			has_completed_focus = GER_oppose_hitler
-			has_completed_focus = GER_oppose_hitler_ww
+			always = no
+			always = no
 		}
 	}
 
-	division_types = { "motorized"  }
+	division_types = { apdc_motorized }
 
 	fallback_name = "%d. Infanterie-Division (mot)"
 
@@ -545,7 +512,6 @@ GER_MOT_01 = {
 	}
 }
 
-#Nazi Motorized
 GER_MOT_02 = {
 	name = "Motorized Divisions"
 
@@ -553,7 +519,7 @@ GER_MOT_02 = {
 
 	can_use = { has_government = fascism }
 
-	division_types = { "motorized"  }
+	division_types = { apdc_motorized }
 
 	fallback_name = "%d. Infanterie-Division (mot)"
 
@@ -590,7 +556,7 @@ GER_MEC_01 = {
 
 	can_use = { has_government = fascism }
 
-	division_types = { "mechanized"  }
+	division_types = { apdc_tracked_mechanized }
 
 	fallback_name = "%d. Panzergrenadier-Division"
 
@@ -631,12 +597,12 @@ GER_MEC_01_MONARNCHIST = {
 			has_government = liberalism 
 		}
 		OR = {
-			has_completed_focus = GER_oppose_hitler
-			has_completed_focus = GER_oppose_hitler_ww
+			always = no
+			always = no
 		}
 	}
 
-	division_types = { "mechanized"  }
+	division_types = { apdc_tracked_mechanized }
 
 	fallback_name = "%d. Panzergrenadier-Division"
 
@@ -675,7 +641,7 @@ GER_MEC_01_COMMUNIST = {
 		has_government = communism
 	}
 
-	division_types = { "mechanized"  }
+	division_types = { apdc_tracked_mechanized }
 
 	fallback_name = "%d. Panzergrenadier-Division"
 
@@ -707,7 +673,7 @@ GER_Mnt_01 = {
 
 	can_use = { always = yes }
 
-	division_types = { "mountaineers"  }
+	division_types = { apdc_mountaineers }
 
 	fallback_name = "%d. Gebirgs-Division"
 
@@ -737,7 +703,7 @@ GER_MAR_01 = {
 
 	can_use = { always = yes }
 
-	division_types = { "marine"  }
+	division_types = { apdc_marine }
 
 	fallback_name = "%d. Seelande-Division"
 
@@ -761,7 +727,7 @@ GER_PAR_01 = {
 
 	can_use = { always = yes }
 
-	division_types = { "paratrooper"  }
+	division_types = { apdc_paratrooper }
 
 	fallback_name = "%d. Fallschirmjäger-Division"
 
@@ -793,7 +759,7 @@ GER_GAR_01 = {
 
 	can_use = { always = yes }
 
-	division_types = { "infantry"  }
+	division_types = { apdc_infantry }
 
 	fallback_name = "%d. Sicherungs-Division"
 
@@ -895,8 +861,6 @@ GER_GAR_01 = {
 	}
 }
 
-
-
 GER_Arm_01 = {
 	name = "Panzer Divisions"
 
@@ -904,7 +868,7 @@ GER_Arm_01 = {
 
 	can_use = { has_government = fascism }
 
-	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+	division_types = { apdc_light_tank apdc_mbt }
 
 	fallback_name = "%d. Panzer-Division"
 
@@ -972,7 +936,7 @@ GER_Arm_01_ANTIFASCIST = {
 		}
 	}
 
-	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+	division_types = { apdc_light_tank apdc_mbt }
 
 	fallback_name = "%d. Panzer-Division"
 
@@ -1030,7 +994,7 @@ GER_LTARM_01 = {
 
 	can_use = { always = yes }
 
-	division_types = { "light_armor" }
+	division_types = { apdc_light_tank }
 
 	fallback_name = "%d. Leichte-Division"
 	
@@ -1056,7 +1020,7 @@ GER_Cav_01 = {
 
 	can_use = { always = yes }
 
-	division_types = { "cavalry"  }
+	division_types = { apdc_infantry }
 
 	fallback_name = "%d. Kavallerie-Division"
 
@@ -1080,7 +1044,7 @@ GER_MIL_01 = {
 
 	can_use = { has_government = dictatorship }
 
-	division_types = { "militia"  }
+	division_types = { apdc_militia }
 
 	fallback_name = "%d. Freikorps-Division"
 
@@ -1108,7 +1072,7 @@ GER_MIL_02 = {
 		}
 	}
 
-	division_types = { "militia"  }
+	division_types = { apdc_militia }
 
 	fallback_name = "%d. Schutztruppe-Division"
 
@@ -1131,11 +1095,11 @@ GER_MIL_03 = {
 	can_use = { 
 		OR = {
 			has_government = communism
-			has_completed_focus = GER_start_the_proletarian_revolution
+			always = no
 		}
 	}
 
-	division_types = { "militia"  }
+	division_types = { apdc_militia }
 
 	fallback_name = "%d. Roter Frontkämpferbund-Division"
 
@@ -1165,7 +1129,7 @@ GER_SS_01 = {
 		has_government = fascism
 	}
 
-	division_types = { "infantry" "motorized" "medium_armor" "mechanized" }
+	division_types = { apdc_infantry apdc_motorized apdc_mbt apdc_tracked_mechanized }
 
 	fallback_name = "%d. SS-Division"
 
@@ -1221,12 +1185,12 @@ GER_MONINF_01 = {
 			has_government = liberalism 
 		}
 		OR = {
-			has_completed_focus = GER_oppose_hitler_ww
-			has_completed_focus = GER_oppose_hitler
+			always = no
+			always = no
 		}
 	}
 
-	division_types = { "infantry" "mechanized" "mountaineers" "paratrooper" "marine" }
+	division_types = { apdc_infantry apdc_tracked_mechanized apdc_mountaineers apdc_paratrooper apdc_marine }
 
 	fallback_name = "%d. Division"
 
@@ -1459,12 +1423,12 @@ GER_MONMOB_01 = {
 			has_government = liberalism 
 		}
 		OR = {
-			has_completed_focus = GER_oppose_hitler_ww
-			has_completed_focus = GER_oppose_hitler
+			always = no
+			always = no
 		}
 	}
 
-	division_types = {  "cavalry" "light_armor" "medium_armor" "heavy_armor" "modern_armor"  }
+	division_types = { apdc_infantry apdc_light_tank apdc_mbt }
 
 	fallback_name = "%d. Schnell-Division"
 
@@ -1586,5 +1550,3 @@ GER_MONMOB_01 = {
 
 	}
 }
-
-

@@ -1,0 +1,28 @@
+{
+  "changed_existing_files": [
+    {
+      "file": "tools/economy/build_market.py",
+      "before": "60e5740907a8a690ed70f0ef36e4609cf4f1b9c3cbee0b0470fdf6b14dcc78d3",
+      "after": "f5c6800a8ffa45a57edeff6d6f08c7d1c84671e11316366b24bf0533878b8e8c"
+    },
+    {
+      "file": "common/scripted_effects/APDC_economy_market.txt",
+      "before": "72bb9d4a439ac88bc1a013728d93398855560cfce5be1b084e50f2f423b84460",
+      "after": "81dc0cf167ea69da4dfac2024536b1a9d54a057773fb9d97b2ca700699c6c19c"
+    },
+    {
+      "file": "common/scorers/country/APDC_economy_market.txt",
+      "before": "71252d837c506c738877318d743b71775836b594168d57d067a35574a4f58ec1",
+      "after": "0b951ce7d4a1d8b59ca4de345d2e5eb11f4a738b721adbdb5e2935d765441fe2"
+    },
+    {
+      "file": "tools/performance/weekly_economy_qa.py",
+      "before": "74d6f44525f3985468f5bc71efbfb89d370eda560642de4226ea721d134b5893",
+      "after": "466dee45277d4dafbeea26dc2595a249934bda5885f5d792a76fc30c7eab018e"
+    }
+  ],
+  "new_verification_tool": {
+    "file": "tools/economy/market_priority_qa.py",
+    "sha256": "eea75ee2e55ff0e09501847baeb16cacce96efafc050002843090781f38602fe"
+  }
+}

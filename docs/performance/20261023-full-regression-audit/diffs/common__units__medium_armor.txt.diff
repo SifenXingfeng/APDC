@@ -1,0 +1,27 @@
+--- before/common/units/medium_armor.txt
++++ current/common/units/medium_armor.txt
+@@ -1,10 +1,15 @@
+ # APDC: old land-unit IDs retained for reference compatibility; normal unlocks removed.
+ sub_units = {
+ 
+-	medium_armor = {
++	
++
++
++
++# Inactive identifiers required by retained engine interfaces.
++medium_armor = {
+ 		abbreviation = "MTK"
+ 		sprite = "medium_armor"
+-		map_icon_category = armored
++		
+ 		priority = 2502
+ 		ai_priority = 3500
+ 		active = no
+@@ -72,6 +77,4 @@
+ 			attack = -0.8
+ 		}
+ 	}
+-
+-
+ }

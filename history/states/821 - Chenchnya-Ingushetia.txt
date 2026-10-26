@@ -1,0 +1,40 @@
+state = {
+	id = 821
+	name = "STATE_821"
+	manpower = 731985
+	state_category = rural
+	resources = {
+		oil = 9
+	}
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		victory_points = {
+			670
+			2
+		}
+		victory_points = {
+			3672
+			2
+		}
+		victory_points = {
+			18299
+			3
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = GDP_category_rural
+	}
+	provinces = {
+		666
+		670
+		683
+		3672
+		6689
+		11632
+		18299
+	}
+	local_supplies = 0.0
+}

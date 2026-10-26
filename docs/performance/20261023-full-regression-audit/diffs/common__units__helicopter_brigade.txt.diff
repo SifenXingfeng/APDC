@@ -1,0 +1,50 @@
+--- before/common/units/helicopter_brigade.txt
++++ current/common/units/helicopter_brigade.txt
+@@ -1,9 +1,17 @@
+ # APDC: old land-unit IDs retained for reference compatibility; normal unlocks removed.
+ sub_units = {
+-	transport_helicopter = {
++	
++
++	
++
++# Restored inactive legacy IDs required by inherited scripts.
++
++
++# Inactive identifiers required by retained engine interfaces.
++transport_helicopter = {
+ 		abbreviation = "THL"
+ 		sprite = helicopter_brigade
+-		map_icon_category = infantry
++		
+ 		priority = 610
+ 		ai_priority = 180
+ 		active = no
+@@ -73,11 +81,10 @@
+ 			movement = 0.15
+ 		}
+ 	}
+-
+-	helicopter_gunship = {
++helicopter_gunship = {
+ 		abbreviation = "HLG"
+ 		sprite = helicopter_brigade
+-		map_icon_category = infantry
++		
+ 		priority = 610
+ 		ai_priority = 180
+ 		active = no
+@@ -143,12 +150,10 @@
+ 			movement = 0.15
+ 		}
+ 	}
+-
+-# Restored inactive legacy IDs required by inherited scripts.
+ helicopter_brigade = {
+ 		abbreviation = "HELB"
+ 		sprite = helicopter_brigade
+-		map_icon_category = infantry
++		
+ 		priority = 0
+ 		ai_priority = 0
+ 		active = no

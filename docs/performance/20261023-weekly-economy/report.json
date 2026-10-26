@@ -1,0 +1,100 @@
+{
+  "assertions_passed": 57,
+  "project_errors": 0,
+  "external_errors": 705,
+  "parsed_scripts": 3124,
+  "last_day": {
+    "day": 58,
+    "weeks": 8,
+    "starts": 17,
+    "cycles": 15,
+    "cursor": 4,
+    "quota": 1,
+    "refreshed": 1456,
+    "rollups": 9336,
+    "research": 1407
+  },
+  "preservation": {
+    "unchanged_state_histories": 1558,
+    "protected_changes": [],
+    "equipment_ids_unchanged": true,
+    "technology_checks": 433,
+    "equipment_unlock_callbacks": 128,
+    "callback_problems": []
+  },
+  "process_cleanup": {
+    "closed_helpers": [
+      13112,
+      3548
+    ],
+    "still_running": false,
+    "pid": 21456,
+    "remaining_helpers": [],
+    "steam_app_running": false,
+    "stopped": "2026-10-23T13:39:07.1396053+08:00"
+  },
+  "backup": "D:\\C-Drive-Migration-20260929\\Permanent\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\.codex_backups\\APDC\\20261023-130306-weekly-economy",
+  "limitations": [
+    "No foreground/visual UI inspection.",
+    "No frame-time profiling; counts do not prove the entire game is stutter-free."
+  ],
+  "last_game_date": "2060.02.27.23",
+  "active_dlcs": [
+    "Allied Armor Pack",
+    "Allied Radio Music Pack",
+    "Allied Speeches Pack",
+    "Anniversary Pack",
+    "Arms Against Tyranny",
+    "Arms Against Tyranny Preorder Bonus",
+    "Axis Armor Pack",
+    "Battle for the Bosporus",
+    "British Tanks Unit Pack",
+    "By Blood Alone",
+    "By Blood Alone Preorder Bonus",
+    "Content Creator Pack - Soviet Union 2D Art",
+    "Eastern Front Planes Pack",
+    "Expansion Pass 1: Ride of the Valkyries",
+    "Expansion Pass 1: Supporter Pack",
+    "Expansion Pass 2: Seaplane Tenders",
+    "French Tanks Unit Pack",
+    "German March Order Music Pack",
+    "German Tanks Unit Pack",
+    "Gotterdammerung",
+    "Graveyard of Empires",
+    "Heavy Cruisers Unit Pack",
+    "Historical German Portraits",
+    "La Resistance",
+    "La Resistance Preorder Bonus",
+    "Man the Guns",
+    "No Compromise, No Surrender",
+    "No Step Back",
+    "No Step Back Preorder Bonus",
+    "Peace For Our Time",
+    "Poland: United and Ready",
+    "Prototype Vehicles",
+    "Radio Pack",
+    "Rocket Launcher Unit Pack",
+    "Sabaton Soundtrack",
+    "Sabaton Soundtrack Vol.2",
+    "Songs of the Eastern Front",
+    "Soviet Tanks Unit Pack",
+    "Thunder at Our Gates",
+    "Trial of Allegiance",
+    "Trial of Allegiance Preorder Bonus",
+    "US Tanks Unit Pack",
+    "Warships of the Pacific"
+  ],
+  "active_mods": [
+    "APDC performance diagnostics\r",
+    "Toolpack without the Errors\r",
+    "灏戝コ鍓嶇嚎-APDC\r"
+  ],
+  "original_economy_assets_hashes_match": 30,
+  "actual_autosaves": [
+    {
+      "path": "D:\\APDC_WeeklyEconomyQA_20261023_133616\\save games\\autosave.hoi4",
+      "bytes": 73226067,
+      "sha256": "49c5f8e3c3a1805e88b545da84a460e56a4a581984ae3cf99b96792f98802fa0"
+    }
+  ]
+}

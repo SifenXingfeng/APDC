@@ -1,0 +1,31 @@
+technologies = {
+	APDC_land_units_bootstrap = {
+		allow = {
+			always = no
+		}
+		start_year = 2060
+		research_cost = 1
+		enable_subunits = { apdc_militia apdc_infantry apdc_motorized apdc_wheeled_mechanized apdc_tracked_mechanized apdc_national_gendarmerie apdc_heavy_infantry apdc_mountaineers apdc_air_assault apdc_paratrooper apdc_airborne_mechanized apdc_marine apdc_amphibious_mechanized apdc_rangers apdc_nyto apdc_mbt apdc_light_tank apdc_atgm_vehicle apdc_spaag apdc_airborne_light_tank apdc_tank_support apdc_amphibious_tank apdc_attack_helicopter apdc_basic_robot apdc_doll_escort apdc_doll_small apdc_doll_large apdc_motorized_doll_escort apdc_motorized_doll_small apdc_motorized_doll_large apdc_wheeled_doll_escort apdc_wheeled_doll_small apdc_wheeled_doll_large apdc_tracked_doll_escort apdc_tracked_doll_small apdc_tracked_doll_large apdc_air_assault_doll_escort apdc_air_assault_doll_small apdc_air_assault_doll_large apdc_multipod apdc_goliath apdc_towed_artillery apdc_truck_artillery apdc_sp_artillery apdc_mlrs apdc_tactical_missile apdc_multipod_artillery apdc_combined_service apdc_transport_helicopter_support apdc_field_workshop apdc_frogmen apdc_hovercraft_support apdc_elite_doll_infiltration apdc_cbrn apdc_infantry_recon apdc_robot_recon apdc_motorized_recon apdc_mechanized_recon apdc_armor_recon apdc_uav_recon apdc_military_police apdc_engineer apdc_armored_engineer apdc_frontline_command apdc_aa02_support apdc_doomsday_dog_support apdc_sp_artillery_support apdc_towed_artillery_support apdc_mlrs_support apdc_truck_artillery_support apdc_spaag_support apdc_atgm_support apdc_reg_robot_artillery apdc_reg_mortar apdc_reg_spaag apdc_reg_atgm apdc_reg_sp_artillery apdc_reg_towed_artillery apdc_reg_infantry_aa apdc_reg_heavy_weapons }
+		enable_equipments = { apdc_wheeled_mech_equipment_1 apdc_tracked_mech_equipment_1 apdc_transport_helo_equipment_1 apdc_airborne_ifv_equipment_1 apdc_nyto_equipment_1 apdc_mbt_equipment_1 apdc_light_tank_equipment_1 apdc_atgm_equipment_1 apdc_spaag_equipment_1 apdc_airborne_tank_equipment_1 apdc_tank_support_equipment_1 apdc_amphib_tank_equipment_1 apdc_attack_helo_equipment_1 apdc_basic_robot_equipment_1 apdc_doll_equipment_1 apdc_multipod_equipment_1 apdc_goliath_equipment_1 apdc_towed_gun_equipment_1 apdc_truck_art_equipment_1 apdc_spg_equipment_1 apdc_mlrs_equipment_1 apdc_missile_equipment_1 apdc_multipod_art_equipment_1 apdc_engineer_vehicle_equipment_1 apdc_hovercraft_equipment_1 apdc_uav_equipment_1 apdc_aa02_equipment_1 apdc_doomsday_dog_equipment_1 apdc_mortar_equipment_1 apdc_heavy_weapons_equipment_1 apdc_amphib_mech_equipment_1 infantry_equipment_2 support_equipment_1 motorized_equipment_1 }
+		ai_will_do = {
+			factor = 0
+		}
+	
+on_research_complete = {
+
+hidden_effect = { APDC_eco_equipment_unlocked = yes }
+
+}
+}
+	APDC_land_units_easter_eggs = {
+		allow = {
+			always = no
+		}
+		start_year = 2060
+		research_cost = 1
+		enable_subunits = { apdc_lyuba apdc_ump_sisters }
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

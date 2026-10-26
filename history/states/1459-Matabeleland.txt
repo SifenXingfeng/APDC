@@ -1,0 +1,29 @@
+state = {
+	id = 1459
+	name = "STATE_1459"
+	provinces = {
+		13670
+		13677
+		13700
+		13704
+		13711
+		13722
+		15383
+	}
+	manpower = 315360
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+	history = {
+		owner = ZIM
+		controller = ZIM
+		add_core_of = ZIM
+		victory_points = {
+			13700
+			3
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

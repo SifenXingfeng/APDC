@@ -1,0 +1,62 @@
+state = {
+	id = 615
+	name = "STATE_615"
+	resources = {
+		coal = 4
+	}
+	provinces = {
+		1458
+		4074
+		10507
+		12300
+		12432
+		14022
+		16577
+		19596
+		19635
+		19743
+		19767
+	}
+	manpower = 2715128
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			4074
+			2
+		}
+		victory_points = {
+			10507
+			3
+		}
+		victory_points = {
+			12432
+			2
+		}
+		victory_points = {
+			14022
+			2
+		}
+		victory_points = {
+			19596
+			1
+		}
+		victory_points = {
+			19635
+			1
+		}
+		victory_points = {
+			19743
+			5
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 2
+		}
+	}
+}

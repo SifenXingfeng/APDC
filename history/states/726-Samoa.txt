@@ -1,0 +1,29 @@
+state = {
+	id = 726
+	name = "STATE_726"
+	provinces = {
+		7290
+		13412
+		19960
+		19969
+	}
+	manpower = 90571
+	buildings_max_level_factor = 1
+	state_category = small_island
+	local_supplies = 0
+	history = {
+		owner = SAM
+		controller = SAM
+		add_core_of = SAM
+		victory_points = {
+			7290
+			2
+		}
+		buildings = {
+			infrastructure = 2
+			7290 = {
+				naval_base = 1
+			}
+		}
+	}
+}

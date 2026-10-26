@@ -1,0 +1,231 @@
+--- before/common/units/infantry.txt
++++ current/common/units/infantry.txt
+@@ -5,10 +5,39 @@
+ 
+ sub_units = {
+ 
+-	infantry = {
++	
++	
++	
++
++	
++	
++	
++
++	
++
++	
++
++	
++
++	
++	
++	
++	
++
++	
++
++	
++
++	
++
++# Restored inactive legacy IDs required by inherited scripts.
++
++
++# Inactive identifiers required by retained engine interfaces.
++infantry = {
+ 		abbreviation = "INF"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		
+ 		priority = 600
+ 		ai_priority = 200
+@@ -50,11 +79,10 @@
+ 			infantry_equipment = 100
+ 		}
+ 	}
+-	
+-	marine = {
++marine = {
+ 		abbreviation = "MRN"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		special_forces = yes
+ 		marines = yes
+ 		
+@@ -107,11 +135,10 @@
+ 			attack = 0.5
+ 		}
+ 	}
+-
+-	marine_commando  = {
++marine_commando  = {
+ 		abbreviation = "MRC"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		special_forces = yes
+ 		marines = yes
+ 		can_exfiltrate_from_coast = yes
+@@ -165,11 +192,10 @@
+ 			attack = 0.5
+ 		}
+ 	}
+-	
+-	mountaineers = {
++mountaineers = {
+ 		abbreviation = "MTN"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		special_forces = yes
+ 		mountaineers = yes
+ 
+@@ -224,11 +250,10 @@
+ 			movement = 0.2
+ 		}
+ 	}
+-
+-	ranger_battalion = {
++ranger_battalion = {
+ 		abbreviation = "RANBAT"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		special_forces = yes
+ 		rangers = yes
+ 		
+@@ -282,11 +307,10 @@
+ 			movement = 0.15
+ 		}
+ 	}
+-
+-	paratrooper = {
++paratrooper = {
+ 		abbreviation = "PAR"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		special_forces = yes
+ 
+ 		priority = 2
+@@ -329,11 +353,10 @@
+ 			infantry_equipment = 130
+ 		}
+ 	}
+-
+-	motorized = {
++motorized = {
+ 		abbreviation = "MOT"
+ 		sprite = motorized
+-		map_icon_category = infantry
++		
+ 
+ 		priority = 599
+ 		ai_priority = 200
+@@ -401,11 +424,10 @@
+ 			attack = -0.2
+ 		}
+ 	}
+-
+-	mechanized = {
++mechanized = {
+ 		abbreviation = "MEC"
+ 		sprite = mechanized
+-		map_icon_category = infantry
++		
+ 
+ 		priority = 610
+ 		ai_priority = 200
+@@ -474,14 +496,13 @@
+ 		
+ 		plains = {
+ 			attack = 0.25
+-			defense = 0.2
+-		}
+-	}
+-	
+-	infantry_fighting_vehicle = {
++			defence = 0.2
++		}
++	}
++infantry_fighting_vehicle = {
+ 		abbreviation = "IFV"
+ 		sprite = mechanized
+-		map_icon_category = infantry
++		
+ 
+ 		priority = 610
+ 		ai_priority = 200
+@@ -555,9 +576,9 @@
+ 			defence = 0.2
+ 		}
+ 	}
+-	fake_intel_unit = {
+-		sprite = infantry
+-		map_icon_category = infantry
++fake_intel_unit = {
++		sprite = infantry
++		
+ 		
+ 		priority = 0
+ 		ai_priority = 0
+@@ -595,11 +616,10 @@
+ 			infantry_equipment = 1
+ 		}
+ 	}
+-
+-	penal_battalion = {
++penal_battalion = {
+ 		abbreviation = "PEN"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		
+ 		priority = 400 #600
+ 		ai_priority = 150 #200
+@@ -637,11 +657,10 @@
+ 			infantry_equipment = 85 #100 -> Same ratio as regular Infantry			
+ 		}
+ 	}
+-
+-	irregular_infantry = {
++irregular_infantry = {
+ 		abbreviation = "IRR"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		
+ 		priority = 400
+ 		ai_priority = 150
+@@ -704,11 +723,10 @@
+ 			infantry_equipment = 80 # was 100 
+ 		}
+ 	}
+-
+-	militia = {
++militia = {
+ 		abbreviation = "MIL"
+ 		sprite = infantry
+-		map_icon_category = infantry
++		
+ 		
+ 		priority = 400
+ 		ai_priority = 150
+@@ -747,12 +765,10 @@
+ 			infantry_equipment = 100
+ 		}
+ 	}
+-
+-# Restored inactive legacy IDs required by inherited scripts.
+ bicycle_battalion = {
+ 		abbreviation = "BIC"
+ 		sprite = bicycle
+-		map_icon_category = infantry
++		
+ 		
+ 		priority = 600
+ 		ai_priority = 150

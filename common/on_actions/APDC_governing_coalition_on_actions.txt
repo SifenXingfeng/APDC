@@ -23,10 +23,15 @@ on_actions = {
 	# without adding daily work to every AI country.
 	on_daily = {
 		effect = {
+if = { limit = { NOT = { has_global_flag = APDC_cabinet_daily_lock } }
+set_global_flag = { flag = APDC_cabinet_daily_lock value = 1 days = 1 }
+
 			every_country = {
 				limit = { has_variable = APDC_cabinet_selected_slot }
 				APDC_update_cabinet_statistics = yes
 			}
-		}
+		
+}
+}
 	}
 }

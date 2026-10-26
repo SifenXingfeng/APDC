@@ -1,0 +1,37 @@
+state = {
+	id = 771
+	name = "STATE_771" # Zambia
+	
+	state_category = rural
+	manpower = 690045 #was 1380089
+
+	resources = {
+		chromium = 18 # was: 64.000, then 35
+		tungsten = 4 # was: 16.000, then 8
+	}
+
+	history = {
+
+		owner = ENG
+		add_core_of = ZAM
+
+		victory_points = {
+			5199 2 #Lusaka
+		}
+
+		victory_points = {
+			5221 1 #Fort Jameson
+		}
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		5199 5221 10594 10930 12504 13751 13765 13773 13778 13780 13785 13788 13802 13806 13809 13811 13814 13818 13822 13826 13828 13831 13840 13845 13852 16126 17850 17851 17860 17861 
+	}
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0 
+}

@@ -1,0 +1,59 @@
+state = {
+	id = 474
+	name = "STATE_474"
+	manpower = 440289
+	state_category = rural
+	history = {
+		owner = MEX
+		controller = MEX
+		add_core_of = MEX
+		victory_points = {
+			4904
+			3
+		}
+		victory_points = {
+			4965
+			5
+		}
+		victory_points = {
+			14511
+			5
+		}
+		victory_points = {
+			14512
+			1
+		}
+		victory_points = {
+			16911
+			3
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			4904 = {
+				naval_base = 2
+			}
+			4965 = {
+				naval_base = 3
+			}
+		}
+		add_extra_state_shared_building_slots = 1
+	}
+	provinces = {
+		4904
+		4965
+		12715
+		14489
+		14490
+		14495
+		14500
+		14504
+		14508
+		14511
+		14512
+		16911
+		17317
+		17318
+	}
+	local_supplies = 0.0
+}

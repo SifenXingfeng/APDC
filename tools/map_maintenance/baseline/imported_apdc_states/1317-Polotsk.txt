@@ -1,0 +1,39 @@
+state = {
+	id = 1317
+	name = "STATE_1317"
+	provinces = {
+		216
+		3219
+		6220
+		6249
+		6326
+		6371
+		9241
+		9323
+		14372
+		14564
+		14580
+		14581
+	}
+	manpower = 811903
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		victory_points = {
+			216
+			1
+		}
+		victory_points = {
+			14580
+			2
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		set_state_flag = GDP_regions_belarus
+	}
+}

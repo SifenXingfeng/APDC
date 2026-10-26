@@ -1,0 +1,2122 @@
+APDC_eco_sync_ui = {
+APDC_eco_ensure_equipment = yes
+APDC_eco_render_trade = yes
+if = { limit = { NOT = { check_variable = { APDC_eco_law_levels^num = 5 } } }
+clear_array = APDC_eco_law_levels
+add_to_array = { array = APDC_eco_law_levels value = 1 }
+add_to_array = { array = APDC_eco_law_levels value = 2 }
+add_to_array = { array = APDC_eco_law_levels value = 3 }
+add_to_array = { array = APDC_eco_law_levels value = 4 }
+add_to_array = { array = APDC_eco_law_levels value = 5 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_ui_stock^num = 196 } } }
+resize_array = { array = APDC_eco_ui_stock size = 196 value = 0 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_ui_eqp_0^num = 196 } } }
+resize_array = { array = APDC_eco_ui_eqp_0 size = 196 value = 0 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_ui_eqp_1^num = 196 } } }
+resize_array = { array = APDC_eco_ui_eqp_1 size = 196 value = 0 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_ui_eqp_2^num = 196 } } }
+resize_array = { array = APDC_eco_ui_eqp_2 size = 196 value = 0 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_ui_eqp_3^num = 196 } } }
+resize_array = { array = APDC_eco_ui_eqp_3 size = 196 value = 0 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_ui_eqp_4^num = 196 } } }
+resize_array = { array = APDC_eco_ui_eqp_4 size = 196 value = 0 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_ui_eqp_5^num = 196 } } }
+resize_array = { array = APDC_eco_ui_eqp_5 size = 196 value = 0 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_ui_eqp_6^num = 196 } } }
+resize_array = { array = APDC_eco_ui_eqp_6 size = 196 value = 0 }
+
+}
+for_each_loop = { array = APDC_eco_equipment_rows
+set_temp_variable = { APDC_eco_ui_equipment_index = v }
+set_variable = { APDC_eco_ui_stock^APDC_eco_ui_equipment_index = APDC_eco_stocks^APDC_eco_ui_equipment_index }
+set_variable = { global.APDC_eco_equipment_lookup_id = APDC_eco_ui_equipment_index }
+set_variable = { APDC_eco_ui_equipment_cost = global.APDC_eco_equipment_costs^global.APDC_eco_equipment_lookup_id }
+if = { limit = { check_variable = { APDC_eco_ui_equipment_cost > 0 } }
+set_temp_variable = { APDC_eco_math_1 = APDC_eco_production_progress^APDC_eco_ui_equipment_index }
+divide_temp_variable = { APDC_eco_math_1 = APDC_eco_ui_equipment_cost }
+multiply_temp_variable = { APDC_eco_math_1 = 259 }
+subtract_from_temp_variable = { APDC_eco_math_1 = 0 }
+clamp_temp_variable = { var = APDC_eco_math_1 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_1 = 1 }
+round_temp_variable = APDC_eco_math_1
+set_variable = { APDC_eco_ui_fill = APDC_eco_math_1 }
+
+}
+set_variable = { APDC_eco_ui_eqp_0^APDC_eco_ui_equipment_index = APDC_eco_ui_fill }
+if = { limit = { check_variable = { APDC_eco_ui_equipment_cost > 0 } }
+set_temp_variable = { APDC_eco_math_2 = APDC_eco_production_progress^APDC_eco_ui_equipment_index }
+divide_temp_variable = { APDC_eco_math_2 = APDC_eco_ui_equipment_cost }
+multiply_temp_variable = { APDC_eco_math_2 = 259 }
+subtract_from_temp_variable = { APDC_eco_math_2 = 37 }
+clamp_temp_variable = { var = APDC_eco_math_2 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_2 = 1 }
+round_temp_variable = APDC_eco_math_2
+set_variable = { APDC_eco_ui_fill = APDC_eco_math_2 }
+
+}
+set_variable = { APDC_eco_ui_eqp_1^APDC_eco_ui_equipment_index = APDC_eco_ui_fill }
+if = { limit = { check_variable = { APDC_eco_ui_equipment_cost > 0 } }
+set_temp_variable = { APDC_eco_math_3 = APDC_eco_production_progress^APDC_eco_ui_equipment_index }
+divide_temp_variable = { APDC_eco_math_3 = APDC_eco_ui_equipment_cost }
+multiply_temp_variable = { APDC_eco_math_3 = 259 }
+subtract_from_temp_variable = { APDC_eco_math_3 = 74 }
+clamp_temp_variable = { var = APDC_eco_math_3 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_3 = 1 }
+round_temp_variable = APDC_eco_math_3
+set_variable = { APDC_eco_ui_fill = APDC_eco_math_3 }
+
+}
+set_variable = { APDC_eco_ui_eqp_2^APDC_eco_ui_equipment_index = APDC_eco_ui_fill }
+if = { limit = { check_variable = { APDC_eco_ui_equipment_cost > 0 } }
+set_temp_variable = { APDC_eco_math_4 = APDC_eco_production_progress^APDC_eco_ui_equipment_index }
+divide_temp_variable = { APDC_eco_math_4 = APDC_eco_ui_equipment_cost }
+multiply_temp_variable = { APDC_eco_math_4 = 259 }
+subtract_from_temp_variable = { APDC_eco_math_4 = 111 }
+clamp_temp_variable = { var = APDC_eco_math_4 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_4 = 1 }
+round_temp_variable = APDC_eco_math_4
+set_variable = { APDC_eco_ui_fill = APDC_eco_math_4 }
+
+}
+set_variable = { APDC_eco_ui_eqp_3^APDC_eco_ui_equipment_index = APDC_eco_ui_fill }
+if = { limit = { check_variable = { APDC_eco_ui_equipment_cost > 0 } }
+set_temp_variable = { APDC_eco_math_5 = APDC_eco_production_progress^APDC_eco_ui_equipment_index }
+divide_temp_variable = { APDC_eco_math_5 = APDC_eco_ui_equipment_cost }
+multiply_temp_variable = { APDC_eco_math_5 = 259 }
+subtract_from_temp_variable = { APDC_eco_math_5 = 148 }
+clamp_temp_variable = { var = APDC_eco_math_5 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_5 = 1 }
+round_temp_variable = APDC_eco_math_5
+set_variable = { APDC_eco_ui_fill = APDC_eco_math_5 }
+
+}
+set_variable = { APDC_eco_ui_eqp_4^APDC_eco_ui_equipment_index = APDC_eco_ui_fill }
+if = { limit = { check_variable = { APDC_eco_ui_equipment_cost > 0 } }
+set_temp_variable = { APDC_eco_math_6 = APDC_eco_production_progress^APDC_eco_ui_equipment_index }
+divide_temp_variable = { APDC_eco_math_6 = APDC_eco_ui_equipment_cost }
+multiply_temp_variable = { APDC_eco_math_6 = 259 }
+subtract_from_temp_variable = { APDC_eco_math_6 = 185 }
+clamp_temp_variable = { var = APDC_eco_math_6 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_6 = 1 }
+round_temp_variable = APDC_eco_math_6
+set_variable = { APDC_eco_ui_fill = APDC_eco_math_6 }
+
+}
+set_variable = { APDC_eco_ui_eqp_5^APDC_eco_ui_equipment_index = APDC_eco_ui_fill }
+if = { limit = { check_variable = { APDC_eco_ui_equipment_cost > 0 } }
+set_temp_variable = { APDC_eco_math_7 = APDC_eco_production_progress^APDC_eco_ui_equipment_index }
+divide_temp_variable = { APDC_eco_math_7 = APDC_eco_ui_equipment_cost }
+multiply_temp_variable = { APDC_eco_math_7 = 259 }
+subtract_from_temp_variable = { APDC_eco_math_7 = 222 }
+clamp_temp_variable = { var = APDC_eco_math_7 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_7 = 1 }
+round_temp_variable = APDC_eco_math_7
+set_variable = { APDC_eco_ui_fill = APDC_eco_math_7 }
+
+}
+set_variable = { APDC_eco_ui_eqp_6^APDC_eco_ui_equipment_index = APDC_eco_ui_fill }
+}
+set_variable = { APDC_eco_food_change = modifier@APDC_eco_food_weekly }
+add_to_variable = { APDC_eco_food_change = APDC_eco_food_penalty }
+set_variable = { APDC_eco_food_tier_1_frame = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 1 } } }
+set_variable = { APDC_eco_food_tier_1_frame = 2 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 2 } } }
+set_variable = { APDC_eco_food_tier_1_frame = 3 }
+
+}
+set_variable = { APDC_eco_food_tier_2_frame = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 2 } } }
+set_variable = { APDC_eco_food_tier_2_frame = 2 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 3 } } }
+set_variable = { APDC_eco_food_tier_2_frame = 3 }
+
+}
+set_variable = { APDC_eco_food_tier_3_frame = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 3 } } }
+set_variable = { APDC_eco_food_tier_3_frame = 2 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 4 } } }
+set_variable = { APDC_eco_food_tier_3_frame = 3 }
+
+}
+set_variable = { APDC_eco_food_tier_4_frame = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 4 } } }
+set_variable = { APDC_eco_food_tier_4_frame = 2 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 5 } } }
+set_variable = { APDC_eco_food_tier_4_frame = 3 }
+
+}
+set_variable = { APDC_eco_food_tier_5_frame = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 5 } } }
+set_variable = { APDC_eco_food_tier_5_frame = 2 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 6 } } }
+set_variable = { APDC_eco_food_tier_5_frame = 3 }
+
+}
+set_variable = { APDC_eco_food_bar_0_0 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 2 } } }
+set_variable = { APDC_eco_food_bar_0_0 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 1 } } check_variable = { APDC_eco_food < 2 } }
+set_temp_variable = { APDC_eco_math_8 = APDC_eco_food }
+subtract_from_temp_variable = { APDC_eco_math_8 = 1 }
+multiply_temp_variable = { APDC_eco_math_8 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_8 = 0 }
+clamp_temp_variable = { var = APDC_eco_math_8 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_8 = 1 }
+round_temp_variable = APDC_eco_math_8
+set_variable = { APDC_eco_food_bar_0_0 = APDC_eco_math_8 }
+if = { limit = { check_variable = { APDC_eco_food_change = 0 } }
+add_to_variable = { APDC_eco_food_bar_0_0 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_food_change < 0 } }
+add_to_variable = { APDC_eco_food_bar_0_0 = 80 }
+
+}
+
+}
+set_variable = { APDC_eco_food_bar_0_1 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 2 } } }
+set_variable = { APDC_eco_food_bar_0_1 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 1 } } check_variable = { APDC_eco_food < 2 } }
+set_temp_variable = { APDC_eco_math_9 = APDC_eco_food }
+subtract_from_temp_variable = { APDC_eco_math_9 = 1 }
+multiply_temp_variable = { APDC_eco_math_9 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_9 = 39 }
+clamp_temp_variable = { var = APDC_eco_math_9 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_9 = 1 }
+round_temp_variable = APDC_eco_math_9
+set_variable = { APDC_eco_food_bar_0_1 = APDC_eco_math_9 }
+if = { limit = { check_variable = { APDC_eco_food_change = 0 } }
+add_to_variable = { APDC_eco_food_bar_0_1 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_food_change < 0 } }
+add_to_variable = { APDC_eco_food_bar_0_1 = 80 }
+
+}
+
+}
+set_variable = { APDC_eco_food_bar_1_0 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 3 } } }
+set_variable = { APDC_eco_food_bar_1_0 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 2 } } check_variable = { APDC_eco_food < 3 } }
+set_temp_variable = { APDC_eco_math_10 = APDC_eco_food }
+subtract_from_temp_variable = { APDC_eco_math_10 = 2 }
+multiply_temp_variable = { APDC_eco_math_10 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_10 = 0 }
+clamp_temp_variable = { var = APDC_eco_math_10 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_10 = 1 }
+round_temp_variable = APDC_eco_math_10
+set_variable = { APDC_eco_food_bar_1_0 = APDC_eco_math_10 }
+if = { limit = { check_variable = { APDC_eco_food_change = 0 } }
+add_to_variable = { APDC_eco_food_bar_1_0 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_food_change < 0 } }
+add_to_variable = { APDC_eco_food_bar_1_0 = 80 }
+
+}
+
+}
+set_variable = { APDC_eco_food_bar_1_1 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 3 } } }
+set_variable = { APDC_eco_food_bar_1_1 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 2 } } check_variable = { APDC_eco_food < 3 } }
+set_temp_variable = { APDC_eco_math_11 = APDC_eco_food }
+subtract_from_temp_variable = { APDC_eco_math_11 = 2 }
+multiply_temp_variable = { APDC_eco_math_11 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_11 = 39 }
+clamp_temp_variable = { var = APDC_eco_math_11 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_11 = 1 }
+round_temp_variable = APDC_eco_math_11
+set_variable = { APDC_eco_food_bar_1_1 = APDC_eco_math_11 }
+if = { limit = { check_variable = { APDC_eco_food_change = 0 } }
+add_to_variable = { APDC_eco_food_bar_1_1 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_food_change < 0 } }
+add_to_variable = { APDC_eco_food_bar_1_1 = 80 }
+
+}
+
+}
+set_variable = { APDC_eco_food_bar_2_0 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 4 } } }
+set_variable = { APDC_eco_food_bar_2_0 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 3 } } check_variable = { APDC_eco_food < 4 } }
+set_temp_variable = { APDC_eco_math_12 = APDC_eco_food }
+subtract_from_temp_variable = { APDC_eco_math_12 = 3 }
+multiply_temp_variable = { APDC_eco_math_12 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_12 = 0 }
+clamp_temp_variable = { var = APDC_eco_math_12 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_12 = 1 }
+round_temp_variable = APDC_eco_math_12
+set_variable = { APDC_eco_food_bar_2_0 = APDC_eco_math_12 }
+if = { limit = { check_variable = { APDC_eco_food_change = 0 } }
+add_to_variable = { APDC_eco_food_bar_2_0 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_food_change < 0 } }
+add_to_variable = { APDC_eco_food_bar_2_0 = 80 }
+
+}
+
+}
+set_variable = { APDC_eco_food_bar_2_1 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 4 } } }
+set_variable = { APDC_eco_food_bar_2_1 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 3 } } check_variable = { APDC_eco_food < 4 } }
+set_temp_variable = { APDC_eco_math_13 = APDC_eco_food }
+subtract_from_temp_variable = { APDC_eco_math_13 = 3 }
+multiply_temp_variable = { APDC_eco_math_13 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_13 = 39 }
+clamp_temp_variable = { var = APDC_eco_math_13 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_13 = 1 }
+round_temp_variable = APDC_eco_math_13
+set_variable = { APDC_eco_food_bar_2_1 = APDC_eco_math_13 }
+if = { limit = { check_variable = { APDC_eco_food_change = 0 } }
+add_to_variable = { APDC_eco_food_bar_2_1 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_food_change < 0 } }
+add_to_variable = { APDC_eco_food_bar_2_1 = 80 }
+
+}
+
+}
+set_variable = { APDC_eco_food_bar_3_0 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 5 } } }
+set_variable = { APDC_eco_food_bar_3_0 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 4 } } check_variable = { APDC_eco_food < 5 } }
+set_temp_variable = { APDC_eco_math_14 = APDC_eco_food }
+subtract_from_temp_variable = { APDC_eco_math_14 = 4 }
+multiply_temp_variable = { APDC_eco_math_14 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_14 = 0 }
+clamp_temp_variable = { var = APDC_eco_math_14 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_14 = 1 }
+round_temp_variable = APDC_eco_math_14
+set_variable = { APDC_eco_food_bar_3_0 = APDC_eco_math_14 }
+if = { limit = { check_variable = { APDC_eco_food_change = 0 } }
+add_to_variable = { APDC_eco_food_bar_3_0 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_food_change < 0 } }
+add_to_variable = { APDC_eco_food_bar_3_0 = 80 }
+
+}
+
+}
+set_variable = { APDC_eco_food_bar_3_1 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 5 } } }
+set_variable = { APDC_eco_food_bar_3_1 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_food < 4 } } check_variable = { APDC_eco_food < 5 } }
+set_temp_variable = { APDC_eco_math_15 = APDC_eco_food }
+subtract_from_temp_variable = { APDC_eco_math_15 = 4 }
+multiply_temp_variable = { APDC_eco_math_15 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_15 = 39 }
+clamp_temp_variable = { var = APDC_eco_math_15 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_15 = 1 }
+round_temp_variable = APDC_eco_math_15
+set_variable = { APDC_eco_food_bar_3_1 = APDC_eco_math_15 }
+if = { limit = { check_variable = { APDC_eco_food_change = 0 } }
+add_to_variable = { APDC_eco_food_bar_3_1 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_food_change < 0 } }
+add_to_variable = { APDC_eco_food_bar_3_1 = 80 }
+
+}
+
+}
+set_variable = { APDC_eco_education_change = modifier@APDC_eco_education_weekly }
+set_variable = { APDC_eco_education_tier_1_frame = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 1 } } }
+set_variable = { APDC_eco_education_tier_1_frame = 2 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 2 } } }
+set_variable = { APDC_eco_education_tier_1_frame = 3 }
+
+}
+set_variable = { APDC_eco_education_tier_2_frame = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 2 } } }
+set_variable = { APDC_eco_education_tier_2_frame = 2 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 3 } } }
+set_variable = { APDC_eco_education_tier_2_frame = 3 }
+
+}
+set_variable = { APDC_eco_education_tier_3_frame = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 3 } } }
+set_variable = { APDC_eco_education_tier_3_frame = 2 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 4 } } }
+set_variable = { APDC_eco_education_tier_3_frame = 3 }
+
+}
+set_variable = { APDC_eco_education_tier_4_frame = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 4 } } }
+set_variable = { APDC_eco_education_tier_4_frame = 2 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 5 } } }
+set_variable = { APDC_eco_education_tier_4_frame = 3 }
+
+}
+set_variable = { APDC_eco_education_tier_5_frame = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 5 } } }
+set_variable = { APDC_eco_education_tier_5_frame = 2 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 6 } } }
+set_variable = { APDC_eco_education_tier_5_frame = 3 }
+
+}
+set_variable = { APDC_eco_education_bar_0_0 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 2 } } }
+set_variable = { APDC_eco_education_bar_0_0 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 1 } } check_variable = { APDC_eco_education < 2 } }
+set_temp_variable = { APDC_eco_math_16 = APDC_eco_education }
+subtract_from_temp_variable = { APDC_eco_math_16 = 1 }
+multiply_temp_variable = { APDC_eco_math_16 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_16 = 0 }
+clamp_temp_variable = { var = APDC_eco_math_16 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_16 = 1 }
+round_temp_variable = APDC_eco_math_16
+set_variable = { APDC_eco_education_bar_0_0 = APDC_eco_math_16 }
+if = { limit = { check_variable = { APDC_eco_education_change = 0 } }
+add_to_variable = { APDC_eco_education_bar_0_0 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_education_change < 0 } }
+add_to_variable = { APDC_eco_education_bar_0_0 = 80 }
+
+}
+
+}
+set_variable = { APDC_eco_education_bar_0_1 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 2 } } }
+set_variable = { APDC_eco_education_bar_0_1 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 1 } } check_variable = { APDC_eco_education < 2 } }
+set_temp_variable = { APDC_eco_math_17 = APDC_eco_education }
+subtract_from_temp_variable = { APDC_eco_math_17 = 1 }
+multiply_temp_variable = { APDC_eco_math_17 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_17 = 39 }
+clamp_temp_variable = { var = APDC_eco_math_17 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_17 = 1 }
+round_temp_variable = APDC_eco_math_17
+set_variable = { APDC_eco_education_bar_0_1 = APDC_eco_math_17 }
+if = { limit = { check_variable = { APDC_eco_education_change = 0 } }
+add_to_variable = { APDC_eco_education_bar_0_1 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_education_change < 0 } }
+add_to_variable = { APDC_eco_education_bar_0_1 = 80 }
+
+}
+
+}
+set_variable = { APDC_eco_education_bar_1_0 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 3 } } }
+set_variable = { APDC_eco_education_bar_1_0 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 2 } } check_variable = { APDC_eco_education < 3 } }
+set_temp_variable = { APDC_eco_math_18 = APDC_eco_education }
+subtract_from_temp_variable = { APDC_eco_math_18 = 2 }
+multiply_temp_variable = { APDC_eco_math_18 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_18 = 0 }
+clamp_temp_variable = { var = APDC_eco_math_18 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_18 = 1 }
+round_temp_variable = APDC_eco_math_18
+set_variable = { APDC_eco_education_bar_1_0 = APDC_eco_math_18 }
+if = { limit = { check_variable = { APDC_eco_education_change = 0 } }
+add_to_variable = { APDC_eco_education_bar_1_0 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_education_change < 0 } }
+add_to_variable = { APDC_eco_education_bar_1_0 = 80 }
+
+}
+
+}
+set_variable = { APDC_eco_education_bar_1_1 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 3 } } }
+set_variable = { APDC_eco_education_bar_1_1 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 2 } } check_variable = { APDC_eco_education < 3 } }
+set_temp_variable = { APDC_eco_math_19 = APDC_eco_education }
+subtract_from_temp_variable = { APDC_eco_math_19 = 2 }
+multiply_temp_variable = { APDC_eco_math_19 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_19 = 39 }
+clamp_temp_variable = { var = APDC_eco_math_19 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_19 = 1 }
+round_temp_variable = APDC_eco_math_19
+set_variable = { APDC_eco_education_bar_1_1 = APDC_eco_math_19 }
+if = { limit = { check_variable = { APDC_eco_education_change = 0 } }
+add_to_variable = { APDC_eco_education_bar_1_1 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_education_change < 0 } }
+add_to_variable = { APDC_eco_education_bar_1_1 = 80 }
+
+}
+
+}
+set_variable = { APDC_eco_education_bar_2_0 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 4 } } }
+set_variable = { APDC_eco_education_bar_2_0 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 3 } } check_variable = { APDC_eco_education < 4 } }
+set_temp_variable = { APDC_eco_math_20 = APDC_eco_education }
+subtract_from_temp_variable = { APDC_eco_math_20 = 3 }
+multiply_temp_variable = { APDC_eco_math_20 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_20 = 0 }
+clamp_temp_variable = { var = APDC_eco_math_20 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_20 = 1 }
+round_temp_variable = APDC_eco_math_20
+set_variable = { APDC_eco_education_bar_2_0 = APDC_eco_math_20 }
+if = { limit = { check_variable = { APDC_eco_education_change = 0 } }
+add_to_variable = { APDC_eco_education_bar_2_0 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_education_change < 0 } }
+add_to_variable = { APDC_eco_education_bar_2_0 = 80 }
+
+}
+
+}
+set_variable = { APDC_eco_education_bar_2_1 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 4 } } }
+set_variable = { APDC_eco_education_bar_2_1 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 3 } } check_variable = { APDC_eco_education < 4 } }
+set_temp_variable = { APDC_eco_math_21 = APDC_eco_education }
+subtract_from_temp_variable = { APDC_eco_math_21 = 3 }
+multiply_temp_variable = { APDC_eco_math_21 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_21 = 39 }
+clamp_temp_variable = { var = APDC_eco_math_21 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_21 = 1 }
+round_temp_variable = APDC_eco_math_21
+set_variable = { APDC_eco_education_bar_2_1 = APDC_eco_math_21 }
+if = { limit = { check_variable = { APDC_eco_education_change = 0 } }
+add_to_variable = { APDC_eco_education_bar_2_1 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_education_change < 0 } }
+add_to_variable = { APDC_eco_education_bar_2_1 = 80 }
+
+}
+
+}
+set_variable = { APDC_eco_education_bar_3_0 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 5 } } }
+set_variable = { APDC_eco_education_bar_3_0 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 4 } } check_variable = { APDC_eco_education < 5 } }
+set_temp_variable = { APDC_eco_math_22 = APDC_eco_education }
+subtract_from_temp_variable = { APDC_eco_math_22 = 4 }
+multiply_temp_variable = { APDC_eco_math_22 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_22 = 0 }
+clamp_temp_variable = { var = APDC_eco_math_22 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_22 = 1 }
+round_temp_variable = APDC_eco_math_22
+set_variable = { APDC_eco_education_bar_3_0 = APDC_eco_math_22 }
+if = { limit = { check_variable = { APDC_eco_education_change = 0 } }
+add_to_variable = { APDC_eco_education_bar_3_0 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_education_change < 0 } }
+add_to_variable = { APDC_eco_education_bar_3_0 = 80 }
+
+}
+
+}
+set_variable = { APDC_eco_education_bar_3_1 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 5 } } }
+set_variable = { APDC_eco_education_bar_3_1 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_education < 4 } } check_variable = { APDC_eco_education < 5 } }
+set_temp_variable = { APDC_eco_math_23 = APDC_eco_education }
+subtract_from_temp_variable = { APDC_eco_math_23 = 4 }
+multiply_temp_variable = { APDC_eco_math_23 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_23 = 39 }
+clamp_temp_variable = { var = APDC_eco_math_23 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_23 = 1 }
+round_temp_variable = APDC_eco_math_23
+set_variable = { APDC_eco_education_bar_3_1 = APDC_eco_math_23 }
+if = { limit = { check_variable = { APDC_eco_education_change = 0 } }
+add_to_variable = { APDC_eco_education_bar_3_1 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_education_change < 0 } }
+add_to_variable = { APDC_eco_education_bar_3_1 = 80 }
+
+}
+
+}
+set_variable = { APDC_eco_medical_change = modifier@APDC_eco_medical_weekly }
+set_variable = { APDC_eco_medical_tier_1_frame = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 1 } } }
+set_variable = { APDC_eco_medical_tier_1_frame = 2 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 2 } } }
+set_variable = { APDC_eco_medical_tier_1_frame = 3 }
+
+}
+set_variable = { APDC_eco_medical_tier_2_frame = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 2 } } }
+set_variable = { APDC_eco_medical_tier_2_frame = 2 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 3 } } }
+set_variable = { APDC_eco_medical_tier_2_frame = 3 }
+
+}
+set_variable = { APDC_eco_medical_tier_3_frame = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 3 } } }
+set_variable = { APDC_eco_medical_tier_3_frame = 2 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 4 } } }
+set_variable = { APDC_eco_medical_tier_3_frame = 3 }
+
+}
+set_variable = { APDC_eco_medical_tier_4_frame = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 4 } } }
+set_variable = { APDC_eco_medical_tier_4_frame = 2 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 5 } } }
+set_variable = { APDC_eco_medical_tier_4_frame = 3 }
+
+}
+set_variable = { APDC_eco_medical_tier_5_frame = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 5 } } }
+set_variable = { APDC_eco_medical_tier_5_frame = 2 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 6 } } }
+set_variable = { APDC_eco_medical_tier_5_frame = 3 }
+
+}
+set_variable = { APDC_eco_medical_bar_0_0 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 2 } } }
+set_variable = { APDC_eco_medical_bar_0_0 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 1 } } check_variable = { APDC_eco_medical < 2 } }
+set_temp_variable = { APDC_eco_math_24 = APDC_eco_medical }
+subtract_from_temp_variable = { APDC_eco_math_24 = 1 }
+multiply_temp_variable = { APDC_eco_math_24 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_24 = 0 }
+clamp_temp_variable = { var = APDC_eco_math_24 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_24 = 1 }
+round_temp_variable = APDC_eco_math_24
+set_variable = { APDC_eco_medical_bar_0_0 = APDC_eco_math_24 }
+if = { limit = { check_variable = { APDC_eco_medical_change = 0 } }
+add_to_variable = { APDC_eco_medical_bar_0_0 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_medical_change < 0 } }
+add_to_variable = { APDC_eco_medical_bar_0_0 = 80 }
+
+}
+
+}
+set_variable = { APDC_eco_medical_bar_0_1 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 2 } } }
+set_variable = { APDC_eco_medical_bar_0_1 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 1 } } check_variable = { APDC_eco_medical < 2 } }
+set_temp_variable = { APDC_eco_math_25 = APDC_eco_medical }
+subtract_from_temp_variable = { APDC_eco_math_25 = 1 }
+multiply_temp_variable = { APDC_eco_math_25 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_25 = 39 }
+clamp_temp_variable = { var = APDC_eco_math_25 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_25 = 1 }
+round_temp_variable = APDC_eco_math_25
+set_variable = { APDC_eco_medical_bar_0_1 = APDC_eco_math_25 }
+if = { limit = { check_variable = { APDC_eco_medical_change = 0 } }
+add_to_variable = { APDC_eco_medical_bar_0_1 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_medical_change < 0 } }
+add_to_variable = { APDC_eco_medical_bar_0_1 = 80 }
+
+}
+
+}
+set_variable = { APDC_eco_medical_bar_1_0 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 3 } } }
+set_variable = { APDC_eco_medical_bar_1_0 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 2 } } check_variable = { APDC_eco_medical < 3 } }
+set_temp_variable = { APDC_eco_math_26 = APDC_eco_medical }
+subtract_from_temp_variable = { APDC_eco_math_26 = 2 }
+multiply_temp_variable = { APDC_eco_math_26 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_26 = 0 }
+clamp_temp_variable = { var = APDC_eco_math_26 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_26 = 1 }
+round_temp_variable = APDC_eco_math_26
+set_variable = { APDC_eco_medical_bar_1_0 = APDC_eco_math_26 }
+if = { limit = { check_variable = { APDC_eco_medical_change = 0 } }
+add_to_variable = { APDC_eco_medical_bar_1_0 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_medical_change < 0 } }
+add_to_variable = { APDC_eco_medical_bar_1_0 = 80 }
+
+}
+
+}
+set_variable = { APDC_eco_medical_bar_1_1 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 3 } } }
+set_variable = { APDC_eco_medical_bar_1_1 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 2 } } check_variable = { APDC_eco_medical < 3 } }
+set_temp_variable = { APDC_eco_math_27 = APDC_eco_medical }
+subtract_from_temp_variable = { APDC_eco_math_27 = 2 }
+multiply_temp_variable = { APDC_eco_math_27 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_27 = 39 }
+clamp_temp_variable = { var = APDC_eco_math_27 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_27 = 1 }
+round_temp_variable = APDC_eco_math_27
+set_variable = { APDC_eco_medical_bar_1_1 = APDC_eco_math_27 }
+if = { limit = { check_variable = { APDC_eco_medical_change = 0 } }
+add_to_variable = { APDC_eco_medical_bar_1_1 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_medical_change < 0 } }
+add_to_variable = { APDC_eco_medical_bar_1_1 = 80 }
+
+}
+
+}
+set_variable = { APDC_eco_medical_bar_2_0 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 4 } } }
+set_variable = { APDC_eco_medical_bar_2_0 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 3 } } check_variable = { APDC_eco_medical < 4 } }
+set_temp_variable = { APDC_eco_math_28 = APDC_eco_medical }
+subtract_from_temp_variable = { APDC_eco_math_28 = 3 }
+multiply_temp_variable = { APDC_eco_math_28 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_28 = 0 }
+clamp_temp_variable = { var = APDC_eco_math_28 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_28 = 1 }
+round_temp_variable = APDC_eco_math_28
+set_variable = { APDC_eco_medical_bar_2_0 = APDC_eco_math_28 }
+if = { limit = { check_variable = { APDC_eco_medical_change = 0 } }
+add_to_variable = { APDC_eco_medical_bar_2_0 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_medical_change < 0 } }
+add_to_variable = { APDC_eco_medical_bar_2_0 = 80 }
+
+}
+
+}
+set_variable = { APDC_eco_medical_bar_2_1 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 4 } } }
+set_variable = { APDC_eco_medical_bar_2_1 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 3 } } check_variable = { APDC_eco_medical < 4 } }
+set_temp_variable = { APDC_eco_math_29 = APDC_eco_medical }
+subtract_from_temp_variable = { APDC_eco_math_29 = 3 }
+multiply_temp_variable = { APDC_eco_math_29 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_29 = 39 }
+clamp_temp_variable = { var = APDC_eco_math_29 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_29 = 1 }
+round_temp_variable = APDC_eco_math_29
+set_variable = { APDC_eco_medical_bar_2_1 = APDC_eco_math_29 }
+if = { limit = { check_variable = { APDC_eco_medical_change = 0 } }
+add_to_variable = { APDC_eco_medical_bar_2_1 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_medical_change < 0 } }
+add_to_variable = { APDC_eco_medical_bar_2_1 = 80 }
+
+}
+
+}
+set_variable = { APDC_eco_medical_bar_3_0 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 5 } } }
+set_variable = { APDC_eco_medical_bar_3_0 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 4 } } check_variable = { APDC_eco_medical < 5 } }
+set_temp_variable = { APDC_eco_math_30 = APDC_eco_medical }
+subtract_from_temp_variable = { APDC_eco_math_30 = 4 }
+multiply_temp_variable = { APDC_eco_math_30 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_30 = 0 }
+clamp_temp_variable = { var = APDC_eco_math_30 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_30 = 1 }
+round_temp_variable = APDC_eco_math_30
+set_variable = { APDC_eco_medical_bar_3_0 = APDC_eco_math_30 }
+if = { limit = { check_variable = { APDC_eco_medical_change = 0 } }
+add_to_variable = { APDC_eco_medical_bar_3_0 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_medical_change < 0 } }
+add_to_variable = { APDC_eco_medical_bar_3_0 = 80 }
+
+}
+
+}
+set_variable = { APDC_eco_medical_bar_3_1 = 1 }
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 5 } } }
+set_variable = { APDC_eco_medical_bar_3_1 = 80 }
+
+}
+if = { limit = { NOT = { check_variable = { APDC_eco_medical < 4 } } check_variable = { APDC_eco_medical < 5 } }
+set_temp_variable = { APDC_eco_math_31 = APDC_eco_medical }
+subtract_from_temp_variable = { APDC_eco_math_31 = 4 }
+multiply_temp_variable = { APDC_eco_math_31 = 78 }
+subtract_from_temp_variable = { APDC_eco_math_31 = 39 }
+clamp_temp_variable = { var = APDC_eco_math_31 min = 0 max = 39 }
+add_to_temp_variable = { APDC_eco_math_31 = 1 }
+round_temp_variable = APDC_eco_math_31
+set_variable = { APDC_eco_medical_bar_3_1 = APDC_eco_math_31 }
+if = { limit = { check_variable = { APDC_eco_medical_change = 0 } }
+add_to_variable = { APDC_eco_medical_bar_3_1 = 40 }
+
+}
+if = { limit = { check_variable = { APDC_eco_medical_change < 0 } }
+add_to_variable = { APDC_eco_medical_bar_3_1 = 80 }
+
+}
+
+}
+set_temp_variable = { APDC_eco_math_32 = APDC_eco_civ_progress }
+divide_temp_variable = { APDC_eco_math_32 = 10800 }
+multiply_temp_variable = { APDC_eco_math_32 = 333 }
+subtract_from_temp_variable = { APDC_eco_math_32 = 0 }
+clamp_temp_variable = { var = APDC_eco_math_32 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_32 = 1 }
+round_temp_variable = APDC_eco_math_32
+set_variable = { APDC_eco_civ_build_0_frame = APDC_eco_math_32 }
+if = { limit = { check_variable = { APDC_eco_civ_velocity = 0 } }
+add_to_variable = { APDC_eco_civ_build_0_frame = 38 }
+
+}
+if = { limit = { check_variable = { APDC_eco_civ_velocity < 0 } }
+add_to_variable = { APDC_eco_civ_build_0_frame = 76 }
+
+}
+set_temp_variable = { APDC_eco_math_33 = APDC_eco_civ_progress }
+divide_temp_variable = { APDC_eco_math_33 = 10800 }
+multiply_temp_variable = { APDC_eco_math_33 = 333 }
+subtract_from_temp_variable = { APDC_eco_math_33 = 37 }
+clamp_temp_variable = { var = APDC_eco_math_33 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_33 = 1 }
+round_temp_variable = APDC_eco_math_33
+set_variable = { APDC_eco_civ_build_1_frame = APDC_eco_math_33 }
+if = { limit = { check_variable = { APDC_eco_civ_velocity = 0 } }
+add_to_variable = { APDC_eco_civ_build_1_frame = 38 }
+
+}
+if = { limit = { check_variable = { APDC_eco_civ_velocity < 0 } }
+add_to_variable = { APDC_eco_civ_build_1_frame = 76 }
+
+}
+set_temp_variable = { APDC_eco_math_34 = APDC_eco_civ_progress }
+divide_temp_variable = { APDC_eco_math_34 = 10800 }
+multiply_temp_variable = { APDC_eco_math_34 = 333 }
+subtract_from_temp_variable = { APDC_eco_math_34 = 74 }
+clamp_temp_variable = { var = APDC_eco_math_34 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_34 = 1 }
+round_temp_variable = APDC_eco_math_34
+set_variable = { APDC_eco_civ_build_2_frame = APDC_eco_math_34 }
+if = { limit = { check_variable = { APDC_eco_civ_velocity = 0 } }
+add_to_variable = { APDC_eco_civ_build_2_frame = 38 }
+
+}
+if = { limit = { check_variable = { APDC_eco_civ_velocity < 0 } }
+add_to_variable = { APDC_eco_civ_build_2_frame = 76 }
+
+}
+set_temp_variable = { APDC_eco_math_35 = APDC_eco_civ_progress }
+divide_temp_variable = { APDC_eco_math_35 = 10800 }
+multiply_temp_variable = { APDC_eco_math_35 = 333 }
+subtract_from_temp_variable = { APDC_eco_math_35 = 111 }
+clamp_temp_variable = { var = APDC_eco_math_35 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_35 = 1 }
+round_temp_variable = APDC_eco_math_35
+set_variable = { APDC_eco_civ_build_3_frame = APDC_eco_math_35 }
+if = { limit = { check_variable = { APDC_eco_civ_velocity = 0 } }
+add_to_variable = { APDC_eco_civ_build_3_frame = 38 }
+
+}
+if = { limit = { check_variable = { APDC_eco_civ_velocity < 0 } }
+add_to_variable = { APDC_eco_civ_build_3_frame = 76 }
+
+}
+set_temp_variable = { APDC_eco_math_36 = APDC_eco_civ_progress }
+divide_temp_variable = { APDC_eco_math_36 = 10800 }
+multiply_temp_variable = { APDC_eco_math_36 = 333 }
+subtract_from_temp_variable = { APDC_eco_math_36 = 148 }
+clamp_temp_variable = { var = APDC_eco_math_36 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_36 = 1 }
+round_temp_variable = APDC_eco_math_36
+set_variable = { APDC_eco_civ_build_4_frame = APDC_eco_math_36 }
+if = { limit = { check_variable = { APDC_eco_civ_velocity = 0 } }
+add_to_variable = { APDC_eco_civ_build_4_frame = 38 }
+
+}
+if = { limit = { check_variable = { APDC_eco_civ_velocity < 0 } }
+add_to_variable = { APDC_eco_civ_build_4_frame = 76 }
+
+}
+set_temp_variable = { APDC_eco_math_37 = APDC_eco_civ_progress }
+divide_temp_variable = { APDC_eco_math_37 = 10800 }
+multiply_temp_variable = { APDC_eco_math_37 = 333 }
+subtract_from_temp_variable = { APDC_eco_math_37 = 185 }
+clamp_temp_variable = { var = APDC_eco_math_37 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_37 = 1 }
+round_temp_variable = APDC_eco_math_37
+set_variable = { APDC_eco_civ_build_5_frame = APDC_eco_math_37 }
+if = { limit = { check_variable = { APDC_eco_civ_velocity = 0 } }
+add_to_variable = { APDC_eco_civ_build_5_frame = 38 }
+
+}
+if = { limit = { check_variable = { APDC_eco_civ_velocity < 0 } }
+add_to_variable = { APDC_eco_civ_build_5_frame = 76 }
+
+}
+set_temp_variable = { APDC_eco_math_38 = APDC_eco_civ_progress }
+divide_temp_variable = { APDC_eco_math_38 = 10800 }
+multiply_temp_variable = { APDC_eco_math_38 = 333 }
+subtract_from_temp_variable = { APDC_eco_math_38 = 222 }
+clamp_temp_variable = { var = APDC_eco_math_38 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_38 = 1 }
+round_temp_variable = APDC_eco_math_38
+set_variable = { APDC_eco_civ_build_6_frame = APDC_eco_math_38 }
+if = { limit = { check_variable = { APDC_eco_civ_velocity = 0 } }
+add_to_variable = { APDC_eco_civ_build_6_frame = 38 }
+
+}
+if = { limit = { check_variable = { APDC_eco_civ_velocity < 0 } }
+add_to_variable = { APDC_eco_civ_build_6_frame = 76 }
+
+}
+set_temp_variable = { APDC_eco_math_39 = APDC_eco_civ_progress }
+divide_temp_variable = { APDC_eco_math_39 = 10800 }
+multiply_temp_variable = { APDC_eco_math_39 = 333 }
+subtract_from_temp_variable = { APDC_eco_math_39 = 259 }
+clamp_temp_variable = { var = APDC_eco_math_39 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_39 = 1 }
+round_temp_variable = APDC_eco_math_39
+set_variable = { APDC_eco_civ_build_7_frame = APDC_eco_math_39 }
+if = { limit = { check_variable = { APDC_eco_civ_velocity = 0 } }
+add_to_variable = { APDC_eco_civ_build_7_frame = 38 }
+
+}
+if = { limit = { check_variable = { APDC_eco_civ_velocity < 0 } }
+add_to_variable = { APDC_eco_civ_build_7_frame = 76 }
+
+}
+set_temp_variable = { APDC_eco_math_40 = APDC_eco_civ_progress }
+divide_temp_variable = { APDC_eco_math_40 = 10800 }
+multiply_temp_variable = { APDC_eco_math_40 = 333 }
+subtract_from_temp_variable = { APDC_eco_math_40 = 296 }
+clamp_temp_variable = { var = APDC_eco_math_40 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_40 = 1 }
+round_temp_variable = APDC_eco_math_40
+set_variable = { APDC_eco_civ_build_8_frame = APDC_eco_math_40 }
+if = { limit = { check_variable = { APDC_eco_civ_velocity = 0 } }
+add_to_variable = { APDC_eco_civ_build_8_frame = 38 }
+
+}
+if = { limit = { check_variable = { APDC_eco_civ_velocity < 0 } }
+add_to_variable = { APDC_eco_civ_build_8_frame = 76 }
+
+}
+set_variable = { APDC_eco_civ_days = 0 }
+if = { limit = { check_variable = { APDC_eco_civ_velocity > 0 } }
+set_temp_variable = { APDC_eco_math_41 = 10800 }
+subtract_from_temp_variable = { APDC_eco_math_41 = APDC_eco_civ_progress }
+divide_temp_variable = { APDC_eco_math_41 = APDC_eco_civ_velocity }
+round_temp_variable = APDC_eco_math_41
+set_variable = { APDC_eco_civ_days = APDC_eco_math_41 }
+
+}
+set_temp_variable = { APDC_eco_math_42 = APDC_eco_mil_progress }
+divide_temp_variable = { APDC_eco_math_42 = 7200 }
+multiply_temp_variable = { APDC_eco_math_42 = 333 }
+subtract_from_temp_variable = { APDC_eco_math_42 = 0 }
+clamp_temp_variable = { var = APDC_eco_math_42 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_42 = 1 }
+round_temp_variable = APDC_eco_math_42
+set_variable = { APDC_eco_mil_build_0_frame = APDC_eco_math_42 }
+if = { limit = { check_variable = { APDC_eco_mil_velocity = 0 } }
+add_to_variable = { APDC_eco_mil_build_0_frame = 38 }
+
+}
+if = { limit = { check_variable = { APDC_eco_mil_velocity < 0 } }
+add_to_variable = { APDC_eco_mil_build_0_frame = 76 }
+
+}
+set_temp_variable = { APDC_eco_math_43 = APDC_eco_mil_progress }
+divide_temp_variable = { APDC_eco_math_43 = 7200 }
+multiply_temp_variable = { APDC_eco_math_43 = 333 }
+subtract_from_temp_variable = { APDC_eco_math_43 = 37 }
+clamp_temp_variable = { var = APDC_eco_math_43 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_43 = 1 }
+round_temp_variable = APDC_eco_math_43
+set_variable = { APDC_eco_mil_build_1_frame = APDC_eco_math_43 }
+if = { limit = { check_variable = { APDC_eco_mil_velocity = 0 } }
+add_to_variable = { APDC_eco_mil_build_1_frame = 38 }
+
+}
+if = { limit = { check_variable = { APDC_eco_mil_velocity < 0 } }
+add_to_variable = { APDC_eco_mil_build_1_frame = 76 }
+
+}
+set_temp_variable = { APDC_eco_math_44 = APDC_eco_mil_progress }
+divide_temp_variable = { APDC_eco_math_44 = 7200 }
+multiply_temp_variable = { APDC_eco_math_44 = 333 }
+subtract_from_temp_variable = { APDC_eco_math_44 = 74 }
+clamp_temp_variable = { var = APDC_eco_math_44 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_44 = 1 }
+round_temp_variable = APDC_eco_math_44
+set_variable = { APDC_eco_mil_build_2_frame = APDC_eco_math_44 }
+if = { limit = { check_variable = { APDC_eco_mil_velocity = 0 } }
+add_to_variable = { APDC_eco_mil_build_2_frame = 38 }
+
+}
+if = { limit = { check_variable = { APDC_eco_mil_velocity < 0 } }
+add_to_variable = { APDC_eco_mil_build_2_frame = 76 }
+
+}
+set_temp_variable = { APDC_eco_math_45 = APDC_eco_mil_progress }
+divide_temp_variable = { APDC_eco_math_45 = 7200 }
+multiply_temp_variable = { APDC_eco_math_45 = 333 }
+subtract_from_temp_variable = { APDC_eco_math_45 = 111 }
+clamp_temp_variable = { var = APDC_eco_math_45 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_45 = 1 }
+round_temp_variable = APDC_eco_math_45
+set_variable = { APDC_eco_mil_build_3_frame = APDC_eco_math_45 }
+if = { limit = { check_variable = { APDC_eco_mil_velocity = 0 } }
+add_to_variable = { APDC_eco_mil_build_3_frame = 38 }
+
+}
+if = { limit = { check_variable = { APDC_eco_mil_velocity < 0 } }
+add_to_variable = { APDC_eco_mil_build_3_frame = 76 }
+
+}
+set_temp_variable = { APDC_eco_math_46 = APDC_eco_mil_progress }
+divide_temp_variable = { APDC_eco_math_46 = 7200 }
+multiply_temp_variable = { APDC_eco_math_46 = 333 }
+subtract_from_temp_variable = { APDC_eco_math_46 = 148 }
+clamp_temp_variable = { var = APDC_eco_math_46 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_46 = 1 }
+round_temp_variable = APDC_eco_math_46
+set_variable = { APDC_eco_mil_build_4_frame = APDC_eco_math_46 }
+if = { limit = { check_variable = { APDC_eco_mil_velocity = 0 } }
+add_to_variable = { APDC_eco_mil_build_4_frame = 38 }
+
+}
+if = { limit = { check_variable = { APDC_eco_mil_velocity < 0 } }
+add_to_variable = { APDC_eco_mil_build_4_frame = 76 }
+
+}
+set_temp_variable = { APDC_eco_math_47 = APDC_eco_mil_progress }
+divide_temp_variable = { APDC_eco_math_47 = 7200 }
+multiply_temp_variable = { APDC_eco_math_47 = 333 }
+subtract_from_temp_variable = { APDC_eco_math_47 = 185 }
+clamp_temp_variable = { var = APDC_eco_math_47 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_47 = 1 }
+round_temp_variable = APDC_eco_math_47
+set_variable = { APDC_eco_mil_build_5_frame = APDC_eco_math_47 }
+if = { limit = { check_variable = { APDC_eco_mil_velocity = 0 } }
+add_to_variable = { APDC_eco_mil_build_5_frame = 38 }
+
+}
+if = { limit = { check_variable = { APDC_eco_mil_velocity < 0 } }
+add_to_variable = { APDC_eco_mil_build_5_frame = 76 }
+
+}
+set_temp_variable = { APDC_eco_math_48 = APDC_eco_mil_progress }
+divide_temp_variable = { APDC_eco_math_48 = 7200 }
+multiply_temp_variable = { APDC_eco_math_48 = 333 }
+subtract_from_temp_variable = { APDC_eco_math_48 = 222 }
+clamp_temp_variable = { var = APDC_eco_math_48 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_48 = 1 }
+round_temp_variable = APDC_eco_math_48
+set_variable = { APDC_eco_mil_build_6_frame = APDC_eco_math_48 }
+if = { limit = { check_variable = { APDC_eco_mil_velocity = 0 } }
+add_to_variable = { APDC_eco_mil_build_6_frame = 38 }
+
+}
+if = { limit = { check_variable = { APDC_eco_mil_velocity < 0 } }
+add_to_variable = { APDC_eco_mil_build_6_frame = 76 }
+
+}
+set_temp_variable = { APDC_eco_math_49 = APDC_eco_mil_progress }
+divide_temp_variable = { APDC_eco_math_49 = 7200 }
+multiply_temp_variable = { APDC_eco_math_49 = 333 }
+subtract_from_temp_variable = { APDC_eco_math_49 = 259 }
+clamp_temp_variable = { var = APDC_eco_math_49 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_49 = 1 }
+round_temp_variable = APDC_eco_math_49
+set_variable = { APDC_eco_mil_build_7_frame = APDC_eco_math_49 }
+if = { limit = { check_variable = { APDC_eco_mil_velocity = 0 } }
+add_to_variable = { APDC_eco_mil_build_7_frame = 38 }
+
+}
+if = { limit = { check_variable = { APDC_eco_mil_velocity < 0 } }
+add_to_variable = { APDC_eco_mil_build_7_frame = 76 }
+
+}
+set_temp_variable = { APDC_eco_math_50 = APDC_eco_mil_progress }
+divide_temp_variable = { APDC_eco_math_50 = 7200 }
+multiply_temp_variable = { APDC_eco_math_50 = 333 }
+subtract_from_temp_variable = { APDC_eco_math_50 = 296 }
+clamp_temp_variable = { var = APDC_eco_math_50 min = 0 max = 37 }
+add_to_temp_variable = { APDC_eco_math_50 = 1 }
+round_temp_variable = APDC_eco_math_50
+set_variable = { APDC_eco_mil_build_8_frame = APDC_eco_math_50 }
+if = { limit = { check_variable = { APDC_eco_mil_velocity = 0 } }
+add_to_variable = { APDC_eco_mil_build_8_frame = 38 }
+
+}
+if = { limit = { check_variable = { APDC_eco_mil_velocity < 0 } }
+add_to_variable = { APDC_eco_mil_build_8_frame = 76 }
+
+}
+set_variable = { APDC_eco_mil_days = 0 }
+if = { limit = { check_variable = { APDC_eco_mil_velocity > 0 } }
+set_temp_variable = { APDC_eco_math_51 = 7200 }
+subtract_from_temp_variable = { APDC_eco_math_51 = APDC_eco_mil_progress }
+divide_temp_variable = { APDC_eco_math_51 = APDC_eco_mil_velocity }
+round_temp_variable = APDC_eco_math_51
+set_variable = { APDC_eco_mil_days = APDC_eco_math_51 }
+
+}
+set_variable = { APDC_eco_trade_frame = 2 }
+if = { limit = { check_variable = { APDC_eco_imports_m > 0 } }
+set_variable = { APDC_eco_trade_frame = 1 }
+
+}
+if = { limit = { check_variable = { APDC_eco_exports_m > 0 } }
+set_variable = { APDC_eco_trade_frame = 3 }
+
+}
+set_variable = { APDC_eco_trade_toggle_frame = 1 }
+if = { limit = { has_variable = APDC_eco_trade_open }
+set_variable = { APDC_eco_trade_toggle_frame = 2 }
+
+}
+set_temp_variable = { APDC_eco_math_52 = APDC_eco_imports_m }
+subtract_from_temp_variable = { APDC_eco_math_52 = APDC_eco_exports_m }
+set_variable = { APDC_eco_trade_net_m = APDC_eco_math_52 }
+set_temp_variable = { APDC_eco_math_53 = 0 }
+subtract_from_temp_variable = { APDC_eco_math_53 = APDC_eco_welfare_cost_m }
+set_variable = { APDC_eco_ui_weekly_welfare_cost_m = APDC_eco_math_53 }
+set_temp_variable = { APDC_eco_math_54 = 0 }
+subtract_from_temp_variable = { APDC_eco_math_54 = APDC_eco_subsidies_m }
+set_variable = { APDC_eco_ui_weekly_subsidies_m = APDC_eco_math_54 }
+set_temp_variable = { APDC_eco_math_55 = 0 }
+subtract_from_temp_variable = { APDC_eco_math_55 = APDC_eco_investment_cost_m }
+set_variable = { APDC_eco_ui_weekly_investment_cost_m = APDC_eco_math_55 }
+set_temp_variable = { APDC_eco_math_56 = 0 }
+subtract_from_temp_variable = { APDC_eco_math_56 = APDC_eco_construction_cost_m }
+set_variable = { APDC_eco_ui_weekly_construction_cost_m = APDC_eco_math_56 }
+set_temp_variable = { APDC_eco_math_57 = 0 }
+subtract_from_temp_variable = { APDC_eco_math_57 = APDC_eco_production_cost_m }
+set_variable = { APDC_eco_ui_weekly_production_cost_m = APDC_eco_math_57 }
+set_temp_variable = { APDC_eco_math_58 = 0 }
+subtract_from_temp_variable = { APDC_eco_math_58 = APDC_eco_naval_production_cost_m }
+set_variable = { APDC_eco_ui_weekly_naval_production_cost_m = APDC_eco_math_58 }
+set_temp_variable = { APDC_eco_math_59 = 0 }
+subtract_from_temp_variable = { APDC_eco_math_59 = APDC_eco_research_cost_m }
+set_variable = { APDC_eco_ui_weekly_research_cost_m = APDC_eco_math_59 }
+set_temp_variable = { APDC_eco_math_60 = 0 }
+subtract_from_temp_variable = { APDC_eco_math_60 = APDC_eco_projects_cost_m }
+set_variable = { APDC_eco_ui_weekly_projects_cost_m = APDC_eco_math_60 }
+set_temp_variable = { APDC_eco_math_61 = 0 }
+subtract_from_temp_variable = { APDC_eco_math_61 = APDC_eco_army_cost_m }
+set_variable = { APDC_eco_ui_weekly_army_cost_m = APDC_eco_math_61 }
+set_temp_variable = { APDC_eco_math_62 = 0 }
+subtract_from_temp_variable = { APDC_eco_math_62 = APDC_eco_navy_cost_m }
+set_variable = { APDC_eco_ui_weekly_navy_cost_m = APDC_eco_math_62 }
+set_temp_variable = { APDC_eco_math_63 = 0 }
+subtract_from_temp_variable = { APDC_eco_math_63 = APDC_eco_air_cost_m }
+set_variable = { APDC_eco_ui_weekly_air_cost_m = APDC_eco_math_63 }
+set_variable = { APDC_eco_ui_food_weekly_other = modifier@APDC_eco_food_weekly }
+if = { limit = { has_idea = APDC_eco_tax_1 }
+set_temp_variable = { APDC_eco_math_64 = APDC_eco_ui_food_weekly_other }
+subtract_from_temp_variable = { APDC_eco_math_64 = 0.02 }
+set_variable = { APDC_eco_ui_food_weekly_other = APDC_eco_math_64 }
+
+}
+if = { limit = { has_idea = APDC_eco_tax_2 }
+set_temp_variable = { APDC_eco_math_65 = APDC_eco_ui_food_weekly_other }
+subtract_from_temp_variable = { APDC_eco_math_65 = 0.01 }
+set_variable = { APDC_eco_ui_food_weekly_other = APDC_eco_math_65 }
+
+}
+if = { limit = { has_idea = APDC_eco_tax_4 }
+set_temp_variable = { APDC_eco_math_66 = APDC_eco_ui_food_weekly_other }
+subtract_from_temp_variable = { APDC_eco_math_66 = -0.01 }
+set_variable = { APDC_eco_ui_food_weekly_other = APDC_eco_math_66 }
+
+}
+if = { limit = { has_idea = APDC_eco_tax_5 }
+set_temp_variable = { APDC_eco_math_67 = APDC_eco_ui_food_weekly_other }
+subtract_from_temp_variable = { APDC_eco_math_67 = -0.02 }
+set_variable = { APDC_eco_ui_food_weekly_other = APDC_eco_math_67 }
+
+}
+if = { limit = { has_idea = APDC_eco_food_spending_1 }
+set_temp_variable = { APDC_eco_math_68 = APDC_eco_ui_food_weekly_other }
+subtract_from_temp_variable = { APDC_eco_math_68 = -0.02 }
+set_variable = { APDC_eco_ui_food_weekly_other = APDC_eco_math_68 }
+
+}
+if = { limit = { has_idea = APDC_eco_food_spending_3 }
+set_temp_variable = { APDC_eco_math_69 = APDC_eco_ui_food_weekly_other }
+subtract_from_temp_variable = { APDC_eco_math_69 = 0.01 }
+set_variable = { APDC_eco_ui_food_weekly_other = APDC_eco_math_69 }
+
+}
+if = { limit = { has_idea = APDC_eco_food_spending_4 }
+set_temp_variable = { APDC_eco_math_70 = APDC_eco_ui_food_weekly_other }
+subtract_from_temp_variable = { APDC_eco_math_70 = 0.02 }
+set_variable = { APDC_eco_ui_food_weekly_other = APDC_eco_math_70 }
+
+}
+if = { limit = { has_idea = APDC_eco_food_spending_5 }
+set_temp_variable = { APDC_eco_math_71 = APDC_eco_ui_food_weekly_other }
+subtract_from_temp_variable = { APDC_eco_math_71 = 0.04 }
+set_variable = { APDC_eco_ui_food_weekly_other = APDC_eco_math_71 }
+
+}
+set_variable = { APDC_eco_ui_education_weekly_other = modifier@APDC_eco_education_weekly }
+if = { limit = { has_idea = APDC_eco_education_spending_1 }
+set_temp_variable = { APDC_eco_math_72 = APDC_eco_ui_education_weekly_other }
+subtract_from_temp_variable = { APDC_eco_math_72 = -0.02 }
+set_variable = { APDC_eco_ui_education_weekly_other = APDC_eco_math_72 }
+
+}
+if = { limit = { has_idea = APDC_eco_education_spending_3 }
+set_temp_variable = { APDC_eco_math_73 = APDC_eco_ui_education_weekly_other }
+subtract_from_temp_variable = { APDC_eco_math_73 = 0.01 }
+set_variable = { APDC_eco_ui_education_weekly_other = APDC_eco_math_73 }
+
+}
+if = { limit = { has_idea = APDC_eco_education_spending_4 }
+set_temp_variable = { APDC_eco_math_74 = APDC_eco_ui_education_weekly_other }
+subtract_from_temp_variable = { APDC_eco_math_74 = 0.02 }
+set_variable = { APDC_eco_ui_education_weekly_other = APDC_eco_math_74 }
+
+}
+if = { limit = { has_idea = APDC_eco_education_spending_5 }
+set_temp_variable = { APDC_eco_math_75 = APDC_eco_ui_education_weekly_other }
+subtract_from_temp_variable = { APDC_eco_math_75 = 0.04 }
+set_variable = { APDC_eco_ui_education_weekly_other = APDC_eco_math_75 }
+
+}
+set_variable = { APDC_eco_ui_medical_weekly_other = modifier@APDC_eco_medical_weekly }
+if = { limit = { has_idea = APDC_eco_medical_spending_1 }
+set_temp_variable = { APDC_eco_math_76 = APDC_eco_ui_medical_weekly_other }
+subtract_from_temp_variable = { APDC_eco_math_76 = -0.02 }
+set_variable = { APDC_eco_ui_medical_weekly_other = APDC_eco_math_76 }
+
+}
+if = { limit = { has_idea = APDC_eco_medical_spending_3 }
+set_temp_variable = { APDC_eco_math_77 = APDC_eco_ui_medical_weekly_other }
+subtract_from_temp_variable = { APDC_eco_math_77 = 0.01 }
+set_variable = { APDC_eco_ui_medical_weekly_other = APDC_eco_math_77 }
+
+}
+if = { limit = { has_idea = APDC_eco_medical_spending_4 }
+set_temp_variable = { APDC_eco_math_78 = APDC_eco_ui_medical_weekly_other }
+subtract_from_temp_variable = { APDC_eco_math_78 = 0.02 }
+set_variable = { APDC_eco_ui_medical_weekly_other = APDC_eco_math_78 }
+
+}
+if = { limit = { has_idea = APDC_eco_medical_spending_5 }
+set_temp_variable = { APDC_eco_math_79 = APDC_eco_ui_medical_weekly_other }
+subtract_from_temp_variable = { APDC_eco_math_79 = 0.04 }
+set_variable = { APDC_eco_ui_medical_weekly_other = APDC_eco_math_79 }
+
+}
+set_temp_variable = { APDC_eco_math_80 = APDC_eco_public_civ }
+multiply_temp_variable = { APDC_eco_math_80 = APDC_eco_goods_per_civ_m }
+set_variable = { APDC_eco_ui_domestic_public_m = APDC_eco_math_80 }
+set_temp_variable = { APDC_eco_math_81 = APDC_eco_domestic_m }
+subtract_from_temp_variable = { APDC_eco_math_81 = APDC_eco_ui_domestic_public_m }
+set_variable = { APDC_eco_ui_domestic_private_m = APDC_eco_math_81 }
+set_temp_variable = { APDC_eco_math_82 = APDC_eco_distribution_capacity_input }
+clamp_temp_variable = { var = APDC_eco_math_82 min = 0 max = 50 }
+multiply_temp_variable = { APDC_eco_math_82 = -0.004 }
+set_variable = { APDC_eco_ui_distribution_speed = APDC_eco_math_82 }
+set_variable = { APDC_eco_ui_distribution_bonus = modifier@APDC_eco_distribution_bonus }
+set_temp_variable = { APDC_eco_math_83 = political_power_daily }
+multiply_temp_variable = { APDC_eco_math_83 = 0.15 }
+set_variable = { APDC_eco_ui_planned_distribution = APDC_eco_math_83 }
+set_temp_variable = { APDC_eco_math_84 = APDC_eco_distribution }
+subtract_from_temp_variable = { APDC_eco_math_84 = 0.8 }
+subtract_from_temp_variable = { APDC_eco_math_84 = APDC_eco_ui_distribution_speed }
+subtract_from_temp_variable = { APDC_eco_math_84 = APDC_eco_ui_distribution_bonus }
+set_variable = { APDC_eco_ui_distribution_boundary = APDC_eco_math_84 }
+if = { limit = { APDC_eco_is_planned = yes }
+set_temp_variable = { APDC_eco_math_85 = APDC_eco_distribution }
+subtract_from_temp_variable = { APDC_eco_math_85 = 0.6 }
+subtract_from_temp_variable = { APDC_eco_math_85 = APDC_eco_ui_planned_distribution }
+set_variable = { APDC_eco_ui_distribution_boundary = APDC_eco_math_85 }
+
+}
+set_variable = { APDC_eco_ui_distribution_other = modifier@APDC_eco_distribution_bonus }
+if = { limit = { has_idea = APDC_eco_distribution_2 }
+set_temp_variable = { APDC_eco_math_86 = APDC_eco_ui_distribution_other }
+subtract_from_temp_variable = { APDC_eco_math_86 = 0.05 }
+set_variable = { APDC_eco_ui_distribution_other = APDC_eco_math_86 }
+
+}
+if = { limit = { has_idea = APDC_eco_distribution_3 }
+set_temp_variable = { APDC_eco_math_87 = APDC_eco_ui_distribution_other }
+subtract_from_temp_variable = { APDC_eco_math_87 = 0.1 }
+set_variable = { APDC_eco_ui_distribution_other = APDC_eco_math_87 }
+
+}
+if = { limit = { has_idea = APDC_eco_distribution_4 }
+set_temp_variable = { APDC_eco_math_88 = APDC_eco_ui_distribution_other }
+subtract_from_temp_variable = { APDC_eco_math_88 = 0.15 }
+set_variable = { APDC_eco_ui_distribution_other = APDC_eco_math_88 }
+
+}
+set_temp_variable = { APDC_eco_math_89 = modifier@APDC_eco_civ_expansion_base }
+multiply_temp_variable = { APDC_eco_math_89 = APDC_eco_private_civ }
+multiply_temp_variable = { APDC_eco_math_89 = 0.5 }
+set_variable = { APDC_eco_ui_civ_base_contribution = APDC_eco_math_89 }
+set_variable = { APDC_eco_ui_production_speed_buildings_factor = modifier@production_speed_buildings_factor }
+set_variable = { APDC_eco_ui_production_speed_industrial_complex_factor = modifier@production_speed_industrial_complex_factor }
+set_variable = { APDC_eco_ui_civ_expansion_other = modifier@APDC_eco_private_civ_expansion_factor }
+if = { limit = { has_idea = APDC_eco_tax_1 }
+set_temp_variable = { APDC_eco_math_90 = APDC_eco_ui_civ_expansion_other }
+subtract_from_temp_variable = { APDC_eco_math_90 = 0.2 }
+set_variable = { APDC_eco_ui_civ_expansion_other = APDC_eco_math_90 }
+
+}
+if = { limit = { has_idea = APDC_eco_tax_2 }
+set_temp_variable = { APDC_eco_math_91 = APDC_eco_ui_civ_expansion_other }
+subtract_from_temp_variable = { APDC_eco_math_91 = 0.1 }
+set_variable = { APDC_eco_ui_civ_expansion_other = APDC_eco_math_91 }
+
+}
+if = { limit = { has_idea = APDC_eco_tax_4 }
+set_temp_variable = { APDC_eco_math_92 = APDC_eco_ui_civ_expansion_other }
+subtract_from_temp_variable = { APDC_eco_math_92 = -0.1 }
+set_variable = { APDC_eco_ui_civ_expansion_other = APDC_eco_math_92 }
+
+}
+if = { limit = { has_idea = APDC_eco_tax_5 }
+set_temp_variable = { APDC_eco_math_93 = APDC_eco_ui_civ_expansion_other }
+subtract_from_temp_variable = { APDC_eco_math_93 = -0.2 }
+set_variable = { APDC_eco_ui_civ_expansion_other = APDC_eco_math_93 }
+
+}
+if = { limit = { has_idea = APDC_eco_distribution_1 }
+set_temp_variable = { APDC_eco_math_94 = APDC_eco_ui_civ_expansion_other }
+subtract_from_temp_variable = { APDC_eco_math_94 = 0.5 }
+set_variable = { APDC_eco_ui_civ_expansion_other = APDC_eco_math_94 }
+
+}
+if = { limit = { has_idea = APDC_eco_distribution_2 }
+set_temp_variable = { APDC_eco_math_95 = APDC_eco_ui_civ_expansion_other }
+subtract_from_temp_variable = { APDC_eco_math_95 = 0.2 }
+set_variable = { APDC_eco_ui_civ_expansion_other = APDC_eco_math_95 }
+
+}
+if = { limit = { has_idea = APDC_eco_distribution_3 }
+set_temp_variable = { APDC_eco_math_96 = APDC_eco_ui_civ_expansion_other }
+subtract_from_temp_variable = { APDC_eco_math_96 = 0.1 }
+set_variable = { APDC_eco_ui_civ_expansion_other = APDC_eco_math_96 }
+
+}
+if = { limit = { has_idea = APDC_eco_consumption_1 }
+set_temp_variable = { APDC_eco_math_97 = APDC_eco_ui_civ_expansion_other }
+subtract_from_temp_variable = { APDC_eco_math_97 = -0.2 }
+set_variable = { APDC_eco_ui_civ_expansion_other = APDC_eco_math_97 }
+
+}
+if = { limit = { has_idea = APDC_eco_consumption_2 }
+set_temp_variable = { APDC_eco_math_98 = APDC_eco_ui_civ_expansion_other }
+subtract_from_temp_variable = { APDC_eco_math_98 = -0.1 }
+set_variable = { APDC_eco_ui_civ_expansion_other = APDC_eco_math_98 }
+
+}
+if = { limit = { has_idea = APDC_eco_consumption_4 }
+set_temp_variable = { APDC_eco_math_99 = APDC_eco_ui_civ_expansion_other }
+subtract_from_temp_variable = { APDC_eco_math_99 = 0.1 }
+set_variable = { APDC_eco_ui_civ_expansion_other = APDC_eco_math_99 }
+
+}
+if = { limit = { has_idea = APDC_eco_consumption_5 }
+set_temp_variable = { APDC_eco_math_100 = APDC_eco_ui_civ_expansion_other }
+subtract_from_temp_variable = { APDC_eco_math_100 = 0.2 }
+set_variable = { APDC_eco_ui_civ_expansion_other = APDC_eco_math_100 }
+
+}
+set_temp_variable = { APDC_eco_math_101 = modifier@APDC_eco_mil_expansion_base }
+multiply_temp_variable = { APDC_eco_math_101 = APDC_eco_private_civ }
+multiply_temp_variable = { APDC_eco_math_101 = 0.5 }
+set_variable = { APDC_eco_ui_mil_base_contribution = APDC_eco_math_101 }
+set_variable = { APDC_eco_ui_production_speed_buildings_factor = modifier@production_speed_buildings_factor }
+set_variable = { APDC_eco_ui_production_speed_arms_factory_factor = modifier@production_speed_arms_factory_factor }
+set_variable = { APDC_eco_ui_mil_expansion_other = modifier@APDC_eco_private_mil_expansion_factor }
+if = { limit = { has_idea = APDC_eco_tax_1 }
+set_temp_variable = { APDC_eco_math_102 = APDC_eco_ui_mil_expansion_other }
+subtract_from_temp_variable = { APDC_eco_math_102 = 0.2 }
+set_variable = { APDC_eco_ui_mil_expansion_other = APDC_eco_math_102 }
+
+}
+if = { limit = { has_idea = APDC_eco_tax_2 }
+set_temp_variable = { APDC_eco_math_103 = APDC_eco_ui_mil_expansion_other }
+subtract_from_temp_variable = { APDC_eco_math_103 = 0.1 }
+set_variable = { APDC_eco_ui_mil_expansion_other = APDC_eco_math_103 }
+
+}
+if = { limit = { has_idea = APDC_eco_tax_4 }
+set_temp_variable = { APDC_eco_math_104 = APDC_eco_ui_mil_expansion_other }
+subtract_from_temp_variable = { APDC_eco_math_104 = -0.1 }
+set_variable = { APDC_eco_ui_mil_expansion_other = APDC_eco_math_104 }
+
+}
+if = { limit = { has_idea = APDC_eco_tax_5 }
+set_temp_variable = { APDC_eco_math_105 = APDC_eco_ui_mil_expansion_other }
+subtract_from_temp_variable = { APDC_eco_math_105 = -0.2 }
+set_variable = { APDC_eco_ui_mil_expansion_other = APDC_eco_math_105 }
+
+}
+if = { limit = { has_idea = APDC_eco_distribution_1 }
+set_temp_variable = { APDC_eco_math_106 = APDC_eco_ui_mil_expansion_other }
+subtract_from_temp_variable = { APDC_eco_math_106 = 0.5 }
+set_variable = { APDC_eco_ui_mil_expansion_other = APDC_eco_math_106 }
+
+}
+if = { limit = { has_idea = APDC_eco_distribution_2 }
+set_temp_variable = { APDC_eco_math_107 = APDC_eco_ui_mil_expansion_other }
+subtract_from_temp_variable = { APDC_eco_math_107 = 0.2 }
+set_variable = { APDC_eco_ui_mil_expansion_other = APDC_eco_math_107 }
+
+}
+if = { limit = { has_idea = APDC_eco_distribution_3 }
+set_temp_variable = { APDC_eco_math_108 = APDC_eco_ui_mil_expansion_other }
+subtract_from_temp_variable = { APDC_eco_math_108 = 0.1 }
+set_variable = { APDC_eco_ui_mil_expansion_other = APDC_eco_math_108 }
+
+}
+if = { limit = { has_idea = APDC_eco_consumption_1 }
+set_temp_variable = { APDC_eco_math_109 = APDC_eco_ui_mil_expansion_other }
+subtract_from_temp_variable = { APDC_eco_math_109 = -0.2 }
+set_variable = { APDC_eco_ui_mil_expansion_other = APDC_eco_math_109 }
+
+}
+if = { limit = { has_idea = APDC_eco_consumption_2 }
+set_temp_variable = { APDC_eco_math_110 = APDC_eco_ui_mil_expansion_other }
+subtract_from_temp_variable = { APDC_eco_math_110 = -0.1 }
+set_variable = { APDC_eco_ui_mil_expansion_other = APDC_eco_math_110 }
+
+}
+if = { limit = { has_idea = APDC_eco_consumption_4 }
+set_temp_variable = { APDC_eco_math_111 = APDC_eco_ui_mil_expansion_other }
+subtract_from_temp_variable = { APDC_eco_math_111 = 0.1 }
+set_variable = { APDC_eco_ui_mil_expansion_other = APDC_eco_math_111 }
+
+}
+if = { limit = { has_idea = APDC_eco_consumption_5 }
+set_temp_variable = { APDC_eco_math_112 = APDC_eco_ui_mil_expansion_other }
+subtract_from_temp_variable = { APDC_eco_math_112 = 0.2 }
+set_variable = { APDC_eco_ui_mil_expansion_other = APDC_eco_math_112 }
+
+}
+APDC_eco_refresh_number_ui = yes
+add_to_variable = { APDC_eco_ui_revision = 1 }
+
+}
+APDC_eco_refresh_number_ui = {
+set_variable = { APDC_eco_ui_number_0 = APDC_eco_head_tax_m }
+set_variable = { APDC_eco_ui_number_0_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_0 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_0 > -1000000 } } } check_variable = { APDC_eco_ui_number_0_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_0 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_0 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_0_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_0 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_0 > -1000 } } } check_variable = { APDC_eco_ui_number_0_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_0 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_0_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_0 < 1 } check_variable = { APDC_eco_ui_number_0 > -1 } NOT = { check_variable = { APDC_eco_ui_number_0 = 0 } } check_variable = { APDC_eco_ui_number_0_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_0 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_0_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_0 = 0 } }
+set_variable = { APDC_eco_ui_number_0_unit = 0 }
+}
+set_variable = { APDC_eco_ui_number_1 = APDC_eco_consumption_tax_m }
+set_variable = { APDC_eco_ui_number_1_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_1 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_1 > -1000000 } } } check_variable = { APDC_eco_ui_number_1_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_1 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_1 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_1_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_1 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_1 > -1000 } } } check_variable = { APDC_eco_ui_number_1_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_1 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_1_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_1 < 1 } check_variable = { APDC_eco_ui_number_1 > -1 } NOT = { check_variable = { APDC_eco_ui_number_1 = 0 } } check_variable = { APDC_eco_ui_number_1_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_1 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_1_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_1 = 0 } }
+set_variable = { APDC_eco_ui_number_1_unit = 0 }
+}
+set_variable = { APDC_eco_ui_number_2 = APDC_eco_tariffs_m }
+set_variable = { APDC_eco_ui_number_2_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_2 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_2 > -1000000 } } } check_variable = { APDC_eco_ui_number_2_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_2 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_2 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_2_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_2 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_2 > -1000 } } } check_variable = { APDC_eco_ui_number_2_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_2 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_2_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_2 < 1 } check_variable = { APDC_eco_ui_number_2 > -1 } NOT = { check_variable = { APDC_eco_ui_number_2 = 0 } } check_variable = { APDC_eco_ui_number_2_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_2 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_2_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_2 = 0 } }
+set_variable = { APDC_eco_ui_number_2_unit = 0 }
+}
+set_variable = { APDC_eco_ui_number_3 = APDC_eco_ui_weekly_welfare_cost_m }
+set_variable = { APDC_eco_ui_number_3_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_3 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_3 > -1000000 } } } check_variable = { APDC_eco_ui_number_3_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_3 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_3 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_3_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_3 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_3 > -1000 } } } check_variable = { APDC_eco_ui_number_3_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_3 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_3_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_3 < 1 } check_variable = { APDC_eco_ui_number_3 > -1 } NOT = { check_variable = { APDC_eco_ui_number_3 = 0 } } check_variable = { APDC_eco_ui_number_3_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_3 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_3_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_3 = 0 } }
+set_variable = { APDC_eco_ui_number_3_unit = 0 }
+}
+set_variable = { APDC_eco_ui_number_4 = APDC_eco_ui_weekly_subsidies_m }
+set_variable = { APDC_eco_ui_number_4_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_4 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_4 > -1000000 } } } check_variable = { APDC_eco_ui_number_4_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_4 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_4 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_4_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_4 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_4 > -1000 } } } check_variable = { APDC_eco_ui_number_4_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_4 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_4_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_4 < 1 } check_variable = { APDC_eco_ui_number_4 > -1 } NOT = { check_variable = { APDC_eco_ui_number_4 = 0 } } check_variable = { APDC_eco_ui_number_4_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_4 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_4_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_4 = 0 } }
+set_variable = { APDC_eco_ui_number_4_unit = 0 }
+}
+set_variable = { APDC_eco_ui_number_5 = APDC_eco_ui_weekly_investment_cost_m }
+set_variable = { APDC_eco_ui_number_5_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_5 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_5 > -1000000 } } } check_variable = { APDC_eco_ui_number_5_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_5 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_5 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_5_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_5 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_5 > -1000 } } } check_variable = { APDC_eco_ui_number_5_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_5 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_5_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_5 < 1 } check_variable = { APDC_eco_ui_number_5 > -1 } NOT = { check_variable = { APDC_eco_ui_number_5 = 0 } } check_variable = { APDC_eco_ui_number_5_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_5 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_5_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_5 = 0 } }
+set_variable = { APDC_eco_ui_number_5_unit = 0 }
+}
+set_variable = { APDC_eco_ui_number_6 = APDC_eco_ui_weekly_construction_cost_m }
+set_variable = { APDC_eco_ui_number_6_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_6 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_6 > -1000000 } } } check_variable = { APDC_eco_ui_number_6_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_6 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_6 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_6_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_6 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_6 > -1000 } } } check_variable = { APDC_eco_ui_number_6_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_6 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_6_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_6 < 1 } check_variable = { APDC_eco_ui_number_6 > -1 } NOT = { check_variable = { APDC_eco_ui_number_6 = 0 } } check_variable = { APDC_eco_ui_number_6_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_6 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_6_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_6 = 0 } }
+set_variable = { APDC_eco_ui_number_6_unit = 0 }
+}
+set_variable = { APDC_eco_ui_number_7 = APDC_eco_ui_weekly_production_cost_m }
+set_variable = { APDC_eco_ui_number_7_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_7 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_7 > -1000000 } } } check_variable = { APDC_eco_ui_number_7_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_7 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_7 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_7_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_7 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_7 > -1000 } } } check_variable = { APDC_eco_ui_number_7_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_7 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_7_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_7 < 1 } check_variable = { APDC_eco_ui_number_7 > -1 } NOT = { check_variable = { APDC_eco_ui_number_7 = 0 } } check_variable = { APDC_eco_ui_number_7_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_7 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_7_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_7 = 0 } }
+set_variable = { APDC_eco_ui_number_7_unit = 0 }
+}
+set_variable = { APDC_eco_ui_number_8 = APDC_eco_ui_weekly_naval_production_cost_m }
+set_variable = { APDC_eco_ui_number_8_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_8 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_8 > -1000000 } } } check_variable = { APDC_eco_ui_number_8_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_8 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_8 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_8_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_8 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_8 > -1000 } } } check_variable = { APDC_eco_ui_number_8_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_8 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_8_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_8 < 1 } check_variable = { APDC_eco_ui_number_8 > -1 } NOT = { check_variable = { APDC_eco_ui_number_8 = 0 } } check_variable = { APDC_eco_ui_number_8_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_8 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_8_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_8 = 0 } }
+set_variable = { APDC_eco_ui_number_8_unit = 0 }
+}
+set_variable = { APDC_eco_ui_number_9 = APDC_eco_ui_weekly_research_cost_m }
+set_variable = { APDC_eco_ui_number_9_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_9 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_9 > -1000000 } } } check_variable = { APDC_eco_ui_number_9_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_9 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_9 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_9_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_9 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_9 > -1000 } } } check_variable = { APDC_eco_ui_number_9_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_9 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_9_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_9 < 1 } check_variable = { APDC_eco_ui_number_9 > -1 } NOT = { check_variable = { APDC_eco_ui_number_9 = 0 } } check_variable = { APDC_eco_ui_number_9_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_9 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_9_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_9 = 0 } }
+set_variable = { APDC_eco_ui_number_9_unit = 0 }
+}
+set_variable = { APDC_eco_ui_number_10 = APDC_eco_ui_weekly_projects_cost_m }
+set_variable = { APDC_eco_ui_number_10_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_10 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_10 > -1000000 } } } check_variable = { APDC_eco_ui_number_10_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_10 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_10 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_10_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_10 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_10 > -1000 } } } check_variable = { APDC_eco_ui_number_10_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_10 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_10_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_10 < 1 } check_variable = { APDC_eco_ui_number_10 > -1 } NOT = { check_variable = { APDC_eco_ui_number_10 = 0 } } check_variable = { APDC_eco_ui_number_10_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_10 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_10_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_10 = 0 } }
+set_variable = { APDC_eco_ui_number_10_unit = 0 }
+}
+set_variable = { APDC_eco_ui_number_11 = APDC_eco_ui_weekly_army_cost_m }
+set_variable = { APDC_eco_ui_number_11_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_11 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_11 > -1000000 } } } check_variable = { APDC_eco_ui_number_11_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_11 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_11 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_11_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_11 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_11 > -1000 } } } check_variable = { APDC_eco_ui_number_11_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_11 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_11_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_11 < 1 } check_variable = { APDC_eco_ui_number_11 > -1 } NOT = { check_variable = { APDC_eco_ui_number_11 = 0 } } check_variable = { APDC_eco_ui_number_11_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_11 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_11_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_11 = 0 } }
+set_variable = { APDC_eco_ui_number_11_unit = 0 }
+}
+set_variable = { APDC_eco_ui_number_12 = APDC_eco_ui_weekly_navy_cost_m }
+set_variable = { APDC_eco_ui_number_12_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_12 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_12 > -1000000 } } } check_variable = { APDC_eco_ui_number_12_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_12 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_12 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_12_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_12 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_12 > -1000 } } } check_variable = { APDC_eco_ui_number_12_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_12 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_12_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_12 < 1 } check_variable = { APDC_eco_ui_number_12 > -1 } NOT = { check_variable = { APDC_eco_ui_number_12 = 0 } } check_variable = { APDC_eco_ui_number_12_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_12 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_12_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_12 = 0 } }
+set_variable = { APDC_eco_ui_number_12_unit = 0 }
+}
+set_variable = { APDC_eco_ui_number_13 = APDC_eco_ui_weekly_air_cost_m }
+set_variable = { APDC_eco_ui_number_13_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_13 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_13 > -1000000 } } } check_variable = { APDC_eco_ui_number_13_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_13 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_13 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_13_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_13 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_13 > -1000 } } } check_variable = { APDC_eco_ui_number_13_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_13 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_13_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_13 < 1 } check_variable = { APDC_eco_ui_number_13 > -1 } NOT = { check_variable = { APDC_eco_ui_number_13 = 0 } } check_variable = { APDC_eco_ui_number_13_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_13 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_13_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_13 = 0 } }
+set_variable = { APDC_eco_ui_number_13_unit = 0 }
+}
+if = { limit = { check_variable = { APDC_eco_cash_m < 2 } check_variable = { APDC_eco_cash_m > -2 } }
+set_temp_variable = { APDC_eco_math_113 = APDC_eco_cash_m }
+multiply_temp_variable = { APDC_eco_math_113 = 1000 }
+add_to_temp_variable = { APDC_eco_math_113 = APDC_eco_cash_k }
+set_variable = { APDC_eco_ui_number_14 = APDC_eco_math_113 }
+set_variable = { APDC_eco_ui_number_14_unit = 1 }
+
+}
+else = {
+set_temp_variable = { APDC_eco_math_114 = APDC_eco_cash_k }
+divide_temp_variable = { APDC_eco_math_114 = 1000 }
+add_to_temp_variable = { APDC_eco_math_114 = APDC_eco_cash_m }
+set_variable = { APDC_eco_ui_number_14 = APDC_eco_math_114 }
+set_variable = { APDC_eco_ui_number_14_unit = 2 }
+
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_14 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_14 > -1000000 } } } check_variable = { APDC_eco_ui_number_14_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_14 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_14 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_14_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_14 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_14 > -1000 } } } check_variable = { APDC_eco_ui_number_14_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_14 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_14_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_14 < 1 } check_variable = { APDC_eco_ui_number_14 > -1 } NOT = { check_variable = { APDC_eco_ui_number_14 = 0 } } check_variable = { APDC_eco_ui_number_14_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_14 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_14_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_14 = 0 } }
+set_variable = { APDC_eco_ui_number_14_unit = 0 }
+}
+set_variable = { APDC_eco_ui_number_15 = APDC_eco_ui_domestic_public_m }
+set_variable = { APDC_eco_ui_number_15_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_15 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_15 > -1000000 } } } check_variable = { APDC_eco_ui_number_15_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_15 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_15 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_15_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_15 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_15 > -1000 } } } check_variable = { APDC_eco_ui_number_15_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_15 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_15_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_15 < 1 } check_variable = { APDC_eco_ui_number_15 > -1 } NOT = { check_variable = { APDC_eco_ui_number_15 = 0 } } check_variable = { APDC_eco_ui_number_15_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_15 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_15_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_15 = 0 } }
+set_variable = { APDC_eco_ui_number_15_unit = 0 }
+}
+set_variable = { APDC_eco_ui_number_16 = APDC_eco_ui_domestic_private_m }
+set_variable = { APDC_eco_ui_number_16_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_16 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_16 > -1000000 } } } check_variable = { APDC_eco_ui_number_16_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_16 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_16 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_16_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_16 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_16 > -1000 } } } check_variable = { APDC_eco_ui_number_16_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_16 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_16_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_16 < 1 } check_variable = { APDC_eco_ui_number_16 > -1 } NOT = { check_variable = { APDC_eco_ui_number_16 = 0 } } check_variable = { APDC_eco_ui_number_16_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_16 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_16_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_16 = 0 } }
+set_variable = { APDC_eco_ui_number_16_unit = 0 }
+}
+if = { limit = { check_variable = { APDC_eco_purchase_cost_m < 2 } check_variable = { APDC_eco_purchase_cost_m > -2 } }
+set_temp_variable = { APDC_eco_math_115 = APDC_eco_purchase_cost_m }
+multiply_temp_variable = { APDC_eco_math_115 = 1000 }
+add_to_temp_variable = { APDC_eco_math_115 = APDC_eco_purchase_cost_k }
+set_variable = { APDC_eco_ui_number_17 = APDC_eco_math_115 }
+set_variable = { APDC_eco_ui_number_17_unit = 1 }
+
+}
+else = {
+set_temp_variable = { APDC_eco_math_116 = APDC_eco_purchase_cost_k }
+divide_temp_variable = { APDC_eco_math_116 = 1000 }
+add_to_temp_variable = { APDC_eco_math_116 = APDC_eco_purchase_cost_m }
+set_variable = { APDC_eco_ui_number_17 = APDC_eco_math_116 }
+set_variable = { APDC_eco_ui_number_17_unit = 2 }
+
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_17 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_17 > -1000000 } } } check_variable = { APDC_eco_ui_number_17_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_17 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_17 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_17_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_17 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_17 > -1000 } } } check_variable = { APDC_eco_ui_number_17_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_17 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_17_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_17 < 1 } check_variable = { APDC_eco_ui_number_17 > -1 } NOT = { check_variable = { APDC_eco_ui_number_17 = 0 } } check_variable = { APDC_eco_ui_number_17_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_17 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_17_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_17 = 0 } }
+set_variable = { APDC_eco_ui_number_17_unit = 0 }
+}
+set_variable = { APDC_eco_ui_number_18 = APDC_eco_weekly_balance_m }
+set_variable = { APDC_eco_ui_number_18_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_18 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_18 > -1000000 } } } check_variable = { APDC_eco_ui_number_18_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_18 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_18 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_18_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_18 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_18 > -1000 } } } check_variable = { APDC_eco_ui_number_18_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_18 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_18_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_18 < 1 } check_variable = { APDC_eco_ui_number_18 > -1 } NOT = { check_variable = { APDC_eco_ui_number_18 = 0 } } check_variable = { APDC_eco_ui_number_18_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_18 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_18_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_18 = 0 } }
+set_variable = { APDC_eco_ui_number_18_unit = 0 }
+}
+set_variable = { APDC_eco_ui_number_19 = APDC_eco_domestic_m }
+set_variable = { APDC_eco_ui_number_19_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_19 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_19 > -1000000 } } } check_variable = { APDC_eco_ui_number_19_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_19 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_19 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_19_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_19 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_19 > -1000 } } } check_variable = { APDC_eco_ui_number_19_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_19 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_19_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_19 < 1 } check_variable = { APDC_eco_ui_number_19 > -1 } NOT = { check_variable = { APDC_eco_ui_number_19 = 0 } } check_variable = { APDC_eco_ui_number_19_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_19 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_19_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_19 = 0 } }
+set_variable = { APDC_eco_ui_number_19_unit = 0 }
+}
+set_variable = { APDC_eco_ui_number_20 = APDC_eco_supply_m }
+set_variable = { APDC_eco_ui_number_20_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_20 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_20 > -1000000 } } } check_variable = { APDC_eco_ui_number_20_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_20 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_20 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_20_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_20 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_20 > -1000 } } } check_variable = { APDC_eco_ui_number_20_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_20 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_20_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_20 < 1 } check_variable = { APDC_eco_ui_number_20 > -1 } NOT = { check_variable = { APDC_eco_ui_number_20 = 0 } } check_variable = { APDC_eco_ui_number_20_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_20 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_20_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_20 = 0 } }
+set_variable = { APDC_eco_ui_number_20_unit = 0 }
+}
+set_variable = { APDC_eco_ui_number_21 = APDC_eco_demand_m }
+set_variable = { APDC_eco_ui_number_21_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_21 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_21 > -1000000 } } } check_variable = { APDC_eco_ui_number_21_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_21 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_21 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_21_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_21 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_21 > -1000 } } } check_variable = { APDC_eco_ui_number_21_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_21 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_21_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_21 < 1 } check_variable = { APDC_eco_ui_number_21 > -1 } NOT = { check_variable = { APDC_eco_ui_number_21 = 0 } } check_variable = { APDC_eco_ui_number_21_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_21 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_21_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_21 = 0 } }
+set_variable = { APDC_eco_ui_number_21_unit = 0 }
+}
+set_variable = { APDC_eco_ui_number_22 = APDC_eco_extra_input }
+set_variable = { APDC_eco_ui_number_22_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_22 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_22 > -1000000 } } } check_variable = { APDC_eco_ui_number_22_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_22 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_22 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_22_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_22 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_22 > -1000 } } } check_variable = { APDC_eco_ui_number_22_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_22 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_22_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_22 < 1 } check_variable = { APDC_eco_ui_number_22 > -1 } NOT = { check_variable = { APDC_eco_ui_number_22 = 0 } } check_variable = { APDC_eco_ui_number_22_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_22 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_22_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_22 = 0 } }
+set_variable = { APDC_eco_ui_number_22_unit = 0 }
+}
+set_variable = { APDC_eco_ui_number_23 = APDC_eco_extra_output }
+set_variable = { APDC_eco_ui_number_23_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_23 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_23 > -1000000 } } } check_variable = { APDC_eco_ui_number_23_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_23 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_23 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_23_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_23 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_23 > -1000 } } } check_variable = { APDC_eco_ui_number_23_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_23 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_23_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_23 < 1 } check_variable = { APDC_eco_ui_number_23 > -1 } NOT = { check_variable = { APDC_eco_ui_number_23 = 0 } } check_variable = { APDC_eco_ui_number_23_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_23 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_23_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_23 = 0 } }
+set_variable = { APDC_eco_ui_number_23_unit = 0 }
+}
+set_variable = { APDC_eco_ui_number_24 = APDC_eco_trade_net_m }
+set_variable = { APDC_eco_ui_number_24_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_24 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_24 > -1000000 } } } check_variable = { APDC_eco_ui_number_24_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_24 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_24 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_24_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_24 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_24 > -1000 } } } check_variable = { APDC_eco_ui_number_24_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_24 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_24_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_24 < 1 } check_variable = { APDC_eco_ui_number_24 > -1 } NOT = { check_variable = { APDC_eco_ui_number_24 = 0 } } check_variable = { APDC_eco_ui_number_24_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_24 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_24_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_24 = 0 } }
+set_variable = { APDC_eco_ui_number_24_unit = 0 }
+}
+clear_array = APDC_eco_ui_trade_values
+clear_array = APDC_eco_ui_trade_units
+for_each_loop = {
+array = APDC_eco_trade_amounts
+set_variable = { APDC_eco_ui_trade_number = v }
+set_variable = { APDC_eco_ui_trade_number_unit = 2 }
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_trade_number < 1000000 } } NOT = { check_variable = { APDC_eco_ui_trade_number > -1000000 } } } check_variable = { APDC_eco_ui_trade_number_unit < 10 } }
+multiply_variable = { APDC_eco_ui_trade_number = 0.00001 }
+multiply_variable = { APDC_eco_ui_trade_number = 0.1 }
+add_to_variable = { APDC_eco_ui_trade_number_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_trade_number < 1000 } } NOT = { check_variable = { APDC_eco_ui_trade_number > -1000 } } } check_variable = { APDC_eco_ui_trade_number_unit < 11 } }
+multiply_variable = { APDC_eco_ui_trade_number = 0.001 }
+add_to_variable = { APDC_eco_ui_trade_number_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_trade_number < 1 } check_variable = { APDC_eco_ui_trade_number > -1 } NOT = { check_variable = { APDC_eco_ui_trade_number = 0 } } check_variable = { APDC_eco_ui_trade_number_unit > 0 } }
+multiply_variable = { APDC_eco_ui_trade_number = 1000 }
+subtract_from_variable = { APDC_eco_ui_trade_number_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_trade_number = 0 } }
+set_variable = { APDC_eco_ui_trade_number_unit = 0 }
+}
+add_to_array = { array = APDC_eco_ui_trade_values value = APDC_eco_ui_trade_number }
+add_to_array = { array = APDC_eco_ui_trade_units value = APDC_eco_ui_trade_number_unit }
+
+}
+
+}
+APDC_eco_refresh_purchase_number_ui = {
+if = { limit = { check_variable = { APDC_eco_purchase_cost_m < 2 } check_variable = { APDC_eco_purchase_cost_m > -2 } }
+set_temp_variable = { APDC_eco_math_117 = APDC_eco_purchase_cost_m }
+multiply_temp_variable = { APDC_eco_math_117 = 1000 }
+add_to_temp_variable = { APDC_eco_math_117 = APDC_eco_purchase_cost_k }
+set_variable = { APDC_eco_ui_number_17 = APDC_eco_math_117 }
+set_variable = { APDC_eco_ui_number_17_unit = 1 }
+
+}
+else = {
+set_temp_variable = { APDC_eco_math_118 = APDC_eco_purchase_cost_k }
+divide_temp_variable = { APDC_eco_math_118 = 1000 }
+add_to_temp_variable = { APDC_eco_math_118 = APDC_eco_purchase_cost_m }
+set_variable = { APDC_eco_ui_number_17 = APDC_eco_math_118 }
+set_variable = { APDC_eco_ui_number_17_unit = 2 }
+
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_17 < 1000000 } } NOT = { check_variable = { APDC_eco_ui_number_17 > -1000000 } } } check_variable = { APDC_eco_ui_number_17_unit < 10 } }
+multiply_variable = { APDC_eco_ui_number_17 = 0.00001 }
+multiply_variable = { APDC_eco_ui_number_17 = 0.1 }
+add_to_variable = { APDC_eco_ui_number_17_unit = 2 }
+}
+while_loop_effect = {
+limit = { OR = { NOT = { check_variable = { APDC_eco_ui_number_17 < 1000 } } NOT = { check_variable = { APDC_eco_ui_number_17 > -1000 } } } check_variable = { APDC_eco_ui_number_17_unit < 11 } }
+multiply_variable = { APDC_eco_ui_number_17 = 0.001 }
+add_to_variable = { APDC_eco_ui_number_17_unit = 1 }
+}
+while_loop_effect = {
+limit = { check_variable = { APDC_eco_ui_number_17 < 1 } check_variable = { APDC_eco_ui_number_17 > -1 } NOT = { check_variable = { APDC_eco_ui_number_17 = 0 } } check_variable = { APDC_eco_ui_number_17_unit > 0 } }
+multiply_variable = { APDC_eco_ui_number_17 = 1000 }
+subtract_from_variable = { APDC_eco_ui_number_17_unit = 1 }
+}
+if = { limit = { check_variable = { APDC_eco_ui_number_17 = 0 } }
+set_variable = { APDC_eco_ui_number_17_unit = 0 }
+}
+
+}

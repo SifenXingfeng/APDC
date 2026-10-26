@@ -1,0 +1,19 @@
+--- before/common/on_actions/APDC_governing_coalition_on_actions.txt
++++ current/common/on_actions/APDC_governing_coalition_on_actions.txt
+@@ -23,10 +23,15 @@
+ 	# without adding daily work to every AI country.
+ 	on_daily = {
+ 		effect = {
++if = { limit = { NOT = { has_global_flag = APDC_cabinet_daily_lock } }
++set_global_flag = { flag = APDC_cabinet_daily_lock value = 1 days = 1 }
++
+ 			every_country = {
+ 				limit = { has_variable = APDC_cabinet_selected_slot }
+ 				APDC_update_cabinet_statistics = yes
+ 			}
+-		}
++		
++}
++}
+ 	}
+ }

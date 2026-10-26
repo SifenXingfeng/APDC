@@ -1,0 +1,37 @@
+state = {
+	id = 294
+	name = "STATE_294"
+	manpower = 369000
+	
+	state_category = rural
+	
+	resources = {
+		oil = 1 # was: 2
+	}
+
+	history = {
+
+		owner = OMA
+		add_core_of = OMA
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1 
+			10760 = {
+				naval_base = 3
+			}
+		}
+
+		victory_points = {
+			10760 3 # Muscat
+		}
+		
+	}
+
+	provinces = {
+		1947 8002 8020 10760 13439 13443 13446 13449 13451 13454 13456 13458 13460 18560 18570 18581 18588 
+	}
+
+	local_supplies = 0.0 
+}

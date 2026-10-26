@@ -1,0 +1,35 @@
+state = {
+	id = 1031
+	name = "STATE_1031"
+	provinces = {
+		7175
+		7204
+		11992
+		19879
+		19904
+	}
+	manpower = 1106285
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = KOR
+		controller = KOR
+		add_core_of = KOR
+		victory_points = {
+			7204
+			10
+		}
+		victory_points = {
+			19879
+			3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			7175 = {
+				naval_base = 3
+			}
+		}
+	}
+}

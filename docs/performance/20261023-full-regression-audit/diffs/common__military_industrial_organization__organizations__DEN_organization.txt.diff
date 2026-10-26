@@ -1,0 +1,119 @@
+--- before/common/military_industrial_organization/organizations/DEN_organization.txt
++++ current/common/military_industrial_organization/organizations/DEN_organization.txt
+@@ -80,7 +80,7 @@
+         
+         available = {
+             owner = {
+-                has_completed_focus = DEN_modernize_the_navy
++                always = no
+             }
+         }
+ 
+@@ -121,7 +121,7 @@
+ 
+         available = {
+             owner = {
+-                has_completed_focus = DEN_appropriate_odense_staalskibsvaerft
++                always = no
+             }
+         }
+ 
+@@ -229,7 +229,7 @@
+ 
+         available = {
+             owner = {
+-                has_completed_focus = DEN_refit_civilian_ships
++                always = no
+             }
+         }
+ 
+@@ -361,7 +361,7 @@
+         
+         available = {
+             owner = {
+-                has_completed_focus = DEN_unify_flyvevabnet
++                always = no
+             }
+         }
+ 
+@@ -403,7 +403,7 @@
+ 
+         available = {
+             owner = {
+-                has_completed_focus = DEN_flyveskolen
++                always = no
+             }
+         }
+ 
+@@ -431,7 +431,7 @@
+ 
+         available = {
+             owner = {
+-                has_completed_focus = DEN_flyveskolen
++                always = no
+             }
+         }
+ 
+@@ -455,7 +455,7 @@
+         
+         available = {
+             owner = {
+-                has_completed_focus = DEN_unify_flyvevabnet
++                always = no
+             }
+         }
+ 
+@@ -505,7 +505,7 @@
+         
+         available = {
+             owner = {
+-                has_completed_focus = DEN_expand_dansk_industri_syndikat
++                always = no
+             }
+         }
+ 
+@@ -531,7 +531,7 @@
+        
+        available = {
+            owner = {
+-               has_completed_focus = DEN_expand_dansk_industri_syndikat
++               always = no
+            }
+        }
+ 
+@@ -670,7 +670,7 @@
+         
+         available = {
+             owner = {
+-                has_completed_focus = DEN_expand_dansk_industri_syndikat
++                always = no
+             }
+         }
+ 
+@@ -706,7 +706,7 @@
+         
+         available = {
+             owner = {
+-                has_completed_focus = DEN_expand_haerens_tekniske_korps
++                always = no
+             }
+         }
+ 
+@@ -736,7 +736,7 @@
+         
+         available = {
+             owner = {
+-                has_completed_focus = DEN_new_artillery_tactics
++                always = no
+             }
+         }
+ 
+@@ -840,7 +840,7 @@
+         
+         available = {
+             owner = {
+-                has_completed_focus = DEN_convert_automobile_production
++                always = no
+             }
+         }
+ 

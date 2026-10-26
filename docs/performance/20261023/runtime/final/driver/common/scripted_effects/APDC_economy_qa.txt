@@ -1,0 +1,303 @@
+APDC_eco_qa_fixtures = {
+set_variable = { global.APDC_eco_qa_trade_delta = 0 }
+every_country = { add_to_variable = { global.APDC_eco_qa_trade_delta = APDC_eco_imports_m } subtract_from_variable = { global.APDC_eco_qa_trade_delta = APDC_eco_exports_m } }
+if = { limit = { check_variable = { global.APDC_eco_qa_trade_delta > -0.001 } check_variable = { global.APDC_eco_qa_trade_delta < 0.001 } }
+log = "APDC_ECO_ASSERT PASS world_trade_conservation"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL world_trade_conservation"
+}
+every_country = { set_variable = { APDC_eco_import_target_m = 0 } set_variable = { APDC_eco_export_target_m = 0 } }
+set_variable = { APDC_eco_export_target_m = 5 }
+set_variable = { APDC_eco_tariff = 1 }
+FRA = { set_variable = { APDC_eco_import_target_m = 10 } set_variable = { APDC_eco_tariff = 2.5 } }
+APDC_eco_clear_world_market = yes
+if = { limit = { check_variable = { APDC_eco_exports_m = 5 } check_variable = { APDC_eco_tariffs_m = 5 } }
+log = "APDC_ECO_ASSERT PASS paired_trade_and_export_tariff"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL paired_trade_and_export_tariff"
+}
+FRA = { if = { limit = { check_variable = { APDC_eco_imports_m = 5 } check_variable = { APDC_eco_tariffs_m = 12.5 } }
+log = "APDC_ECO_ASSERT PASS paired_trade_and_import_tariff"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL paired_trade_and_import_tariff"
+}
+ }
+set_variable = { APDC_eco_cash_m = 10 }
+set_variable = { APDC_eco_cash_k = 0 }
+set_variable = { APDC_eco_stock_79 = 10 }
+set_variable = { APDC_eco_purchase_id = 79 }
+set_variable = { APDC_eco_purchase_quantity = 2 }
+APDC_eco_purchase_equipment = yes
+log = "APDC_ECO_DIAG PURCHASE stock=[?APDC_eco_stock_79] cash=[?APDC_eco_cash_m] lower=[?APDC_eco_cash_k] quantity=[?APDC_eco_purchase_quantity] unit=[?APDC_eco_purchase_unit_k] cost_m=[?APDC_eco_purchase_cost_m] cost_k=[?APDC_eco_purchase_cost_k]"
+if = { limit = { check_variable = { APDC_eco_stock_79 = 8 } check_variable = { APDC_eco_cash_m = 9 } check_variable = { APDC_eco_cash_k = 999.828 } }
+log = "APDC_ECO_ASSERT PASS purchase_exact_172_rubles"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL purchase_exact_172_rubles"
+}
+set_variable = { APDC_eco_cash_m = 0 }
+set_variable = { APDC_eco_cash_k = 0 }
+set_variable = { APDC_eco_purchase_quantity = 1 }
+APDC_eco_purchase_equipment = yes
+if = { limit = { check_variable = { APDC_eco_stock_79 = 8 } check_variable = { APDC_eco_cash_m = 0 } check_variable = { APDC_eco_cash_k = 0 } }
+log = "APDC_ECO_ASSERT PASS purchase_insufficient_funds_no_change"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL purchase_insufficient_funds_no_change"
+}
+remove_ideas = APDC_eco_tax_1
+remove_ideas = APDC_eco_tax_2
+remove_ideas = APDC_eco_tax_3
+remove_ideas = APDC_eco_tax_4
+remove_ideas = APDC_eco_tax_5
+add_ideas = APDC_eco_tax_5
+remove_ideas = APDC_eco_investment_1
+remove_ideas = APDC_eco_investment_2
+remove_ideas = APDC_eco_investment_3
+remove_ideas = APDC_eco_investment_4
+remove_ideas = APDC_eco_investment_5
+add_ideas = APDC_eco_investment_5
+remove_ideas = APDC_eco_distribution_1
+remove_ideas = APDC_eco_distribution_2
+remove_ideas = APDC_eco_distribution_3
+remove_ideas = APDC_eco_distribution_4
+remove_ideas = APDC_eco_distribution_5
+add_ideas = APDC_eco_distribution_4
+remove_ideas = APDC_eco_consumption_1
+remove_ideas = APDC_eco_consumption_2
+remove_ideas = APDC_eco_consumption_3
+remove_ideas = APDC_eco_consumption_4
+remove_ideas = APDC_eco_consumption_5
+add_ideas = APDC_eco_consumption_5
+set_variable = { APDC_eco_cash_m = -1 }
+APDC_eco_bankruptcy = yes
+if = { limit = { has_idea = APDC_eco_tax_5 has_idea = APDC_eco_investment_1 has_idea = APDC_eco_distribution_1 has_idea = APDC_eco_consumption_3 }
+log = "APDC_ECO_ASSERT PASS bankruptcy_spending_only"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL bankruptcy_spending_only"
+}
+set_variable = { APDC_eco_selected_group = 1 }
+set_variable = { APDC_eco_requested_law = 2 }
+add_political_power = 1000
+set_variable = { APDC_eco_qa_pp_before = political_power }
+APDC_eco_change_law = yes
+if = { limit = { has_idea = APDC_eco_tax_5 check_variable = { APDC_eco_qa_pp_before = political_power } }
+log = "APDC_ECO_ASSERT PASS negative_treasury_law_lock"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL negative_treasury_law_lock"
+}
+set_variable = { APDC_eco_cash_m = 10 }
+APDC_eco_change_law = yes
+set_temp_variable = { APDC_eco_math_1 = APDC_eco_qa_pp_before }
+subtract_from_temp_variable = { APDC_eco_math_1 = political_power }
+set_variable = { APDC_eco_qa_pp_spent = APDC_eco_math_1 }
+if = { limit = { has_idea = APDC_eco_tax_2 NOT = { has_idea = APDC_eco_tax_5 } check_variable = { APDC_eco_qa_pp_spent = 150 } }
+log = "APDC_ECO_ASSERT PASS law_switch_150pp"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL law_switch_150pp"
+}
+set_variable = { APDC_eco_imports_m = 10 }
+set_variable = { APDC_eco_exports_m = 0 }
+APDC_eco_refresh_current_supply = yes
+set_temp_variable = { APDC_eco_math_2 = APDC_eco_domestic_m }
+add_to_temp_variable = { APDC_eco_math_2 = APDC_eco_extra_input }
+subtract_from_temp_variable = { APDC_eco_math_2 = APDC_eco_extra_output }
+add_to_temp_variable = { APDC_eco_math_2 = 10 }
+clamp_temp_variable = { var = APDC_eco_math_2 min = 0 }
+multiply_temp_variable = { APDC_eco_math_2 = APDC_eco_distribution }
+set_variable = { APDC_eco_qa_supply = APDC_eco_math_2 }
+if = { limit = { check_variable = { APDC_eco_supply_m = APDC_eco_qa_supply } }
+log = "APDC_ECO_ASSERT PASS local_action_retains_imports"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL local_action_retains_imports"
+}
+APDC_eco_calculate_country = yes
+set_variable = { APDC_eco_qa_civ_before = APDC_eco_private_civ_raw }
+set_variable = { APDC_eco_civ_progress = 21723 }
+set_variable = { APDC_eco_civ_velocity = 0 }
+APDC_eco_advance_civ = yes
+APDC_eco_calculate_country = yes
+set_temp_variable = { APDC_eco_math_3 = APDC_eco_private_civ_raw }
+subtract_from_temp_variable = { APDC_eco_math_3 = APDC_eco_qa_civ_before }
+set_variable = { APDC_eco_qa_built = APDC_eco_math_3 }
+if = { limit = { check_variable = { APDC_eco_qa_built = 2 } check_variable = { APDC_eco_civ_progress = 123 } }
+log = "APDC_ECO_ASSERT PASS continuous_construction_two_and_carry"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL continuous_construction_two_and_carry"
+}
+set_variable = { APDC_eco_qa_civ_before = APDC_eco_private_civ_raw }
+set_variable = { APDC_eco_civ_velocity = -124 }
+APDC_eco_advance_civ = yes
+APDC_eco_calculate_country = yes
+set_temp_variable = { APDC_eco_math_4 = APDC_eco_qa_civ_before }
+subtract_from_temp_variable = { APDC_eco_math_4 = APDC_eco_private_civ_raw }
+set_variable = { APDC_eco_qa_removed = APDC_eco_math_4 }
+log = "APDC_ECO_DIAG DEMOLITION before=[?APDC_eco_qa_civ_before] after=[?APDC_eco_private_civ_raw] removed=[?APDC_eco_qa_removed] progress=[?APDC_eco_civ_progress]"
+if = { limit = { check_variable = { APDC_eco_qa_removed = 1 } check_variable = { APDC_eco_civ_progress = 10799 } }
+log = "APDC_ECO_ASSERT PASS demolition_zero_cross_and_carry"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL demolition_zero_cross_and_carry"
+}
+set_variable = { APDC_eco_civ_progress = 100 }
+set_variable = { APDC_eco_civ_velocity = -21701 }
+set_variable = { APDC_eco_qa_civ_before = APDC_eco_private_civ_raw }
+APDC_eco_advance_civ = yes
+APDC_eco_calculate_country = yes
+set_temp_variable = { APDC_eco_math_5 = APDC_eco_qa_civ_before }
+subtract_from_temp_variable = { APDC_eco_math_5 = APDC_eco_private_civ_raw }
+set_variable = { APDC_eco_qa_removed = APDC_eco_math_5 }
+log = "APDC_ECO_DIAG MULTI_DEMOLITION before=[?APDC_eco_qa_civ_before] after=[?APDC_eco_private_civ_raw] removed=[?APDC_eco_qa_removed] progress=[?APDC_eco_civ_progress]"
+if = { limit = { check_variable = { APDC_eco_qa_removed = 3 } check_variable = { APDC_eco_civ_progress = 10799 } }
+log = "APDC_ECO_ASSERT PASS continuous_demolition_three_and_carry"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL continuous_demolition_three_and_carry"
+}
+set_variable = { APDC_eco_qa_civ_before = APDC_eco_private_civ_raw }
+for_loop_effect = { start = 1 end = 20 compare = less_than_or_equals value = APDC_eco_qa_iteration APDC_eco_complete_civ = yes APDC_eco_calculate_country = yes log = "APDC_ECO_PAIR BUILD step=[?APDC_eco_qa_iteration] count=[?APDC_eco_private_civ_raw]" APDC_eco_demolish_civ = yes APDC_eco_calculate_country = yes log = "APDC_ECO_PAIR DEMOLISH step=[?APDC_eco_qa_iteration] count=[?APDC_eco_private_civ_raw] done=[?APDC_eco_demolish_done]" }
+APDC_eco_calculate_country = yes
+log = "APDC_ECO_PAIR RESULT before=[?APDC_eco_qa_civ_before] after=[?APDC_eco_private_civ_raw]"
+if = { limit = { check_variable = { APDC_eco_private_civ_raw = APDC_eco_qa_civ_before } }
+log = "APDC_ECO_ASSERT PASS twenty_random_build_demolish_pairs"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL twenty_random_build_demolish_pairs"
+}
+64 = { add_building_construction = { type = APDC_eco_private_civ level = 3 instant_build = yes } damage_building = { type = APDC_eco_private_civ damage = 1.4 } set_variable = { PREV.APDC_eco_qa_damage_before = damaged_building_level@APDC_eco_private_civ } set_variable = { PREV.APDC_eco_qa_level_before = building_level@APDC_eco_private_civ } APDC_eco_demolish_civ_in_state = yes set_variable = { PREV.APDC_eco_qa_damage_after = damaged_building_level@APDC_eco_private_civ } set_variable = { PREV.APDC_eco_qa_level_after = building_level@APDC_eco_private_civ } }
+set_temp_variable = { APDC_eco_math_6 = APDC_eco_qa_damage_before }
+subtract_from_temp_variable = { APDC_eco_math_6 = APDC_eco_qa_damage_after }
+set_variable = { APDC_eco_qa_damage_delta = APDC_eco_math_6 }
+set_temp_variable = { APDC_eco_math_7 = APDC_eco_qa_level_before }
+subtract_from_temp_variable = { APDC_eco_math_7 = APDC_eco_qa_level_after }
+set_variable = { APDC_eco_qa_level_delta = APDC_eco_math_7 }
+if = { limit = { check_variable = { APDC_eco_qa_level_delta = 1 } check_variable = { APDC_eco_qa_damage_delta < 0.0001 } check_variable = { APDC_eco_qa_damage_delta > -0.0001 } }
+log = "APDC_ECO_ASSERT PASS damaged_factory_removal_preserves_damage"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL damaged_factory_removal_preserves_damage"
+}
+set_variable = { APDC_eco_demand_m = 100 }
+set_variable = { APDC_eco_supply_m = 90 }
+APDC_eco_calculate_gap = yes
+if = { limit = { check_variable = { APDC_eco_civ_velocity = 0 } check_variable = { APDC_eco_mil_velocity = 0 } check_variable = { APDC_eco_food_penalty = -0.01 } }
+log = "APDC_ECO_ASSERT PASS neutral_band_lower"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL neutral_band_lower"
+}
+set_variable = { APDC_eco_supply_m = 110 }
+APDC_eco_calculate_gap = yes
+if = { limit = { check_variable = { APDC_eco_civ_velocity = 0 } check_variable = { APDC_eco_mil_velocity = 0 } }
+log = "APDC_ECO_ASSERT PASS neutral_band_upper"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL neutral_band_upper"
+}
+set_variable = { APDC_eco_private_civ = 0 }
+set_variable = { APDC_eco_supply_m = 50 }
+APDC_eco_calculate_gap = yes
+if = { limit = { check_variable = { APDC_eco_civ_velocity = 2.5 } check_variable = { APDC_eco_mil_velocity = 2.5 } }
+log = "APDC_ECO_ASSERT PASS white_base_five_half_each"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL white_base_five_half_each"
+}
+set_variable = { APDC_eco_qa_income_before = 0 }
+APDC_eco_refresh_current_supply = yes
+APDC_eco_calculate_budget = yes
+set_temp_variable = { APDC_eco_math_8 = APDC_eco_supply_m }
+multiply_temp_variable = { APDC_eco_math_8 = modifier@APDC_eco_consumption_tax }
+set_variable = { APDC_eco_qa_tax = APDC_eco_math_8 }
+if = { limit = { check_variable = { APDC_eco_consumption_tax_m = APDC_eco_qa_tax } }
+log = "APDC_ECO_ASSERT PASS consumption_tax_final_supply"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL consumption_tax_final_supply"
+}
+log = "APDC_ECO_DIAG FACTORIES all=[?num_of_civilian_factories] free=[?num_of_available_civilian_factories] projects=[?num_of_civilian_factories_available_for_projects] active=[?APDC_eco_construction_civ] allocated=[?APDC_eco_public_civ]"
+64 = { add_building_construction = { type = industrial_complex level = 1 instant_build = no } }
+57 = { add_core_of = FRA remove_core_of = GER }
+FRA = { transfer_state = 57 }
+set_state_controller = 57
+57 = { set_resistance = 30 set_garrison_strength = 0.5 }
+add_equipment_production = { equipment = { type = infantry_equipment_0 creator = GER } requested_factories = 2 }
+APDC_eco_calculate_country = yes
+set_technology = {     }
+APDC_eco_refresh_equipment = yes
+set_variable = { APDC_eco_food = 5.8 }
+APDC_eco_sync_development = yes
+if = { limit = { check_variable = { APDC_eco_food = 5 } has_idea = APDC_eco_food_5 }
+log = "APDC_ECO_ASSERT PASS development_upper_clamp"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL development_upper_clamp"
+}
+set_variable = { APDC_eco_food = 0.7 }
+APDC_eco_sync_development = yes
+if = { limit = { check_variable = { APDC_eco_food = 1 } has_idea = APDC_eco_food_1 }
+log = "APDC_ECO_ASSERT PASS development_lower_clamp"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL development_lower_clamp"
+}
+set_variable = { APDC_eco_food = 3 }
+APDC_eco_sync_development = yes
+
+}
+APDC_eco_qa_planned = {
+APDC_eco_calculate_country = yes
+set_variable = { APDC_eco_qa_civ_before = APDC_eco_private_civ_raw }
+set_variable = { APDC_eco_qa_mil_before = APDC_eco_private_mil_raw }
+set_variable = { APDC_eco_qa_native_before = 0 }
+every_controlled_state = { add_to_variable = { PREV.APDC_eco_qa_native_before = building_level@industrial_complex } add_to_variable = { PREV.APDC_eco_qa_native_before = building_level@arms_factory } }
+set_variable = { APDC_eco_stock_79 = 8 }
+remove_ideas = APDC_economic_system_traditional_agriculture_idea
+remove_ideas = APDC_economic_system_dependent_economy_idea
+remove_ideas = APDC_economic_system_free_market_idea
+remove_ideas = APDC_economic_system_mixed_market_idea
+remove_ideas = APDC_economic_system_state_guided_idea
+remove_ideas = APDC_economic_system_state_capitalism_idea
+remove_ideas = APDC_economic_system_market_socialism_idea
+remove_ideas = APDC_economic_system_decentralized_planning_idea
+remove_ideas = APDC_economic_system_central_planning_idea
+add_ideas = APDC_economic_system_central_planning_idea
+APDC_eco_reconcile_planned = yes
+APDC_eco_calculate_country = yes
+set_variable = { APDC_eco_qa_native_after = 0 }
+every_controlled_state = { add_to_variable = { PREV.APDC_eco_qa_native_after = building_level@industrial_complex } add_to_variable = { PREV.APDC_eco_qa_native_after = building_level@arms_factory } }
+set_temp_variable = { APDC_eco_math_9 = APDC_eco_qa_native_after }
+subtract_from_temp_variable = { APDC_eco_math_9 = APDC_eco_qa_native_before }
+subtract_from_temp_variable = { APDC_eco_math_9 = APDC_eco_qa_civ_before }
+subtract_from_temp_variable = { APDC_eco_math_9 = APDC_eco_qa_mil_before }
+set_variable = { APDC_eco_qa_converted = APDC_eco_math_9 }
+if = { limit = { check_variable = { APDC_eco_qa_converted = 0 } check_variable = { APDC_eco_private_civ_raw = 0 } check_variable = { APDC_eco_private_mil_raw = 0 } has_idea = APDC_eco_distribution_5 }
+log = "APDC_ECO_ASSERT PASS planned_conversion_conserves_buildings"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL planned_conversion_conserves_buildings"
+}
+if = { limit = { check_variable = { APDC_eco_stock_79 = 0 } }
+log = "APDC_ECO_ASSERT PASS planned_stock_transfer"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL planned_stock_transfer"
+}
+set_variable = { APDC_eco_cash_m = -1 }
+APDC_eco_bankruptcy = yes
+if = { limit = { has_idea = APDC_eco_distribution_5 }
+log = "APDC_ECO_ASSERT PASS planned_bankruptcy_preserves_distribution"
+}
+else = {
+log = "APDC_ECO_ASSERT FAIL planned_bankruptcy_preserves_distribution"
+}
+
+}

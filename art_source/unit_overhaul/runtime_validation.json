@@ -1,0 +1,470 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "audit_utc": "2026-09-15T15:04:04.902782+00:00",
+  "game_version": "1.19.2",
+  "profile": "D:\\APDC_UnitQA_20260915",
+  "save": "D:\\APDC_UnitQA_20260915\\save games\\autosave.hoi4",
+  "save_sha256": "eb57361158d9581773f53a48ebbb04bac1e02a2a92a8a06012326b28f59e182e",
+  "save_modified_utc": "2026-09-15T15:03:54.201478+00:00",
+  "save_date": "2060.4.1.2",
+  "template_unit_types_verified": 82,
+  "template_units": [
+    {
+      "id": "apdc_militia",
+      "name": "民兵",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_infantry",
+      "name": "轻步兵",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_motorized",
+      "name": "摩托化步兵",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_wheeled_mechanized",
+      "name": "轮式机械化步兵",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_tracked_mechanized",
+      "name": "履带式机械化步兵",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_national_gendarmerie",
+      "name": "国家宪兵",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_heavy_infantry",
+      "name": "重步兵",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_mountaineers",
+      "name": "山地步兵",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_air_assault",
+      "name": "空中突击步兵",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_paratrooper",
+      "name": "空降兵-轻步兵",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_airborne_mechanized",
+      "name": "空降兵-机械化步兵",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_marine",
+      "name": "海军陆战队-轻步兵",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_amphibious_mechanized",
+      "name": "海军陆战队-机械化步兵",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_rangers",
+      "name": "游骑兵",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_nyto",
+      "name": "涅托",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_lyuba",
+      "name": "摩托化柳芭老妈",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_ump_sisters",
+      "name": "UMP姐妹骑兵",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_mbt",
+      "name": "主战坦克",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_light_tank",
+      "name": "轻型坦克",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_atgm_vehicle",
+      "name": "反坦克导弹发射车",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_spaag",
+      "name": "野战自行防空车",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_airborne_light_tank",
+      "name": "空降轻型坦克",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_tank_support",
+      "name": "坦克支援车",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_amphibious_tank",
+      "name": "两栖坦克",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_attack_helicopter",
+      "name": "武装直升机",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_basic_robot",
+      "name": "基础机械部队",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_doll_escort",
+      "name": "伴随式战术人形",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_doll_small",
+      "name": "小编组战术人形",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_doll_large",
+      "name": "大编组战术人形",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_motorized_doll_escort",
+      "name": "摩托化伴随式战术人形",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_motorized_doll_small",
+      "name": "摩托化小编组战术人形",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_motorized_doll_large",
+      "name": "摩托化大编组战术人形",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_wheeled_doll_escort",
+      "name": "轮式机械化伴随式战术人形",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_wheeled_doll_small",
+      "name": "轮式机械化小编组战术人形",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_wheeled_doll_large",
+      "name": "轮式机械化大编组战术人形",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_tracked_doll_escort",
+      "name": "履带式机械化伴随式战术人形",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_tracked_doll_small",
+      "name": "履带式机械化小编组战术人形",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_tracked_doll_large",
+      "name": "履带式机械化大编组战术人形",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_air_assault_doll_escort",
+      "name": "空中突击伴随式战术人形",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_air_assault_doll_small",
+      "name": "空中突击小编组战术人形",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_air_assault_doll_large",
+      "name": "空中突击大编组战术人形",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_multipod",
+      "name": "多足支援机甲",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_goliath",
+      "name": "歌莉娅装置",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_towed_artillery",
+      "name": "牵引式火炮",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_truck_artillery",
+      "name": "摩托化火炮",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_sp_artillery",
+      "name": "自行火炮",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_mlrs",
+      "name": "多管火箭炮",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_tactical_missile",
+      "name": "短程战术导弹",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_multipod_artillery",
+      "name": "多足机械火炮",
+      "section": "regiments"
+    },
+    {
+      "id": "apdc_combined_service",
+      "name": "摩托化综合勤务连",
+      "section": "support"
+    },
+    {
+      "id": "apdc_transport_helicopter_support",
+      "name": "运输直升机",
+      "section": "support"
+    },
+    {
+      "id": "apdc_field_workshop",
+      "name": "前线机械工厂",
+      "section": "support"
+    },
+    {
+      "id": "apdc_frogmen",
+      "name": "蛙人部队（水域渗透）",
+      "section": "support"
+    },
+    {
+      "id": "apdc_hovercraft_support",
+      "name": "气垫船",
+      "section": "support"
+    },
+    {
+      "id": "apdc_elite_doll_infiltration",
+      "name": "精英人形渗透小队",
+      "section": "support"
+    },
+    {
+      "id": "apdc_cbrn",
+      "name": "防化连",
+      "section": "support"
+    },
+    {
+      "id": "apdc_infantry_recon",
+      "name": "步兵侦查连",
+      "section": "support"
+    },
+    {
+      "id": "apdc_robot_recon",
+      "name": "无人侦查连",
+      "section": "support"
+    },
+    {
+      "id": "apdc_motorized_recon",
+      "name": "摩托化侦察连",
+      "section": "support"
+    },
+    {
+      "id": "apdc_mechanized_recon",
+      "name": "机械化侦察连",
+      "section": "support"
+    },
+    {
+      "id": "apdc_armor_recon",
+      "name": "装甲侦察连",
+      "section": "support"
+    },
+    {
+      "id": "apdc_uav_recon",
+      "name": "无人机侦查连",
+      "section": "support"
+    },
+    {
+      "id": "apdc_military_police",
+      "name": "宪兵连",
+      "section": "support"
+    },
+    {
+      "id": "apdc_engineer",
+      "name": "工兵连",
+      "section": "support"
+    },
+    {
+      "id": "apdc_armored_engineer",
+      "name": "装甲工兵",
+      "section": "support"
+    },
+    {
+      "id": "apdc_frontline_command",
+      "name": "前线指挥连",
+      "section": "support"
+    },
+    {
+      "id": "apdc_aa02_support",
+      "name": "机甲连（AA02类机甲）",
+      "section": "support"
+    },
+    {
+      "id": "apdc_doomsday_dog_support",
+      "name": "末日魔犬",
+      "section": "support"
+    },
+    {
+      "id": "apdc_sp_artillery_support",
+      "name": "师级自行火炮支援",
+      "section": "support"
+    },
+    {
+      "id": "apdc_towed_artillery_support",
+      "name": "师级牵引式火炮支援",
+      "section": "support"
+    },
+    {
+      "id": "apdc_mlrs_support",
+      "name": "师级火箭炮支援",
+      "section": "support"
+    },
+    {
+      "id": "apdc_truck_artillery_support",
+      "name": "师级摩托化火炮支援",
+      "section": "support"
+    },
+    {
+      "id": "apdc_spaag_support",
+      "name": "师级野战自行防空支援",
+      "section": "support"
+    },
+    {
+      "id": "apdc_atgm_support",
+      "name": "师级反坦克导弹发射车支援",
+      "section": "support"
+    },
+    {
+      "id": "apdc_reg_robot_artillery",
+      "name": "团级自律机械火炮",
+      "section": "regimental_support"
+    },
+    {
+      "id": "apdc_reg_mortar",
+      "name": "团级自行迫击炮",
+      "section": "regimental_support"
+    },
+    {
+      "id": "apdc_reg_spaag",
+      "name": "团级自行防空支援",
+      "section": "regimental_support"
+    },
+    {
+      "id": "apdc_reg_atgm",
+      "name": "团级反坦克导弹发射车支援",
+      "section": "regimental_support"
+    },
+    {
+      "id": "apdc_reg_sp_artillery",
+      "name": "团级自行火炮支援",
+      "section": "regimental_support"
+    },
+    {
+      "id": "apdc_reg_towed_artillery",
+      "name": "团级牵引式火炮支援",
+      "section": "regimental_support"
+    },
+    {
+      "id": "apdc_reg_infantry_aa",
+      "name": "团级防空步兵连",
+      "section": "regimental_support"
+    },
+    {
+      "id": "apdc_reg_heavy_weapons",
+      "name": "团级重武器连",
+      "section": "regimental_support"
+    }
+  ],
+  "new_equipment_stock_checks": [
+    "apdc_aa02_equipment",
+    "apdc_airborne_ifv_equipment",
+    "apdc_airborne_tank_equipment",
+    "apdc_amphib_mech_equipment",
+    "apdc_amphib_tank_equipment",
+    "apdc_atgm_equipment",
+    "apdc_attack_helo_equipment",
+    "apdc_basic_robot_equipment",
+    "apdc_doll_equipment",
+    "apdc_doomsday_dog_equipment",
+    "apdc_engineer_vehicle_equipment",
+    "apdc_goliath_equipment",
+    "apdc_heavy_weapons_equipment",
+    "apdc_hovercraft_equipment",
+    "apdc_light_tank_equipment",
+    "apdc_mbt_equipment",
+    "apdc_missile_equipment",
+    "apdc_mlrs_equipment",
+    "apdc_mortar_equipment",
+    "apdc_multipod_art_equipment",
+    "apdc_multipod_equipment",
+    "apdc_nyto_equipment",
+    "apdc_spaag_equipment",
+    "apdc_spg_equipment",
+    "apdc_tank_support_equipment",
+    "apdc_towed_gun_equipment",
+    "apdc_tracked_mech_equipment",
+    "apdc_transport_helo_equipment",
+    "apdc_truck_art_equipment",
+    "apdc_uav_equipment",
+    "apdc_wheeled_mech_equipment"
+  ],
+  "production_queue_requests": 31,
+  "new_content_error_lines": [],
+  "other_project_log_errors_remain": true,
+  "active_dlc_log": [
+    "[23:02:38][no_game_date][gameapplication.cpp:1508]: Active DLC Count: 0"
+  ],
+  "visual_animation_performance_accepted": false,
+  "notes": [
+    "QA mod spawns fixtures only in the isolated profile; it is not installed in APDC.",
+    "QA clock is accelerated, without altering combat or economy constants.",
+    "Production queue requests are not a claim that every equipment type completed manufacture.",
+    "DLC-specific user interface has not been visually verified."
+  ]
+}

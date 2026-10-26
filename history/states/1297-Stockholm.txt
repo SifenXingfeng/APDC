@@ -1,0 +1,53 @@
+state = {
+	impassable = yes
+	id = 1297
+	name = "STATE_1297"
+	provinces = {
+		161
+		3182
+		6050
+		6127
+		6209
+		8753
+		9149
+		11091
+		11163
+		11278
+		18417
+		18420
+	}
+	manpower = 673994
+	resources = {
+		aluminium = 1
+		steel = 10
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = city
+	history = {
+		owner = ZZZ
+		controller = ZZZ
+		add_core_of = NOR
+		add_core_of = ZZZ
+		victory_points = {
+			161
+			2
+		}
+		victory_points = {
+			6050
+			15
+		}
+		victory_points = {
+			9149
+			2
+		}
+		buildings = {
+			infrastructure = 4
+			6050 = {
+				naval_base = 5
+				coastal_bunker = 3
+			}
+			dockyard = 1
+		}
+	}
+}

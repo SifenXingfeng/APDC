@@ -1,0 +1,95 @@
+state = {
+	id = 605
+	name = "STATE_605"
+	resources = {
+		steel = 4
+	}
+	provinces = {
+		2030
+		2091
+		5048
+		7256
+		8026
+		12274
+		12767
+		19513
+		19672
+		19800
+		19814
+		19865
+		19901
+		19910
+	}
+	manpower = 1811302
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = PRC
+		controller = PRC
+		add_core_of = PRC
+		victory_points = {
+			2030
+			5
+		}
+		victory_points = {
+			2091
+			1
+		}
+		victory_points = {
+			5048
+			2
+		}
+		victory_points = {
+			7256
+			1
+		}
+		victory_points = {
+			8026
+			1
+		}
+		victory_points = {
+			12274
+			5
+		}
+		victory_points = {
+			19513
+			3
+		}
+		victory_points = {
+			19672
+			1
+		}
+		victory_points = {
+			19800
+			10
+		}
+		victory_points = {
+			19814
+			2
+		}
+		victory_points = {
+			19865
+			2
+		}
+		victory_points = {
+			19901
+			2
+		}
+		victory_points = {
+			19910
+			5
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		set_state_flag = GDP_regions_chuanxi
+		set_variable = {
+			china_state_ref = 17
+		}
+		set_variable = {
+			china_region_ref = 2
+		}
+	}
+}

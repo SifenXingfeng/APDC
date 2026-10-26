@@ -1,0 +1,34 @@
+{
+  "profile": "D:\\APDC_EconomyPanelQA_20261023_193339",
+  "existing_checks_passed": 60,
+  "direct_display_checks_passed": 13,
+  "failed": [],
+  "resolved_samples": {
+    "ZERO": "||||",
+    "INCOME": "|人口税：§G+1.25§!M£APDC_ruble_texticon£\n|",
+    "COST": "|建设维护：§R-2.50§!M£APDC_ruble_texticon£\n|",
+    "NEGATIVE_COST": "|建设维护：§G+2.50§!M£APDC_ruble_texticon£\n|",
+    "SMALL_MONEY": "|人口税：§G+5.00§!K£APDC_ruble_texticon£\n|",
+    "TINY_MONEY": "|人口税：§G+250.00§!£APDC_ruble_texticon£\n|",
+    "FOOD_PENALTY": "|消费品缺口：§R-0.05§!\n|",
+    "ZERO_GOODS": "|||",
+    "STOPPED": "|§Y私营民工建设来源§!\n\n|§Y私营军工建设来源§!\n\n|",
+    "GROWTH": "|§Y私营民工建设来源§!\n\n私营民工基础建设：§Y+19.25§!\n基础产能：§Y+2.50§!\n通用建设速度：§G+38.00%§!\n民工建设速度：§R-30.00%§!\n低额税率：§G+10.00%§!\n无分配控制：§G+50.00%§!\n消费品缺口：§G+58.52%§!\n|",
+    "CLOSURE": "|§Y私营民工建设来源§!\n\n产能过剩倒闭：§R-2.50§!\n|",
+    "ZERO_POLITICAL": "||",
+    "POLITICAL_BONUS": "|政治点数净增长：§G+15.00%§!\n|"
+  },
+  "visual_verified": false,
+  "cleanup": {
+    "closed_helpers": [
+      6464,
+      8764
+    ],
+    "still_running": false,
+    "pid": 17532,
+    "remaining_helpers": [],
+    "steam_app_running": false,
+    "stopped": "2026-10-23T19:36:04.6359254+08:00"
+  },
+  "user_settings_and_save_hashes_unchanged": true
+}

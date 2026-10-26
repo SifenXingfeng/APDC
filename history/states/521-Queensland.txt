@@ -2,47 +2,81 @@ state = {
 	id = 521
 	name = "STATE_521"
 	resources = {
-		tungsten = 36
-		oil = 3
+		tungsten = 2
+		coal = 5
 	}
 	history = {
 		owner = AST
+		controller = AST
 		add_core_of = AST
-		add_core_of = ZZZ
+		victory_points = {
+			7535
+			1
+		}
+		victory_points = {
+			7564
+			10
+		}
+		victory_points = {
+			7566
+			2
+		}
+		victory_points = {
+			10430
+			1
+		}
+		victory_points = {
+			10445
+			3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+			7564 = {
+				naval_base = 2
+				coastal_bunker = 1
+			}
+			7566 = {
+				naval_base = 1
+			}
+		}
 	}
 	provinces = {
 		1472
+		1557
 		1570
-		2116
 		4481
 		4502
 		4517
 		4530
 		4546
+		4560
 		4632
 		5198
 		5227
 		7522
 		7535
 		7564
+		7566
 		7592
+		7610
 		7649
 		7651
 		7666
 		10430
 		10445
+		10460
 		10475
 		10487
-		10941
-		11006
 		12308
+		12382
+		12411
+		12424
 		12451
-		12949
-		19933
-		19934
 	}
-	manpower = 7
-	buildings_max_level_factor = 1
-	state_category = large_town
-	local_supplies = 0
+	manpower = 720000
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
 }

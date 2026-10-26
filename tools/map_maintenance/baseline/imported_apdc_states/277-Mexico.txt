@@ -1,0 +1,95 @@
+state = {
+	id = 277
+	name = "STATE_277"
+	resources = {
+		steel = 4
+	}
+	provinces = {
+		1965
+		5393
+		5852
+		7913
+		8852
+		10832
+		14491
+		14492
+		14501
+		14502
+		14503
+		14505
+		14506
+		14514
+		14593
+		17037
+		17075
+		17114
+		17323
+	}
+	manpower = 2384436
+	buildings_max_level_factor = 1
+	state_category = city
+	local_supplies = 0
+	history = {
+		owner = MEX
+		controller = MEX
+		add_core_of = MEX
+		victory_points = {
+			1965
+			50
+		}
+		victory_points = {
+			5393
+			1
+		}
+		victory_points = {
+			10832
+			2
+		}
+		victory_points = {
+			14492
+			5
+		}
+		victory_points = {
+			14501
+			3
+		}
+		victory_points = {
+			14503
+			3
+		}
+		victory_points = {
+			14505
+			3
+		}
+		victory_points = {
+			14506
+			2
+		}
+		victory_points = {
+			14514
+			1
+		}
+		victory_points = {
+			17037
+			10
+		}
+		victory_points = {
+			17075
+			2
+		}
+		victory_points = {
+			17114
+			3
+		}
+		victory_points = {
+			17323
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 3
+		}
+	}
+}

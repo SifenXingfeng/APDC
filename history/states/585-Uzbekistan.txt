@@ -1,0 +1,55 @@
+state = {
+	id = 585
+	name = "STATE_585"
+	provinces = {
+		1115
+		1532
+		1554
+		1573
+		1623
+		4488
+		4629
+		7501
+		7775
+		10420
+		10671
+		14215
+		15784
+		17969
+		18618
+		18619
+		18625
+		18627
+		18671
+		18680
+	}
+	manpower = 1195039
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+		}
+		victory_points = {
+			1554
+			3
+		}
+		victory_points = {
+			10671
+			5
+		}
+		victory_points = {
+			18627
+			2
+		}
+		victory_points = {
+			18680
+			2
+		}
+	}
+}

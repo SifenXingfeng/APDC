@@ -1,0 +1,31 @@
+state = {
+	id = 1061
+	name = "STATE_1061"
+	manpower = 323100
+	state_category = town
+	resources = {
+		rubber = 25
+	}
+	history = {
+		owner = MAL
+		controller = MAL
+		add_core_of = MAL
+		victory_points = {
+			1291
+			3
+		}
+		victory_points = {
+			19032
+			3
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		1291
+		12144
+		19032
+	}
+	local_supplies = 0.0
+}

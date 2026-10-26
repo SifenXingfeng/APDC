@@ -1,0 +1,65 @@
+--- before/common/units/names_ships/USA_ship_names.txt
++++ current/common/units/names_ships/USA_ship_names.txt
+@@ -486,7 +486,7 @@
+ 	can_use = {
+ 		OR = {
+ 			tag = CSA
+-			has_completed_focus = USA_honor_the_confederacy
++			always = no
+ 		}
+ 	}
+ 	type = ship
+@@ -520,7 +520,7 @@
+ 	can_use = {
+ 		OR = {
+ 			tag = CSA
+-			has_completed_focus = USA_honor_the_confederacy
++			always = no
+ 		}
+ 	}
+ 	type = ship
+@@ -551,7 +551,7 @@
+ 	can_use = {
+ 		OR = {
+ 			tag = CSA
+-			has_completed_focus = USA_honor_the_confederacy
++			always = no
+ 		}
+ 	}
+ 	type = ship
+@@ -578,7 +578,7 @@
+ 	can_use = {
+ 		OR = {
+ 			tag = CSA
+-			has_completed_focus = USA_honor_the_confederacy
++			always = no
+ 		}
+ 	}
+ 	type = ship
+@@ -601,7 +601,7 @@
+ 	can_use = {
+ 		OR = {
+ 			tag = CSA
+-			has_completed_focus = USA_honor_the_confederacy
++			always = no
+ 		}
+ 	}
+ 	type = ship
+@@ -624,7 +624,7 @@
+ 	can_use = {
+ 		OR = {
+ 			tag = CSA
+-			has_completed_focus = USA_honor_the_confederacy
++			always = no
+ 		}
+ 	}
+ 	type = ship
+@@ -648,7 +648,7 @@
+ 	can_use = {
+ 		OR = {
+ 			tag = CSA
+-			has_completed_focus = USA_honor_the_confederacy
++			always = no
+ 		}
+ 	}
+ 	type = ship

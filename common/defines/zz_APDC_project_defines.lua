@@ -1,0 +1,8 @@
+-- Project overrides only; new engine defaults remain available.
+NDefines.NGame.START_DATE = "2060.1.1.12"
+NDefines.NGame.END_DATE = "2100.1.1.1"
+NDefines.NDiplomacy.TENSION_TIME_SCALE_START_DATE = "2060.1.1.12"
+NDefines.NCountry.GIE_EXILE_ARMY_LEADER_START_LEVEL = 3
+NDefines.NMilitary.UNIT_LEADER_MODIFIER_COOLDOWN_REFERENCE_MANPOWER = 9600
+NDefines.NMilitary.UNIT_LEADER_MODIFIER_COOLDOWN_MANPOWER_EXPONENT = 1.5
+NDefines.NCharacter.POLITICAL_ADVISOR_SLOTS_IN_MENU = 6

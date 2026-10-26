@@ -1,0 +1,36 @@
+state = {
+	id = 87
+	name = "STATE_87"
+	provinces = {
+		493
+		584
+		9508
+		9546
+		11428
+	}
+	manpower = 1880000
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+	history = {
+		owner = POL
+		controller = POL
+		add_core_of = POL
+		victory_points = {
+			584
+			1
+		}
+		victory_points = {
+			9508
+			5
+		}
+		victory_points = {
+			9546
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	}
+}

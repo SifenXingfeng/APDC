@@ -1,0 +1,56 @@
+state = {
+	id = 1223
+	name = "STATE_1223"
+	provinces = {
+		10385
+		10768
+		15153
+		18736
+		18737
+		18750
+		18755
+		18776
+		18777
+		18801
+		18807
+		18808
+		18813
+	}
+	manpower = 2036420
+	resources = {
+		aluminium = 1
+		tungsten = 1
+	}
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = city
+	history = {
+		owner = PER
+		controller = PER
+		add_core_of = PER
+		victory_points = {
+			10385
+			3
+		}
+		victory_points = {
+			10768
+			2
+		}
+		victory_points = {
+			18737
+			1
+		}
+		victory_points = {
+			18776
+			2
+		}
+		victory_points = {
+			18801
+			3
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+		}
+	}
+}

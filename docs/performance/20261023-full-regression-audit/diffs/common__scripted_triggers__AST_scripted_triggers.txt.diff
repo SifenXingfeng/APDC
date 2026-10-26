@@ -1,0 +1,117 @@
+--- before/common/scripted_triggers/AST_scripted_triggers.txt
++++ current/common/scripted_triggers/AST_scripted_triggers.txt
+@@ -1,75 +1,17 @@
+ 
+-AST_taog = { # Trigger to check if playing as Australia while having TAOG
+-	original_tag = AST
+-	has_dlc = "Thunder at Our Gates"
+-}
+ 
+-AST_historical_ai = {
+-	OR = {
+-		AND = {
+-			is_historical_focus_on = yes
+-			has_game_rule = {
+-				rule = AST_AI_BEHAVIOR
+-				option = DEFAULT
+-			}
+-		}
+-		has_country_flag = AST_AI_RANDOM_TAOG_HISTORICAL
+-		has_game_rule = {
+-			rule = AST_AI_BEHAVIOR
+-			option = HISTORICAL
+-		}
+-	}
+-}
+ 
+-AST_adela_fascist_ai = {
+-	OR = {
+-		has_country_flag = AST_ADELA_FASCIST_TAOG_AI
+-		has_game_rule = {
+-			rule = AST_AI_BEHAVIOR
+-			option = ADELA
+-		}
+-	}
+-}
+ 
+-AST_peter_fascist_ai = {
+-	OR = {
+-		has_country_flag = AST_PETER_FASCIST_TAOG_AI
+-		has_game_rule = {
+-			rule = AST_AI_BEHAVIOR
+-			option = PETER
+-		}
+-	}
+-}
+ 
+-AST_random_democratic_ai = {
+-	OR = {
+-		has_country_flag = AST_RANDOM_DEMOCRATIC_TAOG_AI
+-		has_game_rule = {
+-			rule = AST_AI_BEHAVIOR
+-			option = DEMOCRATIC_TAOG
+-		}
+-	}
+-}
+ 
+-AST_anti_commonwealth_communist_ai = {
+-	OR = {
+-		has_country_flag = AST_ANTI_COMMONWEALTH_COMMUNIST_TAOG_AI
+-		has_game_rule = {
+-			rule = AST_AI_BEHAVIOR
+-			option = ANTICOMMONWEALTHCOMMUNIST
+-		}
+-	}
+-}
+ 
+-AST_comintern_communist_ai = {
+-	OR = {
+-		has_country_flag = AST_COMINTERN_COMMUNIST_TAOG_AI
+-		has_game_rule = {
+-			rule = AST_AI_BEHAVIOR
+-			option = COMINTERNCOMMUNIST
+-		}
+-	}
+-}
++
++
++
++
++
++
++
+ 
+ AST_conscription_level_limited_conscription = {
+ 	if = {
+@@ -117,29 +59,9 @@
+ 	}
+ }
+ 
+-volunteer_target_is_triggered_uprising = {
+-	FROM = { has_country_flag = AST_instigated_communist_civil_war }
+-}
+ 
+-AST_overlord_eng_is_non_monarchy_or_fascist = {
+-	OR = {
+-		AST = { is_subject = no }
+-		ENG = {
+-			NOT = {
+-				has_government = neutrality
+-			}
+-			OR = {
+-				NOT = {
+-					has_idea = george_v
+-					has_idea = ENG_king_edward
+-					has_idea = ENG_king_edward_fascism
+-					has_idea = ENG_george_vi
+-				}
+-				has_government = fascism
+-			}
+-		}
+-	}
+-}
++
++
+ 
+ #PHI_central_focuses_done_T1_4 = { 
+ #		custom_trigger_tooltip = {

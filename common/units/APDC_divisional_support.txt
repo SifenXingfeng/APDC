@@ -1,0 +1,1351 @@
+sub_units = {
+# 摩托化综合勤务连 | source row 50 | original active=no
+apdc_combined_service = {
+	type = { infantry support }
+	group = support
+	categories = { category_support_battalions category_divisional_support_battalions category_army category_apdc_units }
+	priority = 0
+	ai_priority = 0
+	affects_speed = no
+	active = no
+	regimental = no
+	can_be_parachuted = yes
+	combat_width = 0
+	max_strength = 1
+	max_organisation = 20
+	default_morale = 0.3
+	manpower = 1000
+	training_time = 120
+	weight = 0.1
+	supply_consumption = 0.08
+	initiative = 0.1
+	supply_consumption_factor = -0.1
+	fuel_consumption_factor = -0.05
+	casualty_trickleback = 0.2
+	experience_loss_factor = -0.15
+	own_equipment_fuel_consumption_mult = 0
+	essential = { support_equipment motorized_equipment }
+	reliability_factor = 0.05
+	equipment_capture_factor = 0.05
+	need = {
+		support_equipment = 100
+		motorized_equipment = 40
+	}
+	divisional = yes
+	division_3d_model_priority = 0
+	abbreviation = "U50"
+	sprite = apdc_combined_service
+	map_icon_category = infantry
+	battalion_mult = {
+		category = category_all_infantry
+		max_strength = 0.1
+	}
+}
+# 运输直升机 | source row 51 | original active=no
+apdc_transport_helicopter_support = {
+	type = { support }
+	group = support
+	categories = { category_support_battalions category_divisional_support_battalions category_army category_helicopter_support_companies category_apdc_units }
+	priority = 0
+	ai_priority = 0
+	affects_speed = no
+	active = no
+	regimental = no
+	can_be_parachuted = no
+	combat_width = 0
+	max_strength = 1
+	max_organisation = 12
+	default_morale = 0.3
+	manpower = 500
+	training_time = 120
+	weight = 0.1
+	supply_consumption_factor = -0.1
+	fuel_consumption_factor = -0.02
+	own_equipment_fuel_consumption_mult = 0
+	essential = { support_equipment apdc_transport_helo_equipment }
+	forest = {
+		movement = 0.25
+	}
+	hills = {
+		movement = 0.25
+	}
+	mountain = {
+		movement = 0.5
+	}
+	jungle = {
+		movement = 0.25
+	}
+	desert = {
+		movement = 0.03
+	}
+	marsh = {
+		movement = 0.5
+	}
+	river = {
+		attack = 0.1
+	}
+	amphibious = {
+		attack = 0.1
+	}
+	need = {
+		support_equipment = 20
+		apdc_transport_helo_equipment = 30
+	}
+	divisional = yes
+	division_3d_model_priority = 0
+	abbreviation = "U51"
+	sprite = apdc_transport_helicopter_support
+	map_icon_category = infantry
+}
+# 前线机械工厂 | source row 52 | original active=yes
+apdc_field_workshop = {
+	type = { armor support }
+	group = support
+	categories = { category_support_battalions category_divisional_support_battalions category_army category_apdc_robots category_apdc_units }
+	priority = 0
+	ai_priority = 0
+	affects_speed = no
+	active = no
+	regimental = no
+	can_be_parachuted = no
+	combat_width = 0
+	max_strength = 2
+	max_organisation = 20
+	default_morale = 0.3
+	manpower = 300
+	training_time = 120
+	weight = 0.1
+	supply_consumption = 0.025
+	recon = 1.5
+	defense = 0.1
+	breakthrough = 0.1
+	forest = {
+		attack = 0.05
+		defence = 0.1
+	}
+	hills = {
+		attack = 0.05
+		defence = 0.1
+	}
+	jungle = {
+		attack = 0.05
+		defence = 0.1
+	}
+	marsh = {
+		attack = -0.05
+		defence = 0.1
+	}
+	fort = {
+		attack = 0.2
+		defence = 0.1
+	}
+	river = {
+		attack = 0.05
+		defence = 0.1
+	}
+	urban = {
+		attack = 0.2
+	}
+	amphibious = {
+		attack = -0.15
+	}
+	need = {
+		apdc_engineer_vehicle_equipment = 10
+	}
+	divisional = yes
+	division_3d_model_priority = 0
+	abbreviation = "U52"
+	sprite = apdc_field_workshop
+	map_icon_category = armored
+	essential = { apdc_engineer_vehicle_equipment }
+}
+# 蛙人部队（水域渗透） | source row 53 | original active=no
+apdc_frogmen = {
+	type = { infantry support }
+	group = support
+	categories = { category_front_line category_support_battalions category_divisional_support_battalions category_army category_recon category_marines category_marines_and_amphibious category_apdc_units }
+	priority = 0
+	ai_priority = 0
+	affects_speed = no
+	active = no
+	regimental = no
+	can_be_parachuted = yes
+	combat_width = 0
+	max_strength = 2
+	max_organisation = 30
+	default_morale = 0.3
+	manpower = 500
+	training_time = 120
+	weight = 0.1
+	supply_consumption = 0.06
+	recon = 1
+	essential = { infantry_equipment support_equipment }
+	marsh = {
+		attack = 0.2
+	}
+	river = {
+		attack = 0.3
+	}
+	amphibious = {
+		attack = 0.5
+	}
+	need = {
+		infantry_equipment = 40
+		support_equipment = 15
+	}
+	divisional = yes
+	division_3d_model_priority = 0
+	abbreviation = "U53"
+	sprite = apdc_frogmen
+	map_icon_category = infantry
+}
+# 气垫船 | source row 54 | original active=yes
+apdc_hovercraft_support = {
+	type = { infantry support }
+	group = support
+	categories = { category_support_battalions category_divisional_support_battalions category_army category_marines category_marines_and_amphibious category_apdc_units }
+	priority = 0
+	ai_priority = 0
+	affects_speed = no
+	active = no
+	regimental = no
+	can_be_parachuted = no
+	combat_width = 0
+	max_strength = 2
+	max_organisation = 0
+	default_morale = 0.3
+	manpower = 500
+	training_time = 120
+	weight = 0.1
+	supply_consumption = 0.06
+	supply_consumption_factor = -0.2
+	fuel_consumption_factor = -0.05
+	own_equipment_fuel_consumption_mult = 0
+	marsh = {
+		attack = 0.4
+		movement = 1
+	}
+	river = {
+		attack = 0.4
+		movement = 1
+	}
+	amphibious = {
+		attack = 0.5
+		movement = 1
+	}
+	plains = {
+		movement = 0.1
+	}
+	forest = {
+		attack = -0.5
+		movement = -0.5
+	}
+	mountain = {
+		attack = -0.8
+		movement = -0.8
+	}
+	hills = {
+		attack = -0.5
+		movement = -0.5
+	}
+	jungle = {
+		attack = -0.8
+		movement = -0.8
+	}
+	desert = {
+		movement = 0.1
+	}
+	need = {
+		apdc_hovercraft_equipment = 10
+	}
+	divisional = yes
+	division_3d_model_priority = 0
+	abbreviation = "U54"
+	sprite = apdc_hovercraft_support
+	map_icon_category = infantry
+	essential = { apdc_hovercraft_equipment }
+}
+# 精英人形渗透小队 | source row 55 | original active=no
+apdc_elite_doll_infiltration = {
+	type = { infantry support }
+	group = support
+	categories = { category_front_line category_support_battalions category_divisional_support_battalions category_army category_recon category_apdc_dolls category_apdc_units }
+	priority = 0
+	ai_priority = 0
+	active = no
+	regimental = no
+	can_be_parachuted = yes
+	combat_width = 0
+	max_strength = 2
+	max_organisation = 30
+	default_morale = 0.3
+	manpower = 15
+	training_time = 180
+	weight = 0.1
+	supply_consumption = 0.06
+	recon = 1.5
+	maximum_speed = 0.6
+	essential = { infantry_equipment support_equipment }
+	breakthrough = 0.15
+	hard_attack = 1
+	forest = {
+		movement = 0.15
+		attack = 0.05
+	}
+	hills = {
+		movement = 0.15
+		attack = 0.05
+	}
+	mountain = {
+		movement = 0.1
+		defence = 0.05
+	}
+	jungle = {
+		movement = 0.1
+	}
+	plains = {
+		movement = 0.1
+		attack = 0.05
+	}
+	need = {
+		infantry_equipment = 10
+		support_equipment = 15
+	}
+	affects_speed = no
+	divisional = yes
+	division_3d_model_priority = 0
+	abbreviation = "U55"
+	sprite = apdc_elite_doll_infiltration
+	map_icon_category = infantry
+}
+# 防化连 | source row 56 | original active=no
+apdc_cbrn = {
+	type = { infantry support }
+	group = support
+	categories = { category_front_line category_support_battalions category_divisional_support_battalions category_army category_apdc_units }
+	priority = 0
+	ai_priority = 0
+	affects_speed = no
+	active = no
+	regimental = no
+	can_be_parachuted = yes
+	combat_width = 0
+	max_strength = 2
+	max_organisation = 20
+	default_morale = 0.3
+	manpower = 300
+	training_time = 120
+	weight = 0.1
+	supply_consumption = 0.02
+	casualty_trickleback = 0.2
+	experience_loss_factor = -0.05
+	reliability_factor = 0.03
+	soft_attack = 0.5
+	fort = {
+		attack = 0.1
+	}
+	urban = {
+		attack = 0.1
+	}
+	amphibious = {
+		attack = 0.15
+	}
+	essential = { support_equipment }
+	same_support_type = apdc_engineer
+	need = {
+		infantry_equipment = 10
+		support_equipment = 30
+	}
+	divisional = yes
+	division_3d_model_priority = 0
+	abbreviation = "U56"
+	sprite = apdc_cbrn
+	map_icon_category = infantry
+	battalion_mult = {
+		category = category_all_infantry
+		breakthrough = 0.05
+	}
+	battalion_mult = {
+		category = category_all_infantry
+		max_strength = 0.1
+	}
+}
+# 步兵侦查连 | source row 57 | original active=no
+apdc_infantry_recon = {
+	sprite = apdc_infantry_recon
+	map_icon_category = infantry
+	type = { infantry support }
+	group = support
+	categories = { category_front_line category_support_battalions category_divisional_support_battalions category_army category_recon category_apdc_units }
+	priority = 0
+	ai_priority = 0
+	active = no
+	regimental = no
+	can_be_parachuted = yes
+	combat_width = 0
+	max_strength = 2
+	max_organisation = 20
+	default_morale = 0.3
+	manpower = 500
+	training_time = 120
+	weight = 0.1
+	supply_consumption = 0.02
+	recon = 1
+	maximum_speed = 0.6
+	defense = -0.5
+	breakthrough = -0.5
+	soft_attack = -0.9
+	hard_attack = -0.9
+	forest = {
+		movement = 0.05
+	}
+	hills = {
+		movement = 0.1
+	}
+	mountain = {
+		movement = 0.1
+	}
+	jungle = {
+		movement = 0.1
+	}
+	marsh = {
+		movement = 0.1
+	}
+	plains = {
+		movement = 0.05
+	}
+	desert = {
+		movement = 0.05
+	}
+	river = {
+		movement = 0.1
+	}
+	essential = { infantry_equipment support_equipment }
+	same_support_type = apdc_infantry_recon
+	need = {
+		infantry_equipment = 40
+		support_equipment = 10
+	}
+	affects_speed = no
+	divisional = yes
+	division_3d_model_priority = 0
+	abbreviation = "U57"
+	battalion_mult = {
+		category = category_artillery
+		soft_attack = 0.1
+	}
+}
+# 无人侦查连 | source row 58 | original active=no
+apdc_robot_recon = {
+	abbreviation = "CREC"
+	sprite = apdc_robot_recon
+	map_icon_category = infantry
+	type = { infantry support }
+	group = support
+	categories = { category_front_line category_support_battalions category_divisional_support_battalions category_army category_recon category_apdc_robots category_apdc_units }
+	priority = 0
+	ai_priority = 0
+	active = no
+	regimental = no
+	can_be_parachuted = yes
+	combat_width = 0
+	max_strength = 2
+	max_organisation = 20
+	default_morale = 0.3
+	manpower = 50
+	training_time = 120
+	weight = 0.1
+	supply_consumption = 0.02
+	recon = 1.4
+	defense = -0.5
+	breakthrough = -0.5
+	soft_attack = -0.9
+	hard_attack = -0.9
+	forest = {
+		movement = 0.05
+	}
+	hills = {
+		movement = 0.1
+	}
+	mountain = {
+		movement = 0.1
+	}
+	jungle = {
+		movement = 0.1
+	}
+	marsh = {
+		movement = 0.1
+	}
+	plains = {
+		movement = 0.05
+	}
+	desert = {
+		movement = 0.05
+	}
+	river = {
+		movement = 0.1
+	}
+	essential = { apdc_basic_robot_equipment }
+	same_support_type = apdc_infantry_recon
+	need = {
+		apdc_basic_robot_equipment = 60
+	}
+	affects_speed = no
+	divisional = yes
+	division_3d_model_priority = 0
+	battalion_mult = {
+		category = category_apdc_robots
+		soft_attack = 0.1
+	}
+}
+# 摩托化侦察连 | source row 59 | original active=no
+apdc_motorized_recon = {
+	abbreviation = "MREC"
+	sprite = apdc_motorized_recon
+	map_icon_category = infantry
+	type = { infantry support }
+	group = support
+	categories = { category_front_line category_support_battalions category_divisional_support_battalions category_army category_recon category_apdc_units }
+	priority = 0
+	ai_priority = 0
+	active = no
+	regimental = no
+	can_be_parachuted = yes
+	defense = -0.09
+	breakthrough = -0.5
+	soft_attack = -0.9
+	hard_attack = -0.9
+	forest = {
+		movement = 0.05
+	}
+	hills = {
+		movement = 0.1
+	}
+	mountain = {
+		movement = 0.1
+	}
+	jungle = {
+		movement = 0.05
+	}
+	marsh = {
+		movement = 0.1
+	}
+	plains = {
+		movement = 0.15
+	}
+	desert = {
+		movement = 0.2
+	}
+	river = {
+		movement = 0.1
+	}
+	combat_width = 0
+	max_strength = 2
+	max_organisation = 20
+	default_morale = 0.3
+	manpower = 500
+	training_time = 120
+	weight = 0.1
+	supply_consumption = 0.02
+	recon = 1.5
+	essential = { infantry_equipment support_equipment motorized_equipment }
+	transport = motorized_equipment
+	same_support_type = apdc_infantry_recon
+	need = {
+		infantry_equipment = 40
+		support_equipment = 10
+		motorized_equipment = 20
+	}
+	affects_speed = no
+	divisional = yes
+	division_3d_model_priority = 0
+	battalion_mult = {
+		category = category_artillery
+		soft_attack = 0.1
+	}
+}
+# 机械化侦察连 | source row 60 | original active=no
+apdc_mechanized_recon = {
+	abbreviation = "AREC"
+	sprite = apdc_mechanized_recon
+	map_icon_category = infantry
+	type = { infantry support }
+	group = support
+	categories = { category_front_line category_support_battalions category_divisional_support_battalions category_army category_recon category_apdc_units }
+	priority = 0
+	ai_priority = 0
+	active = no
+	regimental = no
+	can_be_parachuted = yes
+	breakthrough = -0.2
+	defense = -0.5
+	soft_attack = -0.5
+	hard_attack = -0.5
+	forest = {
+		movement = 0.05
+	}
+	hills = {
+		movement = 0.1
+	}
+	mountain = {
+		movement = 0.05
+	}
+	jungle = {
+		movement = 0.05
+	}
+	plains = {
+		movement = 0.15
+	}
+	desert = {
+		movement = 0.15
+	}
+	river = {
+		movement = 0.1
+	}
+	combat_width = 0
+	max_strength = 2
+	max_organisation = 20
+	default_morale = 0.3
+	manpower = 500
+	training_time = 120
+	weight = 0.1
+	supply_consumption = 0.02
+	recon = 2
+	essential = { apdc_wheeled_mech_equipment }
+	same_support_type = apdc_infantry_recon
+	need = {
+		apdc_wheeled_mech_equipment = 24
+	}
+	affects_speed = no
+	divisional = yes
+	division_3d_model_priority = 0
+	battalion_mult = {
+		category = category_artillery
+		soft_attack = 0.1
+	}
+}
+# 装甲侦察连 | source row 61 | original active=no
+apdc_armor_recon = {
+	abbreviation = "TREC"
+	sprite = apdc_armor_recon
+	map_icon_category = infantry
+	type = { infantry support }
+	group = support
+	categories = { category_front_line category_support_battalions category_divisional_support_battalions category_army category_all_armor category_recon category_apdc_units }
+	priority = 0
+	ai_priority = 0
+	active = no
+	regimental = no
+	can_be_parachuted = no
+	defense = -0.6
+	breakthrough = -0.6
+	soft_attack = -0.6
+	hard_attack = -0.6
+	armor_value = -0.6
+	forest = {
+		movement = 0.1
+	}
+	hills = {
+		movement = 0.1
+	}
+	mountain = {
+		movement = 0.1
+	}
+	jungle = {
+		movement = 0.1
+	}
+	marsh = {
+		movement = 0.1
+	}
+	plains = {
+		movement = 0.1
+	}
+	desert = {
+		movement = 0.1
+	}
+	river = {
+		movement = 0.1
+	}
+	combat_width = 0
+	max_strength = 2
+	max_organisation = 20
+	default_morale = 0.3
+	manpower = 500
+	training_time = 120
+	weight = 0.1
+	supply_consumption = 0.02
+	recon = 1
+	essential = { apdc_mbt_equipment }
+	same_support_type = apdc_infantry_recon
+	need = {
+		apdc_mbt_equipment = 24
+	}
+	affects_speed = no
+	divisional = yes
+	division_3d_model_priority = 0
+	battalion_mult = {
+		category = category_all_armor
+		hard_attack = 0.1
+	}
+}
+# 无人机侦查连 | source row 62 | original active=no
+apdc_uav_recon = {
+	abbreviation = "CREC"
+	sprite = apdc_uav_recon
+	map_icon_category = infantry
+	type = { infantry support }
+	group = support
+	categories = { category_front_line category_support_battalions category_divisional_support_battalions category_army category_recon category_apdc_robots category_apdc_units }
+	priority = 0
+	ai_priority = 0
+	active = no
+	regimental = no
+	can_be_parachuted = yes
+	combat_width = 0
+	max_strength = 2
+	max_organisation = 20
+	default_morale = 0.3
+	manpower = 50
+	training_time = 120
+	weight = 0.1
+	supply_consumption = 0.02
+	recon = 1.4
+	defense = 0.5
+	breakthrough = 0.5
+	soft_attack = 0.25
+	hard_attack = 0.35
+	same_support_type = apdc_infantry_recon
+	need = {
+		apdc_uav_equipment = 60
+	}
+	affects_speed = no
+	divisional = yes
+	division_3d_model_priority = 0
+	essential = { apdc_uav_equipment }
+	battalion_mult = {
+		category = category_apdc_robots
+		soft_attack = 0.1
+		hard_attack = 0.2
+	}
+}
+# 宪兵连 | source row 63 | original active=no
+apdc_military_police = {
+	abbreviation = "MP"
+	sprite = apdc_military_police
+	map_icon_category = infantry
+	type = { infantry support }
+	group = support
+	categories = { category_support_battalions category_divisional_support_battalions category_army category_apdc_units }
+	priority = 0
+	ai_priority = 0
+	affects_speed = no
+	active = no
+	regimental = no
+	can_be_parachuted = yes
+	suppression_factor = 0.2
+	combat_width = 0
+	max_strength = 1
+	max_organisation = 0
+	default_morale = 0.3
+	manpower = 500
+	training_time = 180
+	weight = 0.1
+	supply_consumption = 0.02
+	essential = { infantry_equipment support_equipment }
+	same_support_type = apdc_military_police
+	need = {
+		support_equipment = 10
+		infantry_equipment = 40
+	}
+	divisional = yes
+	division_3d_model_priority = 0
+	battalion_mult = {
+		category = category_all_infantry
+		default_morale = 0.2
+	}
+}
+# 工兵连 | source row 64 | original active=no
+apdc_engineer = {
+	abbreviation = "ENG"
+	sprite = apdc_engineer
+	map_icon_category = infantry
+	type = { infantry support }
+	group = support
+	categories = { category_front_line category_support_battalions category_divisional_support_battalions category_army category_apdc_units }
+	priority = 0
+	ai_priority = 0
+	affects_speed = no
+	active = no
+	regimental = no
+	can_be_parachuted = yes
+	combat_width = 0
+	max_strength = 2
+	max_organisation = 20
+	default_morale = 0.3
+	manpower = 300
+	training_time = 120
+	weight = 0.1
+	supply_consumption = 0.02
+	entrenchment = 2
+	defense = 0.1
+	breakthrough = 0.5
+	soft_attack = -0.5
+	forest = {
+		defence = 0.25
+		movement = 0.05
+	}
+	hills = {
+		defence = 0.1
+	}
+	jungle = {
+		defence = 0.25
+	}
+	marsh = {
+		defence = 0.25
+		movement = 0.2
+	}
+	fort = {
+		attack = 0.1
+		defence = 0.25
+	}
+	river = {
+		defence = 0.25
+		movement = 0.25
+	}
+	amphibious = {
+		attack = 0.15
+	}
+	essential = { support_equipment }
+	same_support_type = apdc_engineer
+	need = {
+		infantry_equipment = 10
+		support_equipment = 30
+	}
+	divisional = yes
+	division_3d_model_priority = 0
+	battalion_mult = {
+		category = category_light_infantry
+		entrenchment = 0.2
+		add = yes
+	}
+}
+# 装甲工兵 | source row 65 | original active=no
+apdc_armored_engineer = {
+	abbreviation = "AREC"
+	sprite = apdc_armored_engineer
+	map_icon_category = armored
+	type = { armor support }
+	group = support
+	categories = { category_front_line category_support_battalions category_divisional_support_battalions category_tanks category_all_armor category_army category_apdc_units }
+	priority = 0
+	ai_priority = 0
+	affects_speed = no
+	active = no
+	regimental = no
+	can_be_parachuted = no
+	combat_width = 0
+	max_strength = 2
+	max_organisation = 20
+	default_morale = 0.3
+	manpower = 300
+	training_time = 120
+	weight = 0.1
+	supply_consumption = 0.035
+	entrenchment = 3
+	defense = 0.15
+	breakthrough = 1
+	soft_attack = -0.5
+	forest = {
+		defence = 0.25
+		movement = 0.1
+	}
+	plains = {
+		movement = 0.1
+	}
+	desert = {
+		movement = 0.1
+	}
+	hills = {
+		defence = 0.1
+		movement = 0.05
+	}
+	jungle = {
+		defence = 0.15
+		movement = 0.05
+	}
+	marsh = {
+		defence = 0.15
+		movement = 0.2
+	}
+	fort = {
+		attack = 0.15
+		defence = 0.25
+	}
+	river = {
+		attack = 0.1
+		defence = 0.15
+		movement = 0.4
+	}
+	amphibious = {
+		attack = 0.2
+	}
+	urban = {
+		attack = 0.2
+		defence = 0.1
+		movement = 0.1
+	}
+	essential = { support_equipment apdc_engineer_vehicle_equipment }
+	same_support_type = apdc_engineer
+	need = {
+		apdc_engineer_vehicle_equipment = 30
+		support_equipment = 15
+	}
+	divisional = yes
+	division_3d_model_priority = 0
+	battalion_mult = {
+		category = category_all_infantry
+		entrenchment = 0.2
+		add = yes
+	}
+	battalion_mult = {
+		category = category_all_armor
+		breakthrough = 0.05
+		add = yes
+	}
+}
+# 前线指挥连 | source row 66 | original active=no
+apdc_frontline_command = {
+	type = { infantry support }
+	group = support
+	categories = { category_support_battalions category_divisional_support_battalions category_army category_apdc_units }
+	priority = 0
+	ai_priority = 0
+	affects_speed = no
+	active = no
+	regimental = no
+	can_be_parachuted = yes
+	combat_width = 0
+	max_organisation = 20
+	default_morale = 0.3
+	manpower = 1000
+	training_time = 120
+	weight = 0.1
+	supply_consumption = 0.08
+	initiative = 0.4
+	own_equipment_fuel_consumption_mult = 0
+	essential = { support_equipment motorized_equipment }
+	soft_attack = 0.1
+	hard_attack = 0.1
+	plains = {
+		movement = 0.1
+		defence = 0.1
+	}
+	forest = {
+		attack = 0.1
+		movement = 0.1
+		defence = 0.1
+	}
+	mountain = {
+		attack = 0.1
+		movement = 0.1
+		defence = 0.1
+	}
+	hills = {
+		attack = 0.1
+		defence = 0.1
+		movement = 0.1
+	}
+	jungle = {
+		attack = 0.1
+		movement = 0.1
+		defence = 0.1
+	}
+	marsh = {
+		attack = 0.1
+		movement = 0.1
+		defence = 0.1
+	}
+	urban = {
+		attack = 0.1
+		movement = 0.1
+		defence = 0.1
+	}
+	desert = {
+		attack = 0.1
+		defence = 0.1
+		movement = 0.1
+	}
+	river = {
+		attack = 0.1
+		movement = 0.1
+		defence = 0.1
+	}
+	amphibious = {
+		attack = 0.1
+		movement = 0.1
+		defence = 0.1
+	}
+	fort = {
+		attack = 0.1
+		movement = 0.1
+		defence = 0.1
+	}
+	max_strength = 5
+	need = {
+		support_equipment = 100
+		motorized_equipment = 40
+	}
+	divisional = yes
+	division_3d_model_priority = 0
+	abbreviation = "U66"
+	sprite = apdc_frontline_command
+	map_icon_category = infantry
+	battalion_mult = {
+		category = category_front_line
+		max_strength = 0.2
+	}
+}
+# 机甲连（AA02类机甲） | source row 67 | original active=yes
+apdc_aa02_support = {
+	type = { support armor }
+	group = support
+	categories = { category_tanks category_support_battalions category_divisional_support_battalions category_front_line category_all_armor category_army category_apdc_elite_mechanical category_apdc_units }
+	priority = 2520
+	ai_priority = 2520
+	active = no
+	regimental = no
+	combat_width = 0
+	manpower = 500
+	max_organisation = 10
+	default_morale = 0.3
+	max_strength = 2
+	training_time = 180
+	weight = 1
+	supply_consumption = 0.4
+	suppression = 2.5
+	forest = {
+		attack = -0.25
+		movement = -0.3
+	}
+	hills = {
+		attack = 0.15
+		defence = 0.15
+	}
+	mountain = {
+		attack = 0.2
+		defence = 0.2
+	}
+	urban = {
+		attack = -0.3
+		defence = -0.3
+	}
+	jungle = {
+		attack = -0.35
+		defence = -0.35
+		movement = -0.3
+	}
+	marsh = {
+		attack = -0.3
+		defence = -0.3
+		movement = -0.3
+	}
+	fort = {
+		attack = 0.1
+		defence = 0.05
+	}
+	river = {
+		attack = -0.25
+		defence = -0.25
+		movement = -0.3
+	}
+	amphibious = {
+		attack = -0.6
+	}
+	need = {
+		apdc_aa02_equipment = 20
+	}
+	affects_speed = no
+	divisional = yes
+	division_3d_model_priority = 0
+	abbreviation = "U67"
+	sprite = apdc_aa02_support
+	map_icon_category = armored
+	essential = { apdc_aa02_equipment }
+}
+# 末日魔犬 | source row 68 | original active=yes
+apdc_doomsday_dog_support = {
+	type = { support armor }
+	group = support
+	categories = { category_tanks category_support_battalions category_divisional_support_battalions category_front_line category_army category_apdc_robots category_apdc_units }
+	priority = 2520
+	ai_priority = 2520
+	active = no
+	regimental = no
+	combat_width = 0
+	manpower = 10
+	max_organisation = 60
+	default_morale = 0.3
+	max_strength = 15
+	training_time = 250
+	weight = 2
+	supply_consumption = 0.6
+	suppression = 4
+	forest = {
+		attack = -0.3
+		defence = -0.3
+		movement = -0.2
+	}
+	hills = {
+		attack = -0.2
+		defence = -0.2
+		movement = -0.25
+	}
+	mountain = {
+		attack = -0.3
+		defence = -0.3
+		movement = -0.3
+	}
+	jungle = {
+		attack = -0.4
+		defence = -0.4
+		movement = -0.35
+	}
+	marsh = {
+		attack = -0.4
+		defence = -0.4
+		movement = -0.5
+	}
+	urban = {
+		attack = -0.3
+		defence = -0.3
+	}
+	river = {
+		attack = -0.35
+		defence = -0.35
+		movement = -0.5
+	}
+	amphibious = {
+		attack = -0.7
+	}
+	fort = {
+		attack = 0.2
+		defence = 0.1
+	}
+	need = {
+		apdc_doomsday_dog_equipment = 1
+	}
+	affects_speed = no
+	divisional = yes
+	division_3d_model_priority = 0
+	abbreviation = "U68"
+	sprite = apdc_doomsday_dog_support
+	map_icon_category = armored
+	essential = { apdc_doomsday_dog_equipment }
+}
+# 师级自行火炮支援 | source row 69 | original active=yes
+apdc_sp_artillery_support = {
+	abbreviation = "ART"
+	sprite = apdc_sp_artillery_support
+	map_icon_category = infantry
+	type = { infantry support }
+	group = support
+	categories = { category_support_battalions category_divisional_support_battalions category_army category_support_artillery category_apdc_units }
+	priority = 0
+	ai_priority = 0
+	affects_speed = no
+	is_artillery_brigade = yes
+	active = no
+	regimental = no
+	can_be_parachuted = no
+	combat_width = 0
+	manpower = 300
+	training_time = 120
+	max_organisation = 0
+	default_morale = 0.1
+	max_strength = 0.2
+	weight = 0.1
+	supply_consumption = 0.16
+	defense = -0.4
+	breakthrough = -0.4
+	soft_attack = -0.4
+	hard_attack = -0.4
+	need = {
+		apdc_spg_equipment = 12
+	}
+	divisional = yes
+	division_3d_model_priority = 0
+	essential = { apdc_spg_equipment }
+}
+# 师级牵引式火炮支援 | source row 70 | original active=yes
+apdc_towed_artillery_support = {
+	abbreviation = "ART"
+	sprite = apdc_towed_artillery_support
+	map_icon_category = infantry
+	type = { infantry support }
+	group = support
+	categories = { category_support_battalions category_divisional_support_battalions category_army category_artillery category_support_artillery category_apdc_units }
+	priority = 0
+	ai_priority = 0
+	affects_speed = no
+	is_artillery_brigade = yes
+	active = no
+	regimental = no
+	can_be_parachuted = no
+	combat_width = 0
+	manpower = 300
+	training_time = 120
+	max_organisation = 0
+	default_morale = 0.1
+	max_strength = 0.2
+	weight = 0.1
+	supply_consumption = 0.16
+	defense = -0.4
+	breakthrough = -0.4
+	soft_attack = -0.4
+	hard_attack = -0.4
+	need = {
+		apdc_towed_gun_equipment = 12
+		motorized_equipment = 18
+	}
+	divisional = yes
+	division_3d_model_priority = 0
+	essential = { apdc_towed_gun_equipment motorized_equipment }
+}
+# 师级火箭炮支援 | source row 71 | original active=yes
+apdc_mlrs_support = {
+	abbreviation = "ART"
+	sprite = apdc_mlrs_support
+	map_icon_category = infantry
+	type = { infantry support }
+	group = support
+	categories = { category_support_battalions category_divisional_support_battalions category_army category_support_artillery category_apdc_units }
+	priority = 0
+	ai_priority = 0
+	affects_speed = no
+	is_artillery_brigade = yes
+	active = no
+	regimental = no
+	can_be_parachuted = no
+	combat_width = 0
+	manpower = 300
+	training_time = 120
+	max_organisation = 0
+	default_morale = 0.1
+	max_strength = 0.2
+	weight = 0.1
+	supply_consumption = 0.16
+	defense = -0.4
+	breakthrough = -0.4
+	soft_attack = -0.4
+	hard_attack = -0.4
+	need = {
+		apdc_mlrs_equipment = 8
+		motorized_equipment = 8
+	}
+	divisional = yes
+	division_3d_model_priority = 0
+	essential = { apdc_mlrs_equipment motorized_equipment }
+}
+# 师级摩托化火炮支援 | source row 72 | original active=yes
+apdc_truck_artillery_support = {
+	abbreviation = "ART"
+	sprite = apdc_truck_artillery_support
+	map_icon_category = infantry
+	type = { infantry support }
+	group = support
+	categories = { category_support_battalions category_divisional_support_battalions category_army category_support_artillery category_apdc_units }
+	priority = 0
+	ai_priority = 0
+	affects_speed = no
+	is_artillery_brigade = yes
+	active = no
+	regimental = no
+	can_be_parachuted = no
+	combat_width = 0
+	manpower = 300
+	training_time = 120
+	max_organisation = 0
+	default_morale = 0.1
+	max_strength = 0.2
+	weight = 0.1
+	supply_consumption = 0.16
+	defense = -0.4
+	breakthrough = -0.4
+	soft_attack = -0.4
+	hard_attack = -0.4
+	need = {
+		apdc_truck_art_equipment = 12
+	}
+	divisional = yes
+	division_3d_model_priority = 0
+	essential = { apdc_truck_art_equipment }
+}
+# 师级野战自行防空支援 | source row 73 | original active=yes
+apdc_spaag_support = {
+	abbreviation = "AA"
+	sprite = apdc_spaag_support
+	map_icon_category = infantry
+	type = { infantry support }
+	group = support
+	categories = { category_support_battalions category_army category_anti_air category_divisional_support_battalions category_apdc_units }
+	priority = 0
+	ai_priority = 0
+	affects_speed = no
+	active = no
+	regimental = no
+	can_be_parachuted = no
+	combat_width = 0
+	training_time = 120
+	max_strength = 0.2
+	max_organisation = 0
+	default_morale = 0.1
+	manpower = 300
+	weight = 0.1
+	supply_consumption = 0.1
+	defense = -0.4
+	breakthrough = -0.4
+	soft_attack = -0.4
+	hard_attack = -0.4
+	air_attack = -0.2
+	need = {
+		apdc_spaag_equipment = 20
+	}
+	divisional = yes
+	division_3d_model_priority = 0
+	essential = { apdc_spaag_equipment }
+}
+# 师级反坦克导弹发射车支援 | source row 74 | original active=yes
+apdc_atgm_support = {
+	abbreviation = "AT"
+	sprite = apdc_atgm_support
+	map_icon_category = infantry
+	group = support
+	type = { infantry support }
+	categories = { category_front_line category_support_battalions category_divisional_support_battalions category_army category_anti_tank category_mobile_anti_tank category_apdc_units }
+	priority = 0
+	ai_priority = 0
+	affects_speed = no
+	active = no
+	regimental = no
+	can_be_parachuted = no
+	combat_width = 0
+	manpower = 300
+	max_organisation = 0
+	default_morale = 0.1
+	max_strength = 0.2
+	training_time = 120
+	weight = 0.1
+	supply_consumption = 0.08
+	defense = -0.4
+	breakthrough = -0.4
+	soft_attack = -0.4
+	hard_attack = -0.5
+	ap_attack = -0.15
+	need = {
+		apdc_atgm_equipment = 24
+	}
+	divisional = yes
+	division_3d_model_priority = 0
+	essential = { apdc_atgm_equipment }
+}
+}

@@ -1,0 +1,27 @@
+state = {
+	id = 1316
+	name = "STATE_1316"
+	provinces = {
+		354
+		387
+		6293
+		9287
+		11234
+	}
+	manpower = 259417
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		victory_points = {
+			11234
+			1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}

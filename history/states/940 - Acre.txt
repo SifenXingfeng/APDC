@@ -1,0 +1,37 @@
+state = {
+	id = 940
+	name = "STATE_940"
+	manpower = 463559
+	state_category = pastoral
+	resources = {
+		aluminium = 6
+	}
+	history = {
+		owner = AMZ
+		controller = AMZ
+		add_core_of = AMZ
+		add_core_of = BRA
+		victory_points = {
+			13278
+			3
+		}
+		victory_points = {
+			13279
+			1
+		}
+		victory_points = {
+			14760
+			1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		13278
+		13279
+		13280
+		14760
+	}
+	local_supplies = 0.0
+}

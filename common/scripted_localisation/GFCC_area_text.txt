@@ -32,7 +32,7 @@ defined_text = {
 			FROM = {
 				check_variable = { GFCC_area_Pollution_var > 10 }
 				check_variable = { GFCC_area_Pollution_var < 150 }
-				GFCC_area_Pollution_B1 = 0
+				NOT = { GFCC_area_Pollution_B1 > 0 }
 			}
 		}
 		localization_key = GFCC_area_Pollution_modifiers_4

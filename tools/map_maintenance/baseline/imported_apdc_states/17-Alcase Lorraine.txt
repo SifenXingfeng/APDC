@@ -1,0 +1,46 @@
+state = {
+	id = 17
+	name = "STATE_17"
+	manpower = 1517500
+	state_category = city
+	resources = {
+		steel = 28
+	}
+	history = {
+		owner = FRA
+		controller = FRA
+		add_core_of = FRA
+		victory_points = {
+			698
+			1
+		}
+		victory_points = {
+			9642
+			1
+		}
+		victory_points = {
+			11516
+			3
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 5
+		}
+		set_state_flag = GDP_regions_burgundy
+	}
+	provinces = {
+		521
+		698
+		3646
+		3666
+		6668
+		6698
+		9642
+		9658
+		11488
+		11516
+		11642
+	}
+	local_supplies = 0.0
+}
