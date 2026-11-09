@@ -1,0 +1,124 @@
+{
+  "method": "Primary geographic source by province count; ties lower state ID. Existing non-owner cores remain, no new owner core added from minority fragments.",
+  "corrected_during_review": [
+    {
+      "state": 433,
+      "before": {
+        "owner": "PAK",
+        "controller": "PAK",
+        "cores": [
+          "CIP",
+          "RJP"
+        ],
+        "claims": []
+      },
+      "after": {
+        "owner": "PAK",
+        "controller": "PAK",
+        "cores": [
+          "RJP"
+        ],
+        "claims": []
+      }
+    },
+    {
+      "state": 1567,
+      "before": {
+        "owner": "PAK",
+        "controller": "PAK",
+        "cores": [
+          "CIP",
+          "RJP"
+        ],
+        "claims": []
+      },
+      "after": {
+        "owner": "PAK",
+        "controller": "PAK",
+        "cores": [
+          "CIP"
+        ],
+        "claims": []
+      }
+    },
+    {
+      "state": 1570,
+      "before": {
+        "owner": "PAK",
+        "controller": "PAK",
+        "cores": [
+          "PAK"
+        ],
+        "claims": []
+      },
+      "after": {
+        "owner": "PAK",
+        "controller": "PAK",
+        "cores": [
+          "HYD"
+        ],
+        "claims": []
+      }
+    },
+    {
+      "state": 1571,
+      "before": {
+        "owner": "PAK",
+        "controller": "PAK",
+        "cores": [
+          "HYD",
+          "KOL"
+        ],
+        "claims": []
+      },
+      "after": {
+        "owner": "PAK",
+        "controller": "PAK",
+        "cores": [
+          "HYD"
+        ],
+        "claims": []
+      }
+    },
+    {
+      "state": 1572,
+      "before": {
+        "owner": "PAK",
+        "controller": "PAK",
+        "cores": [
+          "HYD",
+          "KOL",
+          "MYS"
+        ],
+        "claims": []
+      },
+      "after": {
+        "owner": "PAK",
+        "controller": "PAK",
+        "cores": [
+          "KOL"
+        ],
+        "claims": []
+      }
+    },
+    {
+      "state": 1575,
+      "before": {
+        "owner": "PAK",
+        "controller": "PAK",
+        "cores": [
+          "PAK"
+        ],
+        "claims": []
+      },
+      "after": {
+        "owner": "PAK",
+        "controller": "PAK",
+        "cores": [
+          "HYD"
+        ],
+        "claims": []
+      }
+    }
+  ]
+}

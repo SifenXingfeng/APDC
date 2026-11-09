@@ -1,3 +1,13 @@
 APDC_eco_is_planned = {
 OR = { has_idea = APDC_economic_system_decentralized_planning_idea has_idea = APDC_economic_system_central_planning_idea }
 }
+
+APDC_eco_disallows_private = {
+has_idea = APDC_economic_system_central_planning_idea
+}
+APDC_eco_can_acquire_private = {
+NOT = { has_country_flag = APDC_eco_private_acquisition_forbidden }
+}
+APDC_eco_can_plunder_private = {
+has_country_flag = APDC_eco_private_plunder_allowed
+}

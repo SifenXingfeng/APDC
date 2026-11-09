@@ -1,0 +1,3475 @@
+{
+  "schema_version": 1,
+  "note": "IDs 1..47 are preserved. New IDs are persistent; append rather than renumber. Empty chief definitions are deliberate authoring slots, not fabricated bonuses.",
+  "candidates": [
+    {
+      "id": 1,
+      "character": "GER_APDC_romy_riefenstahl",
+      "countries": [
+        "GER"
+      ],
+      "party": "communism",
+      "name_key": "GER_APDC_romy_riefenstahl",
+      "portrait": "GFX_portrait_GER_APDC_romy_riefenstahl_small",
+      "member_idea": "GER_APDC_romy_riefenstahl",
+      "member_traits": [
+        "prince_of_terror"
+      ],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 2,
+      "character": "GER_APDC_eugene_rugosa",
+      "countries": [
+        "GER"
+      ],
+      "party": "communism",
+      "name_key": "GER_APDC_eugene_rugosa",
+      "portrait": "GFX_portrait_GER_APDC_eugene_rugosa_small",
+      "member_idea": "GER_APDC_eugene_rugosa",
+      "member_traits": [
+        "compassionate_gentleman"
+      ],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 3,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "communism",
+      "name_key": "APDC_CABINET_CANDIDATE_3_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 4,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "communism",
+      "name_key": "APDC_CABINET_CANDIDATE_4_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 5,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "communism",
+      "name_key": "APDC_CABINET_CANDIDATE_5_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 6,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "communism",
+      "name_key": "APDC_CABINET_CANDIDATE_6_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 7,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "communism",
+      "name_key": "APDC_CABINET_CANDIDATE_7_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 8,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "socialism",
+      "name_key": "APDC_CABINET_CANDIDATE_8_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 9,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "socialism",
+      "name_key": "APDC_CABINET_CANDIDATE_9_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 10,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "socialism",
+      "name_key": "APDC_CABINET_CANDIDATE_10_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 11,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "socialism",
+      "name_key": "APDC_CABINET_CANDIDATE_11_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 12,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "socialism",
+      "name_key": "APDC_CABINET_CANDIDATE_12_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 13,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "social_democracy",
+      "name_key": "APDC_CABINET_CANDIDATE_13_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 14,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "social_democracy",
+      "name_key": "APDC_CABINET_CANDIDATE_14_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 15,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "social_democracy",
+      "name_key": "APDC_CABINET_CANDIDATE_15_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 16,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "social_democracy",
+      "name_key": "APDC_CABINET_CANDIDATE_16_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 17,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "social_democracy",
+      "name_key": "APDC_CABINET_CANDIDATE_17_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 18,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "conservatism",
+      "name_key": "APDC_CABINET_CANDIDATE_18_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 19,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "conservatism",
+      "name_key": "APDC_CABINET_CANDIDATE_19_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 20,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "conservatism",
+      "name_key": "APDC_CABINET_CANDIDATE_20_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 21,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "conservatism",
+      "name_key": "APDC_CABINET_CANDIDATE_21_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 22,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "conservatism",
+      "name_key": "APDC_CABINET_CANDIDATE_22_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 23,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "liberalism",
+      "name_key": "APDC_CABINET_CANDIDATE_23_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 24,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "liberalism",
+      "name_key": "APDC_CABINET_CANDIDATE_24_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 25,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "liberalism",
+      "name_key": "APDC_CABINET_CANDIDATE_25_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 26,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "liberalism",
+      "name_key": "APDC_CABINET_CANDIDATE_26_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 27,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "liberalism",
+      "name_key": "APDC_CABINET_CANDIDATE_27_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 28,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "authoritarianism",
+      "name_key": "APDC_CABINET_CANDIDATE_28_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 29,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "authoritarianism",
+      "name_key": "APDC_CABINET_CANDIDATE_29_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 30,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "authoritarianism",
+      "name_key": "APDC_CABINET_CANDIDATE_30_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 31,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "authoritarianism",
+      "name_key": "APDC_CABINET_CANDIDATE_31_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 32,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "authoritarianism",
+      "name_key": "APDC_CABINET_CANDIDATE_32_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 33,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "dictatorship",
+      "name_key": "APDC_CABINET_CANDIDATE_33_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 34,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "dictatorship",
+      "name_key": "APDC_CABINET_CANDIDATE_34_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 35,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "dictatorship",
+      "name_key": "APDC_CABINET_CANDIDATE_35_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 36,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "dictatorship",
+      "name_key": "APDC_CABINET_CANDIDATE_36_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 37,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "dictatorship",
+      "name_key": "APDC_CABINET_CANDIDATE_37_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 38,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "fascism",
+      "name_key": "APDC_CABINET_CANDIDATE_38_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 39,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "fascism",
+      "name_key": "APDC_CABINET_CANDIDATE_39_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 40,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "fascism",
+      "name_key": "APDC_CABINET_CANDIDATE_40_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 41,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "fascism",
+      "name_key": "APDC_CABINET_CANDIDATE_41_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 42,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "fascism",
+      "name_key": "APDC_CABINET_CANDIDATE_42_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 43,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "fundamentalism",
+      "name_key": "APDC_CABINET_CANDIDATE_43_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 44,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "fundamentalism",
+      "name_key": "APDC_CABINET_CANDIDATE_44_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 45,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "fundamentalism",
+      "name_key": "APDC_CABINET_CANDIDATE_45_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 46,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "fundamentalism",
+      "name_key": "APDC_CABINET_CANDIDATE_46_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 47,
+      "character": null,
+      "countries": [
+        "GER"
+      ],
+      "party": "fundamentalism",
+      "name_key": "APDC_CABINET_CANDIDATE_47_NAME",
+      "portrait": "GFX_idea_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": true
+    },
+    {
+      "id": 1002,
+      "character": "AFG_APDC_doc_ace2f095ace9",
+      "countries": [
+        "AFG"
+      ],
+      "party": "authoritarianism",
+      "name_key": "AFG_APDC_doc_ace2f095ace9",
+      "portrait": "GFX_APDC_document_AFG_APDC_doc_ace2f095ace9",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1003,
+      "character": "AFG_taliban_tribes",
+      "countries": [
+        "AFG"
+      ],
+      "party": "dictatorship",
+      "name_key": "AFG_taliban_tribes",
+      "portrait": "GFX_portrait_AFG_taliban_tribes",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1004,
+      "character": "AGR_APDC_doc_83618376bf9f",
+      "countries": [
+        "AGR"
+      ],
+      "party": "conservatism",
+      "name_key": "AGR_APDC_doc_83618376bf9f",
+      "portrait": "GFX_APDC_document_AGR_APDC_doc_83618376bf9f",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1005,
+      "character": "ALB_APDC_doc_2e57ef4a13b1",
+      "countries": [
+        "ALB"
+      ],
+      "party": "socialism",
+      "name_key": "ALB_APDC_doc_2e57ef4a13b1",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1006,
+      "character": "ALS_APDC_doc_6255fc3036c2",
+      "countries": [
+        "ALS"
+      ],
+      "party": "liberalism",
+      "name_key": "ALS_APDC_doc_6255fc3036c2",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1007,
+      "character": "ALS_APDC_doc_ddd1e0af658c",
+      "countries": [
+        "ALS"
+      ],
+      "party": "socialism",
+      "name_key": "ALS_APDC_doc_ddd1e0af658c",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1008,
+      "character": "ALS_barron_mccormick",
+      "countries": [
+        "ALS"
+      ],
+      "party": "authoritarianism",
+      "name_key": "ALS_barron_mccormick",
+      "portrait": "GFX_APDC_north_america_generic_political_male_7",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1009,
+      "character": "ALS_chloe_kipling",
+      "countries": [
+        "ALS"
+      ],
+      "party": "dictatorship",
+      "name_key": "ALS_chloe_kipling",
+      "portrait": "GFX_APDC_north_america_generic_political_female_5",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1010,
+      "character": "ALS_donglin_canterbury",
+      "countries": [
+        "ALS"
+      ],
+      "party": "socialism",
+      "name_key": "ALS_donglin_canterbury",
+      "portrait": "GFX_APDC_north_america_generic_political_female_4",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1011,
+      "character": "ALS_enzo_chevalier",
+      "countries": [
+        "ALS"
+      ],
+      "party": "fascism",
+      "name_key": "ALS_enzo_chevalier",
+      "portrait": "GFX_APDC_north_america_generic_political_male_2",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1012,
+      "character": "ALS_harper_argentoni",
+      "countries": [
+        "ALS"
+      ],
+      "party": "fundamentalism",
+      "name_key": "ALS_harper_argentoni",
+      "portrait": "GFX_APDC_north_america_generic_political_female_7",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1013,
+      "character": "ALS_nicholas_winfrey",
+      "countries": [
+        "ALS"
+      ],
+      "party": "communism",
+      "name_key": "ALS_nicholas_winfrey",
+      "portrait": "GFX_APDC_document_ALS_nicholas_winfrey",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1014,
+      "character": "ALS_raymond_uxbridge",
+      "countries": [
+        "ALS"
+      ],
+      "party": "conservatism",
+      "name_key": "ALS_raymond_uxbridge",
+      "portrait": "GFX_APDC_north_america_generic_political_male_6",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1015,
+      "character": "ALS_rosalind_owena",
+      "countries": [
+        "ALS"
+      ],
+      "party": "liberalism",
+      "name_key": "ALS_rosalind_owena",
+      "portrait": "GFX_APDC_north_america_generic_political_female_1",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1016,
+      "character": "ALS_zachary_fisher",
+      "countries": [
+        "ALS"
+      ],
+      "party": "social_democracy",
+      "name_key": "ALS_zachary_fisher",
+      "portrait": "GFX_APDC_north_america_generic_political_male_1",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1017,
+      "character": "AMZ_cid_general",
+      "countries": [
+        "AMZ"
+      ],
+      "party": "fascism",
+      "name_key": "AMZ_cid_general",
+      "portrait": "GFX_APDC_south_america_generic_political_male_5",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1018,
+      "character": "AMZ_disorder",
+      "countries": [
+        "AMZ"
+      ],
+      "party": "fundamentalism",
+      "name_key": "AMZ_disorder",
+      "portrait": "GFX_APDC_south_america_generic_political_male_8",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1019,
+      "character": "AMZ_duncan_general",
+      "countries": [
+        "AMZ"
+      ],
+      "party": "communism",
+      "name_key": "AMZ_duncan_general",
+      "portrait": "GFX_APDC_south_america_generic_political_male_4",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1020,
+      "character": "AMZ_eric_bordeaux_authoritarianism",
+      "countries": [
+        "AMZ"
+      ],
+      "party": "authoritarianism",
+      "name_key": "AMZ_eric_bordeaux_authoritarianism",
+      "portrait": "GFX_APDC_document_AMZ_eric_bordeaux_authoritarianism",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1021,
+      "character": "AMZ_eric_bordeaux_dictatorship",
+      "countries": [
+        "AMZ"
+      ],
+      "party": "dictatorship",
+      "name_key": "AMZ_eric_bordeaux_dictatorship",
+      "portrait": "GFX_APDC_document_AMZ_eric_bordeaux_dictatorship",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1022,
+      "character": "AMZ_garcia_salvador",
+      "countries": [
+        "AMZ"
+      ],
+      "party": "socialism",
+      "name_key": "AMZ_garcia_salvador",
+      "portrait": "GFX_APDC_south_america_generic_political_male_2",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1023,
+      "character": "AMZ_hokeler_bowie",
+      "countries": [
+        "AMZ"
+      ],
+      "party": "liberalism",
+      "name_key": "AMZ_hokeler_bowie",
+      "portrait": "GFX_APDC_document_AMZ_hokeler_bowie",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1024,
+      "character": "AMZ_namara_cochran",
+      "countries": [
+        "AMZ"
+      ],
+      "party": "conservatism",
+      "name_key": "AMZ_namara_cochran",
+      "portrait": "GFX_APDC_south_america_generic_political_female_2",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1025,
+      "character": "AMZ_taylor_hawke",
+      "countries": [
+        "AMZ"
+      ],
+      "party": "social_democracy",
+      "name_key": "AMZ_taylor_hawke",
+      "portrait": "GFX_APDC_south_america_generic_political_male_7",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1026,
+      "character": "ANG_luis_da_silva",
+      "countries": [
+        "ANG"
+      ],
+      "party": "socialism",
+      "name_key": "ANG_luis_da_silva",
+      "portrait": "GFX_APDC_document_ANG_luis_da_silva",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1027,
+      "character": "AST_APDC_doc_1d0d4f5ee134",
+      "countries": [
+        "AST"
+      ],
+      "party": "conservatism",
+      "name_key": "AST_APDC_doc_1d0d4f5ee134",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1028,
+      "character": "AST_APDC_doc_727f0d438e00",
+      "countries": [
+        "AST"
+      ],
+      "party": "socialism",
+      "name_key": "AST_APDC_doc_727f0d438e00",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1029,
+      "character": "AST_APDC_doc_a80be8242996",
+      "countries": [
+        "AST"
+      ],
+      "party": "social_democracy",
+      "name_key": "AST_APDC_doc_a80be8242996",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1030,
+      "character": "AST_APDC_doc_c67878b0fc62",
+      "countries": [
+        "AST"
+      ],
+      "party": "liberalism",
+      "name_key": "AST_APDC_doc_c67878b0fc62",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1031,
+      "character": "ATU_APDC_doc_dab0b10e11a8",
+      "countries": [
+        "ATU"
+      ],
+      "party": "fascism",
+      "name_key": "ATU_APDC_doc_dab0b10e11a8",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1032,
+      "character": "BEN_APDC_doc_3c3e8194a84f",
+      "countries": [
+        "BEN"
+      ],
+      "party": "dictatorship",
+      "name_key": "BEN_APDC_doc_3c3e8194a84f",
+      "portrait": "GFX_APDC_document_BEN_APDC_doc_3c3e8194a84f",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1033,
+      "character": "BKF_APDC_doc_77df047cd38f",
+      "countries": [
+        "BKF"
+      ],
+      "party": "dictatorship",
+      "name_key": "BKF_APDC_doc_77df047cd38f",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1034,
+      "character": "BRA_carlos_ronaldo",
+      "countries": [
+        "BRA"
+      ],
+      "party": "socialism",
+      "name_key": "BRA_carlos_ronaldo",
+      "portrait": "GFX_APDC_document_BRA_carlos_ronaldo",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1035,
+      "character": "BRA_cid_general",
+      "countries": [
+        "BRA"
+      ],
+      "party": "fascism",
+      "name_key": "BRA_cid_general",
+      "portrait": "GFX_APDC_south_america_generic_political_male_8",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1036,
+      "character": "BRA_duncan_general",
+      "countries": [
+        "BRA"
+      ],
+      "party": "communism",
+      "name_key": "BRA_duncan_general",
+      "portrait": "GFX_APDC_south_america_generic_political_male_4",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1037,
+      "character": "BRA_elgar_delano",
+      "countries": [
+        "BRA"
+      ],
+      "party": "liberalism",
+      "name_key": "BRA_elgar_delano",
+      "portrait": "GFX_APDC_south_america_generic_political_male_1",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1038,
+      "character": "BRA_emergency_military_committee",
+      "countries": [
+        "BRA"
+      ],
+      "party": "dictatorship",
+      "name_key": "BRA_emergency_military_committee",
+      "portrait": "GFX_APDC_south_america_generic_political_male_5",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1039,
+      "character": "BRA_free_officers",
+      "countries": [
+        "BRA"
+      ],
+      "party": "authoritarianism",
+      "name_key": "BRA_free_officers",
+      "portrait": "GFX_APDC_south_america_generic_political_male_6",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1040,
+      "character": "BRA_jean_ortiz",
+      "countries": [
+        "BRA"
+      ],
+      "party": "fundamentalism",
+      "name_key": "BRA_jean_ortiz",
+      "portrait": "GFX_APDC_document_BRA_jean_ortiz",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1041,
+      "character": "BRA_marina_sena",
+      "countries": [
+        "BRA"
+      ],
+      "party": "socialism",
+      "name_key": "BRA_marina_sena",
+      "portrait": "GFX_APDC_document_BRA_marina_sena",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1042,
+      "character": "BRA_paulo_passat",
+      "countries": [
+        "BRA"
+      ],
+      "party": "conservatism",
+      "name_key": "BRA_paulo_passat",
+      "portrait": "GFX_APDC_document_BRA_paulo_passat",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1043,
+      "character": "BRM_APDC_doc_88f5f0e823d0",
+      "countries": [
+        "BRM"
+      ],
+      "party": "dictatorship",
+      "name_key": "BRM_APDC_doc_88f5f0e823d0",
+      "portrait": "GFX_APDC_document_BRM_APDC_doc_88f5f0e823d0",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1044,
+      "character": "BUL_soviet_authority",
+      "countries": [
+        "BUL"
+      ],
+      "party": "communism",
+      "name_key": "BUL_soviet_authority",
+      "portrait": "GFX_portrait_BUL_soviet_authority",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1045,
+      "character": "CAR_APDC_doc_1959812c1406",
+      "countries": [
+        "CAR"
+      ],
+      "party": "liberalism",
+      "name_key": "CAR_APDC_doc_1959812c1406",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1046,
+      "character": "CAR_APDC_doc_1d50472f4292",
+      "countries": [
+        "CAR"
+      ],
+      "party": "dictatorship",
+      "name_key": "CAR_APDC_doc_1d50472f4292",
+      "portrait": "GFX_APDC_document_CAR_APDC_doc_1d50472f4292",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1047,
+      "character": "CAR_APDC_doc_5d788262479c",
+      "countries": [
+        "CAR"
+      ],
+      "party": "fundamentalism",
+      "name_key": "CAR_APDC_doc_5d788262479c",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1048,
+      "character": "CAR_APDC_doc_8482b8f88436",
+      "countries": [
+        "CAR"
+      ],
+      "party": "authoritarianism",
+      "name_key": "CAR_APDC_doc_8482b8f88436",
+      "portrait": "GFX_APDC_document_CAR_APDC_doc_8482b8f88436",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1049,
+      "character": "CAR_APDC_doc_f1351f6e6e98",
+      "countries": [
+        "CAR"
+      ],
+      "party": "fascism",
+      "name_key": "CAR_APDC_doc_f1351f6e6e98",
+      "portrait": "GFX_APDC_document_CAR_APDC_doc_f1351f6e6e98",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1050,
+      "character": "CHL_APDC_doc_088039ca610b",
+      "countries": [
+        "CHL"
+      ],
+      "party": "fascism",
+      "name_key": "CHL_APDC_doc_088039ca610b",
+      "portrait": "GFX_APDC_document_CHL_APDC_doc_088039ca610b",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1051,
+      "character": "CHL_dilan_lopez",
+      "countries": [
+        "CHL"
+      ],
+      "party": "conservatism",
+      "name_key": "CHL_dilan_lopez",
+      "portrait": "GFX_APDC_south_america_generic_political_male_3",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1052,
+      "character": "CHL_doctor_odes",
+      "countries": [
+        "CHL"
+      ],
+      "party": "authoritarianism",
+      "name_key": "CHL_doctor_odes",
+      "portrait": "GFX_APDC_south_america_generic_political_male_5",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1053,
+      "character": "CHL_general_vallejo",
+      "countries": [
+        "CHL"
+      ],
+      "party": "communism",
+      "name_key": "CHL_general_vallejo",
+      "portrait": "GFX_APDC_south_america_generic_political_male_2",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1054,
+      "character": "CHL_hariel_utleier",
+      "countries": [
+        "CHL"
+      ],
+      "party": "fundamentalism",
+      "name_key": "CHL_hariel_utleier",
+      "portrait": "GFX_APDC_south_america_generic_political_male_4",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1055,
+      "character": "CHL_high_command",
+      "countries": [
+        "CHL"
+      ],
+      "party": "dictatorship",
+      "name_key": "CHL_high_command",
+      "portrait": "GFX_APDC_south_america_generic_political_male_6",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1056,
+      "character": "CHL_lautaro_fernandez",
+      "countries": [
+        "CHL"
+      ],
+      "party": "social_democracy",
+      "name_key": "CHL_lautaro_fernandez",
+      "portrait": "GFX_APDC_south_america_generic_political_male_1",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1057,
+      "character": "CHL_lord_adolf_augusta",
+      "countries": [
+        "CHL"
+      ],
+      "party": "fascism",
+      "name_key": "CHL_lord_adolf_augusta",
+      "portrait": "GFX_APDC_south_america_generic_political_male_8",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1058,
+      "character": "CHL_santiago_silva",
+      "countries": [
+        "CHL"
+      ],
+      "party": "socialism",
+      "name_key": "CHL_santiago_silva",
+      "portrait": "GFX_APDC_south_america_generic_political_male_4",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1059,
+      "character": "CHL_sebastian_rojas",
+      "countries": [
+        "CHL"
+      ],
+      "party": "liberalism",
+      "name_key": "CHL_sebastian_rojas",
+      "portrait": "GFX_APDC_south_america_generic_political_male_7",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1060,
+      "character": "COL_APDC_doc_177441bef04b",
+      "countries": [
+        "COL"
+      ],
+      "party": "fundamentalism",
+      "name_key": "COL_APDC_doc_177441bef04b",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1061,
+      "character": "COL_crocodile_bruno",
+      "countries": [
+        "COL"
+      ],
+      "party": "fascism",
+      "name_key": "COL_crocodile_bruno",
+      "portrait": "GFX_APDC_south_america_generic_political_male_4",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1062,
+      "character": "COL_dylan_morales",
+      "countries": [
+        "COL"
+      ],
+      "party": "communism",
+      "name_key": "COL_dylan_morales",
+      "portrait": "GFX_APDC_south_america_generic_political_male_8",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1063,
+      "character": "COL_hugo_perez",
+      "countries": [
+        "COL"
+      ],
+      "party": "social_democracy",
+      "name_key": "COL_hugo_perez",
+      "portrait": "GFX_APDC_south_america_generic_political_male_7",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1064,
+      "character": "COL_leo_rodriguez_authoritarianism",
+      "countries": [
+        "COL"
+      ],
+      "party": "authoritarianism",
+      "name_key": "COL_leo_rodriguez_authoritarianism",
+      "portrait": "GFX_APDC_document_COL_leo_rodriguez_authoritarianism",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1065,
+      "character": "COL_leo_rodriguez_liberalism",
+      "countries": [
+        "COL"
+      ],
+      "party": "liberalism",
+      "name_key": "COL_leo_rodriguez_liberalism",
+      "portrait": "GFX_APDC_document_COL_leo_rodriguez_liberalism",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1066,
+      "character": "COL_martin_ruiz",
+      "countries": [
+        "COL"
+      ],
+      "party": "socialism",
+      "name_key": "COL_martin_ruiz",
+      "portrait": "GFX_APDC_south_america_generic_political_male_5",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1067,
+      "character": "COL_mateo_garcia",
+      "countries": [
+        "COL"
+      ],
+      "party": "conservatism",
+      "name_key": "COL_mateo_garcia",
+      "portrait": "GFX_APDC_south_america_generic_political_male_3",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1068,
+      "character": "COL_mercenary_group",
+      "countries": [
+        "COL"
+      ],
+      "party": "dictatorship",
+      "name_key": "COL_mercenary_group",
+      "portrait": "GFX_APDC_south_america_generic_political_male_6",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1069,
+      "character": "COL_santiago_fernando_lie",
+      "countries": [
+        "COL"
+      ],
+      "party": "fundamentalism",
+      "name_key": "COL_santiago_fernando_lie",
+      "portrait": "GFX_APDC_south_america_generic_political_male_2",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1070,
+      "character": "CUB_alejandro_hernandez",
+      "countries": [
+        "CUB"
+      ],
+      "party": "socialism",
+      "name_key": "CUB_alejandro_hernandez",
+      "portrait": "GFX_APDC_document_CUB_alejandro_hernandez",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1071,
+      "character": "CYP_APDC_doc_9ee075739d96",
+      "countries": [
+        "CYP"
+      ],
+      "party": "conservatism",
+      "name_key": "CYP_APDC_doc_9ee075739d96",
+      "portrait": "GFX_APDC_document_CYP_APDC_doc_9ee075739d96",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1072,
+      "character": "CYP_andreas_christofides",
+      "countries": [
+        "CYP"
+      ],
+      "party": "socialism",
+      "name_key": "CYP_andreas_christofides",
+      "portrait": "GFX_APDC_document_CYP_andreas_christofides",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1073,
+      "character": "CZE_soviet_authority",
+      "countries": [
+        "CZE"
+      ],
+      "party": "communism",
+      "name_key": "CZE_soviet_authority",
+      "portrait": "GFX_portrait_CZE_soviet_authority",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1074,
+      "character": "EGY_amr_fahmy",
+      "countries": [
+        "EGY"
+      ],
+      "party": "socialism",
+      "name_key": "EGY_amr_fahmy",
+      "portrait": "GFX_APDC_document_EGY_amr_fahmy",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1075,
+      "character": "ERI_APDC_doc_7b8fd8509380",
+      "countries": [
+        "ERI"
+      ],
+      "party": "socialism",
+      "name_key": "ERI_APDC_doc_7b8fd8509380",
+      "portrait": "GFX_APDC_document_ERI_APDC_doc_7b8fd8509380",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1076,
+      "character": "ETH_APDC_doc_56ce8e1a1b1d",
+      "countries": [
+        "ETH"
+      ],
+      "party": "socialism",
+      "name_key": "ETH_APDC_doc_56ce8e1a1b1d",
+      "portrait": "GFX_APDC_document_ETH_APDC_doc_56ce8e1a1b1d",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1077,
+      "character": "GER_APDC_alexis_richter",
+      "countries": [
+        "GER"
+      ],
+      "party": "authoritarianism",
+      "name_key": "GER_APDC_alexis_richter",
+      "portrait": "GFX_APDC_europe_generic_political_male_5",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1078,
+      "character": "GER_APDC_doc_779349af9bbf",
+      "countries": [
+        "GER"
+      ],
+      "party": "liberalism",
+      "name_key": "GER_APDC_doc_779349af9bbf",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1079,
+      "character": "GER_APDC_doc_8b01921a6606",
+      "countries": [
+        "GER"
+      ],
+      "party": "socialism",
+      "name_key": "GER_APDC_doc_8b01921a6606",
+      "portrait": "GFX_APDC_document_GER_APDC_doc_8b01921a6606",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1080,
+      "character": "GER_APDC_felix_koch",
+      "countries": [
+        "GER"
+      ],
+      "party": "social_democracy",
+      "name_key": "GER_APDC_felix_koch",
+      "portrait": "GFX_APDC_europe_generic_political_male_6",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1081,
+      "character": "GER_APDC_gilfa_ulrich",
+      "countries": [
+        "GER"
+      ],
+      "party": "liberalism",
+      "name_key": "GER_APDC_gilfa_ulrich",
+      "portrait": "GFX_APDC_europe_generic_political_male_7",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1082,
+      "character": "GER_APDC_ilan_walter",
+      "countries": [
+        "GER"
+      ],
+      "party": "fundamentalism",
+      "name_key": "GER_APDC_ilan_walter",
+      "portrait": "GFX_APDC_europe_generic_political_male_4",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1083,
+      "character": "GER_APDC_johann_strauss",
+      "countries": [
+        "GER"
+      ],
+      "party": "dictatorship",
+      "name_key": "GER_APDC_johann_strauss",
+      "portrait": "GFX_APDC_europe_generic_political_male_2",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1084,
+      "character": "GER_APDC_karl_hoffmann",
+      "countries": [
+        "GER"
+      ],
+      "party": "communism",
+      "name_key": "GER_APDC_karl_hoffmann",
+      "portrait": "GFX_APDC_europe_generic_political_male_8",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1085,
+      "character": "GER_APDC_lukas_baumann",
+      "countries": [
+        "GER"
+      ],
+      "party": "fascism",
+      "name_key": "GER_APDC_lukas_baumann",
+      "portrait": "GFX_APDC_europe_generic_political_male_4",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1086,
+      "character": "GER_APDC_rudolf_von_oberstein",
+      "countries": [
+        "GER"
+      ],
+      "party": "socialism",
+      "name_key": "GER_APDC_rudolf_von_oberstein",
+      "portrait": "GFX_APDC_document_GER_APDC_rudolf_von_oberstein",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1087,
+      "character": "GER_APDC_wilden_kurz",
+      "countries": [
+        "GER"
+      ],
+      "party": "conservatism",
+      "name_key": "GER_APDC_wilden_kurz",
+      "portrait": "GFX_APDC_europe_generic_political_male_8",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1088,
+      "character": "GRE_dimitri_vanoufakis",
+      "countries": [
+        "GRE"
+      ],
+      "party": "socialism",
+      "name_key": "GRE_dimitri_vanoufakis",
+      "portrait": "GFX_APDC_europe_generic_political_male_8",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1089,
+      "character": "HAI_APDC_doc_fc1c4c57dde2",
+      "countries": [
+        "HAI"
+      ],
+      "party": "social_democracy",
+      "name_key": "HAI_APDC_doc_fc1c4c57dde2",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1090,
+      "character": "HAI_boss_henri",
+      "countries": [
+        "HAI"
+      ],
+      "party": "conservatism",
+      "name_key": "HAI_boss_henri",
+      "portrait": "GFX_APDC_south_america_generic_political_male_1",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1091,
+      "character": "HAI_chef_ogun",
+      "countries": [
+        "HAI"
+      ],
+      "party": "fascism",
+      "name_key": "HAI_chef_ogun",
+      "portrait": "GFX_APDC_south_america_generic_political_male_2",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1092,
+      "character": "HAI_duvalier_iii",
+      "countries": [
+        "HAI"
+      ],
+      "party": "fundamentalism",
+      "name_key": "HAI_duvalier_iii",
+      "portrait": "GFX_APDC_south_america_generic_political_male_6",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1093,
+      "character": "HAI_general_toussaint",
+      "countries": [
+        "HAI"
+      ],
+      "party": "socialism",
+      "name_key": "HAI_general_toussaint",
+      "portrait": "GFX_APDC_south_america_generic_political_male_5",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1094,
+      "character": "HAI_huey_laudor",
+      "countries": [
+        "HAI"
+      ],
+      "party": "social_democracy",
+      "name_key": "HAI_huey_laudor",
+      "portrait": "GFX_APDC_south_america_generic_political_male_3",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1095,
+      "character": "HAI_kingpin_damballa",
+      "countries": [
+        "HAI"
+      ],
+      "party": "liberalism",
+      "name_key": "HAI_kingpin_damballa",
+      "portrait": "GFX_APDC_south_america_generic_political_male_7",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1096,
+      "character": "HAI_mirlande_dieudonne",
+      "countries": [
+        "HAI"
+      ],
+      "party": "socialism",
+      "name_key": "HAI_mirlande_dieudonne",
+      "portrait": "GFX_APDC_south_america_generic_political_female_5",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1097,
+      "character": "HAI_robert_ivan",
+      "countries": [
+        "HAI"
+      ],
+      "party": "dictatorship",
+      "name_key": "HAI_robert_ivan",
+      "portrait": "GFX_APDC_south_america_generic_political_male_8",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1098,
+      "character": "HAI_shamar_ingel",
+      "countries": [
+        "HAI"
+      ],
+      "party": "authoritarianism",
+      "name_key": "HAI_shamar_ingel",
+      "portrait": "GFX_APDC_document_HAI_shamar_ingel",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1099,
+      "character": "HJM_APDC_doc_078e59c1c753",
+      "countries": [
+        "HJM"
+      ],
+      "party": "fascism",
+      "name_key": "HJM_APDC_doc_078e59c1c753",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1100,
+      "character": "HJM_APDC_doc_4bf36eeec3dd",
+      "countries": [
+        "HJM"
+      ],
+      "party": "social_democracy",
+      "name_key": "HJM_APDC_doc_4bf36eeec3dd",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1101,
+      "character": "HJM_APDC_doc_5d70a404c278",
+      "countries": [
+        "HJM"
+      ],
+      "party": "authoritarianism",
+      "name_key": "HJM_APDC_doc_5d70a404c278",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1102,
+      "character": "HJM_APDC_doc_76c19fe24ead",
+      "countries": [
+        "HJM"
+      ],
+      "party": "communism",
+      "name_key": "HJM_APDC_doc_76c19fe24ead",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1103,
+      "character": "HJM_APDC_doc_78cb115a7ff1",
+      "countries": [
+        "HJM"
+      ],
+      "party": "dictatorship",
+      "name_key": "HJM_APDC_doc_78cb115a7ff1",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1104,
+      "character": "HJM_APDC_doc_a23ecc132d0d",
+      "countries": [
+        "HJM"
+      ],
+      "party": "socialism",
+      "name_key": "HJM_APDC_doc_a23ecc132d0d",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1105,
+      "character": "HJM_APDC_doc_bea27fe2848a",
+      "countries": [
+        "HJM"
+      ],
+      "party": "liberalism",
+      "name_key": "HJM_APDC_doc_bea27fe2848a",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1106,
+      "character": "HJM_APDC_doc_e0a51b1c080b",
+      "countries": [
+        "HJM"
+      ],
+      "party": "conservatism",
+      "name_key": "HJM_APDC_doc_e0a51b1c080b",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1107,
+      "character": "HJM_APDC_doc_fead4ebcbad7",
+      "countries": [
+        "HJM"
+      ],
+      "party": "fundamentalism",
+      "name_key": "HJM_APDC_doc_fead4ebcbad7",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1108,
+      "character": "HUN_soviet_authority",
+      "countries": [
+        "HUN"
+      ],
+      "party": "communism",
+      "name_key": "HUN_soviet_authority",
+      "portrait": "GFX_portrait_HUN_soviet_authority",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1109,
+      "character": "IRQ_APDC_doc_5f90e86f0d2d",
+      "countries": [
+        "IRQ"
+      ],
+      "party": "socialism",
+      "name_key": "IRQ_APDC_doc_5f90e86f0d2d",
+      "portrait": "GFX_APDC_document_IRQ_APDC_doc_5f90e86f0d2d",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1110,
+      "character": "IRQ_mustafa_zaidi",
+      "countries": [
+        "IRQ"
+      ],
+      "party": "conservatism",
+      "name_key": "IRQ_mustafa_zaidi",
+      "portrait": "GFX_APDC_document_IRQ_mustafa_zaidi",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1111,
+      "character": "JAP_APDC_doc_dbca500755bb",
+      "countries": [
+        "JAP"
+      ],
+      "party": "communism",
+      "name_key": "JAP_APDC_doc_dbca500755bb",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1112,
+      "character": "JAP_APDC_doc_e218a91ebf36",
+      "countries": [
+        "JAP"
+      ],
+      "party": "fundamentalism",
+      "name_key": "JAP_APDC_doc_e218a91ebf36",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1113,
+      "character": "JAP_fuji_yuko",
+      "countries": [
+        "JAP"
+      ],
+      "party": "communism",
+      "name_key": "JAP_fuji_yuko",
+      "portrait": "GFX_APDC_asia_generic_political_female_5",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1114,
+      "character": "JAP_iwanaga_kashiwa",
+      "countries": [
+        "JAP"
+      ],
+      "party": "dictatorship",
+      "name_key": "JAP_iwanaga_kashiwa",
+      "portrait": "GFX_APDC_document_JAP_iwanaga_kashiwa",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1115,
+      "character": "JAP_kamiki_takahisa",
+      "countries": [
+        "JAP"
+      ],
+      "party": "fascism",
+      "name_key": "JAP_kamiki_takahisa",
+      "portrait": "GFX_APDC_asia_generic_political_male_2",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1116,
+      "character": "JAP_katsuhisakura",
+      "countries": [
+        "JAP"
+      ],
+      "party": "fundamentalism",
+      "name_key": "JAP_katsuhisakura",
+      "portrait": "GFX_APDC_asia_generic_political_female_6",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1117,
+      "character": "JAP_kawaharagi_kiichi",
+      "countries": [
+        "JAP"
+      ],
+      "party": "socialism",
+      "name_key": "JAP_kawaharagi_kiichi",
+      "portrait": "GFX_APDC_asia_generic_political_male_4",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1118,
+      "character": "JAP_kotobuki_naruyuki",
+      "countries": [
+        "JAP"
+      ],
+      "party": "social_democracy",
+      "name_key": "JAP_kotobuki_naruyuki",
+      "portrait": "GFX_APDC_document_JAP_kotobuki_naruyuki",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1119,
+      "character": "JAP_toyokawa_naru",
+      "countries": [
+        "JAP"
+      ],
+      "party": "conservatism",
+      "name_key": "JAP_toyokawa_naru",
+      "portrait": "GFX_APDC_document_JAP_toyokawa_naru",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1120,
+      "character": "JAP_tsurumaki_yuko",
+      "countries": [
+        "JAP"
+      ],
+      "party": "liberalism",
+      "name_key": "JAP_tsurumaki_yuko",
+      "portrait": "GFX_APDC_document_JAP_tsurumaki_yuko",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1121,
+      "character": "JAP_yuzaki_chikusei",
+      "countries": [
+        "JAP"
+      ],
+      "party": "liberalism",
+      "name_key": "JAP_yuzaki_chikusei",
+      "portrait": "GFX_APDC_asia_generic_political_male_8",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1122,
+      "character": "KUR_azad_barzani",
+      "countries": [
+        "KUR"
+      ],
+      "party": "socialism",
+      "name_key": "KUR_azad_barzani",
+      "portrait": "GFX_APDC_document_KUR_azad_barzani",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1123,
+      "character": "LLU_barend_roland",
+      "countries": [
+        "LLU"
+      ],
+      "party": "communism",
+      "name_key": "LLU_barend_roland",
+      "portrait": "GFX_APDC_europe_generic_political_male_4",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1124,
+      "character": "LLU_dries_langbroek",
+      "countries": [
+        "LLU"
+      ],
+      "party": "socialism",
+      "name_key": "LLU_dries_langbroek",
+      "portrait": "GFX_APDC_europe_generic_political_male_6",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1125,
+      "character": "LLU_fairy",
+      "countries": [
+        "LLU"
+      ],
+      "party": "fundamentalism",
+      "name_key": "LLU_fairy",
+      "portrait": "GFX_APDC_europe_generic_political_female_8",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1126,
+      "character": "LLU_gerrit_gillet",
+      "countries": [
+        "LLU"
+      ],
+      "party": "social_democracy",
+      "name_key": "LLU_gerrit_gillet",
+      "portrait": "GFX_APDC_europe_generic_political_male_7",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1127,
+      "character": "LLU_james_van_hoeff",
+      "countries": [
+        "LLU"
+      ],
+      "party": "fascism",
+      "name_key": "LLU_james_van_hoeff",
+      "portrait": "GFX_APDC_europe_generic_political_male_2",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1128,
+      "character": "LLU_maeve_dumoulin",
+      "countries": [
+        "LLU"
+      ],
+      "party": "liberalism",
+      "name_key": "LLU_maeve_dumoulin",
+      "portrait": "GFX_APDC_europe_generic_political_female_2",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1129,
+      "character": "LLU_milan_verhagen",
+      "countries": [
+        "LLU"
+      ],
+      "party": "conservatism",
+      "name_key": "LLU_milan_verhagen",
+      "portrait": "GFX_APDC_europe_generic_political_male_8",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1130,
+      "character": "LLU_sophie_vanderbeek",
+      "countries": [
+        "LLU"
+      ],
+      "party": "authoritarianism",
+      "name_key": "LLU_sophie_vanderbeek",
+      "portrait": "GFX_APDC_document_LLU_sophie_vanderbeek",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1131,
+      "character": "LLU_toon_overmans",
+      "countries": [
+        "LLU"
+      ],
+      "party": "dictatorship",
+      "name_key": "LLU_toon_overmans",
+      "portrait": "GFX_APDC_europe_generic_political_male_5",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1132,
+      "character": "MAD_APDC_doc_0f654562b366",
+      "countries": [
+        "MAD"
+      ],
+      "party": "dictatorship",
+      "name_key": "MAD_APDC_doc_0f654562b366",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1133,
+      "character": "MAD_APDC_doc_37064d5d6d00",
+      "countries": [
+        "MAD"
+      ],
+      "party": "communism",
+      "name_key": "MAD_APDC_doc_37064d5d6d00",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1134,
+      "character": "MAD_APDC_doc_7b66c670b799",
+      "countries": [
+        "MAD"
+      ],
+      "party": "fascism",
+      "name_key": "MAD_APDC_doc_7b66c670b799",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1135,
+      "character": "MAD_APDC_doc_80e2120a5c28",
+      "countries": [
+        "MAD"
+      ],
+      "party": "fundamentalism",
+      "name_key": "MAD_APDC_doc_80e2120a5c28",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1136,
+      "character": "MAD_APDC_doc_9b5d9ecf11ff",
+      "countries": [
+        "MAD"
+      ],
+      "party": "socialism",
+      "name_key": "MAD_APDC_doc_9b5d9ecf11ff",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1137,
+      "character": "MAD_APDC_doc_b4bbe0e1fe5d",
+      "countries": [
+        "MAD"
+      ],
+      "party": "authoritarianism",
+      "name_key": "MAD_APDC_doc_b4bbe0e1fe5d",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1138,
+      "character": "MAD_APDC_doc_cc41ab207815",
+      "countries": [
+        "MAD"
+      ],
+      "party": "liberalism",
+      "name_key": "MAD_APDC_doc_cc41ab207815",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1139,
+      "character": "MAD_APDC_doc_d09dc7544b07",
+      "countries": [
+        "MAD"
+      ],
+      "party": "conservatism",
+      "name_key": "MAD_APDC_doc_d09dc7544b07",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1140,
+      "character": "MAD_APDC_doc_e90b602796ee",
+      "countries": [
+        "MAD"
+      ],
+      "party": "social_democracy",
+      "name_key": "MAD_APDC_doc_e90b602796ee",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1141,
+      "character": "MEX_armando_garcia",
+      "countries": [
+        "MEX"
+      ],
+      "party": "fundamentalism",
+      "name_key": "MEX_armando_garcia",
+      "portrait": "GFX_APDC_south_america_generic_political_male_4",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1142,
+      "character": "MEX_enrique_huerta",
+      "countries": [
+        "MEX"
+      ],
+      "party": "communism",
+      "name_key": "MEX_enrique_huerta",
+      "portrait": "GFX_APDC_south_america_generic_political_male_2",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1143,
+      "character": "MEX_ernesto_barrios",
+      "countries": [
+        "MEX"
+      ],
+      "party": "social_democracy",
+      "name_key": "MEX_ernesto_barrios",
+      "portrait": "GFX_APDC_south_america_generic_political_male_1",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1144,
+      "character": "MEX_golden_hand_diaz",
+      "countries": [
+        "MEX"
+      ],
+      "party": "fascism",
+      "name_key": "MEX_golden_hand_diaz",
+      "portrait": "GFX_APDC_south_america_generic_political_male_8",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1145,
+      "character": "MEX_hector_mendoza",
+      "countries": [
+        "MEX"
+      ],
+      "party": "authoritarianism",
+      "name_key": "MEX_hector_mendoza",
+      "portrait": "GFX_APDC_south_america_generic_political_male_5",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1146,
+      "character": "MEX_patricia_merino",
+      "countries": [
+        "MEX"
+      ],
+      "party": "socialism",
+      "name_key": "MEX_patricia_merino",
+      "portrait": "GFX_APDC_south_america_generic_political_female_5",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1147,
+      "character": "MEX_raul_delgado",
+      "countries": [
+        "MEX"
+      ],
+      "party": "dictatorship",
+      "name_key": "MEX_raul_delgado",
+      "portrait": "GFX_APDC_south_america_generic_political_male_6",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1148,
+      "character": "MEX_ricardo_valero",
+      "countries": [
+        "MEX"
+      ],
+      "party": "conservatism",
+      "name_key": "MEX_ricardo_valero",
+      "portrait": "GFX_APDC_south_america_generic_political_male_3",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1149,
+      "character": "MEX_rosario_pacheco",
+      "countries": [
+        "MEX"
+      ],
+      "party": "liberalism",
+      "name_key": "MEX_rosario_pacheco",
+      "portrait": "GFX_APDC_south_america_generic_political_female_7",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1150,
+      "character": "MLI_APDC_doc_a1c646e5c52b",
+      "countries": [
+        "MLI"
+      ],
+      "party": "dictatorship",
+      "name_key": "MLI_APDC_doc_a1c646e5c52b",
+      "portrait": "GFX_APDC_document_MLI_APDC_doc_a1c646e5c52b",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1151,
+      "character": "MON_bilegun_borjigin",
+      "countries": [
+        "MON"
+      ],
+      "party": "socialism",
+      "name_key": "MON_bilegun_borjigin",
+      "portrait": "GFX_APDC_document_MON_bilegun_borjigin",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1152,
+      "character": "MZB_felipe_langa",
+      "countries": [
+        "MZB"
+      ],
+      "party": "socialism",
+      "name_key": "MZB_felipe_langa",
+      "portrait": "GFX_APDC_document_MZB_felipe_langa",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1153,
+      "character": "NGR_APDC_doc_0c09f5e9e6aa",
+      "countries": [
+        "NGR"
+      ],
+      "party": "dictatorship",
+      "name_key": "NGR_APDC_doc_0c09f5e9e6aa",
+      "portrait": "GFX_APDC_document_NGR_APDC_doc_0c09f5e9e6aa",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1154,
+      "character": "PER_kia_esfahani",
+      "countries": [
+        "PER"
+      ],
+      "party": "dictatorship",
+      "name_key": "PER_kia_esfahani",
+      "portrait": "GFX_APDC_middle_east_generic_political_male_3",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1155,
+      "character": "PER_navid_jalali",
+      "countries": [
+        "PER"
+      ],
+      "party": "authoritarianism",
+      "name_key": "PER_navid_jalali",
+      "portrait": "GFX_APDC_document_PER_navid_jalali",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1156,
+      "character": "POL_APDC_doc_09a9c6b1b5dc",
+      "countries": [
+        "POL"
+      ],
+      "party": "communism",
+      "name_key": "POL_APDC_doc_09a9c6b1b5dc",
+      "portrait": "GFX_APDC_document_POL_APDC_doc_09a9c6b1b5dc",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1157,
+      "character": "PRC_APDC_doc_22a4dfe21327",
+      "countries": [
+        "PRC"
+      ],
+      "party": "socialism",
+      "name_key": "PRC_APDC_doc_22a4dfe21327",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1158,
+      "character": "ROM_soviet_authority",
+      "countries": [
+        "ROM"
+      ],
+      "party": "communism",
+      "name_key": "ROM_soviet_authority",
+      "portrait": "GFX_portrait_ROM_soviet_authority",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1159,
+      "character": "SAU_APDC_doc_35cfd52468d6",
+      "countries": [
+        "SAU"
+      ],
+      "party": "socialism",
+      "name_key": "SAU_APDC_doc_35cfd52468d6",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1160,
+      "character": "SIA_new_soviet_naval_authority",
+      "countries": [
+        "SIA"
+      ],
+      "party": "communism",
+      "name_key": "SIA_new_soviet_naval_authority",
+      "portrait": "GFX_portrait_SIA_new_soviet_naval_authority",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1161,
+      "character": "SIA_rama_xv",
+      "countries": [
+        "SIA"
+      ],
+      "party": "dictatorship",
+      "name_key": "SIA_rama_xv",
+      "portrait": "GFX_APDC_document_SIA_rama_xv",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1162,
+      "character": "SOM_APDC_doc_e4be108d3d52",
+      "countries": [
+        "SOM"
+      ],
+      "party": "socialism",
+      "name_key": "SOM_APDC_doc_e4be108d3d52",
+      "portrait": "GFX_APDC_document_SOM_APDC_doc_e4be108d3d52",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1163,
+      "character": "SOV_APDC_doc_4a0ae0ad09d7",
+      "countries": [
+        "SOV"
+      ],
+      "party": "socialism",
+      "name_key": "SOV_APDC_doc_4a0ae0ad09d7",
+      "portrait": "GFX_APDC_document_SOV_APDC_doc_4a0ae0ad09d7",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1164,
+      "character": "SOV_APDC_doc_68553193cb08",
+      "countries": [
+        "SOV"
+      ],
+      "party": "social_democracy",
+      "name_key": "SOV_APDC_doc_68553193cb08",
+      "portrait": "GFX_APDC_document_SOV_APDC_doc_68553193cb08",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1165,
+      "character": "SOV_APDC_doc_6fa7e1d95010",
+      "countries": [
+        "SOV"
+      ],
+      "party": "authoritarianism",
+      "name_key": "SOV_APDC_doc_6fa7e1d95010",
+      "portrait": "GFX_APDC_document_SOV_APDC_doc_6fa7e1d95010",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1166,
+      "character": "SOV_APDC_doc_b09f9906739c",
+      "countries": [
+        "SOV"
+      ],
+      "party": "conservatism",
+      "name_key": "SOV_APDC_doc_b09f9906739c",
+      "portrait": "GFX_APDC_document_SOV_APDC_doc_b09f9906739c",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1167,
+      "character": "SOV_APDC_doc_ba224811610c",
+      "countries": [
+        "SOV"
+      ],
+      "party": "fascism",
+      "name_key": "SOV_APDC_doc_ba224811610c",
+      "portrait": "GFX_APDC_document_SOV_APDC_doc_ba224811610c",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1168,
+      "character": "SOV_APDC_doc_d8d631564492",
+      "countries": [
+        "SOV"
+      ],
+      "party": "communism",
+      "name_key": "SOV_APDC_doc_d8d631564492",
+      "portrait": "GFX_APDC_document_SOV_APDC_doc_d8d631564492",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1169,
+      "character": "SPR_APDC_doc_e3f25fbd7e10",
+      "countries": [
+        "SPR"
+      ],
+      "party": "authoritarianism",
+      "name_key": "SPR_APDC_doc_e3f25fbd7e10",
+      "portrait": "GFX_APDC_document_SPR_APDC_doc_e3f25fbd7e10",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1170,
+      "character": "SYR_APDC_doc_2a2e99daaa39",
+      "countries": [
+        "SYR"
+      ],
+      "party": "socialism",
+      "name_key": "SYR_APDC_doc_2a2e99daaa39",
+      "portrait": "GFX_APDC_document_SYR_APDC_doc_2a2e99daaa39",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1171,
+      "character": "TUR_alparslan_yilmaz",
+      "countries": [
+        "TUR"
+      ],
+      "party": "social_democracy",
+      "name_key": "TUR_alparslan_yilmaz",
+      "portrait": "GFX_APDC_document_TUR_alparslan_yilmaz",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1172,
+      "character": "USA_benjamin_levinsky",
+      "countries": [
+        "USA"
+      ],
+      "party": "fascism",
+      "name_key": "USA_benjamin_levinsky",
+      "portrait": "GFX_APDC_north_america_generic_political_male_8",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1173,
+      "character": "USA_gabriel_clement",
+      "countries": [
+        "USA"
+      ],
+      "party": "fundamentalism",
+      "name_key": "USA_gabriel_clement",
+      "portrait": "GFX_APDC_north_america_generic_political_male_7",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1174,
+      "character": "USA_jasmine_walden",
+      "countries": [
+        "USA"
+      ],
+      "party": "liberalism",
+      "name_key": "USA_jasmine_walden",
+      "portrait": "GFX_APDC_north_america_generic_political_female_6",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1175,
+      "character": "USA_joshua_ignatius",
+      "countries": [
+        "USA"
+      ],
+      "party": "socialism",
+      "name_key": "USA_joshua_ignatius",
+      "portrait": "GFX_APDC_north_america_generic_political_male_3",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1176,
+      "character": "USA_ladell_mccauley",
+      "countries": [
+        "USA"
+      ],
+      "party": "conservatism",
+      "name_key": "USA_ladell_mccauley",
+      "portrait": "GFX_APDC_north_america_generic_political_male_1",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1177,
+      "character": "USA_matthew_gridley",
+      "countries": [
+        "USA"
+      ],
+      "party": "social_democracy",
+      "name_key": "USA_matthew_gridley",
+      "portrait": "GFX_APDC_north_america_generic_political_male_6",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1178,
+      "character": "USA_robert_hampton",
+      "countries": [
+        "USA"
+      ],
+      "party": "authoritarianism",
+      "name_key": "USA_robert_hampton",
+      "portrait": "GFX_APDC_document_USA_robert_hampton",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1179,
+      "character": "USA_sheldon_perry",
+      "countries": [
+        "USA"
+      ],
+      "party": "dictatorship",
+      "name_key": "USA_sheldon_perry",
+      "portrait": "GFX_APDC_document_USA_sheldon_perry",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1180,
+      "character": "USA_stella_bloor",
+      "countries": [
+        "USA"
+      ],
+      "party": "communism",
+      "name_key": "USA_stella_bloor",
+      "portrait": "GFX_APDC_north_america_generic_political_female_2",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1181,
+      "character": "VEN_alejandro_rodriguez",
+      "countries": [
+        "VEN"
+      ],
+      "party": "socialism",
+      "name_key": "VEN_alejandro_rodriguez",
+      "portrait": "GFX_APDC_document_VEN_alejandro_rodriguez",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1182,
+      "character": "YEM_salim_alimi",
+      "countries": [
+        "YEM"
+      ],
+      "party": "socialism",
+      "name_key": "YEM_salim_alimi",
+      "portrait": "GFX_APDC_middle_east_generic_political_male_7",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1183,
+      "character": "YUG_walter_markovic",
+      "countries": [
+        "YUG"
+      ],
+      "party": "socialism",
+      "name_key": "YUG_walter_markovic",
+      "portrait": "GFX_APDC_document_YUG_walter_markovic",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1184,
+      "character": "ZZZ_APDC_doc_37e3cbeaf737",
+      "countries": [
+        "ZZZ"
+      ],
+      "party": "authoritarianism",
+      "name_key": "ZZZ_APDC_doc_37e3cbeaf737",
+      "portrait": "GFX_leader_unknown",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    },
+    {
+      "id": 1185,
+      "character": "ZZZ_Nothing",
+      "countries": [
+        "ZZZ"
+      ],
+      "party": "dictatorship",
+      "name_key": "ZZZ_Nothing",
+      "portrait": "GFX_Portrait_ZZZ",
+      "member_idea": null,
+      "member_traits": [],
+      "chief_traits": [],
+      "chief_modifiers": {},
+      "placeholder": false
+    }
+  ]
+}

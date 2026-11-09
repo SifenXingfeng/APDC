@@ -1,0 +1,23 @@
+state={
+	id=675
+	name="STATE_675"
+	provinces={
+		7994 10744 12879 15749 16310 16311 16314 18451 
+	}
+	manpower=251904
+	buildings_max_level_factor=1
+	state_category=wasteland
+	local_supplies=0
+	history = {
+		owner = IRQ
+		controller = IRQ
+		add_core_of = IRQ
+		set_state_flag = state_renamings
+		victory_points = { 7994 10 }
+		victory_points = { 18451 3 }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	resources = { aluminium = 1 }
+}

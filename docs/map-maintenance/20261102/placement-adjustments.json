@@ -1,0 +1,56 @@
+{
+  "reason": "Static coastal-position review after native GUI captures; zero-level future model points only, no actual dockyard/port/airport level changed.",
+  "adjustments": [
+    {
+      "state": 428,
+      "kind": "dockyard",
+      "actual_building_level": 0,
+      "before": [
+        "428",
+        "dockyard",
+        "3608.00",
+        "10.07",
+        "1594.00",
+        "2.75",
+        "0"
+      ],
+      "after": [
+        "428",
+        "dockyard",
+        "3594.00",
+        "10.07",
+        "1581.00",
+        "-2.36",
+        "0"
+      ],
+      "province": 7150,
+      "coastal": true
+    },
+    {
+      "state": 983,
+      "kind": "dockyard",
+      "actual_building_level": 0,
+      "before": [
+        "983",
+        "dockyard",
+        "3619.00",
+        "10.85",
+        "1520.00",
+        "1.31",
+        "0"
+      ],
+      "after": [
+        "983",
+        "dockyard",
+        "3600.00",
+        "9.50",
+        "1516.00",
+        "-2.16",
+        "0"
+      ],
+      "province": 7232,
+      "coastal": true
+    }
+  ],
+  "all_new_dockyards_on_coastal_provinces": true
+}

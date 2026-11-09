@@ -1,0 +1,54 @@
+{
+  "affected_states": [
+    575,
+    577,
+    580,
+    1592
+  ],
+  "province_transfers": [
+    {
+      "city": "米尔内",
+      "province": 10557,
+      "from": 1592,
+      "to": 575,
+      "direct_border": [
+        {
+          "province": 13059,
+          "shared_pixel_edges": 17
+        }
+      ],
+      "move": true
+    },
+    {
+      "city": "汉特-曼西斯克",
+      "province": 1812,
+      "from": 580,
+      "to": 577,
+      "direct_border": [
+        {
+          "province": 1659,
+          "shared_pixel_edges": 44
+        },
+        {
+          "province": 7833,
+          "shared_pixel_edges": 26
+        },
+        {
+          "province": 7867,
+          "shared_pixel_edges": 14
+        }
+      ],
+      "move": true
+    }
+  ],
+  "skipped": [
+    {
+      "city": "设菲尔德",
+      "province": 9315,
+      "from": 130,
+      "to": 582,
+      "direct_border": [],
+      "move": false
+    }
+  ]
+}

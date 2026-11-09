@@ -26,10 +26,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-promote_character = {
-	character = HAI_shamar_ingel
-	ideology = transitional_government
-}
+
 
 set_popularities = {
 	communism = 9
@@ -43,8 +40,72 @@ set_popularities = {
 	fundamentalism = 10
 }
 
+# Document synchronization 2026-10-28; unresolved fields retain previous values.
+recruit_character = HAI_APDC_doc_fc1c4c57dde2
+promote_character = { character = HAI_general_toussaint ideology = bolivarianism }
+promote_character = { character = HAI_APDC_doc_fc1c4c57dde2 ideology = left_agrarianism }
+promote_character = { character = HAI_boss_henri ideology = oligarchic_liberalism }
+promote_character = { character = HAI_kingpin_damballa ideology = anarcho_capitalism }
+promote_character = { character = HAI_shamar_ingel ideology = transitional_government }
+promote_character = { character = HAI_robert_ivan ideology = military_state }
+promote_character = { character = HAI_chef_ogun ideology = criminal_state }
+promote_character = { character = HAI_duvalier_iii ideology = esoteric_theocracy }
+APDC_set_economic_system_state_guided = yes
 APDC_add_authoritarianism_to_governing_coalition = yes
 APDC_add_dictatorship_to_governing_coalition = yes
 APDC_add_social_democracy_to_governing_coalition = yes
+set_variable = { APDC_document_party_leader_socialism = token:HAI_general_toussaint }
+set_variable = { APDC_document_party_leader_social_democracy = token:HAI_APDC_doc_fc1c4c57dde2 }
+set_variable = { APDC_document_party_leader_conservatism = token:HAI_boss_henri }
+set_variable = { APDC_document_party_leader_liberalism = token:HAI_kingpin_damballa }
+set_variable = { APDC_document_party_leader_authoritarianism = token:HAI_shamar_ingel }
+set_variable = { APDC_document_party_leader_dictatorship = token:HAI_robert_ivan }
+set_variable = { APDC_document_party_leader_fascism = token:HAI_chef_ogun }
+set_variable = { APDC_document_party_leader_fundamentalism = token:HAI_duvalier_iii }
 
-APDC_set_economic_system_state_guided = yes
+# APDC parliament election calendar schema 1
+if = {
+limit = { has_government = communism }
+set_politics = { ruling_party = communism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = socialism }
+set_politics = { ruling_party = socialism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = social_democracy }
+set_politics = { ruling_party = social_democracy last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = liberalism }
+set_politics = { ruling_party = liberalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = conservatism }
+set_politics = { ruling_party = conservatism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = authoritarianism }
+set_politics = { ruling_party = authoritarianism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = dictatorship }
+set_politics = { ruling_party = dictatorship last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = fascism }
+set_politics = { ruling_party = fascism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = fundamentalism }
+set_politics = { ruling_party = fundamentalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}

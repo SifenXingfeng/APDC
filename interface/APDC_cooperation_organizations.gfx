@@ -110,15 +110,18 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_APDC_cooperation_vote_support"
 		textureFile = "gfx/interface/APDC/cooperation_organizations/legislation/vote_support.dds"
+		transparencecheck = no
 	}
 
 	spriteType = {
 		name = "GFX_APDC_cooperation_vote_abstain"
 		textureFile = "gfx/interface/APDC/cooperation_organizations/legislation/vote_abstain.dds"
+		transparencecheck = no
 	}
 
 	spriteType = {
 		name = "GFX_APDC_cooperation_vote_veto"
 		textureFile = "gfx/interface/APDC/cooperation_organizations/legislation/vote_veto.dds"
+		transparencecheck = no
 	}
 }

@@ -27,11 +27,12 @@ APDC_create_fifth_international_cooperation_organization_from_template = {
 	APDC_create_cooperation_organization = yes
 
 	clear_array = APDC_cooperation_organization_template_opening_members
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = CHI }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = AFG }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = ALB }
 	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = ANG }
 	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = BUL }
-	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = CHI }
 	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = CUB }
-	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = CYP }
 	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = CZE }
 	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = EGY }
 	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = GER }
@@ -40,15 +41,40 @@ APDC_create_fifth_international_cooperation_organization_from_template = {
 	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = KUR }
 	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = MON }
 	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = MZB }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = PAK }
 	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = PER }
 	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = POL }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = PRC }
 	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = ROM }
 	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = SIA }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = SOV }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = SYR }
 	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = TUR }
 	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = VEN }
 	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = YEM }
 	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = YUG }
-	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = SOV }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	APDC_apply_cooperation_organization_template_opening_members = yes
 
 	SOV = {
@@ -68,11 +94,18 @@ APDC_create_international_rossartrism_cooperation_organization_from_template = {
 
 	clear_array = APDC_cooperation_organization_template_opening_members
 	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = AMZ }
-	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = HAI }
 	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = COL }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = HAI }
 	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = JAP }
 	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = LLU }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = SPR }
 	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = USA }
+	
+	
+	
+	
+	
+	
 	APDC_apply_cooperation_organization_template_opening_members = yes
 
 	AMZ = {

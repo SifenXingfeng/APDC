@@ -1,0 +1,21 @@
+state={
+	id=1594
+	name="STATE_1594"
+	provinces={
+		1666 1826 4675 4762 4832 5274 5569 5594 7785 8641 10643 10681 
+	}
+	manpower=348103
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+		}
+	}
+	resources = { chromium = 3 steel = 3 }
+	state_category = rural
+}

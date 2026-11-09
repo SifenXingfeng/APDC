@@ -6,112 +6,238 @@
 # focuses, events or decisions.
 
 APDC_add_communism_to_governing_coalition = {
+if = {
+limit = { NOT = { has_country_flag = APDC_governing_coalition_communism } }
+
 	set_country_flag = APDC_governing_coalition_communism
+
+if = { limit = { has_country_flag = apdc_parl_initialized } APDC_update_cabinet_statistics = yes apdc_parl_refresh = yes apdc_parl_refresh_candidates = yes }
+
 }
 
+}
+
+
 APDC_remove_communism_from_governing_coalition = {
+
 	if = {
 		limit = { NOT = { has_government = communism } }
 		clr_country_flag = APDC_governing_coalition_communism
 		APDC_cabinet_remove_party_members_communism = yes
 	}
+
+if = { limit = { has_country_flag = apdc_parl_initialized } APDC_update_cabinet_statistics = yes apdc_parl_refresh = yes apdc_parl_refresh_candidates = yes }
+
 }
+
 
 APDC_add_socialism_to_governing_coalition = {
+if = {
+limit = { NOT = { has_country_flag = APDC_governing_coalition_socialism } }
+
 	set_country_flag = APDC_governing_coalition_socialism
+
+if = { limit = { has_country_flag = apdc_parl_initialized } APDC_update_cabinet_statistics = yes apdc_parl_refresh = yes apdc_parl_refresh_candidates = yes }
+
 }
 
+}
+
+
 APDC_remove_socialism_from_governing_coalition = {
+
 	if = {
 		limit = { NOT = { has_government = socialism } }
 		clr_country_flag = APDC_governing_coalition_socialism
 		APDC_cabinet_remove_party_members_socialism = yes
 	}
+
+if = { limit = { has_country_flag = apdc_parl_initialized } APDC_update_cabinet_statistics = yes apdc_parl_refresh = yes apdc_parl_refresh_candidates = yes }
+
 }
+
 
 APDC_add_social_democracy_to_governing_coalition = {
+if = {
+limit = { NOT = { has_country_flag = APDC_governing_coalition_social_democracy } }
+
 	set_country_flag = APDC_governing_coalition_social_democracy
+
+if = { limit = { has_country_flag = apdc_parl_initialized } APDC_update_cabinet_statistics = yes apdc_parl_refresh = yes apdc_parl_refresh_candidates = yes }
+
 }
 
+}
+
+
 APDC_remove_social_democracy_from_governing_coalition = {
+
 	if = {
 		limit = { NOT = { has_government = social_democracy } }
 		clr_country_flag = APDC_governing_coalition_social_democracy
 		APDC_cabinet_remove_party_members_social_democracy = yes
 	}
+
+if = { limit = { has_country_flag = apdc_parl_initialized } APDC_update_cabinet_statistics = yes apdc_parl_refresh = yes apdc_parl_refresh_candidates = yes }
+
 }
+
 
 APDC_add_conservatism_to_governing_coalition = {
+if = {
+limit = { NOT = { has_country_flag = APDC_governing_coalition_conservatism } }
+
 	set_country_flag = APDC_governing_coalition_conservatism
+
+if = { limit = { has_country_flag = apdc_parl_initialized } APDC_update_cabinet_statistics = yes apdc_parl_refresh = yes apdc_parl_refresh_candidates = yes }
+
 }
 
+}
+
+
 APDC_remove_conservatism_from_governing_coalition = {
+
 	if = {
 		limit = { NOT = { has_government = conservatism } }
 		clr_country_flag = APDC_governing_coalition_conservatism
 		APDC_cabinet_remove_party_members_conservatism = yes
 	}
+
+if = { limit = { has_country_flag = apdc_parl_initialized } APDC_update_cabinet_statistics = yes apdc_parl_refresh = yes apdc_parl_refresh_candidates = yes }
+
 }
+
 
 APDC_add_liberalism_to_governing_coalition = {
+if = {
+limit = { NOT = { has_country_flag = APDC_governing_coalition_liberalism } }
+
 	set_country_flag = APDC_governing_coalition_liberalism
+
+if = { limit = { has_country_flag = apdc_parl_initialized } APDC_update_cabinet_statistics = yes apdc_parl_refresh = yes apdc_parl_refresh_candidates = yes }
+
 }
 
+}
+
+
 APDC_remove_liberalism_from_governing_coalition = {
+
 	if = {
 		limit = { NOT = { has_government = liberalism } }
 		clr_country_flag = APDC_governing_coalition_liberalism
 		APDC_cabinet_remove_party_members_liberalism = yes
 	}
+
+if = { limit = { has_country_flag = apdc_parl_initialized } APDC_update_cabinet_statistics = yes apdc_parl_refresh = yes apdc_parl_refresh_candidates = yes }
+
 }
+
 
 APDC_add_authoritarianism_to_governing_coalition = {
+if = {
+limit = { NOT = { has_country_flag = APDC_governing_coalition_authoritarianism } }
+
 	set_country_flag = APDC_governing_coalition_authoritarianism
+
+if = { limit = { has_country_flag = apdc_parl_initialized } APDC_update_cabinet_statistics = yes apdc_parl_refresh = yes apdc_parl_refresh_candidates = yes }
+
 }
 
+}
+
+
 APDC_remove_authoritarianism_from_governing_coalition = {
+
 	if = {
 		limit = { NOT = { has_government = authoritarianism } }
 		clr_country_flag = APDC_governing_coalition_authoritarianism
 		APDC_cabinet_remove_party_members_authoritarianism = yes
 	}
+
+if = { limit = { has_country_flag = apdc_parl_initialized } APDC_update_cabinet_statistics = yes apdc_parl_refresh = yes apdc_parl_refresh_candidates = yes }
+
 }
+
 
 APDC_add_dictatorship_to_governing_coalition = {
+if = {
+limit = { NOT = { has_country_flag = APDC_governing_coalition_dictatorship } }
+
 	set_country_flag = APDC_governing_coalition_dictatorship
+
+if = { limit = { has_country_flag = apdc_parl_initialized } APDC_update_cabinet_statistics = yes apdc_parl_refresh = yes apdc_parl_refresh_candidates = yes }
+
 }
 
+}
+
+
 APDC_remove_dictatorship_from_governing_coalition = {
+
 	if = {
 		limit = { NOT = { has_government = dictatorship } }
 		clr_country_flag = APDC_governing_coalition_dictatorship
 		APDC_cabinet_remove_party_members_dictatorship = yes
 	}
+
+if = { limit = { has_country_flag = apdc_parl_initialized } APDC_update_cabinet_statistics = yes apdc_parl_refresh = yes apdc_parl_refresh_candidates = yes }
+
 }
+
 
 APDC_add_fascism_to_governing_coalition = {
+if = {
+limit = { NOT = { has_country_flag = APDC_governing_coalition_fascism } }
+
 	set_country_flag = APDC_governing_coalition_fascism
+
+if = { limit = { has_country_flag = apdc_parl_initialized } APDC_update_cabinet_statistics = yes apdc_parl_refresh = yes apdc_parl_refresh_candidates = yes }
+
 }
 
+}
+
+
 APDC_remove_fascism_from_governing_coalition = {
+
 	if = {
 		limit = { NOT = { has_government = fascism } }
 		clr_country_flag = APDC_governing_coalition_fascism
 		APDC_cabinet_remove_party_members_fascism = yes
 	}
+
+if = { limit = { has_country_flag = apdc_parl_initialized } APDC_update_cabinet_statistics = yes apdc_parl_refresh = yes apdc_parl_refresh_candidates = yes }
+
 }
+
 
 APDC_add_fundamentalism_to_governing_coalition = {
+if = {
+limit = { NOT = { has_country_flag = APDC_governing_coalition_fundamentalism } }
+
 	set_country_flag = APDC_governing_coalition_fundamentalism
+
+if = { limit = { has_country_flag = apdc_parl_initialized } APDC_update_cabinet_statistics = yes apdc_parl_refresh = yes apdc_parl_refresh_candidates = yes }
+
 }
 
+}
+
+
 APDC_remove_fundamentalism_from_governing_coalition = {
+
 	if = {
 		limit = { NOT = { has_government = fundamentalism } }
 		clr_country_flag = APDC_governing_coalition_fundamentalism
 		APDC_cabinet_remove_party_members_fundamentalism = yes
 	}
+
+if = { limit = { has_country_flag = apdc_parl_initialized } APDC_update_cabinet_statistics = yes apdc_parl_refresh = yes apdc_parl_refresh_candidates = yes }
+
 }
+
 
 # Ensures that the party actually forming the government is always a member.
 APDC_add_current_ruling_party_to_governing_coalition = {
@@ -156,6 +282,7 @@ APDC_add_current_ruling_party_to_governing_coalition = {
 # Removes all partners, then restores the current ruling party as the sole
 # member.  This is the safe reset operation for a newly formed government.
 APDC_clear_governing_coalition = {
+
 	# Use the public removal API so every departing party's cabinet members
 	# are expelled from all six seats before it becomes opposition.
 	APDC_remove_communism_from_governing_coalition = yes
@@ -168,4 +295,8 @@ APDC_clear_governing_coalition = {
 	APDC_remove_fascism_from_governing_coalition = yes
 	APDC_remove_fundamentalism_from_governing_coalition = yes
 	APDC_add_current_ruling_party_to_governing_coalition = yes
+
+if = { limit = { has_country_flag = apdc_parl_initialized } APDC_update_cabinet_statistics = yes apdc_parl_refresh = yes apdc_parl_refresh_candidates = yes }
+
 }
+

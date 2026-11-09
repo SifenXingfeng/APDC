@@ -1,0 +1,35 @@
+{
+  "status": "implemented",
+  "utc": "2026-11-07T07:39:31.761922+00:00",
+  "static_ui_checks": 19,
+  "base_static_checks": 29,
+  "native_backend_checks": [
+    "ui_member_appointed",
+    "ui_dismiss_removes_role_and_bonus"
+  ],
+  "new_related_engine_errors": [],
+  "observed_images": [
+    "main",
+    "cabinet_appointed",
+    "cabinet_dismissed",
+    "law_side",
+    "folded",
+    "entry_preview"
+  ],
+  "entry_picture_scope": "native QA composition using actual political background and actual entry/role components",
+  "real_mouse_drag_hover_click_wheel_verified": false,
+  "private_window_message_attempt_counted_as_pass": false,
+  "changed_gameplay_effects": [
+    "apdc_parl_refresh"
+  ],
+  "protected_gameplay_paths_changed": [],
+  "process_cleanup": {
+    "closed_helpers": [],
+    "still_running": false,
+    "pid": 23980,
+    "remaining_helpers": [],
+    "steam_app_running": false,
+    "stopped": "2026-11-07T15:37:59.4197151+08:00"
+  },
+  "backup": "D:\\C-Drive-Migration-20260929\\Permanent\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\.codex_backups\\APDC\\20261107-143845-parliament-ui-corrections"
+}

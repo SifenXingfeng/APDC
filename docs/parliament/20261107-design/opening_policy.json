@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "status": "provisional_design_only_not_loaded",
+  "date": "2026-11-07",
+  "authorization": "用户允许开局数据先按当前理解临时分配，后续逐国修订；不改写当前运行国家历史。",
+  "ideology_order": ["communism", "socialism", "social_democracy", "liberalism", "conservatism", "authoritarianism", "dictatorship", "fascism", "fundamentalism"],
+  "regimes": {
+    "absolute_monarchy": {"name": "绝对君主制", "assembly_name": "协商会议", "base_days": 0, "party_bonus_factor": 0, "opposition_factor": 0},
+    "dual_monarchy": {"name": "二元君主制", "assembly_name": "议会", "base_days": 60, "party_bonus_factor": 0.5, "opposition_factor": 0.5},
+    "constitutional_monarchy": {"name": "君主立宪制", "assembly_name": "议会", "base_days": 120, "party_bonus_factor": 1, "opposition_factor": 1},
+    "parliamentary_republic": {"name": "议会共和制", "assembly_name": "议会", "base_days": 120, "party_bonus_factor": 1, "opposition_factor": 1},
+    "presidential": {"name": "总统制", "assembly_name": "议会", "base_days": 60, "party_bonus_factor": 0.5, "opposition_factor": 0.5},
+    "semi_presidential": {"name": "半总统制", "assembly_name": "议会", "base_days": 90, "party_bonus_factor": 0.75, "opposition_factor": 0.75},
+    "one_party_republic": {"name": "一党制共和", "assembly_name": "代表大会", "base_days": 30, "party_bonus_factor": 0.25, "opposition_factor": 0.25},
+    "military_government": {"name": "军政府", "assembly_name": "军人委员会", "base_days": 30, "party_bonus_factor": 0.25, "opposition_factor": 0.25},
+    "committee": {"name": "委员会制", "assembly_name": "议会", "base_days": 120, "party_bonus_factor": 1, "opposition_factor": 1}
+  },
+  "law_options": {
+    "doll_rights": ["禁止具身智能", "纯粹服务工具", "纯粹劳动工具", "人事从属权", "非暴力公民权", "并肩同行", "造物之世界"],
+    "infected_rights": ["生物威胁清除", "强制扣留拘押", "医疗干预收容", "指定社区安置", "正常公民生活", "专项救济计划"],
+    "women_rights": ["男权社会", "传统性别职能", "平等权利", "女性补偿权利", "母系社会"],
+    "relic_technology": ["完全封存", "课题概念研究", "监管环境实验", "军用项目试点", "广泛民间使用", "外星技术崇拜"]
+  },
+  "default_profiles": {
+    "communism": {"regime": "one_party_republic", "doll_rights": "非暴力公民权", "infected_rights": "指定社区安置", "women_rights": "平等权利", "relic_technology": "军用项目试点"},
+    "socialism": {"regime": "parliamentary_republic", "doll_rights": "并肩同行", "infected_rights": "正常公民生活", "women_rights": "平等权利", "relic_technology": "监管环境实验"},
+    "social_democracy": {"regime": "parliamentary_republic", "doll_rights": "非暴力公民权", "infected_rights": "专项救济计划", "women_rights": "平等权利", "relic_technology": "监管环境实验"},
+    "liberalism": {"regime": "parliamentary_republic", "doll_rights": "非暴力公民权", "infected_rights": "正常公民生活", "women_rights": "平等权利", "relic_technology": "监管环境实验"},
+    "conservatism": {"regime": "presidential", "doll_rights": "人事从属权", "infected_rights": "指定社区安置", "women_rights": "传统性别职能", "relic_technology": "监管环境实验"},
+    "authoritarianism": {"regime": "semi_presidential", "doll_rights": "人事从属权", "infected_rights": "医疗干预收容", "women_rights": "传统性别职能", "relic_technology": "军用项目试点"},
+    "dictatorship": {"regime": "presidential", "doll_rights": "纯粹服务工具", "infected_rights": "强制扣留拘押", "women_rights": "传统性别职能", "relic_technology": "课题概念研究"},
+    "fascism": {"regime": "one_party_republic", "doll_rights": "纯粹劳动工具", "infected_rights": "强制扣留拘押", "women_rights": "男权社会", "relic_technology": "军用项目试点"},
+    "fundamentalism": {"regime": "one_party_republic", "doll_rights": "禁止具身智能", "infected_rights": "生物威胁清除", "women_rights": "男权社会", "relic_technology": "完全封存"}
+  },
+  "regime_by_subtype": {
+    "absolute_monarchy": "absolute_monarchy",
+    "military_junta": "military_government",
+    "red_military_government": "military_government",
+    "corporate_council": "committee",
+    "co_governance": "committee",
+    "scientific_technocracy": "committee",
+    "anarcho_technocracy": "committee"
+  },
+  "country_overrides": {
+    "GER": {"regime": "parliamentary_republic", "basis": "临时分配：现有开局多党执政联盟与允许选举；不更改任何人物或联盟。"},
+    "ENG": {"regime": "constitutional_monarchy", "basis": "临时政体样例，后续由剧情逐国修订；此处不启用国王/实际总理展示分离。"},
+    "FRA": {"regime": "semi_presidential", "basis": "临时半总统制样例，非正式国家设定。"},
+    "USA": {"regime": "presidential", "basis": "临时总统制样例，保留当前实际执政党和选举开关。"},
+    "GDB": {"economic_system": "bandit_economy", "basis": "现有20261028国家资料明确要求土匪经济，当时仅因缺定义而未接入；现十类目录已定义。"}
+  },
+  "economic_names": {
+    "bandit_economy": "土匪经济", "traditional_agriculture": "传统农业经济", "dependent_economy": "依附型经济", "free_market": "自由市场经济", "mixed_market": "混合市场经济", "state_guided": "国家指导经济", "state_capitalism": "国家资本主义", "market_socialism": "市场社会主义", "decentralized_planning": "分散计划经济", "central_planning": "中央计划经济"
+  },
+  "elections": {
+    "default_interval_months": 24,
+    "epoch": "scenario_start_or_release_date",
+    "draft_preserves_explicit_native_no_elections": true,
+    "note": "临时初稿沿用当前国家历史明确的无选举开关；有选举者一律先用议会默认两年，原生领导人的旧48个月不直接视为议会定稿。"
+  },
+  "research_hooks": {"doll_technology_scope": "reserved_not_implemented", "relic_project_scope": "reserved_not_implemented"},
+  "review_notes": [
+    "全部新增政体和改革档位均是用户授权的临时初稿，不能当成已经核定的国家设定。",
+    "现有明确经济体制及开局联盟优先继承；缺省经济体制只读模拟现有初始化分类。",
+    "无国家历史执政党字段时只借用威权主义配置作初稿模板，不给国家新增或修改执政意识形态。",
+    "本目录不被游戏加载，不注册运行API，不创建或更换人物特质。"
+  ]
+}

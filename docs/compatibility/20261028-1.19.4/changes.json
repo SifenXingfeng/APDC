@@ -1,0 +1,106 @@
+{
+  "installed_version": "Operation Postern v1.19.4.0.48d6 (a783)",
+  "backup": "D:\\C-Drive-Migration-20260929\\Permanent\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\.codex_backups\\APDC\\20261028-125836-1194-compatibility",
+  "files": {
+    "interface/countrytradeview.gui": {
+      "before": "6b0a16a641f35b348a30a263aaeed899974076be7a112af8340005f083e34f0d",
+      "after": "c9d1caf7d4a78afa3245bd3f738dc66b4ffb4eabcfa7cca44b6c4072e68d9576",
+      "edits": 21
+    },
+    "interface/countrydiplomacyview.gui": {
+      "before": "90b096e1bd9835ba3df80471e22d072a12f299d78502301325234151f82163e8",
+      "after": "4a81a68739ef4a73b86e4fa3d9203b3c49b9d2ab3998013f05ff89cee7cc3bf0",
+      "edits": 8
+    },
+    "interface/countrytechtreeview.gui": {
+      "before": "ce264bb0560750bae97e5d5c83cc87363731f5a049fcf70888ce9cf5cc69ba6d",
+      "after": "47ea5732638f6c5fea9612f59497d75705bdd309c313cc146d58e385f922bb3b",
+      "edits": 8
+    },
+    "common/doctrines/tracks/land_doctrine_tracks.txt": {
+      "before": "41f1b4ea5d717e87241e88e2913b8180e977fab382aaff1d4a27cce176a0c372",
+      "after": "eb3fa75c6981718c02cf3a7643ecfabe4f930ff6e0b39773a9ef1bdd20d4377c",
+      "edits": 1
+    },
+    "common/peace_conference/ai_peace/FRA.txt": {
+      "before": null,
+      "after": "bfbcf9407bcfce2069181b7115a69875986bbca2d6fcf48492573e7407eace49",
+      "kind": "new targeted native override"
+    },
+    "common/peace_conference/cost_modifiers/FRA_peace.txt": {
+      "before": null,
+      "after": "cd9489bbd96ef5cc9456b813ee0265c4d57c32d7e1d93adc4bfaa1d015725489",
+      "kind": "new targeted native override"
+    },
+    "interface/APDC_1194_compatibility.gfx": {
+      "before": null,
+      "after": "bb7ca3065bf0cf6a10836331cef2a0850102dae9e98b65c27042eab05bf1ea15",
+      "kind": "native sprite definition restored outside the custom setup GFX"
+    }
+  },
+  "added_bindings": {
+    "interface/countrytradeview.gui": [
+      "consumer_goods_icon",
+      "factories_consumer",
+      "traded_factories_icon",
+      "factories_trade",
+      "auto_import_checkbox",
+      "auto_import_label",
+      "auto_import_budget_bg",
+      "auto_import_budget_txt",
+      "auto_import_priority_open_button",
+      "auto_import_slider",
+      "auto_import_priority_window",
+      "auto_import_priority_entry"
+    ],
+    "interface/countrydiplomacyview.gui": [
+      "actions_title",
+      "edit_auto_response",
+      "response_icon",
+      "recall_volunteers",
+      "acceptance (two entries)"
+    ],
+    "interface/countrytechtreeview.gui": [
+      "cycle_tab_next",
+      "cycle_tab_prev",
+      "technology_unit_statlist_item_equipment/leader_bonuses_header",
+      "technology_unit_statlist_item_equipment/leader_bonuses_grid",
+      "technology_unit_statlist_item_equipment/support_category_multipliers_header",
+      "technology_unit_statlist_item_equipment/support_category_multipliers_grid",
+      "technology_unit_statlist_item_module/leader_bonuses_header",
+      "technology_unit_statlist_item_module/leader_bonuses_grid",
+      "technology_unit_statlist_item_module/support_category_multipliers_header",
+      "technology_unit_statlist_item_module/support_category_multipliers_grid",
+      "technology_unlocks_statlist_item_building/leader_bonuses_header",
+      "technology_unlocks_statlist_item_building/leader_bonuses_grid",
+      "technology_unlocks_statlist_item_building/support_category_multipliers_header",
+      "technology_unlocks_statlist_item_building/support_category_multipliers_grid",
+      "technology_unlocks_statlist_item_tactic/leader_bonuses_header",
+      "technology_unlocks_statlist_item_tactic/leader_bonuses_grid",
+      "technology_unlocks_statlist_item_tactic/support_category_multipliers_header",
+      "technology_unlocks_statlist_item_tactic/support_category_multipliers_grid",
+      "technology_unlocks_statlist_item_subunit/leader_bonuses_header",
+      "technology_unlocks_statlist_item_subunit/leader_bonuses_grid",
+      "technology_unlocks_statlist_item_subunit/support_category_multipliers_header",
+      "technology_unlocks_statlist_item_subunit/support_category_multipliers_grid",
+      "technology_unit_statlist_item_upgrade/leader_bonuses_header",
+      "technology_unit_statlist_item_upgrade/leader_bonuses_grid",
+      "technology_unit_statlist_item_upgrade/support_category_multipliers_header",
+      "technology_unit_statlist_item_upgrade/support_category_multipliers_grid",
+      "technology_unit_statlist_item_modifier/leader_bonuses_header",
+      "technology_unit_statlist_item_modifier/leader_bonuses_grid",
+      "technology_unit_statlist_item_modifier/support_category_multipliers_header",
+      "technology_unit_statlist_item_modifier/support_category_multipliers_grid"
+    ],
+    "common/doctrines/tracks/land_doctrine_tracks.txt": [
+      "operations.mastery.categories: category_army; multiplier unchanged"
+    ]
+  },
+  "balance_values_imported": false,
+  "disabled_unrelated_1936_rules": [
+    "FRA_reclaim_indochina",
+    "FRA_reclaim_indochina_promised_independence",
+    "allies_dont_liberate_french_indochina",
+    "FRA_reclaim_indochina_cost"
+  ]
+}

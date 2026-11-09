@@ -115,7 +115,7 @@ resistance_90 = {
 						has_dynamic_modifier = { modifier = idea_RAJ_famine_country }  
 					}
 				}
-				NOT = { var:occupied_country = { original_tag = DIP } }
+				NOT = { var:occupied_country = { always = no } }
 			}
 			#dont do anything
 		}

@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "date": "2060.2.1.1",
+  "state_count": 1558,
+  "state_910": {
+    "owner": "ZZZ",
+    "controller": "ZZZ",
+    "cores": [
+      "DEN",
+      "ZZZ"
+    ],
+    "claims": []
+  },
+  "relation_differences": [],
+  "demilitarized_states": [],
+  "relevant_map_or_script_errors": [],
+  "opening_engine_trigger_passed": true,
+  "save_sha256": "428d7efd070a6a2e7eb7c7e4e99fbf602cda83c5a8f29e88b677b415ea83dc02",
+  "save_bytes": 74410215,
+  "save_path": "C:\\Users\\ASUS\\.codex\\tmp\\APDC_CountryQA_20261028_final\\save games\\autosave.hoi4",
+  "input_desktop_switched": false,
+  "process": {
+    "path": "D:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\hoi4.exe",
+    "input_desktop_switched": false,
+    "debug_mode": true,
+    "command": "\"D:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\hoi4.exe\" -userdir=C:/Users/ASUS/.codex/tmp/APDC_CountryQA_20261028_final -start_tag=GER -start_speed=3 -gamelog -debug",
+    "desktop": "APDC_PerformanceQA_20261028_191255",
+    "pid": 42692,
+    "profile": "C:/Users/ASUS/.codex/tmp/APDC_CountryQA_20261028_final",
+    "started": "2026-10-28T19:12:55.4130344+08:00",
+    "job_kill_on_close": true
+  },
+  "stop": {
+    "pid": 42692,
+    "steam_app_running": false,
+    "still_running": false,
+    "remaining_helpers": [],
+    "stopped": "2026-10-28T19:16:56.7230952+08:00",
+    "closed_helpers": [
+      20424,
+      35588
+    ]
+  },
+  "user_settings_and_normal_autosaves_unchanged": true,
+  "protected_geography_art_country_history_hashes_unchanged": true,
+  "name_localisation_changes": [
+    "ZZZ",
+    "ZZZ_DEF",
+    "ZZZ_dictatorship",
+    "ZZZ_dictatorship_DEF"
+  ],
+  "enabled_mods": {
+    "enabled_mods": [
+      "mod/APDC.mod",
+      "mod/APDC_CountryQA.mod"
+    ],
+    "disabled_dlcs": []
+  },
+  "player": "GER",
+  "visual_name_rendering_checked": false
+}

@@ -14,15 +14,21 @@ set_war_support = 0.3
 set_convoys = 50
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = socialism
 	last_election = "2059.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	liberalism = 10
-	fascism = 2
-	communism = 88
+	communism = 53
+	socialism = 1
+	social_democracy = 3
+	conservatism = 20
+	liberalism = 0
+	authoritarianism = 18
+	dictatorship = 0
+	fascism = 5
+	fundamentalism = 0
 }
 
 set_autonomy = {
@@ -50,21 +56,113 @@ set_autonomy = {
 # APDC template and icon.
 set_rule = { can_create_factions = yes }
 create_faction_from_template = faction_template_APDC_warsaw_pact
-add_to_faction = SOV
-add_to_faction = GER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+APDC_create_fifth_international_cooperation_organization_from_template = yes
+
+# Document synchronization 2026-10-28; unresolved fields retain previous values.
+recruit_character = SOV_APDC_doc_d8d631564492
+recruit_character = SOV_APDC_doc_4a0ae0ad09d7
+recruit_character = SOV_APDC_doc_68553193cb08
+recruit_character = SOV_APDC_doc_b09f9906739c
+recruit_character = SOV_APDC_doc_6fa7e1d95010
+recruit_character = SOV_APDC_doc_ba224811610c
+promote_character = { character = SOV_APDC_doc_d8d631564492 ideology = red_military_government }
+promote_character = { character = SOV_APDC_doc_4a0ae0ad09d7 ideology = christian_socialism }
+promote_character = { character = SOV_APDC_doc_68553193cb08 ideology = frontier_progressivism }
+promote_character = { character = SOV_APDC_doc_b09f9906739c ideology = populist_conservatism }
+promote_character = { character = SOV_APDC_doc_6fa7e1d95010 ideology = corporate_council }
+promote_character = { character = SOV_APDC_doc_ba224811610c ideology = fundamental_fascism }
+APDC_set_economic_system_state_capitalism = yes
+APDC_add_socialism_to_governing_coalition = yes
+set_variable = { APDC_document_party_leader_communism = token:SOV_APDC_doc_d8d631564492 }
+set_variable = { APDC_document_party_leader_socialism = token:SOV_APDC_doc_4a0ae0ad09d7 }
+set_variable = { APDC_document_party_leader_social_democracy = token:SOV_APDC_doc_68553193cb08 }
+set_variable = { APDC_document_party_leader_conservatism = token:SOV_APDC_doc_b09f9906739c }
+set_variable = { APDC_document_party_leader_authoritarianism = token:SOV_APDC_doc_6fa7e1d95010 }
+set_variable = { APDC_document_party_leader_fascism = token:SOV_APDC_doc_ba224811610c }
+
+# Document-defined opening Warsaw Pact members.
+add_to_faction = ALB
 add_to_faction = ANG
 add_to_faction = BUL
 add_to_faction = CUB
-add_to_faction = CYP
 add_to_faction = CZE
 add_to_faction = EGY
+add_to_faction = ERI
+add_to_faction = ETH
+add_to_faction = GER
 add_to_faction = GRE
 add_to_faction = HUN
+add_to_faction = IRQ
 add_to_faction = KUR
 add_to_faction = MON
 add_to_faction = MZB
+add_to_faction = POL
 add_to_faction = ROM
+add_to_faction = SOM
+add_to_faction = SOV
+add_to_faction = SYR
 add_to_faction = VEN
-add_to_faction = YEM
 
-APDC_create_fifth_international_cooperation_organization_from_template = yes
+# APDC parliament election calendar schema 1
+if = {
+limit = { has_government = communism }
+set_politics = { ruling_party = communism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = socialism }
+set_politics = { ruling_party = socialism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = social_democracy }
+set_politics = { ruling_party = social_democracy last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = liberalism }
+set_politics = { ruling_party = liberalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = conservatism }
+set_politics = { ruling_party = conservatism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = authoritarianism }
+set_politics = { ruling_party = authoritarianism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = dictatorship }
+set_politics = { ruling_party = dictatorship last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = fascism }
+set_politics = { ruling_party = fascism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = fundamentalism }
+set_politics = { ruling_party = fundamentalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}

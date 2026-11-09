@@ -1,0 +1,26 @@
+state={
+	id=589
+	name="STATE_589"
+	provinces={
+		1591 1840 4224 4651 4845 7711 7795 7856 10146 10547 10550 10619 10680 12529 13148 13149 13197 15808 18988 
+	}
+	manpower=1353980
+	buildings_max_level_factor=1
+	state_category=pastoral
+	local_supplies=3
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		add_extra_state_shared_building_slots = 1
+		victory_points = { 1591 15 }
+		victory_points = { 4224 1 }
+		victory_points = { 4845 1 }
+		victory_points = { 10619 2 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+	}
+	resources = { aluminium = 3 chromium = 4 steel = 7 tungsten = 1 }
+}

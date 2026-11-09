@@ -1,0 +1,121 @@
+{
+  "passed": true,
+  "references": [
+    {
+      "file": "common/scripted_triggers/00_scripted_triggers_FR_loc.txt",
+      "line": 2569,
+      "key": "state",
+      "value": "575",
+      "scope": [
+        "frloc_capital_autourde_de_audessusde",
+        "OR"
+      ]
+    },
+    {
+      "file": "common/scripted_triggers/00_scripted_triggers_FR_loc.txt",
+      "line": 2571,
+      "key": "state",
+      "value": "577",
+      "scope": [
+        "frloc_capital_autourde_de_audessusde",
+        "OR"
+      ]
+    },
+    {
+      "file": "common/scripted_triggers/00_scripted_triggers_FR_loc.txt",
+      "line": 2574,
+      "key": "state",
+      "value": "580",
+      "scope": [
+        "frloc_capital_autourde_de_audessusde",
+        "OR"
+      ]
+    },
+    {
+      "file": "common/scripted_triggers/00_scripted_triggers_FR_loc.txt",
+      "line": 3808,
+      "key": "state",
+      "value": "575",
+      "scope": [
+        "frloc_state_sg_fem_cons_noart_x_de_e_07",
+        "OR"
+      ]
+    },
+    {
+      "file": "common/scripted_triggers/00_scripted_triggers_FR_loc.txt",
+      "line": 3810,
+      "key": "state",
+      "value": "577",
+      "scope": [
+        "frloc_state_sg_fem_cons_noart_x_de_e_07",
+        "OR"
+      ]
+    },
+    {
+      "file": "common/scripted_triggers/00_scripted_triggers_FR_loc.txt",
+      "line": 3813,
+      "key": "state",
+      "value": "580",
+      "scope": [
+        "frloc_state_sg_fem_cons_noart_x_de_e_07",
+        "OR"
+      ]
+    },
+    {
+      "file": "common/scripted_triggers/GER_scripted_triggers.txt",
+      "line": 281,
+      "key": "state",
+      "value": "580",
+      "scope": [
+        "GER_is_RK_west_yenisei_state",
+        "OR"
+      ]
+    },
+    {
+      "file": "common/scripted_triggers/GER_scripted_triggers.txt",
+      "line": 282,
+      "key": "state",
+      "value": "577",
+      "scope": [
+        "GER_is_RK_west_yenisei_state",
+        "OR"
+      ]
+    },
+    {
+      "file": "common/scripted_triggers/GER_scripted_triggers.txt",
+      "line": 991,
+      "key": "state",
+      "value": "575",
+      "scope": [
+        "GER_is_additional_RKM_siberia_state",
+        "OR"
+      ]
+    },
+    {
+      "file": "common/scripted_triggers/GER_scripted_triggers.txt",
+      "line": 1017,
+      "key": "state",
+      "value": "1592",
+      "scope": [
+        "GER_is_additional_RKM_siberia_state",
+        "OR"
+      ]
+    },
+    {
+      "file": "history/countries/OVO - Ostyakia Vogulia.txt",
+      "line": 6,
+      "key": "capital",
+      "value": "577",
+      "scope": []
+    }
+  ],
+  "parse_errors": [],
+  "disposition": {
+    "OVO_capital": "Migrated with actual Khanty-Mansiysk city province 1812, 580 -> 577. Other country fields byte/AST preserved.",
+    "GER_state_groups": "Both sides of each transfer already belong to the same geographical group; no new state IDs created, no group members removed.",
+    "French_localisation": "State grammatical classification is attached to the unchanged state name, not the transferred city province.",
+    "Unit_ship_names": "Numeric unit/ship name entries are not geographic state scopes and are excluded.",
+    "Other_country_capitals": "No other original capital city is on either transferred province.",
+    "Air_OOB": "No air base or other actual state-level building lies on these provinces; no active air-wing base key changes."
+  }
+}

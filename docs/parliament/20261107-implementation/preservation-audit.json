@@ -1,0 +1,3399 @@
+{
+  "status": "passed",
+  "audit_utc": "2026-11-07T06:04:09.235104+00:00",
+  "backup": "D:\\C-Drive-Migration-20260929\\Permanent\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\.codex_backups\\APDC\\20261107-112803-parliament-implementation",
+  "country_histories_preserved": 344,
+  "history_change": "append calendar blocks only; resolved ruling party is preserved",
+  "protected_map_character_ideology_font_shader_paths_written": [],
+  "economy_effects_changed": {
+    "common/scripted_effects/APDC_economy_backend.txt": [
+      "APDC_eco_calculate_gap",
+      "APDC_eco_reconcile_planned"
+    ],
+    "common/scripted_effects/APDC_economy_equipment.txt": [
+      "APDC_eco_prepare_purchase"
+    ]
+  },
+  "files": [
+    {
+      "path": "tools/parliament/data/laws.json",
+      "sha256": "05e226bd535aa71d082c79c39b50ea23ab8e5c0199c05f06d1a0a69127c3bc64",
+      "existed_before": false
+    },
+    {
+      "path": "tools/parliament/data/regimes.json",
+      "sha256": "0b7bc5d8fcd7b93f63884b7dc43071caffd01e242968529acf7254a8e1560c58",
+      "existed_before": false
+    },
+    {
+      "path": "tools/parliament/data/opening_countries.json",
+      "sha256": "ffa6a37faabafef3b6ebd108e41e49e5f60cc0bc91e2a434d428f2c87713a28a",
+      "existed_before": false
+    },
+    {
+      "path": "tools/parliament/legacy/APDC_cabinet.gui",
+      "sha256": "ab495eb5f75bd20a61264cbd1f905ee87888969fb79df7a7fba79c23fbe6856f",
+      "existed_before": false
+    },
+    {
+      "path": "tools/parliament/legacy/APDC_cabinet_scripted_gui.txt",
+      "sha256": "a8fa98f83a19950de1d322c306f89926ada3559bf0d96cd681469cc8081c766b",
+      "existed_before": false
+    },
+    {
+      "path": "tools/parliament/legacy/APDC_cabinet_scripted_effects.txt",
+      "sha256": "3f1e6d8dd6d7c6ec4b0bafc6fd8af103a5e6eab7f4701ea0882c3e0bd72c17b3",
+      "existed_before": false
+    },
+    {
+      "path": "tools/parliament/legacy/APDC_cabinet_scripted_triggers.txt",
+      "sha256": "b522f22e275eb2f115730d376dd34d03756be958a199358e4c16180195340e8a",
+      "existed_before": false
+    },
+    {
+      "path": "tools/parliament/legacy/APDC_cabinet_scripted_localisation.txt",
+      "sha256": "3a99856b1a33327575369207d175529aa243b392bffc7664911a5970a4eb20e1",
+      "existed_before": false
+    },
+    {
+      "path": "tools/parliament/legacy/APDC_cabinet_group_visibility_triggers.txt",
+      "sha256": "5e0de737dc19481724991a8ac0b58368a2dc5024fe69a5460f975335afd54a3c",
+      "existed_before": false
+    },
+    {
+      "path": "tools/parliament/data/candidates.json",
+      "sha256": "003971b8cd424c56cd75a9cbabf91c02d5da1073f9fe56d3eeec106a13c2ab2c",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/background.png",
+      "sha256": "2be037045eaa4bf272fb4eafd11aaa9ab096ba3213589a5169c5ed64549c6102",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/candidate_background.png",
+      "sha256": "56477ce7728a85065feb2232ccf3b7aa6c1ca163001b457a55d0dfc301e2de8a",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/latches.png",
+      "sha256": "0b6e2a0c2cec80e7489b5a53af5b67b693428b17e4d0d3ecdc5931bfef2465c0",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/law_tile.png",
+      "sha256": "366f1c54e48df247bc0920a08bde442372c9a85593203a7c575131d7e8f4a6de",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/special_row.png",
+      "sha256": "ddb5558bb7e108d2d08dcd640e4b77d82e26e9ab2d1fbe1a11c5d869d98f1154",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/party_button.png",
+      "sha256": "4e06063e8496469c66427f71343367d445aefefbfa43276cb0f8e06103d9e964",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/special_button.png",
+      "sha256": "362ed336e88ce11661f289d9423834150e2d82abc4341e631bca5f2803bdc555",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/entry.png",
+      "sha256": "da02f9f9f8a048c391faf75b54e7cd0624c24c5def37064fe14bda5bd4f2320e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/hit_47_63.png",
+      "sha256": "6a22eddceee2d6d7ae21c50805967d2c29d2d524cc7a899e096e1d9c534199d6",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/hit_74_98.png",
+      "sha256": "5e387c6b9eadedc3d7b598d8552d6443988bb66183b004e39a34e369330f7c57",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/hit_150_24.png",
+      "sha256": "cbdd86549147df7c4a573aa611e5cb128caa55b6ace2f2aa7f936a8615d33391",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/hit_249_73.png",
+      "sha256": "7bab426dc8c28b48a8bb4e4818521857b4b2fd3a9da5da9d3e78a6dc7e060093",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/regimes/absolute_monarchy.png",
+      "sha256": "6467214f4eab94cd71a7cd18a855616db7f045fd6e64fa299a868be033f4b1c8",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/regimes/dual_monarchy.png",
+      "sha256": "92566074b6f9091ee3e311a6457ad4302ea0a6f2cd8c1249659452a056693eac",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/regimes/constitutional_monarchy.png",
+      "sha256": "2840fb2100f7b5c18b20a526f284d7789e86347a14d779efc6571b323d60627d",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/regimes/parliamentary_republic.png",
+      "sha256": "6e50557ed4b2818f7fb8995e89b971a9f1d80d2db953e3df3e2bfa467d0efb01",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/regimes/presidential.png",
+      "sha256": "8af660ed204710e49af553f767c115592b6ca365a46714ce16aeae8704c5ee23",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/regimes/semi_presidential.png",
+      "sha256": "cdb676d3dd63209bd40ddccf85b8af420098910a583a47d39ee7ff92a719824d",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/regimes/one_party_republic.png",
+      "sha256": "58d614bcf31be54b3680e7607f7afdb950a8a94c8cb927820b54904303669a86",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/regimes/military_government.png",
+      "sha256": "634404e17d388933a44e145678610fb3f29081eeb14ccbded5ecad73c3ff5c1d",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/regimes/committee.png",
+      "sha256": "33cec319a54fb548a406219981f994c2c334fdfb9f76431abc64215ff544b678",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/dots_large.png",
+      "sha256": "e45c42a74e80e63626a10ae253af1a4e8242fdfc5e7dc1f997768ccb1659e88d",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/dots_small.png",
+      "sha256": "0d9244c3856522da1d0611a32c6070d6f197374dbdca7a8982780e2f3ab8eb0f",
+      "existed_before": false
+    },
+    {
+      "path": "tools/parliament/data/seat_layout.json",
+      "sha256": "95031c394d01e8303b31fdf667a31505e4d67c723c9a73e000921f57cf635a64",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/progress_0.png",
+      "sha256": "6107ad36ed56333586c78c0642a44bb35f8a5b8e941c0fb5623d785a084a9b38",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/progress_1.png",
+      "sha256": "6107ad36ed56333586c78c0642a44bb35f8a5b8e941c0fb5623d785a084a9b38",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/progress_2.png",
+      "sha256": "6107ad36ed56333586c78c0642a44bb35f8a5b8e941c0fb5623d785a084a9b38",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/progress_3.png",
+      "sha256": "6107ad36ed56333586c78c0642a44bb35f8a5b8e941c0fb5623d785a084a9b38",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/progress_4.png",
+      "sha256": "6107ad36ed56333586c78c0642a44bb35f8a5b8e941c0fb5623d785a084a9b38",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/progress_5.png",
+      "sha256": "6107ad36ed56333586c78c0642a44bb35f8a5b8e941c0fb5623d785a084a9b38",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/progress_6.png",
+      "sha256": "6107ad36ed56333586c78c0642a44bb35f8a5b8e941c0fb5623d785a084a9b38",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/progress_7.png",
+      "sha256": "6107ad36ed56333586c78c0642a44bb35f8a5b8e941c0fb5623d785a084a9b38",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/progress_8.png",
+      "sha256": "6107ad36ed56333586c78c0642a44bb35f8a5b8e941c0fb5623d785a084a9b38",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/progress_9.png",
+      "sha256": "d2e14b43606d61872529b757a33ef7e303e9a6208c84da6b15796ae4e407a36d",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1.png",
+      "sha256": "be96037e0791bf50968bd583ad146788df4d9b946bcb31246f2c67f4137bbd76",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/2.png",
+      "sha256": "71836b86cb17d186e78eb67ceb7651c6273b532b5cb0b938673936ef8aa78452",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/3.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/4.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/5.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/6.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/7.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/8.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/9.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/10.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/11.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/12.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/13.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/14.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/15.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/16.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/17.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/18.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/19.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/20.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/21.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/22.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/23.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/24.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/25.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/26.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/27.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/28.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/29.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/30.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/31.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/32.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/33.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/34.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/35.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/36.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/37.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/38.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/39.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/40.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/41.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/42.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/43.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/44.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/45.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/46.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/47.png",
+      "sha256": "fcb3ea2ca1743ac2f90e2fd7b013647b40d25450648f76b0477a8ed01712b78f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1002.png",
+      "sha256": "271c1495f1a6c5c4bec2a6d60bec291df4c7c928908ea4dc24b2e41d2ddf0337",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1003.png",
+      "sha256": "3d1782f5379c806aa22ffd3150646ab18763611564c213d3bb4adc321a7c3e96",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1004.png",
+      "sha256": "0ce69e216a577e83a1cb3d6c923791a0535730a7e053558b705592d6db070367",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1005.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1006.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1007.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1008.png",
+      "sha256": "9e329d3e337ea757fbeaf97586653754451c05549766dd623193a949ca119053",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1009.png",
+      "sha256": "8098636495bcdf9beb26a42e5f23549ca5798ed1371be59943950cb5e48db8ab",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1010.png",
+      "sha256": "9f431d5ea6d6a3dbc5b4e6802000a6441f29c7c6559037763ebde8317813dd9e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1011.png",
+      "sha256": "049bb36846609c5bfb3942f315e6134e5d6fdfb1e1f244fdf6d86f5b2ecc3541",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1012.png",
+      "sha256": "2e3fa3cd12658c5addc9272ae2689b27cd8c1a51541c270f66027fe05153daef",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1013.png",
+      "sha256": "f6c5c6e0a92c3b9492dba02186ea11173e2bcba9e404c2b516deb37d4b9cbdf2",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1014.png",
+      "sha256": "8a799bcad26ba63c0a588a71d4099db9158ee961b709cf05d044e1639fece981",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1015.png",
+      "sha256": "373f6e1e09fcf2f16b757bb79daef1dff24ab8bf01ba7f7bb83ec0b245ca523e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1016.png",
+      "sha256": "3a0989f62fe2e349ce8f2f9d614e58c0c5b884e002a7ce9cf6c5cd790de3250a",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1017.png",
+      "sha256": "d622f620f647da7568361b3f4de48f537c0327b4e3bc413944ac972739456418",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1018.png",
+      "sha256": "c8549d824bad228763bfa702495190ca7cc5e89920d581f0833a7f4d888e21ad",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1019.png",
+      "sha256": "d8aa4d0a3f3b266d360d98dba49a137d77be394b09adc724d80f3866d7e99d22",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1020.png",
+      "sha256": "f60d5fdfa0869c9a9f7c0624b9df3aa3d2329922c282e7e01a30916e04fb1560",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1021.png",
+      "sha256": "f60d5fdfa0869c9a9f7c0624b9df3aa3d2329922c282e7e01a30916e04fb1560",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1022.png",
+      "sha256": "4d59a0dc7d84cf8f2cee72209e4484464d891ed16b8ba0bd2ee1debb2cdb2726",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1023.png",
+      "sha256": "333bab4d9c703b8114fb5ff0f81e6fe7669cc277eb1ffb472b6b6b4895aa0892",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1024.png",
+      "sha256": "0bbac2d28dfa814b7d470f5bd0b8fc8a70d13ad3bd48c7e6412a1103a1ffab8e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1025.png",
+      "sha256": "c9cad884ed18c206a9939fae9ae183f347483dabd8d5a54814a21cc40c6a6a4d",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1026.png",
+      "sha256": "aae0a947b437715c28ab288be1ce7483b2d58d8554c079f76f298b31b5f404ea",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1027.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1028.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1029.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1030.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1031.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1032.png",
+      "sha256": "7d9c78e1f61a7feafff243e32b08346e139a402535de611a29e27f409435e2ce",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1033.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1034.png",
+      "sha256": "f2fa98e414bbb4a3093dbab8d79b8e21efd34efb4caffb4c1df9f0f1182032a6",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1035.png",
+      "sha256": "c8549d824bad228763bfa702495190ca7cc5e89920d581f0833a7f4d888e21ad",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1036.png",
+      "sha256": "d8aa4d0a3f3b266d360d98dba49a137d77be394b09adc724d80f3866d7e99d22",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1037.png",
+      "sha256": "982c481556f73bb77b3b29a5c3b4b9e4b664463d490c74ce4995eafe5bc02e21",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1038.png",
+      "sha256": "d622f620f647da7568361b3f4de48f537c0327b4e3bc413944ac972739456418",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1039.png",
+      "sha256": "77138892c280e982692f98df1fefc074493f56ced5174d4d3960d772cd85552e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1040.png",
+      "sha256": "2fad85abac61d1c7a6b6df9b29584afd7fcdf981c0669ebe85786efd90bd4024",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1041.png",
+      "sha256": "132afeb13874aff805b78cceb8c085b534c129856dc04fe23eb7c339bfaab578",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1042.png",
+      "sha256": "7954aaea584f57396d7ab0a7423c19d38103608cde4a244a0b5ccabb813d7ffb",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1043.png",
+      "sha256": "d1fa27f213ae3a5c09ee363635469e7b6f12c8aa320af8a30083bad2ac871957",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1044.png",
+      "sha256": "79f042ddfaa3bc5904f267d7715f8dc3ea372a79d971ac72432d3310faa44641",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1045.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1046.png",
+      "sha256": "bab506028fce81e6c6c741e3d2327d638be4e3a1b1ec0d1e457e1a10c0e770e9",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1047.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1048.png",
+      "sha256": "a3046b376a2accf262ac49a116cbf405a3817a8ffe955d43ed0f77897cb86968",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1049.png",
+      "sha256": "1349d54481af4c9f705938dd92bf10efe828e4c056627893a1d9716fe024be08",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1050.png",
+      "sha256": "845f4736f775881207d95dca65e7a6493ed7050fd7ab12afe11e15be7f99049f",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1051.png",
+      "sha256": "032af003417eab6f08f4989869b78144abd6039f91ee25c5842d77e5dc1f3b8a",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1052.png",
+      "sha256": "d622f620f647da7568361b3f4de48f537c0327b4e3bc413944ac972739456418",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1053.png",
+      "sha256": "4d59a0dc7d84cf8f2cee72209e4484464d891ed16b8ba0bd2ee1debb2cdb2726",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1054.png",
+      "sha256": "d8aa4d0a3f3b266d360d98dba49a137d77be394b09adc724d80f3866d7e99d22",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1055.png",
+      "sha256": "77138892c280e982692f98df1fefc074493f56ced5174d4d3960d772cd85552e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1056.png",
+      "sha256": "982c481556f73bb77b3b29a5c3b4b9e4b664463d490c74ce4995eafe5bc02e21",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1057.png",
+      "sha256": "c8549d824bad228763bfa702495190ca7cc5e89920d581f0833a7f4d888e21ad",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1058.png",
+      "sha256": "d8aa4d0a3f3b266d360d98dba49a137d77be394b09adc724d80f3866d7e99d22",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1059.png",
+      "sha256": "c9cad884ed18c206a9939fae9ae183f347483dabd8d5a54814a21cc40c6a6a4d",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1060.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1061.png",
+      "sha256": "d8aa4d0a3f3b266d360d98dba49a137d77be394b09adc724d80f3866d7e99d22",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1062.png",
+      "sha256": "c8549d824bad228763bfa702495190ca7cc5e89920d581f0833a7f4d888e21ad",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1063.png",
+      "sha256": "c9cad884ed18c206a9939fae9ae183f347483dabd8d5a54814a21cc40c6a6a4d",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1064.png",
+      "sha256": "67573ec8f84933f0863bed3fc9fafdf00003da658bf4f855e70389299df88dba",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1065.png",
+      "sha256": "67573ec8f84933f0863bed3fc9fafdf00003da658bf4f855e70389299df88dba",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1066.png",
+      "sha256": "d622f620f647da7568361b3f4de48f537c0327b4e3bc413944ac972739456418",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1067.png",
+      "sha256": "032af003417eab6f08f4989869b78144abd6039f91ee25c5842d77e5dc1f3b8a",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1068.png",
+      "sha256": "77138892c280e982692f98df1fefc074493f56ced5174d4d3960d772cd85552e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1069.png",
+      "sha256": "4d59a0dc7d84cf8f2cee72209e4484464d891ed16b8ba0bd2ee1debb2cdb2726",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1070.png",
+      "sha256": "ed0bea2c18d33f6568f4f393c7c548a5afe9bf08af62320a1efc3c8b6c1260f4",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1071.png",
+      "sha256": "b258670ed422a687796d1d58b9e36e512d8977c6b0bbd69594b40829f98e2979",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1072.png",
+      "sha256": "b258670ed422a687796d1d58b9e36e512d8977c6b0bbd69594b40829f98e2979",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1073.png",
+      "sha256": "79f042ddfaa3bc5904f267d7715f8dc3ea372a79d971ac72432d3310faa44641",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1074.png",
+      "sha256": "a2fa6d36cffca3c09e6edcffb4e0789ecdeb9a24ac55b98e406f841cfac641b3",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1075.png",
+      "sha256": "fbe43eb387bebb9ed76b5d1d00c657d3a73f67b3165b594824aff35f23e399f0",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1076.png",
+      "sha256": "dc79ac61cf895b4896aca0c23429084f85f79a0b59f4079954f7a8a3832d1961",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1077.png",
+      "sha256": "6534d09a52240f731cefd516589d897d6f33be493cd4a95318934fbe9bbbb3bf",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1078.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1079.png",
+      "sha256": "beb9efe9a1e9f5012c06b9228e0d050aafdf8264315fac35aef844118225086e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1080.png",
+      "sha256": "62c616fadcba4639cf06b49218e651bffc9220479602c56e8a4f9e54d8df29b1",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1081.png",
+      "sha256": "f970f0ea6bd8543195717cf0f50a45ddc48f4db049ba22dcb7f8ca247486a519",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1082.png",
+      "sha256": "953fc065b0b6a579fcc413ee60eca04a80044cf4168869d8e203f52a17c8a808",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1083.png",
+      "sha256": "80e985974e3041cef34f5b47b276c6ec40b0493a3c71f2a32b49be6020b4341d",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1084.png",
+      "sha256": "bac91cc718cdd188a144174cc7c2b4e1579205d35c701f5442bb98759f2425ca",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1085.png",
+      "sha256": "953fc065b0b6a579fcc413ee60eca04a80044cf4168869d8e203f52a17c8a808",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1086.png",
+      "sha256": "614c77b5f177c70f0ce94572cd95ebbc1eca9b559c834431357179e991b3acb6",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1087.png",
+      "sha256": "bac91cc718cdd188a144174cc7c2b4e1579205d35c701f5442bb98759f2425ca",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1088.png",
+      "sha256": "bac91cc718cdd188a144174cc7c2b4e1579205d35c701f5442bb98759f2425ca",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1089.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1090.png",
+      "sha256": "982c481556f73bb77b3b29a5c3b4b9e4b664463d490c74ce4995eafe5bc02e21",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1091.png",
+      "sha256": "4d59a0dc7d84cf8f2cee72209e4484464d891ed16b8ba0bd2ee1debb2cdb2726",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1092.png",
+      "sha256": "77138892c280e982692f98df1fefc074493f56ced5174d4d3960d772cd85552e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1093.png",
+      "sha256": "d622f620f647da7568361b3f4de48f537c0327b4e3bc413944ac972739456418",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1094.png",
+      "sha256": "032af003417eab6f08f4989869b78144abd6039f91ee25c5842d77e5dc1f3b8a",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1095.png",
+      "sha256": "c9cad884ed18c206a9939fae9ae183f347483dabd8d5a54814a21cc40c6a6a4d",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1096.png",
+      "sha256": "1cd47d04ff4d9f30782f623cd7adcb6cacdfd792ca7b1d6c7f5f0cd1995d1bfe",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1097.png",
+      "sha256": "c8549d824bad228763bfa702495190ca7cc5e89920d581f0833a7f4d888e21ad",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1098.png",
+      "sha256": "6ce04e99d8bf5088f38ad5efd4fb8ddca31edd14deb46020f27cd494c458420d",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1099.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1100.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1101.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1102.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1103.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1104.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1105.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1106.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1107.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1108.png",
+      "sha256": "79f042ddfaa3bc5904f267d7715f8dc3ea372a79d971ac72432d3310faa44641",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1109.png",
+      "sha256": "3ee25ebd7d2eab09801a12fb4e2b2bfe551cfdcf7265ed067d972fc542148bfb",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1110.png",
+      "sha256": "3ee25ebd7d2eab09801a12fb4e2b2bfe551cfdcf7265ed067d972fc542148bfb",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1111.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1112.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1113.png",
+      "sha256": "ea155a34cc2d8695dc31b3b8ca5ccf8669f99e7adb6892ad2280464c4a9a51fb",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1114.png",
+      "sha256": "36cd6a77c23aedf722ed3781cf518aaff2bf8f52b2d2e195a0b4e5f8535163a4",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1115.png",
+      "sha256": "fc4bcbaa1754e2aa86a27d4d8415c6a408aa46944b67c7bb64f45330714a7217",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1116.png",
+      "sha256": "9e401429741e873a85589581244960c111c37fb575512172e4832f56fe235ae9",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1117.png",
+      "sha256": "f3fe270859e648bf2232f1eb608605a59ff29c7fa0d7f8169461981bfbce99c6",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1118.png",
+      "sha256": "5b0be2659d3cd12a9f8098ba22201298e68b0bfd82872d80cf299bb1d40b4f80",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1119.png",
+      "sha256": "d46bf9d9844382b353d6572c4489172afda886541e607db8494dcd9de2b5abdf",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1120.png",
+      "sha256": "7bcff775ebcfb57947f44028697f59aeb1d47d13f5e2b52e6442547cee77aa9a",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1121.png",
+      "sha256": "cba531279cef31ea4990dc0b122739d520ed79e923ed9e621389af4bba8d9e06",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1122.png",
+      "sha256": "442ae026669729b7c829e987aef7a7526b3ddb35af2b9cc538b8b3a755aea7ef",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1123.png",
+      "sha256": "953fc065b0b6a579fcc413ee60eca04a80044cf4168869d8e203f52a17c8a808",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1124.png",
+      "sha256": "62c616fadcba4639cf06b49218e651bffc9220479602c56e8a4f9e54d8df29b1",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1125.png",
+      "sha256": "ec5507dd0c4e7f228b2722717fce0ed3efe1ddf18768c753eac826613a024657",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1126.png",
+      "sha256": "f970f0ea6bd8543195717cf0f50a45ddc48f4db049ba22dcb7f8ca247486a519",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1127.png",
+      "sha256": "80e985974e3041cef34f5b47b276c6ec40b0493a3c71f2a32b49be6020b4341d",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1128.png",
+      "sha256": "3d03a76bdd922ee136bf58293c1fdc5a309ba16545ad3dd4f6c03e71e3d4396d",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1129.png",
+      "sha256": "bac91cc718cdd188a144174cc7c2b4e1579205d35c701f5442bb98759f2425ca",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1130.png",
+      "sha256": "56f925c4d58c85dad4036b5f8de11786722093a2b252f339564b0f744451404c",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1131.png",
+      "sha256": "6534d09a52240f731cefd516589d897d6f33be493cd4a95318934fbe9bbbb3bf",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1132.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1133.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1134.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1135.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1136.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1137.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1138.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1139.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1140.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1141.png",
+      "sha256": "d8aa4d0a3f3b266d360d98dba49a137d77be394b09adc724d80f3866d7e99d22",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1142.png",
+      "sha256": "4d59a0dc7d84cf8f2cee72209e4484464d891ed16b8ba0bd2ee1debb2cdb2726",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1143.png",
+      "sha256": "982c481556f73bb77b3b29a5c3b4b9e4b664463d490c74ce4995eafe5bc02e21",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1144.png",
+      "sha256": "c8549d824bad228763bfa702495190ca7cc5e89920d581f0833a7f4d888e21ad",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1145.png",
+      "sha256": "d622f620f647da7568361b3f4de48f537c0327b4e3bc413944ac972739456418",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1146.png",
+      "sha256": "1cd47d04ff4d9f30782f623cd7adcb6cacdfd792ca7b1d6c7f5f0cd1995d1bfe",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1147.png",
+      "sha256": "77138892c280e982692f98df1fefc074493f56ced5174d4d3960d772cd85552e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1148.png",
+      "sha256": "032af003417eab6f08f4989869b78144abd6039f91ee25c5842d77e5dc1f3b8a",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1149.png",
+      "sha256": "1bcfa752853dd281bf184b0dd59fd7e31419ae178651bd0effaf43c7b2734352",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1150.png",
+      "sha256": "d71122893d94b9024ceba49a1d0b12eab5a7f5e1988def80feba62f51838dc67",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1151.png",
+      "sha256": "dd418ff49b857441f7173c6457a04820a06a86f33312a65b330e46d146c43148",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1152.png",
+      "sha256": "217fda0d3b5b1997a3e2b3b242da2e77116f97599bf6e5c5c6a5827c04481b7e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1153.png",
+      "sha256": "5eeec1b49b01e659177e4ebed26867a71ca9f8211974e16ef50ebb26b38a3be8",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1154.png",
+      "sha256": "2e483655b5016d473a60c752473017a20946f6ca144ba4f13e49593f537c3fe7",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1155.png",
+      "sha256": "30d5e7022020f13b0db08d1ba89ff7f6c6496b7da77837d306686a74070aef13",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1156.png",
+      "sha256": "7c062ffba9f82d6d8b2757c0d7d11e28fef2942828fc7665abce2574e922845c",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1157.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1158.png",
+      "sha256": "79f042ddfaa3bc5904f267d7715f8dc3ea372a79d971ac72432d3310faa44641",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1159.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1160.png",
+      "sha256": "e57b6880a161316ac21e614d43bc7f343e6e7b1a3d734dd033738970d0709326",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1161.png",
+      "sha256": "eed960557e4611dfa0fb34a4b2922aba6b5299dfecece86497bf75d6f10a30cd",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1162.png",
+      "sha256": "0b1c4e60a6fe78aa500664fd8a7b3279f6ba2d1aac0d109e3ea91f1938d849e6",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1163.png",
+      "sha256": "88bf34720439c5cef71fe753c45ebf022601f62153441dcb8ba861196fc02516",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1164.png",
+      "sha256": "88bf34720439c5cef71fe753c45ebf022601f62153441dcb8ba861196fc02516",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1165.png",
+      "sha256": "88bf34720439c5cef71fe753c45ebf022601f62153441dcb8ba861196fc02516",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1166.png",
+      "sha256": "88bf34720439c5cef71fe753c45ebf022601f62153441dcb8ba861196fc02516",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1167.png",
+      "sha256": "88bf34720439c5cef71fe753c45ebf022601f62153441dcb8ba861196fc02516",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1168.png",
+      "sha256": "88bf34720439c5cef71fe753c45ebf022601f62153441dcb8ba861196fc02516",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1169.png",
+      "sha256": "72a7de9da564e9a2036084e62a8def6ed33f9e8f05555b6065c118cbb1dd0cdd",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1170.png",
+      "sha256": "85900ea76a809863d4ecadb6e09fee26017966039110f43cf0c2e4494c077da9",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1171.png",
+      "sha256": "4e1c6c41a398e301ef52cc69e88f1afd613d4c659ce2cbd15c7f5d5853ee99f9",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1172.png",
+      "sha256": "abd6dd9f3349acaf6ab2744f682e6a122cc808fe798da75a7f3d58f650e12a7d",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1173.png",
+      "sha256": "9e329d3e337ea757fbeaf97586653754451c05549766dd623193a949ca119053",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1174.png",
+      "sha256": "ba4291f1b52b0bba920ac7a5a8dc12281cd8a59a9510d9bf595fd45ab78dcbd5",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1175.png",
+      "sha256": "dea36a58124df79dad9e1ea6277004e70992344f45315fc129ad99b93c875e65",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1176.png",
+      "sha256": "3a0989f62fe2e349ce8f2f9d614e58c0c5b884e002a7ce9cf6c5cd790de3250a",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1177.png",
+      "sha256": "8a799bcad26ba63c0a588a71d4099db9158ee961b709cf05d044e1639fece981",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1178.png",
+      "sha256": "0b4c6f6c258ec7d613d34d55642fabfa3319d997f65e62d7973deadeb6de3853",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1179.png",
+      "sha256": "2ce0bc7ebc007a1bc2ee9c475c96d122be7aa983b0f0c656ff66dfba7afb97ff",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1180.png",
+      "sha256": "b3906f0c93ce946f4cb83115a7735f89bd7e1b787326ae1cf31da3186330e659",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1181.png",
+      "sha256": "558e02ed49671dea1d0c9b9a0fe0278e557dbf2e25f88ca8a14a66b0295079a4",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1182.png",
+      "sha256": "5efd3ce96df1e9991a042671000674f2183fb8eb2127747087e41e930cdb7846",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1183.png",
+      "sha256": "a5e9b841fba8366425c24483a467527b7f43ef58665a6b4f7e37a57cadb95604",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1184.png",
+      "sha256": "b100e33f0613d28125968390659ae33551c25adbcdd1be771e1f47912fece57e",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/portraits/1185.png",
+      "sha256": "c0ee44c4bfbe267c741219a153290402d075e04bda56870a78bb2acb587ab11a",
+      "existed_before": false
+    },
+    {
+      "path": "interface/apdc_parliament.gfx",
+      "sha256": "4125655bd1fb36a95591bdb6ba3e255420491e2f5cfd5d87eff49bd64fe3fee4",
+      "existed_before": false
+    },
+    {
+      "path": "docs/parliament/20261107-implementation/artwork-audit.json",
+      "sha256": "538e1a6267943de8317cd8e5b46370a94e55937f21e0e865da8ae41b266e3496",
+      "existed_before": false
+    },
+    {
+      "path": "common/modifier_definitions/apdc_parliament_law_modifiers.txt",
+      "sha256": "0743abbb7dcd68c1b69b5cab553bb98660c56a571ef08d8df7767518d16e9b1a",
+      "existed_before": false
+    },
+    {
+      "path": "common/ideas/apdc_parliament_laws.txt",
+      "sha256": "528d5b17232fd207c160e49562fc56d3f19a125ab363dcb6f89d2e3cdec11693",
+      "existed_before": false
+    },
+    {
+      "path": "common/scripted_effects/apdc_parliament_laws.txt",
+      "sha256": "3e0202145b198d2e2d2f4a76c42bf3ed2511c8ccf95e7abac8fe0203f4691b37",
+      "existed_before": false
+    },
+    {
+      "path": "common/scripted_effects/apdc_parliament_story_hooks.txt",
+      "sha256": "ea922544ff682f4d759bfccfbb4489d225b7eee13ad9925b5007aee0daa0f7f9",
+      "existed_before": false
+    },
+    {
+      "path": "common/scripted_triggers/apdc_parliament_research_hooks.txt",
+      "sha256": "373f1c6d9a8f2b281038d5cd3dd8d51a5ccf6476ff6c73fa1dd0aa991e0648be",
+      "existed_before": false
+    },
+    {
+      "path": "common/scripted_effects/apdc_parliament_periodic_laws.txt",
+      "sha256": "d5441b2c0d1007abb0ec051cb9a1db51c20970d3f4cca28bf47480464051acff",
+      "existed_before": false
+    },
+    {
+      "path": "common/on_actions/zzzz_apdc_parliament_periodic_laws.txt",
+      "sha256": "fe2ad553857b1fa97ca1286c6cf08cf81b2deba3b57137cbdedbde34e7dd3137",
+      "existed_before": false
+    },
+    {
+      "path": "common/ideas/APDC_economic_systems.txt",
+      "sha256": "0f517113d81f15867a80caff6e6bb8793da47ddc36f419223a5f99ce7ad11c61",
+      "existed_before": true
+    },
+    {
+      "path": "localisation/simp_chinese/APDC_economic_systems_l_simp_chinese.yml",
+      "sha256": "0a25a0e0700218540205936345fc45cd6c1424a711a0323d6ed60d288089d856",
+      "existed_before": true
+    },
+    {
+      "path": "common/scripted_effects/APDC_economic_system_scripted_effects.txt",
+      "sha256": "21f38ce0203d711015a9eead4a195cd7916fb03f5455167b489341998b9bc3a4",
+      "existed_before": true
+    },
+    {
+      "path": "common/scripted_triggers/APDC_economic_system_scripted_triggers.txt",
+      "sha256": "d0007b0d75412550f3c48f127a74c4e914c23473e018daf5c92ebe2230e0cbb6",
+      "existed_before": true
+    },
+    {
+      "path": "tools/economy/build_backend.py",
+      "sha256": "61b1c63adb26b5b222f01543657625482b086e0a32d573e964d0fa6ac5e8b8bf",
+      "existed_before": true
+    },
+    {
+      "path": "common/scripted_effects/APDC_economy_backend.txt",
+      "sha256": "46a62ee39ded260330c1fffc5a50e152e23178441f484f2477543b4429d74462",
+      "existed_before": true
+    },
+    {
+      "path": "common/scripted_triggers/APDC_economy_triggers.txt",
+      "sha256": "2675090052c5519db020b97421583759c800477f7ae9e5e147a4c4290e43695f",
+      "existed_before": true
+    },
+    {
+      "path": "common/scripted_effects/APDC_economy_equipment.txt",
+      "sha256": "ca86d0cc1ad842ee3dafe0e36d2f488cdd5a64f0c8500bdcecbf3125252a14e5",
+      "existed_before": true
+    },
+    {
+      "path": "tools/economy/build_equipment.py",
+      "sha256": "4c2d451f4895bb60eb7c73c5bfc6c76ebf5e7e89f3db9396058850ca37fa8d3c",
+      "existed_before": true
+    },
+    {
+      "path": "gfx/interface/APDC/economic_systems/bandit_economy.png",
+      "sha256": "223508d258775a86e5f739ad2daf36c11597697ac1fe92da11efa69a825db47c",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/economic_systems/traditional_agriculture.png",
+      "sha256": "c07fbb48c08ed87a6c0ac4429a04f46228f557a0fe027a2d0252c2812d39e216",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/economic_systems/dependent_economy.png",
+      "sha256": "1155d4013fa995f8976a4d54c1ef7a1781a9d71339520be7d1c9455642f9150c",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/economic_systems/free_market.png",
+      "sha256": "f10392ddb5d6b8fcffb1118c6120e45407851e2229f7c740b9c13dad9fe80ae8",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/economic_systems/mixed_market.png",
+      "sha256": "0a4c7a70a5759c2f70c463541ecca540a9db28f23af16ccdd170aa76588df49b",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/economic_systems/state_guided.png",
+      "sha256": "0f786d36d2435db5dfcd0d7c84514c5c748dc51ef058fc9e5aa091df4d968351",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/economic_systems/state_capitalism.png",
+      "sha256": "7337f165f7afb298ae638d335421925bf6399175968d651f5962a6f65e0ebbf5",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/economic_systems/market_socialism.png",
+      "sha256": "8bf0eed5fff9cedcc3981065b0224d0486fb5dc0afa17db34f09e56b5d100f57",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/economic_systems/decentralized_planning.png",
+      "sha256": "33e830eba4cd27ae3ac9972e0fc17a723bdb603eedcb46a18619c2d463b3070c",
+      "existed_before": false
+    },
+    {
+      "path": "gfx/interface/APDC/economic_systems/central_planning.png",
+      "sha256": "1bb9a5d367c8b2637a71e65b4a252ae8a51ffde9453bf43ed92a9809adfcac68",
+      "existed_before": false
+    },
+    {
+      "path": "interface/APDC_economic_system.gui",
+      "sha256": "d79db46207ed4b4ce364cdc3e966efed7734792e1a38e1836c3c0d6ff00710d6",
+      "existed_before": true
+    },
+    {
+      "path": "interface/APDC_economic_system.gfx",
+      "sha256": "eea326ad6d8a87cf75d4e7b442c53ad4d08fd0126c9381725e56e4bd74764229",
+      "existed_before": true
+    },
+    {
+      "path": "common/scripted_guis/APDC_economic_system_scripted_gui.txt",
+      "sha256": "a200de32468ff01ea3e91ef979a19d59e4ddaa17b05a16cc2f3dfb8ba9212494",
+      "existed_before": true
+    },
+    {
+      "path": "common/scripted_effects/apdc_parliament_cabinet.txt",
+      "sha256": "4d4851b922b269f7f42945972232cf2c7bbb87c5b20cb61b495eec3846ae857e",
+      "existed_before": false
+    },
+    {
+      "path": "common/scripted_triggers/apdc_parliament_cabinet_triggers.txt",
+      "sha256": "ef0558835b98681c192360077984bbd298e6285239ed83ef6e7f9684b9ff3448",
+      "existed_before": false
+    },
+    {
+      "path": "common/ideas/apdc_parliament_chief_traits.txt",
+      "sha256": "4541f25290118c70b8037281ea35628a06842a42be6a98cea11815f64a9d6b26",
+      "existed_before": false
+    },
+    {
+      "path": "common/scripted_localisation/apdc_parliament_cabinet.txt",
+      "sha256": "51d782ff5ebd0346b216cc7b1ec56c4f89b49459dbd6dc513a3a94a84e4c3f63",
+      "existed_before": false
+    },
+    {
+      "path": "common/scripted_effects/APDC_cabinet_scripted_effects.txt",
+      "sha256": "6d62b53caf6110483e69252b63d91dbc3663f3606a6fad70703e81dfb7530fcb",
+      "existed_before": true
+    },
+    {
+      "path": "common/scripted_effects/apdc_parliament_backend.txt",
+      "sha256": "0513fa19c2250d6cc640ae0e62c914f399bf502ef8879281b6ff4f9499a24481",
+      "existed_before": false
+    },
+    {
+      "path": "common/scripted_triggers/apdc_parliament_triggers.txt",
+      "sha256": "4dce3d28ff6fd5930df628070019038a3cb001da8a7279725ec0f9c3aae1f1d5",
+      "existed_before": false
+    },
+    {
+      "path": "common/modifier_definitions/apdc_parliament_modifiers.txt",
+      "sha256": "b0b471ca59948cbf4ea28e428b106ec879628711cddd1a43f0e0f418f255b243",
+      "existed_before": false
+    },
+    {
+      "path": "common/dynamic_modifiers/apdc_parliament_dynamic_modifiers.txt",
+      "sha256": "6da51c871211ab05cf6fca1ef537c80e7883d90ede986175e8e99feb22716a5b",
+      "existed_before": false
+    },
+    {
+      "path": "common/on_actions/zzzz_apdc_parliament.txt",
+      "sha256": "7bff165987e1a8e2b49f11fb68aaca9a372cd209e4400b92ea63722f8b8b5395",
+      "existed_before": false
+    },
+    {
+      "path": "interface/APDC_cabinet.gui",
+      "sha256": "bb9a339979722e8811d17942a57b57934e1bd2a383b852607cd51c6bf27aecc3",
+      "existed_before": true
+    },
+    {
+      "path": "common/scripted_guis/APDC_cabinet_scripted_gui.txt",
+      "sha256": "86777371952b066505a6ef7cddaed17e8fae400691e5619a0db74d5099b03636",
+      "existed_before": true
+    },
+    {
+      "path": "interface/apdc_parliament.gui",
+      "sha256": "ca581ae8a3541b4d855548509e9e1563530c6020ad358c14d389f54002b3cf66",
+      "existed_before": false
+    },
+    {
+      "path": "common/scripted_guis/apdc_parliament.txt",
+      "sha256": "76c6da7a27fd7f89f5e7f24c1077fe43c03a839edf2a23266394ce80ffacdd4b",
+      "existed_before": false
+    },
+    {
+      "path": "common/scripted_localisation/apdc_parliament_ui.txt",
+      "sha256": "9e85e3f684500c5015c50021212208ffc88acece5ee7b5a92e5ec25d87776539",
+      "existed_before": false
+    },
+    {
+      "path": "common/scripted_effects/apdc_parliament_ui.txt",
+      "sha256": "30cf84dbcbeab4a03656b0dc68e21495c554b64bc52a6a147e6c1eddd3c2e506",
+      "existed_before": false
+    },
+    {
+      "path": "common/scripted_localisation/apdc_parliament_sources.txt",
+      "sha256": "7475a243735f783f451c64649aced750b7b576e915f41589d1144937adb35b08",
+      "existed_before": false
+    },
+    {
+      "path": "events/apdc_parliament.txt",
+      "sha256": "d2e0cc386a7773641ed6000b3df9563d0e7157aeb30c5d9a41fb2edf5fcf3651",
+      "existed_before": false
+    },
+    {
+      "path": "localisation/simp_chinese/apdc_parliament_l_simp_chinese.yml",
+      "sha256": "a1b6549c2cd129af750acad1b6fc659ab360dacbcc33355b6c46288370b66fc4",
+      "existed_before": false
+    },
+    {
+      "path": "history/countries/AAA - SYSTEM.txt",
+      "sha256": "161ad85f6c3ba21acd4f9577ec8a596ddd328d5d3cb27cda282ce6c201565c87",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ABK - Abkhazia.txt",
+      "sha256": "6c2d03ffe1b9b18150088165d55aa3745c77eb189a525a33cf5d45869b10d93c",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ADU - Andalusia.txt",
+      "sha256": "184416edd96e374d85d6d42a1789f703f4ffb1202c35e2a7bc9d247d7a0c5726",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/AFA - Afar.txt",
+      "sha256": "196ebcd9eec99bba3aff8a5117b65cc8fe2c36d98ec36b54c984c9041fc7a810",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/AFG - Afghanistan.txt",
+      "sha256": "689c39d0d77dd1a9c47523ddbb44ae18af35d119551eed6c79b78e67feb4e6f9",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/AGR - Algeria.txt",
+      "sha256": "7a97059e0df1d9fd0762bc4f2bfff5b5f18d0915fb5cb2d97c6b6036d9dda336",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ALB - Albania.txt",
+      "sha256": "57b0232d26b254bfb14f7963e734a8943fa711bbde7040fc047bbf7eeabd7013",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ALG - Algeria.txt",
+      "sha256": "210440d11dcbcce353ddcef27952bfaf9c7fba98025262b5dc914b123ee7ab22",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ALS - Alaska People's Republic.txt",
+      "sha256": "2d91e08a5ac751a61e57966b11a1322a68a1f124405fdcc0673934214d97feec",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ALT - Altai Republic.txt",
+      "sha256": "4f39ceebcd785739889f019472e5bfdfafae377f7d28e952c77781aa4bba5916",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/AMZ - Northern Amazonia Administered Territory.txt",
+      "sha256": "eefd0de1f89dbfed64f50b420752883ae654f777f8d03681e13fc62e47fff367",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ANG - Angola.txt",
+      "sha256": "5b77a00b9b960bed28c89e3294d99cdf83bf88a916a764fbb5ca36e95268cb85",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ANU - Ainu.txt",
+      "sha256": "34fc49a3caff4611775f41fe2403b0d68b2d7aa9a4d4a49648c44955714b065b",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/AOI - Italian East Africa.txt",
+      "sha256": "df8a2531d6f75583d7502cbfccb679ae620f5a06bf6deee998c87265f48df82c",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ARG - Argentina.txt",
+      "sha256": "1f0c96a40f24f7edb8a2cb45932420bd72fd85e59e999996ff2332abca063ca7",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ARM - Armenia.txt",
+      "sha256": "0d48b67a7c9c785e4f4b17c313f69a44d6e0679b612fdc2fc66bc7caffeae80e",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ASM - APDC South Asia.txt",
+      "sha256": "eba3de766df67f7fa8ab0146eaacb43eee81fce006bd1222d55718b2a3d0bd70",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/AST - Australia.txt",
+      "sha256": "48ad1ea58a543a45d1fbcca2077b03e2f47cce826d1610151a929ca8eff2c2f1",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ASY - Assyria.txt",
+      "sha256": "c7f0f3abef8c5ecde16d2ab633c1230d844b537123089c2db4f634083f1812de",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ATG - APDC Map Country.txt",
+      "sha256": "b530ffccfa2773ca026628579727be931801806b93d4bd54570524851bfbd9be",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ATJ - APDC Map Country.txt",
+      "sha256": "cb3201d31b0bcf1a870cdb424dca67f93da57f9ff520616b54649008f76d4559",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ATU - Antarctic Union.txt",
+      "sha256": "3decd6e22af65f6ec783286998210005de745f4c303b6d4ad4ab33f4a8376a17",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/AUS - Austria.txt",
+      "sha256": "3bdc22ba02368b48217c23cd4e55815ecdaad8d068e860a235593a1c7ab110d6",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/AZR - Azerbaijan.txt",
+      "sha256": "61373456e895b9f809cd18727701d7a6496d7a91251004e28a57c523b97dc105",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BAH - Bahamas.txt",
+      "sha256": "c9a663d8901e4e4d77e118c3b1a0e2b84b9afb3177dccefd5e5ac4b5dd3854cc",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BAN - Bangladesh.txt",
+      "sha256": "604efeba05638e3b3632056f59faa67f8320182d211c2e6df6b9dc741755b52e",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BAR - Barotseland.txt",
+      "sha256": "aab4e471d67dfb2ac86a2abddab03b2d352404fb5dba08cc6b3d83ffce176390",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BAS - British Antilles.txt",
+      "sha256": "4c4794a2db33481d9e604c835bb47a4fa22760182ae02728538d745846d1dca7",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BAY - Bavaria.txt",
+      "sha256": "68aa376adfeb66bafe06f4fe6506b9d72c5c3ea4204a25c238aaf553e2f7cead",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BEG - Benishangul-Gumuz.txt",
+      "sha256": "33f876092cd7d80434afbb9318f932a3d82fda1729429e0dd21c41844cc8706e",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BEL - Belgium.txt",
+      "sha256": "f81001cc749cf0c0207498904b126101e398ef18c7f9cb849afc1d456a1e94a8",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BEN - Benin.txt",
+      "sha256": "bd9df4fb7c1d4a3270272cc6bbfcef0f20b541f63d851e5db8d41c5080240a5e",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BHR - Bahrain.txt",
+      "sha256": "8ca8837ef8baf683b25160e7d11200c398bf740fba0f1e44fb364c450f8265d8",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BIA - Biafra.txt",
+      "sha256": "60956bc3f0cda00140a80b6329eb48164fea1829f7a516880c1357d9bd921db4",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BKF - Burkina faso.txt",
+      "sha256": "bd39ddafc58e5266adaddac1a06fc5c022e8af6b1cb55d9b20c5621dcce69a85",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BLI - APDC Map Country.txt",
+      "sha256": "937ef9bfbf898fef454cdcb9ed50c815bfdc5f32c505b072cc14995738883342",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BLR - Belarus.txt",
+      "sha256": "27750f7e585f18c843704f0ca2c568154efc340e8a87dc2caf9db173aef3b900",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BLZ - Belize.txt",
+      "sha256": "cefb5d781fb13af128c36e025c9ff1569bfcdcb1776d14bce03173f1d437e46a",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BOL - Bolivia.txt",
+      "sha256": "71758d2862eca9bf53bc12125afd971794902958190a4069b60a14a83eb3ebe5",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BOS - Bosnia.txt",
+      "sha256": "adbd8b0a841be5ca3bb4a2d7278c1260473fb017810723f524ffcf6167d96b88",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BOT - Botswana.txt",
+      "sha256": "7d14033ce38d5e4c38d1680471b167656b4e0b0794e8a6a458dd80442f695921",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BOU - APDC Map Country.txt",
+      "sha256": "45b0bf3fb538b038e27201488b513fdee93145bb8bcaede5cee1100544df97b7",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BRA - Brazil.txt",
+      "sha256": "5fb17f70a92f1b7ac4d7a1080275741ef3e9e67675f783235a4748ac87e52494",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BRB - APDC Map Country.txt",
+      "sha256": "ab2aad9f17a1441f22f968a76bbc2e60c65b67d17f64de5a4c58f472d4a72657",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BRD - Burundi.txt",
+      "sha256": "c0f74bda8eb8ee01c1307c0fd91aa3e9109bdd655a8d9e4eb9a1a70d9337972a",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BRI - Brittany.txt",
+      "sha256": "4d9304399b4aacbe2510316b925722638202f770fa4ad5c624f1dc8958989d4f",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BRM - Burma.txt",
+      "sha256": "e307ebbf2098197eb312b4c55959317e66e6de3ac0ef7754c46155ddfab04311",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BRN - Brunei.txt",
+      "sha256": "9508d6bafc4e69ecb8cd0252bbfad1c699a1c15137a39187e0300fdfe47209f7",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BSK - Bashkortostan.txt",
+      "sha256": "30ca51cb1570ea741f6db405808d5d0e207b0b781a49f6a7ebad3d22fd5963c0",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BUK - Bukharan Republic.txt",
+      "sha256": "d203c7a578da8d610109cb96184ca285a37560ad1ddce600691b460c103cc0fc",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BUL - Bulgaria.txt",
+      "sha256": "93bd182cbe86a098a59fa2309f3afa07ae0e79fc308d77d7f8da4820758268be",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/BYA - Buryatia.txt",
+      "sha256": "32dc0fa472f86789e32eb67477566fc2906e7a4f9ecbaee60fff3e7580a784b4",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/CAM - Cambodia.txt",
+      "sha256": "645338d612a9ca2a3dec964499c06232b91269d4d389a25f7ed173e2d873ad26",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/CAN - Canada.txt",
+      "sha256": "65d8e87dc368f15bb673ffed7c94c8f8ded0f8bd94ddbc3584d1e78d4120541d",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/CAR - Central African Republic.txt",
+      "sha256": "51a3568752fbbe1d06e08d8b0c6d64499e23cf72267ba9f0e3e46cfcc9d48185",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/CAT - Catalonia.txt",
+      "sha256": "3f0ede5b978d0c3e32995895d9dac8a4bcf7759944c1a2f89d990724db5e8be6",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/CAY - Cayenne.txt",
+      "sha256": "317fc3a3330c9024d7afe1ee16b5709595c9b4a5c0ca80a43b646b0aee86cfcb",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/CBV - Cabo Verde.txt",
+      "sha256": "aa54529d1359f84163f917acf4726ca558ee041ea0614ab41dd4629cf77b2c42",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/CHA - Chad.txt",
+      "sha256": "501aa735a66c943892b61033eb8476155b81526dc3d306622c2aef8e09342814",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/CHI - China.txt",
+      "sha256": "4d1fa93ef1da9f5beac92022eb9f7376529413f79fb9e3c25c1cff3859cb39b0",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/CHL - Chile.txt",
+      "sha256": "ffaff310fab88f07e290a1b9c3c63ea4b5be60963b128a098ff29999ee1a8834",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/CHR - Charrua.txt",
+      "sha256": "0e0dbcc9000ff91f896ff05217fe01ee4b8b969f7224369646e160455f5ee67f",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/CHU - Chuvashia.txt",
+      "sha256": "a80dfca4ec45f0e1523e2f310d09029b94a2f4ca01bbd38a6d2261ac869578c7",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/CIN - Chechnya-Ingushetia.txt",
+      "sha256": "9e9d93910473e790cdae2ab9ff86bf435528bf9127b14283f68207fde8300b9d",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/CKK - Chukotka.txt",
+      "sha256": "e6a6186d72f6cb412a33c31f3035a4a9752d9ad2bdbcb2c7d39b2e5339d7225f",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/CMR - Cameroon.txt",
+      "sha256": "d02c73f9ea5e93b06750d79f99a7b45e23f2a829cab918915abd920fb4e1dc81",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/COG - Congo.txt",
+      "sha256": "248b419c2f9acfb27d583f55a89605fd35e3d51767360b14347cc907863ec53c",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/COK - APDC Map Country.txt",
+      "sha256": "87502623845aaefeea5119d76364284d0a2e3d0be5e6ffc453d674748505c095",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/COL - Colombia.txt",
+      "sha256": "cf91da467d77e33526700db8f315750bcb88b939a2e527f283cb1d11447edd20",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/COR - Corsica.txt",
+      "sha256": "0f2c6f9e541085727f9b18cffd241ed6cd2fdb8967b31a7936fa1734246ec236",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/COS - Costa Rica.txt",
+      "sha256": "4e340efa47d17c8eb7b9d289d001928a31de08f0f93c96fec2156cdaab610320",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/CPS - APDC Map Country.txt",
+      "sha256": "b8b8cdc19c61e8366952db85f07fe9c4fd8bf459ddeefc8b092bcaf6bbc7911b",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/CRC - Curacao.txt",
+      "sha256": "ce704db0c2dc42499697119492a9a551e1622dbdf6a70046865738671b7cf079",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/CRI - Crimea.txt",
+      "sha256": "686a2058d23086a76befd600b283aef2c4c158dddd28e933b42a0f7da422a1f9",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/CRO - Croatia.txt",
+      "sha256": "f20754015b3aabc87ffc75f3fb096017e8782ae982dcb3038de12fbaa466efcd",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/CSA - CSA.txt",
+      "sha256": "25732f5eda03d212dbde75ae0965ad48b7a2f9b6cfbd7609c176de23fcee8d08",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/CUB - Cuba.txt",
+      "sha256": "f959c990c9d28e33937608a1394f3beb9ac2d8022f36d9d59b092efc0afb0c5e",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/CYP - Cyprus.txt",
+      "sha256": "09a2a97486f787a976dfa410908cede8f45d6260bf29c3de8b1538daecd9226c",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/CZE - Czechoslovakia.txt",
+      "sha256": "15df629e8b6be94861aa0a2ec29dd7036beb2dc3e12a494128ccbc2cbf49aa0d",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/DAG - Dagestan.txt",
+      "sha256": "6a239ac824a6ae96f9975212b7089f456f5b147fdd931189ffe592ed35fc8c49",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/DAH - Dahomey.txt",
+      "sha256": "f4298dc46ed8f60ca0d0b92d11ea64bdf34cce7f631ed669188f6430a38b54b3",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/DDR - East Germany.txt",
+      "sha256": "c45b70f0c60f8b75def963d71038eb929b9cf6b096455de22b31a4ebfab9e919",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/DEN - Denmark.txt",
+      "sha256": "9d4c1538ce4e38fef09cd6eb90b1c0dae668a12ed855e4506d60b1a9a2e0041a",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/DHF - APDC Map Country.txt",
+      "sha256": "f64e2b9176c004b22b7216bd97e77ec3a71b14c87a109449cd37fa8ce5de6aa7",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/DJI - Djibouti.txt",
+      "sha256": "99c7f8841ca1352a951a4098df20a2ba66c24087750869ee4ed1b77f63d1f95e",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/DMA - APDC Map Country.txt",
+      "sha256": "a7b71bc81b2e80c69f2a678f6cb99d401a8d125491ba79acf57bdb88f797de94",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/DNZ - Danzig.txt",
+      "sha256": "f5d8a6a9802c7507955df129f35dd9d4e5b634259f35851bf41504795e17e65e",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/DOM - Dominican Republic.txt",
+      "sha256": "29bfa068fda7a20b313279c5d126bb36de97d235bce87f2ac5f7d477fb6c1d50",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/DON - Don Republic.txt",
+      "sha256": "4b3650ae90b3d0c20a20da3cfe02c7cb14843d39739ef42d035ec54c899bdc56",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ECU - Ecuador.txt",
+      "sha256": "be4ef709db653655222a32e2548f8443f34a3944bdf2219e8058f6fab576b8d2",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/EGY - Egypt.txt",
+      "sha256": "806afcd2594fab0405269a63618521888aa3be5becadc6850902abd00a6780bc",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ELS - El Salvador.txt",
+      "sha256": "fec74fe6f7fea5bc0f1e2de6ae3c25c1f2d4099f768885202a7650ecec7707e8",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ENG - Britain.txt",
+      "sha256": "497df3f9ef53a9bfbcbd4f595c46a8d3ee8223f48dda084ace44d87f1fcf8d76",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/EQG - Equatorial Guinea.txt",
+      "sha256": "b079f7bb9cb8e4d5d2fb3d179cc8d32119995ef4d2dbc89f87b5af338c72baea",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ERI - Eritrea.txt",
+      "sha256": "819035ba6f38677aec893ec1999b1b46bc604d19d5a27a39e0963b6aba8862b2",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/EST - Estonia.txt",
+      "sha256": "771136cd187ea7cfdfc3808bf75213adf1157c3b379e056f4b4d1f59248630a6",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ETH - Ethiopia.txt",
+      "sha256": "6769f64ef981c52f65eb7aabed6201fbef03a56dc490686b65d419b26deac933",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/EVE - Evenkia.txt",
+      "sha256": "70c20a9c4fb5b5ede7d0e8c48d07c3faad224f71f4e9ab31c2d5884a766e9549",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/EZO - Ezo Republic.txt",
+      "sha256": "3c2b8ef0d242737e4e7d39664a73b83a7f0698ff4214970ece03a329ffc6434b",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/FER - Far Eastern Republic.txt",
+      "sha256": "1ddb1296cf67b3a8d483868f56677d5ab41fa0b025400e3fb38e109020a7b480",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/FIJ - Fiji.txt",
+      "sha256": "c2da53625ed4a8e83564b4d4eb1c72e3f37867684c6541b5803a30457d262253",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/FIN - Finland.txt",
+      "sha256": "cf93da57a82c394304280543260e37e55fc8c5ec8d30625a4f77942f6b69e3ef",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/FLA - APDC Map Country.txt",
+      "sha256": "14d3f133848529899ea70c9f2c38dd7880ae0e9a59404ffe41919b62ea8e6b8f",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/FPL - APDC Map Country.txt",
+      "sha256": "92527fc82a994516574c80205b1679432d5897be71b31e852bd974a4c79f856c",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/FRA - France.txt",
+      "sha256": "c6d78dc6645f4c10d52447605774f4bd94a6018e697a34059dc37ce5149d6bc4",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/FSA - Federation of South Arabia.txt",
+      "sha256": "3b48ff3dea9918fb4503ff58f4a4e2a6b8ead12009ffc7bbec60578625c262ad",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/FSM - Micronesia.txt",
+      "sha256": "bad1070e76fbabed242c82e4b477e1b89b1fc7c588f286989d88800e8fbc1911",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/GAB - Gabon.txt",
+      "sha256": "7608750676529c323d06d8cc91f28d8c6a2ca2c5a1bbb312d53cbd7c06ad3c4f",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/GAM - The Gambia.txt",
+      "sha256": "a81949e4d980cff3a7ae22b0dc9c6690194dff78bc9afc1e43a139fddda5b8d6",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/GAR - Guarani.txt",
+      "sha256": "c28dc3e0cc1ae98d087639d1cc1f5da189be43b0e51b2d1ae64be36a6723a775",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/GBA - Gambela.txt",
+      "sha256": "ec91ac681c69c8759f5a2a62215a0cdf63fbd89960df698e29ca53f4527ba785",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/GDB - Gods Brigade.txt",
+      "sha256": "c08d2f133a1ea0b00449c1e675ef93735fc002856dfe9c452b0680451b8d5fd2",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/GDL - Guadeloupe.txt",
+      "sha256": "ed0b9f2cd2eb5d1809a23156de2e432dca2dd3d4049f28fd7ce82c40875362d1",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/GEO - Georgia.txt",
+      "sha256": "11e739a19f0af72d3b8dfb02ee6714661eaa57af3788fb8636b27bd50071b610",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/GER - Germany.txt",
+      "sha256": "ee805d60ade24b185e7e481434283256e88eccb2b9580c31299a186ad55a9eba",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/GHA - Ghana.txt",
+      "sha256": "2f63398c625fa7133b0aa0e1116f179d96dcf90fe13336e04264698a68df50c5",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/GLC - Galicia.txt",
+      "sha256": "185b7191f2ef9a49042743f2360fabf4fe2d29577ecf64f68196d740d3e2d357",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/GNA - Guinea.txt",
+      "sha256": "57a17e98a6508e670739a7f1d36ce426c876bcfc997aa469d848bcaa96d8ad6f",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/GNB - Guinea-Bissau.txt",
+      "sha256": "e0ee91a70ea2decb499311c228f996222152ca8377a41ce9b024f47a3ff6ca8a",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/GOW - APDC Map Country.txt",
+      "sha256": "cf06fc8e14a25649efc84de8b7d829af3efa428130658f1ca36dd28ce2e700dd",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/GRD - APDC Map Country.txt",
+      "sha256": "797830aa9401355257ccca6ce0eec9c8c1becfbef57ac08c9d07f7f4697a3e2b",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/GRE - Greece.txt",
+      "sha256": "f8e92a62d8f3477f5386d059c258ce084c14fc0af0bf453bdf0965e3dfb9e84a",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/GRN - Greenland.txt",
+      "sha256": "c50f84468ecb43b701a5ab2cce51055376020d77c7a4f14ad74aaf1be23b7f01",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/GUA - Guatemla.txt",
+      "sha256": "aa94bdcf6dc543547c9d40992e081c69ba7e169c1499c8821a53ee21fb125755",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/GUM - Guam.txt",
+      "sha256": "cf745d1d5a1222a197fea38e53838d14f21436662e31abf33799598b1b23604d",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/GXC - Guangxi.txt",
+      "sha256": "4291f553340b8c9748dc73398e938acab2c4640b8526b8b2a6aa473dcd8ac535",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/GYA - Guyana.txt",
+      "sha256": "cf323ccb3538302969d3c9f2af67592d59e42c7f01256313263294c21befb38c",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/HAI - Haiti.txt",
+      "sha256": "3716c2457bfd3db69ae5a0e29d8c1bf3ff0b92a16a4b3586400497d65ae4da6d",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/HAN - Hanover.txt",
+      "sha256": "ca78dc7835351299a84509888af46fce530f4eb28e79b1a50dd5d9d83b2d3cb9",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/HAR - Harar.txt",
+      "sha256": "17d7f35589a083fbd18cc9cff1f108a91a026a7306338075f3fdb97556041e6c",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/HAW - Hawaii.txt",
+      "sha256": "01f37b9c7e14739d586191ba06a92b1e89dd663e9334aaeab7564fbfb19a4d4e",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/HES - Hesse.txt",
+      "sha256": "01526badf2d5494e053930be97f273488cc7a662414392c1f0cb0d3abad5a1e9",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/HJM - APDC Document Setup.txt",
+      "sha256": "c0186d948788fd0422d1d63e354dd0948a070154916ff26663c7de9d5e51a9e1",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/HOL - Holland.txt",
+      "sha256": "c22535da15e10ddb169b549709b793b4d9179a84db265a20be11e7dba8c331f9",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/HON - Honduras.txt",
+      "sha256": "f0f4b552ff1803643262831006a8a17e9c587f7097b0eff3157d472571b1f8cf",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/HRZ - Herzegovina.txt",
+      "sha256": "c6a87489b4dbe21ca2191de3f37c2f288b75c6768635753a0c2000cdc1e84cb6",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/HUN - Hungary.txt",
+      "sha256": "a3f9896b8645ed81ae3b7ecfc15031795cd211705e6e3cf1fca2268678738036",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/HYD - Hyderabad.txt",
+      "sha256": "ef7d226e498da9c13c83797f24d1ada19fb5f4655609d7c412a1b4f71c60ab30",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/IAS - Isthmo Amerindia.txt",
+      "sha256": "58561f5795c68d92a652ae38d8eac8a4e20802d240dfd6e308a444bd01fa873c",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ICE - Iceland.txt",
+      "sha256": "0bc03cb5c4a0350735c8db5cdae601b54c52a01d857ea47dacc8d3556b65ec2a",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/INC - Inca.txt",
+      "sha256": "37e8568e2cfa7ffc33caf73ef601e970ca1fa6a12296b00c5cf29df484fe0c80",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/INS - Indonesia.txt",
+      "sha256": "8aa1efdf0cf83829ec8007d2f918c59140d7f3d740e4d4b81b7b97d635542371",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/INU - Inuit.txt",
+      "sha256": "48f4a433c650a4a305facd40025025ea40ba9bbc355ab564b828c20d57905190",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/IPL - APDC South Asia.txt",
+      "sha256": "c3d2cc3ced577f3f25583627fdd40f5024abd5be21c86538f706a78d1a9ec47e",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/IRE - Ireland.txt",
+      "sha256": "eca02feb261b1e61ee9e4601a85d19c93b6c3ab0c103c2aedd512e633428b0ee",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/IRQ - Iraq.txt",
+      "sha256": "1f21d2e550110b99b3908e941a0a630f9ed2d74ea13de15ac90c7699f1d42f07",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ISP - APDC Map Country.txt",
+      "sha256": "53d1457b294cf451d971599f1147f6c2ed175e912f86c4da9ac684901162919f",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ISR - Israel.txt",
+      "sha256": "ac63bf8245d255c6006d761bbdf0b7624a582a3dddd08cef8ab54f67c62a84d9",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ITA - Italy.txt",
+      "sha256": "ed6b7ad0b005355085200b1c0afb7e420294aef8bc08bc9fee57c4d7c552d509",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ITZ - Itza.txt",
+      "sha256": "6f16283c254616c5991f41c813e42a817fdd163015cf96b647fcd75259afdb33",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/IVO - Ivory Coast.txt",
+      "sha256": "940518d20eb5b4cfc638673c5bd1a4941f8ebb0bfbd1b379a91e189a66a146c0",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/JAM - Jamaica.txt",
+      "sha256": "83b6c26ed8bb5c29d80f49e01a63c25aa692ad762ddbd7417a746778f04aa0b3",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/JAN - Jan Mayen.txt",
+      "sha256": "e9fd890ae9177194fadad38f801fb5177ca811e884d2afabdc778e50bf18aec6",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/JAP - Japan.txt",
+      "sha256": "b45dc1c2253df361f525c84e38a9bc38d3839cb7f6a265066690f83c336fffb0",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/JNM - APDC Map Country.txt",
+      "sha256": "480e6b4d16e804b33f479131d7aa2e52d79af04b41358800db9c52bc2527f4c6",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/JOR - Jordan.txt",
+      "sha256": "9e84485d24458ae01b5408b8d2cc8780106c0d1106678c52e4628de711bd84d9",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/KAL - Kalmykia.txt",
+      "sha256": "fb129a0de7cb6c7b266ad1682007baa24b028753532626e1203d8f8a192dcc8d",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/KAR - Karelia.txt",
+      "sha256": "0bde0b61d4a32eb98008b6972b7e8e13e6d9b827b403d057b9998ddb489d7c97",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/KAT - Katanga.txt",
+      "sha256": "3516f3d26cb53d40a084217acb2f46d69191ca8b74715d5b69f21e55c741165e",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/KAZ - Kazakhstan.txt",
+      "sha256": "0f6e752e83152cdedf5eee0a9d8c045ab5c3b75d071fe4c22f6a5d98a35e81b6",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/KBK - Kabardino-Balkaria.txt",
+      "sha256": "809819228aa09f091895ab598d4a25d8bcde3c31a021c7306e88e09a93cfbd7e",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/KEN - Kenya.txt",
+      "sha256": "f1de4f40f4233a88ed33d5c0a454f71fb9fa970345ea5bf2e4e92bfc3dc6bb97",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/KER - APDC South Asia.txt",
+      "sha256": "15d7a1077e3bef075e94d6ab8f460c44e2b9c85143a03f866275450808f77dac",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/KHA - Khakassia.txt",
+      "sha256": "25c53e2f1bf1dedff4c75d3e489386945b706145a0651ea1bfe4283448336b6b",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/KHI - Khiva.txt",
+      "sha256": "e7deb7c037dfdf63eff83fcd8ebcbeb910f8ef4d79813b35f9c5f3397c7cc085",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/KHL - Khalistan.txt",
+      "sha256": "85457d4b12e9056a341be8f28be0f903e2a82a40705a8cfc7b5abc9a099d548b",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/KIR - APDC Map Country.txt",
+      "sha256": "02507ee362f200e0d44a79db9e4db1f269edf0eb571f7f3dc171ce4b6f48178c",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/KKP - Karakalpakstan.txt",
+      "sha256": "752ce0d786afed58f965c2b991c57afe3da8fbaa0f25f074d7026fd6513f0ac9",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/KNA - APDC Map Country.txt",
+      "sha256": "53366c194bee546d4ddac42f1d70aa6d56cd5bef091cafc7463d18219e3d20a1",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/KOL - Kolhapur and Deccan States.txt",
+      "sha256": "9d3820c183d3a71cd07f9e38148451b61c627b30e12ccd40390d41158d318e26",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/KOM - Komi Republic.txt",
+      "sha256": "a009d9e70536e696a11385d02c83b5c4a77599df07816c8e8964e83d69e20331",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/KOR - Korea.txt",
+      "sha256": "2d030120cec9d6a9d46538fc79eab92d19f4203bd7371ed442a7e649aead57e4",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/KOS - Kosovo.txt",
+      "sha256": "97d0d2ac5cf327f5a15dea31406cf6402f095c54e83f62660ce6cc20e5ad6a23",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/KSH - Kashubia.txt",
+      "sha256": "6d6cb5eaa342d3d71a5990f6534c9f9d99ff0ae6e4e93344bc86e54acc6873a2",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/KUB - Kuban Republic.txt",
+      "sha256": "77dc1c328b50ac90bb635960ad5746bbaa3c1a34abe9151878b80d17fab9c71b",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/KUR - Kurdistan.txt",
+      "sha256": "a8ec4b4582cd8b45231aca0a12df5dcabb84cd78155034ff43435f6f5dcae423",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/KUW - Kuwait.txt",
+      "sha256": "555a029d669a63819b017bee5dc68cd93576f3f0a0452808ec59b18add49ba8a",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/KYR - Kyrgyzstan.txt",
+      "sha256": "90319864e3e895fbd86826d956a34b0cf2046957e8439de02ed85b650cc95cdd",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/LAO - Laos.txt",
+      "sha256": "af4656d5bbc9247bb0489891a9cbbe94484214237733af70b565081d38185250",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/LAT - Latvia.txt",
+      "sha256": "3513694f28c117a1ee10aca24bfd800b3ab732a90c01cb1055955152c4675cc7",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/LBA - Libya.txt",
+      "sha256": "6d94ab395d134b1fb23504a359d81afb89321e9cf7c3eb492b77b72820b3cfe8",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/LBV - Lombardy Venetia.txt",
+      "sha256": "c4fad006a76c3600408db9f0f81ee4dd24499f75945e63f1127499fa33f579a0",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/LCA - APDC Map Country.txt",
+      "sha256": "cf35ec33fe7254d53783d2d78ed8cfd0871292f43a1e70a650bb4c78910be443",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/LEB - Lebanon.txt",
+      "sha256": "c57006d564ecc58d36173e0ec0e012950aa4585915c2148d02795127d15981ec",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/LIB - Liberia.txt",
+      "sha256": "2c704c48aaec227850beb31555ee1b7421f087ec2ab8584bd6ce153cfedc167f",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/LIT - Lithuania.txt",
+      "sha256": "790c7d5319e1a03af80fbe809b90be07d00419fee5bd25185c054a6fb4c914e4",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/LLU - Lowlands Union.txt",
+      "sha256": "a86fe9a40d2cb655c0a40e6c3b2fdaec9a1740b010e56647f48e447ac5502d14",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/LSO - APDC Map Country.txt",
+      "sha256": "e45ac2f3309e88bd57101ff4d870b01a72886c4c53ab86d83f3b15f4256931a6",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/LUX - Luxemburg.txt",
+      "sha256": "8fca068bafb096a84f10022270840f81c2128a23db52d2dd7072483667e7223f",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/MAC - Macedonia.txt",
+      "sha256": "526a06cc2477ab177b9d3da42ca8833d3b9304205414c1fc9bae4ea7156cfa3a",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/MAD - Madagascar.txt",
+      "sha256": "2c730329989a8d7d2e58f8e8da7ee7f1ac9f85c540f821418753a4f293baa885",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/MAL - Malaysia.txt",
+      "sha256": "2c6fd1dc2713eaa2190badf033e711a1e2a761a388e19061a8b1eff3ba45dc86",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/MAN - Manchukou.txt",
+      "sha256": "abc4e450fa3f67a39bf6bf417c7011afefb4e57d21e59ff1d680bfad53c3cbd0",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/MAY - Maya.txt",
+      "sha256": "25cc2f1f43da5161ab5e193953e48e3f2215727ba1d5964979b9a644b2b5615c",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/MEK - Mecklenburg.txt",
+      "sha256": "6dbb96b707cd0b3890c75d60ba9fec7f92977d439fc25606a7a8b9155bec2ed2",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/MEL - Mari El.txt",
+      "sha256": "6c92553132217e8c4813b4a1479c0eaf0973e4c682bbd249f732a2cb73033a5e",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/MEN - Mengkukuo.txt",
+      "sha256": "f0e6f597ff05b2ece7e5bd6d579be296ca315277b331415c03308e2a891528b5",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/MEX - Mexico.txt",
+      "sha256": "03f69059c750c9dc5fdda53d900cc9553df3e96533ae985db86abf34f05b2d9c",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/MHL - APDC Map Country.txt",
+      "sha256": "f4015f1905493b6e2b6060f1e38e4456cd35ec41514528fa13e0a4465edb8123",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/MIS - Miskito.txt",
+      "sha256": "c0009c19ec357e0368e21d3c833d863ebcdb485e083aaea3b0ab36090986421b",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/MLD - Maldives.txt",
+      "sha256": "db18eb2f5791cc21c316d8760339f868c2406b115776b5719cdbc3811825fed9",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/MLI - Mali.txt",
+      "sha256": "1d1df3ed42fcd499643017defc17a1284fe961835290a92fceebe24e9356ee93",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/MLT - Malta.txt",
+      "sha256": "9d121d6d586033c2b4d258023e493a8625ce924b1da2ad20a66443d3c7f09779",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/MLW - Malawi.txt",
+      "sha256": "9c195dcad5a22885483ae79d4134684247e40736e0ae57f4ad6aad07713b3c1d",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/MNT - Montenegro.txt",
+      "sha256": "ed5b19bed7c3832e7adbecf6bf36fa43febef407bede1ee5449175e3c45a2352",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/MOL - Moldova.txt",
+      "sha256": "9c8902001da61d0f5ae309940d331f77cb1f9bbc3ed13986f3c278eb923f3a05",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/MON - Mongolia.txt",
+      "sha256": "c777bb05eccde48bf0fcada345124c03a9444767d61a5f4f9badec00b7023d20",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/MOR - Morocco.txt",
+      "sha256": "2c14fe28cc7508244d4bad4afa2f6b59cac7f4edbd3acf1ab6691a168147bd44",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/MRT - Mauritania.txt",
+      "sha256": "c9809db05ef672f586b49fef50ac7ca2189006d14ef0df83005a3d89608f6b4a",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/MYS - Mysore.txt",
+      "sha256": "714c4296a835d8d77071ffd8b670053a43086b3900a7814998129e6db751be3f",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/MZB - Mozambique.txt",
+      "sha256": "56f32436b97c3d682b590c9f88e22833543306a21dae3836f5ea838f17c2cf00",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/NAH - Nahua.txt",
+      "sha256": "9385d0699feb316e27fbf570523af5f2f5066e3808538dcbd9cf8c80e0d0d10b",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/NAV - Navarra.txt",
+      "sha256": "0aff731407289ee2451ac45b599584ec451f19704ee9ea56da20159ebdf1b7c2",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/NEN - Nenetsia.txt",
+      "sha256": "9fdfec2bb99007fa7d91fef036f785e320023c083dbf94f8d7c2789455675a9b",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/NGA - Nigeria.txt",
+      "sha256": "4baff9e7ababd63b8c82eea0309b19803ecb5a0819e41b7454a717c1938413e2",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/NGR - Niger.txt",
+      "sha256": "d497daccc2396b8d75128b2bed50056b6d73be770cc3c156c0ad6e98e95938d9",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/NIC - Nicaragua.txt",
+      "sha256": "2622ef4be459184c9634b9895a88c4fe7923d6fb1e2c1cf6161b4f8d1f9bb2e0",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/NIR - Northern Ireland.txt",
+      "sha256": "e30ca678d79616ec017f7344ea92ae79eac3a2aa900b15ce46b2d2e3acf60248",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/NIU - APDC Map Country.txt",
+      "sha256": "d6414fad79b8366e4d95a79b75598c8a9e3e00a5278ee2b103b8ec6057c942d6",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/NMB - Namibia.txt",
+      "sha256": "1b164743a4c97e368b8bbeafe142e0b5a2e07acb086c0fa662073f0688ca88d1",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/NOA - North Ossetia-Alania.txt",
+      "sha256": "0525583f67530205f3234225061bcda1924ce349240b4609156a543519655dc2",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/NOR - Norway.txt",
+      "sha256": "141a98eedecf210ac7e7da5bf28824e60412dd7a7b09e1b4fd905d7e81930968",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/NRU - APDC Map Country.txt",
+      "sha256": "23d9fb7554d6e0f083ad1e424dc8841d114025f9b37ca8cb0420ccadd7a57ebf",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/NZL - New Zealand.txt",
+      "sha256": "64e5ca68f705db502d280de9ed86b1cf7a9522f7c9638ec6a15536c9833ffc74",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/OCC - Occitania.txt",
+      "sha256": "d3b1747463d17e4b8653b07f535fe0148262ae16386236c9c43a8d53fdac4f11",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/OKN - Okinawa.txt",
+      "sha256": "b140d06b2539a1759c854f13b07506b85270b7ad4ab150f45b305345b3a53c0f",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/OMA - Oman.txt",
+      "sha256": "e802ad3f9da8ddfb4917bf6d72ca3d7199d644db0172e239ffb6667a7bffe601",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ORO - Oromo.txt",
+      "sha256": "5df4565a8a89d11533af69589d14cc12b84e64b1a41406c0203f4ca8e82bec78",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/OVO - Ostyakia Vogulia.txt",
+      "sha256": "f0f25775d039cfd0089b6e933eb0dc19ddef80ed974dd4700c10fbbd59bad499",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/PAK - Pakistan.txt",
+      "sha256": "bd68e562977e023f9e74f1003df3a84d57c97fdb649cc5e0d3294f9449010ac4",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/PAL - Palestine.txt",
+      "sha256": "1b3ee8a88857d656e48a426e74a332cd2157220679cc29e09b733a1fb2cbc137",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/PAN - Panama.txt",
+      "sha256": "dcbe86e9c6e203ac1ae81994ef68b47e6f8dc3ae1ae17b89f973f0e1a006bb75",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/PAP - Papal States.txt",
+      "sha256": "8ea5ace61d51b1806b19ff73162da4c17bd54d9fca6a7386ddc50abb59c509a1",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/PAR - Paraguay.txt",
+      "sha256": "9f448d0a2be4690938c958e639f4d08a1d1b3d8b93cd2bd99b040e75ca63d9d2",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/PER - Persia.txt",
+      "sha256": "7e571a745945b63a9b28767a7a5ac91a9b3cf3e518af1d0d6c85389a51988cd8",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/PHI - Philippines.txt",
+      "sha256": "bcaabf2a340e12d6346bfff34cc4518a171446b87a36f18f387d89213ccc3d70",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/PLU - Palau.txt",
+      "sha256": "ee8f7e662675e92ec316ff7cc1af3ad94c6fb9a4b99f12e69116046b3a8abca4",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/PNG - Papua New Guinea.txt",
+      "sha256": "f3d713099c5df2a15353e828643de52dda4c8b6b6e0fc5b2c4acf2914b1acb0d",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/POL - Poland.txt",
+      "sha256": "f21368d8151bc26249063bf51eb756a226506c965301a2cc58c3b2db4395206f",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/POR - Portugal.txt",
+      "sha256": "868035df51ea7ccfbdc2b07a0185c5c0f543a8bf16bb8503d089837eea7e1db5",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/PRC - ComChina.txt",
+      "sha256": "e4c2956fc9b764494896e131bd77d88b2eb1e7e0501e06ba27c86c15d2d755e5",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/PRE - Prussia.txt",
+      "sha256": "b92ee8e575c79725660fda68180217d2f7f53d5681239325544b27c0235dfbfa",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/PRU - Peru.txt",
+      "sha256": "209d8790e73a3979edbc0315a44b428602a572bae8816eacf8a838ddcdf5ae27",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/PUE - Puerto Rico.txt",
+      "sha256": "2a3885fcd94e01b2b292d46aad5821241b8f94d96bbcb9094478f97e849907a7",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/QAT - Qatar.txt",
+      "sha256": "88c073b67641a9313325ad72a904a172c48d19ecb09c7f29e247ca064a903dd3",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/QEM - Qemant.txt",
+      "sha256": "4d6a96d69962339275c22c61c3b2120325a1ed936267baecea4ebe5495349dd6",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/QUE - Quebec.txt",
+      "sha256": "7af012989823adad3ae38e95ce4414fcde0b1de1c6e5705f8615dc0eadaf25ca",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/RAJ - British Raj.txt",
+      "sha256": "8d26be107e6d56f219d88c37db9774f98a473f6e304644761da65630ae376805",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/RAP - Rapa Nui.txt",
+      "sha256": "d7aa9b8d5bad3e59a9c1f703a08036f82fd629c947013b74a2f1380a854fd64b",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/RAS - Madras States.txt",
+      "sha256": "1799049a609d893ca1287d70b62bcc5c8142ed07c8e62aea0f5c2bc24c60e7d1",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/RCG - Republic of Congo.txt",
+      "sha256": "66c48feced35bb865ec709c5ca52bf8b90c25b200ccb2d09974d67b81d8cf336",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/RHI - Rhineland.txt",
+      "sha256": "878de2041a25eaeb59fb0666ac8736e0ddd5cbfc3d0469d398431f052ca0a6e0",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/RIF - Rif.txt",
+      "sha256": "aab6aba521c6d0b5543709e8deb7570dfeb1526e939e0d70c4f167ebdb51deec",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/RIG - Rio Grande.txt",
+      "sha256": "05ce90d0b56b2503b0a0c667889150f0b72cebd125dfcdc89b0a11b9aa1bca88",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ROM - Romania.txt",
+      "sha256": "ccbb68605b5560e6d9331e90b59bb81db05fb8897aa079a9ae3b31f01bd32bf2",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/RWA - Rwanda.txt",
+      "sha256": "291a4f2f67244f5cce5154f0dbd21ef6269afe8c4133091d9c888256d43431fa",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/RZE - Red Zone.txt",
+      "sha256": "45d307a9f6257530291092878c0aa3461a50463e726748372c8186fac60f4a2b",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SAB - APDC Map Country.txt",
+      "sha256": "9bc1cc432ad770d4e719a9f4dbd248c3752a25d782b3b45784e57e42e8b3657a",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SAF - South Africa.txt",
+      "sha256": "91f730d64ad63f86bd0723b9c412530844cdaa39004133f715edc30b9101f54c",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SAM - Samoa.txt",
+      "sha256": "38c7c9b1ffc17fc5893fb537b656ed99b331f0d0504fe2a3c85d0c665c73777c",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SAR - APDC Map Country.txt",
+      "sha256": "3d49d36c2d7b86924a5c923c492202d9f88d081627f8b73b700d2363e78c4444",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SAU - Saudi Arabia.txt",
+      "sha256": "2781fc3b1895307eceee8eaf9d62383910061c874e2a7df1e922bfa3e2761713",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SAX - Saxony.txt",
+      "sha256": "5387b04117bb3a4094c57c0a7af116aaf534763c94d6b9ca38dfcf520a885d4e",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SCO - Scotland.txt",
+      "sha256": "6098af298c91c50f4cf2fbaaa7d6f6e4df65441f135c694e6f2013ff66d01468",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SEN - Senegal.txt",
+      "sha256": "a47330044e504e727333bd77b092cfe8798b3d068f1e349ecd3fe20f1b125a23",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SER - Serbia.txt",
+      "sha256": "8b6193b7ea51db76c7448271a5bb45f246c939bec6edbd78b175e5e6cbac5f70",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SHL - Schleswig-Holstein.txt",
+      "sha256": "2bda9a8411a8ac00f332286158507cbc18506f00248281fd98b8c2456d2d4f7b",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SHX - Shanxi.txt",
+      "sha256": "ad06e497f0efdb6ea47947e44c985c5bb8a309079fc31963416755f6c1b3643f",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SIA - Siam.txt",
+      "sha256": "05593817bc8be95a1681ec8b8caf8a484672a564faae398f3cf09e627ffa54d7",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SID - Sidamo.txt",
+      "sha256": "2122c54bea753f2aa0b28dea23c9ef007d899428b24a8d9ada447838b971785a",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SIE - Sierra Leone.txt",
+      "sha256": "f0720ba810fa91fbf1c135650d1c3e5a829010161b2f9c7bac27fd6a951a8261",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SIK - Sinkiang.txt",
+      "sha256": "5db8944bfe15ee32320e2c24665675491ce4aa0407dc939c883650c8c923feda",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SIL - Silesia.txt",
+      "sha256": "1170f9492a4e592e3d9d424e70df8ec7b161c48a21de9115aac6a370fe99fe27",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SLO - Slovakia.txt",
+      "sha256": "5c5dcf0e17bb90cc1515cf71dad2ffcb0725bd45ed5dff261d048f5f186825dc",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SLV - Slovenia.txt",
+      "sha256": "48e2f7fb587342cbe8ae42dadf3370d3a4a9e5f9342a948bd9520fcc25f2f003",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SMI - Sami.txt",
+      "sha256": "cb7f37e9c34d6b1e534d8ae5243eac11746fd452c8c09d12cace0b75232b450d",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SML - APDC Map Country.txt",
+      "sha256": "7ef67ed1a0d4ec0dacb9a1db0ff7f9d7056a13cd7e5da8c71315929a99db359f",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SNG - APDC Map Country.txt",
+      "sha256": "752b41da7b68b24a49608adf46c0d6790e58262723dac94f8f74eecb83e2216c",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SOL - Solomon Islands.txt",
+      "sha256": "adbdc577e2ed059f10d94f610974c21a9eda017bb37b56f8ab7ebb499ea2caf4",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SOM - Somalia.txt",
+      "sha256": "953a8f075cbe3556a3aef72fe8c75f1ae67a4f78a2f88b32b8a11402d71de4df",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SOV - Soviet union.txt",
+      "sha256": "a167e69d8fee2970e940f1e3375f77bc0df396f21ada861cde4726a5c8f80c3d",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SPM - Sardinia Piedmont.txt",
+      "sha256": "6eb85f918ff25efa748a5e8c4b124b9107ae861e92ec5b0380152439263796ab",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SPR - Spain.txt",
+      "sha256": "f66366ad035a26dd0ae3d3b0c51d0b55f42857c30379c57e33cf1145f85f6aa8",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SRL - Sri Lanka.txt",
+      "sha256": "d659c60e3de2d20991802895844a3b63b7a615c8d3b87f40f9ccd2df4990e3c7",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SSD - South Sudan.txt",
+      "sha256": "e7dbfafa9c7475fbc0d9850f34a3464f62cdeacbb97a113cc7c9a88d9d79d0e8",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SSI - APDC Map Country.txt",
+      "sha256": "306c8994426f63346bcde8721c97775fa8977e0640b396bc6c4dba030cb0e6f5",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SUD - Sudan.txt",
+      "sha256": "72b8be8f08d15e2df98bf1581f132c5fe45695e0dc062f2ebef69e2b0d9c8edd",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SUR - Suriname.txt",
+      "sha256": "c6acfaa5be549dffc7d31a18cda07fbd0a1502f97c2356c0fbab09f839d7654d",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SWE - Sweden.txt",
+      "sha256": "53645027a66dabb87ab99605c180705c7275b7eef4c80d629a51d371ae6fce54",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SWI - Switzerland.txt",
+      "sha256": "65e42a978026ae1c7b4be0e6dcc2d7cf572176cb1942b64759ff1f075e0e101d",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SWZ - APDC Map Country.txt",
+      "sha256": "8c3d3e038d05a8f5d5fcf6ff28fe162f922a57f9417cfbbb43d8a1d0f331fe01",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/SYR - Syria.txt",
+      "sha256": "70594be9b1af0f8c8353dde800235e3e40df02d364ab617ce67ee389abd5b4fc",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/TAH - Tahiti.txt",
+      "sha256": "e8bd9bf01cdc1aa7b85c3f4b05e3d29b04ad81124b98f8e30f27b1c719cafff2",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/TAJ - Tajikistan.txt",
+      "sha256": "4e34f1013427860b4c5d04bb5d1c510c511dcabdd8ce97f5342e205586df6da2",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/TAN - Tannu Tuva.txt",
+      "sha256": "317897e07c3aedbe756b8bdc94c5adc8f7b45536a8f284fa75527934b68e60ff",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/TAT - Tatarstan.txt",
+      "sha256": "25c4c8153456605baeed698259f227c71043507e909f429166b83169e3dadeea",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/TAY - Taymyria.txt",
+      "sha256": "a520a7228f108cea7c0cb68c494c8f18ac629c2dac41f5bd37be594282b19bb7",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/THU - APDC Map Country.txt",
+      "sha256": "412c8dd08df905fe0cf175bfca436ea91a75fd1eacf089ee727bdfccbe059355",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/TIB - Tibet.txt",
+      "sha256": "ab70de2b2905b2260f48415b116ee6d81f35a8e98a87ecd0a66e52f4fbb3bd66",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/TIG - Tigray.txt",
+      "sha256": "2d105618996862767f859a99eb1b8bf9466d7aaf91739f682110ccfe68363403",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/TML - APDC Map Country.txt",
+      "sha256": "dfe0d2932be32f75d32e2bc541a784b458f3d2c907d8743737d1de062fe261ea",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/TMS - Turkmenistan.txt",
+      "sha256": "9c539b49e0caf3199aa420c253fd89f116dcecbc358bf05df165071890d9a9df",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/TNE - APDC Map Country.txt",
+      "sha256": "24567c369bb801e057b0f6748347744a47f85be364d22e5e39134d0876c6ecc2",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/TOG - Togo.txt",
+      "sha256": "202b7713efd93088ec5fe06e51c571abccfefa8367a9e158390f7882a47d99e3",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/TON - APDC Map Country.txt",
+      "sha256": "b17aa17bfeba755c840a53f5a742dfb00e58e1528be179d6b2b2f369654a0fe7",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/TOS - Tuscany.txt",
+      "sha256": "50c7ba11507f0af7f4b366537fdff5a18bf6b803528f20d9c23ac7b40d8c3ffc",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/TRA - Transylvania.txt",
+      "sha256": "621454b0660c34e9584407a1ea071394a8302352e822bafb5e78efb307981a70",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/TRI - Trinidad and Tobago.txt",
+      "sha256": "3b19d563aa46a83f4f6b13be4eacda6a925d429f27ad36cb6249adfa2a2dda62",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/TTS - The Two Sicilies.txt",
+      "sha256": "e9cf39535571793e80e3e80750ceaff540ededc8a7eaf071ff11ec470080fd4b",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/TUN - Tunisia.txt",
+      "sha256": "34d7493b46cb00b13ecbcfd7eae27f43945469b98ef08706677946dda531d97b",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/TUR - Turkey.txt",
+      "sha256": "845accab4750495482f41f6c3828ecc5b929ff0e635bc79807b6e064a43c15dd",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/TUV - APDC Map Country.txt",
+      "sha256": "d27b7f78cec57805d505b1f8d026fe250953d695b8ba68c2335678b0a2d44dde",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/TZN - Tanzania.txt",
+      "sha256": "59f6ed1213634ffe9e22639e961dad549e111fa9ddaca25d99fd552d43b3f5d8",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/UAE - United Arab Emirates.txt",
+      "sha256": "b88b7d67605ccf3faf2312862147939e1f3263e08275f0045127311343a4470a",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/UDM - Udmurtia.txt",
+      "sha256": "5c1e895b20d096f5afae752a89a53b21cf31c588073c88de4781b8c942a7904a",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/UGA - Uganda.txt",
+      "sha256": "59ce0c2621ea7c3f0b8acd63cd46bfae1e2e429999187c9bc0db7041725f781f",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/UKR - Ukraine.txt",
+      "sha256": "fca894a5c4629007d6d50000f13d323c9d7162f7abc2e07ea80d347ceb6704de",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/URG - Uruguay.txt",
+      "sha256": "de44a0d0466341815682e7b9c49bfb1784f1dae4dee83946fbb412c9a929f128",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/USA - USA.txt",
+      "sha256": "6846c0374059f267cd4623e76ca08fcfeb3191685d23371af62466fb71134cd0",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/UZB - Uzbekistan.txt",
+      "sha256": "ccb94f34618d5b0b93ecc0bc8c7b59c59f6bf6c5a3e014bb7df7836923fb4466",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/VAN - APDC Map Country.txt",
+      "sha256": "1fcab3b9d908a0d6883de8575a0e657210548592daee7362c8b30f34405f42fa",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/VCT - APDC Map Country.txt",
+      "sha256": "4f192b3b440fcf42d26a9f9c1998d7722ecc0b9916eddf1aff07e3b333a99cd3",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/VEN - Venezula.txt",
+      "sha256": "149d4d131ce43d66a94e38ae8c584dbf74c32d83f75248bdf745cd6f26f443f1",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/VGE - Volga Germany.txt",
+      "sha256": "dbe07ce5dacb5dba6aa66f7186b27beb23e758da4b05cba8abbedfd3251489b8",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/VIN - Vietnam.txt",
+      "sha256": "c68dc6e7838a7f114d4cff9759338a907acb3ef32c827caaa3a18b56bc2ab81e",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/VLA - Vladivostok.txt",
+      "sha256": "f62bc59e0c44ca1a0cccf826c1bb147505e110a90f4178ed423bc32351bf9836",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/VOL - Upper Volta.txt",
+      "sha256": "9bf4f8ac996ac58e64d373271b64885170d30a8c8193565f07d779290a630488",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/WES - Western Sahara.txt",
+      "sha256": "a47b989a371be015d3d95fd8aad82d920d2dfb28612d31b3504e242a92dd20a5",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/WGR - West Germany.txt",
+      "sha256": "1605b204b17d203c2f1ff0ae32538d6cd0afb989ee383b16d81c9531ed83c831",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/WIS - APDC Map Country.txt",
+      "sha256": "0e1d52005ddbcf0ba13085e68ab5f2e7eac90986f4f74d5a5d2327a322609827",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/WLA - Welsh Argentina.txt",
+      "sha256": "4f2085842b2b5dfa4e18d02edbf52d6380d87911509b8cf1ac2c7198b2f86352",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/WLS - Wales.txt",
+      "sha256": "cd9073dbac14a00d7c3a232ab8b87d04d21df89d8a8773a6491c933b689ca37f",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/WPG - APDC Map Country.txt",
+      "sha256": "0c1ccb6a55d38f9a34b6d474a384041e2782310e5f7c3d95179740f5d8ae142a",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/WUR - Wurtemberg.txt",
+      "sha256": "6365e90af7bcae9236ee839497ee50cd51b347fa84df587f5f1bad000bfa1b7c",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/XSM - Xibei San Ma.txt",
+      "sha256": "8bb1cf7d68004e01cf10915b508a971f7956f2d4f335421190b691740249bb60",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/YAK - Yakutia.txt",
+      "sha256": "9eec0369bea141164f351e6e76fbbad849bc547735611f67e486ef2d5dacba11",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/YAM - Yamalia.txt",
+      "sha256": "92ba925609aa7fd1442ceeef2674a37dada66cba62dcaa40ae6716a202a0f0aa",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/YEM - Yeman.txt",
+      "sha256": "5b2db2c728132f273f401db29bed80fbcbbe07602cc9fd88f8efc91cbb2fd7af",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/YUC - Yucatan.txt",
+      "sha256": "8974ba78286b1dae8000215a4df1e9cd43c700890a55ce346c01e399507bdfc6",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/YUG - Yugoslavia.txt",
+      "sha256": "7cfd9e49e772b5a2b1fe6e671877f1666cce75b12dd28eae863f07957c85106f",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/YUN - Yunnan.txt",
+      "sha256": "5aee906a6472889fb61b32cb442e7c87d9a034436b15ebce6ff979c7911d8336",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ZAM - Zambia.txt",
+      "sha256": "f0f09c00e5b9baeb33cfa331de1b232e54f17b09331357fd3fe9b383a86bfd09",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ZIM - Zimbabwe.txt",
+      "sha256": "d636a7c1bc07d05969ec7ae5fd4dc43436957468266d9acc5977bf01f0511a82",
+      "existed_before": true
+    },
+    {
+      "path": "history/countries/ZZZ - anarchy.txt",
+      "sha256": "6cc06b694d4fd57e4916802198e7680c2622e66f97ef72c9d2577e76b02cfd8d",
+      "existed_before": true
+    },
+    {
+      "path": "docs/parliament/20261107-implementation/build.json",
+      "sha256": "b599e5a2029fe0e86439b1a02f1e9b8acbc830b18301422395b98349950838c4",
+      "existed_before": false
+    },
+    {
+      "path": "common/scripted_localisation/APDC_cabinet_scripted_localisation.txt",
+      "sha256": "d93e2c33b4540afee0acb41dcd9bff3519253a4b9c1402ef8bd46341bdacc6ec",
+      "existed_before": true
+    },
+    {
+      "path": "common/scripted_effects/APDC_governing_coalition_scripted_effects.txt",
+      "sha256": "2ab9236259a0a3bf0280188172c6353a1347724bd5821bc784e2cff5072f2cde",
+      "existed_before": true
+    },
+    {
+      "path": "common/scripted_effects/apdc_parliament_special_catalogue.txt",
+      "sha256": "509aba85818bb4cb09181a409a1c1954ba037e2155236f95bb0e8061c368e944",
+      "existed_before": false
+    },
+    {
+      "path": "common/synchronized_dynamic_tokens/apdc_parliament_tokens.txt",
+      "sha256": "c22d042a66a3cf1ddf5febef8da09523b20f74f98b63db682726b3a968f9367f",
+      "existed_before": false
+    },
+    {
+      "path": "tools/parliament/data/settings.json",
+      "sha256": "6d040eafa46be968356797a7cb8cc8c6caa2fb018bd42e5532be2a9f9c83b7c3",
+      "existed_before": true
+    },
+    {
+      "path": "gfx/interface/APDC/parliament/empty_slot.png",
+      "sha256": "1d05554a2424dde05bdce845454c9c6c7ca3459717df07e44f97d698e59665ad",
+      "existed_before": false
+    }
+  ]
+}

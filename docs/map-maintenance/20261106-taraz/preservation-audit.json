@@ -1,0 +1,540 @@
+{
+  "passed": true,
+  "files_before": 35065,
+  "files_after": 35117,
+  "changed_or_added": [
+    {
+      "file": "common/scripted_effects/APDC_cold_war_view.txt",
+      "before": "2ba395e3ca91f912c84ac50f47651eaed607f42380b9023bb2774abb255c608b",
+      "after": "40a7546fd5c9df9dbaa45e704e8d988ce3c2f8a99ee6452595e54677a1fdc845"
+    },
+    {
+      "file": "common/scripted_guis/APDC_cold_war.txt",
+      "before": "735eb7f454369929ec44a2fa7450c028317e7aea77a695f52bd7d4f1b0cf60e4",
+      "after": "54bf71f00312cf1f2d35cc60d62a6b2e1080b454c32166d399196bf1c79137e4"
+    },
+    {
+      "file": "common/scripted_triggers/GER_scripted_triggers.txt",
+      "before": "8a7bea5afe65c020df9c7780768abeddd95b700d15f7da196c9cf251827bdfcf",
+      "after": "2bbe2270f38e9e9291b1c1b4f7295ffc6071751a40af6654cdea10a6f7c8e17e"
+    },
+    {
+      "file": "common/synchronized_dynamic_tokens/APDC_cold_war.txt",
+      "before": "8c972627c105eed0ad67c1a99dbc68284b1071f933055cf9ae03eeac55e04a9e",
+      "after": "b4301c68dcdbde2073a7a09d7c39886357800aaf9dc1f8ccc5915b501a33feea"
+    },
+    {
+      "file": "docs/cold-war/20261024/geometry.json",
+      "before": "28c924a199ee974aa0d4bed07e202662812e0111c76aad1365a6eeaa09fb6e01",
+      "after": "92584d51540cc3cb82e7a745f47dbf982a0866c2e478ec9b1c53f85e09511918"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/actual-building-transfers.json",
+      "before": null,
+      "after": "88265b9163cd940eaa8fde26b8cd718d4663f61f07ed4821083e6c096180ba60"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/additional-reference-changes.json",
+      "before": null,
+      "after": "2734437ae13e3a6d632b26e64dce2ecd68215c4a95c57aa2b852dfc3879eca24"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/air-oob-audit.json",
+      "before": null,
+      "after": "9136f9029be7feb525c0d5ce292690ee886f0ad0caed8cdf7218b73f4fb72122"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/allocation-totals.json",
+      "before": null,
+      "after": "53ce73a3a205b85d5933f0eb6910d49200a9e74b402f98307fc2a8e627add56f"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/allocation.json",
+      "before": null,
+      "after": "9f15fad3b8ebaef8ca4f95b65abc3899344b8fa9d989565f80048e1eaa078b31"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/city-review.json",
+      "before": null,
+      "after": "85f1c9a014c7ea19abf7a482a7d32f8822b067ef558b2a133e782de047efcd52"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/cold-war-refresh.json",
+      "before": null,
+      "after": "9a6d02a5025f891d32627ff8c4e7a336d073c5b14574d49d9134cbeb76cf6122"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/economy-reverse-audit.json",
+      "before": null,
+      "after": "8622c3c037d75ced04d7d03a9dbc809892438a723207d7e9cd2e9373a02aaa6c"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/editor-localisation-audit.json",
+      "before": null,
+      "after": "3aa03f81e4e3ff95b9c822e74855a2ed86e842faa88d009595ae4b8b4eaae531"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/extended-static-audit.json",
+      "before": null,
+      "after": "09e8d8787237425867bb31790986d76f4df5fcf8d083347964b6bbbac0c44526"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/geographic-reference-changes.json",
+      "before": null,
+      "after": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/geographic-reference-review.json",
+      "before": null,
+      "after": "98629325623c958a8adea430ce96fbb71252fc70d2058211a81d91974100f421"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/localisation-changes.json",
+      "before": null,
+      "after": "a44c2d13e2318de1fd1c137ac9c756c4761f43332a2e1e362662d58d5a675de8"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/localisation-reference-audit.json",
+      "before": null,
+      "after": "6fe8d755699982e799b47420db7fe302bb36359607ed622853b3fe686aa00631"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/map-checkpoint.zip",
+      "before": null,
+      "after": "c3a596f08785fa4ba2f7fd343fbde144e504b815f816d19a22b9d88b782bb033"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/model-changes.json",
+      "before": null,
+      "after": "79ff0866bf3835e63c0eacbc60a76d3b3fdd020368b1cf433cd72434e2150433"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/name-decisions.json",
+      "before": null,
+      "after": "70749cfeda1d2daa275830da45433e3a5cdd7d46c01ada59454097b667b6162d"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/plan.json",
+      "before": null,
+      "after": "8999a962f4ca9fa0462714d099546a18290a1e0ecb13781af06ef1970f6b1167"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/political-relations.json",
+      "before": null,
+      "after": "8a6d9bbcdaef0fb4272e113bf2c8ff39cf8ab757d50fd886ab7d50d90c0cced3"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/README.md",
+      "before": null,
+      "after": "2b18c24499728242f20bbfef5476626617af3dc8ae8d05f7409c559bb768ed62"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/renamed-path-reference-audit.json",
+      "before": null,
+      "after": "c409b79c9b33d212f2ff80b6b5c72f9a1c4de9abe62661032a45401a6b237488"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/renames.json",
+      "before": null,
+      "after": "f3be98a665b8de409e29e9fc56af3fc04cb7088f24ffabb7ea63732e805cb5aa"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/runtime-audit.json",
+      "before": null,
+      "after": "1769ca8d3acde5f941156d00cf50396ad440ea6366369ea3846e1e6c622ae54b"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/runtime-preparation.json",
+      "before": null,
+      "after": "c622ca8f9470c71858314c388e3561fff58b20d31633bc651577c24fb93c0ffb"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/runtime-SOV-detail.png",
+      "before": null,
+      "after": "b8ec7913325c9593b673673d552e0ccc8bfe6033dda2a3a0a6badb5b04b52174"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/runtime-visual-captures.json",
+      "before": null,
+      "after": "c43b51c6ce98bac420125b20988dcfefb24e0a622b13ca2fb011bf5b34cd5b07"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/runtime-world-return.png",
+      "before": null,
+      "after": "1783890e7d0e87f6a3a3dfdb4774cab77c38fc34d6420187996de1a1faa68b59"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/runtime-world.png",
+      "before": null,
+      "after": "a8255b3a943d96f84f4ae80e82a10ed1cf4a0138abd3458d81af5f54d03aeb2c"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/state-changes.json",
+      "before": null,
+      "after": "da7a6a98160ebc4f5401776e60cb852d1e5267d932c1620b3c84205e9a12543f"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/state-hashes.json",
+      "before": null,
+      "after": "809ed287a155047064da92edd9b4f91155e60d266fa3357f77edfe0ca878b167"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/state-index.json",
+      "before": null,
+      "after": "f0ae1537cb9c78bc0a822f02dcf88b438ed0077c736f21bd991f5f36eae0b576"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/states-checkpoint.zip",
+      "before": null,
+      "after": "3bad9b844ec4c4333eb2d7f3daff5c442344e2ac8a470708987938a645975650"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/static-audit.json",
+      "before": null,
+      "after": "f8b6a841584c8167d9a48deb74c1dfa38be3df6ca19d42278c56c68018595a86"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/strategic-repairs.json",
+      "before": null,
+      "after": "5842b1bbedcfa9e118a402363d6fb05984354c31bd12f34408bce90ab123b23f"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/victory-point-transfers.json",
+      "before": null,
+      "after": "1ddee1a3986716527739fbb5780677d3243c122f5291dbda13216a485b7d8369"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/visual-asset-audit.json",
+      "before": null,
+      "after": "91bab7cf2ecc666b9815cc1a0afb35d42d4d3b1fd00eac24ee4754dd8e3e50d7"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/visual-review.json",
+      "before": null,
+      "after": "942df6e30a443f4aa954065840b3df9bd15b3a14efe0c54e44b15245059f1987"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/world-after.png",
+      "before": null,
+      "after": "fccc3e4fde790598cc3888fcde2b29724b942ed4439c44e05858b2ef85126ded"
+    },
+    {
+      "file": "docs/map-maintenance/20261106-taraz/world-before.png",
+      "before": null,
+      "after": "230c7a85f5313391a5b0e710b79192f1be8466284ad43f9b5219d1627d9585f0"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b1406.png",
+      "before": "223b3e42a9e9adfb5edd0519d787648717954537300e22fd31d538f60160d32c",
+      "after": "83ccb33c7b2442c431ac8d70add610960630b35fcfb87eeb20d32a6024979507"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b1409.png",
+      "before": "b4b2fb3bf0058d47ee4777c626a87ed4a184518376907add84af0f5ba847edc5",
+      "after": "d6ea0a44ff7a22e235bb24746ccc0d296161cf1966b3700cfc2c21e5a469b33a"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2088.png",
+      "before": "d53cfee92fe6fe89cb62e74350100078bdc71ada2a2a803daa9c6b265613cef0",
+      "after": "90df04f95e051c0828a3254c54e520eaeab1e54bad0ecc8dda2a9cc66d7555fb"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2424.png",
+      "before": "96d1689ca55ad505d46e19a03d04f96c2f4c731b066177d2716e198e41a86979",
+      "after": "443212efecad2bb2baf61fa97e24a9e4d82ed4310bc00f43dbdc9ce9dccb7069"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b3862.png",
+      "before": null,
+      "after": "966ef357bbd87b0e04c44422a1b67be9f6703c190f412425498978602db3e63d"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b3863.png",
+      "before": null,
+      "after": "270c04841b268c90570c06f8d2dab9b2103502b5b428d122619bd094cc8bce56"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b3864.png",
+      "before": null,
+      "after": "3a49983c29543ac6956547bdfd732339afcd8153722693f955aada70a6440b67"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s1646_5.png",
+      "before": null,
+      "after": "1ba65487f0e6978b80562fd42d187817d64c54082f54e8adbc144b74a296ee2e"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s586_5.png",
+      "before": "f746ad66cd094050f8418249ea15e999dc49413bfb0b184351cbb7b65e04cce8",
+      "after": "2316e913b234980c955494b8a239339e553e32ee0349b20b35ba9408727d384a"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s881_5.png",
+      "before": "e554e4b359eaae195674b6c877578ac888222f61d47051caeb6ce81996a3531e",
+      "after": "42259e33983563b4a443ee8bb331c9cb1a3f7794534f77c4fd1db1aaaa5dd37f"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_1795.png",
+      "before": null,
+      "after": "ffc7f5fd63f403709cd4053aa22664331d370e22e798a726a7f72c07c7b4d116"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_648.png",
+      "before": "1fc99afd26e35f298dc9279390c56e7cf35e779feed0a0ad931da645edc1922a",
+      "after": "3dbdbce9920a8e6cd13885878c65cd935d7cdb6ee7e63abf45f947fd8caee7b9"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_972.png",
+      "before": "f7703c544e7cb0d76b3d41dc3406e121dee54b09eb3103aa2d00f7480785d1fe",
+      "after": "677bba539d5cdaad9f6e2552d6f09475ebab283357e28428d5a7e9f2360e77c3"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b1406.png",
+      "before": "1fad2c822d684d273de6d3aef7c993293c3087ca74d6cd71423daf4431b1c130",
+      "after": "b96d6374cd52c176b61b1188520572886d6959b2623e340fae18fe3b016fd5d9"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b1409.png",
+      "before": "b99f943df315e06885ab9a0cf7576481d78eb2cc4fce5e4d927cfba590178a17",
+      "after": "9b1cc4f5ed3e6af643d3b9a045df72375fc2e12f9bdda96ffbf4d3da6a0a5eca"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2088.png",
+      "before": "d25d19151cc26d8d968b6253efc698cd316215ac1d894c286df66743dfd86235",
+      "after": "e22a042836f9932c03dc5619869442aa86803bf59bbbaefb343d03a6c0e9051b"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2424.png",
+      "before": "3796b1278b3762eb2b99d7677af6cf7e3dc8d7003ca469c2f6bb0335e31a2ea0",
+      "after": "38ed7495f88d09d1bf3b4af1ece9e611250869184add203c4329c8b73a4e704f"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b3862.png",
+      "before": null,
+      "after": "ca553f0bc1433439edc5c747b548ccd64e37bf5640d8c47068657033305c7c05"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b3863.png",
+      "before": null,
+      "after": "0f7544e15f7edcf4f5b7c559e81ddebdb29c99961e7e66014e35f8554b5eb15a"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b3864.png",
+      "before": null,
+      "after": "633cc8990974ba679dfa7cd69340f2906bb625060656bb97e075855cff43efc7"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_1795.png",
+      "before": null,
+      "after": "8f1d8331475c6003c00a450b1ee8e29c6c55afee0264bcdf595f34ca082ea50d"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_648.png",
+      "before": "005d4d6cd2c8afc1cc6d1b86e9715e1a8ed0ac4d41ec9703de5a38d774f0dd4d",
+      "after": "1286e7a37ca8e2ae3c6964008d8a66ddb76327bfc667afcf0e54eb91a5b7c31c"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_972.png",
+      "before": "5c8f351870ae670a946c5f6c828f01c8ba86e2f3c73025c38f0345faed0a0b19",
+      "after": "dd0a343ee58fbfc666af7b69409b0f5fdeaa5a4eecf09859304cd84c7895d457"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_1406.png",
+      "before": "2dca67101d5181ca0a9f15e239f6774f97cb6637bb7d841c738b5bf6e9aa9c06",
+      "after": "0a7dfd25248bd7e337904dc87cee979f66edaf9a3767ea04f0efaca85fe6e238"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_1409.png",
+      "before": "a87bdb2b838e6a755dd2c3ecb1704ff47228c57f3fee7b34e19724e5d6064f42",
+      "after": "bc0787336c3eef1a0801043dcc185a9a425ba516f1f961c90782f9e427e7f58f"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2088.png",
+      "before": "6ba7b7900d05557767b8c40b4cfc77889f5ba34e8647fc31ba0a5e1dd8d2e645",
+      "after": "d5f2082a5cab45e70c9539d79df2452fe99bd3d9d941e83b65d026136ebaa784"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2424.png",
+      "before": "7d4c374e0d378d63de7c9eeefd25a11872b5fca186e9e5c6d7f93873024dd0d0",
+      "after": "99c0dbea62e3ca9126079931893f4988b2b83ceb96a9706811a2233bc4d1d2c0"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_3862.png",
+      "before": null,
+      "after": "71bf0e4c2b3dfaa5ee5926cfbd8ddc64f616ed7955c7e0f911fe28823b1111b6"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_3863.png",
+      "before": null,
+      "after": "429ccfe6dedf437977ad68111702e881a2dd89cf8d3ba4a9990b00f5076e02d4"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_3864.png",
+      "before": null,
+      "after": "a8192bddd2109db6ceb4b8bbef726b3e68b7f0b8ad493907379bba52d9debddd"
+    },
+    {
+      "file": "history/states/1646-Taraz.txt",
+      "before": null,
+      "after": "894bd5c5ee502f7918bcc78fb5142cfafa128c207e9871be24ddafd291be001e"
+    },
+    {
+      "file": "history/states/586-East Jambyl.txt",
+      "before": null,
+      "after": "e7043d29940bb3c3f4506875fdffeb8463eb104a21594648f7fd148ef12f1001"
+    },
+    {
+      "file": "history/states/881-Karagandy.txt",
+      "before": "6a222d9179952175ebb6b0bdfbf6ce134ecb1baed992e30bcc34e40381f8fa27",
+      "after": "463a1be071eaee8667d7384505df8ebe570fb054f03d0bb0400e877c1e0e2c34"
+    },
+    {
+      "file": "interface/APDC_cold_war.gfx",
+      "before": "73c5e9ee261330f1194be066fcfcb796d3bdad40469865383b6c75340ae4a895",
+      "after": "231dfc11e7be953d7a11a043c26b4bc0976b67f2e8599fbda25257c3fe36e9b3"
+    },
+    {
+      "file": "interface/APDC_cold_war.gui",
+      "before": "84a6ac198ff5a733e4bea47659fe02e73e6723e4d1511027d2aef78b46d2d964",
+      "after": "6fd67b0f0c2818a77837988b573bba238ee845ace3956ddba6245e9dc47d3470"
+    },
+    {
+      "file": "interface/APDC_cold_war_world_styles.gfx",
+      "before": "acc860476760c1a85e7edb8c5cee91a75b6ff227547494a1b5dd4236ad147874",
+      "after": "c8be6cb286494ca41332963c77e6a1bc1dae5587ea751a133cbbaaad659947e8"
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_geography_l_braz_por.yml",
+      "before": "f174dccf52b593ec6800a754ded7961401fe542cc94b0da8cdedca90ecfaa101",
+      "after": "5484f9185d9a388fd6f6d913d3b033dff3b1209cc532c29ed9ded21046b482b1"
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_geography_l_english.yml",
+      "before": "a73c2b718aa7e0e3bc142f045bcc591d30f6ee9322df8fd2806b4962bb7d398c",
+      "after": "829c02e36eead6f345a10e827450359ebe5c0b0136051391b7f6b683f17c7f2d"
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_geography_l_french.yml",
+      "before": "9d6097c0d37decf82f832bfa0dd3d21241bc8a4f0eeb23d0ef247a216def7a81",
+      "after": "255467dbf51127398d35fd17f5a4b0d7645347c1293178e1e39ad75b6c06997d"
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_geography_l_german.yml",
+      "before": "86690d45d2c5e393b8fe66e67379d6f6a345d68e24cf1c7f4caa88a9762dee1d",
+      "after": "361e6d37f6b3292de560153b0720bfc2d11dfdcb74d434f9750da7bd5c94249f"
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_geography_l_japanese.yml",
+      "before": "22e1187cce2bd6676095a7860471892ec11653cdba314586ec6e994f1ec5cf8e",
+      "after": "8be0266ea60b4edadeac4198d76e2759b82f6de8de35f8e5f5df8e2e4022f8be"
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_geography_l_korean.yml",
+      "before": "abb1482f3a9ca35ed6eae8e7ec4d8ae591a6eb6c88042966ccb5dca6edf5963c",
+      "after": "94aa0440a59a41a25af61de4dafb066da655fd5b1f566e1e17e691f9a7ad4e88"
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_geography_l_polish.yml",
+      "before": "e6cc429d9ef4935f46bd5fa70cb830ca3db28de03c5108317f89e4df6435b23d",
+      "after": "322ec86e0080d99bd3f7bda1ccad89830870424d6c09c74bceb21ef5ac7568c8"
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_geography_l_russian.yml",
+      "before": "9284f4b6802e0c9274332b65c70559938fb32834e358f421bb181524a80d6cc3",
+      "after": "a1a52945b9195052f30f54f88205c1400dc62b3253a585eedf495f4f25e6bb03"
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_geography_l_simp_chinese.yml",
+      "before": "38f3ca0e812073ec23efbde686a3ac3d8a5e5bc5bc8e7a52fa7a39572b3a2bde",
+      "after": "09f7158e1a30178ff82a49f0f4352ec2e968118cde6043601627ef2cbe0b067a"
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_geography_l_spanish.yml",
+      "before": "e64666773d34b43b6b76b0de16d884484a0346abe0c2a06dd3940c02fb522455",
+      "after": "2decab5c9ed9698e417b1f03befd8e24e230fac451846c694c72a7c37b7c8ddc"
+    },
+    {
+      "file": "localisation/simp_chinese/APDC_cold_war_l_simp_chinese.yml",
+      "before": "489d8aac0bf35f8864aceb49ff5d34bc1ba2f0241b02c58ad05d3133cc7fcaca",
+      "after": "646333b6d196ca6293767e74624c78341425793e6a7ac90fe5adf342db90cc38"
+    },
+    {
+      "file": "map/buildings.txt",
+      "before": "79e87640914bdd8def57bed5ad2fae1cb338be97c9eb75933e29aa4f1d712609",
+      "after": "cc4e09902f75e4ac5105fa0b51c0ae03d9461bf476bd962bf19f97876c078a39"
+    },
+    {
+      "file": "map/strategicregions/136-Great Steppe.txt",
+      "before": "c665ef1780257f74e0f16485cef65866de754330c0187fdc5f32a8ceefd03e85",
+      "after": "cd7ac138df7e076fb5e8d581f389e40c09173929e81afbff698bf23efa4ccf23"
+    },
+    {
+      "file": "map/strategicregions/268-Ferghana.txt",
+      "before": "60a34d9e84dc0c29a242f3e1cc4034ae37764bd1b244935c4360b0f79acc26e7",
+      "after": "09173af568035e810854ed6cbcb4db067a30dd49e6a16caf9dbc407234f24e61"
+    },
+    {
+      "file": "tools/map_maintenance/finish_taraz_20261106.py",
+      "before": null,
+      "after": "cada1ddf6b24fe850fda4d087e255bd33e9e6263fcc3f661c1ed2f325a689fb6"
+    },
+    {
+      "file": "tools/map_maintenance/baseline/city_named_state_mismatches.json",
+      "before": "7cf014c9fdacb6d8ba52170640b7d046d7281c4d82515c53656a6aa961dfd3e0",
+      "after": "de71487ef73874c182c0c726ea0c28013f48cadba105fb37e6136b09bc8cce9b"
+    },
+    {
+      "file": "tools/map_maintenance/baseline/current_state_files.json",
+      "before": "bc6a39f46af7377ce3845027999c61cf486e3c666b8fdb4b727065ffef954af6",
+      "after": "f0ae1537cb9c78bc0a822f02dcf88b438ed0077c736f21bd991f5f36eae0b576"
+    },
+    {
+      "file": "tools/map_maintenance/baseline/initial_territories.json",
+      "before": "822032d65e69075863af1a1b9efcb91a55433859e19946ee9c36cfab7857e0de",
+      "after": "8a6d9bbcdaef0fb4272e113bf2c8ff39cf8ab757d50fd886ab7d50d90c0cced3"
+    },
+    {
+      "file": "tools/map_maintenance/baseline/latest_checkpoint.json",
+      "before": "01bfbdf1da465c896d987be12a4251ee9f0a4868fb47a0aea94fe9b7c9616fcf",
+      "after": "ee0961b3636a5a45f3a3658769f020193a37752048772a666bb397c3835c52d0"
+    },
+    {
+      "file": "tools/map_maintenance/baseline/modern_victory_points.json",
+      "before": "4083b4b20cf9c7129300d33b5f0a91a330b6ecef093b0b7c18b13c4faaa615ac",
+      "after": "83f153154544168d780f71c1472a2641e6682264755d9887580f417012a980d3"
+    },
+    {
+      "file": "项目接手文档/00_快速接手/当前状态与未完成事项.md",
+      "before": "584c3df35bda1ed32333db2fb3c45c5676d1ab9bce3bb28ca79addb3058ac252",
+      "after": "6d361fc799527d860bba047c51e9121b79840f226be3700a6ba402700a9b9afd"
+    },
+    {
+      "file": "项目接手文档/00_快速接手/新对话接手指南.md",
+      "before": "1719fc6978e64f545819aee286e3da6fc4da6917b0ab073af023998352f52ecf",
+      "after": "fe29d0e8b52b32b2d2e43123d75bd39bbc1252a611e6d6ba44596cb6442d7872"
+    },
+    {
+      "file": "项目接手文档/02_系统维护/冷战系统_规则与维护.md",
+      "before": "fabffd46bc069ee518dcb7166dee3d9fbca16514bb0a9735c7c5f02785cecc5c",
+      "after": "61c9491df515d67c00eeaae1169dee73234a66c599a5489b10b4e72d598d6a92"
+    },
+    {
+      "file": "项目接手文档/02_系统维护/地图与版本兼容_维护.md",
+      "before": "283a0b9f2417fa1856302619b66242e1881214771d53b35736084efaac7b6d57",
+      "after": "d3d87124589f8528198ed6c53ab25d480e6f128b85668a44f60e5b3335c6ff3f"
+    },
+    {
+      "file": "项目接手文档/05_参数与历史档案/对话任务总账.md",
+      "before": "b8d882f268f6512ba57725f36de4663b04334d843181abd80df93c55da474b94",
+      "after": "5e30d8811411c42df7ea9e54e833422a17840e970b52301069ac40da3293b0e4"
+    }
+  ],
+  "authorized_rename_removals": [
+    "history/states/1646-State_1646.txt",
+    "history/states/586-Jambyl.txt"
+  ],
+  "unexpected_removed": [],
+  "unexpected_changes": [],
+  "fixed_economy_and_imported_snapshots_byte_preserved": true,
+  "all_other_preexisting_user_changes_preserved": true
+}

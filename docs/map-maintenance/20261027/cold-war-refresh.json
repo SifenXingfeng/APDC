@@ -1,0 +1,148 @@
+{
+  "signature": "4faacbd73951",
+  "renderer": "native",
+  "scales": [
+    0.0625,
+    0.08838834764831845,
+    0.125,
+    0.1767766952966369,
+    0.25,
+    0.3535533905932738,
+    0.5,
+    0.7071067811865476,
+    1.0,
+    1.4142135623730951,
+    2.0,
+    2.8284271247461903,
+    4.0,
+    5.656854249492381,
+    8.0,
+    11.313708498984761,
+    16.0,
+    22.627416997969522,
+    32.0,
+    45.254833995939045,
+    64.0,
+    90.50966799187809,
+    128.0,
+    181.01933598375618,
+    256.0,
+    362.03867196751236
+  ],
+  "palette_unchanged": true,
+  "shader_unchanged": true,
+  "non_map_gui_unchanged": true,
+  "states": 1558,
+  "pieces_before": 1700,
+  "pieces_after": 1700,
+  "borders_before": 3611,
+  "borders_after": 3609,
+  "changed": [
+    {
+      "file": "interface/APDC_cold_war.gfx",
+      "before": "de801743fc2db981c9292005cd9e1cc01575559ea540969faeb4a1129021afbb",
+      "after": "9416139521c927a6790a5ed098f69c605e9b3b0aabde82260724a98952798f19"
+    },
+    {
+      "file": "interface/APDC_cold_war.gui",
+      "before": "2fd61fe6ce31a9373b3f63852648f6495739c403966b7aae5c07524b407e63b2",
+      "after": "de61ec9f8fe25502eb208b5cae50ca49b7e76c56f7036318fb537307458ae4a1"
+    },
+    {
+      "file": "common/scripted_guis/APDC_cold_war.txt",
+      "before": "42a0b5f47c2d3bc978d6d713f981dd9ab7e018b54f0f6cdc6b349cc85d28b602",
+      "after": "5a8743013d0f12c4c0fcb9b4a3db0f082a752a2ed84c9e4f4ecbb83504bb1014"
+    },
+    {
+      "file": "common/scripted_effects/APDC_cold_war_view.txt",
+      "before": "5c8abd229e076a15c6c77018dbfcff48c92cbf870e0aa95fedde3837e5989604",
+      "after": "eedd5f8782ce9a08fa5eff56e3479f58ebd1fb53dfdf6afbef478725c950b833"
+    },
+    {
+      "file": "common/synchronized_dynamic_tokens/APDC_cold_war.txt",
+      "before": "5685d122703c9c3219d6f6cc72390ce853c0d16062aff73974514143e59826f6",
+      "after": "30ae9d322eb599b78e329916254df63fc5d08bffe00d47cc35aa141d32d06906"
+    },
+    {
+      "file": "docs/cold-war/20261024/geometry.json",
+      "before": "a0e993d6a75a7b5ec93cbb9bd5494537d91ffd3f94247b2db2bd0de69f59069f",
+      "after": "4646dff87980788aaee9f8ba1f111c5348fce76d5f73dcfe261cf2490490c9a3"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b1206.png",
+      "before": "8d155fe022f5d8e1cb70266a4e0b5e270227ec26936fe794724d3ef766b53e2c",
+      "after": "a5091001b847ec45b4296f2f0ef9c9f07478e83d25bb259d1b1b9a7623d16341"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b1209.png",
+      "before": "598cd5a25c168b55293433a4fcd0d6ac1bc3f5b80fa88154eb1035a805d62672",
+      "after": "877a48e1114d3437ced61b71662352ab3f1957a14d6b642463d9c230029ea231"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b1217.png",
+      "before": "3247fc00c3c111ec8658c83036cb4fc55a581aa397b98fb946dcbfe9c303e622",
+      "after": "d1a4a037df3beee0d46462bc9a23a6af013dd2d8da09361cdbe0872a6b6379a0"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s1364_2.png",
+      "before": "9488ee06b3af8a859038959f4bcb20e27934c542e236ce5e25fcc813f4ff7121",
+      "after": "ef1b5a1bacfd5373699c795178640055beee3eb0f7a136b8ef4987afb01d3443"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s357_2.png",
+      "before": "2da50f26dfcaddfbacda0483c77f90849729d8944fb039760a1e026709f55613",
+      "after": "4ea5373a3a9e318411bf250a5abf9be15a074ffefdc52d6729c07ea5d69ccb57"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_1489.png",
+      "before": "f9cd535d23f2cb45241575d8125f2dccca761551b4ec8d32788dc0edb03036ac",
+      "after": "0fdb321dc068eb6970ab9608f2d9657c08c3b375ba8062200c634a7c2b2fb19b"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_389.png",
+      "before": "1c89074173dc4f3a50f857ced4ec6e32ad943c000afa4d3ce136a28b6b372be0",
+      "after": "c9c27b8a71a7d4618e5d8a44c981e6a832cc2d29c36cfc04bcdedab78871c65d"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b1206.png",
+      "before": "a14cacaefa20c3b822d140af83d5c5cbfb26daddf9741d157413800f77c1802e",
+      "after": "11cbcdfaed0d8a9d3a613bb0be1a2405e799dc702738d96871dca904cb05e63c"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b1209.png",
+      "before": "9344c9051079ebbcc1e20c26ce0e382d351bda8ed9b488746e8bef34971453af",
+      "after": "e1366653f0dbaf7488cd2d1bbb76b8649585982dbb7f73cdfb260e9f060e6e79"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b1217.png",
+      "before": "49f7d4a07a19678c39b24b26cfafd38290d91befbea8f3ccc29b31b85d2897c6",
+      "after": "fcd434fddec07b93ca30b6a1fd0a6c45bbb76803e473ebdf16aef52fc12ab30d"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_1489.png",
+      "before": "35622eb05c7c6bd5f5f0710993dbb10301c6924c2d9e255d1040144096eea68b",
+      "after": "706a97d5c7a6193156a318383234b16bd2b00d75fb4e700b60e45d106504ce8f"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_389.png",
+      "before": "6d11b638f3dad67dde5bd866c499330ff761fbbb12923c4936ef3adb21f6eb90",
+      "after": "e3268c89777634f330347a785b99ae8987eb952d01705fd3fb9dca8e10fbc436"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_1206.png",
+      "before": "189a324bb476c7ea3b5240763dfb38a7367bfbfdd8c40717af80ad91d350925a",
+      "after": "be64abcd52373191426fa82a13a2cc1a13576318d7d30ba15fdca7c91064b56a"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_1209.png",
+      "before": "fdd6703aaa38f44e38972ac1d2902fb9f634135278ea8cbdc44ccb36a2c0ed33",
+      "after": "09e3c2d7442b4cc9f4329f32ba9a4dd9b8953f004a1a0b17b91b48cff9ca1c72"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_1217.png",
+      "before": "c0496e2e2ec7aa416934cf304e15eca8ab6ed5a8320d2995366850a469ea5e54",
+      "after": "900d69a3c6a45f9d93a987b2000f8bcc6f8dc5b39a44ed8ad8167f6b81273dbd"
+    }
+  ],
+  "stage": "D:\\C-Drive-Migration-20260929\\Permanent\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\.codex_backups\\APDC\\20261027-184417-map-finish\\cold-war-stage"
+}

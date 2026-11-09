@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "affected_state_name_getters_or_dollar_aliases": [
+    {
+      "file": "localisation/simp_chinese/aat_focus_l_simp_chinese.yml",
+      "line": 493,
+      "text": " SWE_crusade_against_bolshevism_tt: \"\\n如果在§Y$SWE_crusade_against_the_eastern_threat$§!生效期间，§Y[SWE.GetName]§!或任意阵营成员占领以下任意地区：\\n§Y[195.GetName]§!、§Y[206.GetName]§!、§Y[202.GetName]§!、§Y[242.GetName]§!、§Y[219.GetName]§!、§Y[137.GetName]§!、§Y[218.GetName]§!、§Y[217.GetName]§!、§Y[252.GetName]§!、§Y[249.GetName]§!、§Y[229.GetName]§!、§Y[247.GetName]§!、§Y[408.GetName]§!、§Y[214.GetName]§!，它将会重置为完整的365日。\""
+    }
+  ],
+  "static_geographic_alias_values_updated_by_state_identity": true,
+  "disposition": "The existing Swedish eastern-threat tooltip names state 229. Its Baku anchor 7661 remains in 229; the state identity and referenced geography are retained. No numeric or wording replacement is required."
+}

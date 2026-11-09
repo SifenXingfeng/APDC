@@ -1,0 +1,26 @@
+state={
+	id=1643
+	name="STATE_1643"
+	provinces={
+		3653 16231 
+	}
+	manpower=158571
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		set_state_flag = GDP_regions_georgia
+		victory_points = { 3653 2 }
+		buildings = {
+			infrastructure = 2
+			3653 = {
+				naval_base = 2
+				coastal_bunker = 1
+			}
+		}
+	}
+	resources = {  }
+	state_category = town
+}

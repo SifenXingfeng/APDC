@@ -3,81 +3,240 @@
 # invariant and gives later focuses/events a stable way to change the system.
 
 APDC_clear_economic_system = {
-	remove_ideas = {
-		APDC_economic_system_traditional_agriculture_idea
-		APDC_economic_system_dependent_economy_idea
-		APDC_economic_system_free_market_idea
-		APDC_economic_system_mixed_market_idea
-		APDC_economic_system_state_guided_idea
-		APDC_economic_system_state_capitalism_idea
-		APDC_economic_system_market_socialism_idea
-		APDC_economic_system_decentralized_planning_idea
-		APDC_economic_system_central_planning_idea
-	}
+remove_ideas = { APDC_economic_system_bandit_economy_idea APDC_economic_system_traditional_agriculture_idea APDC_economic_system_dependent_economy_idea APDC_economic_system_free_market_idea APDC_economic_system_mixed_market_idea APDC_economic_system_state_guided_idea APDC_economic_system_state_capitalism_idea APDC_economic_system_market_socialism_idea APDC_economic_system_decentralized_planning_idea APDC_economic_system_central_planning_idea }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 APDC_set_economic_system_traditional_agriculture = {
-	APDC_clear_economic_system = yes
-	add_ideas = APDC_economic_system_traditional_agriculture_idea
-
+APDC_clear_economic_system = yes
+add_ideas = APDC_economic_system_traditional_agriculture_idea
+set_variable = { apdc_parl_law_5 = 2 }
+clr_country_flag = APDC_eco_private_acquisition_forbidden
+clr_country_flag = APDC_eco_private_plunder_allowed
+set_country_flag = APDC_eco_private_acquisition_forbidden
 if = { limit = { has_country_flag = APDC_eco_initialized } APDC_eco_reconcile_planned = yes APDC_eco_refresh_policies = yes APDC_eco_refresh_current_supply = yes APDC_eco_calculate_budget = yes }
+add_to_variable = { apdc_parl_dirty = 1 }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 APDC_set_economic_system_dependent_economy = {
-	APDC_clear_economic_system = yes
-	add_ideas = APDC_economic_system_dependent_economy_idea
-
+APDC_clear_economic_system = yes
+add_ideas = APDC_economic_system_dependent_economy_idea
+set_variable = { apdc_parl_law_5 = 3 }
+clr_country_flag = APDC_eco_private_acquisition_forbidden
+clr_country_flag = APDC_eco_private_plunder_allowed
+set_country_flag = APDC_eco_private_acquisition_forbidden
 if = { limit = { has_country_flag = APDC_eco_initialized } APDC_eco_reconcile_planned = yes APDC_eco_refresh_policies = yes APDC_eco_refresh_current_supply = yes APDC_eco_calculate_budget = yes }
+add_to_variable = { apdc_parl_dirty = 1 }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 APDC_set_economic_system_free_market = {
-	APDC_clear_economic_system = yes
-	add_ideas = APDC_economic_system_free_market_idea
-
+APDC_clear_economic_system = yes
+add_ideas = APDC_economic_system_free_market_idea
+set_variable = { apdc_parl_law_5 = 4 }
+clr_country_flag = APDC_eco_private_acquisition_forbidden
+clr_country_flag = APDC_eco_private_plunder_allowed
 if = { limit = { has_country_flag = APDC_eco_initialized } APDC_eco_reconcile_planned = yes APDC_eco_refresh_policies = yes APDC_eco_refresh_current_supply = yes APDC_eco_calculate_budget = yes }
+add_to_variable = { apdc_parl_dirty = 1 }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 APDC_set_economic_system_mixed_market = {
-	APDC_clear_economic_system = yes
-	add_ideas = APDC_economic_system_mixed_market_idea
-
+APDC_clear_economic_system = yes
+add_ideas = APDC_economic_system_mixed_market_idea
+set_variable = { apdc_parl_law_5 = 5 }
+clr_country_flag = APDC_eco_private_acquisition_forbidden
+clr_country_flag = APDC_eco_private_plunder_allowed
 if = { limit = { has_country_flag = APDC_eco_initialized } APDC_eco_reconcile_planned = yes APDC_eco_refresh_policies = yes APDC_eco_refresh_current_supply = yes APDC_eco_calculate_budget = yes }
+add_to_variable = { apdc_parl_dirty = 1 }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 APDC_set_economic_system_state_guided = {
-	APDC_clear_economic_system = yes
-	add_ideas = APDC_economic_system_state_guided_idea
-
+APDC_clear_economic_system = yes
+add_ideas = APDC_economic_system_state_guided_idea
+set_variable = { apdc_parl_law_5 = 6 }
+clr_country_flag = APDC_eco_private_acquisition_forbidden
+clr_country_flag = APDC_eco_private_plunder_allowed
 if = { limit = { has_country_flag = APDC_eco_initialized } APDC_eco_reconcile_planned = yes APDC_eco_refresh_policies = yes APDC_eco_refresh_current_supply = yes APDC_eco_calculate_budget = yes }
+add_to_variable = { apdc_parl_dirty = 1 }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 APDC_set_economic_system_state_capitalism = {
-	APDC_clear_economic_system = yes
-	add_ideas = APDC_economic_system_state_capitalism_idea
-
+APDC_clear_economic_system = yes
+add_ideas = APDC_economic_system_state_capitalism_idea
+set_variable = { apdc_parl_law_5 = 7 }
+clr_country_flag = APDC_eco_private_acquisition_forbidden
+clr_country_flag = APDC_eco_private_plunder_allowed
 if = { limit = { has_country_flag = APDC_eco_initialized } APDC_eco_reconcile_planned = yes APDC_eco_refresh_policies = yes APDC_eco_refresh_current_supply = yes APDC_eco_calculate_budget = yes }
+add_to_variable = { apdc_parl_dirty = 1 }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 APDC_set_economic_system_market_socialism = {
-	APDC_clear_economic_system = yes
-	add_ideas = APDC_economic_system_market_socialism_idea
-
+APDC_clear_economic_system = yes
+add_ideas = APDC_economic_system_market_socialism_idea
+set_variable = { apdc_parl_law_5 = 8 }
+clr_country_flag = APDC_eco_private_acquisition_forbidden
+clr_country_flag = APDC_eco_private_plunder_allowed
 if = { limit = { has_country_flag = APDC_eco_initialized } APDC_eco_reconcile_planned = yes APDC_eco_refresh_policies = yes APDC_eco_refresh_current_supply = yes APDC_eco_calculate_budget = yes }
+add_to_variable = { apdc_parl_dirty = 1 }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 APDC_set_economic_system_decentralized_planning = {
-	APDC_clear_economic_system = yes
-	add_ideas = APDC_economic_system_decentralized_planning_idea
-
+APDC_clear_economic_system = yes
+add_ideas = APDC_economic_system_decentralized_planning_idea
+set_variable = { apdc_parl_law_5 = 9 }
+clr_country_flag = APDC_eco_private_acquisition_forbidden
+clr_country_flag = APDC_eco_private_plunder_allowed
 if = { limit = { has_country_flag = APDC_eco_initialized } APDC_eco_reconcile_planned = yes APDC_eco_refresh_policies = yes APDC_eco_refresh_current_supply = yes APDC_eco_calculate_budget = yes }
+add_to_variable = { apdc_parl_dirty = 1 }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 APDC_set_economic_system_central_planning = {
-	APDC_clear_economic_system = yes
-	add_ideas = APDC_economic_system_central_planning_idea
-
+APDC_clear_economic_system = yes
+add_ideas = APDC_economic_system_central_planning_idea
+set_variable = { apdc_parl_law_5 = 10 }
+clr_country_flag = APDC_eco_private_acquisition_forbidden
+clr_country_flag = APDC_eco_private_plunder_allowed
 if = { limit = { has_country_flag = APDC_eco_initialized } APDC_eco_reconcile_planned = yes APDC_eco_refresh_policies = yes APDC_eco_refresh_current_supply = yes APDC_eco_calculate_budget = yes }
+add_to_variable = { apdc_parl_dirty = 1 }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Initial classification.  Explicit country groups take precedence, followed
 # by government-family defaults so every current or future tag receives a
@@ -94,10 +253,10 @@ APDC_assign_initial_economic_system = {
 	else_if = {
 		limit = {
 			OR = {
-				tag = AFA tag = AFG tag = BAR tag = BEG tag = BHU tag = BRD
+				tag = AFA tag = AFG tag = BAR tag = BEG always = no tag = BRD
 				tag = CAR tag = CHA tag = ETH tag = GBA tag = HAR tag = IMO
-				tag = KAS tag = KHM tag = KLT tag = KUM tag = LAO tag = MRT
-				tag = NEP tag = NGR tag = ORO tag = PSH tag = QEM tag = SID
+				always = no tag = KHM always = no tag = KUM tag = LAO tag = MRT
+				always = no tag = NGR tag = ORO always = no tag = QEM tag = SID
 				tag = SOM tag = TIB tag = TIG tag = VOL tag = WES tag = YEM
 			}
 		}
@@ -199,3 +358,27 @@ APDC_assign_initial_economic_system = {
 		APDC_set_economic_system_mixed_market = yes
 	}
 }
+APDC_set_economic_system_bandit_economy = {
+APDC_clear_economic_system = yes
+add_ideas = APDC_economic_system_bandit_economy_idea
+set_variable = { apdc_parl_law_5 = 1 }
+clr_country_flag = APDC_eco_private_acquisition_forbidden
+clr_country_flag = APDC_eco_private_plunder_allowed
+set_country_flag = APDC_eco_private_acquisition_forbidden
+set_country_flag = APDC_eco_private_plunder_allowed
+if = { limit = { has_country_flag = APDC_eco_initialized } APDC_eco_reconcile_planned = yes APDC_eco_refresh_policies = yes APDC_eco_refresh_current_supply = yes APDC_eco_calculate_budget = yes }
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

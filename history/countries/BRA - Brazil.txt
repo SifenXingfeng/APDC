@@ -26,10 +26,7 @@ set_politics = {
 	elections_allowed = yes
 }
 
-promote_character = {
-	character = BRA_paulo_passat
-	ideology = middle_way
-}
+
 
 set_popularities = {
 	communism = 1
@@ -43,9 +40,77 @@ set_popularities = {
 	fundamentalism = 4
 }
 
-APDC_add_conservatism_to_governing_coalition = yes
-APDC_add_liberalism_to_governing_coalition = yes
-APDC_set_economic_system_mixed_market = yes
+
+
+
 
 set_variable = { APDC_prime_minister_character = token:BRA_anton_araujo }
 set_variable = { APDC_deputy_prime_minister_character = token:BRA_mora_cardoso }
+
+# Document synchronization 2026-10-28; unresolved fields retain previous values.
+promote_character = { character = BRA_duncan_general ideology = military_political_communism }
+promote_character = { character = BRA_carlos_ronaldo ideology = popular_front }
+promote_character = { character = BRA_paulo_passat ideology = middle_way }
+promote_character = { character = BRA_elgar_delano ideology = anarcho_capitalism }
+promote_character = { character = BRA_free_officers ideology = non_dominant_system }
+promote_character = { character = BRA_emergency_military_committee ideology = military_junta }
+promote_character = { character = BRA_cid_general ideology = military_political_fascism }
+promote_character = { character = BRA_jean_ortiz ideology = esoteric_despotism }
+APDC_set_economic_system_mixed_market = yes
+APDC_add_conservatism_to_governing_coalition = yes
+APDC_add_liberalism_to_governing_coalition = yes
+set_variable = { APDC_document_party_leader_communism = token:BRA_duncan_general }
+set_variable = { APDC_document_party_leader_socialism = token:BRA_carlos_ronaldo }
+set_variable = { APDC_document_party_leader_conservatism = token:BRA_paulo_passat }
+set_variable = { APDC_document_party_leader_liberalism = token:BRA_elgar_delano }
+set_variable = { APDC_document_party_leader_authoritarianism = token:BRA_free_officers }
+set_variable = { APDC_document_party_leader_dictatorship = token:BRA_emergency_military_committee }
+set_variable = { APDC_document_party_leader_fascism = token:BRA_cid_general }
+set_variable = { APDC_document_party_leader_fundamentalism = token:BRA_jean_ortiz }
+
+# APDC parliament election calendar schema 1
+if = {
+limit = { has_government = communism }
+set_politics = { ruling_party = communism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = socialism }
+set_politics = { ruling_party = socialism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = social_democracy }
+set_politics = { ruling_party = social_democracy last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = liberalism }
+set_politics = { ruling_party = liberalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = conservatism }
+set_politics = { ruling_party = conservatism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = authoritarianism }
+set_politics = { ruling_party = authoritarianism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = dictatorship }
+set_politics = { ruling_party = dictatorship last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = fascism }
+set_politics = { ruling_party = fascism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = fundamentalism }
+set_politics = { ruling_party = fundamentalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}

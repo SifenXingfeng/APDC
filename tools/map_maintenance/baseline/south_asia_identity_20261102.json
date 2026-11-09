@@ -1,0 +1,55 @@
+{
+  "source_save_sha256": "646457562a265abb5bf393b853ca12be56c73dc5293c50b7dd1bf3b454ccbc07",
+  "dynamic_to_formal": {
+    "D10": "RAJ",
+    "D11": "PAK",
+    "D12": "KHL",
+    "D13": "WIS",
+    "D14": "KOL",
+    "D15": "MYS",
+    "D16": "MLD",
+    "D17": "KER",
+    "D18": "SRL",
+    "D19": "RAS",
+    "D20": "HYD",
+    "D21": "IPL",
+    "D22": "BAN",
+    "D23": "ASM"
+  },
+  "reused_native_tags": [
+    "RAJ",
+    "PAK",
+    "KHL",
+    "WIS",
+    "KOL",
+    "MYS",
+    "MLD",
+    "SRL",
+    "RAS",
+    "HYD",
+    "BAN"
+  ],
+  "new_tags": [
+    "ASM",
+    "IPL",
+    "KER"
+  ],
+  "retired_tags": [
+    "BHU",
+    "BLC",
+    "CIP",
+    "DIP",
+    "KAS",
+    "KLT",
+    "MPU",
+    "NEP",
+    "NWF",
+    "PSH",
+    "RJP",
+    "SIN",
+    "SKK"
+  ],
+  "country_plan": "docs/map-maintenance/20261102-south-asia/country-plan.json",
+  "territorial_authority": "tools/map_maintenance/baseline/initial_territories.json",
+  "prior_GF_mapping_is_historical": "The 2026-10-21 RAJ/PAK→PAK merger no longer describes current South Asian identities. Do not reapply it."
+}

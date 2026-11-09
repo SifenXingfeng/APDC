@@ -1,0 +1,38 @@
+state={
+	id=1570
+	name="STATE_1570"
+	provinces={
+		5019 7430 12142 12226 12781 16087 16088 16089 
+	}
+	manpower=4151906
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = KOL
+		controller = KOL
+		add_core_of = IPL
+		add_core_of = KOL
+		add_core_of = RAJ
+
+		
+
+		
+		
+		
+		set_state_flag = GDP_regions_andhra_pradesh
+		victory_points = { 5019 5 }
+		victory_points = { 7430 5 }
+		victory_points = { 12142 10 }
+		victory_points = { 12226 3 }
+		victory_points = { 12781 2 }
+		victory_points = { 16087 3 }
+		victory_points = { 16088 3 }
+		victory_points = { 16089 2 }
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+		}
+	}
+	resources = { chromium = 2 steel = 2 tungsten = 1 }
+	state_category = town
+}

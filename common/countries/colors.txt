@@ -126,10 +126,7 @@ AST = {
 	color = rgb { 57 143 97 }
 	color_ui = rgb { 74 186 126 }
 }
-BHU = {
-	color = rgb { 172 122 88 }
-	color_ui = rgb { 172 122 88 }
-}
+
 BOL = {
 	color = hsv { 0.1 0.47 0.8 } #255 180 136
 	color_ui = rgb { 255 234 177 }
@@ -194,10 +191,7 @@ MEX = {
 	color = rgb { 104 152 83 }
 	color_ui = rgb { 135 198 108 }
 }
-NEP = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
-}
+
 NIC = {
 	color = rgb { 146 179 191 }
 	color_ui = rgb { 146 179 191 }
@@ -299,10 +293,7 @@ SLO = {
 	color = rgb { 158  161  188 }
 	color_ui = rgb { 255 255 255 }
 }
-RAJ = {
-	color = rgb { 226  135  40 }
-	color_ui = rgb { 226  135  40 }
-}
+RAJ = { color = rgb { 216 143 70 } color_ui = rgb { 216 143 70 } }
 
 CRO = {
 	color = rgb { 230  70  180 }
@@ -452,10 +443,7 @@ BOT = {
 	color = rgb { 11 132 112 }
 	color_ui = rgb { 11 132 112 }
 }
-PAK = {
-	color = rgb { 174 114 74 }
-	color_ui = rgb { 174 114 74 }
-}
+PAK = { color = rgb { 45 113 84 } color_ui = rgb { 45 113 84 } }
 #WGR = {
 #    color = rgb { 195 236 230 } # The colors are set to be more are less what we are used to
 #    color_ui = rgb { 225 255 255 }
@@ -965,3 +953,16 @@ GDB = {
 	color = rgb { 110 110 110 }
 	color_ui = rgb { 110 110 110 }
 }
+
+WIS = { color = rgb { 181 173 145 } color_ui = rgb { 181 173 145 } }
+SRL = { color = rgb { 132 61 81 } color_ui = rgb { 132 61 81 } }
+KER = { color = rgb { 186 63 84 } color_ui = rgb { 186 63 84 } }
+MYS = { color = rgb { 208 182 62 } color_ui = rgb { 208 182 62 } }
+HYD = { color = rgb { 78 139 116 } color_ui = rgb { 78 139 116 } }
+KOL = { color = rgb { 198 94 46 } color_ui = rgb { 198 94 46 } }
+KHL = { color = rgb { 200 189 74 } color_ui = rgb { 200 189 74 } }
+MLD = { color = rgb { 50 152 143 } color_ui = rgb { 50 152 143 } }
+ASM = { color = rgb { 192 116 125 } color_ui = rgb { 192 116 125 } }
+BAN = { color = rgb { 40 116 90 } color_ui = rgb { 40 116 90 } }
+RAS = { color = rgb { 169 134 70 } color_ui = rgb { 169 134 70 } }
+IPL = { color = rgb { 146 46 52 } color_ui = rgb { 146 46 52 } }

@@ -1,0 +1,34 @@
+state={
+	id=1564
+	name="STATE_1564"
+	provinces={
+		4984 10847 10866 12718 12886 16058 16059 16060 
+	}
+	manpower=3251310
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = RAJ
+		controller = RAJ
+		add_core_of = IPL
+		add_core_of = KHL
+		add_core_of = RAJ
+
+		
+		
+		
+		set_state_flag = GDP_regions_rajasthan
+		victory_points = { 4984 3 }
+		victory_points = { 10847 3 }
+		victory_points = { 12718 2 }
+		victory_points = { 12886 1 }
+		victory_points = { 16058 10 }
+		victory_points = { 16059 1 }
+		victory_points = { 16060 1 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	resources = {  }
+	state_category = town
+}

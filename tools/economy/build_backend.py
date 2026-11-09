@@ -97,6 +97,7 @@ def build_laws(data):
  s=''
  s+=effect('is_planned_placeholder','') if False else ''
  triggers=block(P+'is_planned','OR = { has_idea = APDC_economic_system_decentralized_planning_idea has_idea = APDC_economic_system_central_planning_idea }')
+ triggers+=block(P+'disallows_private','has_idea = APDC_economic_system_central_planning_idea')
  s+=effect('change_law',cond('has_country_flag = APDC_eco_initialized '+check('selected_group','>','0')+' has_political_power > 149 '+check('cash_m','>=',0),
   ''.join(cond(check('selected_group','=',i),
    ''.join(cond(check('requested_law','=',j)+' NOT = { has_idea = '+P+key+'_'+str(j)+' } '+
@@ -227,7 +228,7 @@ def build_growth():
   c+=calc(kind+'_velocity',var(kind+'_capacity'),('multiply',var('private_civ')),('add',5),('multiply',.5))
   c+=cond(check('shortage','<=',.1)+' '+check('surplus','<=',.1),setv(kind+'_capacity',0)+setv(kind+'_velocity',0))
   c+=cond(check('surplus','>',.1),setv(kind+'_capacity',0)+calc(kind+'_velocity',var('surplus'),('multiply',var('private_civ')),('multiply',-2.5)))
-  c+=cond(P+'is_planned = yes',setv(kind+'_capacity',0)+setv(kind+'_velocity',0))
+  c+=cond(P+'disallows_private = yes',setv(kind+'_capacity',0)+setv(kind+'_velocity',0))
   c+=cond(check(kind+'_velocity','>',0)+' NOT = { any_controlled_state = { free_building_slots = { building = '+P+'private_'+kind+' size > 0 } } }',setv(kind+'_capacity',0)+setv(kind+'_velocity',0))
   b+=c
  b+=setv('last_civ_capacity',var('civ_capacity'))
@@ -266,17 +267,19 @@ def build_growth():
  return s
 
 def build_planned():
- b='APDC_eco_initialize_stock_arrays = yes\n'+cond(P+'is_planned = yes',
-  cond('OR = { NOT = { has_idea = APDC_eco_distribution_5 } has_idea = APDC_eco_distribution_1 has_idea = APDC_eco_distribution_2 has_idea = APDC_eco_distribution_3 has_idea = APDC_eco_distribution_4 }',
-   'remove_ideas = APDC_eco_distribution_1\nremove_ideas = APDC_eco_distribution_2\nremove_ideas = APDC_eco_distribution_3\nremove_ideas = APDC_eco_distribution_4\nadd_ideas = APDC_eco_distribution_5\n')+
-  cond('OR = { NOT = { has_country_flag = APDC_eco_planned_normalized } has_country_flag = APDC_eco_private_stock_dirty '+check('private_civ_raw','>',0)+' '+check('private_mil_raw','>',0)+' }',
-  'every_controlled_state = {\n'+''.join(
+ b='APDC_eco_initialize_stock_arrays = yes\n'
+ b+=cond(P+'is_planned = yes',
+  cond('NOT = { has_idea = APDC_eco_distribution_5 }',
+   ''.join('remove_ideas = APDC_eco_distribution_'+str(i)+'\n' for i in range(1,5))+'add_ideas = APDC_eco_distribution_5\n'),
+  cond('has_idea = APDC_eco_distribution_5','remove_ideas = APDC_eco_distribution_5\nadd_ideas = APDC_eco_distribution_1\n'))
+ conversion='every_controlled_state = {\n'+''.join(
    f'set_temp_variable = {{ APDC_eco_convert = building_level@APDC_eco_private_{k} }}\n'
    f'if = {{ limit = {{ check_variable = {{ APDC_eco_convert > 0 }} }} set_building_level = {{ type = APDC_eco_private_{k} level = 0 }} '
    f'add_building_construction = {{ type = {native} level = APDC_eco_convert instant_build = yes }} }}\n'
-   for k,native in [('civ','industrial_complex'),('mil','arms_factory')])+'}\nAPDC_eco_nationalize_stock = yes\nclr_country_flag = APDC_eco_statistics_today\nset_country_flag = APDC_eco_planned_normalized\n'+setv('civ_progress',0)+setv('mil_progress',0)),
-  'clr_country_flag = APDC_eco_planned_normalized\n'+cond('has_idea = APDC_eco_distribution_5','remove_ideas = APDC_eco_distribution_5\nadd_ideas = APDC_eco_distribution_1\n'))
+   for k,native in [('civ','industrial_complex'),('mil','arms_factory')])+'}\nAPDC_eco_nationalize_stock = yes\nclr_country_flag = APDC_eco_statistics_today\nset_country_flag = APDC_eco_planned_normalized\n'+setv('civ_progress',0)+setv('mil_progress',0)
+ b+=cond(P+'disallows_private = yes',cond('OR = { NOT = { has_country_flag = APDC_eco_planned_normalized } has_country_flag = APDC_eco_private_stock_dirty '+check('private_civ_raw','>',0)+' '+check('private_mil_raw','>',0)+' }',conversion),'clr_country_flag = APDC_eco_planned_normalized\n')
  return effect('reconcile_planned',b)
+
 
 def build_budget():
  # The first getter excludes factories assigned to the construction queue;

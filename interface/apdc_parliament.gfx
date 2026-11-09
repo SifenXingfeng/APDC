@@ -1,0 +1,1844 @@
+spriteTypes = {
+spriteType = {
+name = "GFX_apdc_parl_background"
+texturefile = "gfx/interface/APDC/parliament/background.png"
+transparencecheck = no
+
+}
+spriteType = {
+name = "GFX_apdc_parl_candidate_background"
+texturefile = "gfx/interface/APDC/parliament/candidate_background.png"
+transparencecheck = no
+
+}
+spriteType = {
+name = "GFX_apdc_parl_latches"
+texturefile = "gfx/interface/APDC/parliament/latches.png"
+noOfFrames = 2
+
+}
+spriteType = {
+name = "GFX_apdc_parl_law_tile"
+texturefile = "gfx/interface/APDC/parliament/law_tile.png"
+transparencecheck = no
+effectFile = "gfx/FX/buttonstate.shader"
+
+}
+spriteType = {
+name = "GFX_apdc_parl_special_row"
+texturefile = "gfx/interface/APDC/parliament/special_row.png"
+
+}
+spriteType = {
+name = "GFX_apdc_parl_party_button"
+texturefile = "gfx/interface/APDC/parliament/party_button.png"
+transparencecheck = no
+effectFile = "gfx/FX/buttonstate.shader"
+
+}
+spriteType = {
+name = "GFX_apdc_parl_special_button"
+texturefile = "gfx/interface/APDC/parliament/special_button.png"
+transparencecheck = no
+effectFile = "gfx/FX/buttonstate.shader"
+
+}
+spriteType = {
+name = "GFX_apdc_parl_entry"
+texturefile = "gfx/interface/APDC/parliament/entry.png"
+effectFile = "gfx/FX/buttonstate.shader"
+}
+spriteType = {
+name = "GFX_apdc_parl_candidate_card"
+texturefile = "gfx/interface/idea_entry_bg_2.dds"
+noOfFrames = 2
+transparencecheck = no
+}
+spriteType = {
+name = "GFX_apdc_parl_law_option_card"
+texturefile = "gfx/interface/idea_entry_bg_3.dds"
+noOfFrames = 2
+transparencecheck = no
+}
+spriteType = {
+name = "GFX_apdc_parl_hit_47_63"
+texturefile = "gfx/interface/APDC/parliament/hit_47_63.png"
+transparencecheck = no
+}
+spriteType = {
+name = "GFX_apdc_parl_hit_74_98"
+texturefile = "gfx/interface/APDC/parliament/hit_74_98.png"
+transparencecheck = no
+}
+spriteType = {
+name = "GFX_apdc_parl_hit_150_24"
+texturefile = "gfx/interface/APDC/parliament/hit_150_24.png"
+transparencecheck = no
+}
+spriteType = {
+name = "GFX_apdc_parl_hit_249_73"
+texturefile = "gfx/interface/APDC/parliament/hit_249_73.png"
+transparencecheck = no
+}
+spriteType = {
+name = "GFX_apdc_parl_empty_slot"
+texturefile = "gfx/interface/APDC/parliament/empty_slot.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_regime_absolute_monarchy"
+texturefile = "gfx/interface/APDC/parliament/regimes/absolute_monarchy.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_regime_dual_monarchy"
+texturefile = "gfx/interface/APDC/parliament/regimes/dual_monarchy.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_regime_constitutional_monarchy"
+texturefile = "gfx/interface/APDC/parliament/regimes/constitutional_monarchy.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_regime_parliamentary_republic"
+texturefile = "gfx/interface/APDC/parliament/regimes/parliamentary_republic.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_regime_presidential"
+texturefile = "gfx/interface/APDC/parliament/regimes/presidential.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_regime_semi_presidential"
+texturefile = "gfx/interface/APDC/parliament/regimes/semi_presidential.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_regime_one_party_republic"
+texturefile = "gfx/interface/APDC/parliament/regimes/one_party_republic.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_regime_military_government"
+texturefile = "gfx/interface/APDC/parliament/regimes/military_government.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_regime_committee"
+texturefile = "gfx/interface/APDC/parliament/regimes/committee.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_dot_large"
+texturefile = "gfx/interface/APDC/parliament/dots_large.png"
+noOfFrames = 9
+}
+spriteType = {
+name = "GFX_apdc_parl_dot_small"
+texturefile = "gfx/interface/APDC/parliament/dots_small.png"
+noOfFrames = 9
+}
+spriteType = {
+name = "GFX_apdc_parl_progress_0"
+texturefile = "gfx/interface/APDC/parliament/progress_0.png"
+noOfFrames = 102
+}
+spriteType = {
+name = "GFX_apdc_parl_progress_1"
+texturefile = "gfx/interface/APDC/parliament/progress_1.png"
+noOfFrames = 102
+}
+spriteType = {
+name = "GFX_apdc_parl_progress_2"
+texturefile = "gfx/interface/APDC/parliament/progress_2.png"
+noOfFrames = 102
+}
+spriteType = {
+name = "GFX_apdc_parl_progress_3"
+texturefile = "gfx/interface/APDC/parliament/progress_3.png"
+noOfFrames = 102
+}
+spriteType = {
+name = "GFX_apdc_parl_progress_4"
+texturefile = "gfx/interface/APDC/parliament/progress_4.png"
+noOfFrames = 102
+}
+spriteType = {
+name = "GFX_apdc_parl_progress_5"
+texturefile = "gfx/interface/APDC/parliament/progress_5.png"
+noOfFrames = 102
+}
+spriteType = {
+name = "GFX_apdc_parl_progress_6"
+texturefile = "gfx/interface/APDC/parliament/progress_6.png"
+noOfFrames = 102
+}
+spriteType = {
+name = "GFX_apdc_parl_progress_7"
+texturefile = "gfx/interface/APDC/parliament/progress_7.png"
+noOfFrames = 102
+}
+spriteType = {
+name = "GFX_apdc_parl_progress_8"
+texturefile = "gfx/interface/APDC/parliament/progress_8.png"
+noOfFrames = 102
+}
+spriteType = {
+name = "GFX_apdc_parl_progress_9"
+texturefile = "gfx/interface/APDC/parliament/progress_9.png"
+noOfFrames = 98
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1"
+texturefile = "gfx/interface/APDC/parliament/portraits/1.png"
+}
+spriteType = {
+name = "GFX_GER_APDC_romy_riefenstahl"
+texturefile = "gfx/interface/APDC/parliament/portraits/1.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_2"
+texturefile = "gfx/interface/APDC/parliament/portraits/2.png"
+}
+spriteType = {
+name = "GFX_GER_APDC_eugene_rugosa"
+texturefile = "gfx/interface/APDC/parliament/portraits/2.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_3"
+texturefile = "gfx/interface/APDC/parliament/portraits/3.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_4"
+texturefile = "gfx/interface/APDC/parliament/portraits/4.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_5"
+texturefile = "gfx/interface/APDC/parliament/portraits/5.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_6"
+texturefile = "gfx/interface/APDC/parliament/portraits/6.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_7"
+texturefile = "gfx/interface/APDC/parliament/portraits/7.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_8"
+texturefile = "gfx/interface/APDC/parliament/portraits/8.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_9"
+texturefile = "gfx/interface/APDC/parliament/portraits/9.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_10"
+texturefile = "gfx/interface/APDC/parliament/portraits/10.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_11"
+texturefile = "gfx/interface/APDC/parliament/portraits/11.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_12"
+texturefile = "gfx/interface/APDC/parliament/portraits/12.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_13"
+texturefile = "gfx/interface/APDC/parliament/portraits/13.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_14"
+texturefile = "gfx/interface/APDC/parliament/portraits/14.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_15"
+texturefile = "gfx/interface/APDC/parliament/portraits/15.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_16"
+texturefile = "gfx/interface/APDC/parliament/portraits/16.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_17"
+texturefile = "gfx/interface/APDC/parliament/portraits/17.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_18"
+texturefile = "gfx/interface/APDC/parliament/portraits/18.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_19"
+texturefile = "gfx/interface/APDC/parliament/portraits/19.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_20"
+texturefile = "gfx/interface/APDC/parliament/portraits/20.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_21"
+texturefile = "gfx/interface/APDC/parliament/portraits/21.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_22"
+texturefile = "gfx/interface/APDC/parliament/portraits/22.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_23"
+texturefile = "gfx/interface/APDC/parliament/portraits/23.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_24"
+texturefile = "gfx/interface/APDC/parliament/portraits/24.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_25"
+texturefile = "gfx/interface/APDC/parliament/portraits/25.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_26"
+texturefile = "gfx/interface/APDC/parliament/portraits/26.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_27"
+texturefile = "gfx/interface/APDC/parliament/portraits/27.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_28"
+texturefile = "gfx/interface/APDC/parliament/portraits/28.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_29"
+texturefile = "gfx/interface/APDC/parliament/portraits/29.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_30"
+texturefile = "gfx/interface/APDC/parliament/portraits/30.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_31"
+texturefile = "gfx/interface/APDC/parliament/portraits/31.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_32"
+texturefile = "gfx/interface/APDC/parliament/portraits/32.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_33"
+texturefile = "gfx/interface/APDC/parliament/portraits/33.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_34"
+texturefile = "gfx/interface/APDC/parliament/portraits/34.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_35"
+texturefile = "gfx/interface/APDC/parliament/portraits/35.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_36"
+texturefile = "gfx/interface/APDC/parliament/portraits/36.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_37"
+texturefile = "gfx/interface/APDC/parliament/portraits/37.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_38"
+texturefile = "gfx/interface/APDC/parliament/portraits/38.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_39"
+texturefile = "gfx/interface/APDC/parliament/portraits/39.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_40"
+texturefile = "gfx/interface/APDC/parliament/portraits/40.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_41"
+texturefile = "gfx/interface/APDC/parliament/portraits/41.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_42"
+texturefile = "gfx/interface/APDC/parliament/portraits/42.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_43"
+texturefile = "gfx/interface/APDC/parliament/portraits/43.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_44"
+texturefile = "gfx/interface/APDC/parliament/portraits/44.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_45"
+texturefile = "gfx/interface/APDC/parliament/portraits/45.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_46"
+texturefile = "gfx/interface/APDC/parliament/portraits/46.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_47"
+texturefile = "gfx/interface/APDC/parliament/portraits/47.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1002"
+texturefile = "gfx/interface/APDC/parliament/portraits/1002.png"
+}
+spriteType = {
+name = "GFX_AFG_APDC_doc_ace2f095ace9"
+texturefile = "gfx/interface/APDC/parliament/portraits/1002.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1003"
+texturefile = "gfx/interface/APDC/parliament/portraits/1003.png"
+}
+spriteType = {
+name = "GFX_AFG_taliban_tribes"
+texturefile = "gfx/interface/APDC/parliament/portraits/1003.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1004"
+texturefile = "gfx/interface/APDC/parliament/portraits/1004.png"
+}
+spriteType = {
+name = "GFX_AGR_APDC_doc_83618376bf9f"
+texturefile = "gfx/interface/APDC/parliament/portraits/1004.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1005"
+texturefile = "gfx/interface/APDC/parliament/portraits/1005.png"
+}
+spriteType = {
+name = "GFX_ALB_APDC_doc_2e57ef4a13b1"
+texturefile = "gfx/interface/APDC/parliament/portraits/1005.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1006"
+texturefile = "gfx/interface/APDC/parliament/portraits/1006.png"
+}
+spriteType = {
+name = "GFX_ALS_APDC_doc_6255fc3036c2"
+texturefile = "gfx/interface/APDC/parliament/portraits/1006.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1007"
+texturefile = "gfx/interface/APDC/parliament/portraits/1007.png"
+}
+spriteType = {
+name = "GFX_ALS_APDC_doc_ddd1e0af658c"
+texturefile = "gfx/interface/APDC/parliament/portraits/1007.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1008"
+texturefile = "gfx/interface/APDC/parliament/portraits/1008.png"
+}
+spriteType = {
+name = "GFX_ALS_barron_mccormick"
+texturefile = "gfx/interface/APDC/parliament/portraits/1008.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1009"
+texturefile = "gfx/interface/APDC/parliament/portraits/1009.png"
+}
+spriteType = {
+name = "GFX_ALS_chloe_kipling"
+texturefile = "gfx/interface/APDC/parliament/portraits/1009.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1010"
+texturefile = "gfx/interface/APDC/parliament/portraits/1010.png"
+}
+spriteType = {
+name = "GFX_ALS_donglin_canterbury"
+texturefile = "gfx/interface/APDC/parliament/portraits/1010.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1011"
+texturefile = "gfx/interface/APDC/parliament/portraits/1011.png"
+}
+spriteType = {
+name = "GFX_ALS_enzo_chevalier"
+texturefile = "gfx/interface/APDC/parliament/portraits/1011.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1012"
+texturefile = "gfx/interface/APDC/parliament/portraits/1012.png"
+}
+spriteType = {
+name = "GFX_ALS_harper_argentoni"
+texturefile = "gfx/interface/APDC/parliament/portraits/1012.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1013"
+texturefile = "gfx/interface/APDC/parliament/portraits/1013.png"
+}
+spriteType = {
+name = "GFX_ALS_nicholas_winfrey"
+texturefile = "gfx/interface/APDC/parliament/portraits/1013.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1014"
+texturefile = "gfx/interface/APDC/parliament/portraits/1014.png"
+}
+spriteType = {
+name = "GFX_ALS_raymond_uxbridge"
+texturefile = "gfx/interface/APDC/parliament/portraits/1014.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1015"
+texturefile = "gfx/interface/APDC/parliament/portraits/1015.png"
+}
+spriteType = {
+name = "GFX_ALS_rosalind_owena"
+texturefile = "gfx/interface/APDC/parliament/portraits/1015.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1016"
+texturefile = "gfx/interface/APDC/parliament/portraits/1016.png"
+}
+spriteType = {
+name = "GFX_ALS_zachary_fisher"
+texturefile = "gfx/interface/APDC/parliament/portraits/1016.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1017"
+texturefile = "gfx/interface/APDC/parliament/portraits/1017.png"
+}
+spriteType = {
+name = "GFX_AMZ_cid_general"
+texturefile = "gfx/interface/APDC/parliament/portraits/1017.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1018"
+texturefile = "gfx/interface/APDC/parliament/portraits/1018.png"
+}
+spriteType = {
+name = "GFX_AMZ_disorder"
+texturefile = "gfx/interface/APDC/parliament/portraits/1018.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1019"
+texturefile = "gfx/interface/APDC/parliament/portraits/1019.png"
+}
+spriteType = {
+name = "GFX_AMZ_duncan_general"
+texturefile = "gfx/interface/APDC/parliament/portraits/1019.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1020"
+texturefile = "gfx/interface/APDC/parliament/portraits/1020.png"
+}
+spriteType = {
+name = "GFX_AMZ_eric_bordeaux_authoritarianism"
+texturefile = "gfx/interface/APDC/parliament/portraits/1020.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1021"
+texturefile = "gfx/interface/APDC/parliament/portraits/1021.png"
+}
+spriteType = {
+name = "GFX_AMZ_eric_bordeaux_dictatorship"
+texturefile = "gfx/interface/APDC/parliament/portraits/1021.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1022"
+texturefile = "gfx/interface/APDC/parliament/portraits/1022.png"
+}
+spriteType = {
+name = "GFX_AMZ_garcia_salvador"
+texturefile = "gfx/interface/APDC/parliament/portraits/1022.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1023"
+texturefile = "gfx/interface/APDC/parliament/portraits/1023.png"
+}
+spriteType = {
+name = "GFX_AMZ_hokeler_bowie"
+texturefile = "gfx/interface/APDC/parliament/portraits/1023.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1024"
+texturefile = "gfx/interface/APDC/parliament/portraits/1024.png"
+}
+spriteType = {
+name = "GFX_AMZ_namara_cochran"
+texturefile = "gfx/interface/APDC/parliament/portraits/1024.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1025"
+texturefile = "gfx/interface/APDC/parliament/portraits/1025.png"
+}
+spriteType = {
+name = "GFX_AMZ_taylor_hawke"
+texturefile = "gfx/interface/APDC/parliament/portraits/1025.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1026"
+texturefile = "gfx/interface/APDC/parliament/portraits/1026.png"
+}
+spriteType = {
+name = "GFX_ANG_luis_da_silva"
+texturefile = "gfx/interface/APDC/parliament/portraits/1026.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1027"
+texturefile = "gfx/interface/APDC/parliament/portraits/1027.png"
+}
+spriteType = {
+name = "GFX_AST_APDC_doc_1d0d4f5ee134"
+texturefile = "gfx/interface/APDC/parliament/portraits/1027.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1028"
+texturefile = "gfx/interface/APDC/parliament/portraits/1028.png"
+}
+spriteType = {
+name = "GFX_AST_APDC_doc_727f0d438e00"
+texturefile = "gfx/interface/APDC/parliament/portraits/1028.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1029"
+texturefile = "gfx/interface/APDC/parliament/portraits/1029.png"
+}
+spriteType = {
+name = "GFX_AST_APDC_doc_a80be8242996"
+texturefile = "gfx/interface/APDC/parliament/portraits/1029.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1030"
+texturefile = "gfx/interface/APDC/parliament/portraits/1030.png"
+}
+spriteType = {
+name = "GFX_AST_APDC_doc_c67878b0fc62"
+texturefile = "gfx/interface/APDC/parliament/portraits/1030.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1031"
+texturefile = "gfx/interface/APDC/parliament/portraits/1031.png"
+}
+spriteType = {
+name = "GFX_ATU_APDC_doc_dab0b10e11a8"
+texturefile = "gfx/interface/APDC/parliament/portraits/1031.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1032"
+texturefile = "gfx/interface/APDC/parliament/portraits/1032.png"
+}
+spriteType = {
+name = "GFX_BEN_APDC_doc_3c3e8194a84f"
+texturefile = "gfx/interface/APDC/parliament/portraits/1032.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1033"
+texturefile = "gfx/interface/APDC/parliament/portraits/1033.png"
+}
+spriteType = {
+name = "GFX_BKF_APDC_doc_77df047cd38f"
+texturefile = "gfx/interface/APDC/parliament/portraits/1033.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1034"
+texturefile = "gfx/interface/APDC/parliament/portraits/1034.png"
+}
+spriteType = {
+name = "GFX_BRA_carlos_ronaldo"
+texturefile = "gfx/interface/APDC/parliament/portraits/1034.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1035"
+texturefile = "gfx/interface/APDC/parliament/portraits/1035.png"
+}
+spriteType = {
+name = "GFX_BRA_cid_general"
+texturefile = "gfx/interface/APDC/parliament/portraits/1035.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1036"
+texturefile = "gfx/interface/APDC/parliament/portraits/1036.png"
+}
+spriteType = {
+name = "GFX_BRA_duncan_general"
+texturefile = "gfx/interface/APDC/parliament/portraits/1036.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1037"
+texturefile = "gfx/interface/APDC/parliament/portraits/1037.png"
+}
+spriteType = {
+name = "GFX_BRA_elgar_delano"
+texturefile = "gfx/interface/APDC/parliament/portraits/1037.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1038"
+texturefile = "gfx/interface/APDC/parliament/portraits/1038.png"
+}
+spriteType = {
+name = "GFX_BRA_emergency_military_committee"
+texturefile = "gfx/interface/APDC/parliament/portraits/1038.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1039"
+texturefile = "gfx/interface/APDC/parliament/portraits/1039.png"
+}
+spriteType = {
+name = "GFX_BRA_free_officers"
+texturefile = "gfx/interface/APDC/parliament/portraits/1039.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1040"
+texturefile = "gfx/interface/APDC/parliament/portraits/1040.png"
+}
+spriteType = {
+name = "GFX_BRA_jean_ortiz"
+texturefile = "gfx/interface/APDC/parliament/portraits/1040.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1041"
+texturefile = "gfx/interface/APDC/parliament/portraits/1041.png"
+}
+spriteType = {
+name = "GFX_BRA_marina_sena"
+texturefile = "gfx/interface/APDC/parliament/portraits/1041.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1042"
+texturefile = "gfx/interface/APDC/parliament/portraits/1042.png"
+}
+spriteType = {
+name = "GFX_BRA_paulo_passat"
+texturefile = "gfx/interface/APDC/parliament/portraits/1042.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1043"
+texturefile = "gfx/interface/APDC/parliament/portraits/1043.png"
+}
+spriteType = {
+name = "GFX_BRM_APDC_doc_88f5f0e823d0"
+texturefile = "gfx/interface/APDC/parliament/portraits/1043.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1044"
+texturefile = "gfx/interface/APDC/parliament/portraits/1044.png"
+}
+spriteType = {
+name = "GFX_BUL_soviet_authority"
+texturefile = "gfx/interface/APDC/parliament/portraits/1044.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1045"
+texturefile = "gfx/interface/APDC/parliament/portraits/1045.png"
+}
+spriteType = {
+name = "GFX_CAR_APDC_doc_1959812c1406"
+texturefile = "gfx/interface/APDC/parliament/portraits/1045.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1046"
+texturefile = "gfx/interface/APDC/parliament/portraits/1046.png"
+}
+spriteType = {
+name = "GFX_CAR_APDC_doc_1d50472f4292"
+texturefile = "gfx/interface/APDC/parliament/portraits/1046.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1047"
+texturefile = "gfx/interface/APDC/parliament/portraits/1047.png"
+}
+spriteType = {
+name = "GFX_CAR_APDC_doc_5d788262479c"
+texturefile = "gfx/interface/APDC/parliament/portraits/1047.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1048"
+texturefile = "gfx/interface/APDC/parliament/portraits/1048.png"
+}
+spriteType = {
+name = "GFX_CAR_APDC_doc_8482b8f88436"
+texturefile = "gfx/interface/APDC/parliament/portraits/1048.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1049"
+texturefile = "gfx/interface/APDC/parliament/portraits/1049.png"
+}
+spriteType = {
+name = "GFX_CAR_APDC_doc_f1351f6e6e98"
+texturefile = "gfx/interface/APDC/parliament/portraits/1049.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1050"
+texturefile = "gfx/interface/APDC/parliament/portraits/1050.png"
+}
+spriteType = {
+name = "GFX_CHL_APDC_doc_088039ca610b"
+texturefile = "gfx/interface/APDC/parliament/portraits/1050.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1051"
+texturefile = "gfx/interface/APDC/parliament/portraits/1051.png"
+}
+spriteType = {
+name = "GFX_CHL_dilan_lopez"
+texturefile = "gfx/interface/APDC/parliament/portraits/1051.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1052"
+texturefile = "gfx/interface/APDC/parliament/portraits/1052.png"
+}
+spriteType = {
+name = "GFX_CHL_doctor_odes"
+texturefile = "gfx/interface/APDC/parliament/portraits/1052.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1053"
+texturefile = "gfx/interface/APDC/parliament/portraits/1053.png"
+}
+spriteType = {
+name = "GFX_CHL_general_vallejo"
+texturefile = "gfx/interface/APDC/parliament/portraits/1053.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1054"
+texturefile = "gfx/interface/APDC/parliament/portraits/1054.png"
+}
+spriteType = {
+name = "GFX_CHL_hariel_utleier"
+texturefile = "gfx/interface/APDC/parliament/portraits/1054.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1055"
+texturefile = "gfx/interface/APDC/parliament/portraits/1055.png"
+}
+spriteType = {
+name = "GFX_CHL_high_command"
+texturefile = "gfx/interface/APDC/parliament/portraits/1055.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1056"
+texturefile = "gfx/interface/APDC/parliament/portraits/1056.png"
+}
+spriteType = {
+name = "GFX_CHL_lautaro_fernandez"
+texturefile = "gfx/interface/APDC/parliament/portraits/1056.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1057"
+texturefile = "gfx/interface/APDC/parliament/portraits/1057.png"
+}
+spriteType = {
+name = "GFX_CHL_lord_adolf_augusta"
+texturefile = "gfx/interface/APDC/parliament/portraits/1057.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1058"
+texturefile = "gfx/interface/APDC/parliament/portraits/1058.png"
+}
+spriteType = {
+name = "GFX_CHL_santiago_silva"
+texturefile = "gfx/interface/APDC/parliament/portraits/1058.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1059"
+texturefile = "gfx/interface/APDC/parliament/portraits/1059.png"
+}
+spriteType = {
+name = "GFX_CHL_sebastian_rojas"
+texturefile = "gfx/interface/APDC/parliament/portraits/1059.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1060"
+texturefile = "gfx/interface/APDC/parliament/portraits/1060.png"
+}
+spriteType = {
+name = "GFX_COL_APDC_doc_177441bef04b"
+texturefile = "gfx/interface/APDC/parliament/portraits/1060.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1061"
+texturefile = "gfx/interface/APDC/parliament/portraits/1061.png"
+}
+spriteType = {
+name = "GFX_COL_crocodile_bruno"
+texturefile = "gfx/interface/APDC/parliament/portraits/1061.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1062"
+texturefile = "gfx/interface/APDC/parliament/portraits/1062.png"
+}
+spriteType = {
+name = "GFX_COL_dylan_morales"
+texturefile = "gfx/interface/APDC/parliament/portraits/1062.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1063"
+texturefile = "gfx/interface/APDC/parliament/portraits/1063.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1064"
+texturefile = "gfx/interface/APDC/parliament/portraits/1064.png"
+}
+spriteType = {
+name = "GFX_COL_leo_rodriguez_authoritarianism"
+texturefile = "gfx/interface/APDC/parliament/portraits/1064.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1065"
+texturefile = "gfx/interface/APDC/parliament/portraits/1065.png"
+}
+spriteType = {
+name = "GFX_COL_leo_rodriguez_liberalism"
+texturefile = "gfx/interface/APDC/parliament/portraits/1065.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1066"
+texturefile = "gfx/interface/APDC/parliament/portraits/1066.png"
+}
+spriteType = {
+name = "GFX_COL_martin_ruiz"
+texturefile = "gfx/interface/APDC/parliament/portraits/1066.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1067"
+texturefile = "gfx/interface/APDC/parliament/portraits/1067.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1068"
+texturefile = "gfx/interface/APDC/parliament/portraits/1068.png"
+}
+spriteType = {
+name = "GFX_COL_mercenary_group"
+texturefile = "gfx/interface/APDC/parliament/portraits/1068.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1069"
+texturefile = "gfx/interface/APDC/parliament/portraits/1069.png"
+}
+spriteType = {
+name = "GFX_COL_santiago_fernando_lie"
+texturefile = "gfx/interface/APDC/parliament/portraits/1069.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1070"
+texturefile = "gfx/interface/APDC/parliament/portraits/1070.png"
+}
+spriteType = {
+name = "GFX_CUB_alejandro_hernandez"
+texturefile = "gfx/interface/APDC/parliament/portraits/1070.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1071"
+texturefile = "gfx/interface/APDC/parliament/portraits/1071.png"
+}
+spriteType = {
+name = "GFX_CYP_APDC_doc_9ee075739d96"
+texturefile = "gfx/interface/APDC/parliament/portraits/1071.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1072"
+texturefile = "gfx/interface/APDC/parliament/portraits/1072.png"
+}
+spriteType = {
+name = "GFX_CYP_andreas_christofides"
+texturefile = "gfx/interface/APDC/parliament/portraits/1072.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1073"
+texturefile = "gfx/interface/APDC/parliament/portraits/1073.png"
+}
+spriteType = {
+name = "GFX_CZE_soviet_authority"
+texturefile = "gfx/interface/APDC/parliament/portraits/1073.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1074"
+texturefile = "gfx/interface/APDC/parliament/portraits/1074.png"
+}
+spriteType = {
+name = "GFX_EGY_amr_fahmy"
+texturefile = "gfx/interface/APDC/parliament/portraits/1074.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1075"
+texturefile = "gfx/interface/APDC/parliament/portraits/1075.png"
+}
+spriteType = {
+name = "GFX_ERI_APDC_doc_7b8fd8509380"
+texturefile = "gfx/interface/APDC/parliament/portraits/1075.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1076"
+texturefile = "gfx/interface/APDC/parliament/portraits/1076.png"
+}
+spriteType = {
+name = "GFX_ETH_APDC_doc_56ce8e1a1b1d"
+texturefile = "gfx/interface/APDC/parliament/portraits/1076.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1077"
+texturefile = "gfx/interface/APDC/parliament/portraits/1077.png"
+}
+spriteType = {
+name = "GFX_GER_APDC_alexis_richter"
+texturefile = "gfx/interface/APDC/parliament/portraits/1077.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1078"
+texturefile = "gfx/interface/APDC/parliament/portraits/1078.png"
+}
+spriteType = {
+name = "GFX_GER_APDC_doc_779349af9bbf"
+texturefile = "gfx/interface/APDC/parliament/portraits/1078.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1079"
+texturefile = "gfx/interface/APDC/parliament/portraits/1079.png"
+}
+spriteType = {
+name = "GFX_GER_APDC_doc_8b01921a6606"
+texturefile = "gfx/interface/APDC/parliament/portraits/1079.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1080"
+texturefile = "gfx/interface/APDC/parliament/portraits/1080.png"
+}
+spriteType = {
+name = "GFX_GER_APDC_felix_koch"
+texturefile = "gfx/interface/APDC/parliament/portraits/1080.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1081"
+texturefile = "gfx/interface/APDC/parliament/portraits/1081.png"
+}
+spriteType = {
+name = "GFX_GER_APDC_gilfa_ulrich"
+texturefile = "gfx/interface/APDC/parliament/portraits/1081.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1082"
+texturefile = "gfx/interface/APDC/parliament/portraits/1082.png"
+}
+spriteType = {
+name = "GFX_GER_APDC_ilan_walter"
+texturefile = "gfx/interface/APDC/parliament/portraits/1082.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1083"
+texturefile = "gfx/interface/APDC/parliament/portraits/1083.png"
+}
+spriteType = {
+name = "GFX_GER_APDC_johann_strauss"
+texturefile = "gfx/interface/APDC/parliament/portraits/1083.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1084"
+texturefile = "gfx/interface/APDC/parliament/portraits/1084.png"
+}
+spriteType = {
+name = "GFX_GER_APDC_karl_hoffmann"
+texturefile = "gfx/interface/APDC/parliament/portraits/1084.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1085"
+texturefile = "gfx/interface/APDC/parliament/portraits/1085.png"
+}
+spriteType = {
+name = "GFX_GER_APDC_lukas_baumann"
+texturefile = "gfx/interface/APDC/parliament/portraits/1085.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1086"
+texturefile = "gfx/interface/APDC/parliament/portraits/1086.png"
+}
+spriteType = {
+name = "GFX_GER_APDC_rudolf_von_oberstein"
+texturefile = "gfx/interface/APDC/parliament/portraits/1086.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1087"
+texturefile = "gfx/interface/APDC/parliament/portraits/1087.png"
+}
+spriteType = {
+name = "GFX_GER_APDC_wilden_kurz"
+texturefile = "gfx/interface/APDC/parliament/portraits/1087.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1088"
+texturefile = "gfx/interface/APDC/parliament/portraits/1088.png"
+}
+spriteType = {
+name = "GFX_GRE_dimitri_vanoufakis"
+texturefile = "gfx/interface/APDC/parliament/portraits/1088.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1089"
+texturefile = "gfx/interface/APDC/parliament/portraits/1089.png"
+}
+spriteType = {
+name = "GFX_HAI_APDC_doc_fc1c4c57dde2"
+texturefile = "gfx/interface/APDC/parliament/portraits/1089.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1090"
+texturefile = "gfx/interface/APDC/parliament/portraits/1090.png"
+}
+spriteType = {
+name = "GFX_HAI_boss_henri"
+texturefile = "gfx/interface/APDC/parliament/portraits/1090.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1091"
+texturefile = "gfx/interface/APDC/parliament/portraits/1091.png"
+}
+spriteType = {
+name = "GFX_HAI_chef_ogun"
+texturefile = "gfx/interface/APDC/parliament/portraits/1091.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1092"
+texturefile = "gfx/interface/APDC/parliament/portraits/1092.png"
+}
+spriteType = {
+name = "GFX_HAI_duvalier_iii"
+texturefile = "gfx/interface/APDC/parliament/portraits/1092.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1093"
+texturefile = "gfx/interface/APDC/parliament/portraits/1093.png"
+}
+spriteType = {
+name = "GFX_HAI_general_toussaint"
+texturefile = "gfx/interface/APDC/parliament/portraits/1093.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1094"
+texturefile = "gfx/interface/APDC/parliament/portraits/1094.png"
+}
+spriteType = {
+name = "GFX_HAI_huey_laudor"
+texturefile = "gfx/interface/APDC/parliament/portraits/1094.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1095"
+texturefile = "gfx/interface/APDC/parliament/portraits/1095.png"
+}
+spriteType = {
+name = "GFX_HAI_kingpin_damballa"
+texturefile = "gfx/interface/APDC/parliament/portraits/1095.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1096"
+texturefile = "gfx/interface/APDC/parliament/portraits/1096.png"
+}
+spriteType = {
+name = "GFX_HAI_mirlande_dieudonne"
+texturefile = "gfx/interface/APDC/parliament/portraits/1096.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1097"
+texturefile = "gfx/interface/APDC/parliament/portraits/1097.png"
+}
+spriteType = {
+name = "GFX_HAI_robert_ivan"
+texturefile = "gfx/interface/APDC/parliament/portraits/1097.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1098"
+texturefile = "gfx/interface/APDC/parliament/portraits/1098.png"
+}
+spriteType = {
+name = "GFX_HAI_shamar_ingel"
+texturefile = "gfx/interface/APDC/parliament/portraits/1098.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1099"
+texturefile = "gfx/interface/APDC/parliament/portraits/1099.png"
+}
+spriteType = {
+name = "GFX_HJM_APDC_doc_078e59c1c753"
+texturefile = "gfx/interface/APDC/parliament/portraits/1099.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1100"
+texturefile = "gfx/interface/APDC/parliament/portraits/1100.png"
+}
+spriteType = {
+name = "GFX_HJM_APDC_doc_4bf36eeec3dd"
+texturefile = "gfx/interface/APDC/parliament/portraits/1100.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1101"
+texturefile = "gfx/interface/APDC/parliament/portraits/1101.png"
+}
+spriteType = {
+name = "GFX_HJM_APDC_doc_5d70a404c278"
+texturefile = "gfx/interface/APDC/parliament/portraits/1101.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1102"
+texturefile = "gfx/interface/APDC/parliament/portraits/1102.png"
+}
+spriteType = {
+name = "GFX_HJM_APDC_doc_76c19fe24ead"
+texturefile = "gfx/interface/APDC/parliament/portraits/1102.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1103"
+texturefile = "gfx/interface/APDC/parliament/portraits/1103.png"
+}
+spriteType = {
+name = "GFX_HJM_APDC_doc_78cb115a7ff1"
+texturefile = "gfx/interface/APDC/parliament/portraits/1103.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1104"
+texturefile = "gfx/interface/APDC/parliament/portraits/1104.png"
+}
+spriteType = {
+name = "GFX_HJM_APDC_doc_a23ecc132d0d"
+texturefile = "gfx/interface/APDC/parliament/portraits/1104.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1105"
+texturefile = "gfx/interface/APDC/parliament/portraits/1105.png"
+}
+spriteType = {
+name = "GFX_HJM_APDC_doc_bea27fe2848a"
+texturefile = "gfx/interface/APDC/parliament/portraits/1105.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1106"
+texturefile = "gfx/interface/APDC/parliament/portraits/1106.png"
+}
+spriteType = {
+name = "GFX_HJM_APDC_doc_e0a51b1c080b"
+texturefile = "gfx/interface/APDC/parliament/portraits/1106.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1107"
+texturefile = "gfx/interface/APDC/parliament/portraits/1107.png"
+}
+spriteType = {
+name = "GFX_HJM_APDC_doc_fead4ebcbad7"
+texturefile = "gfx/interface/APDC/parliament/portraits/1107.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1108"
+texturefile = "gfx/interface/APDC/parliament/portraits/1108.png"
+}
+spriteType = {
+name = "GFX_HUN_soviet_authority"
+texturefile = "gfx/interface/APDC/parliament/portraits/1108.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1109"
+texturefile = "gfx/interface/APDC/parliament/portraits/1109.png"
+}
+spriteType = {
+name = "GFX_IRQ_APDC_doc_5f90e86f0d2d"
+texturefile = "gfx/interface/APDC/parliament/portraits/1109.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1110"
+texturefile = "gfx/interface/APDC/parliament/portraits/1110.png"
+}
+spriteType = {
+name = "GFX_IRQ_mustafa_zaidi"
+texturefile = "gfx/interface/APDC/parliament/portraits/1110.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1111"
+texturefile = "gfx/interface/APDC/parliament/portraits/1111.png"
+}
+spriteType = {
+name = "GFX_JAP_APDC_doc_dbca500755bb"
+texturefile = "gfx/interface/APDC/parliament/portraits/1111.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1112"
+texturefile = "gfx/interface/APDC/parliament/portraits/1112.png"
+}
+spriteType = {
+name = "GFX_JAP_APDC_doc_e218a91ebf36"
+texturefile = "gfx/interface/APDC/parliament/portraits/1112.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1113"
+texturefile = "gfx/interface/APDC/parliament/portraits/1113.png"
+}
+spriteType = {
+name = "GFX_JAP_fuji_yuko"
+texturefile = "gfx/interface/APDC/parliament/portraits/1113.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1114"
+texturefile = "gfx/interface/APDC/parliament/portraits/1114.png"
+}
+spriteType = {
+name = "GFX_JAP_iwanaga_kashiwa"
+texturefile = "gfx/interface/APDC/parliament/portraits/1114.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1115"
+texturefile = "gfx/interface/APDC/parliament/portraits/1115.png"
+}
+spriteType = {
+name = "GFX_JAP_kamiki_takahisa"
+texturefile = "gfx/interface/APDC/parliament/portraits/1115.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1116"
+texturefile = "gfx/interface/APDC/parliament/portraits/1116.png"
+}
+spriteType = {
+name = "GFX_JAP_katsuhisakura"
+texturefile = "gfx/interface/APDC/parliament/portraits/1116.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1117"
+texturefile = "gfx/interface/APDC/parliament/portraits/1117.png"
+}
+spriteType = {
+name = "GFX_JAP_kawaharagi_kiichi"
+texturefile = "gfx/interface/APDC/parliament/portraits/1117.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1118"
+texturefile = "gfx/interface/APDC/parliament/portraits/1118.png"
+}
+spriteType = {
+name = "GFX_JAP_kotobuki_naruyuki"
+texturefile = "gfx/interface/APDC/parliament/portraits/1118.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1119"
+texturefile = "gfx/interface/APDC/parliament/portraits/1119.png"
+}
+spriteType = {
+name = "GFX_JAP_toyokawa_naru"
+texturefile = "gfx/interface/APDC/parliament/portraits/1119.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1120"
+texturefile = "gfx/interface/APDC/parliament/portraits/1120.png"
+}
+spriteType = {
+name = "GFX_JAP_tsurumaki_yuko"
+texturefile = "gfx/interface/APDC/parliament/portraits/1120.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1121"
+texturefile = "gfx/interface/APDC/parliament/portraits/1121.png"
+}
+spriteType = {
+name = "GFX_JAP_yuzaki_chikusei"
+texturefile = "gfx/interface/APDC/parliament/portraits/1121.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1122"
+texturefile = "gfx/interface/APDC/parliament/portraits/1122.png"
+}
+spriteType = {
+name = "GFX_KUR_azad_barzani"
+texturefile = "gfx/interface/APDC/parliament/portraits/1122.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1123"
+texturefile = "gfx/interface/APDC/parliament/portraits/1123.png"
+}
+spriteType = {
+name = "GFX_LLU_barend_roland"
+texturefile = "gfx/interface/APDC/parliament/portraits/1123.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1124"
+texturefile = "gfx/interface/APDC/parliament/portraits/1124.png"
+}
+spriteType = {
+name = "GFX_LLU_dries_langbroek"
+texturefile = "gfx/interface/APDC/parliament/portraits/1124.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1125"
+texturefile = "gfx/interface/APDC/parliament/portraits/1125.png"
+}
+spriteType = {
+name = "GFX_LLU_fairy"
+texturefile = "gfx/interface/APDC/parliament/portraits/1125.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1126"
+texturefile = "gfx/interface/APDC/parliament/portraits/1126.png"
+}
+spriteType = {
+name = "GFX_LLU_gerrit_gillet"
+texturefile = "gfx/interface/APDC/parliament/portraits/1126.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1127"
+texturefile = "gfx/interface/APDC/parliament/portraits/1127.png"
+}
+spriteType = {
+name = "GFX_LLU_james_van_hoeff"
+texturefile = "gfx/interface/APDC/parliament/portraits/1127.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1128"
+texturefile = "gfx/interface/APDC/parliament/portraits/1128.png"
+}
+spriteType = {
+name = "GFX_LLU_maeve_dumoulin"
+texturefile = "gfx/interface/APDC/parliament/portraits/1128.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1129"
+texturefile = "gfx/interface/APDC/parliament/portraits/1129.png"
+}
+spriteType = {
+name = "GFX_LLU_milan_verhagen"
+texturefile = "gfx/interface/APDC/parliament/portraits/1129.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1130"
+texturefile = "gfx/interface/APDC/parliament/portraits/1130.png"
+}
+spriteType = {
+name = "GFX_LLU_sophie_vanderbeek"
+texturefile = "gfx/interface/APDC/parliament/portraits/1130.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1131"
+texturefile = "gfx/interface/APDC/parliament/portraits/1131.png"
+}
+spriteType = {
+name = "GFX_LLU_toon_overmans"
+texturefile = "gfx/interface/APDC/parliament/portraits/1131.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1132"
+texturefile = "gfx/interface/APDC/parliament/portraits/1132.png"
+}
+spriteType = {
+name = "GFX_MAD_APDC_doc_0f654562b366"
+texturefile = "gfx/interface/APDC/parliament/portraits/1132.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1133"
+texturefile = "gfx/interface/APDC/parliament/portraits/1133.png"
+}
+spriteType = {
+name = "GFX_MAD_APDC_doc_37064d5d6d00"
+texturefile = "gfx/interface/APDC/parliament/portraits/1133.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1134"
+texturefile = "gfx/interface/APDC/parliament/portraits/1134.png"
+}
+spriteType = {
+name = "GFX_MAD_APDC_doc_7b66c670b799"
+texturefile = "gfx/interface/APDC/parliament/portraits/1134.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1135"
+texturefile = "gfx/interface/APDC/parliament/portraits/1135.png"
+}
+spriteType = {
+name = "GFX_MAD_APDC_doc_80e2120a5c28"
+texturefile = "gfx/interface/APDC/parliament/portraits/1135.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1136"
+texturefile = "gfx/interface/APDC/parliament/portraits/1136.png"
+}
+spriteType = {
+name = "GFX_MAD_APDC_doc_9b5d9ecf11ff"
+texturefile = "gfx/interface/APDC/parliament/portraits/1136.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1137"
+texturefile = "gfx/interface/APDC/parliament/portraits/1137.png"
+}
+spriteType = {
+name = "GFX_MAD_APDC_doc_b4bbe0e1fe5d"
+texturefile = "gfx/interface/APDC/parliament/portraits/1137.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1138"
+texturefile = "gfx/interface/APDC/parliament/portraits/1138.png"
+}
+spriteType = {
+name = "GFX_MAD_APDC_doc_cc41ab207815"
+texturefile = "gfx/interface/APDC/parliament/portraits/1138.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1139"
+texturefile = "gfx/interface/APDC/parliament/portraits/1139.png"
+}
+spriteType = {
+name = "GFX_MAD_APDC_doc_d09dc7544b07"
+texturefile = "gfx/interface/APDC/parliament/portraits/1139.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1140"
+texturefile = "gfx/interface/APDC/parliament/portraits/1140.png"
+}
+spriteType = {
+name = "GFX_MAD_APDC_doc_e90b602796ee"
+texturefile = "gfx/interface/APDC/parliament/portraits/1140.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1141"
+texturefile = "gfx/interface/APDC/parliament/portraits/1141.png"
+}
+spriteType = {
+name = "GFX_MEX_armando_garcia"
+texturefile = "gfx/interface/APDC/parliament/portraits/1141.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1142"
+texturefile = "gfx/interface/APDC/parliament/portraits/1142.png"
+}
+spriteType = {
+name = "GFX_MEX_enrique_huerta"
+texturefile = "gfx/interface/APDC/parliament/portraits/1142.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1143"
+texturefile = "gfx/interface/APDC/parliament/portraits/1143.png"
+}
+spriteType = {
+name = "GFX_MEX_ernesto_barrios"
+texturefile = "gfx/interface/APDC/parliament/portraits/1143.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1144"
+texturefile = "gfx/interface/APDC/parliament/portraits/1144.png"
+}
+spriteType = {
+name = "GFX_MEX_golden_hand_diaz"
+texturefile = "gfx/interface/APDC/parliament/portraits/1144.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1145"
+texturefile = "gfx/interface/APDC/parliament/portraits/1145.png"
+}
+spriteType = {
+name = "GFX_MEX_hector_mendoza"
+texturefile = "gfx/interface/APDC/parliament/portraits/1145.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1146"
+texturefile = "gfx/interface/APDC/parliament/portraits/1146.png"
+}
+spriteType = {
+name = "GFX_MEX_patricia_merino"
+texturefile = "gfx/interface/APDC/parliament/portraits/1146.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1147"
+texturefile = "gfx/interface/APDC/parliament/portraits/1147.png"
+}
+spriteType = {
+name = "GFX_MEX_raul_delgado"
+texturefile = "gfx/interface/APDC/parliament/portraits/1147.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1148"
+texturefile = "gfx/interface/APDC/parliament/portraits/1148.png"
+}
+spriteType = {
+name = "GFX_MEX_ricardo_valero"
+texturefile = "gfx/interface/APDC/parliament/portraits/1148.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1149"
+texturefile = "gfx/interface/APDC/parliament/portraits/1149.png"
+}
+spriteType = {
+name = "GFX_MEX_rosario_pacheco"
+texturefile = "gfx/interface/APDC/parliament/portraits/1149.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1150"
+texturefile = "gfx/interface/APDC/parliament/portraits/1150.png"
+}
+spriteType = {
+name = "GFX_MLI_APDC_doc_a1c646e5c52b"
+texturefile = "gfx/interface/APDC/parliament/portraits/1150.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1151"
+texturefile = "gfx/interface/APDC/parliament/portraits/1151.png"
+}
+spriteType = {
+name = "GFX_MON_bilegun_borjigin"
+texturefile = "gfx/interface/APDC/parliament/portraits/1151.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1152"
+texturefile = "gfx/interface/APDC/parliament/portraits/1152.png"
+}
+spriteType = {
+name = "GFX_MZB_felipe_langa"
+texturefile = "gfx/interface/APDC/parliament/portraits/1152.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1153"
+texturefile = "gfx/interface/APDC/parliament/portraits/1153.png"
+}
+spriteType = {
+name = "GFX_NGR_APDC_doc_0c09f5e9e6aa"
+texturefile = "gfx/interface/APDC/parliament/portraits/1153.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1154"
+texturefile = "gfx/interface/APDC/parliament/portraits/1154.png"
+}
+spriteType = {
+name = "GFX_PER_kia_esfahani"
+texturefile = "gfx/interface/APDC/parliament/portraits/1154.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1155"
+texturefile = "gfx/interface/APDC/parliament/portraits/1155.png"
+}
+spriteType = {
+name = "GFX_PER_navid_jalali"
+texturefile = "gfx/interface/APDC/parliament/portraits/1155.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1156"
+texturefile = "gfx/interface/APDC/parliament/portraits/1156.png"
+}
+spriteType = {
+name = "GFX_POL_APDC_doc_09a9c6b1b5dc"
+texturefile = "gfx/interface/APDC/parliament/portraits/1156.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1157"
+texturefile = "gfx/interface/APDC/parliament/portraits/1157.png"
+}
+spriteType = {
+name = "GFX_PRC_APDC_doc_22a4dfe21327"
+texturefile = "gfx/interface/APDC/parliament/portraits/1157.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1158"
+texturefile = "gfx/interface/APDC/parliament/portraits/1158.png"
+}
+spriteType = {
+name = "GFX_ROM_soviet_authority"
+texturefile = "gfx/interface/APDC/parliament/portraits/1158.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1159"
+texturefile = "gfx/interface/APDC/parliament/portraits/1159.png"
+}
+spriteType = {
+name = "GFX_SAU_APDC_doc_35cfd52468d6"
+texturefile = "gfx/interface/APDC/parliament/portraits/1159.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1160"
+texturefile = "gfx/interface/APDC/parliament/portraits/1160.png"
+}
+spriteType = {
+name = "GFX_SIA_new_soviet_naval_authority"
+texturefile = "gfx/interface/APDC/parliament/portraits/1160.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1161"
+texturefile = "gfx/interface/APDC/parliament/portraits/1161.png"
+}
+spriteType = {
+name = "GFX_SIA_rama_xv"
+texturefile = "gfx/interface/APDC/parliament/portraits/1161.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1162"
+texturefile = "gfx/interface/APDC/parliament/portraits/1162.png"
+}
+spriteType = {
+name = "GFX_SOM_APDC_doc_e4be108d3d52"
+texturefile = "gfx/interface/APDC/parliament/portraits/1162.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1163"
+texturefile = "gfx/interface/APDC/parliament/portraits/1163.png"
+}
+spriteType = {
+name = "GFX_SOV_APDC_doc_4a0ae0ad09d7"
+texturefile = "gfx/interface/APDC/parliament/portraits/1163.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1164"
+texturefile = "gfx/interface/APDC/parliament/portraits/1164.png"
+}
+spriteType = {
+name = "GFX_SOV_APDC_doc_68553193cb08"
+texturefile = "gfx/interface/APDC/parliament/portraits/1164.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1165"
+texturefile = "gfx/interface/APDC/parliament/portraits/1165.png"
+}
+spriteType = {
+name = "GFX_SOV_APDC_doc_6fa7e1d95010"
+texturefile = "gfx/interface/APDC/parliament/portraits/1165.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1166"
+texturefile = "gfx/interface/APDC/parliament/portraits/1166.png"
+}
+spriteType = {
+name = "GFX_SOV_APDC_doc_b09f9906739c"
+texturefile = "gfx/interface/APDC/parliament/portraits/1166.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1167"
+texturefile = "gfx/interface/APDC/parliament/portraits/1167.png"
+}
+spriteType = {
+name = "GFX_SOV_APDC_doc_ba224811610c"
+texturefile = "gfx/interface/APDC/parliament/portraits/1167.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1168"
+texturefile = "gfx/interface/APDC/parliament/portraits/1168.png"
+}
+spriteType = {
+name = "GFX_SOV_APDC_doc_d8d631564492"
+texturefile = "gfx/interface/APDC/parliament/portraits/1168.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1169"
+texturefile = "gfx/interface/APDC/parliament/portraits/1169.png"
+}
+spriteType = {
+name = "GFX_SPR_APDC_doc_e3f25fbd7e10"
+texturefile = "gfx/interface/APDC/parliament/portraits/1169.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1170"
+texturefile = "gfx/interface/APDC/parliament/portraits/1170.png"
+}
+spriteType = {
+name = "GFX_SYR_APDC_doc_2a2e99daaa39"
+texturefile = "gfx/interface/APDC/parliament/portraits/1170.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1171"
+texturefile = "gfx/interface/APDC/parliament/portraits/1171.png"
+}
+spriteType = {
+name = "GFX_TUR_alparslan_yilmaz"
+texturefile = "gfx/interface/APDC/parliament/portraits/1171.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1172"
+texturefile = "gfx/interface/APDC/parliament/portraits/1172.png"
+}
+spriteType = {
+name = "GFX_USA_benjamin_levinsky"
+texturefile = "gfx/interface/APDC/parliament/portraits/1172.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1173"
+texturefile = "gfx/interface/APDC/parliament/portraits/1173.png"
+}
+spriteType = {
+name = "GFX_USA_gabriel_clement"
+texturefile = "gfx/interface/APDC/parliament/portraits/1173.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1174"
+texturefile = "gfx/interface/APDC/parliament/portraits/1174.png"
+}
+spriteType = {
+name = "GFX_USA_jasmine_walden"
+texturefile = "gfx/interface/APDC/parliament/portraits/1174.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1175"
+texturefile = "gfx/interface/APDC/parliament/portraits/1175.png"
+}
+spriteType = {
+name = "GFX_USA_joshua_ignatius"
+texturefile = "gfx/interface/APDC/parliament/portraits/1175.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1176"
+texturefile = "gfx/interface/APDC/parliament/portraits/1176.png"
+}
+spriteType = {
+name = "GFX_USA_ladell_mccauley"
+texturefile = "gfx/interface/APDC/parliament/portraits/1176.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1177"
+texturefile = "gfx/interface/APDC/parliament/portraits/1177.png"
+}
+spriteType = {
+name = "GFX_USA_matthew_gridley"
+texturefile = "gfx/interface/APDC/parliament/portraits/1177.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1178"
+texturefile = "gfx/interface/APDC/parliament/portraits/1178.png"
+}
+spriteType = {
+name = "GFX_USA_robert_hampton"
+texturefile = "gfx/interface/APDC/parliament/portraits/1178.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1179"
+texturefile = "gfx/interface/APDC/parliament/portraits/1179.png"
+}
+spriteType = {
+name = "GFX_USA_sheldon_perry"
+texturefile = "gfx/interface/APDC/parliament/portraits/1179.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1180"
+texturefile = "gfx/interface/APDC/parliament/portraits/1180.png"
+}
+spriteType = {
+name = "GFX_USA_stella_bloor"
+texturefile = "gfx/interface/APDC/parliament/portraits/1180.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1181"
+texturefile = "gfx/interface/APDC/parliament/portraits/1181.png"
+}
+spriteType = {
+name = "GFX_VEN_alejandro_rodriguez"
+texturefile = "gfx/interface/APDC/parliament/portraits/1181.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1182"
+texturefile = "gfx/interface/APDC/parliament/portraits/1182.png"
+}
+spriteType = {
+name = "GFX_YEM_salim_alimi"
+texturefile = "gfx/interface/APDC/parliament/portraits/1182.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1183"
+texturefile = "gfx/interface/APDC/parliament/portraits/1183.png"
+}
+spriteType = {
+name = "GFX_YUG_walter_markovic"
+texturefile = "gfx/interface/APDC/parliament/portraits/1183.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1184"
+texturefile = "gfx/interface/APDC/parliament/portraits/1184.png"
+}
+spriteType = {
+name = "GFX_ZZZ_APDC_doc_37e3cbeaf737"
+texturefile = "gfx/interface/APDC/parliament/portraits/1184.png"
+}
+spriteType = {
+name = "GFX_apdc_parl_portrait_1185"
+texturefile = "gfx/interface/APDC/parliament/portraits/1185.png"
+}
+spriteType = {
+name = "GFX_ZZZ_Nothing"
+texturefile = "gfx/interface/APDC/parliament/portraits/1185.png"
+}
+
+}

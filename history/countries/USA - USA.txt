@@ -30,10 +30,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-promote_character = {
-	character = USA_robert_hampton
-	ideology = constitutional_rossartrism
-}
+
 
 set_popularities = {
 	communism = 0
@@ -47,13 +44,13 @@ set_popularities = {
 	fundamentalism = 0
 }
 
-APDC_add_authoritarianism_to_governing_coalition = yes
-APDC_add_dictatorship_to_governing_coalition = yes
-APDC_add_social_democracy_to_governing_coalition = yes
-APDC_add_liberalism_to_governing_coalition = yes
-APDC_add_conservatism_to_governing_coalition = yes
 
-APDC_set_economic_system_state_guided = yes
+
+
+
+
+
+
 
 set_variable = { APDC_prime_minister_character = token:USA_theodore_hammond }
 set_variable = { APDC_deputy_prime_minister_character = token:USA_sheldon_perry }
@@ -69,3 +66,76 @@ set_autonomy = {
 }
 
 # 原红区开局非军事区
+
+# Document synchronization 2026-10-28; unresolved fields retain previous values.
+promote_character = { character = USA_stella_bloor ideology = technocratic_communism }
+promote_character = { character = USA_joshua_ignatius ideology = market_socialism }
+promote_character = { character = USA_matthew_gridley ideology = great_plains_rossartrism }
+promote_character = { character = USA_ladell_mccauley ideology = oligarchic_liberalism }
+promote_character = { character = USA_jasmine_walden ideology = progressive_liberalism }
+promote_character = { character = USA_robert_hampton ideology = constitutional_rossartrism }
+promote_character = { character = USA_sheldon_perry ideology = league_authority_rossartrism }
+promote_character = { character = USA_benjamin_levinsky ideology = extreme_militarism }
+promote_character = { character = USA_gabriel_clement ideology = esoteric_theocracy }
+APDC_set_economic_system_state_guided = yes
+APDC_add_authoritarianism_to_governing_coalition = yes
+APDC_add_dictatorship_to_governing_coalition = yes
+APDC_add_social_democracy_to_governing_coalition = yes
+APDC_add_liberalism_to_governing_coalition = yes
+APDC_add_conservatism_to_governing_coalition = yes
+set_variable = { APDC_document_party_leader_communism = token:USA_stella_bloor }
+set_variable = { APDC_document_party_leader_socialism = token:USA_joshua_ignatius }
+set_variable = { APDC_document_party_leader_social_democracy = token:USA_matthew_gridley }
+set_variable = { APDC_document_party_leader_conservatism = token:USA_ladell_mccauley }
+set_variable = { APDC_document_party_leader_liberalism = token:USA_jasmine_walden }
+set_variable = { APDC_document_party_leader_authoritarianism = token:USA_robert_hampton }
+set_variable = { APDC_document_party_leader_dictatorship = token:USA_sheldon_perry }
+set_variable = { APDC_document_party_leader_fascism = token:USA_benjamin_levinsky }
+set_variable = { APDC_document_party_leader_fundamentalism = token:USA_gabriel_clement }
+
+# APDC parliament election calendar schema 1
+if = {
+limit = { has_government = communism }
+set_politics = { ruling_party = communism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = socialism }
+set_politics = { ruling_party = socialism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = social_democracy }
+set_politics = { ruling_party = social_democracy last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = liberalism }
+set_politics = { ruling_party = liberalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = conservatism }
+set_politics = { ruling_party = conservatism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = authoritarianism }
+set_politics = { ruling_party = authoritarianism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = dictatorship }
+set_politics = { ruling_party = dictatorship last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = fascism }
+set_politics = { ruling_party = fascism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = fundamentalism }
+set_politics = { ruling_party = fundamentalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}

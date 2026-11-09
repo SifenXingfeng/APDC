@@ -70,23 +70,6 @@
       "within_two_pixels_of_named_state": false
     },
     {
-      "state_id": 147,
-      "state_name": "萨拉",
-      "state_english": "Salla",
-      "city_name": "Salla",
-      "city_geonames_id": 638074,
-      "city_population_gazetteer": 3235,
-      "city_feature": "PPLA3",
-      "lon": 28.66667,
-      "lat": 66.83333,
-      "city_province": 3156,
-      "actual_state": 148,
-      "actual_state_name": "拉皮",
-      "coast_snap_pixels": 0.0,
-      "center_distance_pixels": 18.475596680736718,
-      "within_two_pixels_of_named_state": false
-    },
-    {
       "state_id": 1486,
       "state_name": "明亚",
       "state_english": "Minya",
@@ -172,23 +155,6 @@
       "within_two_pixels_of_named_state": false
     },
     {
-      "state_id": 575,
-      "state_name": "基廉斯克",
-      "state_english": "Kirensk",
-      "city_name": "Kirensk",
-      "city_geonames_id": 2022083,
-      "city_population_gazetteer": 13308,
-      "city_feature": "PPLA2",
-      "lon": 108.11535,
-      "lat": 57.7756,
-      "city_province": 7828,
-      "actual_state": 566,
-      "actual_state_name": "伊尔库茨克",
-      "coast_snap_pixels": 0.0,
-      "center_distance_pixels": 77.21882397211414,
-      "within_two_pixels_of_named_state": false
-    },
-    {
       "state_id": 759,
       "state_name": "吐鲁番",
       "state_english": "Turpan",
@@ -204,6 +170,22 @@
       "coast_snap_pixels": 0.0,
       "center_distance_pixels": 27.60714963918729,
       "within_two_pixels_of_named_state": false
+    },
+    {
+      "state_id": 575,
+      "state_name": "Mirny",
+      "city_name": "Mirny",
+      "city_province": 10557,
+      "actual_state": 1592,
+      "report": "docs/map-maintenance/20261104-central-asia-caucasus/city-review.json"
+    },
+    {
+      "state_id": 213,
+      "state_name": "Murmansk",
+      "city_name": "Murmansk",
+      "city_province": 3134,
+      "actual_state": 722,
+      "report": "docs/map-maintenance/20261106/city-review.json"
     }
   ],
   "boundary_review": [
@@ -253,5 +235,101 @@
       "city": "Medina",
       "province_id": 13462
     }
-  ]
+  ],
+  "latest_added_renamed_state_review": {
+    "date": "2026-11-06",
+    "report": "docs/map-maintenance/20261106-taraz/city-review.json",
+    "city_named_states_checked": 2,
+    "mismatches": [],
+    "border_uncertain": [],
+    "unresolved": []
+  },
+  "latest_city_province_alignment": {
+    "report": "docs/map-maintenance/20261104-city-alignment/city-review.json",
+    "date": "2026-11-04",
+    "user_rule": "Move the three city provinces only when they directly touch the named state",
+    "checks": [
+      {
+        "city": "米尔内",
+        "province": 10557,
+        "from": 1592,
+        "to": 575,
+        "direct_border": [
+          {
+            "province": 13059,
+            "shared_pixel_edges": 17
+          }
+        ],
+        "move": true
+      },
+      {
+        "city": "汉特-曼西斯克",
+        "province": 1812,
+        "from": 580,
+        "to": 577,
+        "direct_border": [
+          {
+            "province": 1659,
+            "shared_pixel_edges": 44
+          },
+          {
+            "province": 7833,
+            "shared_pixel_edges": 26
+          },
+          {
+            "province": 7867,
+            "shared_pixel_edges": 14
+          }
+        ],
+        "move": true
+      },
+      {
+        "city": "设菲尔德",
+        "province": 9315,
+        "from": 130,
+        "to": 582,
+        "direct_border": [],
+        "move": false
+      }
+    ],
+    "resolved_states": [
+      575,
+      577
+    ],
+    "remaining_mismatches": [
+      {
+        "city": "设菲尔德",
+        "province": 9315,
+        "from": 130,
+        "to": 582,
+        "direct_border": [],
+        "move": false
+      }
+    ],
+    "no_new_city_victory_points": true
+  },
+  "latest_name_only_review": {
+    "date": "2026-11-06",
+    "state": 1645,
+    "name": "老街",
+    "english": "Laukkai",
+    "province": 4210,
+    "contains_named_city": true,
+    "city_inventory": "tools/map_maintenance/baseline/modern_victory_points.json#province_id_inventory.4210",
+    "names": {
+      "english": "Laukkai",
+      "simp_chinese": "老街",
+      "french": "Laukkai",
+      "german": "Laukkai",
+      "spanish": "Laukkai",
+      "braz_por": "Laukkai",
+      "polish": "Laukkai",
+      "russian": "Лауккай",
+      "japanese": "ラウカイ郡区",
+      "korean": "라우카이"
+    },
+    "province_list_unchanged": true,
+    "victory_point_score_unchanged": 1,
+    "report": "docs/map-maintenance/20261106-laukkai-rename/city-review.json"
+  }
 }

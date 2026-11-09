@@ -1,0 +1,236 @@
+{
+  "signature": "2511f13bdef6",
+  "old_palette_count": 472,
+  "new_palette_count": 475,
+  "appended_tags": [
+    "ASM",
+    "IPL",
+    "KER"
+  ],
+  "existing_slot_indices_unchanged": true,
+  "retired_slots_retained_for_protocol": [
+    "BHU",
+    "BLC",
+    "CHM",
+    "CIP",
+    "DIP",
+    "FOR",
+    "GAL",
+    "GDC",
+    "GEN",
+    "GSM",
+    "HBC",
+    "IMO",
+    "KAS",
+    "KHM",
+    "KLT",
+    "KUM",
+    "MPU",
+    "NEP",
+    "NWF",
+    "NXM",
+    "POK",
+    "PSH",
+    "PSR",
+    "RAA",
+    "RAN",
+    "RAR",
+    "RCO",
+    "RGB",
+    "RHD",
+    "RJP",
+    "RKA",
+    "RKB",
+    "RKC",
+    "RKG",
+    "RKH",
+    "RKI",
+    "RKK",
+    "RKL",
+    "RKM",
+    "RKN",
+    "RKO",
+    "RKT",
+    "RKU",
+    "RKV",
+    "RNA",
+    "RNG",
+    "ROA",
+    "RUS",
+    "RUT",
+    "SDL",
+    "SIC",
+    "SIN",
+    "SKK",
+    "SND",
+    "SOK",
+    "UBD",
+    "USB",
+    "XIC"
+  ],
+  "unrelated_registered_tags_without_palette_preserved": [
+    "HJM",
+    "RZE",
+    "dynamic_tags"
+  ],
+  "target_colors": {
+    "RAJ": [
+      216,
+      143,
+      70
+    ],
+    "PAK": [
+      45,
+      113,
+      84
+    ],
+    "KHL": [
+      200,
+      189,
+      74
+    ],
+    "WIS": [
+      181,
+      173,
+      145
+    ],
+    "KOL": [
+      198,
+      94,
+      46
+    ],
+    "MYS": [
+      208,
+      182,
+      62
+    ],
+    "MLD": [
+      50,
+      152,
+      143
+    ],
+    "KER": [
+      186,
+      63,
+      84
+    ],
+    "SRL": [
+      132,
+      61,
+      81
+    ],
+    "RAS": [
+      169,
+      134,
+      70
+    ],
+    "HYD": [
+      78,
+      139,
+      116
+    ],
+    "IPL": [
+      146,
+      46,
+      52
+    ],
+    "BAN": [
+      40,
+      116,
+      90
+    ],
+    "ASM": [
+      192,
+      116,
+      125
+    ]
+  },
+  "all_other_existing_palette_rgb_unchanged": true,
+  "unmodified_pie_frames_pixel_exact": 461,
+  "scales_and_state_border_geometry_unchanged": true,
+  "map_masks_and_nonmap_ui_not_regenerated": true,
+  "old_steps": 12273,
+  "new_steps": 12351,
+  "palette_shader_gfx_encoding_updated_together": true,
+  "changed_view_functions": [
+    "apdc_cw_initialize_geometry",
+    "apdc_cw_ensure_render_lookup",
+    "apdc_cw_ensure_world_style_lookup",
+    "apdc_cw_refresh_world",
+    "apdc_cw_ensure_world_cache",
+    "apdc_cw_refresh_view"
+  ],
+  "changed": [
+    {
+      "file": "gfx/interface/APDC/cold_war/palette.png",
+      "before": "e401467b873c263f979ddddd7dce405c59805c7fa56b4b6a356b9f5a78156e04",
+      "after": "26c94f1190c4502b5e834f64b1e4374632699ee75e726d79c6a765f37ce735a9"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/swatches.png",
+      "before": "ed4c6c51693a916a9692d64d5c9a2e04b8d0197fcc423827c3a9f5bcca173aab",
+      "after": "80e000707b02c6c29789c40856282e1d76880cc78898696af73342a0b6a593ab"
+    },
+    {
+      "file": "interface/APDC_cold_war.gfx",
+      "before": "5aceebb08a6f6a77c37314f16d1fdcd6de0295a91d8dd12e29513801ee0d583d",
+      "after": "ede79244924c5d0abc26fa7a6a6f003b98689a9562f2998c5b0cb20f82645c60"
+    },
+    {
+      "file": "gfx/FX/APDC_cw_palette.shader",
+      "before": "5f228326d0c71228b7c132d1b44a02f01de0448e2d4f20f9a35a8ef28572624c",
+      "after": "3e3c498ef59b1f0b75cb9aad081f17470a704cb88987302e0b0020c8103b4dae"
+    },
+    {
+      "file": "docs/cold-war/20261024/geometry.json",
+      "before": "155a5d99e948e99744873f82058d57bd8348a0ee69cb23c80de899c494e24dd7",
+      "after": "4ef4c77bebb9e59f4086f0970f566e27381d5cebf8761b1431e9cff5fcef4d37"
+    },
+    {
+      "file": "common/scripted_effects/APDC_cold_war_view.txt",
+      "before": "0a30565300e6a7e1d382a4a29471b99a1ebadc5eb0b25a64bd005499d474309b",
+      "after": "24bcacad4d58fd12a9984a39e80d76b9d9945d813c816926f0144f6f58a4b801"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/pie_0.png",
+      "before": "a2f1f71bb4061141aa9b008e4ca33f71c9b964fb8c5ce02d8e2674f38738374e",
+      "after": "4fe1d375d52fa64090bb481263cfc1ad3980adacbe0bd1e2efa5b83caf105991"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/pie_6.png",
+      "before": "e1b2b74ba6a0add537c713cf4495d882483f20d596e80556a76dfe27e53a966b",
+      "after": "584aac5ca4a1ad827515abdbdd6f4c753691ce665233fe2415c690da9cbee0d2"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/pie_7.png",
+      "before": "5d98b605e09f8b30002b88742271ddad5882af9503026dd1d8c57a82c55e778c",
+      "after": "b4d890c134de2c2aaa3a1d83d8929676e06cd50cf5922db6e809301ebe98e0a1"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/pie_8.png",
+      "before": "f7a00d2877beb552990e9fa20ea8d0d7b8637483370e1e93778256a17de027ae",
+      "after": "f1536d1ce6b60806081c766b193157503fbd5746d8c5bfc60e4e11cf58d40232"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/pie_9.png",
+      "before": "8d61735925a18863c53ba7c166ab6bf03f6a9ae4a877f0961e121a7158cec5c0",
+      "after": "7b04087b39e2808a5793ccc047e7fa1072c17141ecfaa132cfe0d1efe6efeb4a"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/pie_10.png",
+      "before": "e33230cf4281e19c30d4c092b6c2f6464d3bf2eecc0afc77ac7f724f2ba52cbd",
+      "after": "0445a2969aa87218c91962d0e785b855d35bb1ef51aa035330a60463ff565c65"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/pie_12.png",
+      "before": "b12d9e94c37d6fce28945ed7732565285403b92f274306473da159bfb9c1f669",
+      "after": "cbbb46cd0a2db8e021f6d21bfd4d9c4a0127f8635e931b682c610ba909ea5820"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/pie_14.png",
+      "before": "b885ed3a4c4daed495b51ab07e7e964816f55554d9c6167217c8196b390642c3",
+      "after": "9fccff5555665d4e3a6bb2a5603b2d32ecffe79ad36d15ae98bfb731831c24fc"
+    }
+  ],
+  "stage": "D:\\C-Drive-Migration-20260929\\Permanent\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\.codex_backups\\APDC\\20261102-180426-south-asia-formal-tags\\cold-war-palette-stage"
+}

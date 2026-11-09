@@ -1,0 +1,148 @@
+add_namespace = apdc_parliament
+country_event = {
+id = apdc_parliament.1
+title = apdc_parl_negotiation_title
+desc = apdc_parl_negotiation_desc
+is_triggered_only = yes
+option = {
+name = apdc_parl_bribe
+trigger = {
+check_variable = { apdc_parl_agenda > 0 } OR = { AND = { check_variable = { apdc_parl_negotiating_party = 1 } check_variable = { apdc_parl_seats_communism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 2 } check_variable = { apdc_parl_seats_socialism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 3 } check_variable = { apdc_parl_seats_social_democracy > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 4 } check_variable = { apdc_parl_seats_liberalism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 5 } check_variable = { apdc_parl_seats_conservatism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 6 } check_variable = { apdc_parl_seats_authoritarianism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 7 } check_variable = { apdc_parl_seats_dictatorship > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 8 } check_variable = { apdc_parl_seats_fascism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 9 } check_variable = { apdc_parl_seats_fundamentalism > 0 } } } OR = { check_variable = { APDC_eco_cash_m > 0 } AND = { check_variable = { APDC_eco_cash_m = 0 } check_variable = { APDC_eco_cash_k > 99.99999 } } }
+}
+ai_chance = { factor = 0 }
+if = {
+limit = { check_variable = { apdc_parl_agenda > 0 } OR = { AND = { check_variable = { apdc_parl_negotiating_party = 1 } check_variable = { apdc_parl_seats_communism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 2 } check_variable = { apdc_parl_seats_socialism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 3 } check_variable = { apdc_parl_seats_social_democracy > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 4 } check_variable = { apdc_parl_seats_liberalism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 5 } check_variable = { apdc_parl_seats_conservatism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 6 } check_variable = { apdc_parl_seats_authoritarianism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 7 } check_variable = { apdc_parl_seats_dictatorship > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 8 } check_variable = { apdc_parl_seats_fascism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 9 } check_variable = { apdc_parl_seats_fundamentalism > 0 } } } OR = { check_variable = { APDC_eco_cash_m > 0 } AND = { check_variable = { APDC_eco_cash_m = 0 } check_variable = { APDC_eco_cash_k > 99.99999 } } } }
+subtract_from_variable = { APDC_eco_cash_k = 100 }
+APDC_eco_normalize_cash = yes
+if = {
+limit = { check_variable = { apdc_parl_negotiating_party = 1 } }
+set_temp_variable = { apdc_parl_arg_VALUE = 20 }
+apdc_parl_change_communism_bill_attitude = yes
+
+}
+if = {
+limit = { check_variable = { apdc_parl_negotiating_party = 2 } }
+set_temp_variable = { apdc_parl_arg_VALUE = 20 }
+apdc_parl_change_socialism_bill_attitude = yes
+
+}
+if = {
+limit = { check_variable = { apdc_parl_negotiating_party = 3 } }
+set_temp_variable = { apdc_parl_arg_VALUE = 20 }
+apdc_parl_change_social_democracy_bill_attitude = yes
+
+}
+if = {
+limit = { check_variable = { apdc_parl_negotiating_party = 4 } }
+set_temp_variable = { apdc_parl_arg_VALUE = 20 }
+apdc_parl_change_liberalism_bill_attitude = yes
+
+}
+if = {
+limit = { check_variable = { apdc_parl_negotiating_party = 5 } }
+set_temp_variable = { apdc_parl_arg_VALUE = 20 }
+apdc_parl_change_conservatism_bill_attitude = yes
+
+}
+if = {
+limit = { check_variable = { apdc_parl_negotiating_party = 6 } }
+set_temp_variable = { apdc_parl_arg_VALUE = 20 }
+apdc_parl_change_authoritarianism_bill_attitude = yes
+
+}
+if = {
+limit = { check_variable = { apdc_parl_negotiating_party = 7 } }
+set_temp_variable = { apdc_parl_arg_VALUE = 20 }
+apdc_parl_change_dictatorship_bill_attitude = yes
+
+}
+if = {
+limit = { check_variable = { apdc_parl_negotiating_party = 8 } }
+set_temp_variable = { apdc_parl_arg_VALUE = 20 }
+apdc_parl_change_fascism_bill_attitude = yes
+
+}
+if = {
+limit = { check_variable = { apdc_parl_negotiating_party = 9 } }
+set_temp_variable = { apdc_parl_arg_VALUE = 20 }
+apdc_parl_change_fundamentalism_bill_attitude = yes
+
+}
+APDC_eco_calculate_budget = yes
+
+}
+
+}
+option = {
+name = apdc_parl_concession
+trigger = {
+check_variable = { apdc_parl_agenda > 0 } OR = { AND = { check_variable = { apdc_parl_negotiating_party = 1 } check_variable = { apdc_parl_seats_communism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 2 } check_variable = { apdc_parl_seats_socialism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 3 } check_variable = { apdc_parl_seats_social_democracy > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 4 } check_variable = { apdc_parl_seats_liberalism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 5 } check_variable = { apdc_parl_seats_conservatism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 6 } check_variable = { apdc_parl_seats_authoritarianism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 7 } check_variable = { apdc_parl_seats_dictatorship > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 8 } check_variable = { apdc_parl_seats_fascism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 9 } check_variable = { apdc_parl_seats_fundamentalism > 0 } } } has_political_power > 49
+}
+ai_chance = { factor = 0 }
+if = {
+limit = { check_variable = { apdc_parl_agenda > 0 } OR = { AND = { check_variable = { apdc_parl_negotiating_party = 1 } check_variable = { apdc_parl_seats_communism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 2 } check_variable = { apdc_parl_seats_socialism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 3 } check_variable = { apdc_parl_seats_social_democracy > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 4 } check_variable = { apdc_parl_seats_liberalism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 5 } check_variable = { apdc_parl_seats_conservatism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 6 } check_variable = { apdc_parl_seats_authoritarianism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 7 } check_variable = { apdc_parl_seats_dictatorship > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 8 } check_variable = { apdc_parl_seats_fascism > 0 } } AND = { check_variable = { apdc_parl_negotiating_party = 9 } check_variable = { apdc_parl_seats_fundamentalism > 0 } } } has_political_power > 49 }
+add_political_power = -50
+if = {
+limit = { check_variable = { apdc_parl_negotiating_party = 1 } }
+set_temp_variable = { apdc_parl_arg_VALUE = 15 }
+apdc_parl_change_communism_bill_attitude = yes
+
+}
+if = {
+limit = { check_variable = { apdc_parl_negotiating_party = 2 } }
+set_temp_variable = { apdc_parl_arg_VALUE = 15 }
+apdc_parl_change_socialism_bill_attitude = yes
+
+}
+if = {
+limit = { check_variable = { apdc_parl_negotiating_party = 3 } }
+set_temp_variable = { apdc_parl_arg_VALUE = 15 }
+apdc_parl_change_social_democracy_bill_attitude = yes
+
+}
+if = {
+limit = { check_variable = { apdc_parl_negotiating_party = 4 } }
+set_temp_variable = { apdc_parl_arg_VALUE = 15 }
+apdc_parl_change_liberalism_bill_attitude = yes
+
+}
+if = {
+limit = { check_variable = { apdc_parl_negotiating_party = 5 } }
+set_temp_variable = { apdc_parl_arg_VALUE = 15 }
+apdc_parl_change_conservatism_bill_attitude = yes
+
+}
+if = {
+limit = { check_variable = { apdc_parl_negotiating_party = 6 } }
+set_temp_variable = { apdc_parl_arg_VALUE = 15 }
+apdc_parl_change_authoritarianism_bill_attitude = yes
+
+}
+if = {
+limit = { check_variable = { apdc_parl_negotiating_party = 7 } }
+set_temp_variable = { apdc_parl_arg_VALUE = 15 }
+apdc_parl_change_dictatorship_bill_attitude = yes
+
+}
+if = {
+limit = { check_variable = { apdc_parl_negotiating_party = 8 } }
+set_temp_variable = { apdc_parl_arg_VALUE = 15 }
+apdc_parl_change_fascism_bill_attitude = yes
+
+}
+if = {
+limit = { check_variable = { apdc_parl_negotiating_party = 9 } }
+set_temp_variable = { apdc_parl_arg_VALUE = 15 }
+apdc_parl_change_fundamentalism_bill_attitude = yes
+
+}
+
+}
+
+}
+option = {
+name = apdc_parl_withdraw
+ai_chance = { factor = 100 }
+}
+
+}

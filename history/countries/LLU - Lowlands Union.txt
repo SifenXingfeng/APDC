@@ -25,10 +25,7 @@ set_politics = {
 	elections_allowed = yes
 }
 
-promote_character = {
-	character = LLU_sophie_vanderbeek
-	ideology = broad_rossartrism
-}
+
 
 set_popularities = {
 	communism = 7
@@ -42,15 +39,87 @@ set_popularities = {
 	fundamentalism = 1
 }
 
-APDC_add_authoritarianism_to_governing_coalition = yes
-APDC_add_liberalism_to_governing_coalition = yes
-APDC_add_conservatism_to_governing_coalition = yes
-APDC_add_social_democracy_to_governing_coalition = yes
 
-APDC_set_economic_system_state_guided = yes
+
+
+
+
+
 
 set_variable = { APDC_prime_minister_character = token:LLU_tobias_verhagen }
 set_variable = { APDC_deputy_prime_minister_character = token:LLU_oliver_marchand }
 
 recruit_character = LLU_tobias_verhagen
 recruit_character = LLU_oliver_marchand
+
+# Document synchronization 2026-10-28; unresolved fields retain previous values.
+promote_character = { character = LLU_barend_roland ideology = technocratic_communism }
+promote_character = { character = LLU_dries_langbroek ideology = market_socialism }
+promote_character = { character = LLU_gerrit_gillet ideology = humanitarian_capitalism }
+promote_character = { character = LLU_milan_verhagen ideology = christian_conservatism }
+promote_character = { character = LLU_maeve_dumoulin ideology = progressive_liberalism }
+promote_character = { character = LLU_sophie_vanderbeek ideology = broad_rossartrism }
+promote_character = { character = LLU_toon_overmans ideology = guided_democracy }
+promote_character = { character = LLU_james_van_hoeff ideology = fundamental_fascism }
+promote_character = { character = LLU_fairy ideology = mysticism }
+APDC_set_economic_system_state_guided = yes
+APDC_add_authoritarianism_to_governing_coalition = yes
+APDC_add_liberalism_to_governing_coalition = yes
+APDC_add_conservatism_to_governing_coalition = yes
+APDC_add_social_democracy_to_governing_coalition = yes
+set_variable = { APDC_document_party_leader_communism = token:LLU_barend_roland }
+set_variable = { APDC_document_party_leader_socialism = token:LLU_dries_langbroek }
+set_variable = { APDC_document_party_leader_social_democracy = token:LLU_gerrit_gillet }
+set_variable = { APDC_document_party_leader_conservatism = token:LLU_milan_verhagen }
+set_variable = { APDC_document_party_leader_liberalism = token:LLU_maeve_dumoulin }
+set_variable = { APDC_document_party_leader_authoritarianism = token:LLU_sophie_vanderbeek }
+set_variable = { APDC_document_party_leader_dictatorship = token:LLU_toon_overmans }
+set_variable = { APDC_document_party_leader_fascism = token:LLU_james_van_hoeff }
+set_variable = { APDC_document_party_leader_fundamentalism = token:LLU_fairy }
+
+# APDC parliament election calendar schema 1
+if = {
+limit = { has_government = communism }
+set_politics = { ruling_party = communism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = socialism }
+set_politics = { ruling_party = socialism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = social_democracy }
+set_politics = { ruling_party = social_democracy last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = liberalism }
+set_politics = { ruling_party = liberalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = conservatism }
+set_politics = { ruling_party = conservatism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = authoritarianism }
+set_politics = { ruling_party = authoritarianism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = dictatorship }
+set_politics = { ruling_party = dictatorship last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = fascism }
+set_politics = { ruling_party = fascism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = fundamentalism }
+set_politics = { ruling_party = fundamentalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}

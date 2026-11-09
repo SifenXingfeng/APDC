@@ -1,0 +1,25 @@
+{
+  "reviewed": true,
+  "capture_count": 3,
+  "review_date": "2026-11-04",
+  "runtime_pid": 56260,
+  "method": "Viewed three full-resolution native captures from the corrected GER run, after the state 589 capacity repair. Earlier diagnostic captures are archived separately.",
+  "captures": [
+    {
+      "file": "runtime-world.png",
+      "observation": "World map populated with expected GER/FRA/LLU/neutral/ZZZ colours and borders. No blank map or all-red first-open regression."
+    },
+    {
+      "file": "runtime-SOV-detail.png",
+      "observation": "SOV core map shows the subdivided Central Asian and Caucasian territory, internal state boundaries, country information and autonomous pie. The runtime reports 227 currently owned core states. All 1794 state masks separately passed exact raster comparison."
+    },
+    {
+      "file": "runtime-world-return.png",
+      "observation": "World view restored; its 1000 by 500 map rectangle exactly matches the first world capture."
+    }
+  ],
+  "limitations": [
+    "No manual click/hover, every-zoom or unrelated main-map visual validation is claimed.",
+    "The existing visible error counter is retained. The final log has 622 lines, no relevant map/cold-war errors and no new signatures; the first run's one building-capacity error is separately preserved."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "reviewed": true,
+  "capture_count": 5,
+  "review_date": "2026-11-04",
+  "runtime_pid": 15104,
+  "method": "Viewed the five existing full-resolution native game captures during resumed closeout; no new game, computer control or input was used.",
+  "captures": [
+    {
+      "file": "runtime-world.png",
+      "observation": "World map is populated, GER red, FRA/LLU blue, other countries grey and ZZZ black with red external borders; no all-red or blank-map initialization regression."
+    },
+    {
+      "file": "runtime-SOV-detail.png",
+      "observation": "SOV detail displays the country-coloured core territory and internal state boundaries, including subdivided Siberia; country information and autonomous pie are visible. Runtime logs report 211 owned core states."
+    },
+    {
+      "file": "runtime-MON-detail.png",
+      "observation": "Mongolian detail displays a centred outline and the new internal divisions with its country colour and autonomous pie. Runtime logs report 18 owned core states."
+    },
+    {
+      "file": "runtime-IRQ-detail.png",
+      "observation": "Iraqi detail displays the country outline and subdivided states with its country colour, information and autonomous pie. Runtime logs report 16 owned core states."
+    },
+    {
+      "file": "runtime-world-return.png",
+      "observation": "Returning from detail restores the world map; the map rectangle matches the first world capture exactly in the separate pixel audit."
+    }
+  ],
+  "limitations": [
+    "These captures validate the cold-war world/detail/return presentation; they do not assert manual mouse interaction, every zoom level or unrelated main-map visual fixes.",
+    "The existing error counter is not zero: the final runtime has 622 log lines, no map/cold-war errors and no new error signatures compared with the previous completed runtime."
+  ]
+}

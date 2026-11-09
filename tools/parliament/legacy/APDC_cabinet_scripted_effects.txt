@@ -1,0 +1,1405 @@
+# APDC cabinet member system
+# IDs 1/2 are real German characters. IDs 3-47 are five Germany-only
+# visual placeholders per ideology and deliberately grant no modifiers.
+
+APDC_cabinet_clear_slot_1 = {
+	if = { limit = { check_variable = { APDC_cabinet_slot_1 = 1 } } remove_ideas = GER_APDC_romy_riefenstahl }
+	else_if = { limit = { check_variable = { APDC_cabinet_slot_1 = 2 } } remove_ideas = GER_APDC_eugene_rugosa }
+	clear_variable = APDC_cabinet_slot_1
+}
+
+APDC_cabinet_clear_slot_2 = {
+	if = { limit = { check_variable = { APDC_cabinet_slot_2 = 1 } } remove_ideas = GER_APDC_romy_riefenstahl }
+	else_if = { limit = { check_variable = { APDC_cabinet_slot_2 = 2 } } remove_ideas = GER_APDC_eugene_rugosa }
+	clear_variable = APDC_cabinet_slot_2
+}
+
+APDC_cabinet_clear_slot_3 = {
+	if = { limit = { check_variable = { APDC_cabinet_slot_3 = 1 } } remove_ideas = GER_APDC_romy_riefenstahl }
+	else_if = { limit = { check_variable = { APDC_cabinet_slot_3 = 2 } } remove_ideas = GER_APDC_eugene_rugosa }
+	clear_variable = APDC_cabinet_slot_3
+}
+
+APDC_cabinet_clear_slot_4 = {
+	if = { limit = { check_variable = { APDC_cabinet_slot_4 = 1 } } remove_ideas = GER_APDC_romy_riefenstahl }
+	else_if = { limit = { check_variable = { APDC_cabinet_slot_4 = 2 } } remove_ideas = GER_APDC_eugene_rugosa }
+	clear_variable = APDC_cabinet_slot_4
+}
+
+APDC_cabinet_clear_slot_5 = {
+	if = { limit = { check_variable = { APDC_cabinet_slot_5 = 1 } } remove_ideas = GER_APDC_romy_riefenstahl }
+	else_if = { limit = { check_variable = { APDC_cabinet_slot_5 = 2 } } remove_ideas = GER_APDC_eugene_rugosa }
+	clear_variable = APDC_cabinet_slot_5
+}
+
+APDC_cabinet_clear_slot_6 = {
+	if = { limit = { check_variable = { APDC_cabinet_slot_6 = 1 } } remove_ideas = GER_APDC_romy_riefenstahl }
+	else_if = { limit = { check_variable = { APDC_cabinet_slot_6 = 2 } } remove_ideas = GER_APDC_eugene_rugosa }
+	clear_variable = APDC_cabinet_slot_6
+}
+
+APDC_cabinet_clear_selected_slot = {
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } APDC_cabinet_clear_slot_1 = yes }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } APDC_cabinet_clear_slot_2 = yes }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } APDC_cabinet_clear_slot_3 = yes }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } APDC_cabinet_clear_slot_4 = yes }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } APDC_cabinet_clear_slot_5 = yes }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } APDC_cabinet_clear_slot_6 = yes }
+}
+
+APDC_cabinet_dismiss_selected_member = {
+	APDC_cabinet_clear_selected_slot = yes
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_refresh_selected_candidate = {
+	clear_variable = APDC_cabinet_selected_candidate
+	if = {
+		limit = { check_variable = { APDC_cabinet_selected_slot = 1 } has_variable = APDC_cabinet_slot_1 }
+		set_variable = { APDC_cabinet_selected_candidate = APDC_cabinet_slot_1 }
+	}
+	else_if = {
+		limit = { check_variable = { APDC_cabinet_selected_slot = 2 } has_variable = APDC_cabinet_slot_2 }
+		set_variable = { APDC_cabinet_selected_candidate = APDC_cabinet_slot_2 }
+	}
+	else_if = {
+		limit = { check_variable = { APDC_cabinet_selected_slot = 3 } has_variable = APDC_cabinet_slot_3 }
+		set_variable = { APDC_cabinet_selected_candidate = APDC_cabinet_slot_3 }
+	}
+	else_if = {
+		limit = { check_variable = { APDC_cabinet_selected_slot = 4 } has_variable = APDC_cabinet_slot_4 }
+		set_variable = { APDC_cabinet_selected_candidate = APDC_cabinet_slot_4 }
+	}
+	else_if = {
+		limit = { check_variable = { APDC_cabinet_selected_slot = 5 } has_variable = APDC_cabinet_slot_5 }
+		set_variable = { APDC_cabinet_selected_candidate = APDC_cabinet_slot_5 }
+	}
+	else_if = {
+		limit = { check_variable = { APDC_cabinet_selected_slot = 6 } has_variable = APDC_cabinet_slot_6 }
+		set_variable = { APDC_cabinet_selected_candidate = APDC_cabinet_slot_6 }
+	}
+}
+
+APDC_cabinet_hire_candidate_1 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	add_ideas = GER_APDC_romy_riefenstahl
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 1 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 1 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 1 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 1 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 1 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 1 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_2 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	add_ideas = GER_APDC_eugene_rugosa
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 2 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 2 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 2 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 2 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 2 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 2 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_3 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 3 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 3 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 3 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 3 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 3 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 3 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_4 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 4 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 4 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 4 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 4 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 4 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 4 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_5 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 5 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 5 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 5 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 5 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 5 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 5 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_6 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 6 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 6 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 6 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 6 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 6 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 6 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_7 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 7 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 7 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 7 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 7 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 7 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 7 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_8 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 8 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 8 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 8 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 8 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 8 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 8 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_9 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 9 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 9 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 9 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 9 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 9 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 9 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_10 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 10 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 10 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 10 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 10 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 10 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 10 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_11 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 11 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 11 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 11 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 11 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 11 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 11 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_12 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 12 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 12 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 12 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 12 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 12 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 12 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_13 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 13 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 13 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 13 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 13 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 13 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 13 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_14 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 14 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 14 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 14 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 14 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 14 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 14 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_15 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 15 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 15 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 15 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 15 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 15 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 15 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_16 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 16 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 16 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 16 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 16 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 16 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 16 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_17 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 17 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 17 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 17 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 17 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 17 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 17 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_18 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 18 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 18 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 18 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 18 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 18 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 18 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_19 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 19 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 19 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 19 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 19 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 19 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 19 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_20 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 20 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 20 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 20 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 20 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 20 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 20 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_21 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 21 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 21 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 21 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 21 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 21 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 21 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_22 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 22 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 22 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 22 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 22 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 22 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 22 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_23 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 23 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 23 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 23 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 23 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 23 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 23 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_24 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 24 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 24 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 24 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 24 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 24 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 24 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_25 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 25 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 25 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 25 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 25 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 25 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 25 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_26 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 26 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 26 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 26 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 26 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 26 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 26 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_27 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 27 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 27 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 27 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 27 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 27 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 27 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_28 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 28 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 28 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 28 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 28 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 28 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 28 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_29 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 29 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 29 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 29 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 29 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 29 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 29 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_30 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 30 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 30 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 30 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 30 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 30 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 30 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_31 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 31 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 31 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 31 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 31 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 31 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 31 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_32 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 32 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 32 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 32 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 32 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 32 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 32 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_33 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 33 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 33 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 33 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 33 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 33 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 33 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_34 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 34 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 34 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 34 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 34 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 34 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 34 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_35 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 35 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 35 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 35 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 35 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 35 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 35 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_36 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 36 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 36 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 36 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 36 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 36 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 36 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_37 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 37 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 37 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 37 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 37 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 37 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 37 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_38 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 38 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 38 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 38 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 38 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 38 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 38 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_39 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 39 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 39 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 39 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 39 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 39 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 39 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_40 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 40 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 40 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 40 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 40 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 40 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 40 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_41 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 41 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 41 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 41 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 41 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 41 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 41 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_42 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 42 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 42 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 42 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 42 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 42 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 42 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_43 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 43 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 43 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 43 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 43 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 43 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 43 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_44 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 44 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 44 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 44 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 44 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 44 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 44 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_45 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 45 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 45 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 45 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 45 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 45 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 45 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_46 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 46 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 46 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 46 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 46 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 46 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 46 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_hire_candidate_47 = {
+	APDC_cabinet_clear_selected_slot = yes
+	add_political_power = -150
+	if = { limit = { check_variable = { APDC_cabinet_selected_slot = 1 } } set_variable = { APDC_cabinet_slot_1 = 47 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 2 } } set_variable = { APDC_cabinet_slot_2 = 47 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 3 } } set_variable = { APDC_cabinet_slot_3 = 47 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 4 } } set_variable = { APDC_cabinet_slot_4 = 47 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 5 } } set_variable = { APDC_cabinet_slot_5 = 47 } }
+	else_if = { limit = { check_variable = { APDC_cabinet_selected_slot = 6 } } set_variable = { APDC_cabinet_slot_6 = 47 } }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_remove_party_members_communism = {
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_1 > 0 } check_variable = { APDC_cabinet_slot_1 < 8 } } } APDC_cabinet_clear_slot_1 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_2 > 0 } check_variable = { APDC_cabinet_slot_2 < 8 } } } APDC_cabinet_clear_slot_2 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_3 > 0 } check_variable = { APDC_cabinet_slot_3 < 8 } } } APDC_cabinet_clear_slot_3 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_4 > 0 } check_variable = { APDC_cabinet_slot_4 < 8 } } } APDC_cabinet_clear_slot_4 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_5 > 0 } check_variable = { APDC_cabinet_slot_5 < 8 } } } APDC_cabinet_clear_slot_5 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_6 > 0 } check_variable = { APDC_cabinet_slot_6 < 8 } } } APDC_cabinet_clear_slot_6 = yes }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_remove_party_members_socialism = {
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_1 > 7 } check_variable = { APDC_cabinet_slot_1 < 13 } } } APDC_cabinet_clear_slot_1 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_2 > 7 } check_variable = { APDC_cabinet_slot_2 < 13 } } } APDC_cabinet_clear_slot_2 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_3 > 7 } check_variable = { APDC_cabinet_slot_3 < 13 } } } APDC_cabinet_clear_slot_3 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_4 > 7 } check_variable = { APDC_cabinet_slot_4 < 13 } } } APDC_cabinet_clear_slot_4 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_5 > 7 } check_variable = { APDC_cabinet_slot_5 < 13 } } } APDC_cabinet_clear_slot_5 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_6 > 7 } check_variable = { APDC_cabinet_slot_6 < 13 } } } APDC_cabinet_clear_slot_6 = yes }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_remove_party_members_social_democracy = {
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_1 > 12 } check_variable = { APDC_cabinet_slot_1 < 18 } } } APDC_cabinet_clear_slot_1 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_2 > 12 } check_variable = { APDC_cabinet_slot_2 < 18 } } } APDC_cabinet_clear_slot_2 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_3 > 12 } check_variable = { APDC_cabinet_slot_3 < 18 } } } APDC_cabinet_clear_slot_3 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_4 > 12 } check_variable = { APDC_cabinet_slot_4 < 18 } } } APDC_cabinet_clear_slot_4 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_5 > 12 } check_variable = { APDC_cabinet_slot_5 < 18 } } } APDC_cabinet_clear_slot_5 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_6 > 12 } check_variable = { APDC_cabinet_slot_6 < 18 } } } APDC_cabinet_clear_slot_6 = yes }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_remove_party_members_conservatism = {
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_1 > 17 } check_variable = { APDC_cabinet_slot_1 < 23 } } } APDC_cabinet_clear_slot_1 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_2 > 17 } check_variable = { APDC_cabinet_slot_2 < 23 } } } APDC_cabinet_clear_slot_2 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_3 > 17 } check_variable = { APDC_cabinet_slot_3 < 23 } } } APDC_cabinet_clear_slot_3 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_4 > 17 } check_variable = { APDC_cabinet_slot_4 < 23 } } } APDC_cabinet_clear_slot_4 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_5 > 17 } check_variable = { APDC_cabinet_slot_5 < 23 } } } APDC_cabinet_clear_slot_5 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_6 > 17 } check_variable = { APDC_cabinet_slot_6 < 23 } } } APDC_cabinet_clear_slot_6 = yes }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_remove_party_members_liberalism = {
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_1 > 22 } check_variable = { APDC_cabinet_slot_1 < 28 } } } APDC_cabinet_clear_slot_1 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_2 > 22 } check_variable = { APDC_cabinet_slot_2 < 28 } } } APDC_cabinet_clear_slot_2 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_3 > 22 } check_variable = { APDC_cabinet_slot_3 < 28 } } } APDC_cabinet_clear_slot_3 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_4 > 22 } check_variable = { APDC_cabinet_slot_4 < 28 } } } APDC_cabinet_clear_slot_4 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_5 > 22 } check_variable = { APDC_cabinet_slot_5 < 28 } } } APDC_cabinet_clear_slot_5 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_6 > 22 } check_variable = { APDC_cabinet_slot_6 < 28 } } } APDC_cabinet_clear_slot_6 = yes }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_remove_party_members_authoritarianism = {
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_1 > 27 } check_variable = { APDC_cabinet_slot_1 < 33 } } } APDC_cabinet_clear_slot_1 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_2 > 27 } check_variable = { APDC_cabinet_slot_2 < 33 } } } APDC_cabinet_clear_slot_2 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_3 > 27 } check_variable = { APDC_cabinet_slot_3 < 33 } } } APDC_cabinet_clear_slot_3 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_4 > 27 } check_variable = { APDC_cabinet_slot_4 < 33 } } } APDC_cabinet_clear_slot_4 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_5 > 27 } check_variable = { APDC_cabinet_slot_5 < 33 } } } APDC_cabinet_clear_slot_5 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_6 > 27 } check_variable = { APDC_cabinet_slot_6 < 33 } } } APDC_cabinet_clear_slot_6 = yes }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_remove_party_members_dictatorship = {
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_1 > 32 } check_variable = { APDC_cabinet_slot_1 < 38 } } } APDC_cabinet_clear_slot_1 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_2 > 32 } check_variable = { APDC_cabinet_slot_2 < 38 } } } APDC_cabinet_clear_slot_2 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_3 > 32 } check_variable = { APDC_cabinet_slot_3 < 38 } } } APDC_cabinet_clear_slot_3 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_4 > 32 } check_variable = { APDC_cabinet_slot_4 < 38 } } } APDC_cabinet_clear_slot_4 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_5 > 32 } check_variable = { APDC_cabinet_slot_5 < 38 } } } APDC_cabinet_clear_slot_5 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_6 > 32 } check_variable = { APDC_cabinet_slot_6 < 38 } } } APDC_cabinet_clear_slot_6 = yes }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_remove_party_members_fascism = {
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_1 > 37 } check_variable = { APDC_cabinet_slot_1 < 43 } } } APDC_cabinet_clear_slot_1 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_2 > 37 } check_variable = { APDC_cabinet_slot_2 < 43 } } } APDC_cabinet_clear_slot_2 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_3 > 37 } check_variable = { APDC_cabinet_slot_3 < 43 } } } APDC_cabinet_clear_slot_3 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_4 > 37 } check_variable = { APDC_cabinet_slot_4 < 43 } } } APDC_cabinet_clear_slot_4 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_5 > 37 } check_variable = { APDC_cabinet_slot_5 < 43 } } } APDC_cabinet_clear_slot_5 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_6 > 37 } check_variable = { APDC_cabinet_slot_6 < 43 } } } APDC_cabinet_clear_slot_6 = yes }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_cabinet_remove_party_members_fundamentalism = {
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_1 > 42 } check_variable = { APDC_cabinet_slot_1 < 48 } } } APDC_cabinet_clear_slot_1 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_2 > 42 } check_variable = { APDC_cabinet_slot_2 < 48 } } } APDC_cabinet_clear_slot_2 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_3 > 42 } check_variable = { APDC_cabinet_slot_3 < 48 } } } APDC_cabinet_clear_slot_3 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_4 > 42 } check_variable = { APDC_cabinet_slot_4 < 48 } } } APDC_cabinet_clear_slot_4 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_5 > 42 } check_variable = { APDC_cabinet_slot_5 < 48 } } } APDC_cabinet_clear_slot_5 = yes }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_6 > 42 } check_variable = { APDC_cabinet_slot_6 < 48 } } } APDC_cabinet_clear_slot_6 = yes }
+	APDC_update_cabinet_statistics = yes
+}
+
+APDC_rebuild_cabinet_pie = {
+	clear_array = APDC_cabinet_pie
+	resize_array = { array = APDC_cabinet_pie value = 1 size = 100 }
+	set_variable = { APDC_cabinet_pie_last_index = 0 }
+	set_temp_variable = { APDC_cabinet_pie_cumulative = 0 }
+	add_to_temp_variable = { APDC_cabinet_pie_cumulative = APDC_coalition_influence_communism }
+	set_temp_variable = { APDC_cabinet_pie_cutoff = APDC_cabinet_pie_cumulative }
+	multiply_temp_variable = { APDC_cabinet_pie_cutoff = 100 }
+	round_temp_variable = APDC_cabinet_pie_cutoff
+	clamp_variable = { var = APDC_cabinet_pie_cutoff min = 0 max = 100 }
+	for_loop_effect = {
+		start = APDC_cabinet_pie_last_index
+		end = APDC_cabinet_pie_cutoff
+		set_variable = { APDC_cabinet_pie^v = 1 }
+	}
+	set_variable = { APDC_cabinet_pie_last_index = APDC_cabinet_pie_cutoff }
+	add_to_temp_variable = { APDC_cabinet_pie_cumulative = APDC_coalition_influence_socialism }
+	set_temp_variable = { APDC_cabinet_pie_cutoff = APDC_cabinet_pie_cumulative }
+	multiply_temp_variable = { APDC_cabinet_pie_cutoff = 100 }
+	round_temp_variable = APDC_cabinet_pie_cutoff
+	clamp_variable = { var = APDC_cabinet_pie_cutoff min = 0 max = 100 }
+	for_loop_effect = {
+		start = APDC_cabinet_pie_last_index
+		end = APDC_cabinet_pie_cutoff
+		set_variable = { APDC_cabinet_pie^v = 2 }
+	}
+	set_variable = { APDC_cabinet_pie_last_index = APDC_cabinet_pie_cutoff }
+	add_to_temp_variable = { APDC_cabinet_pie_cumulative = APDC_coalition_influence_social_democracy }
+	set_temp_variable = { APDC_cabinet_pie_cutoff = APDC_cabinet_pie_cumulative }
+	multiply_temp_variable = { APDC_cabinet_pie_cutoff = 100 }
+	round_temp_variable = APDC_cabinet_pie_cutoff
+	clamp_variable = { var = APDC_cabinet_pie_cutoff min = 0 max = 100 }
+	for_loop_effect = {
+		start = APDC_cabinet_pie_last_index
+		end = APDC_cabinet_pie_cutoff
+		set_variable = { APDC_cabinet_pie^v = 3 }
+	}
+	set_variable = { APDC_cabinet_pie_last_index = APDC_cabinet_pie_cutoff }
+	add_to_temp_variable = { APDC_cabinet_pie_cumulative = APDC_coalition_influence_conservatism }
+	set_temp_variable = { APDC_cabinet_pie_cutoff = APDC_cabinet_pie_cumulative }
+	multiply_temp_variable = { APDC_cabinet_pie_cutoff = 100 }
+	round_temp_variable = APDC_cabinet_pie_cutoff
+	clamp_variable = { var = APDC_cabinet_pie_cutoff min = 0 max = 100 }
+	for_loop_effect = {
+		start = APDC_cabinet_pie_last_index
+		end = APDC_cabinet_pie_cutoff
+		set_variable = { APDC_cabinet_pie^v = 4 }
+	}
+	set_variable = { APDC_cabinet_pie_last_index = APDC_cabinet_pie_cutoff }
+	add_to_temp_variable = { APDC_cabinet_pie_cumulative = APDC_coalition_influence_liberalism }
+	set_temp_variable = { APDC_cabinet_pie_cutoff = APDC_cabinet_pie_cumulative }
+	multiply_temp_variable = { APDC_cabinet_pie_cutoff = 100 }
+	round_temp_variable = APDC_cabinet_pie_cutoff
+	clamp_variable = { var = APDC_cabinet_pie_cutoff min = 0 max = 100 }
+	for_loop_effect = {
+		start = APDC_cabinet_pie_last_index
+		end = APDC_cabinet_pie_cutoff
+		set_variable = { APDC_cabinet_pie^v = 5 }
+	}
+	set_variable = { APDC_cabinet_pie_last_index = APDC_cabinet_pie_cutoff }
+	add_to_temp_variable = { APDC_cabinet_pie_cumulative = APDC_coalition_influence_authoritarianism }
+	set_temp_variable = { APDC_cabinet_pie_cutoff = APDC_cabinet_pie_cumulative }
+	multiply_temp_variable = { APDC_cabinet_pie_cutoff = 100 }
+	round_temp_variable = APDC_cabinet_pie_cutoff
+	clamp_variable = { var = APDC_cabinet_pie_cutoff min = 0 max = 100 }
+	for_loop_effect = {
+		start = APDC_cabinet_pie_last_index
+		end = APDC_cabinet_pie_cutoff
+		set_variable = { APDC_cabinet_pie^v = 6 }
+	}
+	set_variable = { APDC_cabinet_pie_last_index = APDC_cabinet_pie_cutoff }
+	add_to_temp_variable = { APDC_cabinet_pie_cumulative = APDC_coalition_influence_dictatorship }
+	set_temp_variable = { APDC_cabinet_pie_cutoff = APDC_cabinet_pie_cumulative }
+	multiply_temp_variable = { APDC_cabinet_pie_cutoff = 100 }
+	round_temp_variable = APDC_cabinet_pie_cutoff
+	clamp_variable = { var = APDC_cabinet_pie_cutoff min = 0 max = 100 }
+	for_loop_effect = {
+		start = APDC_cabinet_pie_last_index
+		end = APDC_cabinet_pie_cutoff
+		set_variable = { APDC_cabinet_pie^v = 7 }
+	}
+	set_variable = { APDC_cabinet_pie_last_index = APDC_cabinet_pie_cutoff }
+	add_to_temp_variable = { APDC_cabinet_pie_cumulative = APDC_coalition_influence_fascism }
+	set_temp_variable = { APDC_cabinet_pie_cutoff = APDC_cabinet_pie_cumulative }
+	multiply_temp_variable = { APDC_cabinet_pie_cutoff = 100 }
+	round_temp_variable = APDC_cabinet_pie_cutoff
+	clamp_variable = { var = APDC_cabinet_pie_cutoff min = 0 max = 100 }
+	for_loop_effect = {
+		start = APDC_cabinet_pie_last_index
+		end = APDC_cabinet_pie_cutoff
+		set_variable = { APDC_cabinet_pie^v = 8 }
+	}
+	set_variable = { APDC_cabinet_pie_last_index = APDC_cabinet_pie_cutoff }
+	add_to_temp_variable = { APDC_cabinet_pie_cumulative = APDC_coalition_influence_fundamentalism }
+	set_temp_variable = { APDC_cabinet_pie_cutoff = APDC_cabinet_pie_cumulative }
+	multiply_temp_variable = { APDC_cabinet_pie_cutoff = 100 }
+	round_temp_variable = APDC_cabinet_pie_cutoff
+	clamp_variable = { var = APDC_cabinet_pie_cutoff min = 0 max = 100 }
+	for_loop_effect = {
+		start = APDC_cabinet_pie_last_index
+		end = APDC_cabinet_pie_cutoff
+		set_variable = { APDC_cabinet_pie^v = 9 }
+	}
+	set_variable = { APDC_cabinet_pie_last_index = APDC_cabinet_pie_cutoff }
+	add_to_variable = { APDC_cabinet_pie_dirty = 1 }
+}
+
+
+# Rebuilds derived UI state and allocates the six cabinet seats.
+APDC_update_cabinet_statistics = {
+	APDC_add_current_ruling_party_to_governing_coalition = yes
+
+	# Stored independently so events and laws can adjust party satisfaction
+	# later without rewriting the panel formula.
+	if = { limit = { NOT = { has_variable = APDC_cabinet_base_support_communism } } set_variable = { APDC_cabinet_base_support_communism = 80 } }
+	if = { limit = { NOT = { has_variable = APDC_cabinet_base_support_socialism } } set_variable = { APDC_cabinet_base_support_socialism = 80 } }
+	if = { limit = { NOT = { has_variable = APDC_cabinet_base_support_social_democracy } } set_variable = { APDC_cabinet_base_support_social_democracy = 80 } }
+	if = { limit = { NOT = { has_variable = APDC_cabinet_base_support_conservatism } } set_variable = { APDC_cabinet_base_support_conservatism = 80 } }
+	if = { limit = { NOT = { has_variable = APDC_cabinet_base_support_liberalism } } set_variable = { APDC_cabinet_base_support_liberalism = 80 } }
+	if = { limit = { NOT = { has_variable = APDC_cabinet_base_support_authoritarianism } } set_variable = { APDC_cabinet_base_support_authoritarianism = 80 } }
+	if = { limit = { NOT = { has_variable = APDC_cabinet_base_support_dictatorship } } set_variable = { APDC_cabinet_base_support_dictatorship = 80 } }
+	if = { limit = { NOT = { has_variable = APDC_cabinet_base_support_fascism } } set_variable = { APDC_cabinet_base_support_fascism = 80 } }
+	if = { limit = { NOT = { has_variable = APDC_cabinet_base_support_fundamentalism } } set_variable = { APDC_cabinet_base_support_fundamentalism = 80 } }
+
+	set_variable = { APDC_cabinet_used_communism = 0 }
+	set_variable = { APDC_cabinet_used_socialism = 0 }
+	set_variable = { APDC_cabinet_used_social_democracy = 0 }
+	set_variable = { APDC_cabinet_used_conservatism = 0 }
+	set_variable = { APDC_cabinet_used_liberalism = 0 }
+	set_variable = { APDC_cabinet_used_authoritarianism = 0 }
+	set_variable = { APDC_cabinet_used_dictatorship = 0 }
+	set_variable = { APDC_cabinet_used_fascism = 0 }
+	set_variable = { APDC_cabinet_used_fundamentalism = 0 }
+
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_1 > 0 } check_variable = { APDC_cabinet_slot_1 < 8 } } } add_to_variable = { APDC_cabinet_used_communism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_1 > 7 } check_variable = { APDC_cabinet_slot_1 < 13 } } } add_to_variable = { APDC_cabinet_used_socialism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_1 > 12 } check_variable = { APDC_cabinet_slot_1 < 18 } } } add_to_variable = { APDC_cabinet_used_social_democracy = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_1 > 17 } check_variable = { APDC_cabinet_slot_1 < 23 } } } add_to_variable = { APDC_cabinet_used_conservatism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_1 > 22 } check_variable = { APDC_cabinet_slot_1 < 28 } } } add_to_variable = { APDC_cabinet_used_liberalism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_1 > 27 } check_variable = { APDC_cabinet_slot_1 < 33 } } } add_to_variable = { APDC_cabinet_used_authoritarianism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_1 > 32 } check_variable = { APDC_cabinet_slot_1 < 38 } } } add_to_variable = { APDC_cabinet_used_dictatorship = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_1 > 37 } check_variable = { APDC_cabinet_slot_1 < 43 } } } add_to_variable = { APDC_cabinet_used_fascism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_1 > 42 } check_variable = { APDC_cabinet_slot_1 < 48 } } } add_to_variable = { APDC_cabinet_used_fundamentalism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_2 > 0 } check_variable = { APDC_cabinet_slot_2 < 8 } } } add_to_variable = { APDC_cabinet_used_communism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_2 > 7 } check_variable = { APDC_cabinet_slot_2 < 13 } } } add_to_variable = { APDC_cabinet_used_socialism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_2 > 12 } check_variable = { APDC_cabinet_slot_2 < 18 } } } add_to_variable = { APDC_cabinet_used_social_democracy = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_2 > 17 } check_variable = { APDC_cabinet_slot_2 < 23 } } } add_to_variable = { APDC_cabinet_used_conservatism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_2 > 22 } check_variable = { APDC_cabinet_slot_2 < 28 } } } add_to_variable = { APDC_cabinet_used_liberalism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_2 > 27 } check_variable = { APDC_cabinet_slot_2 < 33 } } } add_to_variable = { APDC_cabinet_used_authoritarianism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_2 > 32 } check_variable = { APDC_cabinet_slot_2 < 38 } } } add_to_variable = { APDC_cabinet_used_dictatorship = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_2 > 37 } check_variable = { APDC_cabinet_slot_2 < 43 } } } add_to_variable = { APDC_cabinet_used_fascism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_2 > 42 } check_variable = { APDC_cabinet_slot_2 < 48 } } } add_to_variable = { APDC_cabinet_used_fundamentalism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_3 > 0 } check_variable = { APDC_cabinet_slot_3 < 8 } } } add_to_variable = { APDC_cabinet_used_communism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_3 > 7 } check_variable = { APDC_cabinet_slot_3 < 13 } } } add_to_variable = { APDC_cabinet_used_socialism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_3 > 12 } check_variable = { APDC_cabinet_slot_3 < 18 } } } add_to_variable = { APDC_cabinet_used_social_democracy = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_3 > 17 } check_variable = { APDC_cabinet_slot_3 < 23 } } } add_to_variable = { APDC_cabinet_used_conservatism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_3 > 22 } check_variable = { APDC_cabinet_slot_3 < 28 } } } add_to_variable = { APDC_cabinet_used_liberalism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_3 > 27 } check_variable = { APDC_cabinet_slot_3 < 33 } } } add_to_variable = { APDC_cabinet_used_authoritarianism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_3 > 32 } check_variable = { APDC_cabinet_slot_3 < 38 } } } add_to_variable = { APDC_cabinet_used_dictatorship = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_3 > 37 } check_variable = { APDC_cabinet_slot_3 < 43 } } } add_to_variable = { APDC_cabinet_used_fascism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_3 > 42 } check_variable = { APDC_cabinet_slot_3 < 48 } } } add_to_variable = { APDC_cabinet_used_fundamentalism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_4 > 0 } check_variable = { APDC_cabinet_slot_4 < 8 } } } add_to_variable = { APDC_cabinet_used_communism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_4 > 7 } check_variable = { APDC_cabinet_slot_4 < 13 } } } add_to_variable = { APDC_cabinet_used_socialism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_4 > 12 } check_variable = { APDC_cabinet_slot_4 < 18 } } } add_to_variable = { APDC_cabinet_used_social_democracy = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_4 > 17 } check_variable = { APDC_cabinet_slot_4 < 23 } } } add_to_variable = { APDC_cabinet_used_conservatism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_4 > 22 } check_variable = { APDC_cabinet_slot_4 < 28 } } } add_to_variable = { APDC_cabinet_used_liberalism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_4 > 27 } check_variable = { APDC_cabinet_slot_4 < 33 } } } add_to_variable = { APDC_cabinet_used_authoritarianism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_4 > 32 } check_variable = { APDC_cabinet_slot_4 < 38 } } } add_to_variable = { APDC_cabinet_used_dictatorship = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_4 > 37 } check_variable = { APDC_cabinet_slot_4 < 43 } } } add_to_variable = { APDC_cabinet_used_fascism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_4 > 42 } check_variable = { APDC_cabinet_slot_4 < 48 } } } add_to_variable = { APDC_cabinet_used_fundamentalism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_5 > 0 } check_variable = { APDC_cabinet_slot_5 < 8 } } } add_to_variable = { APDC_cabinet_used_communism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_5 > 7 } check_variable = { APDC_cabinet_slot_5 < 13 } } } add_to_variable = { APDC_cabinet_used_socialism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_5 > 12 } check_variable = { APDC_cabinet_slot_5 < 18 } } } add_to_variable = { APDC_cabinet_used_social_democracy = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_5 > 17 } check_variable = { APDC_cabinet_slot_5 < 23 } } } add_to_variable = { APDC_cabinet_used_conservatism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_5 > 22 } check_variable = { APDC_cabinet_slot_5 < 28 } } } add_to_variable = { APDC_cabinet_used_liberalism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_5 > 27 } check_variable = { APDC_cabinet_slot_5 < 33 } } } add_to_variable = { APDC_cabinet_used_authoritarianism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_5 > 32 } check_variable = { APDC_cabinet_slot_5 < 38 } } } add_to_variable = { APDC_cabinet_used_dictatorship = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_5 > 37 } check_variable = { APDC_cabinet_slot_5 < 43 } } } add_to_variable = { APDC_cabinet_used_fascism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_5 > 42 } check_variable = { APDC_cabinet_slot_5 < 48 } } } add_to_variable = { APDC_cabinet_used_fundamentalism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_6 > 0 } check_variable = { APDC_cabinet_slot_6 < 8 } } } add_to_variable = { APDC_cabinet_used_communism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_6 > 7 } check_variable = { APDC_cabinet_slot_6 < 13 } } } add_to_variable = { APDC_cabinet_used_socialism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_6 > 12 } check_variable = { APDC_cabinet_slot_6 < 18 } } } add_to_variable = { APDC_cabinet_used_social_democracy = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_6 > 17 } check_variable = { APDC_cabinet_slot_6 < 23 } } } add_to_variable = { APDC_cabinet_used_conservatism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_6 > 22 } check_variable = { APDC_cabinet_slot_6 < 28 } } } add_to_variable = { APDC_cabinet_used_liberalism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_6 > 27 } check_variable = { APDC_cabinet_slot_6 < 33 } } } add_to_variable = { APDC_cabinet_used_authoritarianism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_6 > 32 } check_variable = { APDC_cabinet_slot_6 < 38 } } } add_to_variable = { APDC_cabinet_used_dictatorship = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_6 > 37 } check_variable = { APDC_cabinet_slot_6 < 43 } } } add_to_variable = { APDC_cabinet_used_fascism = 1 } }
+	if = { limit = { AND = { check_variable = { APDC_cabinet_slot_6 > 42 } check_variable = { APDC_cabinet_slot_6 < 48 } } } add_to_variable = { APDC_cabinet_used_fundamentalism = 1 } }
+
+	set_variable = { APDC_cabinet_coalition_total = 0 }
+	set_variable = { APDC_coalition_influence_communism = 0 }
+	if = {
+		limit = { APDC_is_communism_in_governing_coalition = yes }
+		set_variable = { APDC_coalition_influence_communism = party_popularity@communism }
+		clamp_variable = { var = APDC_coalition_influence_communism min = 0 max = 1 }
+		add_to_variable = { APDC_cabinet_coalition_total = APDC_coalition_influence_communism }
+	}
+	set_variable = { APDC_coalition_influence_socialism = 0 }
+	if = {
+		limit = { APDC_is_socialism_in_governing_coalition = yes }
+		set_variable = { APDC_coalition_influence_socialism = party_popularity@socialism }
+		clamp_variable = { var = APDC_coalition_influence_socialism min = 0 max = 1 }
+		add_to_variable = { APDC_cabinet_coalition_total = APDC_coalition_influence_socialism }
+	}
+	set_variable = { APDC_coalition_influence_social_democracy = 0 }
+	if = {
+		limit = { APDC_is_social_democracy_in_governing_coalition = yes }
+		set_variable = { APDC_coalition_influence_social_democracy = party_popularity@social_democracy }
+		clamp_variable = { var = APDC_coalition_influence_social_democracy min = 0 max = 1 }
+		add_to_variable = { APDC_cabinet_coalition_total = APDC_coalition_influence_social_democracy }
+	}
+	set_variable = { APDC_coalition_influence_conservatism = 0 }
+	if = {
+		limit = { APDC_is_conservatism_in_governing_coalition = yes }
+		set_variable = { APDC_coalition_influence_conservatism = party_popularity@conservatism }
+		clamp_variable = { var = APDC_coalition_influence_conservatism min = 0 max = 1 }
+		add_to_variable = { APDC_cabinet_coalition_total = APDC_coalition_influence_conservatism }
+	}
+	set_variable = { APDC_coalition_influence_liberalism = 0 }
+	if = {
+		limit = { APDC_is_liberalism_in_governing_coalition = yes }
+		set_variable = { APDC_coalition_influence_liberalism = party_popularity@liberalism }
+		clamp_variable = { var = APDC_coalition_influence_liberalism min = 0 max = 1 }
+		add_to_variable = { APDC_cabinet_coalition_total = APDC_coalition_influence_liberalism }
+	}
+	set_variable = { APDC_coalition_influence_authoritarianism = 0 }
+	if = {
+		limit = { APDC_is_authoritarianism_in_governing_coalition = yes }
+		set_variable = { APDC_coalition_influence_authoritarianism = party_popularity@authoritarianism }
+		clamp_variable = { var = APDC_coalition_influence_authoritarianism min = 0 max = 1 }
+		add_to_variable = { APDC_cabinet_coalition_total = APDC_coalition_influence_authoritarianism }
+	}
+	set_variable = { APDC_coalition_influence_dictatorship = 0 }
+	if = {
+		limit = { APDC_is_dictatorship_in_governing_coalition = yes }
+		set_variable = { APDC_coalition_influence_dictatorship = party_popularity@dictatorship }
+		clamp_variable = { var = APDC_coalition_influence_dictatorship min = 0 max = 1 }
+		add_to_variable = { APDC_cabinet_coalition_total = APDC_coalition_influence_dictatorship }
+	}
+	set_variable = { APDC_coalition_influence_fascism = 0 }
+	if = {
+		limit = { APDC_is_fascism_in_governing_coalition = yes }
+		set_variable = { APDC_coalition_influence_fascism = party_popularity@fascism }
+		clamp_variable = { var = APDC_coalition_influence_fascism min = 0 max = 1 }
+		add_to_variable = { APDC_cabinet_coalition_total = APDC_coalition_influence_fascism }
+	}
+	set_variable = { APDC_coalition_influence_fundamentalism = 0 }
+	if = {
+		limit = { APDC_is_fundamentalism_in_governing_coalition = yes }
+		set_variable = { APDC_coalition_influence_fundamentalism = party_popularity@fundamentalism }
+		clamp_variable = { var = APDC_coalition_influence_fundamentalism min = 0 max = 1 }
+		add_to_variable = { APDC_cabinet_coalition_total = APDC_coalition_influence_fundamentalism }
+	}
+	# Preserve unnormalised coalition support for allocation comparisons.
+	set_variable = { APDC_cabinet_raw_influence_communism = APDC_coalition_influence_communism }
+	set_variable = { APDC_cabinet_raw_influence_socialism = APDC_coalition_influence_socialism }
+	set_variable = { APDC_cabinet_raw_influence_social_democracy = APDC_coalition_influence_social_democracy }
+	set_variable = { APDC_cabinet_raw_influence_conservatism = APDC_coalition_influence_conservatism }
+	set_variable = { APDC_cabinet_raw_influence_liberalism = APDC_coalition_influence_liberalism }
+	set_variable = { APDC_cabinet_raw_influence_authoritarianism = APDC_coalition_influence_authoritarianism }
+	set_variable = { APDC_cabinet_raw_influence_dictatorship = APDC_coalition_influence_dictatorship }
+	set_variable = { APDC_cabinet_raw_influence_fascism = APDC_coalition_influence_fascism }
+	set_variable = { APDC_cabinet_raw_influence_fundamentalism = APDC_coalition_influence_fundamentalism }
+
+	if = {
+		limit = { check_variable = { APDC_cabinet_coalition_total > 0 } }
+		divide_variable = { APDC_coalition_influence_communism = APDC_cabinet_coalition_total }
+		divide_variable = { APDC_coalition_influence_socialism = APDC_cabinet_coalition_total }
+		divide_variable = { APDC_coalition_influence_social_democracy = APDC_cabinet_coalition_total }
+		divide_variable = { APDC_coalition_influence_conservatism = APDC_cabinet_coalition_total }
+		divide_variable = { APDC_coalition_influence_liberalism = APDC_cabinet_coalition_total }
+		divide_variable = { APDC_coalition_influence_authoritarianism = APDC_cabinet_coalition_total }
+		divide_variable = { APDC_coalition_influence_dictatorship = APDC_cabinet_coalition_total }
+		divide_variable = { APDC_coalition_influence_fascism = APDC_cabinet_coalition_total }
+		divide_variable = { APDC_coalition_influence_fundamentalism = APDC_cabinet_coalition_total }
+	}
+	else = {
+		if = { limit = { has_government = communism } set_variable = { APDC_coalition_influence_communism = 1 } }
+		if = { limit = { has_government = socialism } set_variable = { APDC_coalition_influence_socialism = 1 } }
+		if = { limit = { has_government = social_democracy } set_variable = { APDC_coalition_influence_social_democracy = 1 } }
+		if = { limit = { has_government = conservatism } set_variable = { APDC_coalition_influence_conservatism = 1 } }
+		if = { limit = { has_government = liberalism } set_variable = { APDC_coalition_influence_liberalism = 1 } }
+		if = { limit = { has_government = authoritarianism } set_variable = { APDC_coalition_influence_authoritarianism = 1 } }
+		if = { limit = { has_government = dictatorship } set_variable = { APDC_coalition_influence_dictatorship = 1 } }
+		if = { limit = { has_government = fascism } set_variable = { APDC_coalition_influence_fascism = 1 } }
+		if = { limit = { has_government = fundamentalism } set_variable = { APDC_coalition_influence_fundamentalism = 1 } }
+	}
+
+	# Reset cabinet seats and count every governing-coalition party.
+	set_variable = { APDC_cabinet_available_communism = 0 }
+	set_variable = { APDC_cabinet_available_socialism = 0 }
+	set_variable = { APDC_cabinet_available_social_democracy = 0 }
+	set_variable = { APDC_cabinet_available_conservatism = 0 }
+	set_variable = { APDC_cabinet_available_liberalism = 0 }
+	set_variable = { APDC_cabinet_available_authoritarianism = 0 }
+	set_variable = { APDC_cabinet_available_dictatorship = 0 }
+	set_variable = { APDC_cabinet_available_fascism = 0 }
+	set_variable = { APDC_cabinet_available_fundamentalism = 0 }
+	set_variable = { APDC_cabinet_coalition_party_count = 0 }
+	if = { limit = { APDC_is_communism_in_governing_coalition = yes } add_to_variable = { APDC_cabinet_coalition_party_count = 1 } }
+	if = { limit = { APDC_is_socialism_in_governing_coalition = yes } add_to_variable = { APDC_cabinet_coalition_party_count = 1 } }
+	if = { limit = { APDC_is_social_democracy_in_governing_coalition = yes } add_to_variable = { APDC_cabinet_coalition_party_count = 1 } }
+	if = { limit = { APDC_is_conservatism_in_governing_coalition = yes } add_to_variable = { APDC_cabinet_coalition_party_count = 1 } }
+	if = { limit = { APDC_is_liberalism_in_governing_coalition = yes } add_to_variable = { APDC_cabinet_coalition_party_count = 1 } }
+	if = { limit = { APDC_is_authoritarianism_in_governing_coalition = yes } add_to_variable = { APDC_cabinet_coalition_party_count = 1 } }
+	if = { limit = { APDC_is_dictatorship_in_governing_coalition = yes } add_to_variable = { APDC_cabinet_coalition_party_count = 1 } }
+	if = { limit = { APDC_is_fascism_in_governing_coalition = yes } add_to_variable = { APDC_cabinet_coalition_party_count = 1 } }
+	if = { limit = { APDC_is_fundamentalism_in_governing_coalition = yes } add_to_variable = { APDC_cabinet_coalition_party_count = 1 } }
+
+	# Safe fallback for a country whose coalition flags were not initialized.
+	if = {
+		limit = { check_variable = { APDC_cabinet_coalition_party_count < 1 } }
+		set_variable = { APDC_cabinet_coalition_party_count = 1 }
+		if = { limit = { has_government = communism } set_variable = { APDC_cabinet_available_communism = 1 } }
+		if = { limit = { has_government = socialism } set_variable = { APDC_cabinet_available_socialism = 1 } }
+		if = { limit = { has_government = social_democracy } set_variable = { APDC_cabinet_available_social_democracy = 1 } }
+		if = { limit = { has_government = conservatism } set_variable = { APDC_cabinet_available_conservatism = 1 } }
+		if = { limit = { has_government = liberalism } set_variable = { APDC_cabinet_available_liberalism = 1 } }
+		if = { limit = { has_government = authoritarianism } set_variable = { APDC_cabinet_available_authoritarianism = 1 } }
+		if = { limit = { has_government = dictatorship } set_variable = { APDC_cabinet_available_dictatorship = 1 } }
+		if = { limit = { has_government = fascism } set_variable = { APDC_cabinet_available_fascism = 1 } }
+		if = { limit = { has_government = fundamentalism } set_variable = { APDC_cabinet_available_fundamentalism = 1 } }
+	}
+
+	if = {
+		# At six coalition parties or fewer, everyone receives one guaranteed seat.
+		limit = { check_variable = { APDC_cabinet_coalition_party_count < 7 } }
+		if = { limit = { APDC_is_communism_in_governing_coalition = yes } set_variable = { APDC_cabinet_available_communism = 1 } }
+		if = { limit = { APDC_is_socialism_in_governing_coalition = yes } set_variable = { APDC_cabinet_available_socialism = 1 } }
+		if = { limit = { APDC_is_social_democracy_in_governing_coalition = yes } set_variable = { APDC_cabinet_available_social_democracy = 1 } }
+		if = { limit = { APDC_is_conservatism_in_governing_coalition = yes } set_variable = { APDC_cabinet_available_conservatism = 1 } }
+		if = { limit = { APDC_is_liberalism_in_governing_coalition = yes } set_variable = { APDC_cabinet_available_liberalism = 1 } }
+		if = { limit = { APDC_is_authoritarianism_in_governing_coalition = yes } set_variable = { APDC_cabinet_available_authoritarianism = 1 } }
+		if = { limit = { APDC_is_dictatorship_in_governing_coalition = yes } set_variable = { APDC_cabinet_available_dictatorship = 1 } }
+		if = { limit = { APDC_is_fascism_in_governing_coalition = yes } set_variable = { APDC_cabinet_available_fascism = 1 } }
+		if = { limit = { APDC_is_fundamentalism_in_governing_coalition = yes } set_variable = { APDC_cabinet_available_fundamentalism = 1 } }
+		set_variable = { APDC_cabinet_remaining_seats = 6 }
+		subtract_from_variable = { APDC_cabinet_remaining_seats = APDC_cabinet_coalition_party_count }
+	}
+	else = {
+		# More than six parties: build the true top-six band by counting how
+		# many coalition parties have strictly greater influence than each party.
+		set_variable = { APDC_cabinet_higher_influence_count_communism = 0 }
+		if = { limit = { APDC_is_socialism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_socialism > APDC_cabinet_raw_influence_communism } } add_to_variable = { APDC_cabinet_higher_influence_count_communism = 1 } }
+		if = { limit = { APDC_is_social_democracy_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_social_democracy > APDC_cabinet_raw_influence_communism } } add_to_variable = { APDC_cabinet_higher_influence_count_communism = 1 } }
+		if = { limit = { APDC_is_conservatism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_conservatism > APDC_cabinet_raw_influence_communism } } add_to_variable = { APDC_cabinet_higher_influence_count_communism = 1 } }
+		if = { limit = { APDC_is_liberalism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_liberalism > APDC_cabinet_raw_influence_communism } } add_to_variable = { APDC_cabinet_higher_influence_count_communism = 1 } }
+		if = { limit = { APDC_is_authoritarianism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_authoritarianism > APDC_cabinet_raw_influence_communism } } add_to_variable = { APDC_cabinet_higher_influence_count_communism = 1 } }
+		if = { limit = { APDC_is_dictatorship_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_dictatorship > APDC_cabinet_raw_influence_communism } } add_to_variable = { APDC_cabinet_higher_influence_count_communism = 1 } }
+		if = { limit = { APDC_is_fascism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_fascism > APDC_cabinet_raw_influence_communism } } add_to_variable = { APDC_cabinet_higher_influence_count_communism = 1 } }
+		if = { limit = { APDC_is_fundamentalism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_fundamentalism > APDC_cabinet_raw_influence_communism } } add_to_variable = { APDC_cabinet_higher_influence_count_communism = 1 } }
+		set_variable = { APDC_cabinet_higher_influence_count_socialism = 0 }
+		if = { limit = { APDC_is_communism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_communism > APDC_cabinet_raw_influence_socialism } } add_to_variable = { APDC_cabinet_higher_influence_count_socialism = 1 } }
+		if = { limit = { APDC_is_social_democracy_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_social_democracy > APDC_cabinet_raw_influence_socialism } } add_to_variable = { APDC_cabinet_higher_influence_count_socialism = 1 } }
+		if = { limit = { APDC_is_conservatism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_conservatism > APDC_cabinet_raw_influence_socialism } } add_to_variable = { APDC_cabinet_higher_influence_count_socialism = 1 } }
+		if = { limit = { APDC_is_liberalism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_liberalism > APDC_cabinet_raw_influence_socialism } } add_to_variable = { APDC_cabinet_higher_influence_count_socialism = 1 } }
+		if = { limit = { APDC_is_authoritarianism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_authoritarianism > APDC_cabinet_raw_influence_socialism } } add_to_variable = { APDC_cabinet_higher_influence_count_socialism = 1 } }
+		if = { limit = { APDC_is_dictatorship_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_dictatorship > APDC_cabinet_raw_influence_socialism } } add_to_variable = { APDC_cabinet_higher_influence_count_socialism = 1 } }
+		if = { limit = { APDC_is_fascism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_fascism > APDC_cabinet_raw_influence_socialism } } add_to_variable = { APDC_cabinet_higher_influence_count_socialism = 1 } }
+		if = { limit = { APDC_is_fundamentalism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_fundamentalism > APDC_cabinet_raw_influence_socialism } } add_to_variable = { APDC_cabinet_higher_influence_count_socialism = 1 } }
+		set_variable = { APDC_cabinet_higher_influence_count_social_democracy = 0 }
+		if = { limit = { APDC_is_communism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_communism > APDC_cabinet_raw_influence_social_democracy } } add_to_variable = { APDC_cabinet_higher_influence_count_social_democracy = 1 } }
+		if = { limit = { APDC_is_socialism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_socialism > APDC_cabinet_raw_influence_social_democracy } } add_to_variable = { APDC_cabinet_higher_influence_count_social_democracy = 1 } }
+		if = { limit = { APDC_is_conservatism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_conservatism > APDC_cabinet_raw_influence_social_democracy } } add_to_variable = { APDC_cabinet_higher_influence_count_social_democracy = 1 } }
+		if = { limit = { APDC_is_liberalism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_liberalism > APDC_cabinet_raw_influence_social_democracy } } add_to_variable = { APDC_cabinet_higher_influence_count_social_democracy = 1 } }
+		if = { limit = { APDC_is_authoritarianism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_authoritarianism > APDC_cabinet_raw_influence_social_democracy } } add_to_variable = { APDC_cabinet_higher_influence_count_social_democracy = 1 } }
+		if = { limit = { APDC_is_dictatorship_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_dictatorship > APDC_cabinet_raw_influence_social_democracy } } add_to_variable = { APDC_cabinet_higher_influence_count_social_democracy = 1 } }
+		if = { limit = { APDC_is_fascism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_fascism > APDC_cabinet_raw_influence_social_democracy } } add_to_variable = { APDC_cabinet_higher_influence_count_social_democracy = 1 } }
+		if = { limit = { APDC_is_fundamentalism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_fundamentalism > APDC_cabinet_raw_influence_social_democracy } } add_to_variable = { APDC_cabinet_higher_influence_count_social_democracy = 1 } }
+		set_variable = { APDC_cabinet_higher_influence_count_conservatism = 0 }
+		if = { limit = { APDC_is_communism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_communism > APDC_cabinet_raw_influence_conservatism } } add_to_variable = { APDC_cabinet_higher_influence_count_conservatism = 1 } }
+		if = { limit = { APDC_is_socialism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_socialism > APDC_cabinet_raw_influence_conservatism } } add_to_variable = { APDC_cabinet_higher_influence_count_conservatism = 1 } }
+		if = { limit = { APDC_is_social_democracy_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_social_democracy > APDC_cabinet_raw_influence_conservatism } } add_to_variable = { APDC_cabinet_higher_influence_count_conservatism = 1 } }
+		if = { limit = { APDC_is_liberalism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_liberalism > APDC_cabinet_raw_influence_conservatism } } add_to_variable = { APDC_cabinet_higher_influence_count_conservatism = 1 } }
+		if = { limit = { APDC_is_authoritarianism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_authoritarianism > APDC_cabinet_raw_influence_conservatism } } add_to_variable = { APDC_cabinet_higher_influence_count_conservatism = 1 } }
+		if = { limit = { APDC_is_dictatorship_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_dictatorship > APDC_cabinet_raw_influence_conservatism } } add_to_variable = { APDC_cabinet_higher_influence_count_conservatism = 1 } }
+		if = { limit = { APDC_is_fascism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_fascism > APDC_cabinet_raw_influence_conservatism } } add_to_variable = { APDC_cabinet_higher_influence_count_conservatism = 1 } }
+		if = { limit = { APDC_is_fundamentalism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_fundamentalism > APDC_cabinet_raw_influence_conservatism } } add_to_variable = { APDC_cabinet_higher_influence_count_conservatism = 1 } }
+		set_variable = { APDC_cabinet_higher_influence_count_liberalism = 0 }
+		if = { limit = { APDC_is_communism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_communism > APDC_cabinet_raw_influence_liberalism } } add_to_variable = { APDC_cabinet_higher_influence_count_liberalism = 1 } }
+		if = { limit = { APDC_is_socialism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_socialism > APDC_cabinet_raw_influence_liberalism } } add_to_variable = { APDC_cabinet_higher_influence_count_liberalism = 1 } }
+		if = { limit = { APDC_is_social_democracy_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_social_democracy > APDC_cabinet_raw_influence_liberalism } } add_to_variable = { APDC_cabinet_higher_influence_count_liberalism = 1 } }
+		if = { limit = { APDC_is_conservatism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_conservatism > APDC_cabinet_raw_influence_liberalism } } add_to_variable = { APDC_cabinet_higher_influence_count_liberalism = 1 } }
+		if = { limit = { APDC_is_authoritarianism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_authoritarianism > APDC_cabinet_raw_influence_liberalism } } add_to_variable = { APDC_cabinet_higher_influence_count_liberalism = 1 } }
+		if = { limit = { APDC_is_dictatorship_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_dictatorship > APDC_cabinet_raw_influence_liberalism } } add_to_variable = { APDC_cabinet_higher_influence_count_liberalism = 1 } }
+		if = { limit = { APDC_is_fascism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_fascism > APDC_cabinet_raw_influence_liberalism } } add_to_variable = { APDC_cabinet_higher_influence_count_liberalism = 1 } }
+		if = { limit = { APDC_is_fundamentalism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_fundamentalism > APDC_cabinet_raw_influence_liberalism } } add_to_variable = { APDC_cabinet_higher_influence_count_liberalism = 1 } }
+		set_variable = { APDC_cabinet_higher_influence_count_authoritarianism = 0 }
+		if = { limit = { APDC_is_communism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_communism > APDC_cabinet_raw_influence_authoritarianism } } add_to_variable = { APDC_cabinet_higher_influence_count_authoritarianism = 1 } }
+		if = { limit = { APDC_is_socialism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_socialism > APDC_cabinet_raw_influence_authoritarianism } } add_to_variable = { APDC_cabinet_higher_influence_count_authoritarianism = 1 } }
+		if = { limit = { APDC_is_social_democracy_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_social_democracy > APDC_cabinet_raw_influence_authoritarianism } } add_to_variable = { APDC_cabinet_higher_influence_count_authoritarianism = 1 } }
+		if = { limit = { APDC_is_conservatism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_conservatism > APDC_cabinet_raw_influence_authoritarianism } } add_to_variable = { APDC_cabinet_higher_influence_count_authoritarianism = 1 } }
+		if = { limit = { APDC_is_liberalism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_liberalism > APDC_cabinet_raw_influence_authoritarianism } } add_to_variable = { APDC_cabinet_higher_influence_count_authoritarianism = 1 } }
+		if = { limit = { APDC_is_dictatorship_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_dictatorship > APDC_cabinet_raw_influence_authoritarianism } } add_to_variable = { APDC_cabinet_higher_influence_count_authoritarianism = 1 } }
+		if = { limit = { APDC_is_fascism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_fascism > APDC_cabinet_raw_influence_authoritarianism } } add_to_variable = { APDC_cabinet_higher_influence_count_authoritarianism = 1 } }
+		if = { limit = { APDC_is_fundamentalism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_fundamentalism > APDC_cabinet_raw_influence_authoritarianism } } add_to_variable = { APDC_cabinet_higher_influence_count_authoritarianism = 1 } }
+		set_variable = { APDC_cabinet_higher_influence_count_dictatorship = 0 }
+		if = { limit = { APDC_is_communism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_communism > APDC_cabinet_raw_influence_dictatorship } } add_to_variable = { APDC_cabinet_higher_influence_count_dictatorship = 1 } }
+		if = { limit = { APDC_is_socialism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_socialism > APDC_cabinet_raw_influence_dictatorship } } add_to_variable = { APDC_cabinet_higher_influence_count_dictatorship = 1 } }
+		if = { limit = { APDC_is_social_democracy_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_social_democracy > APDC_cabinet_raw_influence_dictatorship } } add_to_variable = { APDC_cabinet_higher_influence_count_dictatorship = 1 } }
+		if = { limit = { APDC_is_conservatism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_conservatism > APDC_cabinet_raw_influence_dictatorship } } add_to_variable = { APDC_cabinet_higher_influence_count_dictatorship = 1 } }
+		if = { limit = { APDC_is_liberalism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_liberalism > APDC_cabinet_raw_influence_dictatorship } } add_to_variable = { APDC_cabinet_higher_influence_count_dictatorship = 1 } }
+		if = { limit = { APDC_is_authoritarianism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_authoritarianism > APDC_cabinet_raw_influence_dictatorship } } add_to_variable = { APDC_cabinet_higher_influence_count_dictatorship = 1 } }
+		if = { limit = { APDC_is_fascism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_fascism > APDC_cabinet_raw_influence_dictatorship } } add_to_variable = { APDC_cabinet_higher_influence_count_dictatorship = 1 } }
+		if = { limit = { APDC_is_fundamentalism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_fundamentalism > APDC_cabinet_raw_influence_dictatorship } } add_to_variable = { APDC_cabinet_higher_influence_count_dictatorship = 1 } }
+		set_variable = { APDC_cabinet_higher_influence_count_fascism = 0 }
+		if = { limit = { APDC_is_communism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_communism > APDC_cabinet_raw_influence_fascism } } add_to_variable = { APDC_cabinet_higher_influence_count_fascism = 1 } }
+		if = { limit = { APDC_is_socialism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_socialism > APDC_cabinet_raw_influence_fascism } } add_to_variable = { APDC_cabinet_higher_influence_count_fascism = 1 } }
+		if = { limit = { APDC_is_social_democracy_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_social_democracy > APDC_cabinet_raw_influence_fascism } } add_to_variable = { APDC_cabinet_higher_influence_count_fascism = 1 } }
+		if = { limit = { APDC_is_conservatism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_conservatism > APDC_cabinet_raw_influence_fascism } } add_to_variable = { APDC_cabinet_higher_influence_count_fascism = 1 } }
+		if = { limit = { APDC_is_liberalism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_liberalism > APDC_cabinet_raw_influence_fascism } } add_to_variable = { APDC_cabinet_higher_influence_count_fascism = 1 } }
+		if = { limit = { APDC_is_authoritarianism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_authoritarianism > APDC_cabinet_raw_influence_fascism } } add_to_variable = { APDC_cabinet_higher_influence_count_fascism = 1 } }
+		if = { limit = { APDC_is_dictatorship_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_dictatorship > APDC_cabinet_raw_influence_fascism } } add_to_variable = { APDC_cabinet_higher_influence_count_fascism = 1 } }
+		if = { limit = { APDC_is_fundamentalism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_fundamentalism > APDC_cabinet_raw_influence_fascism } } add_to_variable = { APDC_cabinet_higher_influence_count_fascism = 1 } }
+		set_variable = { APDC_cabinet_higher_influence_count_fundamentalism = 0 }
+		if = { limit = { APDC_is_communism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_communism > APDC_cabinet_raw_influence_fundamentalism } } add_to_variable = { APDC_cabinet_higher_influence_count_fundamentalism = 1 } }
+		if = { limit = { APDC_is_socialism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_socialism > APDC_cabinet_raw_influence_fundamentalism } } add_to_variable = { APDC_cabinet_higher_influence_count_fundamentalism = 1 } }
+		if = { limit = { APDC_is_social_democracy_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_social_democracy > APDC_cabinet_raw_influence_fundamentalism } } add_to_variable = { APDC_cabinet_higher_influence_count_fundamentalism = 1 } }
+		if = { limit = { APDC_is_conservatism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_conservatism > APDC_cabinet_raw_influence_fundamentalism } } add_to_variable = { APDC_cabinet_higher_influence_count_fundamentalism = 1 } }
+		if = { limit = { APDC_is_liberalism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_liberalism > APDC_cabinet_raw_influence_fundamentalism } } add_to_variable = { APDC_cabinet_higher_influence_count_fundamentalism = 1 } }
+		if = { limit = { APDC_is_authoritarianism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_authoritarianism > APDC_cabinet_raw_influence_fundamentalism } } add_to_variable = { APDC_cabinet_higher_influence_count_fundamentalism = 1 } }
+		if = { limit = { APDC_is_dictatorship_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_dictatorship > APDC_cabinet_raw_influence_fundamentalism } } add_to_variable = { APDC_cabinet_higher_influence_count_fundamentalism = 1 } }
+		if = { limit = { APDC_is_fascism_in_governing_coalition = yes check_variable = { APDC_cabinet_raw_influence_fascism > APDC_cabinet_raw_influence_fundamentalism } } add_to_variable = { APDC_cabinet_higher_influence_count_fundamentalism = 1 } }
+
+		# A party is in the top-six band when fewer than six parties outrank it.
+		# The band can contain more than six parties only when the cutoff is tied.
+		set_variable = { APDC_cabinet_top_six_candidate_count = 0 }
+		set_variable = { APDC_cabinet_top_six_candidate_communism = 0 }
+		set_variable = { APDC_cabinet_top_six_candidate_socialism = 0 }
+		set_variable = { APDC_cabinet_top_six_candidate_social_democracy = 0 }
+		set_variable = { APDC_cabinet_top_six_candidate_conservatism = 0 }
+		set_variable = { APDC_cabinet_top_six_candidate_liberalism = 0 }
+		set_variable = { APDC_cabinet_top_six_candidate_authoritarianism = 0 }
+		set_variable = { APDC_cabinet_top_six_candidate_dictatorship = 0 }
+		set_variable = { APDC_cabinet_top_six_candidate_fascism = 0 }
+		set_variable = { APDC_cabinet_top_six_candidate_fundamentalism = 0 }
+		if = { limit = { APDC_is_communism_in_governing_coalition = yes check_variable = { APDC_cabinet_higher_influence_count_communism < 6 } } set_variable = { APDC_cabinet_top_six_candidate_communism = 1 } add_to_variable = { APDC_cabinet_top_six_candidate_count = 1 } }
+		if = { limit = { APDC_is_socialism_in_governing_coalition = yes check_variable = { APDC_cabinet_higher_influence_count_socialism < 6 } } set_variable = { APDC_cabinet_top_six_candidate_socialism = 1 } add_to_variable = { APDC_cabinet_top_six_candidate_count = 1 } }
+		if = { limit = { APDC_is_social_democracy_in_governing_coalition = yes check_variable = { APDC_cabinet_higher_influence_count_social_democracy < 6 } } set_variable = { APDC_cabinet_top_six_candidate_social_democracy = 1 } add_to_variable = { APDC_cabinet_top_six_candidate_count = 1 } }
+		if = { limit = { APDC_is_conservatism_in_governing_coalition = yes check_variable = { APDC_cabinet_higher_influence_count_conservatism < 6 } } set_variable = { APDC_cabinet_top_six_candidate_conservatism = 1 } add_to_variable = { APDC_cabinet_top_six_candidate_count = 1 } }
+		if = { limit = { APDC_is_liberalism_in_governing_coalition = yes check_variable = { APDC_cabinet_higher_influence_count_liberalism < 6 } } set_variable = { APDC_cabinet_top_six_candidate_liberalism = 1 } add_to_variable = { APDC_cabinet_top_six_candidate_count = 1 } }
+		if = { limit = { APDC_is_authoritarianism_in_governing_coalition = yes check_variable = { APDC_cabinet_higher_influence_count_authoritarianism < 6 } } set_variable = { APDC_cabinet_top_six_candidate_authoritarianism = 1 } add_to_variable = { APDC_cabinet_top_six_candidate_count = 1 } }
+		if = { limit = { APDC_is_dictatorship_in_governing_coalition = yes check_variable = { APDC_cabinet_higher_influence_count_dictatorship < 6 } } set_variable = { APDC_cabinet_top_six_candidate_dictatorship = 1 } add_to_variable = { APDC_cabinet_top_six_candidate_count = 1 } }
+		if = { limit = { APDC_is_fascism_in_governing_coalition = yes check_variable = { APDC_cabinet_higher_influence_count_fascism < 6 } } set_variable = { APDC_cabinet_top_six_candidate_fascism = 1 } add_to_variable = { APDC_cabinet_top_six_candidate_count = 1 } }
+		if = { limit = { APDC_is_fundamentalism_in_governing_coalition = yes check_variable = { APDC_cabinet_higher_influence_count_fundamentalism < 6 } } set_variable = { APDC_cabinet_top_six_candidate_fundamentalism = 1 } add_to_variable = { APDC_cabinet_top_six_candidate_count = 1 } }
+
+		# The weakest influence in the top-six band is the sixth-place cutoff.
+		set_variable = { APDC_cabinet_top_six_cutoff = 2 }
+		if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_communism = 1 } check_variable = { APDC_cabinet_raw_influence_communism < APDC_cabinet_top_six_cutoff } } set_variable = { APDC_cabinet_top_six_cutoff = APDC_cabinet_raw_influence_communism } }
+		if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_socialism = 1 } check_variable = { APDC_cabinet_raw_influence_socialism < APDC_cabinet_top_six_cutoff } } set_variable = { APDC_cabinet_top_six_cutoff = APDC_cabinet_raw_influence_socialism } }
+		if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_social_democracy = 1 } check_variable = { APDC_cabinet_raw_influence_social_democracy < APDC_cabinet_top_six_cutoff } } set_variable = { APDC_cabinet_top_six_cutoff = APDC_cabinet_raw_influence_social_democracy } }
+		if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_conservatism = 1 } check_variable = { APDC_cabinet_raw_influence_conservatism < APDC_cabinet_top_six_cutoff } } set_variable = { APDC_cabinet_top_six_cutoff = APDC_cabinet_raw_influence_conservatism } }
+		if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_liberalism = 1 } check_variable = { APDC_cabinet_raw_influence_liberalism < APDC_cabinet_top_six_cutoff } } set_variable = { APDC_cabinet_top_six_cutoff = APDC_cabinet_raw_influence_liberalism } }
+		if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_authoritarianism = 1 } check_variable = { APDC_cabinet_raw_influence_authoritarianism < APDC_cabinet_top_six_cutoff } } set_variable = { APDC_cabinet_top_six_cutoff = APDC_cabinet_raw_influence_authoritarianism } }
+		if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_dictatorship = 1 } check_variable = { APDC_cabinet_raw_influence_dictatorship < APDC_cabinet_top_six_cutoff } } set_variable = { APDC_cabinet_top_six_cutoff = APDC_cabinet_raw_influence_dictatorship } }
+		if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_fascism = 1 } check_variable = { APDC_cabinet_raw_influence_fascism < APDC_cabinet_top_six_cutoff } } set_variable = { APDC_cabinet_top_six_cutoff = APDC_cabinet_raw_influence_fascism } }
+		if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_fundamentalism = 1 } check_variable = { APDC_cabinet_raw_influence_fundamentalism < APDC_cabinet_top_six_cutoff } } set_variable = { APDC_cabinet_top_six_cutoff = APDC_cabinet_raw_influence_fundamentalism } }
+		set_variable = { APDC_cabinet_guaranteed_seat_count = 0 }
+		if = {
+			# Exactly six candidates means there is no contested cutoff.
+			limit = { check_variable = { APDC_cabinet_top_six_candidate_count < 7 } }
+			if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_communism = 1 } } set_variable = { APDC_cabinet_available_communism = 1 } add_to_variable = { APDC_cabinet_guaranteed_seat_count = 1 } }
+			if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_socialism = 1 } } set_variable = { APDC_cabinet_available_socialism = 1 } add_to_variable = { APDC_cabinet_guaranteed_seat_count = 1 } }
+			if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_social_democracy = 1 } } set_variable = { APDC_cabinet_available_social_democracy = 1 } add_to_variable = { APDC_cabinet_guaranteed_seat_count = 1 } }
+			if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_conservatism = 1 } } set_variable = { APDC_cabinet_available_conservatism = 1 } add_to_variable = { APDC_cabinet_guaranteed_seat_count = 1 } }
+			if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_liberalism = 1 } } set_variable = { APDC_cabinet_available_liberalism = 1 } add_to_variable = { APDC_cabinet_guaranteed_seat_count = 1 } }
+			if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_authoritarianism = 1 } } set_variable = { APDC_cabinet_available_authoritarianism = 1 } add_to_variable = { APDC_cabinet_guaranteed_seat_count = 1 } }
+			if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_dictatorship = 1 } } set_variable = { APDC_cabinet_available_dictatorship = 1 } add_to_variable = { APDC_cabinet_guaranteed_seat_count = 1 } }
+			if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_fascism = 1 } } set_variable = { APDC_cabinet_available_fascism = 1 } add_to_variable = { APDC_cabinet_guaranteed_seat_count = 1 } }
+			if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_fundamentalism = 1 } } set_variable = { APDC_cabinet_available_fundamentalism = 1 } add_to_variable = { APDC_cabinet_guaranteed_seat_count = 1 } }
+		}
+		else = {
+			# When the cutoff is tied, only parties strictly above it get a seat.
+			# Every contested cutoff seat is forwarded to the next allocation stage.
+			if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_communism = 1 } check_variable = { APDC_cabinet_raw_influence_communism > APDC_cabinet_top_six_cutoff } } set_variable = { APDC_cabinet_available_communism = 1 } add_to_variable = { APDC_cabinet_guaranteed_seat_count = 1 } }
+			if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_socialism = 1 } check_variable = { APDC_cabinet_raw_influence_socialism > APDC_cabinet_top_six_cutoff } } set_variable = { APDC_cabinet_available_socialism = 1 } add_to_variable = { APDC_cabinet_guaranteed_seat_count = 1 } }
+			if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_social_democracy = 1 } check_variable = { APDC_cabinet_raw_influence_social_democracy > APDC_cabinet_top_six_cutoff } } set_variable = { APDC_cabinet_available_social_democracy = 1 } add_to_variable = { APDC_cabinet_guaranteed_seat_count = 1 } }
+			if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_conservatism = 1 } check_variable = { APDC_cabinet_raw_influence_conservatism > APDC_cabinet_top_six_cutoff } } set_variable = { APDC_cabinet_available_conservatism = 1 } add_to_variable = { APDC_cabinet_guaranteed_seat_count = 1 } }
+			if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_liberalism = 1 } check_variable = { APDC_cabinet_raw_influence_liberalism > APDC_cabinet_top_six_cutoff } } set_variable = { APDC_cabinet_available_liberalism = 1 } add_to_variable = { APDC_cabinet_guaranteed_seat_count = 1 } }
+			if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_authoritarianism = 1 } check_variable = { APDC_cabinet_raw_influence_authoritarianism > APDC_cabinet_top_six_cutoff } } set_variable = { APDC_cabinet_available_authoritarianism = 1 } add_to_variable = { APDC_cabinet_guaranteed_seat_count = 1 } }
+			if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_dictatorship = 1 } check_variable = { APDC_cabinet_raw_influence_dictatorship > APDC_cabinet_top_six_cutoff } } set_variable = { APDC_cabinet_available_dictatorship = 1 } add_to_variable = { APDC_cabinet_guaranteed_seat_count = 1 } }
+			if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_fascism = 1 } check_variable = { APDC_cabinet_raw_influence_fascism > APDC_cabinet_top_six_cutoff } } set_variable = { APDC_cabinet_available_fascism = 1 } add_to_variable = { APDC_cabinet_guaranteed_seat_count = 1 } }
+			if = { limit = { check_variable = { APDC_cabinet_top_six_candidate_fundamentalism = 1 } check_variable = { APDC_cabinet_raw_influence_fundamentalism > APDC_cabinet_top_six_cutoff } } set_variable = { APDC_cabinet_available_fundamentalism = 1 } add_to_variable = { APDC_cabinet_guaranteed_seat_count = 1 } }
+		}
+		set_variable = { APDC_cabinet_remaining_seats = 6 }
+		subtract_from_variable = { APDC_cabinet_remaining_seats = APDC_cabinet_guaranteed_seat_count }
+	}
+	clamp_variable = { var = APDC_cabinet_remaining_seats min = 0 max = 6 }
+
+	# Above-average test without division:
+	# party support * coalition-party count > total coalition support.
+	set_variable = { APDC_cabinet_above_average_count = 0 }
+	set_variable = { APDC_cabinet_above_average_communism = 0 }
+	set_variable = { APDC_cabinet_above_average_test_communism = APDC_cabinet_raw_influence_communism }
+	multiply_variable = { APDC_cabinet_above_average_test_communism = APDC_cabinet_coalition_party_count }
+	if = { limit = { APDC_is_communism_in_governing_coalition = yes check_variable = { APDC_cabinet_above_average_test_communism > APDC_cabinet_coalition_total } } set_variable = { APDC_cabinet_above_average_communism = 1 } add_to_variable = { APDC_cabinet_above_average_count = 1 } }
+	set_variable = { APDC_cabinet_above_average_socialism = 0 }
+	set_variable = { APDC_cabinet_above_average_test_socialism = APDC_cabinet_raw_influence_socialism }
+	multiply_variable = { APDC_cabinet_above_average_test_socialism = APDC_cabinet_coalition_party_count }
+	if = { limit = { APDC_is_socialism_in_governing_coalition = yes check_variable = { APDC_cabinet_above_average_test_socialism > APDC_cabinet_coalition_total } } set_variable = { APDC_cabinet_above_average_socialism = 1 } add_to_variable = { APDC_cabinet_above_average_count = 1 } }
+	set_variable = { APDC_cabinet_above_average_social_democracy = 0 }
+	set_variable = { APDC_cabinet_above_average_test_social_democracy = APDC_cabinet_raw_influence_social_democracy }
+	multiply_variable = { APDC_cabinet_above_average_test_social_democracy = APDC_cabinet_coalition_party_count }
+	if = { limit = { APDC_is_social_democracy_in_governing_coalition = yes check_variable = { APDC_cabinet_above_average_test_social_democracy > APDC_cabinet_coalition_total } } set_variable = { APDC_cabinet_above_average_social_democracy = 1 } add_to_variable = { APDC_cabinet_above_average_count = 1 } }
+	set_variable = { APDC_cabinet_above_average_conservatism = 0 }
+	set_variable = { APDC_cabinet_above_average_test_conservatism = APDC_cabinet_raw_influence_conservatism }
+	multiply_variable = { APDC_cabinet_above_average_test_conservatism = APDC_cabinet_coalition_party_count }
+	if = { limit = { APDC_is_conservatism_in_governing_coalition = yes check_variable = { APDC_cabinet_above_average_test_conservatism > APDC_cabinet_coalition_total } } set_variable = { APDC_cabinet_above_average_conservatism = 1 } add_to_variable = { APDC_cabinet_above_average_count = 1 } }
+	set_variable = { APDC_cabinet_above_average_liberalism = 0 }
+	set_variable = { APDC_cabinet_above_average_test_liberalism = APDC_cabinet_raw_influence_liberalism }
+	multiply_variable = { APDC_cabinet_above_average_test_liberalism = APDC_cabinet_coalition_party_count }
+	if = { limit = { APDC_is_liberalism_in_governing_coalition = yes check_variable = { APDC_cabinet_above_average_test_liberalism > APDC_cabinet_coalition_total } } set_variable = { APDC_cabinet_above_average_liberalism = 1 } add_to_variable = { APDC_cabinet_above_average_count = 1 } }
+	set_variable = { APDC_cabinet_above_average_authoritarianism = 0 }
+	set_variable = { APDC_cabinet_above_average_test_authoritarianism = APDC_cabinet_raw_influence_authoritarianism }
+	multiply_variable = { APDC_cabinet_above_average_test_authoritarianism = APDC_cabinet_coalition_party_count }
+	if = { limit = { APDC_is_authoritarianism_in_governing_coalition = yes check_variable = { APDC_cabinet_above_average_test_authoritarianism > APDC_cabinet_coalition_total } } set_variable = { APDC_cabinet_above_average_authoritarianism = 1 } add_to_variable = { APDC_cabinet_above_average_count = 1 } }
+	set_variable = { APDC_cabinet_above_average_dictatorship = 0 }
+	set_variable = { APDC_cabinet_above_average_test_dictatorship = APDC_cabinet_raw_influence_dictatorship }
+	multiply_variable = { APDC_cabinet_above_average_test_dictatorship = APDC_cabinet_coalition_party_count }
+	if = { limit = { APDC_is_dictatorship_in_governing_coalition = yes check_variable = { APDC_cabinet_above_average_test_dictatorship > APDC_cabinet_coalition_total } } set_variable = { APDC_cabinet_above_average_dictatorship = 1 } add_to_variable = { APDC_cabinet_above_average_count = 1 } }
+	set_variable = { APDC_cabinet_above_average_fascism = 0 }
+	set_variable = { APDC_cabinet_above_average_test_fascism = APDC_cabinet_raw_influence_fascism }
+	multiply_variable = { APDC_cabinet_above_average_test_fascism = APDC_cabinet_coalition_party_count }
+	if = { limit = { APDC_is_fascism_in_governing_coalition = yes check_variable = { APDC_cabinet_above_average_test_fascism > APDC_cabinet_coalition_total } } set_variable = { APDC_cabinet_above_average_fascism = 1 } add_to_variable = { APDC_cabinet_above_average_count = 1 } }
+	set_variable = { APDC_cabinet_above_average_fundamentalism = 0 }
+	set_variable = { APDC_cabinet_above_average_test_fundamentalism = APDC_cabinet_raw_influence_fundamentalism }
+	multiply_variable = { APDC_cabinet_above_average_test_fundamentalism = APDC_cabinet_coalition_party_count }
+	if = { limit = { APDC_is_fundamentalism_in_governing_coalition = yes check_variable = { APDC_cabinet_above_average_test_fundamentalism > APDC_cabinet_coalition_total } } set_variable = { APDC_cabinet_above_average_fundamentalism = 1 } add_to_variable = { APDC_cabinet_above_average_count = 1 } }
+
+	# Divide the remaining seats among above-average parties and round down.
+	# Both inputs are small integers, so use exact integer thresholds instead of
+	# subtracting 0.5 before round_variable (fixed-point 0.5 ties round to zero).
+	set_variable = { APDC_cabinet_extra_per_above_average_party = 0 }
+	if = {
+		limit = { check_variable = { APDC_cabinet_above_average_count > 0 } }
+		set_variable = { APDC_cabinet_extra_seat_threshold = APDC_cabinet_above_average_count }
+		if = { limit = { NOT = { check_variable = { APDC_cabinet_remaining_seats < APDC_cabinet_extra_seat_threshold } } } set_variable = { APDC_cabinet_extra_per_above_average_party = 1 } }
+		add_to_variable = { APDC_cabinet_extra_seat_threshold = APDC_cabinet_above_average_count }
+		if = { limit = { NOT = { check_variable = { APDC_cabinet_remaining_seats < APDC_cabinet_extra_seat_threshold } } } set_variable = { APDC_cabinet_extra_per_above_average_party = 2 } }
+		add_to_variable = { APDC_cabinet_extra_seat_threshold = APDC_cabinet_above_average_count }
+		if = { limit = { NOT = { check_variable = { APDC_cabinet_remaining_seats < APDC_cabinet_extra_seat_threshold } } } set_variable = { APDC_cabinet_extra_per_above_average_party = 3 } }
+		add_to_variable = { APDC_cabinet_extra_seat_threshold = APDC_cabinet_above_average_count }
+		if = { limit = { NOT = { check_variable = { APDC_cabinet_remaining_seats < APDC_cabinet_extra_seat_threshold } } } set_variable = { APDC_cabinet_extra_per_above_average_party = 4 } }
+		add_to_variable = { APDC_cabinet_extra_seat_threshold = APDC_cabinet_above_average_count }
+		if = { limit = { NOT = { check_variable = { APDC_cabinet_remaining_seats < APDC_cabinet_extra_seat_threshold } } } set_variable = { APDC_cabinet_extra_per_above_average_party = 5 } }
+		add_to_variable = { APDC_cabinet_extra_seat_threshold = APDC_cabinet_above_average_count }
+		if = { limit = { NOT = { check_variable = { APDC_cabinet_remaining_seats < APDC_cabinet_extra_seat_threshold } } } set_variable = { APDC_cabinet_extra_per_above_average_party = 6 } }
+	}
+	if = { limit = { check_variable = { APDC_cabinet_above_average_communism = 1 } } add_to_variable = { APDC_cabinet_available_communism = APDC_cabinet_extra_per_above_average_party } }
+	if = { limit = { check_variable = { APDC_cabinet_above_average_socialism = 1 } } add_to_variable = { APDC_cabinet_available_socialism = APDC_cabinet_extra_per_above_average_party } }
+	if = { limit = { check_variable = { APDC_cabinet_above_average_social_democracy = 1 } } add_to_variable = { APDC_cabinet_available_social_democracy = APDC_cabinet_extra_per_above_average_party } }
+	if = { limit = { check_variable = { APDC_cabinet_above_average_conservatism = 1 } } add_to_variable = { APDC_cabinet_available_conservatism = APDC_cabinet_extra_per_above_average_party } }
+	if = { limit = { check_variable = { APDC_cabinet_above_average_liberalism = 1 } } add_to_variable = { APDC_cabinet_available_liberalism = APDC_cabinet_extra_per_above_average_party } }
+	if = { limit = { check_variable = { APDC_cabinet_above_average_authoritarianism = 1 } } add_to_variable = { APDC_cabinet_available_authoritarianism = APDC_cabinet_extra_per_above_average_party } }
+	if = { limit = { check_variable = { APDC_cabinet_above_average_dictatorship = 1 } } add_to_variable = { APDC_cabinet_available_dictatorship = APDC_cabinet_extra_per_above_average_party } }
+	if = { limit = { check_variable = { APDC_cabinet_above_average_fascism = 1 } } add_to_variable = { APDC_cabinet_available_fascism = APDC_cabinet_extra_per_above_average_party } }
+	if = { limit = { check_variable = { APDC_cabinet_above_average_fundamentalism = 1 } } add_to_variable = { APDC_cabinet_available_fundamentalism = APDC_cabinet_extra_per_above_average_party } }
+
+	set_variable = { APDC_cabinet_distributed_extra_seats = APDC_cabinet_extra_per_above_average_party }
+	multiply_variable = { APDC_cabinet_distributed_extra_seats = APDC_cabinet_above_average_count }
+	subtract_from_variable = { APDC_cabinet_remaining_seats = APDC_cabinet_distributed_extra_seats }
+	clamp_variable = { var = APDC_cabinet_remaining_seats min = 0 max = 6 }
+
+	# Give every final remainder seat to the ruling party.
+	if = { limit = { has_government = communism } add_to_variable = { APDC_cabinet_available_communism = APDC_cabinet_remaining_seats } }
+	if = { limit = { has_government = socialism } add_to_variable = { APDC_cabinet_available_socialism = APDC_cabinet_remaining_seats } }
+	if = { limit = { has_government = social_democracy } add_to_variable = { APDC_cabinet_available_social_democracy = APDC_cabinet_remaining_seats } }
+	if = { limit = { has_government = conservatism } add_to_variable = { APDC_cabinet_available_conservatism = APDC_cabinet_remaining_seats } }
+	if = { limit = { has_government = liberalism } add_to_variable = { APDC_cabinet_available_liberalism = APDC_cabinet_remaining_seats } }
+	if = { limit = { has_government = authoritarianism } add_to_variable = { APDC_cabinet_available_authoritarianism = APDC_cabinet_remaining_seats } }
+	if = { limit = { has_government = dictatorship } add_to_variable = { APDC_cabinet_available_dictatorship = APDC_cabinet_remaining_seats } }
+	if = { limit = { has_government = fascism } add_to_variable = { APDC_cabinet_available_fascism = APDC_cabinet_remaining_seats } }
+	if = { limit = { has_government = fundamentalism } add_to_variable = { APDC_cabinet_available_fundamentalism = APDC_cabinet_remaining_seats } }
+
+	if = {
+		limit = { check_variable = { APDC_cabinet_available_communism < 1 } }
+		set_variable = { APDC_cabinet_support_communism = 100 }
+	}
+	else = {
+		set_variable = { APDC_cabinet_support_communism = APDC_cabinet_used_communism }
+		multiply_variable = { APDC_cabinet_support_communism = APDC_cabinet_base_support_communism }
+		divide_variable = { APDC_cabinet_support_communism = APDC_cabinet_available_communism }
+		clamp_variable = { var = APDC_cabinet_support_communism min = 0 max = 100 }
+	}
+	if = {
+		limit = { check_variable = { APDC_cabinet_available_socialism < 1 } }
+		set_variable = { APDC_cabinet_support_socialism = 100 }
+	}
+	else = {
+		set_variable = { APDC_cabinet_support_socialism = APDC_cabinet_used_socialism }
+		multiply_variable = { APDC_cabinet_support_socialism = APDC_cabinet_base_support_socialism }
+		divide_variable = { APDC_cabinet_support_socialism = APDC_cabinet_available_socialism }
+		clamp_variable = { var = APDC_cabinet_support_socialism min = 0 max = 100 }
+	}
+	if = {
+		limit = { check_variable = { APDC_cabinet_available_social_democracy < 1 } }
+		set_variable = { APDC_cabinet_support_social_democracy = 100 }
+	}
+	else = {
+		set_variable = { APDC_cabinet_support_social_democracy = APDC_cabinet_used_social_democracy }
+		multiply_variable = { APDC_cabinet_support_social_democracy = APDC_cabinet_base_support_social_democracy }
+		divide_variable = { APDC_cabinet_support_social_democracy = APDC_cabinet_available_social_democracy }
+		clamp_variable = { var = APDC_cabinet_support_social_democracy min = 0 max = 100 }
+	}
+	if = {
+		limit = { check_variable = { APDC_cabinet_available_conservatism < 1 } }
+		set_variable = { APDC_cabinet_support_conservatism = 100 }
+	}
+	else = {
+		set_variable = { APDC_cabinet_support_conservatism = APDC_cabinet_used_conservatism }
+		multiply_variable = { APDC_cabinet_support_conservatism = APDC_cabinet_base_support_conservatism }
+		divide_variable = { APDC_cabinet_support_conservatism = APDC_cabinet_available_conservatism }
+		clamp_variable = { var = APDC_cabinet_support_conservatism min = 0 max = 100 }
+	}
+	if = {
+		limit = { check_variable = { APDC_cabinet_available_liberalism < 1 } }
+		set_variable = { APDC_cabinet_support_liberalism = 100 }
+	}
+	else = {
+		set_variable = { APDC_cabinet_support_liberalism = APDC_cabinet_used_liberalism }
+		multiply_variable = { APDC_cabinet_support_liberalism = APDC_cabinet_base_support_liberalism }
+		divide_variable = { APDC_cabinet_support_liberalism = APDC_cabinet_available_liberalism }
+		clamp_variable = { var = APDC_cabinet_support_liberalism min = 0 max = 100 }
+	}
+	if = {
+		limit = { check_variable = { APDC_cabinet_available_authoritarianism < 1 } }
+		set_variable = { APDC_cabinet_support_authoritarianism = 100 }
+	}
+	else = {
+		set_variable = { APDC_cabinet_support_authoritarianism = APDC_cabinet_used_authoritarianism }
+		multiply_variable = { APDC_cabinet_support_authoritarianism = APDC_cabinet_base_support_authoritarianism }
+		divide_variable = { APDC_cabinet_support_authoritarianism = APDC_cabinet_available_authoritarianism }
+		clamp_variable = { var = APDC_cabinet_support_authoritarianism min = 0 max = 100 }
+	}
+	if = {
+		limit = { check_variable = { APDC_cabinet_available_dictatorship < 1 } }
+		set_variable = { APDC_cabinet_support_dictatorship = 100 }
+	}
+	else = {
+		set_variable = { APDC_cabinet_support_dictatorship = APDC_cabinet_used_dictatorship }
+		multiply_variable = { APDC_cabinet_support_dictatorship = APDC_cabinet_base_support_dictatorship }
+		divide_variable = { APDC_cabinet_support_dictatorship = APDC_cabinet_available_dictatorship }
+		clamp_variable = { var = APDC_cabinet_support_dictatorship min = 0 max = 100 }
+	}
+	if = {
+		limit = { check_variable = { APDC_cabinet_available_fascism < 1 } }
+		set_variable = { APDC_cabinet_support_fascism = 100 }
+	}
+	else = {
+		set_variable = { APDC_cabinet_support_fascism = APDC_cabinet_used_fascism }
+		multiply_variable = { APDC_cabinet_support_fascism = APDC_cabinet_base_support_fascism }
+		divide_variable = { APDC_cabinet_support_fascism = APDC_cabinet_available_fascism }
+		clamp_variable = { var = APDC_cabinet_support_fascism min = 0 max = 100 }
+	}
+	if = {
+		limit = { check_variable = { APDC_cabinet_available_fundamentalism < 1 } }
+		set_variable = { APDC_cabinet_support_fundamentalism = 100 }
+	}
+	else = {
+		set_variable = { APDC_cabinet_support_fundamentalism = APDC_cabinet_used_fundamentalism }
+		multiply_variable = { APDC_cabinet_support_fundamentalism = APDC_cabinet_base_support_fundamentalism }
+		divide_variable = { APDC_cabinet_support_fundamentalism = APDC_cabinet_available_fundamentalism }
+		clamp_variable = { var = APDC_cabinet_support_fundamentalism min = 0 max = 100 }
+	}
+	APDC_cabinet_refresh_selected_candidate = yes
+	APDC_rebuild_cabinet_pie = yes
+}

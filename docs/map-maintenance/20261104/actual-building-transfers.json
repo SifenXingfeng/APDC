@@ -1,0 +1,155 @@
+{
+  "moves": [
+    {
+      "from": 1011,
+      "to": 1625,
+      "province": 15753,
+      "kind": "arms_factory",
+      "level": 1
+    },
+    {
+      "from": 1011,
+      "to": 1625,
+      "province": 10876,
+      "kind": "industrial_complex",
+      "level": 1
+    },
+    {
+      "from": 291,
+      "to": 1626,
+      "province": 16295,
+      "kind": "arms_factory",
+      "level": 1
+    },
+    {
+      "from": 291,
+      "to": 1010,
+      "province": 16293,
+      "kind": "industrial_complex",
+      "level": 1
+    },
+    {
+      "from": 291,
+      "to": 1626,
+      "province": 8123,
+      "kind": "air_base",
+      "level": 1
+    },
+    {
+      "from": 291,
+      "to": 1626,
+      "province": 8123,
+      "kind": "air_base",
+      "level": 1
+    },
+    {
+      "from": 291,
+      "to": 1626,
+      "province": 8123,
+      "kind": "air_base",
+      "level": 1
+    },
+    {
+      "from": 291,
+      "to": 1626,
+      "province": 8123,
+      "kind": "air_base",
+      "level": 1
+    },
+    {
+      "from": 330,
+      "to": 1613,
+      "province": 16615,
+      "kind": "arms_factory",
+      "level": 1
+    },
+    {
+      "from": 330,
+      "to": 1615,
+      "province": 10623,
+      "kind": "industrial_complex",
+      "level": 1
+    },
+    {
+      "from": 330,
+      "to": 1613,
+      "province": 16615,
+      "kind": "industrial_complex",
+      "level": 1
+    },
+    {
+      "from": 563,
+      "to": 1594,
+      "province": 1666,
+      "kind": "air_base",
+      "level": 1
+    },
+    {
+      "from": 563,
+      "to": 1594,
+      "province": 1666,
+      "kind": "air_base",
+      "level": 1
+    },
+    {
+      "from": 566,
+      "to": 1596,
+      "province": 1707,
+      "kind": "arms_factory",
+      "level": 1
+    },
+    {
+      "from": 570,
+      "to": 1605,
+      "province": 7722,
+      "kind": "industrial_complex",
+      "level": 1
+    },
+    {
+      "from": 570,
+      "to": 1605,
+      "province": 12679,
+      "kind": "industrial_complex",
+      "level": 1
+    },
+    {
+      "from": 570,
+      "to": 1605,
+      "province": 7722,
+      "kind": "air_base",
+      "level": 1
+    },
+    {
+      "from": 653,
+      "to": 1608,
+      "province": 1704,
+      "kind": "arms_factory",
+      "level": 1
+    },
+    {
+      "from": 657,
+      "to": 1581,
+      "province": 12261,
+      "kind": "air_base",
+      "level": 1
+    },
+    {
+      "from": 657,
+      "to": 1581,
+      "province": 12261,
+      "kind": "air_base",
+      "level": 1
+    }
+  ],
+  "air_base_state_mapping": {
+    "291": 1626,
+    "330": 330,
+    "563": 1594,
+    "566": 566,
+    "570": 1605,
+    "574": 574,
+    "653": 653,
+    "657": 1581
+  },
+  "rule": "Occupied model anchors/attached province retain location; infrastructure inherited separately, no new actual industry"
+}

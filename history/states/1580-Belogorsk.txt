@@ -1,0 +1,21 @@
+state={
+	id=1580
+	name="STATE_1580"
+	provinces={
+		1802 4725 4779 4829 7763 7801 10655 12654 19455 
+	}
+	manpower=138771
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		victory_points = { 7763 2 }
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	resources = { steel = 8 }
+	state_category = pastoral
+}

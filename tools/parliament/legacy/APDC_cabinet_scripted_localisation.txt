@@ -1,0 +1,568 @@
+# Scripted localisation for cabinet roles, six slots and the large member panel.
+
+# Resolve party names from the country currently opening the cabinet.  Keeping
+# the ideology suffix here means the panel follows each country's real party
+# localisation instead of carrying a second, hard-coded set of party names.
+defined_text = {
+	name = APDCCabinetPartyCommunismName
+	text = { localization_key = [ROOT.GetTag]_communism_party }
+}
+defined_text = {
+	name = APDCCabinetPartySocialismName
+	text = { localization_key = [ROOT.GetTag]_socialism_party }
+}
+defined_text = {
+	name = APDCCabinetPartySocialDemocracyName
+	text = { localization_key = [ROOT.GetTag]_social_democracy_party }
+}
+defined_text = {
+	name = APDCCabinetPartyConservatismName
+	text = { localization_key = [ROOT.GetTag]_conservatism_party }
+}
+defined_text = {
+	name = APDCCabinetPartyLiberalismName
+	text = { localization_key = [ROOT.GetTag]_liberalism_party }
+}
+defined_text = {
+	name = APDCCabinetPartyAuthoritarianismName
+	text = { localization_key = [ROOT.GetTag]_authoritarianism_party }
+}
+defined_text = {
+	name = APDCCabinetPartyDictatorshipName
+	text = { localization_key = [ROOT.GetTag]_dictatorship_party }
+}
+defined_text = {
+	name = APDCCabinetPartyFascismName
+	text = { localization_key = [ROOT.GetTag]_fascism_party }
+}
+defined_text = {
+	name = APDCCabinetPartyFundamentalismName
+	text = { localization_key = [ROOT.GetTag]_fundamentalism_party }
+}
+
+defined_text = {
+	name = APDCPrimeMinisterPortrait
+	text = { trigger = { has_variable = APDC_prime_minister_character } localization_key = GFX_[?APDC_prime_minister_character.GetTokenKey] }
+	text = { localization_key = GFX_APDC_blank_cabinet_character }
+}
+defined_text = {
+	name = APDCDeputyPrimeMinisterPortrait
+	text = { trigger = { has_variable = APDC_deputy_prime_minister_character } localization_key = GFX_[?APDC_deputy_prime_minister_character.GetTokenKey] }
+	text = { localization_key = GFX_APDC_blank_cabinet_character }
+}
+defined_text = {
+	name = APDCPrimeMinisterName
+	text = { trigger = { has_variable = APDC_prime_minister_character } localization_key = [?APDC_prime_minister_character.GetTokenKey]_name }
+	text = { localization_key = APDC_CABINET_EMPTY_TEXT }
+}
+defined_text = {
+	name = APDCDeputyPrimeMinisterName
+	text = { trigger = { has_variable = APDC_deputy_prime_minister_character } localization_key = [?APDC_deputy_prime_minister_character.GetTokenKey]_name }
+	text = { localization_key = APDC_CABINET_EMPTY_TEXT }
+}
+defined_text = {
+	name = APDCPrimeMinisterTraitBlock
+	text = { trigger = { has_variable = APDC_prime_minister_traits } localization_key = [?APDC_prime_minister_traits.GetTokenKey]_APDC_cabinet_trait_tooltip }
+	text = { localization_key = APDC_CABINET_EMPTY_TEXT }
+}
+defined_text = {
+	name = APDCDeputyPrimeMinisterTraitBlock
+	text = { trigger = { has_variable = APDC_deputy_prime_minister_traits } localization_key = [?APDC_deputy_prime_minister_traits.GetTokenKey]_APDC_cabinet_trait_tooltip }
+	text = { localization_key = APDC_CABINET_EMPTY_TEXT }
+}
+defined_text = {
+	name = APDCPrimeMinisterTooltip
+	text = { trigger = { has_variable = APDC_prime_minister_character } localization_key = APDC_ASSIGNED_PRIME_MINISTER_TOOLTIP }
+	text = { localization_key = APDC_NO_PRIME_MINISTER }
+}
+defined_text = {
+	name = APDCDeputyPrimeMinisterTooltip
+	text = { trigger = { has_variable = APDC_deputy_prime_minister_character } localization_key = APDC_ASSIGNED_DEPUTY_PRIME_MINISTER_TOOLTIP }
+	text = { localization_key = APDC_NO_DEPUTY_PRIME_MINISTER }
+}
+
+defined_text = {
+	name = APDCCabinetSlot1Portrait
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 1 } } localization_key = GFX_portrait_GER_APDC_romy_riefenstahl_small }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 2 } } localization_key = GFX_portrait_GER_APDC_eugene_rugosa_small }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 > 2 } } localization_key = GFX_idea_unknown }
+	text = { localization_key = GFX_select_advisor }
+}
+
+defined_text = {
+	name = APDCCabinetSlot1Tooltip
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 1 } } localization_key = APDC_CABINET_CANDIDATE_1_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 2 } } localization_key = APDC_CABINET_CANDIDATE_2_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 3 } } localization_key = APDC_CABINET_CANDIDATE_3_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 4 } } localization_key = APDC_CABINET_CANDIDATE_4_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 5 } } localization_key = APDC_CABINET_CANDIDATE_5_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 6 } } localization_key = APDC_CABINET_CANDIDATE_6_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 7 } } localization_key = APDC_CABINET_CANDIDATE_7_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 8 } } localization_key = APDC_CABINET_CANDIDATE_8_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 9 } } localization_key = APDC_CABINET_CANDIDATE_9_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 10 } } localization_key = APDC_CABINET_CANDIDATE_10_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 11 } } localization_key = APDC_CABINET_CANDIDATE_11_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 12 } } localization_key = APDC_CABINET_CANDIDATE_12_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 13 } } localization_key = APDC_CABINET_CANDIDATE_13_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 14 } } localization_key = APDC_CABINET_CANDIDATE_14_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 15 } } localization_key = APDC_CABINET_CANDIDATE_15_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 16 } } localization_key = APDC_CABINET_CANDIDATE_16_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 17 } } localization_key = APDC_CABINET_CANDIDATE_17_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 18 } } localization_key = APDC_CABINET_CANDIDATE_18_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 19 } } localization_key = APDC_CABINET_CANDIDATE_19_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 20 } } localization_key = APDC_CABINET_CANDIDATE_20_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 21 } } localization_key = APDC_CABINET_CANDIDATE_21_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 22 } } localization_key = APDC_CABINET_CANDIDATE_22_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 23 } } localization_key = APDC_CABINET_CANDIDATE_23_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 24 } } localization_key = APDC_CABINET_CANDIDATE_24_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 25 } } localization_key = APDC_CABINET_CANDIDATE_25_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 26 } } localization_key = APDC_CABINET_CANDIDATE_26_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 27 } } localization_key = APDC_CABINET_CANDIDATE_27_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 28 } } localization_key = APDC_CABINET_CANDIDATE_28_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 29 } } localization_key = APDC_CABINET_CANDIDATE_29_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 30 } } localization_key = APDC_CABINET_CANDIDATE_30_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 31 } } localization_key = APDC_CABINET_CANDIDATE_31_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 32 } } localization_key = APDC_CABINET_CANDIDATE_32_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 33 } } localization_key = APDC_CABINET_CANDIDATE_33_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 34 } } localization_key = APDC_CABINET_CANDIDATE_34_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 35 } } localization_key = APDC_CABINET_CANDIDATE_35_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 36 } } localization_key = APDC_CABINET_CANDIDATE_36_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 37 } } localization_key = APDC_CABINET_CANDIDATE_37_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 38 } } localization_key = APDC_CABINET_CANDIDATE_38_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 39 } } localization_key = APDC_CABINET_CANDIDATE_39_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 40 } } localization_key = APDC_CABINET_CANDIDATE_40_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 41 } } localization_key = APDC_CABINET_CANDIDATE_41_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 42 } } localization_key = APDC_CABINET_CANDIDATE_42_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 43 } } localization_key = APDC_CABINET_CANDIDATE_43_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 44 } } localization_key = APDC_CABINET_CANDIDATE_44_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 45 } } localization_key = APDC_CABINET_CANDIDATE_45_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 46 } } localization_key = APDC_CABINET_CANDIDATE_46_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_1 = 47 } } localization_key = APDC_CABINET_CANDIDATE_47_SLOT_TOOLTIP }
+	text = { localization_key = APDC_CABINET_EMPTY_SLOT_TOOLTIP }
+}
+
+defined_text = {
+	name = APDCCabinetSlot2Portrait
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 1 } } localization_key = GFX_portrait_GER_APDC_romy_riefenstahl_small }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 2 } } localization_key = GFX_portrait_GER_APDC_eugene_rugosa_small }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 > 2 } } localization_key = GFX_idea_unknown }
+	text = { localization_key = GFX_select_advisor }
+}
+
+defined_text = {
+	name = APDCCabinetSlot2Tooltip
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 1 } } localization_key = APDC_CABINET_CANDIDATE_1_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 2 } } localization_key = APDC_CABINET_CANDIDATE_2_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 3 } } localization_key = APDC_CABINET_CANDIDATE_3_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 4 } } localization_key = APDC_CABINET_CANDIDATE_4_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 5 } } localization_key = APDC_CABINET_CANDIDATE_5_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 6 } } localization_key = APDC_CABINET_CANDIDATE_6_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 7 } } localization_key = APDC_CABINET_CANDIDATE_7_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 8 } } localization_key = APDC_CABINET_CANDIDATE_8_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 9 } } localization_key = APDC_CABINET_CANDIDATE_9_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 10 } } localization_key = APDC_CABINET_CANDIDATE_10_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 11 } } localization_key = APDC_CABINET_CANDIDATE_11_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 12 } } localization_key = APDC_CABINET_CANDIDATE_12_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 13 } } localization_key = APDC_CABINET_CANDIDATE_13_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 14 } } localization_key = APDC_CABINET_CANDIDATE_14_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 15 } } localization_key = APDC_CABINET_CANDIDATE_15_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 16 } } localization_key = APDC_CABINET_CANDIDATE_16_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 17 } } localization_key = APDC_CABINET_CANDIDATE_17_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 18 } } localization_key = APDC_CABINET_CANDIDATE_18_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 19 } } localization_key = APDC_CABINET_CANDIDATE_19_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 20 } } localization_key = APDC_CABINET_CANDIDATE_20_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 21 } } localization_key = APDC_CABINET_CANDIDATE_21_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 22 } } localization_key = APDC_CABINET_CANDIDATE_22_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 23 } } localization_key = APDC_CABINET_CANDIDATE_23_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 24 } } localization_key = APDC_CABINET_CANDIDATE_24_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 25 } } localization_key = APDC_CABINET_CANDIDATE_25_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 26 } } localization_key = APDC_CABINET_CANDIDATE_26_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 27 } } localization_key = APDC_CABINET_CANDIDATE_27_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 28 } } localization_key = APDC_CABINET_CANDIDATE_28_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 29 } } localization_key = APDC_CABINET_CANDIDATE_29_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 30 } } localization_key = APDC_CABINET_CANDIDATE_30_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 31 } } localization_key = APDC_CABINET_CANDIDATE_31_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 32 } } localization_key = APDC_CABINET_CANDIDATE_32_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 33 } } localization_key = APDC_CABINET_CANDIDATE_33_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 34 } } localization_key = APDC_CABINET_CANDIDATE_34_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 35 } } localization_key = APDC_CABINET_CANDIDATE_35_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 36 } } localization_key = APDC_CABINET_CANDIDATE_36_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 37 } } localization_key = APDC_CABINET_CANDIDATE_37_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 38 } } localization_key = APDC_CABINET_CANDIDATE_38_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 39 } } localization_key = APDC_CABINET_CANDIDATE_39_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 40 } } localization_key = APDC_CABINET_CANDIDATE_40_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 41 } } localization_key = APDC_CABINET_CANDIDATE_41_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 42 } } localization_key = APDC_CABINET_CANDIDATE_42_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 43 } } localization_key = APDC_CABINET_CANDIDATE_43_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 44 } } localization_key = APDC_CABINET_CANDIDATE_44_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 45 } } localization_key = APDC_CABINET_CANDIDATE_45_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 46 } } localization_key = APDC_CABINET_CANDIDATE_46_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_2 = 47 } } localization_key = APDC_CABINET_CANDIDATE_47_SLOT_TOOLTIP }
+	text = { localization_key = APDC_CABINET_EMPTY_SLOT_TOOLTIP }
+}
+
+defined_text = {
+	name = APDCCabinetSlot3Portrait
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 1 } } localization_key = GFX_portrait_GER_APDC_romy_riefenstahl_small }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 2 } } localization_key = GFX_portrait_GER_APDC_eugene_rugosa_small }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 > 2 } } localization_key = GFX_idea_unknown }
+	text = { localization_key = GFX_select_advisor }
+}
+
+defined_text = {
+	name = APDCCabinetSlot3Tooltip
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 1 } } localization_key = APDC_CABINET_CANDIDATE_1_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 2 } } localization_key = APDC_CABINET_CANDIDATE_2_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 3 } } localization_key = APDC_CABINET_CANDIDATE_3_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 4 } } localization_key = APDC_CABINET_CANDIDATE_4_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 5 } } localization_key = APDC_CABINET_CANDIDATE_5_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 6 } } localization_key = APDC_CABINET_CANDIDATE_6_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 7 } } localization_key = APDC_CABINET_CANDIDATE_7_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 8 } } localization_key = APDC_CABINET_CANDIDATE_8_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 9 } } localization_key = APDC_CABINET_CANDIDATE_9_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 10 } } localization_key = APDC_CABINET_CANDIDATE_10_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 11 } } localization_key = APDC_CABINET_CANDIDATE_11_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 12 } } localization_key = APDC_CABINET_CANDIDATE_12_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 13 } } localization_key = APDC_CABINET_CANDIDATE_13_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 14 } } localization_key = APDC_CABINET_CANDIDATE_14_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 15 } } localization_key = APDC_CABINET_CANDIDATE_15_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 16 } } localization_key = APDC_CABINET_CANDIDATE_16_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 17 } } localization_key = APDC_CABINET_CANDIDATE_17_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 18 } } localization_key = APDC_CABINET_CANDIDATE_18_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 19 } } localization_key = APDC_CABINET_CANDIDATE_19_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 20 } } localization_key = APDC_CABINET_CANDIDATE_20_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 21 } } localization_key = APDC_CABINET_CANDIDATE_21_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 22 } } localization_key = APDC_CABINET_CANDIDATE_22_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 23 } } localization_key = APDC_CABINET_CANDIDATE_23_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 24 } } localization_key = APDC_CABINET_CANDIDATE_24_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 25 } } localization_key = APDC_CABINET_CANDIDATE_25_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 26 } } localization_key = APDC_CABINET_CANDIDATE_26_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 27 } } localization_key = APDC_CABINET_CANDIDATE_27_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 28 } } localization_key = APDC_CABINET_CANDIDATE_28_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 29 } } localization_key = APDC_CABINET_CANDIDATE_29_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 30 } } localization_key = APDC_CABINET_CANDIDATE_30_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 31 } } localization_key = APDC_CABINET_CANDIDATE_31_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 32 } } localization_key = APDC_CABINET_CANDIDATE_32_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 33 } } localization_key = APDC_CABINET_CANDIDATE_33_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 34 } } localization_key = APDC_CABINET_CANDIDATE_34_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 35 } } localization_key = APDC_CABINET_CANDIDATE_35_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 36 } } localization_key = APDC_CABINET_CANDIDATE_36_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 37 } } localization_key = APDC_CABINET_CANDIDATE_37_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 38 } } localization_key = APDC_CABINET_CANDIDATE_38_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 39 } } localization_key = APDC_CABINET_CANDIDATE_39_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 40 } } localization_key = APDC_CABINET_CANDIDATE_40_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 41 } } localization_key = APDC_CABINET_CANDIDATE_41_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 42 } } localization_key = APDC_CABINET_CANDIDATE_42_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 43 } } localization_key = APDC_CABINET_CANDIDATE_43_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 44 } } localization_key = APDC_CABINET_CANDIDATE_44_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 45 } } localization_key = APDC_CABINET_CANDIDATE_45_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 46 } } localization_key = APDC_CABINET_CANDIDATE_46_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_3 = 47 } } localization_key = APDC_CABINET_CANDIDATE_47_SLOT_TOOLTIP }
+	text = { localization_key = APDC_CABINET_EMPTY_SLOT_TOOLTIP }
+}
+
+defined_text = {
+	name = APDCCabinetSlot4Portrait
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 1 } } localization_key = GFX_portrait_GER_APDC_romy_riefenstahl_small }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 2 } } localization_key = GFX_portrait_GER_APDC_eugene_rugosa_small }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 > 2 } } localization_key = GFX_idea_unknown }
+	text = { localization_key = GFX_select_advisor }
+}
+
+defined_text = {
+	name = APDCCabinetSlot4Tooltip
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 1 } } localization_key = APDC_CABINET_CANDIDATE_1_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 2 } } localization_key = APDC_CABINET_CANDIDATE_2_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 3 } } localization_key = APDC_CABINET_CANDIDATE_3_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 4 } } localization_key = APDC_CABINET_CANDIDATE_4_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 5 } } localization_key = APDC_CABINET_CANDIDATE_5_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 6 } } localization_key = APDC_CABINET_CANDIDATE_6_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 7 } } localization_key = APDC_CABINET_CANDIDATE_7_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 8 } } localization_key = APDC_CABINET_CANDIDATE_8_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 9 } } localization_key = APDC_CABINET_CANDIDATE_9_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 10 } } localization_key = APDC_CABINET_CANDIDATE_10_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 11 } } localization_key = APDC_CABINET_CANDIDATE_11_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 12 } } localization_key = APDC_CABINET_CANDIDATE_12_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 13 } } localization_key = APDC_CABINET_CANDIDATE_13_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 14 } } localization_key = APDC_CABINET_CANDIDATE_14_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 15 } } localization_key = APDC_CABINET_CANDIDATE_15_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 16 } } localization_key = APDC_CABINET_CANDIDATE_16_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 17 } } localization_key = APDC_CABINET_CANDIDATE_17_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 18 } } localization_key = APDC_CABINET_CANDIDATE_18_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 19 } } localization_key = APDC_CABINET_CANDIDATE_19_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 20 } } localization_key = APDC_CABINET_CANDIDATE_20_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 21 } } localization_key = APDC_CABINET_CANDIDATE_21_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 22 } } localization_key = APDC_CABINET_CANDIDATE_22_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 23 } } localization_key = APDC_CABINET_CANDIDATE_23_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 24 } } localization_key = APDC_CABINET_CANDIDATE_24_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 25 } } localization_key = APDC_CABINET_CANDIDATE_25_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 26 } } localization_key = APDC_CABINET_CANDIDATE_26_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 27 } } localization_key = APDC_CABINET_CANDIDATE_27_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 28 } } localization_key = APDC_CABINET_CANDIDATE_28_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 29 } } localization_key = APDC_CABINET_CANDIDATE_29_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 30 } } localization_key = APDC_CABINET_CANDIDATE_30_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 31 } } localization_key = APDC_CABINET_CANDIDATE_31_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 32 } } localization_key = APDC_CABINET_CANDIDATE_32_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 33 } } localization_key = APDC_CABINET_CANDIDATE_33_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 34 } } localization_key = APDC_CABINET_CANDIDATE_34_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 35 } } localization_key = APDC_CABINET_CANDIDATE_35_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 36 } } localization_key = APDC_CABINET_CANDIDATE_36_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 37 } } localization_key = APDC_CABINET_CANDIDATE_37_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 38 } } localization_key = APDC_CABINET_CANDIDATE_38_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 39 } } localization_key = APDC_CABINET_CANDIDATE_39_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 40 } } localization_key = APDC_CABINET_CANDIDATE_40_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 41 } } localization_key = APDC_CABINET_CANDIDATE_41_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 42 } } localization_key = APDC_CABINET_CANDIDATE_42_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 43 } } localization_key = APDC_CABINET_CANDIDATE_43_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 44 } } localization_key = APDC_CABINET_CANDIDATE_44_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 45 } } localization_key = APDC_CABINET_CANDIDATE_45_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 46 } } localization_key = APDC_CABINET_CANDIDATE_46_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_4 = 47 } } localization_key = APDC_CABINET_CANDIDATE_47_SLOT_TOOLTIP }
+	text = { localization_key = APDC_CABINET_EMPTY_SLOT_TOOLTIP }
+}
+
+defined_text = {
+	name = APDCCabinetSlot5Portrait
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 1 } } localization_key = GFX_portrait_GER_APDC_romy_riefenstahl_small }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 2 } } localization_key = GFX_portrait_GER_APDC_eugene_rugosa_small }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 > 2 } } localization_key = GFX_idea_unknown }
+	text = { localization_key = GFX_select_advisor }
+}
+
+defined_text = {
+	name = APDCCabinetSlot5Tooltip
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 1 } } localization_key = APDC_CABINET_CANDIDATE_1_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 2 } } localization_key = APDC_CABINET_CANDIDATE_2_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 3 } } localization_key = APDC_CABINET_CANDIDATE_3_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 4 } } localization_key = APDC_CABINET_CANDIDATE_4_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 5 } } localization_key = APDC_CABINET_CANDIDATE_5_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 6 } } localization_key = APDC_CABINET_CANDIDATE_6_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 7 } } localization_key = APDC_CABINET_CANDIDATE_7_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 8 } } localization_key = APDC_CABINET_CANDIDATE_8_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 9 } } localization_key = APDC_CABINET_CANDIDATE_9_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 10 } } localization_key = APDC_CABINET_CANDIDATE_10_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 11 } } localization_key = APDC_CABINET_CANDIDATE_11_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 12 } } localization_key = APDC_CABINET_CANDIDATE_12_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 13 } } localization_key = APDC_CABINET_CANDIDATE_13_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 14 } } localization_key = APDC_CABINET_CANDIDATE_14_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 15 } } localization_key = APDC_CABINET_CANDIDATE_15_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 16 } } localization_key = APDC_CABINET_CANDIDATE_16_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 17 } } localization_key = APDC_CABINET_CANDIDATE_17_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 18 } } localization_key = APDC_CABINET_CANDIDATE_18_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 19 } } localization_key = APDC_CABINET_CANDIDATE_19_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 20 } } localization_key = APDC_CABINET_CANDIDATE_20_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 21 } } localization_key = APDC_CABINET_CANDIDATE_21_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 22 } } localization_key = APDC_CABINET_CANDIDATE_22_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 23 } } localization_key = APDC_CABINET_CANDIDATE_23_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 24 } } localization_key = APDC_CABINET_CANDIDATE_24_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 25 } } localization_key = APDC_CABINET_CANDIDATE_25_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 26 } } localization_key = APDC_CABINET_CANDIDATE_26_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 27 } } localization_key = APDC_CABINET_CANDIDATE_27_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 28 } } localization_key = APDC_CABINET_CANDIDATE_28_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 29 } } localization_key = APDC_CABINET_CANDIDATE_29_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 30 } } localization_key = APDC_CABINET_CANDIDATE_30_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 31 } } localization_key = APDC_CABINET_CANDIDATE_31_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 32 } } localization_key = APDC_CABINET_CANDIDATE_32_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 33 } } localization_key = APDC_CABINET_CANDIDATE_33_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 34 } } localization_key = APDC_CABINET_CANDIDATE_34_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 35 } } localization_key = APDC_CABINET_CANDIDATE_35_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 36 } } localization_key = APDC_CABINET_CANDIDATE_36_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 37 } } localization_key = APDC_CABINET_CANDIDATE_37_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 38 } } localization_key = APDC_CABINET_CANDIDATE_38_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 39 } } localization_key = APDC_CABINET_CANDIDATE_39_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 40 } } localization_key = APDC_CABINET_CANDIDATE_40_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 41 } } localization_key = APDC_CABINET_CANDIDATE_41_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 42 } } localization_key = APDC_CABINET_CANDIDATE_42_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 43 } } localization_key = APDC_CABINET_CANDIDATE_43_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 44 } } localization_key = APDC_CABINET_CANDIDATE_44_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 45 } } localization_key = APDC_CABINET_CANDIDATE_45_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 46 } } localization_key = APDC_CABINET_CANDIDATE_46_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_5 = 47 } } localization_key = APDC_CABINET_CANDIDATE_47_SLOT_TOOLTIP }
+	text = { localization_key = APDC_CABINET_EMPTY_SLOT_TOOLTIP }
+}
+
+defined_text = {
+	name = APDCCabinetSlot6Portrait
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 1 } } localization_key = GFX_portrait_GER_APDC_romy_riefenstahl_small }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 2 } } localization_key = GFX_portrait_GER_APDC_eugene_rugosa_small }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 > 2 } } localization_key = GFX_idea_unknown }
+	text = { localization_key = GFX_select_advisor }
+}
+
+defined_text = {
+	name = APDCCabinetSlot6Tooltip
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 1 } } localization_key = APDC_CABINET_CANDIDATE_1_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 2 } } localization_key = APDC_CABINET_CANDIDATE_2_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 3 } } localization_key = APDC_CABINET_CANDIDATE_3_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 4 } } localization_key = APDC_CABINET_CANDIDATE_4_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 5 } } localization_key = APDC_CABINET_CANDIDATE_5_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 6 } } localization_key = APDC_CABINET_CANDIDATE_6_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 7 } } localization_key = APDC_CABINET_CANDIDATE_7_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 8 } } localization_key = APDC_CABINET_CANDIDATE_8_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 9 } } localization_key = APDC_CABINET_CANDIDATE_9_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 10 } } localization_key = APDC_CABINET_CANDIDATE_10_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 11 } } localization_key = APDC_CABINET_CANDIDATE_11_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 12 } } localization_key = APDC_CABINET_CANDIDATE_12_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 13 } } localization_key = APDC_CABINET_CANDIDATE_13_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 14 } } localization_key = APDC_CABINET_CANDIDATE_14_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 15 } } localization_key = APDC_CABINET_CANDIDATE_15_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 16 } } localization_key = APDC_CABINET_CANDIDATE_16_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 17 } } localization_key = APDC_CABINET_CANDIDATE_17_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 18 } } localization_key = APDC_CABINET_CANDIDATE_18_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 19 } } localization_key = APDC_CABINET_CANDIDATE_19_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 20 } } localization_key = APDC_CABINET_CANDIDATE_20_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 21 } } localization_key = APDC_CABINET_CANDIDATE_21_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 22 } } localization_key = APDC_CABINET_CANDIDATE_22_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 23 } } localization_key = APDC_CABINET_CANDIDATE_23_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 24 } } localization_key = APDC_CABINET_CANDIDATE_24_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 25 } } localization_key = APDC_CABINET_CANDIDATE_25_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 26 } } localization_key = APDC_CABINET_CANDIDATE_26_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 27 } } localization_key = APDC_CABINET_CANDIDATE_27_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 28 } } localization_key = APDC_CABINET_CANDIDATE_28_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 29 } } localization_key = APDC_CABINET_CANDIDATE_29_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 30 } } localization_key = APDC_CABINET_CANDIDATE_30_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 31 } } localization_key = APDC_CABINET_CANDIDATE_31_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 32 } } localization_key = APDC_CABINET_CANDIDATE_32_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 33 } } localization_key = APDC_CABINET_CANDIDATE_33_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 34 } } localization_key = APDC_CABINET_CANDIDATE_34_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 35 } } localization_key = APDC_CABINET_CANDIDATE_35_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 36 } } localization_key = APDC_CABINET_CANDIDATE_36_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 37 } } localization_key = APDC_CABINET_CANDIDATE_37_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 38 } } localization_key = APDC_CABINET_CANDIDATE_38_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 39 } } localization_key = APDC_CABINET_CANDIDATE_39_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 40 } } localization_key = APDC_CABINET_CANDIDATE_40_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 41 } } localization_key = APDC_CABINET_CANDIDATE_41_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 42 } } localization_key = APDC_CABINET_CANDIDATE_42_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 43 } } localization_key = APDC_CABINET_CANDIDATE_43_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 44 } } localization_key = APDC_CABINET_CANDIDATE_44_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 45 } } localization_key = APDC_CABINET_CANDIDATE_45_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 46 } } localization_key = APDC_CABINET_CANDIDATE_46_SLOT_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_slot_6 = 47 } } localization_key = APDC_CABINET_CANDIDATE_47_SLOT_TOOLTIP }
+	text = { localization_key = APDC_CABINET_EMPTY_SLOT_TOOLTIP }
+}
+
+defined_text = {
+	name = APDCCabinetSelectedPortrait
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 1 } } localization_key = GFX_portrait_GER_APDC_romy_riefenstahl_small }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 2 } } localization_key = GFX_portrait_GER_APDC_eugene_rugosa_small }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate > 2 } } localization_key = GFX_idea_unknown }
+	text = { localization_key = GFX_select_advisor }
+}
+
+defined_text = {
+	name = APDCCabinetSelectedName
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 1 } } localization_key = GER_APDC_romy_riefenstahl }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 2 } } localization_key = GER_APDC_eugene_rugosa }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 3 } } localization_key = APDC_CABINET_CANDIDATE_3_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 4 } } localization_key = APDC_CABINET_CANDIDATE_4_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 5 } } localization_key = APDC_CABINET_CANDIDATE_5_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 6 } } localization_key = APDC_CABINET_CANDIDATE_6_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 7 } } localization_key = APDC_CABINET_CANDIDATE_7_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 8 } } localization_key = APDC_CABINET_CANDIDATE_8_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 9 } } localization_key = APDC_CABINET_CANDIDATE_9_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 10 } } localization_key = APDC_CABINET_CANDIDATE_10_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 11 } } localization_key = APDC_CABINET_CANDIDATE_11_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 12 } } localization_key = APDC_CABINET_CANDIDATE_12_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 13 } } localization_key = APDC_CABINET_CANDIDATE_13_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 14 } } localization_key = APDC_CABINET_CANDIDATE_14_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 15 } } localization_key = APDC_CABINET_CANDIDATE_15_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 16 } } localization_key = APDC_CABINET_CANDIDATE_16_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 17 } } localization_key = APDC_CABINET_CANDIDATE_17_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 18 } } localization_key = APDC_CABINET_CANDIDATE_18_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 19 } } localization_key = APDC_CABINET_CANDIDATE_19_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 20 } } localization_key = APDC_CABINET_CANDIDATE_20_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 21 } } localization_key = APDC_CABINET_CANDIDATE_21_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 22 } } localization_key = APDC_CABINET_CANDIDATE_22_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 23 } } localization_key = APDC_CABINET_CANDIDATE_23_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 24 } } localization_key = APDC_CABINET_CANDIDATE_24_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 25 } } localization_key = APDC_CABINET_CANDIDATE_25_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 26 } } localization_key = APDC_CABINET_CANDIDATE_26_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 27 } } localization_key = APDC_CABINET_CANDIDATE_27_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 28 } } localization_key = APDC_CABINET_CANDIDATE_28_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 29 } } localization_key = APDC_CABINET_CANDIDATE_29_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 30 } } localization_key = APDC_CABINET_CANDIDATE_30_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 31 } } localization_key = APDC_CABINET_CANDIDATE_31_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 32 } } localization_key = APDC_CABINET_CANDIDATE_32_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 33 } } localization_key = APDC_CABINET_CANDIDATE_33_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 34 } } localization_key = APDC_CABINET_CANDIDATE_34_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 35 } } localization_key = APDC_CABINET_CANDIDATE_35_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 36 } } localization_key = APDC_CABINET_CANDIDATE_36_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 37 } } localization_key = APDC_CABINET_CANDIDATE_37_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 38 } } localization_key = APDC_CABINET_CANDIDATE_38_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 39 } } localization_key = APDC_CABINET_CANDIDATE_39_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 40 } } localization_key = APDC_CABINET_CANDIDATE_40_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 41 } } localization_key = APDC_CABINET_CANDIDATE_41_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 42 } } localization_key = APDC_CABINET_CANDIDATE_42_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 43 } } localization_key = APDC_CABINET_CANDIDATE_43_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 44 } } localization_key = APDC_CABINET_CANDIDATE_44_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 45 } } localization_key = APDC_CABINET_CANDIDATE_45_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 46 } } localization_key = APDC_CABINET_CANDIDATE_46_NAME }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 47 } } localization_key = APDC_CABINET_CANDIDATE_47_NAME }
+	text = { localization_key = APDC_CABINET_NONE }
+}
+
+defined_text = {
+	name = APDCCabinetSelectedPortraitTooltip
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 1 } } localization_key = APDC_CABINET_ROMY_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 2 } } localization_key = APDC_CABINET_EUGENE_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 3 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 4 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 5 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 6 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 7 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 8 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 9 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 10 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 11 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 12 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 13 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 14 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 15 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 16 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 17 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 18 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 19 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 20 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 21 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 22 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 23 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 24 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 25 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 26 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 27 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 28 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 29 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 30 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 31 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 32 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 33 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 34 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 35 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 36 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 37 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 38 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 39 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 40 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 41 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 42 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 43 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 44 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 45 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 46 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { trigger = { check_variable = { APDC_cabinet_selected_candidate = 47 } } localization_key = APDC_CABINET_PLACEHOLDER_PANEL_TOOLTIP }
+	text = { localization_key = APDC_CABINET_NO_MEMBER_TOOLTIP }
+}
+
+defined_text = {
+	name = APDCCabinetSelectedParty
+	text = { trigger = { APDC_cabinet_selected_candidate_is_communism = yes } localization_key = APDC_CABINET_PARTY_COMMUNISM_COLORED }
+	text = { trigger = { APDC_cabinet_selected_candidate_is_socialism = yes } localization_key = APDC_CABINET_PARTY_SOCIALISM_COLORED }
+	text = { trigger = { APDC_cabinet_selected_candidate_is_social_democracy = yes } localization_key = APDC_CABINET_PARTY_SOCIAL_DEMOCRACY_COLORED }
+	text = { trigger = { APDC_cabinet_selected_candidate_is_conservatism = yes } localization_key = APDC_CABINET_PARTY_CONSERVATISM_COLORED }
+	text = { trigger = { APDC_cabinet_selected_candidate_is_liberalism = yes } localization_key = APDC_CABINET_PARTY_LIBERALISM_COLORED }
+	text = { trigger = { APDC_cabinet_selected_candidate_is_authoritarianism = yes } localization_key = APDC_CABINET_PARTY_AUTHORITARIANISM_COLORED }
+	text = { trigger = { APDC_cabinet_selected_candidate_is_dictatorship = yes } localization_key = APDC_CABINET_PARTY_DICTATORSHIP_COLORED }
+	text = { trigger = { APDC_cabinet_selected_candidate_is_fascism = yes } localization_key = APDC_CABINET_PARTY_FASCISM_COLORED }
+	text = { trigger = { APDC_cabinet_selected_candidate_is_fundamentalism = yes } localization_key = APDC_CABINET_PARTY_FUNDAMENTALISM_COLORED }
+	text = { localization_key = APDC_CABINET_EMPTY_TEXT }
+}

@@ -1,0 +1,37 @@
+state={
+	id=1571
+	name="STATE_1571"
+	provinces={
+		1359 7411 10259 10324 16092 19001 19003 
+	}
+	manpower=2785367
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = MYS
+		controller = MYS
+		add_core_of = IPL
+		add_core_of = MYS
+		add_core_of = RAJ
+
+		
+
+		
+		
+		
+		
+		set_state_flag = GDP_regions_andhra_pradesh
+		victory_points = { 1359 5 }
+		victory_points = { 7411 2 }
+		victory_points = { 10259 3 }
+		victory_points = { 10324 3 }
+		victory_points = { 16092 3 }
+		victory_points = { 19001 1 }
+		victory_points = { 19003 2 }
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	resources = { chromium = 2 steel = 2 }
+	state_category = town
+}

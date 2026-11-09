@@ -1,0 +1,26 @@
+state={
+	id=1630
+	name="STATE_1630"
+	provinces={
+		10488 10530 14682 18617 18622 18643 
+	}
+	manpower=1182260
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		victory_points = { 10488 3 }
+		victory_points = { 10530 5 }
+		victory_points = { 14682 5 }
+		victory_points = { 18617 2 }
+		victory_points = { 18622 5 }
+		victory_points = { 18643 1 }
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	resources = {  }
+	state_category = city
+}

@@ -1,0 +1,42 @@
+state={
+	id=436
+	name="STATE_436"
+	resources={ chromium = 1 coal = 2 }
+	provinces={
+		2105 4883 4953 10030 10816 10872 11995 12799 13480 16077 16079 16080 18827 18918 18937 18942 18972 18973 19007
+	}
+	manpower=6875456
+	buildings_max_level_factor=1
+	state_category=rural
+	local_supplies=0
+	history = {
+		owner = RAJ
+		controller = RAJ
+		add_core_of = IPL
+		add_core_of = RAJ
+
+		
+		
+		
+		set_state_flag = GDP_regions_madhya_pradesh
+		victory_points = { 2105 3 }
+		victory_points = { 4883 2 }
+		victory_points = { 4953 5 }
+		victory_points = { 10030 1 }
+		victory_points = { 10816 1 }
+		victory_points = { 10872 3 }
+		victory_points = { 11995 15 }
+		victory_points = { 12799 3 }
+		victory_points = { 13480 2 }
+		victory_points = { 16077 2 }
+		victory_points = { 16079 1 }
+		victory_points = { 16080 2 }
+		victory_points = { 18827 1 }
+		victory_points = { 18918 2 }
+		victory_points = { 18937 2 }
+		victory_points = { 18972 2 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

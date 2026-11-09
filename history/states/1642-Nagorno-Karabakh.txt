@@ -1,0 +1,23 @@
+state={
+	id=1642
+	name="STATE_1642"
+	provinces={
+		1467 1610 9715 11704 18342 
+	}
+	manpower=496733
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		victory_points = { 1610 1 }
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			industrial_complex = 1
+		}
+	}
+	resources = { oil = 12 }
+	state_category = large_town
+}

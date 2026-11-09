@@ -1,0 +1,27 @@
+state={
+	id=1611
+	name="STATE_1611"
+	provinces={
+		298 7717 10554 15787 16843 19482 
+	}
+	manpower=69564
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = MON
+		controller = MON
+		add_core_of = MON
+		set_variable = {
+			china_state_ref = 57
+		}
+		set_variable = {
+			china_region_ref = 7
+		}
+		set_state_flag = GDP_regions_outer_mongolia
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	resources = {  }
+	state_category = large_town
+}

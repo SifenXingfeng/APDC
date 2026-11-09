@@ -6,18 +6,76 @@ set_oob = "APDC_empty"
 capital = 44 #地拉那
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = socialism
 	last_election = "2059.3.5"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	liberalism = 20
-	fascism = 10
-	dictatorship = 5
-	communism = 65
+	communism = 0
+	socialism = 100
+	social_democracy = 0
+	conservatism = 0
+	liberalism = 0
+	authoritarianism = 0
+	dictatorship = 0
+	fascism = 0
+	fundamentalism = 0
 }
 
 set_convoys = 5
 
+# Document synchronization 2026-10-28; unresolved fields retain previous values.
+recruit_character = ALB_APDC_doc_2e57ef4a13b1
+promote_character = { character = ALB_APDC_doc_2e57ef4a13b1 ideology = left_nationalism }
+APDC_set_economic_system_central_planning = yes
+APDC_add_socialism_to_governing_coalition = yes
+set_variable = { APDC_document_party_leader_socialism = token:ALB_APDC_doc_2e57ef4a13b1 }
+
+# APDC parliament election calendar schema 1
+if = {
+limit = { has_government = communism }
+set_politics = { ruling_party = communism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = socialism }
+set_politics = { ruling_party = socialism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = social_democracy }
+set_politics = { ruling_party = social_democracy last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = liberalism }
+set_politics = { ruling_party = liberalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = conservatism }
+set_politics = { ruling_party = conservatism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = authoritarianism }
+set_politics = { ruling_party = authoritarianism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = dictatorship }
+set_politics = { ruling_party = dictatorship last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = fascism }
+set_politics = { ruling_party = fascism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = fundamentalism }
+set_politics = { ruling_party = fundamentalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}

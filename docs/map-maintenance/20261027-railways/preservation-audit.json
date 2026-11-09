@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "files_hashed": 33526,
+  "changed_existing": [
+    {
+      "file": "map/railways.txt",
+      "before": "9fc1346ff8e395cf6455b521b8bd600991ef9667b3a054d8ab7d2fa6be9dccf4",
+      "after": "6a7041946d29790fa867abb5999775344433e8741943e6effe81826709bea29c"
+    },
+    {
+      "file": "tools/map_maintenance/baseline/latest_checkpoint.json",
+      "before": "a6a804f62d96df90565e9d978fa75425a00f56f807f5a5d63d3a7cac5a23c2e5",
+      "after": "002d758d59d9b3ef6697b5b0372dfd9cb2047ea17618affe27c6afd1eca4cda2"
+    }
+  ],
+  "added": [
+    {
+      "file": "docs/map-maintenance/20261027-railways/local-railways-after.png",
+      "after": "ff77997ca5b0cfbfc1d19dec3cc7e983f1e742b822ec634f83868c797dee80b2"
+    },
+    {
+      "file": "docs/map-maintenance/20261027-railways/political-relations.json",
+      "after": "456be65f9437321b7ae4abb45ded0961f86c81b82eb5b1b558922ba713fbeff7"
+    },
+    {
+      "file": "docs/map-maintenance/20261027-railways/previous-checkpoint.json",
+      "after": "a6a804f62d96df90565e9d978fa75425a00f56f807f5a5d63d3a7cac5a23c2e5"
+    },
+    {
+      "file": "docs/map-maintenance/20261027-railways/qa-preparation.json",
+      "after": "922b86787e9919a7a7302cf78fd0bb87d17e3cd14570cd291535fc6d967f4e27"
+    },
+    {
+      "file": "docs/map-maintenance/20261027-railways/railways-checkpoint.txt",
+      "after": "6a7041946d29790fa867abb5999775344433e8741943e6effe81826709bea29c"
+    },
+    {
+      "file": "docs/map-maintenance/20261027-railways/README.md",
+      "after": "6e10e60a5f7d5210ff5d99cf14b82602028380667185925d851d82399a4086dd"
+    },
+    {
+      "file": "docs/map-maintenance/20261027-railways/repair.json",
+      "after": "83eff1af5c18bf7cd83c5c99bcb729d1984dcc04c92469c1210927c8991f9e9a"
+    },
+    {
+      "file": "docs/map-maintenance/20261027-railways/runtime-audit.json",
+      "after": "3f742bbaf237a293b3ba54a0cb96aedca226401a61cf8354ba39e11eaacfde9c"
+    },
+    {
+      "file": "docs/map-maintenance/20261027-railways/state-index.json",
+      "after": "fc5800bc454b72e4ac68be1852220e5335998b2322db011bf7a2db801b02df56"
+    },
+    {
+      "file": "docs/map-maintenance/20261027-railways/static-audit.json",
+      "after": "1427e12a9e35157ad24e2f9a563adb1cce150ca220b2920b9bfbf3edb31329b0"
+    },
+    {
+      "file": "tools/map_maintenance/repair_railways_20261027.py",
+      "after": "afdf02f45866d5a6d06ba95058d0ae2a137779ab393b23334e9f2f7df1689e71"
+    }
+  ],
+  "removed": [],
+  "unexpected": [],
+  "pre_existing_dirty_files_preserved": true,
+  "state_history_and_cold_war_map_bytes_unchanged": true,
+  "cache_git_and_own_manifest_excluded": true
+}

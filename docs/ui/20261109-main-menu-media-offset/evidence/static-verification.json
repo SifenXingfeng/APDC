@@ -1,0 +1,41 @@
+{
+  "only_two_subscription_positions_changed": true,
+  "title_and_menu_unchanged": true,
+  "variants": {
+    "normal": {
+      "menu_height": 450,
+      "original_media_y_from_menu_top": 205,
+      "final_media_y_from_menu_top": 205,
+      "matches": true
+    },
+    "normal_without_social_gui": {
+      "menu_height": 450,
+      "original_media_y_from_menu_top": 355,
+      "final_media_y_from_menu_top": 355,
+      "matches": true
+    },
+    "subscription": {
+      "menu_height": 575,
+      "original_media_y_from_menu_top": 351,
+      "final_media_y_from_menu_top": 351,
+      "matches": true
+    },
+    "subscription_without_social_gui": {
+      "menu_height": 575,
+      "original_media_y_from_menu_top": 481,
+      "final_media_y_from_menu_top": 481,
+      "matches": true
+    }
+  },
+  "reference_frame_visible_y": [
+    256,
+    823
+  ],
+  "previous_incorrect_frame_visible_y": [
+    453,
+    1020
+  ],
+  "reference_to_current_menu_shift": 197,
+  "previous_media_shift": 135,
+  "correction_pixels": 62
+}

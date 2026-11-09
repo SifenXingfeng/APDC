@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "checks": [
+    "draggable_main_has_real_background",
+    "candidate_panel_background_captures_input",
+    "no_caption_added_to_candidate_panel",
+    "dismiss_bottom_center_uses_party_button",
+    "dismiss_click_is_bound",
+    "apdc_parl_candidate_name_does_not_swallow_buttons",
+    "apdc_parl_candidate_trait_does_not_swallow_buttons",
+    "apdc_parl_candidate_cost_does_not_swallow_buttons",
+    "apdc_parl_option_name_does_not_swallow_buttons",
+    "apdc_parl_option_cost_does_not_swallow_buttons",
+    "apdc_parl_option_row_matches_economic_source",
+    "apdc_parl_law_side_matches_economic_source",
+    "old_pie_overlay_scale_preserved",
+    "all_nine_party_swatch_boxes",
+    "entry_uses_background_art_origin",
+    "lectern_matches_reference_hole",
+    "lectern_hitbox_matches_actual_art_size",
+    "chinese_year_month_day",
+    "both_law_icon_and_row_clicks_bound"
+  ],
+  "economic_visual_difference": "only local sprite aliases disable alpha-based hit testing; artwork, frames, dimensions and layout are unchanged"
+}

@@ -1,0 +1,24 @@
+{
+  "source_passed": true,
+  "existing_pie_frames_pixel_exact": 461,
+  "recolored_existing_frames_alpha_exact": 11,
+  "all_old_palette_indices_unchanged": true,
+  "state_border_shapes_scales_identical": true,
+  "GUI_input_layers_unchanged": true,
+  "native_visual_review": "World categories/black zones/red external borders remain correct; RAJ saffron core detail and KER new palette slot/solid pie rendered correctly; return to world normal. Four native captures reviewed without desktop input.",
+  "native_country_name_checks": {
+    "RAJ": {
+      "name": "印度共和国",
+      "file": "runtime-RAJ-detail.png",
+      "sha256": "ca7288b28f307e31f0fcb262ccd5e05ba6c1c5ab063a14722f2eed8df369837b",
+      "method": "Visual inspection of the native country-detail heading, not a generated mockup"
+    }
+  },
+  "limits": "No new hover/click mechanics were changed or claimed to have been tested. Flags and fixed leaders are deferred.",
+  "captures": [
+    "runtime-world.png",
+    "runtime-RAJ-detail.png",
+    "runtime-KER-detail.png",
+    "runtime-world-return.png"
+  ]
+}

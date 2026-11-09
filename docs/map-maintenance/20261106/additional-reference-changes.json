@@ -1,0 +1,46 @@
+[
+  {
+    "file": "common/scripted_triggers/GER_scripted_triggers.txt",
+    "group": "GER_is_soviet_greater_finland_state",
+    "before": [
+      216,
+      215,
+      213
+    ],
+    "after": [
+      216,
+      215,
+      213,
+      722
+    ],
+    "reason": "Follow old geographic coverage after Salla/Petsamo/Murmansk state-ID reuse; exclude new Ostrobothnia"
+  },
+  {
+    "file": "common/scripted_triggers/GER_scripted_triggers.txt",
+    "group": "GER_is_additional_soviet_greater_finland_state",
+    "before": [
+      146,
+      147,
+      722
+    ],
+    "after": [
+      146,
+      213,
+      215
+    ],
+    "reason": "Follow old geographic coverage after Salla/Petsamo/Murmansk state-ID reuse; exclude new Ostrobothnia"
+  },
+  {
+    "file": "localisation/simp_chinese/aat_focus_l_simp_chinese.yml",
+    "key": "FIN_janiskoski_power_plant_desc",
+    "from": 722,
+    "to": 213,
+    "reason": "Old Petsamo is now wholly in state 213; power-plant location remains there"
+  },
+  {
+    "file": "localisation/simp_chinese/aat_focus_l_simp_chinese.yml",
+    "key": "FIN_integrate_kola_and_karelia_tt",
+    "added": 722,
+    "reason": "Reflect the Kola/Murmansk subdivision in the matching geographic requirement"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "backup": "D:\\C-Drive-Migration-20260929\\Permanent\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\.codex_backups\\APDC\\20261026-201909-cooperation-vote-input",
+  "profile": "D:\\APDC_VoteUIQA_20261026_2019",
+  "process": {
+    "profile": "D:/APDC_VoteUIQA_20261026_2019",
+    "path": "D:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\hoi4.exe",
+    "command": "\"D:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\hoi4.exe\" -userdir=D:/APDC_VoteUIQA_20261026_2019 -start_tag=GER -start_speed=3 -gamelog -debug",
+    "started": "2026-10-26T20:25:35.1919262+08:00",
+    "input_desktop_switched": false,
+    "desktop": "APDC_PerformanceQA_20261026_202535",
+    "debug_mode": true,
+    "pid": 25928,
+    "job_kill_on_close": true
+  },
+  "stop": {
+    "pid": 25928,
+    "stopped": "2026-10-26T20:29:20.9923167+08:00",
+    "closed_helpers": [
+      43080,
+      19892
+    ],
+    "still_running": false,
+    "steam_app_running": false,
+    "remaining_helpers": []
+  },
+  "enabled_mods": [
+    "mod/APDC.mod",
+    "mod/APDC_VoteUIQA.mod"
+  ],
+  "disabled_dlcs": [],
+  "readiness_log": [
+    "[20:28:32][2060.01.01.23][effectbase.cpp:1783]: APDC_VOTE_UIQA_READY date= 23:00, 1 1月, 2060 organization=10793.98227 supporters=12 abstainers=12 vetoers=12"
+  ],
+  "scene": {
+    "tag": "GER",
+    "date": "2060.01.01",
+    "countries_per_vote_list": 12,
+    "overflow": true
+  },
+  "cooperation_and_gui_error_lines": [],
+  "in_game_loaded": true,
+  "native_mouse_click_test": false,
+  "native_wheel_test": false,
+  "first_attempt": "110-second limit reached immediately after launching singleplayer; second run allowed initialization to complete.",
+  "boundary": "Game loaded with all three overflowing vote lists and no related GUI configuration errors. Native click/wheel interaction and appearance have not been directly verified."
+}

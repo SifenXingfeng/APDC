@@ -1,0 +1,26 @@
+state={
+	id=1147
+	name="STATE_1147"
+	resources={ steel = 1 }
+	provinces={
+		4923 8027 10417 12805 14751 15970 
+	}
+	manpower=546429
+	buildings_max_level_factor=1
+	state_category=wasteland
+	local_supplies=0
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		set_variable = {
+			china_state_ref = 43
+		}
+		set_variable = {
+			china_region_ref = 5
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

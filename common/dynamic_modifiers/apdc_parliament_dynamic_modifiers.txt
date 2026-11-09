@@ -1,0 +1,13 @@
+apdc_parl_party_bonuses = {
+enable = { has_country_flag = apdc_parl_initialized }
+production_speed_buildings_factor = apdc_parl_effective_communism
+industrial_capacity_factory = apdc_parl_effective_socialism
+monthly_population = apdc_parl_effective_social_democracy
+APDC_eco_population_factor = apdc_parl_effective_liberalism
+stability_factor = apdc_parl_effective_conservatism
+political_power_factor = apdc_parl_effective_authoritarianism
+apdc_parl_review_speed_factor = apdc_parl_effective_dictatorship
+war_support_factor = apdc_parl_effective_fascism
+conscription_factor = apdc_parl_effective_fundamentalism
+
+}

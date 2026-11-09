@@ -17,10 +17,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-promote_character = {
-	character = PER_navid_jalali
-	ideology = sharia_democracy
-}
+
 
 set_popularities = {
 	communism = 0
@@ -34,6 +31,57 @@ set_popularities = {
 	fundamentalism = 0
 }
 
-APDC_add_authoritarianism_to_governing_coalition = yes
-
+# Document synchronization 2026-10-28; unresolved fields retain previous values.
+promote_character = { character = PER_navid_jalali ideology = sharia_democracy }
+promote_character = { character = PER_kia_esfahani ideology = military_junta }
 APDC_set_economic_system_state_capitalism = yes
+APDC_add_authoritarianism_to_governing_coalition = yes
+set_variable = { APDC_document_party_leader_authoritarianism = token:PER_navid_jalali }
+set_variable = { APDC_document_party_leader_dictatorship = token:PER_kia_esfahani }
+
+# APDC parliament election calendar schema 1
+if = {
+limit = { has_government = communism }
+set_politics = { ruling_party = communism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = socialism }
+set_politics = { ruling_party = socialism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = social_democracy }
+set_politics = { ruling_party = social_democracy last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = liberalism }
+set_politics = { ruling_party = liberalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = conservatism }
+set_politics = { ruling_party = conservatism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = authoritarianism }
+set_politics = { ruling_party = authoritarianism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = dictatorship }
+set_politics = { ruling_party = dictatorship last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = fascism }
+set_politics = { ruling_party = fascism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = fundamentalism }
+set_politics = { ruling_party = fundamentalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}

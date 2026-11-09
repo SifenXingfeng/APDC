@@ -1,0 +1,32 @@
+state={
+	id=1566
+	name="STATE_1566"
+	provinces={
+		4187 16066 16067 18964 
+	}
+	manpower=1398593
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = WIS
+		controller = WIS
+		add_core_of = IPL
+		add_core_of = RAJ
+		add_core_of = WIS
+		add_claim_by = KHL
+
+		
+		
+		
+		set_state_flag = GDP_regions_gujarat
+		victory_points = { 4187 3 }
+		victory_points = { 16066 30 }
+		victory_points = { 16067 5 }
+		victory_points = { 18964 1 }
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	resources = { oil = 1 }
+	state_category = town
+}

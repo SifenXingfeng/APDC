@@ -37,24 +37,96 @@ set_politics = {
 
 # Germany's economic system is an explicit scenario definition rather than a
 # government-based fallback.
-APDC_set_economic_system_market_socialism = yes
+
 
 # Opening governing coalition: Socialist Unity Party of Germany and the
 # Social Democratic Party of Germany.
-APDC_add_socialism_to_governing_coalition = yes
-APDC_add_social_democracy_to_governing_coalition = yes
+
+
 
 set_popularities = {
-	liberalism = 10
-	fascism = 0
 	communism = 0
 	socialism = 40
 	social_democracy = 10
 	conservatism = 30
+	liberalism = 10
 	authoritarianism = 10
 	dictatorship = 0
+	fascism = 0
 	fundamentalism = 0
 }
 
 # Germany begins inside the Soviet-led Warsaw Pact and cannot create factions.
 set_rule = { can_create_factions = no }
+
+# Document synchronization 2026-10-28; unresolved fields retain previous values.
+recruit_character = GER_APDC_doc_8b01921a6606
+recruit_character = GER_APDC_doc_779349af9bbf
+promote_character = { character = GER_APDC_karl_hoffmann ideology = technocratic_communism }
+promote_character = { character = GER_APDC_doc_8b01921a6606 ideology = market_socialism }
+promote_character = { character = GER_APDC_felix_koch ideology = democratic_socialism }
+promote_character = { character = GER_APDC_wilden_kurz ideology = populist_conservatism }
+promote_character = { character = GER_APDC_doc_779349af9bbf ideology = progressive_liberalism }
+promote_character = { character = GER_APDC_alexis_richter ideology = non_dominant_system }
+promote_character = { character = GER_APDC_johann_strauss ideology = military_junta }
+promote_character = { character = GER_APDC_lukas_baumann ideology = neo_nazism }
+promote_character = { character = GER_APDC_ilan_walter ideology = mysticism }
+APDC_set_economic_system_market_socialism = yes
+APDC_add_socialism_to_governing_coalition = yes
+APDC_add_social_democracy_to_governing_coalition = yes
+set_variable = { APDC_document_party_leader_communism = token:GER_APDC_karl_hoffmann }
+set_variable = { APDC_document_party_leader_socialism = token:GER_APDC_doc_8b01921a6606 }
+set_variable = { APDC_document_party_leader_social_democracy = token:GER_APDC_felix_koch }
+set_variable = { APDC_document_party_leader_conservatism = token:GER_APDC_wilden_kurz }
+set_variable = { APDC_document_party_leader_liberalism = token:GER_APDC_doc_779349af9bbf }
+set_variable = { APDC_document_party_leader_authoritarianism = token:GER_APDC_alexis_richter }
+set_variable = { APDC_document_party_leader_dictatorship = token:GER_APDC_johann_strauss }
+set_variable = { APDC_document_party_leader_fascism = token:GER_APDC_lukas_baumann }
+set_variable = { APDC_document_party_leader_fundamentalism = token:GER_APDC_ilan_walter }
+
+# APDC parliament election calendar schema 1
+if = {
+limit = { has_government = communism }
+set_politics = { ruling_party = communism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = socialism }
+set_politics = { ruling_party = socialism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = social_democracy }
+set_politics = { ruling_party = social_democracy last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = liberalism }
+set_politics = { ruling_party = liberalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = conservatism }
+set_politics = { ruling_party = conservatism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = authoritarianism }
+set_politics = { ruling_party = authoritarianism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = dictatorship }
+set_politics = { ruling_party = dictatorship last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = fascism }
+set_politics = { ruling_party = fascism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = fundamentalism }
+set_politics = { ruling_party = fundamentalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}

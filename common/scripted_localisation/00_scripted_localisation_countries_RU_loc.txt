@@ -1978,7 +1978,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 			has_government = fascism
 		}
 		localization_key = PSH_fascism_RU_Gen
@@ -3698,7 +3698,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 			has_government = communism
 		}
 		localization_key = PSH_communism_RU_Gen
@@ -3854,7 +3854,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 			has_government = liberalism
 		}
 		localization_key = PSH_democratic_RU_Gen
@@ -5246,7 +5246,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = PSH_neutrality_RU_Gen
@@ -6023,7 +6023,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 		}
 		localization_key = PSH_RU_Gen
 	}
@@ -9448,21 +9448,21 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = BLC_neutrality_RU_Gen
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 			has_government = fascism
 		}
 		localization_key = BLC_fascism_RU_Gen
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 			has_government = communism
 		}
 		localization_key = BLC_communism_RU_Gen
@@ -9770,14 +9770,14 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = BHU_neutrality_RU_Gen
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 			has_government = liberalism
 		}
 		localization_key = BHU_democratic_RU_Gen
@@ -10122,7 +10122,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 			has_government = fascism
 		}
 		localization_key = KLT_fascism_RU_Gen
@@ -10666,7 +10666,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 			has_government = fascism
 		}
 		localization_key = NEP_fascism_RU_Gen
@@ -11072,7 +11072,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 			has_government = liberalism
 		}
 		localization_key = KAS_democratic_RU_Gen
@@ -11324,7 +11324,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 			has_government = fascism
 		}
 		localization_key = BHU_fascism_RU_Gen
@@ -11366,7 +11366,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 			has_government = fascism
 		}
 		localization_key = SKK_fascism_RU_Gen
@@ -11457,7 +11457,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 			has_government = fascism
 		}
 		localization_key = SIN_fascism_RU_Gen
@@ -11599,7 +11599,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 			has_government = liberalism
 		}
 		localization_key = BLC_democratic_RU_Gen
@@ -11984,7 +11984,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = KAS_neutrality_RU_Gen
@@ -12212,7 +12212,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 			has_government = communism
 		}
 		localization_key = NEP_communism_RU_Gen
@@ -12254,14 +12254,14 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 			has_government = communism
 		}
 		localization_key = SIN_communism_RU_Gen
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 			has_government = communism
 		}
 		localization_key = KAS_communism_RU_Gen
@@ -12534,7 +12534,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = MPU
+			always = no
 			has_government = fascism
 		}
 		localization_key = MPU_fascism_RU_Gen
@@ -12625,7 +12625,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = SKK_neutrality_RU_Gen
@@ -12646,7 +12646,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 			has_government = fascism
 		}
 		localization_key = RJP_fascism_RU_Gen
@@ -13005,7 +13005,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 			has_government = liberalism
 		}
 		localization_key = CIP_democratic_RU_Gen
@@ -13140,7 +13140,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = MPU
+			always = no
 			has_government = communism
 		}
 		localization_key = MPU_communism_RU_Gen
@@ -13908,7 +13908,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = NEP_neutrality_RU_Gen
@@ -14603,7 +14603,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 			has_government = fascism
 		}
 		localization_key = NWF_fascism_RU_Gen
@@ -14631,7 +14631,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 			has_government = liberalism
 		}
 		localization_key = RJP_democratic_RU_Gen
@@ -14645,7 +14645,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = RJP_neutrality_RU_Gen
@@ -15115,7 +15115,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 			has_government = liberalism
 		}
 		localization_key = KLT_democratic_RU_Gen
@@ -15821,7 +15821,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 			has_government = communism
 		}
 		localization_key = SKK_communism_RU_Gen
@@ -15872,7 +15872,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 			has_government = communism
 		}
 		localization_key = RJP_communism_RU_Gen
@@ -15963,7 +15963,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 			has_government = liberalism
 		}
 		localization_key = SIN_democratic_RU_Gen
@@ -15998,14 +15998,14 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 			has_government = communism
 		}
 		localization_key = KLT_communism_RU_Gen
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 			has_government = communism
 		}
 		localization_key = NWF_communism_RU_Gen
@@ -16082,7 +16082,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = NWF_neutrality_RU_Gen
@@ -16180,7 +16180,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 			has_government = liberalism
 		}
 		localization_key = SKK_democratic_RU_Gen
@@ -16236,7 +16236,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = SIN_neutrality_RU_Gen
@@ -16642,7 +16642,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 			has_government = communism
 		}
 		localization_key = BHU_communism_RU_Gen
@@ -16726,7 +16726,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 			has_government = fascism
 		}
 		localization_key = KAS_fascism_RU_Gen
@@ -17337,7 +17337,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 			has_government = liberalism
 		}
 		localization_key = NEP_democratic_RU_Gen
@@ -17623,7 +17623,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 			has_government = liberalism
 		}
 		localization_key = NWF_democratic_RU_Gen
@@ -17672,7 +17672,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = KLT_neutrality_RU_Gen
@@ -17840,21 +17840,21 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = CIP_neutrality_RU_Gen
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 			has_government = fascism
 		}
 		localization_key = CIP_fascism_RU_Gen
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 			has_government = communism
 		}
 		localization_key = CIP_communism_RU_Gen
@@ -18499,7 +18499,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 		}
 		localization_key = BLC_RU_Gen
 	}
@@ -18577,7 +18577,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 		}
 		localization_key = BHU_RU_Gen
 	}
@@ -18979,7 +18979,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 		}
 		localization_key = KLT_RU_Gen
 	}
@@ -19021,7 +19021,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 		}
 		localization_key = KAS_RU_Gen
 	}
@@ -19275,7 +19275,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = MPU
+			always = no
 		}
 		localization_key = MPU_RU_Gen
 	}
@@ -19353,7 +19353,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 		}
 		localization_key = NEP_RU_Gen
 	}
@@ -19515,7 +19515,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 		}
 		localization_key = RJP_RU_Gen
 	}
@@ -19737,7 +19737,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 		}
 		localization_key = NWF_RU_Gen
 	}
@@ -19767,7 +19767,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 		}
 		localization_key = SKK_RU_Gen
 	}
@@ -19785,7 +19785,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 		}
 		localization_key = SIN_RU_Gen
 	}
@@ -20049,7 +20049,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 		}
 		localization_key = CIP_RU_Gen
 	}
@@ -22196,7 +22196,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 			has_government = fascism
 		}
 		localization_key = PSH_fascism_RU_Dat
@@ -23902,7 +23902,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 			has_government = communism
 		}
 		localization_key = PSH_communism_RU_Dat
@@ -24058,7 +24058,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 			has_government = liberalism
 		}
 		localization_key = PSH_democratic_RU_Dat
@@ -25450,7 +25450,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = PSH_neutrality_RU_Dat
@@ -26227,7 +26227,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 		}
 		localization_key = PSH_RU_Dat
 	}
@@ -29652,21 +29652,21 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = BLC_neutrality_RU_Dat
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 			has_government = communism
 		}
 		localization_key = BLC_communism_RU_Dat
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 			has_government = fascism
 		}
 		localization_key = BLC_fascism_RU_Dat
@@ -29974,14 +29974,14 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 			has_government = liberalism
 		}
 		localization_key = BHU_democratic_RU_Dat
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = BHU_neutrality_RU_Dat
@@ -30426,7 +30426,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 			has_government = fascism
 		}
 		localization_key = KLT_fascism_RU_Dat
@@ -30870,7 +30870,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 			has_government = fascism
 		}
 		localization_key = NEP_fascism_RU_Dat
@@ -31276,7 +31276,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 			has_government = liberalism
 		}
 		localization_key = KAS_democratic_RU_Dat
@@ -31528,7 +31528,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 			has_government = fascism
 		}
 		localization_key = BHU_fascism_RU_Dat
@@ -31570,7 +31570,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 			has_government = fascism
 		}
 		localization_key = SKK_fascism_RU_Dat
@@ -31668,7 +31668,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 			has_government = fascism
 		}
 		localization_key = SIN_fascism_RU_Dat
@@ -31803,7 +31803,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 			has_government = liberalism
 		}
 		localization_key = BLC_democratic_RU_Dat
@@ -32188,7 +32188,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = KAS_neutrality_RU_Dat
@@ -32402,14 +32402,14 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 			has_government = communism
 		}
 		localization_key = SIN_communism_RU_Dat
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 			has_government = communism
 		}
 		localization_key = KAS_communism_RU_Dat
@@ -32458,7 +32458,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 			has_government = communism
 		}
 		localization_key = NEP_communism_RU_Dat
@@ -32738,7 +32738,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = MPU
+			always = no
 			has_government = fascism
 		}
 		localization_key = MPU_fascism_RU_Dat
@@ -32829,7 +32829,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = SKK_neutrality_RU_Dat
@@ -32850,7 +32850,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 			has_government = fascism
 		}
 		localization_key = RJP_fascism_RU_Dat
@@ -33209,7 +33209,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 			has_government = liberalism
 		}
 		localization_key = CIP_democratic_RU_Dat
@@ -33330,7 +33330,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = MPU
+			always = no
 			has_government = communism
 		}
 		localization_key = MPU_communism_RU_Dat
@@ -34107,7 +34107,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = NEP_neutrality_RU_Dat
@@ -34802,7 +34802,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 			has_government = fascism
 		}
 		localization_key = NWF_fascism_RU_Dat
@@ -34830,7 +34830,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 			has_government = liberalism
 		}
 		localization_key = RJP_democratic_RU_Dat
@@ -34844,7 +34844,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = RJP_neutrality_RU_Dat
@@ -35314,7 +35314,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 			has_government = liberalism
 		}
 		localization_key = KLT_democratic_RU_Dat
@@ -36048,7 +36048,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 			has_government = liberalism
 		}
 		localization_key = SIN_democratic_RU_Dat
@@ -36083,14 +36083,14 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 			has_government = communism
 		}
 		localization_key = KLT_communism_RU_Dat
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 			has_government = communism
 		}
 		localization_key = NWF_communism_RU_Dat
@@ -36111,7 +36111,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 			has_government = communism
 		}
 		localization_key = SKK_communism_RU_Dat
@@ -36162,7 +36162,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 			has_government = communism
 		}
 		localization_key = RJP_communism_RU_Dat
@@ -36281,7 +36281,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = NWF_neutrality_RU_Dat
@@ -36379,7 +36379,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 			has_government = liberalism
 		}
 		localization_key = SKK_democratic_RU_Dat
@@ -36435,7 +36435,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = SIN_neutrality_RU_Dat
@@ -36841,7 +36841,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 			has_government = communism
 		}
 		localization_key = BHU_communism_RU_Dat
@@ -36925,7 +36925,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 			has_government = fascism
 		}
 		localization_key = KAS_fascism_RU_Dat
@@ -37529,7 +37529,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 			has_government = liberalism
 		}
 		localization_key = NEP_democratic_RU_Dat
@@ -37822,7 +37822,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 			has_government = liberalism
 		}
 		localization_key = NWF_democratic_RU_Dat
@@ -37871,7 +37871,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = KLT_neutrality_RU_Dat
@@ -38039,21 +38039,21 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = CIP_neutrality_RU_Dat
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 			has_government = fascism
 		}
 		localization_key = CIP_fascism_RU_Dat
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 			has_government = communism
 		}
 		localization_key = CIP_communism_RU_Dat
@@ -38698,7 +38698,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 		}
 		localization_key = BLC_RU_Dat
 	}
@@ -38776,7 +38776,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 		}
 		localization_key = BHU_RU_Dat
 	}
@@ -39178,7 +39178,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 		}
 		localization_key = KLT_RU_Dat
 	}
@@ -39220,7 +39220,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 		}
 		localization_key = KAS_RU_Dat
 	}
@@ -39474,7 +39474,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = MPU
+			always = no
 		}
 		localization_key = MPU_RU_Dat
 	}
@@ -39552,7 +39552,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 		}
 		localization_key = NEP_RU_Dat
 	}
@@ -39714,7 +39714,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 		}
 		localization_key = RJP_RU_Dat
 	}
@@ -39936,7 +39936,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 		}
 		localization_key = NWF_RU_Dat
 	}
@@ -39966,7 +39966,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 		}
 		localization_key = SKK_RU_Dat
 	}
@@ -39984,7 +39984,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 		}
 		localization_key = SIN_RU_Dat
 	}
@@ -40248,7 +40248,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 		}
 		localization_key = CIP_RU_Dat
 	}
@@ -42372,7 +42372,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 			has_government = fascism
 		}
 		localization_key = PSH_fascism_RU_Acc
@@ -44096,7 +44096,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 			has_government = communism
 		}
 		localization_key = PSH_communism_RU_Acc
@@ -44252,7 +44252,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 			has_government = liberalism
 		}
 		localization_key = PSH_democratic_RU_Acc
@@ -45644,7 +45644,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = PSH_neutrality_RU_Acc
@@ -46421,7 +46421,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 		}
 		localization_key = PSH_RU_Acc
 	}
@@ -49825,21 +49825,21 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = BLC_neutrality_RU_Acc
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 			has_government = fascism
 		}
 		localization_key = BLC_fascism_RU_Acc
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 			has_government = communism
 		}
 		localization_key = BLC_communism_RU_Acc
@@ -50168,14 +50168,14 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = BHU_neutrality_RU_Acc
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 			has_government = liberalism
 		}
 		localization_key = BHU_democratic_RU_Acc
@@ -50520,7 +50520,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 			has_government = fascism
 		}
 		localization_key = KLT_fascism_RU_Acc
@@ -51064,7 +51064,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 			has_government = fascism
 		}
 		localization_key = NEP_fascism_RU_Acc
@@ -51470,7 +51470,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 			has_government = liberalism
 		}
 		localization_key = KAS_democratic_RU_Acc
@@ -51722,7 +51722,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 			has_government = fascism
 		}
 		localization_key = BHU_fascism_RU_Acc
@@ -51764,7 +51764,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 			has_government = fascism
 		}
 		localization_key = SKK_fascism_RU_Acc
@@ -51855,7 +51855,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 			has_government = fascism
 		}
 		localization_key = SIN_fascism_RU_Acc
@@ -51997,7 +51997,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 			has_government = liberalism
 		}
 		localization_key = BLC_democratic_RU_Acc
@@ -52382,7 +52382,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = KAS_neutrality_RU_Acc
@@ -52610,7 +52610,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 			has_government = communism
 		}
 		localization_key = NEP_communism_RU_Acc
@@ -52652,14 +52652,14 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 			has_government = communism
 		}
 		localization_key = SIN_communism_RU_Acc
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 			has_government = communism
 		}
 		localization_key = KAS_communism_RU_Acc
@@ -52932,7 +52932,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = MPU
+			always = no
 			has_government = fascism
 		}
 		localization_key = MPU_fascism_RU_Acc
@@ -53023,7 +53023,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = SKK_neutrality_RU_Acc
@@ -53044,7 +53044,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 			has_government = fascism
 		}
 		localization_key = RJP_fascism_RU_Acc
@@ -53403,7 +53403,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 			has_government = liberalism
 		}
 		localization_key = CIP_democratic_RU_Acc
@@ -53538,7 +53538,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = MPU
+			always = no
 			has_government = communism
 		}
 		localization_key = MPU_communism_RU_Acc
@@ -54306,7 +54306,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = NEP_neutrality_RU_Acc
@@ -55001,7 +55001,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 			has_government = fascism
 		}
 		localization_key = NWF_fascism_RU_Acc
@@ -55029,7 +55029,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 			has_government = liberalism
 		}
 		localization_key = RJP_democratic_RU_Acc
@@ -55043,7 +55043,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = RJP_neutrality_RU_Acc
@@ -55513,7 +55513,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 			has_government = liberalism
 		}
 		localization_key = KLT_democratic_RU_Acc
@@ -56275,7 +56275,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 			has_government = communism
 		}
 		localization_key = RJP_communism_RU_Acc
@@ -56345,7 +56345,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 			has_government = liberalism
 		}
 		localization_key = SIN_democratic_RU_Acc
@@ -56380,14 +56380,14 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 			has_government = communism
 		}
 		localization_key = KLT_communism_RU_Acc
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 			has_government = communism
 		}
 		localization_key = NWF_communism_RU_Acc
@@ -56408,7 +56408,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 			has_government = communism
 		}
 		localization_key = SKK_communism_RU_Acc
@@ -56480,7 +56480,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = NWF_neutrality_RU_Acc
@@ -56578,7 +56578,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 			has_government = liberalism
 		}
 		localization_key = SKK_democratic_RU_Acc
@@ -56634,7 +56634,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = SIN_neutrality_RU_Acc
@@ -57040,7 +57040,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 			has_government = communism
 		}
 		localization_key = BHU_communism_RU_Acc
@@ -57124,7 +57124,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 			has_government = fascism
 		}
 		localization_key = KAS_fascism_RU_Acc
@@ -57735,7 +57735,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 			has_government = liberalism
 		}
 		localization_key = NEP_democratic_RU_Acc
@@ -58021,7 +58021,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 			has_government = liberalism
 		}
 		localization_key = NWF_democratic_RU_Acc
@@ -58070,7 +58070,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = KLT_neutrality_RU_Acc
@@ -58238,21 +58238,21 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = CIP_neutrality_RU_Acc
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 			has_government = fascism
 		}
 		localization_key = CIP_fascism_RU_Acc
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 			has_government = communism
 		}
 		localization_key = CIP_communism_RU_Acc
@@ -58897,7 +58897,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 		}
 		localization_key = BLC_RU_Acc
 	}
@@ -58975,7 +58975,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 		}
 		localization_key = BHU_RU_Acc
 	}
@@ -59377,7 +59377,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 		}
 		localization_key = KLT_RU_Acc
 	}
@@ -59419,7 +59419,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 		}
 		localization_key = KAS_RU_Acc
 	}
@@ -59673,7 +59673,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = MPU
+			always = no
 		}
 		localization_key = MPU_RU_Acc
 	}
@@ -59751,7 +59751,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 		}
 		localization_key = NEP_RU_Acc
 	}
@@ -59913,7 +59913,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 		}
 		localization_key = RJP_RU_Acc
 	}
@@ -60135,7 +60135,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 		}
 		localization_key = NWF_RU_Acc
 	}
@@ -60165,7 +60165,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 		}
 		localization_key = SKK_RU_Acc
 	}
@@ -60183,7 +60183,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 		}
 		localization_key = SIN_RU_Acc
 	}
@@ -60447,7 +60447,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 		}
 		localization_key = CIP_RU_Acc
 	}
@@ -62571,7 +62571,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 			has_government = fascism
 		}
 		localization_key = PSH_fascism_RU_Inst
@@ -64295,7 +64295,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 			has_government = communism
 		}
 		localization_key = PSH_communism_RU_Inst
@@ -64451,7 +64451,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 			has_government = liberalism
 		}
 		localization_key = PSH_democratic_RU_Inst
@@ -65843,7 +65843,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = PSH_neutrality_RU_Inst
@@ -66620,7 +66620,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 		}
 		localization_key = PSH_RU_Inst
 	}
@@ -70045,21 +70045,21 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = BLC_neutrality_RU_Inst
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 			has_government = fascism
 		}
 		localization_key = BLC_fascism_RU_Inst
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 			has_government = communism
 		}
 		localization_key = BLC_communism_RU_Inst
@@ -70367,14 +70367,14 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = BHU_neutrality_RU_Inst
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 			has_government = liberalism
 		}
 		localization_key = BHU_democratic_RU_Inst
@@ -70712,7 +70712,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 			has_government = fascism
 		}
 		localization_key = KLT_fascism_RU_Inst
@@ -71263,7 +71263,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 			has_government = fascism
 		}
 		localization_key = NEP_fascism_RU_Inst
@@ -71669,7 +71669,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 			has_government = liberalism
 		}
 		localization_key = KAS_democratic_RU_Inst
@@ -71921,7 +71921,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 			has_government = fascism
 		}
 		localization_key = BHU_fascism_RU_Inst
@@ -71963,7 +71963,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 			has_government = fascism
 		}
 		localization_key = SKK_fascism_RU_Inst
@@ -72054,7 +72054,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 			has_government = fascism
 		}
 		localization_key = SIN_fascism_RU_Inst
@@ -72196,7 +72196,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 			has_government = liberalism
 		}
 		localization_key = BLC_democratic_RU_Inst
@@ -72581,7 +72581,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = KAS_neutrality_RU_Inst
@@ -72802,7 +72802,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 			has_government = communism
 		}
 		localization_key = NEP_communism_RU_Inst
@@ -72851,14 +72851,14 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 			has_government = communism
 		}
 		localization_key = SIN_communism_RU_Inst
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 			has_government = communism
 		}
 		localization_key = KAS_communism_RU_Inst
@@ -73131,7 +73131,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = MPU
+			always = no
 			has_government = fascism
 		}
 		localization_key = MPU_fascism_RU_Inst
@@ -73222,7 +73222,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = SKK_neutrality_RU_Inst
@@ -73243,7 +73243,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 			has_government = fascism
 		}
 		localization_key = RJP_fascism_RU_Inst
@@ -73602,7 +73602,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 			has_government = liberalism
 		}
 		localization_key = CIP_democratic_RU_Inst
@@ -73737,7 +73737,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = MPU
+			always = no
 			has_government = communism
 		}
 		localization_key = MPU_communism_RU_Inst
@@ -74505,7 +74505,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = NEP_neutrality_RU_Inst
@@ -75200,7 +75200,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 			has_government = fascism
 		}
 		localization_key = NWF_fascism_RU_Inst
@@ -75228,7 +75228,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 			has_government = liberalism
 		}
 		localization_key = RJP_democratic_RU_Inst
@@ -75242,7 +75242,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = RJP_neutrality_RU_Inst
@@ -75712,7 +75712,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 			has_government = liberalism
 		}
 		localization_key = KLT_democratic_RU_Inst
@@ -76446,7 +76446,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 			has_government = liberalism
 		}
 		localization_key = SIN_democratic_RU_Inst
@@ -76481,14 +76481,14 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 			has_government = communism
 		}
 		localization_key = KLT_communism_RU_Inst
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 			has_government = communism
 		}
 		localization_key = NWF_communism_RU_Inst
@@ -76509,7 +76509,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 			has_government = communism
 		}
 		localization_key = SKK_communism_RU_Inst
@@ -76560,7 +76560,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 			has_government = communism
 		}
 		localization_key = RJP_communism_RU_Inst
@@ -76679,7 +76679,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = NWF_neutrality_RU_Inst
@@ -76777,7 +76777,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 			has_government = liberalism
 		}
 		localization_key = SKK_democratic_RU_Inst
@@ -76833,7 +76833,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = SIN_neutrality_RU_Inst
@@ -77239,7 +77239,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 			has_government = communism
 		}
 		localization_key = BHU_communism_RU_Inst
@@ -77323,7 +77323,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 			has_government = fascism
 		}
 		localization_key = KAS_fascism_RU_Inst
@@ -77927,7 +77927,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 			has_government = liberalism
 		}
 		localization_key = NEP_democratic_RU_Inst
@@ -78220,7 +78220,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 			has_government = liberalism
 		}
 		localization_key = NWF_democratic_RU_Inst
@@ -78269,7 +78269,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = KLT_neutrality_RU_Inst
@@ -78437,21 +78437,21 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = CIP_neutrality_RU_Inst
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 			has_government = fascism
 		}
 		localization_key = CIP_fascism_RU_Inst
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 			has_government = communism
 		}
 		localization_key = CIP_communism_RU_Inst
@@ -79096,7 +79096,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 		}
 		localization_key = BLC_RU_Inst
 	}
@@ -79174,7 +79174,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 		}
 		localization_key = BHU_RU_Inst
 	}
@@ -79576,7 +79576,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 		}
 		localization_key = KLT_RU_Inst
 	}
@@ -79618,7 +79618,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 		}
 		localization_key = KAS_RU_Inst
 	}
@@ -79872,7 +79872,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = MPU
+			always = no
 		}
 		localization_key = MPU_RU_Inst
 	}
@@ -79950,7 +79950,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 		}
 		localization_key = NEP_RU_Inst
 	}
@@ -80112,7 +80112,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 		}
 		localization_key = RJP_RU_Inst
 	}
@@ -80334,7 +80334,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 		}
 		localization_key = NWF_RU_Inst
 	}
@@ -80364,7 +80364,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 		}
 		localization_key = SKK_RU_Inst
 	}
@@ -80382,7 +80382,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 		}
 		localization_key = SIN_RU_Inst
 	}
@@ -80646,7 +80646,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 		}
 		localization_key = CIP_RU_Inst
 	}
@@ -83024,7 +83024,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 			has_government = fascism
 		}
 		localization_key = PSH_fascism_RU_Prep
@@ -84494,7 +84494,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 			has_government = communism
 		}
 		localization_key = PSH_communism_RU_Prep
@@ -84650,7 +84650,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 			has_government = liberalism
 		}
 		localization_key = PSH_democratic_RU_Prep
@@ -86042,7 +86042,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = PSH_neutrality_RU_Prep
@@ -86819,7 +86819,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 		}
 		localization_key = PSH_RU_Prep
 	}
@@ -90426,21 +90426,21 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = BLC_neutrality_RU_Prep
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 			has_government = communism
 		}
 		localization_key = BLC_communism_RU_Prep
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 			has_government = fascism
 		}
 		localization_key = BLC_fascism_RU_Prep
@@ -90748,14 +90748,14 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = BHU_neutrality_RU_Prep
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 			has_government = liberalism
 		}
 		localization_key = BHU_democratic_RU_Prep
@@ -91200,7 +91200,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 			has_government = fascism
 		}
 		localization_key = KLT_fascism_RU_Prep
@@ -91644,7 +91644,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 			has_government = fascism
 		}
 		localization_key = NEP_fascism_RU_Prep
@@ -92050,7 +92050,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 			has_government = liberalism
 		}
 		localization_key = KAS_democratic_RU_Prep
@@ -92302,7 +92302,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 			has_government = fascism
 		}
 		localization_key = BHU_fascism_RU_Prep
@@ -92344,7 +92344,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 			has_government = fascism
 		}
 		localization_key = SKK_fascism_RU_Prep
@@ -92442,7 +92442,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 			has_government = fascism
 		}
 		localization_key = SIN_fascism_RU_Prep
@@ -92577,7 +92577,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 			has_government = liberalism
 		}
 		localization_key = BLC_democratic_RU_Prep
@@ -92962,7 +92962,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = KAS_neutrality_RU_Prep
@@ -93176,14 +93176,14 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 			has_government = communism
 		}
 		localization_key = SIN_communism_RU_Prep
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 			has_government = communism
 		}
 		localization_key = KAS_communism_RU_Prep
@@ -93232,7 +93232,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 			has_government = communism
 		}
 		localization_key = NEP_communism_RU_Prep
@@ -93512,7 +93512,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = MPU
+			always = no
 			has_government = fascism
 		}
 		localization_key = MPU_fascism_RU_Prep
@@ -93603,7 +93603,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = SKK_neutrality_RU_Prep
@@ -93624,7 +93624,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 			has_government = fascism
 		}
 		localization_key = RJP_fascism_RU_Prep
@@ -93983,7 +93983,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 			has_government = liberalism
 		}
 		localization_key = CIP_democratic_RU_Prep
@@ -94118,7 +94118,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = MPU
+			always = no
 			has_government = communism
 		}
 		localization_key = MPU_communism_RU_Prep
@@ -94886,7 +94886,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = NEP_neutrality_RU_Prep
@@ -95399,7 +95399,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 			has_government = fascism
 		}
 		localization_key = NWF_fascism_RU_Prep
@@ -95427,7 +95427,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 			has_government = liberalism
 		}
 		localization_key = RJP_democratic_RU_Prep
@@ -95441,7 +95441,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = RJP_neutrality_RU_Prep
@@ -95911,7 +95911,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 			has_government = liberalism
 		}
 		localization_key = KLT_democratic_RU_Prep
@@ -96645,7 +96645,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 			has_government = liberalism
 		}
 		localization_key = SIN_democratic_RU_Prep
@@ -96680,14 +96680,14 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 			has_government = communism
 		}
 		localization_key = KLT_communism_RU_Prep
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 			has_government = communism
 		}
 		localization_key = NWF_communism_RU_Prep
@@ -96708,7 +96708,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 			has_government = communism
 		}
 		localization_key = SKK_communism_RU_Prep
@@ -96759,7 +96759,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 			has_government = communism
 		}
 		localization_key = RJP_communism_RU_Prep
@@ -96878,7 +96878,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = NWF_neutrality_RU_Prep
@@ -96976,7 +96976,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 			has_government = liberalism
 		}
 		localization_key = SKK_democratic_RU_Prep
@@ -97032,7 +97032,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = SIN_neutrality_RU_Prep
@@ -97438,7 +97438,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 			has_government = communism
 		}
 		localization_key = BHU_communism_RU_Prep
@@ -97522,7 +97522,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 			has_government = fascism
 		}
 		localization_key = KAS_fascism_RU_Prep
@@ -98126,7 +98126,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 			has_government = liberalism
 		}
 		localization_key = NEP_democratic_RU_Prep
@@ -98419,7 +98419,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 			has_government = liberalism
 		}
 		localization_key = NWF_democratic_RU_Prep
@@ -98468,7 +98468,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = KLT_neutrality_RU_Prep
@@ -98636,21 +98636,21 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 			has_government = dictatorship
 		}
 		localization_key = CIP_neutrality_RU_Prep
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 			has_government = fascism
 		}
 		localization_key = CIP_fascism_RU_Prep
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 			has_government = communism
 		}
 		localization_key = CIP_communism_RU_Prep
@@ -99313,7 +99313,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 		}
 		localization_key = BLC_RU_Prep
 	}
@@ -99391,7 +99391,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 		}
 		localization_key = BHU_RU_Prep
 	}
@@ -99793,7 +99793,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 		}
 		localization_key = KLT_RU_Prep
 	}
@@ -99835,7 +99835,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 		}
 		localization_key = KAS_RU_Prep
 	}
@@ -100089,7 +100089,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = MPU
+			always = no
 		}
 		localization_key = MPU_RU_Prep
 	}
@@ -100167,7 +100167,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 		}
 		localization_key = NEP_RU_Prep
 	}
@@ -100311,7 +100311,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 		}
 		localization_key = RJP_RU_Prep
 	}
@@ -100533,7 +100533,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 		}
 		localization_key = NWF_RU_Prep
 	}
@@ -100563,7 +100563,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 		}
 		localization_key = SKK_RU_Prep
 	}
@@ -100581,7 +100581,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 		}
 		localization_key = SIN_RU_Prep
 	}
@@ -100845,7 +100845,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 		}
 		localization_key = CIP_RU_Prep
 	}
@@ -104284,8 +104284,8 @@ defined_text = {
 					original_tag = BAN
 					original_tag = BAR
 					original_tag = BHR
-					original_tag = BHU
-					original_tag = BLC
+					always = no
+					always = no
 					original_tag = BLZ
 					original_tag = BRD
 					original_tag = BRN
@@ -104312,10 +104312,10 @@ defined_text = {
 					original_tag = ISR
 					original_tag = IVO
 					original_tag = JAN
-					original_tag = KAS
+					always = no
 					original_tag = KAZ
 					original_tag = KHL
-					original_tag = KLT
+					always = no
 					original_tag = KUR
 					original_tag = KUW
 					original_tag = LAO
@@ -104325,10 +104325,10 @@ defined_text = {
 					original_tag = MAN
 					original_tag = MEK
 					original_tag = MEN
-					original_tag = MPU
+					always = no
 					original_tag = MYS
 					original_tag = MZB
-					original_tag = NEP
+					always = no
 					original_tag = NGR
 					original_tag = OMA
 					original_tag = PAK
@@ -104368,8 +104368,8 @@ defined_text = {
 					original_tag = SHL
 					original_tag = SIA
 					original_tag = SIK
-					original_tag = SIN
-					original_tag = SKK
+					always = no
+					always = no
 					always = no
 					original_tag = SNG
 					original_tag = SOM
@@ -104506,7 +104506,7 @@ defined_text = {
 					original_tag = PRE
 					original_tag = RAJ
 					original_tag = RIG
-					original_tag = RJP
+					always = no
 					original_tag = ROM
 					always = no
 					original_tag = RWA
@@ -104556,7 +104556,7 @@ defined_text = {
 				OR = {
 					original_tag = BAH
 					original_tag = BAS
-					original_tag = CIP
+					always = no
 					original_tag = CRC
 					always = no
 					original_tag = GUM
@@ -104565,7 +104565,7 @@ defined_text = {
 					original_tag = INU
 					original_tag = KOL
 					original_tag = MLD
-					original_tag = NWF
+					always = no
 					original_tag = PAP
 					original_tag = PHI
 					original_tag = RAS
@@ -107710,9 +107710,9 @@ defined_text = {
 					original_tag = BAY
 					original_tag = BEL
 					original_tag = BHR
-					original_tag = BHU
+					always = no
 					original_tag = BIA
-					original_tag = BLC
+					always = no
 					original_tag = BLR
 					original_tag = BLZ
 					original_tag = BOL
@@ -107808,13 +107808,13 @@ defined_text = {
 					original_tag = JAN
 					original_tag = JAP
 					original_tag = JOR
-					original_tag = KAS
+					always = no
 					original_tag = KAT
 					original_tag = KAZ
 					original_tag = KEN
 					original_tag = KHL
 					always = no
-					original_tag = KLT
+					always = no
 					original_tag = KOR
 					original_tag = KOS
 					original_tag = KSH
@@ -107847,13 +107847,13 @@ defined_text = {
 					original_tag = MOL
 					original_tag = MON
 					original_tag = MOR
-					original_tag = MPU
+					always = no
 					original_tag = MRT
 					original_tag = MYS
 					original_tag = MZB
 					original_tag = NAH
 					original_tag = NAV
-					original_tag = NEP
+					always = no
 					original_tag = NGA
 					original_tag = NGR
 					original_tag = NIC
@@ -107892,7 +107892,7 @@ defined_text = {
 					always = no
 					original_tag = RHI
 					original_tag = RIG
-					original_tag = RJP
+					always = no
 					always = no
 					always = no
 					always = no
@@ -107929,8 +107929,8 @@ defined_text = {
 					original_tag = SIE
 					original_tag = SIK
 					original_tag = SIL
-					original_tag = SIN
-					original_tag = SKK
+					always = no
+					always = no
 					original_tag = SLO
 					original_tag = SLV
 					original_tag = SMI
@@ -107998,7 +107998,7 @@ defined_text = {
 				OR = {
 					original_tag = BAH
 					original_tag = BAS
-					original_tag = CIP
+					always = no
 					original_tag = CRC
 					always = no
 					original_tag = GUM
@@ -108007,7 +108007,7 @@ defined_text = {
 					original_tag = INU
 					original_tag = KOL
 					original_tag = MLD
-					original_tag = NWF
+					always = no
 					original_tag = PAP
 					original_tag = PHI
 					original_tag = RAS
@@ -111111,9 +111111,9 @@ defined_text = {
 					original_tag = BAY
 					original_tag = BEL
 					original_tag = BHR
-					original_tag = BHU
+					always = no
 					original_tag = BIA
-					original_tag = BLC
+					always = no
 					original_tag = BLR
 					original_tag = BLZ
 					original_tag = BOL
@@ -111209,13 +111209,13 @@ defined_text = {
 					original_tag = JAN
 					original_tag = JAP
 					original_tag = JOR
-					original_tag = KAS
+					always = no
 					original_tag = KAT
 					original_tag = KAZ
 					original_tag = KEN
 					original_tag = KHL
 					always = no
-					original_tag = KLT
+					always = no
 					original_tag = KOR
 					original_tag = KOS
 					original_tag = KSH
@@ -111248,13 +111248,13 @@ defined_text = {
 					original_tag = MOL
 					original_tag = MON
 					original_tag = MOR
-					original_tag = MPU
+					always = no
 					original_tag = MRT
 					original_tag = MYS
 					original_tag = MZB
 					original_tag = NAH
 					original_tag = NAV
-					original_tag = NEP
+					always = no
 					original_tag = NGA
 					original_tag = NGR
 					original_tag = NIC
@@ -111293,7 +111293,7 @@ defined_text = {
 					always = no
 					original_tag = RHI
 					original_tag = RIG
-					original_tag = RJP
+					always = no
 					always = no
 					always = no
 					always = no
@@ -111330,8 +111330,8 @@ defined_text = {
 					original_tag = SIE
 					original_tag = SIK
 					original_tag = SIL
-					original_tag = SIN
-					original_tag = SKK
+					always = no
+					always = no
 					original_tag = SLO
 					original_tag = SLV
 					original_tag = SMI
@@ -111399,7 +111399,7 @@ defined_text = {
 				OR = {
 					original_tag = BAH
 					original_tag = BAS
-					original_tag = CIP
+					always = no
 					original_tag = CRC
 					always = no
 					original_tag = GUM
@@ -111408,7 +111408,7 @@ defined_text = {
 					original_tag = INU
 					original_tag = KOL
 					original_tag = MLD
-					original_tag = NWF
+					always = no
 					original_tag = PAP
 					original_tag = PHI
 					original_tag = RAS
@@ -114497,7 +114497,7 @@ defined_text = {
 				OR = {
 					original_tag = BAH
 					original_tag = BAS
-					original_tag = CIP
+					always = no
 					original_tag = CRC
 					always = no
 					original_tag = GUM
@@ -114506,7 +114506,7 @@ defined_text = {
 					original_tag = INU
 					original_tag = KOL
 					original_tag = MLD
-					original_tag = NWF
+					always = no
 					original_tag = PAP
 					original_tag = PHI
 					original_tag = RAS
@@ -114537,9 +114537,9 @@ defined_text = {
 					original_tag = BAY
 					original_tag = BEL
 					original_tag = BHR
-					original_tag = BHU
+					always = no
 					original_tag = BIA
-					original_tag = BLC
+					always = no
 					original_tag = BLR
 					original_tag = BLZ
 					original_tag = BOL
@@ -114635,13 +114635,13 @@ defined_text = {
 					original_tag = JAN
 					original_tag = JAP
 					original_tag = JOR
-					original_tag = KAS
+					always = no
 					original_tag = KAT
 					original_tag = KAZ
 					original_tag = KEN
 					original_tag = KHL
 					always = no
-					original_tag = KLT
+					always = no
 					original_tag = KOR
 					original_tag = KOS
 					original_tag = KSH
@@ -114674,13 +114674,13 @@ defined_text = {
 					original_tag = MOL
 					original_tag = MON
 					original_tag = MOR
-					original_tag = MPU
+					always = no
 					original_tag = MRT
 					original_tag = MYS
 					original_tag = MZB
 					original_tag = NAH
 					original_tag = NAV
-					original_tag = NEP
+					always = no
 					original_tag = NGA
 					original_tag = NGR
 					original_tag = NIC
@@ -114719,7 +114719,7 @@ defined_text = {
 					always = no
 					original_tag = RHI
 					original_tag = RIG
-					original_tag = RJP
+					always = no
 					always = no
 					always = no
 					always = no
@@ -114756,8 +114756,8 @@ defined_text = {
 					original_tag = SIE
 					original_tag = SIK
 					original_tag = SIL
-					original_tag = SIN
-					original_tag = SKK
+					always = no
+					always = no
 					original_tag = SLO
 					original_tag = SLV
 					original_tag = SMI
@@ -118195,7 +118195,7 @@ defined_text = {
 					original_tag = PRE
 					original_tag = RAJ
 					original_tag = RIG
-					original_tag = RJP
+					always = no
 					original_tag = ROM
 					always = no
 					original_tag = RWA
@@ -118245,7 +118245,7 @@ defined_text = {
 				OR = {
 					original_tag = BAH
 					original_tag = BAS
-					original_tag = CIP
+					always = no
 					original_tag = CRC
 					always = no
 					original_tag = GUM
@@ -118254,7 +118254,7 @@ defined_text = {
 					original_tag = INU
 					original_tag = KOL
 					original_tag = MLD
-					original_tag = NWF
+					always = no
 					original_tag = PAP
 					original_tag = PHI
 					original_tag = RAS
@@ -118274,8 +118274,8 @@ defined_text = {
 					original_tag = BAN
 					original_tag = BAR
 					original_tag = BHR
-					original_tag = BHU
-					original_tag = BLC
+					always = no
+					always = no
 					original_tag = BLZ
 					original_tag = BRD
 					original_tag = BRN
@@ -118302,10 +118302,10 @@ defined_text = {
 					original_tag = ISR
 					original_tag = IVO
 					original_tag = JAN
-					original_tag = KAS
+					always = no
 					original_tag = KAZ
 					original_tag = KHL
-					original_tag = KLT
+					always = no
 					original_tag = KUR
 					original_tag = KUW
 					original_tag = LAO
@@ -118315,10 +118315,10 @@ defined_text = {
 					original_tag = MAN
 					original_tag = MEK
 					original_tag = MEN
-					original_tag = MPU
+					always = no
 					original_tag = MYS
 					original_tag = MZB
-					original_tag = NEP
+					always = no
 					original_tag = NGR
 					original_tag = OMA
 					original_tag = PAK
@@ -118358,8 +118358,8 @@ defined_text = {
 					original_tag = SHL
 					original_tag = SIA
 					original_tag = SIK
-					original_tag = SIN
-					original_tag = SKK
+					always = no
+					always = no
 					always = no
 					original_tag = SNG
 					original_tag = SOM
@@ -121543,7 +121543,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_cosmetic_tag = PSH
+			always = no
 		}
 		localization_key = PSH_ADJ_RU_lower
 	}
@@ -125702,7 +125702,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 			has_government = fascism
 		}
 		localization_key = SKK_fascism_ADJ_RU_lower
@@ -126047,7 +126047,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 			has_government = liberalism
 		}
 		localization_key = CIP_democratic_ADJ_RU_lower
@@ -128485,7 +128485,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BLC
+			always = no
 		}
 		localization_key = BLC_ADJ_RU_lower
 	}
@@ -128593,7 +128593,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = BHU
+			always = no
 		}
 		localization_key = BHU_ADJ_RU_lower
 	}
@@ -128987,7 +128987,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KLT
+			always = no
 		}
 		localization_key = KLT_ADJ_RU_lower
 	}
@@ -129035,7 +129035,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = KAS
+			always = no
 		}
 		localization_key = KAS_ADJ_RU_lower
 	}
@@ -129291,7 +129291,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = MPU
+			always = no
 		}
 		localization_key = MPU_ADJ_RU_lower
 	}
@@ -129387,7 +129387,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NEP
+			always = no
 		}
 		localization_key = NEP_ADJ_RU_lower
 	}
@@ -129519,7 +129519,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = NWF
+			always = no
 		}
 		localization_key = NWF_ADJ_RU_lower
 	}
@@ -129531,7 +129531,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = RJP
+			always = no
 		}
 		localization_key = RJP_ADJ_RU_lower
 	}
@@ -129657,7 +129657,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SKK
+			always = no
 		}
 		localization_key = SKK_ADJ_RU_lower
 	}
@@ -129681,7 +129681,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = SIN
+			always = no
 		}
 		localization_key = SIN_ADJ_RU_lower
 	}
@@ -129957,7 +129957,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = CIP
+			always = no
 		}
 		localization_key = CIP_ADJ_RU_lower
 	}

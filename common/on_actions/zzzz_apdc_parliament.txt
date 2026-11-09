@@ -1,0 +1,9 @@
+on_actions = {
+on_startup = { effect = { set_global_flag = apdc_parl_bootstrapping every_country = { apdc_parl_initialize = yes apdc_parl_refresh_special_catalogue = yes } clr_global_flag = apdc_parl_bootstrapping set_global_flag = apdc_parl_bootstrapped } }
+on_daily = { effect = { if = { limit = { NOT = { has_global_flag = apdc_parl_daily_lock } } set_global_flag = { flag = apdc_parl_daily_lock value = 1 days = 1 } every_country = { apdc_parl_daily = yes } } } }
+on_new_term_election = { effect = { if = { limit = { has_country_flag = apdc_parl_initialized NOT = { has_country_flag = apdc_parl_initializing } } apdc_parl_run_election = yes } } }
+on_release_as_puppet = { effect = { apdc_parl_initialize = yes } }
+on_state_control_changed = { effect = { if = { limit = { has_global_flag = apdc_parl_bootstrapped NOT = { has_country_flag = apdc_parl_initialized } } apdc_parl_initialize = yes } } }
+on_ruling_party_change = { effect = { if = { limit = { has_country_flag = apdc_parl_initialized NOT = { has_country_flag = apdc_parl_changing_government } } apdc_parl_refresh = yes } } }
+
+}

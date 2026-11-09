@@ -88,11 +88,11 @@ PixelShader =
 		float4 main( VS_OUTPUT v ) : PDX_COLOR
 		{
             float4 mask = tex2D(TextureOne, v.vTexCoord0.xy);
-            float packed = floor(CurrentState * 12273.f + 0.5f)-1.f;
-            float z = floor(packed / 472.f);
-            float paletteSlot = packed - z*472.f;
+            float packed = floor(CurrentState * 12351.f + 0.5f)-1.f;
+            float z = floor(packed / 475.f);
+            float paletteSlot = packed - z*475.f;
             float zoom = exp2(-4.f + z*0.5f);
-            float4 fill = tex2D(TextureTwo, float2((paletteSlot+0.5f)/472.f,0.5f));
+            float4 fill = tex2D(TextureTwo, float2((paletteSlot+0.5f)/475.f,0.5f));
             float distance = (mask.r*255.f-127.5f)*0.5f;
             float alpha = smoothstep(-0.5f,0.5f,distance*zoom);
             float edge = mask.b*127.5f*zoom;

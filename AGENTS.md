@@ -31,9 +31,15 @@
 - 只修改用户要求的内容。地图调整不得整份复制 GF-MAP 或原版的国家历史、国家定义、国旗、国家颜色、人物、国策、事件、on_actions、外交阵营、附属关系或修饰 tag。
 - 不因领土、核心或国家无开局领土而删除已有国家设定、角色、科技、空 OOB、军队模板或今后正常释放国家的功能。
 - 主项目开局为 2060 年；不得恢复成 GF 的 1936 开局。国家历史仅适配首都及必要的地理引用，其余设计保留。
-- 已确认的 GF 身份与 APDC 身份映射见 `tools/map_maintenance/baseline/tag_mapping.json`。特殊映射：AKP→ALS、NAT→AMZ、ALG→AGR、DAH→BEN、VOL→BKF、BEL/HOL/LUX→LLU、RAJ/PAK→PAK、NML→ZZZ、GF 的 ZZZ→ATU。南苏丹州 884、885、1497—1503 使用 SSD，苏丹其他州使用 SUD。
+- 已确认的 GF 身份与 APDC 身份映射见 `tools/map_maintenance/baseline/tag_mapping.json`。特殊映射：AKP→ALS、NAT→AMZ、ALG→AGR、DAH→BEN、VOL→BKF、BEL/HOL/LUX→LLU、NML→ZZZ、GF 的 ZZZ→ATU。移植时的 RAJ/PAK→PAK 是历史来源映射，**2026-11-02 已按用户 NEW MAP 的新南亚设定替代，不能再次合并当前 RAJ 与 PAK**，见下段。南苏丹州 884、885、1497—1503 使用 SSD，苏丹其他州使用 SUD。
 - 28 个既有历史的国家已补注册，39 个缺少身份的国家已补建。不能以清理核心为由撤销注册。原有国家的名称、颜色、旗帜、人物和玩法没有被来源模组替换。
 - 原主项目在印度地区残留了未注册的 IND 核心/宣称。此次有效保留的一项 IND 宣称按确认的南亚身份适配为 PAK，不新增 IND 国家。
+
+### 2026-11-02 南亚正式身份更新
+
+用户 NEW MAP 存档中的 D10—D23 已转为正式身份：D10→RAJ（印度共和国）、D11→PAK、D12→KHL、D13→WIS、D14→KOL、D15→MYS、D16→MLD、D17→KER、D18→SRL、D19→RAS、D20→HYD、D21→IPL、D22→BAN、D23→ASM。当前身份权威为 `tools/map_maintenance/baseline/south_asia_identity_20261102.json`；详细国家名、颜色、核心和宣称见 `docs/map-maintenance/20261102-south-asia/country-plan.json`。本次用户明确授权删除旧南亚国家，BHU、NEP、BLC、CIP、KAS、KLT、MPU、NWF、RJP、SIN、SKK 已注销；PSH、DIP 的未注册残留引用亦清理。不要从来源、旧本地化或旧检查点重新恢复这些身份。
+
+当前领土仍以 `initial_territories.json` 与最新检查点为准。安达曼733按 NEW MAP 归BRM；拉克沙1573仍归MLD，核心归KER及两印度身份，**不能把核心需求误作领土转移**。本次不重分配人口资源，不修改原地块身份、固定经济基线或地图美术；国旗和固定领导人另行制作。`tag_mapping.json` 保留10月移植的原始凭据，本段及新的南亚身份文件覆盖其已经失效的南亚合并规则。
 
 ## 开局地理关系
 
@@ -165,3 +171,10 @@
 `D:/C-Drive-Migration-20260929/Permanent/Users/ASUS/Documents/Paradox Interactive/Hearts of Iron IV/mod/.codex_backups/APDC/20261021-232703-gf-map-migration`
 
 实施说明和检查结果见 `docs/map-migration/20261021`。本目录中的基线用于地图维护，不是另一个可加载模组；其中原经济来源的国家历史不能当作 APDC 政治历史使用。
+
+
+## 全系统接手资料（2026-10-30）
+
+全对话的完成内容、当前待办、系统维护入口、复用工具和未实装设计见 [项目接手文档/README.md](项目接手文档/README.md)。先读其中的快速接手与当前状态，再按专题查阅。
+
+本资料参考钢铁群星的接手文档组织方式，不引入其玩法或项目规则。议会系统已于2026-11-07接入运行，维护入口与证据见 `tools/parliament/README.md` 和 `docs/parliament/20261107-implementation/README.md`；君主立宪制元首展示分离仍未实装。旧设计中的实施建议不能代替当前原生剧情API。维护时以用户后续要求、当前正式来源与最新完成检查点为准；本页既有地图保护与验证规则继续适用。

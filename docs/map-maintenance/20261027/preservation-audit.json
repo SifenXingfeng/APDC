@@ -1,0 +1,228 @@
+{
+  "passed": true,
+  "before_files": 33725,
+  "current_project_files_hashed": 33512,
+  "changed_existing": [
+    {
+      "file": "interface/APDC_cold_war.gfx",
+      "before": "de801743fc2db981c9292005cd9e1cc01575559ea540969faeb4a1129021afbb",
+      "after": "9416139521c927a6790a5ed098f69c605e9b3b0aabde82260724a98952798f19"
+    },
+    {
+      "file": "interface/APDC_cold_war.gui",
+      "before": "2fd61fe6ce31a9373b3f63852648f6495739c403966b7aae5c07524b407e63b2",
+      "after": "de61ec9f8fe25502eb208b5cae50ca49b7e76c56f7036318fb537307458ae4a1"
+    },
+    {
+      "file": "common/scripted_effects/APDC_cold_war_view.txt",
+      "before": "5c8abd229e076a15c6c77018dbfcff48c92cbf870e0aa95fedde3837e5989604",
+      "after": "eedd5f8782ce9a08fa5eff56e3479f58ebd1fb53dfdf6afbef478725c950b833"
+    },
+    {
+      "file": "common/scripted_guis/APDC_cold_war.txt",
+      "before": "42a0b5f47c2d3bc978d6d713f981dd9ab7e018b54f0f6cdc6b349cc85d28b602",
+      "after": "5a8743013d0f12c4c0fcb9b4a3db0f082a752a2ed84c9e4f4ecbb83504bb1014"
+    },
+    {
+      "file": "common/synchronized_dynamic_tokens/APDC_cold_war.txt",
+      "before": "5685d122703c9c3219d6f6cc72390ce853c0d16062aff73974514143e59826f6",
+      "after": "30ae9d322eb599b78e329916254df63fc5d08bffe00d47cc35aa141d32d06906"
+    },
+    {
+      "file": "docs/cold-war/20261024/geometry.json",
+      "before": "a0e993d6a75a7b5ec93cbb9bd5494537d91ffd3f94247b2db2bd0de69f59069f",
+      "after": "4646dff87980788aaee9f8ba1f111c5348fce76d5f73dcfe261cf2490490c9a3"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b1206.png",
+      "before": "8d155fe022f5d8e1cb70266a4e0b5e270227ec26936fe794724d3ef766b53e2c",
+      "after": "a5091001b847ec45b4296f2f0ef9c9f07478e83d25bb259d1b1b9a7623d16341"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b1209.png",
+      "before": "598cd5a25c168b55293433a4fcd0d6ac1bc3f5b80fa88154eb1035a805d62672",
+      "after": "877a48e1114d3437ced61b71662352ab3f1957a14d6b642463d9c230029ea231"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b1217.png",
+      "before": "3247fc00c3c111ec8658c83036cb4fc55a581aa397b98fb946dcbfe9c303e622",
+      "after": "d1a4a037df3beee0d46462bc9a23a6af013dd2d8da09361cdbe0872a6b6379a0"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s1364_2.png",
+      "before": "9488ee06b3af8a859038959f4bcb20e27934c542e236ce5e25fcc813f4ff7121",
+      "after": "ef1b5a1bacfd5373699c795178640055beee3eb0f7a136b8ef4987afb01d3443"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s357_2.png",
+      "before": "2da50f26dfcaddfbacda0483c77f90849729d8944fb039760a1e026709f55613",
+      "after": "4ea5373a3a9e318411bf250a5abf9be15a074ffefdc52d6729c07ea5d69ccb57"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_1489.png",
+      "before": "f9cd535d23f2cb45241575d8125f2dccca761551b4ec8d32788dc0edb03036ac",
+      "after": "0fdb321dc068eb6970ab9608f2d9657c08c3b375ba8062200c634a7c2b2fb19b"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_389.png",
+      "before": "1c89074173dc4f3a50f857ced4ec6e32ad943c000afa4d3ce136a28b6b372be0",
+      "after": "c9c27b8a71a7d4618e5d8a44c981e6a832cc2d29c36cfc04bcdedab78871c65d"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b1206.png",
+      "before": "a14cacaefa20c3b822d140af83d5c5cbfb26daddf9741d157413800f77c1802e",
+      "after": "11cbcdfaed0d8a9d3a613bb0be1a2405e799dc702738d96871dca904cb05e63c"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b1209.png",
+      "before": "9344c9051079ebbcc1e20c26ce0e382d351bda8ed9b488746e8bef34971453af",
+      "after": "e1366653f0dbaf7488cd2d1bbb76b8649585982dbb7f73cdfb260e9f060e6e79"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b1217.png",
+      "before": "49f7d4a07a19678c39b24b26cfafd38290d91befbea8f3ccc29b31b85d2897c6",
+      "after": "fcd434fddec07b93ca30b6a1fd0a6c45bbb76803e473ebdf16aef52fc12ab30d"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_1489.png",
+      "before": "35622eb05c7c6bd5f5f0710993dbb10301c6924c2d9e255d1040144096eea68b",
+      "after": "706a97d5c7a6193156a318383234b16bd2b00d75fb4e700b60e45d106504ce8f"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_389.png",
+      "before": "6d11b638f3dad67dde5bd866c499330ff761fbbb12923c4936ef3adb21f6eb90",
+      "after": "e3268c89777634f330347a785b99ae8987eb952d01705fd3fb9dca8e10fbc436"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_1206.png",
+      "before": "189a324bb476c7ea3b5240763dfb38a7367bfbfdd8c40717af80ad91d350925a",
+      "after": "be64abcd52373191426fa82a13a2cc1a13576318d7d30ba15fdca7c91064b56a"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_1209.png",
+      "before": "fdd6703aaa38f44e38972ac1d2902fb9f634135278ea8cbdc44ccb36a2c0ed33",
+      "after": "09e3c2d7442b4cc9f4329f32ba9a4dd9b8953f004a1a0b17b91b48cff9ca1c72"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_1217.png",
+      "before": "c0496e2e2ec7aa416934cf304e15eca8ab6ed5a8320d2995366850a469ea5e54",
+      "after": "900d69a3c6a45f9d93a987b2000f8bcc6f8dc5b39a44ed8ad8167f6b81273dbd"
+    },
+    {
+      "file": "history/states/1364-Vermont.txt",
+      "before": "54e783a9816a5c5c3c14be19556f09036de60c057125abcbaf4075b9693960ab",
+      "after": "f891ba86453d6f76ba64a3bc8a434791b6dcf9443e92808fcbbceeadb47236d8"
+    },
+    {
+      "file": "history/states/357-Maine.txt",
+      "before": "141f2524f28fe00cc48ece4c02bc1ead4046a99f19eda89b01ce07dd1be0ed4c",
+      "after": "0d63e5adcdce11afd0a310e1925ee758fe08590c44a236dfb7940917a7d109e7"
+    }
+  ],
+  "added": [
+    {
+      "file": "docs/map-maintenance/20261027/allocation-totals.json",
+      "after": "453ea3afab99ec105bc71407e8cb28fc567f9d27a59f6ae8bc94a36b9a52d303"
+    },
+    {
+      "file": "docs/map-maintenance/20261027/allocation.json",
+      "after": "293e42fe50905b199b6cf65ba0d5ba9f03be9418b847cd42641a5ce5e4447209"
+    },
+    {
+      "file": "docs/map-maintenance/20261027/change-table.json",
+      "after": "b666c5b983fe2aaae9b5eb95aa22c45d3a4397a347d04743211b49430a2c6a60"
+    },
+    {
+      "file": "docs/map-maintenance/20261027/cold-war-refresh.json",
+      "after": "c8c27538fb69e22f61fb24587e510bd563891f561154751747615e02be8748c7"
+    },
+    {
+      "file": "docs/map-maintenance/20261027/gfx-layout-audit.json",
+      "after": "1ea73bdea265c4436f5df7408f0fec0eaf51c8330d78e24500d94ca5bec5f9ad"
+    },
+    {
+      "file": "docs/map-maintenance/20261027/political-relations.json",
+      "after": "456be65f9437321b7ae4abb45ded0961f86c81b82eb5b1b558922ba713fbeff7"
+    },
+    {
+      "file": "docs/map-maintenance/20261027/railway-observations.json",
+      "after": "02d7cfa192fef956be6579dfa41688f019e746ddc6d16f11362dff870a021d52"
+    },
+    {
+      "file": "docs/map-maintenance/20261027/README.md",
+      "after": "2763f97922caf208efcfdbc536098062546b9dcc70fd16b55fcf3f2dc41afb00"
+    },
+    {
+      "file": "docs/map-maintenance/20261027/runtime-audit.json",
+      "after": "8d36918320b9ea1fd2573a528fe809de56c245dbdcd6ad1bc6f465170635ef39"
+    },
+    {
+      "file": "docs/map-maintenance/20261027/runtime-preparation.json",
+      "after": "e89f8551f393f2dd29feb0a7b61b5bda349d8d251de3f77feb9c1b0f5e7c2481"
+    },
+    {
+      "file": "docs/map-maintenance/20261027/runtime-USA-detail.png",
+      "after": "5fbea6692561121e369c47a8f3f447054d6373f71709c4e9a387015bdb78d474"
+    },
+    {
+      "file": "docs/map-maintenance/20261027/runtime-world.png",
+      "after": "afe0e4d618ec0f40937ff4455784ec305b9937eb762aba5ddb80fd665dd508f7"
+    },
+    {
+      "file": "docs/map-maintenance/20261027/state-hashes.json",
+      "after": "3da94fc7b051fc42b75695072df0432ffc6a8196045e910ed713e07d09d6d845"
+    },
+    {
+      "file": "docs/map-maintenance/20261027/state-index.json",
+      "after": "fc5800bc454b72e4ac68be1852220e5335998b2322db011bf7a2db801b02df56"
+    },
+    {
+      "file": "docs/map-maintenance/20261027/states-checkpoint.zip",
+      "after": "2935f80d100a3fcdcf584e2d9b813a069fc1e70eb26b2e334d5bb0992181a534"
+    },
+    {
+      "file": "docs/map-maintenance/20261027/static-audit.json",
+      "after": "2b93c403c340212a9669da1d6464f56835cde8d32902faf46867bcba1cf5c37f"
+    },
+    {
+      "file": "docs/map-maintenance/20261027/USA-core-detail.png",
+      "after": "d0a272f199b4f95d526162cfd74033e6f33320758bd1e319507f90776fc8c789"
+    },
+    {
+      "file": "docs/map-maintenance/20261027/visual-asset-audit.json",
+      "after": "922848afb73f15cd38f83bc7ecee99eab9ce0a9f58cc7a8d4b0e432d457f7856"
+    },
+    {
+      "file": "docs/map-maintenance/20261027/world-after.png",
+      "after": "36069e7fa7012379a75e2a7e02d90067bdfffc438e9b1ee6997ed10454563a27"
+    },
+    {
+      "file": "docs/map-maintenance/20261027/world-before.png",
+      "after": "542d5feb4a73d01e586d296d595995e5b0c86d1b9a5e9212a53369dd0ddb697d"
+    },
+    {
+      "file": "docs/map-maintenance/20261027/world-panel-review.png",
+      "after": "fc33d9e2f158c70723b7936474ba8344960eefefc3626feb6fa7934f789092fb"
+    },
+    {
+      "file": "tools/cold_war/refresh_geography.py",
+      "after": "15848412980060cca004912337e34b5ee2f94ff7348dbe446b5445fb0c394c2d"
+    },
+    {
+      "file": "tools/map_maintenance/finish_20261027.py",
+      "after": "b8df43185a84ffaf30b36e1b61df7d269b5ffb7c60a9bfc419155c90e2185ddb"
+    },
+    {
+      "file": "tools/map_maintenance/baseline/latest_checkpoint.json",
+      "after": "a6a804f62d96df90565e9d978fa75425a00f56f807f5a5d63d3a7cac5a23c2e5"
+    }
+  ],
+  "removed": [],
+  "unexpected_changes": [],
+  "pre_existing_dirty_files_preserved": true,
+  "original_economy_baseline_unchanged": true,
+  "political_authority_and_filename_index_match_without_rewriting": true,
+  "cache_files_excluded": true,
+  "git_metadata_excluded": true,
+  "self_generated_manifest_excluded": true
+}

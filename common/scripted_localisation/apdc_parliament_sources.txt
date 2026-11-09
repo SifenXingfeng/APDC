@@ -1,0 +1,1197 @@
+defined_text = {
+name = ApdcParlAttitudeColor0
+text = {
+trigger = { check_variable = { apdc_parl_attitude_communism > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+trigger = { check_variable = { apdc_parl_attitude_communism < 0 } }
+localization_key = apdc_parl_red
+}
+text = {
+localization_key = apdc_parl_yellow
+}
+
+}
+defined_text = {
+name = ApdcParlBenefitColor0
+text = {
+trigger = { check_variable = { apdc_parl_effective_communism > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+trigger = { check_variable = { apdc_parl_effective_communism < 0 } }
+localization_key = apdc_parl_red
+}
+text = {
+localization_key = apdc_parl_yellow
+}
+
+}
+defined_text = {
+name = ApdcParlContribution0
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_contribution_communism = 0 } } }
+localization_key = apdc_parl_contribution_communism
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlContributionColor0
+text = {
+trigger = { check_variable = { apdc_parl_contribution_communism > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlCoalitionSource0
+text = {
+trigger = { has_government = communism }
+localization_key = apdc_parl_ruling_source_communism
+}
+text = {
+trigger = { has_country_flag = APDC_governing_coalition_communism }
+localization_key = apdc_parl_coalition_source_communism
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource0_1
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_communism_1 = 0 } } }
+localization_key = apdc_parl_source_row_communism_1
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource0_1Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_communism_1 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlSource0_2
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_communism_2 = 0 } } }
+localization_key = apdc_parl_source_row_communism_2
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource0_2Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_communism_2 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlSource0_3
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_communism_3 = 0 } } }
+localization_key = apdc_parl_source_row_communism_3
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource0_3Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_communism_3 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlAttitudeColor1
+text = {
+trigger = { check_variable = { apdc_parl_attitude_socialism > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+trigger = { check_variable = { apdc_parl_attitude_socialism < 0 } }
+localization_key = apdc_parl_red
+}
+text = {
+localization_key = apdc_parl_yellow
+}
+
+}
+defined_text = {
+name = ApdcParlBenefitColor1
+text = {
+trigger = { check_variable = { apdc_parl_effective_socialism > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+trigger = { check_variable = { apdc_parl_effective_socialism < 0 } }
+localization_key = apdc_parl_red
+}
+text = {
+localization_key = apdc_parl_yellow
+}
+
+}
+defined_text = {
+name = ApdcParlContribution1
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_contribution_socialism = 0 } } }
+localization_key = apdc_parl_contribution_socialism
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlContributionColor1
+text = {
+trigger = { check_variable = { apdc_parl_contribution_socialism > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlCoalitionSource1
+text = {
+trigger = { has_government = socialism }
+localization_key = apdc_parl_ruling_source_socialism
+}
+text = {
+trigger = { has_country_flag = APDC_governing_coalition_socialism }
+localization_key = apdc_parl_coalition_source_socialism
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource1_1
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_socialism_1 = 0 } } }
+localization_key = apdc_parl_source_row_socialism_1
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource1_1Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_socialism_1 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlSource1_2
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_socialism_2 = 0 } } }
+localization_key = apdc_parl_source_row_socialism_2
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource1_2Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_socialism_2 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlSource1_3
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_socialism_3 = 0 } } }
+localization_key = apdc_parl_source_row_socialism_3
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource1_3Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_socialism_3 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlAttitudeColor2
+text = {
+trigger = { check_variable = { apdc_parl_attitude_social_democracy > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+trigger = { check_variable = { apdc_parl_attitude_social_democracy < 0 } }
+localization_key = apdc_parl_red
+}
+text = {
+localization_key = apdc_parl_yellow
+}
+
+}
+defined_text = {
+name = ApdcParlBenefitColor2
+text = {
+trigger = { check_variable = { apdc_parl_effective_social_democracy > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+trigger = { check_variable = { apdc_parl_effective_social_democracy < 0 } }
+localization_key = apdc_parl_red
+}
+text = {
+localization_key = apdc_parl_yellow
+}
+
+}
+defined_text = {
+name = ApdcParlContribution2
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_contribution_social_democracy = 0 } } }
+localization_key = apdc_parl_contribution_social_democracy
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlContributionColor2
+text = {
+trigger = { check_variable = { apdc_parl_contribution_social_democracy > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlCoalitionSource2
+text = {
+trigger = { has_government = social_democracy }
+localization_key = apdc_parl_ruling_source_social_democracy
+}
+text = {
+trigger = { has_country_flag = APDC_governing_coalition_social_democracy }
+localization_key = apdc_parl_coalition_source_social_democracy
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource2_1
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_social_democracy_1 = 0 } } }
+localization_key = apdc_parl_source_row_social_democracy_1
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource2_1Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_social_democracy_1 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlSource2_2
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_social_democracy_2 = 0 } } }
+localization_key = apdc_parl_source_row_social_democracy_2
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource2_2Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_social_democracy_2 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlSource2_3
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_social_democracy_3 = 0 } } }
+localization_key = apdc_parl_source_row_social_democracy_3
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource2_3Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_social_democracy_3 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlAttitudeColor3
+text = {
+trigger = { check_variable = { apdc_parl_attitude_liberalism > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+trigger = { check_variable = { apdc_parl_attitude_liberalism < 0 } }
+localization_key = apdc_parl_red
+}
+text = {
+localization_key = apdc_parl_yellow
+}
+
+}
+defined_text = {
+name = ApdcParlBenefitColor3
+text = {
+trigger = { check_variable = { apdc_parl_effective_liberalism > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+trigger = { check_variable = { apdc_parl_effective_liberalism < 0 } }
+localization_key = apdc_parl_red
+}
+text = {
+localization_key = apdc_parl_yellow
+}
+
+}
+defined_text = {
+name = ApdcParlContribution3
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_contribution_liberalism = 0 } } }
+localization_key = apdc_parl_contribution_liberalism
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlContributionColor3
+text = {
+trigger = { check_variable = { apdc_parl_contribution_liberalism > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlCoalitionSource3
+text = {
+trigger = { has_government = liberalism }
+localization_key = apdc_parl_ruling_source_liberalism
+}
+text = {
+trigger = { has_country_flag = APDC_governing_coalition_liberalism }
+localization_key = apdc_parl_coalition_source_liberalism
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource3_1
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_liberalism_1 = 0 } } }
+localization_key = apdc_parl_source_row_liberalism_1
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource3_1Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_liberalism_1 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlSource3_2
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_liberalism_2 = 0 } } }
+localization_key = apdc_parl_source_row_liberalism_2
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource3_2Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_liberalism_2 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlSource3_3
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_liberalism_3 = 0 } } }
+localization_key = apdc_parl_source_row_liberalism_3
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource3_3Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_liberalism_3 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlAttitudeColor4
+text = {
+trigger = { check_variable = { apdc_parl_attitude_conservatism > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+trigger = { check_variable = { apdc_parl_attitude_conservatism < 0 } }
+localization_key = apdc_parl_red
+}
+text = {
+localization_key = apdc_parl_yellow
+}
+
+}
+defined_text = {
+name = ApdcParlBenefitColor4
+text = {
+trigger = { check_variable = { apdc_parl_effective_conservatism > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+trigger = { check_variable = { apdc_parl_effective_conservatism < 0 } }
+localization_key = apdc_parl_red
+}
+text = {
+localization_key = apdc_parl_yellow
+}
+
+}
+defined_text = {
+name = ApdcParlContribution4
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_contribution_conservatism = 0 } } }
+localization_key = apdc_parl_contribution_conservatism
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlContributionColor4
+text = {
+trigger = { check_variable = { apdc_parl_contribution_conservatism > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlCoalitionSource4
+text = {
+trigger = { has_government = conservatism }
+localization_key = apdc_parl_ruling_source_conservatism
+}
+text = {
+trigger = { has_country_flag = APDC_governing_coalition_conservatism }
+localization_key = apdc_parl_coalition_source_conservatism
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource4_1
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_conservatism_1 = 0 } } }
+localization_key = apdc_parl_source_row_conservatism_1
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource4_1Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_conservatism_1 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlSource4_2
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_conservatism_2 = 0 } } }
+localization_key = apdc_parl_source_row_conservatism_2
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource4_2Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_conservatism_2 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlSource4_3
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_conservatism_3 = 0 } } }
+localization_key = apdc_parl_source_row_conservatism_3
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource4_3Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_conservatism_3 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlAttitudeColor5
+text = {
+trigger = { check_variable = { apdc_parl_attitude_authoritarianism > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+trigger = { check_variable = { apdc_parl_attitude_authoritarianism < 0 } }
+localization_key = apdc_parl_red
+}
+text = {
+localization_key = apdc_parl_yellow
+}
+
+}
+defined_text = {
+name = ApdcParlBenefitColor5
+text = {
+trigger = { check_variable = { apdc_parl_effective_authoritarianism > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+trigger = { check_variable = { apdc_parl_effective_authoritarianism < 0 } }
+localization_key = apdc_parl_red
+}
+text = {
+localization_key = apdc_parl_yellow
+}
+
+}
+defined_text = {
+name = ApdcParlContribution5
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_contribution_authoritarianism = 0 } } }
+localization_key = apdc_parl_contribution_authoritarianism
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlContributionColor5
+text = {
+trigger = { check_variable = { apdc_parl_contribution_authoritarianism > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlCoalitionSource5
+text = {
+trigger = { has_government = authoritarianism }
+localization_key = apdc_parl_ruling_source_authoritarianism
+}
+text = {
+trigger = { has_country_flag = APDC_governing_coalition_authoritarianism }
+localization_key = apdc_parl_coalition_source_authoritarianism
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource5_1
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_authoritarianism_1 = 0 } } }
+localization_key = apdc_parl_source_row_authoritarianism_1
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource5_1Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_authoritarianism_1 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlSource5_2
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_authoritarianism_2 = 0 } } }
+localization_key = apdc_parl_source_row_authoritarianism_2
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource5_2Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_authoritarianism_2 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlSource5_3
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_authoritarianism_3 = 0 } } }
+localization_key = apdc_parl_source_row_authoritarianism_3
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource5_3Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_authoritarianism_3 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlAttitudeColor6
+text = {
+trigger = { check_variable = { apdc_parl_attitude_dictatorship > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+trigger = { check_variable = { apdc_parl_attitude_dictatorship < 0 } }
+localization_key = apdc_parl_red
+}
+text = {
+localization_key = apdc_parl_yellow
+}
+
+}
+defined_text = {
+name = ApdcParlBenefitColor6
+text = {
+trigger = { check_variable = { apdc_parl_effective_dictatorship > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+trigger = { check_variable = { apdc_parl_effective_dictatorship < 0 } }
+localization_key = apdc_parl_red
+}
+text = {
+localization_key = apdc_parl_yellow
+}
+
+}
+defined_text = {
+name = ApdcParlContribution6
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_contribution_dictatorship = 0 } } }
+localization_key = apdc_parl_contribution_dictatorship
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlContributionColor6
+text = {
+trigger = { check_variable = { apdc_parl_contribution_dictatorship > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlCoalitionSource6
+text = {
+trigger = { has_government = dictatorship }
+localization_key = apdc_parl_ruling_source_dictatorship
+}
+text = {
+trigger = { has_country_flag = APDC_governing_coalition_dictatorship }
+localization_key = apdc_parl_coalition_source_dictatorship
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource6_1
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_dictatorship_1 = 0 } } }
+localization_key = apdc_parl_source_row_dictatorship_1
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource6_1Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_dictatorship_1 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlSource6_2
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_dictatorship_2 = 0 } } }
+localization_key = apdc_parl_source_row_dictatorship_2
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource6_2Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_dictatorship_2 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlSource6_3
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_dictatorship_3 = 0 } } }
+localization_key = apdc_parl_source_row_dictatorship_3
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource6_3Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_dictatorship_3 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlAttitudeColor7
+text = {
+trigger = { check_variable = { apdc_parl_attitude_fascism > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+trigger = { check_variable = { apdc_parl_attitude_fascism < 0 } }
+localization_key = apdc_parl_red
+}
+text = {
+localization_key = apdc_parl_yellow
+}
+
+}
+defined_text = {
+name = ApdcParlBenefitColor7
+text = {
+trigger = { check_variable = { apdc_parl_effective_fascism > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+trigger = { check_variable = { apdc_parl_effective_fascism < 0 } }
+localization_key = apdc_parl_red
+}
+text = {
+localization_key = apdc_parl_yellow
+}
+
+}
+defined_text = {
+name = ApdcParlContribution7
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_contribution_fascism = 0 } } }
+localization_key = apdc_parl_contribution_fascism
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlContributionColor7
+text = {
+trigger = { check_variable = { apdc_parl_contribution_fascism > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlCoalitionSource7
+text = {
+trigger = { has_government = fascism }
+localization_key = apdc_parl_ruling_source_fascism
+}
+text = {
+trigger = { has_country_flag = APDC_governing_coalition_fascism }
+localization_key = apdc_parl_coalition_source_fascism
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource7_1
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_fascism_1 = 0 } } }
+localization_key = apdc_parl_source_row_fascism_1
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource7_1Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_fascism_1 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlSource7_2
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_fascism_2 = 0 } } }
+localization_key = apdc_parl_source_row_fascism_2
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource7_2Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_fascism_2 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlSource7_3
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_fascism_3 = 0 } } }
+localization_key = apdc_parl_source_row_fascism_3
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource7_3Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_fascism_3 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlAttitudeColor8
+text = {
+trigger = { check_variable = { apdc_parl_attitude_fundamentalism > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+trigger = { check_variable = { apdc_parl_attitude_fundamentalism < 0 } }
+localization_key = apdc_parl_red
+}
+text = {
+localization_key = apdc_parl_yellow
+}
+
+}
+defined_text = {
+name = ApdcParlBenefitColor8
+text = {
+trigger = { check_variable = { apdc_parl_effective_fundamentalism > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+trigger = { check_variable = { apdc_parl_effective_fundamentalism < 0 } }
+localization_key = apdc_parl_red
+}
+text = {
+localization_key = apdc_parl_yellow
+}
+
+}
+defined_text = {
+name = ApdcParlContribution8
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_contribution_fundamentalism = 0 } } }
+localization_key = apdc_parl_contribution_fundamentalism
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlContributionColor8
+text = {
+trigger = { check_variable = { apdc_parl_contribution_fundamentalism > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlCoalitionSource8
+text = {
+trigger = { has_government = fundamentalism }
+localization_key = apdc_parl_ruling_source_fundamentalism
+}
+text = {
+trigger = { has_country_flag = APDC_governing_coalition_fundamentalism }
+localization_key = apdc_parl_coalition_source_fundamentalism
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource8_1
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_fundamentalism_1 = 0 } } }
+localization_key = apdc_parl_source_row_fundamentalism_1
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource8_1Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_fundamentalism_1 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlSource8_2
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_fundamentalism_2 = 0 } } }
+localization_key = apdc_parl_source_row_fundamentalism_2
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource8_2Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_fundamentalism_2 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}
+defined_text = {
+name = ApdcParlSource8_3
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_source_tip_fundamentalism_3 = 0 } } }
+localization_key = apdc_parl_source_row_fundamentalism_3
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlSource8_3Color
+text = {
+trigger = { check_variable = { apdc_parl_source_tip_fundamentalism_3 > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+localization_key = apdc_parl_red
+}
+
+}

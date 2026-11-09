@@ -1,0 +1,105 @@
+{
+  "changed_game_files": [
+    "gfx/FX/border.shader"
+  ],
+  "change": "Remove only the inland-mask condition from country-ribbon blue-white styling; keep border-type and selection checks and all native shading unchanged.",
+  "root_cause": {
+    "style_gate": "Country borders were styled only when IsInland > 0.5. Rejected fragments immediately used native shading.",
+    "mask_scale": 4,
+    "coastal_exclusion": "The stored binary mask rejects fully-land coastal blocks; it closely matches a 5x5 minimum filter followed by all-land 4x4 reduction.",
+    "land_blocks_rejected": 13125,
+    "actual_land_country_border_samples": 35548,
+    "actual_land_country_border_samples_rejected": 1673,
+    "rejected_heightmap_range": [
+      89,
+      173
+    ],
+    "height_test_used_for_color_selection": false
+  },
+  "shader_sha256_before": "9bad47d38b1ff8500d39e63cb29d1202bce00793ec0f1bfd0e734bcaa4917b27",
+  "shader_sha256_after": "e28fb1a6e2272a0b0fe57249ecb7a33294a9eb01b6e449911e6b0df25fe387bf",
+  "other_project_hash_checks": {
+    "gfx/FX/gf_map_border_data.fxh": true,
+    "gfx/FX/gf_map_style.fxh": true,
+    "gfx/FX/pdxmap.shader": true,
+    "gfx/FX/pdxwater.shader": true,
+    "gfx/FX/mapname.shader": true,
+    "common/defines/zzzz_apdc_map_zz_gf_map_art.lua": true,
+    "map/provinces.bmp": true,
+    "map/definition.csv": true,
+    "map/heightmap.bmp": true,
+    "map/railways.txt": true,
+    "tools/map_maintenance/baseline/initial_territories.json": true,
+    "map/terrain/border_country_0.dds": true,
+    "map/terrain/border_country_1.dds": true,
+    "map/terrain/border_country_2.dds": true
+  },
+  "protected_user_files": {
+    "settings.txt": true,
+    "dlc_load.json": true,
+    "continue_game.json": true,
+    "mod/APDC.mod": true,
+    "save games/autosave.hoi4": true
+  },
+  "runtime": {
+    "record": {
+      "profile": "C:/Users/ASUS/.codex/tmp/APDC_CountryQA_20261028_final",
+      "input_desktop_switched": false,
+      "started": "2026-10-28T22:04:19.7706023+08:00",
+      "desktop": "APDC_PerformanceQA_20261028_220419",
+      "job_kill_on_close": true,
+      "debug_mode": true,
+      "command": "\"D:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\hoi4.exe\" -userdir=C:/Users/ASUS/.codex/tmp/APDC_CountryQA_20261028_final -start_tag=GER -start_speed=3 -gamelog -debug",
+      "pid": 12004,
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\hoi4.exe"
+    },
+    "stop": {
+      "still_running": false,
+      "steam_app_running": false,
+      "pid": 12004,
+      "stopped": "2026-10-28T22:09:29.0543064+08:00",
+      "closed_helpers": [
+        44852,
+        29268
+      ],
+      "remaining_helpers": []
+    },
+    "actual_date_reached": "2060.3.3.23",
+    "autosave_date": "2060.3.1.1",
+    "autosave_size": 74490629,
+    "autosave_sha256": "b01ba812d1b013fc4ac948e165eecb9ce383f7977dd522fecd09726401000646",
+    "related_shader_errors": [],
+    "enabled_mods": {
+      "enabled_mods": [
+        "mod/APDC.mod",
+        "mod/APDC_CountryQA.mod"
+      ],
+      "disabled_dlcs": []
+    },
+    "project_shader_override_present": false,
+    "visual_verification": "INCOMPLETE: private captures did not reach the intended FRA-LLU coast/border junction; no complete before/after coastal endpoint comparison."
+  },
+  "diagnostic_attempts": [
+    {
+      "pid": 21400,
+      "purpose": "unchanged shader baseline",
+      "outcome": "normal game loaded and date advanced; capture not at target junction"
+    },
+    {
+      "pid": 42420,
+      "purpose": "same proposed gate change in private driver",
+      "outcome": "normal game loaded and date advanced; captured coast retained native appearance but not a complete target-junction verification"
+    },
+    {
+      "pid": 46664,
+      "purpose": "targeted private camera at height 170",
+      "outcome": "abnormal termination during texture loading; no shader compile errors; exception saved, root cause unproven"
+    },
+    {
+      "pid": 12004,
+      "purpose": "actual project shader; targeted private camera at height 350",
+      "outcome": "normal game and February autosave succeeded; no related shader errors; target-junction visual comparison remains incomplete"
+    }
+  ],
+  "backup": "D:\\C-Drive-Migration-20260929\\Permanent\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\.codex_backups\\APDC\\20261028-214753-coastal-country-borders"
+}

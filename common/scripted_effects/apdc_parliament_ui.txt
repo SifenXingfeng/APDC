@@ -1,0 +1,82 @@
+apdc_parl_refresh_law_options = {
+clear_array = apdc_parl_law_options
+if = {
+limit = { check_variable = { apdc_parl_selected_group = 1 } }
+add_to_array = { apdc_parl_law_options = 1001 }
+add_to_array = { apdc_parl_law_options = 1002 }
+add_to_array = { apdc_parl_law_options = 1003 }
+add_to_array = { apdc_parl_law_options = 1004 }
+add_to_array = { apdc_parl_law_options = 1005 }
+add_to_array = { apdc_parl_law_options = 1006 }
+add_to_array = { apdc_parl_law_options = 1007 }
+
+}
+if = {
+limit = { check_variable = { apdc_parl_selected_group = 2 } }
+add_to_array = { apdc_parl_law_options = 2001 }
+add_to_array = { apdc_parl_law_options = 2002 }
+add_to_array = { apdc_parl_law_options = 2003 }
+add_to_array = { apdc_parl_law_options = 2004 }
+add_to_array = { apdc_parl_law_options = 2005 }
+add_to_array = { apdc_parl_law_options = 2006 }
+
+}
+if = {
+limit = { check_variable = { apdc_parl_selected_group = 3 } }
+add_to_array = { apdc_parl_law_options = 3001 }
+add_to_array = { apdc_parl_law_options = 3002 }
+add_to_array = { apdc_parl_law_options = 3003 }
+add_to_array = { apdc_parl_law_options = 3004 }
+add_to_array = { apdc_parl_law_options = 3005 }
+
+}
+if = {
+limit = { check_variable = { apdc_parl_selected_group = 4 } }
+add_to_array = { apdc_parl_law_options = 4001 }
+add_to_array = { apdc_parl_law_options = 4002 }
+add_to_array = { apdc_parl_law_options = 4003 }
+add_to_array = { apdc_parl_law_options = 4004 }
+add_to_array = { apdc_parl_law_options = 4005 }
+add_to_array = { apdc_parl_law_options = 4006 }
+
+}
+if = {
+limit = { check_variable = { apdc_parl_selected_group = 5 } }
+add_to_array = { apdc_parl_law_options = 5001 }
+add_to_array = { apdc_parl_law_options = 5002 }
+add_to_array = { apdc_parl_law_options = 5003 }
+add_to_array = { apdc_parl_law_options = 5004 }
+add_to_array = { apdc_parl_law_options = 5005 }
+add_to_array = { apdc_parl_law_options = 5006 }
+add_to_array = { apdc_parl_law_options = 5007 }
+add_to_array = { apdc_parl_law_options = 5008 }
+add_to_array = { apdc_parl_law_options = 5009 }
+add_to_array = { apdc_parl_law_options = 5010 }
+
+}
+if = {
+limit = { check_variable = { apdc_parl_selected_group = 6 } }
+add_to_array = { apdc_parl_law_options = 6001 }
+add_to_array = { apdc_parl_law_options = 6002 }
+add_to_array = { apdc_parl_law_options = 6003 }
+add_to_array = { apdc_parl_law_options = 6004 }
+add_to_array = { apdc_parl_law_options = 6005 }
+add_to_array = { apdc_parl_law_options = 6006 }
+add_to_array = { apdc_parl_law_options = 6007 }
+add_to_array = { apdc_parl_law_options = 6008 }
+add_to_array = { apdc_parl_law_options = 6009 }
+
+}
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_initialize_ui_arrays = {
+clear_array = apdc_parl_reform_groups
+add_to_array = { apdc_parl_reform_groups = 1 }
+add_to_array = { apdc_parl_reform_groups = 2 }
+add_to_array = { apdc_parl_reform_groups = 3 }
+add_to_array = { apdc_parl_reform_groups = 4 }
+add_to_array = { apdc_parl_reform_groups = 5 }
+add_to_array = { apdc_parl_reform_groups = 6 }
+
+}

@@ -1,0 +1,1946 @@
+# Row visibility helpers for the APDC cabinet panel.
+# Containers are layout-only; renderable children call these triggers.
+
+APDC_coalition_communism_r0_should_show = {
+	APDC_is_communism_in_governing_coalition = yes
+}
+
+APDC_opposition_communism_k0_should_show = {
+	NOT = { APDC_is_communism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 0
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 1
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_communism_k1_should_show = {
+	NOT = { APDC_is_communism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 1
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 2
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_communism_k2_should_show = {
+	NOT = { APDC_is_communism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 2
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 3
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_communism_k3_should_show = {
+	NOT = { APDC_is_communism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 3
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 4
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_communism_k4_should_show = {
+	NOT = { APDC_is_communism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 4
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 5
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_communism_k5_should_show = {
+	NOT = { APDC_is_communism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 5
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 6
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_communism_k6_should_show = {
+	NOT = { APDC_is_communism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 6
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 7
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_communism_k7_should_show = {
+	NOT = { APDC_is_communism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 7
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 8
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_communism_k8_should_show = {
+	NOT = { APDC_is_communism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 8
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+}
+
+APDC_coalition_socialism_r0_should_show = {
+	APDC_is_socialism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 0
+		APDC_is_communism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 1
+			APDC_is_communism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_socialism_r1_should_show = {
+	APDC_is_socialism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 1
+		APDC_is_communism_in_governing_coalition = yes
+	}
+}
+
+APDC_opposition_socialism_k0_should_show = {
+	NOT = { APDC_is_socialism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 0
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 1
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_socialism_k1_should_show = {
+	NOT = { APDC_is_socialism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 1
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 2
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_socialism_k2_should_show = {
+	NOT = { APDC_is_socialism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 2
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 3
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_socialism_k3_should_show = {
+	NOT = { APDC_is_socialism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 3
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 4
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_socialism_k4_should_show = {
+	NOT = { APDC_is_socialism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 4
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 5
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_socialism_k5_should_show = {
+	NOT = { APDC_is_socialism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 5
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 6
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_socialism_k6_should_show = {
+	NOT = { APDC_is_socialism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 6
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 7
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_socialism_k7_should_show = {
+	NOT = { APDC_is_socialism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 7
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+}
+
+APDC_coalition_social_democracy_r0_should_show = {
+	APDC_is_social_democracy_in_governing_coalition = yes
+	count_triggers = {
+		amount = 0
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 1
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_social_democracy_r1_should_show = {
+	APDC_is_social_democracy_in_governing_coalition = yes
+	count_triggers = {
+		amount = 1
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 2
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_social_democracy_r2_should_show = {
+	APDC_is_social_democracy_in_governing_coalition = yes
+	count_triggers = {
+		amount = 2
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+	}
+}
+
+APDC_opposition_social_democracy_k0_should_show = {
+	NOT = { APDC_is_social_democracy_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 0
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 1
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_social_democracy_k1_should_show = {
+	NOT = { APDC_is_social_democracy_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 1
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 2
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_social_democracy_k2_should_show = {
+	NOT = { APDC_is_social_democracy_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 2
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 3
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_social_democracy_k3_should_show = {
+	NOT = { APDC_is_social_democracy_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 3
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 4
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_social_democracy_k4_should_show = {
+	NOT = { APDC_is_social_democracy_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 4
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 5
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_social_democracy_k5_should_show = {
+	NOT = { APDC_is_social_democracy_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 5
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 6
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_social_democracy_k6_should_show = {
+	NOT = { APDC_is_social_democracy_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 6
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+}
+
+APDC_coalition_conservatism_r0_should_show = {
+	APDC_is_conservatism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 0
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 1
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_conservatism_r1_should_show = {
+	APDC_is_conservatism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 1
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 2
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_conservatism_r2_should_show = {
+	APDC_is_conservatism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 2
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 3
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_conservatism_r3_should_show = {
+	APDC_is_conservatism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 3
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+	}
+}
+
+APDC_opposition_conservatism_k0_should_show = {
+	NOT = { APDC_is_conservatism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 0
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 1
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_conservatism_k1_should_show = {
+	NOT = { APDC_is_conservatism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 1
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 2
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_conservatism_k2_should_show = {
+	NOT = { APDC_is_conservatism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 2
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 3
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_conservatism_k3_should_show = {
+	NOT = { APDC_is_conservatism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 3
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 4
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_conservatism_k4_should_show = {
+	NOT = { APDC_is_conservatism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 4
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 5
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_conservatism_k5_should_show = {
+	NOT = { APDC_is_conservatism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 5
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+}
+
+APDC_coalition_liberalism_r0_should_show = {
+	APDC_is_liberalism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 0
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 1
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_liberalism_r1_should_show = {
+	APDC_is_liberalism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 1
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 2
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_liberalism_r2_should_show = {
+	APDC_is_liberalism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 2
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 3
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_liberalism_r3_should_show = {
+	APDC_is_liberalism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 3
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 4
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_liberalism_r4_should_show = {
+	APDC_is_liberalism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 4
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+	}
+}
+
+APDC_opposition_liberalism_k0_should_show = {
+	NOT = { APDC_is_liberalism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 0
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 1
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_liberalism_k1_should_show = {
+	NOT = { APDC_is_liberalism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 1
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 2
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_liberalism_k2_should_show = {
+	NOT = { APDC_is_liberalism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 2
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 3
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_liberalism_k3_should_show = {
+	NOT = { APDC_is_liberalism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 3
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 4
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_liberalism_k4_should_show = {
+	NOT = { APDC_is_liberalism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 4
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+}
+
+APDC_coalition_authoritarianism_r0_should_show = {
+	APDC_is_authoritarianism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 0
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 1
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_authoritarianism_r1_should_show = {
+	APDC_is_authoritarianism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 1
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 2
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_authoritarianism_r2_should_show = {
+	APDC_is_authoritarianism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 2
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 3
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_authoritarianism_r3_should_show = {
+	APDC_is_authoritarianism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 3
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 4
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_authoritarianism_r4_should_show = {
+	APDC_is_authoritarianism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 4
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 5
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_authoritarianism_r5_should_show = {
+	APDC_is_authoritarianism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 5
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+	}
+}
+
+APDC_opposition_authoritarianism_k0_should_show = {
+	NOT = { APDC_is_authoritarianism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 0
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 1
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_authoritarianism_k1_should_show = {
+	NOT = { APDC_is_authoritarianism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 1
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 2
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_authoritarianism_k2_should_show = {
+	NOT = { APDC_is_authoritarianism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 2
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 3
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_authoritarianism_k3_should_show = {
+	NOT = { APDC_is_authoritarianism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 3
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+}
+
+APDC_coalition_dictatorship_r0_should_show = {
+	APDC_is_dictatorship_in_governing_coalition = yes
+	count_triggers = {
+		amount = 0
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 1
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_dictatorship_r1_should_show = {
+	APDC_is_dictatorship_in_governing_coalition = yes
+	count_triggers = {
+		amount = 1
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 2
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_dictatorship_r2_should_show = {
+	APDC_is_dictatorship_in_governing_coalition = yes
+	count_triggers = {
+		amount = 2
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 3
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_dictatorship_r3_should_show = {
+	APDC_is_dictatorship_in_governing_coalition = yes
+	count_triggers = {
+		amount = 3
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 4
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_dictatorship_r4_should_show = {
+	APDC_is_dictatorship_in_governing_coalition = yes
+	count_triggers = {
+		amount = 4
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 5
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_dictatorship_r5_should_show = {
+	APDC_is_dictatorship_in_governing_coalition = yes
+	count_triggers = {
+		amount = 5
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 6
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_dictatorship_r6_should_show = {
+	APDC_is_dictatorship_in_governing_coalition = yes
+	count_triggers = {
+		amount = 6
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+	}
+}
+
+APDC_opposition_dictatorship_k0_should_show = {
+	NOT = { APDC_is_dictatorship_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 0
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 1
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_dictatorship_k1_should_show = {
+	NOT = { APDC_is_dictatorship_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 1
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 2
+			APDC_is_fascism_in_governing_coalition = yes
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_dictatorship_k2_should_show = {
+	NOT = { APDC_is_dictatorship_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 2
+		APDC_is_fascism_in_governing_coalition = yes
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+}
+
+APDC_coalition_fascism_r0_should_show = {
+	APDC_is_fascism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 0
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 1
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_fascism_r1_should_show = {
+	APDC_is_fascism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 1
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 2
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_fascism_r2_should_show = {
+	APDC_is_fascism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 2
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 3
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_fascism_r3_should_show = {
+	APDC_is_fascism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 3
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 4
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_fascism_r4_should_show = {
+	APDC_is_fascism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 4
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 5
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_fascism_r5_should_show = {
+	APDC_is_fascism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 5
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 6
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_fascism_r6_should_show = {
+	APDC_is_fascism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 6
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 7
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_fascism_r7_should_show = {
+	APDC_is_fascism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 7
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+	}
+}
+
+APDC_opposition_fascism_k0_should_show = {
+	NOT = { APDC_is_fascism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 0
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 1
+			APDC_is_fundamentalism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_opposition_fascism_k1_should_show = {
+	NOT = { APDC_is_fascism_in_governing_coalition = yes }
+	count_triggers = {
+		amount = 1
+		APDC_is_fundamentalism_in_governing_coalition = yes
+	}
+}
+
+APDC_coalition_fundamentalism_r0_should_show = {
+	APDC_is_fundamentalism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 0
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 1
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_fundamentalism_r1_should_show = {
+	APDC_is_fundamentalism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 1
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 2
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_fundamentalism_r2_should_show = {
+	APDC_is_fundamentalism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 2
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 3
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_fundamentalism_r3_should_show = {
+	APDC_is_fundamentalism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 3
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 4
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_fundamentalism_r4_should_show = {
+	APDC_is_fundamentalism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 4
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 5
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_fundamentalism_r5_should_show = {
+	APDC_is_fundamentalism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 5
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 6
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_fundamentalism_r6_should_show = {
+	APDC_is_fundamentalism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 6
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 7
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_fundamentalism_r7_should_show = {
+	APDC_is_fundamentalism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 7
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+	}
+	# Exact-rank upper bound; count_triggers itself means at least N.
+	NOT = {
+		count_triggers = {
+			amount = 8
+			APDC_is_communism_in_governing_coalition = yes
+			APDC_is_socialism_in_governing_coalition = yes
+			APDC_is_social_democracy_in_governing_coalition = yes
+			APDC_is_conservatism_in_governing_coalition = yes
+			APDC_is_liberalism_in_governing_coalition = yes
+			APDC_is_authoritarianism_in_governing_coalition = yes
+			APDC_is_dictatorship_in_governing_coalition = yes
+			APDC_is_fascism_in_governing_coalition = yes
+		}
+	}
+}
+
+APDC_coalition_fundamentalism_r8_should_show = {
+	APDC_is_fundamentalism_in_governing_coalition = yes
+	count_triggers = {
+		amount = 8
+		APDC_is_communism_in_governing_coalition = yes
+		APDC_is_socialism_in_governing_coalition = yes
+		APDC_is_social_democracy_in_governing_coalition = yes
+		APDC_is_conservatism_in_governing_coalition = yes
+		APDC_is_liberalism_in_governing_coalition = yes
+		APDC_is_authoritarianism_in_governing_coalition = yes
+		APDC_is_dictatorship_in_governing_coalition = yes
+		APDC_is_fascism_in_governing_coalition = yes
+	}
+}
+
+APDC_opposition_fundamentalism_k0_should_show = {
+	NOT = { APDC_is_fundamentalism_in_governing_coalition = yes }
+}

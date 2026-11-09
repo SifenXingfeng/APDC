@@ -1,0 +1,1827 @@
+scripted_gui = {
+apdc_parl_entry_ui = {
+context_type = player_context
+window_name = "apdc_parl_entry"
+parent_window_token = politics_tab
+dirty = apdc_parl_dirty
+properties = {
+apdc_parl_entry_seat_0 = { frame = apdc_parl_seat_colors^0 }
+apdc_parl_entry_seat_1 = { frame = apdc_parl_seat_colors^1 }
+apdc_parl_entry_seat_2 = { frame = apdc_parl_seat_colors^2 }
+apdc_parl_entry_seat_3 = { frame = apdc_parl_seat_colors^3 }
+apdc_parl_entry_seat_4 = { frame = apdc_parl_seat_colors^4 }
+apdc_parl_entry_seat_5 = { frame = apdc_parl_seat_colors^5 }
+apdc_parl_entry_seat_6 = { frame = apdc_parl_seat_colors^6 }
+apdc_parl_entry_seat_7 = { frame = apdc_parl_seat_colors^7 }
+apdc_parl_entry_seat_8 = { frame = apdc_parl_seat_colors^8 }
+apdc_parl_entry_seat_9 = { frame = apdc_parl_seat_colors^9 }
+apdc_parl_entry_seat_10 = { frame = apdc_parl_seat_colors^10 }
+apdc_parl_entry_seat_11 = { frame = apdc_parl_seat_colors^11 }
+apdc_parl_entry_seat_12 = { frame = apdc_parl_seat_colors^12 }
+apdc_parl_entry_seat_13 = { frame = apdc_parl_seat_colors^13 }
+apdc_parl_entry_seat_14 = { frame = apdc_parl_seat_colors^14 }
+apdc_parl_entry_seat_15 = { frame = apdc_parl_seat_colors^15 }
+apdc_parl_entry_seat_16 = { frame = apdc_parl_seat_colors^16 }
+apdc_parl_entry_seat_17 = { frame = apdc_parl_seat_colors^17 }
+apdc_parl_entry_seat_18 = { frame = apdc_parl_seat_colors^18 }
+apdc_parl_entry_seat_19 = { frame = apdc_parl_seat_colors^19 }
+apdc_parl_entry_seat_20 = { frame = apdc_parl_seat_colors^20 }
+apdc_parl_entry_seat_21 = { frame = apdc_parl_seat_colors^21 }
+apdc_parl_entry_seat_22 = { frame = apdc_parl_seat_colors^22 }
+apdc_parl_entry_seat_23 = { frame = apdc_parl_seat_colors^23 }
+apdc_parl_entry_seat_24 = { frame = apdc_parl_seat_colors^24 }
+apdc_parl_entry_seat_25 = { frame = apdc_parl_seat_colors^25 }
+apdc_parl_entry_seat_26 = { frame = apdc_parl_seat_colors^26 }
+apdc_parl_entry_seat_27 = { frame = apdc_parl_seat_colors^27 }
+apdc_parl_entry_seat_28 = { frame = apdc_parl_seat_colors^28 }
+apdc_parl_entry_seat_29 = { frame = apdc_parl_seat_colors^29 }
+apdc_parl_entry_seat_30 = { frame = apdc_parl_seat_colors^30 }
+apdc_parl_entry_seat_31 = { frame = apdc_parl_seat_colors^31 }
+apdc_parl_entry_seat_32 = { frame = apdc_parl_seat_colors^32 }
+apdc_parl_entry_seat_33 = { frame = apdc_parl_seat_colors^33 }
+apdc_parl_entry_seat_34 = { frame = apdc_parl_seat_colors^34 }
+apdc_parl_entry_seat_35 = { frame = apdc_parl_seat_colors^35 }
+apdc_parl_entry_seat_36 = { frame = apdc_parl_seat_colors^36 }
+apdc_parl_entry_seat_37 = { frame = apdc_parl_seat_colors^37 }
+apdc_parl_entry_seat_38 = { frame = apdc_parl_seat_colors^38 }
+apdc_parl_entry_seat_39 = { frame = apdc_parl_seat_colors^39 }
+apdc_parl_entry_seat_40 = { frame = apdc_parl_seat_colors^40 }
+apdc_parl_entry_seat_41 = { frame = apdc_parl_seat_colors^41 }
+apdc_parl_entry_seat_42 = { frame = apdc_parl_seat_colors^42 }
+apdc_parl_entry_seat_43 = { frame = apdc_parl_seat_colors^43 }
+apdc_parl_entry_seat_44 = { frame = apdc_parl_seat_colors^44 }
+apdc_parl_entry_seat_45 = { frame = apdc_parl_seat_colors^45 }
+apdc_parl_entry_seat_46 = { frame = apdc_parl_seat_colors^46 }
+apdc_parl_entry_seat_47 = { frame = apdc_parl_seat_colors^47 }
+apdc_parl_entry_seat_48 = { frame = apdc_parl_seat_colors^48 }
+apdc_parl_entry_seat_49 = { frame = apdc_parl_seat_colors^49 }
+apdc_parl_entry_seat_50 = { frame = apdc_parl_seat_colors^50 }
+apdc_parl_entry_seat_51 = { frame = apdc_parl_seat_colors^51 }
+apdc_parl_entry_seat_52 = { frame = apdc_parl_seat_colors^52 }
+apdc_parl_entry_seat_53 = { frame = apdc_parl_seat_colors^53 }
+apdc_parl_entry_seat_54 = { frame = apdc_parl_seat_colors^54 }
+apdc_parl_entry_seat_55 = { frame = apdc_parl_seat_colors^55 }
+apdc_parl_entry_seat_56 = { frame = apdc_parl_seat_colors^56 }
+apdc_parl_entry_seat_57 = { frame = apdc_parl_seat_colors^57 }
+apdc_parl_entry_seat_58 = { frame = apdc_parl_seat_colors^58 }
+apdc_parl_entry_seat_59 = { frame = apdc_parl_seat_colors^59 }
+apdc_parl_entry_seat_60 = { frame = apdc_parl_seat_colors^60 }
+apdc_parl_entry_seat_61 = { frame = apdc_parl_seat_colors^61 }
+apdc_parl_entry_seat_62 = { frame = apdc_parl_seat_colors^62 }
+apdc_parl_entry_seat_63 = { frame = apdc_parl_seat_colors^63 }
+apdc_parl_entry_seat_64 = { frame = apdc_parl_seat_colors^64 }
+apdc_parl_entry_seat_65 = { frame = apdc_parl_seat_colors^65 }
+apdc_parl_entry_seat_66 = { frame = apdc_parl_seat_colors^66 }
+apdc_parl_entry_seat_67 = { frame = apdc_parl_seat_colors^67 }
+apdc_parl_entry_seat_68 = { frame = apdc_parl_seat_colors^68 }
+apdc_parl_entry_seat_69 = { frame = apdc_parl_seat_colors^69 }
+apdc_parl_entry_seat_70 = { frame = apdc_parl_seat_colors^70 }
+apdc_parl_entry_seat_71 = { frame = apdc_parl_seat_colors^71 }
+apdc_parl_entry_seat_72 = { frame = apdc_parl_seat_colors^72 }
+apdc_parl_entry_seat_73 = { frame = apdc_parl_seat_colors^73 }
+apdc_parl_entry_seat_74 = { frame = apdc_parl_seat_colors^74 }
+apdc_parl_entry_seat_75 = { frame = apdc_parl_seat_colors^75 }
+apdc_parl_entry_seat_76 = { frame = apdc_parl_seat_colors^76 }
+apdc_parl_entry_seat_77 = { frame = apdc_parl_seat_colors^77 }
+apdc_parl_entry_seat_78 = { frame = apdc_parl_seat_colors^78 }
+apdc_parl_entry_seat_79 = { frame = apdc_parl_seat_colors^79 }
+apdc_parl_entry_seat_80 = { frame = apdc_parl_seat_colors^80 }
+apdc_parl_entry_seat_81 = { frame = apdc_parl_seat_colors^81 }
+apdc_parl_entry_seat_82 = { frame = apdc_parl_seat_colors^82 }
+apdc_parl_entry_seat_83 = { frame = apdc_parl_seat_colors^83 }
+apdc_parl_entry_seat_84 = { frame = apdc_parl_seat_colors^84 }
+apdc_parl_entry_seat_85 = { frame = apdc_parl_seat_colors^85 }
+apdc_parl_entry_seat_86 = { frame = apdc_parl_seat_colors^86 }
+apdc_parl_entry_seat_87 = { frame = apdc_parl_seat_colors^87 }
+apdc_parl_entry_seat_88 = { frame = apdc_parl_seat_colors^88 }
+apdc_parl_entry_seat_89 = { frame = apdc_parl_seat_colors^89 }
+apdc_parl_entry_seat_90 = { frame = apdc_parl_seat_colors^90 }
+apdc_parl_entry_seat_91 = { frame = apdc_parl_seat_colors^91 }
+apdc_parl_entry_seat_92 = { frame = apdc_parl_seat_colors^92 }
+apdc_parl_entry_seat_93 = { frame = apdc_parl_seat_colors^93 }
+apdc_parl_entry_seat_94 = { frame = apdc_parl_seat_colors^94 }
+apdc_parl_entry_seat_95 = { frame = apdc_parl_seat_colors^95 }
+apdc_parl_entry_seat_96 = { frame = apdc_parl_seat_colors^96 }
+apdc_parl_entry_seat_97 = { frame = apdc_parl_seat_colors^97 }
+apdc_parl_entry_seat_98 = { frame = apdc_parl_seat_colors^98 }
+apdc_parl_entry_seat_99 = { frame = apdc_parl_seat_colors^99 }
+apdc_parl_entry_seat_100 = { frame = apdc_parl_seat_colors^100 }
+apdc_parl_entry_seat_101 = { frame = apdc_parl_seat_colors^101 }
+apdc_parl_entry_seat_102 = { frame = apdc_parl_seat_colors^102 }
+apdc_parl_entry_seat_103 = { frame = apdc_parl_seat_colors^103 }
+apdc_parl_entry_seat_104 = { frame = apdc_parl_seat_colors^104 }
+apdc_parl_entry_seat_105 = { frame = apdc_parl_seat_colors^105 }
+apdc_parl_entry_seat_106 = { frame = apdc_parl_seat_colors^106 }
+apdc_parl_entry_seat_107 = { frame = apdc_parl_seat_colors^107 }
+apdc_parl_entry_seat_108 = { frame = apdc_parl_seat_colors^108 }
+apdc_parl_entry_seat_109 = { frame = apdc_parl_seat_colors^109 }
+apdc_parl_entry_seat_110 = { frame = apdc_parl_seat_colors^110 }
+apdc_parl_entry_seat_111 = { frame = apdc_parl_seat_colors^111 }
+apdc_parl_entry_seat_112 = { frame = apdc_parl_seat_colors^112 }
+apdc_parl_entry_seat_113 = { frame = apdc_parl_seat_colors^113 }
+apdc_parl_entry_seat_114 = { frame = apdc_parl_seat_colors^114 }
+apdc_parl_entry_seat_115 = { frame = apdc_parl_seat_colors^115 }
+apdc_parl_entry_seat_116 = { frame = apdc_parl_seat_colors^116 }
+apdc_parl_entry_seat_117 = { frame = apdc_parl_seat_colors^117 }
+apdc_parl_entry_seat_118 = { frame = apdc_parl_seat_colors^118 }
+apdc_parl_entry_seat_119 = { frame = apdc_parl_seat_colors^119 }
+apdc_parl_entry_seat_120 = { frame = apdc_parl_seat_colors^120 }
+apdc_parl_entry_seat_121 = { frame = apdc_parl_seat_colors^121 }
+apdc_parl_entry_seat_122 = { frame = apdc_parl_seat_colors^122 }
+apdc_parl_entry_seat_123 = { frame = apdc_parl_seat_colors^123 }
+apdc_parl_entry_seat_124 = { frame = apdc_parl_seat_colors^124 }
+apdc_parl_entry_seat_125 = { frame = apdc_parl_seat_colors^125 }
+apdc_parl_entry_seat_126 = { frame = apdc_parl_seat_colors^126 }
+apdc_parl_entry_seat_127 = { frame = apdc_parl_seat_colors^127 }
+apdc_parl_entry_seat_128 = { frame = apdc_parl_seat_colors^128 }
+apdc_parl_entry_seat_129 = { frame = apdc_parl_seat_colors^129 }
+apdc_parl_entry_seat_130 = { frame = apdc_parl_seat_colors^130 }
+apdc_parl_entry_seat_131 = { frame = apdc_parl_seat_colors^131 }
+apdc_parl_entry_seat_132 = { frame = apdc_parl_seat_colors^132 }
+apdc_parl_entry_seat_133 = { frame = apdc_parl_seat_colors^133 }
+apdc_parl_entry_seat_134 = { frame = apdc_parl_seat_colors^134 }
+apdc_parl_entry_seat_135 = { frame = apdc_parl_seat_colors^135 }
+apdc_parl_entry_seat_136 = { frame = apdc_parl_seat_colors^136 }
+apdc_parl_entry_seat_137 = { frame = apdc_parl_seat_colors^137 }
+apdc_parl_entry_seat_138 = { frame = apdc_parl_seat_colors^138 }
+apdc_parl_entry_seat_139 = { frame = apdc_parl_seat_colors^139 }
+apdc_parl_entry_seat_140 = { frame = apdc_parl_seat_colors^140 }
+apdc_parl_entry_seat_141 = { frame = apdc_parl_seat_colors^141 }
+apdc_parl_entry_seat_142 = { frame = apdc_parl_seat_colors^142 }
+apdc_parl_entry_seat_143 = { frame = apdc_parl_seat_colors^143 }
+apdc_parl_entry_seat_144 = { frame = apdc_parl_seat_colors^144 }
+apdc_parl_entry_seat_145 = { frame = apdc_parl_seat_colors^145 }
+apdc_parl_entry_seat_146 = { frame = apdc_parl_seat_colors^146 }
+apdc_parl_entry_seat_147 = { frame = apdc_parl_seat_colors^147 }
+apdc_parl_entry_seat_148 = { frame = apdc_parl_seat_colors^148 }
+apdc_parl_entry_seat_149 = { frame = apdc_parl_seat_colors^149 }
+apdc_parl_entry_seat_150 = { frame = apdc_parl_seat_colors^150 }
+apdc_parl_entry_seat_151 = { frame = apdc_parl_seat_colors^151 }
+apdc_parl_entry_seat_152 = { frame = apdc_parl_seat_colors^152 }
+apdc_parl_entry_seat_153 = { frame = apdc_parl_seat_colors^153 }
+apdc_parl_entry_seat_154 = { frame = apdc_parl_seat_colors^154 }
+apdc_parl_entry_seat_155 = { frame = apdc_parl_seat_colors^155 }
+apdc_parl_entry_seat_156 = { frame = apdc_parl_seat_colors^156 }
+apdc_parl_entry_seat_157 = { frame = apdc_parl_seat_colors^157 }
+apdc_parl_entry_seat_158 = { frame = apdc_parl_seat_colors^158 }
+apdc_parl_entry_seat_159 = { frame = apdc_parl_seat_colors^159 }
+apdc_parl_entry_seat_160 = { frame = apdc_parl_seat_colors^160 }
+apdc_parl_entry_seat_161 = { frame = apdc_parl_seat_colors^161 }
+apdc_parl_entry_seat_162 = { frame = apdc_parl_seat_colors^162 }
+apdc_parl_entry_seat_163 = { frame = apdc_parl_seat_colors^163 }
+apdc_parl_entry_seat_164 = { frame = apdc_parl_seat_colors^164 }
+apdc_parl_entry_seat_165 = { frame = apdc_parl_seat_colors^165 }
+apdc_parl_entry_seat_166 = { frame = apdc_parl_seat_colors^166 }
+apdc_parl_entry_seat_167 = { frame = apdc_parl_seat_colors^167 }
+apdc_parl_entry_seat_168 = { frame = apdc_parl_seat_colors^168 }
+apdc_parl_entry_seat_169 = { frame = apdc_parl_seat_colors^169 }
+apdc_parl_entry_seat_170 = { frame = apdc_parl_seat_colors^170 }
+apdc_parl_entry_seat_171 = { frame = apdc_parl_seat_colors^171 }
+apdc_parl_entry_seat_172 = { frame = apdc_parl_seat_colors^172 }
+apdc_parl_entry_seat_173 = { frame = apdc_parl_seat_colors^173 }
+apdc_parl_entry_seat_174 = { frame = apdc_parl_seat_colors^174 }
+apdc_parl_entry_seat_175 = { frame = apdc_parl_seat_colors^175 }
+apdc_parl_entry_seat_176 = { frame = apdc_parl_seat_colors^176 }
+apdc_parl_entry_seat_177 = { frame = apdc_parl_seat_colors^177 }
+apdc_parl_entry_seat_178 = { frame = apdc_parl_seat_colors^178 }
+apdc_parl_entry_seat_179 = { frame = apdc_parl_seat_colors^179 }
+apdc_parl_entry_seat_180 = { frame = apdc_parl_seat_colors^180 }
+apdc_parl_entry_seat_181 = { frame = apdc_parl_seat_colors^181 }
+apdc_parl_entry_seat_182 = { frame = apdc_parl_seat_colors^182 }
+apdc_parl_entry_seat_183 = { frame = apdc_parl_seat_colors^183 }
+apdc_parl_entry_seat_184 = { frame = apdc_parl_seat_colors^184 }
+apdc_parl_entry_seat_185 = { frame = apdc_parl_seat_colors^185 }
+apdc_parl_entry_seat_186 = { frame = apdc_parl_seat_colors^186 }
+apdc_parl_entry_seat_187 = { frame = apdc_parl_seat_colors^187 }
+apdc_parl_entry_seat_188 = { frame = apdc_parl_seat_colors^188 }
+apdc_parl_entry_seat_189 = { frame = apdc_parl_seat_colors^189 }
+apdc_parl_entry_seat_190 = { frame = apdc_parl_seat_colors^190 }
+apdc_parl_entry_seat_191 = { frame = apdc_parl_seat_colors^191 }
+apdc_parl_entry_seat_192 = { frame = apdc_parl_seat_colors^192 }
+apdc_parl_entry_seat_193 = { frame = apdc_parl_seat_colors^193 }
+apdc_parl_entry_seat_194 = { frame = apdc_parl_seat_colors^194 }
+apdc_parl_entry_seat_195 = { frame = apdc_parl_seat_colors^195 }
+apdc_parl_entry_seat_196 = { frame = apdc_parl_seat_colors^196 }
+apdc_parl_entry_seat_197 = { frame = apdc_parl_seat_colors^197 }
+apdc_parl_entry_seat_198 = { frame = apdc_parl_seat_colors^198 }
+apdc_parl_entry_seat_199 = { frame = apdc_parl_seat_colors^199 }
+apdc_parl_entry_seat_200 = { frame = apdc_parl_seat_colors^200 }
+apdc_parl_entry_seat_201 = { frame = apdc_parl_seat_colors^201 }
+apdc_parl_entry_seat_202 = { frame = apdc_parl_seat_colors^202 }
+apdc_parl_entry_seat_203 = { frame = apdc_parl_seat_colors^203 }
+apdc_parl_entry_seat_204 = { frame = apdc_parl_seat_colors^204 }
+apdc_parl_entry_seat_205 = { frame = apdc_parl_seat_colors^205 }
+apdc_parl_entry_seat_206 = { frame = apdc_parl_seat_colors^206 }
+apdc_parl_entry_seat_207 = { frame = apdc_parl_seat_colors^207 }
+apdc_parl_entry_seat_208 = { frame = apdc_parl_seat_colors^208 }
+apdc_parl_entry_seat_209 = { frame = apdc_parl_seat_colors^209 }
+apdc_parl_entry_seat_210 = { frame = apdc_parl_seat_colors^210 }
+apdc_parl_entry_seat_211 = { frame = apdc_parl_seat_colors^211 }
+apdc_parl_entry_seat_212 = { frame = apdc_parl_seat_colors^212 }
+apdc_parl_entry_seat_213 = { frame = apdc_parl_seat_colors^213 }
+apdc_parl_entry_seat_214 = { frame = apdc_parl_seat_colors^214 }
+apdc_parl_entry_seat_215 = { frame = apdc_parl_seat_colors^215 }
+apdc_parl_entry_seat_216 = { frame = apdc_parl_seat_colors^216 }
+apdc_parl_entry_seat_217 = { frame = apdc_parl_seat_colors^217 }
+apdc_parl_entry_seat_218 = { frame = apdc_parl_seat_colors^218 }
+apdc_parl_entry_seat_219 = { frame = apdc_parl_seat_colors^219 }
+apdc_parl_entry_seat_220 = { frame = apdc_parl_seat_colors^220 }
+apdc_parl_entry_seat_221 = { frame = apdc_parl_seat_colors^221 }
+apdc_parl_entry_seat_222 = { frame = apdc_parl_seat_colors^222 }
+apdc_parl_entry_seat_223 = { frame = apdc_parl_seat_colors^223 }
+apdc_parl_entry_seat_224 = { frame = apdc_parl_seat_colors^224 }
+apdc_parl_entry_seat_225 = { frame = apdc_parl_seat_colors^225 }
+apdc_parl_entry_seat_226 = { frame = apdc_parl_seat_colors^226 }
+apdc_parl_entry_seat_227 = { frame = apdc_parl_seat_colors^227 }
+apdc_parl_entry_seat_228 = { frame = apdc_parl_seat_colors^228 }
+apdc_parl_entry_seat_229 = { frame = apdc_parl_seat_colors^229 }
+apdc_parl_entry_seat_230 = { frame = apdc_parl_seat_colors^230 }
+apdc_parl_entry_seat_231 = { frame = apdc_parl_seat_colors^231 }
+apdc_parl_entry_seat_232 = { frame = apdc_parl_seat_colors^232 }
+apdc_parl_entry_seat_233 = { frame = apdc_parl_seat_colors^233 }
+apdc_parl_entry_seat_234 = { frame = apdc_parl_seat_colors^234 }
+apdc_parl_entry_seat_235 = { frame = apdc_parl_seat_colors^235 }
+apdc_parl_entry_seat_236 = { frame = apdc_parl_seat_colors^236 }
+apdc_parl_entry_seat_237 = { frame = apdc_parl_seat_colors^237 }
+apdc_parl_entry_seat_238 = { frame = apdc_parl_seat_colors^238 }
+apdc_parl_entry_seat_239 = { frame = apdc_parl_seat_colors^239 }
+apdc_parl_entry_seat_240 = { frame = apdc_parl_seat_colors^240 }
+apdc_parl_entry_seat_241 = { frame = apdc_parl_seat_colors^241 }
+apdc_parl_entry_seat_242 = { frame = apdc_parl_seat_colors^242 }
+apdc_parl_entry_seat_243 = { frame = apdc_parl_seat_colors^243 }
+apdc_parl_entry_seat_244 = { frame = apdc_parl_seat_colors^244 }
+apdc_parl_entry_seat_245 = { frame = apdc_parl_seat_colors^245 }
+apdc_parl_entry_seat_246 = { frame = apdc_parl_seat_colors^246 }
+apdc_parl_entry_seat_247 = { frame = apdc_parl_seat_colors^247 }
+apdc_parl_entry_seat_248 = { frame = apdc_parl_seat_colors^248 }
+apdc_parl_entry_seat_249 = { frame = apdc_parl_seat_colors^249 }
+apdc_parl_entry_seat_250 = { frame = apdc_parl_seat_colors^250 }
+apdc_parl_entry_seat_251 = { frame = apdc_parl_seat_colors^251 }
+apdc_parl_entry_seat_252 = { frame = apdc_parl_seat_colors^252 }
+apdc_parl_entry_seat_253 = { frame = apdc_parl_seat_colors^253 }
+apdc_parl_entry_seat_254 = { frame = apdc_parl_seat_colors^254 }
+apdc_parl_entry_seat_255 = { frame = apdc_parl_seat_colors^255 }
+apdc_parl_entry_seat_256 = { frame = apdc_parl_seat_colors^256 }
+apdc_parl_entry_seat_257 = { frame = apdc_parl_seat_colors^257 }
+apdc_parl_entry_seat_258 = { frame = apdc_parl_seat_colors^258 }
+apdc_parl_entry_seat_259 = { frame = apdc_parl_seat_colors^259 }
+apdc_parl_entry_seat_260 = { frame = apdc_parl_seat_colors^260 }
+apdc_parl_entry_seat_261 = { frame = apdc_parl_seat_colors^261 }
+apdc_parl_entry_seat_262 = { frame = apdc_parl_seat_colors^262 }
+apdc_parl_entry_seat_263 = { frame = apdc_parl_seat_colors^263 }
+apdc_parl_entry_seat_264 = { frame = apdc_parl_seat_colors^264 }
+apdc_parl_entry_seat_265 = { frame = apdc_parl_seat_colors^265 }
+apdc_parl_entry_seat_266 = { frame = apdc_parl_seat_colors^266 }
+apdc_parl_entry_seat_267 = { frame = apdc_parl_seat_colors^267 }
+apdc_parl_entry_seat_268 = { frame = apdc_parl_seat_colors^268 }
+apdc_parl_entry_seat_269 = { frame = apdc_parl_seat_colors^269 }
+apdc_parl_entry_seat_270 = { frame = apdc_parl_seat_colors^270 }
+apdc_parl_entry_seat_271 = { frame = apdc_parl_seat_colors^271 }
+apdc_parl_entry_seat_272 = { frame = apdc_parl_seat_colors^272 }
+apdc_parl_entry_seat_273 = { frame = apdc_parl_seat_colors^273 }
+apdc_parl_entry_seat_274 = { frame = apdc_parl_seat_colors^274 }
+apdc_parl_entry_seat_275 = { frame = apdc_parl_seat_colors^275 }
+apdc_parl_entry_seat_276 = { frame = apdc_parl_seat_colors^276 }
+apdc_parl_entry_seat_277 = { frame = apdc_parl_seat_colors^277 }
+apdc_parl_entry_seat_278 = { frame = apdc_parl_seat_colors^278 }
+apdc_parl_entry_seat_279 = { frame = apdc_parl_seat_colors^279 }
+apdc_parl_entry_seat_280 = { frame = apdc_parl_seat_colors^280 }
+apdc_parl_entry_seat_281 = { frame = apdc_parl_seat_colors^281 }
+apdc_parl_entry_seat_282 = { frame = apdc_parl_seat_colors^282 }
+apdc_parl_entry_seat_283 = { frame = apdc_parl_seat_colors^283 }
+apdc_parl_entry_seat_284 = { frame = apdc_parl_seat_colors^284 }
+apdc_parl_entry_seat_285 = { frame = apdc_parl_seat_colors^285 }
+apdc_parl_entry_seat_286 = { frame = apdc_parl_seat_colors^286 }
+apdc_parl_entry_seat_287 = { frame = apdc_parl_seat_colors^287 }
+apdc_parl_entry_seat_288 = { frame = apdc_parl_seat_colors^288 }
+apdc_parl_entry_seat_289 = { frame = apdc_parl_seat_colors^289 }
+apdc_parl_entry_seat_290 = { frame = apdc_parl_seat_colors^290 }
+apdc_parl_entry_seat_291 = { frame = apdc_parl_seat_colors^291 }
+apdc_parl_entry_seat_292 = { frame = apdc_parl_seat_colors^292 }
+apdc_parl_entry_seat_293 = { frame = apdc_parl_seat_colors^293 }
+apdc_parl_entry_seat_294 = { frame = apdc_parl_seat_colors^294 }
+apdc_parl_entry_seat_295 = { frame = apdc_parl_seat_colors^295 }
+apdc_parl_entry_seat_296 = { frame = apdc_parl_seat_colors^296 }
+apdc_parl_entry_seat_297 = { frame = apdc_parl_seat_colors^297 }
+apdc_parl_entry_seat_298 = { frame = apdc_parl_seat_colors^298 }
+apdc_parl_entry_seat_299 = { frame = apdc_parl_seat_colors^299 }
+apdc_parl_entry_seat_300 = { frame = apdc_parl_seat_colors^300 }
+apdc_parl_entry_seat_301 = { frame = apdc_parl_seat_colors^301 }
+apdc_parl_entry_seat_302 = { frame = apdc_parl_seat_colors^302 }
+apdc_parl_entry_seat_303 = { frame = apdc_parl_seat_colors^303 }
+apdc_parl_entry_seat_304 = { frame = apdc_parl_seat_colors^304 }
+apdc_parl_entry_seat_305 = { frame = apdc_parl_seat_colors^305 }
+apdc_parl_entry_seat_306 = { frame = apdc_parl_seat_colors^306 }
+apdc_parl_entry_seat_307 = { frame = apdc_parl_seat_colors^307 }
+apdc_parl_entry_seat_308 = { frame = apdc_parl_seat_colors^308 }
+apdc_parl_entry_seat_309 = { frame = apdc_parl_seat_colors^309 }
+apdc_parl_entry_seat_310 = { frame = apdc_parl_seat_colors^310 }
+apdc_parl_entry_seat_311 = { frame = apdc_parl_seat_colors^311 }
+apdc_parl_entry_seat_312 = { frame = apdc_parl_seat_colors^312 }
+apdc_parl_entry_seat_313 = { frame = apdc_parl_seat_colors^313 }
+apdc_parl_entry_seat_314 = { frame = apdc_parl_seat_colors^314 }
+apdc_parl_entry_seat_315 = { frame = apdc_parl_seat_colors^315 }
+apdc_parl_entry_seat_316 = { frame = apdc_parl_seat_colors^316 }
+apdc_parl_entry_seat_317 = { frame = apdc_parl_seat_colors^317 }
+apdc_parl_entry_seat_318 = { frame = apdc_parl_seat_colors^318 }
+apdc_parl_entry_seat_319 = { frame = apdc_parl_seat_colors^319 }
+apdc_parl_entry_seat_320 = { frame = apdc_parl_seat_colors^320 }
+apdc_parl_entry_seat_321 = { frame = apdc_parl_seat_colors^321 }
+apdc_parl_entry_seat_322 = { frame = apdc_parl_seat_colors^322 }
+apdc_parl_entry_seat_323 = { frame = apdc_parl_seat_colors^323 }
+apdc_parl_entry_seat_324 = { frame = apdc_parl_seat_colors^324 }
+apdc_parl_entry_seat_325 = { frame = apdc_parl_seat_colors^325 }
+apdc_parl_entry_seat_326 = { frame = apdc_parl_seat_colors^326 }
+apdc_parl_entry_seat_327 = { frame = apdc_parl_seat_colors^327 }
+apdc_parl_entry_seat_328 = { frame = apdc_parl_seat_colors^328 }
+apdc_parl_entry_seat_329 = { frame = apdc_parl_seat_colors^329 }
+apdc_parl_entry_seat_330 = { frame = apdc_parl_seat_colors^330 }
+apdc_parl_entry_seat_331 = { frame = apdc_parl_seat_colors^331 }
+apdc_parl_entry_seat_332 = { frame = apdc_parl_seat_colors^332 }
+apdc_parl_entry_seat_333 = { frame = apdc_parl_seat_colors^333 }
+apdc_parl_entry_seat_334 = { frame = apdc_parl_seat_colors^334 }
+apdc_parl_entry_seat_335 = { frame = apdc_parl_seat_colors^335 }
+apdc_parl_entry_seat_336 = { frame = apdc_parl_seat_colors^336 }
+apdc_parl_entry_seat_337 = { frame = apdc_parl_seat_colors^337 }
+apdc_parl_entry_seat_338 = { frame = apdc_parl_seat_colors^338 }
+apdc_parl_entry_seat_339 = { frame = apdc_parl_seat_colors^339 }
+apdc_parl_entry_seat_340 = { frame = apdc_parl_seat_colors^340 }
+apdc_parl_entry_seat_341 = { frame = apdc_parl_seat_colors^341 }
+apdc_parl_entry_seat_342 = { frame = apdc_parl_seat_colors^342 }
+apdc_parl_entry_seat_343 = { frame = apdc_parl_seat_colors^343 }
+apdc_parl_entry_seat_344 = { frame = apdc_parl_seat_colors^344 }
+apdc_parl_entry_seat_345 = { frame = apdc_parl_seat_colors^345 }
+apdc_parl_entry_seat_346 = { frame = apdc_parl_seat_colors^346 }
+apdc_parl_entry_seat_347 = { frame = apdc_parl_seat_colors^347 }
+apdc_parl_entry_seat_348 = { frame = apdc_parl_seat_colors^348 }
+apdc_parl_entry_seat_349 = { frame = apdc_parl_seat_colors^349 }
+apdc_parl_entry_seat_350 = { frame = apdc_parl_seat_colors^350 }
+apdc_parl_entry_seat_351 = { frame = apdc_parl_seat_colors^351 }
+apdc_parl_entry_seat_352 = { frame = apdc_parl_seat_colors^352 }
+apdc_parl_entry_seat_353 = { frame = apdc_parl_seat_colors^353 }
+apdc_parl_entry_seat_354 = { frame = apdc_parl_seat_colors^354 }
+apdc_parl_entry_seat_355 = { frame = apdc_parl_seat_colors^355 }
+apdc_parl_entry_seat_356 = { frame = apdc_parl_seat_colors^356 }
+apdc_parl_entry_seat_357 = { frame = apdc_parl_seat_colors^357 }
+apdc_parl_entry_seat_358 = { frame = apdc_parl_seat_colors^358 }
+apdc_parl_entry_seat_359 = { frame = apdc_parl_seat_colors^359 }
+apdc_parl_entry_seat_360 = { frame = apdc_parl_seat_colors^360 }
+apdc_parl_entry_seat_361 = { frame = apdc_parl_seat_colors^361 }
+apdc_parl_entry_seat_362 = { frame = apdc_parl_seat_colors^362 }
+apdc_parl_entry_seat_363 = { frame = apdc_parl_seat_colors^363 }
+apdc_parl_entry_seat_364 = { frame = apdc_parl_seat_colors^364 }
+apdc_parl_entry_seat_365 = { frame = apdc_parl_seat_colors^365 }
+apdc_parl_entry_seat_366 = { frame = apdc_parl_seat_colors^366 }
+apdc_parl_entry_seat_367 = { frame = apdc_parl_seat_colors^367 }
+apdc_parl_entry_seat_368 = { frame = apdc_parl_seat_colors^368 }
+apdc_parl_entry_seat_369 = { frame = apdc_parl_seat_colors^369 }
+apdc_parl_entry_seat_370 = { frame = apdc_parl_seat_colors^370 }
+apdc_parl_entry_seat_371 = { frame = apdc_parl_seat_colors^371 }
+apdc_parl_entry_seat_372 = { frame = apdc_parl_seat_colors^372 }
+apdc_parl_entry_seat_373 = { frame = apdc_parl_seat_colors^373 }
+apdc_parl_entry_seat_374 = { frame = apdc_parl_seat_colors^374 }
+apdc_parl_entry_seat_375 = { frame = apdc_parl_seat_colors^375 }
+apdc_parl_entry_seat_376 = { frame = apdc_parl_seat_colors^376 }
+apdc_parl_entry_seat_377 = { frame = apdc_parl_seat_colors^377 }
+apdc_parl_entry_seat_378 = { frame = apdc_parl_seat_colors^378 }
+apdc_parl_entry_seat_379 = { frame = apdc_parl_seat_colors^379 }
+apdc_parl_entry_seat_380 = { frame = apdc_parl_seat_colors^380 }
+apdc_parl_entry_seat_381 = { frame = apdc_parl_seat_colors^381 }
+apdc_parl_entry_seat_382 = { frame = apdc_parl_seat_colors^382 }
+apdc_parl_entry_seat_383 = { frame = apdc_parl_seat_colors^383 }
+apdc_parl_entry_seat_384 = { frame = apdc_parl_seat_colors^384 }
+apdc_parl_entry_seat_385 = { frame = apdc_parl_seat_colors^385 }
+apdc_parl_entry_seat_386 = { frame = apdc_parl_seat_colors^386 }
+apdc_parl_entry_seat_387 = { frame = apdc_parl_seat_colors^387 }
+apdc_parl_entry_seat_388 = { frame = apdc_parl_seat_colors^388 }
+apdc_parl_entry_seat_389 = { frame = apdc_parl_seat_colors^389 }
+apdc_parl_entry_seat_390 = { frame = apdc_parl_seat_colors^390 }
+apdc_parl_entry_seat_391 = { frame = apdc_parl_seat_colors^391 }
+apdc_parl_entry_seat_392 = { frame = apdc_parl_seat_colors^392 }
+apdc_parl_entry_seat_393 = { frame = apdc_parl_seat_colors^393 }
+apdc_parl_entry_seat_394 = { frame = apdc_parl_seat_colors^394 }
+apdc_parl_entry_seat_395 = { frame = apdc_parl_seat_colors^395 }
+apdc_parl_entry_seat_396 = { frame = apdc_parl_seat_colors^396 }
+apdc_parl_entry_seat_397 = { frame = apdc_parl_seat_colors^397 }
+apdc_parl_entry_seat_398 = { frame = apdc_parl_seat_colors^398 }
+apdc_parl_entry_seat_399 = { frame = apdc_parl_seat_colors^399 }
+apdc_parl_entry_seat_400 = { frame = apdc_parl_seat_colors^400 }
+apdc_parl_entry_seat_401 = { frame = apdc_parl_seat_colors^401 }
+apdc_parl_entry_seat_402 = { frame = apdc_parl_seat_colors^402 }
+apdc_parl_entry_seat_403 = { frame = apdc_parl_seat_colors^403 }
+apdc_parl_entry_seat_404 = { frame = apdc_parl_seat_colors^404 }
+apdc_parl_entry_seat_405 = { frame = apdc_parl_seat_colors^405 }
+apdc_parl_entry_seat_406 = { frame = apdc_parl_seat_colors^406 }
+apdc_parl_entry_seat_407 = { frame = apdc_parl_seat_colors^407 }
+apdc_parl_entry_seat_408 = { frame = apdc_parl_seat_colors^408 }
+apdc_parl_entry_seat_409 = { frame = apdc_parl_seat_colors^409 }
+apdc_parl_entry_seat_410 = { frame = apdc_parl_seat_colors^410 }
+apdc_parl_entry_seat_411 = { frame = apdc_parl_seat_colors^411 }
+apdc_parl_entry_seat_412 = { frame = apdc_parl_seat_colors^412 }
+apdc_parl_entry_seat_413 = { frame = apdc_parl_seat_colors^413 }
+apdc_parl_entry_seat_414 = { frame = apdc_parl_seat_colors^414 }
+apdc_parl_entry_seat_415 = { frame = apdc_parl_seat_colors^415 }
+apdc_parl_entry_seat_416 = { frame = apdc_parl_seat_colors^416 }
+apdc_parl_entry_seat_417 = { frame = apdc_parl_seat_colors^417 }
+apdc_parl_entry_seat_418 = { frame = apdc_parl_seat_colors^418 }
+apdc_parl_entry_seat_419 = { frame = apdc_parl_seat_colors^419 }
+apdc_parl_entry_seat_420 = { frame = apdc_parl_seat_colors^420 }
+apdc_parl_entry_seat_421 = { frame = apdc_parl_seat_colors^421 }
+apdc_parl_entry_seat_422 = { frame = apdc_parl_seat_colors^422 }
+apdc_parl_entry_seat_423 = { frame = apdc_parl_seat_colors^423 }
+apdc_parl_entry_seat_424 = { frame = apdc_parl_seat_colors^424 }
+apdc_parl_entry_seat_425 = { frame = apdc_parl_seat_colors^425 }
+apdc_parl_entry_seat_426 = { frame = apdc_parl_seat_colors^426 }
+apdc_parl_entry_seat_427 = { frame = apdc_parl_seat_colors^427 }
+apdc_parl_entry_seat_428 = { frame = apdc_parl_seat_colors^428 }
+apdc_parl_entry_seat_429 = { frame = apdc_parl_seat_colors^429 }
+apdc_parl_entry_seat_430 = { frame = apdc_parl_seat_colors^430 }
+apdc_parl_entry_seat_431 = { frame = apdc_parl_seat_colors^431 }
+apdc_parl_entry_seat_432 = { frame = apdc_parl_seat_colors^432 }
+apdc_parl_entry_seat_433 = { frame = apdc_parl_seat_colors^433 }
+apdc_parl_entry_seat_434 = { frame = apdc_parl_seat_colors^434 }
+apdc_parl_entry_seat_435 = { frame = apdc_parl_seat_colors^435 }
+apdc_parl_entry_seat_436 = { frame = apdc_parl_seat_colors^436 }
+apdc_parl_entry_seat_437 = { frame = apdc_parl_seat_colors^437 }
+apdc_parl_entry_seat_438 = { frame = apdc_parl_seat_colors^438 }
+apdc_parl_entry_seat_439 = { frame = apdc_parl_seat_colors^439 }
+apdc_parl_entry_seat_440 = { frame = apdc_parl_seat_colors^440 }
+apdc_parl_entry_seat_441 = { frame = apdc_parl_seat_colors^441 }
+apdc_parl_entry_seat_442 = { frame = apdc_parl_seat_colors^442 }
+apdc_parl_entry_seat_443 = { frame = apdc_parl_seat_colors^443 }
+apdc_parl_entry_seat_444 = { frame = apdc_parl_seat_colors^444 }
+apdc_parl_entry_seat_445 = { frame = apdc_parl_seat_colors^445 }
+apdc_parl_entry_seat_446 = { frame = apdc_parl_seat_colors^446 }
+apdc_parl_entry_seat_447 = { frame = apdc_parl_seat_colors^447 }
+apdc_parl_entry_seat_448 = { frame = apdc_parl_seat_colors^448 }
+apdc_parl_entry_seat_449 = { frame = apdc_parl_seat_colors^449 }
+apdc_parl_entry_seat_450 = { frame = apdc_parl_seat_colors^450 }
+apdc_parl_entry_seat_451 = { frame = apdc_parl_seat_colors^451 }
+apdc_parl_entry_seat_452 = { frame = apdc_parl_seat_colors^452 }
+apdc_parl_entry_seat_453 = { frame = apdc_parl_seat_colors^453 }
+apdc_parl_entry_seat_454 = { frame = apdc_parl_seat_colors^454 }
+apdc_parl_entry_seat_455 = { frame = apdc_parl_seat_colors^455 }
+apdc_parl_entry_seat_456 = { frame = apdc_parl_seat_colors^456 }
+apdc_parl_entry_seat_457 = { frame = apdc_parl_seat_colors^457 }
+apdc_parl_entry_seat_458 = { frame = apdc_parl_seat_colors^458 }
+apdc_parl_entry_seat_459 = { frame = apdc_parl_seat_colors^459 }
+apdc_parl_entry_seat_460 = { frame = apdc_parl_seat_colors^460 }
+apdc_parl_entry_seat_461 = { frame = apdc_parl_seat_colors^461 }
+apdc_parl_entry_seat_462 = { frame = apdc_parl_seat_colors^462 }
+apdc_parl_entry_seat_463 = { frame = apdc_parl_seat_colors^463 }
+apdc_parl_entry_seat_464 = { frame = apdc_parl_seat_colors^464 }
+apdc_parl_entry_seat_465 = { frame = apdc_parl_seat_colors^465 }
+apdc_parl_entry_seat_466 = { frame = apdc_parl_seat_colors^466 }
+apdc_parl_entry_seat_467 = { frame = apdc_parl_seat_colors^467 }
+apdc_parl_entry_seat_468 = { frame = apdc_parl_seat_colors^468 }
+apdc_parl_entry_seat_469 = { frame = apdc_parl_seat_colors^469 }
+apdc_parl_entry_seat_470 = { frame = apdc_parl_seat_colors^470 }
+apdc_parl_entry_seat_471 = { frame = apdc_parl_seat_colors^471 }
+apdc_parl_entry_seat_472 = { frame = apdc_parl_seat_colors^472 }
+apdc_parl_entry_seat_473 = { frame = apdc_parl_seat_colors^473 }
+apdc_parl_entry_seat_474 = { frame = apdc_parl_seat_colors^474 }
+apdc_parl_entry_seat_475 = { frame = apdc_parl_seat_colors^475 }
+apdc_parl_entry_seat_476 = { frame = apdc_parl_seat_colors^476 }
+apdc_parl_entry_seat_477 = { frame = apdc_parl_seat_colors^477 }
+apdc_parl_entry_seat_478 = { frame = apdc_parl_seat_colors^478 }
+apdc_parl_entry_seat_479 = { frame = apdc_parl_seat_colors^479 }
+apdc_parl_entry_seat_480 = { frame = apdc_parl_seat_colors^480 }
+apdc_parl_entry_seat_481 = { frame = apdc_parl_seat_colors^481 }
+apdc_parl_entry_seat_482 = { frame = apdc_parl_seat_colors^482 }
+apdc_parl_entry_seat_483 = { frame = apdc_parl_seat_colors^483 }
+apdc_parl_entry_seat_484 = { frame = apdc_parl_seat_colors^484 }
+apdc_parl_entry_seat_485 = { frame = apdc_parl_seat_colors^485 }
+apdc_parl_entry_seat_486 = { frame = apdc_parl_seat_colors^486 }
+apdc_parl_entry_seat_487 = { frame = apdc_parl_seat_colors^487 }
+apdc_parl_entry_seat_488 = { frame = apdc_parl_seat_colors^488 }
+apdc_parl_entry_seat_489 = { frame = apdc_parl_seat_colors^489 }
+apdc_parl_entry_seat_490 = { frame = apdc_parl_seat_colors^490 }
+apdc_parl_entry_seat_491 = { frame = apdc_parl_seat_colors^491 }
+apdc_parl_entry_seat_492 = { frame = apdc_parl_seat_colors^492 }
+apdc_parl_entry_seat_493 = { frame = apdc_parl_seat_colors^493 }
+apdc_parl_entry_seat_494 = { frame = apdc_parl_seat_colors^494 }
+apdc_parl_entry_seat_495 = { frame = apdc_parl_seat_colors^495 }
+apdc_parl_entry_seat_496 = { frame = apdc_parl_seat_colors^496 }
+apdc_parl_entry_seat_497 = { frame = apdc_parl_seat_colors^497 }
+apdc_parl_entry_seat_498 = { frame = apdc_parl_seat_colors^498 }
+apdc_parl_entry_seat_499 = { frame = apdc_parl_seat_colors^499 }
+
+}
+effects = {
+apdc_parl_entry_button_click = { if = { limit = { has_country_flag = apdc_parl_open } clr_country_flag = apdc_parl_open clr_country_flag = apdc_parl_candidate_panel_open clear_variable = apdc_parl_selected_group } else = { apdc_parl_initialize = yes apdc_parl_refresh = yes APDC_update_cabinet_statistics = yes set_country_flag = apdc_parl_open }add_to_variable = { apdc_parl_dirty = 1 }
+ }
+}
+visible = { always = yes }
+
+}
+apdc_parl_panel_ui = {
+context_type = player_context
+window_name = "apdc_parl_panel"
+dirty = apdc_parl_dirty
+visible = { has_country_flag = apdc_parl_open }
+properties = {
+apdc_parl_regime = { image = "[ApdcParlRegimeIcon]" }
+apdc_parl_role_portrait_7 = { image = "[ApdcParlRole7Portrait]" }
+apdc_parl_role_portrait_8 = { image = "[ApdcParlRole8Portrait]" }
+apdc_parl_role_portrait_1 = { image = "[ApdcParlRole1Portrait]" }
+apdc_parl_role_portrait_2 = { image = "[ApdcParlRole2Portrait]" }
+apdc_parl_role_portrait_3 = { image = "[ApdcParlRole3Portrait]" }
+apdc_parl_role_portrait_4 = { image = "[ApdcParlRole4Portrait]" }
+apdc_parl_role_portrait_5 = { image = "[ApdcParlRole5Portrait]" }
+apdc_parl_role_portrait_6 = { image = "[ApdcParlRole6Portrait]" }
+apdc_parl_seat_0 = { frame = apdc_parl_seat_colors^0 }
+apdc_parl_seat_1 = { frame = apdc_parl_seat_colors^1 }
+apdc_parl_seat_2 = { frame = apdc_parl_seat_colors^2 }
+apdc_parl_seat_3 = { frame = apdc_parl_seat_colors^3 }
+apdc_parl_seat_4 = { frame = apdc_parl_seat_colors^4 }
+apdc_parl_seat_5 = { frame = apdc_parl_seat_colors^5 }
+apdc_parl_seat_6 = { frame = apdc_parl_seat_colors^6 }
+apdc_parl_seat_7 = { frame = apdc_parl_seat_colors^7 }
+apdc_parl_seat_8 = { frame = apdc_parl_seat_colors^8 }
+apdc_parl_seat_9 = { frame = apdc_parl_seat_colors^9 }
+apdc_parl_seat_10 = { frame = apdc_parl_seat_colors^10 }
+apdc_parl_seat_11 = { frame = apdc_parl_seat_colors^11 }
+apdc_parl_seat_12 = { frame = apdc_parl_seat_colors^12 }
+apdc_parl_seat_13 = { frame = apdc_parl_seat_colors^13 }
+apdc_parl_seat_14 = { frame = apdc_parl_seat_colors^14 }
+apdc_parl_seat_15 = { frame = apdc_parl_seat_colors^15 }
+apdc_parl_seat_16 = { frame = apdc_parl_seat_colors^16 }
+apdc_parl_seat_17 = { frame = apdc_parl_seat_colors^17 }
+apdc_parl_seat_18 = { frame = apdc_parl_seat_colors^18 }
+apdc_parl_seat_19 = { frame = apdc_parl_seat_colors^19 }
+apdc_parl_seat_20 = { frame = apdc_parl_seat_colors^20 }
+apdc_parl_seat_21 = { frame = apdc_parl_seat_colors^21 }
+apdc_parl_seat_22 = { frame = apdc_parl_seat_colors^22 }
+apdc_parl_seat_23 = { frame = apdc_parl_seat_colors^23 }
+apdc_parl_seat_24 = { frame = apdc_parl_seat_colors^24 }
+apdc_parl_seat_25 = { frame = apdc_parl_seat_colors^25 }
+apdc_parl_seat_26 = { frame = apdc_parl_seat_colors^26 }
+apdc_parl_seat_27 = { frame = apdc_parl_seat_colors^27 }
+apdc_parl_seat_28 = { frame = apdc_parl_seat_colors^28 }
+apdc_parl_seat_29 = { frame = apdc_parl_seat_colors^29 }
+apdc_parl_seat_30 = { frame = apdc_parl_seat_colors^30 }
+apdc_parl_seat_31 = { frame = apdc_parl_seat_colors^31 }
+apdc_parl_seat_32 = { frame = apdc_parl_seat_colors^32 }
+apdc_parl_seat_33 = { frame = apdc_parl_seat_colors^33 }
+apdc_parl_seat_34 = { frame = apdc_parl_seat_colors^34 }
+apdc_parl_seat_35 = { frame = apdc_parl_seat_colors^35 }
+apdc_parl_seat_36 = { frame = apdc_parl_seat_colors^36 }
+apdc_parl_seat_37 = { frame = apdc_parl_seat_colors^37 }
+apdc_parl_seat_38 = { frame = apdc_parl_seat_colors^38 }
+apdc_parl_seat_39 = { frame = apdc_parl_seat_colors^39 }
+apdc_parl_seat_40 = { frame = apdc_parl_seat_colors^40 }
+apdc_parl_seat_41 = { frame = apdc_parl_seat_colors^41 }
+apdc_parl_seat_42 = { frame = apdc_parl_seat_colors^42 }
+apdc_parl_seat_43 = { frame = apdc_parl_seat_colors^43 }
+apdc_parl_seat_44 = { frame = apdc_parl_seat_colors^44 }
+apdc_parl_seat_45 = { frame = apdc_parl_seat_colors^45 }
+apdc_parl_seat_46 = { frame = apdc_parl_seat_colors^46 }
+apdc_parl_seat_47 = { frame = apdc_parl_seat_colors^47 }
+apdc_parl_seat_48 = { frame = apdc_parl_seat_colors^48 }
+apdc_parl_seat_49 = { frame = apdc_parl_seat_colors^49 }
+apdc_parl_seat_50 = { frame = apdc_parl_seat_colors^50 }
+apdc_parl_seat_51 = { frame = apdc_parl_seat_colors^51 }
+apdc_parl_seat_52 = { frame = apdc_parl_seat_colors^52 }
+apdc_parl_seat_53 = { frame = apdc_parl_seat_colors^53 }
+apdc_parl_seat_54 = { frame = apdc_parl_seat_colors^54 }
+apdc_parl_seat_55 = { frame = apdc_parl_seat_colors^55 }
+apdc_parl_seat_56 = { frame = apdc_parl_seat_colors^56 }
+apdc_parl_seat_57 = { frame = apdc_parl_seat_colors^57 }
+apdc_parl_seat_58 = { frame = apdc_parl_seat_colors^58 }
+apdc_parl_seat_59 = { frame = apdc_parl_seat_colors^59 }
+apdc_parl_seat_60 = { frame = apdc_parl_seat_colors^60 }
+apdc_parl_seat_61 = { frame = apdc_parl_seat_colors^61 }
+apdc_parl_seat_62 = { frame = apdc_parl_seat_colors^62 }
+apdc_parl_seat_63 = { frame = apdc_parl_seat_colors^63 }
+apdc_parl_seat_64 = { frame = apdc_parl_seat_colors^64 }
+apdc_parl_seat_65 = { frame = apdc_parl_seat_colors^65 }
+apdc_parl_seat_66 = { frame = apdc_parl_seat_colors^66 }
+apdc_parl_seat_67 = { frame = apdc_parl_seat_colors^67 }
+apdc_parl_seat_68 = { frame = apdc_parl_seat_colors^68 }
+apdc_parl_seat_69 = { frame = apdc_parl_seat_colors^69 }
+apdc_parl_seat_70 = { frame = apdc_parl_seat_colors^70 }
+apdc_parl_seat_71 = { frame = apdc_parl_seat_colors^71 }
+apdc_parl_seat_72 = { frame = apdc_parl_seat_colors^72 }
+apdc_parl_seat_73 = { frame = apdc_parl_seat_colors^73 }
+apdc_parl_seat_74 = { frame = apdc_parl_seat_colors^74 }
+apdc_parl_seat_75 = { frame = apdc_parl_seat_colors^75 }
+apdc_parl_seat_76 = { frame = apdc_parl_seat_colors^76 }
+apdc_parl_seat_77 = { frame = apdc_parl_seat_colors^77 }
+apdc_parl_seat_78 = { frame = apdc_parl_seat_colors^78 }
+apdc_parl_seat_79 = { frame = apdc_parl_seat_colors^79 }
+apdc_parl_seat_80 = { frame = apdc_parl_seat_colors^80 }
+apdc_parl_seat_81 = { frame = apdc_parl_seat_colors^81 }
+apdc_parl_seat_82 = { frame = apdc_parl_seat_colors^82 }
+apdc_parl_seat_83 = { frame = apdc_parl_seat_colors^83 }
+apdc_parl_seat_84 = { frame = apdc_parl_seat_colors^84 }
+apdc_parl_seat_85 = { frame = apdc_parl_seat_colors^85 }
+apdc_parl_seat_86 = { frame = apdc_parl_seat_colors^86 }
+apdc_parl_seat_87 = { frame = apdc_parl_seat_colors^87 }
+apdc_parl_seat_88 = { frame = apdc_parl_seat_colors^88 }
+apdc_parl_seat_89 = { frame = apdc_parl_seat_colors^89 }
+apdc_parl_seat_90 = { frame = apdc_parl_seat_colors^90 }
+apdc_parl_seat_91 = { frame = apdc_parl_seat_colors^91 }
+apdc_parl_seat_92 = { frame = apdc_parl_seat_colors^92 }
+apdc_parl_seat_93 = { frame = apdc_parl_seat_colors^93 }
+apdc_parl_seat_94 = { frame = apdc_parl_seat_colors^94 }
+apdc_parl_seat_95 = { frame = apdc_parl_seat_colors^95 }
+apdc_parl_seat_96 = { frame = apdc_parl_seat_colors^96 }
+apdc_parl_seat_97 = { frame = apdc_parl_seat_colors^97 }
+apdc_parl_seat_98 = { frame = apdc_parl_seat_colors^98 }
+apdc_parl_seat_99 = { frame = apdc_parl_seat_colors^99 }
+apdc_parl_seat_100 = { frame = apdc_parl_seat_colors^100 }
+apdc_parl_seat_101 = { frame = apdc_parl_seat_colors^101 }
+apdc_parl_seat_102 = { frame = apdc_parl_seat_colors^102 }
+apdc_parl_seat_103 = { frame = apdc_parl_seat_colors^103 }
+apdc_parl_seat_104 = { frame = apdc_parl_seat_colors^104 }
+apdc_parl_seat_105 = { frame = apdc_parl_seat_colors^105 }
+apdc_parl_seat_106 = { frame = apdc_parl_seat_colors^106 }
+apdc_parl_seat_107 = { frame = apdc_parl_seat_colors^107 }
+apdc_parl_seat_108 = { frame = apdc_parl_seat_colors^108 }
+apdc_parl_seat_109 = { frame = apdc_parl_seat_colors^109 }
+apdc_parl_seat_110 = { frame = apdc_parl_seat_colors^110 }
+apdc_parl_seat_111 = { frame = apdc_parl_seat_colors^111 }
+apdc_parl_seat_112 = { frame = apdc_parl_seat_colors^112 }
+apdc_parl_seat_113 = { frame = apdc_parl_seat_colors^113 }
+apdc_parl_seat_114 = { frame = apdc_parl_seat_colors^114 }
+apdc_parl_seat_115 = { frame = apdc_parl_seat_colors^115 }
+apdc_parl_seat_116 = { frame = apdc_parl_seat_colors^116 }
+apdc_parl_seat_117 = { frame = apdc_parl_seat_colors^117 }
+apdc_parl_seat_118 = { frame = apdc_parl_seat_colors^118 }
+apdc_parl_seat_119 = { frame = apdc_parl_seat_colors^119 }
+apdc_parl_seat_120 = { frame = apdc_parl_seat_colors^120 }
+apdc_parl_seat_121 = { frame = apdc_parl_seat_colors^121 }
+apdc_parl_seat_122 = { frame = apdc_parl_seat_colors^122 }
+apdc_parl_seat_123 = { frame = apdc_parl_seat_colors^123 }
+apdc_parl_seat_124 = { frame = apdc_parl_seat_colors^124 }
+apdc_parl_seat_125 = { frame = apdc_parl_seat_colors^125 }
+apdc_parl_seat_126 = { frame = apdc_parl_seat_colors^126 }
+apdc_parl_seat_127 = { frame = apdc_parl_seat_colors^127 }
+apdc_parl_seat_128 = { frame = apdc_parl_seat_colors^128 }
+apdc_parl_seat_129 = { frame = apdc_parl_seat_colors^129 }
+apdc_parl_seat_130 = { frame = apdc_parl_seat_colors^130 }
+apdc_parl_seat_131 = { frame = apdc_parl_seat_colors^131 }
+apdc_parl_seat_132 = { frame = apdc_parl_seat_colors^132 }
+apdc_parl_seat_133 = { frame = apdc_parl_seat_colors^133 }
+apdc_parl_seat_134 = { frame = apdc_parl_seat_colors^134 }
+apdc_parl_seat_135 = { frame = apdc_parl_seat_colors^135 }
+apdc_parl_seat_136 = { frame = apdc_parl_seat_colors^136 }
+apdc_parl_seat_137 = { frame = apdc_parl_seat_colors^137 }
+apdc_parl_seat_138 = { frame = apdc_parl_seat_colors^138 }
+apdc_parl_seat_139 = { frame = apdc_parl_seat_colors^139 }
+apdc_parl_seat_140 = { frame = apdc_parl_seat_colors^140 }
+apdc_parl_seat_141 = { frame = apdc_parl_seat_colors^141 }
+apdc_parl_seat_142 = { frame = apdc_parl_seat_colors^142 }
+apdc_parl_seat_143 = { frame = apdc_parl_seat_colors^143 }
+apdc_parl_seat_144 = { frame = apdc_parl_seat_colors^144 }
+apdc_parl_seat_145 = { frame = apdc_parl_seat_colors^145 }
+apdc_parl_seat_146 = { frame = apdc_parl_seat_colors^146 }
+apdc_parl_seat_147 = { frame = apdc_parl_seat_colors^147 }
+apdc_parl_seat_148 = { frame = apdc_parl_seat_colors^148 }
+apdc_parl_seat_149 = { frame = apdc_parl_seat_colors^149 }
+apdc_parl_seat_150 = { frame = apdc_parl_seat_colors^150 }
+apdc_parl_seat_151 = { frame = apdc_parl_seat_colors^151 }
+apdc_parl_seat_152 = { frame = apdc_parl_seat_colors^152 }
+apdc_parl_seat_153 = { frame = apdc_parl_seat_colors^153 }
+apdc_parl_seat_154 = { frame = apdc_parl_seat_colors^154 }
+apdc_parl_seat_155 = { frame = apdc_parl_seat_colors^155 }
+apdc_parl_seat_156 = { frame = apdc_parl_seat_colors^156 }
+apdc_parl_seat_157 = { frame = apdc_parl_seat_colors^157 }
+apdc_parl_seat_158 = { frame = apdc_parl_seat_colors^158 }
+apdc_parl_seat_159 = { frame = apdc_parl_seat_colors^159 }
+apdc_parl_seat_160 = { frame = apdc_parl_seat_colors^160 }
+apdc_parl_seat_161 = { frame = apdc_parl_seat_colors^161 }
+apdc_parl_seat_162 = { frame = apdc_parl_seat_colors^162 }
+apdc_parl_seat_163 = { frame = apdc_parl_seat_colors^163 }
+apdc_parl_seat_164 = { frame = apdc_parl_seat_colors^164 }
+apdc_parl_seat_165 = { frame = apdc_parl_seat_colors^165 }
+apdc_parl_seat_166 = { frame = apdc_parl_seat_colors^166 }
+apdc_parl_seat_167 = { frame = apdc_parl_seat_colors^167 }
+apdc_parl_seat_168 = { frame = apdc_parl_seat_colors^168 }
+apdc_parl_seat_169 = { frame = apdc_parl_seat_colors^169 }
+apdc_parl_seat_170 = { frame = apdc_parl_seat_colors^170 }
+apdc_parl_seat_171 = { frame = apdc_parl_seat_colors^171 }
+apdc_parl_seat_172 = { frame = apdc_parl_seat_colors^172 }
+apdc_parl_seat_173 = { frame = apdc_parl_seat_colors^173 }
+apdc_parl_seat_174 = { frame = apdc_parl_seat_colors^174 }
+apdc_parl_seat_175 = { frame = apdc_parl_seat_colors^175 }
+apdc_parl_seat_176 = { frame = apdc_parl_seat_colors^176 }
+apdc_parl_seat_177 = { frame = apdc_parl_seat_colors^177 }
+apdc_parl_seat_178 = { frame = apdc_parl_seat_colors^178 }
+apdc_parl_seat_179 = { frame = apdc_parl_seat_colors^179 }
+apdc_parl_seat_180 = { frame = apdc_parl_seat_colors^180 }
+apdc_parl_seat_181 = { frame = apdc_parl_seat_colors^181 }
+apdc_parl_seat_182 = { frame = apdc_parl_seat_colors^182 }
+apdc_parl_seat_183 = { frame = apdc_parl_seat_colors^183 }
+apdc_parl_seat_184 = { frame = apdc_parl_seat_colors^184 }
+apdc_parl_seat_185 = { frame = apdc_parl_seat_colors^185 }
+apdc_parl_seat_186 = { frame = apdc_parl_seat_colors^186 }
+apdc_parl_seat_187 = { frame = apdc_parl_seat_colors^187 }
+apdc_parl_seat_188 = { frame = apdc_parl_seat_colors^188 }
+apdc_parl_seat_189 = { frame = apdc_parl_seat_colors^189 }
+apdc_parl_seat_190 = { frame = apdc_parl_seat_colors^190 }
+apdc_parl_seat_191 = { frame = apdc_parl_seat_colors^191 }
+apdc_parl_seat_192 = { frame = apdc_parl_seat_colors^192 }
+apdc_parl_seat_193 = { frame = apdc_parl_seat_colors^193 }
+apdc_parl_seat_194 = { frame = apdc_parl_seat_colors^194 }
+apdc_parl_seat_195 = { frame = apdc_parl_seat_colors^195 }
+apdc_parl_seat_196 = { frame = apdc_parl_seat_colors^196 }
+apdc_parl_seat_197 = { frame = apdc_parl_seat_colors^197 }
+apdc_parl_seat_198 = { frame = apdc_parl_seat_colors^198 }
+apdc_parl_seat_199 = { frame = apdc_parl_seat_colors^199 }
+apdc_parl_seat_200 = { frame = apdc_parl_seat_colors^200 }
+apdc_parl_seat_201 = { frame = apdc_parl_seat_colors^201 }
+apdc_parl_seat_202 = { frame = apdc_parl_seat_colors^202 }
+apdc_parl_seat_203 = { frame = apdc_parl_seat_colors^203 }
+apdc_parl_seat_204 = { frame = apdc_parl_seat_colors^204 }
+apdc_parl_seat_205 = { frame = apdc_parl_seat_colors^205 }
+apdc_parl_seat_206 = { frame = apdc_parl_seat_colors^206 }
+apdc_parl_seat_207 = { frame = apdc_parl_seat_colors^207 }
+apdc_parl_seat_208 = { frame = apdc_parl_seat_colors^208 }
+apdc_parl_seat_209 = { frame = apdc_parl_seat_colors^209 }
+apdc_parl_seat_210 = { frame = apdc_parl_seat_colors^210 }
+apdc_parl_seat_211 = { frame = apdc_parl_seat_colors^211 }
+apdc_parl_seat_212 = { frame = apdc_parl_seat_colors^212 }
+apdc_parl_seat_213 = { frame = apdc_parl_seat_colors^213 }
+apdc_parl_seat_214 = { frame = apdc_parl_seat_colors^214 }
+apdc_parl_seat_215 = { frame = apdc_parl_seat_colors^215 }
+apdc_parl_seat_216 = { frame = apdc_parl_seat_colors^216 }
+apdc_parl_seat_217 = { frame = apdc_parl_seat_colors^217 }
+apdc_parl_seat_218 = { frame = apdc_parl_seat_colors^218 }
+apdc_parl_seat_219 = { frame = apdc_parl_seat_colors^219 }
+apdc_parl_seat_220 = { frame = apdc_parl_seat_colors^220 }
+apdc_parl_seat_221 = { frame = apdc_parl_seat_colors^221 }
+apdc_parl_seat_222 = { frame = apdc_parl_seat_colors^222 }
+apdc_parl_seat_223 = { frame = apdc_parl_seat_colors^223 }
+apdc_parl_seat_224 = { frame = apdc_parl_seat_colors^224 }
+apdc_parl_seat_225 = { frame = apdc_parl_seat_colors^225 }
+apdc_parl_seat_226 = { frame = apdc_parl_seat_colors^226 }
+apdc_parl_seat_227 = { frame = apdc_parl_seat_colors^227 }
+apdc_parl_seat_228 = { frame = apdc_parl_seat_colors^228 }
+apdc_parl_seat_229 = { frame = apdc_parl_seat_colors^229 }
+apdc_parl_seat_230 = { frame = apdc_parl_seat_colors^230 }
+apdc_parl_seat_231 = { frame = apdc_parl_seat_colors^231 }
+apdc_parl_seat_232 = { frame = apdc_parl_seat_colors^232 }
+apdc_parl_seat_233 = { frame = apdc_parl_seat_colors^233 }
+apdc_parl_seat_234 = { frame = apdc_parl_seat_colors^234 }
+apdc_parl_seat_235 = { frame = apdc_parl_seat_colors^235 }
+apdc_parl_seat_236 = { frame = apdc_parl_seat_colors^236 }
+apdc_parl_seat_237 = { frame = apdc_parl_seat_colors^237 }
+apdc_parl_seat_238 = { frame = apdc_parl_seat_colors^238 }
+apdc_parl_seat_239 = { frame = apdc_parl_seat_colors^239 }
+apdc_parl_seat_240 = { frame = apdc_parl_seat_colors^240 }
+apdc_parl_seat_241 = { frame = apdc_parl_seat_colors^241 }
+apdc_parl_seat_242 = { frame = apdc_parl_seat_colors^242 }
+apdc_parl_seat_243 = { frame = apdc_parl_seat_colors^243 }
+apdc_parl_seat_244 = { frame = apdc_parl_seat_colors^244 }
+apdc_parl_seat_245 = { frame = apdc_parl_seat_colors^245 }
+apdc_parl_seat_246 = { frame = apdc_parl_seat_colors^246 }
+apdc_parl_seat_247 = { frame = apdc_parl_seat_colors^247 }
+apdc_parl_seat_248 = { frame = apdc_parl_seat_colors^248 }
+apdc_parl_seat_249 = { frame = apdc_parl_seat_colors^249 }
+apdc_parl_seat_250 = { frame = apdc_parl_seat_colors^250 }
+apdc_parl_seat_251 = { frame = apdc_parl_seat_colors^251 }
+apdc_parl_seat_252 = { frame = apdc_parl_seat_colors^252 }
+apdc_parl_seat_253 = { frame = apdc_parl_seat_colors^253 }
+apdc_parl_seat_254 = { frame = apdc_parl_seat_colors^254 }
+apdc_parl_seat_255 = { frame = apdc_parl_seat_colors^255 }
+apdc_parl_seat_256 = { frame = apdc_parl_seat_colors^256 }
+apdc_parl_seat_257 = { frame = apdc_parl_seat_colors^257 }
+apdc_parl_seat_258 = { frame = apdc_parl_seat_colors^258 }
+apdc_parl_seat_259 = { frame = apdc_parl_seat_colors^259 }
+apdc_parl_seat_260 = { frame = apdc_parl_seat_colors^260 }
+apdc_parl_seat_261 = { frame = apdc_parl_seat_colors^261 }
+apdc_parl_seat_262 = { frame = apdc_parl_seat_colors^262 }
+apdc_parl_seat_263 = { frame = apdc_parl_seat_colors^263 }
+apdc_parl_seat_264 = { frame = apdc_parl_seat_colors^264 }
+apdc_parl_seat_265 = { frame = apdc_parl_seat_colors^265 }
+apdc_parl_seat_266 = { frame = apdc_parl_seat_colors^266 }
+apdc_parl_seat_267 = { frame = apdc_parl_seat_colors^267 }
+apdc_parl_seat_268 = { frame = apdc_parl_seat_colors^268 }
+apdc_parl_seat_269 = { frame = apdc_parl_seat_colors^269 }
+apdc_parl_seat_270 = { frame = apdc_parl_seat_colors^270 }
+apdc_parl_seat_271 = { frame = apdc_parl_seat_colors^271 }
+apdc_parl_seat_272 = { frame = apdc_parl_seat_colors^272 }
+apdc_parl_seat_273 = { frame = apdc_parl_seat_colors^273 }
+apdc_parl_seat_274 = { frame = apdc_parl_seat_colors^274 }
+apdc_parl_seat_275 = { frame = apdc_parl_seat_colors^275 }
+apdc_parl_seat_276 = { frame = apdc_parl_seat_colors^276 }
+apdc_parl_seat_277 = { frame = apdc_parl_seat_colors^277 }
+apdc_parl_seat_278 = { frame = apdc_parl_seat_colors^278 }
+apdc_parl_seat_279 = { frame = apdc_parl_seat_colors^279 }
+apdc_parl_seat_280 = { frame = apdc_parl_seat_colors^280 }
+apdc_parl_seat_281 = { frame = apdc_parl_seat_colors^281 }
+apdc_parl_seat_282 = { frame = apdc_parl_seat_colors^282 }
+apdc_parl_seat_283 = { frame = apdc_parl_seat_colors^283 }
+apdc_parl_seat_284 = { frame = apdc_parl_seat_colors^284 }
+apdc_parl_seat_285 = { frame = apdc_parl_seat_colors^285 }
+apdc_parl_seat_286 = { frame = apdc_parl_seat_colors^286 }
+apdc_parl_seat_287 = { frame = apdc_parl_seat_colors^287 }
+apdc_parl_seat_288 = { frame = apdc_parl_seat_colors^288 }
+apdc_parl_seat_289 = { frame = apdc_parl_seat_colors^289 }
+apdc_parl_seat_290 = { frame = apdc_parl_seat_colors^290 }
+apdc_parl_seat_291 = { frame = apdc_parl_seat_colors^291 }
+apdc_parl_seat_292 = { frame = apdc_parl_seat_colors^292 }
+apdc_parl_seat_293 = { frame = apdc_parl_seat_colors^293 }
+apdc_parl_seat_294 = { frame = apdc_parl_seat_colors^294 }
+apdc_parl_seat_295 = { frame = apdc_parl_seat_colors^295 }
+apdc_parl_seat_296 = { frame = apdc_parl_seat_colors^296 }
+apdc_parl_seat_297 = { frame = apdc_parl_seat_colors^297 }
+apdc_parl_seat_298 = { frame = apdc_parl_seat_colors^298 }
+apdc_parl_seat_299 = { frame = apdc_parl_seat_colors^299 }
+apdc_parl_seat_300 = { frame = apdc_parl_seat_colors^300 }
+apdc_parl_seat_301 = { frame = apdc_parl_seat_colors^301 }
+apdc_parl_seat_302 = { frame = apdc_parl_seat_colors^302 }
+apdc_parl_seat_303 = { frame = apdc_parl_seat_colors^303 }
+apdc_parl_seat_304 = { frame = apdc_parl_seat_colors^304 }
+apdc_parl_seat_305 = { frame = apdc_parl_seat_colors^305 }
+apdc_parl_seat_306 = { frame = apdc_parl_seat_colors^306 }
+apdc_parl_seat_307 = { frame = apdc_parl_seat_colors^307 }
+apdc_parl_seat_308 = { frame = apdc_parl_seat_colors^308 }
+apdc_parl_seat_309 = { frame = apdc_parl_seat_colors^309 }
+apdc_parl_seat_310 = { frame = apdc_parl_seat_colors^310 }
+apdc_parl_seat_311 = { frame = apdc_parl_seat_colors^311 }
+apdc_parl_seat_312 = { frame = apdc_parl_seat_colors^312 }
+apdc_parl_seat_313 = { frame = apdc_parl_seat_colors^313 }
+apdc_parl_seat_314 = { frame = apdc_parl_seat_colors^314 }
+apdc_parl_seat_315 = { frame = apdc_parl_seat_colors^315 }
+apdc_parl_seat_316 = { frame = apdc_parl_seat_colors^316 }
+apdc_parl_seat_317 = { frame = apdc_parl_seat_colors^317 }
+apdc_parl_seat_318 = { frame = apdc_parl_seat_colors^318 }
+apdc_parl_seat_319 = { frame = apdc_parl_seat_colors^319 }
+apdc_parl_seat_320 = { frame = apdc_parl_seat_colors^320 }
+apdc_parl_seat_321 = { frame = apdc_parl_seat_colors^321 }
+apdc_parl_seat_322 = { frame = apdc_parl_seat_colors^322 }
+apdc_parl_seat_323 = { frame = apdc_parl_seat_colors^323 }
+apdc_parl_seat_324 = { frame = apdc_parl_seat_colors^324 }
+apdc_parl_seat_325 = { frame = apdc_parl_seat_colors^325 }
+apdc_parl_seat_326 = { frame = apdc_parl_seat_colors^326 }
+apdc_parl_seat_327 = { frame = apdc_parl_seat_colors^327 }
+apdc_parl_seat_328 = { frame = apdc_parl_seat_colors^328 }
+apdc_parl_seat_329 = { frame = apdc_parl_seat_colors^329 }
+apdc_parl_seat_330 = { frame = apdc_parl_seat_colors^330 }
+apdc_parl_seat_331 = { frame = apdc_parl_seat_colors^331 }
+apdc_parl_seat_332 = { frame = apdc_parl_seat_colors^332 }
+apdc_parl_seat_333 = { frame = apdc_parl_seat_colors^333 }
+apdc_parl_seat_334 = { frame = apdc_parl_seat_colors^334 }
+apdc_parl_seat_335 = { frame = apdc_parl_seat_colors^335 }
+apdc_parl_seat_336 = { frame = apdc_parl_seat_colors^336 }
+apdc_parl_seat_337 = { frame = apdc_parl_seat_colors^337 }
+apdc_parl_seat_338 = { frame = apdc_parl_seat_colors^338 }
+apdc_parl_seat_339 = { frame = apdc_parl_seat_colors^339 }
+apdc_parl_seat_340 = { frame = apdc_parl_seat_colors^340 }
+apdc_parl_seat_341 = { frame = apdc_parl_seat_colors^341 }
+apdc_parl_seat_342 = { frame = apdc_parl_seat_colors^342 }
+apdc_parl_seat_343 = { frame = apdc_parl_seat_colors^343 }
+apdc_parl_seat_344 = { frame = apdc_parl_seat_colors^344 }
+apdc_parl_seat_345 = { frame = apdc_parl_seat_colors^345 }
+apdc_parl_seat_346 = { frame = apdc_parl_seat_colors^346 }
+apdc_parl_seat_347 = { frame = apdc_parl_seat_colors^347 }
+apdc_parl_seat_348 = { frame = apdc_parl_seat_colors^348 }
+apdc_parl_seat_349 = { frame = apdc_parl_seat_colors^349 }
+apdc_parl_seat_350 = { frame = apdc_parl_seat_colors^350 }
+apdc_parl_seat_351 = { frame = apdc_parl_seat_colors^351 }
+apdc_parl_seat_352 = { frame = apdc_parl_seat_colors^352 }
+apdc_parl_seat_353 = { frame = apdc_parl_seat_colors^353 }
+apdc_parl_seat_354 = { frame = apdc_parl_seat_colors^354 }
+apdc_parl_seat_355 = { frame = apdc_parl_seat_colors^355 }
+apdc_parl_seat_356 = { frame = apdc_parl_seat_colors^356 }
+apdc_parl_seat_357 = { frame = apdc_parl_seat_colors^357 }
+apdc_parl_seat_358 = { frame = apdc_parl_seat_colors^358 }
+apdc_parl_seat_359 = { frame = apdc_parl_seat_colors^359 }
+apdc_parl_seat_360 = { frame = apdc_parl_seat_colors^360 }
+apdc_parl_seat_361 = { frame = apdc_parl_seat_colors^361 }
+apdc_parl_seat_362 = { frame = apdc_parl_seat_colors^362 }
+apdc_parl_seat_363 = { frame = apdc_parl_seat_colors^363 }
+apdc_parl_seat_364 = { frame = apdc_parl_seat_colors^364 }
+apdc_parl_seat_365 = { frame = apdc_parl_seat_colors^365 }
+apdc_parl_seat_366 = { frame = apdc_parl_seat_colors^366 }
+apdc_parl_seat_367 = { frame = apdc_parl_seat_colors^367 }
+apdc_parl_seat_368 = { frame = apdc_parl_seat_colors^368 }
+apdc_parl_seat_369 = { frame = apdc_parl_seat_colors^369 }
+apdc_parl_seat_370 = { frame = apdc_parl_seat_colors^370 }
+apdc_parl_seat_371 = { frame = apdc_parl_seat_colors^371 }
+apdc_parl_seat_372 = { frame = apdc_parl_seat_colors^372 }
+apdc_parl_seat_373 = { frame = apdc_parl_seat_colors^373 }
+apdc_parl_seat_374 = { frame = apdc_parl_seat_colors^374 }
+apdc_parl_seat_375 = { frame = apdc_parl_seat_colors^375 }
+apdc_parl_seat_376 = { frame = apdc_parl_seat_colors^376 }
+apdc_parl_seat_377 = { frame = apdc_parl_seat_colors^377 }
+apdc_parl_seat_378 = { frame = apdc_parl_seat_colors^378 }
+apdc_parl_seat_379 = { frame = apdc_parl_seat_colors^379 }
+apdc_parl_seat_380 = { frame = apdc_parl_seat_colors^380 }
+apdc_parl_seat_381 = { frame = apdc_parl_seat_colors^381 }
+apdc_parl_seat_382 = { frame = apdc_parl_seat_colors^382 }
+apdc_parl_seat_383 = { frame = apdc_parl_seat_colors^383 }
+apdc_parl_seat_384 = { frame = apdc_parl_seat_colors^384 }
+apdc_parl_seat_385 = { frame = apdc_parl_seat_colors^385 }
+apdc_parl_seat_386 = { frame = apdc_parl_seat_colors^386 }
+apdc_parl_seat_387 = { frame = apdc_parl_seat_colors^387 }
+apdc_parl_seat_388 = { frame = apdc_parl_seat_colors^388 }
+apdc_parl_seat_389 = { frame = apdc_parl_seat_colors^389 }
+apdc_parl_seat_390 = { frame = apdc_parl_seat_colors^390 }
+apdc_parl_seat_391 = { frame = apdc_parl_seat_colors^391 }
+apdc_parl_seat_392 = { frame = apdc_parl_seat_colors^392 }
+apdc_parl_seat_393 = { frame = apdc_parl_seat_colors^393 }
+apdc_parl_seat_394 = { frame = apdc_parl_seat_colors^394 }
+apdc_parl_seat_395 = { frame = apdc_parl_seat_colors^395 }
+apdc_parl_seat_396 = { frame = apdc_parl_seat_colors^396 }
+apdc_parl_seat_397 = { frame = apdc_parl_seat_colors^397 }
+apdc_parl_seat_398 = { frame = apdc_parl_seat_colors^398 }
+apdc_parl_seat_399 = { frame = apdc_parl_seat_colors^399 }
+apdc_parl_seat_400 = { frame = apdc_parl_seat_colors^400 }
+apdc_parl_seat_401 = { frame = apdc_parl_seat_colors^401 }
+apdc_parl_seat_402 = { frame = apdc_parl_seat_colors^402 }
+apdc_parl_seat_403 = { frame = apdc_parl_seat_colors^403 }
+apdc_parl_seat_404 = { frame = apdc_parl_seat_colors^404 }
+apdc_parl_seat_405 = { frame = apdc_parl_seat_colors^405 }
+apdc_parl_seat_406 = { frame = apdc_parl_seat_colors^406 }
+apdc_parl_seat_407 = { frame = apdc_parl_seat_colors^407 }
+apdc_parl_seat_408 = { frame = apdc_parl_seat_colors^408 }
+apdc_parl_seat_409 = { frame = apdc_parl_seat_colors^409 }
+apdc_parl_seat_410 = { frame = apdc_parl_seat_colors^410 }
+apdc_parl_seat_411 = { frame = apdc_parl_seat_colors^411 }
+apdc_parl_seat_412 = { frame = apdc_parl_seat_colors^412 }
+apdc_parl_seat_413 = { frame = apdc_parl_seat_colors^413 }
+apdc_parl_seat_414 = { frame = apdc_parl_seat_colors^414 }
+apdc_parl_seat_415 = { frame = apdc_parl_seat_colors^415 }
+apdc_parl_seat_416 = { frame = apdc_parl_seat_colors^416 }
+apdc_parl_seat_417 = { frame = apdc_parl_seat_colors^417 }
+apdc_parl_seat_418 = { frame = apdc_parl_seat_colors^418 }
+apdc_parl_seat_419 = { frame = apdc_parl_seat_colors^419 }
+apdc_parl_seat_420 = { frame = apdc_parl_seat_colors^420 }
+apdc_parl_seat_421 = { frame = apdc_parl_seat_colors^421 }
+apdc_parl_seat_422 = { frame = apdc_parl_seat_colors^422 }
+apdc_parl_seat_423 = { frame = apdc_parl_seat_colors^423 }
+apdc_parl_seat_424 = { frame = apdc_parl_seat_colors^424 }
+apdc_parl_seat_425 = { frame = apdc_parl_seat_colors^425 }
+apdc_parl_seat_426 = { frame = apdc_parl_seat_colors^426 }
+apdc_parl_seat_427 = { frame = apdc_parl_seat_colors^427 }
+apdc_parl_seat_428 = { frame = apdc_parl_seat_colors^428 }
+apdc_parl_seat_429 = { frame = apdc_parl_seat_colors^429 }
+apdc_parl_seat_430 = { frame = apdc_parl_seat_colors^430 }
+apdc_parl_seat_431 = { frame = apdc_parl_seat_colors^431 }
+apdc_parl_seat_432 = { frame = apdc_parl_seat_colors^432 }
+apdc_parl_seat_433 = { frame = apdc_parl_seat_colors^433 }
+apdc_parl_seat_434 = { frame = apdc_parl_seat_colors^434 }
+apdc_parl_seat_435 = { frame = apdc_parl_seat_colors^435 }
+apdc_parl_seat_436 = { frame = apdc_parl_seat_colors^436 }
+apdc_parl_seat_437 = { frame = apdc_parl_seat_colors^437 }
+apdc_parl_seat_438 = { frame = apdc_parl_seat_colors^438 }
+apdc_parl_seat_439 = { frame = apdc_parl_seat_colors^439 }
+apdc_parl_seat_440 = { frame = apdc_parl_seat_colors^440 }
+apdc_parl_seat_441 = { frame = apdc_parl_seat_colors^441 }
+apdc_parl_seat_442 = { frame = apdc_parl_seat_colors^442 }
+apdc_parl_seat_443 = { frame = apdc_parl_seat_colors^443 }
+apdc_parl_seat_444 = { frame = apdc_parl_seat_colors^444 }
+apdc_parl_seat_445 = { frame = apdc_parl_seat_colors^445 }
+apdc_parl_seat_446 = { frame = apdc_parl_seat_colors^446 }
+apdc_parl_seat_447 = { frame = apdc_parl_seat_colors^447 }
+apdc_parl_seat_448 = { frame = apdc_parl_seat_colors^448 }
+apdc_parl_seat_449 = { frame = apdc_parl_seat_colors^449 }
+apdc_parl_seat_450 = { frame = apdc_parl_seat_colors^450 }
+apdc_parl_seat_451 = { frame = apdc_parl_seat_colors^451 }
+apdc_parl_seat_452 = { frame = apdc_parl_seat_colors^452 }
+apdc_parl_seat_453 = { frame = apdc_parl_seat_colors^453 }
+apdc_parl_seat_454 = { frame = apdc_parl_seat_colors^454 }
+apdc_parl_seat_455 = { frame = apdc_parl_seat_colors^455 }
+apdc_parl_seat_456 = { frame = apdc_parl_seat_colors^456 }
+apdc_parl_seat_457 = { frame = apdc_parl_seat_colors^457 }
+apdc_parl_seat_458 = { frame = apdc_parl_seat_colors^458 }
+apdc_parl_seat_459 = { frame = apdc_parl_seat_colors^459 }
+apdc_parl_seat_460 = { frame = apdc_parl_seat_colors^460 }
+apdc_parl_seat_461 = { frame = apdc_parl_seat_colors^461 }
+apdc_parl_seat_462 = { frame = apdc_parl_seat_colors^462 }
+apdc_parl_seat_463 = { frame = apdc_parl_seat_colors^463 }
+apdc_parl_seat_464 = { frame = apdc_parl_seat_colors^464 }
+apdc_parl_seat_465 = { frame = apdc_parl_seat_colors^465 }
+apdc_parl_seat_466 = { frame = apdc_parl_seat_colors^466 }
+apdc_parl_seat_467 = { frame = apdc_parl_seat_colors^467 }
+apdc_parl_seat_468 = { frame = apdc_parl_seat_colors^468 }
+apdc_parl_seat_469 = { frame = apdc_parl_seat_colors^469 }
+apdc_parl_seat_470 = { frame = apdc_parl_seat_colors^470 }
+apdc_parl_seat_471 = { frame = apdc_parl_seat_colors^471 }
+apdc_parl_seat_472 = { frame = apdc_parl_seat_colors^472 }
+apdc_parl_seat_473 = { frame = apdc_parl_seat_colors^473 }
+apdc_parl_seat_474 = { frame = apdc_parl_seat_colors^474 }
+apdc_parl_seat_475 = { frame = apdc_parl_seat_colors^475 }
+apdc_parl_seat_476 = { frame = apdc_parl_seat_colors^476 }
+apdc_parl_seat_477 = { frame = apdc_parl_seat_colors^477 }
+apdc_parl_seat_478 = { frame = apdc_parl_seat_colors^478 }
+apdc_parl_seat_479 = { frame = apdc_parl_seat_colors^479 }
+apdc_parl_seat_480 = { frame = apdc_parl_seat_colors^480 }
+apdc_parl_seat_481 = { frame = apdc_parl_seat_colors^481 }
+apdc_parl_seat_482 = { frame = apdc_parl_seat_colors^482 }
+apdc_parl_seat_483 = { frame = apdc_parl_seat_colors^483 }
+apdc_parl_seat_484 = { frame = apdc_parl_seat_colors^484 }
+apdc_parl_seat_485 = { frame = apdc_parl_seat_colors^485 }
+apdc_parl_seat_486 = { frame = apdc_parl_seat_colors^486 }
+apdc_parl_seat_487 = { frame = apdc_parl_seat_colors^487 }
+apdc_parl_seat_488 = { frame = apdc_parl_seat_colors^488 }
+apdc_parl_seat_489 = { frame = apdc_parl_seat_colors^489 }
+apdc_parl_seat_490 = { frame = apdc_parl_seat_colors^490 }
+apdc_parl_seat_491 = { frame = apdc_parl_seat_colors^491 }
+apdc_parl_seat_492 = { frame = apdc_parl_seat_colors^492 }
+apdc_parl_seat_493 = { frame = apdc_parl_seat_colors^493 }
+apdc_parl_seat_494 = { frame = apdc_parl_seat_colors^494 }
+apdc_parl_seat_495 = { frame = apdc_parl_seat_colors^495 }
+apdc_parl_seat_496 = { frame = apdc_parl_seat_colors^496 }
+apdc_parl_seat_497 = { frame = apdc_parl_seat_colors^497 }
+apdc_parl_seat_498 = { frame = apdc_parl_seat_colors^498 }
+apdc_parl_seat_499 = { frame = apdc_parl_seat_colors^499 }
+APDC_cabinet_pie_0 = { frame = APDC_cabinet_pie^0 }
+APDC_cabinet_pie_1 = { frame = APDC_cabinet_pie^1 }
+APDC_cabinet_pie_2 = { frame = APDC_cabinet_pie^2 }
+APDC_cabinet_pie_3 = { frame = APDC_cabinet_pie^3 }
+APDC_cabinet_pie_4 = { frame = APDC_cabinet_pie^4 }
+APDC_cabinet_pie_5 = { frame = APDC_cabinet_pie^5 }
+APDC_cabinet_pie_6 = { frame = APDC_cabinet_pie^6 }
+APDC_cabinet_pie_7 = { frame = APDC_cabinet_pie^7 }
+APDC_cabinet_pie_8 = { frame = APDC_cabinet_pie^8 }
+APDC_cabinet_pie_9 = { frame = APDC_cabinet_pie^9 }
+APDC_cabinet_pie_10 = { frame = APDC_cabinet_pie^10 }
+APDC_cabinet_pie_11 = { frame = APDC_cabinet_pie^11 }
+APDC_cabinet_pie_12 = { frame = APDC_cabinet_pie^12 }
+APDC_cabinet_pie_13 = { frame = APDC_cabinet_pie^13 }
+APDC_cabinet_pie_14 = { frame = APDC_cabinet_pie^14 }
+APDC_cabinet_pie_15 = { frame = APDC_cabinet_pie^15 }
+APDC_cabinet_pie_16 = { frame = APDC_cabinet_pie^16 }
+APDC_cabinet_pie_17 = { frame = APDC_cabinet_pie^17 }
+APDC_cabinet_pie_18 = { frame = APDC_cabinet_pie^18 }
+APDC_cabinet_pie_19 = { frame = APDC_cabinet_pie^19 }
+APDC_cabinet_pie_20 = { frame = APDC_cabinet_pie^20 }
+APDC_cabinet_pie_21 = { frame = APDC_cabinet_pie^21 }
+APDC_cabinet_pie_22 = { frame = APDC_cabinet_pie^22 }
+APDC_cabinet_pie_23 = { frame = APDC_cabinet_pie^23 }
+APDC_cabinet_pie_24 = { frame = APDC_cabinet_pie^24 }
+APDC_cabinet_pie_25 = { frame = APDC_cabinet_pie^25 }
+APDC_cabinet_pie_26 = { frame = APDC_cabinet_pie^26 }
+APDC_cabinet_pie_27 = { frame = APDC_cabinet_pie^27 }
+APDC_cabinet_pie_28 = { frame = APDC_cabinet_pie^28 }
+APDC_cabinet_pie_29 = { frame = APDC_cabinet_pie^29 }
+APDC_cabinet_pie_30 = { frame = APDC_cabinet_pie^30 }
+APDC_cabinet_pie_31 = { frame = APDC_cabinet_pie^31 }
+APDC_cabinet_pie_32 = { frame = APDC_cabinet_pie^32 }
+APDC_cabinet_pie_33 = { frame = APDC_cabinet_pie^33 }
+APDC_cabinet_pie_34 = { frame = APDC_cabinet_pie^34 }
+APDC_cabinet_pie_35 = { frame = APDC_cabinet_pie^35 }
+APDC_cabinet_pie_36 = { frame = APDC_cabinet_pie^36 }
+APDC_cabinet_pie_37 = { frame = APDC_cabinet_pie^37 }
+APDC_cabinet_pie_38 = { frame = APDC_cabinet_pie^38 }
+APDC_cabinet_pie_39 = { frame = APDC_cabinet_pie^39 }
+APDC_cabinet_pie_40 = { frame = APDC_cabinet_pie^40 }
+APDC_cabinet_pie_41 = { frame = APDC_cabinet_pie^41 }
+APDC_cabinet_pie_42 = { frame = APDC_cabinet_pie^42 }
+APDC_cabinet_pie_43 = { frame = APDC_cabinet_pie^43 }
+APDC_cabinet_pie_44 = { frame = APDC_cabinet_pie^44 }
+APDC_cabinet_pie_45 = { frame = APDC_cabinet_pie^45 }
+APDC_cabinet_pie_46 = { frame = APDC_cabinet_pie^46 }
+APDC_cabinet_pie_47 = { frame = APDC_cabinet_pie^47 }
+APDC_cabinet_pie_48 = { frame = APDC_cabinet_pie^48 }
+APDC_cabinet_pie_49 = { frame = APDC_cabinet_pie^49 }
+APDC_cabinet_pie_50 = { frame = APDC_cabinet_pie^50 }
+APDC_cabinet_pie_51 = { frame = APDC_cabinet_pie^51 }
+APDC_cabinet_pie_52 = { frame = APDC_cabinet_pie^52 }
+APDC_cabinet_pie_53 = { frame = APDC_cabinet_pie^53 }
+APDC_cabinet_pie_54 = { frame = APDC_cabinet_pie^54 }
+APDC_cabinet_pie_55 = { frame = APDC_cabinet_pie^55 }
+APDC_cabinet_pie_56 = { frame = APDC_cabinet_pie^56 }
+APDC_cabinet_pie_57 = { frame = APDC_cabinet_pie^57 }
+APDC_cabinet_pie_58 = { frame = APDC_cabinet_pie^58 }
+APDC_cabinet_pie_59 = { frame = APDC_cabinet_pie^59 }
+APDC_cabinet_pie_60 = { frame = APDC_cabinet_pie^60 }
+APDC_cabinet_pie_61 = { frame = APDC_cabinet_pie^61 }
+APDC_cabinet_pie_62 = { frame = APDC_cabinet_pie^62 }
+APDC_cabinet_pie_63 = { frame = APDC_cabinet_pie^63 }
+APDC_cabinet_pie_64 = { frame = APDC_cabinet_pie^64 }
+APDC_cabinet_pie_65 = { frame = APDC_cabinet_pie^65 }
+APDC_cabinet_pie_66 = { frame = APDC_cabinet_pie^66 }
+APDC_cabinet_pie_67 = { frame = APDC_cabinet_pie^67 }
+APDC_cabinet_pie_68 = { frame = APDC_cabinet_pie^68 }
+APDC_cabinet_pie_69 = { frame = APDC_cabinet_pie^69 }
+APDC_cabinet_pie_70 = { frame = APDC_cabinet_pie^70 }
+APDC_cabinet_pie_71 = { frame = APDC_cabinet_pie^71 }
+APDC_cabinet_pie_72 = { frame = APDC_cabinet_pie^72 }
+APDC_cabinet_pie_73 = { frame = APDC_cabinet_pie^73 }
+APDC_cabinet_pie_74 = { frame = APDC_cabinet_pie^74 }
+APDC_cabinet_pie_75 = { frame = APDC_cabinet_pie^75 }
+APDC_cabinet_pie_76 = { frame = APDC_cabinet_pie^76 }
+APDC_cabinet_pie_77 = { frame = APDC_cabinet_pie^77 }
+APDC_cabinet_pie_78 = { frame = APDC_cabinet_pie^78 }
+APDC_cabinet_pie_79 = { frame = APDC_cabinet_pie^79 }
+APDC_cabinet_pie_80 = { frame = APDC_cabinet_pie^80 }
+APDC_cabinet_pie_81 = { frame = APDC_cabinet_pie^81 }
+APDC_cabinet_pie_82 = { frame = APDC_cabinet_pie^82 }
+APDC_cabinet_pie_83 = { frame = APDC_cabinet_pie^83 }
+APDC_cabinet_pie_84 = { frame = APDC_cabinet_pie^84 }
+APDC_cabinet_pie_85 = { frame = APDC_cabinet_pie^85 }
+APDC_cabinet_pie_86 = { frame = APDC_cabinet_pie^86 }
+APDC_cabinet_pie_87 = { frame = APDC_cabinet_pie^87 }
+APDC_cabinet_pie_88 = { frame = APDC_cabinet_pie^88 }
+APDC_cabinet_pie_89 = { frame = APDC_cabinet_pie^89 }
+APDC_cabinet_pie_90 = { frame = APDC_cabinet_pie^90 }
+APDC_cabinet_pie_91 = { frame = APDC_cabinet_pie^91 }
+APDC_cabinet_pie_92 = { frame = APDC_cabinet_pie^92 }
+APDC_cabinet_pie_93 = { frame = APDC_cabinet_pie^93 }
+APDC_cabinet_pie_94 = { frame = APDC_cabinet_pie^94 }
+APDC_cabinet_pie_95 = { frame = APDC_cabinet_pie^95 }
+APDC_cabinet_pie_96 = { frame = APDC_cabinet_pie^96 }
+APDC_cabinet_pie_97 = { frame = APDC_cabinet_pie^97 }
+APDC_cabinet_pie_98 = { frame = APDC_cabinet_pie^98 }
+APDC_cabinet_pie_99 = { frame = APDC_cabinet_pie^99 }
+apdc_parl_progress_0 = { frame = apdc_parl_progress_frame_0 }
+apdc_parl_progress_1 = { frame = apdc_parl_progress_frame_1 }
+apdc_parl_progress_2 = { frame = apdc_parl_progress_frame_2 }
+apdc_parl_progress_3 = { frame = apdc_parl_progress_frame_3 }
+apdc_parl_progress_4 = { frame = apdc_parl_progress_frame_4 }
+apdc_parl_progress_5 = { frame = apdc_parl_progress_frame_5 }
+apdc_parl_progress_6 = { frame = apdc_parl_progress_frame_6 }
+apdc_parl_progress_7 = { frame = apdc_parl_progress_frame_7 }
+apdc_parl_progress_8 = { frame = apdc_parl_progress_frame_8 }
+apdc_parl_progress_9 = { frame = apdc_parl_progress_frame_9 }
+apdc_parl_latch_1 = { frame = apdc_parl_latch_1 }
+apdc_parl_latch_2 = { frame = apdc_parl_latch_2 }
+apdc_parl_reform_icon = { image = "[ApdcParlReformIcon]" }
+}
+effects = {
+apdc_parl_close_click = { clr_country_flag = apdc_parl_open clr_country_flag = apdc_parl_candidate_panel_open clear_variable = apdc_parl_selected_group clear_variable = APDC_cabinet_selected_slot add_to_variable = { apdc_parl_dirty = 1 }
+ }
+apdc_parl_role_button_1_click = { set_temp_variable = { apdc_parl_arg_ROLE = 1 }
+apdc_parl_select_role = yes }
+apdc_parl_role_button_2_click = { set_temp_variable = { apdc_parl_arg_ROLE = 2 }
+apdc_parl_select_role = yes }
+apdc_parl_role_button_3_click = { set_temp_variable = { apdc_parl_arg_ROLE = 3 }
+apdc_parl_select_role = yes }
+apdc_parl_role_button_4_click = { set_temp_variable = { apdc_parl_arg_ROLE = 4 }
+apdc_parl_select_role = yes }
+apdc_parl_role_button_5_click = { set_temp_variable = { apdc_parl_arg_ROLE = 5 }
+apdc_parl_select_role = yes }
+apdc_parl_role_button_6_click = { set_temp_variable = { apdc_parl_arg_ROLE = 6 }
+apdc_parl_select_role = yes }
+apdc_parl_role_button_7_click = { set_temp_variable = { apdc_parl_arg_ROLE = 7 }
+apdc_parl_select_role = yes }
+apdc_parl_role_button_8_click = { set_temp_variable = { apdc_parl_arg_ROLE = 8 }
+apdc_parl_select_role = yes }
+apdc_parl_negotiate_communism_click = { set_variable = { apdc_parl_negotiating_party = 1 }
+country_event = { id = apdc_parliament.1 } }
+apdc_parl_ban_communism_click = { if = { limit = { has_country_flag = apdc_parl_banned_communism } apdc_parl_submit_unban_communism = yes } else = { apdc_parl_submit_ban_communism = yes } }
+apdc_parl_negotiate_socialism_click = { set_variable = { apdc_parl_negotiating_party = 2 }
+country_event = { id = apdc_parliament.1 } }
+apdc_parl_ban_socialism_click = { if = { limit = { has_country_flag = apdc_parl_banned_socialism } apdc_parl_submit_unban_socialism = yes } else = { apdc_parl_submit_ban_socialism = yes } }
+apdc_parl_negotiate_social_democracy_click = { set_variable = { apdc_parl_negotiating_party = 3 }
+country_event = { id = apdc_parliament.1 } }
+apdc_parl_ban_social_democracy_click = { if = { limit = { has_country_flag = apdc_parl_banned_social_democracy } apdc_parl_submit_unban_social_democracy = yes } else = { apdc_parl_submit_ban_social_democracy = yes } }
+apdc_parl_negotiate_liberalism_click = { set_variable = { apdc_parl_negotiating_party = 4 }
+country_event = { id = apdc_parliament.1 } }
+apdc_parl_ban_liberalism_click = { if = { limit = { has_country_flag = apdc_parl_banned_liberalism } apdc_parl_submit_unban_liberalism = yes } else = { apdc_parl_submit_ban_liberalism = yes } }
+apdc_parl_negotiate_conservatism_click = { set_variable = { apdc_parl_negotiating_party = 5 }
+country_event = { id = apdc_parliament.1 } }
+apdc_parl_ban_conservatism_click = { if = { limit = { has_country_flag = apdc_parl_banned_conservatism } apdc_parl_submit_unban_conservatism = yes } else = { apdc_parl_submit_ban_conservatism = yes } }
+apdc_parl_negotiate_authoritarianism_click = { set_variable = { apdc_parl_negotiating_party = 6 }
+country_event = { id = apdc_parliament.1 } }
+apdc_parl_ban_authoritarianism_click = { if = { limit = { has_country_flag = apdc_parl_banned_authoritarianism } apdc_parl_submit_unban_authoritarianism = yes } else = { apdc_parl_submit_ban_authoritarianism = yes } }
+apdc_parl_negotiate_dictatorship_click = { set_variable = { apdc_parl_negotiating_party = 7 }
+country_event = { id = apdc_parliament.1 } }
+apdc_parl_ban_dictatorship_click = { if = { limit = { has_country_flag = apdc_parl_banned_dictatorship } apdc_parl_submit_unban_dictatorship = yes } else = { apdc_parl_submit_ban_dictatorship = yes } }
+apdc_parl_negotiate_fascism_click = { set_variable = { apdc_parl_negotiating_party = 8 }
+country_event = { id = apdc_parliament.1 } }
+apdc_parl_ban_fascism_click = { if = { limit = { has_country_flag = apdc_parl_banned_fascism } apdc_parl_submit_unban_fascism = yes } else = { apdc_parl_submit_ban_fascism = yes } }
+apdc_parl_negotiate_fundamentalism_click = { set_variable = { apdc_parl_negotiating_party = 9 }
+country_event = { id = apdc_parliament.1 } }
+apdc_parl_ban_fundamentalism_click = { if = { limit = { has_country_flag = apdc_parl_banned_fundamentalism } apdc_parl_submit_unban_fundamentalism = yes } else = { apdc_parl_submit_ban_fundamentalism = yes } }
+apdc_parl_reform_button_click = { set_variable = { apdc_parl_selected_group = apdc_parl_group_context }
+apdc_parl_refresh_law_options = yes
+ }
+apdc_parl_special_submit_click = { set_variable = { apdc_parl_selected_special_index = apdc_parl_special_context }
+apdc_parl_submit_special_bill = yes }
+}
+triggers = {
+apdc_parl_legend_swatch_communism_visible = { has_country_flag = APDC_governing_coalition_communism }
+apdc_parl_legend_name_communism_visible = { has_country_flag = APDC_governing_coalition_communism }
+apdc_parl_legend_swatch_socialism_visible = { has_country_flag = APDC_governing_coalition_socialism }
+apdc_parl_legend_name_socialism_visible = { has_country_flag = APDC_governing_coalition_socialism }
+apdc_parl_legend_swatch_social_democracy_visible = { has_country_flag = APDC_governing_coalition_social_democracy }
+apdc_parl_legend_name_social_democracy_visible = { has_country_flag = APDC_governing_coalition_social_democracy }
+apdc_parl_legend_swatch_liberalism_visible = { has_country_flag = APDC_governing_coalition_liberalism }
+apdc_parl_legend_name_liberalism_visible = { has_country_flag = APDC_governing_coalition_liberalism }
+apdc_parl_legend_swatch_conservatism_visible = { has_country_flag = APDC_governing_coalition_conservatism }
+apdc_parl_legend_name_conservatism_visible = { has_country_flag = APDC_governing_coalition_conservatism }
+apdc_parl_legend_swatch_authoritarianism_visible = { has_country_flag = APDC_governing_coalition_authoritarianism }
+apdc_parl_legend_name_authoritarianism_visible = { has_country_flag = APDC_governing_coalition_authoritarianism }
+apdc_parl_legend_swatch_dictatorship_visible = { has_country_flag = APDC_governing_coalition_dictatorship }
+apdc_parl_legend_name_dictatorship_visible = { has_country_flag = APDC_governing_coalition_dictatorship }
+apdc_parl_legend_swatch_fascism_visible = { has_country_flag = APDC_governing_coalition_fascism }
+apdc_parl_legend_name_fascism_visible = { has_country_flag = APDC_governing_coalition_fascism }
+apdc_parl_legend_swatch_fundamentalism_visible = { has_country_flag = APDC_governing_coalition_fundamentalism }
+apdc_parl_legend_name_fundamentalism_visible = { has_country_flag = APDC_governing_coalition_fundamentalism }
+apdc_parl_negotiate_communism_click_enabled = { check_variable = { apdc_parl_agenda > 0 } check_variable = { apdc_parl_seats_communism > 0 } }
+apdc_parl_ban_communism_click_enabled = { apdc_parl_can_submit = yes OR = { has_country_flag = apdc_parl_banned_communism apdc_parl_can_ban_communism = yes } }
+apdc_parl_negotiate_socialism_click_enabled = { check_variable = { apdc_parl_agenda > 0 } check_variable = { apdc_parl_seats_socialism > 0 } }
+apdc_parl_ban_socialism_click_enabled = { apdc_parl_can_submit = yes OR = { has_country_flag = apdc_parl_banned_socialism apdc_parl_can_ban_socialism = yes } }
+apdc_parl_negotiate_social_democracy_click_enabled = { check_variable = { apdc_parl_agenda > 0 } check_variable = { apdc_parl_seats_social_democracy > 0 } }
+apdc_parl_ban_social_democracy_click_enabled = { apdc_parl_can_submit = yes OR = { has_country_flag = apdc_parl_banned_social_democracy apdc_parl_can_ban_social_democracy = yes } }
+apdc_parl_negotiate_liberalism_click_enabled = { check_variable = { apdc_parl_agenda > 0 } check_variable = { apdc_parl_seats_liberalism > 0 } }
+apdc_parl_ban_liberalism_click_enabled = { apdc_parl_can_submit = yes OR = { has_country_flag = apdc_parl_banned_liberalism apdc_parl_can_ban_liberalism = yes } }
+apdc_parl_negotiate_conservatism_click_enabled = { check_variable = { apdc_parl_agenda > 0 } check_variable = { apdc_parl_seats_conservatism > 0 } }
+apdc_parl_ban_conservatism_click_enabled = { apdc_parl_can_submit = yes OR = { has_country_flag = apdc_parl_banned_conservatism apdc_parl_can_ban_conservatism = yes } }
+apdc_parl_negotiate_authoritarianism_click_enabled = { check_variable = { apdc_parl_agenda > 0 } check_variable = { apdc_parl_seats_authoritarianism > 0 } }
+apdc_parl_ban_authoritarianism_click_enabled = { apdc_parl_can_submit = yes OR = { has_country_flag = apdc_parl_banned_authoritarianism apdc_parl_can_ban_authoritarianism = yes } }
+apdc_parl_negotiate_dictatorship_click_enabled = { check_variable = { apdc_parl_agenda > 0 } check_variable = { apdc_parl_seats_dictatorship > 0 } }
+apdc_parl_ban_dictatorship_click_enabled = { apdc_parl_can_submit = yes OR = { has_country_flag = apdc_parl_banned_dictatorship apdc_parl_can_ban_dictatorship = yes } }
+apdc_parl_negotiate_fascism_click_enabled = { check_variable = { apdc_parl_agenda > 0 } check_variable = { apdc_parl_seats_fascism > 0 } }
+apdc_parl_ban_fascism_click_enabled = { apdc_parl_can_submit = yes OR = { has_country_flag = apdc_parl_banned_fascism apdc_parl_can_ban_fascism = yes } }
+apdc_parl_negotiate_fundamentalism_click_enabled = { check_variable = { apdc_parl_agenda > 0 } check_variable = { apdc_parl_seats_fundamentalism > 0 } }
+apdc_parl_ban_fundamentalism_click_enabled = { apdc_parl_can_submit = yes OR = { has_country_flag = apdc_parl_banned_fundamentalism apdc_parl_can_ban_fundamentalism = yes } }
+apdc_parl_special_submit_click_enabled = { apdc_parl_can_submit = yes check_variable = { apdc_parl_special_enabled^apdc_parl_special_context = 1 } NOT = { has_political_power < apdc_parl_special_costs^apdc_parl_special_context } }
+}
+dynamic_lists = {
+apdc_parl_reforms_list = {
+array = apdc_parl_reform_groups value = apdc_parl_group_context change_scope = no entry_container = "apdc_parl_reform_row"
+}
+apdc_parl_specials_list = {
+array = apdc_parl_special_ids index = apdc_parl_special_context change_scope = no entry_container = "apdc_parl_special_entry"
+}
+
+}
+
+}
+apdc_parl_candidate_panel_ui = {
+context_type = player_context
+window_name = "apdc_parl_candidate_panel"
+parent_window_name = "apdc_parl_candidate_hook"
+dirty = apdc_parl_dirty
+visible = { has_country_flag = apdc_parl_open has_country_flag = apdc_parl_candidate_panel_open }
+effects = {
+apdc_parl_dismiss_click = { apdc_parl_dismiss_selected = yes }
+apdc_parl_candidate_button_click = { set_variable = { apdc_parl_selected_candidate = apdc_parl_candidate_context }
+apdc_parl_appoint_selected = yes }
+}
+triggers = {
+apdc_parl_no_candidates_visible = { check_variable = { apdc_parl_real_candidate_count = 0 } }
+apdc_parl_dismiss_click_enabled = { OR = { AND = { check_variable = { apdc_parl_selected_role = 1 } check_variable = { apdc_parl_role_1 > 0 } } AND = { check_variable = { apdc_parl_selected_role = 2 } check_variable = { apdc_parl_role_2 > 0 } } AND = { check_variable = { apdc_parl_selected_role = 3 } check_variable = { apdc_parl_role_3 > 0 } } AND = { check_variable = { apdc_parl_selected_role = 4 } check_variable = { apdc_parl_role_4 > 0 } } AND = { check_variable = { apdc_parl_selected_role = 5 } check_variable = { apdc_parl_role_5 > 0 } } AND = { check_variable = { apdc_parl_selected_role = 6 } check_variable = { apdc_parl_role_6 > 0 } } AND = { check_variable = { apdc_parl_selected_role = 7 } OR = { check_variable = { apdc_parl_role_7 > 0 } has_variable = APDC_prime_minister_character } } AND = { check_variable = { apdc_parl_selected_role = 8 } OR = { check_variable = { apdc_parl_role_8 > 0 } has_variable = APDC_deputy_prime_minister_character } } } }
+apdc_parl_candidate_button_click_enabled = { OR = { AND = { check_variable = { apdc_parl_candidate_context = 1 } apdc_parl_candidate_1_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 2 } apdc_parl_candidate_2_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 3 } apdc_parl_candidate_3_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 4 } apdc_parl_candidate_4_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 5 } apdc_parl_candidate_5_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 6 } apdc_parl_candidate_6_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 7 } apdc_parl_candidate_7_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 8 } apdc_parl_candidate_8_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 9 } apdc_parl_candidate_9_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 10 } apdc_parl_candidate_10_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 11 } apdc_parl_candidate_11_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 12 } apdc_parl_candidate_12_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 13 } apdc_parl_candidate_13_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 14 } apdc_parl_candidate_14_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 15 } apdc_parl_candidate_15_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 16 } apdc_parl_candidate_16_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 17 } apdc_parl_candidate_17_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 18 } apdc_parl_candidate_18_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 19 } apdc_parl_candidate_19_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 20 } apdc_parl_candidate_20_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 21 } apdc_parl_candidate_21_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 22 } apdc_parl_candidate_22_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 23 } apdc_parl_candidate_23_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 24 } apdc_parl_candidate_24_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 25 } apdc_parl_candidate_25_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 26 } apdc_parl_candidate_26_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 27 } apdc_parl_candidate_27_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 28 } apdc_parl_candidate_28_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 29 } apdc_parl_candidate_29_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 30 } apdc_parl_candidate_30_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 31 } apdc_parl_candidate_31_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 32 } apdc_parl_candidate_32_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 33 } apdc_parl_candidate_33_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 34 } apdc_parl_candidate_34_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 35 } apdc_parl_candidate_35_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 36 } apdc_parl_candidate_36_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 37 } apdc_parl_candidate_37_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 38 } apdc_parl_candidate_38_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 39 } apdc_parl_candidate_39_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 40 } apdc_parl_candidate_40_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 41 } apdc_parl_candidate_41_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 42 } apdc_parl_candidate_42_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 43 } apdc_parl_candidate_43_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 44 } apdc_parl_candidate_44_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 45 } apdc_parl_candidate_45_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 46 } apdc_parl_candidate_46_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 47 } apdc_parl_candidate_47_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1002 } apdc_parl_candidate_1002_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1003 } apdc_parl_candidate_1003_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1004 } apdc_parl_candidate_1004_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1005 } apdc_parl_candidate_1005_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1006 } apdc_parl_candidate_1006_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1007 } apdc_parl_candidate_1007_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1008 } apdc_parl_candidate_1008_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1009 } apdc_parl_candidate_1009_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1010 } apdc_parl_candidate_1010_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1011 } apdc_parl_candidate_1011_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1012 } apdc_parl_candidate_1012_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1013 } apdc_parl_candidate_1013_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1014 } apdc_parl_candidate_1014_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1015 } apdc_parl_candidate_1015_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1016 } apdc_parl_candidate_1016_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1017 } apdc_parl_candidate_1017_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1018 } apdc_parl_candidate_1018_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1019 } apdc_parl_candidate_1019_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1020 } apdc_parl_candidate_1020_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1021 } apdc_parl_candidate_1021_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1022 } apdc_parl_candidate_1022_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1023 } apdc_parl_candidate_1023_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1024 } apdc_parl_candidate_1024_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1025 } apdc_parl_candidate_1025_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1026 } apdc_parl_candidate_1026_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1027 } apdc_parl_candidate_1027_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1028 } apdc_parl_candidate_1028_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1029 } apdc_parl_candidate_1029_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1030 } apdc_parl_candidate_1030_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1031 } apdc_parl_candidate_1031_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1032 } apdc_parl_candidate_1032_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1033 } apdc_parl_candidate_1033_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1034 } apdc_parl_candidate_1034_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1035 } apdc_parl_candidate_1035_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1036 } apdc_parl_candidate_1036_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1037 } apdc_parl_candidate_1037_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1038 } apdc_parl_candidate_1038_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1039 } apdc_parl_candidate_1039_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1040 } apdc_parl_candidate_1040_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1041 } apdc_parl_candidate_1041_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1042 } apdc_parl_candidate_1042_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1043 } apdc_parl_candidate_1043_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1044 } apdc_parl_candidate_1044_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1045 } apdc_parl_candidate_1045_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1046 } apdc_parl_candidate_1046_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1047 } apdc_parl_candidate_1047_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1048 } apdc_parl_candidate_1048_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1049 } apdc_parl_candidate_1049_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1050 } apdc_parl_candidate_1050_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1051 } apdc_parl_candidate_1051_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1052 } apdc_parl_candidate_1052_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1053 } apdc_parl_candidate_1053_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1054 } apdc_parl_candidate_1054_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1055 } apdc_parl_candidate_1055_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1056 } apdc_parl_candidate_1056_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1057 } apdc_parl_candidate_1057_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1058 } apdc_parl_candidate_1058_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1059 } apdc_parl_candidate_1059_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1060 } apdc_parl_candidate_1060_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1061 } apdc_parl_candidate_1061_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1062 } apdc_parl_candidate_1062_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1063 } apdc_parl_candidate_1063_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1064 } apdc_parl_candidate_1064_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1065 } apdc_parl_candidate_1065_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1066 } apdc_parl_candidate_1066_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1067 } apdc_parl_candidate_1067_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1068 } apdc_parl_candidate_1068_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1069 } apdc_parl_candidate_1069_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1070 } apdc_parl_candidate_1070_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1071 } apdc_parl_candidate_1071_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1072 } apdc_parl_candidate_1072_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1073 } apdc_parl_candidate_1073_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1074 } apdc_parl_candidate_1074_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1075 } apdc_parl_candidate_1075_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1076 } apdc_parl_candidate_1076_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1077 } apdc_parl_candidate_1077_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1078 } apdc_parl_candidate_1078_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1079 } apdc_parl_candidate_1079_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1080 } apdc_parl_candidate_1080_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1081 } apdc_parl_candidate_1081_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1082 } apdc_parl_candidate_1082_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1083 } apdc_parl_candidate_1083_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1084 } apdc_parl_candidate_1084_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1085 } apdc_parl_candidate_1085_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1086 } apdc_parl_candidate_1086_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1087 } apdc_parl_candidate_1087_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1088 } apdc_parl_candidate_1088_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1089 } apdc_parl_candidate_1089_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1090 } apdc_parl_candidate_1090_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1091 } apdc_parl_candidate_1091_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1092 } apdc_parl_candidate_1092_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1093 } apdc_parl_candidate_1093_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1094 } apdc_parl_candidate_1094_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1095 } apdc_parl_candidate_1095_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1096 } apdc_parl_candidate_1096_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1097 } apdc_parl_candidate_1097_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1098 } apdc_parl_candidate_1098_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1099 } apdc_parl_candidate_1099_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1100 } apdc_parl_candidate_1100_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1101 } apdc_parl_candidate_1101_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1102 } apdc_parl_candidate_1102_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1103 } apdc_parl_candidate_1103_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1104 } apdc_parl_candidate_1104_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1105 } apdc_parl_candidate_1105_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1106 } apdc_parl_candidate_1106_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1107 } apdc_parl_candidate_1107_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1108 } apdc_parl_candidate_1108_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1109 } apdc_parl_candidate_1109_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1110 } apdc_parl_candidate_1110_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1111 } apdc_parl_candidate_1111_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1112 } apdc_parl_candidate_1112_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1113 } apdc_parl_candidate_1113_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1114 } apdc_parl_candidate_1114_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1115 } apdc_parl_candidate_1115_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1116 } apdc_parl_candidate_1116_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1117 } apdc_parl_candidate_1117_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1118 } apdc_parl_candidate_1118_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1119 } apdc_parl_candidate_1119_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1120 } apdc_parl_candidate_1120_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1121 } apdc_parl_candidate_1121_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1122 } apdc_parl_candidate_1122_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1123 } apdc_parl_candidate_1123_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1124 } apdc_parl_candidate_1124_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1125 } apdc_parl_candidate_1125_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1126 } apdc_parl_candidate_1126_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1127 } apdc_parl_candidate_1127_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1128 } apdc_parl_candidate_1128_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1129 } apdc_parl_candidate_1129_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1130 } apdc_parl_candidate_1130_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1131 } apdc_parl_candidate_1131_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1132 } apdc_parl_candidate_1132_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1133 } apdc_parl_candidate_1133_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1134 } apdc_parl_candidate_1134_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1135 } apdc_parl_candidate_1135_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1136 } apdc_parl_candidate_1136_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1137 } apdc_parl_candidate_1137_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1138 } apdc_parl_candidate_1138_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1139 } apdc_parl_candidate_1139_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1140 } apdc_parl_candidate_1140_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1141 } apdc_parl_candidate_1141_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1142 } apdc_parl_candidate_1142_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1143 } apdc_parl_candidate_1143_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1144 } apdc_parl_candidate_1144_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1145 } apdc_parl_candidate_1145_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1146 } apdc_parl_candidate_1146_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1147 } apdc_parl_candidate_1147_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1148 } apdc_parl_candidate_1148_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1149 } apdc_parl_candidate_1149_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1150 } apdc_parl_candidate_1150_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1151 } apdc_parl_candidate_1151_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1152 } apdc_parl_candidate_1152_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1153 } apdc_parl_candidate_1153_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1154 } apdc_parl_candidate_1154_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1155 } apdc_parl_candidate_1155_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1156 } apdc_parl_candidate_1156_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1157 } apdc_parl_candidate_1157_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1158 } apdc_parl_candidate_1158_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1159 } apdc_parl_candidate_1159_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1160 } apdc_parl_candidate_1160_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1161 } apdc_parl_candidate_1161_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1162 } apdc_parl_candidate_1162_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1163 } apdc_parl_candidate_1163_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1164 } apdc_parl_candidate_1164_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1165 } apdc_parl_candidate_1165_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1166 } apdc_parl_candidate_1166_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1167 } apdc_parl_candidate_1167_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1168 } apdc_parl_candidate_1168_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1169 } apdc_parl_candidate_1169_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1170 } apdc_parl_candidate_1170_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1171 } apdc_parl_candidate_1171_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1172 } apdc_parl_candidate_1172_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1173 } apdc_parl_candidate_1173_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1174 } apdc_parl_candidate_1174_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1175 } apdc_parl_candidate_1175_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1176 } apdc_parl_candidate_1176_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1177 } apdc_parl_candidate_1177_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1178 } apdc_parl_candidate_1178_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1179 } apdc_parl_candidate_1179_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1180 } apdc_parl_candidate_1180_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1181 } apdc_parl_candidate_1181_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1182 } apdc_parl_candidate_1182_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1183 } apdc_parl_candidate_1183_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1184 } apdc_parl_candidate_1184_enabled = yes } AND = { check_variable = { apdc_parl_candidate_context = 1185 } apdc_parl_candidate_1185_enabled = yes } } }
+apdc_parl_candidate_button_visible = { check_variable = { apdc_parl_candidate_context > 0 } }
+apdc_parl_candidate_portrait_visible = { check_variable = { apdc_parl_candidate_context > 0 } }
+apdc_parl_candidate_name_visible = { check_variable = { apdc_parl_candidate_context > 0 } }
+apdc_parl_candidate_trait_visible = { check_variable = { apdc_parl_candidate_context > 0 } }
+apdc_parl_candidate_cost_visible = { check_variable = { apdc_parl_candidate_context > 0 } }
+apdc_parl_candidate_header_visible = { check_variable = { apdc_parl_candidate_context < 0 } }
+apdc_parl_candidate_quota_visible = { check_variable = { apdc_parl_candidate_context < 0 } check_variable = { apdc_parl_selected_role < 7 } }
+}
+dynamic_lists = {
+apdc_parl_candidate_list = {
+array = apdc_parl_candidates value = apdc_parl_candidate_context change_scope = no entry_container = "apdc_parl_candidate_row"
+}
+
+}
+properties = {
+apdc_parl_candidate_portrait = { image = "[ApdcParlCandidatePortrait]" }
+}
+
+}
+apdc_parl_law_side_ui = {
+context_type = player_context
+window_name = "apdc_parl_law_side"
+parent_window_name = "apdc_parl_law_hook"
+dirty = apdc_parl_dirty
+visible = { has_country_flag = apdc_parl_open has_variable = apdc_parl_selected_group }
+effects = {
+apdc_parl_side_close_click = { clear_variable = apdc_parl_selected_group add_to_variable = { apdc_parl_dirty = 1 }
+ }
+apdc_parl_option_button_click = { if = {
+limit = { check_variable = { apdc_parl_option_context = 1001 } }
+apdc_parl_propose_doll_rights_1 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 1002 } }
+apdc_parl_propose_doll_rights_2 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 1003 } }
+apdc_parl_propose_doll_rights_3 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 1004 } }
+apdc_parl_propose_doll_rights_4 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 1005 } }
+apdc_parl_propose_doll_rights_5 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 1006 } }
+apdc_parl_propose_doll_rights_6 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 1007 } }
+apdc_parl_propose_doll_rights_7 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 2001 } }
+apdc_parl_propose_infected_rights_1 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 2002 } }
+apdc_parl_propose_infected_rights_2 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 2003 } }
+apdc_parl_propose_infected_rights_3 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 2004 } }
+apdc_parl_propose_infected_rights_4 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 2005 } }
+apdc_parl_propose_infected_rights_5 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 2006 } }
+apdc_parl_propose_infected_rights_6 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 3001 } }
+apdc_parl_propose_women_rights_1 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 3002 } }
+apdc_parl_propose_women_rights_2 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 3003 } }
+apdc_parl_propose_women_rights_3 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 3004 } }
+apdc_parl_propose_women_rights_4 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 3005 } }
+apdc_parl_propose_women_rights_5 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 4001 } }
+apdc_parl_propose_relic_technology_1 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 4002 } }
+apdc_parl_propose_relic_technology_2 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 4003 } }
+apdc_parl_propose_relic_technology_3 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 4004 } }
+apdc_parl_propose_relic_technology_4 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 4005 } }
+apdc_parl_propose_relic_technology_5 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 4006 } }
+apdc_parl_propose_relic_technology_6 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 5001 } }
+apdc_parl_propose_economic_system_1 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 5002 } }
+apdc_parl_propose_economic_system_2 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 5003 } }
+apdc_parl_propose_economic_system_3 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 5004 } }
+apdc_parl_propose_economic_system_4 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 5005 } }
+apdc_parl_propose_economic_system_5 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 5006 } }
+apdc_parl_propose_economic_system_6 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 5007 } }
+apdc_parl_propose_economic_system_7 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 5008 } }
+apdc_parl_propose_economic_system_8 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 5009 } }
+apdc_parl_propose_economic_system_9 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 5010 } }
+apdc_parl_propose_economic_system_10 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 6001 } }
+apdc_parl_propose_political_system_1 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 6002 } }
+apdc_parl_propose_political_system_2 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 6003 } }
+apdc_parl_propose_political_system_3 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 6004 } }
+apdc_parl_propose_political_system_4 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 6005 } }
+apdc_parl_propose_political_system_5 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 6006 } }
+apdc_parl_propose_political_system_6 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 6007 } }
+apdc_parl_propose_political_system_7 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 6008 } }
+apdc_parl_propose_political_system_8 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 6009 } }
+apdc_parl_propose_political_system_9 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+ }
+apdc_parl_option_icon_click = { if = {
+limit = { check_variable = { apdc_parl_option_context = 1001 } }
+apdc_parl_propose_doll_rights_1 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 1002 } }
+apdc_parl_propose_doll_rights_2 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 1003 } }
+apdc_parl_propose_doll_rights_3 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 1004 } }
+apdc_parl_propose_doll_rights_4 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 1005 } }
+apdc_parl_propose_doll_rights_5 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 1006 } }
+apdc_parl_propose_doll_rights_6 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 1007 } }
+apdc_parl_propose_doll_rights_7 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 2001 } }
+apdc_parl_propose_infected_rights_1 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 2002 } }
+apdc_parl_propose_infected_rights_2 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 2003 } }
+apdc_parl_propose_infected_rights_3 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 2004 } }
+apdc_parl_propose_infected_rights_4 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 2005 } }
+apdc_parl_propose_infected_rights_5 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 2006 } }
+apdc_parl_propose_infected_rights_6 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 3001 } }
+apdc_parl_propose_women_rights_1 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 3002 } }
+apdc_parl_propose_women_rights_2 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 3003 } }
+apdc_parl_propose_women_rights_3 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 3004 } }
+apdc_parl_propose_women_rights_4 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 3005 } }
+apdc_parl_propose_women_rights_5 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 4001 } }
+apdc_parl_propose_relic_technology_1 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 4002 } }
+apdc_parl_propose_relic_technology_2 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 4003 } }
+apdc_parl_propose_relic_technology_3 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 4004 } }
+apdc_parl_propose_relic_technology_4 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 4005 } }
+apdc_parl_propose_relic_technology_5 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 4006 } }
+apdc_parl_propose_relic_technology_6 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 5001 } }
+apdc_parl_propose_economic_system_1 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 5002 } }
+apdc_parl_propose_economic_system_2 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 5003 } }
+apdc_parl_propose_economic_system_3 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 5004 } }
+apdc_parl_propose_economic_system_4 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 5005 } }
+apdc_parl_propose_economic_system_5 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 5006 } }
+apdc_parl_propose_economic_system_6 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 5007 } }
+apdc_parl_propose_economic_system_7 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 5008 } }
+apdc_parl_propose_economic_system_8 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 5009 } }
+apdc_parl_propose_economic_system_9 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 5010 } }
+apdc_parl_propose_economic_system_10 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 6001 } }
+apdc_parl_propose_political_system_1 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 6002 } }
+apdc_parl_propose_political_system_2 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 6003 } }
+apdc_parl_propose_political_system_3 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 6004 } }
+apdc_parl_propose_political_system_4 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 6005 } }
+apdc_parl_propose_political_system_5 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 6006 } }
+apdc_parl_propose_political_system_6 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 6007 } }
+apdc_parl_propose_political_system_7 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 6008 } }
+apdc_parl_propose_political_system_8 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+if = {
+limit = { check_variable = { apdc_parl_option_context = 6009 } }
+apdc_parl_propose_political_system_9 = yes
+clear_variable = apdc_parl_selected_group
+
+}
+ }
+}
+dynamic_lists = {
+apdc_parl_option_list = {
+array = apdc_parl_law_options value = apdc_parl_option_context change_scope = no entry_container = "apdc_parl_option_row"
+}
+
+}
+properties = {
+apdc_parl_option_icon = { image = "[ApdcParlOptionIcon]" }
+}
+triggers = {
+apdc_parl_option_button_click_enabled = { apdc_parl_can_submit = yes has_political_power > 149 OR = { AND = { check_variable = { apdc_parl_option_context = 1001 } NOT = { check_variable = { apdc_parl_law_1 = 1 } } } AND = { check_variable = { apdc_parl_option_context = 1002 } NOT = { check_variable = { apdc_parl_law_1 = 2 } } } AND = { check_variable = { apdc_parl_option_context = 1003 } NOT = { check_variable = { apdc_parl_law_1 = 3 } } } AND = { check_variable = { apdc_parl_option_context = 1004 } NOT = { check_variable = { apdc_parl_law_1 = 4 } } } AND = { check_variable = { apdc_parl_option_context = 1005 } NOT = { check_variable = { apdc_parl_law_1 = 5 } } } AND = { check_variable = { apdc_parl_option_context = 1006 } NOT = { check_variable = { apdc_parl_law_1 = 6 } } } AND = { check_variable = { apdc_parl_option_context = 1007 } NOT = { check_variable = { apdc_parl_law_1 = 7 } } } AND = { check_variable = { apdc_parl_option_context = 2001 } NOT = { check_variable = { apdc_parl_law_2 = 1 } } } AND = { check_variable = { apdc_parl_option_context = 2002 } NOT = { check_variable = { apdc_parl_law_2 = 2 } } } AND = { check_variable = { apdc_parl_option_context = 2003 } NOT = { check_variable = { apdc_parl_law_2 = 3 } } } AND = { check_variable = { apdc_parl_option_context = 2004 } NOT = { check_variable = { apdc_parl_law_2 = 4 } } } AND = { check_variable = { apdc_parl_option_context = 2005 } NOT = { check_variable = { apdc_parl_law_2 = 5 } } } AND = { check_variable = { apdc_parl_option_context = 2006 } NOT = { check_variable = { apdc_parl_law_2 = 6 } } } AND = { check_variable = { apdc_parl_option_context = 3001 } NOT = { check_variable = { apdc_parl_law_3 = 1 } } } AND = { check_variable = { apdc_parl_option_context = 3002 } NOT = { check_variable = { apdc_parl_law_3 = 2 } } } AND = { check_variable = { apdc_parl_option_context = 3003 } NOT = { check_variable = { apdc_parl_law_3 = 3 } } } AND = { check_variable = { apdc_parl_option_context = 3004 } NOT = { check_variable = { apdc_parl_law_3 = 4 } } } AND = { check_variable = { apdc_parl_option_context = 3005 } NOT = { check_variable = { apdc_parl_law_3 = 5 } } } AND = { check_variable = { apdc_parl_option_context = 4001 } NOT = { check_variable = { apdc_parl_law_4 = 1 } } } AND = { check_variable = { apdc_parl_option_context = 4002 } NOT = { check_variable = { apdc_parl_law_4 = 2 } } } AND = { check_variable = { apdc_parl_option_context = 4003 } NOT = { check_variable = { apdc_parl_law_4 = 3 } } } AND = { check_variable = { apdc_parl_option_context = 4004 } NOT = { check_variable = { apdc_parl_law_4 = 4 } } } AND = { check_variable = { apdc_parl_option_context = 4005 } NOT = { check_variable = { apdc_parl_law_4 = 5 } } } AND = { check_variable = { apdc_parl_option_context = 4006 } NOT = { check_variable = { apdc_parl_law_4 = 6 } } } AND = { check_variable = { apdc_parl_option_context = 5001 } NOT = { check_variable = { apdc_parl_law_5 = 1 } } } AND = { check_variable = { apdc_parl_option_context = 5002 } NOT = { check_variable = { apdc_parl_law_5 = 2 } } } AND = { check_variable = { apdc_parl_option_context = 5003 } NOT = { check_variable = { apdc_parl_law_5 = 3 } } } AND = { check_variable = { apdc_parl_option_context = 5004 } NOT = { check_variable = { apdc_parl_law_5 = 4 } } } AND = { check_variable = { apdc_parl_option_context = 5005 } NOT = { check_variable = { apdc_parl_law_5 = 5 } } } AND = { check_variable = { apdc_parl_option_context = 5006 } NOT = { check_variable = { apdc_parl_law_5 = 6 } } } AND = { check_variable = { apdc_parl_option_context = 5007 } NOT = { check_variable = { apdc_parl_law_5 = 7 } } } AND = { check_variable = { apdc_parl_option_context = 5008 } NOT = { check_variable = { apdc_parl_law_5 = 8 } } } AND = { check_variable = { apdc_parl_option_context = 5009 } NOT = { check_variable = { apdc_parl_law_5 = 9 } } } AND = { check_variable = { apdc_parl_option_context = 5010 } NOT = { check_variable = { apdc_parl_law_5 = 10 } } } AND = { check_variable = { apdc_parl_option_context = 6001 } NOT = { check_variable = { apdc_parl_law_6 = 1 } } } AND = { check_variable = { apdc_parl_option_context = 6002 } NOT = { check_variable = { apdc_parl_law_6 = 2 } } } AND = { check_variable = { apdc_parl_option_context = 6003 } NOT = { check_variable = { apdc_parl_law_6 = 3 } } } AND = { check_variable = { apdc_parl_option_context = 6004 } NOT = { check_variable = { apdc_parl_law_6 = 4 } } } AND = { check_variable = { apdc_parl_option_context = 6005 } NOT = { check_variable = { apdc_parl_law_6 = 5 } } } AND = { check_variable = { apdc_parl_option_context = 6006 } NOT = { check_variable = { apdc_parl_law_6 = 6 } } } AND = { check_variable = { apdc_parl_option_context = 6007 } NOT = { check_variable = { apdc_parl_law_6 = 7 } } } AND = { check_variable = { apdc_parl_option_context = 6008 } NOT = { check_variable = { apdc_parl_law_6 = 8 } } } AND = { check_variable = { apdc_parl_option_context = 6009 } NOT = { check_variable = { apdc_parl_law_6 = 9 } } } } }
+apdc_parl_option_icon_click_enabled = { apdc_parl_can_submit = yes has_political_power > 149 OR = { AND = { check_variable = { apdc_parl_option_context = 1001 } NOT = { check_variable = { apdc_parl_law_1 = 1 } } } AND = { check_variable = { apdc_parl_option_context = 1002 } NOT = { check_variable = { apdc_parl_law_1 = 2 } } } AND = { check_variable = { apdc_parl_option_context = 1003 } NOT = { check_variable = { apdc_parl_law_1 = 3 } } } AND = { check_variable = { apdc_parl_option_context = 1004 } NOT = { check_variable = { apdc_parl_law_1 = 4 } } } AND = { check_variable = { apdc_parl_option_context = 1005 } NOT = { check_variable = { apdc_parl_law_1 = 5 } } } AND = { check_variable = { apdc_parl_option_context = 1006 } NOT = { check_variable = { apdc_parl_law_1 = 6 } } } AND = { check_variable = { apdc_parl_option_context = 1007 } NOT = { check_variable = { apdc_parl_law_1 = 7 } } } AND = { check_variable = { apdc_parl_option_context = 2001 } NOT = { check_variable = { apdc_parl_law_2 = 1 } } } AND = { check_variable = { apdc_parl_option_context = 2002 } NOT = { check_variable = { apdc_parl_law_2 = 2 } } } AND = { check_variable = { apdc_parl_option_context = 2003 } NOT = { check_variable = { apdc_parl_law_2 = 3 } } } AND = { check_variable = { apdc_parl_option_context = 2004 } NOT = { check_variable = { apdc_parl_law_2 = 4 } } } AND = { check_variable = { apdc_parl_option_context = 2005 } NOT = { check_variable = { apdc_parl_law_2 = 5 } } } AND = { check_variable = { apdc_parl_option_context = 2006 } NOT = { check_variable = { apdc_parl_law_2 = 6 } } } AND = { check_variable = { apdc_parl_option_context = 3001 } NOT = { check_variable = { apdc_parl_law_3 = 1 } } } AND = { check_variable = { apdc_parl_option_context = 3002 } NOT = { check_variable = { apdc_parl_law_3 = 2 } } } AND = { check_variable = { apdc_parl_option_context = 3003 } NOT = { check_variable = { apdc_parl_law_3 = 3 } } } AND = { check_variable = { apdc_parl_option_context = 3004 } NOT = { check_variable = { apdc_parl_law_3 = 4 } } } AND = { check_variable = { apdc_parl_option_context = 3005 } NOT = { check_variable = { apdc_parl_law_3 = 5 } } } AND = { check_variable = { apdc_parl_option_context = 4001 } NOT = { check_variable = { apdc_parl_law_4 = 1 } } } AND = { check_variable = { apdc_parl_option_context = 4002 } NOT = { check_variable = { apdc_parl_law_4 = 2 } } } AND = { check_variable = { apdc_parl_option_context = 4003 } NOT = { check_variable = { apdc_parl_law_4 = 3 } } } AND = { check_variable = { apdc_parl_option_context = 4004 } NOT = { check_variable = { apdc_parl_law_4 = 4 } } } AND = { check_variable = { apdc_parl_option_context = 4005 } NOT = { check_variable = { apdc_parl_law_4 = 5 } } } AND = { check_variable = { apdc_parl_option_context = 4006 } NOT = { check_variable = { apdc_parl_law_4 = 6 } } } AND = { check_variable = { apdc_parl_option_context = 5001 } NOT = { check_variable = { apdc_parl_law_5 = 1 } } } AND = { check_variable = { apdc_parl_option_context = 5002 } NOT = { check_variable = { apdc_parl_law_5 = 2 } } } AND = { check_variable = { apdc_parl_option_context = 5003 } NOT = { check_variable = { apdc_parl_law_5 = 3 } } } AND = { check_variable = { apdc_parl_option_context = 5004 } NOT = { check_variable = { apdc_parl_law_5 = 4 } } } AND = { check_variable = { apdc_parl_option_context = 5005 } NOT = { check_variable = { apdc_parl_law_5 = 5 } } } AND = { check_variable = { apdc_parl_option_context = 5006 } NOT = { check_variable = { apdc_parl_law_5 = 6 } } } AND = { check_variable = { apdc_parl_option_context = 5007 } NOT = { check_variable = { apdc_parl_law_5 = 7 } } } AND = { check_variable = { apdc_parl_option_context = 5008 } NOT = { check_variable = { apdc_parl_law_5 = 8 } } } AND = { check_variable = { apdc_parl_option_context = 5009 } NOT = { check_variable = { apdc_parl_law_5 = 9 } } } AND = { check_variable = { apdc_parl_option_context = 5010 } NOT = { check_variable = { apdc_parl_law_5 = 10 } } } AND = { check_variable = { apdc_parl_option_context = 6001 } NOT = { check_variable = { apdc_parl_law_6 = 1 } } } AND = { check_variable = { apdc_parl_option_context = 6002 } NOT = { check_variable = { apdc_parl_law_6 = 2 } } } AND = { check_variable = { apdc_parl_option_context = 6003 } NOT = { check_variable = { apdc_parl_law_6 = 3 } } } AND = { check_variable = { apdc_parl_option_context = 6004 } NOT = { check_variable = { apdc_parl_law_6 = 4 } } } AND = { check_variable = { apdc_parl_option_context = 6005 } NOT = { check_variable = { apdc_parl_law_6 = 5 } } } AND = { check_variable = { apdc_parl_option_context = 6006 } NOT = { check_variable = { apdc_parl_law_6 = 6 } } } AND = { check_variable = { apdc_parl_option_context = 6007 } NOT = { check_variable = { apdc_parl_law_6 = 7 } } } AND = { check_variable = { apdc_parl_option_context = 6008 } NOT = { check_variable = { apdc_parl_law_6 = 8 } } } AND = { check_variable = { apdc_parl_option_context = 6009 } NOT = { check_variable = { apdc_parl_law_6 = 9 } } } } }
+apdc_parl_option_current_visible = { OR = { AND = { check_variable = { apdc_parl_option_context = 1001 } check_variable = { apdc_parl_law_1 = 1 } } AND = { check_variable = { apdc_parl_option_context = 1002 } check_variable = { apdc_parl_law_1 = 2 } } AND = { check_variable = { apdc_parl_option_context = 1003 } check_variable = { apdc_parl_law_1 = 3 } } AND = { check_variable = { apdc_parl_option_context = 1004 } check_variable = { apdc_parl_law_1 = 4 } } AND = { check_variable = { apdc_parl_option_context = 1005 } check_variable = { apdc_parl_law_1 = 5 } } AND = { check_variable = { apdc_parl_option_context = 1006 } check_variable = { apdc_parl_law_1 = 6 } } AND = { check_variable = { apdc_parl_option_context = 1007 } check_variable = { apdc_parl_law_1 = 7 } } AND = { check_variable = { apdc_parl_option_context = 2001 } check_variable = { apdc_parl_law_2 = 1 } } AND = { check_variable = { apdc_parl_option_context = 2002 } check_variable = { apdc_parl_law_2 = 2 } } AND = { check_variable = { apdc_parl_option_context = 2003 } check_variable = { apdc_parl_law_2 = 3 } } AND = { check_variable = { apdc_parl_option_context = 2004 } check_variable = { apdc_parl_law_2 = 4 } } AND = { check_variable = { apdc_parl_option_context = 2005 } check_variable = { apdc_parl_law_2 = 5 } } AND = { check_variable = { apdc_parl_option_context = 2006 } check_variable = { apdc_parl_law_2 = 6 } } AND = { check_variable = { apdc_parl_option_context = 3001 } check_variable = { apdc_parl_law_3 = 1 } } AND = { check_variable = { apdc_parl_option_context = 3002 } check_variable = { apdc_parl_law_3 = 2 } } AND = { check_variable = { apdc_parl_option_context = 3003 } check_variable = { apdc_parl_law_3 = 3 } } AND = { check_variable = { apdc_parl_option_context = 3004 } check_variable = { apdc_parl_law_3 = 4 } } AND = { check_variable = { apdc_parl_option_context = 3005 } check_variable = { apdc_parl_law_3 = 5 } } AND = { check_variable = { apdc_parl_option_context = 4001 } check_variable = { apdc_parl_law_4 = 1 } } AND = { check_variable = { apdc_parl_option_context = 4002 } check_variable = { apdc_parl_law_4 = 2 } } AND = { check_variable = { apdc_parl_option_context = 4003 } check_variable = { apdc_parl_law_4 = 3 } } AND = { check_variable = { apdc_parl_option_context = 4004 } check_variable = { apdc_parl_law_4 = 4 } } AND = { check_variable = { apdc_parl_option_context = 4005 } check_variable = { apdc_parl_law_4 = 5 } } AND = { check_variable = { apdc_parl_option_context = 4006 } check_variable = { apdc_parl_law_4 = 6 } } AND = { check_variable = { apdc_parl_option_context = 5001 } check_variable = { apdc_parl_law_5 = 1 } } AND = { check_variable = { apdc_parl_option_context = 5002 } check_variable = { apdc_parl_law_5 = 2 } } AND = { check_variable = { apdc_parl_option_context = 5003 } check_variable = { apdc_parl_law_5 = 3 } } AND = { check_variable = { apdc_parl_option_context = 5004 } check_variable = { apdc_parl_law_5 = 4 } } AND = { check_variable = { apdc_parl_option_context = 5005 } check_variable = { apdc_parl_law_5 = 5 } } AND = { check_variable = { apdc_parl_option_context = 5006 } check_variable = { apdc_parl_law_5 = 6 } } AND = { check_variable = { apdc_parl_option_context = 5007 } check_variable = { apdc_parl_law_5 = 7 } } AND = { check_variable = { apdc_parl_option_context = 5008 } check_variable = { apdc_parl_law_5 = 8 } } AND = { check_variable = { apdc_parl_option_context = 5009 } check_variable = { apdc_parl_law_5 = 9 } } AND = { check_variable = { apdc_parl_option_context = 5010 } check_variable = { apdc_parl_law_5 = 10 } } AND = { check_variable = { apdc_parl_option_context = 6001 } check_variable = { apdc_parl_law_6 = 1 } } AND = { check_variable = { apdc_parl_option_context = 6002 } check_variable = { apdc_parl_law_6 = 2 } } AND = { check_variable = { apdc_parl_option_context = 6003 } check_variable = { apdc_parl_law_6 = 3 } } AND = { check_variable = { apdc_parl_option_context = 6004 } check_variable = { apdc_parl_law_6 = 4 } } AND = { check_variable = { apdc_parl_option_context = 6005 } check_variable = { apdc_parl_law_6 = 5 } } AND = { check_variable = { apdc_parl_option_context = 6006 } check_variable = { apdc_parl_law_6 = 6 } } AND = { check_variable = { apdc_parl_option_context = 6007 } check_variable = { apdc_parl_law_6 = 7 } } AND = { check_variable = { apdc_parl_option_context = 6008 } check_variable = { apdc_parl_law_6 = 8 } } AND = { check_variable = { apdc_parl_option_context = 6009 } check_variable = { apdc_parl_law_6 = 9 } } } }
+}
+
+}
+
+}

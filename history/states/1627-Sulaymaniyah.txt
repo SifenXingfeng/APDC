@@ -1,0 +1,26 @@
+state={
+	id=1627
+	name="STATE_1627"
+	provinces={
+		5014 6826 15762 15763 16294 16322 
+	}
+	manpower=221764
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = IRQ
+		controller = IRQ
+		add_core_of = IRQ
+		add_core_of = KUR
+		set_state_flag = state_renamings
+		victory_points = { 5014 1 }
+		victory_points = { 6826 10 }
+		victory_points = { 15762 5 }
+		victory_points = { 15763 1 }
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	resources = { oil = 2 }
+	state_category = town
+}

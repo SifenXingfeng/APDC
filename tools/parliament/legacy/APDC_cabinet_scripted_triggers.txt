@@ -1,0 +1,1197 @@
+# Query helpers for the APDC cabinet member panel.
+
+APDC_cabinet_selected_slot_is_occupied = {
+	OR = {
+		AND = { check_variable = { APDC_cabinet_selected_slot = 1 } has_variable = APDC_cabinet_slot_1 }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 2 } has_variable = APDC_cabinet_slot_2 }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 3 } has_variable = APDC_cabinet_slot_3 }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 4 } has_variable = APDC_cabinet_slot_4 }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 5 } has_variable = APDC_cabinet_slot_5 }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 6 } has_variable = APDC_cabinet_slot_6 }
+	}
+}
+
+APDC_cabinet_candidate_1_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 1 }
+		check_variable = { APDC_cabinet_slot_2 = 1 }
+		check_variable = { APDC_cabinet_slot_3 = 1 }
+		check_variable = { APDC_cabinet_slot_4 = 1 }
+		check_variable = { APDC_cabinet_slot_5 = 1 }
+		check_variable = { APDC_cabinet_slot_6 = 1 }
+	}
+}
+
+APDC_cabinet_candidate_2_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 2 }
+		check_variable = { APDC_cabinet_slot_2 = 2 }
+		check_variable = { APDC_cabinet_slot_3 = 2 }
+		check_variable = { APDC_cabinet_slot_4 = 2 }
+		check_variable = { APDC_cabinet_slot_5 = 2 }
+		check_variable = { APDC_cabinet_slot_6 = 2 }
+	}
+}
+
+APDC_cabinet_candidate_3_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 3 }
+		check_variable = { APDC_cabinet_slot_2 = 3 }
+		check_variable = { APDC_cabinet_slot_3 = 3 }
+		check_variable = { APDC_cabinet_slot_4 = 3 }
+		check_variable = { APDC_cabinet_slot_5 = 3 }
+		check_variable = { APDC_cabinet_slot_6 = 3 }
+	}
+}
+
+APDC_cabinet_candidate_4_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 4 }
+		check_variable = { APDC_cabinet_slot_2 = 4 }
+		check_variable = { APDC_cabinet_slot_3 = 4 }
+		check_variable = { APDC_cabinet_slot_4 = 4 }
+		check_variable = { APDC_cabinet_slot_5 = 4 }
+		check_variable = { APDC_cabinet_slot_6 = 4 }
+	}
+}
+
+APDC_cabinet_candidate_5_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 5 }
+		check_variable = { APDC_cabinet_slot_2 = 5 }
+		check_variable = { APDC_cabinet_slot_3 = 5 }
+		check_variable = { APDC_cabinet_slot_4 = 5 }
+		check_variable = { APDC_cabinet_slot_5 = 5 }
+		check_variable = { APDC_cabinet_slot_6 = 5 }
+	}
+}
+
+APDC_cabinet_candidate_6_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 6 }
+		check_variable = { APDC_cabinet_slot_2 = 6 }
+		check_variable = { APDC_cabinet_slot_3 = 6 }
+		check_variable = { APDC_cabinet_slot_4 = 6 }
+		check_variable = { APDC_cabinet_slot_5 = 6 }
+		check_variable = { APDC_cabinet_slot_6 = 6 }
+	}
+}
+
+APDC_cabinet_candidate_7_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 7 }
+		check_variable = { APDC_cabinet_slot_2 = 7 }
+		check_variable = { APDC_cabinet_slot_3 = 7 }
+		check_variable = { APDC_cabinet_slot_4 = 7 }
+		check_variable = { APDC_cabinet_slot_5 = 7 }
+		check_variable = { APDC_cabinet_slot_6 = 7 }
+	}
+}
+
+APDC_cabinet_candidate_8_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 8 }
+		check_variable = { APDC_cabinet_slot_2 = 8 }
+		check_variable = { APDC_cabinet_slot_3 = 8 }
+		check_variable = { APDC_cabinet_slot_4 = 8 }
+		check_variable = { APDC_cabinet_slot_5 = 8 }
+		check_variable = { APDC_cabinet_slot_6 = 8 }
+	}
+}
+
+APDC_cabinet_candidate_9_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 9 }
+		check_variable = { APDC_cabinet_slot_2 = 9 }
+		check_variable = { APDC_cabinet_slot_3 = 9 }
+		check_variable = { APDC_cabinet_slot_4 = 9 }
+		check_variable = { APDC_cabinet_slot_5 = 9 }
+		check_variable = { APDC_cabinet_slot_6 = 9 }
+	}
+}
+
+APDC_cabinet_candidate_10_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 10 }
+		check_variable = { APDC_cabinet_slot_2 = 10 }
+		check_variable = { APDC_cabinet_slot_3 = 10 }
+		check_variable = { APDC_cabinet_slot_4 = 10 }
+		check_variable = { APDC_cabinet_slot_5 = 10 }
+		check_variable = { APDC_cabinet_slot_6 = 10 }
+	}
+}
+
+APDC_cabinet_candidate_11_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 11 }
+		check_variable = { APDC_cabinet_slot_2 = 11 }
+		check_variable = { APDC_cabinet_slot_3 = 11 }
+		check_variable = { APDC_cabinet_slot_4 = 11 }
+		check_variable = { APDC_cabinet_slot_5 = 11 }
+		check_variable = { APDC_cabinet_slot_6 = 11 }
+	}
+}
+
+APDC_cabinet_candidate_12_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 12 }
+		check_variable = { APDC_cabinet_slot_2 = 12 }
+		check_variable = { APDC_cabinet_slot_3 = 12 }
+		check_variable = { APDC_cabinet_slot_4 = 12 }
+		check_variable = { APDC_cabinet_slot_5 = 12 }
+		check_variable = { APDC_cabinet_slot_6 = 12 }
+	}
+}
+
+APDC_cabinet_candidate_13_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 13 }
+		check_variable = { APDC_cabinet_slot_2 = 13 }
+		check_variable = { APDC_cabinet_slot_3 = 13 }
+		check_variable = { APDC_cabinet_slot_4 = 13 }
+		check_variable = { APDC_cabinet_slot_5 = 13 }
+		check_variable = { APDC_cabinet_slot_6 = 13 }
+	}
+}
+
+APDC_cabinet_candidate_14_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 14 }
+		check_variable = { APDC_cabinet_slot_2 = 14 }
+		check_variable = { APDC_cabinet_slot_3 = 14 }
+		check_variable = { APDC_cabinet_slot_4 = 14 }
+		check_variable = { APDC_cabinet_slot_5 = 14 }
+		check_variable = { APDC_cabinet_slot_6 = 14 }
+	}
+}
+
+APDC_cabinet_candidate_15_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 15 }
+		check_variable = { APDC_cabinet_slot_2 = 15 }
+		check_variable = { APDC_cabinet_slot_3 = 15 }
+		check_variable = { APDC_cabinet_slot_4 = 15 }
+		check_variable = { APDC_cabinet_slot_5 = 15 }
+		check_variable = { APDC_cabinet_slot_6 = 15 }
+	}
+}
+
+APDC_cabinet_candidate_16_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 16 }
+		check_variable = { APDC_cabinet_slot_2 = 16 }
+		check_variable = { APDC_cabinet_slot_3 = 16 }
+		check_variable = { APDC_cabinet_slot_4 = 16 }
+		check_variable = { APDC_cabinet_slot_5 = 16 }
+		check_variable = { APDC_cabinet_slot_6 = 16 }
+	}
+}
+
+APDC_cabinet_candidate_17_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 17 }
+		check_variable = { APDC_cabinet_slot_2 = 17 }
+		check_variable = { APDC_cabinet_slot_3 = 17 }
+		check_variable = { APDC_cabinet_slot_4 = 17 }
+		check_variable = { APDC_cabinet_slot_5 = 17 }
+		check_variable = { APDC_cabinet_slot_6 = 17 }
+	}
+}
+
+APDC_cabinet_candidate_18_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 18 }
+		check_variable = { APDC_cabinet_slot_2 = 18 }
+		check_variable = { APDC_cabinet_slot_3 = 18 }
+		check_variable = { APDC_cabinet_slot_4 = 18 }
+		check_variable = { APDC_cabinet_slot_5 = 18 }
+		check_variable = { APDC_cabinet_slot_6 = 18 }
+	}
+}
+
+APDC_cabinet_candidate_19_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 19 }
+		check_variable = { APDC_cabinet_slot_2 = 19 }
+		check_variable = { APDC_cabinet_slot_3 = 19 }
+		check_variable = { APDC_cabinet_slot_4 = 19 }
+		check_variable = { APDC_cabinet_slot_5 = 19 }
+		check_variable = { APDC_cabinet_slot_6 = 19 }
+	}
+}
+
+APDC_cabinet_candidate_20_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 20 }
+		check_variable = { APDC_cabinet_slot_2 = 20 }
+		check_variable = { APDC_cabinet_slot_3 = 20 }
+		check_variable = { APDC_cabinet_slot_4 = 20 }
+		check_variable = { APDC_cabinet_slot_5 = 20 }
+		check_variable = { APDC_cabinet_slot_6 = 20 }
+	}
+}
+
+APDC_cabinet_candidate_21_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 21 }
+		check_variable = { APDC_cabinet_slot_2 = 21 }
+		check_variable = { APDC_cabinet_slot_3 = 21 }
+		check_variable = { APDC_cabinet_slot_4 = 21 }
+		check_variable = { APDC_cabinet_slot_5 = 21 }
+		check_variable = { APDC_cabinet_slot_6 = 21 }
+	}
+}
+
+APDC_cabinet_candidate_22_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 22 }
+		check_variable = { APDC_cabinet_slot_2 = 22 }
+		check_variable = { APDC_cabinet_slot_3 = 22 }
+		check_variable = { APDC_cabinet_slot_4 = 22 }
+		check_variable = { APDC_cabinet_slot_5 = 22 }
+		check_variable = { APDC_cabinet_slot_6 = 22 }
+	}
+}
+
+APDC_cabinet_candidate_23_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 23 }
+		check_variable = { APDC_cabinet_slot_2 = 23 }
+		check_variable = { APDC_cabinet_slot_3 = 23 }
+		check_variable = { APDC_cabinet_slot_4 = 23 }
+		check_variable = { APDC_cabinet_slot_5 = 23 }
+		check_variable = { APDC_cabinet_slot_6 = 23 }
+	}
+}
+
+APDC_cabinet_candidate_24_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 24 }
+		check_variable = { APDC_cabinet_slot_2 = 24 }
+		check_variable = { APDC_cabinet_slot_3 = 24 }
+		check_variable = { APDC_cabinet_slot_4 = 24 }
+		check_variable = { APDC_cabinet_slot_5 = 24 }
+		check_variable = { APDC_cabinet_slot_6 = 24 }
+	}
+}
+
+APDC_cabinet_candidate_25_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 25 }
+		check_variable = { APDC_cabinet_slot_2 = 25 }
+		check_variable = { APDC_cabinet_slot_3 = 25 }
+		check_variable = { APDC_cabinet_slot_4 = 25 }
+		check_variable = { APDC_cabinet_slot_5 = 25 }
+		check_variable = { APDC_cabinet_slot_6 = 25 }
+	}
+}
+
+APDC_cabinet_candidate_26_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 26 }
+		check_variable = { APDC_cabinet_slot_2 = 26 }
+		check_variable = { APDC_cabinet_slot_3 = 26 }
+		check_variable = { APDC_cabinet_slot_4 = 26 }
+		check_variable = { APDC_cabinet_slot_5 = 26 }
+		check_variable = { APDC_cabinet_slot_6 = 26 }
+	}
+}
+
+APDC_cabinet_candidate_27_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 27 }
+		check_variable = { APDC_cabinet_slot_2 = 27 }
+		check_variable = { APDC_cabinet_slot_3 = 27 }
+		check_variable = { APDC_cabinet_slot_4 = 27 }
+		check_variable = { APDC_cabinet_slot_5 = 27 }
+		check_variable = { APDC_cabinet_slot_6 = 27 }
+	}
+}
+
+APDC_cabinet_candidate_28_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 28 }
+		check_variable = { APDC_cabinet_slot_2 = 28 }
+		check_variable = { APDC_cabinet_slot_3 = 28 }
+		check_variable = { APDC_cabinet_slot_4 = 28 }
+		check_variable = { APDC_cabinet_slot_5 = 28 }
+		check_variable = { APDC_cabinet_slot_6 = 28 }
+	}
+}
+
+APDC_cabinet_candidate_29_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 29 }
+		check_variable = { APDC_cabinet_slot_2 = 29 }
+		check_variable = { APDC_cabinet_slot_3 = 29 }
+		check_variable = { APDC_cabinet_slot_4 = 29 }
+		check_variable = { APDC_cabinet_slot_5 = 29 }
+		check_variable = { APDC_cabinet_slot_6 = 29 }
+	}
+}
+
+APDC_cabinet_candidate_30_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 30 }
+		check_variable = { APDC_cabinet_slot_2 = 30 }
+		check_variable = { APDC_cabinet_slot_3 = 30 }
+		check_variable = { APDC_cabinet_slot_4 = 30 }
+		check_variable = { APDC_cabinet_slot_5 = 30 }
+		check_variable = { APDC_cabinet_slot_6 = 30 }
+	}
+}
+
+APDC_cabinet_candidate_31_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 31 }
+		check_variable = { APDC_cabinet_slot_2 = 31 }
+		check_variable = { APDC_cabinet_slot_3 = 31 }
+		check_variable = { APDC_cabinet_slot_4 = 31 }
+		check_variable = { APDC_cabinet_slot_5 = 31 }
+		check_variable = { APDC_cabinet_slot_6 = 31 }
+	}
+}
+
+APDC_cabinet_candidate_32_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 32 }
+		check_variable = { APDC_cabinet_slot_2 = 32 }
+		check_variable = { APDC_cabinet_slot_3 = 32 }
+		check_variable = { APDC_cabinet_slot_4 = 32 }
+		check_variable = { APDC_cabinet_slot_5 = 32 }
+		check_variable = { APDC_cabinet_slot_6 = 32 }
+	}
+}
+
+APDC_cabinet_candidate_33_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 33 }
+		check_variable = { APDC_cabinet_slot_2 = 33 }
+		check_variable = { APDC_cabinet_slot_3 = 33 }
+		check_variable = { APDC_cabinet_slot_4 = 33 }
+		check_variable = { APDC_cabinet_slot_5 = 33 }
+		check_variable = { APDC_cabinet_slot_6 = 33 }
+	}
+}
+
+APDC_cabinet_candidate_34_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 34 }
+		check_variable = { APDC_cabinet_slot_2 = 34 }
+		check_variable = { APDC_cabinet_slot_3 = 34 }
+		check_variable = { APDC_cabinet_slot_4 = 34 }
+		check_variable = { APDC_cabinet_slot_5 = 34 }
+		check_variable = { APDC_cabinet_slot_6 = 34 }
+	}
+}
+
+APDC_cabinet_candidate_35_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 35 }
+		check_variable = { APDC_cabinet_slot_2 = 35 }
+		check_variable = { APDC_cabinet_slot_3 = 35 }
+		check_variable = { APDC_cabinet_slot_4 = 35 }
+		check_variable = { APDC_cabinet_slot_5 = 35 }
+		check_variable = { APDC_cabinet_slot_6 = 35 }
+	}
+}
+
+APDC_cabinet_candidate_36_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 36 }
+		check_variable = { APDC_cabinet_slot_2 = 36 }
+		check_variable = { APDC_cabinet_slot_3 = 36 }
+		check_variable = { APDC_cabinet_slot_4 = 36 }
+		check_variable = { APDC_cabinet_slot_5 = 36 }
+		check_variable = { APDC_cabinet_slot_6 = 36 }
+	}
+}
+
+APDC_cabinet_candidate_37_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 37 }
+		check_variable = { APDC_cabinet_slot_2 = 37 }
+		check_variable = { APDC_cabinet_slot_3 = 37 }
+		check_variable = { APDC_cabinet_slot_4 = 37 }
+		check_variable = { APDC_cabinet_slot_5 = 37 }
+		check_variable = { APDC_cabinet_slot_6 = 37 }
+	}
+}
+
+APDC_cabinet_candidate_38_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 38 }
+		check_variable = { APDC_cabinet_slot_2 = 38 }
+		check_variable = { APDC_cabinet_slot_3 = 38 }
+		check_variable = { APDC_cabinet_slot_4 = 38 }
+		check_variable = { APDC_cabinet_slot_5 = 38 }
+		check_variable = { APDC_cabinet_slot_6 = 38 }
+	}
+}
+
+APDC_cabinet_candidate_39_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 39 }
+		check_variable = { APDC_cabinet_slot_2 = 39 }
+		check_variable = { APDC_cabinet_slot_3 = 39 }
+		check_variable = { APDC_cabinet_slot_4 = 39 }
+		check_variable = { APDC_cabinet_slot_5 = 39 }
+		check_variable = { APDC_cabinet_slot_6 = 39 }
+	}
+}
+
+APDC_cabinet_candidate_40_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 40 }
+		check_variable = { APDC_cabinet_slot_2 = 40 }
+		check_variable = { APDC_cabinet_slot_3 = 40 }
+		check_variable = { APDC_cabinet_slot_4 = 40 }
+		check_variable = { APDC_cabinet_slot_5 = 40 }
+		check_variable = { APDC_cabinet_slot_6 = 40 }
+	}
+}
+
+APDC_cabinet_candidate_41_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 41 }
+		check_variable = { APDC_cabinet_slot_2 = 41 }
+		check_variable = { APDC_cabinet_slot_3 = 41 }
+		check_variable = { APDC_cabinet_slot_4 = 41 }
+		check_variable = { APDC_cabinet_slot_5 = 41 }
+		check_variable = { APDC_cabinet_slot_6 = 41 }
+	}
+}
+
+APDC_cabinet_candidate_42_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 42 }
+		check_variable = { APDC_cabinet_slot_2 = 42 }
+		check_variable = { APDC_cabinet_slot_3 = 42 }
+		check_variable = { APDC_cabinet_slot_4 = 42 }
+		check_variable = { APDC_cabinet_slot_5 = 42 }
+		check_variable = { APDC_cabinet_slot_6 = 42 }
+	}
+}
+
+APDC_cabinet_candidate_43_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 43 }
+		check_variable = { APDC_cabinet_slot_2 = 43 }
+		check_variable = { APDC_cabinet_slot_3 = 43 }
+		check_variable = { APDC_cabinet_slot_4 = 43 }
+		check_variable = { APDC_cabinet_slot_5 = 43 }
+		check_variable = { APDC_cabinet_slot_6 = 43 }
+	}
+}
+
+APDC_cabinet_candidate_44_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 44 }
+		check_variable = { APDC_cabinet_slot_2 = 44 }
+		check_variable = { APDC_cabinet_slot_3 = 44 }
+		check_variable = { APDC_cabinet_slot_4 = 44 }
+		check_variable = { APDC_cabinet_slot_5 = 44 }
+		check_variable = { APDC_cabinet_slot_6 = 44 }
+	}
+}
+
+APDC_cabinet_candidate_45_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 45 }
+		check_variable = { APDC_cabinet_slot_2 = 45 }
+		check_variable = { APDC_cabinet_slot_3 = 45 }
+		check_variable = { APDC_cabinet_slot_4 = 45 }
+		check_variable = { APDC_cabinet_slot_5 = 45 }
+		check_variable = { APDC_cabinet_slot_6 = 45 }
+	}
+}
+
+APDC_cabinet_candidate_46_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 46 }
+		check_variable = { APDC_cabinet_slot_2 = 46 }
+		check_variable = { APDC_cabinet_slot_3 = 46 }
+		check_variable = { APDC_cabinet_slot_4 = 46 }
+		check_variable = { APDC_cabinet_slot_5 = 46 }
+		check_variable = { APDC_cabinet_slot_6 = 46 }
+	}
+}
+
+APDC_cabinet_candidate_47_in_cabinet = {
+	OR = {
+		check_variable = { APDC_cabinet_slot_1 = 47 }
+		check_variable = { APDC_cabinet_slot_2 = 47 }
+		check_variable = { APDC_cabinet_slot_3 = 47 }
+		check_variable = { APDC_cabinet_slot_4 = 47 }
+		check_variable = { APDC_cabinet_slot_5 = 47 }
+		check_variable = { APDC_cabinet_slot_6 = 47 }
+	}
+}
+
+APDC_cabinet_selected_candidate_is_communism = {
+	OR = {
+		AND = { check_variable = { APDC_cabinet_selected_slot = 1 } check_variable = { APDC_cabinet_slot_1 > 0 } check_variable = { APDC_cabinet_slot_1 < 8 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 2 } check_variable = { APDC_cabinet_slot_2 > 0 } check_variable = { APDC_cabinet_slot_2 < 8 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 3 } check_variable = { APDC_cabinet_slot_3 > 0 } check_variable = { APDC_cabinet_slot_3 < 8 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 4 } check_variable = { APDC_cabinet_slot_4 > 0 } check_variable = { APDC_cabinet_slot_4 < 8 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 5 } check_variable = { APDC_cabinet_slot_5 > 0 } check_variable = { APDC_cabinet_slot_5 < 8 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 6 } check_variable = { APDC_cabinet_slot_6 > 0 } check_variable = { APDC_cabinet_slot_6 < 8 } }
+	}
+}
+
+APDC_cabinet_selected_candidate_is_socialism = {
+	OR = {
+		AND = { check_variable = { APDC_cabinet_selected_slot = 1 } check_variable = { APDC_cabinet_slot_1 > 7 } check_variable = { APDC_cabinet_slot_1 < 13 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 2 } check_variable = { APDC_cabinet_slot_2 > 7 } check_variable = { APDC_cabinet_slot_2 < 13 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 3 } check_variable = { APDC_cabinet_slot_3 > 7 } check_variable = { APDC_cabinet_slot_3 < 13 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 4 } check_variable = { APDC_cabinet_slot_4 > 7 } check_variable = { APDC_cabinet_slot_4 < 13 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 5 } check_variable = { APDC_cabinet_slot_5 > 7 } check_variable = { APDC_cabinet_slot_5 < 13 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 6 } check_variable = { APDC_cabinet_slot_6 > 7 } check_variable = { APDC_cabinet_slot_6 < 13 } }
+	}
+}
+
+APDC_cabinet_selected_candidate_is_social_democracy = {
+	OR = {
+		AND = { check_variable = { APDC_cabinet_selected_slot = 1 } check_variable = { APDC_cabinet_slot_1 > 12 } check_variable = { APDC_cabinet_slot_1 < 18 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 2 } check_variable = { APDC_cabinet_slot_2 > 12 } check_variable = { APDC_cabinet_slot_2 < 18 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 3 } check_variable = { APDC_cabinet_slot_3 > 12 } check_variable = { APDC_cabinet_slot_3 < 18 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 4 } check_variable = { APDC_cabinet_slot_4 > 12 } check_variable = { APDC_cabinet_slot_4 < 18 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 5 } check_variable = { APDC_cabinet_slot_5 > 12 } check_variable = { APDC_cabinet_slot_5 < 18 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 6 } check_variable = { APDC_cabinet_slot_6 > 12 } check_variable = { APDC_cabinet_slot_6 < 18 } }
+	}
+}
+
+APDC_cabinet_selected_candidate_is_conservatism = {
+	OR = {
+		AND = { check_variable = { APDC_cabinet_selected_slot = 1 } check_variable = { APDC_cabinet_slot_1 > 17 } check_variable = { APDC_cabinet_slot_1 < 23 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 2 } check_variable = { APDC_cabinet_slot_2 > 17 } check_variable = { APDC_cabinet_slot_2 < 23 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 3 } check_variable = { APDC_cabinet_slot_3 > 17 } check_variable = { APDC_cabinet_slot_3 < 23 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 4 } check_variable = { APDC_cabinet_slot_4 > 17 } check_variable = { APDC_cabinet_slot_4 < 23 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 5 } check_variable = { APDC_cabinet_slot_5 > 17 } check_variable = { APDC_cabinet_slot_5 < 23 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 6 } check_variable = { APDC_cabinet_slot_6 > 17 } check_variable = { APDC_cabinet_slot_6 < 23 } }
+	}
+}
+
+APDC_cabinet_selected_candidate_is_liberalism = {
+	OR = {
+		AND = { check_variable = { APDC_cabinet_selected_slot = 1 } check_variable = { APDC_cabinet_slot_1 > 22 } check_variable = { APDC_cabinet_slot_1 < 28 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 2 } check_variable = { APDC_cabinet_slot_2 > 22 } check_variable = { APDC_cabinet_slot_2 < 28 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 3 } check_variable = { APDC_cabinet_slot_3 > 22 } check_variable = { APDC_cabinet_slot_3 < 28 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 4 } check_variable = { APDC_cabinet_slot_4 > 22 } check_variable = { APDC_cabinet_slot_4 < 28 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 5 } check_variable = { APDC_cabinet_slot_5 > 22 } check_variable = { APDC_cabinet_slot_5 < 28 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 6 } check_variable = { APDC_cabinet_slot_6 > 22 } check_variable = { APDC_cabinet_slot_6 < 28 } }
+	}
+}
+
+APDC_cabinet_selected_candidate_is_authoritarianism = {
+	OR = {
+		AND = { check_variable = { APDC_cabinet_selected_slot = 1 } check_variable = { APDC_cabinet_slot_1 > 27 } check_variable = { APDC_cabinet_slot_1 < 33 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 2 } check_variable = { APDC_cabinet_slot_2 > 27 } check_variable = { APDC_cabinet_slot_2 < 33 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 3 } check_variable = { APDC_cabinet_slot_3 > 27 } check_variable = { APDC_cabinet_slot_3 < 33 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 4 } check_variable = { APDC_cabinet_slot_4 > 27 } check_variable = { APDC_cabinet_slot_4 < 33 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 5 } check_variable = { APDC_cabinet_slot_5 > 27 } check_variable = { APDC_cabinet_slot_5 < 33 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 6 } check_variable = { APDC_cabinet_slot_6 > 27 } check_variable = { APDC_cabinet_slot_6 < 33 } }
+	}
+}
+
+APDC_cabinet_selected_candidate_is_dictatorship = {
+	OR = {
+		AND = { check_variable = { APDC_cabinet_selected_slot = 1 } check_variable = { APDC_cabinet_slot_1 > 32 } check_variable = { APDC_cabinet_slot_1 < 38 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 2 } check_variable = { APDC_cabinet_slot_2 > 32 } check_variable = { APDC_cabinet_slot_2 < 38 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 3 } check_variable = { APDC_cabinet_slot_3 > 32 } check_variable = { APDC_cabinet_slot_3 < 38 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 4 } check_variable = { APDC_cabinet_slot_4 > 32 } check_variable = { APDC_cabinet_slot_4 < 38 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 5 } check_variable = { APDC_cabinet_slot_5 > 32 } check_variable = { APDC_cabinet_slot_5 < 38 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 6 } check_variable = { APDC_cabinet_slot_6 > 32 } check_variable = { APDC_cabinet_slot_6 < 38 } }
+	}
+}
+
+APDC_cabinet_selected_candidate_is_fascism = {
+	OR = {
+		AND = { check_variable = { APDC_cabinet_selected_slot = 1 } check_variable = { APDC_cabinet_slot_1 > 37 } check_variable = { APDC_cabinet_slot_1 < 43 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 2 } check_variable = { APDC_cabinet_slot_2 > 37 } check_variable = { APDC_cabinet_slot_2 < 43 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 3 } check_variable = { APDC_cabinet_slot_3 > 37 } check_variable = { APDC_cabinet_slot_3 < 43 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 4 } check_variable = { APDC_cabinet_slot_4 > 37 } check_variable = { APDC_cabinet_slot_4 < 43 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 5 } check_variable = { APDC_cabinet_slot_5 > 37 } check_variable = { APDC_cabinet_slot_5 < 43 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 6 } check_variable = { APDC_cabinet_slot_6 > 37 } check_variable = { APDC_cabinet_slot_6 < 43 } }
+	}
+}
+
+APDC_cabinet_selected_candidate_is_fundamentalism = {
+	OR = {
+		AND = { check_variable = { APDC_cabinet_selected_slot = 1 } check_variable = { APDC_cabinet_slot_1 > 42 } check_variable = { APDC_cabinet_slot_1 < 48 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 2 } check_variable = { APDC_cabinet_slot_2 > 42 } check_variable = { APDC_cabinet_slot_2 < 48 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 3 } check_variable = { APDC_cabinet_slot_3 > 42 } check_variable = { APDC_cabinet_slot_3 < 48 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 4 } check_variable = { APDC_cabinet_slot_4 > 42 } check_variable = { APDC_cabinet_slot_4 < 48 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 5 } check_variable = { APDC_cabinet_slot_5 > 42 } check_variable = { APDC_cabinet_slot_5 < 48 } }
+		AND = { check_variable = { APDC_cabinet_selected_slot = 6 } check_variable = { APDC_cabinet_slot_6 > 42 } check_variable = { APDC_cabinet_slot_6 < 48 } }
+	}
+}
+
+APDC_cabinet_candidate_1_visible = {
+	original_tag = GER
+	has_character = GER_APDC_romy_riefenstahl
+}
+
+APDC_cabinet_candidate_1_enabled = {
+	APDC_cabinet_candidate_1_visible = yes
+	APDC_is_communism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_communism < APDC_cabinet_available_communism }
+	has_political_power > 149
+	NOT = { always = no }
+	NOT = { APDC_cabinet_candidate_1_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_2_visible = {
+	original_tag = GER
+	has_character = GER_APDC_eugene_rugosa
+}
+
+APDC_cabinet_candidate_2_enabled = {
+	APDC_cabinet_candidate_2_visible = yes
+	APDC_is_communism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_communism < APDC_cabinet_available_communism }
+	has_political_power > 149
+	NOT = { always = no }
+	NOT = { APDC_cabinet_candidate_2_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_3_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_3_enabled = {
+	APDC_cabinet_candidate_3_visible = yes
+	APDC_is_communism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_communism < APDC_cabinet_available_communism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_3_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_4_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_4_enabled = {
+	APDC_cabinet_candidate_4_visible = yes
+	APDC_is_communism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_communism < APDC_cabinet_available_communism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_4_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_5_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_5_enabled = {
+	APDC_cabinet_candidate_5_visible = yes
+	APDC_is_communism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_communism < APDC_cabinet_available_communism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_5_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_6_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_6_enabled = {
+	APDC_cabinet_candidate_6_visible = yes
+	APDC_is_communism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_communism < APDC_cabinet_available_communism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_6_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_7_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_7_enabled = {
+	APDC_cabinet_candidate_7_visible = yes
+	APDC_is_communism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_communism < APDC_cabinet_available_communism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_7_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_8_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_8_enabled = {
+	APDC_cabinet_candidate_8_visible = yes
+	APDC_is_socialism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_socialism < APDC_cabinet_available_socialism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_8_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_9_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_9_enabled = {
+	APDC_cabinet_candidate_9_visible = yes
+	APDC_is_socialism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_socialism < APDC_cabinet_available_socialism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_9_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_10_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_10_enabled = {
+	APDC_cabinet_candidate_10_visible = yes
+	APDC_is_socialism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_socialism < APDC_cabinet_available_socialism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_10_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_11_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_11_enabled = {
+	APDC_cabinet_candidate_11_visible = yes
+	APDC_is_socialism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_socialism < APDC_cabinet_available_socialism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_11_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_12_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_12_enabled = {
+	APDC_cabinet_candidate_12_visible = yes
+	APDC_is_socialism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_socialism < APDC_cabinet_available_socialism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_12_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_13_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_13_enabled = {
+	APDC_cabinet_candidate_13_visible = yes
+	APDC_is_social_democracy_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_social_democracy < APDC_cabinet_available_social_democracy }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_13_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_14_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_14_enabled = {
+	APDC_cabinet_candidate_14_visible = yes
+	APDC_is_social_democracy_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_social_democracy < APDC_cabinet_available_social_democracy }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_14_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_15_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_15_enabled = {
+	APDC_cabinet_candidate_15_visible = yes
+	APDC_is_social_democracy_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_social_democracy < APDC_cabinet_available_social_democracy }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_15_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_16_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_16_enabled = {
+	APDC_cabinet_candidate_16_visible = yes
+	APDC_is_social_democracy_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_social_democracy < APDC_cabinet_available_social_democracy }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_16_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_17_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_17_enabled = {
+	APDC_cabinet_candidate_17_visible = yes
+	APDC_is_social_democracy_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_social_democracy < APDC_cabinet_available_social_democracy }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_17_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_18_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_18_enabled = {
+	APDC_cabinet_candidate_18_visible = yes
+	APDC_is_conservatism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_conservatism < APDC_cabinet_available_conservatism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_18_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_19_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_19_enabled = {
+	APDC_cabinet_candidate_19_visible = yes
+	APDC_is_conservatism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_conservatism < APDC_cabinet_available_conservatism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_19_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_20_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_20_enabled = {
+	APDC_cabinet_candidate_20_visible = yes
+	APDC_is_conservatism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_conservatism < APDC_cabinet_available_conservatism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_20_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_21_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_21_enabled = {
+	APDC_cabinet_candidate_21_visible = yes
+	APDC_is_conservatism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_conservatism < APDC_cabinet_available_conservatism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_21_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_22_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_22_enabled = {
+	APDC_cabinet_candidate_22_visible = yes
+	APDC_is_conservatism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_conservatism < APDC_cabinet_available_conservatism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_22_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_23_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_23_enabled = {
+	APDC_cabinet_candidate_23_visible = yes
+	APDC_is_liberalism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_liberalism < APDC_cabinet_available_liberalism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_23_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_24_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_24_enabled = {
+	APDC_cabinet_candidate_24_visible = yes
+	APDC_is_liberalism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_liberalism < APDC_cabinet_available_liberalism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_24_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_25_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_25_enabled = {
+	APDC_cabinet_candidate_25_visible = yes
+	APDC_is_liberalism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_liberalism < APDC_cabinet_available_liberalism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_25_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_26_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_26_enabled = {
+	APDC_cabinet_candidate_26_visible = yes
+	APDC_is_liberalism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_liberalism < APDC_cabinet_available_liberalism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_26_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_27_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_27_enabled = {
+	APDC_cabinet_candidate_27_visible = yes
+	APDC_is_liberalism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_liberalism < APDC_cabinet_available_liberalism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_27_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_28_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_28_enabled = {
+	APDC_cabinet_candidate_28_visible = yes
+	APDC_is_authoritarianism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_authoritarianism < APDC_cabinet_available_authoritarianism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_28_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_29_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_29_enabled = {
+	APDC_cabinet_candidate_29_visible = yes
+	APDC_is_authoritarianism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_authoritarianism < APDC_cabinet_available_authoritarianism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_29_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_30_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_30_enabled = {
+	APDC_cabinet_candidate_30_visible = yes
+	APDC_is_authoritarianism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_authoritarianism < APDC_cabinet_available_authoritarianism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_30_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_31_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_31_enabled = {
+	APDC_cabinet_candidate_31_visible = yes
+	APDC_is_authoritarianism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_authoritarianism < APDC_cabinet_available_authoritarianism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_31_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_32_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_32_enabled = {
+	APDC_cabinet_candidate_32_visible = yes
+	APDC_is_authoritarianism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_authoritarianism < APDC_cabinet_available_authoritarianism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_32_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_33_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_33_enabled = {
+	APDC_cabinet_candidate_33_visible = yes
+	APDC_is_dictatorship_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_dictatorship < APDC_cabinet_available_dictatorship }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_33_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_34_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_34_enabled = {
+	APDC_cabinet_candidate_34_visible = yes
+	APDC_is_dictatorship_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_dictatorship < APDC_cabinet_available_dictatorship }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_34_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_35_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_35_enabled = {
+	APDC_cabinet_candidate_35_visible = yes
+	APDC_is_dictatorship_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_dictatorship < APDC_cabinet_available_dictatorship }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_35_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_36_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_36_enabled = {
+	APDC_cabinet_candidate_36_visible = yes
+	APDC_is_dictatorship_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_dictatorship < APDC_cabinet_available_dictatorship }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_36_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_37_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_37_enabled = {
+	APDC_cabinet_candidate_37_visible = yes
+	APDC_is_dictatorship_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_dictatorship < APDC_cabinet_available_dictatorship }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_37_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_38_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_38_enabled = {
+	APDC_cabinet_candidate_38_visible = yes
+	APDC_is_fascism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_fascism < APDC_cabinet_available_fascism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_38_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_39_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_39_enabled = {
+	APDC_cabinet_candidate_39_visible = yes
+	APDC_is_fascism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_fascism < APDC_cabinet_available_fascism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_39_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_40_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_40_enabled = {
+	APDC_cabinet_candidate_40_visible = yes
+	APDC_is_fascism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_fascism < APDC_cabinet_available_fascism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_40_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_41_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_41_enabled = {
+	APDC_cabinet_candidate_41_visible = yes
+	APDC_is_fascism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_fascism < APDC_cabinet_available_fascism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_41_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_42_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_42_enabled = {
+	APDC_cabinet_candidate_42_visible = yes
+	APDC_is_fascism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_fascism < APDC_cabinet_available_fascism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_42_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_43_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_43_enabled = {
+	APDC_cabinet_candidate_43_visible = yes
+	APDC_is_fundamentalism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_fundamentalism < APDC_cabinet_available_fundamentalism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_43_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_44_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_44_enabled = {
+	APDC_cabinet_candidate_44_visible = yes
+	APDC_is_fundamentalism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_fundamentalism < APDC_cabinet_available_fundamentalism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_44_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_45_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_45_enabled = {
+	APDC_cabinet_candidate_45_visible = yes
+	APDC_is_fundamentalism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_fundamentalism < APDC_cabinet_available_fundamentalism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_45_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_46_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_46_enabled = {
+	APDC_cabinet_candidate_46_visible = yes
+	APDC_is_fundamentalism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_fundamentalism < APDC_cabinet_available_fundamentalism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_46_in_cabinet = yes }
+}
+
+APDC_cabinet_candidate_47_visible = {
+	original_tag = GER
+}
+
+APDC_cabinet_candidate_47_enabled = {
+	APDC_cabinet_candidate_47_visible = yes
+	APDC_is_fundamentalism_in_governing_coalition = yes
+	check_variable = { APDC_cabinet_used_fundamentalism < APDC_cabinet_available_fundamentalism }
+	has_political_power > 149
+	NOT = { APDC_cabinet_candidate_47_in_cabinet = yes }
+}
+

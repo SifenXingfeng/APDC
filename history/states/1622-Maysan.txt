@@ -1,0 +1,23 @@
+state={
+	id=1622
+	name="STATE_1622"
+	provinces={
+		78 7977 15746 15747 16313 
+	}
+	manpower=188493
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = IRQ
+		controller = IRQ
+		add_core_of = IRQ
+		set_state_flag = state_renamings
+		victory_points = { 15746 2 }
+		victory_points = { 16313 5 }
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	resources = { aluminium = 1 steel = 1 }
+	state_category = town
+}

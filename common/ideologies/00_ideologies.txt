@@ -4,14 +4,13 @@ ideologies = {
 			orthodox_communism = { can_be_randomly_selected = no }
 			red_military_government = { }
 			left_eurasianism = { can_be_randomly_selected = no }
-			neo_strasserism = { can_be_randomly_selected = no }
 			security_socialism = { can_be_randomly_selected = no }
 			technocratic_communism = { can_be_randomly_selected = no }
 			military_political_communism = { }
 			left_wing_terrorism = { can_be_randomly_selected = no }
 			frontier_communism = { can_be_randomly_selected = no }
-			anarcho_communism = { }
 			automated_communism = { can_be_randomly_selected = no }
+			national_bolshevism = { can_be_randomly_selected = no }
 		}
 
 		dynamic_faction_names = {
@@ -61,6 +60,9 @@ ideologies = {
 			syndicalism = { }
 			popular_front = { }
 			indian_communism = { can_be_randomly_selected = no }
+			anarcho_communism = { }
+			lukashenko_thought = { can_be_randomly_selected = no }
+			pragmatic_socialism = { can_be_randomly_selected = no }
 		}
 
 		dynamic_faction_names = {
@@ -111,7 +113,6 @@ ideologies = {
 			left_populism = { }
 			democratic_socialism = { }
 			humanitarian_capitalism = { can_be_randomly_selected = no }
-			christian_social_democracy = { can_be_randomly_selected = no }
 			left_agrarianism = { }
 			great_plains_rossartrism = { can_be_randomly_selected = no }
 		}
@@ -229,6 +230,7 @@ ideologies = {
 			anarcho_capitalism = { }
 			liberal_conservatism = { }
 			liberal_technocracy = { can_be_randomly_selected = no }
+			south_american_rossartrism = { can_be_randomly_selected = no }
 		}
 
 		dynamic_faction_names = {
@@ -282,8 +284,6 @@ ideologies = {
 	authoritarianism = {
 		types = {
 			constitutional_rossartrism = { can_be_randomly_selected = no }
-			persian_rossartrism = { can_be_randomly_selected = no }
-			south_american_rossartrism = { can_be_randomly_selected = no }
 			broad_rossartrism = { can_be_randomly_selected = no }
 			corporate_council = { }
 			non_dominant_system = { }
@@ -291,6 +291,8 @@ ideologies = {
 			guardian_authoritarianism = { can_be_randomly_selected = no }
 			sharia_democracy = { can_be_randomly_selected = no }
 			transitional_government = { can_be_randomly_selected = no }
+			bolivarian_rossartrism = { can_be_randomly_selected = no }
+			scientific_technocracy = { can_be_randomly_selected = no }
 		}
 
 		dynamic_faction_names = {
@@ -339,7 +341,6 @@ ideologies = {
 			military_junta = { }
 			right_technocracy = { }
 			command_technocracy = { can_be_randomly_selected = no }
-			party_rossartrism = { can_be_randomly_selected = no }
 			guided_democracy = { }
 			league_authority_rossartrism = { can_be_randomly_selected = no }
 			national_authoritarian_integralism = { can_be_randomly_selected = no }
@@ -391,6 +392,8 @@ ideologies = {
 			extreme_militarism = { }
 			military_political_fascism = { }
 			criminal_state = { }
+			neo_strasserism = { can_be_randomly_selected = no }
+			classical_socialism = { can_be_randomly_selected = no }
 		}
 
 		dynamic_faction_names = {

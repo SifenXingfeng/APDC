@@ -177,7 +177,8 @@ def build():
    'subtract_from_variable = { '+stock+' = APDC_eco_purchase_quantity }\n'+deliver)
   nationalize+=cond('check_variable = { '+stock+' > 0 }',
    setv('purchase_quantity',stock)+deliver+'set_variable = { '+stock+' = 0 }\n')
- s+=effect('prepare_purchase','APDC_eco_ensure_equipment = yes\n'+prepare+'clamp_variable = { var = APDC_eco_purchase_quantity min = 0 max = APDC_eco_purchase_stock }\n'+
+ price_factor='set_temp_variable = { APDC_eco_purchase_price_factor = modifier@APDC_eco_private_equipment_purchase_factor }\nadd_to_temp_variable = { APDC_eco_purchase_price_factor = 1 }\nclamp_temp_variable = { var = APDC_eco_purchase_price_factor min = 0 }\nmultiply_variable = { APDC_eco_purchase_unit_k = APDC_eco_purchase_price_factor }\n'
+ s+=effect('prepare_purchase','APDC_eco_ensure_equipment = yes\n'+prepare+price_factor+'clamp_variable = { var = APDC_eco_purchase_quantity min = 0 max = APDC_eco_purchase_stock }\n'+
   calc('purchase_cost_m',var('purchase_quantity'),('divide',1000),('round','down'))+
   calc('purchase_tail',var('purchase_quantity'),('mod',1000),('multiply',var('purchase_unit_k')))+
   calc('purchase_cost_m',var('purchase_cost_m'),('multiply',var('purchase_unit_k')))+

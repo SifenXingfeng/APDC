@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checks": [
+    "reload_retains_seats_colors_term_offices_and_agenda",
+    "reload_continues_saved_work",
+    "nonzero_attitudes_and_work_survive_turnover"
+  ],
+  "before": "2060.3.1.1",
+  "completion": [
+    "[13:51:25][2060.03.14.23]: APDC_PARL_QA RELOAD_COMPLETE  23:00, 14 3月, 2060 work=71"
+  ],
+  "related_engine_errors": [],
+  "actual_saved_game_loaded": true
+}

@@ -1,0 +1,80 @@
+{
+  "moves": [
+    {
+      "from": 229,
+      "to": 1642,
+      "province": 1610,
+      "kind": "industrial_complex",
+      "level": 1
+    },
+    {
+      "from": 229,
+      "to": 1642,
+      "province": 18342,
+      "kind": "air_base",
+      "level": 1
+    },
+    {
+      "from": 231,
+      "to": 1643,
+      "province": 3653,
+      "kind": "province_buildings"
+    },
+    {
+      "from": 405,
+      "to": 1632,
+      "province": 7682,
+      "kind": "industrial_complex",
+      "level": 1
+    },
+    {
+      "from": 405,
+      "to": 1632,
+      "province": 18669,
+      "kind": "air_base",
+      "level": 1
+    },
+    {
+      "from": 584,
+      "to": 1633,
+      "province": 18626,
+      "kind": "industrial_complex",
+      "level": 1
+    },
+    {
+      "from": 584,
+      "to": 831,
+      "province": 7477,
+      "kind": "province_buildings"
+    },
+    {
+      "from": 585,
+      "to": 1632,
+      "province": 18680,
+      "kind": "air_base",
+      "level": 1
+    },
+    {
+      "from": 586,
+      "to": 589,
+      "province": 7711,
+      "kind": "industrial_complex",
+      "level": 1
+    },
+    {
+      "from": 830,
+      "to": 1631,
+      "province": 18686,
+      "kind": "industrial_complex",
+      "level": 1
+    }
+  ],
+  "air_base_state_mapping": {
+    "229": 1642,
+    "230": 230,
+    "231": 231,
+    "405": 1632,
+    "585": 1632
+  },
+  "rule": "Occupied model anchors/attached province retain location; infrastructure inherited separately, no new actual industry"
+}

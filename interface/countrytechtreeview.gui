@@ -2535,7 +2535,20 @@ guiTypes = {
 			clicksound = click_close
 			pdx_tooltip = "CLOSE"
 		}
-	}
+
+buttonType = {
+			name = "cycle_tab_next"
+			quadTextureSprite = "GFX_tiled_window_transparent"
+			size = { x = 1 y = 1 }
+			shortcut = "ctrl+TAB"
+		}
+buttonType = {
+			name = "cycle_tab_prev"
+			quadTextureSprite = "GFX_tiled_window_transparent"
+			size = { x = 1 y = 1 }
+			shortcut = "ctrl+shift+TAB"
+		}
+}
 
 	containerWindowType = {
 		name = "unlock_tech_info_window"
@@ -4139,7 +4152,42 @@ guiTypes = {
 				##size = { width=300 height=80 }
 			}
 		}
-	}
+
+instantTextboxType = {
+			name = "leader_bonuses_header"
+			font = "hoi4_typewriter16"
+			position = { x = 35 y = 65 } # Y set in code
+			maxWidth = 500
+			maxHeight = 25
+			fixedsize = yes
+			format = left
+		}
+gridboxtype = {
+			name = "leader_bonuses_grid"
+			position = { x = 90 y = 70 } # Y set in code
+			size = { width = 400 height = 400 }
+			slotsize = { width = 224 height = 30 }
+			max_slots_horizontal = 1
+			format = "UPPER_LEFT"
+		}
+instantTextboxType = {
+			name = "support_category_multipliers_header"
+			font = "hoi4_typewriter16"
+			position = { x = 35 y = 65 } # Y set in code
+			maxWidth = 500
+			maxHeight = 25
+			fixedsize = yes
+			format = left
+		}
+gridboxtype = {
+			name = "support_category_multipliers_grid"
+			position = { x = 90 y = 70 } # Y set in code
+			size = { width = 400 height = 400 }
+			slotsize = { width = 224 height = 30 }
+			max_slots_horizontal = 1
+			format = "UPPER_LEFT"
+		}
+}
 
 	containerWindowType = {
 		name = "technology_unit_statlist_item_module"
@@ -4181,7 +4229,42 @@ guiTypes = {
 			max_slots_horizontal = 10
 			format = "UPPER_LEFT"
 		}
-	}
+
+instantTextboxType = {
+			name = "leader_bonuses_header"
+			font = "hoi4_typewriter16"
+			position = { x = 35 y = 65 } # Y set in code
+			maxWidth = 500
+			maxHeight = 25
+			fixedsize = yes
+			format = left
+		}
+gridboxtype = {
+			name = "leader_bonuses_grid"
+			position = { x = 90 y = 70 } # Y set in code
+			size = { width = 400 height = 400 }
+			slotsize = { width = 224 height = 30 }
+			max_slots_horizontal = 1
+			format = "UPPER_LEFT"
+		}
+instantTextboxType = {
+			name = "support_category_multipliers_header"
+			font = "hoi4_typewriter16"
+			position = { x = 35 y = 65 } # Y set in code
+			maxWidth = 500
+			maxHeight = 25
+			fixedsize = yes
+			format = left
+		}
+gridboxtype = {
+			name = "support_category_multipliers_grid"
+			position = { x = 90 y = 70 } # Y set in code
+			size = { width = 400 height = 400 }
+			slotsize = { width = 224 height = 30 }
+			max_slots_horizontal = 1
+			format = "UPPER_LEFT"
+		}
+}
 
 	containerWindowType = {
 		name = "technology_unlocks_statlist_item_building"
@@ -4231,7 +4314,42 @@ guiTypes = {
 			max_slots_horizontal = 5
 			format = "UPPER_LEFT"
 		}
-	}
+
+instantTextboxType = {
+			name = "leader_bonuses_header"
+			font = "hoi4_typewriter16"
+			position = { x = 35 y = 65 } # Y set in code
+			maxWidth = 500
+			maxHeight = 25
+			fixedsize = yes
+			format = left
+		}
+gridboxtype = {
+			name = "leader_bonuses_grid"
+			position = { x = 90 y = 70 } # Y set in code
+			size = { width = 400 height = 400 }
+			slotsize = { width = 224 height = 30 }
+			max_slots_horizontal = 1
+			format = "UPPER_LEFT"
+		}
+instantTextboxType = {
+			name = "support_category_multipliers_header"
+			font = "hoi4_typewriter16"
+			position = { x = 35 y = 65 } # Y set in code
+			maxWidth = 500
+			maxHeight = 25
+			fixedsize = yes
+			format = left
+		}
+gridboxtype = {
+			name = "support_category_multipliers_grid"
+			position = { x = 90 y = 70 } # Y set in code
+			size = { width = 400 height = 400 }
+			slotsize = { width = 224 height = 30 }
+			max_slots_horizontal = 1
+			format = "UPPER_LEFT"
+		}
+}
 
 	containerWindowType = {
 		name = "technology_unlocks_statlist_item_tactic"
@@ -4281,7 +4399,42 @@ guiTypes = {
 			max_slots_horizontal = 5
 			format = "UPPER_LEFT"
 		}
-	}
+
+instantTextboxType = {
+			name = "leader_bonuses_header"
+			font = "hoi4_typewriter16"
+			position = { x = 35 y = 65 } # Y set in code
+			maxWidth = 500
+			maxHeight = 25
+			fixedsize = yes
+			format = left
+		}
+gridboxtype = {
+			name = "leader_bonuses_grid"
+			position = { x = 90 y = 70 } # Y set in code
+			size = { width = 400 height = 400 }
+			slotsize = { width = 224 height = 30 }
+			max_slots_horizontal = 1
+			format = "UPPER_LEFT"
+		}
+instantTextboxType = {
+			name = "support_category_multipliers_header"
+			font = "hoi4_typewriter16"
+			position = { x = 35 y = 65 } # Y set in code
+			maxWidth = 500
+			maxHeight = 25
+			fixedsize = yes
+			format = left
+		}
+gridboxtype = {
+			name = "support_category_multipliers_grid"
+			position = { x = 90 y = 70 } # Y set in code
+			size = { width = 400 height = 400 }
+			slotsize = { width = 224 height = 30 }
+			max_slots_horizontal = 1
+			format = "UPPER_LEFT"
+		}
+}
 
 	containerWindowType = {
 		name = "technology_unlocks_statlist_item_subunit"
@@ -4346,7 +4499,42 @@ guiTypes = {
 			max_slots_horizontal = 5
 			format = "UPPER_LEFT"
 		}
-	}
+
+instantTextboxType = {
+			name = "leader_bonuses_header"
+			font = "hoi4_typewriter16"
+			position = { x = 35 y = 65 } # Y set in code
+			maxWidth = 500
+			maxHeight = 25
+			fixedsize = yes
+			format = left
+		}
+gridboxtype = {
+			name = "leader_bonuses_grid"
+			position = { x = 90 y = 70 } # Y set in code
+			size = { width = 400 height = 400 }
+			slotsize = { width = 224 height = 30 }
+			max_slots_horizontal = 1
+			format = "UPPER_LEFT"
+		}
+instantTextboxType = {
+			name = "support_category_multipliers_header"
+			font = "hoi4_typewriter16"
+			position = { x = 35 y = 65 } # Y set in code
+			maxWidth = 500
+			maxHeight = 25
+			fixedsize = yes
+			format = left
+		}
+gridboxtype = {
+			name = "support_category_multipliers_grid"
+			position = { x = 90 y = 70 } # Y set in code
+			size = { width = 400 height = 400 }
+			slotsize = { width = 224 height = 30 }
+			max_slots_horizontal = 1
+			format = "UPPER_LEFT"
+		}
+}
 
 	containerWindowType = {
 		name = "technology_unit_statlist_item_upgrade"
@@ -4396,7 +4584,42 @@ guiTypes = {
 			max_slots_horizontal = 5
 			format = "UPPER_LEFT"
 		}
-	}
+
+instantTextboxType = {
+			name = "leader_bonuses_header"
+			font = "hoi4_typewriter16"
+			position = { x = 35 y = 65 } # Y set in code
+			maxWidth = 500
+			maxHeight = 25
+			fixedsize = yes
+			format = left
+		}
+gridboxtype = {
+			name = "leader_bonuses_grid"
+			position = { x = 90 y = 70 } # Y set in code
+			size = { width = 400 height = 400 }
+			slotsize = { width = 224 height = 30 }
+			max_slots_horizontal = 1
+			format = "UPPER_LEFT"
+		}
+instantTextboxType = {
+			name = "support_category_multipliers_header"
+			font = "hoi4_typewriter16"
+			position = { x = 35 y = 65 } # Y set in code
+			maxWidth = 500
+			maxHeight = 25
+			fixedsize = yes
+			format = left
+		}
+gridboxtype = {
+			name = "support_category_multipliers_grid"
+			position = { x = 90 y = 70 } # Y set in code
+			size = { width = 400 height = 400 }
+			slotsize = { width = 224 height = 30 }
+			max_slots_horizontal = 1
+			format = "UPPER_LEFT"
+		}
+}
 
 	containerWindowType = {
 		name = "technology_unit_statlist_item_modifier"
@@ -4427,7 +4650,42 @@ guiTypes = {
 			max_slots_horizontal = 1
 			format = "UPPER_LEFT"
 		}
-	}
+
+instantTextboxType = {
+			name = "leader_bonuses_header"
+			font = "hoi4_typewriter16"
+			position = { x = 35 y = 65 } # Y set in code
+			maxWidth = 500
+			maxHeight = 25
+			fixedsize = yes
+			format = left
+		}
+gridboxtype = {
+			name = "leader_bonuses_grid"
+			position = { x = 90 y = 70 } # Y set in code
+			size = { width = 400 height = 400 }
+			slotsize = { width = 224 height = 30 }
+			max_slots_horizontal = 1
+			format = "UPPER_LEFT"
+		}
+instantTextboxType = {
+			name = "support_category_multipliers_header"
+			font = "hoi4_typewriter16"
+			position = { x = 35 y = 65 } # Y set in code
+			maxWidth = 500
+			maxHeight = 25
+			fixedsize = yes
+			format = left
+		}
+gridboxtype = {
+			name = "support_category_multipliers_grid"
+			position = { x = 90 y = 70 } # Y set in code
+			size = { width = 400 height = 400 }
+			slotsize = { width = 224 height = 30 }
+			max_slots_horizontal = 1
+			format = "UPPER_LEFT"
+		}
+}
 
 	containerWindowType = {
 		name = "technology_unit_stat_item"

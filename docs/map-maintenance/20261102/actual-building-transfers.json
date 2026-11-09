@@ -1,0 +1,113 @@
+{
+  "moves": [
+    {
+      "from": 320,
+      "to": 423,
+      "province": 10149,
+      "kind": "province_buildings"
+    },
+    {
+      "from": 425,
+      "to": 1572,
+      "province": 7244,
+      "kind": "province_buildings"
+    },
+    {
+      "from": 427,
+      "to": 1575,
+      "province": 8087,
+      "kind": "industrial_complex",
+      "level": 1
+    },
+    {
+      "from": 427,
+      "to": 429,
+      "province": 7060,
+      "kind": "industrial_complex",
+      "level": 1
+    },
+    {
+      "from": 427,
+      "to": 1570,
+      "province": 12226,
+      "kind": "air_base",
+      "level": 1
+    },
+    {
+      "from": 427,
+      "to": 1570,
+      "province": 12226,
+      "kind": "air_base",
+      "level": 1
+    },
+    {
+      "from": 427,
+      "to": 1570,
+      "province": 12226,
+      "kind": "air_base",
+      "level": 1
+    },
+    {
+      "from": 428,
+      "to": 1563,
+      "province": 1144,
+      "kind": "arms_factory",
+      "level": 1
+    },
+    {
+      "from": 429,
+      "to": 983,
+      "province": 7232,
+      "kind": "air_base",
+      "level": 1
+    },
+    {
+      "from": 429,
+      "to": 983,
+      "province": 7232,
+      "kind": "air_base",
+      "level": 1
+    },
+    {
+      "from": 438,
+      "to": 1569,
+      "province": 4915,
+      "kind": "province_buildings"
+    },
+    {
+      "from": 439,
+      "to": 1569,
+      "province": 18892,
+      "kind": "air_base",
+      "level": 1
+    },
+    {
+      "from": 439,
+      "to": 1569,
+      "province": 18892,
+      "kind": "air_base",
+      "level": 1
+    },
+    {
+      "from": 439,
+      "to": 1569,
+      "province": 18892,
+      "kind": "air_base",
+      "level": 1
+    },
+    {
+      "from": 439,
+      "to": 1569,
+      "province": 18892,
+      "kind": "air_base",
+      "level": 1
+    }
+  ],
+  "air_base_state_mapping": {
+    "427": 1570,
+    "429": 983,
+    "431": 431,
+    "439": 1569
+  },
+  "rule": "Occupied model anchors/attached province retain location; infrastructure inherited separately, no new actual industry"
+}

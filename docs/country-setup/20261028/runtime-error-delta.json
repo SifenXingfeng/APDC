@@ -1,0 +1,18 @@
+{
+  "baseline_profile": "APDC_1194_QA_20261028",
+  "tested_profile": "APDC_CountryQA_20261028_172644_2",
+  "new_distinct_messages": [
+    "Error loading flag for country HJM : Ideology communism : Path gfx/flags/ : File not found",
+    "Error loading flag for country HJM : Ideology communism : Path gfx/flags/medium/ : File not found",
+    "Error loading flag for country HJM : Ideology communism : Path gfx/flags/small/ : File not found",
+    "Error loading flag for country HJM : Ideology liberalism : Path gfx/flags/ : File not found",
+    "Error loading flag for country HJM : Ideology liberalism : Path gfx/flags/medium/ : File not found",
+    "Error loading flag for country HJM : Ideology liberalism : Path gfx/flags/small/ : File not found",
+    "Failed to rename: 'D:/APDC_CountryQA_20261028_172644_2/save games/autosave_temp.hoi4' -> 'D:/APDC_CountryQA_20261028_172644_2/save games/autosave.hoi4' (errno 13)",
+    "The game has loc key collisions. Check logs/text.log for more details"
+  ],
+  "source_archive": "D:\\C-Drive-Migration-20260929\\Permanent\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\.codex_backups\\APDC\\20261028-qa-temp-cleanup\\qa-evidence.zip",
+  "actual_advance_evidence": "runtime-actual-March13.png",
+  "capture_date": "2060.3.13.1",
+  "caveat": "D盘曾耗尽，导致该次日志后段和自动存档未完整写入；日期推进由只读窗口截图确认。后续仅改本地化的分布，以消除本轮引入的重复键；未逐国检查头像画面。"
+}

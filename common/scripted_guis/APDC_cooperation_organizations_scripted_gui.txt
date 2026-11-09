@@ -189,6 +189,9 @@ scripted_gui = {
 			APDC_cooperation_vote_support_button_click_enabled = { APDC_has_cooperation_organization = yes }
 			APDC_cooperation_vote_abstain_button_click_enabled = { APDC_has_cooperation_organization = yes }
 			APDC_cooperation_vote_veto_button_click_enabled = { APDC_has_cooperation_organization = yes }
+			APDC_cooperation_vote_support_scroll_background_click_enabled = { APDC_has_cooperation_organization = yes }
+			APDC_cooperation_vote_abstain_scroll_background_click_enabled = { APDC_has_cooperation_organization = yes }
+			APDC_cooperation_vote_veto_scroll_background_click_enabled = { APDC_has_cooperation_organization = yes }
 
 			# Option 1 always exists for a real group.
 			APDC_cooperation_law_option_1_available_visible = {
@@ -310,6 +313,12 @@ scripted_gui = {
 			APDC_cooperation_vote_support_button_click = { APDC_cast_cooperation_vote_support = yes }
 			APDC_cooperation_vote_abstain_button_click = { APDC_cast_cooperation_vote_abstain = yes }
 			APDC_cooperation_vote_veto_button_click = { APDC_cast_cooperation_vote_veto = yes }
+			# A scroll window owns its blank-space clicks and forwards wheel
+			# input to its existing native scroll controller. Flags retain their
+			# country-scoped tooltip hitboxes above this background.
+			APDC_cooperation_vote_support_scroll_background_click = { APDC_cast_cooperation_vote_support = yes }
+			APDC_cooperation_vote_abstain_scroll_background_click = { APDC_cast_cooperation_vote_abstain = yes }
+			APDC_cooperation_vote_veto_scroll_background_click = { APDC_cast_cooperation_vote_veto = yes }
 
 			APDC_cooperation_organization_panel_close_click = {
 				clear_variable = APDC_cooperation_organization_selected_tab

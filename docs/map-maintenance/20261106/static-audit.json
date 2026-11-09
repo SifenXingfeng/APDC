@@ -1,0 +1,1531 @@
+{
+  "passed": true,
+  "states": 1645,
+  "state_provinces": 16546,
+  "defined_provinces": 20003,
+  "strategic_regions": 320,
+  "cross_region_states": [],
+  "sea_lake_region_changes": [],
+  "original_province_pixels_and_definition_preserved": true,
+  "victory_points": 5447,
+  "victory_score": 20292,
+  "medina": [
+    1206,
+    10
+  ],
+  "initial_dmz": [],
+  "impassable_unchanged": true,
+  "actual_buildings_before": {
+    "infrastructure": 3044,
+    "industrial_complex": 801,
+    "air_base": 1037,
+    "naval_base": 1426,
+    "arms_factory": 317,
+    "landmark_colosseum": 1,
+    "landmark_hofburg_palace": 1,
+    "dockyard": 150,
+    "anti_air_building": 36,
+    "naval_headquarters": 9,
+    "naval_supply_hub": 7,
+    "coastal_bunker": 96,
+    "landmark_eiffel_tower": 1,
+    "land_facility": 2,
+    "fuel_silo": 13,
+    "bunker": 114,
+    "dam": 14,
+    "landmark_berlin_reichstag": 1,
+    "radar_station": 4,
+    "landmark_big_ben": 1,
+    "naval_facility": 3,
+    "synthetic_refinery": 4,
+    "landmark_sadabad_complex": 1,
+    "landmark_tokyo_imperial_palace": 1,
+    "dam_mountain": 1,
+    "landmark_cristo_redentor": 1,
+    "landmark_nanjing_presidential_palace": 1,
+    "landmark_forbidden_city": 1,
+    "landmark_great_wall_section": 5,
+    "landmark_hagia_sophia": 1,
+    "landmark_kremlin": 1,
+    "landmark_statue_of_liberty": 1,
+    "landmark_taj_mahal": 1
+  },
+  "actual_buildings_after": {
+    "infrastructure": 3045,
+    "industrial_complex": 801,
+    "air_base": 1037,
+    "naval_base": 1426,
+    "arms_factory": 317,
+    "anti_air_building": 36,
+    "dockyard": 150,
+    "coastal_bunker": 96,
+    "naval_supply_hub": 7,
+    "naval_headquarters": 9,
+    "bunker": 114,
+    "synthetic_refinery": 4,
+    "landmark_great_wall_section": 5,
+    "landmark_kremlin": 1,
+    "landmark_statue_of_liberty": 1,
+    "radar_station": 4,
+    "landmark_big_ben": 1,
+    "fuel_silo": 13,
+    "naval_facility": 3,
+    "dam": 14,
+    "landmark_taj_mahal": 1,
+    "landmark_eiffel_tower": 1,
+    "land_facility": 2,
+    "landmark_colosseum": 1,
+    "landmark_sadabad_complex": 1,
+    "landmark_tokyo_imperial_palace": 1,
+    "dam_mountain": 1,
+    "landmark_hofburg_palace": 1,
+    "landmark_cristo_redentor": 1,
+    "landmark_nanjing_presidential_palace": 1,
+    "landmark_forbidden_city": 1,
+    "landmark_berlin_reichstag": 1,
+    "landmark_hagia_sophia": 1
+  },
+  "actual_industry_airports_ports_landmarks_totals_preserved": true,
+  "railways": 642,
+  "railway_gaps": [],
+  "supply_nodes": 726,
+  "model_records": 106998,
+  "unrelated_preexisting_model_mismatches": [],
+  "affected_model_mismatches": 0,
+  "languages_checked": [
+    "simp_chinese",
+    "english",
+    "french",
+    "german",
+    "spanish",
+    "braz_por",
+    "polish",
+    "russian",
+    "japanese",
+    "korean"
+  ],
+  "capital_references": [
+    {
+      "tag": "AAA",
+      "state": 1
+    },
+    {
+      "tag": "ABK",
+      "state": 233
+    },
+    {
+      "tag": "ADU",
+      "state": 169
+    },
+    {
+      "tag": "AFA",
+      "state": 268
+    },
+    {
+      "tag": "AFG",
+      "state": 267
+    },
+    {
+      "tag": "AGR",
+      "state": 459
+    },
+    {
+      "tag": "ALB",
+      "state": 44
+    },
+    {
+      "tag": "ALG",
+      "state": 459
+    },
+    {
+      "tag": "ALS",
+      "state": 463
+    },
+    {
+      "tag": "ALT",
+      "state": 654
+    },
+    {
+      "tag": "AMZ",
+      "state": 966
+    },
+    {
+      "tag": "ANG",
+      "state": 540
+    },
+    {
+      "tag": "ANU",
+      "state": 536
+    },
+    {
+      "tag": "AOI",
+      "state": 1242
+    },
+    {
+      "tag": "ARG",
+      "state": 278
+    },
+    {
+      "tag": "ARM",
+      "state": 230
+    },
+    {
+      "tag": "ASM",
+      "state": 990
+    },
+    {
+      "tag": "AST",
+      "state": 285
+    },
+    {
+      "tag": "ASY",
+      "state": 676
+    },
+    {
+      "tag": "ATG",
+      "state": 1470
+    },
+    {
+      "tag": "ATJ",
+      "state": 1050
+    },
+    {
+      "tag": "ATU",
+      "state": 1103
+    },
+    {
+      "tag": "AUS",
+      "state": 4
+    },
+    {
+      "tag": "AZR",
+      "state": 229
+    },
+    {
+      "tag": "BAH",
+      "state": 690
+    },
+    {
+      "tag": "BAN",
+      "state": 431
+    },
+    {
+      "tag": "BAR",
+      "state": 1457
+    },
+    {
+      "tag": "BAS",
+      "state": 1473
+    },
+    {
+      "tag": "BAY",
+      "state": 52
+    },
+    {
+      "tag": "BEG",
+      "state": 841
+    },
+    {
+      "tag": "BEL",
+      "state": 6
+    },
+    {
+      "tag": "BEN",
+      "state": 1388
+    },
+    {
+      "tag": "BHR",
+      "state": 1014
+    },
+    {
+      "tag": "BIA",
+      "state": 1419
+    },
+    {
+      "tag": "BKF",
+      "state": 778
+    },
+    {
+      "tag": "BLI",
+      "state": 1052
+    },
+    {
+      "tag": "BLR",
+      "state": 206
+    },
+    {
+      "tag": "BLZ",
+      "state": 311
+    },
+    {
+      "tag": "BOL",
+      "state": 302
+    },
+    {
+      "tag": "BOS",
+      "state": 104
+    },
+    {
+      "tag": "BOT",
+      "state": 542
+    },
+    {
+      "tag": "BOU",
+      "state": 1070
+    },
+    {
+      "tag": "BRA",
+      "state": 500
+    },
+    {
+      "tag": "BRB",
+      "state": 1474
+    },
+    {
+      "tag": "BRD",
+      "state": 769
+    },
+    {
+      "tag": "BRI",
+      "state": 14
+    },
+    {
+      "tag": "BRM",
+      "state": 995
+    },
+    {
+      "tag": "BRN",
+      "state": 1023
+    },
+    {
+      "tag": "BSK",
+      "state": 651
+    },
+    {
+      "tag": "BUK",
+      "state": 830
+    },
+    {
+      "tag": "BUL",
+      "state": 48
+    },
+    {
+      "tag": "BYA",
+      "state": 1593
+    },
+    {
+      "tag": "CAM",
+      "state": 741
+    },
+    {
+      "tag": "CAN",
+      "state": 276
+    },
+    {
+      "tag": "CAR",
+      "state": 660
+    },
+    {
+      "tag": "CAT",
+      "state": 165
+    },
+    {
+      "tag": "CAY",
+      "state": 310
+    },
+    {
+      "tag": "CBV",
+      "state": 702
+    },
+    {
+      "tag": "CHA",
+      "state": 1426
+    },
+    {
+      "tag": "CHI",
+      "state": 598
+    },
+    {
+      "tag": "CHL",
+      "state": 279
+    },
+    {
+      "tag": "CHR",
+      "state": 300
+    },
+    {
+      "tag": "CHU",
+      "state": 256
+    },
+    {
+      "tag": "CIN",
+      "state": 821
+    },
+    {
+      "tag": "CKK",
+      "state": 1583
+    },
+    {
+      "tag": "CMR",
+      "state": 1351
+    },
+    {
+      "tag": "COG",
+      "state": 1252
+    },
+    {
+      "tag": "COK",
+      "state": 1130
+    },
+    {
+      "tag": "COL",
+      "state": 306
+    },
+    {
+      "tag": "COR",
+      "state": 1
+    },
+    {
+      "tag": "COS",
+      "state": 316
+    },
+    {
+      "tag": "CPS",
+      "state": 1068
+    },
+    {
+      "tag": "CRC",
+      "state": 695
+    },
+    {
+      "tag": "CRI",
+      "state": 137
+    },
+    {
+      "tag": "CRO",
+      "state": 109
+    },
+    {
+      "tag": "CSA",
+      "state": 1165
+    },
+    {
+      "tag": "CUB",
+      "state": 315
+    },
+    {
+      "tag": "CYP",
+      "state": 183
+    },
+    {
+      "tag": "CZE",
+      "state": 9
+    },
+    {
+      "tag": "DAG",
+      "state": 232
+    },
+    {
+      "tag": "DAH",
+      "state": 1388
+    },
+    {
+      "tag": "DDR",
+      "state": 64
+    },
+    {
+      "tag": "DEN",
+      "state": 37
+    },
+    {
+      "tag": "DHF",
+      "state": 1016
+    },
+    {
+      "tag": "DJI",
+      "state": 268
+    },
+    {
+      "tag": "DMA",
+      "state": 1471
+    },
+    {
+      "tag": "DNZ",
+      "state": 807
+    },
+    {
+      "tag": "DOM",
+      "state": 319
+    },
+    {
+      "tag": "DON",
+      "state": 218
+    },
+    {
+      "tag": "ECU",
+      "state": 305
+    },
+    {
+      "tag": "EGY",
+      "state": 907
+    },
+    {
+      "tag": "ELS",
+      "state": 314
+    },
+    {
+      "tag": "ENG",
+      "state": 126
+    },
+    {
+      "tag": "EQG",
+      "state": 297
+    },
+    {
+      "tag": "ERI",
+      "state": 550
+    },
+    {
+      "tag": "EST",
+      "state": 812
+    },
+    {
+      "tag": "ETH",
+      "state": 1242
+    },
+    {
+      "tag": "EVE",
+      "state": 878
+    },
+    {
+      "tag": "EZO",
+      "state": 536
+    },
+    {
+      "tag": "FER",
+      "state": 563
+    },
+    {
+      "tag": "FIJ",
+      "state": 636
+    },
+    {
+      "tag": "FIN",
+      "state": 111
+    },
+    {
+      "tag": "FLA",
+      "state": 1358
+    },
+    {
+      "tag": "FPL",
+      "state": 515
+    },
+    {
+      "tag": "FRA",
+      "state": 16
+    },
+    {
+      "tag": "FSA",
+      "state": 992
+    },
+    {
+      "tag": "FSM",
+      "state": 684
+    },
+    {
+      "tag": "GAB",
+      "state": 539
+    },
+    {
+      "tag": "GAM",
+      "state": 701
+    },
+    {
+      "tag": "GAR",
+      "state": 301
+    },
+    {
+      "tag": "GBA",
+      "state": 1246
+    },
+    {
+      "tag": "GDB",
+      "state": 479
+    },
+    {
+      "tag": "GDL",
+      "state": 694
+    },
+    {
+      "tag": "GEO",
+      "state": 231
+    },
+    {
+      "tag": "GER",
+      "state": 64
+    },
+    {
+      "tag": "GHA",
+      "state": 274
+    },
+    {
+      "tag": "GLC",
+      "state": 171
+    },
+    {
+      "tag": "GNA",
+      "state": 780
+    },
+    {
+      "tag": "GNB",
+      "state": 296
+    },
+    {
+      "tag": "GOW",
+      "state": 673
+    },
+    {
+      "tag": "GRD",
+      "state": 692
+    },
+    {
+      "tag": "GRE",
+      "state": 47
+    },
+    {
+      "tag": "GRN",
+      "state": 101
+    },
+    {
+      "tag": "GUA",
+      "state": 313
+    },
+    {
+      "tag": "GUM",
+      "state": 638
+    },
+    {
+      "tag": "GXC",
+      "state": 594
+    },
+    {
+      "tag": "GYA",
+      "state": 687
+    },
+    {
+      "tag": "HAI",
+      "state": 318
+    },
+    {
+      "tag": "HAN",
+      "state": 59
+    },
+    {
+      "tag": "HAR",
+      "state": 835
+    },
+    {
+      "tag": "HAW",
+      "state": 629
+    },
+    {
+      "tag": "HES",
+      "state": 55
+    },
+    {
+      "tag": "HOL",
+      "state": 7
+    },
+    {
+      "tag": "HON",
+      "state": 312
+    },
+    {
+      "tag": "HRZ",
+      "state": 804
+    },
+    {
+      "tag": "HUN",
+      "state": 43
+    },
+    {
+      "tag": "HYD",
+      "state": 1575
+    },
+    {
+      "tag": "IAS",
+      "state": 493
+    },
+    {
+      "tag": "ICE",
+      "state": 100
+    },
+    {
+      "tag": "INC",
+      "state": 494
+    },
+    {
+      "tag": "INS",
+      "state": 1058
+    },
+    {
+      "tag": "INU",
+      "state": 463
+    },
+    {
+      "tag": "IPL",
+      "state": 435
+    },
+    {
+      "tag": "IRE",
+      "state": 113
+    },
+    {
+      "tag": "IRQ",
+      "state": 291
+    },
+    {
+      "tag": "ISP",
+      "state": 1373
+    },
+    {
+      "tag": "ISR",
+      "state": 454
+    },
+    {
+      "tag": "ITA",
+      "state": 2
+    },
+    {
+      "tag": "ITZ",
+      "state": 311
+    },
+    {
+      "tag": "IVO",
+      "state": 1396
+    },
+    {
+      "tag": "JAM",
+      "state": 689
+    },
+    {
+      "tag": "JAN",
+      "state": 914
+    },
+    {
+      "tag": "JAP",
+      "state": 1137
+    },
+    {
+      "tag": "JNM",
+      "state": 1370
+    },
+    {
+      "tag": "JOR",
+      "state": 455
+    },
+    {
+      "tag": "KAL",
+      "state": 236
+    },
+    {
+      "tag": "KAR",
+      "state": 216
+    },
+    {
+      "tag": "KAT",
+      "state": 1335
+    },
+    {
+      "tag": "KAZ",
+      "state": 589
+    },
+    {
+      "tag": "KBK",
+      "state": 827
+    },
+    {
+      "tag": "KEN",
+      "state": 547
+    },
+    {
+      "tag": "KER",
+      "state": 982
+    },
+    {
+      "tag": "KHA",
+      "state": 569
+    },
+    {
+      "tag": "KHI",
+      "state": 832
+    },
+    {
+      "tag": "KHL",
+      "state": 1561
+    },
+    {
+      "tag": "KIR",
+      "state": 639
+    },
+    {
+      "tag": "KKP",
+      "state": 823
+    },
+    {
+      "tag": "KNA",
+      "state": 1469
+    },
+    {
+      "tag": "KOL",
+      "state": 983
+    },
+    {
+      "tag": "KOM",
+      "state": 397
+    },
+    {
+      "tag": "KOR",
+      "state": 525
+    },
+    {
+      "tag": "KOS",
+      "state": 802
+    },
+    {
+      "tag": "KSH",
+      "state": 807
+    },
+    {
+      "tag": "KUB",
+      "state": 234
+    },
+    {
+      "tag": "KUR",
+      "state": 800
+    },
+    {
+      "tag": "KUW",
+      "state": 656
+    },
+    {
+      "tag": "KYR",
+      "state": 732
+    },
+    {
+      "tag": "LAO",
+      "state": 670
+    },
+    {
+      "tag": "LAT",
+      "state": 808
+    },
+    {
+      "tag": "LBA",
+      "state": 448
+    },
+    {
+      "tag": "LBV",
+      "state": 160
+    },
+    {
+      "tag": "LCA",
+      "state": 1472
+    },
+    {
+      "tag": "LEB",
+      "state": 553
+    },
+    {
+      "tag": "LIB",
+      "state": 298
+    },
+    {
+      "tag": "LIT",
+      "state": 11
+    },
+    {
+      "tag": "LLU",
+      "state": 6
+    },
+    {
+      "tag": "LSO",
+      "state": 1428
+    },
+    {
+      "tag": "LUX",
+      "state": 7
+    },
+    {
+      "tag": "MAC",
+      "state": 106
+    },
+    {
+      "tag": "MAD",
+      "state": 543
+    },
+    {
+      "tag": "MAL",
+      "state": 336
+    },
+    {
+      "tag": "MAN",
+      "state": 714
+    },
+    {
+      "tag": "MAY",
+      "state": 475
+    },
+    {
+      "tag": "MEK",
+      "state": 63
+    },
+    {
+      "tag": "MEL",
+      "state": 833
+    },
+    {
+      "tag": "MEN",
+      "state": 1253
+    },
+    {
+      "tag": "MEX",
+      "state": 277
+    },
+    {
+      "tag": "MHL",
+      "state": 633
+    },
+    {
+      "tag": "MIS",
+      "state": 317
+    },
+    {
+      "tag": "MLD",
+      "state": 281
+    },
+    {
+      "tag": "MLI",
+      "state": 1369
+    },
+    {
+      "tag": "MLT",
+      "state": 116
+    },
+    {
+      "tag": "MLW",
+      "state": 770
+    },
+    {
+      "tag": "MNT",
+      "state": 105
+    },
+    {
+      "tag": "MOL",
+      "state": 78
+    },
+    {
+      "tag": "MON",
+      "state": 330
+    },
+    {
+      "tag": "MOR",
+      "state": 1415
+    },
+    {
+      "tag": "MRT",
+      "state": 557
+    },
+    {
+      "tag": "MYS",
+      "state": 321
+    },
+    {
+      "tag": "MZB",
+      "state": 544
+    },
+    {
+      "tag": "NAH",
+      "state": 314
+    },
+    {
+      "tag": "NAV",
+      "state": 792
+    },
+    {
+      "tag": "NEN",
+      "state": 825
+    },
+    {
+      "tag": "NGA",
+      "state": 1417
+    },
+    {
+      "tag": "NGR",
+      "state": 781
+    },
+    {
+      "tag": "NIC",
+      "state": 317
+    },
+    {
+      "tag": "NIR",
+      "state": 119
+    },
+    {
+      "tag": "NIU",
+      "state": 1476
+    },
+    {
+      "tag": "NMB",
+      "state": 541
+    },
+    {
+      "tag": "NOA",
+      "state": 828
+    },
+    {
+      "tag": "NOR",
+      "state": 142
+    },
+    {
+      "tag": "NRU",
+      "state": 725
+    },
+    {
+      "tag": "NZL",
+      "state": 284
+    },
+    {
+      "tag": "OCC",
+      "state": 31
+    },
+    {
+      "tag": "OKN",
+      "state": 526
+    },
+    {
+      "tag": "OMA",
+      "state": 294
+    },
+    {
+      "tag": "ORO",
+      "state": 1242
+    },
+    {
+      "tag": "OVO",
+      "state": 577
+    },
+    {
+      "tag": "PAK",
+      "state": 440
+    },
+    {
+      "tag": "PAL",
+      "state": 454
+    },
+    {
+      "tag": "PAN",
+      "state": 304
+    },
+    {
+      "tag": "PAP",
+      "state": 2
+    },
+    {
+      "tag": "PAR",
+      "state": 301
+    },
+    {
+      "tag": "PER",
+      "state": 266
+    },
+    {
+      "tag": "PHI",
+      "state": 327
+    },
+    {
+      "tag": "PLU",
+      "state": 647
+    },
+    {
+      "tag": "PNG",
+      "state": 523
+    },
+    {
+      "tag": "POL",
+      "state": 1312
+    },
+    {
+      "tag": "POR",
+      "state": 112
+    },
+    {
+      "tag": "PRC",
+      "state": 608
+    },
+    {
+      "tag": "PRE",
+      "state": 64
+    },
+    {
+      "tag": "PRU",
+      "state": 303
+    },
+    {
+      "tag": "PUE",
+      "state": 686
+    },
+    {
+      "tag": "QAT",
+      "state": 765
+    },
+    {
+      "tag": "QEM",
+      "state": 841
+    },
+    {
+      "tag": "QUE",
+      "state": 468
+    },
+    {
+      "tag": "RAJ",
+      "state": 1560
+    },
+    {
+      "tag": "RAP",
+      "state": 948
+    },
+    {
+      "tag": "RAS",
+      "state": 423
+    },
+    {
+      "tag": "RCG",
+      "state": 1252
+    },
+    {
+      "tag": "RHI",
+      "state": 51
+    },
+    {
+      "tag": "RIF",
+      "state": 290
+    },
+    {
+      "tag": "RIG",
+      "state": 479
+    },
+    {
+      "tag": "ROM",
+      "state": 46
+    },
+    {
+      "tag": "RWA",
+      "state": 768
+    },
+    {
+      "tag": "RZE",
+      "state": 1
+    },
+    {
+      "tag": "SAB",
+      "state": 1024
+    },
+    {
+      "tag": "SAF",
+      "state": 275
+    },
+    {
+      "tag": "SAM",
+      "state": 726
+    },
+    {
+      "tag": "SAR",
+      "state": 333
+    },
+    {
+      "tag": "SAU",
+      "state": 292
+    },
+    {
+      "tag": "SAX",
+      "state": 65
+    },
+    {
+      "tag": "SCO",
+      "state": 121
+    },
+    {
+      "tag": "SEN",
+      "state": 272
+    },
+    {
+      "tag": "SER",
+      "state": 107
+    },
+    {
+      "tag": "SHL",
+      "state": 58
+    },
+    {
+      "tag": "SHX",
+      "state": 715
+    },
+    {
+      "tag": "SIA",
+      "state": 1076
+    },
+    {
+      "tag": "SID",
+      "state": 1247
+    },
+    {
+      "tag": "SIE",
+      "state": 700
+    },
+    {
+      "tag": "SIK",
+      "state": 617
+    },
+    {
+      "tag": "SIL",
+      "state": 66
+    },
+    {
+      "tag": "SLO",
+      "state": 664
+    },
+    {
+      "tag": "SLV",
+      "state": 853
+    },
+    {
+      "tag": "SMI",
+      "state": 148
+    },
+    {
+      "tag": "SML",
+      "state": 269
+    },
+    {
+      "tag": "SNG",
+      "state": 1021
+    },
+    {
+      "tag": "SOL",
+      "state": 634
+    },
+    {
+      "tag": "SOM",
+      "state": 559
+    },
+    {
+      "tag": "SOV",
+      "state": 1157
+    },
+    {
+      "tag": "SPM",
+      "state": 158
+    },
+    {
+      "tag": "SPR",
+      "state": 41
+    },
+    {
+      "tag": "SRL",
+      "state": 422
+    },
+    {
+      "tag": "SSD",
+      "state": 1498
+    },
+    {
+      "tag": "SSI",
+      "state": 1049
+    },
+    {
+      "tag": "SUD",
+      "state": 1493
+    },
+    {
+      "tag": "SUR",
+      "state": 309
+    },
+    {
+      "tag": "SWE",
+      "state": 1297
+    },
+    {
+      "tag": "SWI",
+      "state": 845
+    },
+    {
+      "tag": "SWZ",
+      "state": 1427
+    },
+    {
+      "tag": "SYR",
+      "state": 554
+    },
+    {
+      "tag": "TAH",
+      "state": 641
+    },
+    {
+      "tag": "TAJ",
+      "state": 742
+    },
+    {
+      "tag": "TAN",
+      "state": 329
+    },
+    {
+      "tag": "TAT",
+      "state": 249
+    },
+    {
+      "tag": "TAY",
+      "state": 516
+    },
+    {
+      "tag": "THU",
+      "state": 60
+    },
+    {
+      "tag": "TIB",
+      "state": 1271
+    },
+    {
+      "tag": "TIG",
+      "state": 842
+    },
+    {
+      "tag": "TML",
+      "state": 721
+    },
+    {
+      "tag": "TMS",
+      "state": 584
+    },
+    {
+      "tag": "TNE",
+      "state": 668
+    },
+    {
+      "tag": "TOG",
+      "state": 777
+    },
+    {
+      "tag": "TON",
+      "state": 1332
+    },
+    {
+      "tag": "TOS",
+      "state": 162
+    },
+    {
+      "tag": "TRA",
+      "state": 84
+    },
+    {
+      "tag": "TRI",
+      "state": 691
+    },
+    {
+      "tag": "TTS",
+      "state": 117
+    },
+    {
+      "tag": "TUN",
+      "state": 458
+    },
+    {
+      "tag": "TUR",
+      "state": 49
+    },
+    {
+      "tag": "TUV",
+      "state": 643
+    },
+    {
+      "tag": "TZN",
+      "state": 1449
+    },
+    {
+      "tag": "UAE",
+      "state": 658
+    },
+    {
+      "tag": "UDM",
+      "state": 399
+    },
+    {
+      "tag": "UGA",
+      "state": 548
+    },
+    {
+      "tag": "UKR",
+      "state": 202
+    },
+    {
+      "tag": "URG",
+      "state": 300
+    },
+    {
+      "tag": "USA",
+      "state": 1165
+    },
+    {
+      "tag": "UZB",
+      "state": 405
+    },
+    {
+      "tag": "VAN",
+      "state": 1071
+    },
+    {
+      "tag": "VCT",
+      "state": 1473
+    },
+    {
+      "tag": "VEN",
+      "state": 307
+    },
+    {
+      "tag": "VGE",
+      "state": 829
+    },
+    {
+      "tag": "VIN",
+      "state": 671
+    },
+    {
+      "tag": "VLA",
+      "state": 408
+    },
+    {
+      "tag": "VOL",
+      "state": 778
+    },
+    {
+      "tag": "WES",
+      "state": 699
+    },
+    {
+      "tag": "WGR",
+      "state": 64
+    },
+    {
+      "tag": "WIS",
+      "state": 1563
+    },
+    {
+      "tag": "WLA",
+      "state": 955
+    },
+    {
+      "tag": "WLS",
+      "state": 122
+    },
+    {
+      "tag": "WPG",
+      "state": 669
+    },
+    {
+      "tag": "WUR",
+      "state": 50
+    },
+    {
+      "tag": "XSM",
+      "state": 1262
+    },
+    {
+      "tag": "YAK",
+      "state": 1587
+    },
+    {
+      "tag": "YAM",
+      "state": 579
+    },
+    {
+      "tag": "YEM",
+      "state": 293
+    },
+    {
+      "tag": "YUC",
+      "state": 474
+    },
+    {
+      "tag": "YUG",
+      "state": 107
+    },
+    {
+      "tag": "YUN",
+      "state": 325
+    },
+    {
+      "tag": "ZAM",
+      "state": 981
+    },
+    {
+      "tag": "ZIM",
+      "state": 545
+    },
+    {
+      "tag": "ZZZ",
+      "state": 38
+    }
+  ],
+  "economy": {
+    "source_population": 2100007447,
+    "exact_population": "2100007447",
+    "rounded_population": 2100007473,
+    "population_rounding_difference": 26,
+    "resources": {
+      "aluminium": {
+        "source": "1197",
+        "exact": "1197",
+        "rounded": 1196,
+        "rounding_difference": "-1"
+      },
+      "chromium": {
+        "source": "1335",
+        "exact": "1335",
+        "rounded": 1339,
+        "rounding_difference": "4"
+      },
+      "coal": {
+        "source": "1438",
+        "exact": "1438",
+        "rounded": 1436,
+        "rounding_difference": "-2"
+      },
+      "oil": {
+        "source": "1192",
+        "exact": "1192",
+        "rounded": 1192,
+        "rounding_difference": "0"
+      },
+      "rubber": {
+        "source": "1073",
+        "exact": "1073",
+        "rounded": 1074,
+        "rounding_difference": "1"
+      },
+      "steel": {
+        "source": "2591",
+        "exact": "2591",
+        "rounded": 2588,
+        "rounding_difference": "-3"
+      },
+      "tungsten": {
+        "source": "1325",
+        "exact": "1325",
+        "rounded": 1323,
+        "rounding_difference": "-2"
+      }
+    }
+  }
+}

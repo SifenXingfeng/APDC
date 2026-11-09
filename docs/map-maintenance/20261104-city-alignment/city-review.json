@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-04",
+  "user_rule": "Move the three city provinces only when they directly touch the named state",
+  "checks": [
+    {
+      "city": "米尔内",
+      "province": 10557,
+      "from": 1592,
+      "to": 575,
+      "direct_border": [
+        {
+          "province": 13059,
+          "shared_pixel_edges": 17
+        }
+      ],
+      "move": true
+    },
+    {
+      "city": "汉特-曼西斯克",
+      "province": 1812,
+      "from": 580,
+      "to": 577,
+      "direct_border": [
+        {
+          "province": 1659,
+          "shared_pixel_edges": 44
+        },
+        {
+          "province": 7833,
+          "shared_pixel_edges": 26
+        },
+        {
+          "province": 7867,
+          "shared_pixel_edges": 14
+        }
+      ],
+      "move": true
+    },
+    {
+      "city": "设菲尔德",
+      "province": 9315,
+      "from": 130,
+      "to": 582,
+      "direct_border": [],
+      "move": false
+    }
+  ],
+  "resolved_states": [
+    575,
+    577
+  ],
+  "remaining_mismatches": [
+    {
+      "city": "设菲尔德",
+      "province": 9315,
+      "from": 130,
+      "to": 582,
+      "direct_border": [],
+      "move": false
+    }
+  ],
+  "no_new_city_victory_points": true,
+  "rechecked_affected_named_cities": [
+    {
+      "state": 575,
+      "chinese": "米尔内",
+      "english": "Mirny",
+      "matches": [
+        {
+          "city": "Mirny",
+          "geonames_id": 2019951,
+          "lat": 62.53528,
+          "lon": 113.96111,
+          "province": 10557,
+          "actual_state": 575,
+          "country_iso2": "RU",
+          "population_catalogue": 40308,
+          "project_x": 4180.226367026158,
+          "project_y": 279.4519553536644,
+          "coast_snap_pixels": 0,
+          "nearby_states_within_2pixels": [
+            1592
+          ],
+          "bbox_distance": 0.0,
+          "method": "Preserved GeoNames cities500 coordinates projected with fixed Patterson fit; border proximity recorded"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city now lies in its named state after authorized adjacent-province transfer"
+    },
+    {
+      "state": 577,
+      "chinese": "汉特-曼西斯克",
+      "english": "Khanty-Mansiysk",
+      "matches": [
+        {
+          "city": "Khanty-Mansiysk",
+          "province": 1812,
+          "actual_state": 577,
+          "representative_city": "Khanty-Mansiysk",
+          "ucdb_id": 7236,
+          "same_province_member": false,
+          "country_iso2": "RU"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city now lies in its named state after authorized adjacent-province transfer"
+    },
+    {
+      "state": 1592,
+      "chinese": "连斯克",
+      "english": "Lensk",
+      "matches": [
+        {
+          "city": "Lensk",
+          "geonames_id": 2020838,
+          "lat": 60.72383,
+          "lon": 114.93447,
+          "province": 12538,
+          "actual_state": 565,
+          "country_iso2": "RU",
+          "population_catalogue": 23694,
+          "project_x": 4194.068720847821,
+          "project_y": 315.0597813683771,
+          "coast_snap_pixels": 0,
+          "nearby_states_within_2pixels": [
+            565,
+            1592
+          ],
+          "bbox_distance": 0.0,
+          "method": "Preserved GeoNames cities500 coordinates projected with fixed Patterson fit; border proximity recorded"
+        }
+      ],
+      "contains_named_city": false,
+      "status": "Preexisting Lensk boundary uncertainty unchanged: province 12538 remains in 565; target 1592 is within two original pixels"
+    }
+  ],
+  "previous_name_review": "docs/map-maintenance/20261104/city-named-state-review.json"
+}

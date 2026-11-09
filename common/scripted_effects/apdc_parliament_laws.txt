@@ -1,0 +1,1067 @@
+apdc_parl_enact_doll_rights_1 = {
+remove_ideas = apdc_parl_law_doll_rights_1
+remove_ideas = apdc_parl_law_doll_rights_2
+remove_ideas = apdc_parl_law_doll_rights_3
+remove_ideas = apdc_parl_law_doll_rights_4
+remove_ideas = apdc_parl_law_doll_rights_5
+remove_ideas = apdc_parl_law_doll_rights_6
+remove_ideas = apdc_parl_law_doll_rights_7
+add_ideas = apdc_parl_law_doll_rights_1
+set_variable = { apdc_parl_law_1 = 1 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_doll_rights_1 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_1 = 1 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 1 }
+set_temp_variable = { apdc_parl_arg_OPTION = 1 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_doll_rights_2 = {
+remove_ideas = apdc_parl_law_doll_rights_1
+remove_ideas = apdc_parl_law_doll_rights_2
+remove_ideas = apdc_parl_law_doll_rights_3
+remove_ideas = apdc_parl_law_doll_rights_4
+remove_ideas = apdc_parl_law_doll_rights_5
+remove_ideas = apdc_parl_law_doll_rights_6
+remove_ideas = apdc_parl_law_doll_rights_7
+add_ideas = apdc_parl_law_doll_rights_2
+set_variable = { apdc_parl_law_1 = 2 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_doll_rights_2 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_1 = 2 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 1 }
+set_temp_variable = { apdc_parl_arg_OPTION = 2 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_doll_rights_3 = {
+remove_ideas = apdc_parl_law_doll_rights_1
+remove_ideas = apdc_parl_law_doll_rights_2
+remove_ideas = apdc_parl_law_doll_rights_3
+remove_ideas = apdc_parl_law_doll_rights_4
+remove_ideas = apdc_parl_law_doll_rights_5
+remove_ideas = apdc_parl_law_doll_rights_6
+remove_ideas = apdc_parl_law_doll_rights_7
+add_ideas = apdc_parl_law_doll_rights_3
+set_variable = { apdc_parl_law_1 = 3 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_doll_rights_3 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_1 = 3 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 1 }
+set_temp_variable = { apdc_parl_arg_OPTION = 3 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_doll_rights_4 = {
+remove_ideas = apdc_parl_law_doll_rights_1
+remove_ideas = apdc_parl_law_doll_rights_2
+remove_ideas = apdc_parl_law_doll_rights_3
+remove_ideas = apdc_parl_law_doll_rights_4
+remove_ideas = apdc_parl_law_doll_rights_5
+remove_ideas = apdc_parl_law_doll_rights_6
+remove_ideas = apdc_parl_law_doll_rights_7
+add_ideas = apdc_parl_law_doll_rights_4
+set_variable = { apdc_parl_law_1 = 4 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_doll_rights_4 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_1 = 4 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 1 }
+set_temp_variable = { apdc_parl_arg_OPTION = 4 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_doll_rights_5 = {
+remove_ideas = apdc_parl_law_doll_rights_1
+remove_ideas = apdc_parl_law_doll_rights_2
+remove_ideas = apdc_parl_law_doll_rights_3
+remove_ideas = apdc_parl_law_doll_rights_4
+remove_ideas = apdc_parl_law_doll_rights_5
+remove_ideas = apdc_parl_law_doll_rights_6
+remove_ideas = apdc_parl_law_doll_rights_7
+add_ideas = apdc_parl_law_doll_rights_5
+set_variable = { apdc_parl_law_1 = 5 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_doll_rights_5 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_1 = 5 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 1 }
+set_temp_variable = { apdc_parl_arg_OPTION = 5 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_doll_rights_6 = {
+remove_ideas = apdc_parl_law_doll_rights_1
+remove_ideas = apdc_parl_law_doll_rights_2
+remove_ideas = apdc_parl_law_doll_rights_3
+remove_ideas = apdc_parl_law_doll_rights_4
+remove_ideas = apdc_parl_law_doll_rights_5
+remove_ideas = apdc_parl_law_doll_rights_6
+remove_ideas = apdc_parl_law_doll_rights_7
+add_ideas = apdc_parl_law_doll_rights_6
+set_variable = { apdc_parl_law_1 = 6 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_doll_rights_6 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_1 = 6 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 1 }
+set_temp_variable = { apdc_parl_arg_OPTION = 6 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_doll_rights_7 = {
+remove_ideas = apdc_parl_law_doll_rights_1
+remove_ideas = apdc_parl_law_doll_rights_2
+remove_ideas = apdc_parl_law_doll_rights_3
+remove_ideas = apdc_parl_law_doll_rights_4
+remove_ideas = apdc_parl_law_doll_rights_5
+remove_ideas = apdc_parl_law_doll_rights_6
+remove_ideas = apdc_parl_law_doll_rights_7
+add_ideas = apdc_parl_law_doll_rights_7
+set_variable = { apdc_parl_law_1 = 7 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_doll_rights_7 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_1 = 7 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 1 }
+set_temp_variable = { apdc_parl_arg_OPTION = 7 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_infected_rights_1 = {
+remove_ideas = apdc_parl_law_infected_rights_1
+remove_ideas = apdc_parl_law_infected_rights_2
+remove_ideas = apdc_parl_law_infected_rights_3
+remove_ideas = apdc_parl_law_infected_rights_4
+remove_ideas = apdc_parl_law_infected_rights_5
+remove_ideas = apdc_parl_law_infected_rights_6
+add_ideas = apdc_parl_law_infected_rights_1
+set_variable = { apdc_parl_law_2 = 1 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_infected_rights_1 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_2 = 1 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 2 }
+set_temp_variable = { apdc_parl_arg_OPTION = 1 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_infected_rights_2 = {
+remove_ideas = apdc_parl_law_infected_rights_1
+remove_ideas = apdc_parl_law_infected_rights_2
+remove_ideas = apdc_parl_law_infected_rights_3
+remove_ideas = apdc_parl_law_infected_rights_4
+remove_ideas = apdc_parl_law_infected_rights_5
+remove_ideas = apdc_parl_law_infected_rights_6
+add_ideas = apdc_parl_law_infected_rights_2
+set_variable = { apdc_parl_law_2 = 2 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_infected_rights_2 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_2 = 2 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 2 }
+set_temp_variable = { apdc_parl_arg_OPTION = 2 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_infected_rights_3 = {
+remove_ideas = apdc_parl_law_infected_rights_1
+remove_ideas = apdc_parl_law_infected_rights_2
+remove_ideas = apdc_parl_law_infected_rights_3
+remove_ideas = apdc_parl_law_infected_rights_4
+remove_ideas = apdc_parl_law_infected_rights_5
+remove_ideas = apdc_parl_law_infected_rights_6
+add_ideas = apdc_parl_law_infected_rights_3
+set_variable = { apdc_parl_law_2 = 3 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_infected_rights_3 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_2 = 3 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 2 }
+set_temp_variable = { apdc_parl_arg_OPTION = 3 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_infected_rights_4 = {
+remove_ideas = apdc_parl_law_infected_rights_1
+remove_ideas = apdc_parl_law_infected_rights_2
+remove_ideas = apdc_parl_law_infected_rights_3
+remove_ideas = apdc_parl_law_infected_rights_4
+remove_ideas = apdc_parl_law_infected_rights_5
+remove_ideas = apdc_parl_law_infected_rights_6
+add_ideas = apdc_parl_law_infected_rights_4
+set_variable = { apdc_parl_law_2 = 4 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_infected_rights_4 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_2 = 4 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 2 }
+set_temp_variable = { apdc_parl_arg_OPTION = 4 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_infected_rights_5 = {
+remove_ideas = apdc_parl_law_infected_rights_1
+remove_ideas = apdc_parl_law_infected_rights_2
+remove_ideas = apdc_parl_law_infected_rights_3
+remove_ideas = apdc_parl_law_infected_rights_4
+remove_ideas = apdc_parl_law_infected_rights_5
+remove_ideas = apdc_parl_law_infected_rights_6
+add_ideas = apdc_parl_law_infected_rights_5
+set_variable = { apdc_parl_law_2 = 5 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_infected_rights_5 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_2 = 5 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 2 }
+set_temp_variable = { apdc_parl_arg_OPTION = 5 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_infected_rights_6 = {
+remove_ideas = apdc_parl_law_infected_rights_1
+remove_ideas = apdc_parl_law_infected_rights_2
+remove_ideas = apdc_parl_law_infected_rights_3
+remove_ideas = apdc_parl_law_infected_rights_4
+remove_ideas = apdc_parl_law_infected_rights_5
+remove_ideas = apdc_parl_law_infected_rights_6
+add_ideas = apdc_parl_law_infected_rights_6
+set_variable = { apdc_parl_law_2 = 6 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_infected_rights_6 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_2 = 6 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 2 }
+set_temp_variable = { apdc_parl_arg_OPTION = 6 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_women_rights_1 = {
+remove_ideas = apdc_parl_law_women_rights_1
+remove_ideas = apdc_parl_law_women_rights_2
+remove_ideas = apdc_parl_law_women_rights_3
+remove_ideas = apdc_parl_law_women_rights_4
+remove_ideas = apdc_parl_law_women_rights_5
+add_ideas = apdc_parl_law_women_rights_1
+set_variable = { apdc_parl_law_3 = 1 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_women_rights_1 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_3 = 1 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 3 }
+set_temp_variable = { apdc_parl_arg_OPTION = 1 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_women_rights_2 = {
+remove_ideas = apdc_parl_law_women_rights_1
+remove_ideas = apdc_parl_law_women_rights_2
+remove_ideas = apdc_parl_law_women_rights_3
+remove_ideas = apdc_parl_law_women_rights_4
+remove_ideas = apdc_parl_law_women_rights_5
+add_ideas = apdc_parl_law_women_rights_2
+set_variable = { apdc_parl_law_3 = 2 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_women_rights_2 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_3 = 2 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 3 }
+set_temp_variable = { apdc_parl_arg_OPTION = 2 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_women_rights_3 = {
+remove_ideas = apdc_parl_law_women_rights_1
+remove_ideas = apdc_parl_law_women_rights_2
+remove_ideas = apdc_parl_law_women_rights_3
+remove_ideas = apdc_parl_law_women_rights_4
+remove_ideas = apdc_parl_law_women_rights_5
+add_ideas = apdc_parl_law_women_rights_3
+set_variable = { apdc_parl_law_3 = 3 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_women_rights_3 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_3 = 3 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 3 }
+set_temp_variable = { apdc_parl_arg_OPTION = 3 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_women_rights_4 = {
+remove_ideas = apdc_parl_law_women_rights_1
+remove_ideas = apdc_parl_law_women_rights_2
+remove_ideas = apdc_parl_law_women_rights_3
+remove_ideas = apdc_parl_law_women_rights_4
+remove_ideas = apdc_parl_law_women_rights_5
+add_ideas = apdc_parl_law_women_rights_4
+set_variable = { apdc_parl_law_3 = 4 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_women_rights_4 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_3 = 4 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 3 }
+set_temp_variable = { apdc_parl_arg_OPTION = 4 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_women_rights_5 = {
+remove_ideas = apdc_parl_law_women_rights_1
+remove_ideas = apdc_parl_law_women_rights_2
+remove_ideas = apdc_parl_law_women_rights_3
+remove_ideas = apdc_parl_law_women_rights_4
+remove_ideas = apdc_parl_law_women_rights_5
+add_ideas = apdc_parl_law_women_rights_5
+set_variable = { apdc_parl_law_3 = 5 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_women_rights_5 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_3 = 5 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 3 }
+set_temp_variable = { apdc_parl_arg_OPTION = 5 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_relic_technology_1 = {
+remove_ideas = apdc_parl_law_relic_technology_1
+remove_ideas = apdc_parl_law_relic_technology_2
+remove_ideas = apdc_parl_law_relic_technology_3
+remove_ideas = apdc_parl_law_relic_technology_4
+remove_ideas = apdc_parl_law_relic_technology_5
+remove_ideas = apdc_parl_law_relic_technology_6
+add_ideas = apdc_parl_law_relic_technology_1
+set_country_flag = apdc_parl_relic_research_forbidden
+set_variable = { apdc_parl_law_4 = 1 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_relic_technology_1 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_4 = 1 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 4 }
+set_temp_variable = { apdc_parl_arg_OPTION = 1 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_relic_technology_2 = {
+remove_ideas = apdc_parl_law_relic_technology_1
+remove_ideas = apdc_parl_law_relic_technology_2
+remove_ideas = apdc_parl_law_relic_technology_3
+remove_ideas = apdc_parl_law_relic_technology_4
+remove_ideas = apdc_parl_law_relic_technology_5
+remove_ideas = apdc_parl_law_relic_technology_6
+add_ideas = apdc_parl_law_relic_technology_2
+clr_country_flag = apdc_parl_relic_research_forbidden
+set_variable = { apdc_parl_law_4 = 2 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_relic_technology_2 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_4 = 2 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 4 }
+set_temp_variable = { apdc_parl_arg_OPTION = 2 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_relic_technology_3 = {
+remove_ideas = apdc_parl_law_relic_technology_1
+remove_ideas = apdc_parl_law_relic_technology_2
+remove_ideas = apdc_parl_law_relic_technology_3
+remove_ideas = apdc_parl_law_relic_technology_4
+remove_ideas = apdc_parl_law_relic_technology_5
+remove_ideas = apdc_parl_law_relic_technology_6
+add_ideas = apdc_parl_law_relic_technology_3
+clr_country_flag = apdc_parl_relic_research_forbidden
+set_variable = { apdc_parl_law_4 = 3 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_relic_technology_3 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_4 = 3 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 4 }
+set_temp_variable = { apdc_parl_arg_OPTION = 3 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_relic_technology_4 = {
+remove_ideas = apdc_parl_law_relic_technology_1
+remove_ideas = apdc_parl_law_relic_technology_2
+remove_ideas = apdc_parl_law_relic_technology_3
+remove_ideas = apdc_parl_law_relic_technology_4
+remove_ideas = apdc_parl_law_relic_technology_5
+remove_ideas = apdc_parl_law_relic_technology_6
+add_ideas = apdc_parl_law_relic_technology_4
+clr_country_flag = apdc_parl_relic_research_forbidden
+set_variable = { apdc_parl_law_4 = 4 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_relic_technology_4 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_4 = 4 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 4 }
+set_temp_variable = { apdc_parl_arg_OPTION = 4 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_relic_technology_5 = {
+remove_ideas = apdc_parl_law_relic_technology_1
+remove_ideas = apdc_parl_law_relic_technology_2
+remove_ideas = apdc_parl_law_relic_technology_3
+remove_ideas = apdc_parl_law_relic_technology_4
+remove_ideas = apdc_parl_law_relic_technology_5
+remove_ideas = apdc_parl_law_relic_technology_6
+add_ideas = apdc_parl_law_relic_technology_5
+clr_country_flag = apdc_parl_relic_research_forbidden
+set_variable = { apdc_parl_law_4 = 5 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_relic_technology_5 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_4 = 5 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 4 }
+set_temp_variable = { apdc_parl_arg_OPTION = 5 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_relic_technology_6 = {
+remove_ideas = apdc_parl_law_relic_technology_1
+remove_ideas = apdc_parl_law_relic_technology_2
+remove_ideas = apdc_parl_law_relic_technology_3
+remove_ideas = apdc_parl_law_relic_technology_4
+remove_ideas = apdc_parl_law_relic_technology_5
+remove_ideas = apdc_parl_law_relic_technology_6
+add_ideas = apdc_parl_law_relic_technology_6
+clr_country_flag = apdc_parl_relic_research_forbidden
+set_variable = { apdc_parl_law_4 = 6 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_relic_technology_6 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_4 = 6 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 4 }
+set_temp_variable = { apdc_parl_arg_OPTION = 6 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_economic_system_1 = {
+APDC_set_economic_system_bandit_economy = yes
+set_variable = { apdc_parl_law_5 = 1 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_economic_system_1 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_5 = 1 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 5 }
+set_temp_variable = { apdc_parl_arg_OPTION = 1 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_economic_system_2 = {
+APDC_set_economic_system_traditional_agriculture = yes
+set_variable = { apdc_parl_law_5 = 2 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_economic_system_2 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_5 = 2 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 5 }
+set_temp_variable = { apdc_parl_arg_OPTION = 2 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_economic_system_3 = {
+APDC_set_economic_system_dependent_economy = yes
+set_variable = { apdc_parl_law_5 = 3 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_economic_system_3 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_5 = 3 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 5 }
+set_temp_variable = { apdc_parl_arg_OPTION = 3 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_economic_system_4 = {
+APDC_set_economic_system_free_market = yes
+set_variable = { apdc_parl_law_5 = 4 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_economic_system_4 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_5 = 4 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 5 }
+set_temp_variable = { apdc_parl_arg_OPTION = 4 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_economic_system_5 = {
+APDC_set_economic_system_mixed_market = yes
+set_variable = { apdc_parl_law_5 = 5 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_economic_system_5 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_5 = 5 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 5 }
+set_temp_variable = { apdc_parl_arg_OPTION = 5 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_economic_system_6 = {
+APDC_set_economic_system_state_guided = yes
+set_variable = { apdc_parl_law_5 = 6 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_economic_system_6 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_5 = 6 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 5 }
+set_temp_variable = { apdc_parl_arg_OPTION = 6 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_economic_system_7 = {
+APDC_set_economic_system_state_capitalism = yes
+set_variable = { apdc_parl_law_5 = 7 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_economic_system_7 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_5 = 7 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 5 }
+set_temp_variable = { apdc_parl_arg_OPTION = 7 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_economic_system_8 = {
+APDC_set_economic_system_market_socialism = yes
+set_variable = { apdc_parl_law_5 = 8 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_economic_system_8 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_5 = 8 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 5 }
+set_temp_variable = { apdc_parl_arg_OPTION = 8 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_economic_system_9 = {
+APDC_set_economic_system_decentralized_planning = yes
+set_variable = { apdc_parl_law_5 = 9 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_economic_system_9 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_5 = 9 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 5 }
+set_temp_variable = { apdc_parl_arg_OPTION = 9 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_economic_system_10 = {
+APDC_set_economic_system_central_planning = yes
+set_variable = { apdc_parl_law_5 = 10 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_economic_system_10 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_5 = 10 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 5 }
+set_temp_variable = { apdc_parl_arg_OPTION = 10 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_political_system_1 = {
+set_variable = { apdc_parl_regime = 1 }
+apdc_parl_refresh_regime = yes
+set_variable = { apdc_parl_law_6 = 1 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_political_system_1 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_6 = 1 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 6 }
+set_temp_variable = { apdc_parl_arg_OPTION = 1 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_political_system_2 = {
+set_variable = { apdc_parl_regime = 2 }
+apdc_parl_refresh_regime = yes
+set_variable = { apdc_parl_law_6 = 2 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_political_system_2 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_6 = 2 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 6 }
+set_temp_variable = { apdc_parl_arg_OPTION = 2 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_political_system_3 = {
+set_variable = { apdc_parl_regime = 3 }
+apdc_parl_refresh_regime = yes
+set_variable = { apdc_parl_law_6 = 3 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_political_system_3 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_6 = 3 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 6 }
+set_temp_variable = { apdc_parl_arg_OPTION = 3 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_political_system_4 = {
+set_variable = { apdc_parl_regime = 4 }
+apdc_parl_refresh_regime = yes
+set_variable = { apdc_parl_law_6 = 4 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_political_system_4 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_6 = 4 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 6 }
+set_temp_variable = { apdc_parl_arg_OPTION = 4 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_political_system_5 = {
+set_variable = { apdc_parl_regime = 5 }
+apdc_parl_refresh_regime = yes
+set_variable = { apdc_parl_law_6 = 5 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_political_system_5 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_6 = 5 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 6 }
+set_temp_variable = { apdc_parl_arg_OPTION = 5 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_political_system_6 = {
+set_variable = { apdc_parl_regime = 6 }
+apdc_parl_refresh_regime = yes
+set_variable = { apdc_parl_law_6 = 6 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_political_system_6 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_6 = 6 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 6 }
+set_temp_variable = { apdc_parl_arg_OPTION = 6 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_political_system_7 = {
+set_variable = { apdc_parl_regime = 7 }
+apdc_parl_refresh_regime = yes
+set_variable = { apdc_parl_law_6 = 7 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_political_system_7 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_6 = 7 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 6 }
+set_temp_variable = { apdc_parl_arg_OPTION = 7 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_political_system_8 = {
+set_variable = { apdc_parl_regime = 8 }
+apdc_parl_refresh_regime = yes
+set_variable = { apdc_parl_law_6 = 8 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_political_system_8 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_6 = 8 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 6 }
+set_temp_variable = { apdc_parl_arg_OPTION = 8 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_enact_political_system_9 = {
+set_variable = { apdc_parl_regime = 9 }
+apdc_parl_refresh_regime = yes
+set_variable = { apdc_parl_law_6 = 9 }
+force_update_dynamic_modifier = yes
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_propose_political_system_9 = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_law_6 = 9 } } has_political_power > 149 }
+add_political_power = -150
+set_temp_variable = { apdc_parl_arg_KIND = 1 }
+set_temp_variable = { apdc_parl_arg_TARGET = 6 }
+set_temp_variable = { apdc_parl_arg_OPTION = 9 }
+apdc_parl_submit_agenda = yes
+
+}
+
+}
+apdc_parl_register_special_bill = {
+if = {
+limit = { NOT = { is_in_array = { array = apdc_parl_special_ids value = apdc_parl_arg_ID } } }
+add_to_array = { apdc_parl_special_ids = apdc_parl_arg_ID }
+add_to_array = { apdc_parl_special_names = apdc_parl_arg_NAME }
+add_to_array = { apdc_parl_special_descriptions = apdc_parl_arg_DESC }
+add_to_array = { apdc_parl_special_costs = apdc_parl_arg_COST }
+add_to_array = { apdc_parl_special_enabled = 1 }
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+
+}
+apdc_parl_remove_special_bill = {
+set_variable = { apdc_parl_special_remove_id = apdc_parl_arg_ID }
+set_variable = { apdc_parl_special_scan = 0 }
+while_loop_effect = {
+limit = { check_variable = { apdc_parl_special_scan < apdc_parl_special_ids^num } }
+if = {
+limit = { check_variable = { apdc_parl_special_remove_id = apdc_parl_special_ids^apdc_parl_special_scan } }
+remove_from_array = { array = apdc_parl_special_ids index = apdc_parl_special_scan }
+remove_from_array = { array = apdc_parl_special_names index = apdc_parl_special_scan }
+remove_from_array = { array = apdc_parl_special_descriptions index = apdc_parl_special_scan }
+remove_from_array = { array = apdc_parl_special_costs index = apdc_parl_special_scan }
+remove_from_array = { array = apdc_parl_special_enabled index = apdc_parl_special_scan }
+
+}
+else = {
+add_to_variable = { apdc_parl_special_scan = 1 }
+
+}
+
+}
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_set_special_bill_availability = {
+set_variable = { apdc_parl_special_scan = 0 }
+while_loop_effect = {
+limit = { check_variable = { apdc_parl_special_scan < apdc_parl_special_ids^num } }
+if = {
+limit = { check_variable = { apdc_parl_special_ids^apdc_parl_special_scan = apdc_parl_arg_ID } }
+set_variable = { apdc_parl_special_enabled^apdc_parl_special_scan = apdc_parl_arg_AVAILABLE }
+
+}
+add_to_variable = { apdc_parl_special_scan = 1 }
+
+}
+add_to_variable = { apdc_parl_dirty = 1 }
+
+}
+apdc_parl_submit_special_bill = {
+if = {
+limit = { apdc_parl_can_submit = yes NOT = { check_variable = { apdc_parl_selected_special_index < 0 } } check_variable = { apdc_parl_selected_special_index < apdc_parl_special_ids^num } check_variable = { apdc_parl_special_enabled^apdc_parl_selected_special_index = 1 } }
+set_variable = { apdc_parl_special_cost = apdc_parl_special_costs^apdc_parl_selected_special_index }
+if = {
+limit = { NOT = { has_political_power < apdc_parl_special_cost } }
+set_variable = { apdc_parl_special_payment = apdc_parl_special_cost }
+multiply_variable = { apdc_parl_special_payment = -1 }
+add_political_power = apdc_parl_special_payment
+set_variable = { apdc_parl_agenda = 1 }
+set_variable = { apdc_parl_stage = 1 }
+set_variable = { apdc_parl_progress = 0 }
+set_variable = { apdc_parl_bill_work = 0 }
+set_variable = { apdc_parl_bill_base_days = apdc_parl_base_days }
+set_variable = { apdc_parl_bill_kind = 4 }
+set_variable = { apdc_parl_bill_target = apdc_parl_special_ids^apdc_parl_selected_special_index }
+set_variable = { apdc_parl_special_active_name = apdc_parl_special_names^apdc_parl_selected_special_index }
+apdc_parl_special_submitted_dispatch = yes
+apdc_parl_special_submitted_hook = yes
+apdc_parl_refresh = yes
+if = {
+limit = { check_variable = { apdc_parl_base_days = 0 } }
+set_variable = { apdc_parl_progress = 100 }
+apdc_parl_validate_agenda = yes
+
+}
+
+}
+
+}
+
+}
+apdc_parl_execute_special_bill = {
+set_variable = { apdc_parl_last_passed_special_id = apdc_parl_bill_target }
+apdc_parl_special_passed_dispatch = yes
+apdc_parl_special_passed_hook = yes
+
+}

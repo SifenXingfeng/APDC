@@ -1,0 +1,3407 @@
+{
+  "date": "2026-10-30",
+  "ideologies": [
+    {
+      "parent": "communism",
+      "key": "orthodox_communism",
+      "name": "原教旨社会主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "communism",
+      "key": "red_military_government",
+      "name": "红色军政府",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "communism",
+      "key": "left_eurasianism",
+      "name": "左派欧亚主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "communism",
+      "key": "security_socialism",
+      "name": "安保社会主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "communism",
+      "key": "technocratic_communism",
+      "name": "技官社会主义",
+      "formal_description_missing": true
+    },
+    {
+      "parent": "communism",
+      "key": "military_political_communism",
+      "name": "军政社会主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "communism",
+      "key": "left_wing_terrorism",
+      "name": "左翼恐怖主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "communism",
+      "key": "frontier_communism",
+      "name": "边疆社会主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "communism",
+      "key": "automated_communism",
+      "name": "自动化社会主义",
+      "formal_description_missing": true
+    },
+    {
+      "parent": "communism",
+      "key": "national_bolshevism",
+      "name": "民族布尔什维克主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "socialism",
+      "key": "anarcho_technocracy",
+      "name": "无政府技官主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "socialism",
+      "key": "bolivarianism",
+      "name": "玻利瓦尔主义",
+      "formal_description_missing": true
+    },
+    {
+      "parent": "socialism",
+      "key": "christian_socialism",
+      "name": "基督教社会主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "socialism",
+      "key": "left_nationalism",
+      "name": "左翼民族主义",
+      "formal_description_missing": true
+    },
+    {
+      "parent": "socialism",
+      "key": "left_revivalism",
+      "name": "左翼复兴主义",
+      "formal_description_missing": true
+    },
+    {
+      "parent": "socialism",
+      "key": "market_socialism",
+      "name": "市场社会主义",
+      "formal_description_missing": true
+    },
+    {
+      "parent": "socialism",
+      "key": "syndicalism",
+      "name": "工团主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "socialism",
+      "key": "popular_front",
+      "name": "人民阵线",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "socialism",
+      "key": "indian_communism",
+      "name": "南亚次共产主义",
+      "formal_description_missing": true
+    },
+    {
+      "parent": "socialism",
+      "key": "anarcho_communism",
+      "name": "无政府共产主义",
+      "formal_description_missing": true
+    },
+    {
+      "parent": "socialism",
+      "key": "lukashenko_thought",
+      "name": "卢卡申科思想",
+      "formal_description_missing": true
+    },
+    {
+      "parent": "socialism",
+      "key": "pragmatic_socialism",
+      "name": "务实社会主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "social_democracy",
+      "key": "frontier_progressivism",
+      "name": "边疆进步主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "social_democracy",
+      "key": "left_populism",
+      "name": "左翼民粹主义",
+      "formal_description_missing": true
+    },
+    {
+      "parent": "social_democracy",
+      "key": "democratic_socialism",
+      "name": "民主社会主义",
+      "formal_description_missing": true
+    },
+    {
+      "parent": "social_democracy",
+      "key": "humanitarian_capitalism",
+      "name": "人道资本主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "social_democracy",
+      "key": "left_agrarianism",
+      "name": "左翼农业主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "social_democracy",
+      "key": "great_plains_rossartrism",
+      "name": "大平原罗克萨特主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "conservatism",
+      "key": "populist_conservatism",
+      "name": "民粹保守主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "conservatism",
+      "key": "middle_way",
+      "name": "中间路线",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "conservatism",
+      "key": "traditional_patriotism",
+      "name": "传统爱国主义",
+      "formal_description_missing": true
+    },
+    {
+      "parent": "conservatism",
+      "key": "right_revivalism",
+      "name": "右翼复兴主义",
+      "formal_description_missing": true
+    },
+    {
+      "parent": "conservatism",
+      "key": "oligarchic_liberalism",
+      "name": "寡头自由主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "conservatism",
+      "key": "liberal_corporatism",
+      "name": "自由法团主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "conservatism",
+      "key": "christian_conservatism",
+      "name": "基督教保守主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "liberalism",
+      "key": "progressive_liberalism",
+      "name": "进步自由主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "liberalism",
+      "key": "constitutional_liberalism",
+      "name": "宪政自由主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "liberalism",
+      "key": "anarcho_capitalism",
+      "name": "无政府资本主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "liberalism",
+      "key": "liberal_conservatism",
+      "name": "自由保守主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "liberalism",
+      "key": "liberal_technocracy",
+      "name": "自由技官主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "liberalism",
+      "key": "south_american_rossartrism",
+      "name": "南美洲罗克萨特主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "authoritarianism",
+      "key": "constitutional_rossartrism",
+      "name": "宪政罗克萨特主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "authoritarianism",
+      "key": "broad_rossartrism",
+      "name": "广泛罗克萨特主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "authoritarianism",
+      "key": "corporate_council",
+      "name": "企业委员会",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "authoritarianism",
+      "key": "non_dominant_system",
+      "name": "无支配体制",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "authoritarianism",
+      "key": "co_governance",
+      "name": "共治主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "authoritarianism",
+      "key": "guardian_authoritarianism",
+      "name": "监护式威权主义",
+      "formal_description_missing": true
+    },
+    {
+      "parent": "authoritarianism",
+      "key": "sharia_democracy",
+      "name": "沙里亚民主",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "authoritarianism",
+      "key": "transitional_government",
+      "name": "过渡政府",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "authoritarianism",
+      "key": "bolivarian_rossartrism",
+      "name": "玻利瓦尔-罗克萨特主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "authoritarianism",
+      "key": "scientific_technocracy",
+      "name": "科学技官主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "dictatorship",
+      "key": "absolute_monarchy",
+      "name": "绝对君主制",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "dictatorship",
+      "key": "theocracy",
+      "name": "神权制",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "dictatorship",
+      "key": "military_state",
+      "name": "军队国家",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "dictatorship",
+      "key": "military_junta",
+      "name": "军政府",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "dictatorship",
+      "key": "right_technocracy",
+      "name": "右翼技官主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "dictatorship",
+      "key": "command_technocracy",
+      "name": "指令技官主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "dictatorship",
+      "key": "guided_democracy",
+      "name": "指导式民主",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "dictatorship",
+      "key": "league_authority_rossartrism",
+      "name": "盟权罗克萨特主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "dictatorship",
+      "key": "national_authoritarian_integralism",
+      "name": "民族威权统合主义",
+      "formal_description_missing": true
+    },
+    {
+      "parent": "fascism",
+      "key": "fundamental_fascism",
+      "name": "原教旨法西斯主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "fascism",
+      "key": "zionist_fascism",
+      "name": "锡安法西斯主义",
+      "formal_description_missing": true
+    },
+    {
+      "parent": "fascism",
+      "key": "neo_nazism",
+      "name": "新纳粹主义",
+      "formal_description_missing": true
+    },
+    {
+      "parent": "fascism",
+      "key": "extreme_militarism",
+      "name": "极端军国主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "fascism",
+      "key": "military_political_fascism",
+      "name": "军政法西斯主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "fascism",
+      "key": "criminal_state",
+      "name": "罪犯国度",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "fascism",
+      "key": "neo_strasserism",
+      "name": "新斯特拉瑟主义",
+      "formal_description_missing": true
+    },
+    {
+      "parent": "fascism",
+      "key": "classical_socialism",
+      "name": "古典社会主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "fundamentalism",
+      "key": "esoteric_theocracy",
+      "name": "密传神权",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "fundamentalism",
+      "key": "esoteric_despotism",
+      "name": "密传专制主义",
+      "formal_description_missing": false
+    },
+    {
+      "parent": "fundamentalism",
+      "key": "mysticism",
+      "name": "神秘主义",
+      "formal_description_missing": false
+    }
+  ],
+  "country_histories": {
+    "AAA": {
+      "file": "history/countries/AAA - SYSTEM.txt",
+      "capital": "1",
+      "ruling_party": "authoritarianism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ABK": {
+      "file": "history/countries/ABK - Abkhazia.txt",
+      "capital": "233",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ADU": {
+      "file": "history/countries/ADU - Andalusia.txt",
+      "capital": "169",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "AFA": {
+      "file": "history/countries/AFA - Afar.txt",
+      "capital": "268",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "AFG": {
+      "file": "history/countries/AFG - Afghanistan.txt",
+      "capital": "267",
+      "ruling_party": "authoritarianism",
+      "owned_states": 7,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "AGR": {
+      "file": "history/countries/AGR - Algeria.txt",
+      "capital": "459",
+      "ruling_party": "conservatism",
+      "owned_states": 13,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ALB": {
+      "file": "history/countries/ALB - Albania.txt",
+      "capital": "44",
+      "ruling_party": "socialism",
+      "owned_states": 3,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ALG": {
+      "file": "history/countries/ALG - Algeria.txt",
+      "capital": "459",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ALS": {
+      "file": "history/countries/ALS - Alaska People's Republic.txt",
+      "capital": "463",
+      "ruling_party": "communism",
+      "owned_states": 9,
+      "prime_minister": "token:ALS_elyssa_marion",
+      "deputy_prime_minister": "token:ALS_roman_filipazzi"
+    },
+    "ALT": {
+      "file": "history/countries/ALT - Altai Republic.txt",
+      "capital": "654",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "AMZ": {
+      "file": "history/countries/AMZ - Northern Amazonia Administered Territory.txt",
+      "capital": "966",
+      "ruling_party": "authoritarianism",
+      "owned_states": 17,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ANG": {
+      "file": "history/countries/ANG - Angola.txt",
+      "capital": "540",
+      "ruling_party": "socialism",
+      "owned_states": 13,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ANU": {
+      "file": "history/countries/ANU - Ainu.txt",
+      "capital": "536",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "AOI": {
+      "file": "history/countries/AOI - Italian East Africa.txt",
+      "capital": "1242",
+      "ruling_party": "fascism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ARG": {
+      "file": "history/countries/ARG - Argentina.txt",
+      "capital": "278",
+      "ruling_party": "dictatorship",
+      "owned_states": 14,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ARM": {
+      "file": "history/countries/ARM - Armenia.txt",
+      "capital": "230",
+      "ruling_party": null,
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "AST": {
+      "file": "history/countries/AST - Australia.txt",
+      "capital": "285",
+      "ruling_party": "liberalism",
+      "owned_states": 14,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ASY": {
+      "file": "history/countries/ASY - Assyria.txt",
+      "capital": "676",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ATG": {
+      "file": "history/countries/ATG - APDC Map Country.txt",
+      "capital": "1470",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ATJ": {
+      "file": "history/countries/ATJ - APDC Map Country.txt",
+      "capital": "1050",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ATU": {
+      "file": "history/countries/ATU - Antarctic Union.txt",
+      "capital": "1103",
+      "ruling_party": "fascism",
+      "owned_states": 44,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "AUS": {
+      "file": "history/countries/AUS - Austria.txt",
+      "capital": "4",
+      "ruling_party": "dictatorship",
+      "owned_states": 5,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "AZR": {
+      "file": "history/countries/AZR - Azerbaijan.txt",
+      "capital": "229",
+      "ruling_party": null,
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BAH": {
+      "file": "history/countries/BAH - Bahamas.txt",
+      "capital": "690",
+      "ruling_party": "liberalism",
+      "owned_states": 2,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BAN": {
+      "file": "history/countries/BAN - Bangladesh.txt",
+      "capital": "430",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BAR": {
+      "file": "history/countries/BAR - Barotseland.txt",
+      "capital": "1457",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BAS": {
+      "file": "history/countries/BAS - British Antilles.txt",
+      "capital": "1473",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BAY": {
+      "file": "history/countries/BAY - Bavaria.txt",
+      "capital": "52",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BEG": {
+      "file": "history/countries/BEG - Benishangul-Gumuz.txt",
+      "capital": "841",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BEL": {
+      "file": "history/countries/BEL - Belgium.txt",
+      "capital": "6",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BEN": {
+      "file": "history/countries/BEN - Benin.txt",
+      "capital": "1388",
+      "ruling_party": "dictatorship",
+      "owned_states": 3,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BHR": {
+      "file": "history/countries/BHR - Bahrain.txt",
+      "capital": "1014",
+      "ruling_party": "dictatorship",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BHU": {
+      "file": "history/countries/BHU - Bhutan.txt",
+      "capital": "324",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BIA": {
+      "file": "history/countries/BIA - Biafra.txt",
+      "capital": "1419",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BKF": {
+      "file": "history/countries/BKF - Burkina faso.txt",
+      "capital": "778",
+      "ruling_party": "dictatorship",
+      "owned_states": 3,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BLC": {
+      "file": "history/countries/BLC - Balochistan.txt",
+      "capital": "988",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BLI": {
+      "file": "history/countries/BLI - APDC Map Country.txt",
+      "capital": "1052",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BLR": {
+      "file": "history/countries/BLR - Belarus.txt",
+      "capital": "206",
+      "ruling_party": null,
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BLZ": {
+      "file": "history/countries/BLZ - Belize.txt",
+      "capital": "311",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BOL": {
+      "file": "history/countries/BOL - Bolivia.txt",
+      "capital": "302",
+      "ruling_party": "liberalism",
+      "owned_states": 4,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BOS": {
+      "file": "history/countries/BOS - Bosnia.txt",
+      "capital": "104",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BOT": {
+      "file": "history/countries/BOT - Botswana.txt",
+      "capital": "542",
+      "ruling_party": "dictatorship",
+      "owned_states": 4,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BOU": {
+      "file": "history/countries/BOU - APDC Map Country.txt",
+      "capital": "1070",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BRA": {
+      "file": "history/countries/BRA - Brazil.txt",
+      "capital": "500",
+      "ruling_party": "conservatism",
+      "owned_states": 23,
+      "prime_minister": "token:BRA_anton_araujo",
+      "deputy_prime_minister": "token:BRA_mora_cardoso"
+    },
+    "BRB": {
+      "file": "history/countries/BRB - APDC Map Country.txt",
+      "capital": "1474",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BRD": {
+      "file": "history/countries/BRD - Burundi.txt",
+      "capital": "769",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BRI": {
+      "file": "history/countries/BRI - Brittany.txt",
+      "capital": "14",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BRM": {
+      "file": "history/countries/BRM - Burma.txt",
+      "capital": "995",
+      "ruling_party": "dictatorship",
+      "owned_states": 10,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BRN": {
+      "file": "history/countries/BRN - Brunei.txt",
+      "capital": "1023",
+      "ruling_party": "dictatorship",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BSK": {
+      "file": "history/countries/BSK - Bashkortostan.txt",
+      "capital": "651",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BUK": {
+      "file": "history/countries/BUK - Bukharan Republic.txt",
+      "capital": "830",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BUL": {
+      "file": "history/countries/BUL - Bulgaria.txt",
+      "capital": "48",
+      "ruling_party": "communism",
+      "owned_states": 8,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "BYA": {
+      "file": "history/countries/BYA - Buryatia.txt",
+      "capital": "564",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "CAM": {
+      "file": "history/countries/CAM - Cambodia.txt",
+      "capital": "741",
+      "ruling_party": "liberalism",
+      "owned_states": 2,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "CAN": {
+      "file": "history/countries/CAN - Canada.txt",
+      "capital": "276",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "CAR": {
+      "file": "history/countries/CAR - Central African Republic.txt",
+      "capital": "660",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "CAT": {
+      "file": "history/countries/CAT - Catalonia.txt",
+      "capital": "165",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "CAY": {
+      "file": "history/countries/CAY - Cayenne.txt",
+      "capital": "310",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "CBV": {
+      "file": "history/countries/CBV - Cabo Verde.txt",
+      "capital": "702",
+      "ruling_party": "communism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "CHA": {
+      "file": "history/countries/CHA - Chad.txt",
+      "capital": "1426",
+      "ruling_party": "dictatorship",
+      "owned_states": 6,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "CHI": {
+      "file": "history/countries/CHI - China.txt",
+      "capital": "598",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "CHL": {
+      "file": "history/countries/CHL - Chile.txt",
+      "capital": "279",
+      "ruling_party": "fascism",
+      "owned_states": 6,
+      "prime_minister": "token:CHL_lord_adolf_augusta",
+      "deputy_prime_minister": null
+    },
+    "CHR": {
+      "file": "history/countries/CHR - Charrua.txt",
+      "capital": "300",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "CHU": {
+      "file": "history/countries/CHU - Chuvashia.txt",
+      "capital": "256",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "CIN": {
+      "file": "history/countries/CIN - Chechnya-Ingushetia.txt",
+      "capital": "821",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "CIP": {
+      "file": "history/countries/CIP - Central Indian Provinces.txt",
+      "capital": "437",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "CKK": {
+      "file": "history/countries/CKK - Chukotka.txt",
+      "capital": "822",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "CMR": {
+      "file": "history/countries/CMR - Cameroon.txt",
+      "capital": "1351",
+      "ruling_party": "dictatorship",
+      "owned_states": 3,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "COG": {
+      "file": "history/countries/COG - Congo.txt",
+      "capital": "1252",
+      "ruling_party": "dictatorship",
+      "owned_states": 38,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "COK": {
+      "file": "history/countries/COK - APDC Map Country.txt",
+      "capital": "1130",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "COL": {
+      "file": "history/countries/COL - Colombia.txt",
+      "capital": "306",
+      "ruling_party": "liberalism",
+      "owned_states": 6,
+      "prime_minister": "token:COL_mateo_garcia",
+      "deputy_prime_minister": "token:COL_hugo_perez"
+    },
+    "COR": {
+      "file": "history/countries/COR - Corsica.txt",
+      "capital": "1",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "COS": {
+      "file": "history/countries/COS - Costa Rica.txt",
+      "capital": "316",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "CPS": {
+      "file": "history/countries/CPS - APDC Map Country.txt",
+      "capital": "1068",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "CRC": {
+      "file": "history/countries/CRC - Curacao.txt",
+      "capital": "695",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "CRI": {
+      "file": "history/countries/CRI - Crimea.txt",
+      "capital": "137",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "CRO": {
+      "file": "history/countries/CRO - Croatia.txt",
+      "capital": "109",
+      "ruling_party": "fascism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "CSA": {
+      "file": "history/countries/CSA - CSA.txt",
+      "capital": "1165",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "CUB": {
+      "file": "history/countries/CUB - Cuba.txt",
+      "capital": "315",
+      "ruling_party": "socialism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "CYP": {
+      "file": "history/countries/CYP - Cyprus.txt",
+      "capital": "183",
+      "ruling_party": "conservatism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "CZE": {
+      "file": "history/countries/CZE - Czechoslovakia.txt",
+      "capital": "9",
+      "ruling_party": "communism",
+      "owned_states": 9,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "DAG": {
+      "file": "history/countries/DAG - Dagestan.txt",
+      "capital": "232",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "DAH": {
+      "file": "history/countries/DAH - Dahomey.txt",
+      "capital": "1388",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "DDR": {
+      "file": "history/countries/DDR - East Germany.txt",
+      "capital": "64",
+      "ruling_party": "communism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "DEN": {
+      "file": "history/countries/DEN - Denmark.txt",
+      "capital": "37",
+      "ruling_party": "liberalism",
+      "owned_states": 4,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "DHF": {
+      "file": "history/countries/DHF - APDC Map Country.txt",
+      "capital": "1016",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "DJI": {
+      "file": "history/countries/DJI - Djibouti.txt",
+      "capital": "268",
+      "ruling_party": "dictatorship",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "DMA": {
+      "file": "history/countries/DMA - APDC Map Country.txt",
+      "capital": "1471",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "DNZ": {
+      "file": "history/countries/DNZ - Danzig.txt",
+      "capital": "807",
+      "ruling_party": "fascism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "DOM": {
+      "file": "history/countries/DOM - Dominican Republic.txt",
+      "capital": "319",
+      "ruling_party": "fascism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "DON": {
+      "file": "history/countries/DON - Don Republic.txt",
+      "capital": "218",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ECU": {
+      "file": "history/countries/ECU - Ecuador.txt",
+      "capital": "305",
+      "ruling_party": "liberalism",
+      "owned_states": 2,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "EGY": {
+      "file": "history/countries/EGY - Egypt.txt",
+      "capital": "907",
+      "ruling_party": "socialism",
+      "owned_states": 12,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ELS": {
+      "file": "history/countries/ELS - El Salvador.txt",
+      "capital": "314",
+      "ruling_party": "fascism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ENG": {
+      "file": "history/countries/ENG - Britain.txt",
+      "capital": "126",
+      "ruling_party": "liberalism",
+      "owned_states": 38,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "EQG": {
+      "file": "history/countries/EQG - Equatorial Guinea.txt",
+      "capital": "297",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ERI": {
+      "file": "history/countries/ERI - Eritrea.txt",
+      "capital": "550",
+      "ruling_party": "socialism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "EST": {
+      "file": "history/countries/EST - Estonia.txt",
+      "capital": "812",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ETH": {
+      "file": "history/countries/ETH - Ethiopia.txt",
+      "capital": "1242",
+      "ruling_party": "socialism",
+      "owned_states": 21,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "EVE": {
+      "file": "history/countries/EVE - Evenkia.txt",
+      "capital": "878",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "EZO": {
+      "file": "history/countries/EZO - Ezo Republic.txt",
+      "capital": "536",
+      "ruling_party": "liberalism",
+      "owned_states": 5,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "FER": {
+      "file": "history/countries/FER - Far Eastern Republic.txt",
+      "capital": "563",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "FIJ": {
+      "file": "history/countries/FIJ - Fiji.txt",
+      "capital": "636",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "FIN": {
+      "file": "history/countries/FIN - Finland.txt",
+      "capital": "111",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "FLA": {
+      "file": "history/countries/FLA - APDC Map Country.txt",
+      "capital": "1358",
+      "ruling_party": "liberalism",
+      "owned_states": 2,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "FPL": {
+      "file": "history/countries/FPL - APDC Map Country.txt",
+      "capital": "515",
+      "ruling_party": "liberalism",
+      "owned_states": 2,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "FRA": {
+      "file": "history/countries/FRA - France.txt",
+      "capital": "16",
+      "ruling_party": "liberalism",
+      "owned_states": 35,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "FSA": {
+      "file": "history/countries/FSA - Federation of South Arabia.txt",
+      "capital": "992",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "FSM": {
+      "file": "history/countries/FSM - Micronesia.txt",
+      "capital": "684",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "GAB": {
+      "file": "history/countries/GAB - Gabon.txt",
+      "capital": "539",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "GAM": {
+      "file": "history/countries/GAM - The Gambia.txt",
+      "capital": "701",
+      "ruling_party": "liberalism",
+      "owned_states": 2,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "GAR": {
+      "file": "history/countries/GAR - Guarani.txt",
+      "capital": "301",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "GBA": {
+      "file": "history/countries/GBA - Gambela.txt",
+      "capital": "1246",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "GDB": {
+      "file": "history/countries/GDB - Gods Brigade.txt",
+      "capital": "479",
+      "ruling_party": "dictatorship",
+      "owned_states": 2,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "GDL": {
+      "file": "history/countries/GDL - Guadeloupe.txt",
+      "capital": "694",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "GEO": {
+      "file": "history/countries/GEO - Georgia.txt",
+      "capital": "231",
+      "ruling_party": null,
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "GER": {
+      "file": "history/countries/GER - Germany.txt",
+      "capital": "64",
+      "ruling_party": "socialism",
+      "owned_states": 19,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "GHA": {
+      "file": "history/countries/GHA - Ghana.txt",
+      "capital": "274",
+      "ruling_party": "dictatorship",
+      "owned_states": 4,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "GLC": {
+      "file": "history/countries/GLC - Galicia.txt",
+      "capital": "171",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "GNA": {
+      "file": "history/countries/GNA - Guinea.txt",
+      "capital": "780",
+      "ruling_party": "dictatorship",
+      "owned_states": 4,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "GNB": {
+      "file": "history/countries/GNB - Guinea-Bissau.txt",
+      "capital": "296",
+      "ruling_party": "communism",
+      "owned_states": 2,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "GOW": {
+      "file": "history/countries/GOW - APDC Map Country.txt",
+      "capital": "673",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "GRD": {
+      "file": "history/countries/GRD - APDC Map Country.txt",
+      "capital": "692",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "GRE": {
+      "file": "history/countries/GRE - Greece.txt",
+      "capital": "47",
+      "ruling_party": "socialism",
+      "owned_states": 8,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "GRN": {
+      "file": "history/countries/GRN - Greenland.txt",
+      "capital": "101",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "GUA": {
+      "file": "history/countries/GUA - Guatemla.txt",
+      "capital": "313",
+      "ruling_party": "dictatorship",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "GUM": {
+      "file": "history/countries/GUM - Guam.txt",
+      "capital": "638",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "GXC": {
+      "file": "history/countries/GXC - Guangxi.txt",
+      "capital": "594",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "GYA": {
+      "file": "history/countries/GYA - Guyana.txt",
+      "capital": "687",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "HAI": {
+      "file": "history/countries/HAI - Haiti.txt",
+      "capital": "318",
+      "ruling_party": "authoritarianism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "HAN": {
+      "file": "history/countries/HAN - Hanover.txt",
+      "capital": "59",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "HAR": {
+      "file": "history/countries/HAR - Harar.txt",
+      "capital": "835",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "HAW": {
+      "file": "history/countries/HAW - Hawaii.txt",
+      "capital": "629",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "HES": {
+      "file": "history/countries/HES - Hesse.txt",
+      "capital": "55",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "HJM": {
+      "file": "history/countries/HJM - APDC Document Setup.txt",
+      "capital": null,
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "HOL": {
+      "file": "history/countries/HOL - Holland.txt",
+      "capital": "7",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "HON": {
+      "file": "history/countries/HON - Honduras.txt",
+      "capital": "312",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "HRZ": {
+      "file": "history/countries/HRZ - Herzegovina.txt",
+      "capital": "804",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "HUN": {
+      "file": "history/countries/HUN - Hungary.txt",
+      "capital": "43",
+      "ruling_party": "communism",
+      "owned_states": 6,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "HYD": {
+      "file": "history/countries/HYD - Hyderabad.txt",
+      "capital": "427",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "IAS": {
+      "file": "history/countries/IAS - Isthmo Amerindia.txt",
+      "capital": "493",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ICE": {
+      "file": "history/countries/ICE - Iceland.txt",
+      "capital": "100",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "INC": {
+      "file": "history/countries/INC - Inca.txt",
+      "capital": "494",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "INS": {
+      "file": "history/countries/INS - Indonesia.txt",
+      "capital": "1058",
+      "ruling_party": "dictatorship",
+      "owned_states": 21,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "INU": {
+      "file": "history/countries/INU - Inuit.txt",
+      "capital": "463",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "IRE": {
+      "file": "history/countries/IRE - Ireland.txt",
+      "capital": "113",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "IRQ": {
+      "file": "history/countries/IRQ - Iraq.txt",
+      "capital": "291",
+      "ruling_party": "socialism",
+      "owned_states": 9,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ISP": {
+      "file": "history/countries/ISP - APDC Map Country.txt",
+      "capital": "1373",
+      "ruling_party": "liberalism",
+      "owned_states": 2,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ISR": {
+      "file": "history/countries/ISR - Israel.txt",
+      "capital": "454",
+      "ruling_party": "liberalism",
+      "owned_states": 20,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ITA": {
+      "file": "history/countries/ITA - Italy.txt",
+      "capital": "2",
+      "ruling_party": "liberalism",
+      "owned_states": 14,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ITZ": {
+      "file": "history/countries/ITZ - Itza.txt",
+      "capital": "311",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "IVO": {
+      "file": "history/countries/IVO - Ivory Coast.txt",
+      "capital": "1396",
+      "ruling_party": "dictatorship",
+      "owned_states": 5,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "JAM": {
+      "file": "history/countries/JAM - Jamaica.txt",
+      "capital": "689",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "JAN": {
+      "file": "history/countries/JAN - Jan Mayen.txt",
+      "capital": "914",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "JAP": {
+      "file": "history/countries/JAP - Japan.txt",
+      "capital": "1137",
+      "ruling_party": "conservatism",
+      "owned_states": 2,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "JNM": {
+      "file": "history/countries/JNM - APDC Map Country.txt",
+      "capital": "1370",
+      "ruling_party": "liberalism",
+      "owned_states": 3,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "JOR": {
+      "file": "history/countries/JOR - Jordan.txt",
+      "capital": "455",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "KAL": {
+      "file": "history/countries/KAL - Kalmykia.txt",
+      "capital": "236",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "KAR": {
+      "file": "history/countries/KAR - Karelia.txt",
+      "capital": "216",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "KAS": {
+      "file": "history/countries/KAS - Kashmir.txt",
+      "capital": "441",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "KAT": {
+      "file": "history/countries/KAT - Katanga.txt",
+      "capital": "1335",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "KAZ": {
+      "file": "history/countries/KAZ - Kazakhstan.txt",
+      "capital": "586",
+      "ruling_party": null,
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "KBK": {
+      "file": "history/countries/KBK - Kabardino-Balkaria.txt",
+      "capital": "827",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "KEN": {
+      "file": "history/countries/KEN - Kenya.txt",
+      "capital": "547",
+      "ruling_party": "dictatorship",
+      "owned_states": 8,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "KHA": {
+      "file": "history/countries/KHA - Khakassia.txt",
+      "capital": "569",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "KHI": {
+      "file": "history/countries/KHI - Khiva.txt",
+      "capital": "832",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "KHL": {
+      "file": "history/countries/KHL - Khalistan.txt",
+      "capital": "989",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "KIR": {
+      "file": "history/countries/KIR - APDC Map Country.txt",
+      "capital": "639",
+      "ruling_party": "liberalism",
+      "owned_states": 3,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "KKP": {
+      "file": "history/countries/KKP - Karakalpakstan.txt",
+      "capital": "823",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "KLT": {
+      "file": "history/countries/KLT -Kalat.txt",
+      "capital": "988",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "KNA": {
+      "file": "history/countries/KNA - APDC Map Country.txt",
+      "capital": "1469",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "KOL": {
+      "file": "history/countries/KOL - Kolhapur and Deccan States.txt",
+      "capital": "429",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "KOM": {
+      "file": "history/countries/KOM - Komi Republic.txt",
+      "capital": "397",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "KOR": {
+      "file": "history/countries/KOR - Korea.txt",
+      "capital": "525",
+      "ruling_party": "liberalism",
+      "owned_states": 14,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "KOS": {
+      "file": "history/countries/KOS - Kosovo.txt",
+      "capital": "802",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "KSH": {
+      "file": "history/countries/KSH - Kashubia.txt",
+      "capital": "807",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "KUB": {
+      "file": "history/countries/KUB - Kuban Republic.txt",
+      "capital": "234",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "KUR": {
+      "file": "history/countries/KUR - Kurdistan.txt",
+      "capital": "800",
+      "ruling_party": "socialism",
+      "owned_states": 8,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "KUW": {
+      "file": "history/countries/KUW - Kuwait.txt",
+      "capital": "656",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "KYR": {
+      "file": "history/countries/KYR - Kyrgyzstan.txt",
+      "capital": "732",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "LAO": {
+      "file": "history/countries/LAO - Laos.txt",
+      "capital": "670",
+      "ruling_party": "dictatorship",
+      "owned_states": 3,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "LAT": {
+      "file": "history/countries/LAT - Latvia.txt",
+      "capital": "808",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "LBA": {
+      "file": "history/countries/LBA - Libya.txt",
+      "capital": "448",
+      "ruling_party": "dictatorship",
+      "owned_states": 12,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "LBV": {
+      "file": "history/countries/LBV - Lombardy Venetia.txt",
+      "capital": "160",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "LCA": {
+      "file": "history/countries/LCA - APDC Map Country.txt",
+      "capital": "1472",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "LEB": {
+      "file": "history/countries/LEB - Lebanon.txt",
+      "capital": "553",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "LIB": {
+      "file": "history/countries/LIB - Liberia.txt",
+      "capital": "298",
+      "ruling_party": "liberalism",
+      "owned_states": 3,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "LIT": {
+      "file": "history/countries/LIT - Lithuania.txt",
+      "capital": "11",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "LLU": {
+      "file": "history/countries/LLU - Lowlands Union.txt",
+      "capital": "6",
+      "ruling_party": "authoritarianism",
+      "owned_states": 10,
+      "prime_minister": "token:LLU_tobias_verhagen",
+      "deputy_prime_minister": "token:LLU_oliver_marchand"
+    },
+    "LSO": {
+      "file": "history/countries/LSO - APDC Map Country.txt",
+      "capital": "1428",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "LUX": {
+      "file": "history/countries/LUX - Luxemburg.txt",
+      "capital": "7",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "MAC": {
+      "file": "history/countries/MAC - Macedonia.txt",
+      "capital": "106",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "MAD": {
+      "file": "history/countries/MAD - Madagascar.txt",
+      "capital": "543",
+      "ruling_party": "fundamentalism",
+      "owned_states": 34,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "MAL": {
+      "file": "history/countries/MAL - Malaysia.txt",
+      "capital": "336",
+      "ruling_party": null,
+      "owned_states": 10,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "MAN": {
+      "file": "history/countries/MAN - Manchukou.txt",
+      "capital": "714",
+      "ruling_party": "fascism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "MAY": {
+      "file": "history/countries/MAY - Maya.txt",
+      "capital": "475",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "MEK": {
+      "file": "history/countries/MEK - Mecklenburg.txt",
+      "capital": "63",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "MEL": {
+      "file": "history/countries/MEL - Mari El.txt",
+      "capital": "833",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "MEN": {
+      "file": "history/countries/MEN - Mengkukuo.txt",
+      "capital": "1253",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "MEX": {
+      "file": "history/countries/MEX - Mexico.txt",
+      "capital": "277",
+      "ruling_party": "authoritarianism",
+      "owned_states": 12,
+      "prime_minister": "token:MEX_raul_delgado",
+      "deputy_prime_minister": "token:MEX_rosario_pacheco"
+    },
+    "MHL": {
+      "file": "history/countries/MHL - APDC Map Country.txt",
+      "capital": "633",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "MIS": {
+      "file": "history/countries/MIS - Miskito.txt",
+      "capital": "317",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "MLD": {
+      "file": "history/countries/MLD - Maldives.txt",
+      "capital": "281",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "MLI": {
+      "file": "history/countries/MLI - Mali.txt",
+      "capital": "1369",
+      "ruling_party": "dictatorship",
+      "owned_states": 4,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "MLT": {
+      "file": "history/countries/MLT - Malta.txt",
+      "capital": "116",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "MLW": {
+      "file": "history/countries/MLW - Malawi.txt",
+      "capital": "770",
+      "ruling_party": "dictatorship",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "MNT": {
+      "file": "history/countries/MNT - Montenegro.txt",
+      "capital": "105",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "MOL": {
+      "file": "history/countries/MOL - Moldova.txt",
+      "capital": "78",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "MON": {
+      "file": "history/countries/MON - Mongolia.txt",
+      "capital": "330",
+      "ruling_party": "socialism",
+      "owned_states": 5,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "MOR": {
+      "file": "history/countries/MOR - Morocco.txt",
+      "capital": "1415",
+      "ruling_party": "dictatorship",
+      "owned_states": 9,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "MPU": {
+      "file": "history/countries/MPU - Manipur.txt",
+      "capital": "990",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "MRT": {
+      "file": "history/countries/MRT - Mauritania.txt",
+      "capital": "557",
+      "ruling_party": "dictatorship",
+      "owned_states": 6,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "MYS": {
+      "file": "history/countries/MYS - Mysore.txt",
+      "capital": "425",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "MZB": {
+      "file": "history/countries/MZB - Mozambique.txt",
+      "capital": "544",
+      "ruling_party": "socialism",
+      "owned_states": 10,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "NAH": {
+      "file": "history/countries/NAH - Nahua.txt",
+      "capital": "314",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "NAV": {
+      "file": "history/countries/NAV - Navarra.txt",
+      "capital": "792",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "NEN": {
+      "file": "history/countries/NEN - Nenetsia.txt",
+      "capital": "825",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "NEP": {
+      "file": "history/countries/NEP - Nepal.txt",
+      "capital": "323",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "NGA": {
+      "file": "history/countries/NGA - Nigeria.txt",
+      "capital": "1417",
+      "ruling_party": "dictatorship",
+      "owned_states": 11,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "NGR": {
+      "file": "history/countries/NGR - Niger.txt",
+      "capital": "781",
+      "ruling_party": "dictatorship",
+      "owned_states": 3,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "NIC": {
+      "file": "history/countries/NIC - Nicaragua.txt",
+      "capital": "317",
+      "ruling_party": "dictatorship",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "NIR": {
+      "file": "history/countries/NIR - Northern Ireland.txt",
+      "capital": "119",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "NIU": {
+      "file": "history/countries/NIU - APDC Map Country.txt",
+      "capital": "1476",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "NMB": {
+      "file": "history/countries/NMB - Namibia.txt",
+      "capital": "541",
+      "ruling_party": "liberalism",
+      "owned_states": 5,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "NOA": {
+      "file": "history/countries/NOA - North Ossetia-Alania.txt",
+      "capital": "828",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "NOR": {
+      "file": "history/countries/NOR - Norway.txt",
+      "capital": "142",
+      "ruling_party": "liberalism",
+      "owned_states": 16,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "NRU": {
+      "file": "history/countries/NRU - APDC Map Country.txt",
+      "capital": "725",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "NWF": {
+      "file": "history/countries/NWF - North Western Frontier States.txt",
+      "capital": "987",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "NZL": {
+      "file": "history/countries/NZL - New Zealand.txt",
+      "capital": "284",
+      "ruling_party": "liberalism",
+      "owned_states": 6,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "OCC": {
+      "file": "history/countries/OCC - Occitania.txt",
+      "capital": "31",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "OKN": {
+      "file": "history/countries/OKN - Okinawa.txt",
+      "capital": "526",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "OMA": {
+      "file": "history/countries/OMA - Oman.txt",
+      "capital": "294",
+      "ruling_party": "dictatorship",
+      "owned_states": 7,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ORO": {
+      "file": "history/countries/ORO - Oromo.txt",
+      "capital": "1242",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "OVO": {
+      "file": "history/countries/OVO - Ostyakia Vogulia.txt",
+      "capital": "580",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "PAK": {
+      "file": "history/countries/PAK - Pakistan.txt",
+      "capital": "443",
+      "ruling_party": "socialism",
+      "owned_states": 35,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "PAL": {
+      "file": "history/countries/PAL - Palestine.txt",
+      "capital": "454",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "PAN": {
+      "file": "history/countries/PAN - Panama.txt",
+      "capital": "304",
+      "ruling_party": "liberalism",
+      "owned_states": 2,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "PAP": {
+      "file": "history/countries/PAP - Papal States.txt",
+      "capital": "2",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "PAR": {
+      "file": "history/countries/PAR - Paraguay.txt",
+      "capital": "301",
+      "ruling_party": "liberalism",
+      "owned_states": 2,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "PER": {
+      "file": "history/countries/PER - Persia.txt",
+      "capital": "266",
+      "ruling_party": "authoritarianism",
+      "owned_states": 27,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "PHI": {
+      "file": "history/countries/PHI - Philippines.txt",
+      "capital": "327",
+      "ruling_party": "liberalism",
+      "owned_states": 11,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "PLU": {
+      "file": "history/countries/PLU - Palau.txt",
+      "capital": "647",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "PNG": {
+      "file": "history/countries/PNG - Papua New Guinea.txt",
+      "capital": "523",
+      "ruling_party": "liberalism",
+      "owned_states": 5,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "POL": {
+      "file": "history/countries/POL - Poland.txt",
+      "capital": "1312",
+      "ruling_party": "communism",
+      "owned_states": 17,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "POR": {
+      "file": "history/countries/POR - Portugal.txt",
+      "capital": "112",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "PRC": {
+      "file": "history/countries/PRC - ComChina.txt",
+      "capital": "608",
+      "ruling_party": "socialism",
+      "owned_states": 123,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "PRE": {
+      "file": "history/countries/PRE - Prussia.txt",
+      "capital": "64",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "PRU": {
+      "file": "history/countries/PRU - Peru.txt",
+      "capital": "303",
+      "ruling_party": "fascism",
+      "owned_states": 6,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "PUE": {
+      "file": "history/countries/PUE - Puerto Rico.txt",
+      "capital": "686",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "QAT": {
+      "file": "history/countries/QAT - Qatar.txt",
+      "capital": "765",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "QEM": {
+      "file": "history/countries/QEM - Qemant.txt",
+      "capital": "841",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "QUE": {
+      "file": "history/countries/QUE - Quebec.txt",
+      "capital": "468",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "RAJ": {
+      "file": "history/countries/RAJ - British Raj.txt",
+      "capital": "439",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "RAP": {
+      "file": "history/countries/RAP - Rapa Nui.txt",
+      "capital": "948",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "RAS": {
+      "file": "history/countries/RAS - Madras States.txt",
+      "capital": "423",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "RCG": {
+      "file": "history/countries/RCG - Republic of Congo.txt",
+      "capital": "1252",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "RHI": {
+      "file": "history/countries/RHI - Rhineland.txt",
+      "capital": "51",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "RIF": {
+      "file": "history/countries/RIF - Rif.txt",
+      "capital": "290",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "RIG": {
+      "file": "history/countries/RIG - Rio Grande.txt",
+      "capital": "479",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "RJP": {
+      "file": "history/countries/RJP - Rajputana.txt",
+      "capital": "433",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ROM": {
+      "file": "history/countries/ROM - Romania.txt",
+      "capital": "46",
+      "ruling_party": "communism",
+      "owned_states": 10,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "RWA": {
+      "file": "history/countries/RWA - Rwanda.txt",
+      "capital": "768",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "RZE": {
+      "file": "history/countries/RZE - Red Zone.txt",
+      "capital": "1",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SAB": {
+      "file": "history/countries/SAB - APDC Map Country.txt",
+      "capital": "1024",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SAF": {
+      "file": "history/countries/SAF - South Africa.txt",
+      "capital": "275",
+      "ruling_party": "liberalism",
+      "owned_states": 9,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SAM": {
+      "file": "history/countries/SAM - Samoa.txt",
+      "capital": "726",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SAR": {
+      "file": "history/countries/SAR - APDC Map Country.txt",
+      "capital": "333",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SAU": {
+      "file": "history/countries/SAU - Saudi Arabia.txt",
+      "capital": "292",
+      "ruling_party": "dictatorship",
+      "owned_states": 20,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SAX": {
+      "file": "history/countries/SAX - Saxony.txt",
+      "capital": "65",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SCO": {
+      "file": "history/countries/SCO - Scotland.txt",
+      "capital": "121",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SEN": {
+      "file": "history/countries/SEN - Senegal.txt",
+      "capital": "272",
+      "ruling_party": "liberalism",
+      "owned_states": 3,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SER": {
+      "file": "history/countries/SER - Serbia.txt",
+      "capital": "107",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SHL": {
+      "file": "history/countries/SHL - Schleswig-Holstein.txt",
+      "capital": "58",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SHX": {
+      "file": "history/countries/SHX - Shanxi.txt",
+      "capital": "715",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SIA": {
+      "file": "history/countries/SIA - Siam.txt",
+      "capital": "1076",
+      "ruling_party": "dictatorship",
+      "owned_states": 7,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SID": {
+      "file": "history/countries/SID - Sidamo.txt",
+      "capital": "1247",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SIE": {
+      "file": "history/countries/SIE - Sierra Leone.txt",
+      "capital": "700",
+      "ruling_party": "liberalism",
+      "owned_states": 2,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SIK": {
+      "file": "history/countries/SIK - Sinkiang.txt",
+      "capital": "617",
+      "ruling_party": "communism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SIL": {
+      "file": "history/countries/SIL - Silesia.txt",
+      "capital": "66",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SIN": {
+      "file": "history/countries/SIN - APDC Map Country.txt",
+      "capital": "443",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SKK": {
+      "file": "history/countries/SKK - APDC Map Country.txt",
+      "capital": "985",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SLO": {
+      "file": "history/countries/SLO - Slovakia.txt",
+      "capital": "664",
+      "ruling_party": "fascism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SLV": {
+      "file": "history/countries/SLV - Slovenia.txt",
+      "capital": "853",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SMI": {
+      "file": "history/countries/SMI - Sami.txt",
+      "capital": "148",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SML": {
+      "file": "history/countries/SML - APDC Map Country.txt",
+      "capital": "269",
+      "ruling_party": "liberalism",
+      "owned_states": 3,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SNG": {
+      "file": "history/countries/SNG - APDC Map Country.txt",
+      "capital": "1021",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SOL": {
+      "file": "history/countries/SOL - Solomon Islands.txt",
+      "capital": "634",
+      "ruling_party": "liberalism",
+      "owned_states": 2,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SOM": {
+      "file": "history/countries/SOM - Somalia.txt",
+      "capital": "559",
+      "ruling_party": "socialism",
+      "owned_states": 5,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SOV": {
+      "file": "history/countries/SOV - Soviet union.txt",
+      "capital": "1157",
+      "ruling_party": "socialism",
+      "owned_states": 182,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SPM": {
+      "file": "history/countries/SPM - Sardinia Piedmont.txt",
+      "capital": "158",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SPR": {
+      "file": "history/countries/SPR - Spain.txt",
+      "capital": "41",
+      "ruling_party": "authoritarianism",
+      "owned_states": 30,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SRL": {
+      "file": "history/countries/SRL - Sri Lanka.txt",
+      "capital": "422",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SSD": {
+      "file": "history/countries/SSD - South Sudan.txt",
+      "capital": "1498",
+      "ruling_party": "dictatorship",
+      "owned_states": 9,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SSI": {
+      "file": "history/countries/SSI - APDC Map Country.txt",
+      "capital": "1049",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SUD": {
+      "file": "history/countries/SUD - Sudan.txt",
+      "capital": "1493",
+      "ruling_party": "dictatorship",
+      "owned_states": 13,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SUR": {
+      "file": "history/countries/SUR - Suriname.txt",
+      "capital": "309",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SWE": {
+      "file": "history/countries/SWE - Sweden.txt",
+      "capital": "1297",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SWI": {
+      "file": "history/countries/SWI - Switzerland.txt",
+      "capital": "845",
+      "ruling_party": "liberalism",
+      "owned_states": 6,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SWZ": {
+      "file": "history/countries/SWZ - APDC Map Country.txt",
+      "capital": "1427",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "SYR": {
+      "file": "history/countries/SYR - Syria.txt",
+      "capital": "554",
+      "ruling_party": "socialism",
+      "owned_states": 7,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "TAH": {
+      "file": "history/countries/TAH - Tahiti.txt",
+      "capital": "641",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "TAJ": {
+      "file": "history/countries/TAJ - Tajikistan.txt",
+      "capital": "742",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "TAN": {
+      "file": "history/countries/TAN - Tannu Tuva.txt",
+      "capital": "329",
+      "ruling_party": "communism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "TAT": {
+      "file": "history/countries/TAT - Tatarstan.txt",
+      "capital": "249",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "TAY": {
+      "file": "history/countries/TAY - Taymyria.txt",
+      "capital": "516",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "THU": {
+      "file": "history/countries/THU - APDC Map Country.txt",
+      "capital": "60",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "TIB": {
+      "file": "history/countries/TIB - Tibet.txt",
+      "capital": "1271",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "TIG": {
+      "file": "history/countries/TIG - Tigray.txt",
+      "capital": "842",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "TML": {
+      "file": "history/countries/TML - APDC Map Country.txt",
+      "capital": "721",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "TMS": {
+      "file": "history/countries/TMS - Turkmenistan.txt",
+      "capital": "584",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "TNE": {
+      "file": "history/countries/TNE - APDC Map Country.txt",
+      "capital": "668",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "TOG": {
+      "file": "history/countries/TOG - Togo.txt",
+      "capital": "777",
+      "ruling_party": "dictatorship",
+      "owned_states": 2,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "TON": {
+      "file": "history/countries/TON - APDC Map Country.txt",
+      "capital": "1332",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "TOS": {
+      "file": "history/countries/TOS - Tuscany.txt",
+      "capital": "162",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "TRA": {
+      "file": "history/countries/TRA - Transylvania.txt",
+      "capital": "84",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "TRI": {
+      "file": "history/countries/TRI - Trinidad and Tobago.txt",
+      "capital": "691",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "TTS": {
+      "file": "history/countries/TTS - The Two Sicilies.txt",
+      "capital": "117",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "TUN": {
+      "file": "history/countries/TUN - Tunisia.txt",
+      "capital": "458",
+      "ruling_party": "dictatorship",
+      "owned_states": 2,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "TUR": {
+      "file": "history/countries/TUR - Turkey.txt",
+      "capital": "49",
+      "ruling_party": "social_democracy",
+      "owned_states": 15,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "TUV": {
+      "file": "history/countries/TUV - APDC Map Country.txt",
+      "capital": "643",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "TZN": {
+      "file": "history/countries/TZN - Tanzania.txt",
+      "capital": "1449",
+      "ruling_party": "dictatorship",
+      "owned_states": 10,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "UAE": {
+      "file": "history/countries/UAE - United Arab Emirates.txt",
+      "capital": "658",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "UDM": {
+      "file": "history/countries/UDM - Udmurtia.txt",
+      "capital": "399",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "UGA": {
+      "file": "history/countries/UGA - Uganda.txt",
+      "capital": "548",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "UKR": {
+      "file": "history/countries/UKR - Ukraine.txt",
+      "capital": "202",
+      "ruling_party": null,
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "URG": {
+      "file": "history/countries/URG - Uruguay.txt",
+      "capital": "300",
+      "ruling_party": "dictatorship",
+      "owned_states": 3,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "USA": {
+      "file": "history/countries/USA - USA.txt",
+      "capital": "1165",
+      "ruling_party": "authoritarianism",
+      "owned_states": 93,
+      "prime_minister": "token:USA_theodore_hammond",
+      "deputy_prime_minister": "token:USA_sheldon_perry"
+    },
+    "UZB": {
+      "file": "history/countries/UZB - Uzbekistan.txt",
+      "capital": "405",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "VAN": {
+      "file": "history/countries/VAN - APDC Map Country.txt",
+      "capital": "1071",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "VCT": {
+      "file": "history/countries/VCT - APDC Map Country.txt",
+      "capital": "1473",
+      "ruling_party": "liberalism",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "VEN": {
+      "file": "history/countries/VEN - Venezula.txt",
+      "capital": "307",
+      "ruling_party": "socialism",
+      "owned_states": 3,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "VGE": {
+      "file": "history/countries/VGE - Volga Germany.txt",
+      "capital": "829",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "VIN": {
+      "file": "history/countries/VIN - Vietnam.txt",
+      "capital": "671",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "VLA": {
+      "file": "history/countries/VLA - Vladivostok.txt",
+      "capital": "408",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "VOL": {
+      "file": "history/countries/VOL - Upper Volta.txt",
+      "capital": "778",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "WES": {
+      "file": "history/countries/WES - Western Sahara.txt",
+      "capital": "699",
+      "ruling_party": "dictatorship",
+      "owned_states": 1,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "WGR": {
+      "file": "history/countries/WGR - West Germany.txt",
+      "capital": "64",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "WIS": {
+      "file": "history/countries/WIS - APDC Map Country.txt",
+      "capital": "428",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "WLA": {
+      "file": "history/countries/WLA - Welsh Argentina.txt",
+      "capital": "955",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "WLS": {
+      "file": "history/countries/WLS - Wales.txt",
+      "capital": "122",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "WPG": {
+      "file": "history/countries/WPG - APDC Map Country.txt",
+      "capital": "669",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "WUR": {
+      "file": "history/countries/WUR - Wurtemberg.txt",
+      "capital": "50",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "XSM": {
+      "file": "history/countries/XSM - Xibei San Ma.txt",
+      "capital": "1262",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "YAK": {
+      "file": "history/countries/YAK - Yakutia.txt",
+      "capital": "574",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "YAM": {
+      "file": "history/countries/YAM - Yamalia.txt",
+      "capital": "579",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "YEM": {
+      "file": "history/countries/YEM - Yeman.txt",
+      "capital": "293",
+      "ruling_party": "socialism",
+      "owned_states": 9,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "YUC": {
+      "file": "history/countries/YUC - Yucatan.txt",
+      "capital": "474",
+      "ruling_party": "liberalism",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "YUG": {
+      "file": "history/countries/YUG - Yugoslavia.txt",
+      "capital": "107",
+      "ruling_party": "socialism",
+      "owned_states": 20,
+      "prime_minister": "token:YUG_filip_josic",
+      "deputy_prime_minister": "token:YUG_petar_vlajkovic"
+    },
+    "YUN": {
+      "file": "history/countries/YUN - Yunnan.txt",
+      "capital": "325",
+      "ruling_party": "dictatorship",
+      "owned_states": 0,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ZAM": {
+      "file": "history/countries/ZAM - Zambia.txt",
+      "capital": "981",
+      "ruling_party": "liberalism",
+      "owned_states": 6,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ZIM": {
+      "file": "history/countries/ZIM - Zimbabwe.txt",
+      "capital": "545",
+      "ruling_party": "dictatorship",
+      "owned_states": 3,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    },
+    "ZZZ": {
+      "file": "history/countries/ZZZ - anarchy.txt",
+      "capital": "38",
+      "ruling_party": "dictatorship",
+      "owned_states": 99,
+      "prime_minister": null,
+      "deputy_prime_minister": null
+    }
+  },
+  "owners": {
+    "FRA": 35,
+    "ITA": 14,
+    "SWI": 6,
+    "AUS": 5,
+    "ZZZ": 99,
+    "LLU": 10,
+    "CZE": 9,
+    "POL": 17,
+    "DEN": 4,
+    "SOV": 182,
+    "SPR": 30,
+    "GER": 19,
+    "HUN": 6,
+    "ALB": 3,
+    "YUG": 20,
+    "ROM": 10,
+    "GRE": 8,
+    "BUL": 8,
+    "TUR": 15,
+    "ENG": 38,
+    "USA": 93,
+    "MLT": 1,
+    "NOR": 16,
+    "CYP": 1,
+    "PER": 27,
+    "AFG": 7,
+    "DJI": 1,
+    "SML": 3,
+    "ETH": 21,
+    "SEN": 3,
+    "LBA": 12,
+    "GHA": 4,
+    "SAF": 9,
+    "MEX": 12,
+    "ARG": 14,
+    "CHL": 6,
+    "AMZ": 17,
+    "PAK": 35,
+    "PRC": 123,
+    "NZL": 6,
+    "AST": 14,
+    "BRM": 10,
+    "SIA": 7,
+    "MOR": 9,
+    "IRQ": 9,
+    "SAU": 20,
+    "YEM": 9,
+    "OMA": 7,
+    "COG": 38,
+    "GNB": 2,
+    "LIB": 3,
+    "URG": 3,
+    "PAR": 2,
+    "BOL": 4,
+    "PRU": 6,
+    "PAN": 2,
+    "ECU": 2,
+    "COL": 6,
+    "VEN": 3,
+    "SUR": 1,
+    "BLZ": 1,
+    "HON": 1,
+    "GUA": 1,
+    "ELS": 1,
+    "CUB": 1,
+    "COS": 1,
+    "NIC": 1,
+    "HAI": 1,
+    "DOM": 1,
+    "PHI": 11,
+    "MON": 5,
+    "MAL": 10,
+    "INS": 21,
+    "KUR": 8,
+    "ISR": 20,
+    "EGY": 12,
+    "TUN": 2,
+    "AGR": 13,
+    "ALS": 9,
+    "GDB": 2,
+    "BRA": 23,
+    "FPL": 2,
+    "PNG": 5,
+    "KOR": 14,
+    "EZO": 5,
+    "ANG": 13,
+    "NMB": 5,
+    "BOT": 4,
+    "MAD": 34,
+    "MZB": 10,
+    "ZIM": 3,
+    "TZN": 10,
+    "KEN": 8,
+    "UGA": 1,
+    "SUD": 13,
+    "ERI": 1,
+    "SYR": 7,
+    "MLI": 4,
+    "MRT": 6,
+    "NGA": 11,
+    "SOM": 5,
+    "MHL": 1,
+    "SOL": 2,
+    "FIJ": 1,
+    "KIR": 3,
+    "TUV": 1,
+    "PLU": 1,
+    "JAP": 2,
+    "UAE": 1,
+    "LAO": 3,
+    "FSM": 1,
+    "GYA": 1,
+    "JAM": 1,
+    "BAH": 2,
+    "TRI": 1,
+    "GRD": 1,
+    "WES": 1,
+    "SIE": 2,
+    "GAM": 2,
+    "CBV": 1,
+    "TML": 1,
+    "NRU": 1,
+    "SAM": 1,
+    "CAM": 2,
+    "QAT": 1,
+    "MLW": 1,
+    "ZAM": 6,
+    "CHA": 6,
+    "BEN": 3,
+    "TOG": 2,
+    "BKF": 3,
+    "IVO": 5,
+    "GNA": 4,
+    "NGR": 3,
+    "JNM": 3,
+    "SSD": 9,
+    "ISP": 2,
+    "BHR": 1,
+    "DHF": 1,
+    "SNG": 1,
+    "BRN": 1,
+    "VAN": 1,
+    "ATU": 44,
+    "COK": 1,
+    "CMR": 3,
+    "TON": 1,
+    "FLA": 2,
+    "SWZ": 1,
+    "LSO": 1,
+    "KNA": 1,
+    "ATG": 1,
+    "DMA": 1,
+    "LCA": 1,
+    "VCT": 1,
+    "BRB": 1,
+    "NIU": 1
+  }
+}

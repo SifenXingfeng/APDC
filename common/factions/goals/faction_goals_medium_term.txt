@@ -2751,9 +2751,9 @@ faction_goal_control_iraqi_oil = {
 
 	}
 	completed = {
-		291 = { is_controlled_by_ROOT_or_ally = yes }
+		1626 = { is_controlled_by_ROOT_or_ally = yes }
 		1010 = {	is_controlled_by_ROOT_or_ally = yes }
-		1409 = { is_controlled_by_ROOT_or_ally = yes }	
+		1011 = { is_controlled_by_ROOT_or_ally = yes }	
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -2763,9 +2763,9 @@ faction_goal_control_iraqi_oil = {
 			visible_when_empty = yes
 			limit = {
 				OR = {
-					controls_state = 291
+					controls_state = 1626
 					controls_state = 1010
-					controls_state = 1409
+					controls_state = 1011
 				}
 			}
 			add_faction_initiative = 1
@@ -2773,9 +2773,9 @@ faction_goal_control_iraqi_oil = {
 		every_state = {
 			limit = {
 				OR = {
-					state = 291
+					state = 1626
 					state = 1010
-					state = 1409
+					state = 1011
 				}
 			}
 			if = {

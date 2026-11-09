@@ -41,11 +41,84 @@ set_popularities = {
 	fundamentalism = 20
 }
 
+
+
+
+
+
+
+
+set_variable = { APDC_prime_minister_character = token:CHL_lord_adolf_augusta }
+
+# Document synchronization 2026-10-28; unresolved fields retain previous values.
+recruit_character = CHL_APDC_doc_088039ca610b
+promote_character = { character = CHL_general_vallejo ideology = military_political_communism }
+promote_character = { character = CHL_santiago_silva ideology = popular_front }
+promote_character = { character = CHL_lautaro_fernandez ideology = democratic_socialism }
+promote_character = { character = CHL_dilan_lopez ideology = populist_conservatism }
+promote_character = { character = CHL_sebastian_rojas ideology = progressive_liberalism }
+promote_character = { character = CHL_doctor_odes ideology = co_governance }
+promote_character = { character = CHL_high_command ideology = military_state }
+promote_character = { character = CHL_APDC_doc_088039ca610b ideology = fundamental_fascism }
+promote_character = { character = CHL_hariel_utleier ideology = esoteric_despotism }
+APDC_set_economic_system_state_capitalism = yes
 APDC_add_fascism_to_governing_coalition = yes
 APDC_add_authoritarianism_to_governing_coalition = yes
 APDC_add_fundamentalism_to_governing_coalition = yes
 APDC_add_dictatorship_to_governing_coalition = yes
+set_variable = { APDC_document_party_leader_communism = token:CHL_general_vallejo }
+set_variable = { APDC_document_party_leader_socialism = token:CHL_santiago_silva }
+set_variable = { APDC_document_party_leader_social_democracy = token:CHL_lautaro_fernandez }
+set_variable = { APDC_document_party_leader_conservatism = token:CHL_dilan_lopez }
+set_variable = { APDC_document_party_leader_liberalism = token:CHL_sebastian_rojas }
+set_variable = { APDC_document_party_leader_authoritarianism = token:CHL_doctor_odes }
+set_variable = { APDC_document_party_leader_dictatorship = token:CHL_high_command }
+set_variable = { APDC_document_party_leader_fascism = token:CHL_APDC_doc_088039ca610b }
+set_variable = { APDC_document_party_leader_fundamentalism = token:CHL_hariel_utleier }
 
-APDC_set_economic_system_state_capitalism = yes
+# APDC parliament election calendar schema 1
+if = {
+limit = { has_government = communism }
+set_politics = { ruling_party = communism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
 
-set_variable = { APDC_prime_minister_character = token:CHL_lord_adolf_augusta }
+}
+if = {
+limit = { has_government = socialism }
+set_politics = { ruling_party = socialism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = social_democracy }
+set_politics = { ruling_party = social_democracy last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = liberalism }
+set_politics = { ruling_party = liberalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = conservatism }
+set_politics = { ruling_party = conservatism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = authoritarianism }
+set_politics = { ruling_party = authoritarianism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = dictatorship }
+set_politics = { ruling_party = dictatorship last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = fascism }
+set_politics = { ruling_party = fascism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = fundamentalism }
+set_politics = { ruling_party = fundamentalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}

@@ -1,18 +1,16 @@
-state = {
-	id = 1364
-	name = "STATE_1364"
-	provinces = {
-		4445
-		7629
-		9675
+state={
+	id=1364
+	name="STATE_1364"
+	resources={
+		steel=1
 	}
-	manpower = 720404
-	resources = {
-		steel = 1
+	provinces={
+		4445 7629 9675 13158
 	}
-	buildings_max_level_factor = 1
-	local_supplies = 0
-	state_category = metropolis
+	manpower=960539
+	buildings_max_level_factor=1
+	state_category=metropolis
+	local_supplies=0
 	history = {
 		owner = USA
 		controller = USA

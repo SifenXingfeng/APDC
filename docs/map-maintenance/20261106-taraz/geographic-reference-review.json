@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "affected_states": [
+    586,
+    881,
+    1646
+  ],
+  "nested_date_or_conditional_history": [],
+  "country_histories_and_capitals_unchanged": true,
+  "new_state_sources": {
+    "1646": {
+      "586": 4,
+      "881": 1
+    }
+  },
+  "reference_changes": [
+    {
+      "file": "common/scripted_triggers/GER_scripted_triggers.txt",
+      "group": "GER_is_RKT_state",
+      "added": [
+        1646
+      ],
+      "primary_sources": {
+        "1646": 586
+      },
+      "reason": "New Taraz subdivision inherits the existing geographic group of its main source; original gameplay conditions retained"
+    }
+  ],
+  "other_numeric_uses": "French grammatical tables and array/ship/division indices retained in their own namespaces; no blanket numeric replacement"
+}

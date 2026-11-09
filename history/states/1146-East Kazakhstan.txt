@@ -1,28 +1,21 @@
-state = {
-	id = 1146
-	name = "STATE_1146"
-	provinces = {
-		1749
-		1818
-		10610
-		12427
-		12662
-		13151
+state={
+	id=1146
+	name="STATE_1146"
+	resources={ chromium = 6 }
+	provinces={
+		1749 1818 1864 4674 7784 7890 10610 12427 12564 12662 13151 
 	}
-	manpower = 128764
-	resources = {
-		chromium = 3
-	}
-	buildings_max_level_factor = 1
-	local_supplies = 0
-	state_category = rural
+	manpower=236067
+	buildings_max_level_factor=1
+	state_category=rural
+	local_supplies=0
 	history = {
 		owner = SOV
 		controller = SOV
 		add_core_of = SOV
+		set_state_flag = state_renamings
 		buildings = {
 			infrastructure = 2
 		}
-		set_state_flag = state_renamings
 	}
 }

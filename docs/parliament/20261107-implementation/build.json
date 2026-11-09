@@ -1,0 +1,26 @@
+{
+  "status": "implemented_and_verified",
+  "backup": "D:\\C-Drive-Migration-20260929\\Permanent\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\.codex_backups\\APDC\\20261107-112803-parliament-implementation",
+  "law_groups": 6,
+  "law_options": 43,
+  "seats": 500,
+  "candidates": 231,
+  "source_settings": {
+    "schema_version": 1,
+    "member_cost": 150,
+    "chief_cost": 300,
+    "proposal_cost": 150,
+    "balance_status": "member_cost_preserves_existing; chief_and_proposal_costs_are_adjustable_initial_values",
+    "manpower_mode": {
+      "monthly": "population",
+      "weekly": "population"
+    },
+    "manpower_interpretation_status": "user_confirmed_20261107",
+    "manpower_interpretation_note": "感染者每月人力与遗迹每周人力均为每月人口增长率修正；后者为笔误，不结算人力池。",
+    "remainder_tie_support_basis": "unmodified_popularity",
+    "trait_note": "Existing member effects are preserved. Unspecified chief traits are empty authoring entries; no invented extra bonus."
+  },
+  "static_checks": 29,
+  "runtime_checks": 31,
+  "reload_checks": 3
+}

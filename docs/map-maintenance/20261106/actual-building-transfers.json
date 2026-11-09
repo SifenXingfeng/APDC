@@ -1,0 +1,41 @@
+{
+  "moves": [
+    {
+      "from": 213,
+      "to": 722,
+      "province": 9165,
+      "kind": "air_base",
+      "level": 1
+    },
+    {
+      "from": 213,
+      "to": 722,
+      "province": 9165,
+      "kind": "air_base",
+      "level": 1
+    },
+    {
+      "from": 213,
+      "to": 722,
+      "province": 3134,
+      "kind": "province_buildings"
+    },
+    {
+      "from": 609,
+      "to": 1039,
+      "province": 11822,
+      "kind": "synthetic_refinery",
+      "level": 1
+    },
+    {
+      "from": 722,
+      "to": 213,
+      "province": 9140,
+      "kind": "province_buildings"
+    }
+  ],
+  "air_base_state_mapping": {
+    "213": 722
+  },
+  "rule": "Occupied model anchors/attached province retain location; infrastructure inherited separately, no new actual industry"
+}

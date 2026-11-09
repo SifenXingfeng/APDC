@@ -1,7 +1,8 @@
 characters = {
 	AMZ_duncan_general = {
 		name = AMZ_duncan_general
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_4 } }
+		portraits = { civilian = {
+				large = GFX_APDC_south_america_generic_political_male_4  } }
 		country_leader = {
 			ideology = military_political_communism
 			traits = { }
@@ -12,7 +13,8 @@ characters = {
 
 	AMZ_garcia_salvador = {
 		name = AMZ_garcia_salvador
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_2 } }
+		portraits = { civilian = {
+				large = GFX_APDC_south_america_generic_political_male_2  } }
 		country_leader = {
 			ideology = syndicalism
 			traits = { }
@@ -23,7 +25,8 @@ characters = {
 
 	AMZ_taylor_hawke = {
 		name = AMZ_taylor_hawke
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_7 } }
+		portraits = { civilian = {
+				large = GFX_APDC_south_america_generic_political_male_7  } }
 		country_leader = {
 			ideology = frontier_progressivism
 			traits = { }
@@ -34,7 +37,8 @@ characters = {
 
 	AMZ_namara_cochran = {
 		name = AMZ_namara_cochran
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_female_2 } }
+		portraits = { civilian = {
+				large = GFX_APDC_south_america_generic_political_female_2  } }
 		country_leader = {
 			ideology = populist_conservatism
 			traits = { }
@@ -45,7 +49,7 @@ characters = {
 
 	AMZ_hokeler_bowie = {
 		name = AMZ_hokeler_bowie
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_3 } }
+		portraits = { civilian = { large = GFX_APDC_document_AMZ_hokeler_bowie } }
 		country_leader = {
 			ideology = anarcho_capitalism
 			traits = { }
@@ -56,7 +60,7 @@ characters = {
 
 	AMZ_eric_bordeaux_authoritarianism = {
 		name = AMZ_eric_bordeaux_authoritarianism
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_1 } }
+		portraits = { civilian = { large = GFX_APDC_document_AMZ_eric_bordeaux_authoritarianism } }
 		country_leader = {
 			ideology = transitional_government
 			traits = { }
@@ -67,7 +71,7 @@ characters = {
 
 	AMZ_eric_bordeaux_dictatorship = {
 		name = AMZ_eric_bordeaux_dictatorship
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_1 } }
+		portraits = { civilian = { large = GFX_APDC_document_AMZ_eric_bordeaux_dictatorship } }
 		country_leader = {
 			ideology = military_junta
 			traits = { }
@@ -78,7 +82,8 @@ characters = {
 
 	AMZ_cid_general = {
 		name = AMZ_cid_general
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_5 } }
+		portraits = { civilian = {
+				large = GFX_APDC_south_america_generic_political_male_5  } }
 		country_leader = {
 			ideology = military_political_fascism
 			traits = { }
@@ -89,7 +94,8 @@ characters = {
 
 	AMZ_disorder = {
 		name = AMZ_disorder
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_8 } }
+		portraits = { civilian = {
+				large = GFX_APDC_south_america_generic_political_male_8  } }
 		country_leader = {
 			ideology = mysticism
 			traits = { }

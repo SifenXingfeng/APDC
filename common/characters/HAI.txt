@@ -1,7 +1,8 @@
 characters = {
 	HAI_mirlande_dieudonne = {
 		name = HAI_mirlande_dieudonne
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_female_5 } }
+		portraits = { civilian = {
+				large = GFX_APDC_south_america_generic_political_female_5  } }
 		country_leader = {
 			ideology = anarcho_communism
 			traits = { }
@@ -12,7 +13,8 @@ characters = {
 
 	HAI_general_toussaint = {
 		name = HAI_general_toussaint
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_5 } }
+		portraits = { civilian = {
+				large = GFX_APDC_south_america_generic_political_male_5  } }
 		country_leader = {
 			ideology = bolivarianism
 			traits = { }
@@ -23,7 +25,8 @@ characters = {
 
 	HAI_huey_laudor = {
 		name = HAI_huey_laudor
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_3 } }
+		portraits = { civilian = {
+				large = GFX_APDC_south_america_generic_political_male_3  } }
 		country_leader = {
 			ideology = left_agrarianism
 			traits = { }
@@ -34,7 +37,8 @@ characters = {
 
 	HAI_boss_henri = {
 		name = HAI_boss_henri
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_1 } }
+		portraits = { civilian = {
+				large = GFX_APDC_south_america_generic_political_male_1  } }
 		country_leader = {
 			ideology = oligarchic_liberalism
 			traits = { }
@@ -45,7 +49,8 @@ characters = {
 
 	HAI_kingpin_damballa = {
 		name = HAI_kingpin_damballa
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_7 } }
+		portraits = { civilian = {
+				large = GFX_APDC_south_america_generic_political_male_7  } }
 		country_leader = {
 			ideology = anarcho_capitalism
 			traits = { }
@@ -56,7 +61,7 @@ characters = {
 
 	HAI_shamar_ingel = {
 		name = HAI_shamar_ingel
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_4 } }
+		portraits = { civilian = { large = GFX_APDC_document_HAI_shamar_ingel } }
 		country_leader = {
 			ideology = transitional_government
 			traits = { }
@@ -67,7 +72,8 @@ characters = {
 
 	HAI_robert_ivan = {
 		name = HAI_robert_ivan
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_8 } }
+		portraits = { civilian = {
+				large = GFX_APDC_south_america_generic_political_male_8  } }
 		country_leader = {
 			ideology = military_state
 			traits = { }
@@ -78,7 +84,8 @@ characters = {
 
 	HAI_chef_ogun = {
 		name = HAI_chef_ogun
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_2 } }
+		portraits = { civilian = {
+				large = GFX_APDC_south_america_generic_political_male_2  } }
 		country_leader = {
 			ideology = criminal_state
 			traits = { }
@@ -89,7 +96,8 @@ characters = {
 
 	HAI_duvalier_iii = {
 		name = HAI_duvalier_iii
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_6 } }
+		portraits = { civilian = {
+				large = GFX_APDC_south_america_generic_political_male_6  } }
 		country_leader = {
 			ideology = esoteric_theocracy
 			traits = { }

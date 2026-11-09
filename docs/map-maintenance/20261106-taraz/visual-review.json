@@ -1,0 +1,21 @@
+{
+  "reviewed": true,
+  "capture_count": 3,
+  "images": [
+    "runtime-world.png",
+    "runtime-SOV-detail.png",
+    "runtime-world-return.png"
+  ],
+  "world": "GER red; FRA/LLU blue; other owners gray; ZZZ black with red external borders; no all-red or all-state-border initialization regression",
+  "SOV_detail": "Current owning-country core shape is centered and filled with the original SOV map color, with country/state boundaries displayed; actual detail count is 228 and includes new state 1646",
+  "SOV_core_detail_count": 228,
+  "new_Taraz_included": true,
+  "return": "Returned world map visually matches first open; exact world-area equality verified in visual-asset-audit.json",
+  "native_size": [
+    1920,
+    1080
+  ],
+  "input_desktop_switched": false,
+  "mouse_keyboard_sent": false,
+  "scope": "Three native private-window captures inspected; not a manual hover/click/all-zoom or main-map art review"
+}

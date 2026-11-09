@@ -1,0 +1,21 @@
+state={
+	id=1596
+	name="STATE_1596"
+	provinces={
+		1707 4737 5426 5719 7828 10524 10596 14353 14462 15056 
+	}
+	manpower=251746
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+	}
+	resources = { aluminium = 2 steel = 7 }
+	state_category = rural
+}

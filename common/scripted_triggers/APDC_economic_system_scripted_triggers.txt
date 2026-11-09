@@ -1,13 +1,16 @@
 APDC_has_economic_system = {
-	OR = {
-		has_idea = APDC_economic_system_traditional_agriculture_idea
-		has_idea = APDC_economic_system_dependent_economy_idea
-		has_idea = APDC_economic_system_free_market_idea
-		has_idea = APDC_economic_system_mixed_market_idea
-		has_idea = APDC_economic_system_state_guided_idea
-		has_idea = APDC_economic_system_state_capitalism_idea
-		has_idea = APDC_economic_system_market_socialism_idea
-		has_idea = APDC_economic_system_decentralized_planning_idea
-		has_idea = APDC_economic_system_central_planning_idea
-	}
+OR = { has_idea = APDC_economic_system_bandit_economy_idea has_idea = APDC_economic_system_traditional_agriculture_idea has_idea = APDC_economic_system_dependent_economy_idea has_idea = APDC_economic_system_free_market_idea has_idea = APDC_economic_system_mixed_market_idea has_idea = APDC_economic_system_state_guided_idea has_idea = APDC_economic_system_state_capitalism_idea has_idea = APDC_economic_system_market_socialism_idea has_idea = APDC_economic_system_decentralized_planning_idea has_idea = APDC_economic_system_central_planning_idea }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

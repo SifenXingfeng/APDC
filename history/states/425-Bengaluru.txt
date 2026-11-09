@@ -1,0 +1,36 @@
+state={
+	id=425
+	name="STATE_425"
+	resources={ chromium = 7 steel = 9 }
+	provinces={
+		1412 4315 4344 8011 8100 12146 18874 19005 
+	}
+	manpower=4765091
+	buildings_max_level_factor=1
+	state_category=rural
+	local_supplies=0
+	history = {
+		owner = MYS
+		controller = MYS
+		add_core_of = IPL
+		add_core_of = MYS
+		add_core_of = RAJ
+
+		
+		
+		
+		set_state_flag = GDP_regions_karnataka
+		victory_points = { 1412 3 }
+		victory_points = { 4315 10 }
+		victory_points = { 4344 1 }
+		victory_points = { 8011 50 }
+		victory_points = { 8100 1 }
+		victory_points = { 12146 3 }
+		victory_points = { 18874 1 }
+		victory_points = { 19005 2 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+}

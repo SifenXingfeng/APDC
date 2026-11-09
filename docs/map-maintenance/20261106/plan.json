@@ -1,0 +1,585 @@
+{
+  "checkpoint": {
+    "date": "2026-11-04",
+    "report": "docs/map-maintenance/20261104-central-asia-caucasus",
+    "state_history_archive": "docs/map-maintenance/20261104-central-asia-caucasus/states-checkpoint.zip",
+    "state_history_sha256": "3c4bb9a00276bac1555ff60621d489d01f5359aa2eafc0d8584d2694eee618ff",
+    "political_relations": "tools/map_maintenance/baseline/initial_territories.json",
+    "state_index": "tools/map_maintenance/baseline/current_state_files.json",
+    "cold_war_geometry": "docs/cold-war/20261024/geometry.json",
+    "cold_war_geometry_sha256": "f38cb77e3ad54d6c29488b7ce37833c1dc92883e59c934b0ed3532b27db78626",
+    "runtime": "GER 2060.2.1.1; all 1644 state relations checked; world/SOV/return reviewed; own game/helpers stopped",
+    "runtime_report": "docs/map-maintenance/20261104-central-asia-caucasus/runtime-audit.json",
+    "visual_report": "docs/map-maintenance/20261104-central-asia-caucasus/visual-review.json",
+    "backup": "D:\\C-Drive-Migration-20260929\\Permanent\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\.codex_backups\\APDC\\20261104-201944-central-asia-caucasus-map-finish",
+    "previous_report": "docs/map-maintenance/20261104-city-alignment",
+    "geography_backup": "D:\\C-Drive-Migration-20260929\\Permanent\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\.codex_backups\\APDC\\20261104-201944-central-asia-caucasus-map-finish",
+    "railways": "map/railways.txt",
+    "railways_sha256": "6a7041946d29790fa867abb5999775344433e8741943e6effe81826709bea29c",
+    "railways_checkpoint": "docs/map-maintenance/20261027-railways/railways-checkpoint.txt",
+    "map_checkpoint_archive": "docs/map-maintenance/20261104-central-asia-caucasus/map-checkpoint.zip",
+    "map_checkpoint_sha256": "efee12170190b0e4c71c3965a40e8dac4a1fbb8fd36a7a3d595277e9b902e7b7",
+    "states": 1644,
+    "south_asia_identity": "tools/map_maintenance/baseline/south_asia_identity_20261102.json",
+    "city_review": "docs/map-maintenance/20261104-central-asia-caucasus/city-review.json"
+  },
+  "backup": "D:\\C-Drive-Migration-20260929\\Permanent\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\.codex_backups\\APDC\\20261106-131512-finland-gongsang-map-finish",
+  "new_states": [
+    1645
+  ],
+  "affected_states": [
+    40,
+    147,
+    148,
+    213,
+    215,
+    586,
+    588,
+    609,
+    654,
+    722,
+    732,
+    742,
+    881,
+    998,
+    999,
+    1039,
+    1146,
+    1147,
+    1148,
+    1150,
+    1304,
+    1637,
+    1640,
+    1645
+  ],
+  "province_transfers": [
+    {
+      "province": 98,
+      "from": 213,
+      "to": 722
+    },
+    {
+      "province": 116,
+      "from": 213,
+      "to": 722
+    },
+    {
+      "province": 197,
+      "from": 147,
+      "to": 213
+    },
+    {
+      "province": 1864,
+      "from": 588,
+      "to": 1146
+    },
+    {
+      "province": 2058,
+      "from": 1637,
+      "to": 1148
+    },
+    {
+      "province": 3012,
+      "from": 213,
+      "to": 722
+    },
+    {
+      "province": 3026,
+      "from": 1304,
+      "to": 147
+    },
+    {
+      "province": 3121,
+      "from": 213,
+      "to": 722
+    },
+    {
+      "province": 3134,
+      "from": 213,
+      "to": 722
+    },
+    {
+      "province": 3153,
+      "from": 1304,
+      "to": 147
+    },
+    {
+      "province": 3170,
+      "from": 213,
+      "to": 722
+    },
+    {
+      "province": 4210,
+      "from": 999,
+      "to": 1645
+    },
+    {
+      "province": 4674,
+      "from": 588,
+      "to": 1146
+    },
+    {
+      "province": 6012,
+      "from": 722,
+      "to": 213
+    },
+    {
+      "province": 6045,
+      "from": 1304,
+      "to": 147
+    },
+    {
+      "province": 6140,
+      "from": 213,
+      "to": 722
+    },
+    {
+      "province": 6183,
+      "from": 722,
+      "to": 213
+    },
+    {
+      "province": 6194,
+      "from": 213,
+      "to": 722
+    },
+    {
+      "province": 7680,
+      "from": 40,
+      "to": 654
+    },
+    {
+      "province": 7784,
+      "from": 588,
+      "to": 1146
+    },
+    {
+      "province": 7890,
+      "from": 588,
+      "to": 1146
+    },
+    {
+      "province": 8063,
+      "from": 998,
+      "to": 1150
+    },
+    {
+      "province": 9059,
+      "from": 213,
+      "to": 722
+    },
+    {
+      "province": 9115,
+      "from": 213,
+      "to": 722
+    },
+    {
+      "province": 9140,
+      "from": 722,
+      "to": 213
+    },
+    {
+      "province": 9158,
+      "from": 147,
+      "to": 215
+    },
+    {
+      "province": 9165,
+      "from": 213,
+      "to": 722
+    },
+    {
+      "province": 9179,
+      "from": 213,
+      "to": 722
+    },
+    {
+      "province": 9201,
+      "from": 213,
+      "to": 722
+    },
+    {
+      "province": 9215,
+      "from": 213,
+      "to": 722
+    },
+    {
+      "province": 9217,
+      "from": 213,
+      "to": 722
+    },
+    {
+      "province": 11085,
+      "from": 147,
+      "to": 213
+    },
+    {
+      "province": 11088,
+      "from": 213,
+      "to": 722
+    },
+    {
+      "province": 11117,
+      "from": 213,
+      "to": 722
+    },
+    {
+      "province": 11140,
+      "from": 213,
+      "to": 722
+    },
+    {
+      "province": 11142,
+      "from": 722,
+      "to": 213
+    },
+    {
+      "province": 11196,
+      "from": 213,
+      "to": 722
+    },
+    {
+      "province": 11822,
+      "from": 609,
+      "to": 1039
+    },
+    {
+      "province": 12564,
+      "from": 588,
+      "to": 1146
+    },
+    {
+      "province": 15540,
+      "from": 1637,
+      "to": 1148
+    },
+    {
+      "province": 15583,
+      "from": 1304,
+      "to": 147
+    },
+    {
+      "province": 18645,
+      "from": 732,
+      "to": 1640
+    },
+    {
+      "province": 18656,
+      "from": 1147,
+      "to": 742
+    },
+    {
+      "province": 18672,
+      "from": 1637,
+      "to": 1148
+    },
+    {
+      "province": 19799,
+      "from": 1039,
+      "to": 609
+    }
+  ],
+  "cleared_histories": [
+    1039,
+    1146,
+    1147,
+    1148,
+    1150,
+    1304,
+    147,
+    148,
+    1637,
+    1640,
+    213,
+    215,
+    40,
+    586,
+    588,
+    609,
+    654,
+    722,
+    732,
+    742,
+    881,
+    998,
+    999
+  ],
+  "cleared_unchanged_history_restored": [
+    148,
+    586,
+    881
+  ],
+  "state_sources": {
+    "40": {
+      "40": 5
+    },
+    "147": {
+      "1304": 4
+    },
+    "148": {
+      "148": 34
+    },
+    "213": {
+      "213": 14,
+      "147": 2,
+      "722": 4
+    },
+    "215": {
+      "215": 44,
+      "147": 1
+    },
+    "586": {
+      "586": 9
+    },
+    "588": {
+      "588": 11
+    },
+    "609": {
+      "609": 3,
+      "1039": 1
+    },
+    "654": {
+      "654": 13,
+      "40": 1
+    },
+    "722": {
+      "213": 19
+    },
+    "732": {
+      "732": 5
+    },
+    "742": {
+      "742": 7,
+      "1147": 1
+    },
+    "881": {
+      "881": 35
+    },
+    "998": {
+      "998": 21
+    },
+    "999": {
+      "999": 19
+    },
+    "1039": {
+      "1039": 29,
+      "609": 1
+    },
+    "1146": {
+      "1146": 6,
+      "588": 5
+    },
+    "1147": {
+      "1147": 6
+    },
+    "1148": {
+      "1637": 3,
+      "1148": 4
+    },
+    "1150": {
+      "1150": 12,
+      "998": 1
+    },
+    "1304": {
+      "1304": 8
+    },
+    "1637": {
+      "1637": 2
+    },
+    "1640": {
+      "1640": 10,
+      "732": 1
+    },
+    "1645": {
+      "999": 1
+    }
+  },
+  "economy_totals": {
+    "source_population": 2100007447,
+    "exact_population": "2100007447",
+    "rounded_population": 2100007473,
+    "population_rounding_difference": 26,
+    "resources": {
+      "aluminium": {
+        "source": "1197",
+        "exact": "1197",
+        "rounded": 1196,
+        "rounding_difference": "-1"
+      },
+      "chromium": {
+        "source": "1335",
+        "exact": "1335",
+        "rounded": 1339,
+        "rounding_difference": "4"
+      },
+      "coal": {
+        "source": "1438",
+        "exact": "1438",
+        "rounded": 1436,
+        "rounding_difference": "-2"
+      },
+      "oil": {
+        "source": "1192",
+        "exact": "1192",
+        "rounded": 1192,
+        "rounding_difference": "0"
+      },
+      "rubber": {
+        "source": "1073",
+        "exact": "1073",
+        "rounded": 1074,
+        "rounding_difference": "1"
+      },
+      "steel": {
+        "source": "2591",
+        "exact": "2591",
+        "rounded": 2588,
+        "rounding_difference": "-3"
+      },
+      "tungsten": {
+        "source": "1325",
+        "exact": "1325",
+        "rounded": 1323,
+        "rounding_difference": "-2"
+      }
+    }
+  },
+  "strategic_editor_changes": [
+    {
+      "region": 12,
+      "source": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\12-Northern Scandinavia.txt",
+      "removed": [
+        98,
+        116,
+        3012,
+        3121,
+        3134,
+        3170,
+        6140,
+        6194,
+        9059,
+        9115,
+        9165,
+        9179,
+        9201,
+        9215,
+        9217,
+        11088,
+        11117,
+        11140,
+        11196
+      ],
+      "added": [
+        197,
+        6012,
+        6183,
+        9140,
+        11085,
+        11142
+      ]
+    },
+    {
+      "region": 143,
+      "source": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\143-Eastern China.txt",
+      "removed": [
+        11822
+      ],
+      "added": [
+        19799
+      ]
+    },
+    {
+      "region": 244,
+      "source": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\244-Chahar.txt",
+      "removed": [
+        19799
+      ],
+      "added": [
+        11822
+      ]
+    },
+    {
+      "region": 265,
+      "source": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\265-East Karelia.txt",
+      "removed": [],
+      "added": [
+        9158
+      ]
+    },
+    {
+      "region": 277,
+      "source": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\277-Northern Finland.txt",
+      "removed": [
+        197,
+        6012,
+        6183,
+        9140,
+        9158,
+        11085,
+        11142
+      ],
+      "added": [
+        98,
+        116,
+        3012,
+        3121,
+        3134,
+        3170,
+        6140,
+        6194,
+        9059,
+        9115,
+        9165,
+        9179,
+        9201,
+        9215,
+        9217,
+        11088,
+        11117,
+        11140,
+        11196
+      ]
+    },
+    {
+      "region": 292,
+      "source": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\292-Shan States.txt",
+      "removed": [
+        4210
+      ],
+      "added": []
+    }
+  ],
+  "strategic_duplicates": [],
+  "editor_cutoff": "2026-11-04T20:41:17.7868460+08:00",
+  "older_editor_outputs_ignored": [
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\134-Caucasus Region.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\137-Western Steppe.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\138-Ural Region.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\14-TransUrals.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\147-Siberian Region.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\149-Eastern Siberia.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\151-Western Siberia.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\152-Central Steppe.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\153-Northern India.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\197-New England.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\230-Cape Comorin.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\231-Coromandel Coast.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\254-Thar Desert.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\255-Amur.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\256-Transbaikal.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\257-Northern Far East.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\258-Okhotsk.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\259-Sakha.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\260-Western Sakha.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\262-Central Siberia.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\263-Eastern Nenetsia.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\266-Uriankhai.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\267-Tanscaspia.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\270-Syr Darya.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\28-Middle East.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\290-Bengal.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\296-Gujarat.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\31-Indian Area.txt"
+  ]
+}

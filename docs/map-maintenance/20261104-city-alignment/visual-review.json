@@ -1,0 +1,25 @@
+{
+  "reviewed": true,
+  "capture_count": 3,
+  "review_date": "2026-11-04",
+  "runtime_pid": 32508,
+  "method": "Viewed all three full-resolution native PrintWindow captures from the isolated ordinary GER run; no input desktop switch or mouse/keyboard input.",
+  "captures": [
+    {
+      "file": "runtime-world.png",
+      "observation": "World map is populated with the expected red GER, blue FRA/LLU, grey non-intervention territories and black ZZZ areas. No blank or all-red first-open regression."
+    },
+    {
+      "file": "runtime-SOV-detail.png",
+      "observation": "SOV core territory displays in its country colour with internal state borders, country information and autonomous pie. The updated per-state masks have separately passed the exact geography comparison."
+    },
+    {
+      "file": "runtime-world-return.png",
+      "observation": "Returning restores the world map. The 1000 by 500 map rectangle exactly matches the first world capture."
+    }
+  ],
+  "limitations": [
+    "No claim of manual click/hover testing, all zoom levels or unrelated main-map art validation.",
+    "The existing error counter is visible. The complete runtime has 622 error-log lines, no relevant map/cold-war errors and no new signatures compared with the preceding completed run."
+  ]
+}

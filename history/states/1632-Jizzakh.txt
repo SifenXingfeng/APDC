@@ -1,0 +1,25 @@
+state={
+	id=1632
+	name="STATE_1632"
+	provinces={
+		4629 7682 7775 10671 15784 17962 18652 18669 18671 18680 
+	}
+	manpower=1208321
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		victory_points = { 7682 3 }
+		victory_points = { 10671 5 }
+		victory_points = { 18680 2 }
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			industrial_complex = 1
+		}
+	}
+	resources = {  }
+	state_category = rural
+}

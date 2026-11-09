@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "note": "Append stable source IDs and rebuild to expose every nonzero named source in native tooltips. NAME in story effects uses apdc_parl_source_<key>.",
+  "sources": [
+    {"id": 1, "key": "story", "name": "剧情影响"},
+    {"id": 2, "key": "policy", "name": "政策立场"},
+    {"id": 3, "key": "agreement", "name": "政治协议"}
+  ]
+}

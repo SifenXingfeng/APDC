@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "version": "Operation Postern v1.19.4.0.48d6 (b225)",
+  "date": "2060.2.1.1",
+  "player": "GER",
+  "save": "D:\\APDC_1194_QA_20261028\\save games\\autosave.hoi4",
+  "save_sha256": "2d7d40ebf4963b40e7c18b5ca5846f4812a2c83929ae3185ad7fa9af6a2613d0",
+  "state_count": 1558,
+  "relation_differences": [],
+  "economy_daily_ticks": 31.0,
+  "economy_weekly_settlements": 4.0,
+  "state_scope_array_validation": [
+    "[13:10:40][2060.01.01.23]: APDC_1194_QA READY date= 23:00, 1 1月, 2060 economy_days=1 USA_core_states=86 detail_pieces=103"
+  ],
+  "new_distinct_errors_vs_previous_1_19_3": [],
+  "existing_error_log_lines": 598,
+  "user_settings_or_autosaves_changed": [],
+  "process": {
+    "path": "D:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\hoi4.exe",
+    "input_desktop_switched": false,
+    "command": "\"D:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\hoi4.exe\" -userdir=D:/APDC_1194_QA_20261028 -start_tag=GER -start_speed=3 -gamelog -debug",
+    "started": "2026-10-28T13:08:19.3082711+08:00",
+    "pid": 4992,
+    "desktop": "APDC_PerformanceQA_20261028_130819",
+    "job_kill_on_close": true,
+    "profile": "D:/APDC_1194_QA_20261028",
+    "debug_mode": true
+  },
+  "stop": {
+    "still_running": false,
+    "stopped": "2026-10-28T13:12:20.6387402+08:00",
+    "steam_app_running": false,
+    "remaining_helpers": [],
+    "pid": 4992,
+    "closed_helpers": [
+      37800,
+      11420
+    ]
+  },
+  "enabled_mods": {
+    "enabled_mods": [
+      "mod/APDC.mod",
+      "mod/APDC_1194_QA.mod"
+    ],
+    "disabled_dlcs": []
+  },
+  "cold_war_state_math_visual_review": "runtime-state-math-review.png captured in second diagnostic attempt; no geography or Cold War rendering files changed between attempts",
+  "native_new_buttons_mouse_tested": false,
+  "input_desktop_switched": false,
+  "mouse_or_keyboard_sent": false
+}

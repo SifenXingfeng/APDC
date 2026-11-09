@@ -8,6 +8,10 @@ from PIL import Image
 def run(profile):
     record=json.loads((profile/'silent-process.json').read_text('utf-8-sig'))
     u=C.WinDLL('user32',use_last_error=True);g=C.WinDLL('gdi32',use_last_error=True)
+    # GetClientRect is DPI-virtualized for an unaware helper, whereas
+    # PrintWindow draws device pixels. Use matching coordinates to avoid a
+    # 150%-DPI desktop silently cropping a 1920x1080 window to 1280x720.
+    u.SetProcessDPIAware()
     u.OpenDesktopW.argtypes=[W.LPCWSTR,W.DWORD,W.BOOL,W.DWORD];u.OpenDesktopW.restype=W.HANDLE
     u.SetThreadDesktop.argtypes=[W.HANDLE];u.SetThreadDesktop.restype=W.BOOL
     u.CloseDesktop.argtypes=[W.HANDLE]

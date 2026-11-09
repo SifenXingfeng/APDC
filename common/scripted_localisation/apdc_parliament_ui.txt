@@ -1,0 +1,1652 @@
+defined_text = {
+name = ApdcParlAssemblyName
+text = {
+trigger = { check_variable = { apdc_parl_regime = 1 } }
+localization_key = apdc_parl_assembly_1
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 2 } }
+localization_key = apdc_parl_assembly_2
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 3 } }
+localization_key = apdc_parl_assembly_3
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 4 } }
+localization_key = apdc_parl_assembly_4
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 5 } }
+localization_key = apdc_parl_assembly_5
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 6 } }
+localization_key = apdc_parl_assembly_6
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 7 } }
+localization_key = apdc_parl_assembly_7
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 8 } }
+localization_key = apdc_parl_assembly_8
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 9 } }
+localization_key = apdc_parl_assembly_9
+}
+text = {
+localization_key = apdc_parl_assembly_4
+}
+
+}
+defined_text = {
+name = ApdcParlRegimeIcon
+text = {
+trigger = { check_variable = { apdc_parl_regime = 1 } }
+localization_key = GFX_apdc_parl_regime_absolute_monarchy
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 2 } }
+localization_key = GFX_apdc_parl_regime_dual_monarchy
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 3 } }
+localization_key = GFX_apdc_parl_regime_constitutional_monarchy
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 4 } }
+localization_key = GFX_apdc_parl_regime_parliamentary_republic
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 5 } }
+localization_key = GFX_apdc_parl_regime_presidential
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 6 } }
+localization_key = GFX_apdc_parl_regime_semi_presidential
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 7 } }
+localization_key = GFX_apdc_parl_regime_one_party_republic
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 8 } }
+localization_key = GFX_apdc_parl_regime_military_government
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 9 } }
+localization_key = GFX_apdc_parl_regime_committee
+}
+text = {
+localization_key = GFX_apdc_parl_regime_parliamentary_republic
+}
+
+}
+defined_text = {
+name = ApdcParlRegimeTooltip
+text = {
+trigger = { check_variable = { apdc_parl_regime = 1 } }
+localization_key = apdc_parl_regime_tip_1
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 2 } }
+localization_key = apdc_parl_regime_tip_2
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 3 } }
+localization_key = apdc_parl_regime_tip_3
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 4 } }
+localization_key = apdc_parl_regime_tip_4
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 5 } }
+localization_key = apdc_parl_regime_tip_5
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 6 } }
+localization_key = apdc_parl_regime_tip_6
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 7 } }
+localization_key = apdc_parl_regime_tip_7
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 8 } }
+localization_key = apdc_parl_regime_tip_8
+}
+text = {
+trigger = { check_variable = { apdc_parl_regime = 9 } }
+localization_key = apdc_parl_regime_tip_9
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlElectionDate
+text = {
+trigger = { check_variable = { apdc_parl_elections_enabled = 0 } }
+localization_key = apdc_parl_no_elections
+}
+text = {
+localization_key = apdc_parl_election_date
+}
+
+}
+defined_text = {
+name = ApdcParlStageName
+text = {
+trigger = { check_variable = { apdc_parl_stage = 1 } }
+localization_key = apdc_parl_stage_1
+}
+text = {
+trigger = { check_variable = { apdc_parl_stage = 2 } }
+localization_key = apdc_parl_stage_2
+}
+text = {
+trigger = { check_variable = { apdc_parl_stage = 3 } }
+localization_key = apdc_parl_stage_3
+}
+text = {
+localization_key = apdc_parl_stage_0
+}
+
+}
+defined_text = {
+name = ApdcParlSupportColor
+text = {
+trigger = { check_variable = { apdc_parl_support > 0 } }
+localization_key = apdc_parl_green
+}
+text = {
+trigger = { check_variable = { apdc_parl_support < 0 } }
+localization_key = apdc_parl_red
+}
+text = {
+localization_key = apdc_parl_yellow
+}
+
+}
+defined_text = {
+name = ApdcParlRemaining
+text = {
+trigger = { check_variable = { apdc_parl_agenda = 0 } }
+localization_key = apdc_parl_stage_0
+}
+text = {
+trigger = { NOT = { check_variable = { apdc_parl_support_speed > 0 } } }
+localization_key = apdc_parl_paused
+}
+text = {
+localization_key = apdc_parl_remaining_days
+}
+
+}
+defined_text = {
+name = ApdcParlAppointmentCost
+text = {
+trigger = { check_variable = { apdc_parl_selected_role = 7 } check_variable = { apdc_parl_free_prime = 1 } }
+localization_key = apdc_parl_cost_free
+}
+text = {
+trigger = { check_variable = { apdc_parl_selected_role = 8 } check_variable = { apdc_parl_free_deputy = 1 } }
+localization_key = apdc_parl_cost_free
+}
+text = {
+trigger = { check_variable = { apdc_parl_selected_role > 6 } }
+localization_key = apdc_parl_cost_chief
+}
+text = {
+localization_key = apdc_parl_cost_member
+}
+
+}
+defined_text = {
+name = ApdcParlProposalCost
+text = {
+trigger = { has_political_power < 150 }
+localization_key = apdc_parl_proposal_cost_short
+}
+text = {
+localization_key = apdc_parl_proposal_cost_enough
+}
+
+}
+defined_text = {
+name = ApdcParlSelectedOffice
+text = {
+trigger = { check_variable = { apdc_parl_selected_role = 7 } }
+localization_key = apdc_parl_prime
+}
+text = {
+trigger = { check_variable = { apdc_parl_selected_role = 8 } }
+localization_key = apdc_parl_deputy
+}
+text = {
+localization_key = apdc_parl_member
+}
+
+}
+defined_text = {
+name = ApdcParlSpecialName
+text = {
+localization_key = [?apdc_parl_special_names^apdc_parl_special_context.GetTokenKey]
+}
+
+}
+defined_text = {
+name = ApdcParlSpecialDescription
+text = {
+localization_key = [?apdc_parl_special_descriptions^apdc_parl_special_context.GetTokenKey]
+}
+
+}
+defined_text = {
+name = ApdcParlSpecialActiveName
+text = {
+localization_key = [?apdc_parl_special_active_name.GetTokenKey]
+}
+
+}
+defined_text = {
+name = ApdcParlBillName
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 1 } check_variable = { apdc_parl_bill_option = 1 } }
+localization_key = apdc_parl_law_doll_rights_1
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 1 } check_variable = { apdc_parl_bill_option = 2 } }
+localization_key = apdc_parl_law_doll_rights_2
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 1 } check_variable = { apdc_parl_bill_option = 3 } }
+localization_key = apdc_parl_law_doll_rights_3
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 1 } check_variable = { apdc_parl_bill_option = 4 } }
+localization_key = apdc_parl_law_doll_rights_4
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 1 } check_variable = { apdc_parl_bill_option = 5 } }
+localization_key = apdc_parl_law_doll_rights_5
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 1 } check_variable = { apdc_parl_bill_option = 6 } }
+localization_key = apdc_parl_law_doll_rights_6
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 1 } check_variable = { apdc_parl_bill_option = 7 } }
+localization_key = apdc_parl_law_doll_rights_7
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 2 } check_variable = { apdc_parl_bill_option = 1 } }
+localization_key = apdc_parl_law_infected_rights_1
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 2 } check_variable = { apdc_parl_bill_option = 2 } }
+localization_key = apdc_parl_law_infected_rights_2
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 2 } check_variable = { apdc_parl_bill_option = 3 } }
+localization_key = apdc_parl_law_infected_rights_3
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 2 } check_variable = { apdc_parl_bill_option = 4 } }
+localization_key = apdc_parl_law_infected_rights_4
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 2 } check_variable = { apdc_parl_bill_option = 5 } }
+localization_key = apdc_parl_law_infected_rights_5
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 2 } check_variable = { apdc_parl_bill_option = 6 } }
+localization_key = apdc_parl_law_infected_rights_6
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 3 } check_variable = { apdc_parl_bill_option = 1 } }
+localization_key = apdc_parl_law_women_rights_1
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 3 } check_variable = { apdc_parl_bill_option = 2 } }
+localization_key = apdc_parl_law_women_rights_2
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 3 } check_variable = { apdc_parl_bill_option = 3 } }
+localization_key = apdc_parl_law_women_rights_3
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 3 } check_variable = { apdc_parl_bill_option = 4 } }
+localization_key = apdc_parl_law_women_rights_4
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 3 } check_variable = { apdc_parl_bill_option = 5 } }
+localization_key = apdc_parl_law_women_rights_5
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 4 } check_variable = { apdc_parl_bill_option = 1 } }
+localization_key = apdc_parl_law_relic_technology_1
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 4 } check_variable = { apdc_parl_bill_option = 2 } }
+localization_key = apdc_parl_law_relic_technology_2
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 4 } check_variable = { apdc_parl_bill_option = 3 } }
+localization_key = apdc_parl_law_relic_technology_3
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 4 } check_variable = { apdc_parl_bill_option = 4 } }
+localization_key = apdc_parl_law_relic_technology_4
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 4 } check_variable = { apdc_parl_bill_option = 5 } }
+localization_key = apdc_parl_law_relic_technology_5
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 4 } check_variable = { apdc_parl_bill_option = 6 } }
+localization_key = apdc_parl_law_relic_technology_6
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 5 } check_variable = { apdc_parl_bill_option = 1 } }
+localization_key = apdc_parl_law_economic_system_1
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 5 } check_variable = { apdc_parl_bill_option = 2 } }
+localization_key = apdc_parl_law_economic_system_2
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 5 } check_variable = { apdc_parl_bill_option = 3 } }
+localization_key = apdc_parl_law_economic_system_3
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 5 } check_variable = { apdc_parl_bill_option = 4 } }
+localization_key = apdc_parl_law_economic_system_4
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 5 } check_variable = { apdc_parl_bill_option = 5 } }
+localization_key = apdc_parl_law_economic_system_5
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 5 } check_variable = { apdc_parl_bill_option = 6 } }
+localization_key = apdc_parl_law_economic_system_6
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 5 } check_variable = { apdc_parl_bill_option = 7 } }
+localization_key = apdc_parl_law_economic_system_7
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 5 } check_variable = { apdc_parl_bill_option = 8 } }
+localization_key = apdc_parl_law_economic_system_8
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 5 } check_variable = { apdc_parl_bill_option = 9 } }
+localization_key = apdc_parl_law_economic_system_9
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 5 } check_variable = { apdc_parl_bill_option = 10 } }
+localization_key = apdc_parl_law_economic_system_10
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 6 } check_variable = { apdc_parl_bill_option = 1 } }
+localization_key = apdc_parl_law_political_system_1
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 6 } check_variable = { apdc_parl_bill_option = 2 } }
+localization_key = apdc_parl_law_political_system_2
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 6 } check_variable = { apdc_parl_bill_option = 3 } }
+localization_key = apdc_parl_law_political_system_3
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 6 } check_variable = { apdc_parl_bill_option = 4 } }
+localization_key = apdc_parl_law_political_system_4
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 6 } check_variable = { apdc_parl_bill_option = 5 } }
+localization_key = apdc_parl_law_political_system_5
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 6 } check_variable = { apdc_parl_bill_option = 6 } }
+localization_key = apdc_parl_law_political_system_6
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 6 } check_variable = { apdc_parl_bill_option = 7 } }
+localization_key = apdc_parl_law_political_system_7
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 6 } check_variable = { apdc_parl_bill_option = 8 } }
+localization_key = apdc_parl_law_political_system_8
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 1 } check_variable = { apdc_parl_bill_target = 6 } check_variable = { apdc_parl_bill_option = 9 } }
+localization_key = apdc_parl_law_political_system_9
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 2 } check_variable = { apdc_parl_bill_target = 1 } }
+localization_key = apdc_parl_bill_ban_communism
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 3 } check_variable = { apdc_parl_bill_target = 1 } }
+localization_key = apdc_parl_bill_unban_communism
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 2 } check_variable = { apdc_parl_bill_target = 2 } }
+localization_key = apdc_parl_bill_ban_socialism
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 3 } check_variable = { apdc_parl_bill_target = 2 } }
+localization_key = apdc_parl_bill_unban_socialism
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 2 } check_variable = { apdc_parl_bill_target = 3 } }
+localization_key = apdc_parl_bill_ban_social_democracy
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 3 } check_variable = { apdc_parl_bill_target = 3 } }
+localization_key = apdc_parl_bill_unban_social_democracy
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 2 } check_variable = { apdc_parl_bill_target = 4 } }
+localization_key = apdc_parl_bill_ban_liberalism
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 3 } check_variable = { apdc_parl_bill_target = 4 } }
+localization_key = apdc_parl_bill_unban_liberalism
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 2 } check_variable = { apdc_parl_bill_target = 5 } }
+localization_key = apdc_parl_bill_ban_conservatism
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 3 } check_variable = { apdc_parl_bill_target = 5 } }
+localization_key = apdc_parl_bill_unban_conservatism
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 2 } check_variable = { apdc_parl_bill_target = 6 } }
+localization_key = apdc_parl_bill_ban_authoritarianism
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 3 } check_variable = { apdc_parl_bill_target = 6 } }
+localization_key = apdc_parl_bill_unban_authoritarianism
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 2 } check_variable = { apdc_parl_bill_target = 7 } }
+localization_key = apdc_parl_bill_ban_dictatorship
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 3 } check_variable = { apdc_parl_bill_target = 7 } }
+localization_key = apdc_parl_bill_unban_dictatorship
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 2 } check_variable = { apdc_parl_bill_target = 8 } }
+localization_key = apdc_parl_bill_ban_fascism
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 3 } check_variable = { apdc_parl_bill_target = 8 } }
+localization_key = apdc_parl_bill_unban_fascism
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 2 } check_variable = { apdc_parl_bill_target = 9 } }
+localization_key = apdc_parl_bill_ban_fundamentalism
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 3 } check_variable = { apdc_parl_bill_target = 9 } }
+localization_key = apdc_parl_bill_unban_fundamentalism
+}
+text = {
+trigger = { check_variable = { apdc_parl_bill_kind = 4 } }
+localization_key = apdc_parl_special_active
+}
+text = {
+localization_key = apdc_parl_no_agenda
+}
+
+}
+defined_text = {
+name = ApdcParlOptionName
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 1001 } }
+localization_key = apdc_parl_law_doll_rights_1
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 1002 } }
+localization_key = apdc_parl_law_doll_rights_2
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 1003 } }
+localization_key = apdc_parl_law_doll_rights_3
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 1004 } }
+localization_key = apdc_parl_law_doll_rights_4
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 1005 } }
+localization_key = apdc_parl_law_doll_rights_5
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 1006 } }
+localization_key = apdc_parl_law_doll_rights_6
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 1007 } }
+localization_key = apdc_parl_law_doll_rights_7
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 2001 } }
+localization_key = apdc_parl_law_infected_rights_1
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 2002 } }
+localization_key = apdc_parl_law_infected_rights_2
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 2003 } }
+localization_key = apdc_parl_law_infected_rights_3
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 2004 } }
+localization_key = apdc_parl_law_infected_rights_4
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 2005 } }
+localization_key = apdc_parl_law_infected_rights_5
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 2006 } }
+localization_key = apdc_parl_law_infected_rights_6
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 3001 } }
+localization_key = apdc_parl_law_women_rights_1
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 3002 } }
+localization_key = apdc_parl_law_women_rights_2
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 3003 } }
+localization_key = apdc_parl_law_women_rights_3
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 3004 } }
+localization_key = apdc_parl_law_women_rights_4
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 3005 } }
+localization_key = apdc_parl_law_women_rights_5
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 4001 } }
+localization_key = apdc_parl_law_relic_technology_1
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 4002 } }
+localization_key = apdc_parl_law_relic_technology_2
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 4003 } }
+localization_key = apdc_parl_law_relic_technology_3
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 4004 } }
+localization_key = apdc_parl_law_relic_technology_4
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 4005 } }
+localization_key = apdc_parl_law_relic_technology_5
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 4006 } }
+localization_key = apdc_parl_law_relic_technology_6
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5001 } }
+localization_key = apdc_parl_law_economic_system_1
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5002 } }
+localization_key = apdc_parl_law_economic_system_2
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5003 } }
+localization_key = apdc_parl_law_economic_system_3
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5004 } }
+localization_key = apdc_parl_law_economic_system_4
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5005 } }
+localization_key = apdc_parl_law_economic_system_5
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5006 } }
+localization_key = apdc_parl_law_economic_system_6
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5007 } }
+localization_key = apdc_parl_law_economic_system_7
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5008 } }
+localization_key = apdc_parl_law_economic_system_8
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5009 } }
+localization_key = apdc_parl_law_economic_system_9
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5010 } }
+localization_key = apdc_parl_law_economic_system_10
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6001 } }
+localization_key = apdc_parl_law_political_system_1
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6002 } }
+localization_key = apdc_parl_law_political_system_2
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6003 } }
+localization_key = apdc_parl_law_political_system_3
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6004 } }
+localization_key = apdc_parl_law_political_system_4
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6005 } }
+localization_key = apdc_parl_law_political_system_5
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6006 } }
+localization_key = apdc_parl_law_political_system_6
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6007 } }
+localization_key = apdc_parl_law_political_system_7
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6008 } }
+localization_key = apdc_parl_law_political_system_8
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6009 } }
+localization_key = apdc_parl_law_political_system_9
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlOptionTooltip
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 1001 } }
+localization_key = apdc_parl_law_doll_rights_1_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 1002 } }
+localization_key = apdc_parl_law_doll_rights_2_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 1003 } }
+localization_key = apdc_parl_law_doll_rights_3_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 1004 } }
+localization_key = apdc_parl_law_doll_rights_4_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 1005 } }
+localization_key = apdc_parl_law_doll_rights_5_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 1006 } }
+localization_key = apdc_parl_law_doll_rights_6_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 1007 } }
+localization_key = apdc_parl_law_doll_rights_7_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 2001 } }
+localization_key = apdc_parl_law_infected_rights_1_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 2002 } }
+localization_key = apdc_parl_law_infected_rights_2_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 2003 } }
+localization_key = apdc_parl_law_infected_rights_3_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 2004 } }
+localization_key = apdc_parl_law_infected_rights_4_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 2005 } }
+localization_key = apdc_parl_law_infected_rights_5_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 2006 } }
+localization_key = apdc_parl_law_infected_rights_6_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 3001 } }
+localization_key = apdc_parl_law_women_rights_1_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 3002 } }
+localization_key = apdc_parl_law_women_rights_2_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 3003 } }
+localization_key = apdc_parl_law_women_rights_3_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 3004 } }
+localization_key = apdc_parl_law_women_rights_4_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 3005 } }
+localization_key = apdc_parl_law_women_rights_5_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 4001 } }
+localization_key = apdc_parl_law_relic_technology_1_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 4002 } }
+localization_key = apdc_parl_law_relic_technology_2_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 4003 } }
+localization_key = apdc_parl_law_relic_technology_3_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 4004 } }
+localization_key = apdc_parl_law_relic_technology_4_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 4005 } }
+localization_key = apdc_parl_law_relic_technology_5_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 4006 } }
+localization_key = apdc_parl_law_relic_technology_6_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5001 } }
+localization_key = apdc_parl_law_economic_system_1_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5002 } }
+localization_key = apdc_parl_law_economic_system_2_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5003 } }
+localization_key = apdc_parl_law_economic_system_3_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5004 } }
+localization_key = apdc_parl_law_economic_system_4_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5005 } }
+localization_key = apdc_parl_law_economic_system_5_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5006 } }
+localization_key = apdc_parl_law_economic_system_6_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5007 } }
+localization_key = apdc_parl_law_economic_system_7_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5008 } }
+localization_key = apdc_parl_law_economic_system_8_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5009 } }
+localization_key = apdc_parl_law_economic_system_9_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5010 } }
+localization_key = apdc_parl_law_economic_system_10_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6001 } }
+localization_key = apdc_parl_law_political_system_1_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6002 } }
+localization_key = apdc_parl_law_political_system_2_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6003 } }
+localization_key = apdc_parl_law_political_system_3_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6004 } }
+localization_key = apdc_parl_law_political_system_4_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6005 } }
+localization_key = apdc_parl_law_political_system_5_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6006 } }
+localization_key = apdc_parl_law_political_system_6_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6007 } }
+localization_key = apdc_parl_law_political_system_7_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6008 } }
+localization_key = apdc_parl_law_political_system_8_tip
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6009 } }
+localization_key = apdc_parl_law_political_system_9_tip
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlReformCurrent
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 1 } check_variable = { apdc_parl_law_1 = 1 } }
+localization_key = apdc_parl_law_doll_rights_1
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 1 } check_variable = { apdc_parl_law_1 = 2 } }
+localization_key = apdc_parl_law_doll_rights_2
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 1 } check_variable = { apdc_parl_law_1 = 3 } }
+localization_key = apdc_parl_law_doll_rights_3
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 1 } check_variable = { apdc_parl_law_1 = 4 } }
+localization_key = apdc_parl_law_doll_rights_4
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 1 } check_variable = { apdc_parl_law_1 = 5 } }
+localization_key = apdc_parl_law_doll_rights_5
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 1 } check_variable = { apdc_parl_law_1 = 6 } }
+localization_key = apdc_parl_law_doll_rights_6
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 1 } check_variable = { apdc_parl_law_1 = 7 } }
+localization_key = apdc_parl_law_doll_rights_7
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 2 } check_variable = { apdc_parl_law_2 = 1 } }
+localization_key = apdc_parl_law_infected_rights_1
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 2 } check_variable = { apdc_parl_law_2 = 2 } }
+localization_key = apdc_parl_law_infected_rights_2
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 2 } check_variable = { apdc_parl_law_2 = 3 } }
+localization_key = apdc_parl_law_infected_rights_3
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 2 } check_variable = { apdc_parl_law_2 = 4 } }
+localization_key = apdc_parl_law_infected_rights_4
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 2 } check_variable = { apdc_parl_law_2 = 5 } }
+localization_key = apdc_parl_law_infected_rights_5
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 2 } check_variable = { apdc_parl_law_2 = 6 } }
+localization_key = apdc_parl_law_infected_rights_6
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 3 } check_variable = { apdc_parl_law_3 = 1 } }
+localization_key = apdc_parl_law_women_rights_1
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 3 } check_variable = { apdc_parl_law_3 = 2 } }
+localization_key = apdc_parl_law_women_rights_2
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 3 } check_variable = { apdc_parl_law_3 = 3 } }
+localization_key = apdc_parl_law_women_rights_3
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 3 } check_variable = { apdc_parl_law_3 = 4 } }
+localization_key = apdc_parl_law_women_rights_4
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 3 } check_variable = { apdc_parl_law_3 = 5 } }
+localization_key = apdc_parl_law_women_rights_5
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 4 } check_variable = { apdc_parl_law_4 = 1 } }
+localization_key = apdc_parl_law_relic_technology_1
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 4 } check_variable = { apdc_parl_law_4 = 2 } }
+localization_key = apdc_parl_law_relic_technology_2
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 4 } check_variable = { apdc_parl_law_4 = 3 } }
+localization_key = apdc_parl_law_relic_technology_3
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 4 } check_variable = { apdc_parl_law_4 = 4 } }
+localization_key = apdc_parl_law_relic_technology_4
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 4 } check_variable = { apdc_parl_law_4 = 5 } }
+localization_key = apdc_parl_law_relic_technology_5
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 4 } check_variable = { apdc_parl_law_4 = 6 } }
+localization_key = apdc_parl_law_relic_technology_6
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 5 } check_variable = { apdc_parl_law_5 = 1 } }
+localization_key = apdc_parl_law_economic_system_1
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 5 } check_variable = { apdc_parl_law_5 = 2 } }
+localization_key = apdc_parl_law_economic_system_2
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 5 } check_variable = { apdc_parl_law_5 = 3 } }
+localization_key = apdc_parl_law_economic_system_3
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 5 } check_variable = { apdc_parl_law_5 = 4 } }
+localization_key = apdc_parl_law_economic_system_4
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 5 } check_variable = { apdc_parl_law_5 = 5 } }
+localization_key = apdc_parl_law_economic_system_5
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 5 } check_variable = { apdc_parl_law_5 = 6 } }
+localization_key = apdc_parl_law_economic_system_6
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 5 } check_variable = { apdc_parl_law_5 = 7 } }
+localization_key = apdc_parl_law_economic_system_7
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 5 } check_variable = { apdc_parl_law_5 = 8 } }
+localization_key = apdc_parl_law_economic_system_8
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 5 } check_variable = { apdc_parl_law_5 = 9 } }
+localization_key = apdc_parl_law_economic_system_9
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 5 } check_variable = { apdc_parl_law_5 = 10 } }
+localization_key = apdc_parl_law_economic_system_10
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 6 } check_variable = { apdc_parl_law_6 = 1 } }
+localization_key = apdc_parl_law_political_system_1
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 6 } check_variable = { apdc_parl_law_6 = 2 } }
+localization_key = apdc_parl_law_political_system_2
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 6 } check_variable = { apdc_parl_law_6 = 3 } }
+localization_key = apdc_parl_law_political_system_3
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 6 } check_variable = { apdc_parl_law_6 = 4 } }
+localization_key = apdc_parl_law_political_system_4
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 6 } check_variable = { apdc_parl_law_6 = 5 } }
+localization_key = apdc_parl_law_political_system_5
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 6 } check_variable = { apdc_parl_law_6 = 6 } }
+localization_key = apdc_parl_law_political_system_6
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 6 } check_variable = { apdc_parl_law_6 = 7 } }
+localization_key = apdc_parl_law_political_system_7
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 6 } check_variable = { apdc_parl_law_6 = 8 } }
+localization_key = apdc_parl_law_political_system_8
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 6 } check_variable = { apdc_parl_law_6 = 9 } }
+localization_key = apdc_parl_law_political_system_9
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlReformTitle
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 1 } }
+localization_key = apdc_parl_group_1
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 2 } }
+localization_key = apdc_parl_group_2
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 3 } }
+localization_key = apdc_parl_group_3
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 4 } }
+localization_key = apdc_parl_group_4
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 5 } }
+localization_key = apdc_parl_group_5
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 6 } }
+localization_key = apdc_parl_group_6
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlReformIcon
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 1 } check_variable = { apdc_parl_law_1 = 1 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 1 } check_variable = { apdc_parl_law_1 = 2 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 1 } check_variable = { apdc_parl_law_1 = 3 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 1 } check_variable = { apdc_parl_law_1 = 4 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 1 } check_variable = { apdc_parl_law_1 = 5 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 1 } check_variable = { apdc_parl_law_1 = 6 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 1 } check_variable = { apdc_parl_law_1 = 7 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 2 } check_variable = { apdc_parl_law_2 = 1 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 2 } check_variable = { apdc_parl_law_2 = 2 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 2 } check_variable = { apdc_parl_law_2 = 3 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 2 } check_variable = { apdc_parl_law_2 = 4 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 2 } check_variable = { apdc_parl_law_2 = 5 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 2 } check_variable = { apdc_parl_law_2 = 6 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 3 } check_variable = { apdc_parl_law_3 = 1 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 3 } check_variable = { apdc_parl_law_3 = 2 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 3 } check_variable = { apdc_parl_law_3 = 3 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 3 } check_variable = { apdc_parl_law_3 = 4 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 3 } check_variable = { apdc_parl_law_3 = 5 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 4 } check_variable = { apdc_parl_law_4 = 1 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 4 } check_variable = { apdc_parl_law_4 = 2 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 4 } check_variable = { apdc_parl_law_4 = 3 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 4 } check_variable = { apdc_parl_law_4 = 4 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 4 } check_variable = { apdc_parl_law_4 = 5 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 4 } check_variable = { apdc_parl_law_4 = 6 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 5 } check_variable = { apdc_parl_law_5 = 1 } }
+localization_key = GFX_APDC_economic_system_bandit_economy
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 5 } check_variable = { apdc_parl_law_5 = 2 } }
+localization_key = GFX_APDC_economic_system_traditional_agriculture
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 5 } check_variable = { apdc_parl_law_5 = 3 } }
+localization_key = GFX_APDC_economic_system_dependent_economy
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 5 } check_variable = { apdc_parl_law_5 = 4 } }
+localization_key = GFX_APDC_economic_system_free_market
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 5 } check_variable = { apdc_parl_law_5 = 5 } }
+localization_key = GFX_APDC_economic_system_mixed_market
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 5 } check_variable = { apdc_parl_law_5 = 6 } }
+localization_key = GFX_APDC_economic_system_state_guided
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 5 } check_variable = { apdc_parl_law_5 = 7 } }
+localization_key = GFX_APDC_economic_system_state_capitalism
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 5 } check_variable = { apdc_parl_law_5 = 8 } }
+localization_key = GFX_APDC_economic_system_market_socialism
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 5 } check_variable = { apdc_parl_law_5 = 9 } }
+localization_key = GFX_APDC_economic_system_decentralized_planning
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 5 } check_variable = { apdc_parl_law_5 = 10 } }
+localization_key = GFX_APDC_economic_system_central_planning
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 6 } check_variable = { apdc_parl_law_6 = 1 } }
+localization_key = GFX_apdc_parl_regime_absolute_monarchy
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 6 } check_variable = { apdc_parl_law_6 = 2 } }
+localization_key = GFX_apdc_parl_regime_dual_monarchy
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 6 } check_variable = { apdc_parl_law_6 = 3 } }
+localization_key = GFX_apdc_parl_regime_constitutional_monarchy
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 6 } check_variable = { apdc_parl_law_6 = 4 } }
+localization_key = GFX_apdc_parl_regime_parliamentary_republic
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 6 } check_variable = { apdc_parl_law_6 = 5 } }
+localization_key = GFX_apdc_parl_regime_presidential
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 6 } check_variable = { apdc_parl_law_6 = 6 } }
+localization_key = GFX_apdc_parl_regime_semi_presidential
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 6 } check_variable = { apdc_parl_law_6 = 7 } }
+localization_key = GFX_apdc_parl_regime_one_party_republic
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 6 } check_variable = { apdc_parl_law_6 = 8 } }
+localization_key = GFX_apdc_parl_regime_military_government
+}
+text = {
+trigger = { check_variable = { apdc_parl_group_context = 6 } check_variable = { apdc_parl_law_6 = 9 } }
+localization_key = GFX_apdc_parl_regime_committee
+}
+text = {
+localization_key = GFX_idea_generic_build_infrastructure
+}
+
+}
+defined_text = {
+name = ApdcParlSelectedGroupName
+text = {
+trigger = { check_variable = { apdc_parl_selected_group = 1 } }
+localization_key = apdc_parl_group_1
+}
+text = {
+trigger = { check_variable = { apdc_parl_selected_group = 2 } }
+localization_key = apdc_parl_group_2
+}
+text = {
+trigger = { check_variable = { apdc_parl_selected_group = 3 } }
+localization_key = apdc_parl_group_3
+}
+text = {
+trigger = { check_variable = { apdc_parl_selected_group = 4 } }
+localization_key = apdc_parl_group_4
+}
+text = {
+trigger = { check_variable = { apdc_parl_selected_group = 5 } }
+localization_key = apdc_parl_group_5
+}
+text = {
+trigger = { check_variable = { apdc_parl_selected_group = 6 } }
+localization_key = apdc_parl_group_6
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlBan0
+text = {
+trigger = { has_country_flag = apdc_parl_banned_communism }
+localization_key = apdc_parl_unban
+}
+text = {
+localization_key = apdc_parl_ban
+}
+
+}
+defined_text = {
+name = ApdcParlBan1
+text = {
+trigger = { has_country_flag = apdc_parl_banned_socialism }
+localization_key = apdc_parl_unban
+}
+text = {
+localization_key = apdc_parl_ban
+}
+
+}
+defined_text = {
+name = ApdcParlBan2
+text = {
+trigger = { has_country_flag = apdc_parl_banned_social_democracy }
+localization_key = apdc_parl_unban
+}
+text = {
+localization_key = apdc_parl_ban
+}
+
+}
+defined_text = {
+name = ApdcParlBan3
+text = {
+trigger = { has_country_flag = apdc_parl_banned_liberalism }
+localization_key = apdc_parl_unban
+}
+text = {
+localization_key = apdc_parl_ban
+}
+
+}
+defined_text = {
+name = ApdcParlBan4
+text = {
+trigger = { has_country_flag = apdc_parl_banned_conservatism }
+localization_key = apdc_parl_unban
+}
+text = {
+localization_key = apdc_parl_ban
+}
+
+}
+defined_text = {
+name = ApdcParlBan5
+text = {
+trigger = { has_country_flag = apdc_parl_banned_authoritarianism }
+localization_key = apdc_parl_unban
+}
+text = {
+localization_key = apdc_parl_ban
+}
+
+}
+defined_text = {
+name = ApdcParlBan6
+text = {
+trigger = { has_country_flag = apdc_parl_banned_dictatorship }
+localization_key = apdc_parl_unban
+}
+text = {
+localization_key = apdc_parl_ban
+}
+
+}
+defined_text = {
+name = ApdcParlBan7
+text = {
+trigger = { has_country_flag = apdc_parl_banned_fascism }
+localization_key = apdc_parl_unban
+}
+text = {
+localization_key = apdc_parl_ban
+}
+
+}
+defined_text = {
+name = ApdcParlBan8
+text = {
+trigger = { has_country_flag = apdc_parl_banned_fundamentalism }
+localization_key = apdc_parl_unban
+}
+text = {
+localization_key = apdc_parl_ban
+}
+
+}
+defined_text = {
+name = ApdcParlCandidateHeader
+text = {
+trigger = { check_variable = { apdc_parl_candidate_context = -1 } }
+localization_key = APDC_CABINET_PARTY_COMMUNISM_COLORED
+}
+text = {
+trigger = { check_variable = { apdc_parl_candidate_context = -2 } }
+localization_key = APDC_CABINET_PARTY_SOCIALISM_COLORED
+}
+text = {
+trigger = { check_variable = { apdc_parl_candidate_context = -3 } }
+localization_key = APDC_CABINET_PARTY_SOCIAL_DEMOCRACY_COLORED
+}
+text = {
+trigger = { check_variable = { apdc_parl_candidate_context = -4 } }
+localization_key = APDC_CABINET_PARTY_LIBERALISM_COLORED
+}
+text = {
+trigger = { check_variable = { apdc_parl_candidate_context = -5 } }
+localization_key = APDC_CABINET_PARTY_CONSERVATISM_COLORED
+}
+text = {
+trigger = { check_variable = { apdc_parl_candidate_context = -6 } }
+localization_key = APDC_CABINET_PARTY_AUTHORITARIANISM_COLORED
+}
+text = {
+trigger = { check_variable = { apdc_parl_candidate_context = -7 } }
+localization_key = APDC_CABINET_PARTY_DICTATORSHIP_COLORED
+}
+text = {
+trigger = { check_variable = { apdc_parl_candidate_context = -8 } }
+localization_key = APDC_CABINET_PARTY_FASCISM_COLORED
+}
+text = {
+trigger = { check_variable = { apdc_parl_candidate_context = -9 } }
+localization_key = APDC_CABINET_PARTY_FUNDAMENTALISM_COLORED
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlCandidateQuota
+text = {
+trigger = { check_variable = { apdc_parl_candidate_context = -1 } }
+localization_key = apdc_parl_quota_communism
+}
+text = {
+trigger = { check_variable = { apdc_parl_candidate_context = -2 } }
+localization_key = apdc_parl_quota_socialism
+}
+text = {
+trigger = { check_variable = { apdc_parl_candidate_context = -3 } }
+localization_key = apdc_parl_quota_social_democracy
+}
+text = {
+trigger = { check_variable = { apdc_parl_candidate_context = -4 } }
+localization_key = apdc_parl_quota_liberalism
+}
+text = {
+trigger = { check_variable = { apdc_parl_candidate_context = -5 } }
+localization_key = apdc_parl_quota_conservatism
+}
+text = {
+trigger = { check_variable = { apdc_parl_candidate_context = -6 } }
+localization_key = apdc_parl_quota_authoritarianism
+}
+text = {
+trigger = { check_variable = { apdc_parl_candidate_context = -7 } }
+localization_key = apdc_parl_quota_dictatorship
+}
+text = {
+trigger = { check_variable = { apdc_parl_candidate_context = -8 } }
+localization_key = apdc_parl_quota_fascism
+}
+text = {
+trigger = { check_variable = { apdc_parl_candidate_context = -9 } }
+localization_key = apdc_parl_quota_fundamentalism
+}
+text = {
+localization_key = apdc_parl_empty
+}
+
+}
+defined_text = {
+name = ApdcParlOptionIcon
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 1001 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 1002 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 1003 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 1004 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 1005 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 1006 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 1007 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 2001 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 2002 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 2003 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 2004 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 2005 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 2006 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 3001 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 3002 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 3003 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 3004 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 3005 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 4001 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 4002 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 4003 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 4004 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 4005 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 4006 } }
+localization_key = GFX_idea_generic_build_infrastructure
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5001 } }
+localization_key = GFX_APDC_economic_system_bandit_economy
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5002 } }
+localization_key = GFX_APDC_economic_system_traditional_agriculture
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5003 } }
+localization_key = GFX_APDC_economic_system_dependent_economy
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5004 } }
+localization_key = GFX_APDC_economic_system_free_market
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5005 } }
+localization_key = GFX_APDC_economic_system_mixed_market
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5006 } }
+localization_key = GFX_APDC_economic_system_state_guided
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5007 } }
+localization_key = GFX_APDC_economic_system_state_capitalism
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5008 } }
+localization_key = GFX_APDC_economic_system_market_socialism
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5009 } }
+localization_key = GFX_APDC_economic_system_decentralized_planning
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 5010 } }
+localization_key = GFX_APDC_economic_system_central_planning
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6001 } }
+localization_key = GFX_apdc_parl_regime_absolute_monarchy
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6002 } }
+localization_key = GFX_apdc_parl_regime_dual_monarchy
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6003 } }
+localization_key = GFX_apdc_parl_regime_constitutional_monarchy
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6004 } }
+localization_key = GFX_apdc_parl_regime_parliamentary_republic
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6005 } }
+localization_key = GFX_apdc_parl_regime_presidential
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6006 } }
+localization_key = GFX_apdc_parl_regime_semi_presidential
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6007 } }
+localization_key = GFX_apdc_parl_regime_one_party_republic
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6008 } }
+localization_key = GFX_apdc_parl_regime_military_government
+}
+text = {
+trigger = { check_variable = { apdc_parl_option_context = 6009 } }
+localization_key = GFX_apdc_parl_regime_committee
+}
+text = {
+localization_key = GFX_idea_generic_build_infrastructure
+}
+
+}

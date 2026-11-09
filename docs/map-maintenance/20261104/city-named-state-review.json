@@ -1,0 +1,1033 @@
+{
+  "source": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\GF-MAP\\.codex_backups\\20261020-183551-chinese-city-name-corrections\\现代胜利点总表.json",
+  "source_sha256": "224ea1dd41c72a3f001f4eacf9184bf9b6fc5992e51a32e42e590afac898cf68",
+  "supplementary_settlements": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\GF-MAP\\.codex_backups\\20261019-200749-modern-victory-points\\research\\geonames_cities500.zip",
+  "supplementary_sha256": "3f0949d068003cbb7e614275c5a28107a8f4c6b766f704b2bd317004d4cd0527",
+  "projection_source": "https://github.com/OSGeo/PROJ/blob/master/src/projections/patterson.cpp",
+  "method": "Country-filtered fixed modern city/same-province inventory, supplemented by fixed GeoNames settlement catalogue and Patterson fit. State-border uncertainty is retained.",
+  "rows": [
+    {
+      "state": 40,
+      "chinese": "鲁布佐夫斯克",
+      "english": "Rubtsovsk",
+      "matches": [
+        {
+          "city": "Rubtsovsk",
+          "province": 11410,
+          "actual_state": 40,
+          "representative_city": "Rubtsovsk",
+          "ucdb_id": 7408,
+          "same_province_member": false,
+          "country_iso2": "RU"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city is in this state"
+    },
+    {
+      "state": 329,
+      "chinese": "克孜勒",
+      "english": "Kyzyl",
+      "matches": [
+        {
+          "city": "Kyzyl",
+          "province": 10627,
+          "actual_state": 329,
+          "representative_city": "Kyzyl",
+          "ucdb_id": 7545,
+          "same_province_member": false,
+          "country_iso2": "RU"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city is in this state"
+    },
+    {
+      "state": 564,
+      "name": "巴温特",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 569,
+      "name": "克麦罗沃-哈卡斯",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 574,
+      "chinese": "涅留恩格里",
+      "english": "Neryungri",
+      "matches": [
+        {
+          "city": "Neryungri",
+          "geonames_id": 2019309,
+          "lat": 56.65836,
+          "lon": 124.72499,
+          "province": 7844,
+          "actual_state": 574,
+          "country_iso2": "RU",
+          "population_catalogue": 66320,
+          "project_x": 4333.301730153796,
+          "project_y": 394.8365707458073,
+          "coast_snap_pixels": 0,
+          "nearby_states_within_2pixels": [
+            574
+          ],
+          "bbox_distance": 0.0,
+          "method": "Preserved GeoNames cities500 coordinates projected with fixed Patterson fit; border proximity recorded"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city is in this state"
+    },
+    {
+      "state": 575,
+      "chinese": "米尔内",
+      "english": "Mirny",
+      "matches": [
+        {
+          "city": "Mirny",
+          "geonames_id": 2019951,
+          "lat": 62.53528,
+          "lon": 113.96111,
+          "province": 10557,
+          "actual_state": 1592,
+          "country_iso2": "RU",
+          "population_catalogue": 40308,
+          "project_x": 4180.226367026158,
+          "project_y": 279.4519553536644,
+          "coast_snap_pixels": 0,
+          "nearby_states_within_2pixels": [
+            1592
+          ],
+          "bbox_distance": 0.0,
+          "method": "Preserved GeoNames cities500 coordinates projected with fixed Patterson fit; border proximity recorded"
+        }
+      ],
+      "contains_named_city": false,
+      "status": "Named city lies outside state; user display name retained, no boundary or VP moved"
+    },
+    {
+      "state": 577,
+      "chinese": "汉特-曼西斯克",
+      "english": "Khanty-Mansiysk",
+      "matches": [
+        {
+          "city": "Khanty-Mansiysk",
+          "province": 1812,
+          "actual_state": 580,
+          "representative_city": "Khanty-Mansiysk",
+          "ucdb_id": 7236,
+          "same_province_member": false,
+          "country_iso2": "RU"
+        }
+      ],
+      "contains_named_city": false,
+      "status": "Named city lies outside state; user display name retained, no boundary or VP moved"
+    },
+    {
+      "state": 582,
+      "chinese": "设菲尔德",
+      "english": "Sheffield",
+      "matches": [
+        {
+          "city": "Sheffield",
+          "province": 9315,
+          "actual_state": 130,
+          "representative_city": "Sheffield",
+          "ucdb_id": 4706,
+          "same_province_member": false,
+          "country_iso2": "GB"
+        }
+      ],
+      "contains_named_city": false,
+      "status": "Named city lies outside state; user display name retained, no boundary or VP moved"
+    },
+    {
+      "state": 637,
+      "chinese": "加彼得罗巴普洛夫斯克",
+      "english": "Petropavlovsk-Kamchatsky",
+      "matches": [
+        {
+          "city": "Petropavlovsk-Kamchatsky",
+          "geonames_id": 2122104,
+          "lat": 53.06393,
+          "lon": 158.62751,
+          "province": 7878,
+          "actual_state": 637,
+          "country_iso2": "RU",
+          "population_catalogue": 181216,
+          "project_x": 4815.436477098391,
+          "project_y": 464.3177791932645,
+          "coast_snap_pixels": 0,
+          "nearby_states_within_2pixels": [
+            637
+          ],
+          "bbox_distance": 0.0,
+          "method": "Preserved GeoNames cities500 coordinates projected with fixed Patterson fit; border proximity recorded"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city is in this state"
+    },
+    {
+      "state": 653,
+      "chinese": "叶卡捷琳堡",
+      "english": "Yekaterinburg",
+      "matches": [
+        {
+          "city": "Yekaterinburg",
+          "province": 1821,
+          "actual_state": 653,
+          "representative_city": "Yekaterinburg",
+          "ucdb_id": 7057,
+          "same_province_member": false,
+          "country_iso2": "RU"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city is in this state"
+    },
+    {
+      "state": 675,
+      "name": "穆萨纳",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 676,
+      "name": "尼尼微",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 817,
+      "name": "南戈壁",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 822,
+      "name": "西楚科奇",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 876,
+      "name": "阿纳巴尔",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 877,
+      "name": "戈尔内",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 878,
+      "chinese": "图拉",
+      "english": "Tura",
+      "matches": [
+        {
+          "city": "Tura",
+          "geonames_id": 2014833,
+          "lat": 64.27769,
+          "lon": 100.21849,
+          "province": 19992,
+          "actual_state": 1599,
+          "country_iso2": "RU",
+          "population_catalogue": 5444,
+          "project_x": 3984.7897264444036,
+          "project_y": 245.35907407632294,
+          "coast_snap_pixels": 0,
+          "nearby_states_within_2pixels": [
+            878,
+            1599
+          ],
+          "bbox_distance": 0.0,
+          "method": "Preserved GeoNames cities500 coordinates projected with fixed Patterson fit; border proximity recorded"
+        }
+      ],
+      "contains_named_city": false,
+      "status": "Projected city lies within two pixels of target-state border; boundary uncertainty retained, no geographic change"
+    },
+    {
+      "state": 1142,
+      "chinese": "哈塞克",
+      "english": "Al-Hasakah",
+      "matches": [
+        {
+          "city": "Al Ḩasakah",
+          "province": 18477,
+          "actual_state": 1142,
+          "representative_city": "Al Ḩasakah",
+          "ucdb_id": 3136,
+          "same_province_member": false,
+          "country_iso2": "SY"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city is in this state"
+    },
+    {
+      "state": 1143,
+      "name": "迪亚拉",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1579,
+      "name": "外阿穆尔",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1580,
+      "chinese": "别洛戈尔斯克",
+      "english": "Belogorsk",
+      "matches": [
+        {
+          "city": "Belogorsk",
+          "geonames_id": 2026895,
+          "lat": 50.91239,
+          "lon": 128.51238,
+          "province": 4725,
+          "actual_state": 1580,
+          "country_iso2": "RU",
+          "population_catalogue": 67911,
+          "project_x": 4387.162986462486,
+          "project_y": 505.1133992444535,
+          "coast_snap_pixels": 0,
+          "nearby_states_within_2pixels": [
+            1580
+          ],
+          "bbox_distance": 0.0,
+          "method": "Preserved GeoNames cities500 coordinates projected with fixed Patterson fit; border proximity recorded"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city is in this state"
+    },
+    {
+      "state": 1581,
+      "name": "布列亚山区",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1582,
+      "name": "迈斯基山脊",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1583,
+      "chinese": "阿纳德尔",
+      "english": "Anadyr",
+      "matches": [
+        {
+          "city": "Anadyr",
+          "geonames_id": 2127202,
+          "lat": 64.73424,
+          "lon": 177.5103,
+          "province": 13063,
+          "actual_state": 1583,
+          "country_iso2": "RU",
+          "population_catalogue": 15604,
+          "project_x": 5083.972538083177,
+          "project_y": 236.46978175761228,
+          "coast_snap_pixels": 1.0,
+          "nearby_states_within_2pixels": [
+            1583
+          ],
+          "bbox_distance": 0.0,
+          "method": "Preserved GeoNames cities500 coordinates projected with fixed Patterson fit; border proximity recorded"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city is in this state"
+    },
+    {
+      "state": 1584,
+      "chinese": "阿扬",
+      "english": "Ayan",
+      "matches": [
+        {
+          "city": "Ayan",
+          "geonames_id": 2027316,
+          "lat": 56.4631,
+          "lon": 138.17625,
+          "province": 10598,
+          "actual_state": 1584,
+          "country_iso2": "RU",
+          "population_catalogue": 1286,
+          "project_x": 4524.594879931038,
+          "project_y": 398.6449254085235,
+          "coast_snap_pixels": 1.0,
+          "nearby_states_within_2pixels": [
+            1584
+          ],
+          "bbox_distance": 0.0,
+          "method": "Preserved GeoNames cities500 coordinates projected with fixed Patterson fit; border proximity recorded"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city is in this state"
+    },
+    {
+      "state": 1585,
+      "name": "科雷马山脉",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1586,
+      "chinese": "帕拉纳",
+      "english": "Palana",
+      "matches": [
+        {
+          "city": "Palana",
+          "geonames_id": 2122262,
+          "lat": 59.08418,
+          "lon": 159.95623,
+          "province": 1839,
+          "actual_state": 1586,
+          "country_iso2": "RU",
+          "population_catalogue": 3671,
+          "project_x": 4834.332478957846,
+          "project_y": 347.31000614364643,
+          "coast_snap_pixels": 0,
+          "nearby_states_within_2pixels": [
+            1586
+          ],
+          "bbox_distance": 0.0,
+          "method": "Preserved GeoNames cities500 coordinates projected with fixed Patterson fit; border proximity recorded"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city is in this state"
+    },
+    {
+      "state": 1587,
+      "chinese": "雅库茨克",
+      "english": "Yakutsk",
+      "matches": [
+        {
+          "city": "Yakutsk",
+          "province": 10641,
+          "actual_state": 1587,
+          "representative_city": "Yakutsk",
+          "ucdb_id": 7608,
+          "same_province_member": false,
+          "country_iso2": "RU"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city is in this state"
+    },
+    {
+      "state": 1588,
+      "chinese": "阿姆加",
+      "english": "Amga",
+      "matches": [
+        {
+          "city": "Amga",
+          "geonames_id": 2027786,
+          "lat": 60.89939,
+          "lon": 131.98175,
+          "province": 1878,
+          "actual_state": 1588,
+          "country_iso2": "RU",
+          "population_catalogue": 6151,
+          "project_x": 4436.501614594175,
+          "project_y": 311.6056762406829,
+          "coast_snap_pixels": 0,
+          "nearby_states_within_2pixels": [
+            1588
+          ],
+          "bbox_distance": 0.0,
+          "method": "Preserved GeoNames cities500 coordinates projected with fixed Patterson fit; border proximity recorded"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city is in this state"
+    },
+    {
+      "state": 1589,
+      "name": "奥伊米亚康斯克",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1590,
+      "name": "乌斯季亚纳",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1591,
+      "chinese": "日甘斯克",
+      "english": "Zhigansk",
+      "matches": [
+        {
+          "city": "Zhigansk",
+          "geonames_id": 2012530,
+          "lat": 66.76804,
+          "lon": 123.37658,
+          "province": 1722,
+          "actual_state": 1591,
+          "country_iso2": "RU",
+          "population_catalogue": 3237,
+          "project_x": 4314.125712733038,
+          "project_y": 197.19353717431864,
+          "coast_snap_pixels": 0,
+          "nearby_states_within_2pixels": [
+            877,
+            1591
+          ],
+          "bbox_distance": 0.0,
+          "method": "Preserved GeoNames cities500 coordinates projected with fixed Patterson fit; border proximity recorded"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city is in this state"
+    },
+    {
+      "state": 1592,
+      "chinese": "连斯克",
+      "english": "Lensk",
+      "matches": [
+        {
+          "city": "Lensk",
+          "geonames_id": 2020838,
+          "lat": 60.72383,
+          "lon": 114.93447,
+          "province": 12538,
+          "actual_state": 565,
+          "country_iso2": "RU",
+          "population_catalogue": 23694,
+          "project_x": 4194.068720847821,
+          "project_y": 315.0597813683771,
+          "coast_snap_pixels": 0,
+          "nearby_states_within_2pixels": [
+            565,
+            1592
+          ],
+          "bbox_distance": 0.0,
+          "method": "Preserved GeoNames cities500 coordinates projected with fixed Patterson fit; border proximity recorded"
+        }
+      ],
+      "contains_named_city": false,
+      "status": "Projected city lies within two pixels of target-state border; boundary uncertainty retained, no geographic change"
+    },
+    {
+      "state": 1593,
+      "name": "通卡",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1594,
+      "name": "外贝加尔",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1595,
+      "chinese": "伊卡",
+      "english": "Ika",
+      "matches": [],
+      "contains_named_city": false,
+      "status": "Below-threshold settlement or absent from fixed UCDB city inventory; city point not independently verified"
+    },
+    {
+      "state": 1596,
+      "chinese": "基廉斯克",
+      "english": "Kirensk",
+      "matches": [
+        {
+          "city": "Kirensk",
+          "geonames_id": 2022083,
+          "lat": 57.7756,
+          "lon": 108.11535,
+          "province": 7828,
+          "actual_state": 1596,
+          "country_iso2": "RU",
+          "population_catalogue": 13308,
+          "project_x": 4097.092605338271,
+          "project_y": 372.9904922659856,
+          "coast_snap_pixels": 0,
+          "nearby_states_within_2pixels": [
+            1596
+          ],
+          "bbox_distance": 0.0,
+          "method": "Preserved GeoNames cities500 coordinates projected with fixed Patterson fit; border proximity recorded"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city is in this state"
+    },
+    {
+      "state": 1597,
+      "chinese": "泰利",
+      "english": "Teeli",
+      "matches": [
+        {
+          "city": "Teeli",
+          "geonames_id": 1489828,
+          "lat": 51.01395,
+          "lon": 90.20092,
+          "province": 19579,
+          "actual_state": 1597,
+          "country_iso2": "RU",
+          "population_catalogue": 3732,
+          "project_x": 3842.3277921412964,
+          "project_y": 503.20342553768535,
+          "coast_snap_pixels": 0,
+          "nearby_states_within_2pixels": [
+            1597
+          ],
+          "bbox_distance": 0.0,
+          "method": "Preserved GeoNames cities500 coordinates projected with fixed Patterson fit; border proximity recorded"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city is in this state"
+    },
+    {
+      "state": 1598,
+      "chinese": "坎斯克",
+      "english": "Kansk",
+      "matches": [
+        {
+          "city": "Kansk",
+          "geonames_id": 1504682,
+          "lat": 56.20218,
+          "lon": 95.71848,
+          "province": 12691,
+          "actual_state": 568,
+          "country_iso2": "RU",
+          "population_catalogue": 101502,
+          "project_x": 3920.794153767265,
+          "project_y": 403.7288463265386,
+          "coast_snap_pixels": 0,
+          "nearby_states_within_2pixels": [
+            568,
+            1598
+          ],
+          "bbox_distance": 0.0,
+          "method": "Preserved GeoNames cities500 coordinates projected with fixed Patterson fit; border proximity recorded"
+        }
+      ],
+      "contains_named_city": false,
+      "status": "Projected city lies within two pixels of target-state border; boundary uncertainty retained, no geographic change"
+    },
+    {
+      "state": 1599,
+      "chinese": "瓦纳瓦拉",
+      "english": "Vanavara",
+      "matches": [
+        {
+          "city": "Vanavara",
+          "geonames_id": 2013727,
+          "lat": 60.34679,
+          "lon": 102.28434,
+          "province": 10631,
+          "actual_state": 1599,
+          "country_iso2": "RU",
+          "population_catalogue": 3090,
+          "project_x": 4014.168606450241,
+          "project_y": 322.47833050035763,
+          "coast_snap_pixels": 0,
+          "nearby_states_within_2pixels": [
+            1599,
+            1600
+          ],
+          "bbox_distance": 0.0,
+          "method": "Preserved GeoNames cities500 coordinates projected with fixed Patterson fit; border proximity recorded"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city is in this state"
+    },
+    {
+      "state": 1600,
+      "name": "特恰内",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1601,
+      "name": "图鲁汉斯基",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1602,
+      "name": "多尔加诺-涅涅茨基",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1603,
+      "chinese": "巴尔瑙尔",
+      "english": "Barnaul",
+      "matches": [
+        {
+          "city": "Barnaul",
+          "province": 1794,
+          "actual_state": 1603,
+          "representative_city": "Barnaul",
+          "ucdb_id": 7418,
+          "same_province_member": false,
+          "country_iso2": "RU"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city is in this state"
+    },
+    {
+      "state": 1604,
+      "chinese": "下瓦尔托夫斯克",
+      "english": "Nizhnevartovsk",
+      "matches": [
+        {
+          "city": "Nizhnevartovsk",
+          "province": 12672,
+          "actual_state": 1604,
+          "representative_city": "Nizhnevartovsk",
+          "ucdb_id": 7325,
+          "same_province_member": false,
+          "country_iso2": "RU"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city is in this state"
+    },
+    {
+      "state": 1605,
+      "name": "巴拉巴",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1606,
+      "name": "西西伯利亚",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1607,
+      "chinese": "库尔干",
+      "english": "Kurgan",
+      "matches": [
+        {
+          "city": "Kurgan",
+          "province": 1292,
+          "actual_state": 1607,
+          "representative_city": "Kurgan",
+          "ucdb_id": 7281,
+          "same_province_member": false,
+          "country_iso2": "RU"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city is in this state"
+    },
+    {
+      "state": 1608,
+      "chinese": "克拉斯诺图林斯克",
+      "english": "Krasnoturyinsk",
+      "matches": [
+        {
+          "city": "Krasnoturinsk",
+          "geonames_id": 1502061,
+          "lat": 59.7666,
+          "lon": 60.2086,
+          "province": 10648,
+          "actual_state": 1608,
+          "country_iso2": "RU",
+          "population_catalogue": 62600,
+          "project_x": 3415.8008079088168,
+          "project_y": 333.8924896885228,
+          "coast_snap_pixels": 0,
+          "nearby_states_within_2pixels": [
+            1608
+          ],
+          "bbox_distance": 0.0,
+          "method": "Preserved GeoNames cities500 coordinates projected with fixed Patterson fit; border proximity recorded"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city is in this state"
+    },
+    {
+      "state": 1609,
+      "name": "苏赫巴托尔",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1610,
+      "name": "肯特",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1611,
+      "name": "色楞格",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1612,
+      "name": "东戈壁",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1613,
+      "name": "前杭爱",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1614,
+      "name": "中戈壁",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1615,
+      "name": "布尔干",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1616,
+      "name": "后杭爱",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1617,
+      "name": "巴彦洪戈尔",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1618,
+      "name": "戈壁阿尔泰",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1619,
+      "name": "巴彦乌列盖",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1620,
+      "name": "乌布苏",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1621,
+      "name": "扎布汗",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1622,
+      "name": "迈桑",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1623,
+      "name": "济加尔",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1624,
+      "name": "瓦西特",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1625,
+      "name": "卡迪西亚",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1626,
+      "name": "萨拉赫丁",
+      "kind": "region, governorate, district or range; city-centre test not applied"
+    },
+    {
+      "state": 1627,
+      "chinese": "苏莱曼尼亚",
+      "english": "Sulaymaniyah",
+      "matches": [
+        {
+          "city": "Sulaymaniyah",
+          "province": 15762,
+          "actual_state": 1627,
+          "representative_city": "Sulaymaniyah",
+          "ucdb_id": 3905,
+          "same_province_member": false,
+          "country_iso2": "IQ"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city is in this state"
+    },
+    {
+      "state": 1628,
+      "chinese": "埃尔比勒",
+      "english": "Erbil",
+      "matches": [
+        {
+          "city": "Erbil",
+          "province": 14692,
+          "actual_state": 1628,
+          "representative_city": "Erbil",
+          "ucdb_id": 2448,
+          "same_province_member": false,
+          "country_iso2": "IQ"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "Named city is in this state"
+    }
+  ],
+  "mismatches": [
+    {
+      "state": 575,
+      "chinese": "米尔内",
+      "english": "Mirny",
+      "matches": [
+        {
+          "city": "Mirny",
+          "geonames_id": 2019951,
+          "lat": 62.53528,
+          "lon": 113.96111,
+          "province": 10557,
+          "actual_state": 1592,
+          "country_iso2": "RU",
+          "population_catalogue": 40308,
+          "project_x": 4180.226367026158,
+          "project_y": 279.4519553536644,
+          "coast_snap_pixels": 0,
+          "nearby_states_within_2pixels": [
+            1592
+          ],
+          "bbox_distance": 0.0,
+          "method": "Preserved GeoNames cities500 coordinates projected with fixed Patterson fit; border proximity recorded"
+        }
+      ],
+      "contains_named_city": false,
+      "status": "Named city lies outside state; user display name retained, no boundary or VP moved"
+    },
+    {
+      "state": 577,
+      "chinese": "汉特-曼西斯克",
+      "english": "Khanty-Mansiysk",
+      "matches": [
+        {
+          "city": "Khanty-Mansiysk",
+          "province": 1812,
+          "actual_state": 580,
+          "representative_city": "Khanty-Mansiysk",
+          "ucdb_id": 7236,
+          "same_province_member": false,
+          "country_iso2": "RU"
+        }
+      ],
+      "contains_named_city": false,
+      "status": "Named city lies outside state; user display name retained, no boundary or VP moved"
+    },
+    {
+      "state": 582,
+      "chinese": "设菲尔德",
+      "english": "Sheffield",
+      "matches": [
+        {
+          "city": "Sheffield",
+          "province": 9315,
+          "actual_state": 130,
+          "representative_city": "Sheffield",
+          "ucdb_id": 4706,
+          "same_province_member": false,
+          "country_iso2": "GB"
+        }
+      ],
+      "contains_named_city": false,
+      "status": "Named city lies outside state; user display name retained, no boundary or VP moved"
+    }
+  ],
+  "border_uncertain": [
+    {
+      "state": 878,
+      "chinese": "图拉",
+      "english": "Tura",
+      "matches": [
+        {
+          "city": "Tura",
+          "geonames_id": 2014833,
+          "lat": 64.27769,
+          "lon": 100.21849,
+          "province": 19992,
+          "actual_state": 1599,
+          "country_iso2": "RU",
+          "population_catalogue": 5444,
+          "project_x": 3984.7897264444036,
+          "project_y": 245.35907407632294,
+          "coast_snap_pixels": 0,
+          "nearby_states_within_2pixels": [
+            878,
+            1599
+          ],
+          "bbox_distance": 0.0,
+          "method": "Preserved GeoNames cities500 coordinates projected with fixed Patterson fit; border proximity recorded"
+        }
+      ],
+      "contains_named_city": false,
+      "status": "Projected city lies within two pixels of target-state border; boundary uncertainty retained, no geographic change"
+    },
+    {
+      "state": 1592,
+      "chinese": "连斯克",
+      "english": "Lensk",
+      "matches": [
+        {
+          "city": "Lensk",
+          "geonames_id": 2020838,
+          "lat": 60.72383,
+          "lon": 114.93447,
+          "province": 12538,
+          "actual_state": 565,
+          "country_iso2": "RU",
+          "population_catalogue": 23694,
+          "project_x": 4194.068720847821,
+          "project_y": 315.0597813683771,
+          "coast_snap_pixels": 0,
+          "nearby_states_within_2pixels": [
+            565,
+            1592
+          ],
+          "bbox_distance": 0.0,
+          "method": "Preserved GeoNames cities500 coordinates projected with fixed Patterson fit; border proximity recorded"
+        }
+      ],
+      "contains_named_city": false,
+      "status": "Projected city lies within two pixels of target-state border; boundary uncertainty retained, no geographic change"
+    },
+    {
+      "state": 1598,
+      "chinese": "坎斯克",
+      "english": "Kansk",
+      "matches": [
+        {
+          "city": "Kansk",
+          "geonames_id": 1504682,
+          "lat": 56.20218,
+          "lon": 95.71848,
+          "province": 12691,
+          "actual_state": 568,
+          "country_iso2": "RU",
+          "population_catalogue": 101502,
+          "project_x": 3920.794153767265,
+          "project_y": 403.7288463265386,
+          "coast_snap_pixels": 0,
+          "nearby_states_within_2pixels": [
+            568,
+            1598
+          ],
+          "bbox_distance": 0.0,
+          "method": "Preserved GeoNames cities500 coordinates projected with fixed Patterson fit; border proximity recorded"
+        }
+      ],
+      "contains_named_city": false,
+      "status": "Projected city lies within two pixels of target-state border; boundary uncertainty retained, no geographic change"
+    }
+  ],
+  "unresolved_small_or_missing_settlements": [
+    {
+      "state": 1595,
+      "chinese": "伊卡",
+      "english": "Ika",
+      "matches": [],
+      "contains_named_city": false,
+      "status": "Below-threshold settlement or absent from fixed UCDB city inventory; city point not independently verified"
+    }
+  ],
+  "no_boundary_or_victory_point_changes": true
+}

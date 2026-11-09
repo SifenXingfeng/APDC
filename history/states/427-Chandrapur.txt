@@ -1,0 +1,34 @@
+state={
+	id=427
+	name="STATE_427"
+	resources={ chromium = 1 coal = 1 }
+	provinces={
+		4557 4950 7619 16074 18974 18975 18999 
+	}
+	manpower=2376161
+	buildings_max_level_factor=1
+	state_category=town
+	local_supplies=7
+	history = {
+		owner = RAJ
+		controller = RAJ
+		add_core_of = IPL
+		add_core_of = KOL
+		add_core_of = RAJ
+
+		
+		
+		
+		set_state_flag = GDP_regions_madhya_pradesh
+		victory_points = { 4557 3 }
+		victory_points = { 4950 15 }
+		victory_points = { 7619 3 }
+		victory_points = { 16074 5 }
+		victory_points = { 18974 3 }
+		victory_points = { 18975 3 }
+		victory_points = { 18999 2 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

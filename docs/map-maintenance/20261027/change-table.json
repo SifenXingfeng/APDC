@@ -1,0 +1,40 @@
+{
+  "source_checkpoint": "Git HEAD and baseline initial_territories; no GF political history used",
+  "province_transfers": [
+    {
+      "province": 13158,
+      "from": 357,
+      "to": 1364
+    }
+  ],
+  "new_states": [],
+  "reused_states": [],
+  "restored_states": [
+    {
+      "state": 1364,
+      "file": "1364-Vermont.txt",
+      "population_before": 720404,
+      "population_after": 960539,
+      "resources_before": {
+        "steel": "1"
+      },
+      "resources_after": {
+        "steel": 1
+      },
+      "restored_history": true
+    },
+    {
+      "state": 357,
+      "file": "357-Maine.txt",
+      "population_before": 3602020,
+      "population_after": 3361885,
+      "resources_before": {
+        "steel": "5"
+      },
+      "resources_after": {
+        "steel": 5
+      },
+      "restored_history": true
+    }
+  ]
+}

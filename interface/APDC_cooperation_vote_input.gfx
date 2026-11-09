@@ -1,0 +1,39 @@
+# Transparent copies preserve native scrollbar sizes and tiling.
+spriteTypes = {
+corneredTileSpriteType = {
+		name = "GFX_APDC_cooperation_vote_scrollbar_bg"
+		size= { x=18 y=156 }
+		textureFile = "gfx/interface/APDC/cooperation_organizations/legislation/vote_input/scrollbar_bg.png"
+		borderSize = { x=0 y=52 }
+		tilingCenter = yes
+	}
+
+spriteType = {
+		name = "GFX_APDC_cooperation_vote_scrollbar_thumb"
+		texturefile = "gfx/interface/APDC/cooperation_organizations/legislation/vote_input/scrollbar_thumb.png"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+corneredTileSpriteType = {
+		name = "GFX_APDC_cooperation_vote_scrollbar_track"
+		size= {x =12 y = 12 }
+		texturefile = "gfx/interface/APDC/cooperation_organizations/legislation/vote_input/scrollbar_track.png"
+		borderSize = { x=4 y=4 }
+	}
+
+spriteType = {
+		name = "GFX_APDC_cooperation_vote_scrollbar_up"
+		texturefile = "gfx/interface/APDC/cooperation_organizations/legislation/vote_input/scrollbar_up.png"
+	}
+
+spriteType = {
+		name = "GFX_APDC_cooperation_vote_scrollbar_down"
+		texturefile = "gfx/interface/APDC/cooperation_organizations/legislation/vote_input/scrollbar_down.png"
+	}
+
+spriteType = {
+ name = "GFX_APDC_cooperation_vote_scroll_hitbox"
+ textureFile = "gfx/interface/APDC/cooperation_organizations/legislation/vote_input/scroll_hitbox.png"
+ transparencecheck = no
+}
+}

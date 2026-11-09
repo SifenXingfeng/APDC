@@ -1,0 +1,33 @@
+state={
+	id=1567
+	name="STATE_1567"
+	provinces={
+		2092 4971 16055 16056 18994 18995 
+	}
+	manpower=2813463
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = RAJ
+		controller = RAJ
+		add_core_of = IPL
+		add_core_of = RAJ
+
+		
+
+		
+		
+		
+		
+		set_state_flag = GDP_regions_madhya_pradesh
+		victory_points = { 2092 2 }
+		victory_points = { 4971 2 }
+		victory_points = { 18994 1 }
+		victory_points = { 18995 10 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	resources = {  }
+	state_category = rural
+}

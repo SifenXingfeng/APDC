@@ -1,0 +1,25 @@
+state={
+	id=831
+	name="STATE_831"
+	provinces={
+		1593 7477 7563 10359 10406 12359 14273 14704 14705 
+	}
+	manpower=190526
+	buildings_max_level_factor=1
+	state_category=rural
+	local_supplies=0
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		victory_points = { 1593 1 }
+		victory_points = { 7477 1 }
+		buildings = {
+			infrastructure = 1
+			7477 = {
+				naval_base = 1
+			}
+		}
+	}
+	resources = {  }
+}

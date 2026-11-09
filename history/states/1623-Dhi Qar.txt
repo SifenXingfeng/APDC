@@ -1,0 +1,26 @@
+state={
+	id=1623
+	name="STATE_1623"
+	provinces={
+		2004 12726 15748 15754 16307 16312 16319 
+	}
+	manpower=263890
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = IRQ
+		controller = IRQ
+		add_core_of = IRQ
+		set_state_flag = state_renamings
+		victory_points = { 2004 5 }
+		victory_points = { 12726 3 }
+		victory_points = { 15748 1 }
+		victory_points = { 16312 1 }
+		victory_points = { 16319 3 }
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	resources = { aluminium = 2 steel = 1 }
+	state_category = town
+}

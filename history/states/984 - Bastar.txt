@@ -1,29 +1,36 @@
-state = {
-	id = 984
-	name = "STATE_984"
-	manpower = 30650
-	state_category = rural
-	resources = {
+state={
+	id=984
+	name="STATE_984"
+	provinces={
+		1510 7497 7574 10401 12375 12420 12480 16081 16083 16098 16099 18979 18984 
 	}
+	manpower=4412871
+	buildings_max_level_factor=1
+	state_category=rural
+	local_supplies=0
 	history = {
-		owner = PAK
-		controller = PAK
-		add_core_of = PAK
-		victory_points = {
-			1622
-			2
-		}
+		owner = IPL
+		controller = IPL
+		add_core_of = IPL
+		add_core_of = RAJ
+
+		
+		
+		
+		set_state_flag = GDP_regions_madhya_pradesh
+		victory_points = { 1510 5 }
+		victory_points = { 7497 3 }
+		victory_points = { 7574 10 }
+		victory_points = { 10401 1 }
+		victory_points = { 12375 2 }
+		victory_points = { 12420 10 }
+		victory_points = { 16081 3 }
+		victory_points = { 16083 2 }
+		victory_points = { 16098 1 }
+		victory_points = { 18984 1 }
 		buildings = {
 			infrastructure = 1
 		}
-		set_state_flag = GDP_regions_madhya_pradesh
 	}
-	provinces = {
-		1622
-		7428
-		7465
-		12490
-		16082
-	}
-	local_supplies = 0.0
+	resources = { chromium = 1 coal = 2 }
 }

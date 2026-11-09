@@ -1,0 +1,27 @@
+{
+  "result": "stopped after identifying new compatibility errors, before date advancement",
+  "new_error_cause": "1.19.4 native French Indochina peace rules reference FRA_is_indochina_state and is_vichy_france, helpers removed from the APDC 2060 scenario",
+  "process": {
+    "desktop": "APDC_PerformanceQA_20261028_130124",
+    "pid": 700,
+    "debug_mode": true,
+    "job_kill_on_close": true,
+    "profile": "D:/APDC_1194_QA_20261028",
+    "command": "\"D:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\hoi4.exe\" -userdir=D:/APDC_1194_QA_20261028 -start_tag=GER -start_speed=3 -gamelog -debug",
+    "started": "2026-10-28T13:01:24.3912563+08:00",
+    "input_desktop_switched": false,
+    "path": "D:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\hoi4.exe"
+  },
+  "stop": {
+    "remaining_helpers": [],
+    "closed_helpers": [
+      31544,
+      23676
+    ],
+    "still_running": false,
+    "stopped": "2026-10-28T13:03:07.8240764+08:00",
+    "steam_app_running": false,
+    "pid": 700
+  },
+  "archived_logs": "D:\\C-Drive-Migration-20260929\\Permanent\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\.codex_backups\\APDC\\20261028-125836-1194-compatibility\\runtime-attempt1.zip"
+}

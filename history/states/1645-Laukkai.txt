@@ -1,0 +1,21 @@
+state={
+	id=1645
+	name="STATE_1645"
+	provinces={
+		4210 
+	}
+	manpower=78376
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = BRM
+		controller = BRM
+		add_core_of = BRM
+		victory_points = { 4210 1 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	resources = { tungsten = 4 }
+	state_category = rural
+}

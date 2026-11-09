@@ -206,20 +206,22 @@ guiTypes = {
 		}
 	}
 	
-	### MAIN MENU PANEL (upperleft)
+	### MAIN MENU TITLE (centered, 50px from the top)
 	containerWindowType = {
 		name  ="mainmenu_panel_upperleft"
-		position = { x=0 y =-200 }
-		show_position = { x=0 y =-1 }
+		position = { x=0 y =-350 }
+		show_position = { x=0 y =50 }
 		animation_type = decelerated
 		animation_time = 1000
-		size = { width = 256 height = 768}
+		size = { width = 896 height = 350}
+		Orientation = center_up
+		Origo = center_up
 		
 		iconType =
 		{
 			name ="frontend_game_logo"
 			spriteType = "GFX_frontend_game_logo"
-			position = { x= 20 y = 20 }
+			position = { x= 0 y = 0 }
 		}
 		
 	}
@@ -276,10 +278,10 @@ guiTypes = {
 	### SINGLE PLAYER MENU
 	containerWindowType = {
 		name = "mainmenu_single_player"
-		position = { x=0 y =0}
+		position = { x=0 y =450}
 		size = { width = 320 height = 395}
-		Orientation = CENTER
-		Origo = center	
+		Orientation = center_up
+		Origo = center_up	
 				
 		background = {
 			name = "Background"		
@@ -373,10 +375,10 @@ guiTypes = {
 	### MAIN MENU PANEL (bottom)
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
-		position = { x=0 y =0}
+		position = { x=0 y =450}
 		size = { width = 320 height = 450 }
-		Orientation = CENTER
-		Origo = center		
+		Orientation = center_up
+		Origo = center_up		
 
 		positionType = {
 			name = "subscription_size"
@@ -560,24 +562,24 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "mainmenu_social_buttons"
-		position = { x=-50 y=25 }	
+		position = { x=-50 y=655 }	
 		size = { width = 240 height = 90 }
-		Orientation = center	
-		origo = center
+		Orientation = center_up	
+		origo = center_up
 		
 		positionType = {
 			name = "position_without_social_gui"
-			position = { x = 0 y = 175 }
+			position = { x = 0 y = 805 }
 		}
 
 		positionType = {
 			name = "subscription_position"
-			position = { x = -50 y = 109 }
+			position = { x = -50 y = 801 }
 		}
 
 		positionType = {
 			name = "subscription_position_without_social_gui"
-			position = { x = 0 y = 239 }
+			position = { x = 0 y = 931 }
 		}
 		
 		containerWindowType = {

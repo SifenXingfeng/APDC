@@ -1,0 +1,89 @@
+{
+  "passed": true,
+  "files_hashed": 33541,
+  "changed_existing": [
+    {
+      "file": "interface/countrydiplomacyview.gui",
+      "before": "90b096e1bd9835ba3df80471e22d072a12f299d78502301325234151f82163e8",
+      "after": "4a81a68739ef4a73b86e4fa3d9203b3c49b9d2ab3998013f05ff89cee7cc3bf0"
+    },
+    {
+      "file": "interface/countrytechtreeview.gui",
+      "before": "ce264bb0560750bae97e5d5c83cc87363731f5a049fcf70888ce9cf5cc69ba6d",
+      "after": "47ea5732638f6c5fea9612f59497d75705bdd309c313cc146d58e385f922bb3b"
+    },
+    {
+      "file": "interface/countrytradeview.gui",
+      "before": "6b0a16a641f35b348a30a263aaeed899974076be7a112af8340005f083e34f0d",
+      "after": "c9d1caf7d4a78afa3245bd3f738dc66b4ffb4eabcfa7cca44b6c4072e68d9576"
+    },
+    {
+      "file": "common/doctrines/tracks/land_doctrine_tracks.txt",
+      "before": "41f1b4ea5d717e87241e88e2913b8180e977fab382aaff1d4a27cce176a0c372",
+      "after": "eb3fa75c6981718c02cf3a7643ecfabe4f930ff6e0b39773a9ef1bdd20d4377c"
+    }
+  ],
+  "added": [
+    {
+      "file": "interface/APDC_1194_compatibility.gfx",
+      "after": "bb7ca3065bf0cf6a10836331cef2a0850102dae9e98b65c27042eab05bf1ea15"
+    },
+    {
+      "file": "common/peace_conference/ai_peace/FRA.txt",
+      "after": "bfbcf9407bcfce2069181b7115a69875986bbca2d6fcf48492573e7407eace49"
+    },
+    {
+      "file": "common/peace_conference/cost_modifiers/FRA_peace.txt",
+      "after": "cd9489bbd96ef5cc9456b813ee0265c4d57c32d7e1d93adc4bfaa1d015725489"
+    },
+    {
+      "file": "docs/compatibility/20261028-1.19.4/changes.json",
+      "after": "1afdaba1de42eaa27bd469ef10e2e54436b1295008ff36791aa66e1458d43543"
+    },
+    {
+      "file": "docs/compatibility/20261028-1.19.4/effective-graphics-audit.json",
+      "after": "b0bdd4fdcf9b087f0911524d14b61cbf5ffa8aee269b47b90eb92158a1ac8157"
+    },
+    {
+      "file": "docs/compatibility/20261028-1.19.4/native-baseline.json",
+      "after": "aafc005cc3405c554e6b883ed16cbf1abacf6779120664e0f0c9bc3ad16357d6"
+    },
+    {
+      "file": "docs/compatibility/20261028-1.19.4/README.md",
+      "after": "9be460c4bf8d688c5d4ad4927350ef5758bfdf82154e74f1416e449a5ddce2ab"
+    },
+    {
+      "file": "docs/compatibility/20261028-1.19.4/runtime-attempt1.json",
+      "after": "a8e56889c1c679a399f68dd6a400e7e1c1f09110d5f08a7490c43271f85e41ea"
+    },
+    {
+      "file": "docs/compatibility/20261028-1.19.4/runtime-audit.json",
+      "after": "f6e263114d2672d2678acc5101388f55c76c21159301c1e8342b002f11ad6d8b"
+    },
+    {
+      "file": "docs/compatibility/20261028-1.19.4/runtime-preparation.json",
+      "after": "1631cac51ac73a541e941bf8e435a94ef1ff4505996488d232525b413ea61bcd"
+    },
+    {
+      "file": "docs/compatibility/20261028-1.19.4/runtime-state-math-review.png",
+      "after": "a0c4e04f5c4fa1c2d7d095b4e11e96bcaaacf7bdb29090515a11bb5096e6105c"
+    },
+    {
+      "file": "docs/compatibility/20261028-1.19.4/static-audit.json",
+      "after": "dde1fc04db1afc81d78b5aa21a5e23826826206f7b3a2dd78dbc48f0420edb9f"
+    },
+    {
+      "file": "tools/compatibility/baseline.json",
+      "after": "911a1b8ba49d7733581b96d019901db2c5fb9178078e70dc57660bbb66b886f7"
+    },
+    {
+      "file": "tools/compatibility/upgrade_1194.py",
+      "after": "58940efc5bd32c1344851b6fa4ed81adaa0618380661ab1da6ff44a778ca0f1b"
+    }
+  ],
+  "removed": [],
+  "unexpected": [],
+  "pre_existing_dirty_files_preserved": true,
+  "country_identity_map_economy_code_unit_stats_cold_war_and_art_unchanged": true,
+  "own_manifest_git_and_caches_excluded": true
+}

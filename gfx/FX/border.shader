@@ -132,12 +132,12 @@ PixelShader =
                 float2(Input.uv.y * BORDER_TILE, Input.uv.x),
                 Input.pos, vGFBorderType, vGFIsInland);
 
-            // Only ordinary land COUNTRY borders enter the blue-white style.
-            // State and province borders retain the complete native pipeline.
+            // Country ribbons are separate from the native sea/state/province ribbons.
+            // Their coastal ends must not be rejected by the coarse, eroded land mask.
             // Seas, coasts, impassable lines, DMZ and selection overlays
             // continue through the original game's color pipeline below.
             bool vGFStyledBorder = vGFBorderType > 0.5f && vGFBorderType < 1.5f
-                && vGFIsInland > 0.5f && vSelectionColor.a < 0.001f;
+                && vSelectionColor.a < 0.001f;
             float4 vGFStyledColor = float4(0.0f, 0.0f, 0.0f, 0.0f);
             if (vGFStyledBorder)
             {

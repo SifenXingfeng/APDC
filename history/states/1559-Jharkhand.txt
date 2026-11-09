@@ -1,0 +1,39 @@
+state={
+	id=1559
+	name="STATE_1559"
+	provinces={
+		1637 7593 10358 10471 12035 12307 12452 16104 16105 16106 16107 18834 18840 
+	}
+	manpower=11886713
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = IPL
+		controller = IPL
+		add_core_of = IPL
+		add_core_of = RAJ
+
+		
+		
+		
+		set_state_flag = GDP_regions_bihar
+		victory_points = { 1637 1 }
+		victory_points = { 7593 3 }
+		victory_points = { 10358 15 }
+		victory_points = { 10471 3 }
+		victory_points = { 12035 3 }
+		victory_points = { 12307 1 }
+		victory_points = { 12452 10 }
+		victory_points = { 16104 3 }
+		victory_points = { 16105 2 }
+		victory_points = { 16106 2 }
+		victory_points = { 16107 10 }
+		victory_points = { 18834 1 }
+		victory_points = { 18840 15 }
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	resources = { coal = 5 }
+	state_category = rural
+}

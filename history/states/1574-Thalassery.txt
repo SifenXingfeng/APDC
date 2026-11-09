@@ -1,0 +1,29 @@
+state={
+	id=1574
+	name="STATE_1574"
+	provinces={
+		7391 10190 
+	}
+	manpower=1666220
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = KER
+		controller = KER
+		add_core_of = IPL
+		add_core_of = KER
+		add_core_of = RAJ
+
+		
+		
+		
+		set_state_flag = GDP_regions_tamil_nadu
+		victory_points = { 7391 30 }
+		victory_points = { 10190 5 }
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	resources = { rubber = 1 }
+	state_category = rural
+}

@@ -25,10 +25,7 @@ set_politics = {
 	elections_allowed = yes
 }
 
-promote_character = {
-	character = COL_leo_rodriguez_liberalism
-	ideology = liberal_conservatism
-}
+
 
 set_popularities = {
 	communism = 12
@@ -42,11 +39,83 @@ set_popularities = {
 	fundamentalism = 14
 }
 
-APDC_add_liberalism_to_governing_coalition = yes
-APDC_add_conservatism_to_governing_coalition = yes
-APDC_add_social_democracy_to_governing_coalition = yes
 
-APDC_set_economic_system_free_market = yes
+
+
+
+
 
 set_variable = { APDC_prime_minister_character = token:COL_mateo_garcia }
 set_variable = { APDC_deputy_prime_minister_character = token:COL_hugo_perez }
+
+# Document synchronization 2026-10-28; unresolved fields retain previous values.
+recruit_character = COL_APDC_doc_177441bef04b
+promote_character = { character = COL_dylan_morales ideology = orthodox_communism }
+promote_character = { character = COL_martin_ruiz ideology = bolivarianism }
+promote_character = { character = COL_hugo_perez ideology = left_agrarianism }
+promote_character = { character = COL_mateo_garcia ideology = liberal_corporatism }
+promote_character = { character = COL_leo_rodriguez_liberalism ideology = liberal_conservatism }
+promote_character = { character = COL_leo_rodriguez_authoritarianism ideology = non_dominant_system }
+promote_character = { character = COL_mercenary_group ideology = military_state }
+promote_character = { character = COL_crocodile_bruno ideology = criminal_state }
+promote_character = { character = COL_APDC_doc_177441bef04b ideology = mysticism }
+APDC_set_economic_system_free_market = yes
+APDC_add_liberalism_to_governing_coalition = yes
+APDC_add_conservatism_to_governing_coalition = yes
+APDC_add_social_democracy_to_governing_coalition = yes
+set_variable = { APDC_document_party_leader_communism = token:COL_dylan_morales }
+set_variable = { APDC_document_party_leader_socialism = token:COL_martin_ruiz }
+set_variable = { APDC_document_party_leader_social_democracy = token:COL_hugo_perez }
+set_variable = { APDC_document_party_leader_conservatism = token:COL_mateo_garcia }
+set_variable = { APDC_document_party_leader_liberalism = token:COL_leo_rodriguez_liberalism }
+set_variable = { APDC_document_party_leader_authoritarianism = token:COL_leo_rodriguez_authoritarianism }
+set_variable = { APDC_document_party_leader_dictatorship = token:COL_mercenary_group }
+set_variable = { APDC_document_party_leader_fascism = token:COL_crocodile_bruno }
+set_variable = { APDC_document_party_leader_fundamentalism = token:COL_APDC_doc_177441bef04b }
+
+# APDC parliament election calendar schema 1
+if = {
+limit = { has_government = communism }
+set_politics = { ruling_party = communism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = socialism }
+set_politics = { ruling_party = socialism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = social_democracy }
+set_politics = { ruling_party = social_democracy last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = liberalism }
+set_politics = { ruling_party = liberalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = conservatism }
+set_politics = { ruling_party = conservatism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = authoritarianism }
+set_politics = { ruling_party = authoritarianism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = dictatorship }
+set_politics = { ruling_party = dictatorship last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = fascism }
+set_politics = { ruling_party = fascism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}
+if = {
+limit = { has_government = fundamentalism }
+set_politics = { ruling_party = fundamentalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = yes }
+
+}

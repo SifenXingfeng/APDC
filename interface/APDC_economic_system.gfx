@@ -1,11 +1,43 @@
 spriteTypes = {
-	spriteType = {
-		name = "GFX_APDC_economic_system_generic"
-		textureFile = "gfx/interface/APDC/economic_systems/generic_economic_system.dds"
-	}
+spriteType = {
+name = "GFX_APDC_economic_system_bandit_economy"
+texturefile = "gfx/interface/APDC/economic_systems/bandit_economy.png"
+}
+spriteType = {
+name = "GFX_APDC_economic_system_traditional_agriculture"
+texturefile = "gfx/interface/APDC/economic_systems/traditional_agriculture.png"
+}
+spriteType = {
+name = "GFX_APDC_economic_system_dependent_economy"
+texturefile = "gfx/interface/APDC/economic_systems/dependent_economy.png"
+}
+spriteType = {
+name = "GFX_APDC_economic_system_free_market"
+texturefile = "gfx/interface/APDC/economic_systems/free_market.png"
+}
+spriteType = {
+name = "GFX_APDC_economic_system_mixed_market"
+texturefile = "gfx/interface/APDC/economic_systems/mixed_market.png"
+}
+spriteType = {
+name = "GFX_APDC_economic_system_state_guided"
+texturefile = "gfx/interface/APDC/economic_systems/state_guided.png"
+}
+spriteType = {
+name = "GFX_APDC_economic_system_state_capitalism"
+texturefile = "gfx/interface/APDC/economic_systems/state_capitalism.png"
+}
+spriteType = {
+name = "GFX_APDC_economic_system_market_socialism"
+texturefile = "gfx/interface/APDC/economic_systems/market_socialism.png"
+}
+spriteType = {
+name = "GFX_APDC_economic_system_decentralized_planning"
+texturefile = "gfx/interface/APDC/economic_systems/decentralized_planning.png"
+}
+spriteType = {
+name = "GFX_APDC_economic_system_central_planning"
+texturefile = "gfx/interface/APDC/economic_systems/central_planning.png"
+}
 
-	spriteType = {
-		name = "GFX_APDC_economic_system_market_socialism"
-		textureFile = "gfx/interface/APDC/economic_systems/market_socialism.dds"
-	}
 }

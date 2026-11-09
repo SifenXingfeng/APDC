@@ -1,0 +1,87 @@
+{
+  "province_transfers": [
+    {
+      "city": "米尔内",
+      "province": 10557,
+      "from": 1592,
+      "to": 575,
+      "direct_border": [
+        {
+          "province": 13059,
+          "shared_pixel_edges": 17
+        }
+      ],
+      "move": true
+    },
+    {
+      "city": "汉特-曼西斯克",
+      "province": 1812,
+      "from": 580,
+      "to": 577,
+      "direct_border": [
+        {
+          "province": 1659,
+          "shared_pixel_edges": 44
+        },
+        {
+          "province": 7833,
+          "shared_pixel_edges": 26
+        },
+        {
+          "province": 7867,
+          "shared_pixel_edges": 14
+        }
+      ],
+      "move": true
+    }
+  ],
+  "economy_changes": [
+    {
+      "state": 575,
+      "population_before": 21370,
+      "population_after": 29080,
+      "resources_before": {},
+      "resources_after": {}
+    },
+    {
+      "state": 577,
+      "population_before": 282403,
+      "population_after": 286810,
+      "resources_before": {
+        "oil": 6
+      },
+      "resources_after": {
+        "oil": 6
+      }
+    },
+    {
+      "state": 580,
+      "population_before": 131484,
+      "population_after": 127077,
+      "resources_before": {},
+      "resources_after": {}
+    },
+    {
+      "state": 1592,
+      "population_before": 46261,
+      "population_after": 38551,
+      "resources_before": {},
+      "resources_after": {}
+    }
+  ],
+  "actual_buildings_moved": [],
+  "capital_changes": [
+    {
+      "file": "history/countries/OVO - Ostyakia Vogulia.txt",
+      "kind": "capital",
+      "tag": "OVO",
+      "province": 1812,
+      "from": 580,
+      "to": 577,
+      "reason": "Keep Khanty-Mansiysk as the same geographic capital; preserve releasable country setup"
+    }
+  ],
+  "political_relations_unchanged": true,
+  "state_file_names_unchanged": true,
+  "no_bitmap_or_land_sea_type_changes": true
+}

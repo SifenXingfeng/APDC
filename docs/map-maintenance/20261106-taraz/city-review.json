@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-06",
+  "source": "tools/map_maintenance/baseline/modern_victory_points.json",
+  "rows": [
+    {
+      "state": 1646,
+      "city_province": 12640,
+      "city": "Taraz",
+      "names": {
+        "english": "Taraz",
+        "simp_chinese": "塔拉兹",
+        "french": "Taraz",
+        "german": "Taras",
+        "spanish": "Taraz",
+        "braz_por": "Taraz",
+        "polish": "Taraz",
+        "russian": "Тараз",
+        "japanese": "タラズ",
+        "korean": "타라즈"
+      },
+      "actual_state": 1646,
+      "contains_named_city": true,
+      "score": 3
+    },
+    {
+      "state": 881,
+      "city_province": 10308,
+      "city": "Karagandy",
+      "names": {
+        "english": "Karaganda",
+        "simp_chinese": "卡拉干达",
+        "french": "Karaganda",
+        "german": "Karaganda",
+        "spanish": "Karagandá",
+        "braz_por": "Qaraghandy",
+        "polish": "Karaganda",
+        "russian": "Караганда",
+        "japanese": "カラガンダ",
+        "korean": "카라간다"
+      },
+      "actual_state": 881,
+      "contains_named_city": true,
+      "score": 3
+    }
+  ],
+  "regional_name_exclusions": {
+    "586": "East Jambyl is a regional name; Taraz city has moved into new state 1646"
+  },
+  "mismatches": [],
+  "unresolved": [],
+  "province_lists_preserved": true,
+  "city_scores_names_and_locations_preserved": true
+}

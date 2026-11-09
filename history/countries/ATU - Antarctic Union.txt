@@ -66,31 +66,94 @@ add_ideas = {
 
 
 set_politics = {
-	ruling_party = dictatorship
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	liberalism = 25
-	fascism = 20
-	communism = 5
-	dictatorship = 50
+	communism = 0
+	socialism = 0
+	social_democracy = 0
+	conservatism = 0
+	liberalism = 0
+	authoritarianism = 0
+	dictatorship = 0
+	fascism = 100
+	fundamentalism = 0
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = dictatorship
+		ruling_party = fascism
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		liberalism = 25
-		fascism = 20
-		communism = 5
-		dictatorship = 50
-	}
+	communism = 0
+	socialism = 0
+	social_democracy = 0
+	conservatism = 0
+	liberalism = 0
+	authoritarianism = 0
+	dictatorship = 0
+	fascism = 100
+	fundamentalism = 0
+}
 }
 
+# Document synchronization 2026-10-28; unresolved fields retain previous values.
+recruit_character = ATU_APDC_doc_dab0b10e11a8
+promote_character = { character = ATU_APDC_doc_dab0b10e11a8 ideology = classical_socialism }
+APDC_set_economic_system_dependent_economy = yes
+APDC_add_fascism_to_governing_coalition = yes
+set_variable = { APDC_document_party_leader_fascism = token:ATU_APDC_doc_dab0b10e11a8 }
+
+# APDC parliament election calendar schema 1
+if = {
+limit = { has_government = communism }
+set_politics = { ruling_party = communism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = socialism }
+set_politics = { ruling_party = socialism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = social_democracy }
+set_politics = { ruling_party = social_democracy last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = liberalism }
+set_politics = { ruling_party = liberalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = conservatism }
+set_politics = { ruling_party = conservatism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = authoritarianism }
+set_politics = { ruling_party = authoritarianism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = dictatorship }
+set_politics = { ruling_party = dictatorship last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = fascism }
+set_politics = { ruling_party = fascism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = fundamentalism }
+set_politics = { ruling_party = fundamentalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}

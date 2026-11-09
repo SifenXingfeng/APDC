@@ -1319,41 +1319,41 @@ set_variable = { APDC_eco_shortage = 0 }
 set_variable = { APDC_eco_surplus = 0 }
 set_variable = { APDC_eco_food_penalty = 0 }
 if = { limit = { check_variable = { APDC_eco_demand_m > 0 } }
-set_temp_variable = { APDC_eco_math_19 = APDC_eco_demand_m }
-subtract_from_temp_variable = { APDC_eco_math_19 = APDC_eco_supply_m }
-divide_temp_variable = { APDC_eco_math_19 = APDC_eco_demand_m }
-clamp_temp_variable = { var = APDC_eco_math_19 min = 0 }
-set_variable = { APDC_eco_shortage = APDC_eco_math_19 }
-set_temp_variable = { APDC_eco_math_20 = APDC_eco_supply_m }
-subtract_from_temp_variable = { APDC_eco_math_20 = APDC_eco_demand_m }
-divide_temp_variable = { APDC_eco_math_20 = APDC_eco_demand_m }
-clamp_temp_variable = { var = APDC_eco_math_20 min = 0 }
-set_variable = { APDC_eco_surplus = APDC_eco_math_20 }
+set_temp_variable = { APDC_eco_math_1 = APDC_eco_demand_m }
+subtract_from_temp_variable = { APDC_eco_math_1 = APDC_eco_supply_m }
+divide_temp_variable = { APDC_eco_math_1 = APDC_eco_demand_m }
+clamp_temp_variable = { var = APDC_eco_math_1 min = 0 }
+set_variable = { APDC_eco_shortage = APDC_eco_math_1 }
+set_temp_variable = { APDC_eco_math_2 = APDC_eco_supply_m }
+subtract_from_temp_variable = { APDC_eco_math_2 = APDC_eco_demand_m }
+divide_temp_variable = { APDC_eco_math_2 = APDC_eco_demand_m }
+clamp_temp_variable = { var = APDC_eco_math_2 min = 0 }
+set_variable = { APDC_eco_surplus = APDC_eco_math_2 }
 
 }
-set_temp_variable = { APDC_eco_math_21 = APDC_eco_shortage }
-clamp_temp_variable = { var = APDC_eco_math_21 max = 1 }
-multiply_temp_variable = { APDC_eco_math_21 = -0.1 }
-set_variable = { APDC_eco_food_penalty = APDC_eco_math_21 }
-set_temp_variable = { APDC_eco_math_22 = modifier@APDC_eco_civ_expansion_base }
-set_temp_variable = { APDC_eco_math_23 = modifier@production_speed_buildings_factor }
-add_to_temp_variable = { APDC_eco_math_23 = modifier@production_speed_industrial_complex_factor }
-add_to_temp_variable = { APDC_eco_math_23 = 1 }
-clamp_temp_variable = { var = APDC_eco_math_23 min = 0 }
-multiply_temp_variable = { APDC_eco_math_22 = APDC_eco_math_23 }
-set_temp_variable = { APDC_eco_math_24 = modifier@APDC_eco_private_civ_expansion_factor }
-add_to_temp_variable = { APDC_eco_math_24 = 1 }
-clamp_temp_variable = { var = APDC_eco_math_24 min = 0 }
-multiply_temp_variable = { APDC_eco_math_22 = APDC_eco_math_24 }
-set_temp_variable = { APDC_eco_math_25 = APDC_eco_shortage }
-add_to_temp_variable = { APDC_eco_math_25 = 1 }
-multiply_temp_variable = { APDC_eco_math_22 = APDC_eco_math_25 }
-set_variable = { APDC_eco_civ_capacity = APDC_eco_math_22 }
-set_temp_variable = { APDC_eco_math_26 = APDC_eco_civ_capacity }
-multiply_temp_variable = { APDC_eco_math_26 = APDC_eco_private_civ }
-add_to_temp_variable = { APDC_eco_math_26 = 5 }
-multiply_temp_variable = { APDC_eco_math_26 = 0.5 }
-set_variable = { APDC_eco_civ_velocity = APDC_eco_math_26 }
+set_temp_variable = { APDC_eco_math_3 = APDC_eco_shortage }
+clamp_temp_variable = { var = APDC_eco_math_3 max = 1 }
+multiply_temp_variable = { APDC_eco_math_3 = -0.1 }
+set_variable = { APDC_eco_food_penalty = APDC_eco_math_3 }
+set_temp_variable = { APDC_eco_math_4 = modifier@APDC_eco_civ_expansion_base }
+set_temp_variable = { APDC_eco_math_5 = modifier@production_speed_buildings_factor }
+add_to_temp_variable = { APDC_eco_math_5 = modifier@production_speed_industrial_complex_factor }
+add_to_temp_variable = { APDC_eco_math_5 = 1 }
+clamp_temp_variable = { var = APDC_eco_math_5 min = 0 }
+multiply_temp_variable = { APDC_eco_math_4 = APDC_eco_math_5 }
+set_temp_variable = { APDC_eco_math_6 = modifier@APDC_eco_private_civ_expansion_factor }
+add_to_temp_variable = { APDC_eco_math_6 = 1 }
+clamp_temp_variable = { var = APDC_eco_math_6 min = 0 }
+multiply_temp_variable = { APDC_eco_math_4 = APDC_eco_math_6 }
+set_temp_variable = { APDC_eco_math_7 = APDC_eco_shortage }
+add_to_temp_variable = { APDC_eco_math_7 = 1 }
+multiply_temp_variable = { APDC_eco_math_4 = APDC_eco_math_7 }
+set_variable = { APDC_eco_civ_capacity = APDC_eco_math_4 }
+set_temp_variable = { APDC_eco_math_8 = APDC_eco_civ_capacity }
+multiply_temp_variable = { APDC_eco_math_8 = APDC_eco_private_civ }
+add_to_temp_variable = { APDC_eco_math_8 = 5 }
+multiply_temp_variable = { APDC_eco_math_8 = 0.5 }
+set_variable = { APDC_eco_civ_velocity = APDC_eco_math_8 }
 if = { limit = { NOT = { check_variable = { APDC_eco_shortage > 0.1 } } NOT = { check_variable = { APDC_eco_surplus > 0.1 } } }
 set_variable = { APDC_eco_civ_capacity = 0 }
 set_variable = { APDC_eco_civ_velocity = 0 }
@@ -1361,13 +1361,13 @@ set_variable = { APDC_eco_civ_velocity = 0 }
 }
 if = { limit = { check_variable = { APDC_eco_surplus > 0.1 } }
 set_variable = { APDC_eco_civ_capacity = 0 }
-set_temp_variable = { APDC_eco_math_27 = APDC_eco_surplus }
-multiply_temp_variable = { APDC_eco_math_27 = APDC_eco_private_civ }
-multiply_temp_variable = { APDC_eco_math_27 = -2.5 }
-set_variable = { APDC_eco_civ_velocity = APDC_eco_math_27 }
+set_temp_variable = { APDC_eco_math_9 = APDC_eco_surplus }
+multiply_temp_variable = { APDC_eco_math_9 = APDC_eco_private_civ }
+multiply_temp_variable = { APDC_eco_math_9 = -2.5 }
+set_variable = { APDC_eco_civ_velocity = APDC_eco_math_9 }
 
 }
-if = { limit = { APDC_eco_is_planned = yes }
+if = { limit = { APDC_eco_disallows_private = yes }
 set_variable = { APDC_eco_civ_capacity = 0 }
 set_variable = { APDC_eco_civ_velocity = 0 }
 
@@ -1377,25 +1377,25 @@ set_variable = { APDC_eco_civ_capacity = 0 }
 set_variable = { APDC_eco_civ_velocity = 0 }
 
 }
-set_temp_variable = { APDC_eco_math_28 = modifier@APDC_eco_mil_expansion_base }
-set_temp_variable = { APDC_eco_math_29 = modifier@production_speed_buildings_factor }
-add_to_temp_variable = { APDC_eco_math_29 = modifier@production_speed_arms_factory_factor }
-add_to_temp_variable = { APDC_eco_math_29 = 1 }
-clamp_temp_variable = { var = APDC_eco_math_29 min = 0 }
-multiply_temp_variable = { APDC_eco_math_28 = APDC_eco_math_29 }
-set_temp_variable = { APDC_eco_math_30 = modifier@APDC_eco_private_mil_expansion_factor }
-add_to_temp_variable = { APDC_eco_math_30 = 1 }
-clamp_temp_variable = { var = APDC_eco_math_30 min = 0 }
-multiply_temp_variable = { APDC_eco_math_28 = APDC_eco_math_30 }
-set_temp_variable = { APDC_eco_math_31 = APDC_eco_shortage }
-add_to_temp_variable = { APDC_eco_math_31 = 1 }
-multiply_temp_variable = { APDC_eco_math_28 = APDC_eco_math_31 }
-set_variable = { APDC_eco_mil_capacity = APDC_eco_math_28 }
-set_temp_variable = { APDC_eco_math_32 = APDC_eco_mil_capacity }
-multiply_temp_variable = { APDC_eco_math_32 = APDC_eco_private_civ }
-add_to_temp_variable = { APDC_eco_math_32 = 5 }
-multiply_temp_variable = { APDC_eco_math_32 = 0.5 }
-set_variable = { APDC_eco_mil_velocity = APDC_eco_math_32 }
+set_temp_variable = { APDC_eco_math_10 = modifier@APDC_eco_mil_expansion_base }
+set_temp_variable = { APDC_eco_math_11 = modifier@production_speed_buildings_factor }
+add_to_temp_variable = { APDC_eco_math_11 = modifier@production_speed_arms_factory_factor }
+add_to_temp_variable = { APDC_eco_math_11 = 1 }
+clamp_temp_variable = { var = APDC_eco_math_11 min = 0 }
+multiply_temp_variable = { APDC_eco_math_10 = APDC_eco_math_11 }
+set_temp_variable = { APDC_eco_math_12 = modifier@APDC_eco_private_mil_expansion_factor }
+add_to_temp_variable = { APDC_eco_math_12 = 1 }
+clamp_temp_variable = { var = APDC_eco_math_12 min = 0 }
+multiply_temp_variable = { APDC_eco_math_10 = APDC_eco_math_12 }
+set_temp_variable = { APDC_eco_math_13 = APDC_eco_shortage }
+add_to_temp_variable = { APDC_eco_math_13 = 1 }
+multiply_temp_variable = { APDC_eco_math_10 = APDC_eco_math_13 }
+set_variable = { APDC_eco_mil_capacity = APDC_eco_math_10 }
+set_temp_variable = { APDC_eco_math_14 = APDC_eco_mil_capacity }
+multiply_temp_variable = { APDC_eco_math_14 = APDC_eco_private_civ }
+add_to_temp_variable = { APDC_eco_math_14 = 5 }
+multiply_temp_variable = { APDC_eco_math_14 = 0.5 }
+set_variable = { APDC_eco_mil_velocity = APDC_eco_math_14 }
 if = { limit = { NOT = { check_variable = { APDC_eco_shortage > 0.1 } } NOT = { check_variable = { APDC_eco_surplus > 0.1 } } }
 set_variable = { APDC_eco_mil_capacity = 0 }
 set_variable = { APDC_eco_mil_velocity = 0 }
@@ -1403,13 +1403,13 @@ set_variable = { APDC_eco_mil_velocity = 0 }
 }
 if = { limit = { check_variable = { APDC_eco_surplus > 0.1 } }
 set_variable = { APDC_eco_mil_capacity = 0 }
-set_temp_variable = { APDC_eco_math_33 = APDC_eco_surplus }
-multiply_temp_variable = { APDC_eco_math_33 = APDC_eco_private_civ }
-multiply_temp_variable = { APDC_eco_math_33 = -2.5 }
-set_variable = { APDC_eco_mil_velocity = APDC_eco_math_33 }
+set_temp_variable = { APDC_eco_math_15 = APDC_eco_surplus }
+multiply_temp_variable = { APDC_eco_math_15 = APDC_eco_private_civ }
+multiply_temp_variable = { APDC_eco_math_15 = -2.5 }
+set_variable = { APDC_eco_mil_velocity = APDC_eco_math_15 }
 
 }
-if = { limit = { APDC_eco_is_planned = yes }
+if = { limit = { APDC_eco_disallows_private = yes }
 set_variable = { APDC_eco_mil_capacity = 0 }
 set_variable = { APDC_eco_mil_velocity = 0 }
 
@@ -2593,7 +2593,7 @@ set_variable = { APDC_eco_construction_continue = 0 }
 APDC_eco_reconcile_planned = {
 APDC_eco_initialize_stock_arrays = yes
 if = { limit = { APDC_eco_is_planned = yes }
-if = { limit = { OR = { NOT = { has_idea = APDC_eco_distribution_5 } has_idea = APDC_eco_distribution_1 has_idea = APDC_eco_distribution_2 has_idea = APDC_eco_distribution_3 has_idea = APDC_eco_distribution_4 } }
+if = { limit = { NOT = { has_idea = APDC_eco_distribution_5 } }
 remove_ideas = APDC_eco_distribution_1
 remove_ideas = APDC_eco_distribution_2
 remove_ideas = APDC_eco_distribution_3
@@ -2601,6 +2601,17 @@ remove_ideas = APDC_eco_distribution_4
 add_ideas = APDC_eco_distribution_5
 
 }
+
+}
+else = {
+if = { limit = { has_idea = APDC_eco_distribution_5 }
+remove_ideas = APDC_eco_distribution_5
+add_ideas = APDC_eco_distribution_1
+
+}
+
+}
+if = { limit = { APDC_eco_disallows_private = yes }
 if = { limit = { OR = { NOT = { has_country_flag = APDC_eco_planned_normalized } has_country_flag = APDC_eco_private_stock_dirty check_variable = { APDC_eco_private_civ_raw > 0 } check_variable = { APDC_eco_private_mil_raw > 0 } } }
 every_controlled_state = {
 set_temp_variable = { APDC_eco_convert = building_level@APDC_eco_private_civ }
@@ -2619,11 +2630,6 @@ set_variable = { APDC_eco_mil_progress = 0 }
 }
 else = {
 clr_country_flag = APDC_eco_planned_normalized
-if = { limit = { has_idea = APDC_eco_distribution_5 }
-remove_ideas = APDC_eco_distribution_5
-add_ideas = APDC_eco_distribution_1
-
-}
 
 }
 

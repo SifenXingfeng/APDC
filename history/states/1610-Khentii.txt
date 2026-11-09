@@ -1,0 +1,27 @@
+state={
+	id=1610
+	name="STATE_1610"
+	provinces={
+		5566 5812 7885 12533 16854 16861 
+	}
+	manpower=16618
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = MON
+		controller = MON
+		add_core_of = MON
+		set_variable = {
+			china_state_ref = 57
+		}
+		set_variable = {
+			china_region_ref = 7
+		}
+		set_state_flag = GDP_regions_outer_mongolia
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	resources = {  }
+	state_category = pastoral
+}

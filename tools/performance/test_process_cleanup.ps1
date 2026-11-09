@@ -40,8 +40,15 @@ function Stop-APDCTestHelpers {
     # Recheck identity immediately before stopping a PID that could be reused.
     $qaCurrent=Get-CimInstance Win32_Process -Filter ('ProcessId='+$qaCandidate.ProcessId)
     if ($qaCurrent -and $qaCurrent.CreationDate -eq $qaCandidate.CreationDate -and $qaCurrent.ExecutablePath -eq $qaCandidate.ExecutablePath -and $qaCurrent.CommandLine -eq $qaCandidate.CommandLine -and (Test-APDCProcessOwnership $qaCurrent $Profile $Started $GameDirectory)) {
-     Stop-Process -Id $qaCurrent.ProcessId -Force -ErrorAction Stop
-     $qaClosed.Add([int]$qaCurrent.ProcessId)
+     try {
+      Stop-Process -Id $qaCurrent.ProcessId -Force -ErrorAction Stop
+      $qaClosed.Add([int]$qaCurrent.ProcessId)
+     } catch {
+      # Helpers can exit between the identity recheck and Stop-Process.
+      # Only suppress that disappearance; a live matching process is a failure.
+      $qaAfter=Get-CimInstance Win32_Process -Filter ('ProcessId='+$qaCurrent.ProcessId)
+      if ($qaAfter -and $qaAfter.CreationDate -eq $qaCurrent.CreationDate) {throw}
+     }
     }
    }
   }

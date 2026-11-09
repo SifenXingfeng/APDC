@@ -1,4 +1,4 @@
-param([string]$Profile='D:/APDC_PerformanceQA_20261023',[int]$MaxSeconds=240)
+param([string]$Profile='D:/APDC_PerformanceQA_20261023',[int]$MaxSeconds=240,[switch]$NormalGraphics,[switch]$ContinueLastSave)
 $ErrorActionPreference='Stop'
 . (Join-Path $PSScriptRoot 'test_process_cleanup.ps1')
 # The game runs on a private desktop, without switching the input desktop.
@@ -40,11 +40,13 @@ if (-not [APDCPerformanceRun]::SetInformationJobObject($testJob,9,[ref]$testLimi
 $testSi=New-Object APDCPerformanceRun+SI;$testSi.cb=[Runtime.InteropServices.Marshal]::SizeOf($testSi)
 $testSi.desktop='WinSta0\'+$testDesktopName;$testSi.flags=1;$testSi.show=0
 $testPi=New-Object APDCPerformanceRun+PI
-$testCommand=New-Object Text.StringBuilder ('"'+$testExe+'" -userdir='+$Profile+' -start_tag=GER -start_speed=3 -gamelog -debug')
+$testDebugArg=if ($NormalGraphics) { '' } else { ' -debug' }
+$testStartArg=if ($ContinueLastSave) { ' -continuelastsave' } else { ' -start_tag=GER' }
+$testCommand=New-Object Text.StringBuilder ('"'+$testExe+'" -userdir='+$Profile+$testStartArg+' -start_speed=3 -gamelog'+$testDebugArg)
 try {
  if (-not [APDCPerformanceRun]::CreateProcess($testExe,$testCommand,[IntPtr]::Zero,[IntPtr]::Zero,$false,0x0204,[IntPtr]::Zero,(Split-Path $testExe),[ref]$testSi,[ref]$testPi)) { throw 'Private game launch failed.' }
  if (-not [APDCPerformanceRun]::AssignProcessToJobObject($testJob,$testPi.process)) { [APDCPerformanceRun]::TerminateProcess($testPi.process,1)|Out-Null;throw 'The game could not be contained in its cleanup job.' }
- $testRecord=@{pid=$testPi.pid;path=$testExe;profile=$Profile;desktop=$testDesktopName;started=(Get-Date).ToString('o');command=$testCommand.ToString();input_desktop_switched=$false;job_kill_on_close=$true;debug_mode=$true}
+ $testRecord=@{pid=$testPi.pid;path=$testExe;profile=$Profile;desktop=$testDesktopName;started=(Get-Date).ToString('o');command=$testCommand.ToString();input_desktop_switched=$false;job_kill_on_close=$true;debug_mode=(-not $NormalGraphics)}
  $testRecord|ConvertTo-Json|Set-Content -LiteralPath (Join-Path $Profile 'silent-process.json') -Encoding utf8
  [APDCPerformanceRun]::ResumeThread($testPi.thread)|Out-Null
  $testDeadline=(Get-Date).AddSeconds($MaxSeconds)

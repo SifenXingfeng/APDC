@@ -28,10 +28,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-promote_character = {
-	character = MEX_hector_mendoza
-	ideology = co_governance
-}
+
 
 set_popularities = {
 	communism = 9
@@ -45,12 +42,82 @@ set_popularities = {
 	fundamentalism = 2
 }
 
-APDC_add_authoritarianism_to_governing_coalition = yes
-APDC_add_dictatorship_to_governing_coalition = yes
 
-APDC_set_economic_system_state_guided = yes
+
+
+
 
 set_variable = { APDC_prime_minister_character = token:MEX_raul_delgado }
 set_variable = { APDC_deputy_prime_minister_character = token:MEX_rosario_pacheco }
 
 # 原红区开局非军事区
+
+# Document synchronization 2026-10-28; unresolved fields retain previous values.
+promote_character = { character = MEX_enrique_huerta ideology = orthodox_communism }
+promote_character = { character = MEX_patricia_merino ideology = left_nationalism }
+promote_character = { character = MEX_ernesto_barrios ideology = democratic_socialism }
+promote_character = { character = MEX_ricardo_valero ideology = traditional_patriotism }
+promote_character = { character = MEX_rosario_pacheco ideology = constitutional_liberalism }
+promote_character = { character = MEX_hector_mendoza ideology = co_governance }
+promote_character = { character = MEX_raul_delgado ideology = military_junta }
+promote_character = { character = MEX_golden_hand_diaz ideology = criminal_state }
+promote_character = { character = MEX_armando_garcia ideology = esoteric_theocracy }
+APDC_set_economic_system_state_guided = yes
+APDC_add_authoritarianism_to_governing_coalition = yes
+APDC_add_dictatorship_to_governing_coalition = yes
+set_variable = { APDC_document_party_leader_communism = token:MEX_enrique_huerta }
+set_variable = { APDC_document_party_leader_socialism = token:MEX_patricia_merino }
+set_variable = { APDC_document_party_leader_social_democracy = token:MEX_ernesto_barrios }
+set_variable = { APDC_document_party_leader_conservatism = token:MEX_ricardo_valero }
+set_variable = { APDC_document_party_leader_liberalism = token:MEX_rosario_pacheco }
+set_variable = { APDC_document_party_leader_authoritarianism = token:MEX_hector_mendoza }
+set_variable = { APDC_document_party_leader_dictatorship = token:MEX_raul_delgado }
+set_variable = { APDC_document_party_leader_fascism = token:MEX_golden_hand_diaz }
+set_variable = { APDC_document_party_leader_fundamentalism = token:MEX_armando_garcia }
+
+# APDC parliament election calendar schema 1
+if = {
+limit = { has_government = communism }
+set_politics = { ruling_party = communism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = socialism }
+set_politics = { ruling_party = socialism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = social_democracy }
+set_politics = { ruling_party = social_democracy last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = liberalism }
+set_politics = { ruling_party = liberalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = conservatism }
+set_politics = { ruling_party = conservatism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = authoritarianism }
+set_politics = { ruling_party = authoritarianism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = dictatorship }
+set_politics = { ruling_party = dictatorship last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = fascism }
+set_politics = { ruling_party = fascism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = fundamentalism }
+set_politics = { ruling_party = fundamentalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}

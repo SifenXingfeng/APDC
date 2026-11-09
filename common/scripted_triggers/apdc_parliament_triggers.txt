@@ -1,0 +1,33 @@
+apdc_parl_is_active = {
+has_country_flag = apdc_parl_initialized
+}
+apdc_parl_can_submit = {
+has_country_flag = apdc_parl_initialized check_variable = { apdc_parl_agenda = 0 }
+}
+apdc_parl_can_ban_communism = {
+NOT = { has_government = communism } NOT = { has_country_flag = APDC_governing_coalition_communism } NOT = { has_country_flag = apdc_parl_banned_communism } apdc_parl_can_submit = yes
+}
+apdc_parl_can_ban_socialism = {
+NOT = { has_government = socialism } NOT = { has_country_flag = APDC_governing_coalition_socialism } NOT = { has_country_flag = apdc_parl_banned_socialism } apdc_parl_can_submit = yes
+}
+apdc_parl_can_ban_social_democracy = {
+NOT = { has_government = social_democracy } NOT = { has_country_flag = APDC_governing_coalition_social_democracy } NOT = { has_country_flag = apdc_parl_banned_social_democracy } apdc_parl_can_submit = yes
+}
+apdc_parl_can_ban_liberalism = {
+NOT = { has_government = liberalism } NOT = { has_country_flag = APDC_governing_coalition_liberalism } NOT = { has_country_flag = apdc_parl_banned_liberalism } apdc_parl_can_submit = yes
+}
+apdc_parl_can_ban_conservatism = {
+NOT = { has_government = conservatism } NOT = { has_country_flag = APDC_governing_coalition_conservatism } NOT = { has_country_flag = apdc_parl_banned_conservatism } apdc_parl_can_submit = yes
+}
+apdc_parl_can_ban_authoritarianism = {
+NOT = { has_government = authoritarianism } NOT = { has_country_flag = APDC_governing_coalition_authoritarianism } NOT = { has_country_flag = apdc_parl_banned_authoritarianism } apdc_parl_can_submit = yes
+}
+apdc_parl_can_ban_dictatorship = {
+NOT = { has_government = dictatorship } NOT = { has_country_flag = APDC_governing_coalition_dictatorship } NOT = { has_country_flag = apdc_parl_banned_dictatorship } apdc_parl_can_submit = yes
+}
+apdc_parl_can_ban_fascism = {
+NOT = { has_government = fascism } NOT = { has_country_flag = APDC_governing_coalition_fascism } NOT = { has_country_flag = apdc_parl_banned_fascism } apdc_parl_can_submit = yes
+}
+apdc_parl_can_ban_fundamentalism = {
+NOT = { has_government = fundamentalism } NOT = { has_country_flag = APDC_governing_coalition_fundamentalism } NOT = { has_country_flag = apdc_parl_banned_fundamentalism } apdc_parl_can_submit = yes
+}

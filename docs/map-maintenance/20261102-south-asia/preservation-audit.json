@@ -1,0 +1,2165 @@
+{
+  "passed": true,
+  "before_files": 33933,
+  "after_files": 33963,
+  "changes": [
+    {
+      "file": "AGENTS.md",
+      "action": "modified",
+      "before": {
+        "sha256": "fc32b438f403606de993e82f04253a0a867a887b17144a8c335dea5c4d1a766c",
+        "size": 30165
+      },
+      "after": {
+        "sha256": "6f49202b627ea1a9316adaabb0e4425e609b4cd88c63b334bc509a94599bcca2",
+        "size": 31535
+      }
+    },
+    {
+      "file": "common/countries/APDC_map_BLC.txt",
+      "action": "deleted",
+      "before": {
+        "sha256": "5cfe9313b70ea3403aa9d2d0d4c9d9752ad49c8925d04a0835415209fddf9bbc",
+        "size": 186
+      },
+      "after": null
+    },
+    {
+      "file": "common/countries/APDC_map_CIP.txt",
+      "action": "deleted",
+      "before": {
+        "sha256": "81ecce6715e4f9e46911c1e5d1c012c15a3add087feb6e5d081f8f401b57b267",
+        "size": 183
+      },
+      "after": null
+    },
+    {
+      "file": "common/countries/APDC_map_HYD.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "9bbbdf3efeea09b92fb0ba8e7f8d7ccafda3abfe1ad0d56dcf04c19bfaf5b632",
+        "size": 170
+      },
+      "after": {
+        "sha256": "b72e907560ae71d85f19a66a973019b62e0a651b0c35ce81291eb4dfd040a0ae",
+        "size": 174
+      }
+    },
+    {
+      "file": "common/countries/APDC_map_KAS.txt",
+      "action": "deleted",
+      "before": {
+        "sha256": "6312a9e7d52a80966bcffb5cc374a2976f512ac11947aa71e44e562c3bb843cd",
+        "size": 183
+      },
+      "after": null
+    },
+    {
+      "file": "common/countries/APDC_map_KHL.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "665a7a9a9657866089ec03df0f890c8f34acd7adab7b89ede7e1ed6665466666",
+        "size": 183
+      },
+      "after": {
+        "sha256": "5b22ea75baa419011d15617daf990a45ded8a3254df3007c0fe77fcf231df767",
+        "size": 188
+      }
+    },
+    {
+      "file": "common/countries/APDC_map_KLT.txt",
+      "action": "deleted",
+      "before": {
+        "sha256": "4590e161efd526f9f9d75844f4cd995f718bb03a62e82d36a93dd3fc8f44bbb9",
+        "size": 185
+      },
+      "after": null
+    },
+    {
+      "file": "common/countries/APDC_map_KOL.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "bf848e8e40258b752df21e11a8d2eaa39b049b4fc8c7f9662baf48f7dc2119ae",
+        "size": 183
+      },
+      "after": {
+        "sha256": "b14e84c220f4488acee0755bf1dddbe051fe938f36bc777061d56eb1c4d1b883",
+        "size": 187
+      }
+    },
+    {
+      "file": "common/countries/APDC_map_MPU.txt",
+      "action": "deleted",
+      "before": {
+        "sha256": "62a0a7351b3fb5eda4f2d5468fb657341123a84a6aa785b0b70f3f6780970213",
+        "size": 185
+      },
+      "after": null
+    },
+    {
+      "file": "common/countries/APDC_map_MYS.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "24d61928f746e44ba94ef885317c6d80bb1291d8ddf9d24137383af02d3ffe5c",
+        "size": 183
+      },
+      "after": {
+        "sha256": "caa43f9c1f9dd37038599c75b210e001d46150e91d0895eadc34188e9c746dd1",
+        "size": 188
+      }
+    },
+    {
+      "file": "common/countries/APDC_map_NWF.txt",
+      "action": "deleted",
+      "before": {
+        "sha256": "dfc72815bc27d0259b36e3f85f88a2fdd29a6ad5de7a4bd95a5f85c2740ac241",
+        "size": 184
+      },
+      "after": null
+    },
+    {
+      "file": "common/countries/APDC_map_RAS.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "7a942471d12bb1c4a64554ec04dfe76421e8e30df017bad76bfd26d53ed40abb",
+        "size": 184
+      },
+      "after": {
+        "sha256": "4b0fcde0795476c1ef8e520c2138812923c71d09dbabcb5f4e7d20935f7785f9",
+        "size": 188
+      }
+    },
+    {
+      "file": "common/countries/APDC_map_RJP.txt",
+      "action": "deleted",
+      "before": {
+        "sha256": "bd13d151bc69891846546be454b97fb8489e218787cf498b0e033733ef45a472",
+        "size": 182
+      },
+      "after": null
+    },
+    {
+      "file": "common/countries/APDC_map_SIN.txt",
+      "action": "deleted",
+      "before": {
+        "sha256": "af75fba11acd05d6ee8ff88f11c587c4ff54bb2c0d5cf0063d7d02f3d30af8fb",
+        "size": 182
+      },
+      "after": null
+    },
+    {
+      "file": "common/countries/APDC_map_SKK.txt",
+      "action": "deleted",
+      "before": {
+        "sha256": "ef6d12baec56b6e9102cd010cf9f9fe8c9dee8d3cefc474a8faa59f129a5f547",
+        "size": 171
+      },
+      "after": null
+    },
+    {
+      "file": "common/countries/APDC_map_WIS.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "dfc72815bc27d0259b36e3f85f88a2fdd29a6ad5de7a4bd95a5f85c2740ac241",
+        "size": 184
+      },
+      "after": {
+        "sha256": "4446f8d761a3c2650c834cdcdf79d4b4b5b8bf4e357dffaedcc083e8436665a8",
+        "size": 189
+      }
+    },
+    {
+      "file": "common/countries/APDC_south_asia_ASM.txt",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "79437871c2d8e74e7e3b487e50a9dc527b01bf2ca673c6db38f76a50ddc0b38c",
+        "size": 107
+      }
+    },
+    {
+      "file": "common/countries/APDC_south_asia_IPL.txt",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "e0e234857a63c4c707bc2dee1be48aac005ad5abd28d6dd1a3f39deceb7bdf5d",
+        "size": 105
+      }
+    },
+    {
+      "file": "common/countries/APDC_south_asia_KER.txt",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "c028da908a2e87cbf4a2a7a305b21c193eabdb97d28c483ec197f8945e4959ae",
+        "size": 105
+      }
+    },
+    {
+      "file": "common/countries/Bangladesh.txt",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "197fd2eac2191120c2d4898286a1d6a1161b696ee85ceaf169f737b7422e2e42",
+        "size": 95
+      }
+    },
+    {
+      "file": "common/countries/British Raj.txt",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "5c5dd244d425f8cb4bcf2e8cbd5ee27de716adfd6d7cd6f16b427ec2c440ae14",
+        "size": 138
+      }
+    },
+    {
+      "file": "common/countries/Maldives.txt",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "b9b899c6212eab8a302bf48c316b3bd9166d6bdccceac7518f7222ebb153cda0",
+        "size": 96
+      }
+    },
+    {
+      "file": "common/countries/Pakistan.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "6f13c4a116079400619bad9ada5f02000e4bbfdf080b303114744ea621c36652",
+        "size": 110
+      },
+      "after": {
+        "sha256": "22ec99e7b8a8633842b7357ec4601f8aecba6b8f237cd2b93758cfc4341604d4",
+        "size": 113
+      }
+    },
+    {
+      "file": "common/countries/Sri Lanka.txt",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "025f4dd8c881046bf476779f899e7ca864f898ad4014fc030b81eb57916bba7d",
+        "size": 95
+      }
+    },
+    {
+      "file": "common/countries/colors.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "b1885863d4525501fefe875218be7de8bdef4be3b7c1d5ea50ab7f0e877faac2",
+        "size": 17375
+      },
+      "after": {
+        "sha256": "f18952cad09d006639d476fc3e9919aaf79668d05a87d15a018f412a70a39cf8",
+        "size": 18040
+      }
+    },
+    {
+      "file": "common/country_tags/00_countries.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "98118ead913f653ce399707f4a6ba7aae55ed673a8e411e36a8284d09f71547a",
+        "size": 9462
+      },
+      "after": {
+        "sha256": "f5d2aac877d2f112237a637cc9fc253eec7c32368401375fadc06ac9c387d8da",
+        "size": 9416
+      }
+    },
+    {
+      "file": "common/country_tags/01_apdc_map_additions.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "dea1f3267f43047954059b11f6f170014b7c4d48a935de13d0f106b6d8b43ec5",
+        "size": 2411
+      },
+      "after": {
+        "sha256": "e3e6d56557fbf77bd18dd63d82015b33d7dc646a1721183b7c72fc8c6bd3f5cf",
+        "size": 2173
+      }
+    },
+    {
+      "file": "common/country_tags/04_apdc_south_asia.txt",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "8e421fc543eade35fe699d685df7e79cc462f3480be5ea4110e94f080406851f",
+        "size": 211
+      }
+    },
+    {
+      "file": "common/factions/rules/joining_rules.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "7f67066a7ef085f2195ee2b9856f0b270311a2033ad4ef7e053ad7bc53b860cc",
+        "size": 17563
+      },
+      "after": {
+        "sha256": "45241f478768dfe4db1d40da9f3ff69ffb5b5eafe14c59daae2e1acb0c266463",
+        "size": 18478
+      }
+    },
+    {
+      "file": "common/names/00_names.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "dc818b78fbff816e414c3f5acd02cd25bd287734a6e718f2c78cf7d1076f9bcb",
+        "size": 392641
+      },
+      "after": {
+        "sha256": "4bdbe1873a5bd1f933c033a5c2c344878cf0480b1d78123b1f0389877520bdc0",
+        "size": 392309
+      }
+    },
+    {
+      "file": "common/names/APDC_south_asia.txt",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "7f81ade70e5dd2124ce97fb6fa8b7bea47e6121d2d614bf0740385dbea8fff84",
+        "size": 2716
+      }
+    },
+    {
+      "file": "common/occupation_laws/occupation_laws.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "51d2112eacbcb679f50235706607106765922867adf73b727c0293f709a92c08",
+        "size": 25733
+      },
+      "after": {
+        "sha256": "0432fa9fc8b7e94e5514b7f527729b48398999d5c5e087e7a78b67e44b7fdf32",
+        "size": 26629
+      }
+    },
+    {
+      "file": "common/resistance_compliance_modifiers/resistance_modifiers.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "aa14eb079ee6a9b518f192a6948e08c8a7bd8ff7ecdfab0158e8f79fc99dbd84",
+        "size": 3601
+      },
+      "after": {
+        "sha256": "cab017b2501d87bbe39efe9c1eb1875db197e8c04cad1d502630993ed3a916f5",
+        "size": 3724
+      }
+    },
+    {
+      "file": "common/script_constants/country_groups.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "df11d9161b3ea6c11eb3e0574638c5273a258f6dd0e6b4e870e4c48dda4070cd",
+        "size": 1833
+      },
+      "after": {
+        "sha256": "4c7f614732ca91491da9bb697184df55c3d1ba8d1dd23adaafe788a6d11745ce",
+        "size": 1977
+      }
+    },
+    {
+      "file": "common/scripted_effects/APDC_cold_war_view.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "0a30565300e6a7e1d382a4a29471b99a1ebadc5eb0b25a64bd005499d474309b",
+        "size": 10303347
+      },
+      "after": {
+        "sha256": "24bcacad4d58fd12a9984a39e80d76b9d9945d813c816926f0144f6f58a4b801",
+        "size": 10303069
+      }
+    },
+    {
+      "file": "common/scripted_effects/APDC_economic_system_scripted_effects.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "b548d02a6b2d7553af79cb2f201b5aeb59b85420c2d4fbecead4658123fced8f",
+        "size": 6825
+      },
+      "after": {
+        "sha256": "56854809944d4aaaf07fbf1e1416a8d2c2a47d331bddeb89ecd6375cf320ddbc",
+        "size": 7036
+      }
+    },
+    {
+      "file": "common/scripted_localisation/00_scripted_localisation_countries_RU_loc.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "7269454873a908c2d0a4a2894bf1adaa275c871b0c89b9853252698b1cd01258",
+        "size": 2391220
+      },
+      "after": {
+        "sha256": "6033725f60b9b02cce9a24087cdfbffc8430f64b10a817537d61222c6be9ed2c",
+        "size": 2518728
+      }
+    },
+    {
+      "file": "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "f28bde44aa6fbcfd699a3ea69d10a2db731c6ffbefeab8b10d1d2195aa39696c",
+        "size": 5508485
+      },
+      "after": {
+        "sha256": "77506d7971c16e454ceab3b4590cbe10db34ccb6e76106820f6820e42522fb0f",
+        "size": 5814099
+      }
+    },
+    {
+      "file": "common/scripted_triggers/00_scripted_triggers_FR_loc.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "c1b6928ab960400625011ea8122d2fd3afffea3ab67d8c3070c4145076a31df4",
+        "size": 123874
+      },
+      "after": {
+        "sha256": "7c70c8681cb9c1c40cc88fe993eee655356f0df82620ff9182799e85d287ded5",
+        "size": 128121
+      }
+    },
+    {
+      "file": "common/units/names_divisions/BHU_names_divisions.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "3eeac8a7baa4b8ccaa03746cd0c7eb52424648efb23676bfadd4c10a934958ff",
+        "size": 9738
+      },
+      "after": {
+        "sha256": "9df819ee794ddc93f0317f5ed643f8441e884f549f269f641ce008c5c8e18fe2",
+        "size": 77
+      }
+    },
+    {
+      "file": "common/units/names_divisions/NEP_names_divisions.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "611bb6267fa363d0a72ddaef338c7e91e7fbccc6bc451ea056c0d261366414ba",
+        "size": 9924
+      },
+      "after": {
+        "sha256": "9df819ee794ddc93f0317f5ed643f8441e884f549f269f641ce008c5c8e18fe2",
+        "size": 77
+      }
+    },
+    {
+      "file": "docs/cold-war/20261024/geometry.json",
+      "action": "modified",
+      "before": {
+        "sha256": "155a5d99e948e99744873f82058d57bd8348a0ee69cb23c80de899c494e24dd7",
+        "size": 1257984
+      },
+      "after": {
+        "sha256": "4ef4c77bebb9e59f4086f0970f566e27381d5cebf8761b1431e9cff5fcef4d37",
+        "size": 1255855
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/README.md",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "4d315e95517d52e02e89012ff4c8d81ebaa2643b99088bcf3783cd92a8bb6e3f",
+        "size": 8592
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/cold-war-palette.json",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "ca42dc4b731a1d84fc3121b253570974c805507204c7635ec80c521082604967",
+        "size": 5994
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/country-history-changes.json",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "42607e652163865762b1cc9d5e016ae2b5767a3b1f7e547ae411fabb2b26a307",
+        "size": 1942
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/country-localisation.json",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "606c860ce72b0b2c473fcd271a98134e2b295d187d472277ed54db99f6ecbb05",
+        "size": 59336
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/country-plan.json",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "0bf1fc2f59025545a7735c7a53007a487420b829f8be6a7b23e7f31c75511b6f",
+        "size": 9802
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/political-relations.json",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "f5c2d4526016bd454c36d8d4d0bd9e94c4150b50894de3bf6e86cbd70616366d",
+        "size": 194811
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/political-target.json",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "f5c2d4526016bd454c36d8d4d0bd9e94c4150b50894de3bf6e86cbd70616366d",
+        "size": 194811
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/preservation-audit.json",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "4e03af2086ba5ae29f9f846ba64b56bc0c33718924fec7d0cbe7abbc6e0f04f4",
+        "size": 65368
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/retired-country-files.json",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "c92360e9f68539a71ac1bdf8a283925ee0a41ba52fb98665c6f83d40889ef76a",
+        "size": 2500
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/retired-reference-cleanup.json",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "889c0fae50db65dd4b04d72be7f08ee5cde9eb8e5b4dafdc142b65a04065ea20",
+        "size": 3176
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/retired-reference-inventory.json",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "ff0faf9a37a47553b5400742452a67a45ceb60c1c01a52dc4dbba12441b162b4",
+        "size": 296494
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/runtime-KER-detail.png",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "52da295216abc648ae3c2bd537b09bb3b836c434befa280256aa87622dcea09f",
+        "size": 1300947
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/runtime-RAJ-detail.png",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "ca7288b28f307e31f0fcb262ccd5e05ba6c1c5ab063a14722f2eed8df369837b",
+        "size": 1142674
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/runtime-audit.json",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "4d26580cd48fae52cfd55296bf66e713226b3f1666f13563fa8265be24c36c2e",
+        "size": 12630
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/runtime-initial-audit.json",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "ae9d74f573b0f111f1c5f07903e4fd484f35133dd04701b747ccc06e85b9a46c",
+        "size": 15513
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/runtime-preparation.json",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "a2513d007f3562720df65a9f9eca27b193ac3da1851d6e2e824cc40e936ab385",
+        "size": 2454
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/runtime-visual-captures.json",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "aa4387d283d90800186199b96886ad4f873a42fcada55788d051e95c477053ef",
+        "size": 1467
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/runtime-world-return.png",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "b8465aaaa3388d363fccad200d00f91632bbe67cdf53cb4c3c0a2a6f22a35a16",
+        "size": 1684452
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/runtime-world.png",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "f30238df8340afb556c95251855bfe035a31d20de2d816b78b0d376da82cc825",
+        "size": 1684562
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/source-analysis.json",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "f34c77c8a8f5b1fe19740e61d98acfc09ccf40e867754bdd5e712fd10f9bb3d3",
+        "size": 1567
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/state-changes.json",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "8509ac3ff1c0ed641d2e043142f5c5eb12cbf0da5e3c9a22259d4a97755d6c47",
+        "size": 21939
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/states-checkpoint.zip",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "f66d0176e63601f8e362d31b94c9b8e93e8b0c7b26f362f7af71977403851340",
+        "size": 606095
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/static-audit.json",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "961e697693a4172f774b5bb935384af5251e8a15b3e52f1f842271b4f150b56e",
+        "size": 3089
+      }
+    },
+    {
+      "file": "docs/map-maintenance/20261102-south-asia/visual-review.json",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "b3a489e8dca00d22874b48589c176ee2f4adfb5f9347ef2ad6d1cbfba94a7787",
+        "size": 1099
+      }
+    },
+    {
+      "file": "gfx/FX/APDC_cw_palette.shader",
+      "action": "modified",
+      "before": {
+        "sha256": "5f228326d0c71228b7c132d1b44a02f01de0448e2d4f20f9a35a8ef28572624c",
+        "size": 2701
+      },
+      "after": {
+        "sha256": "3e3c498ef59b1f0b75cb9aad081f17470a704cb88987302e0b0020c8103b4dae",
+        "size": 2701
+      }
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/palette.png",
+      "action": "modified",
+      "before": {
+        "sha256": "e401467b873c263f979ddddd7dce405c59805c7fa56b4b6a356b9f5a78156e04",
+        "size": 1528
+      },
+      "after": {
+        "sha256": "26c94f1190c4502b5e834f64b1e4374632699ee75e726d79c6a765f37ce735a9",
+        "size": 1542
+      }
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/pie_0.png",
+      "action": "modified",
+      "before": {
+        "sha256": "a2f1f71bb4061141aa9b008e4ca33f71c9b964fb8c5ce02d8e2674f38738374e",
+        "size": 13719
+      },
+      "after": {
+        "sha256": "4fe1d375d52fa64090bb481263cfc1ad3980adacbe0bd1e2efa5b83caf105991",
+        "size": 13720
+      }
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/pie_10.png",
+      "action": "modified",
+      "before": {
+        "sha256": "e33230cf4281e19c30d4c092b6c2f6464d3bf2eecc0afc77ac7f724f2ba52cbd",
+        "size": 13701
+      },
+      "after": {
+        "sha256": "0445a2969aa87218c91962d0e785b855d35bb1ef51aa035330a60463ff565c65",
+        "size": 13699
+      }
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/pie_12.png",
+      "action": "modified",
+      "before": {
+        "sha256": "b12d9e94c37d6fce28945ed7732565285403b92f274306473da159bfb9c1f669",
+        "size": 13714
+      },
+      "after": {
+        "sha256": "cbbb46cd0a2db8e021f6d21bfd4d9c4a0127f8635e931b682c610ba909ea5820",
+        "size": 13712
+      }
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/pie_14.png",
+      "action": "modified",
+      "before": {
+        "sha256": "b885ed3a4c4daed495b51ab07e7e964816f55554d9c6167217c8196b390642c3",
+        "size": 10401
+      },
+      "after": {
+        "sha256": "9fccff5555665d4e3a6bb2a5603b2d32ecffe79ad36d15ae98bfb731831c24fc",
+        "size": 11538
+      }
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/pie_6.png",
+      "action": "modified",
+      "before": {
+        "sha256": "e1b2b74ba6a0add537c713cf4495d882483f20d596e80556a76dfe27e53a966b",
+        "size": 13716
+      },
+      "after": {
+        "sha256": "584aac5ca4a1ad827515abdbdd6f4c753691ce665233fe2415c690da9cbee0d2",
+        "size": 13718
+      }
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/pie_7.png",
+      "action": "modified",
+      "before": {
+        "sha256": "5d98b605e09f8b30002b88742271ddad5882af9503026dd1d8c57a82c55e778c",
+        "size": 13711
+      },
+      "after": {
+        "sha256": "b4d890c134de2c2aaa3a1d83d8929676e06cd50cf5922db6e809301ebe98e0a1",
+        "size": 13711
+      }
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/pie_8.png",
+      "action": "modified",
+      "before": {
+        "sha256": "f7a00d2877beb552990e9fa20ea8d0d7b8637483370e1e93778256a17de027ae",
+        "size": 13705
+      },
+      "after": {
+        "sha256": "f1536d1ce6b60806081c766b193157503fbd5746d8c5bfc60e4e11cf58d40232",
+        "size": 13707
+      }
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/pie_9.png",
+      "action": "modified",
+      "before": {
+        "sha256": "8d61735925a18863c53ba7c166ab6bf03f6a9ae4a877f0961e121a7158cec5c0",
+        "size": 13718
+      },
+      "after": {
+        "sha256": "7b04087b39e2808a5793ccc047e7fa1072c17141ecfaa132cfe0d1efe6efeb4a",
+        "size": 13719
+      }
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/swatches.png",
+      "action": "modified",
+      "before": {
+        "sha256": "ed4c6c51693a916a9692d64d5c9a2e04b8d0197fcc423827c3a9f5bcca173aab",
+        "size": 2773
+      },
+      "after": {
+        "sha256": "80e000707b02c6c29789c40856282e1d76880cc78898696af73342a0b6a593ab",
+        "size": 2796
+      }
+    },
+    {
+      "file": "history/countries/ASM - APDC South Asia.txt",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "e6b04bc917940badb47109ed945767cc965d07fcd2b572c7f8ea04f36e17a50b",
+        "size": 288
+      }
+    },
+    {
+      "file": "history/countries/BAN - Bangladesh.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "b4b35bf10eacbf7d27ad580542b0652bc3c1d29991fda3769532b74cba3291d6",
+        "size": 495
+      },
+      "after": {
+        "sha256": "5d43a175b970e28da8440cf28cd7d12f0dc271615067dd73f73755d3bebd8a0c",
+        "size": 517
+      }
+    },
+    {
+      "file": "history/countries/BHU - Bhutan.txt",
+      "action": "deleted",
+      "before": {
+        "sha256": "18ec7005a09c5c7a04dffa71db0b6adbff3f015bae9415063bb52af5872b306e",
+        "size": 480
+      },
+      "after": null
+    },
+    {
+      "file": "history/countries/BLC - Balochistan.txt",
+      "action": "deleted",
+      "before": {
+        "sha256": "c9ef346555decb08e5ecd35bc5199160880665c4920400ddff055b5b66a0958c",
+        "size": 507
+      },
+      "after": null
+    },
+    {
+      "file": "history/countries/CIP - Central Indian Provinces.txt",
+      "action": "deleted",
+      "before": {
+        "sha256": "cc3e952bd0a9bd49c1b85b322d4e22b8692aa793a2e4bbf5d217011d46300394",
+        "size": 506
+      },
+      "after": null
+    },
+    {
+      "file": "history/countries/IPL - APDC South Asia.txt",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "43a6b9734ac9b4d4a078694a4a20b86dee723a1ec852a13223fb6e63f1f566fd",
+        "size": 288
+      }
+    },
+    {
+      "file": "history/countries/KAS - Kashmir.txt",
+      "action": "deleted",
+      "before": {
+        "sha256": "eb617c38f2eea98021a6691ee6b30599461aa9f0baed6dbcc3b58f932c8de712",
+        "size": 507
+      },
+      "after": null
+    },
+    {
+      "file": "history/countries/KER - APDC South Asia.txt",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "76e2fd6d2590ea30f13fda6a0aba2c10dd07343e73639ad8a68d0ea367d16028",
+        "size": 288
+      }
+    },
+    {
+      "file": "history/countries/KHL - Khalistan.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "a7b08da1b694dd05c6fb34ea67428a39247da814664c775fa4b469ba2b6360ae",
+        "size": 506
+      },
+      "after": {
+        "sha256": "4f5a6cca232fa0a198866a5e6ca98779cc222217bb6db01c661ff838547c12c4",
+        "size": 529
+      }
+    },
+    {
+      "file": "history/countries/KLT -Kalat.txt",
+      "action": "deleted",
+      "before": {
+        "sha256": "4b8ef6d2a57f9a3da8cd9ad31649ec70624159b40041b44f91af95656cf23e18",
+        "size": 507
+      },
+      "after": null
+    },
+    {
+      "file": "history/countries/KOL - Kolhapur and Deccan States.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "323fed82954cc5a0f8a8ca4de4f82bebfd04241ab92144a050c2eebe4e1614d8",
+        "size": 505
+      },
+      "after": {
+        "sha256": "f10893cb1ea79eeb6d814595356040b99c0170d7a856667e0b0328ffdce0c668",
+        "size": 527
+      }
+    },
+    {
+      "file": "history/countries/MPU - Manipur.txt",
+      "action": "deleted",
+      "before": {
+        "sha256": "ed9b02dbe56b459e55d9d9f74b5207b0df505dc1826b077785d36b9bf158329b",
+        "size": 508
+      },
+      "after": null
+    },
+    {
+      "file": "history/countries/MYS - Mysore.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "a711e30293cff2858f7db6d733fdfb91fd564c0e5a0c29660044da8bb7f68286",
+        "size": 507
+      },
+      "after": {
+        "sha256": "584671daa7dfb3a6745b46d79c20151ea73698afa367ae9a6bd34a0c4e4cde81",
+        "size": 529
+      }
+    },
+    {
+      "file": "history/countries/NEP - Nepal.txt",
+      "action": "deleted",
+      "before": {
+        "sha256": "2fe669ea1102b6121be4942d9ecfeeeda18647106e692b62f3be3359ed4fd47c",
+        "size": 481
+      },
+      "after": null
+    },
+    {
+      "file": "history/countries/NWF - North Western Frontier States.txt",
+      "action": "deleted",
+      "before": {
+        "sha256": "365f679f0810e3b8c9924e5bddafe7ed6d5a9e5052dce2014493c5da72ebc2ee",
+        "size": 508
+      },
+      "after": null
+    },
+    {
+      "file": "history/countries/PAK - Pakistan.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "db77b7efdfdbbfcae365dc5ea71de1dd6ca4321e83ea389eb074ef3b07770fff",
+        "size": 689
+      },
+      "after": {
+        "sha256": "966a6ae30308d18694e43674c3f21be022e367530ef5f83aa7f7f73e179c5731",
+        "size": 715
+      }
+    },
+    {
+      "file": "history/countries/RJP - Rajputana.txt",
+      "action": "deleted",
+      "before": {
+        "sha256": "76c716dc6087f9dc4dbbf9eaa2b230bd7b99120928079972328c540ea5131d5d",
+        "size": 506
+      },
+      "after": null
+    },
+    {
+      "file": "history/countries/SIN - APDC Map Country.txt",
+      "action": "deleted",
+      "before": {
+        "sha256": "07e442da063d144edf1c7e07235da64c8a8f4981ac3d09126180ded4f1749fab",
+        "size": 646
+      },
+      "after": null
+    },
+    {
+      "file": "history/countries/SKK - APDC Map Country.txt",
+      "action": "deleted",
+      "before": {
+        "sha256": "ba1d3da2a8291bd367f0a68b27de2e220a0d2958b9064970891dbdf38357601a",
+        "size": 646
+      },
+      "after": null
+    },
+    {
+      "file": "history/countries/WIS - APDC Map Country.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "be8a2b6776c3c0c250d45683b06b3cf4f50df3ef4b0906c8f80300155dbd8b12",
+        "size": 646
+      },
+      "after": {
+        "sha256": "32d0fb57dce2b3a3f5b5b2ad416b5a736b40718bfab3790bb1ba891bb2a28c98",
+        "size": 669
+      }
+    },
+    {
+      "file": "history/general/generic_advisors.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "61ffe0311e4683ae70e0e1bcb1af09bce09b659e2993eff06839a5003503eba0",
+        "size": 27183
+      },
+      "after": {
+        "sha256": "90c33fa8437d7250628053862158232218390053570cd8c25843e7a2735c2ff8",
+        "size": 28071
+      }
+    },
+    {
+      "file": "history/states/1134-Aksai Chin.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "4a6f167247066101ca1350767146f45594e88a75f0147c46612ee4e30da3b9fa",
+        "size": 340
+      },
+      "after": {
+        "sha256": "5090cc13ca29e5fcaffbdc4adefdb7536c84d253bd84e25c281aaca15897a344",
+        "size": 365
+      }
+    },
+    {
+      "file": "history/states/1144-Uttarakhand.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "aab8478d356fef15d61c05766dbecf1139d01f34095a8df16f7dbba79bdcf352",
+        "size": 577
+      },
+      "after": {
+        "sha256": "497c5f759b3055b65d17f862f280c9b7c825070fc440e719289129b8c06f5b21",
+        "size": 596
+      }
+    },
+    {
+      "file": "history/states/1145-Himachal Pradesh.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "31104a3344061f124f10e54bda10feb4f5f611128a0417655d84f835d63ed58a",
+        "size": 571
+      },
+      "after": {
+        "sha256": "f4e908bee9a1de3fd613ec4cdd475b57689714e9282dec5d4749d3de7c69edb6",
+        "size": 590
+      }
+    },
+    {
+      "file": "history/states/1559-Jharkhand.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "01cd81e7c4712e100a3e8c1d8476460cc51fc9548734d358105ef8d7c70d454d",
+        "size": 837
+      },
+      "after": {
+        "sha256": "25d1c13356daf74f3bbfadf0e9cc48d98dcac9c6467836ad748d042453521f94",
+        "size": 872
+      }
+    },
+    {
+      "file": "history/states/1560-New Delhi.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "7f294430efb3c09fde6634db86ce0fd2c2f7e2e362f8bee71d3f1676c23cc45d",
+        "size": 375
+      },
+      "after": {
+        "sha256": "dd4e8079916c53e56404052e34b53bf80d1557b3c02f06ae161f12259ac4d4e2",
+        "size": 410
+      }
+    },
+    {
+      "file": "history/states/1561-Sirsa.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "4e3e2264d8e8391f805a2da3e1dec5af2ef74a5acc3fa8974d6f0792c803e391",
+        "size": 412
+      },
+      "after": {
+        "sha256": "fa8ee9e9d526633c28c98d5130117483a2ad15d198584c90f58da41750d10b60",
+        "size": 468
+      }
+    },
+    {
+      "file": "history/states/1562-Thar Desert.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "34732b9d7c521e4ae7211f0b861a8c2073cbe70d97603557c66fba79b8243b2a",
+        "size": 489
+      },
+      "after": {
+        "sha256": "4af4009006abbe565131417edfd93d71b57a7ff172fa80a64288d71b5ce54c77",
+        "size": 545
+      }
+    },
+    {
+      "file": "history/states/1563-Kathiawar.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "04e56e47229dec3817f54038cfd6c8d197ee5c690253a4a00032d45fbbd19a24",
+        "size": 743
+      },
+      "after": {
+        "sha256": "6692e50a29aff6fc035a4f72c836ddadc78b58e4263e4830b0748f5ca93d97ba",
+        "size": 821
+      }
+    },
+    {
+      "file": "history/states/1564-Barmer.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "54396a96490b829740af3f59bfd9fc117d064c72fb83d57df6b294bf13aa20c2",
+        "size": 608
+      },
+      "after": {
+        "sha256": "295bf629ca851e93f997e1d7f4ec08847a0c1394d0134b30caebcf9ff231f87f",
+        "size": 664
+      }
+    },
+    {
+      "file": "history/states/1565-Udaipur.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "a715385ed1b41fb19532903a2c978cc244cd4c4f4df9f2475fb6a6fe537e956a",
+        "size": 525
+      },
+      "after": {
+        "sha256": "8e9e84b6ba691d065137b913af00f8e454b9908d79bb778a790b49e77ec9098a",
+        "size": 581
+      }
+    },
+    {
+      "file": "history/states/1566-Silvassa.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "d4af82b5e099781b2954e8ae3abeb559f6a2e23da534bb1afe3efab5c7fa9444",
+        "size": 493
+      },
+      "after": {
+        "sha256": "8c6153deaf509500db97f4206faf8e597d8e030d1c6b2dfb53b60e56824e21b1",
+        "size": 571
+      }
+    },
+    {
+      "file": "history/states/1567-Kota.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "7d58067aad703c5e99e279ee484e9fdfec0211b440ee0f67c5307d998eaf0e4d",
+        "size": 514
+      },
+      "after": {
+        "sha256": "9394392b183dead73f14f56178ea14df15279168d0ba83666c226c9c7bffb7a5",
+        "size": 549
+      }
+    },
+    {
+      "file": "history/states/1568-Satna.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "c71d956d9f2c2e627a411479a956b3dd59de472cef84dd3ca97db4c346d3aaf9",
+        "size": 791
+      },
+      "after": {
+        "sha256": "0a7d9950e4a7f385685ee55fc497ce502be32d1f0920c8f41180dd3f44941549",
+        "size": 826
+      }
+    },
+    {
+      "file": "history/states/1569-Aligarh.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "70a86e8a47e4b7357f51f5b598cbc87c9b7daf48729ab324b84fc313cea2a642",
+        "size": 1090
+      },
+      "after": {
+        "sha256": "1b281deba17aadad1558a2b004898208aaf1cde97d38809ff26bdce0d47e87a2",
+        "size": 1125
+      }
+    },
+    {
+      "file": "history/states/1570-Parbhani.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "cef0166e1b3f454a3e359689f3296bf62444780d7ecef189265ab93648b59634",
+        "size": 701
+      },
+      "after": {
+        "sha256": "99516fb15506cd0b04667d64d5f986b681579a656d51ef5a9e2665ac9744bf19",
+        "size": 757
+      }
+    },
+    {
+      "file": "history/states/1571-Deccan.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "0dbfe377ca6ace94fa133ce54a972b215940715275e46743040557a0e0d61b97",
+        "size": 636
+      },
+      "after": {
+        "sha256": "87bcfac4f49d504d5233bc0400e3726da0ddd7373c9141bad99b827e574d4ef2",
+        "size": 692
+      }
+    },
+    {
+      "file": "history/states/1572-Shivamogga.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "b18461f50956fc66a0672e279b3f59f5c8598df98bdbfaf783e47c13356f94e7",
+        "size": 781
+      },
+      "after": {
+        "sha256": "e31a5b96210bbf7a98df23ad7fe121aab397c32678c5e29a0ded9da01fd9219b",
+        "size": 837
+      }
+    },
+    {
+      "file": "history/states/1573-Lakshadweep.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "0508909902deb9ef3540bc6f8fe93d4c9d2d9f5a0c59cbad0f4fa8eabc8c4b9b",
+        "size": 312
+      },
+      "after": {
+        "sha256": "c69eb94a38ff947643053f2d35527a0315cbfe2cf73baf0e96879a8c1fb06667",
+        "size": 368
+      }
+    },
+    {
+      "file": "history/states/1574-Thalassery.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "cc78c195fca5b3164f703fd6145527f1d3b7a355efe527effdc2ec23b2aec5cc",
+        "size": 424
+      },
+      "after": {
+        "sha256": "49c4dd313fcb24bd7eb5e5b82d8cca77709fd346e62a441047beccbe8d0795e9",
+        "size": 480
+      }
+    },
+    {
+      "file": "history/states/1575-Hyderabad.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "64bd2688a90260c0455f1dac8224ac58b6b6c62291887461c138b82cc3140c7a",
+        "size": 860
+      },
+      "after": {
+        "sha256": "5b17810bfc5495895ff1ead347b6f6aa66bc1e575bce2510089fb3db2e9a4426",
+        "size": 916
+      }
+    },
+    {
+      "file": "history/states/1576-Kakinada.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "eee96184a7c10886e4ea561b1a8693af9e1f84a4d6cabb3066c5c7541a92fba3",
+        "size": 665
+      },
+      "after": {
+        "sha256": "8e5274fd25a2211ff29165d337d0017395ab6d5df7cf2ca0b02794046777e6fb",
+        "size": 721
+      }
+    },
+    {
+      "file": "history/states/1577-South Bastar.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "0aa66fdcb138af65dc06bafc7cbc760185fb2ab7cf3aa391be8b62a58ecc4470",
+        "size": 399
+      },
+      "after": {
+        "sha256": "eed54878437a39bb36bcb83e4d3e068350ffe14de930a294c399736d06cf158b",
+        "size": 434
+      }
+    },
+    {
+      "file": "history/states/1578-South Odisha.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "e170012800e23df9706b62555e061411f21a58b9d418cf498183a8aec26f6ddf",
+        "size": 508
+      },
+      "after": {
+        "sha256": "c16a16604723a19da0860502bef1cc60336a880876d8a54e296a29c78a0f893b",
+        "size": 543
+      }
+    },
+    {
+      "file": "history/states/281-India.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "6cf64aa7d14765f1d4cfd6f4c3c6746b9169d2e633856c76a954384f4021f927",
+        "size": 359
+      },
+      "after": {
+        "sha256": "aebca7ffe63ebbe65dc66def6241a6af471d1d63215b647ee1dcf0cf57650164",
+        "size": 399
+      }
+    },
+    {
+      "file": "history/states/320-Rajapalayam.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "f55443bad3bb2719f707ac4cc1b47acd399220cdffde05dd341789d463d258f1",
+        "size": 869
+      },
+      "after": {
+        "sha256": "edb806074b74b734066edcccff1d5438368f98c40aba100e67c8e37f6e15ff00",
+        "size": 925
+      }
+    },
+    {
+      "file": "history/states/321-Goa.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "7de6c1472a110742883e274a06fed031d089cd1831d4c9d11d3290320daaec45",
+        "size": 319
+      },
+      "after": {
+        "sha256": "73b69477ccb64cc04384f281281777b5f1c775585ab438a8770171d0e37fc4c7",
+        "size": 400
+      }
+    },
+    {
+      "file": "history/states/422-Ceylon.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "4c93b54e63d9a6b61ab68f8d3ece561366e28c4a2e27f17822d3e0ab27520263",
+        "size": 1069
+      },
+      "after": {
+        "sha256": "2bef0389ecdb943f2146ee26809c9eb627c2f1d3df8e0163355152f1489b6052",
+        "size": 1184
+      }
+    },
+    {
+      "file": "history/states/423-Chennai.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "b5d1cb24fe733724e082ad911934c3a2f88d03d686965f2b8825fb3bb2c283ec",
+        "size": 948
+      },
+      "after": {
+        "sha256": "ea0962a57dbb2880db25d1556039c5a7e3538a9de0ff679f0d09c16cb5db63ab",
+        "size": 1004
+      }
+    },
+    {
+      "file": "history/states/424-Nellore.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "07131467c1aaa0d2ef0e9351279eb92cbdccabcd73a3ef40bfdab1a8441c7a64",
+        "size": 928
+      },
+      "after": {
+        "sha256": "9ad01ad38327800e066bd0f8b1b850e3e22cd51e0f2bdb91818dc26870655a6d",
+        "size": 984
+      }
+    },
+    {
+      "file": "history/states/425-Bengaluru.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "681ffdd6ebbf8663baed4207b0a05bc2c00a61824c846968fa16ccfbd611568c",
+        "size": 677
+      },
+      "after": {
+        "sha256": "36ced955c2b9d8f707b37fe8c27a6a1e8e625e64fb40d41dc913d00748ec6069",
+        "size": 733
+      }
+    },
+    {
+      "file": "history/states/426-Orissa.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "e7c26b5c7c9c47b2d7f13f577df48a685afde6f602c8f752f4d1a27496af7944",
+        "size": 1151
+      },
+      "after": {
+        "sha256": "f5c1c9e2859d6689fec801ac1ef8e85b518fc05a10224213abeeb977fdf8100d",
+        "size": 1186
+      }
+    },
+    {
+      "file": "history/states/427-Chandrapur.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "8960cd9f8e039b45641671a29327fddef04a3a445c20d260cc94dcff30b2698d",
+        "size": 618
+      },
+      "after": {
+        "sha256": "fff1553c441295bc9872784199bec2298027ac0be5ac80ed058656e1abc93aec",
+        "size": 674
+      }
+    },
+    {
+      "file": "history/states/428-Gandhinagar.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "df8f2f0522f57e63bc67fe5ab6c0b69c7cfa25b4fac251e77c210a8d76d31e9e",
+        "size": 860
+      },
+      "after": {
+        "sha256": "c3b071bdd3e91d8597a7d65380b0f20d2289f33fcdc810f2d480674896c037a8",
+        "size": 938
+      }
+    },
+    {
+      "file": "history/states/429-Bombay.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "175a34dcc3920b6c99e544c891c836f91b26ea2584712d24849a6828b102a93d",
+        "size": 1069
+      },
+      "after": {
+        "sha256": "eae4a5ceede95e6d963ef95f7ac1c64ad37685425d3824f6d1508c4f5c0e33b7",
+        "size": 1125
+      }
+    },
+    {
+      "file": "history/states/430-Bangladesh.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "7c1293996c7119c9b4b4665e41ce5235bea7ad95e9d8c49d9f4ec1c8ef675a06",
+        "size": 2247
+      },
+      "after": {
+        "sha256": "345a9813850268f489d0051c6f701fc5c9e102693e26f3f3fd21d332c6993aa3",
+        "size": 2485
+      }
+    },
+    {
+      "file": "history/states/431-Calcutta.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "6fb56fd88de7e81744d640c1ffa0509e40dcab3976128133279778895004507f",
+        "size": 1267
+      },
+      "after": {
+        "sha256": "459c8ac6bb9ab69a65b43ab940c197b56bd864845c3aefad033bb970d7131b7e",
+        "size": 1325
+      }
+    },
+    {
+      "file": "history/states/432-Assam.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "6e99e54990bc57c3181bf90f2a96e9ae5ad007a2b47c752f5794e279ba1ee2d4",
+        "size": 1495
+      },
+      "after": {
+        "sha256": "6d0d4f644e5d305c9e5bb15a9b97e31bc7d37479989c965de3d3f37c571ed3fb",
+        "size": 1699
+      }
+    },
+    {
+      "file": "history/states/433-Jaipur.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "51aec6498663f399373c646e9a87cbccf9c017eefb01ac0a2789e04800da3e80",
+        "size": 792
+      },
+      "after": {
+        "sha256": "5ad201c1ae7d99c4629ad5432daa7269025365251b8f5bfd775a91fcddd589e6",
+        "size": 848
+      }
+    },
+    {
+      "file": "history/states/434-Medog.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "281fa5b59bb7a91d89746512b8a6d4339a79600c0e72598f6bac3f9bc5a5a52a",
+        "size": 573
+      },
+      "after": {
+        "sha256": "75442ffc46db7c96ad527b658378a23ff1ce8c77f1ca2788acc109f0800e8b8e",
+        "size": 638
+      }
+    },
+    {
+      "file": "history/states/435-Bihar.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "6e7012490ba84ce944324d2ac2b43661aa9c70114406cc159f3894f6d11aed34",
+        "size": 1313
+      },
+      "after": {
+        "sha256": "f3d1e926d42525b6a2611d601019cc7fae1b889654ce7534f5cd091af4a4e3e9",
+        "size": 1348
+      }
+    },
+    {
+      "file": "history/states/436-Bhopal.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "06836fdbc938cc57a2b354ac3215bc66f17a18dc16fd657e2b253d0dd0cd53dd",
+        "size": 978
+      },
+      "after": {
+        "sha256": "5b4c2a71a008c623a1b37b6d45f1c7769fb40a3b4679682a85ca43d7598e5df0",
+        "size": 1013
+      }
+    },
+    {
+      "file": "history/states/437-Ujjain.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "3c870b72b2965f9759ab1e9f287fc49f31087c425abf083c9cd0ff9983b1e312",
+        "size": 685
+      },
+      "after": {
+        "sha256": "cab9ce4c7aa4a18a940c59bee67139260c3f30ac10fe60aff45e0439eae2ae7d",
+        "size": 720
+      }
+    },
+    {
+      "file": "history/states/438-Lucknow.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "5b8bd2ce54d710a1643d68cb0f8f1ac7b4a10a2e7119418809d57ad5ce973bce",
+        "size": 2018
+      },
+      "after": {
+        "sha256": "c5a8a58e6e71adb99dac10e86bf20bbe27d9ed7a3482ab10110d6c499ec93138",
+        "size": 2053
+      }
+    },
+    {
+      "file": "history/states/439-Haryana.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "b6b81fc433514966aa95564160352985c4042f686887394c000a596b8233a38f",
+        "size": 627
+      },
+      "after": {
+        "sha256": "49095b134c2263edd8921a140081528637269f3174d9b400aa98b0c50bb9bb83",
+        "size": 683
+      }
+    },
+    {
+      "file": "history/states/441-Kashmir.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "26262f640b3651f90d049a11b2a6fa170aaa992c3fa3af2fd126ecfac576c9fc",
+        "size": 719
+      },
+      "after": {
+        "sha256": "5b756df9c2bc80572577dff89c3e1c57c3cf019b8b1f85db5fada80d0db38275",
+        "size": 803
+      }
+    },
+    {
+      "file": "history/states/442-Chitral.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "857496ffb30732101706c8174a74af65cf3edc1030af8d45be5f7e32457b814d",
+        "size": 540
+      },
+      "after": {
+        "sha256": "60cf485bd646ab6aef01f77204831c0c78e4d42e77716172c8b0f18f5361e8e7",
+        "size": 582
+      }
+    },
+    {
+      "file": "history/states/733-Andaman.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "0b159916587b5e3fccd3a15a71619a3aebb30ca465e473f25c20f9d6c229236e",
+        "size": 334
+      },
+      "after": {
+        "sha256": "02e225437592179dbc578ac3aa364e349aa39611105f91ff3c6447aa4aad6ae1",
+        "size": 395
+      }
+    },
+    {
+      "file": "history/states/787-North Kashmir.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "1fcce15ac5d6b33659ead955d0783eb8fc83703b0998731a503c77ae450643cc",
+        "size": 586
+      },
+      "after": {
+        "sha256": "9698fc61245424503517cf8b51a63e000fcb9ff294d53253d2075e0b3592ae56",
+        "size": 638
+      }
+    },
+    {
+      "file": "history/states/982-Thiruvananthapuram.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "7b7bbf992995110db117ff4ff6ba8965972d4a39acf85f1cb21089fd74209d95",
+        "size": 411
+      },
+      "after": {
+        "sha256": "cac87fae43deff30d4873491dfef4edd2ab311da111b95315d86bcc4efc16686",
+        "size": 467
+      }
+    },
+    {
+      "file": "history/states/983-Ichalkaranji.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "ec17e587ddc8b37169342237023ed5aef81fa1d96b400ef9dc2f844aff9461ac",
+        "size": 596
+      },
+      "after": {
+        "sha256": "b6208ae2cd1a0c1d1c3e595fd86ebc75e12bc762390d94790d167f14a849e913",
+        "size": 652
+      }
+    },
+    {
+      "file": "history/states/984 - Bastar.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "c847cb27c37f55f06f6263ecea627dfe860e2718446e5ac0018b96a8d3f0d88c",
+        "size": 754
+      },
+      "after": {
+        "sha256": "bd6533ea31c79391f4bbf85c94fd9e5b74f6191daec24233a4e43c4f65a4953c",
+        "size": 789
+      }
+    },
+    {
+      "file": "history/states/985 - Sikkim.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "2d2f7f6050ff2e1afcf9eb53c2a7440b0e2cbe98cb9abbb5d5e6cac3a660cb90",
+        "size": 319
+      },
+      "after": {
+        "sha256": "bee0d92cf51086c53ec136cd54213692bf3933c7b32bb44fed38d38971626b6a",
+        "size": 363
+      }
+    },
+    {
+      "file": "history/states/986-Punjab.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "2d17781e92e7fe0f7fc4504dc8b13035ec4d57026e5e2a37bfe8d3d8bc5d2610",
+        "size": 1022
+      },
+      "after": {
+        "sha256": "aa256d212cb1dca507c1db770269876cd7892bb64ea6fe48c6d1a65e4ffaa726",
+        "size": 1078
+      }
+    },
+    {
+      "file": "history/states/989-Bahawalpur.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "72a467705aaf667ae95105fb447327a4500036290de85a4b18377ef48a0b785a",
+        "size": 837
+      },
+      "after": {
+        "sha256": "2042314ed0856be2b78ffafd4c1f6e51d27e77487f622a09d87a01fd50accf02",
+        "size": 926
+      }
+    },
+    {
+      "file": "history/states/990-Manipur.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "37e1697f689ed9de1560cacd05b1ba1ee55b60869d8fe35483fd832d541eaf72",
+        "size": 574
+      },
+      "after": {
+        "sha256": "0029bc82f1211b933eeeec69881797d096186d250502fa114fcdd22e1d076104",
+        "size": 664
+      }
+    },
+    {
+      "file": "history/states/991-Gwalior.txt",
+      "action": "modified",
+      "before": {
+        "sha256": "ba6c2a9b248b2a0e7b012acd4135341b7bea12529c3ad1633cd46ffab65a893a",
+        "size": 640
+      },
+      "after": {
+        "sha256": "92371a1e0b5001c4236e62dfc170482bf9028b4a76e8a56a2653026ceeaaf498",
+        "size": 675
+      }
+    },
+    {
+      "file": "interface/APDC_cold_war.gfx",
+      "action": "modified",
+      "before": {
+        "sha256": "5aceebb08a6f6a77c37314f16d1fdcd6de0295a91d8dd12e29513801ee0d583d",
+        "size": 2489235
+      },
+      "after": {
+        "sha256": "ede79244924c5d0abc26fa7a6a6f003b98689a9562f2998c5b0cb20f82645c60",
+        "size": 2490975
+      }
+    },
+    {
+      "file": "localisation/braz_por/countries_l_braz_por.yml",
+      "action": "modified",
+      "before": {
+        "sha256": "14958a2d8588391e5c2cc5fb98aaf591afb4944fe2bb35d9a1c3403a377d6884",
+        "size": 226225
+      },
+      "after": {
+        "sha256": "ba269683a4a6c973423a2ac300ff06173c3b738317ad50605bcfd75e2eab6084",
+        "size": 232490
+      }
+    },
+    {
+      "file": "localisation/english/countries_l_english.yml",
+      "action": "modified",
+      "before": {
+        "sha256": "77d8920eea974887482361f4ef38a075f202388a8190e8f5bb5da4c4bfc7f16a",
+        "size": 215011
+      },
+      "after": {
+        "sha256": "5d6a8b2614c7f023d592a70ad3a2e6d5f14d79fba90b1b716c85662d1913c0cc",
+        "size": 221409
+      }
+    },
+    {
+      "file": "localisation/french/countries_l_french.yml",
+      "action": "modified",
+      "before": {
+        "sha256": "32fae07ba2d3f6afdb1b28cdd06307c6ad80736cc6c2fd7d8594d6c3f90038f9",
+        "size": 225919
+      },
+      "after": {
+        "sha256": "2825d5ddc552d545cd411a690a18560fd1413072de2bd8bc0c9904554bc17bb6",
+        "size": 232326
+      }
+    },
+    {
+      "file": "localisation/german/countries_l_german.yml",
+      "action": "modified",
+      "before": {
+        "sha256": "aad0171a53bf3e82e393bdf32c08ac28fe603934dfecfeef20c04d9fb7799249",
+        "size": 223011
+      },
+      "after": {
+        "sha256": "c589e4e0c003d19510dc2e8046df2768a1156af9d258b88098e0e012d1130729",
+        "size": 229146
+      }
+    },
+    {
+      "file": "localisation/japanese/countries_l_japanese.yml",
+      "action": "modified",
+      "before": {
+        "sha256": "a1125be6f2b3223f0dca490f4e793d4bce18c4495265adbee92d8a9e684c6ac5",
+        "size": 237646
+      },
+      "after": {
+        "sha256": "23a128c96394eda99bd783cfc0faea61aceb5218944f6cc1ae036f39c5dea062",
+        "size": 243892
+      }
+    },
+    {
+      "file": "localisation/korean/countries_l_korean.yml",
+      "action": "modified",
+      "before": {
+        "sha256": "301fa817b21ead5e37f45307b6d0410545d8d4d8f98c96ed10b903f370ba02f4",
+        "size": 220237
+      },
+      "after": {
+        "sha256": "a086677a4d287e12b01f3248c4f43c3fded7bfc818cdb7a6bd26e09d8af4270b",
+        "size": 226462
+      }
+    },
+    {
+      "file": "localisation/polish/countries_l_polish.yml",
+      "action": "modified",
+      "before": {
+        "sha256": "f07b1a07abcf693d9b68ad258dd8cefceb42f3af580a275ed1aa1f08c7dbbedb",
+        "size": 212479
+      },
+      "after": {
+        "sha256": "238bf57d2e47690549926df3d31770d4e9a962a93fd5f718bf708cd2d6287187",
+        "size": 218960
+      }
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_new_countries_l_braz_por.yml",
+      "action": "modified",
+      "before": {
+        "sha256": "dd3de5c7e872e38bf74cda62f40b761ba9cb288600b78d79dc7ebe158b19d26f",
+        "size": 41951
+      },
+      "after": {
+        "sha256": "a34c314fd42fb5bd11904a7e8f088c71a9fbc43e7c28761baaf10c2dc4495108",
+        "size": 43433
+      }
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_new_countries_l_english.yml",
+      "action": "modified",
+      "before": {
+        "sha256": "3b46594373b383d774acd7242e6f19a66380e8a0f11a1dc29dd24b844df4c8a2",
+        "size": 41140
+      },
+      "after": {
+        "sha256": "6a5fb8de88100798c35d59ddffd60cd3088a3ca78620fd5279bd966895d0f5a0",
+        "size": 42562
+      }
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_new_countries_l_french.yml",
+      "action": "modified",
+      "before": {
+        "sha256": "b67300a7270b1159e1cca878e12d02668dad1d0e7b01c819ece064c771032983",
+        "size": 42429
+      },
+      "after": {
+        "sha256": "73120117ef547bf730d03d3214b6f57a14842dae2e70cc88bb5704bf3702b689",
+        "size": 43911
+      }
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_new_countries_l_german.yml",
+      "action": "modified",
+      "before": {
+        "sha256": "df3e2ed6c1b394b7c2f25c768b0a7794e4d3f3908c347c2d076c221bb410ae33",
+        "size": 41259
+      },
+      "after": {
+        "sha256": "4f79d93c2f86a6a2a66603823ce3a41c67833dbbc9ebaca283e042dd49605620",
+        "size": 42651
+      }
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_new_countries_l_japanese.yml",
+      "action": "modified",
+      "before": {
+        "sha256": "8d5ad95421f86020322860a57bd2f8f1848a6d614983a4142dabf140f1f78c2c",
+        "size": 45371
+      },
+      "after": {
+        "sha256": "e9203ac0255ad31c00f684c6d27ad6e80f37a2c4f3a32d3b233aa4313308939a",
+        "size": 47053
+      }
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_new_countries_l_korean.yml",
+      "action": "modified",
+      "before": {
+        "sha256": "4e8af82594806268f9953ddc987114d5fd9da97c7aae10b4a74207a1caae56ff",
+        "size": 42279
+      },
+      "after": {
+        "sha256": "0d96b24d4a370ca48011b9f72c34ec3a36db0d255f00943f387a808625d17848",
+        "size": 43801
+      }
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_new_countries_l_polish.yml",
+      "action": "modified",
+      "before": {
+        "sha256": "0b0c6821d993c04577d9cac5f409fdc50fb643ece4359d2cadaa322545b7a16d",
+        "size": 40869
+      },
+      "after": {
+        "sha256": "7d2e0b721dfddc1e3b7a0d4fb72e6af51b9fc6929cce649cc248f838c6793e16",
+        "size": 42351
+      }
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_new_countries_l_russian.yml",
+      "action": "modified",
+      "before": {
+        "sha256": "e011a51dacac8883384610916d740f6be0fe715765f000b329278e325e1cfdc7",
+        "size": 49600
+      },
+      "after": {
+        "sha256": "6b5cf9702ccab706d042570a6a0605d51f3f17bdfd1477559a2915126ff42de0",
+        "size": 51512
+      }
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_new_countries_l_simp_chinese.yml",
+      "action": "modified",
+      "before": {
+        "sha256": "02f13af082cb421eda4ec817d42ec8a6348c1ce762f1f00af5ead6840ae83c60",
+        "size": 42615
+      },
+      "after": {
+        "sha256": "c05c4147d2d11f79ba5a5d9b9fa13282f8bd643d09d0c2a796e2123c324df119",
+        "size": 43967
+      }
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_new_countries_l_spanish.yml",
+      "action": "modified",
+      "before": {
+        "sha256": "4d3435d17b135a1c21749e10efc8b88784c0205f76d8b6b70f9eb1c263ce1ec6",
+        "size": 41800
+      },
+      "after": {
+        "sha256": "57d3cad4759bad4d68dc244c6eb65a11f3114b8e3bdecf961a4e4acf036eb9a6",
+        "size": 43272
+      }
+    },
+    {
+      "file": "localisation/replace/zzzzzzz_APDC_south_asia_l_braz_por.yml",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "5b582027dbed9bf9da4604b5b37307d7eb3ec034afcf0954ec5f78de27e80c79",
+        "size": 15229
+      }
+    },
+    {
+      "file": "localisation/replace/zzzzzzz_APDC_south_asia_l_english.yml",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "879ddacbb467027aca9100da92b289e2d52c51985da3222d17898dcbb499b7b8",
+        "size": 14274
+      }
+    },
+    {
+      "file": "localisation/replace/zzzzzzz_APDC_south_asia_l_french.yml",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "71f8325d80e049ec45e7fbf60e01fcd4995142af9a32caaaf4e311b712dede6a",
+        "size": 15448
+      }
+    },
+    {
+      "file": "localisation/replace/zzzzzzz_APDC_south_asia_l_german.yml",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "c6a2dbd5f24e7387356e8474866044a8e8ec768a8b91db3096932bfb57deca4d",
+        "size": 14213
+      }
+    },
+    {
+      "file": "localisation/replace/zzzzzzz_APDC_south_asia_l_japanese.yml",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "0e9750af04cdd5fcbd2d381f21d5b807a2d1e36b8a7f8f298b4a461c3d542529",
+        "size": 15357
+      }
+    },
+    {
+      "file": "localisation/replace/zzzzzzz_APDC_south_asia_l_korean.yml",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "471c0b5f7a0547920ed2ebc48cd7f3b70ff8fdb345593790138b6975d4836d20",
+        "size": 14057
+      }
+    },
+    {
+      "file": "localisation/replace/zzzzzzz_APDC_south_asia_l_polish.yml",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "e17e7119d9e8de1635e2e8151cf35c8ef61605957ed39cf8a09e72cce5f6ecc6",
+        "size": 14551
+      }
+    },
+    {
+      "file": "localisation/replace/zzzzzzz_APDC_south_asia_l_russian.yml",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "2fed90ce99f8c52d72468f3bdd03c9eac38919bd6a19d980b61e45115ec078e5",
+        "size": 21320
+      }
+    },
+    {
+      "file": "localisation/replace/zzzzzzz_APDC_south_asia_l_simp_chinese.yml",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "15b4f09858229133fdff06b4c6267f94c4ae1fa017c98d25670d948f6a97851b",
+        "size": 7691
+      }
+    },
+    {
+      "file": "localisation/replace/zzzzzzz_APDC_south_asia_l_spanish.yml",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "932dd0e21cb21042341c426cd255440bde47b28233fa2f3c4db38f94e03ccffe",
+        "size": 15159
+      }
+    },
+    {
+      "file": "localisation/russian/countries_l_russian.yml",
+      "action": "modified",
+      "before": {
+        "sha256": "56aa20db7701a56c5403c679f9d2476d1546008ebe5c64175d2321fd84119a41",
+        "size": 312526
+      },
+      "after": {
+        "sha256": "a47c547b718473562e3c7e4df55d8fd268c62de2e8d517ddffb2d0b92382967a",
+        "size": 319851
+      }
+    },
+    {
+      "file": "localisation/simp_chinese/countries_l_simp_chinese.yml",
+      "action": "modified",
+      "before": {
+        "sha256": "3b2974f07af28bae05d7e1198adaffcf921cbe9b165fc003f78db51db8788011",
+        "size": 163800
+      },
+      "after": {
+        "sha256": "6680ccc04311ba3424a176d35917e0736ddab2d6c8d4e6b20951b5caa82646bc",
+        "size": 168775
+      }
+    },
+    {
+      "file": "localisation/simp_chinese/zz_APDC_new_ideology_countries_l_simp_chinese.yml",
+      "action": "modified",
+      "before": {
+        "sha256": "4801db7add9b84082158ea8bdedf2e3af5360dd7f4509c194197f7ced796a2a3",
+        "size": 358609
+      },
+      "after": {
+        "sha256": "a37f4dfe6a74faf08481d54a39a746257afa0450d93f0e3b3076aedcf0f92515",
+        "size": 368503
+      }
+    },
+    {
+      "file": "localisation/spanish/countries_l_spanish.yml",
+      "action": "modified",
+      "before": {
+        "sha256": "a8533c2b3d86b4e26f322523edb268825cabab2be37d41b9bac2a68bad0a86cb",
+        "size": 232327
+      },
+      "after": {
+        "sha256": "f204f47c088d0321e6565c26aa60f0ec9bc678a2915ddd92df26838d8e95236f",
+        "size": 238535
+      }
+    },
+    {
+      "file": "tools/cold_war/refresh_palette.py",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "c7fee0882472bfa22dfc6874a81d1062822b70807d32dec7ac6eaae3ee4019ca",
+        "size": 10081
+      }
+    },
+    {
+      "file": "tools/map_maintenance/baseline/current_state_files.json",
+      "action": "modified",
+      "before": {
+        "sha256": "04e182cc7d1949d4809836aefdb326a8351ff3915f6145b1340bd9bf66aa29a3",
+        "size": 50188
+      },
+      "after": {
+        "sha256": "bfac02757943c893b7041d26f868611f0e42dd9babc815cd2bfc9b21fedf9b82",
+        "size": 50188
+      }
+    },
+    {
+      "file": "tools/map_maintenance/baseline/initial_territories.json",
+      "action": "modified",
+      "before": {
+        "sha256": "b24c4868355502a4a5d4bfecc4e3b8717f1b5c9e3e58e591853b848deb3ad836",
+        "size": 193758
+      },
+      "after": {
+        "sha256": "f5c2d4526016bd454c36d8d4d0bd9e94c4150b50894de3bf6e86cbd70616366d",
+        "size": 194811
+      }
+    },
+    {
+      "file": "tools/map_maintenance/baseline/latest_checkpoint.json",
+      "action": "modified",
+      "before": {
+        "sha256": "4af196c2e2a52824ef5efc9f4d05b524e0a1767e1827a51ae01a2b53b9963297",
+        "size": 1908
+      },
+      "after": {
+        "sha256": "cc9b3ab624c70aedd651f815b8a70e9a2fb817cd4c4d39a5c731d7afad55ec98",
+        "size": 1998
+      }
+    },
+    {
+      "file": "tools/map_maintenance/baseline/south_asia_identity_20261102.json",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "aeb9caae509291d3198d3048a3add3628424f7a480b59330d05b392be8d14c75",
+        "size": 1114
+      }
+    },
+    {
+      "file": "tools/map_maintenance/south_asia_20261102.py",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "4a9a6a7357777916b06e0200412e28605233a1d9058908cb78591ac022aff183",
+        "size": 27394
+      }
+    },
+    {
+      "file": "tools/map_maintenance/south_asia_20261102_verify.py",
+      "action": "added",
+      "before": null,
+      "after": {
+        "sha256": "f63cc72b6cddcf6b59318cc0f1a185c0e291286408a7f53c873d373a396d36bd",
+        "size": 21717
+      }
+    },
+    {
+      "file": "项目接手文档/00_快速接手/当前状态与未完成事项.md",
+      "action": "modified",
+      "before": {
+        "sha256": "1111d5af12449b209d5394553d8defec60bca233b713d1784660933b215ee01b",
+        "size": 6564
+      },
+      "after": {
+        "sha256": "7f33098c336c6c9bf17ef2223866a3d74535c93d071d91acf301354136951efb",
+        "size": 7053
+      }
+    },
+    {
+      "file": "项目接手文档/02_系统维护/人物国家意识形态_维护.md",
+      "action": "modified",
+      "before": {
+        "sha256": "b93c22da6bf9ece1221b12088a01e15d0788c4613b091c39e70f2067ea27a6c1",
+        "size": 7258
+      },
+      "after": {
+        "sha256": "fce72aa46eb6fd64ce278a7f35804bdd66ce7749741e5aeee27cf22f02b7380f",
+        "size": 7803
+      }
+    },
+    {
+      "file": "项目接手文档/02_系统维护/冷战系统_规则与维护.md",
+      "action": "modified",
+      "before": {
+        "sha256": "4d4764d50334640a7e6fdab0f566770b689cb3b7bc093337e754689be7c2504d",
+        "size": 8958
+      },
+      "after": {
+        "sha256": "8545d25e7e6aa53196a22b8c9ca8d75acfe077388ff374ceb278636f70d80240",
+        "size": 9503
+      }
+    },
+    {
+      "file": "项目接手文档/02_系统维护/地图与版本兼容_维护.md",
+      "action": "modified",
+      "before": {
+        "sha256": "1a96aa9165680bab78c5eea41790c36bdca307c0ea7af03785b8c5bbe8ad4ff9",
+        "size": 7650
+      },
+      "after": {
+        "sha256": "32d5892841c51ae830b73aaa10bd4a2e4fe1169629f3dc100d1b1c590e98dc3a",
+        "size": 8115
+      }
+    }
+  ],
+  "unexpected_changes": [],
+  "protected_asset_and_fixed_baseline_changes": [],
+  "all_existing_nonpolitical_content_checks": "static-audit.json",
+  "source_save_unchanged": true
+}

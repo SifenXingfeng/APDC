@@ -1,0 +1,29 @@
+{
+  "reviewed": true,
+  "capture_count": 3,
+  "images": [
+    "runtime-world.png",
+    "runtime-BRM-detail.png",
+    "runtime-world-return.png"
+  ],
+  "world": "Native world colors and country borders displayed; GER red, FRA/LLU blue, other owners gray, ZZZ black with red external border. No all-red/all-state-border initialization regression.",
+  "BRM_detail": "Current core territory and internal state boundaries visible, including new northeast state 1645; original country palette, panel and pie preserved.",
+  "BRM_owned_core_states": [
+    288,
+    640,
+    993,
+    994,
+    995,
+    996,
+    997,
+    998,
+    999,
+    1150,
+    1645
+  ],
+  "BRM_detail_state_count": 11,
+  "return": "World area returned unchanged; numerical pixel equality in visual-asset-audit.json",
+  "input_desktop_switched": false,
+  "mouse_keyboard_sent": false,
+  "scope": "Three actual native 1920x1080 captures inspected; not a manual click/hover/all-zoom or main-map art inspection"
+}

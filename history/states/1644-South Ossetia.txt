@@ -1,0 +1,21 @@
+state={
+	id=1644
+	name="STATE_1644"
+	provinces={
+		11609 15133 18340 
+	}
+	manpower=237856
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		set_state_flag = GDP_regions_georgia
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	resources = {  }
+	state_category = town
+}

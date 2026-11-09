@@ -1,0 +1,23 @@
+state={
+	id=577
+	name="STATE_577"
+	resources={ oil = 6 }
+	provinces={
+		1659 1768 1812 4659 4817 5645 6787 7685 7833 7867 10659 10692 12390 12542 12574 12602 12639 14400
+	}
+	manpower=286810
+	buildings_max_level_factor=1
+	state_category=pastoral
+	local_supplies=0
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		victory_points = { 4659 1 }
+		victory_points = { 14400 1 }
+		victory_points = { 1812 1 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

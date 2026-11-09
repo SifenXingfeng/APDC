@@ -1,0 +1,96 @@
+{
+  "regions": [
+    {
+      "region": "support",
+      "scroll_window_size": [
+        148,
+        78
+      ],
+      "original_vote_button_size": [
+        152,
+        112
+      ],
+      "wheel_factor": 34
+    },
+    {
+      "region": "abstain",
+      "scroll_window_size": [
+        148,
+        78
+      ],
+      "original_vote_button_size": [
+        152,
+        112
+      ],
+      "wheel_factor": 34
+    },
+    {
+      "region": "veto",
+      "scroll_window_size": [
+        148,
+        78
+      ],
+      "original_vote_button_size": [
+        152,
+        112
+      ],
+      "wheel_factor": 34
+    }
+  ],
+  "transparent_assets": [
+    {
+      "sprite": "GFX_APDC_cooperation_vote_scrollbar_bg",
+      "size": [
+        18,
+        156
+      ],
+      "fully_transparent": true
+    },
+    {
+      "sprite": "GFX_APDC_cooperation_vote_scrollbar_thumb",
+      "size": [
+        16,
+        16
+      ],
+      "fully_transparent": true
+    },
+    {
+      "sprite": "GFX_APDC_cooperation_vote_scrollbar_track",
+      "size": [
+        12,
+        12
+      ],
+      "fully_transparent": true
+    },
+    {
+      "sprite": "GFX_APDC_cooperation_vote_scrollbar_up",
+      "size": [
+        16,
+        16
+      ],
+      "fully_transparent": true
+    },
+    {
+      "sprite": "GFX_APDC_cooperation_vote_scrollbar_down",
+      "size": [
+        16,
+        16
+      ],
+      "fully_transparent": true
+    },
+    {
+      "sprite": "GFX_APDC_cooperation_vote_scroll_hitbox",
+      "size": [
+        148,
+        78
+      ],
+      "fully_transparent": true
+    }
+  ],
+  "syntax_and_callback_bindings_checked": true,
+  "existing_vote_effects_unchanged": true,
+  "existing_flag_geometry_and_tooltips_unchanged": true,
+  "other_panels_and_scrollbars_unchanged": true,
+  "gui_differences_limited_to_vote_input": true,
+  "boundary": "Static configuration validation; native pointer and wheel interaction require an in-game check."
+}

@@ -1,0 +1,25 @@
+state={
+	id=1143
+	name="STATE_1143"
+	resources={ oil = 4 }
+	provinces={
+		10793 12855 15757 15758 15759 16292 18469 
+	}
+	manpower=309771
+	buildings_max_level_factor=1
+	state_category=town
+	local_supplies=0
+	history = {
+		owner = IRQ
+		controller = IRQ
+		add_core_of = IRQ
+		add_core_of = KUR
+		set_state_flag = state_renamings
+		victory_points = { 10793 2 }
+		victory_points = { 15757 2 }
+		victory_points = { 18469 2 }
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}

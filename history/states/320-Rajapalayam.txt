@@ -1,0 +1,41 @@
+state={
+	id=320
+	name="STATE_320"
+	provinces={
+		1381 4327 4416 7265 7288 7363 7402 10130 10246 10274 12247 12275 18863 18969 
+	}
+	manpower=11663540
+	buildings_max_level_factor=1
+	state_category=enclave
+	local_supplies=0
+	history = {
+		owner = RAS
+		controller = RAS
+		add_core_of = IPL
+		add_core_of = RAJ
+		add_core_of = RAS
+
+		
+		
+		
+		set_state_flag = GDP_regions_tamil_nadu
+		victory_points = { 1381 3 }
+		victory_points = { 4327 3 }
+		victory_points = { 4416 3 }
+		victory_points = { 7265 2 }
+		victory_points = { 7288 3 }
+		victory_points = { 7363 2 }
+		victory_points = { 7402 10 }
+		victory_points = { 10130 3 }
+		victory_points = { 10246 15 }
+		victory_points = { 10274 15 }
+		victory_points = { 12247 3 }
+		victory_points = { 12275 2 }
+		victory_points = { 18863 3 }
+		victory_points = { 18969 2 }
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	resources = { rubber = 9 }
+}

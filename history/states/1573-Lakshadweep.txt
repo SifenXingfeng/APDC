@@ -1,0 +1,26 @@
+state={
+	id=1573
+	name="STATE_1573"
+	provinces={
+		18824 
+	}
+	manpower=1900000
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = MLD
+		controller = MLD
+		add_core_of = IPL
+		add_core_of = KER
+		add_core_of = RAJ
+
+		
+		
+		
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	resources = { rubber = 1 }
+	state_category = rural
+}

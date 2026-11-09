@@ -1,0 +1,21 @@
+state={
+	id=406
+	name="STATE_406"
+	provinces={
+		464 468 477 554 615 3459 3618 3622 6498 6514 6615 7322 9453 9469 11442 11455 11457 11469 11578 11591 
+	}
+	manpower=162174
+	buildings_max_level_factor=1
+	state_category=wasteland
+	local_supplies=0
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		victory_points = { 464 3 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	resources = { chromium = 1 }
+}

@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-06",
+  "source": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\GF-MAP\\.codex_backups\\20261020-183551-chinese-city-name-corrections\\现代胜利点总表.json",
+  "source_sha256": "224ea1dd41c72a3f001f4eacf9184bf9b6fc5992e51a32e42e590afac898cf68",
+  "supplementary_source": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\GF-MAP\\.codex_backups\\20261019-200749-modern-victory-points\\research\\geonames_cities500.zip",
+  "supplementary_sha256": "3f0949d068003cbb7e614275c5a28107a8f4c6b766f704b2bd317004d4cd0527",
+  "rows": [
+    {
+      "state": 40,
+      "names": [
+        "Rubtsovsk"
+      ],
+      "matches": [
+        {
+          "city": "Rubtsovsk",
+          "province": 11410,
+          "actual_state": 40,
+          "ucdb_id": 7408,
+          "method": "Current fixed city inventory; actual province host, including same-province city members"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "City lies in named state"
+    },
+    {
+      "state": 213,
+      "names": [
+        "Murmansk"
+      ],
+      "matches": [
+        {
+          "city": "Murmansk",
+          "province": 3134,
+          "actual_state": 722,
+          "ucdb_id": 278,
+          "method": "Current fixed city inventory; actual province host, including same-province city members"
+        }
+      ],
+      "contains_named_city": false,
+      "status": "City is outside named state; current user province list retained"
+    },
+    {
+      "state": 609,
+      "names": [
+        "Tianjin"
+      ],
+      "matches": [
+        {
+          "city": "Tianjin",
+          "province": 10068,
+          "actual_state": 609,
+          "ucdb_id": 9127,
+          "method": "Current fixed city inventory; actual province host, including same-province city members"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "City lies in named state"
+    },
+    {
+      "state": 742,
+      "names": [
+        "Dushanbe"
+      ],
+      "matches": [
+        {
+          "city": "Dushanbe",
+          "province": 1384,
+          "actual_state": 742,
+          "ucdb_id": 1236,
+          "method": "Current fixed city inventory; actual province host, including same-province city members"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "City lies in named state"
+    },
+    {
+      "state": 881,
+      "names": [
+        "Karagandy",
+        "Karaganda"
+      ],
+      "matches": [
+        {
+          "city": "Karagandy",
+          "province": 10308,
+          "actual_state": 881,
+          "ucdb_id": 1816,
+          "method": "Current fixed city inventory; actual province host, including same-province city members"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "City lies in named state"
+    },
+    {
+      "state": 998,
+      "names": [
+        "Sagaing"
+      ],
+      "matches": [
+        {
+          "city": "Monywa",
+          "province": 19139,
+          "actual_state": 998,
+          "ucdb_id": 1134,
+          "method": "Current fixed city inventory; actual province host, including same-province city members"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "City lies in named state"
+    },
+    {
+      "state": 1640,
+      "names": [
+        "Jalal-Abad",
+        "Manas"
+      ],
+      "matches": [
+        {
+          "city": "Manas",
+          "province": 1483,
+          "actual_state": 1640,
+          "ucdb_id": 485,
+          "method": "Current fixed city inventory; actual province host, including same-province city members"
+        }
+      ],
+      "contains_named_city": true,
+      "status": "City lies in named state"
+    }
+  ],
+  "regional_names_not_city_claims": {
+    "148": "拉普兰",
+    "147": "东博腾",
+    "1304": "凯努",
+    "1305": "北卡累利阿",
+    "722": "科拉半岛",
+    "1645": "贡桑"
+  },
+  "mismatches": [
+    {
+      "state": 213,
+      "names": [
+        "Murmansk"
+      ],
+      "matches": [
+        {
+          "city": "Murmansk",
+          "province": 3134,
+          "actual_state": 722,
+          "ucdb_id": 278,
+          "method": "Current fixed city inventory; actual province host, including same-province city members"
+        }
+      ],
+      "contains_named_city": false,
+      "status": "City is outside named state; current user province list retained"
+    }
+  ],
+  "border_uncertain": [],
+  "unresolved": [],
+  "province_lists_preserved": true,
+  "victory_points_not_added_or_relocated_by_city_review": true
+}

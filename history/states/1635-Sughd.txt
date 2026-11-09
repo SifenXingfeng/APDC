@@ -1,0 +1,25 @@
+state={
+	id=1635
+	name="STATE_1635"
+	provinces={
+		1216 1919 16194 18621 18640 18641 18646 18674 18689 18696 
+	}
+	manpower=910714
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		set_state_flag = state_renamings
+		victory_points = { 1919 1 }
+		victory_points = { 16194 3 }
+		victory_points = { 18621 1 }
+		victory_points = { 18674 2 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	resources = { steel = 1 }
+	state_category = wasteland
+}

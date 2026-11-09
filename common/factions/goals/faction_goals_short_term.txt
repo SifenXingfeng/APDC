@@ -2159,9 +2159,9 @@ faction_goal_develop_iraqi_oil = {
 	}
 	visible = {
 		OR = {
-			291 = { is_controlled_by_ROOT_or_ally = yes }
+			1626 = { is_controlled_by_ROOT_or_ally = yes }
 			1010 = {	is_controlled_by_ROOT_or_ally = yes }
-			1409 = { is_controlled_by_ROOT_or_ally = yes }	
+			1011 = { is_controlled_by_ROOT_or_ally = yes }	
 		}
 	}
 	available = {
@@ -2169,12 +2169,12 @@ faction_goal_develop_iraqi_oil = {
 			has_tech = excavation1
 			has_tech = excavation2
 		}
-		291 = { is_controlled_by_ROOT_or_ally = yes }
+		1626 = { is_controlled_by_ROOT_or_ally = yes }
 		1010 = {	is_controlled_by_ROOT_or_ally = yes }
-		1409 = { is_controlled_by_ROOT_or_ally = yes }	
+		1011 = { is_controlled_by_ROOT_or_ally = yes }	
 	}
 	completed = {
-		291 = {
+		1626 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
@@ -2182,7 +2182,7 @@ faction_goal_develop_iraqi_oil = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		1409 = {
+		1011 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
@@ -2191,7 +2191,7 @@ faction_goal_develop_iraqi_oil = {
 		add_faction_power_projection = 100
 		if = {
 			limit = { NOT = { has_completed_goal = faction_goal_develop_iraqi_oil } }
-			291 = {
+			1626 = {
 				add_resource = {
 				    type = oil
 				    amount = 6
@@ -2203,7 +2203,7 @@ faction_goal_develop_iraqi_oil = {
 				    amount = 4
 				}
 			}
-			1409 = {
+			1011 = {
 				add_resource = {
 				    type = oil
 				    amount = 2

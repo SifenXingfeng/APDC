@@ -1,0 +1,22 @@
+state={
+	id=1608
+	name="STATE_1608"
+	provinces={
+		1704 1771 1841 4813 7778 10648 10716 10720 12696 14199 18004 
+	}
+	manpower=1033833
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		victory_points = { 10648 1 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+	}
+	resources = {  }
+	state_category = city
+}

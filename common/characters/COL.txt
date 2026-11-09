@@ -1,7 +1,8 @@
 characters = {
 	COL_dylan_morales = {
 		name = COL_dylan_morales
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_8 } }
+		portraits = { civilian = {
+				large = GFX_APDC_south_america_generic_political_male_8  } }
 		country_leader = {
 			ideology = orthodox_communism
 			traits = { }
@@ -12,7 +13,8 @@ characters = {
 
 	COL_martin_ruiz = {
 		name = COL_martin_ruiz
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_5 } }
+		portraits = { civilian = {
+				large = GFX_APDC_south_america_generic_political_male_5  } }
 		country_leader = {
 			ideology = bolivarianism
 			traits = { }
@@ -23,7 +25,8 @@ characters = {
 
 	COL_hugo_perez = {
 		name = COL_hugo_perez
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_7 } }
+		portraits = { civilian = {
+				large = GFX_APDC_south_america_generic_political_male_7  } }
 		country_leader = {
 			ideology = left_agrarianism
 			traits = { }
@@ -34,7 +37,8 @@ characters = {
 
 	COL_mateo_garcia = {
 		name = COL_mateo_garcia
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_3 } }
+		portraits = { civilian = {
+				large = GFX_APDC_south_america_generic_political_male_3  } }
 		country_leader = {
 			ideology = liberal_corporatism
 			traits = { }
@@ -45,7 +49,7 @@ characters = {
 
 	COL_leo_rodriguez_liberalism = {
 		name = COL_leo_rodriguez_liberalism
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_1 } }
+		portraits = { civilian = { large = GFX_APDC_document_COL_leo_rodriguez_liberalism } }
 		country_leader = {
 			ideology = liberal_conservatism
 			traits = { }
@@ -56,7 +60,7 @@ characters = {
 
 	COL_leo_rodriguez_authoritarianism = {
 		name = COL_leo_rodriguez_authoritarianism
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_1 } }
+		portraits = { civilian = { large = GFX_APDC_document_COL_leo_rodriguez_authoritarianism } }
 		country_leader = {
 			ideology = non_dominant_system
 			traits = { }
@@ -67,7 +71,8 @@ characters = {
 
 	COL_mercenary_group = {
 		name = COL_mercenary_group
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_6 } }
+		portraits = { civilian = {
+				large = GFX_APDC_south_america_generic_political_male_6  } }
 		country_leader = {
 			ideology = military_state
 			traits = { }
@@ -78,7 +83,8 @@ characters = {
 
 	COL_crocodile_bruno = {
 		name = COL_crocodile_bruno
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_4 } }
+		portraits = { civilian = {
+				large = GFX_APDC_south_america_generic_political_male_4  } }
 		country_leader = {
 			ideology = criminal_state
 			traits = { }
@@ -89,7 +95,8 @@ characters = {
 
 	COL_santiago_fernando_lie = {
 		name = COL_santiago_fernando_lie
-		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_2 } }
+		portraits = { civilian = {
+				large = GFX_APDC_south_america_generic_political_male_2  } }
 		country_leader = {
 			ideology = mysticism
 			traits = { }

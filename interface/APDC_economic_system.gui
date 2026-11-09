@@ -1,64 +1,80 @@
 guiTypes = {
-	containerWindowType = {
-		name = "APDC_economic_system_window"
-		position = { x = 0 y = 0 }
-		size = { width = 100 height = 100 }
-		clipping = no
+containerWindowType = {
+name = "APDC_economic_system_window"
+position = { x = 0 y = 0 }
+size = { width = 100 height = 100 }
+clipping = no
+buttonType = {
+name = "APDC_economic_system_bandit_economy"
+position = { x = 5 y = 5 }
+quadTextureSprite = "GFX_APDC_economic_system_bandit_economy"
+clicksound = click_default
+pdx_tooltip = "APDC_economic_system_bandit_economy_idea_desc"
+}
+buttonType = {
+name = "APDC_economic_system_traditional_agriculture"
+position = { x = 5 y = 5 }
+quadTextureSprite = "GFX_APDC_economic_system_traditional_agriculture"
+clicksound = click_default
+pdx_tooltip = "APDC_economic_system_traditional_agriculture_idea_desc"
+}
+buttonType = {
+name = "APDC_economic_system_dependent_economy"
+position = { x = 5 y = 5 }
+quadTextureSprite = "GFX_APDC_economic_system_dependent_economy"
+clicksound = click_default
+pdx_tooltip = "APDC_economic_system_dependent_economy_idea_desc"
+}
+buttonType = {
+name = "APDC_economic_system_free_market"
+position = { x = 5 y = 5 }
+quadTextureSprite = "GFX_APDC_economic_system_free_market"
+clicksound = click_default
+pdx_tooltip = "APDC_economic_system_free_market_idea_desc"
+}
+buttonType = {
+name = "APDC_economic_system_mixed_market"
+position = { x = 5 y = 5 }
+quadTextureSprite = "GFX_APDC_economic_system_mixed_market"
+clicksound = click_default
+pdx_tooltip = "APDC_economic_system_mixed_market_idea_desc"
+}
+buttonType = {
+name = "APDC_economic_system_state_guided"
+position = { x = 5 y = 5 }
+quadTextureSprite = "GFX_APDC_economic_system_state_guided"
+clicksound = click_default
+pdx_tooltip = "APDC_economic_system_state_guided_idea_desc"
+}
+buttonType = {
+name = "APDC_economic_system_state_capitalism"
+position = { x = 5 y = 5 }
+quadTextureSprite = "GFX_APDC_economic_system_state_capitalism"
+clicksound = click_default
+pdx_tooltip = "APDC_economic_system_state_capitalism_idea_desc"
+}
+buttonType = {
+name = "APDC_economic_system_market_socialism"
+position = { x = 5 y = 5 }
+quadTextureSprite = "GFX_APDC_economic_system_market_socialism"
+clicksound = click_default
+pdx_tooltip = "APDC_economic_system_market_socialism_idea_desc"
+}
+buttonType = {
+name = "APDC_economic_system_decentralized_planning"
+position = { x = 5 y = 5 }
+quadTextureSprite = "GFX_APDC_economic_system_decentralized_planning"
+clicksound = click_default
+pdx_tooltip = "APDC_economic_system_decentralized_planning_idea_desc"
+}
+buttonType = {
+name = "APDC_economic_system_central_planning"
+position = { x = 5 y = 5 }
+quadTextureSprite = "GFX_APDC_economic_system_central_planning"
+clicksound = click_default
+pdx_tooltip = "APDC_economic_system_central_planning_idea_desc"
+}
 
-		# The currently active economic-system icon opens the economy panel.
-		buttonType = {
-			name = "APDC_economic_system_traditional_agriculture"
-			position = { x = 5 y = 5 }
-			quadTextureSprite = "GFX_APDC_economic_system_generic"
-			pdx_tooltip = "APDC_ECONOMIC_SYSTEM_TRADITIONAL_AGRICULTURE_TOOLTIP"
-		}
-		buttonType = {
-			name = "APDC_economic_system_dependent_economy"
-			position = { x = 5 y = 5 }
-			quadTextureSprite = "GFX_APDC_economic_system_generic"
-			pdx_tooltip = "APDC_ECONOMIC_SYSTEM_DEPENDENT_ECONOMY_TOOLTIP"
-		}
-		buttonType = {
-			name = "APDC_economic_system_free_market"
-			position = { x = 5 y = 5 }
-			quadTextureSprite = "GFX_APDC_economic_system_generic"
-			pdx_tooltip = "APDC_ECONOMIC_SYSTEM_FREE_MARKET_TOOLTIP"
-		}
-		buttonType = {
-			name = "APDC_economic_system_mixed_market"
-			position = { x = 5 y = 5 }
-			quadTextureSprite = "GFX_APDC_economic_system_generic"
-			pdx_tooltip = "APDC_ECONOMIC_SYSTEM_MIXED_MARKET_TOOLTIP"
-		}
-		buttonType = {
-			name = "APDC_economic_system_state_guided"
-			position = { x = 5 y = 5 }
-			quadTextureSprite = "GFX_APDC_economic_system_generic"
-			pdx_tooltip = "APDC_ECONOMIC_SYSTEM_STATE_GUIDED_TOOLTIP"
-		}
-		buttonType = {
-			name = "APDC_economic_system_state_capitalism"
-			position = { x = 5 y = 5 }
-			quadTextureSprite = "GFX_APDC_economic_system_generic"
-			pdx_tooltip = "APDC_ECONOMIC_SYSTEM_STATE_CAPITALISM_TOOLTIP"
-		}
-		buttonType = {
-			name = "APDC_economic_system_market_socialism"
-			position = { x = 5 y = 5 }
-			quadTextureSprite = "GFX_APDC_economic_system_market_socialism"
-			pdx_tooltip = "APDC_ECONOMIC_SYSTEM_MARKET_SOCIALISM_TOOLTIP"
-		}
-		buttonType = {
-			name = "APDC_economic_system_decentralized_planning"
-			position = { x = 5 y = 5 }
-			quadTextureSprite = "GFX_APDC_economic_system_generic"
-			pdx_tooltip = "APDC_ECONOMIC_SYSTEM_DECENTRALIZED_PLANNING_TOOLTIP"
-		}
-		buttonType = {
-			name = "APDC_economic_system_central_planning"
-			position = { x = 5 y = 5 }
-			quadTextureSprite = "GFX_APDC_economic_system_generic"
-			pdx_tooltip = "APDC_ECONOMIC_SYSTEM_CENTRAL_PLANNING_TOOLTIP"
-		}
-	}
+}
+
 }

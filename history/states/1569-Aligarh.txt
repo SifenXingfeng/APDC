@@ -1,0 +1,51 @@
+state={
+	id=1569
+	name="STATE_1569"
+	provinces={
+		4915 5002 5086 5157 9951 10794 11955 16043 16044 17974 18892 18904 18906 18916 18929 18936 18939 
+	}
+	manpower=8287286
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = RAJ
+		controller = RAJ
+		add_core_of = IPL
+		add_core_of = RAJ
+
+		
+		
+		
+		victory_points = { 4915 1 }
+		victory_points = { 5002 10 }
+		victory_points = { 5086 15 }
+		victory_points = { 5157 10 }
+		victory_points = { 9951 3 }
+		victory_points = { 10794 2 }
+		victory_points = { 11955 10 }
+		victory_points = { 16043 3 }
+		victory_points = { 16044 15 }
+		victory_points = { 17974 5 }
+		victory_points = { 18892 10 }
+		victory_points = { 18904 3 }
+		victory_points = { 18906 3 }
+		victory_points = { 18916 5 }
+		victory_points = { 18929 5 }
+		victory_points = { 18936 3 }
+		victory_points = { 18939 5 }
+		buildings = {
+			infrastructure = 1
+			air_base = 4
+			4915 = {
+				landmark_taj_mahal = {
+					level = 1
+					allowed = {
+						has_dlc = "Graveyard of Empires"
+					}
+				}
+			}
+		}
+	}
+	resources = {  }
+	state_category = town
+}

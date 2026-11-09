@@ -1,0 +1,42 @@
+state={
+	id=428
+	name="STATE_428"
+	resources={ oil = 3 }
+	provinces={
+		1103 4064 7150 7165 9975 11952 12092 16068 16069 16070 16071 18835 18990 18996 
+	}
+	manpower=4895075
+	buildings_max_level_factor=1
+	state_category=town
+	local_supplies=0
+	history = {
+		owner = WIS
+		controller = WIS
+		add_core_of = IPL
+		add_core_of = RAJ
+		add_core_of = WIS
+		add_claim_by = KHL
+
+		
+		
+		
+		set_state_flag = GDP_regions_gujarat
+		victory_points = { 1103 3 }
+		victory_points = { 4064 1 }
+		victory_points = { 7150 3 }
+		victory_points = { 7165 3 }
+		victory_points = { 9975 40 }
+		victory_points = { 11952 15 }
+		victory_points = { 12092 2 }
+		victory_points = { 16068 1 }
+		victory_points = { 16069 1 }
+		victory_points = { 16070 2 }
+		victory_points = { 16071 3 }
+		victory_points = { 18835 2 }
+		victory_points = { 18990 2 }
+		victory_points = { 18996 3 }
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

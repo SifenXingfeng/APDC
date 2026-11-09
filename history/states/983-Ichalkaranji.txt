@@ -1,0 +1,34 @@
+state={
+	id=983
+	name="STATE_983"
+	provinces={
+		4395 7232 10210 12182 12295 16085 16086 
+	}
+	manpower=4447704
+	buildings_max_level_factor=1
+	state_category=rural
+	local_supplies=0
+	history = {
+		owner = KOL
+		controller = KOL
+		add_core_of = IPL
+		add_core_of = KOL
+		add_core_of = RAJ
+
+		
+		
+		
+		set_state_flag = GDP_regions_maharashtra
+		victory_points = { 7232 3 }
+		victory_points = { 10210 3 }
+		victory_points = { 12182 2 }
+		victory_points = { 12295 5 }
+		victory_points = { 16085 3 }
+		victory_points = { 16086 5 }
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+		}
+	}
+	resources = { tungsten = 5 }
+}

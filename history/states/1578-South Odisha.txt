@@ -1,0 +1,30 @@
+state={
+	id=1578
+	name="STATE_1578"
+	provinces={
+		7090 7372 10469 12241 
+	}
+	manpower=875897
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = HYD
+		controller = HYD
+		add_core_of = IPL
+		add_core_of = RAJ
+
+		
+		
+		
+		set_state_flag = GDP_regions_orissa_ind
+		victory_points = { 7090 2 }
+		victory_points = { 7372 1 }
+		victory_points = { 10469 1 }
+		victory_points = { 12241 2 }
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	resources = { chromium = 2 steel = 3 }
+	state_category = rural
+}

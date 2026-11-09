@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "scan": "geographic-reference-scan.json",
+  "references_read": 89,
+  "dispositions": {
+    "country_capitals": "Existing real city anchors checked for ARM/AZR/BUK/GEO/KAZ/KHI/KKP/KYR/TAJ/TMS/UZB; only KAZ changes 586 -> 589 at Almaty 1591.",
+    "geographic_state_groups": "Sixteen new state IDs appended to their primary source geographic group, in two GER groups. Existing reward values and gameplay conditions unchanged.",
+    "Baku_oil_goal": "Baku city 7661 remains in state 229; retain both 229 references.",
+    "French_state_grammar": "State-name grammatical classification is attached to the state name and not a city/airport anchor; no geographic relocation.",
+    "Air_OOB": "Effective project OOBs checked for relocated air bases: 229 -> 1642, 405/585 -> 1632. No air_wings record uses these old keys, so no deployment changes needed.",
+    "Province_bound_names_and_transport": "Province IDs and city names unchanged; existing references retain the same location."
+  },
+  "parse_errors": []
+}

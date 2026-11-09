@@ -4071,6 +4071,10 @@ set_variable = { APDC_eco_purchase_stock = APDC_eco_stocks^195 }
 set_variable = { APDC_eco_purchase_unit_k = 16 }
 
 }
+set_temp_variable = { APDC_eco_purchase_price_factor = modifier@APDC_eco_private_equipment_purchase_factor }
+add_to_temp_variable = { APDC_eco_purchase_price_factor = 1 }
+clamp_temp_variable = { var = APDC_eco_purchase_price_factor min = 0 }
+multiply_variable = { APDC_eco_purchase_unit_k = APDC_eco_purchase_price_factor }
 clamp_variable = { var = APDC_eco_purchase_quantity min = 0 max = APDC_eco_purchase_stock }
 set_temp_variable = { APDC_eco_math_7 = APDC_eco_purchase_quantity }
 divide_temp_variable = { APDC_eco_math_7 = 1000 }

@@ -1,0 +1,1190 @@
+{
+  "checkpoint": {
+    "date": "2026-11-04",
+    "report": "docs/map-maintenance/20261104-city-alignment",
+    "state_history_archive": "docs/map-maintenance/20261104-city-alignment/states-checkpoint.zip",
+    "state_history_sha256": "f25beb2ce0818961ebdb66b00987b62ac36098cf346da400f4046772d2506198",
+    "political_relations": "tools/map_maintenance/baseline/initial_territories.json",
+    "state_index": "tools/map_maintenance/baseline/current_state_files.json",
+    "cold_war_geometry": "docs/cold-war/20261024/geometry.json",
+    "cold_war_geometry_sha256": "ac068ff62820fb2b556a7b4cfecbe3dad6500f46e1747d7e205892868085935f",
+    "runtime": "GER 2060.2.1.1; all 1628 state relations checked; world/SOV/return reviewed; own game/helpers stopped",
+    "runtime_report": "docs/map-maintenance/20261104-city-alignment/runtime-audit.json",
+    "visual_report": "docs/map-maintenance/20261104-city-alignment/visual-review.json",
+    "backup": "D:\\C-Drive-Migration-20260929\\Permanent\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\.codex_backups\\APDC\\20261104-172821-city-province-alignment",
+    "previous_report": "docs/map-maintenance/20261104",
+    "geography_backup": "D:\\C-Drive-Migration-20260929\\Permanent\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\.codex_backups\\APDC\\20261104-172821-city-province-alignment",
+    "railways": "map/railways.txt",
+    "railways_sha256": "6a7041946d29790fa867abb5999775344433e8741943e6effe81826709bea29c",
+    "railways_checkpoint": "docs/map-maintenance/20261027-railways/railways-checkpoint.txt",
+    "map_checkpoint_archive": "docs/map-maintenance/20261104-city-alignment/map-checkpoint.zip",
+    "map_checkpoint_sha256": "20eb9fd92a669ed23575ee5a4e160c53ec3efb3cb345037b35221e0a61fe0127",
+    "states": 1628,
+    "south_asia_identity": "tools/map_maintenance/baseline/south_asia_identity_20261102.json",
+    "city_review": "docs/map-maintenance/20261104-city-alignment/city-review.json"
+  },
+  "backup": "D:\\C-Drive-Migration-20260929\\Permanent\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\.codex_backups\\APDC\\20261104-201944-central-asia-caucasus-map-finish",
+  "new_states": [
+    1629,
+    1630,
+    1631,
+    1632,
+    1633,
+    1634,
+    1635,
+    1636,
+    1637,
+    1638,
+    1639,
+    1640,
+    1641,
+    1642,
+    1643,
+    1644
+  ],
+  "affected_states": [
+    229,
+    230,
+    231,
+    402,
+    404,
+    405,
+    406,
+    575,
+    584,
+    585,
+    586,
+    588,
+    589,
+    590,
+    732,
+    742,
+    823,
+    830,
+    831,
+    832,
+    882,
+    1592,
+    1629,
+    1630,
+    1631,
+    1632,
+    1633,
+    1634,
+    1635,
+    1636,
+    1637,
+    1638,
+    1639,
+    1640,
+    1641,
+    1642,
+    1643,
+    1644
+  ],
+  "province_transfers": [
+    {
+      "province": 756,
+      "from": 584,
+      "to": 1634
+    },
+    {
+      "province": 1216,
+      "from": 742,
+      "to": 1635
+    },
+    {
+      "province": 1229,
+      "from": 590,
+      "to": 1629
+    },
+    {
+      "province": 1309,
+      "from": 590,
+      "to": 1629
+    },
+    {
+      "province": 1391,
+      "from": 590,
+      "to": 1629
+    },
+    {
+      "province": 1467,
+      "from": 229,
+      "to": 1642
+    },
+    {
+      "province": 1483,
+      "from": 732,
+      "to": 1640
+    },
+    {
+      "province": 1591,
+      "from": 586,
+      "to": 589
+    },
+    {
+      "province": 1593,
+      "from": 584,
+      "to": 831
+    },
+    {
+      "province": 1610,
+      "from": 229,
+      "to": 1642
+    },
+    {
+      "province": 1632,
+      "from": 584,
+      "to": 1634
+    },
+    {
+      "province": 1649,
+      "from": 584,
+      "to": 1634
+    },
+    {
+      "province": 1675,
+      "from": 732,
+      "to": 1638
+    },
+    {
+      "province": 1694,
+      "from": 590,
+      "to": 1629
+    },
+    {
+      "province": 1721,
+      "from": 402,
+      "to": 404
+    },
+    {
+      "province": 1825,
+      "from": 732,
+      "to": 1639
+    },
+    {
+      "province": 1840,
+      "from": 586,
+      "to": 589
+    },
+    {
+      "province": 1919,
+      "from": 742,
+      "to": 1635
+    },
+    {
+      "province": 2058,
+      "from": 732,
+      "to": 1637
+    },
+    {
+      "province": 3374,
+      "from": 732,
+      "to": 1640
+    },
+    {
+      "province": 3653,
+      "from": 231,
+      "to": 1643
+    },
+    {
+      "province": 4224,
+      "from": 586,
+      "to": 589
+    },
+    {
+      "province": 4227,
+      "from": 402,
+      "to": 404
+    },
+    {
+      "province": 4303,
+      "from": 402,
+      "to": 404
+    },
+    {
+      "province": 4316,
+      "from": 732,
+      "to": 1639
+    },
+    {
+      "province": 4374,
+      "from": 402,
+      "to": 404
+    },
+    {
+      "province": 4391,
+      "from": 732,
+      "to": 1638
+    },
+    {
+      "province": 4482,
+      "from": 584,
+      "to": 1633
+    },
+    {
+      "province": 4549,
+      "from": 584,
+      "to": 1633
+    },
+    {
+      "province": 4629,
+      "from": 585,
+      "to": 1632
+    },
+    {
+      "province": 4661,
+      "from": 882,
+      "to": 588
+    },
+    {
+      "province": 4768,
+      "from": 732,
+      "to": 1638
+    },
+    {
+      "province": 4850,
+      "from": 590,
+      "to": 1629
+    },
+    {
+      "province": 4958,
+      "from": 584,
+      "to": 1633
+    },
+    {
+      "province": 5003,
+      "from": 584,
+      "to": 1633
+    },
+    {
+      "province": 5062,
+      "from": 732,
+      "to": 1639
+    },
+    {
+      "province": 6997,
+      "from": 230,
+      "to": 1641
+    },
+    {
+      "province": 7224,
+      "from": 742,
+      "to": 1636
+    },
+    {
+      "province": 7322,
+      "from": 402,
+      "to": 406
+    },
+    {
+      "province": 7477,
+      "from": 584,
+      "to": 831
+    },
+    {
+      "province": 7560,
+      "from": 584,
+      "to": 1633
+    },
+    {
+      "province": 7563,
+      "from": 584,
+      "to": 831
+    },
+    {
+      "province": 7618,
+      "from": 584,
+      "to": 1634
+    },
+    {
+      "province": 7635,
+      "from": 584,
+      "to": 832
+    },
+    {
+      "province": 7639,
+      "from": 830,
+      "to": 1631
+    },
+    {
+      "province": 7682,
+      "from": 405,
+      "to": 1632
+    },
+    {
+      "province": 7706,
+      "from": 732,
+      "to": 1640
+    },
+    {
+      "province": 7711,
+      "from": 586,
+      "to": 589
+    },
+    {
+      "province": 7741,
+      "from": 590,
+      "to": 1629
+    },
+    {
+      "province": 7775,
+      "from": 585,
+      "to": 1632
+    },
+    {
+      "province": 7874,
+      "from": 590,
+      "to": 1629
+    },
+    {
+      "province": 7924,
+      "from": 584,
+      "to": 1634
+    },
+    {
+      "province": 9605,
+      "from": 584,
+      "to": 1634
+    },
+    {
+      "province": 9715,
+      "from": 229,
+      "to": 1642
+    },
+    {
+      "province": 10146,
+      "from": 586,
+      "to": 589
+    },
+    {
+      "province": 10357,
+      "from": 584,
+      "to": 1633
+    },
+    {
+      "province": 10359,
+      "from": 584,
+      "to": 831
+    },
+    {
+      "province": 10395,
+      "from": 831,
+      "to": 823
+    },
+    {
+      "province": 10406,
+      "from": 584,
+      "to": 831
+    },
+    {
+      "province": 10408,
+      "from": 732,
+      "to": 1640
+    },
+    {
+      "province": 10414,
+      "from": 584,
+      "to": 1633
+    },
+    {
+      "province": 10435,
+      "from": 831,
+      "to": 832
+    },
+    {
+      "province": 10488,
+      "from": 405,
+      "to": 1630
+    },
+    {
+      "province": 10530,
+      "from": 405,
+      "to": 1630
+    },
+    {
+      "province": 10557,
+      "from": 575,
+      "to": 1592
+    },
+    {
+      "province": 10660,
+      "from": 732,
+      "to": 1640
+    },
+    {
+      "province": 10671,
+      "from": 585,
+      "to": 1632
+    },
+    {
+      "province": 10742,
+      "from": 584,
+      "to": 1634
+    },
+    {
+      "province": 11591,
+      "from": 402,
+      "to": 406
+    },
+    {
+      "province": 11609,
+      "from": 231,
+      "to": 1644
+    },
+    {
+      "province": 11704,
+      "from": 229,
+      "to": 1642
+    },
+    {
+      "province": 12161,
+      "from": 584,
+      "to": 1634
+    },
+    {
+      "province": 12218,
+      "from": 742,
+      "to": 1636
+    },
+    {
+      "province": 12233,
+      "from": 584,
+      "to": 1633
+    },
+    {
+      "province": 12239,
+      "from": 830,
+      "to": 1631
+    },
+    {
+      "province": 12309,
+      "from": 231,
+      "to": 229
+    },
+    {
+      "province": 12324,
+      "from": 584,
+      "to": 832
+    },
+    {
+      "province": 12359,
+      "from": 584,
+      "to": 831
+    },
+    {
+      "province": 12370,
+      "from": 732,
+      "to": 1639
+    },
+    {
+      "province": 12454,
+      "from": 831,
+      "to": 832
+    },
+    {
+      "province": 12465,
+      "from": 831,
+      "to": 823
+    },
+    {
+      "province": 12474,
+      "from": 831,
+      "to": 832
+    },
+    {
+      "province": 12511,
+      "from": 732,
+      "to": 1638
+    },
+    {
+      "province": 12619,
+      "from": 590,
+      "to": 1629
+    },
+    {
+      "province": 12722,
+      "from": 830,
+      "to": 1631
+    },
+    {
+      "province": 13147,
+      "from": 732,
+      "to": 1638
+    },
+    {
+      "province": 14257,
+      "from": 732,
+      "to": 1638
+    },
+    {
+      "province": 14273,
+      "from": 584,
+      "to": 831
+    },
+    {
+      "province": 14274,
+      "from": 732,
+      "to": 1637
+    },
+    {
+      "province": 14297,
+      "from": 732,
+      "to": 1640
+    },
+    {
+      "province": 14321,
+      "from": 732,
+      "to": 1640
+    },
+    {
+      "province": 14323,
+      "from": 831,
+      "to": 823
+    },
+    {
+      "province": 14682,
+      "from": 405,
+      "to": 1630
+    },
+    {
+      "province": 14704,
+      "from": 584,
+      "to": 831
+    },
+    {
+      "province": 14705,
+      "from": 584,
+      "to": 831
+    },
+    {
+      "province": 14759,
+      "from": 584,
+      "to": 1634
+    },
+    {
+      "province": 15133,
+      "from": 231,
+      "to": 1644
+    },
+    {
+      "province": 15540,
+      "from": 732,
+      "to": 1637
+    },
+    {
+      "province": 15570,
+      "from": 830,
+      "to": 1631
+    },
+    {
+      "province": 15784,
+      "from": 585,
+      "to": 1632
+    },
+    {
+      "province": 16194,
+      "from": 742,
+      "to": 1635
+    },
+    {
+      "province": 16231,
+      "from": 231,
+      "to": 1643
+    },
+    {
+      "province": 17129,
+      "from": 831,
+      "to": 832
+    },
+    {
+      "province": 17558,
+      "from": 732,
+      "to": 1640
+    },
+    {
+      "province": 17962,
+      "from": 405,
+      "to": 1632
+    },
+    {
+      "province": 18340,
+      "from": 231,
+      "to": 1644
+    },
+    {
+      "province": 18342,
+      "from": 229,
+      "to": 1642
+    },
+    {
+      "province": 18472,
+      "from": 230,
+      "to": 1641
+    },
+    {
+      "province": 18614,
+      "from": 590,
+      "to": 1629
+    },
+    {
+      "province": 18615,
+      "from": 584,
+      "to": 832
+    },
+    {
+      "province": 18616,
+      "from": 584,
+      "to": 1634
+    },
+    {
+      "province": 18617,
+      "from": 405,
+      "to": 1630
+    },
+    {
+      "province": 18619,
+      "from": 585,
+      "to": 830
+    },
+    {
+      "province": 18621,
+      "from": 742,
+      "to": 1635
+    },
+    {
+      "province": 18622,
+      "from": 405,
+      "to": 1630
+    },
+    {
+      "province": 18625,
+      "from": 585,
+      "to": 830
+    },
+    {
+      "province": 18626,
+      "from": 584,
+      "to": 1633
+    },
+    {
+      "province": 18627,
+      "from": 585,
+      "to": 830
+    },
+    {
+      "province": 18629,
+      "from": 830,
+      "to": 1631
+    },
+    {
+      "province": 18632,
+      "from": 584,
+      "to": 1633
+    },
+    {
+      "province": 18636,
+      "from": 732,
+      "to": 1639
+    },
+    {
+      "province": 18640,
+      "from": 742,
+      "to": 1635
+    },
+    {
+      "province": 18641,
+      "from": 742,
+      "to": 1635
+    },
+    {
+      "province": 18643,
+      "from": 405,
+      "to": 1630
+    },
+    {
+      "province": 18646,
+      "from": 742,
+      "to": 1635
+    },
+    {
+      "province": 18652,
+      "from": 405,
+      "to": 1632
+    },
+    {
+      "province": 18659,
+      "from": 830,
+      "to": 1631
+    },
+    {
+      "province": 18662,
+      "from": 742,
+      "to": 1636
+    },
+    {
+      "province": 18663,
+      "from": 732,
+      "to": 1637
+    },
+    {
+      "province": 18664,
+      "from": 732,
+      "to": 1640
+    },
+    {
+      "province": 18665,
+      "from": 830,
+      "to": 1631
+    },
+    {
+      "province": 18669,
+      "from": 405,
+      "to": 1632
+    },
+    {
+      "province": 18671,
+      "from": 585,
+      "to": 1632
+    },
+    {
+      "province": 18672,
+      "from": 732,
+      "to": 1637
+    },
+    {
+      "province": 18673,
+      "from": 584,
+      "to": 1634
+    },
+    {
+      "province": 18674,
+      "from": 742,
+      "to": 1635
+    },
+    {
+      "province": 18677,
+      "from": 830,
+      "to": 1631
+    },
+    {
+      "province": 18678,
+      "from": 830,
+      "to": 1631
+    },
+    {
+      "province": 18680,
+      "from": 585,
+      "to": 1632
+    },
+    {
+      "province": 18681,
+      "from": 584,
+      "to": 1633
+    },
+    {
+      "province": 18686,
+      "from": 830,
+      "to": 1631
+    },
+    {
+      "province": 18689,
+      "from": 742,
+      "to": 1635
+    },
+    {
+      "province": 18691,
+      "from": 732,
+      "to": 1638
+    },
+    {
+      "province": 18692,
+      "from": 742,
+      "to": 1636
+    },
+    {
+      "province": 18695,
+      "from": 732,
+      "to": 1639
+    },
+    {
+      "province": 18696,
+      "from": 742,
+      "to": 1635
+    },
+    {
+      "province": 18697,
+      "from": 732,
+      "to": 1638
+    },
+    {
+      "province": 18698,
+      "from": 732,
+      "to": 1640
+    },
+    {
+      "province": 18821,
+      "from": 584,
+      "to": 1634
+    }
+  ],
+  "cleared_histories": [
+    1592,
+    229,
+    230,
+    231,
+    402,
+    404,
+    405,
+    406,
+    575,
+    584,
+    585,
+    586,
+    588,
+    589,
+    590,
+    732,
+    742,
+    823,
+    830,
+    831,
+    832,
+    882
+  ],
+  "cleared_unchanged_history_restored": [],
+  "state_sources": {
+    "229": {
+      "229": 24,
+      "231": 1
+    },
+    "230": {
+      "230": 13
+    },
+    "231": {
+      "231": 25
+    },
+    "402": {
+      "402": 30
+    },
+    "404": {
+      "402": 4,
+      "404": 31
+    },
+    "405": {
+      "405": 11
+    },
+    "406": {
+      "406": 18,
+      "402": 2
+    },
+    "575": {
+      "575": 7
+    },
+    "584": {
+      "584": 9
+    },
+    "585": {
+      "585": 11
+    },
+    "586": {
+      "586": 9
+    },
+    "588": {
+      "588": 15,
+      "882": 1
+    },
+    "589": {
+      "586": 5,
+      "589": 14
+    },
+    "590": {
+      "590": 15
+    },
+    "732": {
+      "732": 6
+    },
+    "742": {
+      "742": 7
+    },
+    "823": {
+      "823": 12,
+      "831": 3
+    },
+    "830": {
+      "830": 4,
+      "585": 3
+    },
+    "831": {
+      "584": 9
+    },
+    "832": {
+      "832": 5,
+      "584": 3,
+      "831": 4
+    },
+    "882": {
+      "882": 9
+    },
+    "1592": {
+      "1592": 5,
+      "575": 1
+    },
+    "1629": {
+      "590": 9
+    },
+    "1630": {
+      "405": 6
+    },
+    "1631": {
+      "830": 10
+    },
+    "1632": {
+      "585": 6,
+      "405": 4
+    },
+    "1633": {
+      "584": 11
+    },
+    "1634": {
+      "584": 12
+    },
+    "1635": {
+      "742": 10
+    },
+    "1636": {
+      "742": 4
+    },
+    "1637": {
+      "732": 5
+    },
+    "1638": {
+      "732": 8
+    },
+    "1639": {
+      "732": 6
+    },
+    "1640": {
+      "732": 10
+    },
+    "1641": {
+      "230": 2
+    },
+    "1642": {
+      "229": 5
+    },
+    "1643": {
+      "231": 2
+    },
+    "1644": {
+      "231": 3
+    }
+  },
+  "economy_totals": {
+    "source_population": 2100007447,
+    "exact_population": "2100007447",
+    "rounded_population": 2100007474,
+    "population_rounding_difference": 27,
+    "resources": {
+      "aluminium": {
+        "source": "1197",
+        "exact": "1197",
+        "rounded": 1196,
+        "rounding_difference": "-1"
+      },
+      "chromium": {
+        "source": "1335",
+        "exact": "1335",
+        "rounded": 1339,
+        "rounding_difference": "4"
+      },
+      "coal": {
+        "source": "1438",
+        "exact": "1438",
+        "rounded": 1436,
+        "rounding_difference": "-2"
+      },
+      "oil": {
+        "source": "1192",
+        "exact": "1192",
+        "rounded": 1192,
+        "rounding_difference": "0"
+      },
+      "rubber": {
+        "source": "1073",
+        "exact": "1073",
+        "rounded": 1074,
+        "rounding_difference": "1"
+      },
+      "steel": {
+        "source": "2591",
+        "exact": "2591",
+        "rounded": 2588,
+        "rounding_difference": "-3"
+      },
+      "tungsten": {
+        "source": "1325",
+        "exact": "1325",
+        "rounded": 1322,
+        "rounding_difference": "-3"
+      }
+    }
+  },
+  "strategic_editor_changes": [
+    {
+      "region": 134,
+      "source": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\134-Caucasus Region.txt",
+      "removed": [
+        11609,
+        15133,
+        18340
+      ],
+      "added": []
+    },
+    {
+      "region": 136,
+      "source": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\136-Great Steppe.txt",
+      "removed": [
+        1229,
+        1309,
+        1391,
+        1694,
+        4850,
+        7741,
+        7874,
+        12619,
+        18614
+      ],
+      "added": []
+    },
+    {
+      "region": 137,
+      "source": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\137-Western Steppe.txt",
+      "removed": [],
+      "added": [
+        7322,
+        11591
+      ]
+    },
+    {
+      "region": 149,
+      "source": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\149-Eastern Siberia.txt",
+      "removed": [],
+      "added": [
+        10557
+      ]
+    },
+    {
+      "region": 260,
+      "source": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\260-Western Sakha.txt",
+      "removed": [
+        10557
+      ],
+      "added": []
+    },
+    {
+      "region": 267,
+      "source": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\267-Tanscaspia.txt",
+      "removed": [
+        756,
+        1632,
+        1649,
+        4482,
+        4549,
+        4958,
+        5003,
+        7560,
+        7618,
+        7924,
+        9605,
+        10357,
+        10414,
+        10742,
+        12161,
+        12233,
+        14759,
+        18616,
+        18626,
+        18632,
+        18673,
+        18681,
+        18821
+      ],
+      "added": []
+    },
+    {
+      "region": 268,
+      "source": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\268-Ferghana.txt",
+      "removed": [
+        3374
+      ],
+      "added": []
+    },
+    {
+      "region": 269,
+      "source": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\269-Samarkand.txt",
+      "removed": [
+        7224,
+        12218,
+        18662,
+        18692
+      ],
+      "added": []
+    },
+    {
+      "region": 270,
+      "source": "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\270-Syr Darya.txt",
+      "removed": [
+        4629,
+        7775,
+        10671,
+        15784,
+        18619,
+        18625,
+        18627,
+        18671,
+        18680
+      ],
+      "added": []
+    }
+  ],
+  "strategic_duplicates": [
+    [
+      7322,
+      137,
+      270
+    ],
+    [
+      11591,
+      137,
+      270
+    ]
+  ],
+  "editor_cutoff": "2026-11-04T17:42:02.2334374+08:00",
+  "older_editor_outputs_ignored": [
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\138-Ural Region.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\14-TransUrals.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\147-Siberian Region.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\151-Western Siberia.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\152-Central Steppe.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\153-Northern India.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\197-New England.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\230-Cape Comorin.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\231-Coromandel Coast.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\254-Thar Desert.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\255-Amur.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\256-Transbaikal.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\257-Northern Far East.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\258-Okhotsk.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\259-Sakha.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\261-Altai.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\262-Central Siberia.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\263-Eastern Nenetsia.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\266-Uriankhai.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\28-Middle East.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\290-Bengal.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\296-Gujarat.txt",
+    "C:\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\map\\strategicregions\\map\\strategicregions\\31-Indian Area.txt"
+  ]
+}

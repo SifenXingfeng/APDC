@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "affected_states": [
+    40,
+    147,
+    148,
+    213,
+    215,
+    586,
+    588,
+    609,
+    654,
+    722,
+    732,
+    742,
+    881,
+    998,
+    999,
+    1039,
+    1146,
+    1147,
+    1148,
+    1150,
+    1304,
+    1637,
+    1640,
+    1645
+  ],
+  "nested_date_or_conditional_history": [],
+  "capital_anchors_preserved": {
+    "ALT": 654,
+    "KYR": {
+      "state": 732,
+      "city_province": 12583
+    },
+    "SMI": 148,
+    "TAJ": {
+      "state": 742,
+      "city_province": 1384
+    }
+  },
+  "state_id_reuse": {
+    "147": "Old Salla provinces now 213/215; new province set from 1304, Ostrobothnia",
+    "722": "Old Petsamo provinces now 213; new province set from 213, Kola Peninsula"
+  },
+  "reference_changes": [
+    {
+      "file": "common/scripted_triggers/GER_scripted_triggers.txt",
+      "group": "GER_is_soviet_greater_finland_state",
+      "before": [
+        216,
+        215,
+        213
+      ],
+      "after": [
+        216,
+        215,
+        213,
+        722
+      ],
+      "reason": "Follow old geographic coverage after Salla/Petsamo/Murmansk state-ID reuse; exclude new Ostrobothnia"
+    },
+    {
+      "file": "common/scripted_triggers/GER_scripted_triggers.txt",
+      "group": "GER_is_additional_soviet_greater_finland_state",
+      "before": [
+        146,
+        147,
+        722
+      ],
+      "after": [
+        146,
+        213,
+        215
+      ],
+      "reason": "Follow old geographic coverage after Salla/Petsamo/Murmansk state-ID reuse; exclude new Ostrobothnia"
+    },
+    {
+      "file": "localisation/simp_chinese/aat_focus_l_simp_chinese.yml",
+      "key": "FIN_janiskoski_power_plant_desc",
+      "from": 722,
+      "to": 213,
+      "reason": "Old Petsamo is now wholly in state 213; power-plant location remains there"
+    },
+    {
+      "file": "localisation/simp_chinese/aat_focus_l_simp_chinese.yml",
+      "key": "FIN_integrate_kola_and_karelia_tt",
+      "added": 722,
+      "reason": "Reflect the Kola/Murmansk subdivision in the matching geographic requirement"
+    }
+  ],
+  "nongeographic_numeric_uses": "Ship/division IDs, RGB, array indices, French grammatical tables and strategic region IDs were reviewed and retained in their own namespaces"
+}

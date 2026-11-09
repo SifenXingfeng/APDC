@@ -1,0 +1,27 @@
+state={
+	id=1618
+	name="STATE_1618"
+	provinces={
+		1778 1855 4777 7943 10560 10695 12614 14343 19393 19395 19416 19431 
+	}
+	manpower=7992
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = MON
+		controller = MON
+		add_core_of = MON
+		set_variable = {
+			china_state_ref = 57
+		}
+		set_variable = {
+			china_region_ref = 7
+		}
+		set_state_flag = GDP_regions_outer_mongolia
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	resources = {  }
+	state_category = wasteland
+}

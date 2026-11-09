@@ -1,132 +1,170 @@
 ideas = {
-	hidden_ideas = {
-		# Economic systems are shown in their dedicated politics-view slot rather
-		# than in the national-spirit grid.  Every system deliberately modifies
-		# the same six dimensions so their trade-offs remain directly comparable.
-		APDC_economic_system_traditional_agriculture_idea = {
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				APDC_eco_population_factor = 0.25
-				industrial_capacity_factory = -0.30
-				production_speed_buildings_factor = -0.30
-				research_speed_factor = -0.25
-				local_resources_factor = 0.25
-				production_factory_efficiency_gain_factor = -0.25
-			}
-		}
+hidden_ideas = {
+APDC_economic_system_bandit_economy_idea = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+local_resources_factor = -0.15
+research_speed_factor = -0.1
+production_speed_buildings_factor = -0.2
+industrial_capacity_factory = -0.2
+industrial_capacity_dockyard = -0.2
+APDC_eco_construction_maintenance_factor = -0.5
+APDC_eco_mil_maintenance_factor = -0.5
+APDC_eco_nav_maintenance_factor = -0.5
+APDC_eco_private_civ_expansion_factor = -0.5
+APDC_eco_private_mil_expansion_factor = -0.5
+APDC_eco_private_equipment_purchase_factor = -1.0
+}
 
-		APDC_economic_system_dependent_economy_idea = {
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				APDC_eco_population_factor = 0.15
-				industrial_capacity_factory = -0.15
-				production_speed_buildings_factor = 0.10
-				research_speed_factor = -0.15
-				local_resources_factor = 0.35
-				production_factory_efficiency_gain_factor = -0.10
-			}
-		}
+}
+APDC_economic_system_traditional_agriculture_idea = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+local_resources_factor = -0.25
+research_speed_factor = -0.15
+production_speed_buildings_factor = -0.4
+industrial_capacity_factory = -0.5
+industrial_capacity_dockyard = -0.5
+APDC_eco_construction_maintenance_factor = -0.8
+APDC_eco_mil_maintenance_factor = -0.8
+APDC_eco_nav_maintenance_factor = -0.8
+APDC_eco_private_civ_expansion_factor = -0.25
+APDC_eco_private_mil_expansion_factor = -0.25
+APDC_eco_private_equipment_purchase_factor = 2.0
+}
 
-		APDC_economic_system_free_market_idea = {
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				APDC_eco_population_factor = -0.15
-				industrial_capacity_factory = 0.25
-				production_speed_buildings_factor = 0.20
-				research_speed_factor = 0.20
-				local_resources_factor = -0.20
-				production_factory_efficiency_gain_factor = 0.25
-			}
-		}
+}
+APDC_economic_system_dependent_economy_idea = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+local_resources_factor = -0.15
+research_speed_factor = -0.1
+production_speed_buildings_factor = -0.25
+industrial_capacity_factory = -0.25
+industrial_capacity_dockyard = -0.25
+APDC_eco_construction_maintenance_factor = -0.5
+APDC_eco_mil_maintenance_factor = -0.5
+APDC_eco_nav_maintenance_factor = -0.5
+APDC_eco_private_civ_expansion_factor = 0.5
+APDC_eco_private_mil_expansion_factor = 0.5
+APDC_eco_private_equipment_purchase_factor = 1.5
+}
 
-		APDC_economic_system_mixed_market_idea = {
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				APDC_eco_population_factor = -0.08
-				industrial_capacity_factory = 0.15
-				production_speed_buildings_factor = 0.15
-				research_speed_factor = 0.12
-				local_resources_factor = 0.08
-				production_factory_efficiency_gain_factor = 0.12
-			}
-		}
+}
+APDC_economic_system_free_market_idea = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+local_resources_factor = -0.05
+production_speed_buildings_factor = -0.1
+APDC_eco_construction_maintenance_factor = -0.2
+APDC_eco_mil_maintenance_factor = -0.2
+APDC_eco_nav_maintenance_factor = -0.2
+APDC_eco_private_civ_expansion_factor = 0.5
+APDC_eco_private_mil_expansion_factor = 0.5
+APDC_eco_private_acquisition_factor = 1.0
+APDC_eco_private_equipment_purchase_factor = 1.0
+}
 
-		APDC_economic_system_state_guided_idea = {
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				APDC_eco_population_factor = -0.10
-				industrial_capacity_factory = 0.20
-				production_speed_buildings_factor = 0.30
-				research_speed_factor = 0.10
-				local_resources_factor = 0.18
-				production_factory_efficiency_gain_factor = 0.08
-			}
-		}
+}
+APDC_economic_system_mixed_market_idea = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+APDC_eco_construction_maintenance_factor = -0.1
+APDC_eco_mil_maintenance_factor = -0.1
+APDC_eco_nav_maintenance_factor = -0.1
+APDC_eco_private_civ_expansion_factor = 0.15
+APDC_eco_private_mil_expansion_factor = 0.15
+APDC_eco_private_acquisition_factor = 0.25
+APDC_eco_private_equipment_purchase_factor = 0.5
+}
 
-		APDC_economic_system_state_capitalism_idea = {
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				APDC_eco_population_factor = -0.12
-				industrial_capacity_factory = 0.30
-				production_speed_buildings_factor = 0.25
-				research_speed_factor = 0.05
-				local_resources_factor = 0.25
-				production_factory_efficiency_gain_factor = 0.15
-			}
-		}
+}
+APDC_economic_system_state_guided_idea = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+research_speed_factor = 0.1
+APDC_eco_private_civ_expansion_factor = 0.25
+APDC_eco_private_mil_expansion_factor = 0.25
+}
 
-		APDC_economic_system_market_socialism_idea = {
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				APDC_eco_population_factor = -0.12
-				industrial_capacity_factory = 0.22
-				production_speed_buildings_factor = 0.18
-				research_speed_factor = 0.15
-				local_resources_factor = 0.12
-				production_factory_efficiency_gain_factor = 0.18
-			}
-		}
+}
+APDC_economic_system_state_capitalism_idea = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+APDC_eco_population_factor = 0.1
+production_speed_buildings_factor = 0.2
+APDC_eco_construction_maintenance_factor = -0.1
+APDC_eco_mil_maintenance_factor = -0.1
+APDC_eco_nav_maintenance_factor = -0.1
+APDC_eco_private_acquisition_factor = -0.25
+APDC_eco_private_equipment_purchase_factor = -0.25
+}
 
-		APDC_economic_system_decentralized_planning_idea = {
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				APDC_eco_population_factor = -0.15
-				industrial_capacity_factory = 0.18
-				production_speed_buildings_factor = 0.12
-				research_speed_factor = 0.15
-				local_resources_factor = 0.25
-				production_factory_efficiency_gain_factor = -0.08
-			}
-		}
+}
+APDC_economic_system_market_socialism_idea = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+production_speed_buildings_factor = 0.1
+research_speed_factor = 0.1
+APDC_eco_construction_maintenance_factor = 0.1
+APDC_eco_private_civ_expansion_factor = 0.15
+APDC_eco_private_mil_expansion_factor = 0.15
+APDC_eco_private_acquisition_factor = -0.5
+APDC_eco_private_equipment_purchase_factor = -0.5
+}
 
-		APDC_economic_system_central_planning_idea = {
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			modifier = {
-				APDC_eco_population_factor = -0.20
-				industrial_capacity_factory = 0.35
-				production_speed_buildings_factor = 0.35
-				research_speed_factor = -0.10
-				local_resources_factor = 0.40
-				production_factory_efficiency_gain_factor = -0.20
-			}
-		}
-	}
+}
+APDC_economic_system_decentralized_planning_idea = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+local_resources_factor = 0.05
+production_speed_buildings_factor = 0.1
+research_speed_factor = 0.1
+industrial_capacity_factory = 0.1
+industrial_capacity_dockyard = 0.1
+APDC_eco_construction_maintenance_factor = 0.1
+APDC_eco_mil_maintenance_factor = 0.1
+APDC_eco_nav_maintenance_factor = 0.1
+APDC_eco_private_acquisition_factor = -1.0
+APDC_eco_private_equipment_purchase_factor = -1.0
+}
+
+}
+APDC_economic_system_central_planning_idea = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+local_resources_factor = 0.1
+production_speed_buildings_factor = 0.2
+research_speed_factor = 0.15
+industrial_capacity_factory = 0.2
+industrial_capacity_dockyard = 0.2
+APDC_eco_construction_maintenance_factor = 0.2
+APDC_eco_mil_maintenance_factor = 0.2
+APDC_eco_nav_maintenance_factor = 0.2
+}
+
+}
+
+}
+
 }

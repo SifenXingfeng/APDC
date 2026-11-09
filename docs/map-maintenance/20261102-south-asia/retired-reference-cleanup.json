@@ -1,0 +1,85 @@
+[
+  {
+    "file": "common/countries/colors.txt",
+    "action": "remove registration/name blocks or replace only retired predicates with false",
+    "references": 2
+  },
+  {
+    "file": "common/country_tags/00_countries.txt",
+    "action": "remove registration/name blocks or replace only retired predicates with false",
+    "references": 2
+  },
+  {
+    "file": "common/country_tags/01_apdc_map_additions.txt",
+    "action": "remove registration/name blocks or replace only retired predicates with false",
+    "references": 9
+  },
+  {
+    "file": "common/factions/rules/joining_rules.txt",
+    "action": "remove registration/name blocks or replace only retired predicates with false",
+    "references": 8
+  },
+  {
+    "file": "common/names/00_names.txt",
+    "action": "remove registration/name blocks or replace only retired predicates with false",
+    "references": 11
+  },
+  {
+    "file": "common/occupation_laws/occupation_laws.txt",
+    "action": "remove registration/name blocks or replace only retired predicates with false",
+    "references": 36
+  },
+  {
+    "file": "common/script_constants/country_groups.txt",
+    "action": "remove registration/name blocks or replace only retired predicates with false",
+    "references": 4
+  },
+  {
+    "file": "common/scripted_effects/APDC_economic_system_scripted_effects.txt",
+    "action": "remove registration/name blocks or replace only retired predicates with false",
+    "references": 5
+  },
+  {
+    "file": "common/scripted_localisation/00_scripted_localisation_countries_RU_loc.txt",
+    "action": "remove registration/name blocks or replace only retired predicates with false",
+    "references": 359
+  },
+  {
+    "file": "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt",
+    "action": "remove registration/name blocks or replace only retired predicates with false",
+    "references": 824
+  },
+  {
+    "file": "common/scripted_triggers/00_scripted_triggers_FR_loc.txt",
+    "action": "remove registration/name blocks or replace only retired predicates with false",
+    "references": 16
+  },
+  {
+    "file": "common/units/names_divisions/BHU_names_divisions.txt",
+    "action": "remove retired-only division name groups",
+    "groups": 9
+  },
+  {
+    "file": "common/units/names_divisions/NEP_names_divisions.txt",
+    "action": "remove retired-only division name groups",
+    "groups": 9
+  },
+  {
+    "file": "history/general/generic_advisors.txt",
+    "action": "remove registration/name blocks or replace only retired predicates with false",
+    "references": 11
+  },
+  {
+    "file": "common/resistance_compliance_modifiers/resistance_modifiers.txt",
+    "action": "remove registration/name blocks or replace only retired predicates with false",
+    "references": 1
+  },
+  {
+    "file": "common/units/names_divisions/BHU_names_divisions.txt",
+    "action": "empty override to suppress native retired-only division groups; no groups remain"
+  },
+  {
+    "file": "common/units/names_divisions/NEP_names_divisions.txt",
+    "action": "empty override to suppress native retired-only division groups; no groups remain"
+  }
+]

@@ -1,0 +1,81 @@
+# APDC document-defined setup; no opening territory assigned.
+
+# Document synchronization 2026-10-28; unresolved fields retain previous values.
+set_politics = { ruling_party = liberalism elections_allowed = no }
+set_popularities = { communism = 0 socialism = 0 social_democracy = 0 conservatism = 0 liberalism = 100 authoritarianism = 0 dictatorship = 0 fascism = 0 fundamentalism = 0 }
+recruit_character = HJM_APDC_doc_76c19fe24ead
+recruit_character = HJM_APDC_doc_a23ecc132d0d
+recruit_character = HJM_APDC_doc_4bf36eeec3dd
+recruit_character = HJM_APDC_doc_e0a51b1c080b
+recruit_character = HJM_APDC_doc_bea27fe2848a
+recruit_character = HJM_APDC_doc_5d70a404c278
+recruit_character = HJM_APDC_doc_78cb115a7ff1
+recruit_character = HJM_APDC_doc_078e59c1c753
+recruit_character = HJM_APDC_doc_fead4ebcbad7
+promote_character = { character = HJM_APDC_doc_76c19fe24ead ideology = technocratic_communism }
+promote_character = { character = HJM_APDC_doc_a23ecc132d0d ideology = market_socialism }
+promote_character = { character = HJM_APDC_doc_4bf36eeec3dd ideology = left_agrarianism }
+promote_character = { character = HJM_APDC_doc_e0a51b1c080b ideology = christian_conservatism }
+promote_character = { character = HJM_APDC_doc_bea27fe2848a ideology = constitutional_liberalism }
+promote_character = { character = HJM_APDC_doc_5d70a404c278 ideology = non_dominant_system }
+promote_character = { character = HJM_APDC_doc_78cb115a7ff1 ideology = guided_democracy }
+promote_character = { character = HJM_APDC_doc_078e59c1c753 ideology = extreme_militarism }
+promote_character = { character = HJM_APDC_doc_fead4ebcbad7 ideology = mysticism }
+APDC_set_economic_system_free_market = yes
+APDC_add_liberalism_to_governing_coalition = yes
+set_variable = { APDC_document_party_leader_communism = token:HJM_APDC_doc_76c19fe24ead }
+set_variable = { APDC_document_party_leader_socialism = token:HJM_APDC_doc_a23ecc132d0d }
+set_variable = { APDC_document_party_leader_social_democracy = token:HJM_APDC_doc_4bf36eeec3dd }
+set_variable = { APDC_document_party_leader_conservatism = token:HJM_APDC_doc_e0a51b1c080b }
+set_variable = { APDC_document_party_leader_liberalism = token:HJM_APDC_doc_bea27fe2848a }
+set_variable = { APDC_document_party_leader_authoritarianism = token:HJM_APDC_doc_5d70a404c278 }
+set_variable = { APDC_document_party_leader_dictatorship = token:HJM_APDC_doc_78cb115a7ff1 }
+set_variable = { APDC_document_party_leader_fascism = token:HJM_APDC_doc_078e59c1c753 }
+set_variable = { APDC_document_party_leader_fundamentalism = token:HJM_APDC_doc_fead4ebcbad7 }
+
+# APDC parliament election calendar schema 1
+if = {
+limit = { has_government = communism }
+set_politics = { ruling_party = communism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = socialism }
+set_politics = { ruling_party = socialism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = social_democracy }
+set_politics = { ruling_party = social_democracy last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = liberalism }
+set_politics = { ruling_party = liberalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = conservatism }
+set_politics = { ruling_party = conservatism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = authoritarianism }
+set_politics = { ruling_party = authoritarianism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = dictatorship }
+set_politics = { ruling_party = dictatorship last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = fascism }
+set_politics = { ruling_party = fascism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}
+if = {
+limit = { has_government = fundamentalism }
+set_politics = { ruling_party = fundamentalism last_election = "2060.1.1" election_frequency = 24 elections_allowed = no }
+
+}

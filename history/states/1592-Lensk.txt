@@ -1,0 +1,21 @@
+state={
+	id=1592
+	name="STATE_1592"
+	provinces={
+		5328 5391 5450 7726 10557 12608 
+	}
+	manpower=46261
+	buildings_max_level_factor=1
+	state_category=wasteland
+	local_supplies=0
+	history = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+		add_extra_state_shared_building_slots = 1
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	resources = {  }
+}

@@ -1,0 +1,288 @@
+ideas = {
+hidden_ideas = {
+apdc_parl_law_doll_rights_1 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+apdc_parl_doll_research_factor = -0.3
+production_speed_buildings_factor = -0.2
+conscription_factor = -0.1
+stability_factor = 0.15
+}
+
+}
+apdc_parl_law_doll_rights_2 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+apdc_parl_doll_research_factor = -0.1
+production_speed_buildings_factor = -0.1
+conscription_factor = -0.02
+stability_factor = 0.1
+}
+
+}
+apdc_parl_law_doll_rights_3 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+apdc_parl_doll_research_factor = 0.05
+production_speed_buildings_factor = 0.05
+stability_factor = 0.05
+}
+
+}
+apdc_parl_law_doll_rights_4 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+apdc_parl_doll_research_factor = 0.1
+conscription_factor = 0.02
+production_speed_buildings_factor = 0.05
+stability_factor = -0.05
+}
+
+}
+apdc_parl_law_doll_rights_5 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+apdc_parl_doll_research_factor = 0.15
+conscription_factor = 0.05
+production_speed_buildings_factor = 0.1
+stability_factor = -0.1
+}
+
+}
+apdc_parl_law_doll_rights_6 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+apdc_parl_doll_research_factor = 0.2
+conscription_factor = 0.1
+production_speed_buildings_factor = 0.15
+stability_factor = -0.15
+}
+
+}
+apdc_parl_law_doll_rights_7 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+apdc_parl_doll_research_factor = 0.3
+conscription_factor = 0.2
+production_speed_buildings_factor = 0.2
+stability_factor = -0.2
+}
+
+}
+apdc_parl_law_infected_rights_1 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+monthly_population = -0.1
+stability_factor = 0.1
+war_support_factor = -0.05
+political_power_gain = -0.4
+}
+
+}
+apdc_parl_law_infected_rights_2 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+monthly_population = -0.05
+stability_factor = 0.05
+war_support_factor = -0.02
+political_power_gain = -0.2
+}
+
+}
+apdc_parl_law_infected_rights_3 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+stability_factor = 0.02
+political_power_gain = -0.1
+}
+
+}
+apdc_parl_law_infected_rights_4 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+monthly_population = 0.05
+stability_factor = -0.05
+political_power_gain = 0.1
+}
+
+}
+apdc_parl_law_infected_rights_5 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+monthly_population = 0.1
+stability_factor = -0.1
+political_power_gain = 0.2
+}
+
+}
+apdc_parl_law_infected_rights_6 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+monthly_population = 0.15
+stability_factor = 0.1
+APDC_eco_population_factor = 0.1
+political_power_gain = -0.2
+}
+
+}
+apdc_parl_law_women_rights_1 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+monthly_population = 0.15
+stability_factor = 0.025
+industrial_capacity_factory = -0.05
+industrial_capacity_dockyard = -0.05
+APDC_eco_society_weekly = -0.01
+}
+
+}
+apdc_parl_law_women_rights_2 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+monthly_population = 0.05
+}
+
+}
+apdc_parl_law_women_rights_3 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+monthly_population = -0.05
+stability_factor = -0.025
+industrial_capacity_factory = 0.05
+industrial_capacity_dockyard = 0.05
+APDC_eco_society_weekly = 0.01
+}
+
+}
+apdc_parl_law_women_rights_4 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+monthly_population = -0.15
+stability_factor = -0.05
+industrial_capacity_factory = 0.1
+industrial_capacity_dockyard = 0.1
+}
+
+}
+apdc_parl_law_women_rights_5 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+monthly_population = -0.25
+stability_factor = -0.075
+industrial_capacity_factory = 0.15
+industrial_capacity_dockyard = 0.15
+APDC_eco_society_weekly = -0.01
+}
+
+}
+apdc_parl_law_relic_technology_1 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+special_project_speed_factor = -0.05
+stability_factor = 0.05
+political_power_gain = 0.5
+}
+
+}
+apdc_parl_law_relic_technology_2 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+apdc_parl_relic_project_factor = -0.5
+political_power_gain = 0.5
+}
+
+}
+apdc_parl_law_relic_technology_3 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+apdc_parl_relic_project_factor = -0.25
+}
+
+}
+apdc_parl_law_relic_technology_4 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+special_project_speed_factor = 0.05
+stability_factor = -0.1
+APDC_eco_science_weekly = 0.01
+}
+
+}
+apdc_parl_law_relic_technology_5 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+apdc_parl_relic_project_factor = 0.5
+special_project_speed_factor = 0.1
+research_speed_factor = 0.05
+monthly_population = -0.2
+stability_factor = -0.25
+stability_weekly = -0.05
+APDC_eco_science_weekly = 0.02
+}
+
+}
+apdc_parl_law_relic_technology_6 = {
+allowed = { always = no }
+allowed_civil_war = { always = yes }
+removal_cost = -1
+modifier = {
+apdc_parl_relic_project_factor = 1.0
+special_project_speed_factor = 0.25
+research_speed_factor = 0.1
+monthly_population = 0.02
+stability_factor = -0.25
+stability_weekly = -0.1
+APDC_eco_science_weekly = 0.04
+}
+
+}
+
+}
+
+}

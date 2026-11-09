@@ -1,0 +1,43 @@
+state={
+	id=424
+	name="STATE_424"
+	resources={ coal = 3 }
+	provinces={
+		1344 1430 4321 4365 4414 7310 10152 10296 10756 10897 12180 12779 16095 16096 18958 18997 19004 
+	}
+	manpower=14129416
+	buildings_max_level_factor=1
+	state_category=rural
+	local_supplies=0
+	history = {
+		owner = HYD
+		controller = HYD
+		add_core_of = HYD
+		add_core_of = IPL
+		add_core_of = RAJ
+
+		
+		
+		
+		victory_points = { 1344 3 }
+		victory_points = { 1430 3 }
+		victory_points = { 4321 5 }
+		victory_points = { 4365 1 }
+		victory_points = { 4414 1 }
+		victory_points = { 7310 2 }
+		victory_points = { 10152 5 }
+		victory_points = { 10296 1 }
+		victory_points = { 10756 3 }
+		victory_points = { 10897 2 }
+		victory_points = { 12180 1 }
+		victory_points = { 12779 3 }
+		victory_points = { 16095 3 }
+		victory_points = { 16096 3 }
+		victory_points = { 18958 2 }
+		victory_points = { 19004 2 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+}

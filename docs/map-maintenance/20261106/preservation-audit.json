@@ -1,0 +1,1544 @@
+{
+  "passed": true,
+  "files_before": 35002,
+  "files_after": 35051,
+  "changed_or_added": [
+    {
+      "file": "common/scripted_effects/APDC_cold_war_view.txt",
+      "before": "07b78ded646eac3c58fdcd511cc351995a5dbee946f8d08c4bf28036f789cdef",
+      "after": "2ba395e3ca91f912c84ac50f47651eaed607f42380b9023bb2774abb255c608b"
+    },
+    {
+      "file": "common/scripted_guis/APDC_cold_war.txt",
+      "before": "2341bdf5d0512b6afc1ba382b24ca3518efdc19b0ecd158c7e0c02c3fc141bbe",
+      "after": "735eb7f454369929ec44a2fa7450c028317e7aea77a695f52bd7d4f1b0cf60e4"
+    },
+    {
+      "file": "common/scripted_triggers/GER_scripted_triggers.txt",
+      "before": "2f96ff142d1de1441498c8dc3d5a972a854b5b8a6ff0299c94481503f069c9d8",
+      "after": "8a7bea5afe65c020df9c7780768abeddd95b700d15f7da196c9cf251827bdfcf"
+    },
+    {
+      "file": "common/synchronized_dynamic_tokens/APDC_cold_war.txt",
+      "before": "2b3c23f421cb3b4550560e8fb2d57a181e098b0592f8ab02e84f6c4124f11ec9",
+      "after": "8c972627c105eed0ad67c1a99dbc68284b1071f933055cf9ae03eeac55e04a9e"
+    },
+    {
+      "file": "docs/cold-war/20261024/geometry.json",
+      "before": "f38cb77e3ad54d6c29488b7ce37833c1dc92883e59c934b0ed3532b27db78626",
+      "after": "28c924a199ee974aa0d4bed07e202662812e0111c76aad1365a6eeaa09fb6e01"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/actual-building-transfers.json",
+      "before": null,
+      "after": "eb45cd36fa6e19bcd478fcfac667ab01707e2cbee4a99d24e9f74a4e882b0df7"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/additional-reference-changes.json",
+      "before": null,
+      "after": "bf56443501c212acc25f9273bd1dd2f482a957d3d9ec0ee5f266c5aeb568f453"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/air-oob-audit.json",
+      "before": null,
+      "after": "14e7569be07864a5b2e87eaa58ad42dfab7efa2e0361646dd241f1ebe21059f8"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/allocation-totals.json",
+      "before": null,
+      "after": "7a59f9734aec3e7e70d9ed8b7fb3b67dddc4c468735a746e128c8c0cf47bb17a"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/allocation.json",
+      "before": null,
+      "after": "bf5b5c1138d2b6321d33fa0a55df4975f656a44c8887b1242898487068ebe088"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/city-review.json",
+      "before": null,
+      "after": "f69b9c392fe8a514b45cdd9af97d5222631de3473712dbfd78d0ac4efffb8d19"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/cold-war-refresh.json",
+      "before": null,
+      "after": "655832d3f99a1fffc9be3b53258668b5db0dcb0656e0d3b74c067b70bac3ce56"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/economy-reverse-audit.json",
+      "before": null,
+      "after": "cae21a6db682e2b09915023e65edb4dd2167668b7d33457caa80d073a3fc094a"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/editor-localisation-audit.json",
+      "before": null,
+      "after": "22a8756ee0d197690bc8bdc9d52f8354b1b5f27af250e04540821bd9df4c884b"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/extended-static-audit.json",
+      "before": null,
+      "after": "19e05f5278a24bee18fb4f353145dbdc01e38be7e5d2df5dcd87df2d6c25631a"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/geographic-reference-changes.json",
+      "before": null,
+      "after": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/geographic-reference-review.json",
+      "before": null,
+      "after": "294da21b7c64c0fb151814d128d939d214ac552d090216b8102c5bed9401e6ab"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/localisation-changes.json",
+      "before": null,
+      "after": "211a848db2b78cbc094e852a90b8f5036d2d170ada9b7e62008e5996a792ece2"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/localisation-reference-audit.json",
+      "before": null,
+      "after": "222bcba6c6469995096a7dcad9f643b98106263c2ee41bfb8f94302f1e8b457b"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/map-checkpoint.zip",
+      "before": null,
+      "after": "a704caf39f7700774924fe1f33dd137b6ab1ace58e2b6e3a2360c302542a9cf6"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/model-changes.json",
+      "before": null,
+      "after": "31026b915d086c37362bd8eb7dd3adc42fcb6391db7b904cce20e968166219f5"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/name-decisions.json",
+      "before": null,
+      "after": "16725a139e871042017602cf8a26305aec687e76a31d69e4164045d2498b93ed"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/plan.json",
+      "before": null,
+      "after": "c9ad2831e1915c380e946b0adce164c96604db85171c023c79b9df503a1b89f2"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/political-relations.json",
+      "before": null,
+      "after": "822032d65e69075863af1a1b9efcb91a55433859e19946ee9c36cfab7857e0de"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/README.md",
+      "before": null,
+      "after": "860d7a60fa4fe52c96766b6e952e7951c8801f23b2a1b1a7b6e5c0e528b7488d"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/renamed-path-reference-audit.json",
+      "before": null,
+      "after": "7b29797d30971a9833d0e91c0201f935a1fa4b8120e5f724e7a8a01cd2297741"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/renames.json",
+      "before": null,
+      "after": "19a5679a486f43e0fd6eba1cdfe48ea2337f273b8a9dde8f19b26f39072be119"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/runtime-audit.json",
+      "before": null,
+      "after": "4cb6e703856d3438104609b7355fb4aefbcd5c428f8c1aa3f762b6b35585f796"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/runtime-BRM-detail.png",
+      "before": null,
+      "after": "05a03b709fef0c6a4b0621fd78adf01c0c7533576f5b4d60d49f2176fc415f3d"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/runtime-preparation.json",
+      "before": null,
+      "after": "9122cc13d3ae26be7a916ee5e76a76c0a9d0f363c6f553f9b52286c2ad56e4a4"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/runtime-visual-captures.json",
+      "before": null,
+      "after": "abd48f8a32dd9dfafc4514f7af351909980edc9f4a45cca4475fcf559aeec93b"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/runtime-world-return.png",
+      "before": null,
+      "after": "804b199dfd7bcfdde02b7ff8b73490f7736777d018e1cc3190855e8b78ad235a"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/runtime-world.png",
+      "before": null,
+      "after": "3f45ff2758f8b122e1b5b8462ad429f24beee2ee22c24708f49725ceaedccd86"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/state-changes.json",
+      "before": null,
+      "after": "6053f005c9a98f0048cfb15f751b5a22ca4de067ef257fb589f06f5a309ed9c3"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/state-hashes.json",
+      "before": null,
+      "after": "09420a8f682b3e3fa70953e6b24d2e2007e550d511fdf7e159eafd03218f37ea"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/state-index.json",
+      "before": null,
+      "after": "7146cdf97ddeb6f5df532277344cfdb61c372d2f5b1c24083be9e6489ed00110"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/states-checkpoint.zip",
+      "before": null,
+      "after": "1fa313b753e628a1a498a5e10179b6c3259a082356f5ed1ef67612f0fb4868bc"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/static-audit.json",
+      "before": null,
+      "after": "dad77ac6edf0df17f7e9fa9dbbcac5d690084b49fe428cfcb36842a7908fc95a"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/strategic-repairs.json",
+      "before": null,
+      "after": "8081aeecd1097f79604d37a49c4110d415f008cd1b41a95c064b854e14c57173"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/victory-point-transfers.json",
+      "before": null,
+      "after": "b6e820d71e22c652bab162f8896da296aaf95974949142579ba16689d470dee4"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/visual-asset-audit.json",
+      "before": null,
+      "after": "b252158a33a3d726044315e3d10ecb2879a394225feb35de4b9c08f21f21e6be"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/visual-review.json",
+      "before": null,
+      "after": "5c2319569def6e58cd5ff2dd50953e02868e16c6748f45cd0e570b447177c50c"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/world-after.png",
+      "before": null,
+      "after": "230c7a85f5313391a5b0e710b79192f1be8466284ad43f9b5219d1627d9585f0"
+    },
+    {
+      "file": "docs/map-maintenance/20261106/world-before.png",
+      "before": null,
+      "after": "408a940f5029a23d8062a725c05802f43421ac67907c2344c5b7619bedbf2434"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b152.png",
+      "before": "c513f24d04b96513c92fc5f0ee084c9634f613349cae63068f391ace0692fbeb",
+      "after": "6549a6ba1f10e4956860d685e84b2926e2c99b3eebea05e3bfb86caf58d1eaaa"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b154.png",
+      "before": "8b356024cb8bbf0772d49df456b48b25ec13e9d6de61c3b673dd9906e3222e37",
+      "after": "b1cf2ee50b6f8572227feeb6a5316f3b71f3d5d57f7a128bfae2af7d6b08586c"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b155.png",
+      "before": "3a69ef2c5d37cab913a6886f90276b17006648455847ada398a652cf39996bed",
+      "after": "1f9b3eef9044198a94b0f73b1b4aaaec136a6269ed9473c3ca38a369fc39fb0b"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2087.png",
+      "before": "cbbe33555354d68893daea0140d6940fc0e890d14505847f6eda6aaebb2687a0",
+      "after": "6241fa8a64e3a8305cf1862c1c6439387a9f6d0984dfb2393bb48c8853ca8851"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2092.png",
+      "before": "c738b4db5b47fa66bd5345e1edad9294b6c229fcc856d3035a75292fbc0dba3a",
+      "after": "6f86c15864bb420c887cbec4ad36ccea9bb38e192a95ad1a8d20512c001d89a8"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2093.png",
+      "before": "1706a166be3829a41af4892a7d855bbd2f5d8b4c7a42f9245c7c491dbda06795",
+      "after": "3fe622c274f45cbffd96fe716575c1fb072a6d26730f09f0a02a2e2426cc2fbe"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2096.png",
+      "before": "2d61de7770f14e170dbce46cea528218260531419b6dcf8eb3fe66a4c7160f9a",
+      "after": "87791427e847c8729b41ccf441a862cc648d59733f1a70163f18142ae84a1af7"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2099.png",
+      "before": "c7dd23e1a228c7186e40cb4b90d4c6cfd429865c8dc0649386a50da2e20b2416",
+      "after": "4b22ab17adf21aa2b4af3657a8ec5b234f4049cff56afc103c82b94f37360490"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2180.png",
+      "before": "8abeff8af7929e9e3c2fb52d7db550ce479d9707f12ca4e825dfeebb35a9fd24",
+      "after": "91dfa4d0d92e0fc446269aa03f6e3e75e0cbf16f52f029c4118c6cf205d68687"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2182.png",
+      "before": "dd490572f49e11869670229020e9b1e36824df20fb80345499a078a2c3392bca",
+      "after": "18b0b178106a4ece25307c318148beb619e9de78597315f0c2c563dbdbfbccbf"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2184.png",
+      "before": "3a4391f2f9a26b646a08c595fdc1f51779eb87ccd8c4716bc5217cebe9ed6289",
+      "after": "59345a0dc75676565e1ef2b2d91b606992f6022fc0cd1b08cfb3fab1e961b216"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2259.png",
+      "before": "2c5de8cd47238e9d5e290786b3eebb4648decd2a8791c758807674fb41116e23",
+      "after": "4fbd6f257e31505be8b7d855b51ea520428166619fe417f5168e257d24914439"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2400.png",
+      "before": "3fe622c274f45cbffd96fe716575c1fb072a6d26730f09f0a02a2e2426cc2fbe",
+      "after": "01923f1dc5048451edb347dd999bb31671dd89d957abe9d6c49993526347513a"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2424.png",
+      "before": "9f52e7606db028164ac596670884eae5bac96af3c4347ee348a97ebb39411513",
+      "after": "96d1689ca55ad505d46e19a03d04f96c2f4c731b066177d2716e198e41a86979"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2425.png",
+      "before": "38970278e2c30c98a5a92d2d289c808aaf15155e213c6044cdb506be45face9d",
+      "after": "1ddac77a0eed2acfd93dfaf48b2c49a5baa5aa61dab4fac3ddbc87960022e09b"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2427.png",
+      "before": "185b245ba8109712b8916a9e5f554f1e7514ab9494604b1bf101bf224da339df",
+      "after": "7b2ab705b3a78aa619e1eea022ee55888b3f324f03537374db3cfb26d811354b"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2428.png",
+      "before": "0a8e63f8eea62bf7b4d204a3eacc44b919e6a95640c52cb5e4d4f674de8f274c",
+      "after": "d87a04875c1d6040a6ccc7f9caddead3e1a96c88666097b915242e6516d2551b"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2438.png",
+      "before": "8074deb27401d87d4d330523566aea1efb724ac4aa911385a11ff5e15d6f583e",
+      "after": "e1dc00bb5368a4ea1bb29ce0f852ffa0d062b715a0f79b96d32c5c691698168c"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2439.png",
+      "before": "1f22644796011230afdd1e0a05fe083d64bcbc12c9fff27ff72d66928548fdde",
+      "after": "606e5c6b29f37c079e005720dcf5aa40cbeba38c0f5b6711d754424bccf67fa2"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2440.png",
+      "before": "1e6b7a0f0b6f481557681dc0e6a0ce9596b18a5131a5a177e7b3661e29c5f8bd",
+      "after": "061d004db263d9610a4c2603729525e38d57d305a6e69eeb75a47823ce62bf18"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2865.png",
+      "before": "41512d6795f0851f7992db9c879e3ccf3b3420bb8490898604132e9b3d606cbc",
+      "after": "aecb82744a6addc3c384d58ee76610ce5a7368e950a40479264999b104d19467"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2940.png",
+      "before": "2173fa820009c9f71c5e8cbb606e3138364750467e4b41bf5ee1aba36104777c",
+      "after": "6b29257b70e55df21d0229517b6beefc7b2120bdc6f62f67ab71b41cfb140778"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2948.png",
+      "before": "cd6972b664cb27e9a50209cd3fee4e76174ef8b4e2e6853edc875cde8f65e7fd",
+      "after": "5df9c8d390709dfeec0054614797a12f10d2ff18d24ec5d6a932fc0d0edb3134"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2949.png",
+      "before": "765c765ebe3cf371f11e8c8ab8cabdd0cba257dc17fdeaad32455110cd97e54b",
+      "after": "25da762cc252d77b1439134f02fac29d945366e62758a2502bf41ecd29eb992d"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b2961.png",
+      "before": "569e7d8120227b508d8cd8c78ea412b820f3f79792fabe0a80d820b99f53f0c6",
+      "after": "68bfef294646fc05a225bb1c787df453d085fca3db7f3d6357ff88ce8c41d255"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b3685.png",
+      "before": "fdec921a368402b6fab3e32169319e92ec2fe76189176ce38b67497bc2fb8dcf",
+      "after": "6dab9fa9d36f059a94d84639a3a8e99f3981a47ac1b9c71c8ef1645a9a49dcc2"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b3815.png",
+      "before": "fc1797e399a76153e6ec63eb6fd583231ee5903f207af9634636b57c6431f016",
+      "after": "21f42c180507ea8b4c653020b19ccdf9d06639b2259b2cc604eef5803520cf1f"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b3816.png",
+      "before": "97ace1b31fcba27d5eb58b8db71ee40172b2a3d90bebbefbc9dc25a18b235b02",
+      "after": "6f81f887957949e0dc9f2186f8a408ff0b6ac39e98c295e940b2a6df3f87d9f0"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b3820.png",
+      "before": "de68318f73a540cfd47df955941e9eb9ab1bc0e565de02647c5d24138c19b0d1",
+      "after": "d069bbcfe1888e68f435badd5bb89116db6296d4b1aec6a666e27f0f4dbe6cfd"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b3837.png",
+      "before": "3aa1f0174535b381519cd77077c5b0f50a892e5c9bb8c039281c7a8af1959ea3",
+      "after": "4684c956917b33018e009d014eef79b6dea43473387c0e66e54fb2acbb6fd201"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b3838.png",
+      "before": "b0f239c26a7d8fb4aff3d5e921205528c59998450c74888f2e58f72522fa6640",
+      "after": "98c6c2111a9eef412aa83014e829b3e1241ebfccebce431449e7cb18a5fb6c02"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b3840.png",
+      "before": "48c07fedfd21f1fe61cde61874700f30de03aa2b6f68b33a258619d70fe77530",
+      "after": "2ab93979bbfa0d1f3b7ec51612b7a254d2c6e7334c2292e56302ad6ee5f3c986"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b3848.png",
+      "before": "b2dd921df7d9d0193f6c5a90563546a2a61cdf78e0acf4a555f67ffdf75e8301",
+      "after": "2600ad6584840fce2176a59ed966d06a8e35a0338dbebd4e8ef7ae8536d0157c"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b3857.png",
+      "before": "e8f09943db13aa163ab4f5ec3a4319a8c4a5dca0f0cf7c8e73be676a5476b031",
+      "after": "77c99f739ad5fefa81bd90368bd93001290b1b6e0279e57d68613b5ec586811e"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b3859.png",
+      "before": "cf44f08b9bae6f0d1642c0264deeea81d169271f4ca8bb12e582ec3b7c3cff98",
+      "after": "c71352f4439234afddb1f181a4895b5b69c27f7e43c324c27a5798f781e5009d"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b3860.png",
+      "before": null,
+      "after": "c1109cf699edc619c3d63ac08dd17eaefc10f1a643e3e50b20b0c2e0e361dd88"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b3861.png",
+      "before": null,
+      "after": "765c765ebe3cf371f11e8c8ab8cabdd0cba257dc17fdeaad32455110cd97e54b"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b488.png",
+      "before": "97c769e05a5a3a116f73fe7512b7f904e096754571f14e750dde58229ced26eb",
+      "after": "7c3340a48bc1899d04b115945630ec7cf7528ca0341dfb503da436f198d49331"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b489.png",
+      "before": "b2d41491e4cb89596081bfbf764c0164c84584546f7254805813efd908d7eaf9",
+      "after": "eed08b1fdc6ef9b20e90ae71e8a1569893932f977f0ad57d40b9f675fd47d5e9"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b490.png",
+      "before": "2fbcc128d5c16df91075555793199772d405c446dc1371d30d2c0cbb8c955f71",
+      "after": "dfb0572723b90c9bbdff300bc0632a173fcc691d12f0f13ba72032adf72b97b3"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b491.png",
+      "before": "68baa7d3bd54d82fc889b716c25aefd6123e8676adb2f58de1623e3075d5b250",
+      "after": "f0bfdc7f33beb7d41f3fa92a6c724ea00f60cbdf1e3cde5ab456623632f63627"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b492.png",
+      "before": "3a402d0f95099a439a65668ea25e76dc3fc15756337a78584ec18ef8fddd3726",
+      "after": "e8389ab85c5406703e50d591b58c1e780e2c1b27d4ce8b9b5fcb6261836b1642"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b494.png",
+      "before": "ec7832734ed668357effba6d59f63b4fa063b8f431f875288b22ea44dc3fcb94",
+      "after": "51719b30a5445fc5029a2dca4e974bc1a5a6fe1eb9fe895a040470fb7280f5a8"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b500.png",
+      "before": "7c3340a48bc1899d04b115945630ec7cf7528ca0341dfb503da436f198d49331",
+      "after": "52d753399eca5b1bbb131fa27d3901fda608203369b816c00889d50c11b08120"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b681.png",
+      "before": "d4d571de097af8ab9c3614a6a1cb7fd5ca91e17e69a1b1c1e4582121bb16421e",
+      "after": "6e9d77a4a33f612dd5bbcf7623468fd6536dd38ee07821e8656fc0557eeca4f1"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b682.png",
+      "before": "14eafb4c4f9f8d2f8f01c76cf22c2b54660ec8d8996b5b939e51545349a137d2",
+      "after": "5544419dfdfa7173e25ceedb7bc96c75aee04e28167fa57f7c169f25305b9040"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/b691.png",
+      "before": "6040c6a5fea62f8ee1c1c57d45821e2e9cd94c8cec3250a739a20844f6807521",
+      "after": "a9297830b7da6f078e9f70a40a9d47d8fc77d0a1cf4f542177823f464e10c0c1"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s1039_6.png",
+      "before": "2e93e71473ef7ad74f8b877e2beb4002add20492e3a9257e7ac6468e628079aa",
+      "after": "5dba1d68f58eac972aa34843fe0e5344ede5b606eddac0040d45d51468fa7ca4"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s1146_5.png",
+      "before": "30e759fed59bbeed02856f614e102008010e4af97fc670a6e62083746fa74bda",
+      "after": "2c200e6accf39521aefb49c1747a3cf1a1b13b74b47505bc50771cc7fb40b1cf"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s1147_5.png",
+      "before": "819ddb673be54324d6b04278f8aabf477c8020e59c695c1c47384507f65353c8",
+      "after": "0e47e05ef6700308642be1748f676617af54dfdec6e9159e6e82d705803331f5"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s1148_5.png",
+      "before": "e67e4728b0a46b1f6898de83d987195a488dfee71bfce71f33230ba9614f0222",
+      "after": "faa6e4480765947583bf5dfa67fdc54c2b76a0241c22a5a0c4f987ea0fc8f935"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s1150_6.png",
+      "before": "be369db864b48a890cb0bb7be7d0e846a2df296a3b981ae2b390b022365d3a88",
+      "after": "4284c63d2096a4e3d0002658e7fd7ab73fb656f5f8e067a52f443fbc8f11267d"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s1304_4.png",
+      "before": "e54771c26d9a23777848ff13e39eb11a98d91bc7bdd2042814ab597717fbbd5b",
+      "after": "871bf35584689868e81cdc034613098d463dcad93d1f2ac0043eeb9f934041b4"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s147_4.png",
+      "before": "6d18624fcc3f27d847330e53e8cbcbcff1e0a9b04279f14f7fa6adc6fae6cb33",
+      "after": "2fffe80a0c147e6eb116bcd862f28b2f90bf8c1bf7ce0c954fdf25492d1c77b4"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s1637_5.png",
+      "before": "8e69fe722c5ae06c9707c97406fb996a9ec383c54b5fce27173e793033104432",
+      "after": "94cbe78fe7df006c58f94d6fc505b5e5d0df9b226dcb3bb43eb6b43ea0a0e6c3"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s1640_5.png",
+      "before": "e41cd9e84ca9328b35a9c70b91817883e5c25f81f687f5f12bb1019335bba3a3",
+      "after": "687c0c5092b0554ad1dfc2977ec381aba61423b2a97ee9e232f61747caa1e827"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s1645_6.png",
+      "before": null,
+      "after": "b187f558d1b2a940af1fa54c53aab9ebc4cfb7089d2b15f93008cb8a60d7a68c"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s213_4.png",
+      "before": "2362c94fc240efe562b958bb0074a80c321aab7f5765494c0fcf4db75371e177",
+      "after": "0d7f0c01ad8767ff892e09a86b4643b5d19ea4f080ca59d26c84a1d91c3eab71"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s215_4.png",
+      "before": "b589ccf91bdc6233e0665b214b7135f2be7c34075ab43c2b4275ca12bf244e7d",
+      "after": "5af38ee1df37ae1a0fb38515795974836ded09716e6022466abe7d41edcf915a"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s40_5.png",
+      "before": "09ec23602a06b7fdc4cd751c89e6401082ab1be7e11faf961cacb2e1870584b8",
+      "after": "819d2e100f2bf844169260e39d15298096561ed92025bd4815fa9c9f1896e713"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s588_5.png",
+      "before": "41ea3d148320cb5a8a30abea6b4a5b799e9e7383e22c56c541b3c7614cf98896",
+      "after": "6bac5db66122ceb0a5026b91b5f6228d5f7295b901c0624e6e60afa1783a9f1b"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s609_6.png",
+      "before": "3db3591ae46a2a648b5632d94dc0ae4c3a3ecc3c16700f2c24c73e76fa96f198",
+      "after": "3d15bbb10c0c085198528fb35eec2cc0d636177ff598cfc7178a53ea73ab876a"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s654_5.png",
+      "before": "d7f85fd964219c30e0a47d4fa9149da99051695239d65a2c016d382f784e596e",
+      "after": "9fa61e68afd6e42212597cf0a1628089f69cd91a8b28dbcb27ecc89699bd2583"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s722_4.png",
+      "before": "1a1d2f8e35a21bd4d9958ef7fd872d3200982af15b657ba39d889a11acb178de",
+      "after": "69192263789c739e49f0fef91e11d7af4207187f44fbe4c47c096aa63a744b4e"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s732_5.png",
+      "before": "13d7114e4c2d9d0522fd8f47204015d6fc4b7d82d4a6ef28af6792c11d897e50",
+      "after": "44defef8387356dfd7d489c87cdc5e4489db6d66e0906d31d3fb520737203625"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s742_5.png",
+      "before": "f074ef77c406fdb1e88c9a250682153b7ff8264470ecf5bb46a790599d46de95",
+      "after": "eb08d211515e14438bbc4587c39ca0002d353b2bc60bf070e71922ce3a756991"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s998_6.png",
+      "before": "db79a645aefd7471f4fab58cb1391683b6e3d97792cdea7baa415b91f9a19326",
+      "after": "5807b047feffadc97e684560b6a5a392fa43e04770b23b7bc90b56193e664f28"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/s999_6.png",
+      "before": "613024322767a8ef232439907fe47a3214a5c4ff319aa62efe23b4af869632ae",
+      "after": "41634eb6ba32c1c6c090d49d3eb1365efb16474ca81560b97dddec08907bd86b"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_1092.png",
+      "before": "0d5961b57a229836a75e2810f446934d7cdb6a4c525eaf69e0e5b48bf9a2473a",
+      "after": "e5c2168382a25f46dd75dffa75687b6eb569ae9dd35654a7b072c514aa033de6"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_1093.png",
+      "before": "58fdde05befc60d42a62db032e80d8b5111a31d4b0822c203c75e923682becd1",
+      "after": "2fe4490a8c986f3c42a3d8e736daacab1c7135cae7d8a6c8473206798133322d"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_1134.png",
+      "before": "193598867435449b814071ee19eda8250971bd2d10c4054fae353e4ac2b74cb7",
+      "after": "fc498527ab9f56a559b1b9cc27abe2ee5ea07b3ef5b12f289223a1f2dc3ed04e"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_1256.png",
+      "before": "c67714302f3afac77fe9ffec5e14392e88fa0fa459038cb826adea5d4f967752",
+      "after": "a5b748a6baf7996474c418f69ca5805e6b6e73cd689c442549444f4e444d8b0c"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_1257.png",
+      "before": "7946f4f0b030892ad2d0bee277b9081df8f0c2ac5cfe6cb13faf3874b4074ec5",
+      "after": "685f304e7422f453ec6d7ad3e2979a3cc7a5d512aab4a8beebb26d141aa0d6e3"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_1258.png",
+      "before": "32df37bf45124a4491a85990dafedd100e2f8382016c663d61344d59a8198f10",
+      "after": "cf60b4da1b7300bbccb9f411f557797a1d8d4fd727d1f3cb2ad9df5673cb9d2c"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_1261.png",
+      "before": "2dedff867c088517af41b30ce5c07e212bc7de95bfd5f4a5434275c57b9360f9",
+      "after": "64d6879859af67f3def41ac7cbd3c2f40ab147465aa620a4b7bac0ccb6c273ba"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_1427.png",
+      "before": "41a318de7faff0267d2fdff614e74b7c6bce830fae2aaed8911eb4c8e5709151",
+      "after": "0bc544fd74b64d8e5ba943536c443110f687478e26a0c901dfcc0d484521a448"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_158.png",
+      "before": "697c8bee8315d9134bfce4cb961d28574f0677684fffcde1e78ec3bf42905240",
+      "after": "e8d02106bd2ba60977124a0e7450a315e3f0abfe32acac4ad38dc3d1c23d853f"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_1785.png",
+      "before": "e624a24745ba417f9a389233214d9305132eaa1f26ef9867c53b9b398a712252",
+      "after": "af79aaff6191adb787f7c51961b9a2d5b32f13d3a7b01ceec243fd3d9c1600a7"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_1788.png",
+      "before": "f6ffe595dede706af70b174259b3a8b0fdcefeb07413db0a39b6c97e29122c32",
+      "after": "144c9fd408663bce997af5ba945fe98e1a63d4b4db15b18d6cc6da7daad616d2"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_1794.png",
+      "before": null,
+      "after": "8fa5a3f17992fd3b8df74e9ccba5e3a9744003388baf5c19b76c0d09d94e8760"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_225.png",
+      "before": "56740a244b71b70d1fcc1d24f0a65d290a9850917cbdd8b615cc1b994f894068",
+      "after": "22953edff1ef83c7f84fb6f1349f0179d4e8c495ff9766a1eb544aed52eb0d75"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_228.png",
+      "before": "090f1b09ac112850806f7abd321c841751edf8143026d3193e660fd499545523",
+      "after": "ab4839e3455cdadf50a60e57cc78b9c026eb2ae9ffdc3cc839423bcc2ca46d0b"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_45.png",
+      "before": "c10cf9d6ef3906887d876eef9a0c0f2b0c9cde4aa35a46a8a08d37b2fbb5d9d3",
+      "after": "ff7c8608cbdbec62e298db277b78a8c203ad0d7d813574a2e27e08d254719695"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_650.png",
+      "before": "e1df0030803b2cef8511a5c334e2247f4e5350d49adff938c3ad9a16209eaced",
+      "after": "cdee5a708f18ebf07af72d44051679e663f8739bfb2cd317352f115adbad92ca"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_671.png",
+      "before": "d721db5592a2a0df499e0756a44b61c67735e5408cd7e33014c6edaeaba8cf2c",
+      "after": "04fde607acf007a2fcc4156e64f84a5e4b8379d41d9bb816feacc124021619d6"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_721.png",
+      "before": "81dbc16fd878602c14d2714b2829d8284d92a1270ede306d608cdea0fe6020d8",
+      "after": "478e81d1e261c1d22ea12addfdc16089d2e116d2abf90ec07b6d10d3a238f498"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_797.png",
+      "before": "b397cbed42043a49f7f907cfabf464f744e9f3a7113363ad5314f31642cc269d",
+      "after": "d0325cf890e8b7d15839a1492626dc72cb40ad371f676f79656a6d6fd455f52d"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_807.png",
+      "before": "0c55d40e1a953b397785c659cce5bf902b0eb41b2a2cb2e839892cf94cf2ed6f",
+      "after": "263dcfbc77bae3cbc5672fce470d66ee97d691d8dfb041362a65aeb099b7b81e"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_817.png",
+      "before": "ffea1c40a9cf7f7555dd52ae207553ad95ae9ac7e5287364824100852d237c4c",
+      "after": "50621a6e61e6edf2d4c89bc1d916a7e1dc84068d97b450f63fc85ab5f55b6f7e"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b152.png",
+      "before": "53637521b18eb537d08ae7c9c0aa0a2dbec46c7a9e180eba55a9cb9df791ce2d",
+      "after": "481dcfb402f9b5776d98bd0777c3f9062369b7abee86270955c9be59ebb7247d"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b154.png",
+      "before": "d68b7ca87d1aae244ba6e0d66a1c8bb38574b8e8e78afbc22f9948d2400ef935",
+      "after": "d0b000df6d26a0f0714aa669780f1a1b1e087aff2185caa1d0249da986bfdb8c"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b155.png",
+      "before": "9f66326b233d23e65801c82193eab7181bdfdda0d2b533296030f69ba88a3925",
+      "after": "3ff16a07f9521ddf64377e84d850e5c629016d2e49a94ebb03426598f8902444"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2087.png",
+      "before": "b5e42caf6d19a9a47aaf2bb270770b29d480b0c5fd7ae69b04b281a335543ed3",
+      "after": "4f7b000f2ebc259d6d6de55bf4d9c84629869500c2f60beb5cd0c50afa03d2b3"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2092.png",
+      "before": "21e8c84bea67524303755980a6cd54378c80872749c3a81ec02da5f16b4fd07c",
+      "after": "794530ee70f81a6e9e4c0bf35ccff066c552a34d86dd285b30b5d4db3c61a207"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2093.png",
+      "before": "6a2d49a26d0293de3a597a1e968ae65c1998da80f6f4b60801fcacae19819012",
+      "after": "170716711bbf6a1c9b083f9265c55dd698bc4c5c6c80b2349e850dc47ece2b02"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2096.png",
+      "before": "3db0b8482fbd2cfaf1375e1a1b58274859d75120b7b02ac64c0ce466db037bef",
+      "after": "d8c8471977f4c7b31806030f0b1f1d852000f4479254c8754fc882cf04ab058c"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2099.png",
+      "before": "3da785c6f5ef9aaf1bb7df0b618a7bc26b99364c461471adddc75ca14afdf29c",
+      "after": "a49b055b876ca939737069758106b7d9c3282279d9810ee88db2a61ba7f05f15"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2180.png",
+      "before": "7ae33932ad8f08aa25e3e199a6318e4b79fab5d04a075656eb1c8e6a6dbc4349",
+      "after": "ae205ed9d694c90244e9981dc2c8b31399ed9016e748a84bcfb30a37bb386809"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2182.png",
+      "before": "2f24f29abd74164e38b378bc3a988021f0cf9c3f7da47c302b5fdc4331e8be0c",
+      "after": "e9efcc59b3facce469e17443b0771fc459a6cd3908a7a01682716ca7d363fef1"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2184.png",
+      "before": "c26d12763c8077b098db7348381d794f3adc78fbe8455d0a93b9aaec6d26a369",
+      "after": "5fa30bf93b8e6c411f83de0eb8edf5f28777a25d2663b4c20ca4475f925eac19"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2259.png",
+      "before": "5d6129b4277c09264be88f0a5bb857df9c24291c504adc433cbc81d2e3b5b524",
+      "after": "32ecd474b29338a87e5571256bb467717b43d550b42b8589cb86327189d32af9"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2400.png",
+      "before": "170716711bbf6a1c9b083f9265c55dd698bc4c5c6c80b2349e850dc47ece2b02",
+      "after": "add8ba651c64ad403c156f65abe2cd73e65766e0e6f7d08e9fe9077795690c0f"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2424.png",
+      "before": "aeccf59a9afa9db801ee1638f272f63eb3a5bfbe5c269cb88a40a81de7a287f8",
+      "after": "3796b1278b3762eb2b99d7677af6cf7e3dc8d7003ca469c2f6bb0335e31a2ea0"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2425.png",
+      "before": "ab3125ff4f4bd8b8e6ed0d6520b21b9a557446930d944468dca6ab1a732d0d11",
+      "after": "9a24c7ee65e7b83f8d6afb88a9e1fe2ac5d0768efcd90d4d25c3ccbb830fff03"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2427.png",
+      "before": "1a090033c76418fe32ccc1aa4355bd2eb4191d2a2ae38bacc7e70f91d7efead4",
+      "after": "911e0a233abaf93367381080bb60e56f684eab2f9c1d35c497d9a5afe910acf0"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2428.png",
+      "before": "f26dfc0feca145e1070b3e3da6dd9beaaacea8510bf555c45eeb79acea5a78de",
+      "after": "7c89b227f3f609b07beb457424cf718d69794e4534c06bcaa22af51fc82f1cca"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2438.png",
+      "before": "f997e4f5116949221d5de15c973bc20ed061cecc8b8c1ab2e4cb1d2b2b30284f",
+      "after": "25c7d1561753d071c423bcca2ab871e383fe46ec499281c5c88f29f76991999e"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2439.png",
+      "before": "5a271ec5c4b4afece0e8a3822ad92060c73abf8df1b534795395b834b1bd9ee1",
+      "after": "6f2319b96a8d4bca3afa301544f0fa7f6b08cf565963a7ddbd4dbd665969f373"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2440.png",
+      "before": "1e82328fead2ccc51955a65d96e8f3e3e0c7ba5ed08dd597f0e8c8f27e39cfb7",
+      "after": "1e668e6d761b64db5878b6ed130f220fd642e442d48710bec1c3de2a9942c703"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2865.png",
+      "before": "00cb650b593ae9691f1e7fbca546280a79badbfb7b622f0f983e92fe141d93dc",
+      "after": "fd09379ab3bbb66d6071042ae1ea9970df4d2e2816ff529b7d1285cde9af31cd"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2940.png",
+      "before": "18f25cb163995f7bdecdbd21b4608048e9d14a13791b3e377c98fedb3db8f851",
+      "after": "16d4a6272d77a4a65c5df9fea43f8c9e34fe1ccc57244106966839b51d082150"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2948.png",
+      "before": "1fc25d6ea1b16ac21abfc5c1affaad3ac55d72d6f4606d81405479301ab2a7cb",
+      "after": "c6a90d31e712be455599e70633b184fe9668ec4e887f3c4f2d0dbd4c28912a47"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2949.png",
+      "before": "e814dcc56c64f620026f6c2e2983a26d5a8f3dfa70c05baab933927c7fb276ba",
+      "after": "4d1ef28a2124841e80f2aa719d90b986ae40cb73625bf61945e57a7b5b345554"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b2961.png",
+      "before": "ed2cc946eec97b0c6f614ff178613c65f309c70ccfaa94b567e31d6672c6395b",
+      "after": "bef2dd296ab57003f1aaa942bae7ae67a3a532dd3a06d5b8dca0e754d3905515"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b3685.png",
+      "before": "30c18871106472bbfa3d6b8bc8a590b84da835bccbaee94b9022ea2bd09f7fd2",
+      "after": "7d686a4fa50f9261d2953e41641889aa20561995eeb7aa33184ee402a596b802"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b3815.png",
+      "before": "6857f5eff70c1fff7b0078fc59eb2d632d966728664a20e689a94a5c8634d12a",
+      "after": "67fba9e541e9989c0cabdbdff9c4dfe5f2f83c7301512b286d033f097c1230b0"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b3816.png",
+      "before": "db59aa1c3dccde6e8ac7ae36ba31077960f9eda2cfa5d6d2a955b27f837c3fc0",
+      "after": "ee017a2c54647b1b379a633ff3c2154c6cd1939cdafaba315bb5eef2a265bfbf"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b3820.png",
+      "before": "5b1d1e9f44a030407ddb0c2fd1b2a1ac91de24603615d68d540436ed444ff4e5",
+      "after": "90e76ad198c3de7438dc011dff509f75701f1483881ac457730bf0bc9077fdd4"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b3837.png",
+      "before": "6a661fc2b93d24c9615321556be0e560dac791e9dfa067578c20cc90f629945b",
+      "after": "31f83d222f47b0a07efac93426f39f30b391a3c0eaa90bce1251ad0a227dbd68"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b3838.png",
+      "before": "1ec2d19a8ca18ffd5dd4d50e1aacdd5ade5fe33ce471704757c1c2d3bf20d1a0",
+      "after": "3ef4eccb3fbf01bf30b5a91854e1b7d06aa604bfadde06c59ecf893e3b441fff"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b3840.png",
+      "before": "3d62cb123d6ebf7e86c6ba71a7f1582cf1d7da5489c29ea71e6b1002ba3d8eca",
+      "after": "7b78c30e921cd318fbb6b81398b4372cf17ff235b27fe736fcdd6ea96d2b3948"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b3848.png",
+      "before": "9b5b2b5d67a81b0a280d03219d7960431e8f19e6f3d517ac857661eccea94dbe",
+      "after": "bfa1a13cef93152b3525e2768bd4c53e594b7dedc469c169fd6fb5f7f5fc65ee"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b3857.png",
+      "before": "0b7985e0c5510c613b48459027010911c1b96dd23d35c259e59e91034e794cb3",
+      "after": "b7da167895ab137051df159c8c29b54cdf70ec3e2212cefa9dc3043f63d23c29"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b3859.png",
+      "before": "c8d07f3a86e9b82909e3392717d51b3367982e330565d0f59a0e79fd71bacf2c",
+      "after": "6a52fa2235246400ce27a585cd731924ef5b5315e3d9699deecc1967120fe2e0"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b3860.png",
+      "before": null,
+      "after": "4bd747b6d0e383f6842c3c740307bcce24397daa9310e27a81cbcc4eedca1ebf"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b3861.png",
+      "before": null,
+      "after": "e814dcc56c64f620026f6c2e2983a26d5a8f3dfa70c05baab933927c7fb276ba"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b488.png",
+      "before": "054fa3233324c9cb17d0bf560e2c4bb54b0607b07a1d2c492ffe35ba92be91fa",
+      "after": "3328b6bef45482a388f4838ff764d898408ea4bdce717cd0f7e34973dbbf30cc"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b489.png",
+      "before": "7880e42064163e04be22987168753c6e13d6af5226f0a821497b8970e5435d49",
+      "after": "f059391a0a13850898f977e816d97cb25b97c3255e651879ff2e5eb74d56e511"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b490.png",
+      "before": "a951082a9a52e910ec220ab5d17d51947749dfa6120ed1103419df11aab498ad",
+      "after": "924f89856112b52980f84224c5c4cfa7e84536962ca6576fc5a2665900eddfd8"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b491.png",
+      "before": "0c44426e1bfe9160a69220a0838bb2f5a02ea9d812d4708544fa46ecb6afcc1f",
+      "after": "7a741afbaa085a1fa7098e52a3db15098d79c3a3c986ece96b5adf086fccbdb0"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b492.png",
+      "before": "a271820bd860536322f32100f7db8436c7b42056397c38424aadd4b9a5a9b0a2",
+      "after": "35dfb3fed194abaf531514cbd30400702680d24eb813d68937667df77f7a7f1c"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b494.png",
+      "before": "e1a48f697dbad064973724623b6a4c206c5c7d7e326e639b3b7b2560ee58af04",
+      "after": "234e55a1173c2b200879a3a55183724dbf524efb20918eb50fc232dcfbbb9d46"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b500.png",
+      "before": "3328b6bef45482a388f4838ff764d898408ea4bdce717cd0f7e34973dbbf30cc",
+      "after": "f15cf31485922610367d726b396b0c0304c1480c4d87fc71e3551f7bf7c67aeb"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b681.png",
+      "before": "2ce33b35b70507f4bef63d251cecd6cb297bdc37377c786642e17a41b7646eeb",
+      "after": "fae2a19cb28249d31f145e0b5e48f37363fc5fdb2f2df186cbdd08cffa168967"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b682.png",
+      "before": "85251ca6ffebfead099066958b8c6ea382f251feb1c975f21755663b96f66aff",
+      "after": "4048a1714c318da32845e8f159cdb60d4d90bb7fa64a791c14a5b39e6da3d502"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/map/world_b691.png",
+      "before": "94964fae1796d3dc8d1aa47f4043ef98cb65e9cde6a780ab044b37b898e84ab3",
+      "after": "ffd6b32a6fd42e6fbda291a2f760a7e8221e9dba9bae5125396f8854b164f9be"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_1092.png",
+      "before": "0e9747cbeeeeda2d1e77b1e714132341b8c766c8a8086c499e0c856fc500732a",
+      "after": "63e3c3014e0d3234900d674bc73179462d53230063f6bd6f0307e49223a45313"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_1093.png",
+      "before": "d202d30113cd20320fc792824656373d3adcb27e478e87f1002acffbb1f09f3a",
+      "after": "2d815d11f82a011b57f16e8e2ad7c9360b33d74ed8d00f8694456c22b97e4253"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_1134.png",
+      "before": "f85198084a70733b9048b785a0e5f8b7c12b3b350908dd14302b52d9cbb88a65",
+      "after": "31258b0cee61a7818e4b410dd22b923bd8a3f07bc79b98b5e9f47f2c4a6c3599"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_1256.png",
+      "before": "fdea6ae2f2b16dca5a9196fa5d3a2ed66a5615fe3da34782fcb761e6108df99e",
+      "after": "df2419435a555feb3e431ccf0d86a6f94122164738cf31f739fd409c80fa72b1"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_1257.png",
+      "before": "c1296df5afbb5011deaf0f8a76bd98e18bbc6ffbab8ea01690a77015fad26c4c",
+      "after": "1f019e8ec4241242762a12716ec49ddf8c470050b4ce3bb65c788880043a0943"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_1258.png",
+      "before": "8df75e082dbb625380bc55d66a527bacb9a62cdfb75a22b4effc9c3b5906f23e",
+      "after": "3196939605ad255e2a4b6e8c6c118a917418eef52a5a7ef3132c18ade8cf5c73"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_1261.png",
+      "before": "ed18d68f1c7475fed1c723554b4b8aeb9abe48f0855a6a6b36ad56ac816f1db5",
+      "after": "ebc7d8d7eb47c3ca0956fc1ac5e3f824edfd0e842e8af8ce654a989b60e96050"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_1427.png",
+      "before": "58c8453c32feb033575157ce789888265788cb4051f95f2d1cad8265ae1a7c15",
+      "after": "624f1c6e140b6fe2e8a24e4d1aac0eeb56f3ec18cdbad6082a7b113d7540ac2d"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_158.png",
+      "before": "a083c80a4a0154d6a9169a51497d6620524d8c0c86221d5c893a4ce84dc5399a",
+      "after": "ab901836914c076fddcadab91b4725589977cca85d582bf1ce825096fe5e3a24"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_1785.png",
+      "before": "afcc905300adc7eebb3b6eeb3993c0e353f1868c72a58a0fe8c6ad491ceca5bb",
+      "after": "b598a78872825debd0928fbcb9b995ede2bd54c6bf1fd832895e9597f505e418"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_1788.png",
+      "before": "8fc8c976be142416de6e17ce92dc4107b4d386cdc78ab2d86756258ec78e4a66",
+      "after": "8a95fcecb20de1d22c967d26de08e8d3b7de8e4864b38576f333e3a8342787ee"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_1794.png",
+      "before": null,
+      "after": "166be2d49b059d3d05a64c04b939a85c162fc46871775e5495c0b8a51e8263d8"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_225.png",
+      "before": "bf5b17622f7b28abb6ac22d96570ce7206b9cd90e792a2ef9e0fc63851b65496",
+      "after": "0ea92ea4e19407b9dac5e41554d7542778f3c55e6ff1e3030815f8b681d8c2df"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_228.png",
+      "before": "3f0e212162d35c8c4a63ff2fb3466bca3775430d4dfb15b5d01b0955272e2c79",
+      "after": "f19a2aecab53c4e9464150ccd1470b1ae4602f0b60eb65ba2b9a4ae744c6a488"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_45.png",
+      "before": "09672f7de77dc93c2306402f7fa65f89f0b836613faa7f3cd7adddfa5634fc69",
+      "after": "a210ef70d6bd9f3cb940a47c226219d881254ddc16892afa26784f502f04969e"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_650.png",
+      "before": "7c448dc7a7033424defa0b69a0d32a2999b6204aa1dc2a792fa401e19b8d11fb",
+      "after": "5d3836228dd68c82444452746c9f2de75e65b57b16641885cf57ffbefbebcb8a"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_671.png",
+      "before": "26b2a922b2b12562147a9488d7f64c4d7a9b98939d2f9559bd0ff6268ef7890c",
+      "after": "4189e85199fa62b7b11c32876f18987f2d8b677c107951e296f549aabf2cea4c"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_721.png",
+      "before": "97b700023001cfca241a2d2f87029ea5dc21c5d3bf5fbbc24bb46f4ddbb2c784",
+      "after": "ab81cb0eaea736f2cb517909f21fe2beb376f4aa3bf8b7e7836ce07b2e3cc840"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_797.png",
+      "before": "89fc9da3372835073e04860f6c0013b968da42ba4fe0b9256eeaf55a8db668cd",
+      "after": "ed6ebb243f808cd34f1816c665b5becc5db4884ef4ddef8798a555db75ac7a88"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_807.png",
+      "before": "f208208512c3f335e15e02790d2f8e1233f3f48a691bb8673ab51a9b10fb3c0e",
+      "after": "737df6bb50bc91bfab460e6021b6c61d9e34cdd290a8fe64325948127a43bd6a"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/black_817.png",
+      "before": "d3e0c84a744509c7af6870dee038931e6d39dd5abddba4828fd8b6043585d8de",
+      "after": "e8b05b70b8155439c935531aaad1014d95915256f17a32e9e431c463e418d0fc"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_152.png",
+      "before": "3624ef08982412c6902080258f1020fd38336718ea06e60da0d0b1b499f88634",
+      "after": "aa7355c2fb5c57664098ddad96c56a8b26b8f303a34a07c5efc747a76214ba0a"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_154.png",
+      "before": "2725277c23792a2b60645d5e9dad6d7c1336fd50d387c4279fde0f60f7a2a193",
+      "after": "ead51700919c62b0ad99e002f7791da9c89466ef8fed65bc972c8e48e5e408cd"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_155.png",
+      "before": "ae0fccb6bb8a76c00a9716448739ca8fbf3e9ad4e96ac5fdd2605ea03b96e8a5",
+      "after": "9b984529067d094b4c795d75ef08f8a357aced794e1bf5cbf3749a4963cae9c4"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2087.png",
+      "before": "c864190bd4f709d9574bce4ca4f5c4b3632eedb27f52ec6c13fd8408ebe14a7b",
+      "after": "b5538a0649b0ae96f60df22ef9b30cc7b6bc11a48a571d7e5aa28d05bd221143"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2092.png",
+      "before": "1e6ab2d648d64f92ddae8fa08f33c75c6f7dfead4f7dbc540b1e3009968693e4",
+      "after": "3bd9bb817899bd997d2586550d0cf878d91002f13111d0b3a505e003270d8eb3"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2093.png",
+      "before": "85965ece1512fb8a1fa7cb50db47ca6d82838ce17e5c48932f472ae36c21cd32",
+      "after": "d22db584ec478f04c175a26c1ad53c43fed0c14a793bc40387f2b17f5d4d06d7"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2096.png",
+      "before": "bfc45a58037f303a760d8f907082b380edea7c037f044221362f7f8a425b1399",
+      "after": "2fefd2a4201858584be7c66d293ccf22fdef92bdf209fcadc1b5d84567840c7a"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2099.png",
+      "before": "b2f060c13c9fb7506aa0fd3aa529aa147185a53a881ba6cc5f64eb0f19195092",
+      "after": "367af24a33fd7e950cb50da03f38c7a3599329285e35affa4da8c07b48852a8e"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2180.png",
+      "before": "c499769f0355a63b37a5b23e37772189dc31dc02529b188baf77a9025ce05b4d",
+      "after": "3b01eada3f8eb899d502c54e09df88c7fc3146f04c203c10c327ef546ae7f580"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2182.png",
+      "before": "a9b6029c62fa0b92c9a1ffc6beb69cd7a68fd611e2217b357382225308249bbf",
+      "after": "72815da453b41c4c7a0661770d394e73bef4d55aa1ef5da5af814b5ba9eba827"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2184.png",
+      "before": "1bb50b3cb8679551fbcdf215e253388d9ae395fc90a1f38f1391528970bb4fab",
+      "after": "0940989de6b27a7dee3a6aa9d8812181370f32b6ca8d511116f1503061bc1b81"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2259.png",
+      "before": "81b1d19b5c84a73697edd038d00707d8607f2976c2ba489aac7332ded384436e",
+      "after": "dfc81f8601a284472e0c0cca8daa65cf15c8f3c30680a0fc6dae432afe4c47c9"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2400.png",
+      "before": "d22db584ec478f04c175a26c1ad53c43fed0c14a793bc40387f2b17f5d4d06d7",
+      "after": "9def6726217ea73da52d76de73a1bd9a0c017687a687020403e0b227768f2c9a"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2424.png",
+      "before": "140309715299caba4e48aa835e817abd3c0a32b9a5ea5a3f2134b6b995704b74",
+      "after": "7d4c374e0d378d63de7c9eeefd25a11872b5fca186e9e5c6d7f93873024dd0d0"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2425.png",
+      "before": "e18a08cf6fa9322520226d870268e7b3583045906948bf4fbe9d15c7838076f8",
+      "after": "512d96365be3455fe3a43e4f5e8dc7f0e22c7a0713bbe1d13eee7374197f2109"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2427.png",
+      "before": "92436e6fc58285c23727edd7baed7d52071ce784f0c2a31a9fc73ed214439194",
+      "after": "daafd5e0273f873c0fd56aa6a14aa99d5ef4343282925ec7948cc46befccd3ac"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2428.png",
+      "before": "f360e13297d2b92c59d5b66b4dfa61d564481a563a8a269ee5818eb71920c8f3",
+      "after": "231d3293ef3f7047598d971af5b6c86608f39ff0c00e91ea48d74366e8abd3ae"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2438.png",
+      "before": "305b2d7a8ca3ae5ff83c29073c3994d2f1f84babbb651745e810862af3f445fa",
+      "after": "99a7ca2c276ae117e26fd05f384916b517185bda77ade50739664a5b4a1898cf"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2439.png",
+      "before": "2043e390d74834ecad515ebb9c92aec1061e031d3e4d5638177db689f4d0fce3",
+      "after": "e52ce1c8a97e6e373a9fb231c071d403718e0e6d39b065b14fccfb24c1fcf229"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2440.png",
+      "before": "434ab0212623e5b4b769871f230229263d155334193b234ca63e0efbbb85b901",
+      "after": "a6981da13d844a5d2f5baa63053b775d088f23fda933ac294c40094ab92ce38b"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2865.png",
+      "before": "6711d65bad8d21a6f4f88205876015b55e2a7f38aa0bb6b50755fe7edf1108b4",
+      "after": "c2d9e76f56141e50406bb537a7bffd4145139c8747e3dc90228c5d2a17ceaf5a"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2940.png",
+      "before": "22456538ccb5e52ad1467f88974c5af9cd50e8099e78f76297a779f6b382bcc3",
+      "after": "6031ec50ecbf3d85833e026333207bdab4d37436c7024f458d226f294954d427"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2948.png",
+      "before": "dd3cf219027e22eae7e23be62e425e120241ea9ad7d076d9078bac8b1cd21478",
+      "after": "d746d700c728721578aa48ec37c25a12aa63049cdbe79acd1ab5fb0ef122bf33"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2949.png",
+      "before": "620c9c73be2b36f1a39e6c8fadbbfda1c1d6690617ec8036fc9f6da8cb4dc5c6",
+      "after": "5976d184cbc8be7a20934f7fb7bb19df4a33fb3fb5d9e4124fedd956445f2da6"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_2961.png",
+      "before": "d27633dcf5766c367f308a295d83f553db5b35e5e5b69a486b1333d68f74be32",
+      "after": "de5c933cf3a695e213e78c33600f2d7d984736b3b5fd2bda7ed3abec7233ddea"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_3685.png",
+      "before": "d20e7c2600f75e52e3139f965bbd8cde8387272403ee4319b8e7516ec87016ac",
+      "after": "11a734823f3cd9e37fca5d8b4c17dd0ba22fd7233aea8b6df325b71a39bdb93b"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_3815.png",
+      "before": "d59de6931169603fa24384f1888e3e57a9c30f27682d38321bcf1347b346a483",
+      "after": "c54a8515b39e51f6332ef8791057eb04ea2c01028effd152d2b30042e69a948b"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_3816.png",
+      "before": "de9ef50b1a1db66ab1016d2e9d9d0817c4cdf180350f0af84ec5ed83f226c3c2",
+      "after": "44d94f29384ad3120069d03392b6f05ff984c05d2630b8c93aff1a96e057d6fd"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_3820.png",
+      "before": "15ac71a23db50f09aacdb421b7c62fd3e28cd7c7959bd48b930b7849bad39388",
+      "after": "e5b55ccb44ba737c60a3f7c1e2e060b6bcd1aef96925a5714e1f72e778cd1796"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_3837.png",
+      "before": "1cf3d89e5e3422e98cace17550940108d5b0b4316d9fc1df4c8c2ef0f6879f1f",
+      "after": "a5f13c87301b84d3e226e3cc211c2182a3cd1d9b9d374d2f6167b53d187cdb53"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_3838.png",
+      "before": "e39ba2fd9ff9fef7345353df71057915af32bacd8ad9c6838f337bca0970ae50",
+      "after": "f73074bd5bac3379dec3f679bb1bcc6a9fd75b3a49d5b96203eddfdc41c8d5dd"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_3840.png",
+      "before": "1d210a9a46d8fb5486fcedde041d5d10ca975335fdff36189bb78398a6651cb2",
+      "after": "55ca41692fcf8a463740d21017a3d22bcbf3b5a9cb861908ee10bb15b8f64346"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_3848.png",
+      "before": "376a181c6c74bd48e9ad14a05ae315a343398d0521629e4f579a167f20d04d37",
+      "after": "85709c646453b148562034c4c94245e941ca2564693ca739d1d2c0e3f54a315d"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_3857.png",
+      "before": "d2d5796efb5d14e50e81cc9e4957661746b9b7e4daefbea1a10c447007b03956",
+      "after": "b774acab4e95ceda8972eadc899066b5c194c5baaf9c5c199e3396b920de1fbd"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_3859.png",
+      "before": "ae3916b80fd1e8c56f429a45a534405bc60746ca646a74a8ab267c48edfbd6c3",
+      "after": "d554f33e3a3f791c4ea07a7f7ec7752414ae427be8961f195d65317c7ded3170"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_3860.png",
+      "before": null,
+      "after": "6ec073346be7785d4ff0cf72cd90be077db450d9a3d30f3cbedb9c740eee62d0"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_3861.png",
+      "before": null,
+      "after": "620c9c73be2b36f1a39e6c8fadbbfda1c1d6690617ec8036fc9f6da8cb4dc5c6"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_488.png",
+      "before": "b45b385073898a863ca954f4f839ce488aad995b4d75dd7bc60ceaf779ef194e",
+      "after": "d8e19557bbbd91bf5a51a4b50896cda2de1d36b164e8a466c80267e36c82e817"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_489.png",
+      "before": "8a70b8be151a17cf3bf7d0ac34931b4cf7344c9cc7c07dc3e024145c3069dca2",
+      "after": "7fe385a4bb6f78488b181b0ac91c005accb05d89cadf40750928fe3562fb1abc"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_490.png",
+      "before": "f298f0c3ec1d68d36db14086c869fa064a2e271bee13102923cd55be3c79a01e",
+      "after": "178a03a5531163ade67f1cf8569aaeadc6b5d9c5c10fe34756cd65bf6b2c1f73"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_491.png",
+      "before": "0a2adda9c2ea3c1dd8feab3f77076ad3fea099a74cda89c23f2ac67e1c8b1f27",
+      "after": "7ffe41a82f130553ebd0d00e5116c3b292905d78ab1fba699b62755bc69ea14e"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_492.png",
+      "before": "276f78bdeb27c03f05fe3ddf270a6fd123fef6f863098260a456f05f236318d2",
+      "after": "63276ac0f301425dd83e535b7bb765652d00f5eff99482d82e4bb9c7e3d3e57b"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_494.png",
+      "before": "15b8052ffd080b5aa1d2af2762f559c6c0ef97e74e2318e76c7b30a2591f6ea7",
+      "after": "a2c7007ef88729fa1ca56133c69bde5e7def919a0373b4ac8a2bc4c01c585a82"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_500.png",
+      "before": "d8e19557bbbd91bf5a51a4b50896cda2de1d36b164e8a466c80267e36c82e817",
+      "after": "ca2a92fd82447cc77a858dbe436ada6176241a065fad1a27f575d17481f95ab6"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_681.png",
+      "before": "e35b07f04e876f6281691487cb91f84bf04ee7ea7c6ada69a0864ea6dec00605",
+      "after": "e0bde7660e55fef94734ae6f6981048b617ec3edbc03617e51ffafd1653be281"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_682.png",
+      "before": "422cfd8ee53cea908026f39ef2a6e44564d5fd13f4547a9e28b17869caaaa78f",
+      "after": "fbd8de862d79ccaca796ee4ff294246aaac54fbd82a4e499494f3423e8b59fb0"
+    },
+    {
+      "file": "gfx/interface/APDC/cold_war/world_style/border_691.png",
+      "before": "0714ca567ef0f2f6991a207e624bae887106a6f35956c6fdc89661b5efa58377",
+      "after": "2744baee3541426aa105e6d3491c76c11664d6208e454fd084ce787d52e2736f"
+    },
+    {
+      "file": "history/states/1039-North Hebei.txt",
+      "before": "1bc96f8bc2fe3edce3b8cc6cf43117ea16f0c7ace285d7ac5647d06123d71941",
+      "after": "70806ee58434f3b5b542a8a25263ed574e6acc3561cb8688fb4359008c4cecb7"
+    },
+    {
+      "file": "history/states/1146-East Kazakhstan.txt",
+      "before": "a2ecbe25a90edb536dba59c17ba4dbd1e632fab76b66650002673ee034412c09",
+      "after": "769bf9f2614d49758e028ea68dca8dfbb253aad79ea314be62deb08d66e564a9"
+    },
+    {
+      "file": "history/states/1147-Gorno-Badakhshan.txt",
+      "before": "30ca9dd7e654c352c3cb4f362a180c57c419435f63c09aa3e2525b261c587b19",
+      "after": "a2972e0d58ea7148ff53a41dd7db30a96f287a8928e2ae9873266d90769b1c60"
+    },
+    {
+      "file": "history/states/1148-West Osh.txt",
+      "before": "437cc81e74faf67ebce09b447d295c57b8cb983a1c06d91cbfe7073baaf47f30",
+      "after": "de80ca10aa1acfb36fb2ae4cb43c14cc7bc3f000a07add61da8e83dffab22eb2"
+    },
+    {
+      "file": "history/states/1150-Jiangxinpo.txt",
+      "before": "b8773b5fc801cd316168309dd8fbee61e40913a1197788a5cbc084e82814af61",
+      "after": "5273a43a922b629c02507dcad22021b52153cf0794b27dae9f644e7e1e4315ee"
+    },
+    {
+      "file": "history/states/1304-Kainuu.txt",
+      "before": null,
+      "after": "cd3185dee7aa8868f71e51f0917960d3bf89ecfa2eed90a672ee72740df81f87"
+    },
+    {
+      "file": "history/states/1305-North Karelia.txt",
+      "before": null,
+      "after": "110892aced59a940156b8c67c56694054e0e1447c5c1b95bee14b6c0ea4178a9"
+    },
+    {
+      "file": "history/states/147-Ostrobothnia.txt",
+      "before": null,
+      "after": "3f0c1c3f2600fce7aa4c80860e0058a587c1d3e84a871ee97388e99a3cdb47f4"
+    },
+    {
+      "file": "history/states/148-Lapland.txt",
+      "before": null,
+      "after": "9527973071513fe348de74a19775cbe6114547ff7a3a3bc9a106f5dacd63a090"
+    },
+    {
+      "file": "history/states/1637-East Osh.txt",
+      "before": "9b628860c386c679303518335ec76e32306fb6387218f5f7f83c5faaa2f48c37",
+      "after": "698336ae38e0b6ec8dd59f773f44f4ec74ebf9c6266c7ff4343f4188df3a7665"
+    },
+    {
+      "file": "history/states/1640-Jalal-Abad.txt",
+      "before": "0f3ee521d258114b855d248a4bc14396bdf9d2f98db21a61c060b8a34d1d0b96",
+      "after": "ebf388c606d670fb8cb2ac15b5cf8b51b6e9a7861a654edf4489a3fdecea4033"
+    },
+    {
+      "file": "history/states/1645-Gongsang.txt",
+      "before": null,
+      "after": "8960daf46cc2757e17720b9e289dc6959e1cb0eab08a3a19f5d4c89c98060946"
+    },
+    {
+      "file": "history/states/213-Murmansk.txt",
+      "before": "9ed490ad1d99ee6b0c9f56e49e6c563ee149d95d75a17e285702be028a8d66e0",
+      "after": "5b20cec2e40147e9cdbb9ded0d4f02f6887af795facaee2f340dd384d7f6cd80"
+    },
+    {
+      "file": "history/states/215-Eastern Karelia.txt",
+      "before": "faff30afe298b7dcd313e65315fdcfa2aab1b01beaeb39673bdeff9998211454",
+      "after": "ed82e5d15e340bf64a97ffd8cfe94d2e9ee3838fd9c5ab18278a566bd5f19710"
+    },
+    {
+      "file": "history/states/40-Rubtsovsk.txt",
+      "before": "1a18bfe16a71d8d18b2989026b5d51aa40eb4cd6240977db3bccdeebf61a6ad9",
+      "after": "e764d32e3c56de475c66200bff313d3dd73948967220a4c94cdbf652b3b5c258"
+    },
+    {
+      "file": "history/states/586-Jambyl.txt",
+      "before": "8c5bc51f9c84d857bac7627fae27cd4abbb77071b9380e539e772b550d6a644b",
+      "after": "3ed401d43705abde9dd4a5a2bb11f3a268796dee13ac47dcb85f1340d3e18390"
+    },
+    {
+      "file": "history/states/588-Some Mountains.txt",
+      "before": "f9892f474c5335f62d3b050c63e97e4695d1c5013ad6b292df1afe913eb387d3",
+      "after": "3e35e3474c40aed0892050edd7f5f5f170a68cc722abeae9a51295557b52d02c"
+    },
+    {
+      "file": "history/states/609-Tianjin.txt",
+      "before": "e8f4cc56056208af22f0fded74b6cfd2b6e28d30664aa3f51bc51b4dafcbd2ec",
+      "after": "fad6e41f14e5ee900a7092b2ed0e232798650bdf0569b5badbfd42825a8b8618"
+    },
+    {
+      "file": "history/states/654-sov state 8.txt",
+      "before": "7c2962ce186c27a4de265e6d8c282cf39b4435e8335781dd231220b784b611b9",
+      "after": "f6d30f3507c99b9d1f35e90ef5d221c12d985b4b501183e5ada3ada0deb40eef"
+    },
+    {
+      "file": "history/states/722-Kola Peninsula.txt",
+      "before": null,
+      "after": "2096fbe940704b86a65bc8d7f7500a23e24adab2234d267e6d0e656dbca3e4be"
+    },
+    {
+      "file": "history/states/732-Chui.txt",
+      "before": "45c10fc6067ac2d6d7bf8b64aaf54ab363bee2ba784d8e499747f5e556e5f9a3",
+      "after": "a3569b3a152f14a759da7e0fcf1e84398c055f4585e9a6ba505eeabbb9d69aaa"
+    },
+    {
+      "file": "history/states/742-Dushanbe.txt",
+      "before": "dccbccd47e93b3a31f2a17b9bfc00307c1552f1144b706f5e07799b6d477f087",
+      "after": "4fc9cf9855ccf058675addb7cb5047b2c7ba5184ef2ceda1e3200a0e2d10d0ad"
+    },
+    {
+      "file": "history/states/881-Karagandy.txt",
+      "before": "87c7d038a4abe1774b8eca20b4c0db836b8ab0c06898793670606a7478122de5",
+      "after": "7d82b1fc373afc097f2ac53f354ab33bd21e0c2879c1ba651f354c5c9c00c872"
+    },
+    {
+      "file": "history/states/998-Sagaing.txt",
+      "before": "62414c8fdba9ef18e9164143295f61bd90d2475d8ff7026e14040dc1d1d6009f",
+      "after": "82353abb2a6bd401ae56cecaf04840e205cdadcc5868b869e5517ab53ea82a12"
+    },
+    {
+      "file": "history/states/999-Federated Shan States.txt",
+      "before": "da1a4e1d4674839bb1fa785fd491ccdbb6d42be15ff8079d7f137e9051739350",
+      "after": "d15764254ee81dad5eb213fb9f84e6cd2b6fac316d1026e84cee1a3e29d11569"
+    },
+    {
+      "file": "interface/APDC_cold_war.gfx",
+      "before": "f6cfc2748c3dc90f53048aee1bd3119a9fc847b72bf529f193656f7592b187f4",
+      "after": "73c5e9ee261330f1194be066fcfcb796d3bdad40469865383b6c75340ae4a895"
+    },
+    {
+      "file": "interface/APDC_cold_war.gui",
+      "before": "c61504e4106be7a96234c905ce4ad4a210714bf9043d578d848872f782fb7986",
+      "after": "84a6ac198ff5a733e4bea47659fe02e73e6723e4d1511027d2aef78b46d2d964"
+    },
+    {
+      "file": "interface/APDC_cold_war_world_styles.gfx",
+      "before": "1cf68c3ac904786497584f931b96600186117c9837ae40629d7da904f870ba8c",
+      "after": "acc860476760c1a85e7edb8c5cee91a75b6ff227547494a1b5dd4236ad147874"
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_geography_l_braz_por.yml",
+      "before": "6d6bbaacc8548c6030642aa5f8a2afc26e1a0d2a127f77f2cdf0e00123f29735",
+      "after": "ac3b4eab8602496bf22d0fc2390480f6e3cb5b946984a5ff0aeecc064b65bdb5"
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_geography_l_english.yml",
+      "before": "59939aef13417a30bc61e7db85f28a264726baa03f459a9cd5d01a79eba5918e",
+      "after": "51fd1ce4e6a7fdb49fdfa929596c2c264d0986bc40a66b573154e3a8934da38c"
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_geography_l_french.yml",
+      "before": "124b12242e4792a411142ae853140ed7a60d8ef0b04d7da3bd977a6154793bc2",
+      "after": "c572b8153defe3ae4f19138900b34fc6227b6f8c874c96df3b90842651eb75db"
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_geography_l_german.yml",
+      "before": "92289aefe43161e031b74731220e91a1f9361551f65246dd678b514bcc2b4846",
+      "after": "505d7f98846cba6f94ba3f727aa9b6ca8bc6286e374833fd16ce94f884e0973d"
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_geography_l_japanese.yml",
+      "before": "7fe334154d4b5c90d7196e72305fb9fe46b50f1190752d41714e548b88c59eb6",
+      "after": "75294de2577ebf64772db46b96511a5fa28b7fc748b1411cb7fd8f77737ac11f"
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_geography_l_korean.yml",
+      "before": "72af97cc5c0c6feb2a6df3f2b6d3daa2cee1479b28ead7ac66d2577a5a59fc7b",
+      "after": "7f640aad75d773017bc8429babf7bbbe56a353f3c008387535e10810816c9e22"
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_geography_l_polish.yml",
+      "before": "ae1a1b949cfd251026773cf416311908d8b3275ae2dc129f6eb697f2c791751f",
+      "after": "538457eb7607e970a2fa7e1b8b4d61c71aac3e8c3fed3a0176050eab7252d1b1"
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_geography_l_russian.yml",
+      "before": "701fd7cc9ea76860cc4b7641f74d0186c8e16848581414ea6757853c4a6ab87c",
+      "after": "315e2db4dbbdacdbca82a83353ebe9e874b635bcd2812b93ff38241513556e25"
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_geography_l_simp_chinese.yml",
+      "before": "ccf9adbf42bd001e1ee668267561693a789806199e3d9d851856f843e4441585",
+      "after": "59e85ee5015d980797130181b4a6bc1017a831435faf40c01bc508dfbf5ac27d"
+    },
+    {
+      "file": "localisation/replace/zzzz_apdc_map_geography_l_spanish.yml",
+      "before": "9e9ae2058624dd3ab441f91fc09771b062bf706fd9116c02beba6c7edb42064a",
+      "after": "8f99c95e58516f995a7ba08f9d7f9c50c58556b9efd3a2d4f4246fde7246688b"
+    },
+    {
+      "file": "localisation/simp_chinese/aat_focus_l_simp_chinese.yml",
+      "before": "9c896373c2c953cda151b6016014f9a8974b054cf267be3c31b630aaf22b4737",
+      "after": "43432c3326e62141cfbaa91013bd445c019c58b93b6ccbf44b974f55884c8e26"
+    },
+    {
+      "file": "localisation/simp_chinese/APDC_cold_war_l_simp_chinese.yml",
+      "before": "1c7c9da64daacc0f09123a91d3a3f63c931f1a9c39d922a2c2019c49661713fd",
+      "after": "489d8aac0bf35f8864aceb49ff5d34bc1ba2f0241b02c58ad05d3133cc7fcaca"
+    },
+    {
+      "file": "map/buildings.txt",
+      "before": "2af49a923ddccfd9df73a090c27f9e948132b6d5b503421e5257bd6a8f57314d",
+      "after": "79e87640914bdd8def57bed5ad2fae1cb338be97c9eb75933e29aa4f1d712609"
+    },
+    {
+      "file": "map/strategicregions/12-Northern Scandinavia.txt",
+      "before": "9a8ba31c5998f77ad951af7bac0c40bca5ea2d3a868ce90355ba4329ea27951d",
+      "after": "ca41c767afceeceb142bd2b6e48c7de32907d0e8f9228d3ee8d69a00d0651a5c"
+    },
+    {
+      "file": "map/strategicregions/143-Eastern China.txt",
+      "before": "aeb3ceea4ab7369c410f6d25a9bff6afec738b78f9a6a31f2f1a8f0397928d4e",
+      "after": "60eeedf93ddda8020ac67cf51430d0ebeafdc490d0269d510bd55f376aaa6deb"
+    },
+    {
+      "file": "map/strategicregions/244-Chahar.txt",
+      "before": "4231409bc771e564f575b3d544b51d323098ef14324a269982de646d248bdc0a",
+      "after": "47398f4af50d928e83ef3002259e1c4460f39df862c3a62562a7178ea4946b8d"
+    },
+    {
+      "file": "map/strategicregions/265-East Karelia.txt",
+      "before": "cbba0eebfe50fd0f9e848980245ef1d1c402c80ca20f9933cc03ca7f808c1b3a",
+      "after": "741920ac92e5b80ad2d6b912b6a39cb189a5c8d075ceaf15e07bf00902413aed"
+    },
+    {
+      "file": "map/strategicregions/277-Northern Finland.txt",
+      "before": "45f1c2ee200a0822a6da1d869d46db3dc8e925ff9d5b8aa3e74f3ab995712a0b",
+      "after": "1a1a34a1902c901d66d5f445c183eeca4e8d18477f02b170d71c32e663a961fe"
+    },
+    {
+      "file": "tools/map_maintenance/finish_20261106.py",
+      "before": null,
+      "after": "e072ad0cdb84cc1ebafbf07a8cc07037c78ff4722913495fac926f0e282ad5f4"
+    },
+    {
+      "file": "tools/map_maintenance/baseline/city_named_state_mismatches.json",
+      "before": "ce9f2180dd3f0c07f1c6018bc78c09cfd900c2f545861c4e209ff34db54fca9c",
+      "after": "0a8279b4c5dbf68c1e849113952b6b0e290100dcc2f3bf85b96febbed34e287f"
+    },
+    {
+      "file": "tools/map_maintenance/baseline/current_state_files.json",
+      "before": "cb5f6af08dc09fbc80d170daf80f831ed07a2788ce968e6b884a96fc7ea763e3",
+      "after": "7146cdf97ddeb6f5df532277344cfdb61c372d2f5b1c24083be9e6489ed00110"
+    },
+    {
+      "file": "tools/map_maintenance/baseline/initial_territories.json",
+      "before": "a08604dbbfdcb9c699484f33d0840a750a471c4172ee565017c35c2347b02010",
+      "after": "822032d65e69075863af1a1b9efcb91a55433859e19946ee9c36cfab7857e0de"
+    },
+    {
+      "file": "tools/map_maintenance/baseline/latest_checkpoint.json",
+      "before": "6ddde9d28319dde8c62990c0e7a6ecd67612ceb86122de34da8f5fcdbc0bf337",
+      "after": "7cbd8fe3fc3abbf254183e6a127f0e4c2b97b90dafdc4182370fc411ad49b1ef"
+    },
+    {
+      "file": "tools/map_maintenance/baseline/modern_victory_points.json",
+      "before": "538b0006dac4fda4160aaa30874dcd30e16e3f483b9c3786fff977506ad7df16",
+      "after": "4083b4b20cf9c7129300d33b5f0a91a330b6ecef093b0b7c18b13c4faaa615ac"
+    },
+    {
+      "file": "项目接手文档/00_快速接手/当前状态与未完成事项.md",
+      "before": "f957ebeee6d749db16d65c8032a3098c6225162bff390845749b7512d1b11090",
+      "after": "7215471d12688511562a8f7127d90e71121620099f6d3d03018710ce9e6573fe"
+    },
+    {
+      "file": "项目接手文档/00_快速接手/新对话接手指南.md",
+      "before": "5ba60cdae1a7cee8fa87eabd12e021f313178224561823f0959e4cab170f700c",
+      "after": "a20453227d420b344dc68d36c9c062f51fb71eb4e7b479e4640c80dc41ed6ddd"
+    },
+    {
+      "file": "项目接手文档/02_系统维护/冷战系统_规则与维护.md",
+      "before": "4170a3cbd65549083ebf2356404dec68aca958afa44de03a89662375146499e3",
+      "after": "1d834b7f78391a25dbea0d1dba80eb29ab916e0c57cc1882be1b9aac271629ec"
+    },
+    {
+      "file": "项目接手文档/02_系统维护/地图与版本兼容_维护.md",
+      "before": "96730a7f8ca6e7f37bdceac9093742b1cdce919f957698f03b461ca88c214553",
+      "after": "0d78072d9e42324ac88596cddc87f1331ac05ad5dceff45358da64b9cd92f320"
+    },
+    {
+      "file": "项目接手文档/05_参数与历史档案/对话任务总账.md",
+      "before": "3a3efba8d463552805e26405ecd482e96bb4e0b4b45cf8d0176c412cf5dccb11",
+      "after": "5ced7d08e9fdab4e7258e07edeee06f6be3e62de97b31ddab2672fde73c51d0e"
+    }
+  ],
+  "authorized_rename_removals": [
+    "history/states/1304-East Oulu.txt",
+    "history/states/1305-East Finland.txt",
+    "history/states/147-Salla.txt",
+    "history/states/148-Lappi.txt",
+    "history/states/1645-State_1645.txt",
+    "history/states/722-Petsamo.txt"
+  ],
+  "unexpected_removed": [],
+  "unexpected_changes": [],
+  "fixed_economy_and_imported_snapshots_byte_preserved": true,
+  "all_other_preexisting_user_changes_preserved": true
+}

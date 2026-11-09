@@ -1,7 +1,7 @@
 characters = {
 	PER_navid_jalali = {
 		name = PER_navid_jalali
-		portraits = { civilian = { large = GFX_APDC_middle_east_generic_political_male_4 } }
+		portraits = { civilian = { large = GFX_APDC_document_PER_navid_jalali } }
 		country_leader = {
 			ideology = sharia_democracy
 			traits = { }
@@ -12,7 +12,8 @@ characters = {
 
 	PER_kia_esfahani = {
 		name = PER_kia_esfahani
-		portraits = { civilian = { large = GFX_APDC_middle_east_generic_political_male_3 } }
+		portraits = { civilian = {
+				large = GFX_APDC_middle_east_generic_political_male_3  } }
 		country_leader = {
 			ideology = military_junta
 			traits = { }

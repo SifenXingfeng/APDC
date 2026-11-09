@@ -1,0 +1,437 @@
+{
+  "source": "D:/Desktop/全部意识形态汇总.docx",
+  "source_sha256": "46179d384241cc34bf8bd88e5beae99ac8f3fde9c96110534072597baf92acbf",
+  "document_subtypes": 71,
+  "project_before": 68,
+  "project_after": 71,
+  "added": [
+    {
+      "name": "民族布尔什维克主义",
+      "key": "national_bolshevism",
+      "parent": "communism",
+      "source_paragraph": 14
+    },
+    {
+      "name": "卢卡申科思想",
+      "key": "lukashenko_thought",
+      "parent": "socialism",
+      "source_paragraph": 18
+    },
+    {
+      "name": "务实社会主义",
+      "key": "pragmatic_socialism",
+      "parent": "socialism",
+      "source_paragraph": 20
+    },
+    {
+      "name": "玻利瓦尔-罗克萨特主义",
+      "key": "bolivarian_rossartrism",
+      "parent": "authoritarianism",
+      "source_paragraph": 60
+    },
+    {
+      "name": "科学技官主义",
+      "key": "scientific_technocracy",
+      "parent": "authoritarianism",
+      "source_paragraph": 63
+    },
+    {
+      "name": "古典社会主义",
+      "key": "classical_socialism",
+      "parent": "fascism",
+      "source_paragraph": 87
+    }
+  ],
+  "moved": [
+    {
+      "name": "无政府共产主义",
+      "key": "anarcho_communism",
+      "parent": "socialism",
+      "source_paragraph": 17,
+      "old_parent": "communism"
+    },
+    {
+      "name": "南美洲罗克萨特主义",
+      "key": "south_american_rossartrism",
+      "parent": "liberalism",
+      "source_paragraph": 53,
+      "old_parent": "authoritarianism"
+    },
+    {
+      "name": "新斯特拉瑟主义",
+      "key": "neo_strasserism",
+      "parent": "fascism",
+      "source_paragraph": 80,
+      "old_parent": "communism"
+    },
+    {
+      "name": "基督教社会主义",
+      "key": "christian_socialism",
+      "old_key": "christian_social_democracy",
+      "parent": "socialism",
+      "old_parent": "social_democracy",
+      "source_paragraph": 21,
+      "operation": "Merge duplicate subtype and migrate existing character reference"
+    }
+  ],
+  "renamed": [
+    {
+      "key": "orthodox_communism",
+      "old": "原教旨共产主义",
+      "new": "原教旨社会主义"
+    },
+    {
+      "key": "technocratic_communism",
+      "old": "技官共产主义",
+      "new": "技官社会主义"
+    },
+    {
+      "key": "military_political_communism",
+      "old": "军政共产主义",
+      "new": "军政社会主义"
+    },
+    {
+      "key": "frontier_communism",
+      "old": "边疆共产主义",
+      "new": "边疆社会主义"
+    },
+    {
+      "key": "automated_communism",
+      "old": "自动化共产主义",
+      "new": "自动化社会主义"
+    },
+    {
+      "key": "indian_communism",
+      "old": "印度共产主义",
+      "new": "南亚次共产主义"
+    }
+  ],
+  "preserved_extras": [],
+  "formal_descriptions": 53,
+  "existing_descriptions_changed": 44,
+  "existing_descriptions_already_identical": [
+    "orthodox_communism",
+    "anarcho_technocracy",
+    "military_political_communism",
+    "left_wing_terrorism"
+  ],
+  "removed_author_signatures": [
+    {
+      "name": "原教旨社会主义",
+      "paragraph": 98
+    },
+    {
+      "name": "无政府技官主义",
+      "paragraph": 101
+    },
+    {
+      "name": "红色军政府",
+      "paragraph": 104
+    },
+    {
+      "name": "左派欧亚主义",
+      "paragraph": 107
+    },
+    {
+      "name": "军政社会主义",
+      "paragraph": 111
+    },
+    {
+      "name": "左翼恐怖主义",
+      "paragraph": 114
+    },
+    {
+      "name": "边疆社会主义",
+      "paragraph": 118
+    },
+    {
+      "name": "安保社会主义",
+      "paragraph": 127
+    },
+    {
+      "name": "基督教社会主义",
+      "paragraph": 131
+    },
+    {
+      "name": "务实社会主义",
+      "paragraph": 135
+    },
+    {
+      "name": "工团主义",
+      "paragraph": 139
+    },
+    {
+      "name": "人民阵线",
+      "paragraph": 142
+    },
+    {
+      "name": "边疆进步主义",
+      "paragraph": 144
+    },
+    {
+      "name": "左翼农业主义",
+      "paragraph": 147
+    },
+    {
+      "name": "大平原罗克萨特主义",
+      "paragraph": 150
+    },
+    {
+      "name": "人道资本主义",
+      "paragraph": 154
+    },
+    {
+      "name": "民粹保守主义",
+      "paragraph": 157
+    }
+  ],
+  "missing_formal_descriptions": [
+    {
+      "name": "技官社会主义",
+      "key": "technocratic_communism",
+      "parent": "communism",
+      "source_paragraph": 9
+    },
+    {
+      "name": "自动化社会主义",
+      "key": "automated_communism",
+      "parent": "communism",
+      "source_paragraph": 13
+    },
+    {
+      "name": "无政府共产主义",
+      "key": "anarcho_communism",
+      "parent": "socialism",
+      "source_paragraph": 17
+    },
+    {
+      "name": "卢卡申科思想",
+      "key": "lukashenko_thought",
+      "parent": "socialism",
+      "source_paragraph": 18
+    },
+    {
+      "name": "玻利瓦尔主义",
+      "key": "bolivarianism",
+      "parent": "socialism",
+      "source_paragraph": 22
+    },
+    {
+      "name": "左翼民族主义",
+      "key": "left_nationalism",
+      "parent": "socialism",
+      "source_paragraph": 23
+    },
+    {
+      "name": "左翼复兴主义",
+      "key": "left_revivalism",
+      "parent": "socialism",
+      "source_paragraph": 24
+    },
+    {
+      "name": "市场社会主义",
+      "key": "market_socialism",
+      "parent": "socialism",
+      "source_paragraph": 25
+    },
+    {
+      "name": "南亚次共产主义",
+      "key": "indian_communism",
+      "parent": "socialism",
+      "source_paragraph": 28
+    },
+    {
+      "name": "左翼民粹主义",
+      "key": "left_populism",
+      "parent": "social_democracy",
+      "source_paragraph": 32
+    },
+    {
+      "name": "民主社会主义",
+      "key": "democratic_socialism",
+      "parent": "social_democracy",
+      "source_paragraph": 33
+    },
+    {
+      "name": "右翼复兴主义",
+      "key": "right_revivalism",
+      "parent": "conservatism",
+      "source_paragraph": 40
+    },
+    {
+      "name": "传统爱国主义",
+      "key": "traditional_patriotism",
+      "parent": "conservatism",
+      "source_paragraph": 42
+    },
+    {
+      "name": "监护式威权主义",
+      "key": "guardian_authoritarianism",
+      "parent": "authoritarianism",
+      "source_paragraph": 65
+    },
+    {
+      "name": "民族威权统合主义",
+      "key": "national_authoritarian_integralism",
+      "parent": "dictatorship",
+      "source_paragraph": 77
+    },
+    {
+      "name": "新斯特拉瑟主义",
+      "key": "neo_strasserism",
+      "parent": "fascism",
+      "source_paragraph": 80
+    },
+    {
+      "name": "锡安法西斯主义",
+      "key": "zionist_fascism",
+      "parent": "fascism",
+      "source_paragraph": 82
+    },
+    {
+      "name": "新纳粹主义",
+      "key": "neo_nazism",
+      "parent": "fascism",
+      "source_paragraph": 83
+    }
+  ],
+  "empty_description_headings": [
+    "技官社会主义"
+  ],
+  "description_title_aliases": {
+    "左翼欧亚主义": "左派欧亚主义",
+    "犯罪国度": "罪犯国度",
+    "密传专治主义": "密传专制主义"
+  },
+  "special_unassigned": "新秩序：文档明确注明不算普通意识形态类别，未擅自归入九个主类别。",
+  "main_ideology_name": "先锋社会主义",
+  "group_counts": {
+    "communism": 10,
+    "socialism": 12,
+    "social_democracy": 6,
+    "conservatism": 7,
+    "liberalism": 6,
+    "authoritarianism": 10,
+    "dictatorship": 9,
+    "fascism": 8,
+    "fundamentalism": 3
+  },
+  "changed_localisation_keys": [
+    "orthodox_communism",
+    "technocratic_communism",
+    "military_political_communism",
+    "frontier_communism",
+    "automated_communism",
+    "national_bolshevism",
+    "lukashenko_thought",
+    "pragmatic_socialism",
+    "indian_communism",
+    "bolivarian_rossartrism",
+    "scientific_technocracy",
+    "classical_socialism",
+    "red_military_government_desc",
+    "left_eurasianism_desc",
+    "frontier_communism_desc",
+    "national_bolshevism_desc",
+    "security_socialism_desc",
+    "christian_socialism_desc",
+    "pragmatic_socialism_desc",
+    "syndicalism_desc",
+    "popular_front_desc",
+    "frontier_progressivism_desc",
+    "left_agrarianism_desc",
+    "great_plains_rossartrism_desc",
+    "humanitarian_capitalism_desc",
+    "populist_conservatism_desc",
+    "oligarchic_liberalism_desc",
+    "liberal_corporatism_desc",
+    "christian_conservatism_desc",
+    "middle_way_desc",
+    "progressive_liberalism_desc",
+    "constitutional_liberalism_desc",
+    "anarcho_capitalism_desc",
+    "liberal_conservatism_desc",
+    "liberal_technocracy_desc",
+    "south_american_rossartrism_desc",
+    "constitutional_rossartrism_desc",
+    "transitional_government_desc",
+    "sharia_democracy_desc",
+    "broad_rossartrism_desc",
+    "bolivarian_rossartrism_desc",
+    "corporate_council_desc",
+    "non_dominant_system_desc",
+    "scientific_technocracy_desc",
+    "co_governance_desc",
+    "theocracy_desc",
+    "absolute_monarchy_desc",
+    "military_state_desc",
+    "military_junta_desc",
+    "right_technocracy_desc",
+    "command_technocracy_desc",
+    "league_authority_rossartrism_desc",
+    "guided_democracy_desc",
+    "fundamental_fascism_desc",
+    "extreme_militarism_desc",
+    "military_political_fascism_desc",
+    "criminal_state_desc",
+    "esoteric_theocracy_desc",
+    "esoteric_despotism_desc",
+    "mysticism_desc",
+    "classical_socialism_desc",
+    "communism",
+    "communism_noun",
+    "lukashenko_thought_desc"
+  ],
+  "checks": {
+    "all_document_subtypes_present": true,
+    "all_requested_parents_match": true,
+    "all_existing_subtype_settings_unchanged": true,
+    "all_parent_gameplay_settings_unchanged": true,
+    "non_target_localisation_unchanged": true,
+    "formal_prose_matches_source_except_author_suffixes": true,
+    "encodings_valid": true,
+    "character_ideology_references_valid": true,
+    "source_word_document_unmodified": true,
+    "all_unaffected_original_subtypes_retained": true,
+    "two_requested_subtypes_removed": true,
+    "christian_socialism_merged_into_requested_parent": true,
+    "deleted_subtype_references_removed": true,
+    "all_71_subtypes_have_name_and_description_keys": true
+  },
+  "runtime_test": "Not launched: ideology definitions and localisation were statically parsed and compared.",
+  "applied": true,
+  "sha256_after": {
+    "common/ideologies/00_ideologies.txt": "9b9dd8a96c1483d61f72b55a75bc242f27c6df049b2d47226d9059ebbef3d6a6",
+    "localisation/simp_chinese/zz_APDC_ideologies_l_simp_chinese.yml": "899968648662d28feced7176f7b746e7b73838e87db10ae6137f10d247803382",
+    "common/characters/BRA.txt": "c80838c1a38a24e93a2aedcaa081a012d78369aeb51addea7e4de6f99bb4db6e"
+  },
+  "character_country_leader_definitions_checked": 123,
+  "description_counts": {
+    "formal_from_document": 53,
+    "existing_without_formal_description_preserved": 17,
+    "new_without_description": 1
+  },
+  "removed": [
+    {
+      "key": "persian_rossartrism",
+      "name": "波斯罗克萨特主义",
+      "old_parent": "authoritarianism"
+    },
+    {
+      "key": "party_rossartrism",
+      "name": "党权罗克萨特主义",
+      "old_parent": "dictatorship"
+    }
+  ],
+  "merged": [
+    {
+      "name": "基督教社会主义",
+      "old_key": "christian_social_democracy",
+      "key": "christian_socialism",
+      "old_parent": "social_democracy",
+      "parent": "socialism",
+      "updated_character": "BRA_marina_sena"
+    }
+  ],
+  "correction_backup": "D:\\C-Drive-Migration-20260929\\Permanent\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\.codex_backups\\APDC\\20261028-171503-ideology-merge-removal"
+}

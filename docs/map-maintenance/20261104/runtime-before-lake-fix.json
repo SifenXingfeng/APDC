@@ -1,0 +1,1886 @@
+{
+  "passed": false,
+  "date": "2060.2.1.1",
+  "player": "GER",
+  "save": "C:\\Users\\ASUS\\.codex\\tmp\\APDC_MapMaintenanceQA_20261104\\save games\\autosave.hoi4",
+  "save_sha256": "49b8efc17abd3501201e2139709c40d26848d7edd990286584c8fd47ea5c47bb",
+  "states": 1628,
+  "countries_read": 419,
+  "relation_differences": [],
+  "initial_dmz": [],
+  "relevant_map_cold_war_errors": [],
+  "all_error_log_lines": 649,
+  "new_error_signatures_vs_last_completed_runtime": {
+    ": map/buildings.txt error at line 106474: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106475: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106476: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106477: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106478: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106479: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106480: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106481: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106482: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106483: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106484: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106485: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106486: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106487: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106488: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106489: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106490: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106491: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106492: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106493: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106494: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106495: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106496: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106497: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106498: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106499: map building location is not over the land - ignoring instance.": 1,
+    ": map/buildings.txt error at line 106500: map building location is not over the land - ignoring instance.": 1
+  },
+  "evidence": [
+    "[16:56:45][2060.01.01.12]: APDC_MAP_20261104 START",
+    "[16:56:45][2060.01.01.12]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1579",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1580",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1581",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1582",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1583",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1584",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1585",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1586",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1587",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1588",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1589",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1590",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1591",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1592",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1593",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1594",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1595",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1596",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1597",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1598",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1599",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1600",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1601",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1602",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1603",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1604",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1605",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1606",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1607",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1608",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1609",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1610",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1611",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1612",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1613",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1614",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1615",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1616",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1617",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1618",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1619",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1620",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1621",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1622",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1623",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1624",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1625",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1626",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1627",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 PASS state_1628",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 WORLD_READY",
+    "[16:56:48][2060.01.01.23]: [16:56:48][2060.01.01.23]: APDC_MAP_20261104 DAY 1 date= 23:00, 1 1月, 2060",
+    "[16:56:48][2060.01.01.23]: [16:56:55][2060.01.02.23]: APDC_MAP_20261104 DAY 2 date= 23:00, 2 1月, 2060",
+    "[16:56:55][2060.01.02.23]: [16:56:58][2060.01.03.23]: APDC_MAP_20261104 DAY 3 date= 23:00, 3 1月, 2060",
+    "[16:56:58][2060.01.03.23]: [16:57:01][2060.01.04.23]: APDC_MAP_20261104 DAY 4 date= 23:00, 4 1月, 2060",
+    "[16:57:01][2060.01.04.23]: [16:57:03][2060.01.05.23]: APDC_MAP_20261104 DAY 5 date= 23:00, 5 1月, 2060",
+    "[16:57:03][2060.01.05.23]: [16:57:06][2060.01.06.23]: APDC_MAP_20261104 DAY 6 date= 23:00, 6 1月, 2060",
+    "[16:57:06][2060.01.06.23]: [16:57:09][2060.01.07.23]: APDC_MAP_20261104 DAY 7 date= 23:00, 7 1月, 2060",
+    "[16:57:09][2060.01.07.23]: [16:57:12][2060.01.08.23]: APDC_MAP_20261104 SOV_DETAIL_READY states=211",
+    "[16:57:12][2060.01.08.23]: [16:57:12][2060.01.08.23]: APDC_MAP_20261104 DAY 8 date= 23:00, 8 1月, 2060",
+    "[16:57:12][2060.01.08.23]: [16:57:15][2060.01.09.23]: APDC_MAP_20261104 DAY 9 date= 23:00, 9 1月, 2060",
+    "[16:57:15][2060.01.09.23]: [16:57:18][2060.01.10.23]: APDC_MAP_20261104 DAY 10 date= 23:00, 10 1月, 2060",
+    "[16:57:18][2060.01.10.23]: [16:57:21][2060.01.11.23]: APDC_MAP_20261104 DAY 11 date= 23:00, 11 1月, 2060",
+    "[16:57:21][2060.01.11.23]: [16:57:23][2060.01.12.23]: APDC_MAP_20261104 DAY 12 date= 23:00, 12 1月, 2060",
+    "[16:57:23][2060.01.12.23]: [16:57:26][2060.01.13.23]: APDC_MAP_20261104 DAY 13 date= 23:00, 13 1月, 2060",
+    "[16:57:26][2060.01.13.23]: [16:57:29][2060.01.14.23]: APDC_MAP_20261104 DAY 14 date= 23:00, 14 1月, 2060",
+    "[16:57:29][2060.01.14.23]: [16:57:32][2060.01.15.23]: APDC_MAP_20261104 MON_DETAIL_READY states=18",
+    "[16:57:32][2060.01.15.23]: [16:57:32][2060.01.15.23]: APDC_MAP_20261104 DAY 15 date= 23:00, 15 1月, 2060",
+    "[16:57:32][2060.01.15.23]: [16:57:35][2060.01.16.23]: APDC_MAP_20261104 DAY 16 date= 23:00, 16 1月, 2060",
+    "[16:57:35][2060.01.16.23]: [16:57:38][2060.01.17.23]: APDC_MAP_20261104 DAY 17 date= 23:00, 17 1月, 2060",
+    "[16:57:38][2060.01.17.23]: [16:57:41][2060.01.18.23]: APDC_MAP_20261104 DAY 18 date= 23:00, 18 1月, 2060",
+    "[16:57:41][2060.01.18.23]: [16:57:43][2060.01.19.23]: APDC_MAP_20261104 DAY 19 date= 23:00, 19 1月, 2060",
+    "[16:57:43][2060.01.19.23]: [16:57:46][2060.01.20.23]: APDC_MAP_20261104 DAY 20 date= 23:00, 20 1月, 2060",
+    "[16:57:46][2060.01.20.23]: [16:57:49][2060.01.21.23]: APDC_MAP_20261104 DAY 21 date= 23:00, 21 1月, 2060",
+    "[16:57:49][2060.01.21.23]: [16:57:52][2060.01.22.23]: APDC_MAP_20261104 IRQ_DETAIL_READY states=16",
+    "[16:57:52][2060.01.22.23]: [16:57:52][2060.01.22.23]: APDC_MAP_20261104 DAY 22 date= 23:00, 22 1月, 2060",
+    "[16:57:52][2060.01.22.23]: [16:57:55][2060.01.23.23]: APDC_MAP_20261104 DAY 23 date= 23:00, 23 1月, 2060",
+    "[16:57:55][2060.01.23.23]: [16:57:57][2060.01.24.23]: APDC_MAP_20261104 DAY 24 date= 23:00, 24 1月, 2060",
+    "[16:57:57][2060.01.24.23]: [16:58:00][2060.01.25.23]: APDC_MAP_20261104 DAY 25 date= 23:00, 25 1月, 2060",
+    "[16:58:00][2060.01.25.23]: [16:58:03][2060.01.26.23]: APDC_MAP_20261104 DAY 26 date= 23:00, 26 1月, 2060",
+    "[16:58:03][2060.01.26.23]: [16:58:06][2060.01.27.23]: APDC_MAP_20261104 DAY 27 date= 23:00, 27 1月, 2060",
+    "[16:58:06][2060.01.27.23]: [16:58:09][2060.01.28.23]: APDC_MAP_20261104 WORLD_RETURNED",
+    "[16:58:09][2060.01.28.23]: [16:58:09][2060.01.28.23]: APDC_MAP_20261104 DAY 28 date= 23:00, 28 1月, 2060",
+    "[16:58:09][2060.01.28.23]: [16:58:12][2060.01.29.23]: APDC_MAP_20261104 DAY 29 date= 23:00, 29 1月, 2060",
+    "[16:58:12][2060.01.29.23]: [16:58:15][2060.01.30.23]: APDC_MAP_20261104 DAY 30 date= 23:00, 30 1月, 2060",
+    "[16:58:15][2060.01.30.23]: [16:58:17][2060.01.31.23]: APDC_MAP_20261104 DAY 31 date= 23:00, 31 1月, 2060",
+    "[16:58:17][2060.01.31.23]: [16:58:22][2060.02.01.23]: APDC_MAP_20261104 DAY 32 date= 23:00, 1 2月, 2060",
+    "[16:58:22][2060.02.01.23]: [16:58:25][2060.02.02.23]: APDC_MAP_20261104 DAY 33 date= 23:00, 2 2月, 2060"
+  ],
+  "process": {
+    "debug_mode": true,
+    "path": "D:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\hoi4.exe",
+    "desktop": "APDC_PerformanceQA_20261104_165426",
+    "input_desktop_switched": false,
+    "profile": "C:/Users/ASUS/.codex/tmp/APDC_MapMaintenanceQA_20261104",
+    "command": "\"D:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\hoi4.exe\" -userdir=C:/Users/ASUS/.codex/tmp/APDC_MapMaintenanceQA_20261104 -start_tag=GER -start_speed=3 -gamelog -debug",
+    "started": "2026-11-04T16:54:26.7945915+08:00",
+    "job_kill_on_close": true,
+    "pid": 52624
+  },
+  "stop": {
+    "closed_helpers": [
+      48672,
+      27900
+    ],
+    "still_running": false,
+    "pid": 52624,
+    "remaining_helpers": [],
+    "steam_app_running": false,
+    "stopped": "2026-11-04T16:58:36.4456800+08:00"
+  },
+  "user_file_changes": [],
+  "enabled_mods": {
+    "enabled_mods": [
+      "mod/APDC.mod",
+      "mod/APDC_MapMaintenanceQA.mod"
+    ],
+    "disabled_dlcs": []
+  },
+  "dlc_save_header": [
+    "dlcs=257535"
+  ],
+  "input_desktop_switched": false,
+  "mouse_keyboard_sent": false,
+  "capital_checks": [
+    {
+      "tag": "AAA",
+      "configured": 1,
+      "runtime": 1
+    },
+    {
+      "tag": "ABK",
+      "configured": 233,
+      "runtime": 233
+    },
+    {
+      "tag": "ADU",
+      "configured": 169,
+      "runtime": 169
+    },
+    {
+      "tag": "AFA",
+      "configured": 268,
+      "runtime": 268
+    },
+    {
+      "tag": "AFG",
+      "configured": 267,
+      "runtime": 267
+    },
+    {
+      "tag": "AGR",
+      "configured": 459,
+      "runtime": 459
+    },
+    {
+      "tag": "ALB",
+      "configured": 44,
+      "runtime": 44
+    },
+    {
+      "tag": "ALG",
+      "configured": 459,
+      "runtime": 459
+    },
+    {
+      "tag": "ALS",
+      "configured": 463,
+      "runtime": 463
+    },
+    {
+      "tag": "ALT",
+      "configured": 654,
+      "runtime": 654
+    },
+    {
+      "tag": "AMZ",
+      "configured": 966,
+      "runtime": 966
+    },
+    {
+      "tag": "ANG",
+      "configured": 540,
+      "runtime": 540
+    },
+    {
+      "tag": "ANU",
+      "configured": 536,
+      "runtime": 536
+    },
+    {
+      "tag": "AOI",
+      "configured": 1242,
+      "runtime": 1242
+    },
+    {
+      "tag": "ARG",
+      "configured": 278,
+      "runtime": 278
+    },
+    {
+      "tag": "ARM",
+      "configured": 230,
+      "runtime": 230
+    },
+    {
+      "tag": "ASM",
+      "configured": 990,
+      "runtime": 990
+    },
+    {
+      "tag": "AST",
+      "configured": 285,
+      "runtime": 285
+    },
+    {
+      "tag": "ASY",
+      "configured": 676,
+      "runtime": 676
+    },
+    {
+      "tag": "ATG",
+      "configured": 1470,
+      "runtime": 1470
+    },
+    {
+      "tag": "ATJ",
+      "configured": 1050,
+      "runtime": 1050
+    },
+    {
+      "tag": "ATU",
+      "configured": 1103,
+      "runtime": 1103
+    },
+    {
+      "tag": "AUS",
+      "configured": 4,
+      "runtime": 4
+    },
+    {
+      "tag": "AZR",
+      "configured": 229,
+      "runtime": 229
+    },
+    {
+      "tag": "BAH",
+      "configured": 690,
+      "runtime": 690
+    },
+    {
+      "tag": "BAN",
+      "configured": 431,
+      "runtime": 431
+    },
+    {
+      "tag": "BAR",
+      "configured": 1457,
+      "runtime": 1457
+    },
+    {
+      "tag": "BAS",
+      "configured": 1473,
+      "runtime": 1473
+    },
+    {
+      "tag": "BAY",
+      "configured": 52,
+      "runtime": 52
+    },
+    {
+      "tag": "BEG",
+      "configured": 841,
+      "runtime": 841
+    },
+    {
+      "tag": "BEL",
+      "configured": 6,
+      "runtime": 6
+    },
+    {
+      "tag": "BEN",
+      "configured": 1388,
+      "runtime": 1388
+    },
+    {
+      "tag": "BHR",
+      "configured": 1014,
+      "runtime": 1014
+    },
+    {
+      "tag": "BIA",
+      "configured": 1419,
+      "runtime": 1419
+    },
+    {
+      "tag": "BKF",
+      "configured": 778,
+      "runtime": 778
+    },
+    {
+      "tag": "BLI",
+      "configured": 1052,
+      "runtime": 1052
+    },
+    {
+      "tag": "BLR",
+      "configured": 206,
+      "runtime": 206
+    },
+    {
+      "tag": "BLZ",
+      "configured": 311,
+      "runtime": 311
+    },
+    {
+      "tag": "BOL",
+      "configured": 302,
+      "runtime": 302
+    },
+    {
+      "tag": "BOS",
+      "configured": 104,
+      "runtime": 104
+    },
+    {
+      "tag": "BOT",
+      "configured": 542,
+      "runtime": 542
+    },
+    {
+      "tag": "BOU",
+      "configured": 1070,
+      "runtime": 1070
+    },
+    {
+      "tag": "BRA",
+      "configured": 500,
+      "runtime": 500
+    },
+    {
+      "tag": "BRB",
+      "configured": 1474,
+      "runtime": 1474
+    },
+    {
+      "tag": "BRD",
+      "configured": 769,
+      "runtime": 769
+    },
+    {
+      "tag": "BRI",
+      "configured": 14,
+      "runtime": 14
+    },
+    {
+      "tag": "BRM",
+      "configured": 995,
+      "runtime": 995
+    },
+    {
+      "tag": "BRN",
+      "configured": 1023,
+      "runtime": 1023
+    },
+    {
+      "tag": "BSK",
+      "configured": 651,
+      "runtime": 651
+    },
+    {
+      "tag": "BUK",
+      "configured": 830,
+      "runtime": 830
+    },
+    {
+      "tag": "BUL",
+      "configured": 48,
+      "runtime": 48
+    },
+    {
+      "tag": "BYA",
+      "configured": 1593,
+      "runtime": 1593
+    },
+    {
+      "tag": "CAM",
+      "configured": 741,
+      "runtime": 741
+    },
+    {
+      "tag": "CAN",
+      "configured": 276,
+      "runtime": 276
+    },
+    {
+      "tag": "CAR",
+      "configured": 660,
+      "runtime": 660
+    },
+    {
+      "tag": "CAT",
+      "configured": 165,
+      "runtime": 165
+    },
+    {
+      "tag": "CAY",
+      "configured": 310,
+      "runtime": 310
+    },
+    {
+      "tag": "CBV",
+      "configured": 702,
+      "runtime": 702
+    },
+    {
+      "tag": "CHA",
+      "configured": 1426,
+      "runtime": 1426
+    },
+    {
+      "tag": "CHI",
+      "configured": 598,
+      "runtime": 598
+    },
+    {
+      "tag": "CHL",
+      "configured": 279,
+      "runtime": 279
+    },
+    {
+      "tag": "CHR",
+      "configured": 300,
+      "runtime": 300
+    },
+    {
+      "tag": "CHU",
+      "configured": 256,
+      "runtime": 256
+    },
+    {
+      "tag": "CIN",
+      "configured": 821,
+      "runtime": 821
+    },
+    {
+      "tag": "CKK",
+      "configured": 1583,
+      "runtime": 1583
+    },
+    {
+      "tag": "CMR",
+      "configured": 1351,
+      "runtime": 1351
+    },
+    {
+      "tag": "COG",
+      "configured": 1252,
+      "runtime": 1252
+    },
+    {
+      "tag": "COK",
+      "configured": 1130,
+      "runtime": 1130
+    },
+    {
+      "tag": "COL",
+      "configured": 306,
+      "runtime": 306
+    },
+    {
+      "tag": "COR",
+      "configured": 1,
+      "runtime": 1
+    },
+    {
+      "tag": "COS",
+      "configured": 316,
+      "runtime": 316
+    },
+    {
+      "tag": "CPS",
+      "configured": 1068,
+      "runtime": 1068
+    },
+    {
+      "tag": "CRC",
+      "configured": 695,
+      "runtime": 695
+    },
+    {
+      "tag": "CRI",
+      "configured": 137,
+      "runtime": 137
+    },
+    {
+      "tag": "CRO",
+      "configured": 109,
+      "runtime": 109
+    },
+    {
+      "tag": "CSA",
+      "configured": 1165,
+      "runtime": 1165
+    },
+    {
+      "tag": "CUB",
+      "configured": 315,
+      "runtime": 315
+    },
+    {
+      "tag": "CYP",
+      "configured": 183,
+      "runtime": 183
+    },
+    {
+      "tag": "CZE",
+      "configured": 9,
+      "runtime": 9
+    },
+    {
+      "tag": "DAG",
+      "configured": 232,
+      "runtime": 232
+    },
+    {
+      "tag": "DAH",
+      "configured": 1388,
+      "runtime": 1388
+    },
+    {
+      "tag": "DDR",
+      "configured": 64,
+      "runtime": 64
+    },
+    {
+      "tag": "DEN",
+      "configured": 37,
+      "runtime": 37
+    },
+    {
+      "tag": "DHF",
+      "configured": 1016,
+      "runtime": 1016
+    },
+    {
+      "tag": "DJI",
+      "configured": 268,
+      "runtime": 268
+    },
+    {
+      "tag": "DMA",
+      "configured": 1471,
+      "runtime": 1471
+    },
+    {
+      "tag": "DNZ",
+      "configured": 807,
+      "runtime": 807
+    },
+    {
+      "tag": "DOM",
+      "configured": 319,
+      "runtime": 319
+    },
+    {
+      "tag": "DON",
+      "configured": 218,
+      "runtime": 218
+    },
+    {
+      "tag": "ECU",
+      "configured": 305,
+      "runtime": 305
+    },
+    {
+      "tag": "EGY",
+      "configured": 907,
+      "runtime": 907
+    },
+    {
+      "tag": "ELS",
+      "configured": 314,
+      "runtime": 314
+    },
+    {
+      "tag": "ENG",
+      "configured": 126,
+      "runtime": 126
+    },
+    {
+      "tag": "EQG",
+      "configured": 297,
+      "runtime": 297
+    },
+    {
+      "tag": "ERI",
+      "configured": 550,
+      "runtime": 550
+    },
+    {
+      "tag": "EST",
+      "configured": 812,
+      "runtime": 812
+    },
+    {
+      "tag": "ETH",
+      "configured": 1242,
+      "runtime": 1242
+    },
+    {
+      "tag": "EVE",
+      "configured": 878,
+      "runtime": 878
+    },
+    {
+      "tag": "EZO",
+      "configured": 536,
+      "runtime": 536
+    },
+    {
+      "tag": "FER",
+      "configured": 563,
+      "runtime": 563
+    },
+    {
+      "tag": "FIJ",
+      "configured": 636,
+      "runtime": 636
+    },
+    {
+      "tag": "FIN",
+      "configured": 111,
+      "runtime": 111
+    },
+    {
+      "tag": "FLA",
+      "configured": 1358,
+      "runtime": 1358
+    },
+    {
+      "tag": "FPL",
+      "configured": 515,
+      "runtime": 515
+    },
+    {
+      "tag": "FRA",
+      "configured": 16,
+      "runtime": 16
+    },
+    {
+      "tag": "FSA",
+      "configured": 992,
+      "runtime": 992
+    },
+    {
+      "tag": "FSM",
+      "configured": 684,
+      "runtime": 684
+    },
+    {
+      "tag": "GAB",
+      "configured": 539,
+      "runtime": 539
+    },
+    {
+      "tag": "GAM",
+      "configured": 701,
+      "runtime": 701
+    },
+    {
+      "tag": "GAR",
+      "configured": 301,
+      "runtime": 301
+    },
+    {
+      "tag": "GBA",
+      "configured": 1246,
+      "runtime": 1246
+    },
+    {
+      "tag": "GDB",
+      "configured": 479,
+      "runtime": 479
+    },
+    {
+      "tag": "GDL",
+      "configured": 694,
+      "runtime": 694
+    },
+    {
+      "tag": "GEO",
+      "configured": 231,
+      "runtime": 231
+    },
+    {
+      "tag": "GER",
+      "configured": 64,
+      "runtime": 64
+    },
+    {
+      "tag": "GHA",
+      "configured": 274,
+      "runtime": 274
+    },
+    {
+      "tag": "GLC",
+      "configured": 171,
+      "runtime": 171
+    },
+    {
+      "tag": "GNA",
+      "configured": 780,
+      "runtime": 780
+    },
+    {
+      "tag": "GNB",
+      "configured": 296,
+      "runtime": 296
+    },
+    {
+      "tag": "GOW",
+      "configured": 673,
+      "runtime": 673
+    },
+    {
+      "tag": "GRD",
+      "configured": 692,
+      "runtime": 692
+    },
+    {
+      "tag": "GRE",
+      "configured": 47,
+      "runtime": 47
+    },
+    {
+      "tag": "GRN",
+      "configured": 101,
+      "runtime": 101
+    },
+    {
+      "tag": "GUA",
+      "configured": 313,
+      "runtime": 313
+    },
+    {
+      "tag": "GUM",
+      "configured": 638,
+      "runtime": 638
+    },
+    {
+      "tag": "GXC",
+      "configured": 594,
+      "runtime": 594
+    },
+    {
+      "tag": "GYA",
+      "configured": 687,
+      "runtime": 687
+    },
+    {
+      "tag": "HAI",
+      "configured": 318,
+      "runtime": 318
+    },
+    {
+      "tag": "HAN",
+      "configured": 59,
+      "runtime": 59
+    },
+    {
+      "tag": "HAR",
+      "configured": 835,
+      "runtime": 835
+    },
+    {
+      "tag": "HAW",
+      "configured": 629,
+      "runtime": 629
+    },
+    {
+      "tag": "HES",
+      "configured": 55,
+      "runtime": 55
+    },
+    {
+      "tag": "HOL",
+      "configured": 7,
+      "runtime": 7
+    },
+    {
+      "tag": "HON",
+      "configured": 312,
+      "runtime": 312
+    },
+    {
+      "tag": "HRZ",
+      "configured": 804,
+      "runtime": 804
+    },
+    {
+      "tag": "HUN",
+      "configured": 43,
+      "runtime": 43
+    },
+    {
+      "tag": "HYD",
+      "configured": 1575,
+      "runtime": 1575
+    },
+    {
+      "tag": "IAS",
+      "configured": 493,
+      "runtime": 493
+    },
+    {
+      "tag": "ICE",
+      "configured": 100,
+      "runtime": 100
+    },
+    {
+      "tag": "INC",
+      "configured": 494,
+      "runtime": 494
+    },
+    {
+      "tag": "INS",
+      "configured": 1058,
+      "runtime": 1058
+    },
+    {
+      "tag": "INU",
+      "configured": 463,
+      "runtime": 463
+    },
+    {
+      "tag": "IPL",
+      "configured": 435,
+      "runtime": 435
+    },
+    {
+      "tag": "IRE",
+      "configured": 113,
+      "runtime": 113
+    },
+    {
+      "tag": "IRQ",
+      "configured": 291,
+      "runtime": 291
+    },
+    {
+      "tag": "ISP",
+      "configured": 1373,
+      "runtime": 1373
+    },
+    {
+      "tag": "ISR",
+      "configured": 454,
+      "runtime": 454
+    },
+    {
+      "tag": "ITA",
+      "configured": 2,
+      "runtime": 2
+    },
+    {
+      "tag": "ITZ",
+      "configured": 311,
+      "runtime": 311
+    },
+    {
+      "tag": "IVO",
+      "configured": 1396,
+      "runtime": 1396
+    },
+    {
+      "tag": "JAM",
+      "configured": 689,
+      "runtime": 689
+    },
+    {
+      "tag": "JAN",
+      "configured": 914,
+      "runtime": 914
+    },
+    {
+      "tag": "JAP",
+      "configured": 1137,
+      "runtime": 1137
+    },
+    {
+      "tag": "JNM",
+      "configured": 1370,
+      "runtime": 1370
+    },
+    {
+      "tag": "JOR",
+      "configured": 455,
+      "runtime": 455
+    },
+    {
+      "tag": "KAL",
+      "configured": 236,
+      "runtime": 236
+    },
+    {
+      "tag": "KAR",
+      "configured": 216,
+      "runtime": 216
+    },
+    {
+      "tag": "KAT",
+      "configured": 1335,
+      "runtime": 1335
+    },
+    {
+      "tag": "KAZ",
+      "configured": 586,
+      "runtime": 586
+    },
+    {
+      "tag": "KBK",
+      "configured": 827,
+      "runtime": 827
+    },
+    {
+      "tag": "KEN",
+      "configured": 547,
+      "runtime": 547
+    },
+    {
+      "tag": "KER",
+      "configured": 982,
+      "runtime": 982
+    },
+    {
+      "tag": "KHA",
+      "configured": 569,
+      "runtime": 569
+    },
+    {
+      "tag": "KHI",
+      "configured": 832,
+      "runtime": 832
+    },
+    {
+      "tag": "KHL",
+      "configured": 1561,
+      "runtime": 1561
+    },
+    {
+      "tag": "KIR",
+      "configured": 639,
+      "runtime": 639
+    },
+    {
+      "tag": "KKP",
+      "configured": 823,
+      "runtime": 823
+    },
+    {
+      "tag": "KNA",
+      "configured": 1469,
+      "runtime": 1469
+    },
+    {
+      "tag": "KOL",
+      "configured": 983,
+      "runtime": 983
+    },
+    {
+      "tag": "KOM",
+      "configured": 397,
+      "runtime": 397
+    },
+    {
+      "tag": "KOR",
+      "configured": 525,
+      "runtime": 525
+    },
+    {
+      "tag": "KOS",
+      "configured": 802,
+      "runtime": 802
+    },
+    {
+      "tag": "KSH",
+      "configured": 807,
+      "runtime": 807
+    },
+    {
+      "tag": "KUB",
+      "configured": 234,
+      "runtime": 234
+    },
+    {
+      "tag": "KUR",
+      "configured": 800,
+      "runtime": 800
+    },
+    {
+      "tag": "KUW",
+      "configured": 656,
+      "runtime": 656
+    },
+    {
+      "tag": "KYR",
+      "configured": 732,
+      "runtime": 732
+    },
+    {
+      "tag": "LAO",
+      "configured": 670,
+      "runtime": 670
+    },
+    {
+      "tag": "LAT",
+      "configured": 808,
+      "runtime": 808
+    },
+    {
+      "tag": "LBA",
+      "configured": 448,
+      "runtime": 448
+    },
+    {
+      "tag": "LBV",
+      "configured": 160,
+      "runtime": 160
+    },
+    {
+      "tag": "LCA",
+      "configured": 1472,
+      "runtime": 1472
+    },
+    {
+      "tag": "LEB",
+      "configured": 553,
+      "runtime": 553
+    },
+    {
+      "tag": "LIB",
+      "configured": 298,
+      "runtime": 298
+    },
+    {
+      "tag": "LIT",
+      "configured": 11,
+      "runtime": 11
+    },
+    {
+      "tag": "LLU",
+      "configured": 6,
+      "runtime": 6
+    },
+    {
+      "tag": "LSO",
+      "configured": 1428,
+      "runtime": 1428
+    },
+    {
+      "tag": "LUX",
+      "configured": 7,
+      "runtime": 7
+    },
+    {
+      "tag": "MAC",
+      "configured": 106,
+      "runtime": 106
+    },
+    {
+      "tag": "MAD",
+      "configured": 543,
+      "runtime": 543
+    },
+    {
+      "tag": "MAL",
+      "configured": 336,
+      "runtime": 336
+    },
+    {
+      "tag": "MAN",
+      "configured": 714,
+      "runtime": 714
+    },
+    {
+      "tag": "MAY",
+      "configured": 475,
+      "runtime": 475
+    },
+    {
+      "tag": "MEK",
+      "configured": 63,
+      "runtime": 63
+    },
+    {
+      "tag": "MEL",
+      "configured": 833,
+      "runtime": 833
+    },
+    {
+      "tag": "MEN",
+      "configured": 1253,
+      "runtime": 1253
+    },
+    {
+      "tag": "MEX",
+      "configured": 277,
+      "runtime": 277
+    },
+    {
+      "tag": "MHL",
+      "configured": 633,
+      "runtime": 633
+    },
+    {
+      "tag": "MIS",
+      "configured": 317,
+      "runtime": 317
+    },
+    {
+      "tag": "MLD",
+      "configured": 281,
+      "runtime": 281
+    },
+    {
+      "tag": "MLI",
+      "configured": 1369,
+      "runtime": 1369
+    },
+    {
+      "tag": "MLT",
+      "configured": 116,
+      "runtime": 116
+    },
+    {
+      "tag": "MLW",
+      "configured": 770,
+      "runtime": 770
+    },
+    {
+      "tag": "MNT",
+      "configured": 105,
+      "runtime": 105
+    },
+    {
+      "tag": "MOL",
+      "configured": 78,
+      "runtime": 78
+    },
+    {
+      "tag": "MON",
+      "configured": 330,
+      "runtime": 330
+    },
+    {
+      "tag": "MOR",
+      "configured": 1415,
+      "runtime": 1415
+    },
+    {
+      "tag": "MRT",
+      "configured": 557,
+      "runtime": 557
+    },
+    {
+      "tag": "MYS",
+      "configured": 321,
+      "runtime": 321
+    },
+    {
+      "tag": "MZB",
+      "configured": 544,
+      "runtime": 544
+    },
+    {
+      "tag": "NAH",
+      "configured": 314,
+      "runtime": 314
+    },
+    {
+      "tag": "NAV",
+      "configured": 792,
+      "runtime": 792
+    },
+    {
+      "tag": "NEN",
+      "configured": 825,
+      "runtime": 825
+    },
+    {
+      "tag": "NGA",
+      "configured": 1417,
+      "runtime": 1417
+    },
+    {
+      "tag": "NGR",
+      "configured": 781,
+      "runtime": 781
+    },
+    {
+      "tag": "NIC",
+      "configured": 317,
+      "runtime": 317
+    },
+    {
+      "tag": "NIR",
+      "configured": 119,
+      "runtime": 119
+    },
+    {
+      "tag": "NIU",
+      "configured": 1476,
+      "runtime": 1476
+    },
+    {
+      "tag": "NMB",
+      "configured": 541,
+      "runtime": 541
+    },
+    {
+      "tag": "NOA",
+      "configured": 828,
+      "runtime": 828
+    },
+    {
+      "tag": "NOR",
+      "configured": 142,
+      "runtime": 142
+    },
+    {
+      "tag": "NRU",
+      "configured": 725,
+      "runtime": 725
+    },
+    {
+      "tag": "NZL",
+      "configured": 284,
+      "runtime": 284
+    },
+    {
+      "tag": "OCC",
+      "configured": 31,
+      "runtime": 31
+    },
+    {
+      "tag": "OKN",
+      "configured": 526,
+      "runtime": 526
+    },
+    {
+      "tag": "OMA",
+      "configured": 294,
+      "runtime": 294
+    },
+    {
+      "tag": "ORO",
+      "configured": 1242,
+      "runtime": 1242
+    },
+    {
+      "tag": "OVO",
+      "configured": 580,
+      "runtime": 580
+    },
+    {
+      "tag": "PAK",
+      "configured": 440,
+      "runtime": 440
+    },
+    {
+      "tag": "PAL",
+      "configured": 454,
+      "runtime": 454
+    },
+    {
+      "tag": "PAN",
+      "configured": 304,
+      "runtime": 304
+    },
+    {
+      "tag": "PAP",
+      "configured": 2,
+      "runtime": 2
+    },
+    {
+      "tag": "PAR",
+      "configured": 301,
+      "runtime": 301
+    },
+    {
+      "tag": "PER",
+      "configured": 266,
+      "runtime": 266
+    },
+    {
+      "tag": "PHI",
+      "configured": 327,
+      "runtime": 327
+    },
+    {
+      "tag": "PLU",
+      "configured": 647,
+      "runtime": 647
+    },
+    {
+      "tag": "PNG",
+      "configured": 523,
+      "runtime": 523
+    },
+    {
+      "tag": "POL",
+      "configured": 1312,
+      "runtime": 1312
+    },
+    {
+      "tag": "POR",
+      "configured": 112,
+      "runtime": 112
+    },
+    {
+      "tag": "PRC",
+      "configured": 608,
+      "runtime": 608
+    },
+    {
+      "tag": "PRE",
+      "configured": 64,
+      "runtime": 64
+    },
+    {
+      "tag": "PRU",
+      "configured": 303,
+      "runtime": 303
+    },
+    {
+      "tag": "PUE",
+      "configured": 686,
+      "runtime": 686
+    },
+    {
+      "tag": "QAT",
+      "configured": 765,
+      "runtime": 765
+    },
+    {
+      "tag": "QEM",
+      "configured": 841,
+      "runtime": 841
+    },
+    {
+      "tag": "QUE",
+      "configured": 468,
+      "runtime": 468
+    },
+    {
+      "tag": "RAJ",
+      "configured": 1560,
+      "runtime": 1560
+    },
+    {
+      "tag": "RAP",
+      "configured": 948,
+      "runtime": 948
+    },
+    {
+      "tag": "RAS",
+      "configured": 423,
+      "runtime": 423
+    },
+    {
+      "tag": "RCG",
+      "configured": 1252,
+      "runtime": 1252
+    },
+    {
+      "tag": "RHI",
+      "configured": 51,
+      "runtime": 51
+    },
+    {
+      "tag": "RIF",
+      "configured": 290,
+      "runtime": 290
+    },
+    {
+      "tag": "RIG",
+      "configured": 479,
+      "runtime": 479
+    },
+    {
+      "tag": "ROM",
+      "configured": 46,
+      "runtime": 46
+    },
+    {
+      "tag": "RWA",
+      "configured": 768,
+      "runtime": 768
+    },
+    {
+      "tag": "RZE",
+      "configured": 1,
+      "runtime": 1
+    },
+    {
+      "tag": "SAB",
+      "configured": 1024,
+      "runtime": 1024
+    },
+    {
+      "tag": "SAF",
+      "configured": 275,
+      "runtime": 275
+    },
+    {
+      "tag": "SAM",
+      "configured": 726,
+      "runtime": 726
+    },
+    {
+      "tag": "SAR",
+      "configured": 333,
+      "runtime": 333
+    },
+    {
+      "tag": "SAU",
+      "configured": 292,
+      "runtime": 292
+    },
+    {
+      "tag": "SAX",
+      "configured": 65,
+      "runtime": 65
+    },
+    {
+      "tag": "SCO",
+      "configured": 121,
+      "runtime": 121
+    },
+    {
+      "tag": "SEN",
+      "configured": 272,
+      "runtime": 272
+    },
+    {
+      "tag": "SER",
+      "configured": 107,
+      "runtime": 107
+    },
+    {
+      "tag": "SHL",
+      "configured": 58,
+      "runtime": 58
+    },
+    {
+      "tag": "SHX",
+      "configured": 715,
+      "runtime": 715
+    },
+    {
+      "tag": "SIA",
+      "configured": 1076,
+      "runtime": 1076
+    },
+    {
+      "tag": "SID",
+      "configured": 1247,
+      "runtime": 1247
+    },
+    {
+      "tag": "SIE",
+      "configured": 700,
+      "runtime": 700
+    },
+    {
+      "tag": "SIK",
+      "configured": 617,
+      "runtime": 617
+    },
+    {
+      "tag": "SIL",
+      "configured": 66,
+      "runtime": 66
+    },
+    {
+      "tag": "SLO",
+      "configured": 664,
+      "runtime": 664
+    },
+    {
+      "tag": "SLV",
+      "configured": 853,
+      "runtime": 853
+    },
+    {
+      "tag": "SMI",
+      "configured": 148,
+      "runtime": 148
+    },
+    {
+      "tag": "SML",
+      "configured": 269,
+      "runtime": 269
+    },
+    {
+      "tag": "SNG",
+      "configured": 1021,
+      "runtime": 1021
+    },
+    {
+      "tag": "SOL",
+      "configured": 634,
+      "runtime": 634
+    },
+    {
+      "tag": "SOM",
+      "configured": 559,
+      "runtime": 559
+    },
+    {
+      "tag": "SOV",
+      "configured": 1157,
+      "runtime": 1157
+    },
+    {
+      "tag": "SPM",
+      "configured": 158,
+      "runtime": 158
+    },
+    {
+      "tag": "SPR",
+      "configured": 41,
+      "runtime": 41
+    },
+    {
+      "tag": "SRL",
+      "configured": 422,
+      "runtime": 422
+    },
+    {
+      "tag": "SSD",
+      "configured": 1498,
+      "runtime": 1498
+    },
+    {
+      "tag": "SSI",
+      "configured": 1049,
+      "runtime": 1049
+    },
+    {
+      "tag": "SUD",
+      "configured": 1493,
+      "runtime": 1493
+    },
+    {
+      "tag": "SUR",
+      "configured": 309,
+      "runtime": 309
+    },
+    {
+      "tag": "SWE",
+      "configured": 1297,
+      "runtime": 1297
+    },
+    {
+      "tag": "SWI",
+      "configured": 845,
+      "runtime": 845
+    },
+    {
+      "tag": "SWZ",
+      "configured": 1427,
+      "runtime": 1427
+    },
+    {
+      "tag": "SYR",
+      "configured": 554,
+      "runtime": 554
+    },
+    {
+      "tag": "TAH",
+      "configured": 641,
+      "runtime": 641
+    },
+    {
+      "tag": "TAJ",
+      "configured": 742,
+      "runtime": 742
+    },
+    {
+      "tag": "TAN",
+      "configured": 329,
+      "runtime": 329
+    },
+    {
+      "tag": "TAT",
+      "configured": 249,
+      "runtime": 249
+    },
+    {
+      "tag": "TAY",
+      "configured": 516,
+      "runtime": 516
+    },
+    {
+      "tag": "THU",
+      "configured": 60,
+      "runtime": 60
+    },
+    {
+      "tag": "TIB",
+      "configured": 1271,
+      "runtime": 1271
+    },
+    {
+      "tag": "TIG",
+      "configured": 842,
+      "runtime": 842
+    },
+    {
+      "tag": "TML",
+      "configured": 721,
+      "runtime": 721
+    },
+    {
+      "tag": "TMS",
+      "configured": 584,
+      "runtime": 584
+    },
+    {
+      "tag": "TNE",
+      "configured": 668,
+      "runtime": 668
+    },
+    {
+      "tag": "TOG",
+      "configured": 777,
+      "runtime": 777
+    },
+    {
+      "tag": "TON",
+      "configured": 1332,
+      "runtime": 1332
+    },
+    {
+      "tag": "TOS",
+      "configured": 162,
+      "runtime": 162
+    },
+    {
+      "tag": "TRA",
+      "configured": 84,
+      "runtime": 84
+    },
+    {
+      "tag": "TRI",
+      "configured": 691,
+      "runtime": 691
+    },
+    {
+      "tag": "TTS",
+      "configured": 117,
+      "runtime": 117
+    },
+    {
+      "tag": "TUN",
+      "configured": 458,
+      "runtime": 458
+    },
+    {
+      "tag": "TUR",
+      "configured": 49,
+      "runtime": 49
+    },
+    {
+      "tag": "TUV",
+      "configured": 643,
+      "runtime": 643
+    },
+    {
+      "tag": "TZN",
+      "configured": 1449,
+      "runtime": 1449
+    },
+    {
+      "tag": "UAE",
+      "configured": 658,
+      "runtime": 658
+    },
+    {
+      "tag": "UDM",
+      "configured": 399,
+      "runtime": 399
+    },
+    {
+      "tag": "UGA",
+      "configured": 548,
+      "runtime": 548
+    },
+    {
+      "tag": "UKR",
+      "configured": 202,
+      "runtime": 202
+    },
+    {
+      "tag": "URG",
+      "configured": 300,
+      "runtime": 300
+    },
+    {
+      "tag": "USA",
+      "configured": 1165,
+      "runtime": 1165
+    },
+    {
+      "tag": "UZB",
+      "configured": 405,
+      "runtime": 405
+    },
+    {
+      "tag": "VAN",
+      "configured": 1071,
+      "runtime": 1071
+    },
+    {
+      "tag": "VCT",
+      "configured": 1473,
+      "runtime": 1473
+    },
+    {
+      "tag": "VEN",
+      "configured": 307,
+      "runtime": 307
+    },
+    {
+      "tag": "VGE",
+      "configured": 829,
+      "runtime": 829
+    },
+    {
+      "tag": "VIN",
+      "configured": 671,
+      "runtime": 671
+    },
+    {
+      "tag": "VLA",
+      "configured": 408,
+      "runtime": 408
+    },
+    {
+      "tag": "VOL",
+      "configured": 778,
+      "runtime": 778
+    },
+    {
+      "tag": "WES",
+      "configured": 699,
+      "runtime": 699
+    },
+    {
+      "tag": "WGR",
+      "configured": 64,
+      "runtime": 64
+    },
+    {
+      "tag": "WIS",
+      "configured": 1563,
+      "runtime": 1563
+    },
+    {
+      "tag": "WLA",
+      "configured": 955,
+      "runtime": 955
+    },
+    {
+      "tag": "WLS",
+      "configured": 122,
+      "runtime": 122
+    },
+    {
+      "tag": "WPG",
+      "configured": 669,
+      "runtime": 669
+    },
+    {
+      "tag": "WUR",
+      "configured": 50,
+      "runtime": 50
+    },
+    {
+      "tag": "XSM",
+      "configured": 1262,
+      "runtime": 1262
+    },
+    {
+      "tag": "YAK",
+      "configured": 1587,
+      "runtime": 1587
+    },
+    {
+      "tag": "YAM",
+      "configured": 579,
+      "runtime": 579
+    },
+    {
+      "tag": "YEM",
+      "configured": 293,
+      "runtime": 293
+    },
+    {
+      "tag": "YUC",
+      "configured": 474,
+      "runtime": 474
+    },
+    {
+      "tag": "YUG",
+      "configured": 107,
+      "runtime": 107
+    },
+    {
+      "tag": "YUN",
+      "configured": 325,
+      "runtime": 325
+    },
+    {
+      "tag": "ZAM",
+      "configured": 981,
+      "runtime": 981
+    },
+    {
+      "tag": "ZIM",
+      "configured": 545,
+      "runtime": 545
+    },
+    {
+      "tag": "ZZZ",
+      "configured": 38,
+      "runtime": 38
+    }
+  ],
+  "superseded_reason": "27 new lake spawn positions rejected by engine; removed; first world screenshot captured before panel appeared"
+}

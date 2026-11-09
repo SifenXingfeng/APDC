@@ -39,9 +39,15 @@ state = {
 	state_category = town
 	local_supplies = 0.000
 	history = {
-		owner = PAK
-		controller = PAK
-		add_core_of = PAK
+		owner = ASM
+		controller = ASM
+		add_core_of = ASM
+		add_claim_by = IPL
+		add_claim_by = RAJ
+
+		
+		
+		
 		victory_points = {
 			997
 			1
