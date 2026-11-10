@@ -1,0 +1,322 @@
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_load_tfv_small"
+		texturefile = "gfx/loadingscreens/load_tfv_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_dod_small"
+		texturefile = "gfx/loadingscreens/load_dod_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_tiger_small"
+		texturefile = "gfx/loadingscreens/load_tiger_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_mtg_small"
+		texturefile = "gfx/loadingscreens/load_mtg_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_apdc_mainmenu_14_small"
+		texturefile = "gfx/loadingscreens/apdc_mainmenu_14_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_mtg_2_small"
+		texturefile = "gfx/loadingscreens/load_mtg_2_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_029_small"
+		texturefile = "gfx/loadingscreens/load_apdc_029_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_030_small"
+		texturefile = "gfx/loadingscreens/load_apdc_030_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_031_small"
+		texturefile = "gfx/loadingscreens/load_apdc_031_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_032_small"
+		texturefile = "gfx/loadingscreens/load_apdc_032_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_033_small"
+		texturefile = "gfx/loadingscreens/load_apdc_033_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_034_small"
+		texturefile = "gfx/loadingscreens/load_apdc_034_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_035_small"
+		texturefile = "gfx/loadingscreens/load_apdc_035_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_036_small"
+		texturefile = "gfx/loadingscreens/load_apdc_036_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_037_small"
+		texturefile = "gfx/loadingscreens/load_apdc_037_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_038_small"
+		texturefile = "gfx/loadingscreens/load_apdc_038_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_039_small"
+		texturefile = "gfx/loadingscreens/load_apdc_039_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_040_small"
+		texturefile = "gfx/loadingscreens/load_apdc_040_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_041_small"
+		texturefile = "gfx/loadingscreens/load_apdc_041_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_042_small"
+		texturefile = "gfx/loadingscreens/load_apdc_042_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_043_small"
+		texturefile = "gfx/loadingscreens/load_apdc_043_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_044_small"
+		texturefile = "gfx/loadingscreens/load_apdc_044_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_045_small"
+		texturefile = "gfx/loadingscreens/load_apdc_045_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_046_small"
+		texturefile = "gfx/loadingscreens/load_apdc_046_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_047_small"
+		texturefile = "gfx/loadingscreens/load_apdc_047_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_048_small"
+		texturefile = "gfx/loadingscreens/load_apdc_048_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_049_small"
+		texturefile = "gfx/loadingscreens/load_apdc_049_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_050_small"
+		texturefile = "gfx/loadingscreens/load_apdc_050_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_051_small"
+		texturefile = "gfx/loadingscreens/load_apdc_051_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_052_small"
+		texturefile = "gfx/loadingscreens/load_apdc_052_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_053_small"
+		texturefile = "gfx/loadingscreens/load_apdc_053_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_054_small"
+		texturefile = "gfx/loadingscreens/load_apdc_054_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_055_small"
+		texturefile = "gfx/loadingscreens/load_apdc_055_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_056_small"
+		texturefile = "gfx/loadingscreens/load_apdc_056_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_057_small"
+		texturefile = "gfx/loadingscreens/load_apdc_057_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_058_small"
+		texturefile = "gfx/loadingscreens/load_apdc_058_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_059_small"
+		texturefile = "gfx/loadingscreens/load_apdc_059_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_060_small"
+		texturefile = "gfx/loadingscreens/load_apdc_060_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_061_small"
+		texturefile = "gfx/loadingscreens/load_apdc_061_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_apdc_062_small"
+		texturefile = "gfx/loadingscreens/load_apdc_062_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+}

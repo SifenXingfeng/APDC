@@ -124,7 +124,7 @@ def generate(loc):
     write('tools/economy/build_equipment.py',source)
     gfx='';ui='';props='';events='';visibility=''
     for key,name in eco.items():
-        img=Path('D:/Desktop/经济体制')/(name+'.png')
+        img=SOURCE/'economic_systems'/(key+'.png')
         write('gfx/interface/APDC/economic_systems/'+key+'.png',img.read_bytes())
         gfx+=block('spriteType','name = "GFX_APDC_economic_system_'+key+'"\ntexturefile = "gfx/interface/APDC/economic_systems/'+key+'.png"')
         ui+=block('buttonType','name = "APDC_economic_system_'+key+'"\nposition = { x = 26 y = 654 }\nquadTextureSprite = "GFX_APDC_economic_system_'+key+'"\nclicksound = click_default\npdx_tooltip = "APDC_economic_system_'+key+'_idea_desc"')

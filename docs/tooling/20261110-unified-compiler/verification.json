@@ -1,0 +1,37 @@
+{
+  "desktop_access_forbidden": true,
+  "invoked_from_outside_project": true,
+  "steps": [
+    {
+      "step": "full-build",
+      "exit": 0,
+      "seconds": 8.14
+    },
+    {
+      "step": "repeat-assets",
+      "exit": 0,
+      "seconds": 6.5
+    },
+    {
+      "step": "static-check",
+      "exit": 0,
+      "seconds": 3.55
+    },
+    {
+      "step": "ui-check",
+      "exit": 0,
+      "seconds": 0.66
+    }
+  ],
+  "static_checks": 29,
+  "ui_checks": 19,
+  "repeat_asset_build_identical": true,
+  "sprite_definitions_exactly_preserved": true,
+  "runtime_images_exactly_preserved": 275,
+  "runtime_semantic_differences": [],
+  "new_runtime_files": [],
+  "main_project_runtime_files_written": false,
+  "local_word_import_verified": true,
+  "format_only_difference_count": 346,
+  "evidence": "D:\\C-Drive-Migration-20260929\\Permanent\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\.codex_backups\\APDC\\20261110-101622-parliament-portable-assets\\qa\\results.json"
+}

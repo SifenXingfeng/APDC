@@ -17,9 +17,9 @@
 | `data/settings.json` | 费用、可扩展选举周期、人力结算解释等初始平衡参数 |
 | `data/seat_layout.json` | 生成的500席点位、行数与顺序，无须手工逐点修改 |
 
-运行 `python -X utf8 tools/parliament/build.py` 会先在项目外建立新的备份。修复同一轮生成时可用 `--backup <该轮备份目录>`，原始字节只保存一次。然后运行 `python -X utf8 tools/parliament/verify.py`。不要用旧历史、旧草案整体覆盖当前国家配置。
+统一从 `python -X utf8 tools/compile.py parliament` 重建，会先在项目外建立新的备份。修复同一轮生成时可用 `--backup <该轮备份目录>`，原始字节只保存一次。然后运行 `python -X utf8 tools/compile.py parliament-check`。统一入口及发布边界见[tools/README.md](../README.md)。不要用旧历史、旧草案整体覆盖当前国家配置。
 
-`--import-data` 仅用于有意重新导入桌面原文，会重建导入配置，不是日常重建必选项。美术导入使用用户提供的桌面PNG及Word中九张政体图标；重建这些素材时需要原来源文件仍在。`legacy/` 是旧内阁代码的生成参考，不是独立可加载模组。原有真实成员效果和六席内阁分配方式继续保留。
+`--import-data` 仅用于有意重新导入项目内的原始法案Word，会重建导入配置，不是日常重建必选项。全部议会PNG、经济体制图标和原始Word已保存在 `tools/assets/parliament/`，重建不访问桌面。原版素材位置可用 `--game-dir <游戏安装目录>` 或 `APDC_GAME_DIR` 指定。`legacy/` 是旧内阁代码的生成参考，不是独立可加载模组。原有真实成员效果和六席内阁分配方式继续保留。
 
 ## 剧情接口
 

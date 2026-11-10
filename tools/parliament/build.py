@@ -9,7 +9,11 @@ def main():
     ap.add_argument('--backup',type=Path)
     ap.add_argument('--import-data',action='store_true')
     ap.add_argument('--assets-only',action='store_true')
+    ap.add_argument('--game-dir',type=Path,help='HOI4 installation directory used for native artwork')
     args=ap.parse_args()
+    if args.game_dir:
+        import common
+        common.GAME=args.game_dir.resolve()
     backup=begin(args.backup)
     if not (backup/'git-status-before.txt').exists():
         (backup/'git-status-before.txt').write_bytes(subprocess.run(['git','status','--porcelain=v1','--untracked-files=no'],cwd=ROOT,capture_output=True,check=True).stdout)

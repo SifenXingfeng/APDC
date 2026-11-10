@@ -5,10 +5,12 @@ import hashlib
 import json
 import shutil
 import sys
+import os
 
 ROOT = Path(__file__).resolve().parents[2]
-GAME = Path('D:/SteamLibrary/steamapps/common/Hearts of Iron IV')
+GAME = Path(os.environ.get('APDC_GAME_DIR', 'D:/SteamLibrary/steamapps/common/Hearts of Iron IV'))
 DATA = ROOT / 'tools/parliament/data'
+SOURCE = ROOT / 'tools/assets/parliament'
 REPORT = ROOT / 'docs/parliament/20261107-implementation'
 sys.path.insert(0, str(ROOT / 'tools/unit_overhaul'))
 from cw import parse, walk, patches

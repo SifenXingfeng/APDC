@@ -10,7 +10,7 @@ KEYS=['doll_rights','infected_rights','women_rights','relic_technology','economi
 
 def import_sources():
     policy=json.loads(read('docs/parliament/20261107-design/opening_policy.json'))
-    source=Path('D:/Desktop/议会法案.docx')
+    source=SOURCE/'documents/laws.docx'
     ns={'w':'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
     with ZipFile(source) as z:
         root=ET.fromstring(z.read('word/document.xml'))
@@ -30,9 +30,9 @@ def import_sources():
             if group['key']=='relic_technology':line=line.replace('每周人力：','每月人口：')
             option['effects'].append(line)
     assert [len(g['options']) for g in groups]==[7,6,5,6,10,9]
-    # Keep an editable catalogue; later builds never reread a changed desktop
+    # Keep an editable catalogue; later builds never reread a changed source
     # document unless --import-data is explicitly requested.
-    json_write('tools/parliament/data/laws.json',{'schema_version':1,'source':str(source),'source_sha256':hashlib.sha256(source.read_bytes()).hexdigest(),'user_corrections':['2026-11-07 感染者每月人力与遗迹每周人力均指每月人口增长率修正；后者为笔误。'],'groups':groups})
+    json_write('tools/parliament/data/laws.json',{'schema_version':1,'source':source.relative_to(ROOT).as_posix(),'source_sha256':hashlib.sha256(source.read_bytes()).hexdigest(),'user_corrections':['2026-11-07 感染者每月人力与遗迹每周人力均指每月人口增长率修正；后者为笔误。'],'groups':groups})
     json_write('tools/parliament/data/regimes.json',policy['regimes'])
     draft=json.loads(read('docs/parliament/20261107-design/initial_setup_draft.json'))
     json_write('tools/parliament/data/opening_countries.json',draft['countries'])
