@@ -1,0 +1,41 @@
+# Optional independent hooks. on_startup runs for new campaigns; the daily
+# hooks also support an existing save after new files have been added.
+# An event/focus/decision may instead call the named wrapper directly.
+on_actions = {
+    on_startup = {
+        effect = {
+            GER = {
+                GER_example_candidate_register = yes
+                set_country_flag = APDC_example_candidate_3001_registered
+                # Uncomment only if the story should unlock the action now:
+                # GER_example_action_unlock = yes
+            }
+            SOV = {
+                if = {
+                    limit = { has_country_flag = APDC_cooperation_organization_container }
+                    APDC_example_rule_register = yes
+                }
+            }
+        }
+    }
+    on_daily_GER = {
+        effect = {
+            if = {
+                limit = { NOT = { has_country_flag = APDC_example_candidate_3001_registered } }
+                GER_example_candidate_register = yes
+                set_country_flag = APDC_example_candidate_3001_registered
+            }
+        }
+    }
+    on_daily_SOV = {
+        effect = {
+            if = {
+                limit = {
+                    has_country_flag = APDC_cooperation_organization_container
+                    NOT = { is_in_array = { array = APDC_cooperation_container_law_groups value = 101 } }
+                }
+                APDC_example_rule_register = yes
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+  "valid_independent_files": {
+    "passed": true,
+    "bills": 4
+  },
+  "missing-callback": {
+    "passed": true,
+    "detected": [
+      "qa_special_three: expected exactly one on_fail effect"
+    ]
+  },
+  "duplicate-id": {
+    "passed": true,
+    "detected": [
+      "APDC_special_bills_QA_2.txt: expected unlock wrapper qa_special_one_unlock",
+      "duplicate bill key: qa_special_one"
+    ]
+  },
+  "missing-token": {
+    "passed": true,
+    "detected": [
+      "qa_special_three: missing synchronized token qa_special_three_desc"
+    ]
+  },
+  "missing-localization": {
+    "passed": true,
+    "detected": [
+      "qa_special_three: missing localization qa_special_three_desc"
+    ]
+  },
+  "legacy-collision": {
+    "passed": true,
+    "detected": [
+      "ID 10001 also exists in the legacy JSON catalogue"
+    ]
+  },
+  "missing-identity-bridge": {
+    "passed": true,
+    "detected": [
+      "APDC_special_bills_QA_3.txt: ID 10003 requires exactly one stable identity bridge"
+    ]
+  },
+  "misbound-key": {
+    "passed": true,
+    "detected": [
+      "APDC_special_bills_QA_3.txt: expected unlock wrapper qa_special_two_unlock",
+      "duplicate bill key: qa_special_two"
+    ]
+  }
+}

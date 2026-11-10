@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "passed": [
+    "adding_token_file_reordered_saved_name_index",
+    "both_old_and_new_member_effects_stay_balanced",
+    "legacy_candidate_adoption_keeps_offices_and_finishes_once",
+    "legacy_candidate_cache_adopts_original_roster_and_keeps_new_argument",
+    "legacy_rule_adoption_keeps_choice_lock_and_availability",
+    "legacy_rule_adoption_restores_names_without_reordering",
+    "loaded_actual_saved_role_and_effect",
+    "new_action_calls_its_own_execute_callback",
+    "new_action_calls_its_own_stop_callback",
+    "new_action_is_in_dynamic_list_and_sources",
+    "new_candidate_callback_and_identity_are_independent",
+    "new_candidate_registers_without_core_rebuild",
+    "new_rule_registers_without_resetting_old_choice",
+    "normal_ballot_resolves_to_native_rule_effects",
+    "public_rule_proposal_uses_the_existing_queue",
+    "queued_rule_starts_normal_ballot",
+    "saved_domestic_action_keeps_running",
+    "saved_member_effect_not_applied_twice",
+    "saved_role_name_rebound_from_permanent_id",
+    "saved_rule_choice_and_callbacks_are_preserved",
+    "withdrawing_candidate_refreshes_pool_and_preserves_office",
+    "withdrawn_candidate_cannot_reappoint_and_can_be_dismissed"
+  ],
+  "failed": [],
+  "missing": [],
+  "related_errors": [],
+  "core_changed": [],
+  "source_save_date": "2060.2.1.1",
+  "source_save_sha256": "8c83e9b18016b55c847515d6ff428044fc3b45335880fd636c90fe7697561593"
+}

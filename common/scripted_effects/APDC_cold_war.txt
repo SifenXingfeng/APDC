@@ -17,8 +17,13 @@ add_to_array = { array = apdc_cw_auto_delta value = 0 }
 
 }
 apdc_cw_notify_controls = {
+if = {
+limit = { NOT = { has_country_flag = apdc_na_registering } }
+
 every_country = { limit = { is_ai = no has_country_flag = apdc_cw_open } apdc_cw_refresh_view = yes }
 }
+}
+
 apdc_cw_invalidate_maps = {
 add_to_variable = { global.apdc_cw_map_revision = 1 }
 every_country = { limit = { is_ai = no has_country_flag = apdc_cw_open }
@@ -244,26 +249,47 @@ apdc_cw_notify_controls = yes
 
 }
 apdc_cw_remove_law = {
+apdc_na_ensure = yes
+
 apdc_cw_find_law = yes
 if = { limit = { check_variable = { apdc_cw_law_index > -1 } }
+if = {
+limit = { check_variable = { apdc_cw_law_running^apdc_cw_law_index = 1 } }
+set_temp_variable = { apdc_na_callback_row = apdc_cw_law_index }
+apdc_na_on_stop = yes
+}
 set_variable = { apdc_cw_law_running^apdc_cw_law_index = 0 }
 set_variable = { apdc_cw_law_unlocked^apdc_cw_law_index = 0 }
 add_to_variable = { apdc_cw_revision = 1 }
 apdc_cw_notify_controls = yes
 }
-
 }
+
 apdc_cw_submit_law = {
+apdc_na_refresh_all = yes
+
 if = { limit = { apdc_cw_can_select_law = yes }
 set_temp_variable = { apdc_cw_payment = apdc_cw_law_execute_cost^apdc_cw_law_row }
 multiply_temp_variable = { apdc_cw_payment = -1 }
 add_political_power = apdc_cw_payment
 set_variable = { apdc_cw_law_running^apdc_cw_law_row = apdc_cw_option }
+set_temp_variable = { apdc_na_callback_row = apdc_cw_law_row }
+if = {
+limit = { check_variable = { apdc_cw_option = 1 } }
+apdc_na_on_execute = yes
+}
+else = {
+apdc_na_on_stop = yes
+}
+
 add_to_variable = { apdc_cw_revision = 1 }
 apdc_cw_refresh_view = yes
 }
 }
+
 apdc_cw_tick_laws = {
+apdc_na_refresh_all = yes
+
 for_each_loop = { array = apdc_cw_law_id index = apdc_cw_tick_record value = apdc_cw_tick_id
 set_variable = { apdc_cw_law_last_delta^apdc_cw_tick_record = 0 }
 if = { limit = { check_variable = { apdc_cw_law_running^apdc_cw_tick_record = 1 } }
@@ -271,6 +297,8 @@ set_variable = { global.apdc_cw_tick_owner = THIS }
 set_variable = { global.apdc_cw_tick_target = apdc_cw_law_target^apdc_cw_tick_record }
 set_variable = { global.apdc_cw_tick_actor = apdc_cw_law_beneficiary^apdc_cw_tick_record }
 if = { limit = { var:global.apdc_cw_tick_target = { exists = yes } var:global.apdc_cw_tick_actor = { exists = yes } exists = yes }
+set_temp_variable = { apdc_na_callback_row = apdc_cw_tick_record }
+apdc_na_on_daily = yes
 set_variable = { global.apdc_cw_tick_axis = apdc_cw_law_axis^apdc_cw_tick_record }
 set_variable = { global.apdc_cw_tick_delta = apdc_cw_law_rate^apdc_cw_tick_record }
 set_variable = { apdc_cw_law_last_delta^apdc_cw_tick_record = apdc_cw_law_rate^apdc_cw_tick_record }
@@ -289,9 +317,12 @@ if = { limit = { check_variable = { apdc_cw_axis = 3 } }
 add_to_variable = { apdc_cw_law_delta_military^apdc_cw_source_index = apdc_cw_delta }
 }
 
-} } else = { set_variable = { apdc_cw_law_running^apdc_cw_tick_record = 0 } }
+} } else = { set_temp_variable = { apdc_na_callback_row = apdc_cw_tick_record }
+apdc_na_on_stop = yes
+set_variable = { apdc_cw_law_running^apdc_cw_tick_record = 0 } }
 } }
 }
+
 apdc_cw_political_attraction = {
 for_loop_effect = { start = 1 end = apdc_cw_sources^num value = apdc_cw_attraction_index
 set_variable = { apdc_cw_actor = apdc_cw_sources^apdc_cw_attraction_index }

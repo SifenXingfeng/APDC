@@ -68,209 +68,239 @@ defined_text = {
 # Law-group names are resolved separately for the lower dynamic row, queue
 # entry and active ballot because each list supplies a different value token.
 defined_text = {
-	name = APDCCooperationLawGroupName
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 1 } } localization_key = APDC_COOPERATION_LAW_GROUP_1 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 2 } } localization_key = APDC_COOPERATION_LAW_GROUP_2 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 3 } } localization_key = APDC_COOPERATION_LAW_GROUP_3 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 4 } } localization_key = APDC_COOPERATION_LAW_GROUP_4 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 5 } } localization_key = APDC_COOPERATION_LAW_GROUP_5 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 6 } } localization_key = APDC_COOPERATION_LAW_GROUP_6 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 7 } } localization_key = APDC_COOPERATION_LAW_GROUP_7 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 8 } } localization_key = APDC_COOPERATION_LAW_GROUP_8 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 9 } } localization_key = APDC_COOPERATION_LAW_GROUP_9 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 10 } } localization_key = APDC_COOPERATION_LAW_GROUP_10 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 11 } } localization_key = APDC_COOPERATION_LAW_GROUP_11 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 12 } } localization_key = APDC_COOPERATION_LAW_GROUP_12 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 13 } } localization_key = APDC_COOPERATION_LAW_GROUP_13 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 14 } } localization_key = APDC_COOPERATION_LAW_GROUP_14 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 15 } } localization_key = APDC_COOPERATION_LAW_GROUP_15 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 16 } } localization_key = APDC_COOPERATION_LAW_GROUP_16 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 17 } } localization_key = APDC_COOPERATION_LAW_GROUP_17 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 18 } } localization_key = APDC_COOPERATION_LAW_GROUP_18 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 19 } } localization_key = APDC_COOPERATION_LAW_GROUP_19 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 20 } } localization_key = APDC_COOPERATION_LAW_GROUP_20 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 21 } } localization_key = APDC_COOPERATION_LAW_GROUP_21 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 22 } } localization_key = APDC_COOPERATION_LAW_GROUP_22 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 23 } } localization_key = APDC_COOPERATION_LAW_GROUP_23 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 24 } } localization_key = APDC_COOPERATION_LAW_GROUP_24 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 25 } } localization_key = APDC_COOPERATION_LAW_GROUP_25 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 26 } } localization_key = APDC_COOPERATION_LAW_GROUP_26 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 27 } } localization_key = APDC_COOPERATION_LAW_GROUP_27 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 28 } } localization_key = APDC_COOPERATION_LAW_GROUP_28 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 29 } } localization_key = APDC_COOPERATION_LAW_GROUP_29 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 30 } } localization_key = APDC_COOPERATION_LAW_GROUP_30 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 31 } } localization_key = APDC_COOPERATION_LAW_GROUP_31 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 32 } } localization_key = APDC_COOPERATION_LAW_GROUP_32 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 33 } } localization_key = APDC_COOPERATION_LAW_GROUP_33 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 34 } } localization_key = APDC_COOPERATION_LAW_GROUP_34 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 35 } } localization_key = APDC_COOPERATION_LAW_GROUP_35 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 36 } } localization_key = APDC_COOPERATION_LAW_GROUP_36 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 37 } } localization_key = APDC_COOPERATION_LAW_GROUP_37 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 38 } } localization_key = APDC_COOPERATION_LAW_GROUP_38 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 39 } } localization_key = APDC_COOPERATION_LAW_GROUP_39 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 40 } } localization_key = APDC_COOPERATION_LAW_GROUP_40 }
+name = APDCCooperationLawGroupName
+text = {
+trigger = { check_variable = { APDC_cooperation_law_group_id > 0 } check_variable = { APDC_cooperation_law_group_id < apdc_nr_view_names^num } }
+localization_key = [?apdc_nr_view_names^APDC_cooperation_law_group_id.GetTokenKey]
+}
+text = {
+localization_key = APDC_NATIVE_CONTENT_EMPTY
 }
 
-defined_text = {
-	name = APDCCooperationQueueLawGroupName
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 1 } } localization_key = APDC_COOPERATION_LAW_GROUP_1 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 2 } } localization_key = APDC_COOPERATION_LAW_GROUP_2 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 3 } } localization_key = APDC_COOPERATION_LAW_GROUP_3 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 4 } } localization_key = APDC_COOPERATION_LAW_GROUP_4 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 5 } } localization_key = APDC_COOPERATION_LAW_GROUP_5 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 6 } } localization_key = APDC_COOPERATION_LAW_GROUP_6 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 7 } } localization_key = APDC_COOPERATION_LAW_GROUP_7 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 8 } } localization_key = APDC_COOPERATION_LAW_GROUP_8 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 9 } } localization_key = APDC_COOPERATION_LAW_GROUP_9 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 10 } } localization_key = APDC_COOPERATION_LAW_GROUP_10 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 11 } } localization_key = APDC_COOPERATION_LAW_GROUP_11 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 12 } } localization_key = APDC_COOPERATION_LAW_GROUP_12 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 13 } } localization_key = APDC_COOPERATION_LAW_GROUP_13 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 14 } } localization_key = APDC_COOPERATION_LAW_GROUP_14 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 15 } } localization_key = APDC_COOPERATION_LAW_GROUP_15 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 16 } } localization_key = APDC_COOPERATION_LAW_GROUP_16 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 17 } } localization_key = APDC_COOPERATION_LAW_GROUP_17 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 18 } } localization_key = APDC_COOPERATION_LAW_GROUP_18 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 19 } } localization_key = APDC_COOPERATION_LAW_GROUP_19 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 20 } } localization_key = APDC_COOPERATION_LAW_GROUP_20 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 21 } } localization_key = APDC_COOPERATION_LAW_GROUP_21 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 22 } } localization_key = APDC_COOPERATION_LAW_GROUP_22 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 23 } } localization_key = APDC_COOPERATION_LAW_GROUP_23 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 24 } } localization_key = APDC_COOPERATION_LAW_GROUP_24 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 25 } } localization_key = APDC_COOPERATION_LAW_GROUP_25 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 26 } } localization_key = APDC_COOPERATION_LAW_GROUP_26 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 27 } } localization_key = APDC_COOPERATION_LAW_GROUP_27 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 28 } } localization_key = APDC_COOPERATION_LAW_GROUP_28 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 29 } } localization_key = APDC_COOPERATION_LAW_GROUP_29 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 30 } } localization_key = APDC_COOPERATION_LAW_GROUP_30 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 31 } } localization_key = APDC_COOPERATION_LAW_GROUP_31 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 32 } } localization_key = APDC_COOPERATION_LAW_GROUP_32 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 33 } } localization_key = APDC_COOPERATION_LAW_GROUP_33 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 34 } } localization_key = APDC_COOPERATION_LAW_GROUP_34 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 35 } } localization_key = APDC_COOPERATION_LAW_GROUP_35 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 36 } } localization_key = APDC_COOPERATION_LAW_GROUP_36 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 37 } } localization_key = APDC_COOPERATION_LAW_GROUP_37 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 38 } } localization_key = APDC_COOPERATION_LAW_GROUP_38 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 39 } } localization_key = APDC_COOPERATION_LAW_GROUP_39 }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 40 } } localization_key = APDC_COOPERATION_LAW_GROUP_40 }
 }
 
-defined_text = {
-	name = APDCCooperationActiveLawGroupName
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 1 } } localization_key = APDC_COOPERATION_LAW_GROUP_1 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 2 } } localization_key = APDC_COOPERATION_LAW_GROUP_2 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 3 } } localization_key = APDC_COOPERATION_LAW_GROUP_3 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 4 } } localization_key = APDC_COOPERATION_LAW_GROUP_4 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 5 } } localization_key = APDC_COOPERATION_LAW_GROUP_5 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 6 } } localization_key = APDC_COOPERATION_LAW_GROUP_6 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 7 } } localization_key = APDC_COOPERATION_LAW_GROUP_7 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 8 } } localization_key = APDC_COOPERATION_LAW_GROUP_8 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 9 } } localization_key = APDC_COOPERATION_LAW_GROUP_9 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 10 } } localization_key = APDC_COOPERATION_LAW_GROUP_10 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 11 } } localization_key = APDC_COOPERATION_LAW_GROUP_11 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 12 } } localization_key = APDC_COOPERATION_LAW_GROUP_12 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 13 } } localization_key = APDC_COOPERATION_LAW_GROUP_13 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 14 } } localization_key = APDC_COOPERATION_LAW_GROUP_14 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 15 } } localization_key = APDC_COOPERATION_LAW_GROUP_15 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 16 } } localization_key = APDC_COOPERATION_LAW_GROUP_16 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 17 } } localization_key = APDC_COOPERATION_LAW_GROUP_17 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 18 } } localization_key = APDC_COOPERATION_LAW_GROUP_18 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 19 } } localization_key = APDC_COOPERATION_LAW_GROUP_19 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 20 } } localization_key = APDC_COOPERATION_LAW_GROUP_20 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 21 } } localization_key = APDC_COOPERATION_LAW_GROUP_21 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 22 } } localization_key = APDC_COOPERATION_LAW_GROUP_22 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 23 } } localization_key = APDC_COOPERATION_LAW_GROUP_23 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 24 } } localization_key = APDC_COOPERATION_LAW_GROUP_24 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 25 } } localization_key = APDC_COOPERATION_LAW_GROUP_25 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 26 } } localization_key = APDC_COOPERATION_LAW_GROUP_26 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 27 } } localization_key = APDC_COOPERATION_LAW_GROUP_27 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 28 } } localization_key = APDC_COOPERATION_LAW_GROUP_28 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 29 } } localization_key = APDC_COOPERATION_LAW_GROUP_29 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 30 } } localization_key = APDC_COOPERATION_LAW_GROUP_30 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 31 } } localization_key = APDC_COOPERATION_LAW_GROUP_31 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 32 } } localization_key = APDC_COOPERATION_LAW_GROUP_32 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 33 } } localization_key = APDC_COOPERATION_LAW_GROUP_33 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 34 } } localization_key = APDC_COOPERATION_LAW_GROUP_34 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 35 } } localization_key = APDC_COOPERATION_LAW_GROUP_35 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 36 } } localization_key = APDC_COOPERATION_LAW_GROUP_36 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 37 } } localization_key = APDC_COOPERATION_LAW_GROUP_37 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 38 } } localization_key = APDC_COOPERATION_LAW_GROUP_38 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 39 } } localization_key = APDC_COOPERATION_LAW_GROUP_39 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 40 } } localization_key = APDC_COOPERATION_LAW_GROUP_40 }
-}
+
+
 
 defined_text = {
-	name = APDCCooperationLawOption1Name
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 1 } } localization_key = APDC_COOPERATION_LAW_OPTION_ROTATION }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 25 } } localization_key = APDC_COOPERATION_LAW_OPTION_DEFAULT_ACCESS }
-	text = { localization_key = APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+name = APDCCooperationQueueLawGroupName
+text = {
+trigger = { check_variable = { APDC_cooperation_queue_group_id > 0 } check_variable = { APDC_cooperation_queue_group_id < apdc_nr_view_names^num } }
+localization_key = [?apdc_nr_view_names^APDC_cooperation_queue_group_id.GetTokenKey]
 }
-defined_text = {
-	name = APDCCooperationLawOption2Name
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 1 } } localization_key = APDC_COOPERATION_LAW_OPTION_MERITOCRACY }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 25 } } localization_key = APDC_COOPERATION_LAW_OPTION_MUTUAL_ACCESS }
-	text = { localization_key = APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
-}
-defined_text = {
-	name = APDCCooperationLawOption3Name
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 1 } } localization_key = APDC_COOPERATION_LAW_OPTION_PERMANENT }
-	text = { localization_key = APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
-}
-defined_text = { name = APDCCooperationLawOption4Name text = { localization_key = APDC_COOPERATION_LAW_OPTION_GENERIC_4 } }
-defined_text = {
-	name = APDCCooperationLawOption1Effect
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 1 } } localization_key = APDC_COOPERATION_LAW_EFFECT_ROTATION }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 25 } } localization_key = APDC_COOPERATION_LAW_EFFECT_DEFAULT_ACCESS }
-	text = { localization_key = APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
-}
-defined_text = {
-	name = APDCCooperationLawOption2Effect
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 1 } } localization_key = APDC_COOPERATION_LAW_EFFECT_MERITOCRACY }
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 25 } } localization_key = APDC_COOPERATION_LAW_EFFECT_MUTUAL_ACCESS }
-	text = { localization_key = APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
-}
-defined_text = {
-	name = APDCCooperationLawOption3Effect
-	text = { trigger = { check_variable = { APDC_cooperation_law_group_id = 1 } } localization_key = APDC_COOPERATION_LAW_EFFECT_PERMANENT }
-	text = { localization_key = APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
-}
-defined_text = { name = APDCCooperationLawOption4Effect text = { localization_key = APDC_COOPERATION_LAW_EFFECT_GENERIC_4 } }
-
-defined_text = {
-	name = APDCCooperationQueueLawOptionName
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 1 } check_variable = { APDC_cooperation_law_queue_options^APDC_cooperation_queue_index = 1 } } localization_key = APDC_COOPERATION_LAW_OPTION_ROTATION }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 1 } check_variable = { APDC_cooperation_law_queue_options^APDC_cooperation_queue_index = 2 } } localization_key = APDC_COOPERATION_LAW_OPTION_MERITOCRACY }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 1 } check_variable = { APDC_cooperation_law_queue_options^APDC_cooperation_queue_index = 3 } } localization_key = APDC_COOPERATION_LAW_OPTION_PERMANENT }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 25 } check_variable = { APDC_cooperation_law_queue_options^APDC_cooperation_queue_index = 1 } } localization_key = APDC_COOPERATION_LAW_OPTION_DEFAULT_ACCESS }
-	text = { trigger = { check_variable = { APDC_cooperation_queue_group_id = 25 } check_variable = { APDC_cooperation_law_queue_options^APDC_cooperation_queue_index = 2 } } localization_key = APDC_COOPERATION_LAW_OPTION_MUTUAL_ACCESS }
-	text = { trigger = { check_variable = { APDC_cooperation_law_queue_options^APDC_cooperation_queue_index = 1 } } localization_key = APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_queue_options^APDC_cooperation_queue_index = 2 } } localization_key = APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
-	text = { trigger = { check_variable = { APDC_cooperation_law_queue_options^APDC_cooperation_queue_index = 3 } } localization_key = APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
-	text = { localization_key = APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+text = {
+localization_key = APDC_NATIVE_CONTENT_EMPTY
 }
 
-defined_text = {
-	name = APDCCooperationActiveLawOptionName
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 1 } check_variable = { APDC_cooperation_active_law_option = 1 } } localization_key = APDC_COOPERATION_LAW_OPTION_ROTATION }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 1 } check_variable = { APDC_cooperation_active_law_option = 2 } } localization_key = APDC_COOPERATION_LAW_OPTION_MERITOCRACY }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 1 } check_variable = { APDC_cooperation_active_law_option = 3 } } localization_key = APDC_COOPERATION_LAW_OPTION_PERMANENT }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 25 } check_variable = { APDC_cooperation_active_law_option = 1 } } localization_key = APDC_COOPERATION_LAW_OPTION_DEFAULT_ACCESS }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 25 } check_variable = { APDC_cooperation_active_law_option = 2 } } localization_key = APDC_COOPERATION_LAW_OPTION_MUTUAL_ACCESS }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_option = 1 } } localization_key = APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_option = 2 } } localization_key = APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_option = 3 } } localization_key = APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
-	text = { localization_key = APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
 }
 
+
+
+
 defined_text = {
-	name = APDCCooperationActiveLawEffect
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 1 } check_variable = { APDC_cooperation_active_law_option = 1 } } localization_key = APDC_COOPERATION_LAW_EFFECT_ROTATION }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 1 } check_variable = { APDC_cooperation_active_law_option = 2 } } localization_key = APDC_COOPERATION_LAW_EFFECT_MERITOCRACY }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 1 } check_variable = { APDC_cooperation_active_law_option = 3 } } localization_key = APDC_COOPERATION_LAW_EFFECT_PERMANENT }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 25 } check_variable = { APDC_cooperation_active_law_option = 1 } } localization_key = APDC_COOPERATION_LAW_EFFECT_DEFAULT_ACCESS }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_group = 25 } check_variable = { APDC_cooperation_active_law_option = 2 } } localization_key = APDC_COOPERATION_LAW_EFFECT_MUTUAL_ACCESS }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_option = 1 } } localization_key = APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_option = 2 } } localization_key = APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
-	text = { trigger = { check_variable = { APDC_cooperation_active_law_option = 3 } } localization_key = APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
-	text = { localization_key = APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+name = APDCCooperationActiveLawGroupName
+text = {
+trigger = { check_variable = { APDC_cooperation_active_law_group > 0 } check_variable = { APDC_cooperation_active_law_group < apdc_nr_view_names^num } }
+localization_key = [?apdc_nr_view_names^APDC_cooperation_active_law_group.GetTokenKey]
 }
+text = {
+localization_key = APDC_NATIVE_CONTENT_EMPTY
+}
+
+}
+
+
+
+
+defined_text = {
+name = APDCCooperationLawOption1Name
+text = {
+trigger = { check_variable = { APDC_cooperation_law_group_id > 0 } check_variable = { APDC_cooperation_law_group_id < apdc_nr_view_names^num } }
+localization_key = [?apdc_nr_view_option_1_names^APDC_cooperation_law_group_id.GetTokenKey]
+}
+text = {
+localization_key = APDC_NATIVE_CONTENT_EMPTY
+}
+
+}
+
+
+
+defined_text = {
+name = APDCCooperationLawOption2Name
+text = {
+trigger = { check_variable = { APDC_cooperation_law_group_id > 0 } check_variable = { APDC_cooperation_law_group_id < apdc_nr_view_names^num } }
+localization_key = [?apdc_nr_view_option_2_names^APDC_cooperation_law_group_id.GetTokenKey]
+}
+text = {
+localization_key = APDC_NATIVE_CONTENT_EMPTY
+}
+
+}
+
+
+
+defined_text = {
+name = APDCCooperationLawOption3Name
+text = {
+trigger = { check_variable = { APDC_cooperation_law_group_id > 0 } check_variable = { APDC_cooperation_law_group_id < apdc_nr_view_names^num } }
+localization_key = [?apdc_nr_view_option_3_names^APDC_cooperation_law_group_id.GetTokenKey]
+}
+text = {
+localization_key = APDC_NATIVE_CONTENT_EMPTY
+}
+
+}
+
+
+
+defined_text = {
+name = APDCCooperationLawOption4Name
+text = {
+trigger = { check_variable = { APDC_cooperation_law_group_id > 0 } check_variable = { APDC_cooperation_law_group_id < apdc_nr_view_names^num } }
+localization_key = [?apdc_nr_view_option_4_names^APDC_cooperation_law_group_id.GetTokenKey]
+}
+text = {
+localization_key = APDC_NATIVE_CONTENT_EMPTY
+}
+
+}
+
+
+
+defined_text = {
+name = APDCCooperationLawOption1Effect
+text = {
+trigger = { check_variable = { APDC_cooperation_law_group_id > 0 } check_variable = { APDC_cooperation_law_group_id < apdc_nr_view_names^num } }
+localization_key = [?apdc_nr_view_option_1_effects^APDC_cooperation_law_group_id.GetTokenKey]
+}
+text = {
+localization_key = APDC_NATIVE_CONTENT_EMPTY
+}
+
+}
+
+
+
+defined_text = {
+name = APDCCooperationLawOption2Effect
+text = {
+trigger = { check_variable = { APDC_cooperation_law_group_id > 0 } check_variable = { APDC_cooperation_law_group_id < apdc_nr_view_names^num } }
+localization_key = [?apdc_nr_view_option_2_effects^APDC_cooperation_law_group_id.GetTokenKey]
+}
+text = {
+localization_key = APDC_NATIVE_CONTENT_EMPTY
+}
+
+}
+
+
+
+defined_text = {
+name = APDCCooperationLawOption3Effect
+text = {
+trigger = { check_variable = { APDC_cooperation_law_group_id > 0 } check_variable = { APDC_cooperation_law_group_id < apdc_nr_view_names^num } }
+localization_key = [?apdc_nr_view_option_3_effects^APDC_cooperation_law_group_id.GetTokenKey]
+}
+text = {
+localization_key = APDC_NATIVE_CONTENT_EMPTY
+}
+
+}
+
+
+
+defined_text = {
+name = APDCCooperationLawOption4Effect
+text = {
+trigger = { check_variable = { APDC_cooperation_law_group_id > 0 } check_variable = { APDC_cooperation_law_group_id < apdc_nr_view_names^num } }
+localization_key = [?apdc_nr_view_option_4_effects^APDC_cooperation_law_group_id.GetTokenKey]
+}
+text = {
+localization_key = APDC_NATIVE_CONTENT_EMPTY
+}
+
+}
+
+
+
+
+defined_text = {
+name = APDCCooperationQueueLawOptionName
+text = {
+trigger = { check_variable = { APDC_cooperation_queue_group_id > 0 } check_variable = { APDC_cooperation_queue_group_id < apdc_nr_view_names^num } check_variable = { APDC_cooperation_law_queue_options^APDC_cooperation_queue_index = 1 } }
+localization_key = [?apdc_nr_view_option_1_names^APDC_cooperation_queue_group_id.GetTokenKey]
+}
+text = {
+trigger = { check_variable = { APDC_cooperation_queue_group_id > 0 } check_variable = { APDC_cooperation_queue_group_id < apdc_nr_view_names^num } check_variable = { APDC_cooperation_law_queue_options^APDC_cooperation_queue_index = 2 } }
+localization_key = [?apdc_nr_view_option_2_names^APDC_cooperation_queue_group_id.GetTokenKey]
+}
+text = {
+trigger = { check_variable = { APDC_cooperation_queue_group_id > 0 } check_variable = { APDC_cooperation_queue_group_id < apdc_nr_view_names^num } check_variable = { APDC_cooperation_law_queue_options^APDC_cooperation_queue_index = 3 } }
+localization_key = [?apdc_nr_view_option_3_names^APDC_cooperation_queue_group_id.GetTokenKey]
+}
+text = {
+trigger = { check_variable = { APDC_cooperation_queue_group_id > 0 } check_variable = { APDC_cooperation_queue_group_id < apdc_nr_view_names^num } check_variable = { APDC_cooperation_law_queue_options^APDC_cooperation_queue_index = 4 } }
+localization_key = [?apdc_nr_view_option_4_names^APDC_cooperation_queue_group_id.GetTokenKey]
+}
+text = {
+localization_key = APDC_NATIVE_CONTENT_EMPTY
+}
+
+}
+
+
+
+
+defined_text = {
+name = APDCCooperationActiveLawOptionName
+text = {
+trigger = { check_variable = { APDC_cooperation_active_law_group > 0 } check_variable = { APDC_cooperation_active_law_group < apdc_nr_view_names^num } check_variable = { APDC_cooperation_active_law_option = 1 } }
+localization_key = [?apdc_nr_view_option_1_names^APDC_cooperation_active_law_group.GetTokenKey]
+}
+text = {
+trigger = { check_variable = { APDC_cooperation_active_law_group > 0 } check_variable = { APDC_cooperation_active_law_group < apdc_nr_view_names^num } check_variable = { APDC_cooperation_active_law_option = 2 } }
+localization_key = [?apdc_nr_view_option_2_names^APDC_cooperation_active_law_group.GetTokenKey]
+}
+text = {
+trigger = { check_variable = { APDC_cooperation_active_law_group > 0 } check_variable = { APDC_cooperation_active_law_group < apdc_nr_view_names^num } check_variable = { APDC_cooperation_active_law_option = 3 } }
+localization_key = [?apdc_nr_view_option_3_names^APDC_cooperation_active_law_group.GetTokenKey]
+}
+text = {
+trigger = { check_variable = { APDC_cooperation_active_law_group > 0 } check_variable = { APDC_cooperation_active_law_group < apdc_nr_view_names^num } check_variable = { APDC_cooperation_active_law_option = 4 } }
+localization_key = [?apdc_nr_view_option_4_names^APDC_cooperation_active_law_group.GetTokenKey]
+}
+text = {
+localization_key = APDC_NATIVE_CONTENT_EMPTY
+}
+
+}
+
+
+
+
+defined_text = {
+name = APDCCooperationActiveLawEffect
+text = {
+trigger = { check_variable = { APDC_cooperation_active_law_group > 0 } check_variable = { APDC_cooperation_active_law_group < apdc_nr_view_names^num } check_variable = { APDC_cooperation_active_law_option = 1 } }
+localization_key = [?apdc_nr_view_option_1_effects^APDC_cooperation_active_law_group.GetTokenKey]
+}
+text = {
+trigger = { check_variable = { APDC_cooperation_active_law_group > 0 } check_variable = { APDC_cooperation_active_law_group < apdc_nr_view_names^num } check_variable = { APDC_cooperation_active_law_option = 2 } }
+localization_key = [?apdc_nr_view_option_2_effects^APDC_cooperation_active_law_group.GetTokenKey]
+}
+text = {
+trigger = { check_variable = { APDC_cooperation_active_law_group > 0 } check_variable = { APDC_cooperation_active_law_group < apdc_nr_view_names^num } check_variable = { APDC_cooperation_active_law_option = 3 } }
+localization_key = [?apdc_nr_view_option_3_effects^APDC_cooperation_active_law_group.GetTokenKey]
+}
+text = {
+trigger = { check_variable = { APDC_cooperation_active_law_group > 0 } check_variable = { APDC_cooperation_active_law_group < apdc_nr_view_names^num } check_variable = { APDC_cooperation_active_law_option = 4 } }
+localization_key = [?apdc_nr_view_option_4_effects^APDC_cooperation_active_law_group.GetTokenKey]
+}
+text = {
+localization_key = APDC_NATIVE_CONTENT_EMPTY
+}
+
+}
+
+

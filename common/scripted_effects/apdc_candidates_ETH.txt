@@ -1,0 +1,34 @@
+# Native candidate definitions. Edit here; no build step.
+apdc_candidate_1076_setup = {
+set_temp_variable = { apdc_nc_name = token:apdc_parl_candidate_1076 }
+set_temp_variable = { apdc_nc_portrait = token:GFX_apdc_parl_portrait_1076 }
+set_temp_variable = { apdc_nc_member_text = token:apdc_parl_member_traits_1076 }
+set_temp_variable = { apdc_nc_chief_text = token:apdc_parl_chief_traits_1076 }
+set_temp_variable = { apdc_nc_party = 2 }
+set_temp_variable = { apdc_nc_character = token:ETH_APDC_doc_56ce8e1a1b1d }
+set_temp_variable = { apdc_nc_member_only = 0 }
+if = {
+limit = { OR = { original_tag = ETH } has_character = ETH_APDC_doc_56ce8e1a1b1d }
+set_temp_variable = { apdc_nc_visible = 1 }
+}
+}
+apdc_candidate_1076_on_appoint_member = {
+add_ideas = apdc_parl_member_1076
+}
+apdc_candidate_1076_on_remove_member = {
+remove_ideas = apdc_parl_member_1076
+}
+apdc_candidate_1076_on_appoint_chief = {
+add_ideas = apdc_parl_chief_1076
+}
+apdc_candidate_1076_on_remove_chief = {
+remove_ideas = apdc_parl_chief_1076
+}
+apdc_parl_appoint_1076 = {
+set_variable = { apdc_parl_selected_candidate = 1076 }
+apdc_parl_appoint_selected = yes
+}
+apdc_register_candidates_ETH = {
+set_temp_variable = { apdc_nc_id = 1076 }
+apdc_register_candidate = yes
+}

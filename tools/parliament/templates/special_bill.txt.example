@@ -1,0 +1,45 @@
+# Copy into common/scripted_effects/APDC_special_bills_GER.txt.
+# Replace GER_example_special_bill with your own stable bill key throughout.
+# Allocate a unique stable numeric ID in the unlock wrapper below.
+# This template is not loaded by the game while it remains under tools/.
+
+# Stable numeric identity bridge. Keep this effect when old saves may refer
+# to the ID; it safely rebinds the key after adding other bills or tokens.
+apdc_parl_bill_10001_key = {
+    set_temp_variable = { apdc_parl_arg_KEY = token:GER_example_special_bill }
+}
+
+# Call this one effect from a focus, event, decision or opening on-action.
+GER_example_special_bill_unlock = {
+    set_temp_variable = { apdc_parl_arg_ID = 10001 }
+    apdc_parl_unlock_special_bill = yes
+}
+
+# Catalogue refresh: metadata/conditions only, never grant gameplay rewards.
+GER_example_special_bill_setup = {
+    if = {
+        limit = {
+            original_tag = GER
+            NOT = { has_country_flag = GER_example_special_bill_enacted }
+        }
+        set_temp_variable = { apdc_parl_arg_COST = 100 }
+        apdc_parl_show_special_bill = yes
+        if = {
+            limit = { always = yes } # Put availability conditions here.
+            apdc_parl_allow_special_bill = yes
+        }
+    }
+}
+
+GER_example_special_bill_on_submit = {
+    # Effects when parliament accepts the proposal.
+}
+
+GER_example_special_bill_on_pass = {
+    # Put the actual law effects here.
+    set_country_flag = GER_example_special_bill_enacted
+}
+
+GER_example_special_bill_on_fail = {
+    # Effects if review fails. Leave empty when no special action is needed.
+}

@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "candidate_records_compared": 231,
+  "member_and_chief_callbacks_preserve_all_original_ideas": true,
+  "original_hidden_idea_file_unchanged": true,
+  "original_portrait_references_preserved": true,
+  "native_special_bill_implementation_preserved": true,
+  "protected_art_map_history_events_characters_country_paths_changed": [],
+  "core_function_changes": {
+    "common/scripted_effects/apdc_parliament_backend.txt": [
+      "apdc_parl_refresh"
+    ],
+    "common/scripted_effects/APDC_cold_war.txt": [
+      "apdc_cw_notify_controls",
+      "apdc_cw_remove_law",
+      "apdc_cw_submit_law",
+      "apdc_cw_tick_laws"
+    ],
+    "common/scripted_effects/APDC_cold_war_view.txt": [
+      "apdc_cw_refresh_view"
+    ]
+  },
+  "backup": "D:\\C-Drive-Migration-20260929\\Permanent\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\.codex_backups\\APDC\\20261110-130244-native-content-api",
+  "validation_scope": "static structural and byte comparisons; runtime checks are separate",
+  "cold_war_original_28_record_parameters_identical": true
+}

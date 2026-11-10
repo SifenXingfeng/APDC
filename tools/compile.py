@@ -7,10 +7,14 @@ import sys
 
 ROOT = Path(__file__).resolve().parent.parent
 TARGETS = {
-    'parliament': ('parliament/build.py', 'Rebuild parliament scripts and artwork'),
+    'native-content-check': ('check_native_content.py', 'Validate independent native candidates/actions/rules; no generation'),
+    'native-content-qa': ('native_content_qa.py', 'Prepare or verify private native-content tests; does not launch the game'),
+    'parliament': ('parliament/build.py', 'Maintain shared parliament rules/UI/art; preserve native content'),
     'parliament-check': ('parliament/verify.py', 'Check parliament scripts and numerical rules'),
     'parliament-ui-check': ('parliament/verify_ui_corrections.py', 'Check parliament UI bindings'),
-    'cold-war': ('cold_war/build.py', 'Rebuild Cold War scripts; --map also rebuilds geography'),
+    'parliament-bills-check': ('parliament/check_special_bills.py', 'Check native special-bill files without generating anything'),
+    'parliament-bills-qa': ('parliament/special_bills_qa.py', 'Prepare or verify a private native-bill test; does not launch the game'),
+    'cold-war': ('cold_war/build.py', 'Maintain Cold War view/UI; preserve native content; --map rebuilds geography'),
     'economy': ('economy/build_all.py', 'Rebuild economy; check original-document inputs first'),
     'economy-backend': ('economy/build_backend.py', 'Rebuild the economy backend'),
     'economy-equipment': ('economy/build_equipment.py', 'Rebuild the private-equipment catalogue'),

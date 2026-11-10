@@ -18,13 +18,12 @@ def main():
     if not (backup/'git-status-before.txt').exists():
         (backup/'git-status-before.txt').write_bytes(subprocess.run(['git','status','--porcelain=v1','--untracked-files=no'],cwd=ROOT,capture_output=True,check=True).stdout)
     from import_data import import_sources
-    from cabinet import import_candidates
+    from cabinet import native_candidate_ids
     if args.import_data or not (DATA/'laws.json').exists():import_sources()
-    if not (DATA/'candidates.json').exists():import_candidates()
     import assets
     assets.generate()
     if args.assets_only:
-        print(json.dumps({'backup':str(backup),'phase':'assets_and_catalogues','candidates':len(load_json('candidates.json')['candidates'])},ensure_ascii=False));return
+        print(json.dumps({'backup':str(backup),'phase':'assets_and_catalogues','candidates':len(native_candidate_ids())},ensure_ascii=False));return
     settings=load_json('settings.json')
     assert settings['manpower_mode']['monthly'] in ('population','pool')
     assert settings['manpower_mode']['weekly'] in ('population','pool')
@@ -71,8 +70,8 @@ def main():
         calendar=''.join(iff('has_government = '+party,'set_politics = { ruling_party = '+party+' last_election = "2060.1.1" election_frequency = '+str(month)+' elections_allowed = '+allowed+' }\n') for party in PARTIES)
         body+=newline+newline+start+newline+calendar.replace('\n',newline)
         write(path.relative_to(ROOT).as_posix(),body)
-    json_write('docs/parliament/20261107-implementation/build.json',{'status':'generated_not_yet_runtime_verified','backup':str(backup),'law_groups':6,'law_options':43,'seats':500,'candidates':len(load_json('candidates.json')['candidates']),'source_settings':settings})
-    print(json.dumps({'backup':str(backup),'phase':'runtime_generated','localisation_keys':len(loc),'candidates':len(load_json('candidates.json')['candidates'])},ensure_ascii=False))
+    json_write('docs/parliament/20261107-implementation/build.json',{'status':'generated_not_yet_runtime_verified','backup':str(backup),'law_groups':6,'law_options':43,'seats':500,'candidates':len(native_candidate_ids()),'source_settings':settings})
+    print(json.dumps({'backup':str(backup),'phase':'runtime_generated','localisation_keys':len(loc),'candidates':len(native_candidate_ids())},ensure_ascii=False))
 
 
 if __name__=='__main__':main()

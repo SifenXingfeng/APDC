@@ -198540,6 +198540,7 @@ set_variable = { apdc_cw_seen_core_revision = global.apdc_cw_current_core_revisi
 
 }
 apdc_cw_refresh_view = {
+apdc_na_refresh_all = yes
 set_variable = { global.apdc_cw_viewer = THIS }
 set_variable = { global.apdc_cw_view_axis = apdc_cw_tab }
 if = { limit = { NOT = { var:apdc_cw_selected = { any_owned_state = { always = yes } } } } set_variable = { apdc_cw_selected = THIS } set_variable = { apdc_cw_detail = 0 } }
@@ -198547,258 +198548,6 @@ if = { limit = { check_variable = { apdc_cw_detail = 1 } }
 var:apdc_cw_selected = { apdc_cw_check_core_map = yes set_variable = { global.apdc_cw_current_core_revision = apdc_cw_core_revision } set_variable = { global.apdc_cw_current_core_count = apdc_cw_owned_core_count } }
 if = { limit = { OR = { NOT = { check_variable = { apdc_cw_seen_core_revision = global.apdc_cw_current_core_revision } } NOT = { check_variable = { apdc_cw_detail_state_count = global.apdc_cw_current_core_count } } } } apdc_cw_prepare_detail = yes }
 }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_1 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_1 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_1 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_2 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_2 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_2 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_3 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_3 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_3 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_4 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_4 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_4 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_5 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_5 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_5 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_6 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_6 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_6 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_7 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_7 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_7 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_8 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_8 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_8 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_9 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_9 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_9 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_10 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_10 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_10 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_11 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_11 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_11 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_12 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_12 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_12 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_13 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_13 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_13 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_14 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_14 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_14 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_15 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_15 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_15 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_16 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_16 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_16 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_17 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_17 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_17 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_18 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_18 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_18 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_19 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_19 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_19 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_20 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_20 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_20 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_21 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_21 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_21 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_22 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_22 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_22 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_23 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_23 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_23 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_24 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_24 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_24 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_25 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_25 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_25 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_26 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_26 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_26 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_27 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_27 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_27 = global.apdc_cw_tooltip_delta }
-set_variable = { global.apdc_cw_tooltip_delta = 0 }
-GER = {
-if = { limit = { has_variable = apdc_cw_law_record_28 }
-set_variable = { global.apdc_cw_tooltip_delta = apdc_cw_law_last_delta^apdc_cw_law_record_28 }
-
-}
-
-}
-set_variable = { apdc_cw_tooltip_law_28 = global.apdc_cw_tooltip_delta }
 clear_array = apdc_cw_ui_sources
 clear_array = apdc_cw_ui_shares
 clear_array = apdc_cw_ui_net
@@ -198899,7 +198648,7 @@ resize_array = { array = apdc_cw_law_execute_frame size = apdc_cw_law_id^num val
 resize_array = { array = apdc_cw_law_stop_frame size = apdc_cw_law_id^num value = 2 }
 clear_array = apdc_cw_visible_laws
 for_each_loop = { array = apdc_cw_law_id index = apdc_cw_law_cursor
-if = { limit = { check_variable = { apdc_cw_law_unlocked^apdc_cw_law_cursor = 1 } var:apdc_cw_law_target^apdc_cw_law_cursor = { tag = var:PREV.apdc_cw_selected } check_variable = { apdc_cw_law_axis^apdc_cw_law_cursor = apdc_cw_tab } }
+if = { limit = { check_variable = { apdc_cw_law_unlocked^apdc_cw_law_cursor = 1 } check_variable = { apdc_na_visible^apdc_cw_law_cursor = 1 } var:apdc_cw_law_target^apdc_cw_law_cursor = { tag = var:PREV.apdc_cw_selected } check_variable = { apdc_cw_law_axis^apdc_cw_law_cursor = apdc_cw_tab } }
 add_to_array = { array = apdc_cw_visible_laws value = var:apdc_cw_law_cursor }
 }
 if = { limit = { check_variable = { apdc_cw_law_running^apdc_cw_law_cursor = 1 } }
@@ -198916,8 +198665,9 @@ apdc_cw_prepare_detail = yes
 
 }
 add_to_variable = { apdc_cw_control_ui_revision = 1 }
-
+apdc_na_refresh_sources = yes
 }
+
 apdc_cw_rebuild_pie = {
 resize_array = { array = apdc_cw_pie_source size = 360 value = 0 }
 resize_array = { array = apdc_cw_pie_color size = 360 value = 1 }

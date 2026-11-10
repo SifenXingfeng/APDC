@@ -82,34 +82,13 @@ def generate():
             for n in range(w+1):sheet.paste(tile.crop((0,0,n,bar.height)),(n*w,0))
             dest='gfx/interface/APDC/parliament/progress_'+str(i)+'.png';png(dest,sheet)
             gfx+=block('spriteType','name = "GFX_apdc_parl_progress_'+str(i)+'"\ntexturefile = "'+dest+'"\nnoOfFrames = '+str(w+1))
-    # Constant portrait canvas keeps both the old politics portraits and the
-    # new 47x63/74x98 slots aligned. Original art is never overwritten.
-    sprite_paths={}
-    for path in sorted((GAME/'interface').glob('*.gfx'))+sorted((ROOT/'interface').glob('*.gfx')):
-        # Generated aliases are outputs, not external definitions. Reading our
-        # own previous output would make those aliases disappear on rebuild.
-        if path==ROOT/'interface/apdc_parliament.gfx':continue
-        try:nodes=parse(path.read_text('utf-8-sig'))
-        except (UnicodeError,ValueError,IndexError):continue
-        for n in walk(nodes):
-            if n.key.lower()=='spritetype' and n.val('name'):
-                tex=next((c.value.strip('"') for c in n.children if c.key.lower()=='texturefile' and c.value),None)
-                if tex:sprite_paths[n.val('name')]=tex
-    candidates=load_json('candidates.json')['candidates']
-    for c in candidates:
-        tex=c['portrait'] if c['portrait'].lower().startswith('gfx/') else sprite_paths.get(c['portrait'],sprite_paths.get('GFX_leader_unknown'))
-        if tex:
-            path=ROOT/tex
-            if not path.exists():path=GAME/tex
-            if path.exists():
-                with Image.open(path) as im:
-                    fitted=ImageOps.contain(im.convert('RGBA'),(156,210),Image.Resampling.LANCZOS)
-                    canvas=Image.new('RGBA',(156,210),(0,0,0,0));canvas.alpha_composite(fitted,((156-fitted.width)//2,(210-fitted.height)//2))
-                dest='gfx/interface/APDC/parliament/portraits/'+str(c['id'])+'.png';png(dest,canvas)
-                gfx+=block('spriteType','name = "GFX_apdc_parl_portrait_'+str(c['id'])+'"\ntexturefile = "'+dest+'"')
-                if c['character'] and 'GFX_'+c['character'] not in sprite_paths:
-                    gfx+=block('spriteType','name = "GFX_'+c['character']+'"\ntexturefile = "'+dest+'"')
-            else:raise FileNotFoundError((c['id'],str(path)))
-        else:raise ValueError('Missing native unknown portrait fallback')
+    # Candidate portraits are author-owned native sprites. Preserve the fitted
+    # legacy aliases; new portraits use ordinary independent .gfx definitions.
+    previous=ROOT/'interface/apdc_parliament.gfx'
+    if previous.exists():
+        existing=previous.read_text('utf-8-sig')
+        for node in walk(parse(existing)):
+            if node.key.lower()=='spritetype' and (node.val('texturefile') or '').startswith('gfx/interface/APDC/parliament/portraits/'):
+                gfx+=existing[node.start:node.end]+'\n'
     write('interface/apdc_parliament.gfx',block('spriteTypes',gfx))
     json_write('docs/parliament/20261107-implementation/artwork-audit.json',meta)

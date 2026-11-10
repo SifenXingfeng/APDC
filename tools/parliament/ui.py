@@ -53,7 +53,7 @@ def merge_list_rows(sgui):
 
 
 def generate(loc):
-    groups=load_json('laws.json')['groups'];regimes=load_json('regimes.json');candidates=load_json('candidates.json')['candidates'];settings=load_json('settings.json')
+    groups=load_json('laws.json')['groups'];regimes=load_json('regimes.json');settings=load_json('settings.json')
     layout=load_json('seat_layout.json')['points']
     gui='';sgui='';defs='';ui_effects=''
     loc.update({
@@ -129,7 +129,7 @@ def generate(loc):
     with Image.open(ROOT/'gfx/interface/APDC/parliament/entry.png') as entry_art:entry_width,entry_height=entry_art.size
     seats+=button(P+'entry_button','GFX_apdc_parl_entry',98,489,entry_width,entry_height,P+'open_tip')
     gui+=window(P+'entry',seats,'position = { x = 0 y = 44 } size = { width = 215 height = 550 }')
-    entry_action='if = { limit = { has_country_flag = apdc_parl_open } clr_country_flag = apdc_parl_open clr_country_flag = apdc_parl_candidate_panel_open clear_variable = apdc_parl_selected_group } else = { apdc_parl_initialize = yes apdc_parl_refresh = yes APDC_update_cabinet_statistics = yes set_country_flag = apdc_parl_open }'
+    entry_action='if = { limit = { has_country_flag = apdc_parl_open } clr_country_flag = apdc_parl_open clr_country_flag = apdc_parl_candidate_panel_open clear_variable = apdc_parl_selected_group } else = { apdc_parl_initialize = yes apdc_parl_refresh_special_catalogue = yes apdc_parl_refresh = yes APDC_update_cabinet_statistics = yes set_country_flag = apdc_parl_open }'
     sgui+=scripted(P+'entry_ui',P+'entry',block('properties',seat_props)+block('effects',P+'entry_button_click = { '+entry_action+op('dirty','add',1)+' }')+'visible = { always = yes }','parent_window_token = politics_tab\ndirty = '+P+'dirty')
     # Shared option row and special rows.
     # Use the actual economic selector, including button/icon hit regions,
@@ -239,11 +239,11 @@ def generate(loc):
         if role>6:value='OR = { '+value+' has_variable = APDC_'+('prime_minister' if role==7 else 'deputy_prime_minister')+'_character }'
         occupied.append('AND = { '+ck('selected_role','=',role)+' '+value+' }')
     sgui+=scripted(P+'candidate_panel_ui',P+'candidate_panel','visible = { has_country_flag = '+P+'open has_country_flag = '+P+'candidate_panel_open }\n'+block('effects',P+'dismiss_click = { apdc_parl_dismiss_selected = yes }')+block('triggers',P+'no_candidates_visible = { '+ck('real_candidate_count','=',0)+' }\n'+P+'dismiss_click_enabled = { OR = { '+' '.join(occupied)+' } }')+block('dynamic_lists',block(P+'candidate_list','array = '+P+'candidates value = '+P+'candidate_context entry_container = "'+P+'candidate_row"')),'parent_window_name = "'+P+'candidate_hook"\ndirty = '+P+'dirty')
-    enabled='OR = { '+' '.join('AND = { '+ck('candidate_context','=',c['id'])+' '+P+'candidate_'+str(c['id'])+'_enabled = yes }' for c in candidates)+' }'
+    enabled=ck('candidate_context','>',0)+' check_variable = { apdc_nc_enableds^apdc_parl_candidate_context = 1 }'
     row_tr=P+'candidate_button_click_enabled = { '+enabled+' }\n'
     for name in ['candidate_button','candidate_portrait','candidate_name','candidate_trait','candidate_cost']:row_tr+=P+name+'_visible = { '+ck('candidate_context','>',0)+' }\n'
     row_tr+=P+'candidate_header_visible = { '+ck('candidate_context','<',0)+' }\n'+P+'candidate_quota_visible = { '+ck('candidate_context','<',0)+' '+ck('selected_role','<',7)+' }\n'
-    sgui+=scripted(P+'candidate_row_ui',P+'candidate_row',block('properties',P+'candidate_portrait = { image = "[ApdcParlCandidatePortrait]" }')+block('triggers',row_tr)+block('effects',P+'candidate_button_click = { '+sv('selected_candidate',var('candidate_context'))+'apdc_parl_appoint_selected = yes }'))
+    sgui+=scripted(P+'candidate_row_ui',P+'candidate_row',block('properties',P+'candidate_portrait = { image = "[ApdcParlCandidatePortrait]" }')+block('triggers',row_tr)+block('effects',P+'candidate_button_click = { '+sv('selected_candidate','apdc_nc_ids^apdc_parl_candidate_context')+'apdc_parl_appoint_selected = yes }'))
     defs+=defined('ApdcParlCandidateHeader',[(ck('candidate_context','=',-i-1),'APDC_CABINET_PARTY_'+p.upper()+'_COLORED') for i,p in enumerate(PARTIES)],P+'empty')
     for p in PARTIES:loc[P+'quota_'+p]='可任命：§Y[?APDC_cabinet_available_'+p+'|0]§!    已任命：§Y[?APDC_cabinet_used_'+p+'|0]§!'
     defs+=defined('ApdcParlCandidateQuota',[(ck('candidate_context','=',-i-1),P+'quota_'+p) for i,p in enumerate(PARTIES)],P+'empty')

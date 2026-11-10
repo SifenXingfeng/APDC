@@ -1,0 +1,206 @@
+# Native content API. Authored bill files are loaded by the game, not Python.
+# A bill supplies <key>_unlock/setup/on_submit/on_pass/on_fail.
+# The setup effect may set arg_COST and call show/allow; gameplay belongs in
+# the lifecycle callbacks because setup runs whenever the catalogue refreshes.
+
+apdc_parl_show_special_bill = {
+    set_temp_variable = { apdc_parl_scripted_bill_visible = 1 }
+}
+
+apdc_parl_allow_special_bill = {
+    set_temp_variable = { apdc_parl_scripted_bill_available = 1 }
+}
+
+apdc_parl_resolve_scripted_special_bill_key = {
+    # Synced-token indices can change after adding content. Resolve the
+    # authored key afresh from the persistent numeric ID instead of trusting
+    # the token index that happened to be serialized by an older version.
+    set_temp_variable = { apdc_parl_arg_KEY = 0 }
+    meta_effect = {
+        text = { apdc_parl_bill_[ID]_key = yes }
+        ID = "[?apdc_parl_scripted_bill_id|0..]"
+    }
+    set_temp_variable = { apdc_parl_scripted_bill_key = apdc_parl_arg_KEY }
+}
+
+apdc_parl_ensure_scripted_special_bills = {
+    if = {
+        limit = { NOT = { has_country_flag = apdc_parl_scripted_registry_initialized } }
+        clear_array = apdc_parl_scripted_special_ids
+        clear_array = apdc_parl_scripted_special_keys
+        set_country_flag = apdc_parl_scripted_registry_initialized
+    }
+}
+
+apdc_parl_unlock_special_bill = {
+    apdc_parl_ensure_scripted_special_bills = yes
+    if = {
+        limit = { check_variable = { apdc_parl_arg_ID > 0 } }
+        set_temp_variable = { apdc_parl_scripted_bill_id = apdc_parl_arg_ID }
+        apdc_parl_resolve_scripted_special_bill_key = yes
+        if = {
+            limit = { NOT = { check_variable = { apdc_parl_scripted_bill_key = 0 } } }
+            if = {
+                limit = {
+                    NOT = { is_in_array = { array = apdc_parl_scripted_special_ids value = apdc_parl_arg_ID } }
+                }
+                add_to_array = { apdc_parl_scripted_special_ids = apdc_parl_arg_ID }
+                add_to_array = { apdc_parl_scripted_special_keys = apdc_parl_scripted_bill_key }
+            }
+            apdc_parl_refresh_one_scripted_special_bill = yes
+        }
+    }
+}
+
+apdc_parl_lock_special_bill = {
+    apdc_parl_ensure_scripted_special_bills = yes
+    set_temp_variable = { apdc_parl_scripted_bill_id = apdc_parl_arg_ID }
+    set_temp_variable = { apdc_parl_scripted_remove_index = 0 }
+    while_loop_effect = {
+        limit = { check_variable = { apdc_parl_scripted_remove_index < apdc_parl_scripted_special_ids^num } }
+        if = {
+            limit = {
+                check_variable = { apdc_parl_scripted_special_ids^apdc_parl_scripted_remove_index = apdc_parl_scripted_bill_id }
+            }
+            remove_from_array = { array = apdc_parl_scripted_special_ids index = apdc_parl_scripted_remove_index }
+            remove_from_array = { array = apdc_parl_scripted_special_keys index = apdc_parl_scripted_remove_index }
+        }
+        else = { add_to_temp_variable = { apdc_parl_scripted_remove_index = 1 } }
+    }
+    set_temp_variable = { apdc_parl_arg_ID = apdc_parl_scripted_bill_id }
+    apdc_parl_remove_special_bill = yes
+    # An already submitted bill keeps its captured ID/name and callback route.
+}
+
+apdc_parl_refresh_scripted_special_bills = {
+    apdc_parl_ensure_scripted_special_bills = yes
+    set_temp_variable = { apdc_parl_scripted_catalogue_index = 0 }
+    while_loop_effect = {
+        limit = { check_variable = { apdc_parl_scripted_catalogue_index < apdc_parl_scripted_special_ids^num } }
+        set_temp_variable = { apdc_parl_scripted_bill_id = apdc_parl_scripted_special_ids^apdc_parl_scripted_catalogue_index }
+        apdc_parl_refresh_one_scripted_special_bill = yes
+        set_variable = { apdc_parl_scripted_special_keys^apdc_parl_scripted_catalogue_index = apdc_parl_scripted_bill_key }
+        add_to_temp_variable = { apdc_parl_scripted_catalogue_index = 1 }
+    }
+    if = {
+        limit = {
+            check_variable = { apdc_parl_agenda > 0 }
+            check_variable = { apdc_parl_bill_kind = 4 }
+            check_variable = { apdc_parl_scripted_special_active = 1 }
+        }
+        set_temp_variable = { apdc_parl_scripted_bill_id = apdc_parl_bill_target }
+        apdc_parl_resolve_scripted_special_bill_key = yes
+        if = {
+            limit = { NOT = { check_variable = { apdc_parl_scripted_bill_key = 0 } } }
+            set_variable = { apdc_parl_scripted_active_key = apdc_parl_scripted_bill_key }
+            set_variable = { apdc_parl_special_active_name = apdc_parl_scripted_bill_key }
+        }
+    }
+}
+
+apdc_parl_refresh_one_scripted_special_bill = {
+    apdc_parl_resolve_scripted_special_bill_key = yes
+    set_temp_variable = { apdc_parl_arg_ID = apdc_parl_scripted_bill_id }
+    if = {
+        limit = { NOT = { check_variable = { apdc_parl_scripted_bill_key = 0 } } }
+        set_temp_variable = { apdc_parl_scripted_bill_visible = 0 }
+        set_temp_variable = { apdc_parl_scripted_bill_available = 0 }
+        set_temp_variable = { apdc_parl_arg_COST = 0 }
+        meta_effect = {
+            text = {
+                set_temp_variable = { apdc_parl_arg_NAME = token:[BILL] }
+                set_temp_variable = { apdc_parl_arg_DESC = token:[BILL]_desc }
+                [BILL]_setup = yes
+            }
+            BILL = "[?apdc_parl_scripted_bill_key.GetTokenKey]"
+        }
+        set_temp_variable = { apdc_parl_arg_ID = apdc_parl_scripted_bill_id }
+        clamp_temp_variable = { var = apdc_parl_arg_COST min = 0 }
+        if = {
+            limit = { check_variable = { apdc_parl_scripted_bill_visible = 1 } }
+            apdc_parl_register_special_bill = yes
+            # Upsert metadata so story conditions may change a registered bill's
+            # cost or availability without changing its persistent identity.
+            set_temp_variable = { apdc_parl_scripted_row_index = 0 }
+            while_loop_effect = {
+                limit = { check_variable = { apdc_parl_scripted_row_index < apdc_parl_special_ids^num } }
+                if = {
+                    limit = {
+                        check_variable = { apdc_parl_special_ids^apdc_parl_scripted_row_index = apdc_parl_scripted_bill_id }
+                    }
+                    set_variable = { apdc_parl_special_names^apdc_parl_scripted_row_index = apdc_parl_arg_NAME }
+                    set_variable = { apdc_parl_special_descriptions^apdc_parl_scripted_row_index = apdc_parl_arg_DESC }
+                    set_variable = { apdc_parl_special_costs^apdc_parl_scripted_row_index = apdc_parl_arg_COST }
+                    set_variable = { apdc_parl_special_enabled^apdc_parl_scripted_row_index = apdc_parl_scripted_bill_available }
+                }
+                add_to_temp_variable = { apdc_parl_scripted_row_index = 1 }
+            }
+            add_to_variable = { apdc_parl_dirty = 1 }
+        }
+        else_if = {
+            limit = { is_in_array = { array = apdc_parl_special_ids value = apdc_parl_scripted_bill_id } }
+            apdc_parl_remove_special_bill = yes
+        }
+    }
+    else_if = {
+        limit = { is_in_array = { array = apdc_parl_special_ids value = apdc_parl_scripted_bill_id } }
+        apdc_parl_remove_special_bill = yes
+    }
+}
+
+apdc_parl_scripted_special_submitted = {
+    set_variable = { apdc_parl_scripted_special_active = 0 }
+    if = {
+        limit = { is_in_array = { array = apdc_parl_scripted_special_ids value = apdc_parl_bill_target } }
+        set_temp_variable = { apdc_parl_scripted_bill_id = apdc_parl_bill_target }
+        apdc_parl_resolve_scripted_special_bill_key = yes
+        if = {
+            limit = { NOT = { check_variable = { apdc_parl_scripted_bill_key = 0 } } }
+            set_variable = { apdc_parl_scripted_special_active = 1 }
+            set_variable = { apdc_parl_scripted_active_key = apdc_parl_scripted_bill_key }
+        }
+    }
+    if = {
+        limit = { check_variable = { apdc_parl_scripted_special_active = 1 } }
+        meta_effect = {
+            text = { [BILL]_on_submit = yes }
+            BILL = "[?apdc_parl_scripted_active_key.GetTokenKey]"
+        }
+    }
+}
+
+apdc_parl_scripted_special_passed = {
+    if = {
+        limit = { check_variable = { apdc_parl_scripted_special_active = 1 } }
+        set_temp_variable = { apdc_parl_scripted_bill_id = apdc_parl_last_passed_special_id }
+        apdc_parl_resolve_scripted_special_bill_key = yes
+        if = {
+            limit = { NOT = { check_variable = { apdc_parl_scripted_bill_key = 0 } } }
+            set_variable = { apdc_parl_scripted_active_key = apdc_parl_scripted_bill_key }
+            meta_effect = {
+                text = { [BILL]_on_pass = yes }
+                BILL = "[?apdc_parl_scripted_active_key.GetTokenKey]"
+            }
+        }
+    }
+    set_variable = { apdc_parl_scripted_special_active = 0 }
+    apdc_parl_refresh_scripted_special_bills = yes
+}
+
+apdc_parl_scripted_special_failed = {
+    if = {
+        limit = { check_variable = { apdc_parl_scripted_special_active = 1 } }
+        set_temp_variable = { apdc_parl_scripted_bill_id = apdc_parl_last_failed_special_id }
+        apdc_parl_resolve_scripted_special_bill_key = yes
+        if = {
+            limit = { NOT = { check_variable = { apdc_parl_scripted_bill_key = 0 } } }
+            set_variable = { apdc_parl_scripted_active_key = apdc_parl_scripted_bill_key }
+            meta_effect = {
+                text = { [BILL]_on_fail = yes }
+                BILL = "[?apdc_parl_scripted_active_key.GetTokenKey]"
+            }
+        }
+    }
+    set_variable = { apdc_parl_scripted_special_active = 0 }
+    apdc_parl_refresh_scripted_special_bills = yes
+}

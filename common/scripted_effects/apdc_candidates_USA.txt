@@ -1,0 +1,282 @@
+# Native candidate definitions. Edit here; no build step.
+apdc_candidate_1172_setup = {
+set_temp_variable = { apdc_nc_name = token:apdc_parl_candidate_1172 }
+set_temp_variable = { apdc_nc_portrait = token:GFX_apdc_parl_portrait_1172 }
+set_temp_variable = { apdc_nc_member_text = token:apdc_parl_member_traits_1172 }
+set_temp_variable = { apdc_nc_chief_text = token:apdc_parl_chief_traits_1172 }
+set_temp_variable = { apdc_nc_party = 8 }
+set_temp_variable = { apdc_nc_character = token:USA_benjamin_levinsky }
+set_temp_variable = { apdc_nc_member_only = 0 }
+if = {
+limit = { OR = { original_tag = USA } has_character = USA_benjamin_levinsky }
+set_temp_variable = { apdc_nc_visible = 1 }
+}
+}
+apdc_candidate_1172_on_appoint_member = {
+add_ideas = apdc_parl_member_1172
+}
+apdc_candidate_1172_on_remove_member = {
+remove_ideas = apdc_parl_member_1172
+}
+apdc_candidate_1172_on_appoint_chief = {
+add_ideas = apdc_parl_chief_1172
+}
+apdc_candidate_1172_on_remove_chief = {
+remove_ideas = apdc_parl_chief_1172
+}
+apdc_parl_appoint_1172 = {
+set_variable = { apdc_parl_selected_candidate = 1172 }
+apdc_parl_appoint_selected = yes
+}
+apdc_candidate_1173_setup = {
+set_temp_variable = { apdc_nc_name = token:apdc_parl_candidate_1173 }
+set_temp_variable = { apdc_nc_portrait = token:GFX_apdc_parl_portrait_1173 }
+set_temp_variable = { apdc_nc_member_text = token:apdc_parl_member_traits_1173 }
+set_temp_variable = { apdc_nc_chief_text = token:apdc_parl_chief_traits_1173 }
+set_temp_variable = { apdc_nc_party = 9 }
+set_temp_variable = { apdc_nc_character = token:USA_gabriel_clement }
+set_temp_variable = { apdc_nc_member_only = 0 }
+if = {
+limit = { OR = { original_tag = USA } has_character = USA_gabriel_clement }
+set_temp_variable = { apdc_nc_visible = 1 }
+}
+}
+apdc_candidate_1173_on_appoint_member = {
+add_ideas = apdc_parl_member_1173
+}
+apdc_candidate_1173_on_remove_member = {
+remove_ideas = apdc_parl_member_1173
+}
+apdc_candidate_1173_on_appoint_chief = {
+add_ideas = apdc_parl_chief_1173
+}
+apdc_candidate_1173_on_remove_chief = {
+remove_ideas = apdc_parl_chief_1173
+}
+apdc_parl_appoint_1173 = {
+set_variable = { apdc_parl_selected_candidate = 1173 }
+apdc_parl_appoint_selected = yes
+}
+apdc_candidate_1174_setup = {
+set_temp_variable = { apdc_nc_name = token:apdc_parl_candidate_1174 }
+set_temp_variable = { apdc_nc_portrait = token:GFX_apdc_parl_portrait_1174 }
+set_temp_variable = { apdc_nc_member_text = token:apdc_parl_member_traits_1174 }
+set_temp_variable = { apdc_nc_chief_text = token:apdc_parl_chief_traits_1174 }
+set_temp_variable = { apdc_nc_party = 4 }
+set_temp_variable = { apdc_nc_character = token:USA_jasmine_walden }
+set_temp_variable = { apdc_nc_member_only = 0 }
+if = {
+limit = { OR = { original_tag = USA } has_character = USA_jasmine_walden }
+set_temp_variable = { apdc_nc_visible = 1 }
+}
+}
+apdc_candidate_1174_on_appoint_member = {
+add_ideas = apdc_parl_member_1174
+}
+apdc_candidate_1174_on_remove_member = {
+remove_ideas = apdc_parl_member_1174
+}
+apdc_candidate_1174_on_appoint_chief = {
+add_ideas = apdc_parl_chief_1174
+}
+apdc_candidate_1174_on_remove_chief = {
+remove_ideas = apdc_parl_chief_1174
+}
+apdc_parl_appoint_1174 = {
+set_variable = { apdc_parl_selected_candidate = 1174 }
+apdc_parl_appoint_selected = yes
+}
+apdc_candidate_1175_setup = {
+set_temp_variable = { apdc_nc_name = token:apdc_parl_candidate_1175 }
+set_temp_variable = { apdc_nc_portrait = token:GFX_apdc_parl_portrait_1175 }
+set_temp_variable = { apdc_nc_member_text = token:apdc_parl_member_traits_1175 }
+set_temp_variable = { apdc_nc_chief_text = token:apdc_parl_chief_traits_1175 }
+set_temp_variable = { apdc_nc_party = 2 }
+set_temp_variable = { apdc_nc_character = token:USA_joshua_ignatius }
+set_temp_variable = { apdc_nc_member_only = 0 }
+if = {
+limit = { OR = { original_tag = USA } has_character = USA_joshua_ignatius }
+set_temp_variable = { apdc_nc_visible = 1 }
+}
+}
+apdc_candidate_1175_on_appoint_member = {
+add_ideas = apdc_parl_member_1175
+}
+apdc_candidate_1175_on_remove_member = {
+remove_ideas = apdc_parl_member_1175
+}
+apdc_candidate_1175_on_appoint_chief = {
+add_ideas = apdc_parl_chief_1175
+}
+apdc_candidate_1175_on_remove_chief = {
+remove_ideas = apdc_parl_chief_1175
+}
+apdc_parl_appoint_1175 = {
+set_variable = { apdc_parl_selected_candidate = 1175 }
+apdc_parl_appoint_selected = yes
+}
+apdc_candidate_1176_setup = {
+set_temp_variable = { apdc_nc_name = token:apdc_parl_candidate_1176 }
+set_temp_variable = { apdc_nc_portrait = token:GFX_apdc_parl_portrait_1176 }
+set_temp_variable = { apdc_nc_member_text = token:apdc_parl_member_traits_1176 }
+set_temp_variable = { apdc_nc_chief_text = token:apdc_parl_chief_traits_1176 }
+set_temp_variable = { apdc_nc_party = 5 }
+set_temp_variable = { apdc_nc_character = token:USA_ladell_mccauley }
+set_temp_variable = { apdc_nc_member_only = 0 }
+if = {
+limit = { OR = { original_tag = USA } has_character = USA_ladell_mccauley }
+set_temp_variable = { apdc_nc_visible = 1 }
+}
+}
+apdc_candidate_1176_on_appoint_member = {
+add_ideas = apdc_parl_member_1176
+}
+apdc_candidate_1176_on_remove_member = {
+remove_ideas = apdc_parl_member_1176
+}
+apdc_candidate_1176_on_appoint_chief = {
+add_ideas = apdc_parl_chief_1176
+}
+apdc_candidate_1176_on_remove_chief = {
+remove_ideas = apdc_parl_chief_1176
+}
+apdc_parl_appoint_1176 = {
+set_variable = { apdc_parl_selected_candidate = 1176 }
+apdc_parl_appoint_selected = yes
+}
+apdc_candidate_1177_setup = {
+set_temp_variable = { apdc_nc_name = token:apdc_parl_candidate_1177 }
+set_temp_variable = { apdc_nc_portrait = token:GFX_apdc_parl_portrait_1177 }
+set_temp_variable = { apdc_nc_member_text = token:apdc_parl_member_traits_1177 }
+set_temp_variable = { apdc_nc_chief_text = token:apdc_parl_chief_traits_1177 }
+set_temp_variable = { apdc_nc_party = 3 }
+set_temp_variable = { apdc_nc_character = token:USA_matthew_gridley }
+set_temp_variable = { apdc_nc_member_only = 0 }
+if = {
+limit = { OR = { original_tag = USA } has_character = USA_matthew_gridley }
+set_temp_variable = { apdc_nc_visible = 1 }
+}
+}
+apdc_candidate_1177_on_appoint_member = {
+add_ideas = apdc_parl_member_1177
+}
+apdc_candidate_1177_on_remove_member = {
+remove_ideas = apdc_parl_member_1177
+}
+apdc_candidate_1177_on_appoint_chief = {
+add_ideas = apdc_parl_chief_1177
+}
+apdc_candidate_1177_on_remove_chief = {
+remove_ideas = apdc_parl_chief_1177
+}
+apdc_parl_appoint_1177 = {
+set_variable = { apdc_parl_selected_candidate = 1177 }
+apdc_parl_appoint_selected = yes
+}
+apdc_candidate_1178_setup = {
+set_temp_variable = { apdc_nc_name = token:apdc_parl_candidate_1178 }
+set_temp_variable = { apdc_nc_portrait = token:GFX_apdc_parl_portrait_1178 }
+set_temp_variable = { apdc_nc_member_text = token:apdc_parl_member_traits_1178 }
+set_temp_variable = { apdc_nc_chief_text = token:apdc_parl_chief_traits_1178 }
+set_temp_variable = { apdc_nc_party = 6 }
+set_temp_variable = { apdc_nc_character = token:USA_robert_hampton }
+set_temp_variable = { apdc_nc_member_only = 0 }
+if = {
+limit = { OR = { original_tag = USA } has_character = USA_robert_hampton }
+set_temp_variable = { apdc_nc_visible = 1 }
+}
+}
+apdc_candidate_1178_on_appoint_member = {
+add_ideas = apdc_parl_member_1178
+}
+apdc_candidate_1178_on_remove_member = {
+remove_ideas = apdc_parl_member_1178
+}
+apdc_candidate_1178_on_appoint_chief = {
+add_ideas = apdc_parl_chief_1178
+}
+apdc_candidate_1178_on_remove_chief = {
+remove_ideas = apdc_parl_chief_1178
+}
+apdc_parl_appoint_1178 = {
+set_variable = { apdc_parl_selected_candidate = 1178 }
+apdc_parl_appoint_selected = yes
+}
+apdc_candidate_1179_setup = {
+set_temp_variable = { apdc_nc_name = token:apdc_parl_candidate_1179 }
+set_temp_variable = { apdc_nc_portrait = token:GFX_apdc_parl_portrait_1179 }
+set_temp_variable = { apdc_nc_member_text = token:apdc_parl_member_traits_1179 }
+set_temp_variable = { apdc_nc_chief_text = token:apdc_parl_chief_traits_1179 }
+set_temp_variable = { apdc_nc_party = 7 }
+set_temp_variable = { apdc_nc_character = token:USA_sheldon_perry }
+set_temp_variable = { apdc_nc_member_only = 0 }
+if = {
+limit = { OR = { original_tag = USA } has_character = USA_sheldon_perry }
+set_temp_variable = { apdc_nc_visible = 1 }
+}
+}
+apdc_candidate_1179_on_appoint_member = {
+add_ideas = apdc_parl_member_1179
+}
+apdc_candidate_1179_on_remove_member = {
+remove_ideas = apdc_parl_member_1179
+}
+apdc_candidate_1179_on_appoint_chief = {
+add_ideas = apdc_parl_chief_1179
+}
+apdc_candidate_1179_on_remove_chief = {
+remove_ideas = apdc_parl_chief_1179
+}
+apdc_parl_appoint_1179 = {
+set_variable = { apdc_parl_selected_candidate = 1179 }
+apdc_parl_appoint_selected = yes
+}
+apdc_candidate_1180_setup = {
+set_temp_variable = { apdc_nc_name = token:apdc_parl_candidate_1180 }
+set_temp_variable = { apdc_nc_portrait = token:GFX_apdc_parl_portrait_1180 }
+set_temp_variable = { apdc_nc_member_text = token:apdc_parl_member_traits_1180 }
+set_temp_variable = { apdc_nc_chief_text = token:apdc_parl_chief_traits_1180 }
+set_temp_variable = { apdc_nc_party = 1 }
+set_temp_variable = { apdc_nc_character = token:USA_stella_bloor }
+set_temp_variable = { apdc_nc_member_only = 0 }
+if = {
+limit = { OR = { original_tag = USA } has_character = USA_stella_bloor }
+set_temp_variable = { apdc_nc_visible = 1 }
+}
+}
+apdc_candidate_1180_on_appoint_member = {
+add_ideas = apdc_parl_member_1180
+}
+apdc_candidate_1180_on_remove_member = {
+remove_ideas = apdc_parl_member_1180
+}
+apdc_candidate_1180_on_appoint_chief = {
+add_ideas = apdc_parl_chief_1180
+}
+apdc_candidate_1180_on_remove_chief = {
+remove_ideas = apdc_parl_chief_1180
+}
+apdc_parl_appoint_1180 = {
+set_variable = { apdc_parl_selected_candidate = 1180 }
+apdc_parl_appoint_selected = yes
+}
+apdc_register_candidates_USA = {
+set_temp_variable = { apdc_nc_id = 1172 }
+apdc_register_candidate = yes
+set_temp_variable = { apdc_nc_id = 1173 }
+apdc_register_candidate = yes
+set_temp_variable = { apdc_nc_id = 1174 }
+apdc_register_candidate = yes
+set_temp_variable = { apdc_nc_id = 1175 }
+apdc_register_candidate = yes
+set_temp_variable = { apdc_nc_id = 1176 }
+apdc_register_candidate = yes
+set_temp_variable = { apdc_nc_id = 1177 }
+apdc_register_candidate = yes
+set_temp_variable = { apdc_nc_id = 1178 }
+apdc_register_candidate = yes
+set_temp_variable = { apdc_nc_id = 1179 }
+apdc_register_candidate = yes
+set_temp_variable = { apdc_nc_id = 1180 }
+apdc_register_candidate = yes
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "note": "IDs 1..47 are preserved. New IDs are persistent; append rather than renumber. Empty chief definitions are deliberate authoring slots, not fabricated bonuses.",
+  "note": "Migration snapshot only. Native common/scripted_effects/apdc_candidates_*.txt and independently authored provider files are authoritative; no build is required to add candidates. Permanent IDs 1..47 and 1001+ were preserved.",
   "candidates": [
     {
       "id": 1,

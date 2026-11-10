@@ -1,11 +1,14 @@
-"""Country-extensible special bill catalogue and lifecycle dispatchers."""
+"""Bridge native authored bills and retain the optional legacy JSON catalogue."""
 from common import *
 
 
 def generate(loc):
     bills=load_json('special_bills.json')['bills']
     assert len({b['id'] for b in bills})==len(bills)
-    refresh='';submit='';passed='';failed=''
+    refresh='apdc_parl_refresh_scripted_special_bills = yes\n'
+    submit='apdc_parl_scripted_special_submitted = yes\n'
+    passed='apdc_parl_scripted_special_passed = yes\n'
+    failed='apdc_parl_scripted_special_failed = yes\n'
     for b in bills:
         ident=int(b['id']);assert ident>0
         name=P+'special_'+str(ident)+'_name';desc=P+'special_'+str(ident)+'_desc'

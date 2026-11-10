@@ -1,0 +1,41 @@
+# Copy into common/scripted_effects/ with a unique, permanent numeric ID.
+# Replace 3001 everywhere in this file; do not renumber existing people.
+# party: 1 communism, 2 socialism, 3 social_democracy, 4 liberalism,
+# 5 conservatism, 6 authoritarianism, 7 dictatorship, 8 fascism, 9 fundamentalism.
+apdc_candidate_3001_setup = {
+    set_temp_variable = { apdc_nc_name = token:APDC_example_candidate }
+    set_temp_variable = { apdc_nc_portrait = token:GFX_leader_unknown }
+    set_temp_variable = { apdc_nc_member_text = token:APDC_example_candidate_member }
+    set_temp_variable = { apdc_nc_chief_text = token:APDC_example_candidate_chief }
+    set_temp_variable = { apdc_nc_character = token:GER_APDC_romy_riefenstahl }
+    set_temp_variable = { apdc_nc_party = 1 }
+    # Omit member_only or use 0 to allow both member and chief offices.
+    set_temp_variable = { apdc_nc_member_only = 0 }
+    if = {
+        limit = { original_tag = GER has_character = GER_APDC_romy_riefenstahl }
+        set_temp_variable = { apdc_nc_visible = 1 }
+    }
+    # Pure conditions only. Set apdc_nc_available = 0 to disable appointment.
+    # Coalition, winner, office quota, duplicate person and cost guards are shared.
+}
+apdc_candidate_3001_on_appoint_member = {
+    # Add this person's actual authored member idea/effects here.
+}
+apdc_candidate_3001_on_remove_member = {
+    # Remove the same member idea/ongoing effects here.
+}
+apdc_candidate_3001_on_appoint_chief = {
+    # Add separately authored prime/deputy traits here.
+}
+apdc_candidate_3001_on_remove_chief = {
+    # Remove the same chief traits here.
+}
+GER_example_candidate_register = {
+    set_temp_variable = { apdc_nc_id = 3001 }
+    apdc_register_candidate = yes
+}
+GER_example_candidate_appoint = {
+    set_temp_variable = { apdc_nc_id = 3001 }
+    set_variable = { apdc_parl_selected_role = 1 } # 1..6 member, 7 prime, 8 deputy
+    apdc_appoint_candidate = yes
+}

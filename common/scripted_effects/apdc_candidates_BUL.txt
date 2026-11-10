@@ -1,0 +1,34 @@
+# Native candidate definitions. Edit here; no build step.
+apdc_candidate_1044_setup = {
+set_temp_variable = { apdc_nc_name = token:apdc_parl_candidate_1044 }
+set_temp_variable = { apdc_nc_portrait = token:GFX_apdc_parl_portrait_1044 }
+set_temp_variable = { apdc_nc_member_text = token:apdc_parl_member_traits_1044 }
+set_temp_variable = { apdc_nc_chief_text = token:apdc_parl_chief_traits_1044 }
+set_temp_variable = { apdc_nc_party = 1 }
+set_temp_variable = { apdc_nc_character = token:BUL_soviet_authority }
+set_temp_variable = { apdc_nc_member_only = 0 }
+if = {
+limit = { OR = { original_tag = BUL } has_character = BUL_soviet_authority }
+set_temp_variable = { apdc_nc_visible = 1 }
+}
+}
+apdc_candidate_1044_on_appoint_member = {
+add_ideas = apdc_parl_member_1044
+}
+apdc_candidate_1044_on_remove_member = {
+remove_ideas = apdc_parl_member_1044
+}
+apdc_candidate_1044_on_appoint_chief = {
+add_ideas = apdc_parl_chief_1044
+}
+apdc_candidate_1044_on_remove_chief = {
+remove_ideas = apdc_parl_chief_1044
+}
+apdc_parl_appoint_1044 = {
+set_variable = { apdc_parl_selected_candidate = 1044 }
+apdc_parl_appoint_selected = yes
+}
+apdc_register_candidates_BUL = {
+set_temp_variable = { apdc_nc_id = 1044 }
+apdc_register_candidate = yes
+}

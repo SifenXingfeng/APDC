@@ -1,0 +1,1161 @@
+# Native baseline rule records. Existing placeholder effects stay empty.
+apdc_cooperation_rule_1_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 1 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_1 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_ROTATION }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_ROTATION }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_MERITOCRACY }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_MERITOCRACY }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_PERMANENT }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_PERMANENT }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_1_on_enact = {
+
+}
+apdc_cooperation_rule_1_on_repeal = {
+
+}
+apdc_cooperation_rule_1_on_member_apply = {
+
+}
+apdc_cooperation_rule_1_on_member_remove = {
+
+}
+apdc_cooperation_rule_1_on_fail = {
+
+}
+apdc_cooperation_rule_2_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 1 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_2 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_2_on_enact = {
+
+}
+apdc_cooperation_rule_2_on_repeal = {
+
+}
+apdc_cooperation_rule_2_on_member_apply = {
+
+}
+apdc_cooperation_rule_2_on_member_remove = {
+
+}
+apdc_cooperation_rule_2_on_fail = {
+
+}
+apdc_cooperation_rule_3_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 1 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 4 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_3 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_3_on_enact = {
+
+}
+apdc_cooperation_rule_3_on_repeal = {
+
+}
+apdc_cooperation_rule_3_on_member_apply = {
+
+}
+apdc_cooperation_rule_3_on_member_remove = {
+
+}
+apdc_cooperation_rule_3_on_fail = {
+
+}
+apdc_cooperation_rule_4_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 1 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_4 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_4_on_enact = {
+
+}
+apdc_cooperation_rule_4_on_repeal = {
+
+}
+apdc_cooperation_rule_4_on_member_apply = {
+
+}
+apdc_cooperation_rule_4_on_member_remove = {
+
+}
+apdc_cooperation_rule_4_on_fail = {
+
+}
+apdc_cooperation_rule_5_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 1 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 3 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_5 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_5_on_enact = {
+
+}
+apdc_cooperation_rule_5_on_repeal = {
+
+}
+apdc_cooperation_rule_5_on_member_apply = {
+
+}
+apdc_cooperation_rule_5_on_member_remove = {
+
+}
+apdc_cooperation_rule_5_on_fail = {
+
+}
+apdc_cooperation_rule_6_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 1 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_6 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_6_on_enact = {
+
+}
+apdc_cooperation_rule_6_on_repeal = {
+
+}
+apdc_cooperation_rule_6_on_member_apply = {
+
+}
+apdc_cooperation_rule_6_on_member_remove = {
+
+}
+apdc_cooperation_rule_6_on_fail = {
+
+}
+apdc_cooperation_rule_7_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 1 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_7 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_7_on_enact = {
+
+}
+apdc_cooperation_rule_7_on_repeal = {
+
+}
+apdc_cooperation_rule_7_on_member_apply = {
+
+}
+apdc_cooperation_rule_7_on_member_remove = {
+
+}
+apdc_cooperation_rule_7_on_fail = {
+
+}
+apdc_cooperation_rule_8_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 1 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 4 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 4 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_8 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_8_on_enact = {
+
+}
+apdc_cooperation_rule_8_on_repeal = {
+
+}
+apdc_cooperation_rule_8_on_member_apply = {
+
+}
+apdc_cooperation_rule_8_on_member_remove = {
+
+}
+apdc_cooperation_rule_8_on_fail = {
+
+}
+apdc_cooperation_rule_9_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 2 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_9 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_9_on_enact = {
+
+}
+apdc_cooperation_rule_9_on_repeal = {
+
+}
+apdc_cooperation_rule_9_on_member_apply = {
+
+}
+apdc_cooperation_rule_9_on_member_remove = {
+
+}
+apdc_cooperation_rule_9_on_fail = {
+
+}
+apdc_cooperation_rule_10_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 2 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_10 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_10_on_enact = {
+
+}
+apdc_cooperation_rule_10_on_repeal = {
+
+}
+apdc_cooperation_rule_10_on_member_apply = {
+
+}
+apdc_cooperation_rule_10_on_member_remove = {
+
+}
+apdc_cooperation_rule_10_on_fail = {
+
+}
+apdc_cooperation_rule_11_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 2 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 4 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_11 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_11_on_enact = {
+
+}
+apdc_cooperation_rule_11_on_repeal = {
+
+}
+apdc_cooperation_rule_11_on_member_apply = {
+
+}
+apdc_cooperation_rule_11_on_member_remove = {
+
+}
+apdc_cooperation_rule_11_on_fail = {
+
+}
+apdc_cooperation_rule_12_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 2 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_12 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_12_on_enact = {
+
+}
+apdc_cooperation_rule_12_on_repeal = {
+
+}
+apdc_cooperation_rule_12_on_member_apply = {
+
+}
+apdc_cooperation_rule_12_on_member_remove = {
+
+}
+apdc_cooperation_rule_12_on_fail = {
+
+}
+apdc_cooperation_rule_13_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 2 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 3 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_13 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_13_on_enact = {
+
+}
+apdc_cooperation_rule_13_on_repeal = {
+
+}
+apdc_cooperation_rule_13_on_member_apply = {
+
+}
+apdc_cooperation_rule_13_on_member_remove = {
+
+}
+apdc_cooperation_rule_13_on_fail = {
+
+}
+apdc_cooperation_rule_14_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 2 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_14 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_14_on_enact = {
+
+}
+apdc_cooperation_rule_14_on_repeal = {
+
+}
+apdc_cooperation_rule_14_on_member_apply = {
+
+}
+apdc_cooperation_rule_14_on_member_remove = {
+
+}
+apdc_cooperation_rule_14_on_fail = {
+
+}
+apdc_cooperation_rule_15_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 2 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_15 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_15_on_enact = {
+
+}
+apdc_cooperation_rule_15_on_repeal = {
+
+}
+apdc_cooperation_rule_15_on_member_apply = {
+
+}
+apdc_cooperation_rule_15_on_member_remove = {
+
+}
+apdc_cooperation_rule_15_on_fail = {
+
+}
+apdc_cooperation_rule_16_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 2 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 4 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 4 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_16 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_16_on_enact = {
+
+}
+apdc_cooperation_rule_16_on_repeal = {
+
+}
+apdc_cooperation_rule_16_on_member_apply = {
+
+}
+apdc_cooperation_rule_16_on_member_remove = {
+
+}
+apdc_cooperation_rule_16_on_fail = {
+
+}
+apdc_cooperation_rule_17_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_17 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_17_on_enact = {
+
+}
+apdc_cooperation_rule_17_on_repeal = {
+
+}
+apdc_cooperation_rule_17_on_member_apply = {
+
+}
+apdc_cooperation_rule_17_on_member_remove = {
+
+}
+apdc_cooperation_rule_17_on_fail = {
+
+}
+apdc_cooperation_rule_18_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_18 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_18_on_enact = {
+
+}
+apdc_cooperation_rule_18_on_repeal = {
+
+}
+apdc_cooperation_rule_18_on_member_apply = {
+
+}
+apdc_cooperation_rule_18_on_member_remove = {
+
+}
+apdc_cooperation_rule_18_on_fail = {
+
+}
+apdc_cooperation_rule_19_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 4 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_19 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_19_on_enact = {
+
+}
+apdc_cooperation_rule_19_on_repeal = {
+
+}
+apdc_cooperation_rule_19_on_member_apply = {
+
+}
+apdc_cooperation_rule_19_on_member_remove = {
+
+}
+apdc_cooperation_rule_19_on_fail = {
+
+}
+apdc_cooperation_rule_20_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_20 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_20_on_enact = {
+
+}
+apdc_cooperation_rule_20_on_repeal = {
+
+}
+apdc_cooperation_rule_20_on_member_apply = {
+
+}
+apdc_cooperation_rule_20_on_member_remove = {
+
+}
+apdc_cooperation_rule_20_on_fail = {
+
+}
+apdc_cooperation_rule_21_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 3 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_21 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_21_on_enact = {
+
+}
+apdc_cooperation_rule_21_on_repeal = {
+
+}
+apdc_cooperation_rule_21_on_member_apply = {
+
+}
+apdc_cooperation_rule_21_on_member_remove = {
+
+}
+apdc_cooperation_rule_21_on_fail = {
+
+}
+apdc_cooperation_rule_22_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_22 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_22_on_enact = {
+
+}
+apdc_cooperation_rule_22_on_repeal = {
+
+}
+apdc_cooperation_rule_22_on_member_apply = {
+
+}
+apdc_cooperation_rule_22_on_member_remove = {
+
+}
+apdc_cooperation_rule_22_on_fail = {
+
+}
+apdc_cooperation_rule_23_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_23 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_23_on_enact = {
+
+}
+apdc_cooperation_rule_23_on_repeal = {
+
+}
+apdc_cooperation_rule_23_on_member_apply = {
+
+}
+apdc_cooperation_rule_23_on_member_remove = {
+
+}
+apdc_cooperation_rule_23_on_fail = {
+
+}
+apdc_cooperation_rule_24_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 4 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 4 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_24 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_24_on_enact = {
+
+}
+apdc_cooperation_rule_24_on_repeal = {
+
+}
+apdc_cooperation_rule_24_on_member_apply = {
+
+}
+apdc_cooperation_rule_24_on_member_remove = {
+
+}
+apdc_cooperation_rule_24_on_fail = {
+
+}
+apdc_cooperation_rule_25_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 4 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_25 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_DEFAULT_ACCESS }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_DEFAULT_ACCESS }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_MUTUAL_ACCESS }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_MUTUAL_ACCESS }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_25_on_enact = {
+
+}
+apdc_cooperation_rule_25_on_repeal = {
+
+}
+apdc_cooperation_rule_25_on_member_apply = {
+
+}
+apdc_cooperation_rule_25_on_member_remove = {
+
+}
+apdc_cooperation_rule_25_on_fail = {
+
+}
+apdc_cooperation_rule_26_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 4 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_26 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_26_on_enact = {
+
+}
+apdc_cooperation_rule_26_on_repeal = {
+
+}
+apdc_cooperation_rule_26_on_member_apply = {
+
+}
+apdc_cooperation_rule_26_on_member_remove = {
+
+}
+apdc_cooperation_rule_26_on_fail = {
+
+}
+apdc_cooperation_rule_27_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 4 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 4 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_27 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_27_on_enact = {
+
+}
+apdc_cooperation_rule_27_on_repeal = {
+
+}
+apdc_cooperation_rule_27_on_member_apply = {
+
+}
+apdc_cooperation_rule_27_on_member_remove = {
+
+}
+apdc_cooperation_rule_27_on_fail = {
+
+}
+apdc_cooperation_rule_28_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 4 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_28 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_28_on_enact = {
+
+}
+apdc_cooperation_rule_28_on_repeal = {
+
+}
+apdc_cooperation_rule_28_on_member_apply = {
+
+}
+apdc_cooperation_rule_28_on_member_remove = {
+
+}
+apdc_cooperation_rule_28_on_fail = {
+
+}
+apdc_cooperation_rule_29_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 4 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 3 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_29 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_29_on_enact = {
+
+}
+apdc_cooperation_rule_29_on_repeal = {
+
+}
+apdc_cooperation_rule_29_on_member_apply = {
+
+}
+apdc_cooperation_rule_29_on_member_remove = {
+
+}
+apdc_cooperation_rule_29_on_fail = {
+
+}
+apdc_cooperation_rule_30_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 4 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_30 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_30_on_enact = {
+
+}
+apdc_cooperation_rule_30_on_repeal = {
+
+}
+apdc_cooperation_rule_30_on_member_apply = {
+
+}
+apdc_cooperation_rule_30_on_member_remove = {
+
+}
+apdc_cooperation_rule_30_on_fail = {
+
+}
+apdc_cooperation_rule_31_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 4 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_31 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_31_on_enact = {
+
+}
+apdc_cooperation_rule_31_on_repeal = {
+
+}
+apdc_cooperation_rule_31_on_member_apply = {
+
+}
+apdc_cooperation_rule_31_on_member_remove = {
+
+}
+apdc_cooperation_rule_31_on_fail = {
+
+}
+apdc_cooperation_rule_32_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 4 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 4 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 4 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_32 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_32_on_enact = {
+
+}
+apdc_cooperation_rule_32_on_repeal = {
+
+}
+apdc_cooperation_rule_32_on_member_apply = {
+
+}
+apdc_cooperation_rule_32_on_member_remove = {
+
+}
+apdc_cooperation_rule_32_on_fail = {
+
+}
+apdc_cooperation_rule_33_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 5 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_33 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_33_on_enact = {
+
+}
+apdc_cooperation_rule_33_on_repeal = {
+
+}
+apdc_cooperation_rule_33_on_member_apply = {
+
+}
+apdc_cooperation_rule_33_on_member_remove = {
+
+}
+apdc_cooperation_rule_33_on_fail = {
+
+}
+apdc_cooperation_rule_34_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 5 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_34 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_34_on_enact = {
+
+}
+apdc_cooperation_rule_34_on_repeal = {
+
+}
+apdc_cooperation_rule_34_on_member_apply = {
+
+}
+apdc_cooperation_rule_34_on_member_remove = {
+
+}
+apdc_cooperation_rule_34_on_fail = {
+
+}
+apdc_cooperation_rule_35_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 5 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 4 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_35 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_35_on_enact = {
+
+}
+apdc_cooperation_rule_35_on_repeal = {
+
+}
+apdc_cooperation_rule_35_on_member_apply = {
+
+}
+apdc_cooperation_rule_35_on_member_remove = {
+
+}
+apdc_cooperation_rule_35_on_fail = {
+
+}
+apdc_cooperation_rule_36_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 5 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_36 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_36_on_enact = {
+
+}
+apdc_cooperation_rule_36_on_repeal = {
+
+}
+apdc_cooperation_rule_36_on_member_apply = {
+
+}
+apdc_cooperation_rule_36_on_member_remove = {
+
+}
+apdc_cooperation_rule_36_on_fail = {
+
+}
+apdc_cooperation_rule_37_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 5 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 3 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_37 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_37_on_enact = {
+
+}
+apdc_cooperation_rule_37_on_repeal = {
+
+}
+apdc_cooperation_rule_37_on_member_apply = {
+
+}
+apdc_cooperation_rule_37_on_member_remove = {
+
+}
+apdc_cooperation_rule_37_on_fail = {
+
+}
+apdc_cooperation_rule_38_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 5 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_38 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_38_on_enact = {
+
+}
+apdc_cooperation_rule_38_on_repeal = {
+
+}
+apdc_cooperation_rule_38_on_member_apply = {
+
+}
+apdc_cooperation_rule_38_on_member_remove = {
+
+}
+apdc_cooperation_rule_38_on_fail = {
+
+}
+apdc_cooperation_rule_39_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 5 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_39 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_39_on_enact = {
+
+}
+apdc_cooperation_rule_39_on_repeal = {
+
+}
+apdc_cooperation_rule_39_on_member_apply = {
+
+}
+apdc_cooperation_rule_39_on_member_remove = {
+
+}
+apdc_cooperation_rule_39_on_fail = {
+
+}
+apdc_cooperation_rule_40_setup = {
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 5 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 4 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 4 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_40 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+}
+apdc_cooperation_rule_40_on_enact = {
+
+}
+apdc_cooperation_rule_40_on_repeal = {
+
+}
+apdc_cooperation_rule_40_on_member_apply = {
+
+}
+apdc_cooperation_rule_40_on_member_remove = {
+
+}
+apdc_cooperation_rule_40_on_fail = {
+
+}

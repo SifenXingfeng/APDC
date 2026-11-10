@@ -1,0 +1,65 @@
+# Native candidate definitions. Edit here; no build step.
+apdc_candidate_1184_setup = {
+set_temp_variable = { apdc_nc_name = token:apdc_parl_candidate_1184 }
+set_temp_variable = { apdc_nc_portrait = token:GFX_apdc_parl_portrait_1184 }
+set_temp_variable = { apdc_nc_member_text = token:apdc_parl_member_traits_1184 }
+set_temp_variable = { apdc_nc_chief_text = token:apdc_parl_chief_traits_1184 }
+set_temp_variable = { apdc_nc_party = 6 }
+set_temp_variable = { apdc_nc_character = token:ZZZ_APDC_doc_37e3cbeaf737 }
+set_temp_variable = { apdc_nc_member_only = 0 }
+if = {
+limit = { OR = { original_tag = ZZZ } has_character = ZZZ_APDC_doc_37e3cbeaf737 }
+set_temp_variable = { apdc_nc_visible = 1 }
+}
+}
+apdc_candidate_1184_on_appoint_member = {
+add_ideas = apdc_parl_member_1184
+}
+apdc_candidate_1184_on_remove_member = {
+remove_ideas = apdc_parl_member_1184
+}
+apdc_candidate_1184_on_appoint_chief = {
+add_ideas = apdc_parl_chief_1184
+}
+apdc_candidate_1184_on_remove_chief = {
+remove_ideas = apdc_parl_chief_1184
+}
+apdc_parl_appoint_1184 = {
+set_variable = { apdc_parl_selected_candidate = 1184 }
+apdc_parl_appoint_selected = yes
+}
+apdc_candidate_1185_setup = {
+set_temp_variable = { apdc_nc_name = token:apdc_parl_candidate_1185 }
+set_temp_variable = { apdc_nc_portrait = token:GFX_apdc_parl_portrait_1185 }
+set_temp_variable = { apdc_nc_member_text = token:apdc_parl_member_traits_1185 }
+set_temp_variable = { apdc_nc_chief_text = token:apdc_parl_chief_traits_1185 }
+set_temp_variable = { apdc_nc_party = 7 }
+set_temp_variable = { apdc_nc_character = token:ZZZ_Nothing }
+set_temp_variable = { apdc_nc_member_only = 0 }
+if = {
+limit = { OR = { original_tag = ZZZ } has_character = ZZZ_Nothing }
+set_temp_variable = { apdc_nc_visible = 1 }
+}
+}
+apdc_candidate_1185_on_appoint_member = {
+add_ideas = apdc_parl_member_1185
+}
+apdc_candidate_1185_on_remove_member = {
+remove_ideas = apdc_parl_member_1185
+}
+apdc_candidate_1185_on_appoint_chief = {
+add_ideas = apdc_parl_chief_1185
+}
+apdc_candidate_1185_on_remove_chief = {
+remove_ideas = apdc_parl_chief_1185
+}
+apdc_parl_appoint_1185 = {
+set_variable = { apdc_parl_selected_candidate = 1185 }
+apdc_parl_appoint_selected = yes
+}
+apdc_register_candidates_ZZZ = {
+set_temp_variable = { apdc_nc_id = 1184 }
+apdc_register_candidate = yes
+set_temp_variable = { apdc_nc_id = 1185 }
+apdc_register_candidate = yes
+}

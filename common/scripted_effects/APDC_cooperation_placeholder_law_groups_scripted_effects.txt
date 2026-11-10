@@ -7,284 +7,164 @@
 
 APDC_register_placeholder_cooperation_law_groups = {
 	# group 1: tab 1, 3 options, default 1
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 1 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 1 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 1 }
+apdc_register_organization_rule = yes
 
 	# group 2: tab 1, 3 options, default 2
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 2 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 1 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 2 }
+apdc_register_organization_rule = yes
 
 	# group 3: tab 1, 4 options, default 1
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 1 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 4 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 3 }
+apdc_register_organization_rule = yes
 
 	# group 4: tab 1, 2 options, default 2
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 4 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 1 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 4 }
+apdc_register_organization_rule = yes
 
 	# group 5: tab 1, 3 options, default 3
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 5 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 1 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 3 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 5 }
+apdc_register_organization_rule = yes
 
 	# group 6: tab 1, 2 options, default 1
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 6 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 1 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 6 }
+apdc_register_organization_rule = yes
 
 	# group 7: tab 1, 3 options, default 2
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 7 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 1 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 7 }
+apdc_register_organization_rule = yes
 
 	# group 8: tab 1, 4 options, default 4
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 8 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 1 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 4 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 4 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 8 }
+apdc_register_organization_rule = yes
 
 	# group 9: tab 2, 3 options, default 1
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 9 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 2 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 9 }
+apdc_register_organization_rule = yes
 
 	# group 10: tab 2, 3 options, default 2
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 10 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 2 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 10 }
+apdc_register_organization_rule = yes
 
 	# group 11: tab 2, 4 options, default 1
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 11 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 2 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 4 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 11 }
+apdc_register_organization_rule = yes
 
 	# group 12: tab 2, 2 options, default 2
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 12 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 2 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 12 }
+apdc_register_organization_rule = yes
 
 	# group 13: tab 2, 3 options, default 3
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 13 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 2 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 3 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 13 }
+apdc_register_organization_rule = yes
 
 	# group 14: tab 2, 2 options, default 1
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 14 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 2 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 14 }
+apdc_register_organization_rule = yes
 
 	# group 15: tab 2, 3 options, default 2
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 15 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 2 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 15 }
+apdc_register_organization_rule = yes
 
 	# group 16: tab 2, 4 options, default 4
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 16 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 2 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 4 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 4 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 16 }
+apdc_register_organization_rule = yes
 
 	# group 17: tab 3, 3 options, default 1
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 17 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 17 }
+apdc_register_organization_rule = yes
 
 	# group 18: tab 3, 3 options, default 2
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 18 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 18 }
+apdc_register_organization_rule = yes
 
 	# group 19: tab 3, 4 options, default 1
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 19 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 4 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 19 }
+apdc_register_organization_rule = yes
 
 	# group 20: tab 3, 2 options, default 2
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 20 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 20 }
+apdc_register_organization_rule = yes
 
 	# group 21: tab 3, 3 options, default 3
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 21 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 3 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 21 }
+apdc_register_organization_rule = yes
 
 	# group 22: tab 3, 2 options, default 1
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 22 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 22 }
+apdc_register_organization_rule = yes
 
 	# group 23: tab 3, 3 options, default 2
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 23 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 23 }
+apdc_register_organization_rule = yes
 
 	# group 24: tab 3, 4 options, default 4
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 24 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 4 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 4 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 24 }
+apdc_register_organization_rule = yes
 
 	# group 25: tab 4, 2 options, default 1
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 25 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 4 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 25 }
+apdc_register_organization_rule = yes
 
 	# group 26: tab 4, 3 options, default 2
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 26 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 4 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 26 }
+apdc_register_organization_rule = yes
 
 	# group 27: tab 4, 4 options, default 1
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 27 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 4 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 4 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 27 }
+apdc_register_organization_rule = yes
 
 	# group 28: tab 4, 2 options, default 2
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 28 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 4 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 28 }
+apdc_register_organization_rule = yes
 
 	# group 29: tab 4, 3 options, default 3
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 29 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 4 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 3 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 29 }
+apdc_register_organization_rule = yes
 
 	# group 30: tab 4, 2 options, default 1
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 30 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 4 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 30 }
+apdc_register_organization_rule = yes
 
 	# group 31: tab 4, 3 options, default 2
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 31 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 4 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 31 }
+apdc_register_organization_rule = yes
 
 	# group 32: tab 4, 4 options, default 4
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 32 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 4 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 4 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 4 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 32 }
+apdc_register_organization_rule = yes
 
 	# group 33: tab 5, 3 options, default 1
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 33 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 5 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 33 }
+apdc_register_organization_rule = yes
 
 	# group 34: tab 5, 3 options, default 2
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 34 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 5 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 34 }
+apdc_register_organization_rule = yes
 
 	# group 35: tab 5, 4 options, default 1
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 35 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 5 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 4 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 35 }
+apdc_register_organization_rule = yes
 
 	# group 36: tab 5, 2 options, default 2
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 36 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 5 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 36 }
+apdc_register_organization_rule = yes
 
 	# group 37: tab 5, 3 options, default 3
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 37 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 5 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 3 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 37 }
+apdc_register_organization_rule = yes
 
 	# group 38: tab 5, 2 options, default 1
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 38 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 5 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 38 }
+apdc_register_organization_rule = yes
 
 	# group 39: tab 5, 3 options, default 2
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 39 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 5 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 3 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 2 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 39 }
+apdc_register_organization_rule = yes
 
 	# group 40: tab 5, 4 options, default 4
-	set_temp_variable = { APDC_cooperation_new_law_group_id = 40 }
-	set_temp_variable = { APDC_cooperation_new_law_group_tab = 5 }
-	set_temp_variable = { APDC_cooperation_new_law_group_option_count = 4 }
-	set_temp_variable = { APDC_cooperation_new_law_group_default_option = 4 }
-	APDC_register_cooperation_law_group_container = yes
+	set_temp_variable = { apdc_nr_id = 40 }
+apdc_register_organization_rule = yes
 
 	# Deliberately unavailable placeholder choices demonstrate disabled states.
 	set_temp_variable = { APDC_cooperation_law_availability_group = 3 }
@@ -308,4 +188,3 @@ APDC_register_placeholder_cooperation_law_groups = {
 	set_temp_variable = { APDC_cooperation_law_availability_value = 0 }
 	APDC_set_cooperation_law_option_availability_container = yes
 }
-

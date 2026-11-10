@@ -87,7 +87,7 @@ def build():
         law+=text('apdc_cw_law_'+state+'_label',x,3,'APDC_CW_'+state.upper(),92,30,'hoi_18mbs',extra='format = center')
         opt=1 if state=='execute' else 0
         lp+=block('apdc_cw_law_'+state+'_art','frame = apdc_cw_law_'+state+'_frame^apdc_cw_law_row')
-        unavailable='OR = { check_variable = { apdc_cw_law_locked^apdc_cw_law_row = 1 } AND = { NOT = { check_variable = { apdc_cw_law_running^apdc_cw_law_row = '+str(opt)+' } } check_variable = { political_power < apdc_cw_law_execute_cost^apdc_cw_law_row } } }'
+        unavailable='OR = { check_variable = { apdc_na_available^apdc_cw_law_row = 0 } check_variable = { apdc_cw_law_locked^apdc_cw_law_row = 1 } AND = { NOT = { check_variable = { apdc_cw_law_running^apdc_cw_law_row = '+str(opt)+' } } check_variable = { political_power < apdc_cw_law_execute_cost^apdc_cw_law_row } } }'
         lt+=block('apdc_cw_law_'+state+'_disabled_visible',unavailable)
         lt+=block('apdc_cw_law_'+state+'_click_enabled','NOT = { '+unavailable+' } NOT = { check_variable = { apdc_cw_law_running^apdc_cw_law_row = '+str(opt)+' } }')
         le+=block('apdc_cw_law_'+state+'_click',setv('apdc_cw_option',opt)+'apdc_cw_submit_law = yes')
@@ -134,12 +134,8 @@ def build():
     dt('APDCCWSwitchCost',[('check_variable = { political_power < apdc_cw_law_execute_cost^apdc_cw_law_row }','APDC_CW_COST_R'),('','APDC_CW_COST_Y')])
     for key in ['APDC_CW_LAW_EXECUTE_COST','APDC_CW_LAW_STOP_COST','APDC_CW_EXECUTE_COST_Y','APDC_CW_EXECUTE_COST_R','APDC_CW_STOP_COST_Y','APDC_CW_STOP_COST_R']:
         local.pop(key,None)
-    laws=json.loads((ROOT/'tools/cold_war/laws.json').read_text('utf-8'))
-    for law in laws:
-        local[law['name']]=law['title']
-        local[law['description']]=law['description_text']
-    dt('APDCCWLawName',[(f'check_variable = {{ apdc_cw_law_id^apdc_cw_law_row = {law["id"]} }}',law['name']) for law in laws]+[('','APDC_CW_EMPTY')])
-    dt('APDCCWLawDescription',[(f'check_variable = {{ apdc_cw_law_id^apdc_cw_law_row = {law["id"]} }}',law['description']) for law in laws]+[('','APDC_CW_EMPTY')])
+    dt('APDCCWLawName',[('check_variable = { apdc_cw_law_row > -1 } check_variable = { apdc_cw_law_row < apdc_cw_law_id^num }','[?apdc_na_names^apdc_cw_law_row.GetTokenKey]'),('','APDC_CW_EMPTY')])
+    dt('APDCCWLawDescription',[('check_variable = { apdc_cw_law_row > -1 } check_variable = { apdc_cw_law_row < apdc_cw_law_id^num }','[?apdc_na_descs^apdc_cw_law_row.GetTokenKey]'),('','APDC_CW_EMPTY')])
     write('interface/APDC_cold_war.gui',block('guiTypes',''.join(ui)))
     write('common/scripted_guis/APDC_cold_war.txt',block('scripted_gui',''.join(sg)))
     write('common/scripted_localisation/APDC_cold_war.txt',''.join(defined))

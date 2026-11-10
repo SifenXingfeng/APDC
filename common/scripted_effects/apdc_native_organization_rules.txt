@@ -1,0 +1,410 @@
+# Independent native organization rules and shared lifecycle.
+apdc_nr_ensure = {
+add_to_array = { apdc_nr_ensure_inputs = apdc_nr_id }
+
+
+while_loop_effect = {
+limit = { check_variable = { apdc_nr_names^num < APDC_cooperation_container_law_option_counts^num } }
+add_to_array = { apdc_nr_names = 0 }
+}
+while_loop_effect = {
+limit = { check_variable = { apdc_nr_option_1_names^num < APDC_cooperation_container_law_option_counts^num } }
+add_to_array = { apdc_nr_option_1_names = 0 }
+}
+while_loop_effect = {
+limit = { check_variable = { apdc_nr_option_1_effects^num < APDC_cooperation_container_law_option_counts^num } }
+add_to_array = { apdc_nr_option_1_effects = 0 }
+}
+while_loop_effect = {
+limit = { check_variable = { apdc_nr_option_2_names^num < APDC_cooperation_container_law_option_counts^num } }
+add_to_array = { apdc_nr_option_2_names = 0 }
+}
+while_loop_effect = {
+limit = { check_variable = { apdc_nr_option_2_effects^num < APDC_cooperation_container_law_option_counts^num } }
+add_to_array = { apdc_nr_option_2_effects = 0 }
+}
+while_loop_effect = {
+limit = { check_variable = { apdc_nr_option_3_names^num < APDC_cooperation_container_law_option_counts^num } }
+add_to_array = { apdc_nr_option_3_names = 0 }
+}
+while_loop_effect = {
+limit = { check_variable = { apdc_nr_option_3_effects^num < APDC_cooperation_container_law_option_counts^num } }
+add_to_array = { apdc_nr_option_3_effects = 0 }
+}
+while_loop_effect = {
+limit = { check_variable = { apdc_nr_option_4_names^num < APDC_cooperation_container_law_option_counts^num } }
+add_to_array = { apdc_nr_option_4_names = 0 }
+}
+while_loop_effect = {
+limit = { check_variable = { apdc_nr_option_4_effects^num < APDC_cooperation_container_law_option_counts^num } }
+add_to_array = { apdc_nr_option_4_effects = 0 }
+}
+while_loop_effect = {
+limit = { check_variable = { apdc_nr_natives^num < APDC_cooperation_container_law_option_counts^num } }
+add_to_array = { apdc_nr_natives = 0 }
+}
+while_loop_effect = {
+limit = { check_variable = { apdc_nr_override_1^num < APDC_cooperation_container_law_option_counts^num } }
+add_to_array = { apdc_nr_override_1 = -1 }
+}
+while_loop_effect = {
+limit = { check_variable = { apdc_nr_override_2^num < APDC_cooperation_container_law_option_counts^num } }
+add_to_array = { apdc_nr_override_2 = -1 }
+}
+while_loop_effect = {
+limit = { check_variable = { apdc_nr_override_3^num < APDC_cooperation_container_law_option_counts^num } }
+add_to_array = { apdc_nr_override_3 = -1 }
+}
+while_loop_effect = {
+limit = { check_variable = { apdc_nr_override_4^num < APDC_cooperation_container_law_option_counts^num } }
+add_to_array = { apdc_nr_override_4 = -1 }
+}
+while_loop_effect = {
+limit = { check_variable = { apdc_nr_visibles^num < APDC_cooperation_container_law_option_counts^num } }
+add_to_array = { apdc_nr_visibles = 1 }
+}
+
+if = {
+limit = { has_country_flag = APDC_cooperation_legislation_container_initialized_v8 NOT = { has_country_flag = apdc_native_organization_rules_v1 } }
+set_country_flag = apdc_native_organization_rules_v1
+apdc_nr_adopt_legacy_rules = yes
+}
+set_temp_variable = { apdc_nr_ensure_index = apdc_nr_ensure_inputs^num }
+subtract_from_temp_variable = { apdc_nr_ensure_index = 1 }
+set_temp_variable = { apdc_nr_id = apdc_nr_ensure_inputs^apdc_nr_ensure_index }
+remove_from_array = { array = apdc_nr_ensure_inputs index = apdc_nr_ensure_index }
+}
+
+
+apdc_nr_read = {
+set_temp_variable = { apdc_nr_visible = 1 }
+
+set_temp_variable = { APDC_cooperation_new_law_group_id = apdc_nr_id }
+set_temp_variable = { APDC_cooperation_new_law_group_tab = 1 }
+set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 }
+set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
+set_temp_variable = { apdc_nr_name = token:APDC_COOPERATION_LAW_GROUP_UNKNOWN }
+set_temp_variable = { apdc_nr_option_1_available = 1 }
+set_temp_variable = { apdc_nr_option_1_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_1_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_1 }
+set_temp_variable = { apdc_nr_option_2_available = 1 }
+set_temp_variable = { apdc_nr_option_2_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_2_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_2 }
+set_temp_variable = { apdc_nr_option_3_available = 1 }
+set_temp_variable = { apdc_nr_option_3_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_3_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_3 }
+set_temp_variable = { apdc_nr_option_4_available = 1 }
+set_temp_variable = { apdc_nr_option_4_name = token:APDC_COOPERATION_LAW_OPTION_GENERIC_4 }
+set_temp_variable = { apdc_nr_option_4_effect = token:APDC_COOPERATION_LAW_EFFECT_GENERIC_4 }
+meta_effect = {
+text = {
+apdc_cooperation_rule_[ID]_setup = yes
+}
+ID = "[?apdc_nr_id|0..]"
+}
+
+}
+
+apdc_nr_update_metadata = {
+if = {
+limit = { NOT = { check_variable = { apdc_nr_names^apdc_nr_id = apdc_nr_name } } }
+set_variable = { apdc_nr_metadata_changed = 1 }
+
+}
+set_variable = { apdc_nr_names^apdc_nr_id = apdc_nr_name }
+if = {
+limit = { NOT = { check_variable = { apdc_nr_visibles^apdc_nr_id = apdc_nr_visible } } }
+set_variable = { apdc_nr_metadata_changed = 1 }
+
+}
+set_variable = { apdc_nr_visibles^apdc_nr_id = apdc_nr_visible }
+if = {
+limit = { NOT = { check_variable = { apdc_nr_option_1_names^apdc_nr_id = apdc_nr_option_1_name } } }
+set_variable = { apdc_nr_metadata_changed = 1 }
+
+}
+set_variable = { apdc_nr_option_1_names^apdc_nr_id = apdc_nr_option_1_name }
+if = {
+limit = { NOT = { check_variable = { apdc_nr_option_1_effects^apdc_nr_id = apdc_nr_option_1_effect } } }
+set_variable = { apdc_nr_metadata_changed = 1 }
+
+}
+set_variable = { apdc_nr_option_1_effects^apdc_nr_id = apdc_nr_option_1_effect }
+if = {
+limit = { NOT = { check_variable = { apdc_nr_option_2_names^apdc_nr_id = apdc_nr_option_2_name } } }
+set_variable = { apdc_nr_metadata_changed = 1 }
+
+}
+set_variable = { apdc_nr_option_2_names^apdc_nr_id = apdc_nr_option_2_name }
+if = {
+limit = { NOT = { check_variable = { apdc_nr_option_2_effects^apdc_nr_id = apdc_nr_option_2_effect } } }
+set_variable = { apdc_nr_metadata_changed = 1 }
+
+}
+set_variable = { apdc_nr_option_2_effects^apdc_nr_id = apdc_nr_option_2_effect }
+if = {
+limit = { NOT = { check_variable = { apdc_nr_option_3_names^apdc_nr_id = apdc_nr_option_3_name } } }
+set_variable = { apdc_nr_metadata_changed = 1 }
+
+}
+set_variable = { apdc_nr_option_3_names^apdc_nr_id = apdc_nr_option_3_name }
+if = {
+limit = { NOT = { check_variable = { apdc_nr_option_3_effects^apdc_nr_id = apdc_nr_option_3_effect } } }
+set_variable = { apdc_nr_metadata_changed = 1 }
+
+}
+set_variable = { apdc_nr_option_3_effects^apdc_nr_id = apdc_nr_option_3_effect }
+if = {
+limit = { NOT = { check_variable = { apdc_nr_option_4_names^apdc_nr_id = apdc_nr_option_4_name } } }
+set_variable = { apdc_nr_metadata_changed = 1 }
+
+}
+set_variable = { apdc_nr_option_4_names^apdc_nr_id = apdc_nr_option_4_name }
+if = {
+limit = { NOT = { check_variable = { apdc_nr_option_4_effects^apdc_nr_id = apdc_nr_option_4_effect } } }
+set_variable = { apdc_nr_metadata_changed = 1 }
+
+}
+set_variable = { apdc_nr_option_4_effects^apdc_nr_id = apdc_nr_option_4_effect }
+set_temp_variable = { apdc_nr_effective_available = apdc_nr_option_1_available }
+if = {
+limit = { check_variable = { apdc_nr_override_1^apdc_nr_id > -1 } }
+set_temp_variable = { apdc_nr_effective_available = apdc_nr_override_1^apdc_nr_id }
+
+}
+if = {
+limit = { NOT = { check_variable = { APDC_cooperation_container_law_option_1_available^apdc_nr_id = apdc_nr_effective_available } } }
+set_variable = { apdc_nr_metadata_changed = 1 }
+
+}
+set_variable = { APDC_cooperation_container_law_option_1_available^apdc_nr_id = apdc_nr_effective_available }
+set_temp_variable = { apdc_nr_effective_available = apdc_nr_option_2_available }
+if = {
+limit = { check_variable = { apdc_nr_override_2^apdc_nr_id > -1 } }
+set_temp_variable = { apdc_nr_effective_available = apdc_nr_override_2^apdc_nr_id }
+
+}
+if = {
+limit = { NOT = { check_variable = { APDC_cooperation_container_law_option_2_available^apdc_nr_id = apdc_nr_effective_available } } }
+set_variable = { apdc_nr_metadata_changed = 1 }
+
+}
+set_variable = { APDC_cooperation_container_law_option_2_available^apdc_nr_id = apdc_nr_effective_available }
+set_temp_variable = { apdc_nr_effective_available = apdc_nr_option_3_available }
+if = {
+limit = { check_variable = { apdc_nr_override_3^apdc_nr_id > -1 } }
+set_temp_variable = { apdc_nr_effective_available = apdc_nr_override_3^apdc_nr_id }
+
+}
+if = {
+limit = { NOT = { check_variable = { APDC_cooperation_container_law_option_3_available^apdc_nr_id = apdc_nr_effective_available } } }
+set_variable = { apdc_nr_metadata_changed = 1 }
+
+}
+set_variable = { APDC_cooperation_container_law_option_3_available^apdc_nr_id = apdc_nr_effective_available }
+set_temp_variable = { apdc_nr_effective_available = apdc_nr_option_4_available }
+if = {
+limit = { check_variable = { apdc_nr_override_4^apdc_nr_id > -1 } }
+set_temp_variable = { apdc_nr_effective_available = apdc_nr_override_4^apdc_nr_id }
+
+}
+if = {
+limit = { NOT = { check_variable = { APDC_cooperation_container_law_option_4_available^apdc_nr_id = apdc_nr_effective_available } } }
+set_variable = { apdc_nr_metadata_changed = 1 }
+
+}
+set_variable = { APDC_cooperation_container_law_option_4_available^apdc_nr_id = apdc_nr_effective_available }
+
+}
+
+apdc_register_organization_rule = {
+
+if = {
+limit = { has_country_flag = APDC_cooperation_organization_container check_variable = { apdc_nr_id > 0 } }
+if = {
+limit = { NOT = { has_country_flag = apdc_nr_initializing } }
+APDC_initialize_cooperation_legislation_container = yes
+}
+
+apdc_nr_ensure = yes
+set_temp_variable = { apdc_nr_was_registered = 0 }
+set_temp_variable = { apdc_nr_was_native = 0 }
+if = {
+limit = { check_variable = { apdc_nr_id < APDC_cooperation_container_law_option_counts^num } check_variable = { APDC_cooperation_container_law_option_counts^apdc_nr_id > 0 } }
+set_temp_variable = { apdc_nr_was_registered = 1 }
+set_temp_variable = { apdc_nr_old_selected = APDC_cooperation_container_law_selected_options^apdc_nr_id }
+set_temp_variable = { apdc_nr_old_lock = APDC_cooperation_container_law_group_locks^apdc_nr_id }
+set_temp_variable = { apdc_nr_was_native = apdc_nr_natives^apdc_nr_id }
+set_temp_variable = { apdc_nr_old_tab = APDC_cooperation_container_law_group_tabs^apdc_nr_id }
+set_temp_variable = { apdc_nr_old_count = APDC_cooperation_container_law_option_counts^apdc_nr_id }
+
+set_temp_variable = { apdc_nr_old_available_1 = APDC_cooperation_container_law_option_1_available^apdc_nr_id }
+set_temp_variable = { apdc_nr_old_available_2 = APDC_cooperation_container_law_option_2_available^apdc_nr_id }
+set_temp_variable = { apdc_nr_old_available_3 = APDC_cooperation_container_law_option_3_available^apdc_nr_id }
+set_temp_variable = { apdc_nr_old_available_4 = APDC_cooperation_container_law_option_4_available^apdc_nr_id }
+}
+apdc_nr_read = yes
+if = {
+limit = { OR = { check_variable = { apdc_nr_was_registered = 0 } NOT = { check_variable = { apdc_nr_old_tab = APDC_cooperation_new_law_group_tab } } NOT = { check_variable = { apdc_nr_old_count = APDC_cooperation_new_law_group_option_count } } } }
+APDC_register_cooperation_law_group_container = yes
+}
+
+apdc_nr_ensure = yes
+set_variable = { apdc_nr_natives^apdc_nr_id = 1 }
+if = {
+limit = { check_variable = { apdc_nr_was_registered = 1 } }
+set_variable = { APDC_cooperation_container_law_selected_options^apdc_nr_id = apdc_nr_old_selected }
+set_variable = { APDC_cooperation_container_law_group_locks^apdc_nr_id = apdc_nr_old_lock }
+if = {
+limit = { check_variable = { apdc_nr_was_native = 0 } }
+set_variable = { apdc_nr_override_1^apdc_nr_id = apdc_nr_old_available_1 }
+set_variable = { apdc_nr_override_2^apdc_nr_id = apdc_nr_old_available_2 }
+set_variable = { apdc_nr_override_3^apdc_nr_id = apdc_nr_old_available_3 }
+set_variable = { apdc_nr_override_4^apdc_nr_id = apdc_nr_old_available_4 }
+}
+}
+apdc_nr_update_metadata = yes
+if = {
+limit = { check_variable = { apdc_nr_was_registered = 0 } }
+set_variable = { apdc_nr_transaction_id = apdc_nr_id }
+set_variable = { apdc_nr_old_option = 0 }
+set_variable = { apdc_nr_new_option = APDC_cooperation_container_law_selected_options^apdc_nr_id }
+apdc_nr_enact = yes
+}
+if = {
+limit = { NOT = { has_country_flag = apdc_nr_initializing } }
+APDC_sync_cooperation_organization_all_member_views = yes
+}
+}
+
+}
+
+apdc_nr_refresh_rules = {
+set_variable = { apdc_nr_metadata_changed = 0 }
+
+apdc_nr_ensure = yes
+for_each_loop = {
+array = APDC_cooperation_container_law_groups value = apdc_nr_id
+if = {
+limit = { check_variable = { apdc_nr_natives^apdc_nr_id = 1 } }
+apdc_nr_read = yes
+apdc_nr_update_metadata = yes
+}
+}
+
+}
+
+apdc_nr_enact = {
+meta_effect = {
+text = {
+apdc_cooperation_rule_[ID]_on_enact = yes
+}
+ID = "[?apdc_nr_transaction_id|0..]"
+}
+for_each_scope_loop = {
+array = APDC_cooperation_organization_container_members
+set_temp_variable = { apdc_nr_rule_id = PREV.apdc_nr_transaction_id }
+set_temp_variable = { apdc_nr_old_option = PREV.apdc_nr_old_option }
+set_temp_variable = { apdc_nr_new_option = PREV.apdc_nr_new_option }
+set_temp_variable = { apdc_nr_anchor = PREV }
+meta_effect = {
+text = {
+apdc_cooperation_rule_[ID]_on_member_apply = yes
+}
+ID = "[?apdc_nr_rule_id|0..]"
+}
+}
+}
+apdc_nr_repeal = {
+for_each_scope_loop = {
+array = APDC_cooperation_organization_container_members
+set_temp_variable = { apdc_nr_rule_id = PREV.apdc_nr_transaction_id }
+set_temp_variable = { apdc_nr_old_option = PREV.apdc_nr_old_option }
+set_temp_variable = { apdc_nr_new_option = PREV.apdc_nr_new_option }
+set_temp_variable = { apdc_nr_anchor = PREV }
+meta_effect = {
+text = {
+apdc_cooperation_rule_[ID]_on_member_remove = yes
+}
+ID = "[?apdc_nr_rule_id|0..]"
+}
+}
+meta_effect = {
+text = {
+apdc_cooperation_rule_[ID]_on_repeal = yes
+}
+ID = "[?apdc_nr_transaction_id|0..]"
+}
+}
+apdc_nr_member_join = {
+set_variable = { global.apdc_nr_join_member = THIS }
+var:APDC_cooperation_organization_container = {
+apdc_nr_refresh_rules = yes
+for_each_loop = {
+array = APDC_cooperation_container_law_groups value = apdc_nr_id
+if = {
+limit = { check_variable = { apdc_nr_natives^apdc_nr_id = 1 } }
+set_variable = { apdc_nr_transaction_id = apdc_nr_id }
+set_variable = { apdc_nr_old_option = 0 }
+set_variable = { apdc_nr_new_option = APDC_cooperation_container_law_selected_options^apdc_nr_id }
+var:global.apdc_nr_join_member = {
+set_temp_variable = { apdc_nr_rule_id = PREV.apdc_nr_transaction_id }
+set_temp_variable = { apdc_nr_old_option = PREV.apdc_nr_old_option }
+set_temp_variable = { apdc_nr_new_option = PREV.apdc_nr_new_option }
+set_temp_variable = { apdc_nr_anchor = PREV }
+meta_effect = {
+text = {
+apdc_cooperation_rule_[ID]_on_member_apply = yes
+}
+ID = "[?apdc_nr_rule_id|0..]"
+}
+}
+}
+}
+}
+}
+apdc_nr_member_leave = {
+set_variable = { global.apdc_nr_leave_member = THIS }
+var:APDC_cooperation_organization_container = {
+apdc_nr_ensure = yes
+for_each_loop = {
+array = APDC_cooperation_container_law_groups value = apdc_nr_id
+if = {
+limit = { check_variable = { apdc_nr_natives^apdc_nr_id = 1 } }
+set_variable = { apdc_nr_transaction_id = apdc_nr_id }
+set_variable = { apdc_nr_old_option = APDC_cooperation_container_law_selected_options^apdc_nr_id }
+set_variable = { apdc_nr_new_option = 0 }
+var:global.apdc_nr_leave_member = {
+set_temp_variable = { apdc_nr_rule_id = PREV.apdc_nr_transaction_id }
+set_temp_variable = { apdc_nr_old_option = PREV.apdc_nr_old_option }
+set_temp_variable = { apdc_nr_new_option = PREV.apdc_nr_new_option }
+set_temp_variable = { apdc_nr_anchor = PREV }
+meta_effect = {
+text = {
+apdc_cooperation_rule_[ID]_on_member_remove = yes
+}
+ID = "[?apdc_nr_rule_id|0..]"
+}
+}
+}
+}
+}
+}
+
+apdc_nr_disband = {
+ apdc_nr_ensure = yes
+ for_each_loop = { array = APDC_cooperation_container_law_groups value = apdc_nr_id
+  if = { limit = { check_variable = { apdc_nr_natives^apdc_nr_id = 1 } }
+   set_variable = { apdc_nr_transaction_id = apdc_nr_id }
+   set_variable = { apdc_nr_old_option = APDC_cooperation_container_law_selected_options^apdc_nr_id }
+   set_variable = { apdc_nr_new_option = 0 }
+   apdc_nr_repeal = yes
+  }
+ }
+}
+
+apdc_propose_organization_rule = {
+ set_temp_variable = { APDC_cooperation_law_group_id = apdc_nr_id }
+ set_temp_variable = { APDC_cooperation_submitted_option = apdc_nr_option }
+ APDC_submit_cooperation_law = yes
+}

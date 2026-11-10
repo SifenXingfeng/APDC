@@ -1,0 +1,37 @@
+# Copy into common/scripted_effects/. Use a unique permanent ID, not a GUI row.
+apdc_cw_action_3001_setup = {
+    set_variable = { apdc_cw_target = FRA }
+    set_variable = { apdc_cw_axis = 1 } # 1 political, 2 economic, 3 military
+    set_variable = { apdc_cw_beneficiary = GER }
+    set_variable = { apdc_cw_rate = 0.01 } # percentage points per day; can be zero
+    set_variable = { apdc_cw_execute_cost = 10 } # same cost for execute/stop
+    set_variable = { apdc_cw_self = 0 } # 1 for a domestic action
+    set_temp_variable = { apdc_na_name = token:APDC_example_action }
+    set_temp_variable = { apdc_na_desc = token:APDC_example_action_desc }
+    # Pure conditions only: set apdc_na_visible or apdc_na_available to 0.
+    # Domestic autonomy: target=GER, beneficiary=GER, self=1.
+    # Accept outside influence: target=GER, beneficiary=SOV, self=1.
+}
+apdc_cw_action_3001_on_execute = {
+    # Optional real one-time effects or initial ongoing modifiers.
+}
+apdc_cw_action_3001_on_stop = {
+    # Remove ongoing modifiers. Historical control shares remain as designed.
+}
+apdc_cw_action_3001_on_daily = {
+    # Optional additional daily effects. The shared engine applies rate itself.
+}
+GER_example_action_unlock = {
+    set_temp_variable = { apdc_na_id = 3001 }
+    apdc_unlock_cold_war_action = yes
+}
+GER_example_action_execute = {
+    set_temp_variable = { apdc_na_id = 3001 }
+    set_variable = { apdc_cw_target = FRA }
+    apdc_execute_cold_war_action = yes
+}
+GER_example_action_stop = {
+    set_temp_variable = { apdc_na_id = 3001 }
+    set_variable = { apdc_cw_target = FRA }
+    apdc_stop_cold_war_action = yes
+}

@@ -1,0 +1,44 @@
+# Copy into common/scripted_effects/. Group IDs are permanent and globally unique.
+# Run the register wrapper in the organization's anchor scope, not a member.
+apdc_cooperation_rule_101_setup = {
+    set_temp_variable = { APDC_cooperation_new_law_group_tab = 1 } # 1..5
+    set_temp_variable = { APDC_cooperation_new_law_group_option_count = 2 } # 1..4
+    set_temp_variable = { APDC_cooperation_new_law_group_default_option = 1 }
+    set_temp_variable = { apdc_nr_name = token:APDC_example_rule }
+    set_temp_variable = { apdc_nr_option_1_name = token:APDC_example_rule_option_1 }
+    set_temp_variable = { apdc_nr_option_1_effect = token:APDC_example_rule_effect_1 }
+    set_temp_variable = { apdc_nr_option_2_name = token:APDC_example_rule_option_2 }
+    set_temp_variable = { apdc_nr_option_2_effect = token:APDC_example_rule_effect_2 }
+    # Pure conditions: apdc_nr_visible=0 hides the group; set
+    # apdc_nr_option_1_available / ..._2_available to 0 to disable an option.
+}
+apdc_cooperation_rule_101_on_enact = {
+    # Anchor country. apdc_nr_old_option and apdc_nr_new_option identify change.
+    # First registration enacts the default once; repeated registration does not.
+}
+apdc_cooperation_rule_101_on_repeal = {
+    # Anchor country. Undo the previous option's ongoing anchor effects.
+    # Also called when the organization dissolves.
+}
+apdc_cooperation_rule_101_on_member_apply = {
+    # Current member country. apdc_nr_new_option selects its actual effects.
+    # apdc_nr_anchor points to the container; apdc_nr_rule_id identifies the rule.
+    # Called on initial enactment, rule changes and joining an organization.
+}
+apdc_cooperation_rule_101_on_member_remove = {
+    # Current member country. Undo apdc_nr_old_option's ongoing member effects.
+    # Called on rule changes, leaving and organization dissolution.
+}
+apdc_cooperation_rule_101_on_fail = {
+    # Anchor country. Optional effects for a rejected proposed option.
+}
+APDC_example_rule_register = {
+    set_temp_variable = { apdc_nr_id = 101 }
+    apdc_register_organization_rule = yes
+}
+GER_example_rule_propose_option_2 = {
+    # Run in any member country. This uses the normal queue and ballot.
+    set_temp_variable = { apdc_nr_id = 101 }
+    set_temp_variable = { apdc_nr_option = 2 }
+    apdc_propose_organization_rule = yes
+}

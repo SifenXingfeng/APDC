@@ -1,5 +1,5 @@
 {
   "schema_version": 1,
-  "note": "Append stable IDs. Each bill accepts countries, visible_condition, available_condition, cost, name, description, on_submit, on_pass, on_fail. Empty by default.",
+  "note": "Legacy optional JSON catalogue. Add new bills directly as native game scripts; see tools/parliament/special_bills.md. Native content does not require Python compilation. Preserve stable IDs and do not collide with native bill IDs.",
   "bills": []
 }

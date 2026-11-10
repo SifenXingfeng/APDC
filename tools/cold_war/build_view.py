@@ -6,7 +6,7 @@ from build_backend import AXES
 from world_style import black_sprite,UNINHABITED
 
 def build():
-    g=metadata();laws=json.loads((ROOT/'tools/cold_war/laws.json').read_text('utf-8'));states={int(k):v for k,v in g['states'].items()};effects={};loc={};defined=[]
+    g=metadata();states={int(k):v for k,v in g['states'].items()};effects={};loc={};defined=[]
     def dt(name,clauses):
         defined.append(block('defined_text','name = '+name+'\n'+''.join('text = { '+('trigger = { '+test+' } ' if test else '')+'localization_key = '+key+' }\n' for test,key in clauses)))
     tagfiles={p.name:p for p in (GAME/'common/country_tags').glob('*.txt')}
@@ -117,40 +117,12 @@ clear_array = apdc_cw_detail_borders
     prep='apdc_cw_ensure_render_lookup = yes\nset_variable = { global.apdc_cw_detail_target = apdc_cw_selected }\n'+prep+add('apdc_cw_detail_ui_revision',1)
     prep+='var:apdc_cw_selected = { set_variable = { global.apdc_cw_current_core_revision = apdc_cw_core_revision } }\n'+setv('apdc_cw_seen_core_revision','global.apdc_cw_current_core_revision')
     effects['apdc_cw_prepare_detail']=prep
-    view='''set_variable = { global.apdc_cw_viewer = THIS }
-set_variable = { global.apdc_cw_view_axis = apdc_cw_tab }
-if = { limit = { NOT = { var:apdc_cw_selected = { any_owned_state = { always = yes } } } } set_variable = { apdc_cw_selected = THIS } set_variable = { apdc_cw_detail = 0 } }
-if = { limit = { check_variable = { apdc_cw_detail = 1 } }
-var:apdc_cw_selected = { apdc_cw_check_core_map = yes set_variable = { global.apdc_cw_current_core_revision = apdc_cw_core_revision } set_variable = { global.apdc_cw_current_core_count = apdc_cw_owned_core_count } }
-if = { limit = { OR = { NOT = { check_variable = { apdc_cw_seen_core_revision = global.apdc_cw_current_core_revision } } NOT = { check_variable = { apdc_cw_detail_state_count = global.apdc_cw_current_core_count } } } } apdc_cw_prepare_detail = yes }
-}
-'''
-    # Definition IDs are stable; runtime record order depends on event unlock order.
-    for law in laws:
-        lid=law['id'];record=f'apdc_cw_law_record_{lid}'
-        view+=setv('global.apdc_cw_tooltip_delta',0)+block(law['owner'],iff('has_variable = '+record,setv('global.apdc_cw_tooltip_delta','apdc_cw_law_last_delta^'+record)))+setv(f'apdc_cw_tooltip_law_{lid}','global.apdc_cw_tooltip_delta')
-    for name in ['sources','shares','net','law','auto','competition','palette']:
-        view+='clear_array = apdc_cw_ui_'+name+'\n'
-    view+='var:apdc_cw_selected = { apdc_cw_ensure = yes\n'
-    view+=block('var:global.apdc_cw_viewer',setv('apdc_cw_ui_status','PREV.apdc_cw_status')+setv('apdc_cw_ui_palette','PREV.apdc_cw_palette'))
-    view+=iff('is_subject = yes',block('var:global.apdc_cw_viewer',setv('apdc_cw_ui_status',2)))
-    for a in AXES:view+=setv('apdc_cw_leader_'+a,'THIS')
-    view+='for_loop_effect = { start = 0 end = apdc_cw_sources^num value = apdc_cw_ui_i\n'
-    view+=setv('global.apdc_cw_ui_source','apdc_cw_sources^apdc_cw_ui_i')
-    for a in AXES:
-        view+=iff(f'check_variable = {{ apdc_cw_ui_i > 0 }} check_variable = {{ apdc_cw_{a}^apdc_cw_ui_i > 50 }}',setv('apdc_cw_leader_'+a,'global.apdc_cw_ui_source'))
-    for axis,a in enumerate(AXES,1):
-        body=setv('global.apdc_cw_ui_share',f'apdc_cw_{a}^apdc_cw_ui_i')+setv('global.apdc_cw_ui_net',f'apdc_cw_{a}^apdc_cw_ui_i')+f'subtract_from_variable = {{ global.apdc_cw_ui_net = apdc_cw_old_{a}^apdc_cw_ui_i }}\n'+setv('global.apdc_cw_ui_law',f'apdc_cw_law_delta_{a}^apdc_cw_ui_i')+setv('global.apdc_cw_ui_auto',f'apdc_cw_auto_delta^apdc_cw_ui_i' if axis==1 else 0)
-        view+=iff(f'check_variable = {{ global.apdc_cw_view_axis = {axis} }}',body)
-    view+='var:global.apdc_cw_ui_source = { set_variable = { global.apdc_cw_ui_palette = apdc_cw_palette } }\n'
-    view+=block('var:global.apdc_cw_viewer','add_to_array = { array = apdc_cw_ui_sources value = var:global.apdc_cw_ui_source }\n'+''.join(f'add_to_array = {{ array = apdc_cw_ui_{n} value = var:global.apdc_cw_ui_{val} }}\n' for n,val in [('shares','share'),('net','net'),('law','law'),('auto','auto'),('palette','palette')])+setv('apdc_cw_comp_temp','global.apdc_cw_ui_net')+'subtract_from_variable = { apdc_cw_comp_temp = global.apdc_cw_ui_law }\nsubtract_from_variable = { apdc_cw_comp_temp = global.apdc_cw_ui_auto }\nadd_to_array = { array = apdc_cw_ui_competition value = var:apdc_cw_comp_temp }')
-    view+='}\n'
-    view+=block('var:global.apdc_cw_viewer',''.join(setv('apdc_cw_ui_leader_'+a,'PREV.apdc_cw_leader_'+a) for a in AXES))+'}\n'
-    view+=setv('apdc_cw_detail_frame','apdc_cw_detail_zoom')+'multiply_variable = { apdc_cw_detail_frame = '+str(len(g['palette_ids']))+' }\n'+add('apdc_cw_detail_frame','apdc_cw_ui_palette')+setv('apdc_cw_border_frame','apdc_cw_detail_zoom')+'multiply_variable = { apdc_cw_border_frame = '+str(len(g['palette_ids']))+' }\n'+add('apdc_cw_border_frame',1)
-    view+='clear_array = apdc_cw_legend_rows\nfor_each_loop = { array = apdc_cw_ui_shares index = apdc_cw_legend_cursor value = apdc_cw_legend_share\n'+iff('check_variable = { apdc_cw_legend_share > 0 }','add_to_array = { array = apdc_cw_legend_rows value = var:apdc_cw_legend_cursor }')+'}\n'
-    view+='clear_array = apdc_cw_law_execute_frame\nclear_array = apdc_cw_law_stop_frame\nresize_array = { array = apdc_cw_law_execute_frame size = apdc_cw_law_id^num value = 1 }\nresize_array = { array = apdc_cw_law_stop_frame size = apdc_cw_law_id^num value = 2 }\nclear_array = apdc_cw_visible_laws\nfor_each_loop = { array = apdc_cw_law_id index = apdc_cw_law_cursor\n'+iff('check_variable = { apdc_cw_law_unlocked^apdc_cw_law_cursor = 1 } var:apdc_cw_law_target^apdc_cw_law_cursor = { tag = var:PREV.apdc_cw_selected } check_variable = { apdc_cw_law_axis^apdc_cw_law_cursor = apdc_cw_tab }','add_to_array = { array = apdc_cw_visible_laws value = var:apdc_cw_law_cursor }')+iff('check_variable = { apdc_cw_law_running^apdc_cw_law_cursor = 1 }','set_variable = { apdc_cw_law_execute_frame^apdc_cw_law_cursor = 2 }\nset_variable = { apdc_cw_law_stop_frame^apdc_cw_law_cursor = 1 }')+'}\napdc_cw_rebuild_pie = yes\n'
-    view+=iff('NOT = { check_variable = { apdc_cw_seen_map_revision = global.apdc_cw_map_revision } }','apdc_cw_refresh_world = yes\n'+iff('check_variable = { apdc_cw_detail = 1 }','apdc_cw_prepare_detail = yes'))+add('apdc_cw_control_ui_revision',1)
-    effects['apdc_cw_refresh_view']=view
+    # Refreshing native action metadata is author-owned gameplay. Geography
+    # rebuilds must not replace this with generated per-action lists.
+    native=(ROOT/'common/scripted_effects/APDC_cold_war_view.txt').read_text('utf-8-sig')
+    node=next(n for n in parse(native) if n.key=='apdc_cw_refresh_view')
+    effects[node.key]=native[node.value_start+1:node.value_end-1]
+
     pie='resize_array = { array = apdc_cw_pie_source size = 360 value = 0 }\nresize_array = { array = apdc_cw_pie_color size = 360 value = 1 }\nresize_array = { array = apdc_cw_pie_group size = 360 value = 0 }\nset_temp_variable = { apdc_cw_pie_end = 0 }\nset_temp_variable = { apdc_cw_pie_sum = 0 }\n'
     pie+='for_each_loop = { array = apdc_cw_ui_shares value = apdc_cw_pie_share index = apdc_cw_pie_idx\nadd_to_temp_variable = { apdc_cw_pie_sum = apdc_cw_pie_share }\nset_temp_variable = { apdc_cw_pie_cutoff = apdc_cw_pie_sum }\nmultiply_temp_variable = { apdc_cw_pie_cutoff = 3.6 }\nround_temp_variable = apdc_cw_pie_cutoff\nclamp_temp_variable = { var = apdc_cw_pie_cutoff min = 0 max = 360 }\nset_temp_variable = { apdc_cw_color_index = apdc_cw_ui_palette^apdc_cw_pie_idx }\nsubtract_from_temp_variable = { apdc_cw_color_index = 1 }\nset_temp_variable = { apdc_cw_color_group = apdc_cw_color_index }\nmodulo_temp_variable = { apdc_cw_color_index = 32 }\nsubtract_from_temp_variable = { apdc_cw_color_group = apdc_cw_color_index }\ndivide_temp_variable = { apdc_cw_color_group = 32 }\nadd_to_temp_variable = { apdc_cw_color_index = 1 }\nfor_loop_effect = { start = apdc_cw_pie_end end = apdc_cw_pie_cutoff value = apdc_cw_slice\nset_variable = { apdc_cw_pie_source^apdc_cw_slice = apdc_cw_pie_idx }\nset_variable = { apdc_cw_pie_color^apdc_cw_slice = apdc_cw_color_index }\nset_variable = { apdc_cw_pie_group^apdc_cw_slice = apdc_cw_color_group }\n}\nset_temp_variable = { apdc_cw_pie_end = apdc_cw_pie_cutoff }\n}\n'
     effects['apdc_cw_rebuild_pie']=pie
@@ -168,7 +140,7 @@ if = { limit = { OR = { NOT = { check_variable = { apdc_cw_seen_core_revision = 
     for i in range(360):
         dt('APDCCWPieImage'+str(i),[(f'check_variable = {{ apdc_cw_pie_group^{i} = {n} }}',f'GFX_APDC_cw_pie_{n}') for n in range(groups)])
         loc[f'APDC_CW_PIE_{i}']=f'[APDCCWPieBind{i}]'
-        dt('APDCCWPieBind'+str(i),[(f'set_temp_variable = {{ apdc_cw_tooltip_slice = {i} }} always = yes','APDC_CW_PIE_GENERIC')])
+        dt('APDCCWPieBind'+str(i),[(f'set_temp_variable = {{ apdc_cw_tooltip_slice = {i} }} set_temp_variable = {{ apdc_na_source_cursor = 0 }} set_temp_variable = {{ apdc_na_hover_actor = apdc_cw_pie_owner^apdc_cw_tooltip_slice }} always = yes','APDC_CW_PIE_GENERIC')])
     owner='apdc_cw_pie_owner^apdc_cw_tooltip_slice'
     dt('APDCCWPieName',[(f'var:{owner} = {{ tag = var:PREV.apdc_cw_selected }}','APDC_CW_AUTONOMY')]+[(f'var:{owner} = {{ tag = {tag} }}','APDC_CW_SHORT_'+tag) for tag in ['GER','FRA','LLU','SOV']]+[('','APDC_CW_PIE_NAME')])
     loc['APDC_CW_PIE_NAME']=f'[?{owner}.GetName]'
@@ -182,15 +154,12 @@ if = { limit = { OR = { NOT = { check_variable = { apdc_cw_seen_core_revision = 
             loc['APDC_CW_PIE_ZERO']='§W0.00§!';clauses.append(('','APDC_CW_PIE_ZERO'))
         else:clauses.append(('','APDC_CW_EMPTY'))
         dt('APDCCW'+typ.capitalize(),clauses)
-    law_sources=''
-    for law in laws:
-        fn=f'APDCCWLawSource{law["id"]}';key=f'APDC_CW_LAW_SOURCE_{law["id"]}'
-        test=f'check_variable = {{ apdc_cw_tab = {law["axis"]} }} var:apdc_cw_selected = {{ tag = {law["target"]} }} var:{owner} = {{ tag = {law["beneficiary"]} }} NOT = {{ check_variable = {{ apdc_cw_tooltip_law_{law["id"]} = 0 }} }}'
-        dt(fn,[(test,key),('','APDC_CW_EMPTY')])
-        rate_color='G+' if law['rate']>=0 else 'R'
-        loc[key]=f'\n{law["title"]}：§{rate_color}[?apdc_cw_tooltip_law_{law["id"]}|3]§! 个百分点'
-        law_sources+='['+fn+']'
-    loc['APDC_CW_PIE_GENERIC']='§Y[APDCCWPieName]§!\n§W[?apdc_cw_pie_shares^apdc_cw_tooltip_slice|2]%§!\n每日变化：[APDCCWNet]'+law_sources+'[APDCCWAuto][APDCCWCompetition]'
+    # Dynamic source localization iterates runtime contribution records.
+    native_loc=(ROOT/'common/scripted_localisation/APDC_cold_war_view.txt').read_text('utf-8-sig')
+    for node in parse(native_loc):
+        if node.val('name') in ('APDCNativeCWSourceLines','APDCNativeCWSourceName'):
+            defined.append(native_loc[node.start:node.end])
+    loc['APDC_CW_PIE_GENERIC']='§Y[APDCCWPieName]§!\n§W[?apdc_cw_pie_shares^apdc_cw_tooltip_slice|2]%§!\n每日变化：[APDCCWNet][APDCNativeCWSourceLines][APDCCWAuto][APDCCWCompetition]'
     loc['APDC_CW_SHORT_SOV']='苏联'
     if fast_mode():add_fast_data(g,effects)
     write('common/scripted_effects/APDC_cold_war_view.txt',''.join(block(k,v) for k,v in effects.items()))

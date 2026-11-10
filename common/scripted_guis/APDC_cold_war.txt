@@ -42906,17 +42906,29 @@ apdc_cw_legend_swatch = { frame = apdc_cw_ui_palette^apdc_cw_legend_id }
 }
 triggers = {
 apdc_cw_law_execute_disabled_visible = {
+OR = { check_variable = { apdc_na_available^apdc_cw_law_row = 0 } 
 OR = { check_variable = { apdc_cw_law_locked^apdc_cw_law_row = 1 } AND = { NOT = { check_variable = { apdc_cw_law_running^apdc_cw_law_row = 1 } } check_variable = { political_power < apdc_cw_law_execute_cost^apdc_cw_law_row } } }
+ }
 }
+
 apdc_cw_law_execute_click_enabled = {
+check_variable = { apdc_na_available^apdc_cw_law_row = 1 }
+
 NOT = { OR = { check_variable = { apdc_cw_law_locked^apdc_cw_law_row = 1 } AND = { NOT = { check_variable = { apdc_cw_law_running^apdc_cw_law_row = 1 } } check_variable = { political_power < apdc_cw_law_execute_cost^apdc_cw_law_row } } } } NOT = { check_variable = { apdc_cw_law_running^apdc_cw_law_row = 1 } }
 }
+
 apdc_cw_law_stop_disabled_visible = {
+OR = { check_variable = { apdc_na_available^apdc_cw_law_row = 0 } 
 OR = { check_variable = { apdc_cw_law_locked^apdc_cw_law_row = 1 } AND = { NOT = { check_variable = { apdc_cw_law_running^apdc_cw_law_row = 0 } } check_variable = { political_power < apdc_cw_law_execute_cost^apdc_cw_law_row } } }
+ }
 }
+
 apdc_cw_law_stop_click_enabled = {
+check_variable = { apdc_na_available^apdc_cw_law_row = 1 }
+
 NOT = { OR = { check_variable = { apdc_cw_law_locked^apdc_cw_law_row = 1 } AND = { NOT = { check_variable = { apdc_cw_law_running^apdc_cw_law_row = 0 } } check_variable = { political_power < apdc_cw_law_execute_cost^apdc_cw_law_row } } } } NOT = { check_variable = { apdc_cw_law_running^apdc_cw_law_row = 0 } }
 }
+
 apdc_cw_tab_1_active_visible = {
 check_variable = { apdc_cw_tab = 1 }
 }

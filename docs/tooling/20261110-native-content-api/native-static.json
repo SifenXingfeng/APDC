@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "checks": [
+    "native_scripts_parse_and_api_names_are_unique",
+    "every_provider_has_setup_and_all_lifecycle_callbacks",
+    "literal_native_api_calls_resolve",
+    "gui_native_api_calls_resolve",
+    "authored_metadata_tokens_are_registered",
+    "candidate_gui_uses_compact_registry_rows_and_permanent_ids",
+    "cold_war_names_descriptions_and_source_lines_are_dynamic",
+    "organization_list_queue_and_ballot_names_are_dynamic",
+    "organization_vote_resolver_routes_real_enact_and_repeal_callbacks",
+    "dynamic_localisation_expressions_are_complete"
+  ],
+  "provider_counts": {
+    "candidate": 235,
+    "cold_war_action": 32,
+    "organization_rule": 42
+  },
+  "api_definitions": 2506,
+  "files_checked": 81,
+  "scope": "read_only_static_validation; not a game run"
+}

@@ -1,394 +1,647 @@
-apdc_cw_unlock_law_1 = {
-set_variable = { apdc_cw_id = 1 }
+# Native action definitions. All axes, domestic and foreign.
+apdc_cw_action_1_setup = {
 set_variable = { apdc_cw_target = FRA }
 set_variable = { apdc_cw_axis = 1 }
 set_variable = { apdc_cw_beneficiary = GER }
 set_variable = { apdc_cw_rate = 0.01 }
 set_variable = { apdc_cw_execute_cost = 10 }
 set_variable = { apdc_cw_self = 0 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_1 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_1 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_1_DESC }
+}
+apdc_cw_action_1_on_execute = {
 
 }
-apdc_cw_unlock_law_2 = {
-set_variable = { apdc_cw_id = 2 }
+apdc_cw_action_1_on_stop = {
+
+}
+apdc_cw_action_1_on_daily = {
+
+}
+apdc_cw_unlock_law_1 = {
+set_temp_variable = { apdc_na_id = 1 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_2_setup = {
 set_variable = { apdc_cw_target = FRA }
 set_variable = { apdc_cw_axis = 1 }
 set_variable = { apdc_cw_beneficiary = GER }
 set_variable = { apdc_cw_rate = 0.01 }
 set_variable = { apdc_cw_execute_cost = 15 }
 set_variable = { apdc_cw_self = 0 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_2 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_2 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_2_DESC }
+}
+apdc_cw_action_2_on_execute = {
+
+}
+apdc_cw_action_2_on_stop = {
+
+}
+apdc_cw_action_2_on_daily = {
+
+}
+apdc_cw_unlock_law_2 = {
+set_temp_variable = { apdc_na_id = 2 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_3_setup = {
+set_variable = { apdc_cw_target = FRA }
+set_variable = { apdc_cw_axis = 1 }
+set_variable = { apdc_cw_beneficiary = GER }
+set_variable = { apdc_cw_rate = 0.015 }
+set_variable = { apdc_cw_execute_cost = 20 }
+set_variable = { apdc_cw_self = 0 }
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_3 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_3_DESC }
+}
+apdc_cw_action_3_on_execute = {
+
+}
+apdc_cw_action_3_on_stop = {
+
+}
+apdc_cw_action_3_on_daily = {
 
 }
 apdc_cw_unlock_law_3 = {
-set_variable = { apdc_cw_id = 3 }
+set_temp_variable = { apdc_na_id = 3 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_4_setup = {
 set_variable = { apdc_cw_target = FRA }
 set_variable = { apdc_cw_axis = 1 }
 set_variable = { apdc_cw_beneficiary = GER }
 set_variable = { apdc_cw_rate = 0.015 }
 set_variable = { apdc_cw_execute_cost = 20 }
 set_variable = { apdc_cw_self = 0 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_3 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_4 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_4_DESC }
+}
+apdc_cw_action_4_on_execute = {
+
+}
+apdc_cw_action_4_on_stop = {
+
+}
+apdc_cw_action_4_on_daily = {
 
 }
 apdc_cw_unlock_law_4 = {
-set_variable = { apdc_cw_id = 4 }
-set_variable = { apdc_cw_target = FRA }
-set_variable = { apdc_cw_axis = 1 }
-set_variable = { apdc_cw_beneficiary = GER }
-set_variable = { apdc_cw_rate = 0.015 }
-set_variable = { apdc_cw_execute_cost = 20 }
-set_variable = { apdc_cw_self = 0 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_4 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
-
+set_temp_variable = { apdc_na_id = 4 }
+apdc_unlock_cold_war_action = yes
 }
-apdc_cw_unlock_law_5 = {
-set_variable = { apdc_cw_id = 5 }
+apdc_cw_action_5_setup = {
 set_variable = { apdc_cw_target = FRA }
 set_variable = { apdc_cw_axis = 1 }
 set_variable = { apdc_cw_beneficiary = GER }
 set_variable = { apdc_cw_rate = 0.02 }
 set_variable = { apdc_cw_execute_cost = 25 }
 set_variable = { apdc_cw_self = 0 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_5 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_5 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_5_DESC }
+}
+apdc_cw_action_5_on_execute = {
 
 }
-apdc_cw_unlock_law_6 = {
-set_variable = { apdc_cw_id = 6 }
+apdc_cw_action_5_on_stop = {
+
+}
+apdc_cw_action_5_on_daily = {
+
+}
+apdc_cw_unlock_law_5 = {
+set_temp_variable = { apdc_na_id = 5 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_6_setup = {
 set_variable = { apdc_cw_target = FRA }
 set_variable = { apdc_cw_axis = 1 }
 set_variable = { apdc_cw_beneficiary = GER }
 set_variable = { apdc_cw_rate = 0.02 }
 set_variable = { apdc_cw_execute_cost = 30 }
 set_variable = { apdc_cw_self = 0 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_6 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_6 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_6_DESC }
+}
+apdc_cw_action_6_on_execute = {
 
 }
-apdc_cw_unlock_law_7 = {
-set_variable = { apdc_cw_id = 7 }
+apdc_cw_action_6_on_stop = {
+
+}
+apdc_cw_action_6_on_daily = {
+
+}
+apdc_cw_unlock_law_6 = {
+set_temp_variable = { apdc_na_id = 6 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_7_setup = {
 set_variable = { apdc_cw_target = FRA }
 set_variable = { apdc_cw_axis = 1 }
 set_variable = { apdc_cw_beneficiary = GER }
 set_variable = { apdc_cw_rate = 0.025 }
 set_variable = { apdc_cw_execute_cost = 35 }
 set_variable = { apdc_cw_self = 0 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_7 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_7 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_7_DESC }
+}
+apdc_cw_action_7_on_execute = {
 
 }
-apdc_cw_unlock_law_8 = {
-set_variable = { apdc_cw_id = 8 }
+apdc_cw_action_7_on_stop = {
+
+}
+apdc_cw_action_7_on_daily = {
+
+}
+apdc_cw_unlock_law_7 = {
+set_temp_variable = { apdc_na_id = 7 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_8_setup = {
 set_variable = { apdc_cw_target = FRA }
 set_variable = { apdc_cw_axis = 1 }
 set_variable = { apdc_cw_beneficiary = GER }
 set_variable = { apdc_cw_rate = 0.025 }
 set_variable = { apdc_cw_execute_cost = 40 }
 set_variable = { apdc_cw_self = 0 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_8 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_8 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_8_DESC }
+}
+apdc_cw_action_8_on_execute = {
+
+}
+apdc_cw_action_8_on_stop = {
+
+}
+apdc_cw_action_8_on_daily = {
+
+}
+apdc_cw_unlock_law_8 = {
+set_temp_variable = { apdc_na_id = 8 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_9_setup = {
+set_variable = { apdc_cw_target = FRA }
+set_variable = { apdc_cw_axis = 2 }
+set_variable = { apdc_cw_beneficiary = GER }
+set_variable = { apdc_cw_rate = 0.02 }
+set_variable = { apdc_cw_execute_cost = 20 }
+set_variable = { apdc_cw_self = 0 }
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_9 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_9_DESC }
+}
+apdc_cw_action_9_on_execute = {
+
+}
+apdc_cw_action_9_on_stop = {
+
+}
+apdc_cw_action_9_on_daily = {
 
 }
 apdc_cw_unlock_law_9 = {
-set_variable = { apdc_cw_id = 9 }
+set_temp_variable = { apdc_na_id = 9 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_10_setup = {
 set_variable = { apdc_cw_target = FRA }
 set_variable = { apdc_cw_axis = 2 }
 set_variable = { apdc_cw_beneficiary = GER }
-set_variable = { apdc_cw_rate = 0.02 }
-set_variable = { apdc_cw_execute_cost = 20 }
+set_variable = { apdc_cw_rate = 0.025 }
+set_variable = { apdc_cw_execute_cost = 25 }
 set_variable = { apdc_cw_self = 0 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_9 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_10 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_10_DESC }
+}
+apdc_cw_action_10_on_execute = {
+
+}
+apdc_cw_action_10_on_stop = {
+
+}
+apdc_cw_action_10_on_daily = {
 
 }
 apdc_cw_unlock_law_10 = {
-set_variable = { apdc_cw_id = 10 }
+set_temp_variable = { apdc_na_id = 10 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_11_setup = {
 set_variable = { apdc_cw_target = FRA }
 set_variable = { apdc_cw_axis = 2 }
 set_variable = { apdc_cw_beneficiary = GER }
-set_variable = { apdc_cw_rate = 0.025 }
-set_variable = { apdc_cw_execute_cost = 25 }
+set_variable = { apdc_cw_rate = 0.03 }
+set_variable = { apdc_cw_execute_cost = 30 }
 set_variable = { apdc_cw_self = 0 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_10 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_11 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_11_DESC }
+}
+apdc_cw_action_11_on_execute = {
+
+}
+apdc_cw_action_11_on_stop = {
+
+}
+apdc_cw_action_11_on_daily = {
 
 }
 apdc_cw_unlock_law_11 = {
-set_variable = { apdc_cw_id = 11 }
+set_temp_variable = { apdc_na_id = 11 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_12_setup = {
 set_variable = { apdc_cw_target = FRA }
-set_variable = { apdc_cw_axis = 2 }
+set_variable = { apdc_cw_axis = 3 }
 set_variable = { apdc_cw_beneficiary = GER }
-set_variable = { apdc_cw_rate = 0.03 }
-set_variable = { apdc_cw_execute_cost = 30 }
+set_variable = { apdc_cw_rate = 0.02 }
+set_variable = { apdc_cw_execute_cost = 20 }
 set_variable = { apdc_cw_self = 0 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_11 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_12 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_12_DESC }
+}
+apdc_cw_action_12_on_execute = {
+
+}
+apdc_cw_action_12_on_stop = {
+
+}
+apdc_cw_action_12_on_daily = {
 
 }
 apdc_cw_unlock_law_12 = {
-set_variable = { apdc_cw_id = 12 }
+set_temp_variable = { apdc_na_id = 12 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_13_setup = {
 set_variable = { apdc_cw_target = FRA }
 set_variable = { apdc_cw_axis = 3 }
 set_variable = { apdc_cw_beneficiary = GER }
-set_variable = { apdc_cw_rate = 0.02 }
-set_variable = { apdc_cw_execute_cost = 20 }
+set_variable = { apdc_cw_rate = 0.025 }
+set_variable = { apdc_cw_execute_cost = 25 }
 set_variable = { apdc_cw_self = 0 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_12 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_13 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_13_DESC }
+}
+apdc_cw_action_13_on_execute = {
+
+}
+apdc_cw_action_13_on_stop = {
+
+}
+apdc_cw_action_13_on_daily = {
 
 }
 apdc_cw_unlock_law_13 = {
-set_variable = { apdc_cw_id = 13 }
+set_temp_variable = { apdc_na_id = 13 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_14_setup = {
 set_variable = { apdc_cw_target = FRA }
 set_variable = { apdc_cw_axis = 3 }
 set_variable = { apdc_cw_beneficiary = GER }
-set_variable = { apdc_cw_rate = 0.025 }
-set_variable = { apdc_cw_execute_cost = 25 }
+set_variable = { apdc_cw_rate = 0.03 }
+set_variable = { apdc_cw_execute_cost = 30 }
 set_variable = { apdc_cw_self = 0 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_13 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_14 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_14_DESC }
+}
+apdc_cw_action_14_on_execute = {
+
+}
+apdc_cw_action_14_on_stop = {
+
+}
+apdc_cw_action_14_on_daily = {
 
 }
 apdc_cw_unlock_law_14 = {
-set_variable = { apdc_cw_id = 14 }
-set_variable = { apdc_cw_target = FRA }
-set_variable = { apdc_cw_axis = 3 }
+set_temp_variable = { apdc_na_id = 14 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_15_setup = {
+set_variable = { apdc_cw_target = LLU }
+set_variable = { apdc_cw_axis = 2 }
 set_variable = { apdc_cw_beneficiary = GER }
-set_variable = { apdc_cw_rate = 0.03 }
-set_variable = { apdc_cw_execute_cost = 30 }
+set_variable = { apdc_cw_rate = 0.02 }
+set_variable = { apdc_cw_execute_cost = 20 }
 set_variable = { apdc_cw_self = 0 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_14 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_15 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_15_DESC }
+}
+apdc_cw_action_15_on_execute = {
+
+}
+apdc_cw_action_15_on_stop = {
+
+}
+apdc_cw_action_15_on_daily = {
 
 }
 apdc_cw_unlock_law_15 = {
-set_variable = { apdc_cw_id = 15 }
+set_temp_variable = { apdc_na_id = 15 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_16_setup = {
 set_variable = { apdc_cw_target = LLU }
 set_variable = { apdc_cw_axis = 2 }
 set_variable = { apdc_cw_beneficiary = GER }
-set_variable = { apdc_cw_rate = 0.02 }
-set_variable = { apdc_cw_execute_cost = 20 }
+set_variable = { apdc_cw_rate = 0.025 }
+set_variable = { apdc_cw_execute_cost = 25 }
 set_variable = { apdc_cw_self = 0 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_15 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_16 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_16_DESC }
+}
+apdc_cw_action_16_on_execute = {
+
+}
+apdc_cw_action_16_on_stop = {
+
+}
+apdc_cw_action_16_on_daily = {
 
 }
 apdc_cw_unlock_law_16 = {
-set_variable = { apdc_cw_id = 16 }
-set_variable = { apdc_cw_target = LLU }
-set_variable = { apdc_cw_axis = 2 }
-set_variable = { apdc_cw_beneficiary = GER }
-set_variable = { apdc_cw_rate = 0.025 }
-set_variable = { apdc_cw_execute_cost = 25 }
-set_variable = { apdc_cw_self = 0 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_16 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
-
+set_temp_variable = { apdc_na_id = 16 }
+apdc_unlock_cold_war_action = yes
 }
-apdc_cw_unlock_law_17 = {
-set_variable = { apdc_cw_id = 17 }
+apdc_cw_action_17_setup = {
 set_variable = { apdc_cw_target = LLU }
 set_variable = { apdc_cw_axis = 2 }
 set_variable = { apdc_cw_beneficiary = GER }
 set_variable = { apdc_cw_rate = 0.03 }
 set_variable = { apdc_cw_execute_cost = 30 }
 set_variable = { apdc_cw_self = 0 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_17 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_17 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_17_DESC }
+}
+apdc_cw_action_17_on_execute = {
 
 }
-apdc_cw_unlock_law_18 = {
-set_variable = { apdc_cw_id = 18 }
+apdc_cw_action_17_on_stop = {
+
+}
+apdc_cw_action_17_on_daily = {
+
+}
+apdc_cw_unlock_law_17 = {
+set_temp_variable = { apdc_na_id = 17 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_18_setup = {
 set_variable = { apdc_cw_target = LLU }
 set_variable = { apdc_cw_axis = 3 }
 set_variable = { apdc_cw_beneficiary = GER }
 set_variable = { apdc_cw_rate = 0.02 }
 set_variable = { apdc_cw_execute_cost = 20 }
 set_variable = { apdc_cw_self = 0 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_18 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_18 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_18_DESC }
+}
+apdc_cw_action_18_on_execute = {
 
 }
-apdc_cw_unlock_law_19 = {
-set_variable = { apdc_cw_id = 19 }
+apdc_cw_action_18_on_stop = {
+
+}
+apdc_cw_action_18_on_daily = {
+
+}
+apdc_cw_unlock_law_18 = {
+set_temp_variable = { apdc_na_id = 18 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_19_setup = {
 set_variable = { apdc_cw_target = LLU }
 set_variable = { apdc_cw_axis = 3 }
 set_variable = { apdc_cw_beneficiary = GER }
 set_variable = { apdc_cw_rate = 0.025 }
 set_variable = { apdc_cw_execute_cost = 25 }
 set_variable = { apdc_cw_self = 0 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_19 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_19 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_19_DESC }
+}
+apdc_cw_action_19_on_execute = {
 
 }
-apdc_cw_unlock_law_20 = {
-set_variable = { apdc_cw_id = 20 }
+apdc_cw_action_19_on_stop = {
+
+}
+apdc_cw_action_19_on_daily = {
+
+}
+apdc_cw_unlock_law_19 = {
+set_temp_variable = { apdc_na_id = 19 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_20_setup = {
 set_variable = { apdc_cw_target = LLU }
 set_variable = { apdc_cw_axis = 3 }
 set_variable = { apdc_cw_beneficiary = GER }
 set_variable = { apdc_cw_rate = 0.03 }
 set_variable = { apdc_cw_execute_cost = 30 }
 set_variable = { apdc_cw_self = 0 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_20 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_20 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_20_DESC }
+}
+apdc_cw_action_20_on_execute = {
 
 }
-apdc_cw_unlock_law_21 = {
-set_variable = { apdc_cw_id = 21 }
+apdc_cw_action_20_on_stop = {
+
+}
+apdc_cw_action_20_on_daily = {
+
+}
+apdc_cw_unlock_law_20 = {
+set_temp_variable = { apdc_na_id = 20 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_21_setup = {
 set_variable = { apdc_cw_target = LLU }
 set_variable = { apdc_cw_axis = 1 }
 set_variable = { apdc_cw_beneficiary = GER }
 set_variable = { apdc_cw_rate = 0.015 }
 set_variable = { apdc_cw_execute_cost = 15 }
 set_variable = { apdc_cw_self = 0 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_21 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_21 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_21_DESC }
+}
+apdc_cw_action_21_on_execute = {
 
 }
-apdc_cw_unlock_law_22 = {
-set_variable = { apdc_cw_id = 22 }
+apdc_cw_action_21_on_stop = {
+
+}
+apdc_cw_action_21_on_daily = {
+
+}
+apdc_cw_unlock_law_21 = {
+set_temp_variable = { apdc_na_id = 21 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_22_setup = {
 set_variable = { apdc_cw_target = LLU }
 set_variable = { apdc_cw_axis = 1 }
 set_variable = { apdc_cw_beneficiary = GER }
 set_variable = { apdc_cw_rate = 0.025 }
 set_variable = { apdc_cw_execute_cost = 25 }
 set_variable = { apdc_cw_self = 0 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_22 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_22 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_22_DESC }
+}
+apdc_cw_action_22_on_execute = {
+
+}
+apdc_cw_action_22_on_stop = {
+
+}
+apdc_cw_action_22_on_daily = {
+
+}
+apdc_cw_unlock_law_22 = {
+set_temp_variable = { apdc_na_id = 22 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_23_setup = {
+set_variable = { apdc_cw_target = GER }
+set_variable = { apdc_cw_axis = 1 }
+set_variable = { apdc_cw_beneficiary = GER }
+set_variable = { apdc_cw_rate = 0.025 }
+set_variable = { apdc_cw_execute_cost = 25 }
+set_variable = { apdc_cw_self = 1 }
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_23 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_23_DESC }
+}
+apdc_cw_action_23_on_execute = {
+
+}
+apdc_cw_action_23_on_stop = {
+
+}
+apdc_cw_action_23_on_daily = {
 
 }
 apdc_cw_unlock_law_23 = {
-set_variable = { apdc_cw_id = 23 }
+set_temp_variable = { apdc_na_id = 23 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_24_setup = {
 set_variable = { apdc_cw_target = GER }
 set_variable = { apdc_cw_axis = 1 }
-set_variable = { apdc_cw_beneficiary = GER }
-set_variable = { apdc_cw_rate = 0.025 }
-set_variable = { apdc_cw_execute_cost = 25 }
+set_variable = { apdc_cw_beneficiary = SOV }
+set_variable = { apdc_cw_rate = 0.02 }
+set_variable = { apdc_cw_execute_cost = 20 }
 set_variable = { apdc_cw_self = 1 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_23 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_24 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_24_DESC }
+}
+apdc_cw_action_24_on_execute = {
+
+}
+apdc_cw_action_24_on_stop = {
+
+}
+apdc_cw_action_24_on_daily = {
 
 }
 apdc_cw_unlock_law_24 = {
-set_variable = { apdc_cw_id = 24 }
+set_temp_variable = { apdc_na_id = 24 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_25_setup = {
 set_variable = { apdc_cw_target = GER }
-set_variable = { apdc_cw_axis = 1 }
-set_variable = { apdc_cw_beneficiary = SOV }
-set_variable = { apdc_cw_rate = 0.02 }
-set_variable = { apdc_cw_execute_cost = 20 }
+set_variable = { apdc_cw_axis = 2 }
+set_variable = { apdc_cw_beneficiary = GER }
+set_variable = { apdc_cw_rate = 0.025 }
+set_variable = { apdc_cw_execute_cost = 25 }
 set_variable = { apdc_cw_self = 1 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_24 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_25 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_25_DESC }
+}
+apdc_cw_action_25_on_execute = {
+
+}
+apdc_cw_action_25_on_stop = {
+
+}
+apdc_cw_action_25_on_daily = {
 
 }
 apdc_cw_unlock_law_25 = {
-set_variable = { apdc_cw_id = 25 }
+set_temp_variable = { apdc_na_id = 25 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_26_setup = {
 set_variable = { apdc_cw_target = GER }
 set_variable = { apdc_cw_axis = 2 }
-set_variable = { apdc_cw_beneficiary = GER }
-set_variable = { apdc_cw_rate = 0.025 }
-set_variable = { apdc_cw_execute_cost = 25 }
+set_variable = { apdc_cw_beneficiary = SOV }
+set_variable = { apdc_cw_rate = 0.02 }
+set_variable = { apdc_cw_execute_cost = 20 }
 set_variable = { apdc_cw_self = 1 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_25 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_26 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_26_DESC }
+}
+apdc_cw_action_26_on_execute = {
+
+}
+apdc_cw_action_26_on_stop = {
+
+}
+apdc_cw_action_26_on_daily = {
 
 }
 apdc_cw_unlock_law_26 = {
-set_variable = { apdc_cw_id = 26 }
-set_variable = { apdc_cw_target = GER }
-set_variable = { apdc_cw_axis = 2 }
-set_variable = { apdc_cw_beneficiary = SOV }
-set_variable = { apdc_cw_rate = 0.02 }
-set_variable = { apdc_cw_execute_cost = 20 }
-set_variable = { apdc_cw_self = 1 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_26 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
-
+set_temp_variable = { apdc_na_id = 26 }
+apdc_unlock_cold_war_action = yes
 }
-apdc_cw_unlock_law_27 = {
-set_variable = { apdc_cw_id = 27 }
+apdc_cw_action_27_setup = {
 set_variable = { apdc_cw_target = GER }
 set_variable = { apdc_cw_axis = 3 }
 set_variable = { apdc_cw_beneficiary = GER }
 set_variable = { apdc_cw_rate = 0.025 }
 set_variable = { apdc_cw_execute_cost = 25 }
 set_variable = { apdc_cw_self = 1 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_27 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_27 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_27_DESC }
+}
+apdc_cw_action_27_on_execute = {
 
 }
-apdc_cw_unlock_law_28 = {
-set_variable = { apdc_cw_id = 28 }
+apdc_cw_action_27_on_stop = {
+
+}
+apdc_cw_action_27_on_daily = {
+
+}
+apdc_cw_unlock_law_27 = {
+set_temp_variable = { apdc_na_id = 27 }
+apdc_unlock_cold_war_action = yes
+}
+apdc_cw_action_28_setup = {
 set_variable = { apdc_cw_target = GER }
 set_variable = { apdc_cw_axis = 3 }
 set_variable = { apdc_cw_beneficiary = SOV }
 set_variable = { apdc_cw_rate = 0.02 }
 set_variable = { apdc_cw_execute_cost = 20 }
 set_variable = { apdc_cw_self = 1 }
-set_variable = { apdc_cw_locked = 0 }
-apdc_cw_register_law = yes
-set_variable = { apdc_cw_law_record_28 = apdc_cw_law_index }
-apdc_cw_notify_controls = yes
+set_temp_variable = { apdc_na_name = token:APDC_CW_LAW_28 }
+set_temp_variable = { apdc_na_desc = token:APDC_CW_LAW_28_DESC }
+}
+apdc_cw_action_28_on_execute = {
 
+}
+apdc_cw_action_28_on_stop = {
+
+}
+apdc_cw_action_28_on_daily = {
+
+}
+apdc_cw_unlock_law_28 = {
+set_temp_variable = { apdc_na_id = 28 }
+apdc_unlock_cold_war_action = yes
 }
 apdc_cw_register_test_laws = {
 GER = {
@@ -475,5 +728,4 @@ apdc_cw_unlock_law_27 = yes
 GER = {
 apdc_cw_unlock_law_28 = yes
 }
-
 }

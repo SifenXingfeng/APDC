@@ -1,0 +1,204 @@
+# One-time adoption of the original forty groups only. New content is independent.
+apdc_nr_adopt_legacy_rules = {
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 1 } check_variable = { apdc_nr_natives^1 = 0 } }
+set_temp_variable = { apdc_nr_id = 1 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 2 } check_variable = { apdc_nr_natives^2 = 0 } }
+set_temp_variable = { apdc_nr_id = 2 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 3 } check_variable = { apdc_nr_natives^3 = 0 } }
+set_temp_variable = { apdc_nr_id = 3 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 4 } check_variable = { apdc_nr_natives^4 = 0 } }
+set_temp_variable = { apdc_nr_id = 4 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 5 } check_variable = { apdc_nr_natives^5 = 0 } }
+set_temp_variable = { apdc_nr_id = 5 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 6 } check_variable = { apdc_nr_natives^6 = 0 } }
+set_temp_variable = { apdc_nr_id = 6 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 7 } check_variable = { apdc_nr_natives^7 = 0 } }
+set_temp_variable = { apdc_nr_id = 7 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 8 } check_variable = { apdc_nr_natives^8 = 0 } }
+set_temp_variable = { apdc_nr_id = 8 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 9 } check_variable = { apdc_nr_natives^9 = 0 } }
+set_temp_variable = { apdc_nr_id = 9 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 10 } check_variable = { apdc_nr_natives^10 = 0 } }
+set_temp_variable = { apdc_nr_id = 10 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 11 } check_variable = { apdc_nr_natives^11 = 0 } }
+set_temp_variable = { apdc_nr_id = 11 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 12 } check_variable = { apdc_nr_natives^12 = 0 } }
+set_temp_variable = { apdc_nr_id = 12 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 13 } check_variable = { apdc_nr_natives^13 = 0 } }
+set_temp_variable = { apdc_nr_id = 13 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 14 } check_variable = { apdc_nr_natives^14 = 0 } }
+set_temp_variable = { apdc_nr_id = 14 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 15 } check_variable = { apdc_nr_natives^15 = 0 } }
+set_temp_variable = { apdc_nr_id = 15 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 16 } check_variable = { apdc_nr_natives^16 = 0 } }
+set_temp_variable = { apdc_nr_id = 16 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 17 } check_variable = { apdc_nr_natives^17 = 0 } }
+set_temp_variable = { apdc_nr_id = 17 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 18 } check_variable = { apdc_nr_natives^18 = 0 } }
+set_temp_variable = { apdc_nr_id = 18 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 19 } check_variable = { apdc_nr_natives^19 = 0 } }
+set_temp_variable = { apdc_nr_id = 19 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 20 } check_variable = { apdc_nr_natives^20 = 0 } }
+set_temp_variable = { apdc_nr_id = 20 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 21 } check_variable = { apdc_nr_natives^21 = 0 } }
+set_temp_variable = { apdc_nr_id = 21 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 22 } check_variable = { apdc_nr_natives^22 = 0 } }
+set_temp_variable = { apdc_nr_id = 22 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 23 } check_variable = { apdc_nr_natives^23 = 0 } }
+set_temp_variable = { apdc_nr_id = 23 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 24 } check_variable = { apdc_nr_natives^24 = 0 } }
+set_temp_variable = { apdc_nr_id = 24 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 25 } check_variable = { apdc_nr_natives^25 = 0 } }
+set_temp_variable = { apdc_nr_id = 25 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 26 } check_variable = { apdc_nr_natives^26 = 0 } }
+set_temp_variable = { apdc_nr_id = 26 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 27 } check_variable = { apdc_nr_natives^27 = 0 } }
+set_temp_variable = { apdc_nr_id = 27 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 28 } check_variable = { apdc_nr_natives^28 = 0 } }
+set_temp_variable = { apdc_nr_id = 28 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 29 } check_variable = { apdc_nr_natives^29 = 0 } }
+set_temp_variable = { apdc_nr_id = 29 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 30 } check_variable = { apdc_nr_natives^30 = 0 } }
+set_temp_variable = { apdc_nr_id = 30 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 31 } check_variable = { apdc_nr_natives^31 = 0 } }
+set_temp_variable = { apdc_nr_id = 31 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 32 } check_variable = { apdc_nr_natives^32 = 0 } }
+set_temp_variable = { apdc_nr_id = 32 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 33 } check_variable = { apdc_nr_natives^33 = 0 } }
+set_temp_variable = { apdc_nr_id = 33 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 34 } check_variable = { apdc_nr_natives^34 = 0 } }
+set_temp_variable = { apdc_nr_id = 34 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 35 } check_variable = { apdc_nr_natives^35 = 0 } }
+set_temp_variable = { apdc_nr_id = 35 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 36 } check_variable = { apdc_nr_natives^36 = 0 } }
+set_temp_variable = { apdc_nr_id = 36 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 37 } check_variable = { apdc_nr_natives^37 = 0 } }
+set_temp_variable = { apdc_nr_id = 37 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 38 } check_variable = { apdc_nr_natives^38 = 0 } }
+set_temp_variable = { apdc_nr_id = 38 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 39 } check_variable = { apdc_nr_natives^39 = 0 } }
+set_temp_variable = { apdc_nr_id = 39 }
+apdc_register_organization_rule = yes
+}
+if = {
+limit = { is_in_array = { array = APDC_cooperation_container_law_groups value = 40 } check_variable = { apdc_nr_natives^40 = 0 } }
+set_temp_variable = { apdc_nr_id = 40 }
+apdc_register_organization_rule = yes
+}
+
+}

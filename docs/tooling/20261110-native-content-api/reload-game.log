@@ -1,0 +1,51 @@
+[13:56:24][no_game_date]: 4489 defines loaded
+[13:56:43][no_game_date]: Loaded 20003 provinces.
+[13:56:55][no_game_date]: Resetting game
+[13:56:56][2060.01.01.12]: Executing History from -1.1.1.1 to  2.1.1.1
+[13:56:57][2060.01.01.12]: Executing History from 2.1.1.1 to  2060.1.1.12
+[13:57:11][2060.02.01.01]: 
+
+		[[ Launching SINGLEPLAYER-game ]]
+	Start-date: 2060.2.1.1
+
+[13:57:13][2060.02.01.01]: Start RestoreDeviceObjects
+[13:58:01][2060.02.01.01]: End RestoreDeviceObjects
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD BEGIN
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD PASS legacy_candidate_cache_adopts_original_roster_and_keeps_new_argument
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD PASS legacy_candidate_adoption_keeps_offices_and_finishes_once
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD PASS legacy_rule_adoption_keeps_choice_lock_and_availability
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD PASS legacy_rule_adoption_restores_names_without_reordering
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD PASS loaded_actual_saved_role_and_effect
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD PASS adding_token_file_reordered_saved_name_index
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD PASS saved_role_name_rebound_from_permanent_id
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD PASS saved_domestic_action_keeps_running
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD PASS saved_rule_choice_and_callbacks_are_preserved
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD PASS saved_member_effect_not_applied_twice
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD PASS new_candidate_registers_without_core_rebuild
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD PASS new_candidate_callback_and_identity_are_independent
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD NEW_CANDIDATE_NAME 读档新增候选人
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD NEW_CANDIDATE_CARD 读档新增候选人
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD PASS withdrawing_candidate_refreshes_pool_and_preserves_office
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD PASS withdrawn_candidate_cannot_reappoint_and_can_be_dismissed
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD PASS new_action_calls_its_own_execute_callback
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD PASS new_action_is_in_dynamic_list_and_sources
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD NEW_ACTION_NAME 读档新增冷战行动
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD NEW_ACTION_DESCRIPTION 无须重建的新增内容
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD PASS new_action_calls_its_own_stop_callback
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD PASS new_rule_registers_without_resetting_old_choice
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD NEW_RULE_NAME 读档新增组织规则
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD NEW_RULE_OPTION 新增选项二
+[13:58:04][2060.02.01.23]: APDC_CONTENT_RELOAD NEW_RULE_EFFECT 新增效果二
+[13:58:05][2060.02.01.23]: APDC_CONTENT_RELOAD PASS public_rule_proposal_uses_the_existing_queue
+[13:58:05][2060.02.01.23]: APDC_CONTENT_RELOAD QUEUED_RULE_NAME 独立组织规则
+[13:58:05][2060.02.01.23]: APDC_CONTENT_RELOAD QUEUED_RULE_OPTION 规则选项一
+[13:58:05][2060.02.01.23]: APDC_CONTENT_RELOAD PASS queued_rule_starts_normal_ballot
+[13:58:05][2060.02.01.23]: APDC_CONTENT_RELOAD ACTIVE_RULE_NAME 独立组织规则
+[13:58:05][2060.02.01.23]: APDC_CONTENT_RELOAD ACTIVE_RULE_OPTION 规则选项一
+[13:58:05][2060.02.01.23]: APDC_CONTENT_RELOAD ACTIVE_RULE_EFFECT 选项一效果
+[13:58:05][2060.02.01.23]: APDC_CONTENT_RELOAD PASS normal_ballot_resolves_to_native_rule_effects
+[13:58:05][2060.02.01.23]: APDC_CONTENT_RELOAD PASS both_old_and_new_member_effects_stay_balanced
+[13:58:05][2060.02.01.23]: APDC_CONTENT_RELOAD HEADER_PORTRAIT GFX_apdc_parl_empty_slot
+[13:58:05][2060.02.01.23]: APDC_CONTENT_RELOAD EMPTY_ACTION  EMPTY_ACTION_END
+[13:58:05][2060.02.01.23]: APDC_CONTENT_RELOAD INACTIVE_RULE  INACTIVE_RULE_END
+[13:58:05][2060.02.01.23]: APDC_CONTENT_RELOAD END

@@ -146,7 +146,7 @@ def generate():
     for month,day_start in enumerate([0,31,59,90,120,151,181,212,243,273,304,334],1):
         b+=iff(ck('date_day_of_year','>=',day_start),sv('next_month',month)+sv('next_day',var('date_day_of_year'))+op('next_day','subtract',day_start)+op('next_day','add',1))
     b+='force_update_dynamic_modifier = yes\n'+op('dirty','add',1)
-    s+=effect('refresh',b)
+    s+=effect('refresh','apdc_nc_refresh_roles = yes\n'+b+iff('has_country_flag = apdc_parl_candidate_panel_open','apdc_parl_refresh_candidates = yes\n'))
     # All actions clear only the current agenda; elections never call cleanup.
     cleanup=sv('agenda',0)+sv('stage',0)+sv('progress',0)+sv('bill_work',0)+sv('bill_base_days',0)+sv('bill_kind',0)+sv('bill_target',0)+sv('bill_option',0)
     cleanup+=''.join(sv('bill_attitude_'+p,0) for p in PARTIES)+'apdc_parl_refresh = yes\n'

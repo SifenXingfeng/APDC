@@ -2,7 +2,7 @@
 
 2026-11-07后续UI修正：法案选项行与侧栏直接读取经济系统GUI；不要再手工另写近似布局。窗口使用原生背景、被动文字使用 alwaystransparent，列表与对应按钮共用父GUI上下文。入口按政治页原图y=44对位，讲台点击框取当前素材实际尺寸。证据见[九项修正记录](../../docs/parliament/20261107-ui-corrections/README.md)。
 
-运行脚本由本目录的 Python 生成器和 `data/` 中的正式配置生成。设计约定见[议会设计](../../项目接手文档/03_待实现设计/议会系统_已确认设计与实施计划.md)，本轮交付证据见 [20261107 实装记录](../../docs/parliament/20261107-implementation/README.md)。
+议会基础算法、通用法案和静态UI保留开发生成器；候选人及特殊法案由作者直接维护原生运行脚本，新增不执行Python，见[原生内容接口](../native_content.md)。设计约定见[议会设计](../../项目接手文档/03_待实现设计/议会系统_已确认设计与实施计划.md)，本轮交付证据见 [20261107 实装记录](../../docs/parliament/20261107-implementation/README.md)。
 
 ## 配置与重建
 
@@ -11,9 +11,11 @@
 | `data/laws.json` | 六组43档通用法案，保留用户文档原文效果 |
 | `data/regimes.json` | 九种政体、议会名称、审议基础天数、加成比例与反对权 |
 | `data/opening_countries.json` | 344个当前正式身份的临时开局配置，包括未来释放国家 |
-| `data/candidates.json` | 持久候选ID、所属党、角色与头像、成员/首席两套特质及显式修正 |
+| 原生候选脚本 | `common/scripted_effects/apdc_candidates_*.txt` 及新增独立文件，含登记、条件、头像与成员/首席回调 |
+| `data/candidates.json` | 仅保留迁移来源快照，不再驱动候选名单、头像或任命逻辑 |
 | `data/attitude_sources.json` | 可显示的额外态度来源；可以继续追加，不限制为三行 |
-| `data/special_bills.json` | 默认空的逐国特殊议案目录，含可见/可用条件及提交、通过、失败效果 |
+| 原生特殊法案脚本 | `common/scripted_effects/` 中各自独立的法案文件；新增内容不经过Python |
+| `data/special_bills.json` | 旧JSON内容的兼容入口，默认空；不再作为新增特殊法案的推荐来源 |
 | `data/settings.json` | 费用、可扩展选举周期、人力结算解释等初始平衡参数 |
 | `data/seat_layout.json` | 生成的500席点位、行数与顺序，无须手工逐点修改 |
 
@@ -73,7 +75,11 @@ apdc_parl_appoint_1 = yes
 
 ## 特殊议案与预留能力
 
-优先在 `special_bills.json` 追加条目并重建，生成器负责本地化、token、条件和三种生命周期回调。也支持手动运行注册：
+**新增特殊法案直接写原生脚本，不需要运行编译器。** 按[原生法案制作说明](special_bills.md)复制模板，在独立文件中填写显示条件、可用条件、费用及提交/通过/失败效果；本地化按普通模组方式维护。引擎直接加载这些文件，议会核心通过原生 `meta_effect` 分发，不需要编辑中央名单或分发表。
+
+剧情里用一行解锁，例如 `GER_example_special_bill_unlock = yes`。各国可继续追加不同法案；数字ID及法案key发布后保持稳定。通用界面、三阶段审议、投票和存档沿用现有系统。
+
+旧JSON目录仍兼容，已有的直接注册API和作者回调也保留：
 
 ```text
 set_temp_variable = { apdc_parl_arg_ID = 10001 }
@@ -87,7 +93,7 @@ set_temp_variable = { apdc_parl_arg_AVAILABLE = 0 }
 apdc_parl_set_special_bill_availability = yes
 ```
 
-手动名称/说明需自行添加本地化及 `common/synchronized_dynamic_tokens`。`apdc_parl_special_submitted_hook`、`apdc_parl_special_passed_hook`、`apdc_parl_special_failed_hook` 位于作者维护的 `common/scripted_effects/apdc_parliament_story_hooks.txt`，生成器不会覆盖其中已写的剧情。回调中读取 `apdc_parl_bill_target`；通过/失败记录分别保存在 `apdc_parl_last_passed_special_id` 和 `apdc_parl_last_failed_special_id`。运行中移除列表条目不会丢失已在审议议案的名称。
+手动名称/说明需自行添加本地化及 `common/synchronized_dynamic_tokens`。原生法案的回调直接写在各法案文件中，不向本节旧全局hook追加ID分支。旧 `apdc_parl_special_submitted_hook`、`apdc_parl_special_passed_hook`、`apdc_parl_special_failed_hook` 位于作者维护的 `common/scripted_effects/apdc_parliament_story_hooks.txt`，继续供旧内容及通用剧情使用。回调中的ID仍为 `apdc_parl_bill_target`、`apdc_parl_last_passed_special_id` 或 `apdc_parl_last_failed_special_id`。运行中隐藏或撤回列表条目不会丢失已提交议案的名称和原生回调key。
 
 经济入口和经济法案共用原有 `APDC_set_economic_system_<key>`；政治体制法案和顶部政体共用 `apdc_parl_regime`，不要维护第二套独立状态。
 

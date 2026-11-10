@@ -7915,6 +7915,9 @@ apdc_parl_refresh = yes
 
 }
 apdc_parl_refresh = {
+apdc_nc_refresh_roles = yes
+
+
 apdc_parl_refresh_regime = yes
 set_variable = { apdc_parl_support = 50 }
 if = {
@@ -9022,7 +9025,13 @@ add_to_variable = { apdc_parl_next_day = 1 }
 }
 add_to_variable = { apdc_parl_dirty = 1 }
 
+if = {
+limit = { has_country_flag = apdc_parl_candidate_panel_open }
+apdc_parl_refresh_candidates = yes
 }
+
+}
+
 apdc_parl_finish_agenda = {
 set_variable = { apdc_parl_agenda = 0 }
 set_variable = { apdc_parl_stage = 0 }

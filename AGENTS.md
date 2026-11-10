@@ -179,6 +179,10 @@
 
 议会自定义素材及可选原始Word统一保存在 `tools/assets/parliament/`，编译器只使用项目相对路径，不依赖桌面。游戏运行成品仍保存在原有游戏目录；发布包可整体排除 `tools/`，开发仓库中的权威基线、配置和工具必须保留。此发布约定不授权删除地图基线或游戏运行文件。
 
+2026-11-10起，新增特殊法案直接在 `common/scripted_effects/` 写独立原生脚本，维护正常本地化及同步键，由剧情一行解锁；不要求重跑Python、修改JSON目录或中央分发表。正式制作入口为 `tools/parliament/special_bills.md`。`special_bills.json` 仅保留旧内容兼容，编译器不得覆盖后来手写的法案文件。保留稳定ID、key及既有三阶段审议规则。新增同步键会改变引擎内部token编号，因此通过 `apdc_parl_bill_<ID>_key` 按永久数字ID恢复绑定，不直接把旧存档token编号当作永久身份。这些身份桥与 `<key>_setup/on_submit/on_pass/on_fail` 通过 `meta_effect` 动态调用，不得因普通rg没有静态引用就删除。
+
+2026-11-10起，候选人、全部冷战行动与合作组织规则也必须直接维护独立原生内容，入口为 [tools/native_content.md](tools/native_content.md)。新增不重跑Python、不改中央清单或逐ID的GUI/本地化分支；模板和命名包装可供事件、国策、决议及独立on_actions直接调用。原候选JSON和冷战laws.json仅为迁移来源，后续以原生定义为准。保留永久数字ID、成员/首席与规则锚点/成员的对称生命周期回调；从ID重新绑定当前token，不把存档token枚举当永久身份。开发生成器应保留这些手写运行文件，不能重新展开旧JSON覆盖新接口。 这些setup/on_*按ID经meta_effect动态调用，不得因普通rg无静态调用就删除。重写动态本地化时保留完整 `[?...]` 原始表达式，不可把通用解析器截取的 `[` 当作整个值写回；可用native-content-check检查表达式完整性。
+
 ## 全系统接手资料（2026-10-30）
 
 全对话的完成内容、当前待办、系统维护入口、复用工具和未实装设计见 [项目接手文档/README.md](项目接手文档/README.md)。先读其中的快速接手与当前状态，再按专题查阅。

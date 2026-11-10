@@ -73,8 +73,13 @@ def run():
                 if node.key.startswith(P):
                     assert node.key not in definitions,(node.key,str(path),definitions.get(node.key))
                     definitions[node.key]=str(path)
+    def static_calls(nodes, in_meta=False):
+        for node in nodes:
+            if not (in_meta and '[' in node.key and ']' in node.key):
+                yield node
+            yield from static_calls(node.children, in_meta or node.key=='meta_effect')
     for path in generated:
-        for n in walk(parse(path.read_text('utf-8-sig'))):
+        for n in static_calls(parse(path.read_text('utf-8-sig'))):
             if n.key.startswith(P) and n.key not in definitions and n.value=='yes':
                 # Flags/variables are values inside their own command blocks;
                 # an apdc_* key with yes is therefore a real API invocation.
@@ -109,7 +114,8 @@ def run():
     check('old_independent_panel_removed','APDC_cabinet_member_panel' not in read('interface/APDC_cabinet.gui'))
     check('private_split_source','APDC_eco_disallows_private' in read('common/scripted_effects/APDC_economy_backend.txt'))
     check('real_purchase_price_hook','multiply_variable = { APDC_eco_purchase_unit_k = APDC_eco_purchase_price_factor }' in read('common/scripted_effects/APDC_economy_equipment.txt'))
-    candidates=load_json('candidates.json')['candidates']
+    from cabinet import native_candidate_ids
+    candidates=[{'id':ident} for ident in native_candidate_ids()]
     check('stable_candidate_ids',len({c['id'] for c in candidates})==len(candidates) and set(range(1,48)).issubset({c['id'] for c in candidates}))
     loc_path=ROOT/'localisation/simp_chinese/apdc_parliament_l_simp_chinese.yml'
     check('localisation_utf8_bom',loc_path.read_bytes().startswith(b'\xef\xbb\xbf'))

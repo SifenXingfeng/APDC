@@ -1,0 +1,92 @@
+on_actions = {
+on_startup = {
+effect = {
+GER = {
+APDC_initialize_cooperation_organization_containers = yes
+for_each_scope_loop = {
+array = global.APDC_cooperation_organization_containers
+set_temp_variable = { apdc_nr_id = 1 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 2 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 3 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 4 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 5 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 6 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 7 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 8 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 9 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 10 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 11 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 12 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 13 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 14 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 15 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 16 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 17 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 18 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 19 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 20 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 21 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 22 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 23 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 24 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 25 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 26 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 27 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 28 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 29 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 30 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 31 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 32 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 33 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 34 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 35 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 36 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 37 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 38 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 39 }
+apdc_register_organization_rule = yes
+set_temp_variable = { apdc_nr_id = 40 }
+apdc_register_organization_rule = yes
+}
+}
+}
+}
+}

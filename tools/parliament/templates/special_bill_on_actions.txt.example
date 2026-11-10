@@ -1,0 +1,10 @@
+# Optional: copy to common/on_actions/APDC_special_bills_GER.txt when this
+# bill should be unlocked at startup. Otherwise call the same one-line
+# unlock effect from the intended focus/event/decision instead.
+on_actions = {
+    on_startup = {
+        effect = {
+            GER = { GER_example_special_bill_unlock = yes }
+        }
+    }
+}

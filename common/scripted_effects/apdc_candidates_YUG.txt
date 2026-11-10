@@ -1,0 +1,34 @@
+# Native candidate definitions. Edit here; no build step.
+apdc_candidate_1183_setup = {
+set_temp_variable = { apdc_nc_name = token:apdc_parl_candidate_1183 }
+set_temp_variable = { apdc_nc_portrait = token:GFX_apdc_parl_portrait_1183 }
+set_temp_variable = { apdc_nc_member_text = token:apdc_parl_member_traits_1183 }
+set_temp_variable = { apdc_nc_chief_text = token:apdc_parl_chief_traits_1183 }
+set_temp_variable = { apdc_nc_party = 2 }
+set_temp_variable = { apdc_nc_character = token:YUG_walter_markovic }
+set_temp_variable = { apdc_nc_member_only = 0 }
+if = {
+limit = { OR = { original_tag = YUG } has_character = YUG_walter_markovic }
+set_temp_variable = { apdc_nc_visible = 1 }
+}
+}
+apdc_candidate_1183_on_appoint_member = {
+add_ideas = apdc_parl_member_1183
+}
+apdc_candidate_1183_on_remove_member = {
+remove_ideas = apdc_parl_member_1183
+}
+apdc_candidate_1183_on_appoint_chief = {
+add_ideas = apdc_parl_chief_1183
+}
+apdc_candidate_1183_on_remove_chief = {
+remove_ideas = apdc_parl_chief_1183
+}
+apdc_parl_appoint_1183 = {
+set_variable = { apdc_parl_selected_candidate = 1183 }
+apdc_parl_appoint_selected = yes
+}
+apdc_register_candidates_YUG = {
+set_temp_variable = { apdc_nc_id = 1183 }
+apdc_register_candidate = yes
+}

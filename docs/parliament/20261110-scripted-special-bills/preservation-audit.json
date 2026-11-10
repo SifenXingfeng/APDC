@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "user_profile_changes": [],
+  "protected_map_history_character_ideology_graphics_changes": [],
+  "tracked_changed_files": [
+    "AGENTS.md",
+    "common/scripted_effects/apdc_parliament_special_catalogue.txt",
+    "common/scripted_guis/apdc_parliament.txt",
+    "tools/README.md",
+    "tools/compile.py",
+    "tools/parliament/README.md",
+    "tools/parliament/data/special_bills.json",
+    "tools/parliament/specials.py",
+    "tools/parliament/ui.py",
+    "tools/parliament/verify.py",
+    "项目接手文档/00_快速接手/当前状态与未完成事项.md",
+    "项目接手文档/04_流水线与模板/常见操作复用手册.md"
+  ],
+  "source_hashes": {
+    "AGENTS.md": "70eb81023486f8fba7bc0e4f561c9c896794e3bde377de8a8f1adaaf8a595fe2",
+    "common/scripted_effects/apdc_parliament_special_catalogue.txt": "5153963de0fda44390ebdc9d5fbb6c7aab28981ab88acfbedb6da0115dfef890",
+    "common/scripted_guis/apdc_parliament.txt": "fe4f2acbafcdbff31f3f31d039100ba817b2f4c781b6a6a4e9a6ad3e4ce7a8c5",
+    "tools/README.md": "3f4558fb4d21503014c842c6f94de89e3062bc5d387d17bc9d3f3893ce764f5f",
+    "tools/compile.py": "1f073207fc2f18afbec8580cf9c464c87f8e40cb31c821046e97b8ac37c2415b",
+    "tools/parliament/README.md": "4f8e676447a1e37759c584ab82e33d6725aa9abf32fddc97a65c08047fd2a522",
+    "tools/parliament/data/special_bills.json": "97e9173cd0f4c94c0f48d09d85f470eed8e94a66e25a71791d47f1c6a585ad3f",
+    "tools/parliament/specials.py": "cc3e121dd360013ba7fdb130e0ae9fae9acb84012d485c512e10b97c1a20563b",
+    "tools/parliament/ui.py": "5e6f46f95d6a8b2d420a80a81d6bc4d00994e3c26c2887825722014c6b701a34",
+    "tools/parliament/verify.py": "c2cf77486a7f1459e4eb32d3ba9a5e795e11b124aeb9a9cfe15cfeea679ffa82",
+    "项目接手文档/00_快速接手/当前状态与未完成事项.md": "a0525d5a9ca07464c743958fd12f7e15468a67cbf9d335a24a44dbb3112a5234",
+    "项目接手文档/04_流水线与模板/常见操作复用手册.md": "2e908f727d4d0165a166ca6137cd270a4dc079a209cff2ef554979fd6007f087",
+    "common/scripted_effects/apdc_parliament_scripted_special_bills.txt": "2799f4914ad1979b9cb7a550194713703ff7202150c8d9b2966023c7320f5577",
+    "tools/parliament/check_special_bills.py": "7b48d78efad6650977050141c1580b34c2b5f4f976cf3f9f73655e81f11addb5",
+    "tools/parliament/special_bills_qa.py": "ced2fccd304a1df759416ab8450485aeafccdd597c13cc1e79b8029c54cd6524",
+    "tools/parliament/special_bills.md": "747bd5dea7d9e3233d944f11d46ae4f1f8b07ac020bd5c973bfa04c22e07e285"
+  },
+  "qa_process": {
+    "job_kill_on_close": true,
+    "command": "\"D:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\hoi4.exe\" -userdir=C:/Users/ASUS/.codex/tmp/APDC_CountryQA_20261028_final/parliament_native_20261110 -continuelastsave -start_speed=3 -gamelog",
+    "path": "D:\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\hoi4.exe",
+    "pid": 38652,
+    "desktop": "APDC_PerformanceQA_20261110_123812",
+    "debug_mode": false,
+    "input_desktop_switched": false,
+    "started": "2026-11-10T12:38:12.0814980+08:00",
+    "profile": "C:/Users/ASUS/.codex/tmp/APDC_CountryQA_20261028_final/parliament_native_20261110"
+  },
+  "qa_cleanup": {
+    "steam_app_running": false,
+    "pid": 38652,
+    "stopped": "2026-11-10T12:41:17.7744635+08:00",
+    "still_running": false,
+    "closed_helpers": [],
+    "remaining_helpers": []
+  },
+  "runtime_evidence": "D:\\C-Drive-Migration-20260929\\Permanent\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\.codex_backups\\APDC\\20261110-120031-scripted-special-bills\\runtime-final",
+  "actual_save_before_reload": "D:\\C-Drive-Migration-20260929\\Permanent\\Users\\ASUS\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\.codex_backups\\APDC\\20261110-120031-scripted-special-bills\\before-reload.hoi4",
+  "native_formal_bill_count": 0,
+  "gameplay_rule_changes": "only native special-bill registry, callback routing and catalogue refresh on opening parliament",
+  "other_source_files_preserved": true
+}
